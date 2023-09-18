@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "676072533272",
+    "project_id": "zeetionary-9915d",
+    "storage_bucket": "zeetionary-9915d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676072533272:android:3e33aaa2e5ded8ea62c26d",
+        "android_client_info": {
+          "package_name": "com.zeetionary.zeetionary"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKlYJWWIWefR6Si80q5Ib_oPD8j45qYqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

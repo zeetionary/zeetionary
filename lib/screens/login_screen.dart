@@ -62,11 +62,30 @@ class _LoginScreenState extends State<LoginScreen> {
                 width: double.infinity,
                 alignment: Alignment.center,
                 padding: const EdgeInsets.symmetric(vertical: 12),
-                decoration: const ShapeDecoration(shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.all(Radius.circular(4),),
-                ),),
+                decoration: const ShapeDecoration(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.all(
+                      Radius.circular(4),
+                    ),
+                  ),
+                  color: blueColor
+                ),
               ),
+              const SizedBox(
+                height: 12,
+              ),
+              Flexible(child: Container(), flex: 2,),
+
               // transitioning to sign up
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    child: Text("Do not have an account?"),
+                    padding: const EdgeInsets.symmetric(vertical: 8,),
+                  ),
+                ],
+              ),
             ],
           ),
         ),

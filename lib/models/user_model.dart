@@ -3,7 +3,7 @@ import 'package:flutter/foundation.dart';
 class UserModel {
   final String name;
   final String profilePic;
-  final String banner;
+  // final String banner;
   final String uid;
   final bool isAuthenticated;
   final int karma;
@@ -11,7 +11,7 @@ class UserModel {
   UserModel({
     required this.name,
     required this.profilePic,
-    required this.banner,
+    // required this.banner,
     required this.uid,
     required this.isAuthenticated,
     required this.karma,
@@ -21,7 +21,7 @@ class UserModel {
   UserModel copyWith({
     String? name,
     String? profilePic,
-    String? banner,
+    // String? banner,
     String? uid,
     bool? isAuthenticated,
     int? karma,
@@ -30,7 +30,7 @@ class UserModel {
     return UserModel(
       name: name ?? this.name,
       profilePic: profilePic ?? this.profilePic,
-      banner: banner ?? this.banner,
+      // banner: banner ?? this.banner,
       uid: uid ?? this.uid,
       isAuthenticated: isAuthenticated ?? this.isAuthenticated,
       karma: karma ?? this.karma,
@@ -42,7 +42,7 @@ class UserModel {
     return <String, dynamic>{
       'name': name,
       'profilePic': profilePic,
-      'banner': banner,
+      // 'banner': banner,
       'uid': uid,
       'isAuthenticated': isAuthenticated,
       'karma': karma,
@@ -54,7 +54,7 @@ class UserModel {
     return UserModel(
       name: map['name'] as String,
       profilePic: map['profilePic'] ?? '',
-      banner: map['banner'] as String,
+      // banner: map['banner'] as String,
       uid: map['uid'] as String,
       isAuthenticated: map['isAuthenticated'] ?? false,
       karma: map['karma'] as int,
@@ -64,7 +64,7 @@ class UserModel {
 
   @override
   String toString() {
-    return 'UserModel(name: $name, profilePic: $profilePic, banner: $banner, uid: $uid, isAuthenticated: $isAuthenticated, karma: $karma, awards: $awards)';
+    return 'UserModel(name: $name, profilePic: $profilePic, uid: $uid, isAuthenticated: $isAuthenticated, karma: $karma, awards: $awards)';
   }
 
   @override
@@ -73,7 +73,7 @@ class UserModel {
 
     return other.name == name &&
         other.profilePic == profilePic &&
-        other.banner == banner &&
+        // other.banner == banner &&
         other.uid == uid &&
         other.isAuthenticated == isAuthenticated &&
         other.karma == karma &&
@@ -84,7 +84,7 @@ class UserModel {
   int get hashCode {
     return name.hashCode ^
         profilePic.hashCode ^
-        banner.hashCode ^
+        // banner.hashCode ^
         uid.hashCode ^
         isAuthenticated.hashCode ^
         karma.hashCode ^

@@ -11,7 +11,26 @@ class HomeScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Zeetionary'),
+        title: ShaderMask(
+          shaderCallback: (Rect bounds) {
+            return LinearGradient(
+              colors: [
+                Colors.blue,
+                Colors.red
+              ], // Define your gradient colors here
+              tileMode: TileMode.clamp,
+            ).createShader(bounds);
+          },
+          child: Text(
+            'Zeetionary',
+            style: TextStyle(
+              fontSize: 24.0, // Adjust font size as needed
+              fontWeight: FontWeight.bold, // Adjust font weight as needed
+              color:
+                  Colors.white, // Text color (will be masked by the gradient)
+            ),
+          ),
+        ),
         leading: IconButton(
           icon: const Icon(Icons.menu),
           onPressed: () {},

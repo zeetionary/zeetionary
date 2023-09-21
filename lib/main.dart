@@ -5,15 +5,11 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/core/common/error_text.dart';
 import 'package:zeetionary/core/common/loader.dart';
 import 'package:zeetionary/features/auth/controller/auth_controller.dart';
-import 'package:zeetionary/features/auth/controlller/auth_controller.dart';
 import 'package:zeetionary/firebase_options.dart';
 import 'package:zeetionary/models/user_model.dart';
 import 'package:zeetionary/router.dart';
 import 'package:zeetionary/theme/pallete.dart';
 import 'package:routemaster/routemaster.dart';
-import 'package:zeetionary/theme/pallete.dart';
-import 'package:zeetionary/features/auth/screen/login_screen.dart';
-import 'package:zeetionary/core/common/error_text.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -4,8 +4,6 @@ import 'package:zeetionary/core/common/loader.dart';
 import 'package:zeetionary/core/common/sign_in_button.dart';
 import 'package:zeetionary/core/constants/constants.dart';
 import 'package:zeetionary/features/auth/controller/auth_controller.dart';
-import 'package:zeetionary/features/auth/controlller/auth_controller.dart';
-import 'package:zeetionary/responsive/responsive.dart';
 
 class LoginScreen extends ConsumerWidget {
   const LoginScreen({Key? key}) : super(key: key);

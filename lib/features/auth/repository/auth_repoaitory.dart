@@ -46,7 +46,16 @@ class AuthRepository {
 
       UserCredential userCredential =
           await _auth.signInWithCredential(credential);
-      print(userCredential.user?.email);
+
+      UserModel userModel = UserModel(
+        name: userCredential.user!.displayName ?? 'No Name',
+        profilePic: userCredential.user!.photoURL ?? Constants.logoPath,
+        banner: Constants.logoPath,
+        uid: userCredential.user!.uid,
+        isAuthenticated: true,
+        karma: 0,
+        awards: [],
+      );
     } catch (e) {
       print(e);
     }

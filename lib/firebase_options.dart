@@ -25,7 +25,10 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        return macos;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -45,17 +48,17 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyDxUTDS4ZAjQbw4EQCBwo0SdTMXKH68OtE',
-    appId: '1:676072533272:web:bf00b6ee4874660c62c26d',
+    appId: '1:676072533272:web:740beb2aac5dc53762c26d',
     messagingSenderId: '676072533272',
     projectId: 'zeetionary-9915d',
     authDomain: 'zeetionary-9915d.firebaseapp.com',
     storageBucket: 'zeetionary-9915d.appspot.com',
-    measurementId: 'G-T07G8DY4D4',
+    measurementId: 'G-M9Q81YH7X7',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBKlYJWWIWefR6Si80q5Ib_oPD8j45qYqg',
-    appId: '1:676072533272:android:959e8617f92794d862c26d',
+    appId: '1:676072533272:android:94b5deecfe358f7462c26d',
     messagingSenderId: '676072533272',
     projectId: 'zeetionary-9915d',
     storageBucket: 'zeetionary-9915d.appspot.com',
@@ -63,19 +66,10 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyAYJjtU4DoZyqGuiIdYgJp_P_dVuaUgyQk',
-    appId: '1:676072533272:ios:a397d761a433629462c26d',
+    appId: '1:676072533272:ios:fd5f747ba23f74ea62c26d',
     messagingSenderId: '676072533272',
     projectId: 'zeetionary-9915d',
     storageBucket: 'zeetionary-9915d.appspot.com',
     iosBundleId: 'com.example.zeetionary',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAYJjtU4DoZyqGuiIdYgJp_P_dVuaUgyQk',
-    appId: '1:676072533272:ios:07b71b4cdd2b0a5e62c26d',
-    messagingSenderId: '676072533272',
-    projectId: 'zeetionary-9915d',
-    storageBucket: 'zeetionary-9915d.appspot.com',
-    iosBundleId: 'com.example.zeetionary.RunnerTests',
   );
 }

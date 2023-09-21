@@ -7,12 +7,25 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:676072533272:android:959e8617f92794d862c26d",
+        "mobilesdk_app_id": "1:676072533272:android:94b5deecfe358f7462c26d",
         "android_client_info": {
           "package_name": "com.example.zeetionary"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "676072533272-2tgqd4r37d7ctm557au9991hd9k471u5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zeetionary",
+            "certificate_hash": "8260bf89f82cb85ff911593753e1d9e242544788"
+          }
+        },
+        {
+          "client_id": "676072533272-9dji7esh4g94ipqcsphg0193fs1oq28b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBKlYJWWIWefR6Si80q5Ib_oPD8j45qYqg"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676072533272-9dji7esh4g94ipqcsphg0193fs1oq28b.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "676072533272-8e8aktd4k3ss7d539v5ouhqhrsssusvh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.zeetionary"
+              }
+            }
+          ]
         }
       }
     }

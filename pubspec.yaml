@@ -35,7 +35,9 @@ dependencies:
   firebase_storage: ^11.2.6
   flutter:
     sdk: flutter
+  flutter_riverpod: ^2.4.0
   flutter_svg: ^2.0.7
+  google_sign_in: ^6.1.5
 
 dev_dependencies:
   flutter_lints: ^2.0.0
@@ -52,7 +54,9 @@ flutter:
   uses-material-design: true
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/zeetionary.svg
+    - assets/images/google.png
+    - assets/images/loginEmote.png
+    - assets/images/logo.png
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

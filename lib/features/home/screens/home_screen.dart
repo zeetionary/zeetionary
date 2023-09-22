@@ -20,8 +20,8 @@ class HomeScreen extends ConsumerWidget {
           shaderCallback: (Rect bounds) {
             return const LinearGradient(
               colors: [
-                Colors.blue,
-                Color.fromARGB(255, 0, 0, 0)
+                Color.fromARGB(255, 156, 169, 232),
+                Color.fromARGB(255, 207, 70, 70)
               ], // Define your gradient colors here
               tileMode: TileMode.clamp,
             ).createShader(bounds);

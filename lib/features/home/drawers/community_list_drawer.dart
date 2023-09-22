@@ -10,6 +10,10 @@ class CommunityListDrawer extends ConsumerWidget {
     ref.read(authControllerProvider.notifier).logout();
   }
 
+  void toggleTheme(WidgetRef ref) {
+    ref.read(themeNotifierProvider.notifier).toggleTheme();
+  }
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return Drawer(
@@ -30,8 +34,9 @@ class CommunityListDrawer extends ConsumerWidget {
               onTap: () => logOut(ref),
             ),
             Switch.adaptive(
-              value: true,
-              onChanged: (val) {},
+              value: ref.watch(themeNotifierProvider.notifier).mode ==
+                  ThemeMode.dark,
+              onChanged: (val) => toggleTheme(ref),
             ),
           ],
         ),

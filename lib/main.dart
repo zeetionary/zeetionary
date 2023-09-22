@@ -48,7 +48,7 @@ class _MyAppState extends ConsumerState<MyApp> {
           data: (data) => MaterialApp.router(
             debugShowCheckedModeBanner: false,
             title: 'Zettionary App',
-            theme: Pallete.lightModeAppTheme,
+            theme: ref.watch(themeNotifierProvider),
             routerDelegate: RoutemasterDelegate(
               routesBuilder: (context) {
                 if (data != null) {

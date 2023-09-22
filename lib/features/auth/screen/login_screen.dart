@@ -14,16 +14,13 @@ class LoginScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Image.asset(
-          Constants.logoPath,
-          height: 40,
-        ),
         actions: [
           TextButton(
             onPressed: () {},
             child: const Text(
-              'Skip',
+              'چۆنیەتیی بەکارهێنان',
               style: TextStyle(
+                color: Colors.red,
                 fontWeight: FontWeight.bold,
               ),
             ),
@@ -36,18 +33,17 @@ class LoginScreen extends ConsumerWidget {
               children: [
                 const SizedBox(height: 30),
                 const Text(
-                  'Dive into anything',
+                  'یەکەم فەرهەنگی ڤیدیۆییی ئینگلیزی - کوردی',
                   style: TextStyle(
-                    fontSize: 24,
+                    fontSize: 16,
                     fontWeight: FontWeight.bold,
-                    letterSpacing: 0.5,
                   ),
                 ),
                 const SizedBox(height: 30),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Image.asset(
-                    Constants.loginEmotePath,
+                    Constants.logo1Path,
                     height: 400,
                   ),
                 ),

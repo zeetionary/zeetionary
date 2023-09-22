@@ -55,8 +55,8 @@ class AuthRepository {
       if (userCredential.additionalUserInfo!.isNewUser) {
         userModel = UserModel(
           name: userCredential.user!.displayName ?? 'No Name',
-          profilePic: userCredential.user!.photoURL ?? Constants.logoPath,
-          // banner: Constants.logoPath,
+          profilePic: userCredential.user!.photoURL ?? Constants.logo1Path,
+          // banner: Constants.logo1Path,
           uid: userCredential.user!.uid,
           isAuthenticated: true,
           karma: 0,

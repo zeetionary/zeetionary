@@ -1,5 +1,7 @@
 import 'package:zeetionary/features/post/grammar_screen.dart';
 import 'package:zeetionary/features/dictionary/dictionary.dart';
+import 'package:zeetionary/features/dictionary/quiz_screen.dart';
+import 'package:zeetionary/features/dictionary/question_screen.dart';
 
 class Constants {
   static const logo1Path = 'assets/images/zeetionary_one.png';
@@ -10,5 +12,7 @@ class Constants {
   static const tabWidgets = [
     DictionaryScreen(),
     GrammarScreen(),
+    QuestionScreen(),
+    QuizScreen(),
   ];
 }

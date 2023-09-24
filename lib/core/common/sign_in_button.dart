@@ -22,8 +22,8 @@ class SignInButton extends ConsumerWidget {
           width: 35,
         ),
         label: const Text(
-          'بە گووگڵ بەردەوامبە',
-          style: TextStyle(fontSize: 18),
+          'بچۆ ژوورەوە بە گووگڵ',
+          style: TextStyle(fontSize: 18, color: Colors.white),
         ),
         style: ElevatedButton.styleFrom(
           backgroundColor: Pallete.greyColor,

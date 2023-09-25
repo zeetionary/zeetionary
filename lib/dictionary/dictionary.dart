@@ -12,9 +12,9 @@ class DictionaryScreen extends ConsumerWidget {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(10),
           ),
-          elevation: 96,
+          elevation: 16,
           child: const Center(
-            child: Icon(Icons.link_outlined),
+            child: Icon(Icons.image_outlined),
           ),
         ),
       ],

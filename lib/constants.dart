@@ -1,7 +1,7 @@
-import 'package:zeetionary/features/post/grammar_screen.dart';
-import 'package:zeetionary/features/dictionary/dictionary.dart';
-import 'package:zeetionary/features/dictionary/quiz_screen.dart';
-import 'package:zeetionary/features/dictionary/question_screen.dart';
+import 'package:zeetionary/questions/question_screen.dart';
+import 'package:zeetionary/quiz/quiz_screen.dart';
+import 'package:zeetionary/grammar/grammar_screen.dart';
+import 'package:zeetionary/dictionary/dictionary.dart';
 
 class Constants {
   static const logo1Path = 'assets/images/zeetionary_one.png';

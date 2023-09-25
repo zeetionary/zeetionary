@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:zeetionary/core/constants/constants.dart';
-import 'package:zeetionary/features/auth/controller/auth_controller.dart';
+import 'package:zeetionary/constants.dart';
+import 'package:zeetionary/firebase/features/auth/controller/auth_controller.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
 class SignInButton extends ConsumerWidget {

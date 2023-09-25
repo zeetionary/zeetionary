@@ -3,12 +3,12 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fpdart/fpdart.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:zeetionary/core/constants/constants.dart';
-import 'package:zeetionary/core/constants/firebase_constants.dart';
-import 'package:zeetionary/core/failure.dart';
-import 'package:zeetionary/core/providers/firebase_providers.dart';
-import 'package:zeetionary/core/type_defs.dart';
-import 'package:zeetionary/models/user_model.dart';
+import 'package:zeetionary/constants.dart';
+import 'package:zeetionary/firebase/core/constants/firebase_constants.dart';
+import 'package:zeetionary/firebase/core/failure.dart';
+import 'package:zeetionary/firebase/core/providers/firebase_providers.dart';
+import 'package:zeetionary/firebase/core/type_defs.dart';
+import 'package:zeetionary/firebase/models/user_model.dart';
 
 final authRepositoryProvider = Provider(
   (ref) => AuthRepository(

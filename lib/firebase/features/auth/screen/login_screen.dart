@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:zeetionary/core/common/loader.dart';
-import 'package:zeetionary/core/common/sign_in_button.dart';
-import 'package:zeetionary/core/constants/constants.dart';
-import 'package:zeetionary/features/auth/controller/auth_controller.dart';
+import 'package:zeetionary/firebase/core/common/loader.dart';
+import 'package:zeetionary/firebase/core/common/sign_in_button.dart';
+import 'package:zeetionary/constants.dart';
+import 'package:zeetionary/firebase/features/auth/controller/auth_controller.dart';
 
 class LoginScreen extends ConsumerWidget {
   const LoginScreen({Key? key}) : super(key: key);

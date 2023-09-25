@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:zeetionary/core/constants/constants.dart';
-import 'package:zeetionary/features/home/drawers/community_list_drawer.dart';
+import 'package:zeetionary/constants.dart';
+import 'package:zeetionary/home/drawers/community_list_drawer.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
 class HomeScreen extends ConsumerStatefulWidget {

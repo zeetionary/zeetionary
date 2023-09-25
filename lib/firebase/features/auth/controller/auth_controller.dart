@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:zeetionary/core/utils.dart';
-import 'package:zeetionary/features/auth/repository/auth_repository.dart';
-import 'package:zeetionary/models/user_model.dart';
+import 'package:zeetionary/firebase/core/utils.dart';
+import 'package:zeetionary/firebase/features/auth/repository/auth_repository.dart';
+import 'package:zeetionary/firebase/models/user_model.dart';
 
 final userProvider = StateProvider<UserModel?>((ref) => null);
 

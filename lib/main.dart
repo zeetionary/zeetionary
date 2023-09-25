@@ -1,16 +1,17 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:zeetionary/core/common/error_text.dart';
-import 'package:zeetionary/core/common/loader.dart';
-import 'package:zeetionary/features/auth/controller/auth_controller.dart';
+import 'package:routemaster/routemaster.dart';
+
+import 'package:zeetionary/firebase/core/common/error_text.dart';
+import 'package:zeetionary/firebase/core/common/loader.dart';
+import 'package:zeetionary/firebase/features/auth/controller/auth_controller.dart';
+import 'package:zeetionary/firebase/models/user_model.dart';
 import 'package:zeetionary/firebase_options.dart';
-import 'package:zeetionary/models/user_model.dart';
 import 'package:zeetionary/router.dart';
 import 'package:zeetionary/theme/pallete.dart';
-import 'package:routemaster/routemaster.dart';
-import 'package:flutter_native_splash/flutter_native_splash.dart';
 
 void main() async {
   // WidgetsFlutterBinding.ensureInitialized();

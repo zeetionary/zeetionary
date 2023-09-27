@@ -2,16 +2,17 @@ import 'package:flutter/material.dart';
 // import 'package:zeetionary/grammar/grammar_screen.dart';
 import 'package:zeetionary/dictionary/english_entry_lion.dart';
 
-class DictionaryScreen extends StatefulWidget {
-  const DictionaryScreen({Key? key}) : super(key: key);
+class DictionaryScreenEnglish extends StatefulWidget {
+  const DictionaryScreenEnglish({Key? key}) : super(key: key);
 
   @override
-  State<DictionaryScreen> createState() => _DictionaryScreenState();
+  State<DictionaryScreenEnglish> createState() =>
+      _DictionaryScreenEnglishState();
 }
 
-class _DictionaryScreenState extends State<DictionaryScreen> {
+class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
-  final List<String> allWords = [
+  final List<String> allWordsEnglish = [
     "english one",
     "english two",
   ];
@@ -21,12 +22,12 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
   @override
   void initState() {
     super.initState();
-    filteredWords = List.from(allWords);
+    filteredWords = List.from(allWordsEnglish);
   }
 
   void filterWords(String query) {
     setState(() {
-      filteredWords = allWords
+      filteredWords = allWordsEnglish
           .where((word) => word.toLowerCase().contains(query.toLowerCase()))
           .toList();
     });
@@ -61,35 +62,6 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
               ),
             ),
           ),
-          // Row(
-          //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          //   children: [
-          //     Expanded(
-          //       child: CardButton(
-          //         label: 'English',
-          //         onPressed: () {
-          //           Navigator.of(context).push(
-          //             MaterialPageRoute(
-          //               builder: (context) => const EnglishEntryLion(),
-          //             ),
-          //           );
-          //         },
-          //       ),
-          //     ),
-          //     Expanded(
-          //       child: CardButton(
-          //         label: 'French',
-          //         onPressed: () {
-          //           Navigator.of(context).push(
-          //             MaterialPageRoute(
-          //               builder: (context) => const EnglishEntryLion(),
-          //             ),
-          //           );
-          //         },
-          //       ),
-          //     ),
-          //   ],
-          // ),
           Expanded(
             child: EnglishDictionary(
               words: filteredWords,

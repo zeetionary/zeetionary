@@ -13,8 +13,8 @@ class Constants {
   static const kurd1Path = 'assets/images/kurd_one.png';
 
   static const tabWidgets = [
-    DictionaryScreen(),
-    KurdishScreen(),
+    DictionaryScreenEnglish(),
+    DictionaryScreenKurdish(),
     GrammarScreen(),
     QuestionScreen(),
     QuizScreen(),

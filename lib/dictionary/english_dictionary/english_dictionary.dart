@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 // import 'package:zeetionary/grammar/grammar_screen.dart';
-import 'package:zeetionary/dictionary/english_entry_lion.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letter_a.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -13,6 +13,7 @@ class DictionaryScreenEnglish extends StatefulWidget {
 class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   final List<String> allWordsEnglish = [
+    "aardvark",
     "english one",
     "english two",
   ];
@@ -66,13 +67,17 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
             child: EnglishDictionary(
               words: filteredWords,
               onTapWord: (wordsEnglish) {
-                if (wordsEnglish == "english one") {
-                  // Handle the onTap event for the word "dog" here.
-                  // You can navigate to a different screen or perform any desired action.
-                  // For example:
+                if (wordsEnglish == "aardvark") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => const EnglishEntryLion(),
+                      builder: (context) => const EnglishEntryAardvark(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "english one") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => const EnglishEntryAardvark(),
                     ),
                   );
                 }

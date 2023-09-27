@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 // import 'package:zeetionary/grammar/grammar_screen.dart';
-import 'package:zeetionary/dictionary/english_entry_lion.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letter_a.dart';
 
 class QuestionsScreen extends StatefulWidget {
   const QuestionsScreen({Key? key}) : super(key: key);
@@ -72,7 +72,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
                   // For example:
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => const EnglishEntryLion(),
+                      builder: (context) => const EnglishEntryAardvark(),
                     ),
                   );
                 }

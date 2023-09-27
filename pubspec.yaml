@@ -38,6 +38,7 @@ dependencies:
   flutter_native_splash: ^2.3.2
   flutter_riverpod: ^2.4.0
   flutter_svg: ^2.0.7
+  flutter_tts: ^3.8.3
   fpdart: ^1.1.0
   google_sign_in: ^6.1.5
   routemaster: ^1.0.1
@@ -68,9 +69,6 @@ flutter:
     - assets/images/kurd_one.png
     - assets/images/uk_two.png
     - assets/images/kurd_two.png
-    
-
-
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

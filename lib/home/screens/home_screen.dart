@@ -62,10 +62,24 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       body: Constants.tabWidgets[_page],
       drawer: const CommunityListDrawer(),
       bottomNavigationBar: CupertinoTabBar(
-        activeColor: currentTheme.iconTheme.color,
+        // activeColor: currentTheme.iconTheme.color,
         backgroundColor: currentTheme.backgroundColor,
         items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: ''),
+          BottomNavigationBarItem(
+            icon: ImageIcon(
+              // AssetImage('assets/images/google.png'),
+              AssetImage(Constants.googlePath),
+              color: null, // No color applied, images retain their own colors
+            ),
+            label: '',
+          ),
+          BottomNavigationBarItem(
+            icon: ImageIcon(
+              AssetImage(Constants.googlePath),
+              color: null, // No color applied, images retain their own colors
+            ),
+            label: '',
+          ),
           BottomNavigationBarItem(icon: Icon(Icons.book), label: ''),
           BottomNavigationBarItem(icon: Icon(Icons.question_answer), label: ''),
           BottomNavigationBarItem(icon: Icon(Icons.quiz), label: ''),

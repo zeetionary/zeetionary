@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:zeetionary/grammar/grammar_screen.dart';
+// import 'package:zeetionary/grammar/grammar_screen.dart';
 import 'package:zeetionary/dictionary/english_entry_lion.dart';
 
 class DictionaryScreen extends StatefulWidget {
@@ -12,154 +12,8 @@ class DictionaryScreen extends StatefulWidget {
 class _DictionaryScreenState extends State<DictionaryScreen> {
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   final List<String> allWords = [
-    "dog",
-    "cat",
-    "elephant",
-    "giraffe",
-    "lion",
-    "tiger",
-    "zebra",
-    "horse",
-    "monkey",
-    "dolphin",
-    "kangaroo",
-    "penguin",
-    "bear",
-    "rabbit",
-    "squirrel",
-    "fox",
-    "koala",
-    "cheetah",
-    "wolf",
-    "panda",
-    "owl",
-    "parrot",
-    "peacock",
-    "octopus",
-    "shark",
-    "crocodile",
-    "alligator",
-    "eagle",
-    "camel",
-    "rhino",
-    "hippo",
-    "bat",
-    "chimpanzee",
-    "rhinoceros",
-    "gazelle",
-    "ostrich",
-    "lemur",
-    "platypus",
-    "kangaroo",
-    "sloth",
-    "hyena",
-    "flamingo",
-    "seahorse",
-    "jellyfish",
-    "lobster",
-    "raccoon",
-    "cheetah",
-    "meerkat",
-    "warthog",
-    "puma",
-    "panther",
-    "walrus",
-    "buffalo",
-    "antelope",
-    "tapir",
-    "tasmanian Devil",
-    "vulture",
-    "hedgehog",
-    "chameleon",
-    "gorilla",
-    "armadillo",
-    "lemming",
-    "mongoose",
-    "puffin",
-    "komodo Dragon",
-    "red Panda",
-    "tasmanian Tiger",
-    "quokka",
-    "wombat",
-    "platypus",
-    "dugong",
-    "manatee",
-    "narwhal",
-    "chimpanzee",
-    "kingfisher",
-    "ibex",
-    "sloth Bear",
-    "gharial",
-    "marmoset",
-    "capuchin Monkey",
-    "pangolin",
-    "okapi",
-    "tarsier",
-    "fossa",
-    "lemur",
-    "colobus Monkey",
-    "proboscis Monkey",
-    "galapagos Tortoise",
-    "green Sea Turtle",
-    "hammerhead Shark",
-    "swordfish",
-    "angelfish",
-    "clownfish",
-    "parrotfish",
-    "barracuda",
-    "flounder",
-    "humpback Whale",
-    "killer Whale",
-    "beluga Whale"
-        "apple",
-    "banana",
-    "orange",
-    "strawberry",
-    "grape",
-    "pineapple",
-    "mango",
-    "watermelon",
-    "lemon",
-    "lime",
-    "blueberry",
-    "raspberry",
-    "blackberry",
-    "kiwi",
-    "papaya",
-    "peach",
-    "pear",
-    "cherry",
-    "plum",
-    "apricot",
-    "fig",
-    "cranberry",
-    "coconut",
-    "avocado",
-    "guava",
-    "pomegranate",
-    "passion Fruit",
-    "dragon Fruit",
-    "lychee",
-    "mulberry",
-    "nectarine",
-    "tangerine",
-    "clementine",
-    "grapefruit",
-    "cantaloupe",
-    "honeydew Melon",
-    "persimmon",
-    "boysenberry",
-    "gooseberry",
-    "elderberry",
-    "starfruit",
-    "date",
-    "quince",
-    "guanabana",
-    "jackfruit",
-    "ackee",
-    "kiwano (Horned Melon)",
-    "plantain",
-    "loquat",
+    "english one",
+    "english two",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -207,40 +61,40 @@ class _DictionaryScreenState extends State<DictionaryScreen> {
               ),
             ),
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: [
-              Expanded(
-                child: CardButton(
-                  label: 'English',
-                  onPressed: () {
-                    Navigator.of(context).push(
-                      MaterialPageRoute(
-                        builder: (context) => const EnglishEntryLion(),
-                      ),
-                    );
-                  },
-                ),
-              ),
-              Expanded(
-                child: CardButton(
-                  label: 'French',
-                  onPressed: () {
-                    Navigator.of(context).push(
-                      MaterialPageRoute(
-                        builder: (context) => const EnglishEntryLion(),
-                      ),
-                    );
-                  },
-                ),
-              ),
-            ],
-          ),
+          // Row(
+          //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          //   children: [
+          //     Expanded(
+          //       child: CardButton(
+          //         label: 'English',
+          //         onPressed: () {
+          //           Navigator.of(context).push(
+          //             MaterialPageRoute(
+          //               builder: (context) => const EnglishEntryLion(),
+          //             ),
+          //           );
+          //         },
+          //       ),
+          //     ),
+          //     Expanded(
+          //       child: CardButton(
+          //         label: 'French',
+          //         onPressed: () {
+          //           Navigator.of(context).push(
+          //             MaterialPageRoute(
+          //               builder: (context) => const EnglishEntryLion(),
+          //             ),
+          //           );
+          //         },
+          //       ),
+          //     ),
+          //   ],
+          // ),
           Expanded(
             child: EnglishDictionary(
               words: filteredWords,
               onTapWord: (wordsEnglish) {
-                if (wordsEnglish == "dog") {
+                if (wordsEnglish == "english one") {
                   // Handle the onTap event for the word "dog" here.
                   // You can navigate to a different screen or perform any desired action.
                   // For example:

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-class GrammarScreen extends ConsumerWidget {
-  const GrammarScreen({super.key});
+class KurdishScreen extends ConsumerWidget {
+  const KurdishScreen({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -12,9 +12,9 @@ class GrammarScreen extends ConsumerWidget {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(10),
           ),
-          elevation: 16,
+          elevation: 96,
           child: const Center(
-            child: Icon(Icons.directions_walk),
+            child: Icon(Icons.access_alarm),
           ),
         ),
       ],

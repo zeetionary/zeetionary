@@ -64,6 +64,9 @@ flutter:
     - assets/images/zeetionary_one.png
     - assets/images/zeetionary_two.png
     - assets/images/zeetionary_three.png
+    - assets/images/uk_one.png
+    - assets/images/kurd_one.png
+    
     
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see

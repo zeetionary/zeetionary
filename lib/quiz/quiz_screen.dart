@@ -14,7 +14,7 @@ class QuizScreen extends ConsumerWidget {
           ),
           elevation: 96,
           child: const Center(
-            child: Icon(Icons.abc_outlined),
+            child: Icon(Icons.filter_b_and_w_rounded),
           ),
         ),
       ],

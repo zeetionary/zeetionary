@@ -64,25 +64,25 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       bottomNavigationBar: CupertinoTabBar(
         // activeColor: currentTheme.iconTheme.color,
         backgroundColor: currentTheme.backgroundColor,
-        items: const [
+        items: [
           BottomNavigationBarItem(
-            icon: ImageIcon(
-              // AssetImage('assets/images/google.png'),
-              AssetImage(Constants.googlePath),
-              color: null, // No color applied, images retain their own colors
+            icon: Image.asset(
+              'assets/images/uk_two.png',
             ),
+            activeIcon: const Icon(Icons.home),
             label: '',
           ),
           BottomNavigationBarItem(
-            icon: ImageIcon(
-              AssetImage(Constants.googlePath),
-              color: null, // No color applied, images retain their own colors
+            icon: Image.asset(
+              'assets/images/kurd_two.png',
             ),
+            activeIcon: const Icon(Icons.home),
             label: '',
           ),
-          BottomNavigationBarItem(icon: Icon(Icons.book), label: ''),
-          BottomNavigationBarItem(icon: Icon(Icons.question_answer), label: ''),
-          BottomNavigationBarItem(icon: Icon(Icons.quiz), label: ''),
+          const BottomNavigationBarItem(icon: Icon(Icons.book), label: ''),
+          const BottomNavigationBarItem(
+              icon: Icon(Icons.question_answer), label: ''),
+          const BottomNavigationBarItem(icon: Icon(Icons.quiz), label: ''),
         ],
         onTap: onPageChanged,
         currentIndex: _page,

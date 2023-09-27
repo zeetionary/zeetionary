@@ -16,7 +16,7 @@ class Constants {
     DictionaryScreenEnglish(),
     DictionaryScreenKurdish(),
     GrammarScreen(),
-    QuestionScreen(),
+    QuestionsScreen(),
     QuizScreen(),
   ];
 }

@@ -9,10 +9,11 @@ class EnglishEntryDopsum extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakDopsum(String languageCode) async {
+    // DOPSUM: CHANGE speakDopsum
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dopsum");
+    await flutterTts.speak("dopsum"); // DOPSUM: CHANGE TEXT
   }
 
   @override

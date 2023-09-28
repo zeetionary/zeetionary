@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 // import 'package:zeetionary/grammar/grammar_screen.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letter_a.dart';
+import 'package:zeetionary/dictionary/english_dictionary/dopsum.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -13,7 +13,7 @@ class DictionaryScreenEnglish extends StatefulWidget {
 class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   final List<String> allWordsEnglish = [
-    "aardvark",
+    "dopsum",
     "english one",
     "english two",
   ];
@@ -67,17 +67,17 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
             child: EnglishDictionary(
               words: filteredWords,
               onTapWord: (wordsEnglish) {
-                if (wordsEnglish == "aardvark") {
+                if (wordsEnglish == "dopsum") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => const EnglishEntryAardvark(),
+                      builder: (context) => EnglishEntryDopsum(),
                     ),
                   );
                 }
                 if (wordsEnglish == "english one") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => const EnglishEntryAardvark(),
+                      builder: (context) => EnglishEntryDopsum(),
                     ),
                   );
                 }

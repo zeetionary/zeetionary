@@ -32,26 +32,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: ShaderMask(
-          shaderCallback: (Rect bounds) {
-            return const LinearGradient(
-              colors: [
-                Color.fromARGB(255, 156, 169, 232),
-                Color.fromARGB(255, 207, 70, 70)
-              ], // Define your gradient colors here
-              tileMode: TileMode.clamp,
-            ).createShader(bounds);
-          },
-          child: const Text(
-            'Zeetionary',
-            style: TextStyle(
-              fontSize: 24.0, // Adjust font size as needed
-              fontWeight: FontWeight.bold, // Adjust font weight as needed
-              color:
-                  Colors.white, // Text color (will be masked by the gradient)
-            ),
-          ),
-        ),
+        title: const ZeetionaryAppbar(),
         leading: Builder(builder: (context) {
           return IconButton(
             icon: const Icon(Icons.menu),
@@ -86,6 +67,35 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         ],
         onTap: onPageChanged,
         currentIndex: _page,
+      ),
+    );
+  }
+}
+
+class ZeetionaryAppbar extends StatelessWidget {
+  const ZeetionaryAppbar({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return ShaderMask(
+      shaderCallback: (Rect bounds) {
+        return const LinearGradient(
+          colors: [
+            Color.fromARGB(255, 156, 169, 232),
+            Color.fromARGB(255, 207, 70, 70)
+          ], // Define your gradient colors here
+          tileMode: TileMode.clamp,
+        ).createShader(bounds);
+      },
+      child: const Text(
+        'Zeetionary',
+        style: TextStyle(
+          fontSize: 24.0, // Adjust font size as needed
+          fontWeight: FontWeight.bold, // Adjust font weight as needed
+          color: Colors.white, // Text color (will be masked by the gradient)
+        ),
       ),
     );
   }

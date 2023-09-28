@@ -41,7 +41,7 @@ class EnglishEntryAardvark extends StatelessWidget {
                   Tab(text: 'Tab 3'),
                 ],
                 indicator: BoxDecoration(
-                  color: Color.fromARGB(110, 162, 239,
+                  color: const Color.fromARGB(110, 162, 239,
                       20), // Change to your desired background color
                   borderRadius: BorderRadius.circular(
                       16.0), // Adjust the radius as needed

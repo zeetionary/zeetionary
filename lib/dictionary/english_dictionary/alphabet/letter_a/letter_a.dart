@@ -35,10 +35,28 @@ class EnglishEntryAardvark extends StatelessWidget {
                 ),
               ),
               TabBar(
-                tabs: const [
-                  Tab(text: 'Tab 1'),
-                  Tab(text: 'Tab 2'),
-                  Tab(text: 'Tab 3'),
+                tabs: [
+                  Tab(
+                    icon: Image.asset(
+                      'assets/images/uk_one.png', // Replace with your asset path
+                      width: 32, // Adjust the width as needed
+                      height: 32, // Adjust the height as needed
+                    ),
+                  ),
+                  Tab(
+                    icon: Image.asset(
+                      'assets/images/kurd_one.png', // Replace with your asset path
+                      width: 32, // Adjust the width as needed
+                      height: 32, // Adjust the height as needed
+                    ),
+                  ),
+                  Tab(
+                    icon: Image.asset(
+                      'assets/images/zeetionary_one.png', // Replace with your asset path
+                      width: 32, // Adjust the width as needed
+                      height: 32, // Adjust the height as needed
+                    ),
+                  ),
                 ],
                 indicator: BoxDecoration(
                   color: const Color.fromARGB(110, 162, 239,

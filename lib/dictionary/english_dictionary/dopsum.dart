@@ -26,7 +26,9 @@ class EnglishEntryDopsum extends StatelessWidget {
           title: const ZeetionaryAppbar(),
         ),
         body: Padding(
-          padding: const EdgeInsets.all(18.0),
+          padding:
+              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
+          // EdgeInsets.zero,
           child: Column(
             children: [
               SingleChildScrollView(
@@ -35,15 +37,26 @@ class EnglishEntryDopsum extends StatelessWidget {
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        const Text(
-                          'Dopsum', // DOPSUM: CHANGE WORD ENTRY
-                          style: TextStyle(
-                              fontSize: 20, fontWeight: FontWeight.bold),
+                        const Row(
+                          children: [
+                            Text(
+                              'Dopsum', // DOPSUM: CHANGE WORD ENTRY
+                              style: TextStyle(
+                                  fontSize: 20, fontWeight: FontWeight.bold),
+                            ),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Text(
+                              '(noun, pl: Dopsums)', // DOPSUM: CHANGE WORD TYPE
+                              style: TextStyle(fontSize: 14),
+                            ),
+                          ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: haʊ', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /haʊ/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -61,7 +74,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: haʊ', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              'IpaUS: /haʊ/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -97,7 +110,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                   borderRadius: BorderRadius.circular(16.0),
                 ),
                 indicatorSize: TabBarIndicatorSize.tab,
-                indicatorPadding: const EdgeInsets.all(8.0),
+                indicatorPadding: const EdgeInsets.all(4.0),
               ),
               Expanded(
                 child: TabBarView(
@@ -115,20 +128,38 @@ class EnglishEntryDopsum extends StatelessWidget {
                           ),
                           Row(
                             children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    '''
+Dopsum write sentence
+                                    ''',
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Text('''
-- Dopsum write sentence
-بە کوردی
-                              '''),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    '''
+رستە رستە رستە رستە رستە رستە رستە
+                                    ''',
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
                               IconButton(
                                 iconSize: 18,
                                 icon: const Icon(
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () =>
-                                    speakDopsum(// DOPSUM: CHANGE THE WORD
-                                        "en-GB"),
+                                onPressed: () => speakDopsum("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -136,9 +167,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakDopsum(// DOPSUM: CHANGE THE WORD
-                                        "en-US"),
+                                onPressed: () => speakDopsum("en-US"),
                               ),
                             ],
                           ),
@@ -177,7 +206,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-Dopsum
+Dopsum 
 
 Dopsum
 '''),
@@ -190,16 +219,16 @@ Dopsum
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedOne extends StatelessWidget {
-  static String myVideoId = 'PQSagzssvUQ';
+  static String myVideoId = 'yYABoy5PBZI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: false,
+      autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 30, // DOPSUM: CHANGE IT
-      endAt: 45, // DOPSUM: CHANGE IT
+      startAt: 238, // DOPSUM: CHANGE IT
+      endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 

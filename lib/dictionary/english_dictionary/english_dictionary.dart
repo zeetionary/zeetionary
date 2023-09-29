@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
-// import 'package:zeetionary/grammar/grammar_screen.dart';
 import 'package:zeetionary/dictionary/english_dictionary/dopsum.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_a.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_aback.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abacus.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abandon.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -14,8 +17,10 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   final List<String> allWordsEnglish = [
     "dopsum",
-    "english one",
-    "english two",
+    "a",
+    "aback",
+    "abacus",
+    "abandon",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -74,10 +79,31 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     ),
                   );
                 }
-                if (wordsEnglish == "english one") {
+                if (wordsEnglish == "a") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryDopsum(),
+                      builder: (context) => EnglishEntryA(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aback") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryAback(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abacus") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryAbacus(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abandon") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryAbandon(),
                     ),
                   );
                 }

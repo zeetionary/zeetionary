@@ -5,16 +5,16 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryDopsum extends StatelessWidget {
-  EnglishEntryDopsum({Key? key}) : super(key: key);
+class EnglishEntryAbacus extends StatelessWidget {
+  EnglishEntryAbacus({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakDopsum(String languageCode) async {
+  Future<void> speakAback(String languageCode) async {
     // DOPSUM: CHANGE speakDopsum
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dopsum"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Aback"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -40,7 +40,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'Dopsum', // DOPSUM: CHANGE WORD ENTRY
+                              'Aback', // DOPSUM: CHANGE WORD ENTRY
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -48,7 +48,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                               width: 10,
                             ),
                             Text(
-                              '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
+                              '(noun - plural: abacuses)', // DOPSUM: CHANGE WORD TYPE
                               style: TextStyle(fontSize: 14),
                             ),
                           ],
@@ -66,7 +66,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakDopsum(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAback(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -83,7 +83,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakDopsum(
+                              onPressed: () => speakAback(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -123,11 +123,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                         children: [
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-زاراوەکان: 
-
-١. پێناسە
-                            ''',
+                            '١. پێناسە',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -164,7 +160,7 @@ Dopsum write sentence
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakDopsum("en-GB"),
+                                onPressed: () => speakAback("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -172,14 +168,14 @@ Dopsum write sentence
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakDopsum("en-US"),
+                                onPressed: () => speakAback("en-US"),
                               ),
                             ],
                           ),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedOne(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedOne() // DOPSUM: FROM YOUTUBE BELOW
                     // YoutubeEmbeddedTwo(),
                     // YoutubeEmbeddedThree(),
                     // YoutubeEmbeddedFour(),

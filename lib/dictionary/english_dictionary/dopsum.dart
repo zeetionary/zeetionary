@@ -48,7 +48,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                               width: 10,
                             ),
                             Text(
-                              '(noun, pl: Dopsums)', // DOPSUM: CHANGE WORD TYPE
+                              '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                               style: TextStyle(fontSize: 14),
                             ),
                           ],

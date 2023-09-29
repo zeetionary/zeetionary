@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
+import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
@@ -25,7 +26,7 @@ class EnglishEntryDopsum extends StatelessWidget {
           title: const ZeetionaryAppbar(),
         ),
         body: Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding: const EdgeInsets.all(18.0),
           child: Column(
             children: [
               SingleChildScrollView(
@@ -37,22 +38,22 @@ class EnglishEntryDopsum extends StatelessWidget {
                         const Text(
                           'Dopsum', // DOPSUM: CHANGE WORD ENTRY
                           style: TextStyle(
-                              fontSize: 24, fontWeight: FontWeight.bold),
+                              fontSize: 20, fontWeight: FontWeight.bold),
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: Dopsum', // DOPSUM: WITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 16),
+                              'IpaUK: haʊ', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
-                              iconSize: 18,
+                              iconSize: 16,
                               icon: const Icon(
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakDopsum(// DOPSUM: CHANGE THE WORD
+                                  speakDopsum(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -60,51 +61,36 @@ class EnglishEntryDopsum extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: Dopsum', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
-                              style: TextStyle(fontSize: 16),
+                              'IpaUS: haʊ', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
-                              iconSize: 18,
+                              iconSize: 16,
                               icon: const Icon(
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakDopsum("en-US"),
+                              onPressed: () => speakDopsum(
+                                  "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
                         ),
                       ],
                     ),
-                    const SizedBox(height: 8),
-                    const Text(
-                      'A large, nocturnal, burrowing mammal native to central and southern Africa, with a long, extensile tongue and strong claws, which feeds on ants and termites.',
-                    ),
                   ],
                 ),
               ),
               TabBar(
-                tabs: [
-                  Tab(
-                    icon: Image.asset(
-                      'assets/images/uk_one.png',
-                      width: 24,
-                      height: 24,
-                    ),
-                  ),
-                  Tab(
-                    icon: Image.asset(
-                      'assets/images/kurd_one.png',
-                      width: 24,
-                      height: 24,
-                    ),
-                  ),
-                  Tab(
-                    icon: Image.asset(
-                      'assets/images/zeetionary_one.png',
-                      width: 24,
-                      height: 24,
-                    ),
-                  ),
+                isScrollable: true,
+                tabs: const [
+                  UkIconForTab(),
+                  KurdIconForTab(),
+                  VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
                 ],
                 indicator: BoxDecoration(
                   color: const Color.fromARGB(110, 162, 239, 20),
@@ -116,20 +102,9 @@ class EnglishEntryDopsum extends StatelessWidget {
               Expanded(
                 child: TabBarView(
                   children: [
-                    const SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          // DOPSUM: WRITE DEFINITION IN ENGLISH
-                          Text('''
-Dopsum
-
-Dopsum
-'''),
-                        ],
-                      ),
-                    ),
+                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
                     SingleChildScrollView(
+                      // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
@@ -170,20 +145,125 @@ Dopsum
                         ],
                       ),
                     ),
-                    const SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text('Dopsum'), // DOPSUM: ADD A VIDEO
-                        ],
-                      ),
-                    ),
+                    YoutubeEmbeddedOne() // DOPSUM: FROM YOUTUBE BELOW
+                    // YoutubeEmbeddedTwo(),
+                    // YoutubeEmbeddedThree(),
+                    // YoutubeEmbeddedFour(),
+                    // YoutubeEmbeddedFive(),
+                    // YoutubeEmbeddedSix()
                   ],
                 ),
               ),
             ],
           ),
         ),
+      ),
+    );
+  }
+}
+
+// DOPSUM: ENGLISH MEANING
+
+class EnglishMeaning extends StatelessWidget {
+  const EnglishMeaning({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return const SingleChildScrollView(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // DOPSUM: WRITE DEFINITION IN ENGLISH
+          Text('''
+Dopsum
+
+Dopsum
+'''),
+        ],
+      ),
+    );
+  }
+}
+
+// DOPSUM: FIRST YOUTUBE VIDEO
+
+class YoutubeEmbeddedOne extends StatelessWidget {
+  static String myVideoId = 'PQSagzssvUQ';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: false,
+      loop: true,
+      mute: false,
+      startAt: 30, // DOPSUM: CHANGE IT
+      endAt: 45, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedOne({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+// ICONS KURD - UK - VIDEO
+
+class VideoIconForTab extends StatelessWidget {
+  const VideoIconForTab({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Tab(
+      icon: Image.asset(
+        'assets/images/video_one.png',
+        width: 24,
+        height: 24,
+      ),
+    );
+  }
+}
+
+class KurdIconForTab extends StatelessWidget {
+  const KurdIconForTab({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Tab(
+      icon: Image.asset(
+        'assets/images/kurd_one.png',
+        width: 24,
+        height: 24,
+      ),
+    );
+  }
+}
+
+class UkIconForTab extends StatelessWidget {
+  const UkIconForTab({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Tab(
+      icon: Image.asset(
+        'assets/images/uk_one.png',
+        width: 24,
+        height: 24,
       ),
     );
   }

@@ -41,6 +41,7 @@ dependencies:
   flutter_tts: ^3.8.3
   fpdart: ^1.1.0
   google_sign_in: ^6.1.5
+  provider: ^6.0.5
   routemaster: ^1.0.1
   shared_preferences: ^2.2.1
   youtube_player_flutter: ^8.1.2
@@ -71,7 +72,6 @@ flutter:
     - assets/images/uk_two.png
     - assets/images/kurd_two.png
     - assets/images/video_one.png
-    
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

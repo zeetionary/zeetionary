@@ -49,17 +49,17 @@ class EnglishEntryAback extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'Aback', // DOPSUM: CHANGE WORD ENTRY
+                              'aback', // DOPSUM: CHANGE WORD ENTRY
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
-                            SizedBox(
-                              width: 10,
-                            ),
-                            Text(
-                              '(adverb)', // DOPSUM: CHANGE WORD TYPE
-                              style: TextStyle(fontSize: 14),
-                            ),
+                            // SizedBox(
+                            //   width: 10,
+                            // ),
+                            // Text(
+                            //   '(adverb)', // DOPSUM: CHANGE WORD TYPE
+                            //   style: TextStyle(fontSize: 14),
+                            // ),
                           ],
                         ),
                         Row(
@@ -133,7 +133,7 @@ class EnglishEntryAback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-زاراوەکان: داچڵەکین، هەڵبەزینەوە، داترووسکان، سەرسووڕمان، واق‌وڕمان
+کوردی: داچڵەکین، هەڵبەزینەوە، داترووسکان، سەرسووڕمان، واق‌وڕمان
 
 ١. تووشی سەرسوڕمان و شۆک بیت بە شتێک
                             ''',
@@ -245,7 +245,7 @@ class YoutubeEmbeddedOne extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 255, // DOPSUM: CHANGE IT
-      endAt: 275, // DOPSUM: CHANGE IT
+      // endAt: 275, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -272,7 +272,7 @@ class YoutubeEmbeddedTwo extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 1387, // DOPSUM: CHANGE IT
-      endAt: 1430, // DOPSUM: CHANGE IT
+      // endAt: 1430, // DOPSUM: CHANGE IT
     ),
   );
 

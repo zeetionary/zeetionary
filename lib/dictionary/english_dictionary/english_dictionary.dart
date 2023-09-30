@@ -4,6 +4,13 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_aback.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abacus.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abandon.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abashed.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abattoir.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abbess.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abbey.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abbot.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abbreviate.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -21,6 +28,13 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "aback",
     "abacus",
     "abandon",
+    "abashed",
+    "abate",
+    "abattoir",
+    "abbess",
+    "abbey",
+    "abbot",
+    "abbreviate",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -104,6 +118,55 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryAbandon(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abashed") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryAbashed(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abate") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryAbate(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abattoir") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryAbattoir(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abbess") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryAbbess(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abbey") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabbey(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abbot") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabbot(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abbreviate") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryAbbreviate(),
                     ),
                   );
                 }

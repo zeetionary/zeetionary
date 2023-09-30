@@ -20,11 +20,18 @@ class CommunityListDrawer extends ConsumerWidget {
       child: SafeArea(
         child: Column(
           children: [
-            ListTile(
-              title: const Text('Create a community'),
-              leading: const Icon(Icons.add),
-              onTap: () {},
-            ),
+            // ListTile(
+            //   title: const Text('مێژوو'),
+            //   leading: const Icon(Icons.history),
+            //   onTap: () {
+            //     // Use Navigator to navigate to the HistoryScreen
+            //     Navigator.push(
+            //       context,
+            //       MaterialPageRoute(
+            //           builder: (context) => const HistoryScreen()),
+            //     );
+            //   },
+            // ),
             ListTile(
               title: const Text('بچۆ دەرەوە'),
               leading: Icon(

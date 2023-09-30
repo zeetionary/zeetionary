@@ -86,13 +86,13 @@ class EnglishEntryA extends StatelessWidget {
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
-                            SizedBox(
-                              width: 10,
-                            ),
-                            Text(
-                              '(indefinite article)', // DOPSUM: CHANGE WORD TYPE
-                              style: TextStyle(fontSize: 14),
-                            ),
+                            // SizedBox(
+                            //   width: 10,
+                            // ),
+                            // Text(
+                            //   '(indefinite article)', // DOPSUM: CHANGE WORD TYPE
+                            //   style: TextStyle(fontSize: 14),
+                            // ),
                           ],
                         ),
                         Row(
@@ -310,7 +310,7 @@ class EnglishEntryA extends StatelessWidget {
                             ),
                             const Text(
                               // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              '٣. بەکاردێت بۆ گشتگیرکرد',
+                              '٣. بەکاردێت بۆ گشتگیرکردن',
                               style: TextStyle(fontSize: 18),
                               textAlign: TextAlign
                                   .right, // Set text alignment to right
@@ -498,7 +498,7 @@ class YoutubeEmbeddedOne extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 580, // DOPSUM: CHANGE IT
-      endAt: 595, // DOPSUM: CHANGE IT
+      // endAt: 595, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -525,7 +525,7 @@ class YoutubeEmbeddedTwo extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 259, // DOPSUM: CHANGE IT
-      endAt: 275, // DOPSUM: CHANGE IT
+      // endAt: 275, // DOPSUM: CHANGE IT
     ),
   );
 

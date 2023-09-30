@@ -71,13 +71,13 @@ class EnglishEntryAbandon extends StatelessWidget {
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
-                            SizedBox(
-                              width: 10,
-                            ),
-                            Text(
-                              '(verb)', // DOPSUM: CHANGE WORD TYPE
-                              style: TextStyle(fontSize: 14),
-                            ),
+                            // SizedBox(
+                            //   width: 10,
+                            // ),
+                            // Text(
+                            //   '(verb)', // DOPSUM: CHANGE WORD TYPE
+                            //   style: TextStyle(fontSize: 14),
+                            // ),
                           ],
                         ),
                         Row(
@@ -151,7 +151,7 @@ class EnglishEntryAbandon extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-زاراوەکان: کەم‌تەرخەمی، گوێ‌پێ‌نەدان، بێ‌جڵەوی، بەربەڕەڵایی، پشت‌گوێ‌خستن، بێ‌خەیاڵی، ئالۆرێتی، وازلێهێنان، وەلانان
+کوردی: کەم‌تەرخەمی، گوێ‌پێ‌نەدان، بێ‌جڵەوی، بەربەڕەڵایی، پشت‌گوێ‌خستن، بێ‌خەیاڵی، ئالۆرێتی، وازلێهێنان، وەلانان
 
 ١. جێهێشتنی کەسێک یان شتێک''',
                             style: TextStyle(fontSize: 18),
@@ -368,26 +368,26 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-Verb: abandon
+- Verb: abandon (abandoned, abandons, abandoning)
 1. Forsake, leave behind
 "We abandoned the old car in the empty parking lot"
- 
+
 2. Give up with the intent of never claiming again (=give up)
 "Abandon your life to God";
 
 3.Leave behind empty; move out of (=vacate, empty)
 "You must abandon your office by tonight";
- 
+
 4. Stop maintaining or insisting on ideas or claims (=give up)
 "He abandoned the thought of asking for her hand in marriage";
- 
+
 5. Leave someone who needs or counts on you; leave in the lurch (=forsake [literary], desolate, desert)
 "The mother abandoned her children";
 
-Noun: abandon
+- Noun: abandon
 1. The trait of lacking restraint or control; reckless freedom from inhibition or worry (=wantonness, unconstraint)
 "she danced with abandon";
- 
+
 2. A feeling of extreme emotional intensity
 '''),
         ],
@@ -408,7 +408,7 @@ class YoutubeEmbeddedOne extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 110, // DOPSUM: CHANGE IT
-      endAt: 135, // DOPSUM: CHANGE IT
+      // endAt: 135, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -435,7 +435,7 @@ class YoutubeEmbeddedTwo extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 4352, // DOPSUM: CHANGE IT
-      endAt: 4372, // DOPSUM: CHANGE IT
+      // endAt: 4372, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -462,7 +462,7 @@ class YoutubeEmbeddedThree extends StatelessWidget {
       loop: true,
       mute: false,
       startAt: 1498, // DOPSUM: CHANGE IT
-      endAt: 1518, // DOPSUM: CHANGE IT
+      // endAt: 1518, // DOPSUM: CHANGE IT
     ),
   );
 

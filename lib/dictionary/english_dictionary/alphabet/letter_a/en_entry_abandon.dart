@@ -151,9 +151,9 @@ class EnglishEntryAbandon extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: کەم‌تەرخەمی، گوێ‌پێ‌نەدان، بێ‌جڵەوی، بەربەڕەڵایی، پشت‌گوێ‌خستن، بێ‌خەیاڵی، ئالۆرێتی، وازلێهێنان، وەلانان
+کوردی: کەم‌تەرخەمی، گوێ‌پێ‌نەدان، بێ‌جڵەوی، بەربەڕەڵایی، پشت‌گوێ‌خستن، بێ‌خەیاڵی، ئالۆرێتی، وازلێھێنان، وەلانان
 
-١. جێهێشتنی کەسێک یان شتێک''',
+١. جێھێشتنی کەسێک یان شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -177,7 +177,7 @@ The baby had been abandoned by its mother.
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-منداڵەکە لەلایەن دایکی جێهێڵدرابوو
+منداڵەکە لەلایەن دایکی جێھێڵدرابوو
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
@@ -222,7 +222,7 @@ Snow forced many drivers to abandon their vehicles.
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-بەفر ژمارەیەکی زۆر شۆفێری ناچارکرد ئۆتۆمبێلەکانیان بەجێبهێڵن
+بەفر ژمارەیەکی زۆر شۆفێری ناچارکرد ئۆتۆمبێلەکانیان بەجێبھێڵن
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
@@ -273,7 +273,7 @@ They abandoned the match because of rain.
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-یارییەکەیان وەستاند بەهۆی باران بارین
+یارییەکەیان وەستاند بەھۆی باران بارین
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
@@ -324,7 +324,7 @@ Germany abandoned its political leaders after WWII.
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-ئەڵمانیا دەستبەرداری سەرکردایەتییەکەی بوو لەدوای جەنگی دووەمی جیهان
+ئەڵمانیا دەستبەرداری سەرکردایەتییەکەی بوو لەدوای جەنگی دووەمی جیھان
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction

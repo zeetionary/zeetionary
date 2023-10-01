@@ -153,7 +153,7 @@ Dopsum write sentence
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-رستە رستە رستە رستە رستە رستە رستە
+رستە
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction

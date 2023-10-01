@@ -19,6 +19,15 @@ class EnglishEntryAbattoir extends StatelessWidget {
     await flutterTts.speak("abattoir"); // DOPSUM: CHANGE TEXT
   }
 
+  Future<void> speakAbattoir2215(String languageCode) async {
+    // DOPSUM: CHANGE speakAbattoir
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Some people prefer to purchase meat directly from the abattoir to ensure its freshness and origin."); // DOPSUM: CHANGE TEXT
+  }
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -139,7 +148,7 @@ class EnglishEntryAbattoir extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-Dopsum write sentence
+Some people prefer to purchase meat directly from the abattoir to ensure its freshness and origin.
                                     ''',
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -152,7 +161,7 @@ Dopsum write sentence
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-رستە رستە رستە رستە رستە رستە رستە
+ھەندێک کەس پێیان باشترە کە گۆشت ڕاستەوخۆ لە قەسابخانەکە بکڕن بۆ ئەوەی لە پاکی و سەرچاوەکەی دڵنیابن.
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
@@ -165,7 +174,7 @@ Dopsum write sentence
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAbattoir("en-GB"),
+                                onPressed: () => speakAbattoir2215("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -173,7 +182,7 @@ Dopsum write sentence
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAbattoir("en-US"),
+                                onPressed: () => speakAbattoir2215("en-US"),
                               ),
                             ],
                           ),

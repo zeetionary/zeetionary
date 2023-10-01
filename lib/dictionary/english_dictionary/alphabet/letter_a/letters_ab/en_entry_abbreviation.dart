@@ -3,27 +3,29 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
+// replace these: EnglishEntryabbreviation - speakAbbreviation - /əˌbriːviˈeɪʃn/ - abbreviation
+
 enum TtsState { playing }
 
-class EnglishEntryAbacus extends StatelessWidget {
-  EnglishEntryAbacus({Key? key}) : super(key: key);
+class EnglishEntryabbreviation extends StatelessWidget {
+  EnglishEntryabbreviation({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbacus(String languageCode) async {
-    // DOPSUM: CHANGE speakDopsum
+  Future<void> speakAbbreviation(String languageCode) async {
+    // DOPSUM: CHANGE speakAbbreviation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abacus"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abbreviation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speak145287(String languageCode) async {
-    // DOPSUM: CHANGE speakDopsum
+  Future<void> speakA852(String languageCode) async {
+    // DOPSUM: CHANGE speakAbbreviation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "In ancient times, people relied on an abacus to perform mathematical calculations."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("What's the abbreviation for this word?"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -49,7 +51,7 @@ class EnglishEntryAbacus extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'abacus', // DOPSUM: CHANGE WORD ENTRY
+                              'abbreviation', // DOPSUM: CHANGE WORD ENTRY
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -57,7 +59,7 @@ class EnglishEntryAbacus extends StatelessWidget {
                             //   width: 10,
                             // ),
                             // Text(
-                            //   '(noun - plural: abacuses)', // DOPSUM: CHANGE WORD TYPE
+                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
                           ],
@@ -65,7 +67,7 @@ class EnglishEntryAbacus extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /ˈæbəkəs/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əˌbriːviˈeɪʃn/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -74,16 +76,16 @@ class EnglishEntryAbacus extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAbacus(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAbbreviation(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /ˈæbəkəs/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              'IpaUS: /əˌbriːviˈeɪʃn/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -92,7 +94,7 @@ class EnglishEntryAbacus extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAbacus(
+                              onPressed: () => speakAbbreviation(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -133,9 +135,10 @@ class EnglishEntryAbacus extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: چۆتکە، چرت، چۆرتکە (بە خۆی ڕووسی‌یە)، ژمێرکە، چۆرت، ئەژمێر (چوارچێوەی مووروودار بۆ ژمارەکاری)
+کوردی: کورت‌کردنەوە، کورتاندن، کورت‌بڕینەوە، سەرھێشتنەوە، قارس‌کردن، لێ‌دەرھێنان، کورت‌کراوی، کورتەوەکراوی
 
-١. چوارچێوەیەک کە وایەری پێوەیە لەگەڵ تۆپی بچووک و بەکاردێت بۆ ژماردن''',
+١. شێوەی کورتکراوەی شتێک
+                            ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -145,7 +148,8 @@ class EnglishEntryAbacus extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''In ancient times, people relied on an abacus to perform mathematical calculations.
+                                    '''
+What's the abbreviation for this word?
                                     ''',
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -158,7 +162,7 @@ class EnglishEntryAbacus extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-لە سەردەمانی کۆندا خەڵکی پشتیان بە ژمێرکە دەبەست بۆ لێکدانەوە بیرکارییەکان
+کورتکراوەی ئەم وشەیە چییە؟
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
@@ -171,7 +175,7 @@ class EnglishEntryAbacus extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speak145287("en-GB"),
+                                onPressed: () => speakA852("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -179,7 +183,7 @@ class EnglishEntryAbacus extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speak145287("en-US"),
+                                onPressed: () => speakA852("en-US"),
                               ),
                             ],
                           ),
@@ -218,10 +222,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abacus (abacuses, abaci)
-1. A tablet placed horizontally on top of the capital of a column as an aid in supporting the architrave
-
-2. A calculator that performs arithmetic functions by manually sliding counters on rods or in grooves
+- Noun: abbreviation (Derived forms: abbreviations)
+1. A shortened form of a word or phrase
+ 
+2. Shortening something by omitting parts of it
 '''),
         ],
       ),
@@ -232,7 +236,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedOne extends StatelessWidget {
-  static String myVideoId = 'npSz54BPxm4';
+  static String myVideoId = 'pYAigM3wmas';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -240,8 +244,8 @@ class YoutubeEmbeddedOne extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 48, // DOPSUM: CHANGE IT
-      // endAt: 78, // DOPSUM: CHANGE IT
+      // startAt: 238, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -259,7 +263,7 @@ class YoutubeEmbeddedOne extends StatelessWidget {
 }
 
 class YoutubeEmbeddedTwo extends StatelessWidget {
-  static String myVideoId = 'O5nskjZ_GoI';
+  static String myVideoId = 'WCGaplvwdKQ';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -267,8 +271,8 @@ class YoutubeEmbeddedTwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 147, // DOPSUM: CHANGE IT
-      // endAt: 78, // DOPSUM: CHANGE IT
+      startAt: 186, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -286,7 +290,7 @@ class YoutubeEmbeddedTwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedThree extends StatelessWidget {
-  static String myVideoId = 'zxml8UQSwC0';
+  static String myVideoId = 'vi6AfgnTgO0';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -294,8 +298,8 @@ class YoutubeEmbeddedThree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 2186, // DOPSUM: CHANGE IT
-      // endAt: 78, // DOPSUM: CHANGE IT
+      startAt: 479, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 

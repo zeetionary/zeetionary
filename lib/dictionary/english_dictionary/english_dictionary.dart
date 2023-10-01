@@ -1,22 +1,28 @@
 import 'package:flutter/material.dart';
 import 'package:zeetionary/dictionary/english_dictionary/dopsum.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_a.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_aback.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abacus.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abandon.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abandoned.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abandonment.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abashed.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abatement.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abattoir.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abbess.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abbey.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abbot.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abbreviate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abbreviation.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abdicate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abdication.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_a.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abacus.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abandon.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abandoned.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abandonment.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abashed.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abatement.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abattoir.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abbess.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abbey.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abbot.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abbreviate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abbreviation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abdicate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abdication.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abdomen.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abdominal.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abduct.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abduction.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aberration.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abet.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -47,6 +53,12 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "abbreviation",
     "abdicate",
     "abdication",
+    "abdomen",
+    "abdominal",
+    "abduct",
+    "abduction",
+    "aberration",
+    "abet",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -221,6 +233,48 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryabdication(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abdomen") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabdomen(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abdominal") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabdominal(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abduct") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabduct(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abduction") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabduction(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aberration") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaberration(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abet") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabet(),
                     ),
                   );
                 }

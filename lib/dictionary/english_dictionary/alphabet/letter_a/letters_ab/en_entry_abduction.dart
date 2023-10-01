@@ -3,29 +3,28 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: EnglishEntryabandonment - speakAbandonment - /əˈbændənmənt/ - abandonment
+// replace these: abduction - speakAbduction - /æbˈdʌkʃn/ - abduction
 
 enum TtsState { playing }
 
-class EnglishEntryabandonment extends StatelessWidget {
-  EnglishEntryabandonment({Key? key}) : super(key: key);
+class EnglishEntryabduction extends StatelessWidget {
+  EnglishEntryabduction({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbandonment(String languageCode) async {
-    // DOPSUM: CHANGE speakAbandonment
+  Future<void> speakAbduction(String languageCode) async {
+    // DOPSUM: CHANGE speakAbduction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abandonment"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abduction"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAba12(String languageCode) async {
-    // DOPSUM: CHANGE speakAbandonment
+  Future<void> speakAb664(String languageCode) async {
+    // DOPSUM: CHANGE speakAbduction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "their childhood abandonment by their mother"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("child abduction"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -51,7 +50,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'abandonment', // DOPSUM: CHANGE WORD ENTRY
+                              'abduction', // DOPSUM: CHANGE WORD ENTRY
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -67,7 +66,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈbændənmənt/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /æbˈdʌkʃn/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -76,7 +75,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAbandonment(
+                              onPressed: () => speakAbduction(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -85,7 +84,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈbændənmənt/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              'IpaUS: /æbˈdʌkʃn/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -94,7 +93,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAbandonment(
+                              onPressed: () => speakAbduction(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -135,9 +134,9 @@ class EnglishEntryabandonment extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: بەجێ‌ھێشتن، تەنیاخستنەوە، تەنیامانەوە، وەلانان، پشت(لێ)ھەڵکردن، چۆڵ‌کردن، تەرک‌کردن، چاوپۆشین، وازلێ‌ھێنان، بەنیوەچڵی‌ھێشتنەوە، دەس(لێ)ھەڵگرتن، تەواونەکردن، ناتەواوھێشتنەوە، دەس(ت)ڕاگرتن، لێ‌گەڕان، دەس(ت)لێ‌بەردان، دەست‌بەرداری، دەس(ت)کێشانەوە
+کوردی: فڕاندن یان ڕفاندنی مرۆڤ، ھەڵگرتن، مرۆدزی
 
-١. کرداری ژێھێشتنی کەسێک بەبێ ویستی گەڕانەوە
+١. کرداری ڕفاندنی کەسێک بەشێوەی نایاسایی و بەکارھێنانی ‌یز
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
@@ -149,7 +148,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-their childhood abandonment by their mother
+child abduction
                                     ''',
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -162,7 +161,7 @@ their childhood abandonment by their mother
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-دەستبەرداربوون لێیان لەلایەن دایکیان
+منداڵ ڕفاندن
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
@@ -175,7 +174,7 @@ their childhood abandonment by their mother
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAba12("en-GB"),
+                                onPressed: () => speakAb664("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -183,7 +182,7 @@ their childhood abandonment by their mother
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAba12("en-US"),
+                                onPressed: () => speakAb664("en-US"),
                               ),
                             ],
                           ),
@@ -222,13 +221,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abandonment (plural: abandonments)
-1. The act of giving something up (=forsaking, desertion)
+Noun: abduction (Derived forms: abductions)
+1. The criminal act of capturing and carrying away by force a family member; if a man's wife is abducted it is a crime against the family relationship and against the wife
  
-2. Withdrawing support or help despite allegiance or responsibility (=desertion, defection)
-"his abandonment of his wife and children left them penniless";
- 
-3. The voluntary surrender of property (or a right to property) without attempting to reclaim it or give it away
+2. (physiology) moving of a body part away from the central axis of the body
 '''),
         ],
       ),
@@ -239,7 +235,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedOne extends StatelessWidget {
-  static String myVideoId = 'k8OtECwWN6c';
+  static String myVideoId = 'TuFKkXGaZd8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -247,7 +243,7 @@ class YoutubeEmbeddedOne extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 79, // DOPSUM: CHANGE IT
+      startAt: 921, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -266,7 +262,7 @@ class YoutubeEmbeddedOne extends StatelessWidget {
 }
 
 class YoutubeEmbeddedTwo extends StatelessWidget {
-  static String myVideoId = '1xHEFn87oOA';
+  static String myVideoId = 'mS3wQyekRyY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -274,7 +270,7 @@ class YoutubeEmbeddedTwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 7, // DOPSUM: CHANGE IT
+      startAt: 4276, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -293,7 +289,7 @@ class YoutubeEmbeddedTwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedThree extends StatelessWidget {
-  static String myVideoId = 'rT5PN7IhyPc';
+  static String myVideoId = 'LYstVS7qdTU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -301,7 +297,7 @@ class YoutubeEmbeddedThree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 497, // DOPSUM: CHANGE IT
+      startAt: 5206, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

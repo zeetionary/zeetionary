@@ -3,29 +3,27 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: EnglishEntryabatement - speakAbatement - /əˈbeɪtmənt/ - abatement
-
 enum TtsState { playing }
 
-class EnglishEntryabatement extends StatelessWidget {
-  EnglishEntryabatement({Key? key}) : super(key: key);
+class EnglishEntryAbacus extends StatelessWidget {
+  EnglishEntryAbacus({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbatement(String languageCode) async {
-    // DOPSUM: CHANGE speakAbatement
+  Future<void> speakAbacus(String languageCode) async {
+    // DOPSUM: CHANGE speakDopsum
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abatement"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abacus"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAbate75(String languageCode) async {
-    // DOPSUM: CHANGE speakAbatement
+  Future<void> speak145287(String languageCode) async {
+    // DOPSUM: CHANGE speakDopsum
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The city spends 9 million dollars a year on air pollution abatement."); // DOPSUM: CHANGE TEXT
+        "In ancient times, people relied on an abacus to perform mathematical calculations."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -51,7 +49,7 @@ class EnglishEntryabatement extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'abatement', // DOPSUM: CHANGE WORD ENTRY
+                              'abacus', // DOPSUM: CHANGE WORD ENTRY
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -59,7 +57,7 @@ class EnglishEntryabatement extends StatelessWidget {
                             //   width: 10,
                             // ),
                             // Text(
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
+                            //   '(noun - plural: abacuses)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
                           ],
@@ -67,7 +65,7 @@ class EnglishEntryabatement extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈbeɪtmənt/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /ˈæbəkəs/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -76,16 +74,16 @@ class EnglishEntryabatement extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAbatement(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAbacus(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈbeɪtmənt/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              'IpaUS: /ˈæbəkəs/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -94,7 +92,7 @@ class EnglishEntryabatement extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAbatement(
+                              onPressed: () => speakAbacus(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -135,10 +133,9 @@ class EnglishEntryabatement extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: کەم‌بوونەوە، سووک‌بوونەوە، داشکان، نیشتنەوە، ھاتنەخوارێ، دابەزین، نزم‌بوونەوە، دامرکان، نەھێشتن، لابردن، پێش‌گرتن، (ماف) وەستاندن، ڕاگرتن، تەواوکردن
+کوردی: چۆتکە، چرت، چۆرتکە (بە خۆی ڕووسی‌یە)، ژمێرکە، چۆرت، ئەژمێر (چوارچێوەی مووروودار بۆ ژمارەکاری)
 
-١. کردەی کەمکردنەوەی ھێزی شتێک
-                            ''',
+١. چوارچێوەیەک کە وایەری پێوەیە لەگەڵ تۆپی بچووک و بەکاردێت بۆ ژماردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -148,8 +145,7 @@ class EnglishEntryabatement extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-The city spends 9 million dollars a year on air pollution abatement.
+                                    '''In ancient times, people relied on an abacus to perform mathematical calculations.
                                     ''',
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -162,7 +158,7 @@ The city spends 9 million dollars a year on air pollution abatement.
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-شارەکە ساڵانە ٩ ملیۆن دۆلار خەرج دەکات بۆ کەمکردنەوەی پیسبوونی بەرگەھەوا
+لە سەردەمانی کۆندا خەڵکی پشتیان بە ژمێرکە دەبەست بۆ لێکدانەوە بیرکارییەکان
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
@@ -175,7 +171,7 @@ The city spends 9 million dollars a year on air pollution abatement.
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAbate75("en-GB"),
+                                onPressed: () => speak145287("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -183,7 +179,7 @@ The city spends 9 million dollars a year on air pollution abatement.
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAbate75("en-US"),
+                                onPressed: () => speak145287("en-US"),
                               ),
                             ],
                           ),
@@ -222,11 +218,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abatement (plural: abatements) 
-1. An interruption in the intensity or amount of something (=suspension, respite, reprieve, hiatus)
- 
-2. The act of abating
-"laws enforcing noise abatement"
+- Noun: abacus (Derived forms: abacuses, abaci)
+1. A tablet placed horizontally on top of the capital of a column as an aid in supporting the architrave
+
+2. A calculator that performs arithmetic functions by manually sliding counters on rods or in grooves
 '''),
         ],
       ),
@@ -237,7 +232,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedOne extends StatelessWidget {
-  static String myVideoId = '5gE0Cc3XHSE';
+  static String myVideoId = 'npSz54BPxm4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -245,8 +240,8 @@ class YoutubeEmbeddedOne extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 2217, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
+      startAt: 48, // DOPSUM: CHANGE IT
+      // endAt: 78, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -264,7 +259,7 @@ class YoutubeEmbeddedOne extends StatelessWidget {
 }
 
 class YoutubeEmbeddedTwo extends StatelessWidget {
-  static String myVideoId = 'AZpzxENCGnM';
+  static String myVideoId = 'O5nskjZ_GoI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -272,8 +267,8 @@ class YoutubeEmbeddedTwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 204, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
+      startAt: 147, // DOPSUM: CHANGE IT
+      // endAt: 78, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -291,7 +286,7 @@ class YoutubeEmbeddedTwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedThree extends StatelessWidget {
-  static String myVideoId = 'Ql-fRFvI6hk';
+  static String myVideoId = 'zxml8UQSwC0';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -299,8 +294,8 @@ class YoutubeEmbeddedThree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1800, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
+      startAt: 2186, // DOPSUM: CHANGE IT
+      // endAt: 78, // DOPSUM: CHANGE IT
     ),
   );
 

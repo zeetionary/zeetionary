@@ -3,29 +3,29 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: EnglishEntryabbreviation - speakAbbreviation - /əˌbriːviˈeɪʃn/ - abbreviation
+// replace these: EnglishEntryabandonment - speakAbandonment - /əˈbændənmənt/ - abandonment
 
 enum TtsState { playing }
 
-class EnglishEntryabbreviation extends StatelessWidget {
-  EnglishEntryabbreviation({Key? key}) : super(key: key);
+class EnglishEntryabandonment extends StatelessWidget {
+  EnglishEntryabandonment({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbbreviation(String languageCode) async {
-    // DOPSUM: CHANGE speakAbbreviation
+  Future<void> speakAbandonment(String languageCode) async {
+    // DOPSUM: CHANGE speakAbandonment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abbreviation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abandonment"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA852(String languageCode) async {
-    // DOPSUM: CHANGE speakAbbreviation
+  Future<void> speakAba12(String languageCode) async {
+    // DOPSUM: CHANGE speakAbandonment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("What's the abbreviation for this word?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "their childhood abandonment by their mother"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -51,7 +51,7 @@ class EnglishEntryabbreviation extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'abbreviation', // DOPSUM: CHANGE WORD ENTRY
+                              'abandonment', // DOPSUM: CHANGE WORD ENTRY
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -59,7 +59,7 @@ class EnglishEntryabbreviation extends StatelessWidget {
                             //   width: 10,
                             // ),
                             // Text(
-                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
+                            //   '(noun - Derived forms:  Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
                           ],
@@ -67,7 +67,7 @@ class EnglishEntryabbreviation extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˌbriːviˈeɪʃn/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əˈbændənmənt/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -76,7 +76,7 @@ class EnglishEntryabbreviation extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAbbreviation(
+                              onPressed: () => speakAbandonment(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -85,7 +85,7 @@ class EnglishEntryabbreviation extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˌbriːviˈeɪʃn/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              'IpaUS: /əˈbændənmənt/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -94,7 +94,7 @@ class EnglishEntryabbreviation extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAbbreviation(
+                              onPressed: () => speakAbandonment(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -135,9 +135,9 @@ class EnglishEntryabbreviation extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: کورت‌کردنەوە، کورتاندن، کورت‌بڕینەوە، سەرھێشتنەوە، قارس‌کردن، لێ‌دەرھێنان، کورت‌کراوی، کورتەوەکراوی
+کوردی: بەجێ‌ھێشتن، تەنیاخستنەوە، تەنیامانەوە، وەلانان، پشت(لێ)ھەڵکردن، چۆڵ‌کردن، تەرک‌کردن، چاوپۆشین، وازلێ‌ھێنان، بەنیوەچڵی‌ھێشتنەوە، دەس(لێ)ھەڵگرتن، تەواونەکردن، ناتەواوھێشتنەوە، دەس(ت)ڕاگرتن، لێ‌گەڕان، دەس(ت)لێ‌بەردان، دەست‌بەرداری، دەس(ت)کێشانەوە
 
-١. شێوەی کورتکراوەی شتێک
+١. کرداری ژێھێشتنی کەسێک بەبێ ویستی گەڕانەوە
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
@@ -149,7 +149,7 @@ class EnglishEntryabbreviation extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-What's the abbreviation for this word?
+their childhood abandonment by their mother
                                     ''',
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -162,7 +162,7 @@ What's the abbreviation for this word?
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-کورتکراوەی ئەم وشەیە چییە؟
+دەستبەرداربوون لێیان لەلایەن دایکیان
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
@@ -175,7 +175,7 @@ What's the abbreviation for this word?
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakA852("en-GB"),
+                                onPressed: () => speakAba12("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -183,7 +183,7 @@ What's the abbreviation for this word?
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakA852("en-US"),
+                                onPressed: () => speakAba12("en-US"),
                               ),
                             ],
                           ),
@@ -222,10 +222,13 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abbreviation (plural: abbreviations)
-1. A shortened form of a word or phrase
+- Noun: abandonment (Derived forms:  abandonments)
+1. The act of giving something up (=forsaking, desertion)
  
-2. Shortening something by omitting parts of it
+2. Withdrawing support or help despite allegiance or responsibility (=desertion, defection)
+"his abandonment of his wife and children left them penniless";
+ 
+3. The voluntary surrender of property (or a right to property) without attempting to reclaim it or give it away
 '''),
         ],
       ),
@@ -236,7 +239,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedOne extends StatelessWidget {
-  static String myVideoId = 'pYAigM3wmas';
+  static String myVideoId = 'k8OtECwWN6c';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -244,7 +247,7 @@ class YoutubeEmbeddedOne extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 238, // DOPSUM: CHANGE IT
+      startAt: 79, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -263,7 +266,7 @@ class YoutubeEmbeddedOne extends StatelessWidget {
 }
 
 class YoutubeEmbeddedTwo extends StatelessWidget {
-  static String myVideoId = 'WCGaplvwdKQ';
+  static String myVideoId = '1xHEFn87oOA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -271,7 +274,7 @@ class YoutubeEmbeddedTwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 186, // DOPSUM: CHANGE IT
+      startAt: 7, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -290,7 +293,7 @@ class YoutubeEmbeddedTwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedThree extends StatelessWidget {
-  static String myVideoId = 'vi6AfgnTgO0';
+  static String myVideoId = 'rT5PN7IhyPc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -298,7 +301,7 @@ class YoutubeEmbeddedThree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 479, // DOPSUM: CHANGE IT
+      startAt: 497, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

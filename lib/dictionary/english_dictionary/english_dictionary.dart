@@ -4,13 +4,19 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_aback.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abacus.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abandon.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abandoned.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abandonment.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abashed.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abatement.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abattoir.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abbess.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abbey.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abbot.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abbreviate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abbreviation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abdicate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/en_entry_abdication.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -28,13 +34,19 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "aback",
     "abacus",
     "abandon",
+    "abandoned",
+    "abandonment",
     "abashed",
     "abate",
+    "abatement",
     "abattoir",
     "abbess",
     "abbey",
     "abbot",
     "abbreviate",
+    "abbreviation",
+    "abdicate",
+    "abdication",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -121,6 +133,20 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     ),
                   );
                 }
+                if (wordsEnglish == "abandoned") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryAbandoned(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abandonment") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabandonment(),
+                    ),
+                  );
+                }
                 if (wordsEnglish == "abashed") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
@@ -132,6 +158,13 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryAbate(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abatement") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabatement(),
                     ),
                   );
                 }
@@ -167,6 +200,27 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryAbbreviate(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abbreviation") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabbreviation(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abdicate") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabdicate(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abdication") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabdication(),
                     ),
                   );
                 }

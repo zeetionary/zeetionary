@@ -160,7 +160,7 @@ He was abetted in the deception by his wife.
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-لەلایەن ژنەکەی ھاندرا بۆ کردنی کارە ھەڵەکە
+لەلایەن ژنەکەی ھاندرا بۆ کردنی تەڵەکەبازییەکە
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction

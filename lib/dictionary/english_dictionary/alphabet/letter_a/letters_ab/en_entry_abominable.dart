@@ -3,60 +3,53 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
+// replace these: EnglishEntryabominable - speakAbominable - abominable - /əˈbɒmɪnəbl/
+
 enum TtsState { playing }
 
-class EnglishEntryAbandon extends StatelessWidget {
-  EnglishEntryAbandon({Key? key}) : super(key: key);
+class EnglishEntryabominable extends StatelessWidget {
+  EnglishEntryabominable({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbandon(String languageCode) async {
-    // DOPSUM: CHANGE speakAbandon
+  Future<void> speakAbominable(String languageCode) async {
+    // DOPSUM: CHANGE speakAbominable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abandon"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abominable"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA664(String languageCode) async {
-    // DOPSUM: CHANGE speakAbandon
+  Future<void> speakA345(String languageCode) async {
+    // DOPSUM: CHANGE speakAbominable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Germany abandoned its political leaders after WWII."); // DOPSUM: CHANGE TEXT
+        "I think you are utterly selfish and your behaviour has been abominable."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speak145632(String languageCode) async {
-    // DOPSUM: CHANGE speakAbandon
+  Future<void> speakAbo27(String languageCode) async {
+    // DOPSUM: CHANGE speakAbominable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The baby had been abandoned by its mother."); // DOPSUM: CHANGE TEXT
+        "We were served the most abominable coffee."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speak4522369(String languageCode) async {
-    // DOPSUM: CHANGE speakAbandon
+  Future<void> speakAbo85(String languageCode) async {
+    // DOPSUM: CHANGE speakAbominable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Snow forced many drivers to abandon their vehicles."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speak112547(String languageCode) async {
-    // DOPSUM: CHANGE speakAbandon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They abandoned the match because of rain."); // DOPSUM: CHANGE TEXT
+        "The judge described the attack as an abominable crime."); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 5,
+      length: 8,
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -76,7 +69,7 @@ class EnglishEntryAbandon extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'abandon', // DOPSUM: CHANGE WORD ENTRY
+                              'abominable', // DOPSUM: CHANGE WORD ENTRY
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -84,7 +77,7 @@ class EnglishEntryAbandon extends StatelessWidget {
                             //   width: 10,
                             // ),
                             // Text(
-                            //   '(verb)', // DOPSUM: CHANGE WORD TYPE
+                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
                           ],
@@ -92,7 +85,7 @@ class EnglishEntryAbandon extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈbændən/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əˈbɒmɪnəbl/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -101,16 +94,16 @@ class EnglishEntryAbandon extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAbandon(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAbominable(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈbændən/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              'IpaUS: /əˈbɑːmɪnəbl/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -119,7 +112,7 @@ class EnglishEntryAbandon extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAbandon(
+                              onPressed: () => speakAbominable(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -137,6 +130,10 @@ class EnglishEntryAbandon extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -160,9 +157,9 @@ class EnglishEntryAbandon extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: کەم‌تەرخەمی، گوێ‌پێ‌نەدان، بێ‌جڵەوی، بەربەڕەڵایی، پشت‌گوێ‌خستن، بێ‌خەیاڵی، ئالۆرێتی، وازلێھێنان، وەلانان
+کوردی: بێزاوی، قێزەون، ناپەسند، پیس، یەکجار ناخۆش
 
-١. جێھێشتنی کەسێک یان شتێک''',
+١. زۆر قێزەون''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -172,9 +169,7 @@ class EnglishEntryAbandon extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-The baby had been abandoned by its mother.
-                                    ''',
+                                    "The judge described the attack as an abominable crime.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -185,9 +180,7 @@ The baby had been abandoned by its mother.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-منداڵەکە لەلایەن دایکی جێھێڵدرابوو
-                                    ''',
+                                    "دادوەرەکە ھێرشەکەی بە بێزراو پێناسەکرد",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -199,7 +192,7 @@ The baby had been abandoned by its mother.
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speak145632("en-GB"),
+                                onPressed: () => speakAbo85("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -207,7 +200,7 @@ The baby had been abandoned by its mother.
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speak145632("en-US"),
+                                onPressed: () => speakAbo85("en-US"),
                               ),
                             ],
                           ),
@@ -217,9 +210,7 @@ The baby had been abandoned by its mother.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-Snow forced many drivers to abandon their vehicles.
-                                    ''',
+                                    "We were served the most abominable coffee.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -230,9 +221,7 @@ Snow forced many drivers to abandon their vehicles.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-بەفر ژمارەیەکی زۆر شۆفێری ناچارکرد ئۆتۆمبێلەکانیان بەجێبھێڵن
-                                    ''',
+                                    "ناخۆشترین قاوەمان پێشکەشکرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -244,7 +233,7 @@ Snow forced many drivers to abandon their vehicles.
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speak4522369("en-GB"),
+                                onPressed: () => speakAbo27("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -252,15 +241,9 @@ Snow forced many drivers to abandon their vehicles.
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speak4522369("en-US"),
+                                onPressed: () => speakAbo27("en-US"),
                               ),
                             ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '٢. وەستان لە کردنی شتێک',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
                           ),
                           Row(
                             children: [
@@ -268,9 +251,7 @@ Snow forced many drivers to abandon their vehicles.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-They abandoned the match because of rain.
-                                    ''',
+                                    "I think you are utterly selfish and your behaviour has been abominable.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -281,9 +262,7 @@ They abandoned the match because of rain.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-یارییەکەیان وەستاند بەھۆی باران بارین
-                                    ''',
+                                    "پێموایە زۆر خۆپەرستیت و ڕەفتارەکانت زۆر ناشرین بوونە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -295,7 +274,7 @@ They abandoned the match because of rain.
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speak112547("en-GB"),
+                                onPressed: () => speakA345("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -303,70 +282,23 @@ They abandoned the match because of rain.
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speak112547("en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '٣. وەستان لە باوەڕبوون بە شتێک',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    '''
-Germany abandoned its political leaders after WWII.
-                                    ''',
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    '''
-ئەڵمانیا دەستبەرداری سەرکردایەتییەکەی بوو لەدوای جەنگی دووەمی جیھان
-                                    ''',
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakA664("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakA664("en-US"),
+                                onPressed: () => speakA345("en-US"),
                               ),
                             ],
                           ),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedOne(), // DOPSUM: FROM YOUTUBE BELOW
-                    YoutubeEmbeddedTwo(),
-                    YoutubeEmbeddedThree(),
-                    // YoutubeEmbeddedFour(),
-                    // YoutubeEmbeddedFive(),
-                    // YoutubeEmbeddedSix()
+                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedtwo(),
+                    YoutubeEmbeddedthree(),
+                    YoutubeEmbeddedfour(),
+                    YoutubeEmbeddedfive(),
+                    YoutubeEmbeddedsix(),
+                    // YoutubeEmbeddedseven(),
+                    // YoutubeEmbeddedeight(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten()
                   ],
                 ),
               ),
@@ -393,27 +325,12 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: abandon (abandoned, abandons, abandoning)
-1. Forsake, leave behind
-"We abandoned the old car in the empty parking lot"
-
-2. Give up with the intent of never claiming again (=give up)
-"Abandon your life to God";
-
-3.Leave behind empty; move out of (=vacate, empty)
-"You must abandon your office by tonight";
-
-4. Stop maintaining or insisting on ideas or claims (=give up)
-"He abandoned the thought of asking for her hand in marriage";
-
-5. Leave someone who needs or counts on you; leave in the lurch (=forsake [literary], desolate, desert)
-"The mother abandoned her children";
-
-- Noun: abandon
-1. The trait of lacking restraint or control; reckless freedom from inhibition or worry (=wantonness, unconstraint)
-"she danced with abandon";
-
-2. A feeling of extreme emotional intensity
+- Adjective: abominable
+1. Unequivocally detestable (=detestable, execrable, odious)
+"abominable treatment of prisoners";
+ 
+2. Exceptionally bad or displeasing (=atrocious, awful, dreadful, painful, terrible, unspeakable, horrible)
+"abominable workmanship";
 '''),
         ],
       ),
@@ -423,8 +340,8 @@ class EnglishMeaning extends StatelessWidget {
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
-class YoutubeEmbeddedOne extends StatelessWidget {
-  static String myVideoId = '1oUBHJNL1RI';
+class YoutubeEmbeddedone extends StatelessWidget {
+  static String myVideoId = 'Tt334Gv7J58';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -432,12 +349,12 @@ class YoutubeEmbeddedOne extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 110, // DOPSUM: CHANGE IT
-      // endAt: 135, // DOPSUM: CHANGE IT
+      startAt: 682, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
-  YoutubeEmbeddedOne({Key? key}) : super(key: key);
+  YoutubeEmbeddedone({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -450,8 +367,8 @@ class YoutubeEmbeddedOne extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedTwo extends StatelessWidget {
-  static String myVideoId = '7Yq-v0l16KU';
+class YoutubeEmbeddedtwo extends StatelessWidget {
+  static String myVideoId = 'NLLxxqMJ20U';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -459,12 +376,12 @@ class YoutubeEmbeddedTwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 4352, // DOPSUM: CHANGE IT
-      // endAt: 4372, // DOPSUM: CHANGE IT
+      startAt: 61, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
-  YoutubeEmbeddedTwo({Key? key}) : super(key: key);
+  YoutubeEmbeddedtwo({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -477,8 +394,8 @@ class YoutubeEmbeddedTwo extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedThree extends StatelessWidget {
-  static String myVideoId = 'jdM3ID4m38U';
+class YoutubeEmbeddedthree extends StatelessWidget {
+  static String myVideoId = 'DuQpWWQiZi8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -486,12 +403,93 @@ class YoutubeEmbeddedThree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1498, // DOPSUM: CHANGE IT
-      // endAt: 1518, // DOPSUM: CHANGE IT
+      startAt: 492, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
-  YoutubeEmbeddedThree({Key? key}) : super(key: key);
+  YoutubeEmbeddedthree({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedfour extends StatelessWidget {
+  static String myVideoId = 'EmT0i0xG6zg';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 3094, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedfour({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  static String myVideoId = 'jH5rNlWiPFM';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 1, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedfive({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  static String myVideoId = 'B4TWN54KqfQ';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 185, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedsix({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

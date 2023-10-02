@@ -171,7 +171,7 @@ He abdicated in favour of his son.
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-وازی لە یەختی شاھانە ھێنا لە بەرژەوەندی کوڕەکەی
+وازی لە تەختی شاھانە ھێنا لە بەرژەوەندی کوڕەکەی
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction

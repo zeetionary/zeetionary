@@ -146,7 +146,7 @@ class EnglishEntryabridgement extends StatelessWidget {
                             '''
 کوردی: کورت‌کردنەوە، لێ‌کردنەوە، پوختە، کورتە
 
-١. کتێبێک یان نووسراوێک کە ھەندێک لە بەشەکانی لادراوە''',
+١. (ناو) کتێبێک یان نووسراوێک کە ھەندێک لە بەشەکانی لادراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

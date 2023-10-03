@@ -253,7 +253,7 @@ class EnglishEntryabroad extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. شتێک کە لەلایەن زۆر کەسەوە باس دەکرێت''',
+١. (هاوەڵکار) شتێک کە لەلایەن زۆر کەسەوە باس دەکرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

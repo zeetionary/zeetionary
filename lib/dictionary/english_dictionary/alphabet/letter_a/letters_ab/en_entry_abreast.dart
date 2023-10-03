@@ -191,56 +191,6 @@ class EnglishEntryabreast extends StatelessWidget {
                               ),
                             ],
                           ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-کوردی: لەپاڵ‌یەک، شان‌بەشان، مل‌بەمل، پێ‌بەپێ، پێک‌نزیک، تەنشیت‌بەتەنیشت، ڕێک
-
-١. (ھاوەڵکار) شانبەشان ڕێکردن لەگەڵ کەسێک بە ھەمان ئاراستە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "A police car drove abreast of us and signalled us to stop.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سەیارەیەکی پۆلیس شانبەشانمان ڕۆشت و ئاماژەی بۆ کردین بوەستین",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakA2156("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakA2156("en-US"),
-                              ),
-                            ],
-                          ),
                         ],
                       ),
                     ),

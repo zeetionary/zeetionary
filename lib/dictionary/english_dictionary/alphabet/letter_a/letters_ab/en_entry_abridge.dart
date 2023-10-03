@@ -146,7 +146,7 @@ class EnglishEntryabridge extends StatelessWidget {
                             '''
 کوردی: کورتکردنەوە، زەوتکردن
 
-١. کورتکردنەوەی کتێبێک یان شانۆیەک بە لابردنی ھەندێک بەشی''',
+١. (کردار) کورتکردنەوەی کتێبێک یان شانۆیەک بە لابردنی ھەندێک بەشی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

@@ -101,7 +101,7 @@ class EnglishEntryabove extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3,
+      length: 12,
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -179,16 +179,16 @@ class EnglishEntryabove extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
                 ],
                 indicator: BoxDecoration(
                   color: const Color.fromARGB(110, 162, 239, 20),
@@ -630,15 +630,15 @@ class EnglishEntryabove extends StatelessWidget {
                       ),
                     ),
                     YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
-                    // YoutubeEmbeddedtwo(),
-                    // YoutubeEmbeddedthree(),
-                    // YoutubeEmbeddedfour(),
-                    // YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(),
-                    // YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten()
+                    YoutubeEmbeddedtwo(),
+                    YoutubeEmbeddedthree(),
+                    YoutubeEmbeddedfour(),
+                    YoutubeEmbeddedfive(),
+                    YoutubeEmbeddedsix(),
+                    YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten()
                   ],
                 ),
               ),

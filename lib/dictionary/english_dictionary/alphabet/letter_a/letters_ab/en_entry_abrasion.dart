@@ -155,7 +155,7 @@ class EnglishEntryabrasion extends StatelessWidget {
                             '''
 کوردی: داخوران، داکڕان، داشۆران، داتاشین، داڕووشان، ڕووشان، لێخستن، (دا)سووان
 
-١. بەشێکی جەستە کە کڕاوە بە شتێکی زبردا''',
+١. (ناو) بەشێکی جەستە کە کڕاوە بە شتێکی زبردا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

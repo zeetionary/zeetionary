@@ -74,6 +74,13 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absence.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absent.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absent_minded.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absentee.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absolute.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absolutely.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absolute_majority.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absolute_zero.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absolve.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absorb.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -160,7 +167,14 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "abseil",
     "absence",
     "absent",
+    "absentee",
     "absent-minded",
+    "absolute",
+    "absolutely",
+    "absolute majority",
+    "absolute zero",
+    "absolve",
+    "absorb",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -730,10 +744,59 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     ),
                   );
                 }
+                if (wordsEnglish == "absentee") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabsentee(),
+                    ),
+                  );
+                }
                 if (wordsEnglish == "absent-minded") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryabsentminded(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "absolute") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabsolute(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "absolutely") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabsolutely(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "absolute majority") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabsolutemajority(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "absolute zero") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabsolutezero(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "absolve") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabsolve(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "absorb") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabsorb(),
                     ),
                   );
                 }

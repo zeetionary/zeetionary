@@ -159,7 +159,7 @@ class EnglishEntryabortion extends StatelessWidget {
                             '''
 کوردی: لەباربردن، ھەڵکەندن، بەرخستن، بەرپێ‌خستن، بەراویتن، بەراویتە بوون
 
-١. کرداری کۆتاییهێنان بە دووگیانی لە قۆناغەکانی سەرەتا؛ لەباربردن''',
+١. (ناو) کرداری کۆتاییهێنان بە دووگیانی لە قۆناغەکانی سەرەتا؛ لەباربردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -207,7 +207,7 @@ class EnglishEntryabortion extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. پڕۆسەی تەندرووستی بۆ لەباربردنی منداڵ''',
+٢. (ناو) پڕۆسەی تەندرووستی بۆ لەباربردنی منداڵ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -255,7 +255,7 @@ class EnglishEntryabortion extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. کردەی لەدایکبوونی منداڵی پێشوەختە بە مردوویی؛ لەبارچوون''',
+٣. (ناو) کردەی لەدایکبوونی منداڵی پێشوەختە بە مردوویی؛ لەبارچوون''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

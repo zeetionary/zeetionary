@@ -159,7 +159,7 @@ class EnglishEntryabort extends StatelessWidget {
                             '''
 کوردی: پچڕاندن، کوژاندنەوە، لەباربردن، لابردن، وەستاندن، کۆتاییپێھێنان (کۆتاییپێھێنانی بەئەنقەستی جێبەجێکردنی بەرنامە لەبەر سەرھەڵدانی ھەڵە)
 
-١. کۆتایی ھێنان بە دووگیانی و ڕێگریکردن لە گەشە و لەدایکبوونی کۆرپەلە؛ لەباربردن''',
+١. (کردار) کۆتایی ھێنان بە دووگیانی و ڕێگریکردن لە گەشە و لەدایکبوونی کۆرپەلە؛ لەباربردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -207,7 +207,7 @@ class EnglishEntryabort extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. منداڵبوونی پێشوەختە بەجۆرێک کە منداڵەکە ڕزگاری نەبێت''',
+٢. (کردار) منداڵبوونی پێشوەختە بەجۆرێک کە منداڵەکە ڕزگاری نەبێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -255,7 +255,7 @@ class EnglishEntryabort extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. کۆتاییپێھێنان بە شتێک پێش ئەوەی تەواو بێت، زۆرجار بەھۆی ئەوەی شکستی دەھێنا''',
+٣. (کردار) کۆتاییپێھێنان بە شتێک پێش ئەوەی تەواو بێت، زۆرجار بەھۆی ئەوەی شکستی دەھێنا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

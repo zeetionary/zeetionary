@@ -137,7 +137,7 @@ class EnglishEntryabduct extends StatelessWidget {
                             '''
 کوردی: مرۆڤ ڕفاندن، مرۆ(ڤ)دزی، ھەڵگرتن، فڕاندن، ڕفاندن
 
-١. بردنی کەسێک بەزۆر و نایاسایی
+١. (کردار) بردنی کەسێک بەزۆر و نایاسایی
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,

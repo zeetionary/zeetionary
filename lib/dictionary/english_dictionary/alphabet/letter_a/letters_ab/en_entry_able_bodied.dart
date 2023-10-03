@@ -135,7 +135,7 @@ class EnglishEntryablebodied extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. کەسێک کە جەستەیەکی ساغی ھەیە بەبێ ھیچ جۆرێکی کەمئەندامی''',
+١. (ھاوەڵناو) کەسێک کە جەستەیەکی ساغی ھەیە بەبێ ھیچ جۆرێکی کەمئەندامی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

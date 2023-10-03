@@ -136,7 +136,7 @@ class EnglishEntryabduction extends StatelessWidget {
                             '''
 کوردی: فڕاندن یان ڕفاندنی مرۆڤ، ھەڵگرتن، مرۆدزی
 
-١. کرداری ڕفاندنی کەسێک بەشێوەی نایاسایی و بەکارھێنانی ‌یز
+١. (ناو) کرداری ڕفاندنی کەسێک بەشێوەی نایاسایی و بەکارھێنانی ‌یز
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,

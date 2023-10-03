@@ -155,7 +155,7 @@ class EnglishEntryable extends StatelessWidget {
                             '''
 کوردی: توانا، بەتوانا، توانادار، خورت، لێوەشاو، لێهاتوو، بەکارهاتوو، ژێهاتی، شارەزا
 
-١. هەبوونی بەهرەمەندی، زانیاری، یان شارەزایی بۆ ئەنجامدانی کارێک''',
+١. (ھاوەڵناو) هەبوونی بەهرەمەندی، زانیاری، یان شارەزایی بۆ ئەنجامدانی کارێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -331,7 +331,7 @@ class EnglishMeaning extends StatelessWidget {
 "an able seaman"; "every able-bodied young man served in the army";
 
 - Adjective suffix: -able
-Able to be, subject to (=-ible)
+5۔ Able to be, subject to (=-ible)
 '''),
         ],
       ),

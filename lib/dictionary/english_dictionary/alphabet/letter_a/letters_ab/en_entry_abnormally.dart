@@ -141,7 +141,7 @@ class EnglishEntryabnormally extends StatelessWidget {
                             '''
 کوردی: نائاسایییانە، ناسروشتییانە
 
-١. بەشێوەیەک کە جیاوازە لە شێوازی ئاسایی بۆ جۆرێک کە جێگەی نیگەرانییە''',
+١. (ھاوەڵکار) بەشێوەیەک کە جیاوازە لە شێوازی ئاسایی بۆ جۆرێک کە جێگەی نیگەرانییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

@@ -150,7 +150,7 @@ class EnglishEntryaboriginal extends StatelessWidget {
                             '''
 کوردی: (مرۆڤ، ڕووەک یان گیانەوەر) ڕەسەن، بوومی، خۆجێیی، ناوچەیی، خۆماڵی، سەرەتانشین، دانیشتووانی ڕەسەنی ئەوسترالیا، 
 
-١. پەیوەندیدار بە دانیشتووانی ڕەسەنی ئوسترالیا''',
+١. (ھاوەڵناو) پەیوەندیدار بە دانیشتووانی ڕەسەنی ئوسترالیا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -198,7 +198,7 @@ class EnglishEntryaboriginal extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. پەیوەندیدار بە دانیشتووانی ڕەسەنی ناوچەیەک پێش ئەوەی ئەورووپییەکان تێیدا دەربکەون''',
+٢. (ھاوەڵناو) پەیوەندیدار بە دانیشتووانی ڕەسەنی ناوچەیەک پێش ئەوەی ئەورووپییەکان تێیدا دەربکەون''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

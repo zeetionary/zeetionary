@@ -3,29 +3,29 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: EnglishEntryabandonment - speakAbandonment - /əˈbændənmənt/ - abandonment
+// replace these: EnglishEntryaboundwith - speakDopsum - abound with - /əˈbaʊnd ɪn/
 
 enum TtsState { playing }
 
-class EnglishEntryabandonment extends StatelessWidget {
-  EnglishEntryabandonment({Key? key}) : super(key: key);
+class EnglishEntryaboundwith extends StatelessWidget {
+  EnglishEntryaboundwith({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbandonment(String languageCode) async {
-    // DOPSUM: CHANGE speakAbandonment
+  Future<void> speakAboundin(String languageCode) async {
+    // DOPSUM: CHANGE speakAboundin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abandonment"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abound with"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAba12(String languageCode) async {
-    // DOPSUM: CHANGE speakAbandonment
+  Future<void> speakA25(String languageCode) async {
+    // DOPSUM: CHANGE speakAboundin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "their childhood abandonment by their mother"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The lakes abound with fish."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -51,7 +51,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'abandonment', // DOPSUM: CHANGE WORD ENTRY
+                              'abound with (or abound in)', // DOPSUM: CHANGE WORD ENTRY
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -59,7 +59,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                             //   width: 10,
                             // ),
                             // Text(
-                            //   '(noun - Derived forms:  Dopsums)', // DOPSUM: CHANGE WORD TYPE
+                            //   '(noun - plural: Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
                           ],
@@ -67,7 +67,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈbændənmənt/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əˈbaʊnd wɪð/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -76,16 +76,16 @@ class EnglishEntryabandonment extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAbandonment(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAboundin(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈbændənmənt/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              'IpaUS: /əˈbaʊnd wɪð/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -94,7 +94,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAbandonment(
+                              onPressed: () => speakAboundin(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -112,6 +112,10 @@ class EnglishEntryabandonment extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -135,10 +139,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: بەجێ‌ھێشتن، تەنیاخستنەوە، تەنیامانەوە، وەلانان، پشت(لێ)ھەڵکردن، چۆڵ‌کردن، تەرک‌کردن، چاوپۆشین، وازلێ‌ھێنان، بەنیوەچڵی‌ھێشتنەوە، دەس(لێ)ھەڵگرتن، تەواونەکردن، ناتەواوھێشتنەوە، دەس(ت)ڕاگرتن، لێ‌گەڕان، دەس(ت)لێ‌بەردان، دەست‌بەرداری، دەس(ت)کێشانەوە
-
-١. (ناو) کرداری ژێھێشتنی کەسێک بەبێ ویستی گەڕانەوە
-                            ''',
+١. (کرداری لێکدراو) کاتێک شتێک ڕێژەیەکی زۆر لە شتێکی تێدایە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -148,9 +149,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-their childhood abandonment by their mother
-                                    ''',
+                                    "The lakes abound with fish.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -161,9 +160,7 @@ their childhood abandonment by their mother
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-دەستبەرداربوون لێیان لەلایەن دایکیان
-                                    ''',
+                                    "دەریاچەکە پڕە لە ماسی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -175,7 +172,7 @@ their childhood abandonment by their mother
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAba12("en-GB"),
+                                onPressed: () => speakA25("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -183,19 +180,23 @@ their childhood abandonment by their mother
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAba12("en-US"),
+                                onPressed: () => speakA25("en-US"),
                               ),
                             ],
                           ),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedOne(), // DOPSUM: FROM YOUTUBE BELOW
-                    YoutubeEmbeddedTwo(),
-                    YoutubeEmbeddedThree(),
-                    // YoutubeEmbeddedFour(),
-                    // YoutubeEmbeddedFive(),
-                    // YoutubeEmbeddedSix()
+                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedtwo(),
+                    YoutubeEmbeddedthree(),
+                    // YoutubeEmbeddedfour(),
+                    // YoutubeEmbeddedfive(),
+                    // YoutubeEmbeddedsix(),
+                    // YoutubeEmbeddedseven(),
+                    // YoutubeEmbeddedeight(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten()
                   ],
                 ),
               ),
@@ -222,13 +223,8 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abandonment (Derived forms:  abandonments)
-1. The act of giving something up (=forsaking, desertion)
- 
-2. Withdrawing support or help despite allegiance or responsibility (=desertion, defection)
-"his abandonment of his wife and children left them penniless";
- 
-3. The voluntary surrender of property (or a right to property) without attempting to reclaim it or give it away
+- Verb: abound with (Derived forms: abounds with, abounding with, abounded with)
+1. Exist in large quantity (= teem in, pullulate with)
 '''),
         ],
       ),
@@ -238,8 +234,8 @@ class EnglishMeaning extends StatelessWidget {
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
-class YoutubeEmbeddedOne extends StatelessWidget {
-  static String myVideoId = 'k8OtECwWN6c';
+class YoutubeEmbeddedone extends StatelessWidget {
+  static String myVideoId = 'Tn30nQAfTyk';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -247,12 +243,12 @@ class YoutubeEmbeddedOne extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 79, // DOPSUM: CHANGE IT
+      startAt: 279, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
-  YoutubeEmbeddedOne({Key? key}) : super(key: key);
+  YoutubeEmbeddedone({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -265,8 +261,8 @@ class YoutubeEmbeddedOne extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedTwo extends StatelessWidget {
-  static String myVideoId = '1xHEFn87oOA';
+class YoutubeEmbeddedtwo extends StatelessWidget {
+  static String myVideoId = 'EpXzTR-qNB0';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -274,12 +270,12 @@ class YoutubeEmbeddedTwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 7, // DOPSUM: CHANGE IT
+      startAt: 104, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
-  YoutubeEmbeddedTwo({Key? key}) : super(key: key);
+  YoutubeEmbeddedtwo({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -292,8 +288,8 @@ class YoutubeEmbeddedTwo extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedThree extends StatelessWidget {
-  static String myVideoId = 'rT5PN7IhyPc';
+class YoutubeEmbeddedthree extends StatelessWidget {
+  static String myVideoId = 'G-gyzGqsWio';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -301,12 +297,12 @@ class YoutubeEmbeddedThree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 497, // DOPSUM: CHANGE IT
+      startAt: 381, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
-  YoutubeEmbeddedThree({Key? key}) : super(key: key);
+  YoutubeEmbeddedthree({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -137,7 +137,7 @@ class EnglishEntryAbate extends StatelessWidget {
                             '''
 کوردی: دامرکان، داکوژان، ئارام‌گرتن
 
-١. لەدەستدانی هێز و لاوازبوون''',
+١. (کردار) لەدەستدانی هێز و لاوازبوون''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

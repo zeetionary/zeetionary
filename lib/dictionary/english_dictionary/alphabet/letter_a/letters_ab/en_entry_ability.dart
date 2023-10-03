@@ -173,7 +173,7 @@ class EnglishEntryability extends StatelessWidget {
                             '''
 کوردی: توانایی، تواناداری، خورتی، زۆخ، وزە، بنگە، بار، یارا، پەک، لێوەشاوەیی، شیاوێتی، بەکارھاتوویی، لێھاتوویی، جەوھەر، بەھرەمەندی، بەھرە
 
-١. توانای ئەنجامدانی کارێک''',
+١. (ناو) توانای ئەنجامدانی کارێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -303,7 +303,7 @@ class EnglishEntryability extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. ئاستی ھەبوونی شارەزاییەک یان زانیاری''',
+٢. (ناو) ئاستی ھەبوونی شارەزاییەک یان زانیاری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

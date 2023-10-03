@@ -138,7 +138,7 @@ class EnglishEntryabnormality extends StatelessWidget {
                             '''
 کوردی: نائاسایی بوون، سەیربوون، ڕیزپەڕێتی، ناوازەیی، دۆخێکی نائاسایی
 
-١. تایبەتمەندییەکی کەسێک یان شتێک کە ئاسایی نییە و زیانی ھەیە''',
+١. (ناو) تایبەتمەندییەکی کەسێک یان شتێک کە ئاسایی نییە و زیانی ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

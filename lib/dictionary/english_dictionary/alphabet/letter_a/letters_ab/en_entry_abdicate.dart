@@ -146,7 +146,7 @@ class EnglishEntryabdicate extends StatelessWidget {
                             '''
 کوردی: جێھێشتنی تەختی شاھانە
 
-١. وازھێنان لە پۆستی پاشایی، شاژنی، یان ئیمپراتۆری
+١. (کردار) وازھێنان لە پۆستی پاشایی، شاژنی، یان ئیمپراتۆری
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,

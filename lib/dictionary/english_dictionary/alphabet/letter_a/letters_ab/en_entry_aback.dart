@@ -133,9 +133,9 @@ class EnglishEntryAback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: داچڵەکین، هەڵبەزینەوە، داترووسکان، سەرسووڕمان، واق‌وڕمان
+کوردی: داچڵەکین، ھەڵبەزینەوە، داترووسکان، سەرسووڕمان، واق‌وڕمان
 
-١. تووشی سەرسوڕمان و شۆک بیت بە شتێک
+١. (ھاوەڵکار) تووشی سەرسوڕمان و شۆک بیت بە شتێک
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,

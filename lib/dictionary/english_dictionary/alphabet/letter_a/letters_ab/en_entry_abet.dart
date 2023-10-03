@@ -135,7 +135,7 @@ class EnglishEntryabet extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. یارمەتیدان و ھاندانی کەسێک بۆ کردنی کارێکی ھەڵە
+١. (کردار) یارمەتیدان و ھاندانی کەسێک بۆ کردنی کارێکی ھەڵە
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,

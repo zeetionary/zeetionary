@@ -143,7 +143,7 @@ class EnglishEntryabjectly extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. بەشێوەیەک کە جێگەی بەزەییە بەڵام ھیچیش ناتوانرێت بکرێت''',
+١. (ھاوەڵکار) بەشێوەیەک کە جێگەی بەزەییە بەڵام ھیچیش ناتوانرێت بکرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

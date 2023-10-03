@@ -137,7 +137,7 @@ class EnglishEntryabbot extends StatelessWidget {
                             '''
 کوردی: سەرۆکی دەیر (دێر، کڵێسا)، پیری دەیر، گەورەی دەیر
 
-١. پیاوێک کە سەرۆکایەتی کڵێسایەک دەکات''',
+١. (ناو) پیاوێک کە سەرۆکایەتی کڵێسایەک دەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

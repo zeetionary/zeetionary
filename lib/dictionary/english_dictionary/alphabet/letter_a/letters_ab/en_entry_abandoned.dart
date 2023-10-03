@@ -146,7 +146,7 @@ class EnglishEntryAbandoned extends StatelessWidget {
                             '''
 کوردی: بەتەنیاکەوتوو، بەجێ‌ماو، وازلێ‌ھێنراو، وەلانراو، دەس‌لێ‌ھەڵگیراو، لاتەریک، وێڵ‌کراو، چۆڵ‌کراو، پشت‌لێ‌ھەڵکراو، بەجێ‌ھێڵراو
 
-١. شتێک کە جێھێڵدراوە و چیتر بەکارناھێندرێت
+١. (هاوەڵناو) شتێک کە جێھێڵدراوە و چیتر بەکارناھێندرێت
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
@@ -216,7 +216,7 @@ There was an abandoned supermarket trolley in the middle of the road.
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-گالیسکەیەکی جێهێڵدراوی سوپەرمارکێتێک لە ناوەڕاتی شەقامەکە بوو
+گالیسکەیەکی جێھێڵدراوی سوپەرمارکێتێک لە ناوەڕاتی شەقامەکە بوو
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction

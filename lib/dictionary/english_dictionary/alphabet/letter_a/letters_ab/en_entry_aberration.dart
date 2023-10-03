@@ -146,7 +146,7 @@ class EnglishEntryaberration extends StatelessWidget {
                             '''
 کوردی: لادان، ڕێ‌ھەڵەکردن، لاڕێیی، لەرێ دەرچوون، ھەڵچوون، گومڕایی، خریایی‌بوون، گرفت، تێکچوون، کێشە، کەم‌وکوڕی
 
-١. شتێک یان ڕەدتارێک کە ئاسایی و گونجاو نییە
+١. (ناو) شتێک یان ڕەدتارێک کە ئاسایی و گونجاو نییە
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,

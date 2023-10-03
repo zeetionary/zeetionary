@@ -150,7 +150,7 @@ class EnglishEntryaboard extends StatelessWidget {
                             '''
 کوردی: لە، لەنێو، لەژوور، سوار (ی)، لەسەر، لەبان (کەشتی، فڕۆکە، شەمەندەفەر و ھتد)
 
-١. لەسەر یان ناو کەشتی، فڕۆکە، پاس، یان شمەندەفەر''',
+١. (ئامراز، ھاوەڵکار) لەسەر یان ناو کەشتی، فڕۆکە، پاس، یان شمەندەفەر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -288,7 +288,7 @@ class EnglishMeaning extends StatelessWidget {
 "Bill's been aboard for three years now"
 
 - Preposition: aboard
-1. On board of
+5. On board of
 "We all went aboard the ship"
 '''),
         ],

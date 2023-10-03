@@ -47,6 +47,11 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aborigine.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abort.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abortion.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abortive.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abound.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abound_in.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abound_with.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_about.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -107,6 +112,11 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "aborigine",
     "abort",
     "abortion",
+    "abortive",
+    "abound",
+    "abound in",
+    "abound with",
+    "about"
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -491,6 +501,41 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryabortion(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abortive") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabortive(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abound") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabound(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abound in") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaboundin(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abound with") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaboundwith(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "about") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabout(),
                     ),
                   );
                 }

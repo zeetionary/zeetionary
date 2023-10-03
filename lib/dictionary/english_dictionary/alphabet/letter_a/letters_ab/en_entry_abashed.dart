@@ -135,7 +135,7 @@ class EnglishEntryAbashed extends StatelessWidget {
                             '''
 کوردی: تریقەوەبوو، بەخۆداشکاو، شەرم‌داگرتوو، خەجاڵەتبار، شەرمەزار، ڕووزەرد، سەرلێ‌شێواو، تاساو، پەشۆکاو، دەس(ە)پاچە، عەبەسراو، واق‌وڕماو
 
-١. شەرمەزار بەهۆی شتێک کە کردووتە                            ''',
+١. (ھاوەڵناو) شەرمەزار بەھۆی شتێک کە کردووتە                            ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -224,7 +224,7 @@ class EnglishMeaning extends StatelessWidget {
 "felt abashed at the extravagant praise";
 
 - Verb: abash
-Cause to be embarrassed; cause to feel self-conscious (=embarrass)
+2۔ Cause to be embarrassed; cause to feel self-conscious (=embarrass)
 "One would think that Owen's failure even to pick up the hammer at the bell-ringing contest would thoroughly abash him, but he laughed about it";
 '''),
         ],

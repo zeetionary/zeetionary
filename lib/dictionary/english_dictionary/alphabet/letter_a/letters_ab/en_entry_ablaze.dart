@@ -173,7 +173,7 @@ class EnglishEntryablaze extends StatelessWidget {
                             '''
 کوردی: گڕگرتوو، داگیرساو، ئاورگرتوو، ئاورتێبەربوو، کڵپەکردوو، ھەڵبوو، سوورەوەبوو، تووڕە، بریقەدار، ڕۆشن، ڕووناک، بەشەوق
 
-١. سووتان بەخێرایی و بەھێزی''',
+١. (ھاوەڵناو) سووتان بەخێرایی و بەھێزی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -262,7 +262,7 @@ class EnglishEntryablaze extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. ڕۆشن و پڕ لە ڕەنگ''',
+٢. (ھاوەڵناو) ڕۆشن و پڕ لە ڕەنگ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -351,7 +351,7 @@ class EnglishEntryablaze extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. پڕ لە ھەست و جۆشوخرۆشی''',
+٣. (ھاوەڵناو) پڕ لە ھەست و جۆشوخرۆشی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

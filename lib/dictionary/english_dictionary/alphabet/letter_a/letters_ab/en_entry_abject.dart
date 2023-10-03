@@ -137,7 +137,7 @@ class EnglishEntryabject extends StatelessWidget {
                             '''
 کوردی: جێی بەزەیی، گوناح، زۆر خراپ، ناخۆش، سووک، نزم، چروک، ناکەس، تەرەس، ھیچ، تڕۆ، ملکەچ، خوێڕی، سەرشۆڕ
 
-١. خراپ و بەبێ ھیوا''',
+١. (ھاوەڵناو) خراپ و بەبێ ھیوا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

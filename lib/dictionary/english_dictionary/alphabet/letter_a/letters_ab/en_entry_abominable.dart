@@ -159,7 +159,7 @@ class EnglishEntryabominable extends StatelessWidget {
                             '''
 کوردی: بێزاوی، قێزەون، ناپەسند، پیس، یەکجار ناخۆش
 
-١. زۆر قێزەون''',
+١. (ھاوەڵناو) زۆر قێزەون''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

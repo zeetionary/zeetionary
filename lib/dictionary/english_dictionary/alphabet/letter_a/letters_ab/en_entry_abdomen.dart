@@ -137,7 +137,7 @@ class EnglishEntryabdomen extends StatelessWidget {
                             '''
 کوردی: سک، زگ، ورگ، سگ
 
-١. ئەو بەشەی لەشە کە دەکەوێتە ژێر سنگ و گەدە و ڕیخۆڵەکان و ئەندامی دیکەی تێدایە
+١. (ناو) ئەو بەشەی لەشە کە دەکەوێتە ژێر سنگ و گەدە و ڕیخۆڵەکان و ئەندامی دیکەی تێدایە
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,

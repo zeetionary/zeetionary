@@ -137,7 +137,7 @@ class EnglishEntryAbattoir extends StatelessWidget {
                             '''
 کوردی: قەساب‌خانە، کوشتارگا، کوشتنگا، کوشتارخانە
 
-١. پشوێنێک کە ئاژەڵان تێیدا دەکوژرێن بە مەبەستی فرۆشتنی گۆشتەکەیان''',
+١. (ناو) پشوێنێک کە ئاژەڵان تێیدا دەکوژرێن بە مەبەستی فرۆشتنی گۆشتەکەیان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

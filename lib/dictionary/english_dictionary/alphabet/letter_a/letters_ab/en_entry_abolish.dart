@@ -141,7 +141,7 @@ class EnglishEntryabolish extends StatelessWidget {
                             '''
 کوردی: ھەڵوەشاندنەوە
 
-١. بە فەرمی کۆتایی پێھێنانی یاسایەک، سیستەمێک، یان دامەزراوەیەک''',
+١. (کردار) بە فەرمی کۆتایی پێھێنانی یاسایەک، سیستەمێک، یان دامەزراوەیەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

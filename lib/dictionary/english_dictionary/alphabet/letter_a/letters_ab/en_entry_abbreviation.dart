@@ -137,7 +137,7 @@ class EnglishEntryabbreviation extends StatelessWidget {
                             '''
 کوردی: کورت‌کردنەوە، کورتاندن، کورت‌بڕینەوە، سەرھێشتنەوە، قارس‌کردن، لێ‌دەرھێنان، کورت‌کراوی، کورتەوەکراوی
 
-١. شێوەی کورتکراوەی شتێک
+١. (ناو) شێوەی کورتکراوەی شتێک
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,

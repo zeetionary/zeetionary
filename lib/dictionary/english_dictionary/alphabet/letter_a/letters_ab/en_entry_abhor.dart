@@ -146,7 +146,7 @@ class EnglishEntryabhor extends StatelessWidget {
                             '''
 کوردی: ڕق‌لێ‌بوون، بێزکردنەوە،
 
-١. ڕقبوون لە شتێک بەھۆی ئەوەی نەگونجاوە
+١. (کردار) ڕقبوون لە شتێک بەھۆی ئەوەی نەگونجاوە
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,

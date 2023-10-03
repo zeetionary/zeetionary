@@ -137,7 +137,7 @@ class EnglishEntryAbbess extends StatelessWidget {
                             '''
 کوردی: دایکە سەرۆکی دەیر، سەردەیر، (ژنە)ڕەبەنی مەزن
 
-١. ژنە ڕەبەنێک کە سەرۆکی کڵێسایەکە''',
+١. (ناو) ژنە ڕەبەنێک کە سەرۆکی کڵێسایەکە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

@@ -166,7 +166,7 @@ class EnglishEntryA extends StatelessWidget {
                           children: [
                             const Text(
                               // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              '١. پێش ناوی ژمێردراو یان تاک بەکاردێت لە کاتی ئاماژە بۆ کەسانێک یان ئەو شتانەی کە پێشوەختە باس نەکراون',
+                              '١. (ئامراز) پێش ناوی ژمێردراو یان تاک بەکاردێت لە کاتی ئاماژە بۆ کەسانێک یان ئەو شتانەی کە پێشوەختە باس نەکراون',
                               style: TextStyle(fontSize: 18),
                               textAlign: TextAlign
                                   .right, // Set text alignment to right
@@ -259,7 +259,7 @@ class EnglishEntryA extends StatelessWidget {
                             ),
                             const Text(
                               // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              '٢. بەکاردێت بۆ ئەوەی نیشانی بدات کە کەسێک/شتێک ئەندامی گروپێک یان پیشەیەکە',
+                              '٢. (ئامراز) بەکاردێت بۆ ئەوەی نیشانی بدات کە کەسێک/شتێک ئەندامی گروپێک یان پیشەیەکە',
                               style: TextStyle(fontSize: 18),
                               textAlign: TextAlign
                                   .right, // Set text alignment to right
@@ -310,7 +310,7 @@ class EnglishEntryA extends StatelessWidget {
                             ),
                             const Text(
                               // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              '٣. بەکاردێت بۆ گشتگیرکردن',
+                              '٣. (ئامراز) بەکاردێت بۆ گشتگیرکردن',
                               style: TextStyle(fontSize: 18),
                               textAlign: TextAlign
                                   .right, // Set text alignment to right
@@ -361,7 +361,7 @@ class EnglishEntryA extends StatelessWidget {
                             ),
                             const Text(
                               // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              '٤. پێش ناوی نەژمێردراو بەکاردێت کاتێک هاوەڵناوێک لە پێشیان یان دەستەواژەیەک لە دوایان دێت',
+                              '٤. (ئامراز) پێش ناوی نەژمێردراو بەکاردێت کاتێک هاوەڵناوێک لە پێشیان یان دەستەواژەیەک لە دوایان دێت',
                               style: TextStyle(fontSize: 18),
                               textAlign: TextAlign
                                   .right, // Set text alignment to right
@@ -412,7 +412,7 @@ class EnglishEntryA extends StatelessWidget {
                             ),
                             const Text(
                               // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              '٥. لە پێش ئەو ناوانە بەکاردێت کە پێکەوە ناودەهێندرێن ',
+                              '٥. (ئامراز) لە پێش ئەو ناوانە بەکاردێت کە پێکەوە ناودەهێندرێن ',
                               style: TextStyle(fontSize: 18),
                               textAlign: TextAlign
                                   .right, // Set text alignment to right

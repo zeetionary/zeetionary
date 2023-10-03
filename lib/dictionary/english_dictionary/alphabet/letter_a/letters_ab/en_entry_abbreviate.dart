@@ -137,7 +137,7 @@ class EnglishEntryAbbreviate extends StatelessWidget {
                             '''
 کوردی: کورتکردنەوە، کورتەکردنەوە
 
-١. کورتکردنەوەی وشە یان ناو، زۆرجار بە تەنها بەکارهێنانی پیتەکانی سەرەتا''',
+١. (کردار) کورتکردنەوەی وشە یان ناو، زۆرجار بە تەنھا بەکارھێنانی پیتەکانی سەرەتا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

@@ -162,7 +162,7 @@ class EnglishEntryAbandon extends StatelessWidget {
                             '''
 کوردی: کەم‌تەرخەمی، گوێ‌پێ‌نەدان، بێ‌جڵەوی، بەربەڕەڵایی، پشت‌گوێ‌خستن، بێ‌خەیاڵی، ئالۆرێتی، وازلێھێنان، وەلانان
 
-١. جێھێشتنی کەسێک یان شتێک''',
+١. (کردار) جێھێشتنی کەسێک یان شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -258,7 +258,7 @@ Snow forced many drivers to abandon their vehicles.
                           ),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '٢. وەستان لە کردنی شتێک',
+                            '٢. (کردار) وەستان لە کردنی شتێک',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -309,7 +309,7 @@ They abandoned the match because of rain.
                           ),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '٣. وەستان لە باوەڕبوون بە شتێک',
+                            '٣. (کردار) وەستان لە باوەڕبوون بە شتێک',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

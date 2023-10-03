@@ -141,7 +141,7 @@ class EnglishEntryabode extends StatelessWidget {
                             '''
 کوردی: ماڵ، خانوو، بنکە، ئێورگە، ھێورگە، مەکۆ، جێگا، جێ، شوێن، جێ‌وڕێ، زێد، ئارا، ڕێ‌وشوێن
 
-١. شوێنی ژیانی کەسێک''',
+١. (ناو) شوێنی ژیانی کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

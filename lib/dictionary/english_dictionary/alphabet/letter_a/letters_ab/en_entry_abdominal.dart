@@ -136,7 +136,7 @@ class EnglishEntryabdominal extends StatelessWidget {
                             '''
 کوردی: زگی، سگی، ورگی، ناوزگ، ماسوولکەکانی زگ، کۆمەڵە ماسوولکەی سگ
 
-١. پەیوەندیدار بە سک
+١. (هاوەڵناو) پەیوەندیدار بە سک
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
@@ -226,7 +226,7 @@ class EnglishMeaning extends StatelessWidget {
 "abdominal muscles"
 
 - Noun: abdominal  ub'dóm(-u)-nul
-1۔ The muscles of the abdomen (=abdominal muscle, ab)
+2۔ The muscles of the abdomen (=abdominal muscle, ab)
 '''),
         ],
       ),

@@ -137,7 +137,7 @@ class EnglishEntryabhorrent extends StatelessWidget {
                             '''
 کوردی: بێزار، بێزراو، بێزەون، قێزەون، ناشیرین، ناحەز، دزێو
 
-١. شتێک کە نەگونجاوە و ڕقت لا درووستدەکات
+١. (ھاوەڵناو) شتێک کە نەگونجاوە و ڕقت لا درووستدەکات
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,

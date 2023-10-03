@@ -3,113 +3,105 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: EnglishEntryabout - speakAbout - about - /əˈbaʊt/
+// replace these: EnglishEntryabove - speakAbove - above - /əˈbʌv/
 
 enum TtsState { playing }
 
-class EnglishEntryabout extends StatelessWidget {
-  EnglishEntryabout({Key? key}) : super(key: key);
+class EnglishEntryabove extends StatelessWidget {
+  EnglishEntryabove({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbout(String languageCode) async {
-    // DOPSUM: CHANGE speakAbout
+  Future<void> speakAbove(String languageCode) async {
+    // DOPSUM: CHANGE speakAbove
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("about"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("above"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA2247(String languageCode) async {
-    // DOPSUM: CHANGE speakAbout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her books were lying about on the floor."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakA34(String languageCode) async {
-    // DOPSUM: CHANGE speakAbout
+  Future<void> speakA1249(String languageCode) async {
+    // DOPSUM: CHANGE speakAbove
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The children were rushing about in the garden."); // DOPSUM: CHANGE TEXT
+        "Please write to us at the above address."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA994(String languageCode) async {
-    // DOPSUM: CHANGE speakAbout
+  Future<void> speak1529(String languageCode) async {
+    // DOPSUM: CHANGE speakAbove
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I'm just about ready."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("children aged 12 and above"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA54(String languageCode) async {
-    // DOPSUM: CHANGE speakAbout
+  Future<void> speak9221(String languageCode) async {
+    // DOPSUM: CHANGE speakAbove
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("They waited (for) about an hour."); // DOPSUM: CHANGE TEXT
+        .speak("Seen from above the cars looked tiny."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA557(String languageCode) async {
-    // DOPSUM: CHANGE speakAbout
+  Future<void> speakA2477(String languageCode) async {
+    // DOPSUM: CHANGE speakAbove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Put it on the shelf above."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakA6641(String languageCode) async {
+    // DOPSUM: CHANGE speakAbove
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Everywhere people were going about their daily business."); // DOPSUM: CHANGE TEXT
+        "She's not above lying when it suits her."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA25(String languageCode) async {
-    // DOPSUM: CHANGE speakAbout
+  Future<void> speakA2886(String languageCode) async {
+    // DOPSUM: CHANGE speakAbove
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We wandered about the town for an hour or so."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakA327(String languageCode) async {
-    // DOPSUM: CHANGE speakAbout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Movies are all about making money these days."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakA5541(String languageCode) async {
-    // DOPSUM: CHANGE speakAbout
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There's something about this business that is not quite right."); // DOPSUM: CHANGE TEXT
+        "I rate her above most other players of her age."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakA337(String languageCode) async {
-    // DOPSUM: CHANGE speakAbout
+    // DOPSUM: CHANGE speakAbove
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("What's she so angry about?"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Temperatures have been above average."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA225(String languageCode) async {
-    // DOPSUM: CHANGE speakAbout
+  Future<void> speakA6224(String languageCode) async {
+    // DOPSUM: CHANGE speakAbove
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Tell me all about it."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A captain in the navy ranks above a captain in the army."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakA3447(String languageCode) async {
+    // DOPSUM: CHANGE speakAbove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("We were flying above the clouds."); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12,
+      length: 3,
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -129,7 +121,7 @@ class EnglishEntryabout extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'about', // DOPSUM: CHANGE WORD ENTRY
+                              'above', // DOPSUM: CHANGE WORD ENTRY
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -145,7 +137,7 @@ class EnglishEntryabout extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈbaʊt/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əˈbʌv/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -155,7 +147,7 @@ class EnglishEntryabout extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAbout(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAbove(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -163,7 +155,7 @@ class EnglishEntryabout extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈbaʊt/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              'IpaUS: /əˈbʌv/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -172,7 +164,7 @@ class EnglishEntryabout extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAbout(
+                              onPressed: () => speakAbove(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -187,16 +179,16 @@ class EnglishEntryabout extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
                 ],
                 indicator: BoxDecoration(
                   color: const Color.fromARGB(110, 162, 239, 20),
@@ -217,9 +209,9 @@ class EnglishEntryabout extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: نزیکەی، لە دەوروبەری، بە مەزندە، سەرلە، لەبارەی، لەمەڕ، دەوروبەر، دەوروپشت، دۆرمادۆر، بە ھەر لا، لێرە و لەوێ، خەریکی، سەرقاڵی، مژولی، خەریک، پێچەوانەی، بەرڤاژی، 
+کوردی: لەسەر، لەژوور، لەبان، لە ئاسمان، لەسەرووی، لەژوور سیفر، باڵا، ژوورسەر، بەژوور، بان‌سەر، ژوورتر، بان‌تر، زۆرتر لە، پتر لە، زیاتر لە، گەورەتر، پێش‌تر، سەروو، سەرتر (کتێب و نووسراوە)
 
-١. (ئامراز) دەربارەی شتێک''',
+١. (ئامراز) لە سەروو کەسێک یان شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -229,7 +221,7 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Tell me all about it.",
+                                    "We were flying above the clouds.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -240,7 +232,7 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەموو شتێکم پێ بڵێ لەسەری",
+                                    "لە سەروو ھەورەکانەوە دەفڕین",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -252,7 +244,7 @@ class EnglishEntryabout extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakA225("en-GB"),
+                                onPressed: () => speakA3447("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -260,7 +252,7 @@ class EnglishEntryabout extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakA225("en-US"),
+                                onPressed: () => speakA3447("en-US"),
                               ),
                             ],
                           ),
@@ -270,7 +262,7 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "What's she so angry about?",
+                                    "A captain in the navy ranks above a captain in the army.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -281,7 +273,55 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەسەر چییە وا تووڕەیە؟",
+                                    "کاپتنێک لە ھێزی دەریایی لە سەروو کاپتنێکی سوپاوەیە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakA6224("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakA6224("en-US"),
+                              ),
+                            ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٢. (ئامراز) لە سەروو ڕێژەیەک، ژمارەیەک، یان ئاستێک''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Temperatures have been above average.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "پلەی گەرمی لە سەروو ڕێژەی ئاسایی بووە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -305,51 +345,10 @@ class EnglishEntryabout extends StatelessWidget {
                               ),
                             ],
                           ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "There's something about this business that is not quite right.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "شتێک دەربارەی ئەم ئیشە لە جێگەی خۆی نییە",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakA5541("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakA5541("en-US"),
-                              ),
-                            ],
-                          ),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. (ئامراز) بەکاردێت بۆ باسکردنی ئامانجی شتێک''',
+٣. (ئامراز) کاتێک شتێک باشتر یان گرنگترە لە شتی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -359,7 +358,7 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Movies are all about making money these days.",
+                                    "I rate her above most other players of her age.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -370,7 +369,7 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەم سەردەمەدا ئامانج لە ھەموو فیلمەکان قازانجە",
+                                    "ھەڵسەنگاندنم بۆی ئەوەیە کە باشترە لە یاریزانانی دیکەی ھاوتەمەنی خۆی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -382,7 +381,7 @@ class EnglishEntryabout extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakA327("en-GB"),
+                                onPressed: () => speakA2886("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -390,14 +389,14 @@ class EnglishEntryabout extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakA327("en-US"),
+                                onPressed: () => speakA2886("en-US"),
                               ),
                             ],
                           ),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. (ئامراز) سەرقاڵبوون بە شتێک''',
+٤. (ئامراز) لە ئاستێک کە شتێکی لێ ناوەشێتەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -407,7 +406,7 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Everywhere people were going about their daily business.",
+                                    "She's not above lying when it suits her.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -418,7 +417,7 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە ھەموو شوێنێک خەڵکی سەرقاڵی ژیانی ڕۆزانەیانن",
+                                    "لە درۆکردن بەدەر نییە کە لە بەرژەوەندی خۆی بێت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -430,7 +429,7 @@ class EnglishEntryabout extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakA557("en-GB"),
+                                onPressed: () => speakA6641("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -438,14 +437,14 @@ class EnglishEntryabout extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakA557("en-US"),
+                                onPressed: () => speakA6641("en-US"),
                               ),
                             ],
                           ),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٤. (ئامراز) بە ژمارەیەک لادا''',
+٥. (ھاوەڵکار) لە شوێنێکی بەرز''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -455,7 +454,7 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "We wandered about the town for an hour or so.",
+                                    "Put it on the shelf above.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -466,7 +465,7 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نزیکەی کاتژمێرێک بە شارۆچکەکەدا سووڕاینەوە",
+                                    "بیخە سەر ڕەفەکەی سەرەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -478,7 +477,7 @@ class EnglishEntryabout extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakA25("en-GB"),
+                                onPressed: () => speakA2477("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -486,14 +485,55 @@ class EnglishEntryabout extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakA25("en-US"),
+                                onPressed: () => speakA2477("en-US"),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Seen from above the cars looked tiny.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "لە سەرەوە ئۆتۆمبێلەکان وردیلانە دیاربوون",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speak9221("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speak9221("en-US"),
                               ),
                             ],
                           ),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٥. (ئامراز) بە ژمارەیەک لادا''',
+٦. (ھاوەڵکار) لە سەروو ڕێژەیەک، ژمارەیەک، یان ئاستێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -503,7 +543,7 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "We wandered about the town for an hour or so.",
+                                    "children aged 12 and above",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -514,7 +554,7 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نزیکەی کاتژمێرێک بە شارۆچکەکەدا سووڕاینەوە",
+                                    "منداڵانی تەمەن ١٢ ساڵ یان زیاتر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -526,7 +566,7 @@ class EnglishEntryabout extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakA25("en-GB"),
+                                onPressed: () => speak1529("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -534,14 +574,14 @@ class EnglishEntryabout extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakA25("en-US"),
+                                onPressed: () => speak1529("en-US"),
                               ),
                             ],
                           ),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٦. (ھاوەڵکار) بەنزیکەیی''',
+٦. (ھاوەڵناو) ئاماژەپێکراو لەسەرەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -551,7 +591,7 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "They waited (for) about an hour.",
+                                    "Please write to us at the above address.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -562,7 +602,7 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەنزیکەیی یەک کاتژمێر چاوەڕێ بوون",
+                                    "تکایە لە ڕێگای ناونیشانەکەی سەرەوەوە پەیوەندیمان پێوە بکە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -574,7 +614,7 @@ class EnglishEntryabout extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakA54("en-GB"),
+                                onPressed: () => speakA1249("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -582,151 +622,7 @@ class EnglishEntryabout extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakA54("en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٧. (ھاوەڵکار) زۆر نزیک لە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I'm just about ready.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "یەک تۆزم ماوە",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakA994("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakA994("en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٩. (ھاوەڵکار) بە زۆر لادا''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The children were rushing about in the garden.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "منداڵەکان بە باخجەکەدا ھاتوچۆیان بوو",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakA34("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakA34("en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١٠. (ھاوەڵکار) بە ھەڕەمەکی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Her books were lying about on the floor.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کتێبەکانی لەسەر زەوییەکە کەوتبوون",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakA2247("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakA2247("en-US"),
+                                onPressed: () => speakA1249("en-US"),
                               ),
                             ],
                           ),
@@ -734,15 +630,15 @@ class EnglishEntryabout extends StatelessWidget {
                       ),
                     ),
                     YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
-                    YoutubeEmbeddedtwo(),
-                    YoutubeEmbeddedthree(),
-                    YoutubeEmbeddedfour(),
-                    YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(),
-                    YoutubeEmbeddedseven(),
-                    YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten()
+                    // YoutubeEmbeddedtwo(),
+                    // YoutubeEmbeddedthree(),
+                    // YoutubeEmbeddedfour(),
+                    // YoutubeEmbeddedfive(),
+                    // YoutubeEmbeddedsix(),
+                    // YoutubeEmbeddedseven(),
+                    // YoutubeEmbeddedeight(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten()
                   ],
                 ),
               ),
@@ -769,38 +665,24 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adverb: about 
-1. (of quantities) imprecise but fairly close to correct (= approximately, close to, just about, some, roughly, more or less, around, or so, loosely)
-"in just about a minute"; "he's about 30 years old"; "I've had about all I can stand"; "we meet about once a month";
+- Preposition: above
+1. At a higher position than (= over)
+"the picture above radiator"; "the light above the table";
 
-2. All around or on all sides (= around)
-"dirty clothes lying about"; "let's look about for help";
+- Adverb: above
+1. (in writing) at an earlier place (=supra)
+"see above";
+ 
+2. In or to a place that is higher
+- higher up, in a higher place, to a higher place
 
-3. In the area or vicinity (= around)
-"a few spectators standing about";
- 
-4. Used of movement to or among many different places or in no particular direction (= around)
-"wandering about with no place to go"; "people were rushing about"; "news gets about";
- 
-5. In or to a reversed position or direction (= around)
-"about face";
- 
-6. In rotation or succession
-"turn about is fair play"
- 
-7. (of actions or states) slightly short of or not quite accomplished; all but (= almost, most, nearly, near, nigh, virtually, well-nigh, all but)
-"the job is (just) about done";
+- Noun: above (Derived forms: aboves)
+1. An earlier section of a written text
+"for instructions refer to the above"
 
-- Preposition: about  u'bawt
-1. On the topic of (= on)
-"a book about physics";
- 
-2. With regard or relation to; on the subject of (= regarding, concerning, respecting, re, apropos, as regards, with regard to, as for, as to, in connection with)
-"I have a query about your previous reply"; "think about it";
-
-- Adjective: about
-1. On the move (= astir)
-"up and about";
+- Adjective: above  u'búv
+Appearing earlier in the same text
+"flaws in the above interpretation"
 '''),
         ],
       ),
@@ -811,7 +693,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'jNQXAC9IVRw';
+  static String myVideoId = 'nLGBEETtEPc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -819,7 +701,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1, // DOPSUM: CHANGE IT
+      startAt: 69, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -838,7 +720,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'DOMPU26i7Xw';
+  static String myVideoId = 'BiQIc7fG9pA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -846,7 +728,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 266, // DOPSUM: CHANGE IT
+      startAt: 28, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -865,7 +747,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'pvuN_WvF1to';
+  static String myVideoId = 'vmsTcj3WuoE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -873,7 +755,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 52, // DOPSUM: CHANGE IT
+      startAt: 293, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -892,7 +774,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'tQwVKr8rCYw';
+  static String myVideoId = '_Mhem1xH2aA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -900,7 +782,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 109, // DOPSUM: CHANGE IT
+      startAt: 368, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -919,7 +801,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'uXyxFMbqKYA';
+  static String myVideoId = 'QaNuhF-6uoo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -927,7 +809,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 138, // DOPSUM: CHANGE IT
+      startAt: 1181, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -946,7 +828,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'jbBbRjs_niM';
+  static String myVideoId = '-HyHZsa79LU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -954,7 +836,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 38, // DOPSUM: CHANGE IT
+      startAt: 253, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -973,7 +855,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'vmsTcj3WuoE';
+  static String myVideoId = 'tsxmyL7TUJg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -981,7 +863,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 3732, // DOPSUM: CHANGE IT
+      startAt: 334, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -1000,7 +882,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = '4BvwpjaGZCQ';
+  static String myVideoId = 'rLc99wNie4Q';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1008,7 +890,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 154, // DOPSUM: CHANGE IT
+      startAt: 287, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -1027,7 +909,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = '67JzSRnyXr4';
+  static String myVideoId = 'KtJJuf7VyMQ';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1035,7 +917,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 402, // DOPSUM: CHANGE IT
+      startAt: 407, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -1054,7 +936,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'Q1c6PmxZ2ZM';
+  static String myVideoId = '-L7o6HtX8Vg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1062,7 +944,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 224, // DOPSUM: CHANGE IT
+      startAt: 153, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

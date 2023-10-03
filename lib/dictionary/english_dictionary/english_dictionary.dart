@@ -52,6 +52,18 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abound_in.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abound_with.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_about.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_about_turn.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_above.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_the_above.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_above_all.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_above_yourself.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_above_below_the_fold.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_above_beyond_suspicion.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abrasion.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abrasive.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abreast.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abridge.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abridgement.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -116,7 +128,19 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "abound",
     "abound in",
     "abound with",
-    "about"
+    "about",
+    "about turn",
+    "above",
+    "the above",
+    "above all",
+    "above/below the fold",
+    "above/beyond suspicion",
+    "above yourself",
+    "abrasion",
+    "abrasive",
+    "abreast",
+    "abridge",
+    "abridgement",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -536,6 +560,90 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryabout(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "about turn") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaboutturn(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "above") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabove(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "above/below the fold") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabovebelowthefold(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "above yourself") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaboveyourself(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "above/beyond suspicion") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabovebeyondsuspicion(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "above all") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaboveall(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "the above") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntrytheabove(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abrasion") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabrasion(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abrasive") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabrasive(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abreast") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabreast(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abridge") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabridge(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abridgement") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabridgement(),
                     ),
                   );
                 }

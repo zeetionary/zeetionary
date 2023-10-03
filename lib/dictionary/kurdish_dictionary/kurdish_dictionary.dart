@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:zeetionary/dictionary/english_dictionary/dopsum.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abandon.dart';
 
 class DictionaryScreenKurdish extends StatefulWidget {
   const DictionaryScreenKurdish({Key? key}) : super(key: key);
@@ -78,7 +78,7 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
                     // For example:
                     Navigator.of(context).push(
                       MaterialPageRoute(
-                        builder: (context) => EnglishEntryDopsum(),
+                        builder: (context) => EnglishEntryAbandon(),
                       ),
                     );
                   }

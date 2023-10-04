@@ -3,35 +3,44 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: EnglishEntryabysmally - speakAbysmally - abysmally - /əˈbɪzməli/
+// replace these: EnglishEntryacademically - speakAcademically - academically - /ˌækəˈdemɪkli/
 
 enum TtsState { playing }
 
-class EnglishEntryabysmally extends StatelessWidget {
-  EnglishEntryabysmally({Key? key}) : super(key: key);
+class EnglishEntryacademically extends StatelessWidget {
+  EnglishEntryacademically({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbysmally(String languageCode) async {
-    // DOPSUM: CHANGE speakAbysmally
+  Future<void> speakAcademically(String languageCode) async {
+    // DOPSUM: CHANGE speakAcademically
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abysmally"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("academically"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAb2147(String languageCode) async {
-    // DOPSUM: CHANGE speakAbysmally
+  Future<void> speakAc584(String languageCode) async {
+    // DOPSUM: CHANGE speakAcademically
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The government has failed abysmally to deliver on its promises."); // DOPSUM: CHANGE TEXT
+        "He wasn’t very well qualified academically but had a lot of experience."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakA56387(String languageCode) async {
+    // DOPSUM: CHANGE speakAcademically
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "You have to do well academically to get into medical school."); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 7,
+      length: 6,
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -51,7 +60,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'abysmally', // DOPSUM: CHANGE WORD ENTRY
+                              'academically', // DOPSUM: CHANGE WORD ENTRY
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -67,7 +76,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈbɪzməli/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /ˌækəˈdemɪkli/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -76,7 +85,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAbysmally(
+                              onPressed: () => speakAcademically(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -85,7 +94,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈbɪzməli/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              'IpaUS: /ˌækəˈdemɪkli/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -94,7 +103,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAbysmally(
+                              onPressed: () => speakAcademically(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -113,7 +122,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(),
-                  VideoIconForTab(),
+                  // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -144,9 +153,9 @@ class EnglishEntryabysmally extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: شپرزانە، بەشێوەیەکی یەکجار خراپ، زۆر خراپ
+کوردی: لە باری زانستی‌یەوە، زانستانە، زانستی‌یانە
 
-١. پێناسە''',
+١. (ھاوەڵکار) پەیوەندیدار بە خوێندن، بەتایبەتی خوێندنی قاتابخانە و زانکۆ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -156,7 +165,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The government has failed abysmally to deliver on its promises.",
+                                    "You have to do well academically to get into medical school.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -167,7 +176,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حکومەت بەخراپی شکستیھێناوە لە جێبەجێکردنی بەڵێنەکانی",
+                                    "بۆ ئەوەی بچیتە بەشی پزیشکی پێویستە لەلایەنی خوێندنەوە باش بیت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -179,7 +188,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAb2147("en-GB"),
+                                onPressed: () => speakA56387("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -187,7 +196,55 @@ class EnglishEntryabysmally extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAb2147("en-US"),
+                                onPressed: () => speakA56387("en-US"),
+                              ),
+                            ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٢. (ھاوەڵکار) پەیوەندیدار بە خوێندن و خوێندنەوە، وەک لە شارەزایی کردەیی''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "He wasn’t very well qualified academically but had a lot of experience.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "لەلایەنی ئەکادیمییەوە زۆر لێوەشاوە نەبوو، بەڵام ئەزموونێکی زۆری ھەبوو ",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAc584("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAc584("en-US"),
                               ),
                             ],
                           ),
@@ -198,7 +255,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
-                    YoutubeEmbeddedfive(),
+                    // YoutubeEmbeddedfive(),
                     // YoutubeEmbeddedsix(),
                     // YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
@@ -235,9 +292,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adverb: abysmally 
-1. In a terrible manner (= terribly, atrociously, awfully, abominably, rottenly, execrably, appallingly)
-"she sings abysmally";
+- Adverb: academically
+1. In regard to academic matters
+"academically, this is a good school"
 '''),
         ],
       ),
@@ -248,7 +305,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'skhWZVjam7M';
+  static String myVideoId = 'SwQhKFMxmDY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -256,7 +313,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 197, // DOPSUM: CHANGE IT
+      startAt: 440, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -275,7 +332,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'D-VkWkPs1aw';
+  static String myVideoId = 'lADBzq_CFwY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -283,7 +340,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 625, // DOPSUM: CHANGE IT
+      startAt: 368, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -302,7 +359,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'uRHkJ4NyRlI';
+  static String myVideoId = 'YQZL7gL4KfQ';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -310,7 +367,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 617, // DOPSUM: CHANGE IT
+      startAt: 433, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -329,7 +386,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'ZJOfyMCEzjQ';
+  static String myVideoId = '_OXk4RKZhaY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -337,39 +394,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1331, // DOPSUM: CHANGE IT
+      startAt: 735, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedfour({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '4r0rZMxnU6E';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 616, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedfive({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

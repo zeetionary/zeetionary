@@ -3,29 +3,38 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: EnglishEntryabysmally - speakAbysmally - abysmally - /əˈbɪzməli/
+// replace these: EnglishEntryaccede - speakAccede - accede - /əkˈsiːd/
 
 enum TtsState { playing }
 
-class EnglishEntryabysmally extends StatelessWidget {
-  EnglishEntryabysmally({Key? key}) : super(key: key);
+class EnglishEntryaccede extends StatelessWidget {
+  EnglishEntryaccede({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbysmally(String languageCode) async {
-    // DOPSUM: CHANGE speakAbysmally
+  Future<void> speakAccede(String languageCode) async {
+    // DOPSUM: CHANGE speakAccede
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abysmally"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accede"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAb2147(String languageCode) async {
-    // DOPSUM: CHANGE speakAbysmally
+  Future<void> speakA24698(String languageCode) async {
+    // DOPSUM: CHANGE speakAccede
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The government has failed abysmally to deliver on its promises."); // DOPSUM: CHANGE TEXT
+        "Queen Victoria acceded to the throne in 1837."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakA25963(String languageCode) async {
+    // DOPSUM: CHANGE speakAccede
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He acceded to demands for his resignation."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -51,7 +60,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'abysmally', // DOPSUM: CHANGE WORD ENTRY
+                              'accede', // DOPSUM: CHANGE WORD ENTRY
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -67,7 +76,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈbɪzməli/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əkˈsiːd/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -76,16 +85,16 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAbysmally(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAccede(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈbɪzməli/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              'IpaUS: /əkˈsiːd/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -94,7 +103,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAbysmally(
+                              onPressed: () => speakAccede(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -144,9 +153,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: شپرزانە، بەشێوەیەکی یەکجار خراپ، زۆر خراپ
-
-١. پێناسە''',
+١. (کردار) ڕازیبوون بە داوایەک/پێشنیارێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -156,7 +163,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The government has failed abysmally to deliver on its promises.",
+                                    "He acceded to demands for his resignation.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -167,7 +174,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حکومەت بەخراپی شکستیھێناوە لە جێبەجێکردنی بەڵێنەکانی",
+                                    "ملیدا بۆ داواکارییەکانی دەستلەکارکێشانەوەی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -179,7 +186,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAb2147("en-GB"),
+                                onPressed: () => speakA25963("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -187,7 +194,55 @@ class EnglishEntryabysmally extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAb2147("en-US"),
+                                onPressed: () => speakA25963("en-US"),
+                              ),
+                            ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٢. (کردار) وەرگرتنی پۆستێکی باڵا، بۆ نموونە پۆستی پاشا یان شاژنی''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Queen Victoria acceded to the throne in 1837.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "شاژن ڤیکتۆریا چووە سەر تەختی شاهانە لە ساڵی ١٨٣٧",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakA24698("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakA24698("en-US"),
                               ),
                             ],
                           ),
@@ -235,9 +290,15 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adverb: abysmally 
-1. In a terrible manner (= terribly, atrociously, awfully, abominably, rottenly, execrably, appallingly)
-"she sings abysmally";
+- Verb: accede (Derived forms: acceded, accedes, acceding)
+1. Yield to another's wish or opinion (= submit, bow[2], defer, give in)
+"The government acceded to the military pressure";
+ 
+2. Take on duties or office (= enter)
+"accede to the throne";
+ 
+3. To agree or express agreement (= assent, acquiesce)
+"The Maestro acceded to the request for an encore";
 '''),
         ],
       ),
@@ -248,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'skhWZVjam7M';
+  static String myVideoId = '3zx3i9s7lLY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -256,7 +317,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 197, // DOPSUM: CHANGE IT
+      startAt: 473, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -275,7 +336,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'D-VkWkPs1aw';
+  static String myVideoId = 'bhTRxyXtfUU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -283,7 +344,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 625, // DOPSUM: CHANGE IT
+      startAt: 158, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -302,7 +363,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'uRHkJ4NyRlI';
+  static String myVideoId = 'fhS6Q27LbUc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -310,7 +371,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 617, // DOPSUM: CHANGE IT
+      startAt: 275, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -329,7 +390,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'ZJOfyMCEzjQ';
+  static String myVideoId = 'SzJvpmoWQrI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -337,7 +398,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1331, // DOPSUM: CHANGE IT
+      startAt: 573, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -356,7 +417,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '4r0rZMxnU6E';
+  static String myVideoId = 'vYDxOnDGpHc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -364,7 +425,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 616, // DOPSUM: CHANGE IT
+      startAt: 56, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

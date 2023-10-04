@@ -3,35 +3,53 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: EnglishEntryabysmally - speakAbysmally - abysmally - /əˈbɪzməli/
+// replace these: EnglishEntryaccelerate - speakAaccelerate - accelerate - /əkˈseləreɪt/
 
 enum TtsState { playing }
 
-class EnglishEntryabysmally extends StatelessWidget {
-  EnglishEntryabysmally({Key? key}) : super(key: key);
+class EnglishEntryaccelerate extends StatelessWidget {
+  EnglishEntryaccelerate({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbysmally(String languageCode) async {
-    // DOPSUM: CHANGE speakAbysmally
+  Future<void> speakAaccelerate(String languageCode) async {
+    // DOPSUM: CHANGE speakAaccelerate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abysmally"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accelerate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAb2147(String languageCode) async {
-    // DOPSUM: CHANGE speakAbysmally
+  Future<void> speakAa3596(String languageCode) async {
+    // DOPSUM: CHANGE speakAaccelerate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("The car accelerated to overtake me."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAa6587(String languageCode) async {
+    // DOPSUM: CHANGE speakAaccelerate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The government has failed abysmally to deliver on its promises."); // DOPSUM: CHANGE TEXT
+        "The pace of change has begun to accelerate."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakA2537(String languageCode) async {
+    // DOPSUM: CHANGE speakAaccelerate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Exposure to the sun can accelerate the ageing process."); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 7,
+      length: 8,
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -51,7 +69,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'abysmally', // DOPSUM: CHANGE WORD ENTRY
+                              'accelerate', // DOPSUM: CHANGE WORD ENTRY
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -67,7 +85,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈbɪzməli/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əkˈseləreɪt/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -76,7 +94,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAbysmally(
+                              onPressed: () => speakAaccelerate(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -85,7 +103,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈbɪzməli/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              'IpaUS: /əkˈseləreɪt/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -94,7 +112,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAbysmally(
+                              onPressed: () => speakAaccelerate(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -114,7 +132,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -144,9 +162,9 @@ class EnglishEntryabysmally extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: شپرزانە، بەشێوەیەکی یەکجار خراپ، زۆر خراپ
+کوردی: ١- تاودان، لەزپێدان، خێراکردن، گوڕپێدان ٢- تاوسەندن، لەزگرتن، گوڕگرتن
 
-١. پێناسە''',
+١. (کردار) شتێک خێراتر ڕووبدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -156,7 +174,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The government has failed abysmally to deliver on its promises.",
+                                    "Exposure to the sun can accelerate the ageing process.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -167,7 +185,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حکومەت بەخراپی شکستیھێناوە لە جێبەجێکردنی بەڵێنەکانی",
+                                    "بەرکەوتن بە خۆر ئەکرێت بەتەمەنبوون خێراتر بکات",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -179,7 +197,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAb2147("en-GB"),
+                                onPressed: () => speakA2537("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -187,7 +205,96 @@ class EnglishEntryabysmally extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAb2147("en-US"),
+                                onPressed: () => speakA2537("en-US"),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The pace of change has begun to accelerate.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "خێرایی گۆڕانکاری دەستیکردووە بە خێرابوون",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAa6587("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAa6587("en-US"),
+                              ),
+                            ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٢. (کردار) کاتێک ئۆتۆمبێلێک خێراتر دەڕوات''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The car accelerated to overtake me.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ئۆتۆمبێلەکە خێرایی زیادکرد بۆ تێپەڕاندنم",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAa3596("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAa3596("en-US"),
                               ),
                             ],
                           ),
@@ -199,7 +306,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(),
+                    YoutubeEmbeddedsix(),
                     // YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
@@ -235,9 +342,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adverb: abysmally 
-1. In a terrible manner (= terribly, atrociously, awfully, abominably, rottenly, execrably, appallingly)
-"she sings abysmally";
+- Verb: accelerate (Derived forms: accelerated, accelerates, accelerating)
+1. Move faster (= speed up, speed, quicken)
+"The car accelerated";
+ 
+2. Cause to move faster (= speed, speed up)
+"He accelerated the car"; 
+ 
+3. Cause to occur rapidly (= induce, stimulate, rush, hasten, speed up)
 '''),
         ],
       ),
@@ -248,7 +360,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'skhWZVjam7M';
+  static String myVideoId = '4I-p8vjQ95s';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -256,7 +368,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 197, // DOPSUM: CHANGE IT
+      startAt: 411, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -275,7 +387,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'D-VkWkPs1aw';
+  static String myVideoId = 'DxL2HoqLbyA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -283,7 +395,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 625, // DOPSUM: CHANGE IT
+      startAt: 1096, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -302,7 +414,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'uRHkJ4NyRlI';
+  static String myVideoId = 'Xzv84ZdtlE0';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -310,7 +422,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 617, // DOPSUM: CHANGE IT
+      startAt: 356, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -329,7 +441,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'ZJOfyMCEzjQ';
+  static String myVideoId = 'KY6SOHA1tH4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -337,7 +449,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1331, // DOPSUM: CHANGE IT
+      startAt: 472, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -356,7 +468,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '4r0rZMxnU6E';
+  static String myVideoId = 'TxFR_7KsTDA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -364,12 +476,39 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 616, // DOPSUM: CHANGE IT
+      startAt: 303, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedfive({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  static String myVideoId = 'EyDpQpcPpuc';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 66, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedsix({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

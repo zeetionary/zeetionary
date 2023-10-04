@@ -3,35 +3,34 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: EnglishEntryabysmally - speakAbysmally - abysmally - /əˈbɪzməli/
+// replace these: EnglishEntryacademy - speakAacademy - academy - /əˈkædəmi/
 
 enum TtsState { playing }
 
-class EnglishEntryabysmally extends StatelessWidget {
-  EnglishEntryabysmally({Key? key}) : super(key: key);
+class EnglishEntryacademy extends StatelessWidget {
+  EnglishEntryacademy({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbysmally(String languageCode) async {
-    // DOPSUM: CHANGE speakAbysmally
+  Future<void> speakAacademy(String languageCode) async {
+    // DOPSUM: CHANGE speakAacademy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abysmally"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("academy"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAb2147(String languageCode) async {
-    // DOPSUM: CHANGE speakAbysmally
+  Future<void> speak25963(String languageCode) async {
+    // DOPSUM: CHANGE speakAacademy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The government has failed abysmally to deliver on its promises."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("a police/military academy"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 7,
+      length: 5,
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -51,7 +50,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'abysmally', // DOPSUM: CHANGE WORD ENTRY
+                              'academy', // DOPSUM: CHANGE WORD ENTRY
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -67,7 +66,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈbɪzməli/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əˈkædəmi/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -76,16 +75,16 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAbysmally(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAacademy(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈbɪzməli/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              'IpaUS: /əˈkædəmi/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -94,7 +93,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAbysmally(
+                              onPressed: () => speakAacademy(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -112,8 +111,8 @@ class EnglishEntryabysmally extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -144,9 +143,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: شپرزانە، بەشێوەیەکی یەکجار خراپ، زۆر خراپ
-
-١. پێناسە''',
+١. خوێندنگایەک بۆ خوێندنی تایبەت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -156,7 +153,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The government has failed abysmally to deliver on its promises.",
+                                    "a police/military academy",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -167,7 +164,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حکومەت بەخراپی شکستیھێناوە لە جێبەجێکردنی بەڵێنەکانی",
+                                    "ئەکادیمیای پۆلیسی/سەربازی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -179,7 +176,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAb2147("en-GB"),
+                                onPressed: () => speak25963("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -187,7 +184,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAb2147("en-US"),
+                                onPressed: () => speak25963("en-US"),
                               ),
                             ],
                           ),
@@ -197,8 +194,8 @@ class EnglishEntryabysmally extends StatelessWidget {
                     YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
-                    YoutubeEmbeddedfour(),
-                    YoutubeEmbeddedfive(),
+                    // YoutubeEmbeddedfour(),
+                    // YoutubeEmbeddedfive(),
                     // YoutubeEmbeddedsix(),
                     // YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
@@ -235,9 +232,16 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adverb: abysmally 
-1. In a terrible manner (= terribly, atrociously, awfully, abominably, rottenly, execrably, appallingly)
-"she sings abysmally";
+- Noun: academy (Derived forms: academies)
+1. A secondary school (usually private)
+ 
+2. An institution for the advancement of art, science or literature (= honorary society)
+ 
+3. A school for special training
+ 
+4. A learned establishment for the advancement of knowledge
+ 
+5. [UK] A state-funded English school for children which is directly funded by central government and independent of the local authority (= academy school [UK])
 '''),
         ],
       ),
@@ -248,7 +252,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'skhWZVjam7M';
+  static String myVideoId = '5G0j_Huv2Fg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -256,7 +260,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 197, // DOPSUM: CHANGE IT
+      startAt: 2977, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -275,7 +279,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'D-VkWkPs1aw';
+  static String myVideoId = 'qOY8F_ngNWI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -283,7 +287,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 625, // DOPSUM: CHANGE IT
+      startAt: 448, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -302,7 +306,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'uRHkJ4NyRlI';
+  static String myVideoId = '6pWkdVipGi4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -310,66 +314,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 617, // DOPSUM: CHANGE IT
+      startAt: 19, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedthree({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'ZJOfyMCEzjQ';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 1331, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedfour({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '4r0rZMxnU6E';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 616, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedfive({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

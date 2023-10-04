@@ -3,29 +3,29 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: EnglishEntryabysmally - speakAbysmally - abysmally - /əˈbɪzməli/
+// replace these: EnglishEntryabyss - speakAbyss - abyss - /əˈbɪs/
 
 enum TtsState { playing }
 
-class EnglishEntryabysmally extends StatelessWidget {
-  EnglishEntryabysmally({Key? key}) : super(key: key);
+class EnglishEntryabyss extends StatelessWidget {
+  EnglishEntryabyss({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbysmally(String languageCode) async {
-    // DOPSUM: CHANGE speakAbysmally
+  Future<void> speakAbyss(String languageCode) async {
+    // DOPSUM: CHANGE speakAbyss
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abysmally"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abyss"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAb2147(String languageCode) async {
-    // DOPSUM: CHANGE speakAbysmally
+  Future<void> speakA24691(String languageCode) async {
+    // DOPSUM: CHANGE speakAbyss
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The government has failed abysmally to deliver on its promises."); // DOPSUM: CHANGE TEXT
+        "They took a long look into the abyss before deciding whether to jump."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -51,7 +51,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'abysmally', // DOPSUM: CHANGE WORD ENTRY
+                              'abyss', // DOPSUM: CHANGE WORD ENTRY
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -67,7 +67,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈbɪzməli/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əˈbɪs/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -76,16 +76,16 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAbysmally(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAbyss(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈbɪzməli/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              'IpaUS: /əˈbɪs/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -94,7 +94,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAbysmally(
+                              onPressed: () => speakAbyss(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -144,9 +144,9 @@ class EnglishEntryabysmally extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: شپرزانە، بەشێوەیەکی یەکجار خراپ، زۆر خراپ
+کوردی: قووڵایی، بێ‌بنی، چاڵی بێ‌بن، یەکجار قووڵ، کەندڕ، نغرۆ؟، کەندەڵان، کەلێن (زۆر قووڵ)
 
-١. پێناسە''',
+١. (ناو) چاڵێکی قووڵ کە پێدەچێت کۆتایی نەبێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -156,7 +156,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The government has failed abysmally to deliver on its promises.",
+                                    "They took a long look into the abyss before deciding whether to jump.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -167,7 +167,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حکومەت بەخراپی شکستیھێناوە لە جێبەجێکردنی بەڵێنەکانی",
+                                    "سەیرێکی زۆری چاڵەکەیان کرد پێش ئەوەی بڕیار بدەن لەسەر بازدان",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -179,7 +179,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAb2147("en-GB"),
+                                onPressed: () => speakA24691("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -187,7 +187,7 @@ class EnglishEntryabysmally extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAb2147("en-US"),
+                                onPressed: () => speakA24691("en-US"),
                               ),
                             ],
                           ),
@@ -235,9 +235,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adverb: abysmally 
-1. In a terrible manner (= terribly, atrociously, awfully, abominably, rottenly, execrably, appallingly)
-"she sings abysmally";
+- Noun: abyss  u'bis (Derived forms: abysses)
+1. A bottomless gulf or pit; any unfathomable (or apparently unfathomable) cavity or chasm or void extending below (often used figuratively) (= abysm)
+"a yawning abyss";
 '''),
         ],
       ),
@@ -248,7 +248,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'skhWZVjam7M';
+  static String myVideoId = 'IqsLnLiASmA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -256,7 +256,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 197, // DOPSUM: CHANGE IT
+      startAt: 43, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -275,7 +275,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'D-VkWkPs1aw';
+  static String myVideoId = '7h8j8J0zoJ0';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -283,7 +283,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 625, // DOPSUM: CHANGE IT
+      startAt: 852, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -302,7 +302,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'uRHkJ4NyRlI';
+  static String myVideoId = '6YxGCccOEHc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -310,7 +310,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 617, // DOPSUM: CHANGE IT
+      startAt: 318, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -329,7 +329,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'ZJOfyMCEzjQ';
+  static String myVideoId = 'mr7FXvTSYpA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -337,7 +337,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1331, // DOPSUM: CHANGE IT
+      startAt: 202, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -356,7 +356,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '4r0rZMxnU6E';
+  static String myVideoId = '_y4DbZivHCY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -364,7 +364,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 616, // DOPSUM: CHANGE IT
+      startAt: 29, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

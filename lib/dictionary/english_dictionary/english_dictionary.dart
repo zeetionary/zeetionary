@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:zeetionary/dictionary/english_dictionary/dopsum.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/dopsum.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_a.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abacus.dart';
@@ -81,6 +81,18 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absolute_zero.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absolve.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absorb.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absorbent.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absorption.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abstain.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abstemious.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abstention.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abstinence.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abstract.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absurd.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absurdity.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absurdly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abundance.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abundant.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -175,6 +187,18 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "absolute zero",
     "absolve",
     "absorb",
+    "absorbent",
+    "absorption",
+    "abstain",
+    "abstemious",
+    "abstention",
+    "abstinence",
+    "abstract",
+    "absurd",
+    "absurdity",
+    "absurdly",
+    "abundance",
+    "abundant",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -229,7 +253,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                 if (wordsEnglish == "dopsum") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryDopsum(),
+                      builder: (context) => EnglishEntryabstinence(),
                     ),
                   );
                 }
@@ -797,6 +821,90 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryabsorb(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "absorbent") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabsorbent(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "absorption") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabsorption(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abstain") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabstain(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abstemious") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabstemious(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abstention") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabstention(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abstinence") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabstinence(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abstract") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabstract(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "absurd") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabsurd(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "absurdity") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabsurdity(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "absurdly") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabsurdly(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abundance") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabundance(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "abundant") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryabundant(),
                     ),
                   );
                 }

@@ -147,7 +147,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "DOPSUM: WRIYE A SENTENCE",
+                                    "DOPSUM: WRITE A SENTENCE",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),

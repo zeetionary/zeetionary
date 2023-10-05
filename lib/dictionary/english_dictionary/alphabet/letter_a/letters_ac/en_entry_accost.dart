@@ -3,38 +3,29 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: EnglishEntryacclaim - speakAcclaim - acclaim - /əˈkleɪm/
+// replace these: EnglishEntryaccost - speakAccost - accost - /əˈkɒst/
 
 enum TtsState { playing }
 
-class EnglishEntryacclaim extends StatelessWidget {
-  EnglishEntryacclaim({Key? key}) : super(key: key);
+class EnglishEntryaccost extends StatelessWidget {
+  EnglishEntryaccost({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcclaim(String languageCode) async {
-    // DOPSUM: CHANGE speakAcclaim
+  Future<void> speakAccost(String languageCode) async {
+    // DOPSUM: CHANGE speakAccost
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acclaim"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accost"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA2158(String languageCode) async {
-    // DOPSUM: CHANGE speakAcclaim
+  Future<void> speakA532476(String languageCode) async {
+    // DOPSUM: CHANGE speakAccost
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His discoveries earned him wide acclaim."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakA21598(String languageCode) async {
-    // DOPSUM: CHANGE speakAcclaim
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This book has been widely acclaimed as a modern classic."); // DOPSUM: CHANGE TEXT
+        "She was accosted in the street by a complete stranger."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -60,7 +51,7 @@ class EnglishEntryacclaim extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'acclaim', // DOPSUM: CHANGE WORD ENTRY
+                              'accost', // DOPSUM: CHANGE WORD ENTRY
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -76,7 +67,7 @@ class EnglishEntryacclaim extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈkleɪm/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əˈkɒst/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -86,7 +77,7 @@ class EnglishEntryacclaim extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAcclaim(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAccost(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -94,7 +85,7 @@ class EnglishEntryacclaim extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈkleɪm/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              'IpaUS: /əˈkɔːst/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -103,7 +94,7 @@ class EnglishEntryacclaim extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAcclaim(
+                              onPressed: () => speakAccost(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -153,9 +144,7 @@ class EnglishEntryacclaim extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: چەپڵەلێدان، چەپک‌لێدان، لەقریوەدان، خۆشی‌دەربڕی، پەسن‌دان، قیژاندن و قریوەی خۆشی
-
-١. (کردار) بەرزنرخاندنی شتێک بەشێوەیەکی گشتی''',
+١. چوون بۆ لای کەسێک و قسەکردن لەگەڵی بەشێوەیەکی بێڕێزانە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -165,7 +154,7 @@ class EnglishEntryacclaim extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "This book has been widely acclaimed as a modern classic.",
+                                    "She was accosted in the street by a complete stranger.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -176,7 +165,7 @@ class EnglishEntryacclaim extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم کتێبە بەشێوەیەکی بەرفراوان پەسندراوە وەک کتێبێکی کلاسیکی سەردەم",
+                                    "لەلایەن بێگانەیەکەوە لەسەر شەقام قسەیپێکرا ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -188,7 +177,7 @@ class EnglishEntryacclaim extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakA21598("en-GB"),
+                                onPressed: () => speakA532476("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -196,55 +185,7 @@ class EnglishEntryacclaim extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakA21598("en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ناو) ستایش و مەحتکردن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "His discoveries earned him wide acclaim.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دۆزینەوەکانی ستایشی بەرفراوانیان بەدوای خۆیاندا ھێنا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakA2158("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakA2158("en-US"),
+                                onPressed: () => speakA532476("en-US"),
                               ),
                             ],
                           ),
@@ -292,15 +233,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: acclaim (Derived forms: acclaimed, acclaiming, acclaims)
-1. Praise vociferously (= hail, herald)
-"The critics acclaimed the young pianist as a new Rubinstein";
+- Verb: accost (Derived forms: accosted, accosting, accosts)
+1. Get someone's attention in order to speak them, esp. against their will or to influence them (= buttonhole [informal], nobble [Brit, informal])
  
-2. Clap one's hands or shout after performances to indicate approval (= applaud, clap, spat)
-
-- Noun: acclaim  u'kleym (Derived forms: acclaims)
-1. Enthusiastic approval (= acclamation, plaudits, plaudit, éclat)
-"the book met with modest acclaim";
+2. Approach with an offer of sexual favours (= solicit)
+"he was accosted by a prostitute";
 '''),
         ],
       ),
@@ -311,7 +248,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'y4DTW4B3Sjs';
+  static String myVideoId = 'glS3RDoxYMM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -319,7 +256,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 361, // DOPSUM: CHANGE IT
+      startAt: 254, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -338,7 +275,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'LQpLMvC7Et0';
+  static String myVideoId = 'xi4wZJ-7ZCg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -346,7 +283,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 922, // DOPSUM: CHANGE IT
+      startAt: 77, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -365,7 +302,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'BBPk0Cdv8gQ';
+  static String myVideoId = 'NHo6oTKcu7o';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -373,7 +310,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 695, // DOPSUM: CHANGE IT
+      startAt: 74, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -392,7 +329,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'kS6YJJfBYag';
+  static String myVideoId = 'WPZfIKy7LWo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -400,7 +337,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 248, // DOPSUM: CHANGE IT
+      startAt: 111, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -419,7 +356,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'iKnR2pzb4Gg';
+  static String myVideoId = 'Rxh_SVtyZqo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -427,7 +364,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 159, // DOPSUM: CHANGE IT
+      startAt: 4177, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

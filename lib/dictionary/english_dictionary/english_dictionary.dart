@@ -127,6 +127,13 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accompaniment.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accompanist.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accompany.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accomplice.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accomplish.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accomplished.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accomplishment.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accord.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accordingly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_according_to.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -267,6 +274,13 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "accompaniment",
     "accompanist",
     "accompany",
+    "accomplice",
+    "accomplish",
+    "accomplished",
+    "accomplishment",
+    "accord",
+    "accordingly",
+    "according to",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -1211,6 +1225,55 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryaccompany(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "accomplice") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaccomplice(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "accomplish") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaccomplish(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "accomplished") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaccomplished(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "accomplishment") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaccomplishment(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "accord") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaccord(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "accordingly") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaccordingly(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "according to") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaccordingto(),
                     ),
                   );
                 }

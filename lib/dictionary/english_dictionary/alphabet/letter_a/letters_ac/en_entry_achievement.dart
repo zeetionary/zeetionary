@@ -3,52 +3,52 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryaccustomed - replace speakAccustomed - replace accustomed - /əˈkʌstəmd/ - find Dopsum2
+// replace these: replace EnglishEntryachievement - replace speakAchievement - replace achievement - /əˈtʃiːvmənt/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryaccustomed extends StatelessWidget {
-  EnglishEntryaccustomed({Key? key}) : super(key: key);
+class EnglishEntryachievement extends StatelessWidget {
+  EnglishEntryachievement({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAccustomed(String languageCode) async {
-    // DOPSUM: CHANGE speakAccustomed
+  Future<void> speakAchievement(String languageCode) async {
+    // DOPSUM: CHANGE speakAchievement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accustomed"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("achievement"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc52687(String languageCode) async {
-    // DOPSUM: CHANGE speakAccustomed
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "My eyes slowly grew accustomed to the dark."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAc5278(String languageCode) async {
-    // DOPSUM: CHANGE speakAccustomed
+  Future<void> speakA452876(String languageCode) async {
+    // DOPSUM: CHANGE speakAchievement
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This was not the kind of behaviour I was accustomed to."); // DOPSUM: CHANGE TEXT
+        "It was a remarkable achievement for such a young player."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAccustomed(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAccustomed
+  Future<void> speakAc251468(String languageCode) async {
+    // DOPSUM: CHANGE speakAchievement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "This work is the crowning achievement of her career."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAchievement(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAchievement
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("accustomed"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("achievement"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 8, // 2 + VIDEOS FIND: DOPSUM_WRITE_A_SENTENCE
+      length: 7, // 2 + VIDEOS FIND: DOPSUM_WRITE_A_SENTENCE
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -68,7 +68,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'accustomed', // DOPSUM: CHANGE WORD ENTRY - Find /əˈkʌstəmd/
+                              'achievement', // DOPSUM: CHANGE WORD ENTRY - Find /əˈtʃiːvmənt/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -84,7 +84,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈkʌstəmd/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əˈtʃiːvmənt/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -93,7 +93,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAccustomed(
+                              onPressed: () => speakAchievement(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -102,7 +102,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈkʌstəmd/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /əˈtʃiːvmənt/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -111,7 +111,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAccustomed(
+                              onPressed: () => speakAchievement(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -131,7 +131,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(), // FIND: 2,
-                  VideoIconForTab(),
+                  // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -161,9 +161,9 @@ class EnglishEntryaccustomed extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: ڕاھاتوو، فێر(بوو)، خووگرتوو، ئالوودە، چەشە، ڕموودە، چەشکە، ھۆگر، گیرۆدە
+کوردی: بەرھەم، دەسکەوت، دەست‌پێ‌ڕاگەیشتن، پێشکەوتن، پێشوەچوون، جێبەجێ‌بوون، بەدیھاتن
 
-١. (ھاوەڵناو) کەم کەم ڕاھاتن بە شتێک، بۆ نموونە بارودۆخێکی نوێ''',
+١. (ناو) شتێک کە کەسێک بە ھەوڵ و ماندییبیینی بە سەرکەوتووانە کردوویەتی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -173,7 +173,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "My eyes slowly grew accustomed to the dark.",
+                                    "It was a remarkable achievement for such a young player.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -184,7 +184,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چاوەکانم کەم کەم بە تاریکییەکە ڕاھات",
+                                    "دەستکەوتێکی ناوازە بوو یەریزانێکی وا گەنج ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -196,7 +196,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAc52687("en-GB"),
+                                onPressed: () => speakA452876("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -204,7 +204,8 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAc52687("en-US"),
+                                onPressed: () => speakA452876(
+                                    "en-US"), // REPLACE achievement /əˈtʃiːvmənt/
                               ),
                             ],
                           ),
@@ -214,7 +215,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "This was not the kind of behaviour I was accustomed to.",
+                                    "This work is the crowning achievement (= the greatest achievement) of her career.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -225,7 +226,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەمە لەو جۆرە ڕەفتارانە نەبوو کە پێی ڕاھاتووم",
+                                    "ئەمە گەورەترین دەستکەوتی کارکردنیەتی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -237,7 +238,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAc5278("en-GB"),
+                                onPressed: () => speakAc251468("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -245,7 +246,8 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAc5278("en-US"),
+                                onPressed: () => speakAc251468(
+                                    "en-US"), // REPLACE achievement /əˈtʃiːvmənt/
                               ),
                             ],
                           ),
@@ -257,7 +259,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     // YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
@@ -293,9 +295,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: accustomed
-1. Commonly used or practised; usual (= customary, habitual, wonted)
-"his accustomed thoroughness";
+Noun: achievement (Derived forms: achievements)
+1. The action of accomplishing something (= accomplishment)
+ 
+2. Something that is achieved successfully (= accomplishment)
 '''),
         ],
       ),
@@ -306,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'TfaMLqEh1qM';
+  static String myVideoId = 'nRafaCcfrcI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -314,7 +317,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 105, // DOPSUM: CHANGE IT
+      startAt: 330, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -333,7 +336,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = '9yjZpBq1XBE';
+  static String myVideoId = '9T2vYXcg18g';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -341,7 +344,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 3096, // DOPSUM: CHANGE IT
+      startAt: 740, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -360,7 +363,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'GkgXRyScubI';
+  static String myVideoId = 'yWhU40m-6uU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -368,7 +371,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 115, // DOPSUM: CHANGE IT
+      startAt: 66, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -387,7 +390,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'irWodlcSBbQ';
+  static String myVideoId = 'kElsSj8hky4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -395,7 +398,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 232, // DOPSUM: CHANGE IT
+      startAt: 498, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -414,7 +417,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'xrT7bJYJrDQ';
+  static String myVideoId = 'Jw2wn4JYakY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -422,39 +425,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 70, // DOPSUM: CHANGE IT
+      startAt: 619, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedfive({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 's3YTfhJmh1I';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 75, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedsix({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

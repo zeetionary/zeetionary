@@ -155,6 +155,10 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accuser.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accustom_to.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accustomed.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_ace.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_ache.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_achieve.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_achievement.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -323,6 +327,10 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "accuser",
     "accustom to",
     "accustomed",
+    "ace",
+    "ache",
+    "achieve",
+    "achievement",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -1455,14 +1463,42 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                 if (wordsEnglish == "accustom to") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntrytheaccustomto(),
+                      builder: (context) => EnglishEntryaccustomto(),
                     ),
                   );
                 }
                 if (wordsEnglish == "accustomed") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntrytheaccustomed(),
+                      builder: (context) => EnglishEntryaccustomed(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "ace") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryace(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "ache") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryache(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "achieve") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryachieve(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "achievement") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryachievement(),
                     ),
                   );
                 }

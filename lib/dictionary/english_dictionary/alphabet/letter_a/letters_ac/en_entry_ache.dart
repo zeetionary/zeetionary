@@ -3,52 +3,69 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryaccustomed - replace speakAccustomed - replace accustomed - /əˈkʌstəmd/ - find Dopsum2
+// replace these: replace EnglishEntryache - replace speakAche - replace ache - /eɪk/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryaccustomed extends StatelessWidget {
-  EnglishEntryaccustomed({Key? key}) : super(key: key);
+class EnglishEntryache extends StatelessWidget {
+  EnglishEntryache({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAccustomed(String languageCode) async {
-    // DOPSUM: CHANGE speakAccustomed
+  Future<void> speakAche(String languageCode) async {
+    // DOPSUM: CHANGE speakAche
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accustomed"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ache"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc52687(String languageCode) async {
-    // DOPSUM: CHANGE speakAccustomed
+  Future<void> speakA125698(String languageCode) async {
+    // DOPSUM: CHANGE speakAche
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Her eyes ached from lack of sleep."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakA4973256(String languageCode) async {
+    // DOPSUM: CHANGE speakAche
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "My eyes slowly grew accustomed to the dark."); // DOPSUM: CHANGE TEXT
+        "It makes my heart ache to see her suffer."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAc5278(String languageCode) async {
-    // DOPSUM: CHANGE speakAccustomed
+  Future<void> speakA456268(String languageCode) async {
+    // DOPSUM: CHANGE speakAche
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This was not the kind of behaviour I was accustomed to."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I was aching for home."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAccustomed(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAccustomed
+  Future<void> speakA14568(String languageCode) async {
+    // DOPSUM: CHANGE speakAche
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Mummy, I've got a tummy ache."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAche(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAche
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("accustomed"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ache"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 8, // 2 + VIDEOS FIND: DOPSUM_WRITE_A_SENTENCE
+      length: 7, // 2 + VIDEOS FIND: DOPSUM_WRITE_A_SENTENCE
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -68,7 +85,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'accustomed', // DOPSUM: CHANGE WORD ENTRY - Find /əˈkʌstəmd/
+                              'ache', // DOPSUM: CHANGE WORD ENTRY - Find /eɪk/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -84,7 +101,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈkʌstəmd/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /eɪk/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -93,16 +110,16 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAccustomed(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAche(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈkʌstəmd/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /eɪk/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -111,7 +128,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAccustomed(
+                              onPressed: () => speakAche(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -131,7 +148,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(), // FIND: 2,
-                  VideoIconForTab(),
+                  // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -161,9 +178,9 @@ class EnglishEntryaccustomed extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: ڕاھاتوو، فێر(بوو)، خووگرتوو، ئالوودە، چەشە، ڕموودە، چەشکە، ھۆگر، گیرۆدە
+کوردی: ژان، ئێش، ئازار، سوێ
 
-١. (ھاوەڵناو) کەم کەم ڕاھاتن بە شتێک، بۆ نموونە بارودۆخێکی نوێ''',
+١. (کردار) ھەستکردن بە ئێشێکی زۆر کە بە ئازار نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -173,7 +190,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "My eyes slowly grew accustomed to the dark.",
+                                    "Her eyes ached from lack of sleep.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -184,7 +201,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چاوەکانم کەم کەم بە تاریکییەکە ڕاھات",
+                                    "چاوەکانم ژانیان دەکرد بەھۆی کەمخەوییەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -196,7 +213,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAc52687("en-GB"),
+                                onPressed: () => speakA125698("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -204,7 +221,8 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAc52687("en-US"),
+                                onPressed: () =>
+                                    speakA125698("en-US"), // REPLACE /eɪk/
                               ),
                             ],
                           ),
@@ -214,7 +232,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "This was not the kind of behaviour I was accustomed to.",
+                                    "It makes my heart ache (= it makes me sad) to see her suffer.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -225,7 +243,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەمە لەو جۆرە ڕەفتارانە نەبوو کە پێی ڕاھاتووم",
+                                    "دڵم دێتە ژان کە دەبینم ئازار دەکێشێت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -237,7 +255,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAc5278("en-GB"),
+                                onPressed: () => speakA4973256("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -245,7 +263,106 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAc5278("en-US"),
+                                onPressed: () =>
+                                    speakA4973256("en-US"), // REPLACE /eɪk/
+                              ),
+                            ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٢. (کردار) بوونی حەزێکی زۆر بۆ شتێک''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "I was aching for home.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "خەریکبوو دڵی دەتەقا بۆ ماڵەوە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakA456268("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakA456268("en-US"), // REPLACE /eɪk/
+                              ),
+                            ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٣. (کردار) لەگەڵ بەشەکانی جەستە بەکاردێت بۆ ئاماژە بەوەی لەو بەشە ئازاری ھەیە''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Mummy, I've got a tummy ache.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "دایکە، سکم ژان ئەکا",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakA14568("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakA14568("en-US"), // REPLACE /eɪk/
                               ),
                             ],
                           ),
@@ -257,7 +374,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     // YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
@@ -293,9 +410,17 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: accustomed
-1. Commonly used or practised; usual (= customary, habitual, wonted)
-"his accustomed thoroughness";
+- Verb: ache (Derived forms: aching, ached, aches)
+1. Feel physical pain (= hurt, suffer)
+"Were you aching after the accident?";
+ 
+2. Have a desire for something or someone who is not present (= yearn, yen, pine, languish)
+"She ached for a cigarette";
+ 
+3. Be a source of pain (= smart, hurt)
+
+- Noun: ache 
+1. A dull persistent (usually moderately intense) pain (= aching)
 '''),
         ],
       ),
@@ -306,7 +431,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'TfaMLqEh1qM';
+  static String myVideoId = 'IjiFh3_vxbE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -314,7 +439,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 105, // DOPSUM: CHANGE IT
+      startAt: 127, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -333,7 +458,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = '9yjZpBq1XBE';
+  static String myVideoId = 'BfgQoeHyfms';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -341,7 +466,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 3096, // DOPSUM: CHANGE IT
+      startAt: 32, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -360,7 +485,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'GkgXRyScubI';
+  static String myVideoId = 'YwOMc-4OEWg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -368,7 +493,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 115, // DOPSUM: CHANGE IT
+      startAt: 96, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -387,7 +512,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'irWodlcSBbQ';
+  static String myVideoId = '4LBxoqhPCYk';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -395,7 +520,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 232, // DOPSUM: CHANGE IT
+      startAt: 110, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -414,7 +539,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'xrT7bJYJrDQ';
+  static String myVideoId = 'v9iTfaYmH5E';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -422,39 +547,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 70, // DOPSUM: CHANGE IT
+      startAt: 100, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedfive({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 's3YTfhJmh1I';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 75, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedsix({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

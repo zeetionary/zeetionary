@@ -153,7 +153,8 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accuse.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_the_accused.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accuser.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accustom.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accustom_to.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accustomed.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -320,7 +321,8 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "accuse",
     "the accused",
     "accuser",
-    "accustom",
+    "accustom to",
+    "accustomed",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -1450,10 +1452,17 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     ),
                   );
                 }
-                if (wordsEnglish == "accustom") {
+                if (wordsEnglish == "accustom to") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntrytheaccustom(),
+                      builder: (context) => EnglishEntrytheaccustomto(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "accustomed") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntrytheaccustomed(),
                     ),
                   );
                 }

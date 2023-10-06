@@ -3,44 +3,46 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntrytheaccustom - replace speakaaccustom - replace accustom - /əˈkʌstəm tə/ - find Dopsum2
+// replace these: replace EnglishEntrytheaccustomto - replace speakAccustomto - replace accustom - /əˈkʌstəm tə/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntrytheaccustom extends StatelessWidget {
-  EnglishEntrytheaccustom({Key? key}) : super(key: key);
+class EnglishEntrytheaccustomto extends StatelessWidget {
+  EnglishEntrytheaccustomto({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakaaccustom(String languageCode) async {
-    // DOPSUM: CHANGE speakaaccustom
+  Future<void> speakAccustomto(String languageCode) async {
+    // DOPSUM: CHANGE speakAccustomto
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accustom"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("accustom to"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakaaccustom(String languageCode) async {
-  //   // DOPSUM: CHANGE speakaaccustom
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("accustom"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAc25469(String languageCode) async {
+    // DOPSUM: CHANGE speakAccustomto
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "It took him a while to accustom himself to the idea."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakaaccustom(String languageCode) async {
-  //   // DOPSUM: CHANGE speakaaccustom
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("accustom"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAc25467(String languageCode) async {
+    // DOPSUM: CHANGE speakAccustomto
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Education should accustom children to thinking for themselves."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakaaccustom(String languageCode) async {
-  //   // DOPSUM: CHANGE speakaaccustom
+  // Future<void> speakAccustomto(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAccustomto
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("accustom"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("accustom to"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -66,7 +68,7 @@ class EnglishEntrytheaccustom extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'accustom', // DOPSUM: CHANGE WORD ENTRY - Find /əˈkʌstəm tə/
+                              'accustom to', // DOPSUM: CHANGE WORD ENTRY - Find /əˈkʌstəm tə/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -91,7 +93,7 @@ class EnglishEntrytheaccustom extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakaaccustom(
+                              onPressed: () => speakAccustomto(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -109,7 +111,7 @@ class EnglishEntrytheaccustom extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakaaccustom(
+                              onPressed: () => speakAccustomto(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -159,9 +161,9 @@ class EnglishEntrytheaccustom extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: 
+کوردی: ڕاھاتن، گونجان، خووگرتن، ئالوودەبوون، ھۆگربوون، گیرۆدەبوون
 
-١. پێناسە''',
+١. (کاری لێکدراو) خۆگونجاندن لەگەڵ شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -171,7 +173,7 @@ class EnglishEntrytheaccustom extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "DOPSUM_WRITE_A_SENTENCE",
+                                    "It took him a while to accustom himself to the idea.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -182,7 +184,7 @@ class EnglishEntrytheaccustom extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "رستە",
+                                    "ماوەیەکی پێچوو تا خۆی بە بیرۆکەکە ڕابێنێت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -194,7 +196,7 @@ class EnglishEntrytheaccustom extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakaaccustom("en-GB"),
+                                onPressed: () => speakAc25469("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -202,8 +204,50 @@ class EnglishEntrytheaccustom extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakaaccustom(
-                                    "en-US"), // REPLACE: accustom
+                                onPressed: () =>
+                                    speakAc25469("en-US"), // REPLACE: accustom
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Education should accustom children to thinking for themselves.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "خوێندن دەبێت منداڵان ڕابێنێت لەسەر بیرکردنەوەی خۆیان",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAc25467("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAc25467("en-US"), // REPLACE: accustom
                               ),
                             ],
                           ),
@@ -251,7 +295,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: accustom (Derived forms: accustoms, accustoming, accustomed)
+- Phrasal verb: accustom to (Derived forms: accustoms, accustoming, accustomed)
 1. Make psychologically or physically used (to something) (= habituate)
 "She became accustomed to the background music";
 '''),

@@ -163,6 +163,8 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acid.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acid_rain.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acid_test.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acknowledge.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acknowledgement.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -339,6 +341,8 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "acid",
     "acid rain",
     "acid test",
+    "acknowledge",
+    "acknowledgement",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -1535,6 +1539,20 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryacidtest(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acknowledge") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacknowledge(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acknowledgement") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacknowledgement(),
                     ),
                   );
                 }

@@ -135,9 +135,7 @@ class EnglishEntryaccrue extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: 
-
-١. پێناسە''',
+١. (کردار) زیادکردنی بەتێپەڕبوونی کات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -147,7 +145,7 @@ class EnglishEntryaccrue extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "DOPSUM: WRITE A SENTENCE",
+                                    "By the time they leave, they'll have accrued a year's holiday pay.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -158,7 +156,7 @@ class EnglishEntryaccrue extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "رستە",
+                                    "تا ئەوکاتەی دەڕۆن، بەشی پشوویەکی یەک ساڵە پارە کۆدەکەنەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

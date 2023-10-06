@@ -165,6 +165,25 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acid_test.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acknowledge.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acknowledgement.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acne.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acorn.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acoustic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acoustics.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquaint.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquaintance.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquainted.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquiesce.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquiescence.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquire.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquisition.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquisitive.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquit.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquittal.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acre.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acreage.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acrid.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acrimonious.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acrimony.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -343,6 +362,25 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "acid test",
     "acknowledge",
     "acknowledgement",
+    "acne",
+    "acorn",
+    "acoustic",
+    "acoustics",
+    "acquaint",
+    "acquaintance",
+    "acquainted",
+    "acquiesce",
+    "acquiescence",
+    "acquire",
+    "acquisition",
+    "acquisitive",
+    "acquit",
+    "acquittal",
+    "acre",
+    "acreage",
+    "acrid",
+    "acrimonious",
+    "acrimony",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -1553,6 +1591,139 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryacknowledgement(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acne") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacne(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acorn") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacorn(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acoustic") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacoustic(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acoustics") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacoustics(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acquaint") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacquaint(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acquaintance") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacquaintance(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acquainted") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacquainted(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acquiesce") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacquiesce(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acquiescence") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacquiescence(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acquire") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacquire(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acquisition") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacquisition(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acquisitive") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacquisitive(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acquit") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacquit(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acquittal") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacquittal(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acre") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacre(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acreage") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacreage(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acrid") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacrid(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acrimonious") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacrimonious(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acrimony") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacrimony(),
                     ),
                   );
                 }

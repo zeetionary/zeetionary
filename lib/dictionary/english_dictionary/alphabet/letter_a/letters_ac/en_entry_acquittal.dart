@@ -162,7 +162,7 @@ class EnglishEntryacquittal extends StatelessWidget {
                             '''
 کوردی: بێ‌تاوانبار ناسران، پاک‌دەرچوون، بەردران، پاکانە، پاک‌بوونەوە، لێخۆشبوون
 
-١. (ھاوەڵناو) ناساندنی گومانلێژراوێک لە دادگا بە بێ گوناح''',
+١. (ھاوەڵناو) ناساندنی گومانلێکراوێک لە دادگا بە بێ گوناح''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

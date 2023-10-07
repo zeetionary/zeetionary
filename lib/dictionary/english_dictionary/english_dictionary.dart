@@ -190,6 +190,13 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acronym.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_across.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acrylic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_act.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_action.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_activate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_active.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_actively.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_activist.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_activity.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -393,6 +400,13 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "acronym",
     "across",
     "acrylic",
+    "act",
+    "action",
+    "activate",
+    "active",
+    "actively",
+    "activist",
+    "activity",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -1778,6 +1792,55 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryacrylic(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "act") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryact(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "action") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaction(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "activate") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryactivate(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "active") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryactive(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "actively") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryactively(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "activist") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryactivist(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "activity") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryactivity(),
                     ),
                   );
                 }

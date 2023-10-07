@@ -187,6 +187,9 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acrobat.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acrobatic.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acrobatics.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acronym.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_across.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acrylic.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -387,6 +390,9 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "acrobat",
     "acrobatic",
     "acrobatics",
+    "acronym",
+    "across",
+    "acrylic",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -1751,6 +1757,27 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryacrobatics(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acronym") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacronym(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "across") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacross(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "acrylic") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryacrylic(),
                     ),
                   );
                 }

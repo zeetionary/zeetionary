@@ -208,7 +208,19 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acute_angle.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acutely.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acuteness.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_ad.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_ad.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adamant.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adams_apple.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adapt.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adaptable.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adaptation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adaptor.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_add.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adder.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_addict.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_addicted.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_addiction.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_addictive.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -430,7 +442,19 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "acute angle",
     "acutely",
     "acuteness",
-    "AD",
+    "ad",
+    "adamant",
+    "Adam's apple",
+    "adapt",
+    "adaptable",
+    "adaptation",
+    "adaptor",
+    "add",
+    "adder",
+    "addict",
+    "addicted",
+    "addiction",
+    "addictive",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -1945,10 +1969,94 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     ),
                   );
                 }
-                if (wordsEnglish == "AD") {
+                if (wordsEnglish == "ad") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryad(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adamant") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadamant(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "Adam's apple") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadamsapple(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adapt") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadamsadapt(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adaptable") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadamsadaptable(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adaptation") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadamsadaptation(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adaptor") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadamsadaptor(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "add") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadamsadd(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adder") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadamsadder(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "addict") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadamsaddict(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "addicted") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadamsaddicted(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "addiction") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadamsaddiction(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "addictive") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadamsaddictive(),
                     ),
                   );
                 }

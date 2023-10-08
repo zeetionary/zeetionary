@@ -3,64 +3,107 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryadd - replace speakAdd - replace add - /æd/ - find Dopsum2
+// replace these: replace EnglishEntryaddress - replace speakAddress - replace address - /əˈdres/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryadd extends StatelessWidget {
-  EnglishEntryadd({Key? key}) : super(key: key);
+class EnglishEntryaddress extends StatelessWidget {
+  EnglishEntryaddress({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdd(String languageCode) async {
-    // DOPSUM: CHANGE speakAdd
+  Future<void> speakAddress(String languageCode) async {
+    // DOPSUM: CHANGE speakAddress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("add"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("address"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdd4257(String languageCode) async {
-    // DOPSUM: CHANGE speakAdd
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Shall I add your name to the list?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAdd45698(String languageCode) async {
-    // DOPSUM: CHANGE speakAdd
+  Future<void> speakAdd774(String languageCode) async {
+    // DOPSUM: CHANGE speakAddress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Chlorine is added to the water to kill bacteria."); // DOPSUM: CHANGE TEXT
+        "I'll give you my address and phone number."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdd241(String languageCode) async {
-    // DOPSUM: CHANGE speakAdd
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He knew how to add and subtract."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAdd459224(String languageCode) async {
-    // DOPSUM: CHANGE speakAdd
+  Future<void> speakAddress452(String languageCode) async {
+    // DOPSUM: CHANGE speakAddress
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I have nothing to add to my earlier statement."); // DOPSUM: CHANGE TEXT
+        "Police found him at an address in West London."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdd(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdd
+  Future<void> speakAddr2458(String languageCode) async {
+    // DOPSUM: CHANGE speakAddress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("What's your email address?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAddr624(String languageCode) async {
+    // DOPSUM: CHANGE speakAddress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He gave details of the policy in an address to party members."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAdd99(String languageCode) async {
+    // DOPSUM: CHANGE speakAddress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "These concerns were not adequately addressed in the report."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAddr11(String languageCode) async {
+    // DOPSUM: CHANGE speakAddress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The letter was correctly addressed, but delivered to the wrong house."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAddr766(String languageCode) async {
+    // DOPSUM: CHANGE speakAddress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He addressed his comments to the supervisor."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAddre444(String languageCode) async {
+    // DOPSUM: CHANGE speakAddress
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The President has been asked to address the parliament."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAddress(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAddress
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("add"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("address"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAddress(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAddress
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("address"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -86,7 +129,7 @@ class EnglishEntryadd extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "add", // DOPSUM: CHANGE WORD ENTRY - Find /æd/
+                              "address", // DOPSUM: CHANGE WORD ENTRY - Find /əˈdres/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -102,7 +145,7 @@ class EnglishEntryadd extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /æd/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əˈdres/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -112,7 +155,7 @@ class EnglishEntryadd extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAdd(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAddress(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -120,7 +163,7 @@ class EnglishEntryadd extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /æd/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /əˈdres/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -129,7 +172,7 @@ class EnglishEntryadd extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAdd(
+                              onPressed: () => speakAddress(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -179,9 +222,9 @@ class EnglishEntryadd extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: خستنەسەر، کۆکردنەوە، پێوەنان
+کوردی: ناونیشان، نیشان، شێوازی لێداون یان دووان، دەراوی دەم، (دەم‌و)ڕاوێژ، شارەزایی، وتاردان، قسەکردن لە بەردەم ئامادەبووان‌دا
 
-١. (کردار) زیادکردنی شتێک بۆ شتێکی تر''',
+١. (ناو) شوێنی ژیان یان کارکردنی کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -191,7 +234,7 @@ class EnglishEntryadd extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Shall I add your name to the list?",
+                                    "I'll give you my address and phone number.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -202,7 +245,7 @@ class EnglishEntryadd extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناوت زیادبکەم بۆ لیستەکە؟",
+                                    "ناونیشان و ژمارە تەلەفۆنی خۆمت پێ ئەدەم",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -214,7 +257,7 @@ class EnglishEntryadd extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdd4257("en-GB"),
+                                onPressed: () => speakAdd774("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -223,7 +266,7 @@ class EnglishEntryadd extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAdd4257(// REPLACE: add /æd/
+                                    speakAdd774(// REPLACE: address /əˈdres/
                                         "en-US"),
                               ),
                             ],
@@ -234,7 +277,7 @@ class EnglishEntryadd extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Chlorine is added to the water to kill bacteria.",
+                                    "Police found him at an address (= a house or flat) in West London.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -245,7 +288,7 @@ class EnglishEntryadd extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کلۆر زیاد دەکرێت بۆ ئاو بۆ کووشتنی بەکتریا",
+                                    "پۆلیس لە شوێنێک لە ڕۆژھەڵاتی لەندەن دۆزییەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -257,7 +300,7 @@ class EnglishEntryadd extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdd45698("en-GB"),
+                                onPressed: () => speakAddress452("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -266,57 +309,7 @@ class EnglishEntryadd extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAdd45698(// REPLACE: add /æd/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (کردار) کۆکردنەوەی ژمارە پێکەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "He knew how to add and subtract.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دەیزانی چۆن کۆکرنەوە و لێدەرکردن بکات",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAdd241("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAdd241(// REPLACE: add /æd/
+                                    speakAddress452(// REPLACE: address /əˈdres/
                                         "en-US"),
                               ),
                             ],
@@ -324,7 +317,7 @@ class EnglishEntryadd extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. (کردار) زیادلرتنی قسەیەک بۆ شتێک کە پێشتر وتووتە''',
+٢. (ناو) ژمارەیەک پیت و ژمارە کە ناونیشانی شوێنێک یان کەسێکە لەسەر ئینتەرنێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -334,7 +327,7 @@ class EnglishEntryadd extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "I have nothing to add to my earlier statement.",
+                                    "What's your email address?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -345,7 +338,7 @@ class EnglishEntryadd extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھیچم نییە بۆ وتن زیاتر لەوەی پێشتر وتم",
+                                    "ناونیشانی ئیمەیڵەکەت چییە؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -357,7 +350,7 @@ class EnglishEntryadd extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdd459224("en-GB"),
+                                onPressed: () => speakAddr2458("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -366,7 +359,257 @@ class EnglishEntryadd extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAdd459224(// REPLACE: add /æd/
+                                    speakAddr2458(// REPLACE: address /əˈdres/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٣. (ناو) وتارێکی فەرمی''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "He gave details of the policy in an address to party members.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "وردەکارییەکانی سیاسەتیانی ڕوونکردەوە لە وتارێکدا بۆ ئەندامانی پارتەکە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAddr624("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAddr624(// REPLACE: address /əˈdres/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٤. (کردار) بیرکرنەوە لە چۆنیەتی مامەڵەکردن لەگەل کێشەیەک''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "These concerns were not adequately addressed in the report.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ئەم نیگەرانیانە بەپێی پێویست لە ڕاپۆرتەکەدا مامەڵەیان لەگەڵ نەکراوە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAdd99("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAdd99(// REPLACE: address /əˈdres/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٥. (کردار) نووسینی ناو و ناونیشانی کەسێک و شوێنەکەی لەسەر نامەیەک''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The letter was correctly addressed, but delivered to the wrong house.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "نامەکە بە درووستی ناو و ناونیشانی لەسەر نووسرابوو، بەڵام بۆ ماڵێکی ھەڵە نێردرا",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAddr11("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAddr11(// REPLACE: address /əˈdres/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٦. (کردار) پێشکەشکردنی وتارێک بۆ کۆمەڵە کەسێک''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The President has been asked to address the parliament.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "سەرۆک داوای لێکرا وتارێک لە پەرلەمان پێشکەش بکات",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAddre444("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAddre444(// REPLACE: address /əˈdres/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٧. (کردار) وتنی شتێک ڕاستەوخۆ بە کەسێك''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "He addressed his comments to the supervisor.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "بۆچوونەکانی ڕاستەوخۆ بە سەرپەرشتیارەکە گووت",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAddr766("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAddr766(// REPLACE: address /əˈdres/
                                         "en-US"),
                               ),
                             ],
@@ -415,27 +658,48 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: add (Derived forms: added, adds, adding)
-1. Make an addition (to); join or combine or unite with others; increase the quality, quantity, size or scope of
-"We added two students to that dorm room"; "She added a personal note to her letter"; "Add insult to injury"; "Add some extra plates to the dinner table"
+- Noun: address (Derived forms: addresses)
+1. The place where a person or organization can be found or communicated with
  
-2. State or say further (= append, supply)
-"'It doesn't matter,' he added";
+2. Written directions for finding some location; written on letters or packages that are to be delivered to that location (= destination, name and address)
  
-3. Provide a particular quality or character (= lend, impart, bestow, contribute, bring)
-"The music added a lot to the play"; "This adds a light note to the program";
+3. The act of delivering a formal spoken communication to an audience (= speech)
+"he listened to an address on minor Roman poets";
  
-4. (arithmetic) make an addition by combining numbers (= add together)
-"Add 27 and 49, please!"; "add together 27 and 49, please!";
+4. The manner of speaking to another individual
+"he failed in his manner of address to the captain"
  
-5. Determine the sum of(= total, tot, tot up, sum, sum up, summate, tote up, add together, tally, add up)
-"Add all the people in this town to those of the neighbouring town"; "add together all the people in this town to those of the neighbouring town"; "add up all the people in this town to those of the neighbouring town";
+5. A sign in front of a house or business carrying the conventional form by which its location is described
  
-6. Constitute an addition
-"This paper will add to her reputation"
+6. (golf) the stance assumed by a golfer in preparation for hitting a golf ball
+ 
+7. The social skill to do or say what is appropriate for the occasion (= savoir-faire, savoir faire)
+ 
+8. (computing) the code that identifies where a piece of information is stored (= computer address, reference)
 
-- Noun: ADD
-A condition (mostly in boys) characterized by behavioral and learning disorders (= - attention deficit disorder, attention deficit hyperactivity disorder, ADHD, hyperkinetic syndrome, minimal brain dysfunction, minimal brain damage, MBD)
+- Verb: address (Derived forms: addressed, addresses, addressing)
+1. Speak to (= turn to)
+"He addressed the crowd outside the window";
+ 
+2. Give a speech to (= speak)
+"The chairman addressed the board of trustees";
+ 
+3. Put an address on (an envelope) (= direct)
+ 
+4. Direct a question at someone
+ 
+5. Give attention to something; direct efforts towards something, such as how to solve a problem
+"We need to address this issue first"
+ 
+6. Greet, as with a prescribed form, title, or name (= call)
+"He always addresses me with 'Sir'";
+ 
+7. Act on verbally or in some form of artistic expression (= cover, treat, handle, plow [N. Amer], deal, plough [Brit, Cdn])
+"The course addressed all of Western Civilization";
+ 
+8. (golf) adjust and aim (a golf ball) at in preparation of hitting
+ 
+9. (computing) access or locate by address
 '''),
         ],
       ),
@@ -446,7 +710,7 @@ A condition (mostly in boys) characterized by behavioral and learning disorders 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '_3tdqQR8j28';
+  static String myVideoId = 'zPx5N6Lh3sw';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -454,7 +718,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 127, // DOPSUM: CHANGE IT
+      startAt: 1277, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -473,7 +737,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'j6r6NQcLDMs';
+  static String myVideoId = 'h_jrebvmPlk';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -481,7 +745,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 117, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -500,7 +764,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'AwysSy4scqA';
+  static String myVideoId = 'B7VKqFTaPl8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -508,7 +772,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 363, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -527,7 +791,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'fmLxHjk1n4o';
+  static String myVideoId = 'Gyb-DjVT5_c';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -535,7 +799,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 16, // DOPSUM: CHANGE IT
+      startAt: 128, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -554,7 +818,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'qzAXbtw0S0U';
+  static String myVideoId = 'sZ3sCBdqCVU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -562,7 +826,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 47, // DOPSUM: CHANGE IT
+      startAt: 66, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -581,7 +845,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'g2ABXldEEv0';
+  static String myVideoId = 'hOUGNGWmN0k';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -589,7 +853,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 4, // DOPSUM: CHANGE IT
+      startAt: 993, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -608,7 +872,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'hE3KjKg69ZA';
+  static String myVideoId = 'cqidD7kVnxY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -616,7 +880,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 685, // DOPSUM: CHANGE IT
+      startAt: 1379, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -635,7 +899,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'Cr4RYby4L6Q';
+  static String myVideoId = 'pFmtmO2cnlg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -643,7 +907,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 24, // DOPSUM: CHANGE IT
+      startAt: 64, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -662,7 +926,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'LTnl36-0-zU';
+  static String myVideoId = 'HAnw168huqA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -670,7 +934,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 439, // DOPSUM: CHANGE IT
+      startAt: 3045, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -689,7 +953,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'mi2B_Y2z-ts';
+  static String myVideoId = 'PqpCeiYycVM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -697,7 +961,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 48, // DOPSUM: CHANGE IT
+      startAt: 1107, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

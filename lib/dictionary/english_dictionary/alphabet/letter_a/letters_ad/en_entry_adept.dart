@@ -3,44 +3,45 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryacuteangle - replace speakAcuteangle - replace acute angle - /əˌkjuːt ˈæŋɡl/ - find Dopsum2
+// replace these: replace EnglishEntryadept - replace speakAdept - replace adept - /əˈdept/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryacuteangle extends StatelessWidget {
-  EnglishEntryacuteangle({Key? key}) : super(key: key);
+class EnglishEntryadept extends StatelessWidget {
+  EnglishEntryadept({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcuteangle(String languageCode) async {
-    // DOPSUM: CHANGE speakAcuteangle
+  Future<void> speakAdept(String languageCode) async {
+    // DOPSUM: CHANGE speakAdept
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acute angle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adept"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcuteangle(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAcuteangle
+  Future<void> speakA2588(String languageCode) async {
+    // DOPSUM: CHANGE speakAdept
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He was extremely adept at avoiding getting caught."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAdept(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdept
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acute angle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adept"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAcuteangle(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAcuteangle
+  // Future<void> speakAdept(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdept
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acute angle"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAcuteangle(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAcuteangle
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acute angle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adept"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -66,7 +67,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'acute angle', // DOPSUM: CHANGE WORD ENTRY - Find /əˌkjuːt ˈæŋɡl/
+                              "adept", // DOPSUM: CHANGE WORD ENTRY - Find /əˈdept/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -82,7 +83,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˌkjuːt ˈæŋɡl/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əˈdept/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -91,16 +92,16 @@ class EnglishEntryacuteangle extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAcuteangle(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAdept(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˌkjuːt ˈæŋɡl/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /əˈdept/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -109,7 +110,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAcuteangle(
+                              onPressed: () => speakAdept(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -128,8 +129,8 @@ class EnglishEntryacuteangle extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(),
-                  VideoIconForTab(), // FIND: 2,
                   VideoIconForTab(),
+                  VideoIconForTab(), // FIND: 2,
                   VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -151,19 +152,62 @@ class EnglishEntryacuteangle extends StatelessWidget {
                 child: TabBarView(
                   children: [
                     const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
-                    const SingleChildScrollView(
+                    SingleChildScrollView(
                       // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
+                          const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: گۆشەی تیژ یان توند یان ڕژد (کەم‌تر لە ٩٠ پلە بێ)
+کوردی: شارەزا، وەستا، لێزان، کارزان، شارەزایانە
 
-١. (ناو) گۆشەیەک کە پلەکەی کەمترە لە ٩٠ پلە''',
+١. (ەاوەڵناو) شارەزا لە کردنی شتێکی گران''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "He was extremely adept at avoiding getting caught.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "زۆر شارەزا بوو لە خۆدزینەوە لە دەستگیرکردن",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakA2588("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakA2588(// REPLACE: adept /əˈdept/
+                                        "en-US"),
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -209,8 +253,12 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acute angle (Derived forms: acute angles)
-1. An angle less than 90 degrees but more than 0 degrees
+- Adjective: adept
+1. Having or showing knowledge and skill and aptitude (= expert, good, practiced [N. Amer], proficient, skillful [N. Amer], skilful [Brit, Cdn], practised [Brit, Cdn])
+"adept in handicrafts"; "an adept juggler";
+
+- Noun: adept ((Derived forms: adepts))
+1. Someone who is dazzlingly skilled in any field (= ace [informal], champion, sensation, maven [US, informal], mavin [US, informal], virtuoso, genius, hotshot [informal], star, superstar, whiz [informal], whizz [informal], wizard [informal], wiz [informal], megastar [informal])
 '''),
         ],
       ),
@@ -221,7 +269,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'kwKNEZycvmM';
+  static String myVideoId = 'iWaIFn4Yerk';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -248,7 +296,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'zfX7GSG3G2M';
+  static String myVideoId = 'gTZo4Cs8Zc8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -256,7 +304,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 562, // DOPSUM: CHANGE IT
+      startAt: 17, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -275,7 +323,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'qMb93a7Q5D8';
+  static String myVideoId = '6Awx8MvT7qk';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -283,7 +331,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1683, // DOPSUM: CHANGE IT
+      startAt: 564, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -302,7 +350,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'dA94zyaLuhk';
+  static String myVideoId = 'XwM7SWJ6dr0';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -310,7 +358,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 113, // DOPSUM: CHANGE IT
+      startAt: 73, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -329,7 +377,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'X2Ppp8wPdP4';
+  static String myVideoId = 'rr1wNpNMw-s';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -337,7 +385,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 276, // DOPSUM: CHANGE IT
+      startAt: 369, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -356,7 +404,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'cNjzynK5QqE';
+  static String myVideoId = '1YxH43Cw6tI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -364,7 +412,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 719, // DOPSUM: CHANGE IT
+      startAt: 519, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -383,7 +431,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'uS3qOAuXxuY';
+  static String myVideoId = 'wZd7bUrhPF4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -391,7 +439,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 85, // DOPSUM: CHANGE IT
+      startAt: 118, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

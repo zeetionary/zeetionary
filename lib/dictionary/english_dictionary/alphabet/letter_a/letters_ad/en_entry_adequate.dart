@@ -3,44 +3,46 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryacuteangle - replace speakAcuteangle - replace acute angle - /əˌkjuːt ˈæŋɡl/ - find Dopsum2
+// replace these: replace EnglishEntryadequate - replace speakAdequate - replace adequate - /ˈædɪkwət/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryacuteangle extends StatelessWidget {
-  EnglishEntryacuteangle({Key? key}) : super(key: key);
+class EnglishEntryadequate extends StatelessWidget {
+  EnglishEntryadequate({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcuteangle(String languageCode) async {
-    // DOPSUM: CHANGE speakAcuteangle
+  Future<void> speakAdequate(String languageCode) async {
+    // DOPSUM: CHANGE speakAdequate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acute angle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adequate"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcuteangle(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAcuteangle
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acute angle"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAdequa44855(String languageCode) async {
+    // DOPSUM: CHANGE speakAdequate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("The room was small but adequate."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAcuteangle(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAcuteangle
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acute angle"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAdequ99965(String languageCode) async {
+    // DOPSUM: CHANGE speakAdequate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He didn't give an adequate answer to the question."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAcuteangle(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAcuteangle
+  // Future<void> speakAdequate(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdequate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acute angle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adequate"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -66,7 +68,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'acute angle', // DOPSUM: CHANGE WORD ENTRY - Find /əˌkjuːt ˈæŋɡl/
+                              "adequate", // DOPSUM: CHANGE WORD ENTRY - Find /ˈædɪkwət/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -82,7 +84,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˌkjuːt ˈæŋɡl/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /ˈædɪkwət/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -91,16 +93,16 @@ class EnglishEntryacuteangle extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAcuteangle(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAdequate(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˌkjuːt ˈæŋɡl/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /ˈædɪkwət/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -109,7 +111,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAcuteangle(
+                              onPressed: () => speakAdequate(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -128,8 +130,8 @@ class EnglishEntryacuteangle extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(),
-                  VideoIconForTab(), // FIND: 2,
                   VideoIconForTab(),
+                  VideoIconForTab(), // FIND: 2,
                   VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -151,19 +153,105 @@ class EnglishEntryacuteangle extends StatelessWidget {
                 child: TabBarView(
                   children: [
                     const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
-                    const SingleChildScrollView(
+                    SingleChildScrollView(
                       // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
+                          const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: گۆشەی تیژ یان توند یان ڕژد (کەم‌تر لە ٩٠ پلە بێ)
+کوردی: لێھاتوو، ژێھاتی، لێوەشاو، گونجاو، بەس، بەش‌کردوو، سەروزیاد، سەرومڕ، سەروبەر، بێ‌کەم‌وزیاد، تەواو
 
-١. (ناو) گۆشەیەک کە پلەکەی کەمترە لە ٩٠ پلە''',
+١. (ھاوەڵناو) بە پێی پێویست باش یان زۆر بۆ مەبەستێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The room was small but adequate.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ژوورەکە بچووک بوو، بەڵام بەشمانی دەکرد",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAdequa44855("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAdequa44855(
+                                    // REPLACE: adequate /ˈædɪkwət/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "He didn't give an adequate answer to the question.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "وەڵامێکی تەواوی پرسیارەکەی نەداوە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAdequ99965("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAdequ99965(
+                                    // REPLACE: adequate /ˈædɪkwət/
+                                    "en-US"),
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -209,8 +297,15 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acute angle (Derived forms: acute angles)
-1. An angle less than 90 degrees but more than 0 degrees
+- Adjective: adequate 
+1. Having the requisite qualities or resources to meet a task (= equal)
+"she had adequate training"; "her training was adequate"; "she was adequate to the job";
+ 
+2. Sufficient for the purpose (= enough, nuff [non-standard])
+"an adequate income"; "the food was adequate";
+ 
+3. About average; acceptable (= passable, fair to middling, tolerable)
+"more than adequate as a secretary";
 '''),
         ],
       ),
@@ -221,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'kwKNEZycvmM';
+  static String myVideoId = 'u4bBQ2tNLCY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -248,7 +343,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'zfX7GSG3G2M';
+  static String myVideoId = '-iPq3-b8pwU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -256,7 +351,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 562, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -275,7 +370,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'qMb93a7Q5D8';
+  static String myVideoId = 'YeLpUt04Ses';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -283,7 +378,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1683, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -302,7 +397,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'dA94zyaLuhk';
+  static String myVideoId = 'y4DTW4B3Sjs';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -310,7 +405,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 113, // DOPSUM: CHANGE IT
+      startAt: 135, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -329,7 +424,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'X2Ppp8wPdP4';
+  static String myVideoId = 'dl5FHmL_6rE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -337,7 +432,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 276, // DOPSUM: CHANGE IT
+      startAt: 67, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -356,7 +451,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'cNjzynK5QqE';
+  static String myVideoId = 'aCPNlZ7bvRc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -364,7 +459,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 719, // DOPSUM: CHANGE IT
+      startAt: 86, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -383,7 +478,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'uS3qOAuXxuY';
+  static String myVideoId = 'SDpCzJw2xm4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -391,7 +486,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 85, // DOPSUM: CHANGE IT
+      startAt: 667, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

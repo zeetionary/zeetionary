@@ -225,6 +225,12 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_additional.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_additionally.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_additive.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_address.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adept.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adequate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adequately.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adhere.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adhere_to.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -463,6 +469,12 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "additional",
     "additionally",
     "additive",
+    "address",
+    "adept",
+    "adequate",
+    "adequately",
+    "adhere",
+    "adhere to",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -2001,98 +2013,140 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                 if (wordsEnglish == "adapt") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryadamsadapt(),
+                      builder: (context) => EnglishEntryadapt(),
                     ),
                   );
                 }
                 if (wordsEnglish == "adaptable") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryadamsadaptable(),
+                      builder: (context) => EnglishEntryadaptable(),
                     ),
                   );
                 }
                 if (wordsEnglish == "adaptation") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryadamsadaptation(),
+                      builder: (context) => EnglishEntryadaptation(),
                     ),
                   );
                 }
                 if (wordsEnglish == "adaptor") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryadamsadaptor(),
+                      builder: (context) => EnglishEntryadaptor(),
                     ),
                   );
                 }
                 if (wordsEnglish == "add") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryadamsadd(),
+                      builder: (context) => EnglishEntryadd(),
                     ),
                   );
                 }
                 if (wordsEnglish == "adder") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryadamsadder(),
+                      builder: (context) => EnglishEntryadder(),
                     ),
                   );
                 }
                 if (wordsEnglish == "addict") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryadamsaddict(),
+                      builder: (context) => EnglishEntryaddict(),
                     ),
                   );
                 }
                 if (wordsEnglish == "addicted") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryadamsaddicted(),
+                      builder: (context) => EnglishEntryaddicted(),
                     ),
                   );
                 }
                 if (wordsEnglish == "addiction") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryadamsaddiction(),
+                      builder: (context) => EnglishEntryaddiction(),
                     ),
                   );
                 }
                 if (wordsEnglish == "addictive") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryadamsaddictive(),
+                      builder: (context) => EnglishEntryaddictive(),
                     ),
                   );
                 }
                 if (wordsEnglish == "addition") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryadamsaddition(),
+                      builder: (context) => EnglishEntryaddition(),
                     ),
                   );
                 }
                 if (wordsEnglish == "additional") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryadamsadditional(),
+                      builder: (context) => EnglishEntryadditional(),
                     ),
                   );
                 }
                 if (wordsEnglish == "additionally") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryadamsadditionally(),
+                      builder: (context) => EnglishEntryadditionally(),
                     ),
                   );
                 }
                 if (wordsEnglish == "additive") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryadamsadditive(),
+                      builder: (context) => EnglishEntryadditive(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "address") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaddress(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adept") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadept(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adequate") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadequate(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adequately") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadequately(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adhere") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadhere(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adhere to") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadhereto(),
                     ),
                   );
                 }

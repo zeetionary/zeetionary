@@ -3,50 +3,52 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryacuteangle - replace speakAcuteangle - replace acute angle - /əˌkjuːt ˈæŋɡl/ - find Dopsum2
+// replace these: replace EnglishEntryadhereto - replace speakAdhereto - replace adhere to - /ədˈhɪə(r) tə/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryacuteangle extends StatelessWidget {
-  EnglishEntryacuteangle({Key? key}) : super(key: key);
+class EnglishEntryadhereto extends StatelessWidget {
+  EnglishEntryadhereto({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcuteangle(String languageCode) async {
-    // DOPSUM: CHANGE speakAcuteangle
+  Future<void> speakAdhereto(String languageCode) async {
+    // DOPSUM: CHANGE speakAdhereto
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acute angle"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adhere to"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcuteangle(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAcuteangle
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acute angle"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAdher251463(String languageCode) async {
+    // DOPSUM: CHANGE speakAdhereto
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "For ten months he adhered to a no-fat low-salt diet."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAcuteangle(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAcuteangle
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acute angle"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAdh358947(String languageCode) async {
+    // DOPSUM: CHANGE speakAdhereto
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She adheres to teaching methods she learned over 30 years ago."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAcuteangle(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAcuteangle
+  // Future<void> speakAdhereto(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdhereto
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acute angle"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adhere to"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 9, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 7, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -66,7 +68,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'acute angle', // DOPSUM: CHANGE WORD ENTRY - Find /əˌkjuːt ˈæŋɡl/
+                              "adhere to", // DOPSUM: CHANGE WORD ENTRY - Find /ədˈhɪə(r) tə/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -82,7 +84,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˌkjuːt ˈæŋɡl/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /ədˈhɪə(r) tə/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -91,16 +93,16 @@ class EnglishEntryacuteangle extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAcuteangle(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAdhereto(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˌkjuːt ˈæŋɡl/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /ədˈhɪr tə/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -109,7 +111,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAcuteangle(
+                              onPressed: () => speakAdhereto(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -128,9 +130,9 @@ class EnglishEntryacuteangle extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(),
-                  VideoIconForTab(), // FIND: 2,
                   VideoIconForTab(),
-                  VideoIconForTab(),
+                  // VideoIconForTab(), // FIND: 2,
+                  // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -151,19 +153,103 @@ class EnglishEntryacuteangle extends StatelessWidget {
                 child: TabBarView(
                   children: [
                     const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
-                    const SingleChildScrollView(
+                    SingleChildScrollView(
                       // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text(
+                          const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: گۆشەی تیژ یان توند یان ڕژد (کەم‌تر لە ٩٠ پلە بێ)
-
-١. (ناو) گۆشەیەک کە پلەکەی کەمترە لە ٩٠ پلە''',
+١. (ھاوەڵناو) شوێنکەوتنی ڕەچەتەیەک، یاسایەک یان شتێک کە باوەڕی پێی ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "For ten months he adhered to a no-fat low-salt diet.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "بۆ ماوەی ١٠ مانگ پابەند بوو بە ژەمێکی بە چەوری کەم خوێ",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAdher251463("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAdher251463(
+                                    // REPLACE: adhere to /ədˈhɪə(r) tə/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "She adheres to teaching methods she learned over 30 years ago.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "شوێن ئەو ڕێگایانەی وانەوتنەوە دەکەوێت کە ٣٠ ساڵ پێش ئێستا فێری بووە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAdh358947("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAdh358947(
+                                    // REPLACE: adhere to /ədˈhɪə(r) tə/
+                                    "en-US"),
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -173,8 +259,8 @@ class EnglishEntryacuteangle extends StatelessWidget {
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    YoutubeEmbeddedseven(),
+                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    // YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
@@ -209,8 +295,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acute angle (Derived forms: acute angles)
-1. An angle less than 90 degrees but more than 0 degrees
+- Verb: adhere to (Derived forms: adhered to, adheres to, adhering to)
+1. Be compatible or in accordance with
+"You must adhere to the rules"
 '''),
         ],
       ),
@@ -221,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'kwKNEZycvmM';
+  static String myVideoId = 'H640jO_n1AQ';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -229,7 +316,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 231, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -248,7 +335,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'zfX7GSG3G2M';
+  static String myVideoId = '3J8_JM7Qiss';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -256,7 +343,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 562, // DOPSUM: CHANGE IT
+      startAt: 790, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -275,7 +362,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'qMb93a7Q5D8';
+  static String myVideoId = 'sVnikEoeruU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -283,7 +370,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1683, // DOPSUM: CHANGE IT
+      startAt: 1244, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -302,7 +389,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'dA94zyaLuhk';
+  static String myVideoId = 'YEhUUQQekkQ';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -310,7 +397,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 113, // DOPSUM: CHANGE IT
+      startAt: 457, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -329,7 +416,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'X2Ppp8wPdP4';
+  static String myVideoId = 'q5jnslfwazg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -337,66 +424,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 276, // DOPSUM: CHANGE IT
+      startAt: 6312, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedfive({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'cNjzynK5QqE';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 719, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedsix({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'uS3qOAuXxuY';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 85, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedseven({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

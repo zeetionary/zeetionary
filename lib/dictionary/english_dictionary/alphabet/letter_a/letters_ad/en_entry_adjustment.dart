@@ -3,52 +3,52 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryadhereto - replace speakAdhereto - replace adhere to - /ədˈhɪə(r) tə/ - find Dopsum2
+// replace these: replace EnglishEntryadjustment - replace speakAdjustment - replace adjustment - /əˈdʒʌstmənt/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryadhereto extends StatelessWidget {
-  EnglishEntryadhereto({Key? key}) : super(key: key);
+class EnglishEntryadjustment extends StatelessWidget {
+  EnglishEntryadjustment({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdhereto(String languageCode) async {
-    // DOPSUM: CHANGE speakAdhereto
+  Future<void> speakAdjustment(String languageCode) async {
+    // DOPSUM: CHANGE speakAdjustment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adhere to"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adjustment"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdher251463(String languageCode) async {
-    // DOPSUM: CHANGE speakAdhereto
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "For ten months he adhered to a no-fat low-salt diet."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAdh358947(String languageCode) async {
-    // DOPSUM: CHANGE speakAdhereto
+  Future<void> speakAdjus56911(String languageCode) async {
+    // DOPSUM: CHANGE speakAdjustment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She adheres to teaching methods she learned over 30 years ago."); // DOPSUM: CHANGE TEXT
+        "I've made a few adjustments to the design."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdhereto(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdhereto
+  Future<void> speakAdjust5568(String languageCode) async {
+    // DOPSUM: CHANGE speakAdjustment
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The process of adjustment to life in another country can be very difficult."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAdjustment(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdjustment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adhere to"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adjustment"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 7, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 9, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -68,7 +68,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "adhere to", // DOPSUM: CHANGE WORD ENTRY - Find /ədˈhɪə(r) tə/
+                              "adjustment", // DOPSUM: CHANGE WORD ENTRY - Find /əˈdʒʌstmənt/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -84,7 +84,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /ədˈhɪə(r) tə/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əˈdʒʌstmənt/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -93,16 +93,16 @@ class EnglishEntryadhereto extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAdhereto(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAdjustment(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /ədˈhɪr tə/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /əˈdʒʌstmənt/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -111,7 +111,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAdhereto(
+                              onPressed: () => speakAdjustment(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -131,8 +131,8 @@ class EnglishEntryadhereto extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(),
-                  // VideoIconForTab(), // FIND: 2,
-                  // VideoIconForTab(),
+                  VideoIconForTab(), // FIND: 2,
+                  VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -161,7 +161,9 @@ class EnglishEntryadhereto extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (کاری لێکدراو) شوێنکەوتنی ڕەچەتەیەک، یاسایەک یان شتێک کە باوەڕی پێی ھەیە''',
+کوردی: ڕێکخستن، میزان‌کردن، ڕێکاندن، گونجان، ساز، سازان، داھاتن، ڕاست‌کردنەوە، گۆڕان، ئامێری ڕاست‌کردنەوە یان میزان‌کردن، میزانە
+
+١. (ناو) گۆڕانکاریی بچووک بۆ چاکترکردنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -171,7 +173,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "For ten months he adhered to a no-fat low-salt diet.",
+                                    "I've made a few adjustments to the design.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -182,7 +184,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ ماوەی ١٠ مانگ پابەند بوو بە ژەمێکی بە چەوری کەم خوێ",
+                                    "ھەندێک گۆڕانکاریی بچووکم کردووە بۆ باشترکردنی دیزاینەکە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -194,7 +196,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdher251463("en-GB"),
+                                onPressed: () => speakAdjus56911("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -202,11 +204,20 @@ class EnglishEntryadhereto extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAdher251463(
-                                    // REPLACE: adhere to /ədˈhɪə(r) tə/
+                                onPressed: () => speakAdjus56911(
+                                    // REPLACE: adjustment /əˈdʒʌstmənt/
                                     "en-US"),
                               ),
                             ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+کوردی: ڕێکخستن، میزان‌کردن، ڕێکاندن، گونجان، ساز، سازان، داھاتن، ڕاست‌کردنەوە، گۆڕان، ئامێری ڕاست‌کردنەوە یان میزان‌کردن، میزانە
+
+١. (ناو) گۆڕانکاریی بچووک بۆ چاکترکردنی شتێک''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
                           ),
                           Row(
                             children: [
@@ -214,7 +225,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "She adheres to teaching methods she learned over 30 years ago.",
+                                    "The process of adjustment to life in another country can be very difficult.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -225,7 +236,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شوێن ئەو ڕێگایانەی وانەوتنەوە دەکەوێت کە ٣٠ ساڵ پێش ئێستا فێری بووە",
+                                    "پڕۆسەی ڕاھاتن بە ژیانکردن لە وڵاتێکی تر ئەکرێت زۆر قوورس بێت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -237,7 +248,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdh358947("en-GB"),
+                                onPressed: () => speakAdjust5568("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -245,8 +256,8 @@ class EnglishEntryadhereto extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAdh358947(
-                                    // REPLACE: adhere to /ədˈhɪə(r) tə/
+                                onPressed: () => speakAdjust5568(
+                                    // REPLACE: adjustment /əˈdʒʌstmənt/
                                     "en-US"),
                               ),
                             ],
@@ -259,8 +270,8 @@ class EnglishEntryadhereto extends StatelessWidget {
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    // YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
@@ -295,9 +306,17 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: adhere to (Derived forms: adhered to, adheres to, adhering to)
-1. Be compatible or in accordance with
-"You must adhere to the rules"
+- Noun: adjustment (Derived forms: adjustments)
+1. Making or becoming suitable; adjusting to circumstances (accommodation, fitting)
+ 
+2. The act of making something different (as e.g. the size of a garment) (= alteration, modification)
+ 
+3. The act of adjusting something to match a standard (registration, readjustment)
+ 
+4. The process of adapting to something (such as environmental conditions) (= adaptation, adaption)
+ 
+5. An amount added or deducted on the basis of qualifying circumstances (= allowance)
+"an adjustment for profit";
 '''),
         ],
       ),
@@ -308,7 +327,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'H640jO_n1AQ';
+  static String myVideoId = 'UOrIVc5lG-k';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -316,7 +335,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 231, // DOPSUM: CHANGE IT
+      startAt: 9, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -335,7 +354,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = '3J8_JM7Qiss';
+  static String myVideoId = 'yKG58QEgrsY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -343,7 +362,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 790, // DOPSUM: CHANGE IT
+      startAt: 64, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -362,7 +381,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'sVnikEoeruU';
+  static String myVideoId = 'JZtDflsCEkA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -370,7 +389,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1244, // DOPSUM: CHANGE IT
+      startAt: 292, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -389,7 +408,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'YEhUUQQekkQ';
+  static String myVideoId = 'TpItcucpO0A';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -397,7 +416,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 457, // DOPSUM: CHANGE IT
+      startAt: 4, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -416,7 +435,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'q5jnslfwazg';
+  static String myVideoId = 'oxujqlQZ73U';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -424,12 +443,66 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 6312, // DOPSUM: CHANGE IT
+      startAt: 373, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedfive({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  static String myVideoId = 'xax0RTCqYTk';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 142, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedsix({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  static String myVideoId = '5dAWNc8OIjM';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 18, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedseven({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

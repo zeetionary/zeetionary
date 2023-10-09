@@ -237,6 +237,18 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adhesive.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_ad_hoc.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjacent.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjectival.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjective.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjoin.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjourn.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjournment.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjudicate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjudication.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjudicator.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjunct.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjust.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjustable.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjustment.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -487,6 +499,18 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "adhesive",
     "ad hoc",
     "adjacent",
+    "adjectival",
+    "adjective",
+    "adjoin",
+    "adjourn",
+    "adjournment",
+    "adjudicate",
+    "adjudication",
+    "adjudicator",
+    "adjunct",
+    "adjust",
+    "adjustable",
+    "adjustment",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -2201,6 +2225,90 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryadjacent(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adjectival") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadjectival(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adjective") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadjective(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adjoin") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadjoin(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adjourn") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadjourn(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adjournment") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadjournment(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adjudicate") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadjudicate(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adjudication") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadjudication(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adjudicator") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadjudicator(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adjunct") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadjunct(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adjust") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadjust(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adjustable") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadjustable(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adjustment") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadjustment(),
                     ),
                   );
                 }

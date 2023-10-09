@@ -162,7 +162,7 @@ class EnglishEntryadditionally extends StatelessWidget {
                             '''
 کوردی: زۆرتر، پتر، سەرەڕای ئەمەش، سەرباری ئەمەش
 
-١. (ھاوەڵناو) پێناسە''',
+١. (ھاوەڵکار) زیاتر لەوەی پێشووتر باسکراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

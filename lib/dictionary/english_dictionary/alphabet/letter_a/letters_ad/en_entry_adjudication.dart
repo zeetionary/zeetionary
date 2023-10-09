@@ -3,46 +3,45 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryadhereto - replace speakAdhereto - replace adhere to - /ədˈhɪə(r) tə/ - find Dopsum2
+// replace these: replace EnglishEntryadjudication - replace speakAdjudication - replace adjudication - /əˌdʒuːdɪˈkeɪʃn/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryadhereto extends StatelessWidget {
-  EnglishEntryadhereto({Key? key}) : super(key: key);
+class EnglishEntryadjudication extends StatelessWidget {
+  EnglishEntryadjudication({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdhereto(String languageCode) async {
-    // DOPSUM: CHANGE speakAdhereto
+  Future<void> speakAdjudication(String languageCode) async {
+    // DOPSUM: CHANGE speakAdjudication
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adhere to"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adjudication"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdher251463(String languageCode) async {
-    // DOPSUM: CHANGE speakAdhereto
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "For ten months he adhered to a no-fat low-salt diet."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAdh358947(String languageCode) async {
-    // DOPSUM: CHANGE speakAdhereto
+  Future<void> speakAdjudi5684(String languageCode) async {
+    // DOPSUM: CHANGE speakAdjudication
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She adheres to teaching methods she learned over 30 years ago."); // DOPSUM: CHANGE TEXT
+        "The case was referred to a higher court for adjudication."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdhereto(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdhereto
+  // Future<void> speakAdjudication(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdjudication
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adhere to"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adjudication"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAdjudication(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdjudication
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("adjudication"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -68,7 +67,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "adhere to", // DOPSUM: CHANGE WORD ENTRY - Find /ədˈhɪə(r) tə/
+                              "adjudication", // DOPSUM: CHANGE WORD ENTRY - Find /əˌdʒuːdɪˈkeɪʃn/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -84,7 +83,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /ədˈhɪə(r) tə/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əˌdʒuːdɪˈkeɪʃn/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -93,16 +92,16 @@ class EnglishEntryadhereto extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAdhereto(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAdjudication(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /ədˈhɪr tə/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /əˌdʒuːdɪˈkeɪʃn/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -111,7 +110,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAdhereto(
+                              onPressed: () => speakAdjudication(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -161,7 +160,9 @@ class EnglishEntryadhereto extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (کاری لێکدراو) شوێنکەوتنی ڕەچەتەیەک، یاسایەک یان شتێک کە باوەڕی پێی ھەیە''',
+کوردی: دادوەری، دادگەری، شەرع‌کردن، نێوگژیوانی، ناوبەری، نێوبژیوانی
+
+١. (ناو) پڕۆسەی ناوبژی کە نێوان دوو لایەن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -171,7 +172,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "For ten months he adhered to a no-fat low-salt diet.",
+                                    "The case was referred to a higher court for adjudication.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -182,7 +183,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ ماوەی ١٠ مانگ پابەند بوو بە ژەمێکی بە چەوری کەم خوێ",
+                                    "کەیسەکە نێردرا بۆ داگایەکی باڵاتر بۆ ناوبژی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -194,7 +195,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdher251463("en-GB"),
+                                onPressed: () => speakAdjudi5684("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -202,51 +203,8 @@ class EnglishEntryadhereto extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAdher251463(
-                                    // REPLACE: adhere to /ədˈhɪə(r) tə/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She adheres to teaching methods she learned over 30 years ago.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "شوێن ئەو ڕێگایانەی وانەوتنەوە دەکەوێت کە ٣٠ ساڵ پێش ئێستا فێری بووە",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAdh358947("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAdh358947(
-                                    // REPLACE: adhere to /ədˈhɪə(r) tə/
+                                onPressed: () => speakAdjudi5684(
+                                    // REPLACE: adjudication /əˌdʒuːdɪˈkeɪʃn/
                                     "en-US"),
                               ),
                             ],
@@ -295,9 +253,8 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: adhere to (Derived forms: adhered to, adheres to, adhering to)
-1. Be compatible or in accordance with
-"You must adhere to the rules"
+- Noun: adjudication (Derived forms: adjudications)
+1. The final judgment in a legal proceeding; the act of pronouncing judgment based on the evidence presented
 '''),
         ],
       ),
@@ -308,7 +265,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'H640jO_n1AQ';
+  static String myVideoId = '4IaOeVgZ-wc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -316,7 +273,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 231, // DOPSUM: CHANGE IT
+      startAt: 3510, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -335,7 +292,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = '3J8_JM7Qiss';
+  static String myVideoId = 'bV9ppvY8Nx4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -343,7 +300,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 790, // DOPSUM: CHANGE IT
+      startAt: 50, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -362,7 +319,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'sVnikEoeruU';
+  static String myVideoId = 'mSm7sRx-0hA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -370,7 +327,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1244, // DOPSUM: CHANGE IT
+      startAt: 308, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -389,7 +346,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'YEhUUQQekkQ';
+  static String myVideoId = 'C5K8pM9WP9E';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -397,7 +354,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 457, // DOPSUM: CHANGE IT
+      startAt: 639, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -416,7 +373,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'q5jnslfwazg';
+  static String myVideoId = 'zsd3YH3vGS0';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -424,7 +381,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 6312, // DOPSUM: CHANGE IT
+      startAt: 625, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

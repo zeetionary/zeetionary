@@ -162,7 +162,7 @@ class EnglishEntryadept extends StatelessWidget {
                             '''
 کوردی: شارەزا، وەستا، لێزان، کارزان، شارەزایانە
 
-١. (ەاوەڵناو) شارەزا لە کردنی شتێکی گران''',
+١. (ھاوەڵناو) شارەزا لە کردنی شتێکی گران''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

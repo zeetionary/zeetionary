@@ -3,51 +3,52 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryacrimony - replace speakAcrimony - replace acrimony - /ˈækrɪməni/ - find Dopsum2
+// replace these: replace EnglishEntryadministrator - replace speakAdministrator - replace administrator - /ədˈmɪnɪstreɪtər/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryacrimony extends StatelessWidget {
-  EnglishEntryacrimony({Key? key}) : super(key: key);
+class EnglishEntryadministrator extends StatelessWidget {
+  EnglishEntryadministrator({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcrimony(String languageCode) async {
-    // DOPSUM: CHANGE speakAcrimony
+  Future<void> speakAdministrator(String languageCode) async {
+    // DOPSUM: CHANGE speakAdministrator
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acrimony"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("administrator"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcrimo1254(String languageCode) async {
-    // DOPSUM: CHANGE speakAcrimony
+  Future<void> speakAdmini5288(String languageCode) async {
+    // DOPSUM: CHANGE speakAdministrator
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The dispute was settled without acrimony."); // DOPSUM: CHANGE TEXT
+        "Such decisions are made by the hospital administrators."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcrimony(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAcrimony
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acrimony"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAdmi25688(String languageCode) async {
+    // DOPSUM: CHANGE speakAdministrator
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "If you are unable to access the site, contact your system administrator."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAcrimony(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAcrimony
+  // Future<void> speakAdministrator(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdministrator
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acrimony"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("administrator"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 7, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 9, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -67,7 +68,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'acrimony', // DOPSUM: CHANGE WORD ENTRY - Find /ˈækrɪməni/
+                              "administrator", // DOPSUM: CHANGE WORD ENTRY - Find /ədˈmɪnɪstreɪtə(r)/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -83,7 +84,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /ˈækrɪməni/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /ədˈmɪnɪstreɪtə(r)/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -92,7 +93,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAcrimony(
+                              onPressed: () => speakAdministrator(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -101,7 +102,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /ˈækrɪməʊni/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /ədˈmɪnɪstreɪtər/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -110,7 +111,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAcrimony(
+                              onPressed: () => speakAdministrator(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -129,9 +130,9 @@ class EnglishEntryacrimony extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(),
+                  VideoIconForTab(),
                   VideoIconForTab(), // FIND: 2,
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -160,9 +161,9 @@ class EnglishEntryacrimony extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: توندی، تاڵی، ناخۆشی، ڕەقی، توندوتیژی، تیژی، ڕەنجان، زیزی
+کوردی: بەڕێوەبەر، کارگێڕ، سەرۆک، ھەڵسووڕینەر، ڕێڤەبەر، ڕێکخەر، سەرپەرشت، سەرپەرست
 
-١. (ھاوەڵناو) دەربڕینی بیر یان ھەست بە توندی و توڕەیی''',
+١. (ناو) کەسێک کە ئەرکی بەڕێوەبردنی دامەزراوەیەکی ھەیە، یان کەسێک کە کار لەگەڵ تۆمارەکان دەکات لە ئۆفیسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -172,7 +173,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The dispute was settled without acrimony.",
+                                    "Such decisions are made by the hospital administrators.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -183,7 +184,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بابەتەکە بەبێ ناخۆشی چارەسەرکرا",
+                                    "بڕیاری لەم شێوەیە لەلایەن بەڕێوەبەرانی نەخۆشخانەکەوە دەدرێن ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -195,7 +196,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAcrimo1254("en-GB"),
+                                onPressed: () => speakAdmini5288("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -203,8 +204,59 @@ class EnglishEntryacrimony extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAcrimo1254(
-                                    "en-US"), // REPLACE acrimony /ˈækrɪməni/
+                                onPressed: () => speakAdmini5288(
+                                    // REPLACE: administrator /ədˈmɪnɪstreɪtər/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٢. (ناو) کەسێک کە ئەرکی بەڕێوەبردنی سیستەمێکی کۆمپیوتەری بەدەستە''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "If you are unable to access the site, contact your system administrator.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ئەگەر ناتوانی بچیتە ناو سایتەکەوە پەیوەندی بە بەڕێوەبەری سیستەمەکەتەوە بکە ",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAdmi25688("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAdmi25688(
+                                    // REPLACE: administrator /ədˈmɪnɪstreɪtər/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -216,8 +268,8 @@ class EnglishEntryacrimony extends StatelessWidget {
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    // YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
@@ -252,8 +304,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acrimony (Derived forms: acrimonies)
-1. A rough and bitter manner (= bitterness, acerbity, jaundice, tartness, thorniness)
+- Noun: administrator (Derived forms: administrators)
+1. Someone who administers a business (= decision maker)
+ 
+2. The party appointed by a probate court to distribute the estate of someone who dies without a will or without naming an executor
+ 
+3. Someone who manages a government agency or department (= executive)
+ 
+4. Someone one who is responsible for maintenance of a computer or network
 '''),
         ],
       ),
@@ -264,7 +322,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '510de-Tu0HA';
+  static String myVideoId = '9QcrV4qTI2E';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -272,7 +330,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 792, // DOPSUM: CHANGE IT
+      startAt: 219, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -291,7 +349,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'sKeQe7oc2gk';
+  static String myVideoId = 'vSBYCgA-5wM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -299,7 +357,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 122, // DOPSUM: CHANGE IT
+      startAt: 32, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -318,7 +376,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'Qyrjgf-_Vdk';
+  static String myVideoId = 'jAiNT48BhDo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -326,7 +384,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 4044, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -345,7 +403,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = '-2vbzuBaQbY';
+  static String myVideoId = 'M8uUKIbaGaI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -353,7 +411,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 189, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -372,7 +430,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '62iw0-GZ7Kc';
+  static String myVideoId = 'aLZcyTtfLzo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -380,12 +438,66 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 462, // DOPSUM: CHANGE IT
+      startAt: 141, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedfive({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  static String myVideoId = '3RkhZgRNC1k';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 1483, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedsix({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  static String myVideoId = 'Om9Id44vjKw';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 302, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedseven({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -3,51 +3,52 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryacrimony - replace speakAcrimony - replace acrimony - /ˈækrɪməni/ - find Dopsum2
+// replace these: replace EnglishEntryadmire - replace speakAdmire - replace admire - /ədˈmaɪər/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryacrimony extends StatelessWidget {
-  EnglishEntryacrimony({Key? key}) : super(key: key);
+class EnglishEntryadmire extends StatelessWidget {
+  EnglishEntryadmire({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAcrimony(String languageCode) async {
-    // DOPSUM: CHANGE speakAcrimony
+  Future<void> speakAdmire(String languageCode) async {
+    // DOPSUM: CHANGE speakAdmire
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("acrimony"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("admire"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcrimo1254(String languageCode) async {
-    // DOPSUM: CHANGE speakAcrimony
+  Future<void> speakAdmi2561(String languageCode) async {
+    // DOPSUM: CHANGE speakAdmire
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The dispute was settled without acrimony."); // DOPSUM: CHANGE TEXT
+        "I don't agree with her, but I admire her for sticking to her principles."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcrimony(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAcrimony
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acrimony"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAdm96871(String languageCode) async {
+    // DOPSUM: CHANGE speakAdmire
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The school is widely admired for its excellent teaching."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAcrimony(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAcrimony
+  // Future<void> speakAdmire(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdmire
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acrimony"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("admire"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 7, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 10, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -67,7 +68,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'acrimony', // DOPSUM: CHANGE WORD ENTRY - Find /ˈækrɪməni/
+                              "admire", // DOPSUM: CHANGE WORD ENTRY - Find /ədˈmaɪə(r)/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -83,7 +84,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /ˈækrɪməni/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /ədˈmaɪə(r)/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -92,16 +93,16 @@ class EnglishEntryacrimony extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAcrimony(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAdmire(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /ˈækrɪməʊni/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /ədˈmaɪər/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -110,7 +111,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAcrimony(
+                              onPressed: () => speakAdmire(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -129,10 +130,10 @@ class EnglishEntryacrimony extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(),
+                  VideoIconForTab(),
                   VideoIconForTab(), // FIND: 2,
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -160,9 +161,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: توندی، تاڵی، ناخۆشی، ڕەقی، توندوتیژی، تیژی، ڕەنجان، زیزی
-
-١. (ھاوەڵناو) دەربڕینی بیر یان ھەست بە توندی و توڕەیی''',
+١. (کردار) ڕێزگرتنی کەسێک یان شتێک بەھۆی کردنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -172,7 +171,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The dispute was settled without acrimony.",
+                                    "I don't agree with her, but I admire her for sticking to her principles.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -183,7 +182,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بابەتەکە بەبێ ناخۆشی چارەسەرکرا",
+                                    "لەگەڵی ھاوڕانیم، بەڵام ڕێزی دەگرم بۆ پابەندبوون بەوەی باوەڕی پێی ھەیە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -195,7 +194,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAcrimo1254("en-GB"),
+                                onPressed: () => speakAdmi2561("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -203,8 +202,52 @@ class EnglishEntryacrimony extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAcrimo1254(
-                                    "en-US"), // REPLACE acrimony /ˈækrɪməni/
+                                onPressed: () =>
+                                    speakAdmi2561(// REPLACE: admire /ədˈmaɪər/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The school is widely admired for its excellent teaching.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "قوتابخانەکە بەشێوەیەکی بەرفراوان ڕێز لێگیراوە بۆ نایابی وانەوتنەوە تێیدا",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAdm96871("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAdm96871(// REPLACE: admire /ədˈmaɪər/
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -216,9 +259,9 @@ class EnglishEntryacrimony extends StatelessWidget {
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    // YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
@@ -252,8 +295,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acrimony (Derived forms: acrimonies)
-1. A rough and bitter manner (= bitterness, acerbity, jaundice, tartness, thorniness)
+- Verb: admire (Derived forms: admired, admiring, admires)
+1. Feel admiration for (= look up to)
+ 
+Look at with pleasure or appreciation
+"he admired the view"
 '''),
         ],
       ),
@@ -264,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '510de-Tu0HA';
+  static String myVideoId = 'DTvS9lvRxZ8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -272,7 +318,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 792, // DOPSUM: CHANGE IT
+      startAt: 533, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -291,7 +337,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'sKeQe7oc2gk';
+  static String myVideoId = 'QaZ93sibpk0';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -299,7 +345,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 122, // DOPSUM: CHANGE IT
+      startAt: 322, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -318,7 +364,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'Qyrjgf-_Vdk';
+  static String myVideoId = 'MnExgQ81fhU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -326,7 +372,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 4044, // DOPSUM: CHANGE IT
+      startAt: 899, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -345,7 +391,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = '-2vbzuBaQbY';
+  static String myVideoId = 'MGO4_8YRKro';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -353,7 +399,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 189, // DOPSUM: CHANGE IT
+      startAt: 38, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -372,7 +418,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '62iw0-GZ7Kc';
+  static String myVideoId = 'nRafaCcfrcI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -380,12 +426,93 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 462, // DOPSUM: CHANGE IT
+      startAt: 171, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedfive({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  static String myVideoId = '0zwNZJbM-Gw';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 374, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedsix({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  static String myVideoId = 'PbKYAks6044';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 547, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedseven({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  static String myVideoId = '3RkhZgRNC1k';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 970, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedeight({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -252,6 +252,12 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_ad_lib.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_administer.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_administration.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_administrative.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_administrator.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admirable.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admirably.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admiral.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admire.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -517,6 +523,12 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "ad lib",
     "administer",
     "administration",
+    "administrative",
+    "administrator",
+    "admirable",
+    "admirably",
+    "admiral",
+    "admire",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -2336,6 +2348,48 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryadministration(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "administrative") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadministrative(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "administrator") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadministrator(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "admirable") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadmirable(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "admirably") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadmirably(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "admiral") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadmiral(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "admire") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadmire(),
                     ),
                   );
                 }

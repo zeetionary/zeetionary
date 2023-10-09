@@ -3,51 +3,70 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryadministrative - replace speakAdministrative - replace administrative - /ədˈmɪnɪstreɪtɪv/ - find Dopsum2
+// replace these: replace EnglishEntryadmission - replace speakAdmission - replace admission - /ədˈmɪʃn/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryadministrative extends StatelessWidget {
-  EnglishEntryadministrative({Key? key}) : super(key: key);
+class EnglishEntryadmission extends StatelessWidget {
+  EnglishEntryadmission({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdministrative(String languageCode) async {
-    // DOPSUM: CHANGE speakAdministrative
+  Future<void> speakAdmission(String languageCode) async {
+    // DOPSUM: CHANGE speakAdmission
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("administrative"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("admission"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdmin25687(String languageCode) async {
-    // DOPSUM: CHANGE speakAdministrative
+  Future<void> speakAdmiss836541(String languageCode) async {
+    // DOPSUM: CHANGE speakAdmission
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Your responsibilities will be mainly administrative."); // DOPSUM: CHANGE TEXT
+        "Hospital admission is not necessary in most cases."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdministrative(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdministrative
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("administrative"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAdmiss735891(String languageCode) async {
+    // DOPSUM: CHANGE speakAdmission
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Is there any charge for admission?"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAdministrative(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdministrative
+  Future<void> speakAdm587914(String languageCode) async {
+    // DOPSUM: CHANGE speakAdmission
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She has made no admission of any involvement in the plot."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAdmis912587(String languageCode) async {
+    // DOPSUM: CHANGE speakAdmission
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "There is an admission fee of 10 dollars."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAdmission(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdmission
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("administrative"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("admission"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 9, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 7, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -67,7 +86,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "administrative", // DOPSUM: CHANGE WORD ENTRY - Find /ədˈmɪnɪstrətɪv/
+                              "admission", // DOPSUM: CHANGE WORD ENTRY - Find /ədˈmɪʃn/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -83,7 +102,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /ədˈmɪnɪstrətɪv/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /ədˈmɪʃn/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -92,7 +111,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAdministrative(
+                              onPressed: () => speakAdmission(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -101,7 +120,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /ədˈmɪnɪstreɪtɪv/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /ədˈmɪʃn/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -110,7 +129,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAdministrative(
+                              onPressed: () => speakAdmission(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -130,8 +149,8 @@ class EnglishEntryadministrative extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(),
-                  VideoIconForTab(), // FIND: 2,
-                  VideoIconForTab(),
+                  // VideoIconForTab(), // FIND: 2,
+                  // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -160,9 +179,9 @@ class EnglishEntryadministrative extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: بەڕێوەبەرانە، بەڕێوەبەری‌یانە، کارگێری‌یانە، جێبەجێ‌کاری‌یانە
+کوردی: پەسند، قەبووڵ، وەرگرتن، وەرگیران، چوونەنێو(ەوە)، چوونەژوورێ، ماف یان دەستووری چوونەژوورەوە، ژوورانە، دەرکانە، پارەی چوونەژوورەوە، درگانە، دان‌پیانان، چوونەژێر، پێ‌ناسین، پێ‌لێنان، ڕاستی وتن، سەلماندن
 
-١. (ھاوەڵناو) پەیوەندیدار بە بەڕێوەبردنی شوێنێک''',
+١. (ناو) وەرگرتنی کەسێک لە شوێنێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -172,7 +191,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Your responsibilities will be mainly administrative.",
+                                    "Hospital admission is not necessary in most cases.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -183,7 +202,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەرپرسیاریەتییەکانتان زیاتر کارگێڕی دەبێت",
+                                    "چوونە نەخۆشخانە لە زۆر حاڵەتدا پێویست نییە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -195,7 +214,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdmin25687("en-GB"),
+                                onPressed: () => speakAdmiss836541("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -203,8 +222,151 @@ class EnglishEntryadministrative extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAdmin25687(
-                                    // REPLACE: administrative /ədˈmɪnɪstreɪtɪv/
+                                onPressed: () => speakAdmiss836541(
+                                    // REPLACE: admission /ədˈmɪʃn/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Is there any charge for admission?",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ھیچ پارەیەک بۆ چوونەژوورەوە وەردەگیرێت؟",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAdmiss735891("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAdmiss735891(
+                                    // REPLACE: admission /ədˈmɪʃn/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٢. (ناو) دانپێدانانی کەسێک''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "She has made no admission of any involvement in the plot.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ھیچ دانپێدانانێکی نەناوە بە تێوەگلان لە پلانەکەوە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAdm587914("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAdm587914(
+                                    // REPLACE: admission /ədˈmɪʃn/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٣. (ناو) بڕە پارەیەک کە ئەدرێت بۆ چوونەژوورەوە بۆ شوێنێک''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "There is an admission fee of 10 dollars.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "کرێی چوونەژوورەوە ١٠ دۆلارە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAdmis912587("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAdmis912587(
+                                    // REPLACE: admission /ədˈmɪʃn/
                                     "en-US"),
                               ),
                             ],
@@ -217,8 +379,8 @@ class EnglishEntryadministrative extends StatelessWidget {
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    YoutubeEmbeddedseven(),
+                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    // YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
@@ -253,9 +415,15 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: administrative 
-1. Of or relating to or responsible for administration
-"the vice-presidency is a hybrid of administrative and legislative offices";
+- Noun: admission (Derived forms: admissions)
+1. The act of admitting someone to enter (= admittance)
+"the surgery was performed on his second admission to the clinic";
+ 
+2. An acknowledgment of the truth of something
+ 
+3. The fee charged for admission (= entrance fee, admission charge, admission fee, admission price, price of admission, entrance money)
+ 
+4. The right to enter (= entrée, access, accession, admittance)
 '''),
         ],
       ),
@@ -266,7 +434,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'HsDdHukgaaY';
+  static String myVideoId = 'H5GN9KBQcvQ';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -274,7 +442,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 10, // DOPSUM: CHANGE IT
+      startAt: 17, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -293,7 +461,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'k98KcTZF92A';
+  static String myVideoId = 'XPG6Ul68nnE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -301,7 +469,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 105, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -320,7 +488,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'e1kL-Drm-To';
+  static String myVideoId = 'kElsSj8hky4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -328,7 +496,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 199, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -347,7 +515,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'jpvPQ5oFmHE';
+  static String myVideoId = '3C9wZf88y4Q';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -355,7 +523,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 9, // DOPSUM: CHANGE IT
+      startAt: 29, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -374,7 +542,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'E2rtQFAibEA';
+  static String myVideoId = 'uxIuDJyzvDY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -382,66 +550,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1121, // DOPSUM: CHANGE IT
+      startAt: 296, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedfive({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'a6zvvlrd-jw';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 437, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedsix({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = '5-QejUTDCWw';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 1350, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedseven({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

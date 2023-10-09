@@ -3,51 +3,51 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryadministrative - replace speakAdministrative - replace administrative - /ədˈmɪnɪstreɪtɪv/ - find Dopsum2
+// replace these: replace EnglishEntryadmissible - replace speakAdmissible - replace admissible - /ədˈmɪsəbl/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryadministrative extends StatelessWidget {
-  EnglishEntryadministrative({Key? key}) : super(key: key);
+class EnglishEntryadmissible extends StatelessWidget {
+  EnglishEntryadmissible({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdministrative(String languageCode) async {
-    // DOPSUM: CHANGE speakAdministrative
+  Future<void> speakAdmissible(String languageCode) async {
+    // DOPSUM: CHANGE speakAdmissible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("administrative"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("admissible"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdmin25687(String languageCode) async {
-    // DOPSUM: CHANGE speakAdministrative
+  Future<void> speakAdmis25374(String languageCode) async {
+    // DOPSUM: CHANGE speakAdmissible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Your responsibilities will be mainly administrative."); // DOPSUM: CHANGE TEXT
+        "Photographs are usually admissible evidence provided it can be proved that they are authentic."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdministrative(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdministrative
+  // Future<void> speakAdmissible(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdmissible
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("administrative"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("admissible"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdministrative(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdministrative
+  // Future<void> speakAdmissible(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdmissible
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("administrative"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("admissible"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 9, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 8, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -67,7 +67,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "administrative", // DOPSUM: CHANGE WORD ENTRY - Find /ədˈmɪnɪstrətɪv/
+                              "admissible", // DOPSUM: CHANGE WORD ENTRY - Find /ədˈmɪsəbl/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -83,7 +83,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /ədˈmɪnɪstrətɪv/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /ədˈmɪsəbl/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -92,7 +92,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAdministrative(
+                              onPressed: () => speakAdmissible(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -101,7 +101,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /ədˈmɪnɪstreɪtɪv/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /ədˈmɪsəbl/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -110,7 +110,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAdministrative(
+                              onPressed: () => speakAdmissible(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -131,7 +131,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(), // FIND: 2,
-                  VideoIconForTab(),
+                  // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -160,9 +160,9 @@ class EnglishEntryadministrative extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: بەڕێوەبەرانە، بەڕێوەبەری‌یانە، کارگێری‌یانە، جێبەجێ‌کاری‌یانە
+کوردی: جێی‌پەسند، وەرگیراو، پەسندکراو، پەسند، جێی‌باوەڕ، ڕەوا، ڕێ‌پێدراو، بەجێ، دادگاپەسند
 
-١. (ھاوەڵناو) پەیوەندیدار بە بەڕێوەبردنی شوێنێک''',
+١. (ھاوەڵناو) شتێک کە پەسەند دەکرێت، زۆرجار لە دادگا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -172,7 +172,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Your responsibilities will be mainly administrative.",
+                                    "Photographs are usually admissible evidence provided it can be proved that they are authentic.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -183,7 +183,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەرپرسیاریەتییەکانتان زیاتر کارگێڕی دەبێت",
+                                    "وێنە جێیباوەڕە ئەگەر بسەلمێندرێت کە ڕاستین",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -195,7 +195,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdmin25687("en-GB"),
+                                onPressed: () => speakAdmis25374("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -203,8 +203,8 @@ class EnglishEntryadministrative extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAdmin25687(
-                                    // REPLACE: administrative /ədˈmɪnɪstreɪtɪv/
+                                onPressed: () => speakAdmis25374(
+                                    // REPLACE: admissible /ədˈmɪsəbl/
                                     "en-US"),
                               ),
                             ],
@@ -218,7 +218,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    YoutubeEmbeddedseven(),
+                    // YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
@@ -253,9 +253,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: administrative 
-1. Of or relating to or responsible for administration
-"the vice-presidency is a hybrid of administrative and legislative offices";
+- Adjective: admissible
+1. Deserving to be admitted
+"admissible evidence"
 '''),
         ],
       ),
@@ -266,7 +266,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'HsDdHukgaaY';
+  static String myVideoId = 'sAiTuitN5b8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -274,7 +274,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 10, // DOPSUM: CHANGE IT
+      startAt: 441, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -293,7 +293,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'k98KcTZF92A';
+  static String myVideoId = 'u432T_cDgQs';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -301,7 +301,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 2955, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -320,7 +320,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'e1kL-Drm-To';
+  static String myVideoId = 'f9SA25OukyM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -328,7 +328,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 427, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -347,7 +347,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'jpvPQ5oFmHE';
+  static String myVideoId = 'TiYEKDQZ5sk';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -355,7 +355,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 9, // DOPSUM: CHANGE IT
+      startAt: 735, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -374,7 +374,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'E2rtQFAibEA';
+  static String myVideoId = 'adx4of7Pnvo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -382,7 +382,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1121, // DOPSUM: CHANGE IT
+      startAt: 571, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -401,7 +401,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'a6zvvlrd-jw';
+  static String myVideoId = 'Yu8PBEU8ADo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -409,39 +409,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 437, // DOPSUM: CHANGE IT
+      startAt: 781, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedsix({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = '5-QejUTDCWw';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 1350, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedseven({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

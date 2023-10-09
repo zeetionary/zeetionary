@@ -3,45 +3,45 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryadministrative - replace speakAdministrative - replace administrative - /ədˈmɪnɪstreɪtɪv/ - find Dopsum2
+// replace these: replace EnglishEntryadmiration - replace speakAdmiration - replace admiration - /ˌædməˈreɪʃn/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryadministrative extends StatelessWidget {
-  EnglishEntryadministrative({Key? key}) : super(key: key);
+class EnglishEntryadmiration extends StatelessWidget {
+  EnglishEntryadmiration({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdministrative(String languageCode) async {
-    // DOPSUM: CHANGE speakAdministrative
+  Future<void> speakAdmiration(String languageCode) async {
+    // DOPSUM: CHANGE speakAdmiration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("administrative"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("admiration"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdmin25687(String languageCode) async {
-    // DOPSUM: CHANGE speakAdministrative
+  Future<void> speakAdmira85971(String languageCode) async {
+    // DOPSUM: CHANGE speakAdmiration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Your responsibilities will be mainly administrative."); // DOPSUM: CHANGE TEXT
+        "I have great admiration for her as a writer."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdministrative(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdministrative
+  // Future<void> speakAdmiration(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdmiration
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("administrative"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("admiration"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdministrative(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdministrative
+  // Future<void> speakAdmiration(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdmiration
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("administrative"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("admiration"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -67,7 +67,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "administrative", // DOPSUM: CHANGE WORD ENTRY - Find /ədˈmɪnɪstrətɪv/
+                              "admiration", // DOPSUM: CHANGE WORD ENTRY - Find /ˌædməˈreɪʃn/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -83,7 +83,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /ədˈmɪnɪstrətɪv/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /ˌædməˈreɪʃn/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -92,7 +92,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAdministrative(
+                              onPressed: () => speakAdmiration(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -101,7 +101,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /ədˈmɪnɪstreɪtɪv/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /ˌædməˈreɪʃn/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -110,7 +110,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAdministrative(
+                              onPressed: () => speakAdmiration(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -160,9 +160,9 @@ class EnglishEntryadministrative extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: بەڕێوەبەرانە، بەڕێوەبەری‌یانە، کارگێری‌یانە، جێبەجێ‌کاری‌یانە
+کوردی: پیاھەڵوتن، ستایشت(کردن)، پەسن‌دان، تاریف‌دان، مایەی پیاھەڵدان
 
-١. (ھاوەڵناو) پەیوەندیدار بە بەڕێوەبردنی شوێنێک''',
+١. (ناو) ھەبوونی ڕێزگرتن بۆ کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -172,7 +172,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Your responsibilities will be mainly administrative.",
+                                    "I have great admiration for her as a writer.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -183,7 +183,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەرپرسیاریەتییەکانتان زیاتر کارگێڕی دەبێت",
+                                    "ڕێزی زۆرم بۆی وەک نووسەرێک ھەیە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -195,7 +195,7 @@ class EnglishEntryadministrative extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdmin25687("en-GB"),
+                                onPressed: () => speakAdmira85971("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -203,8 +203,8 @@ class EnglishEntryadministrative extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAdmin25687(
-                                    // REPLACE: administrative /ədˈmɪnɪstreɪtɪv/
+                                onPressed: () => speakAdmira85971(
+                                    // REPLACE: admiration /ˌædməˈreɪʃn/
                                     "en-US"),
                               ),
                             ],
@@ -253,9 +253,13 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: administrative 
-1. Of or relating to or responsible for administration
-"the vice-presidency is a hybrid of administrative and legislative offices";
+- Noun: admiration (Derived forms: admirations)
+1. A feeling of delighted approval and liking (= esteem)
+ 
+2 The feeling aroused by something strange and surprising (= wonder, wonderment)
+ 
+3. A favourable judgment (= appreciation)
+"a small token in admiration of your works";
 '''),
         ],
       ),
@@ -266,7 +270,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'HsDdHukgaaY';
+  static String myVideoId = '55XJ1ObZKaM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -274,7 +278,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 10, // DOPSUM: CHANGE IT
+      startAt: 1032, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -293,7 +297,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'k98KcTZF92A';
+  static String myVideoId = 'vCZId5-lmbk';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -301,7 +305,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 107, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -320,7 +324,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'e1kL-Drm-To';
+  static String myVideoId = 'HH3C1pYXCl0';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -328,7 +332,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 677, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -347,7 +351,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'jpvPQ5oFmHE';
+  static String myVideoId = 'ZT3X1fYFViE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -355,7 +359,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 9, // DOPSUM: CHANGE IT
+      startAt: 981, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -374,7 +378,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'E2rtQFAibEA';
+  static String myVideoId = 'Bj6ulLJGPB8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -382,7 +386,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1121, // DOPSUM: CHANGE IT
+      startAt: 244, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -401,7 +405,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'a6zvvlrd-jw';
+  static String myVideoId = 'Ukjat70Iyt4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -409,7 +413,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 437, // DOPSUM: CHANGE IT
+      startAt: 376, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -428,7 +432,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = '5-QejUTDCWw';
+  static String myVideoId = 'MSfjCG4V2GM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -436,7 +440,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1350, // DOPSUM: CHANGE IT
+      startAt: 325, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

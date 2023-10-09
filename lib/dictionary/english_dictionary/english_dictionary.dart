@@ -257,7 +257,16 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admirable.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admirably.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admiral.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admiration.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admire.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admirer.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admiring.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admissible.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admission.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admit.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admittance.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admittedly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admonish.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -528,7 +537,16 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "admirable",
     "admirably",
     "admiral",
+    "admiration",
     "admire",
+    "admirer",
+    "admiring",
+    "admissible",
+    "admission",
+    "admit",
+    "admittance",
+    "admittedly",
+    "admonish",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -2386,10 +2404,73 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     ),
                   );
                 }
+                if (wordsEnglish == "admiration") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadmiration(),
+                    ),
+                  );
+                }
                 if (wordsEnglish == "admire") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryadmire(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "admirer") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadmirer(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "admiring") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadmiring(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "admissible") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadmissible(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "admission") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadmission(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "admit") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadmit(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "admittance") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadmittance(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "admittedly") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadmittedly(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "admonish") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadmonish(),
                     ),
                   );
                 }

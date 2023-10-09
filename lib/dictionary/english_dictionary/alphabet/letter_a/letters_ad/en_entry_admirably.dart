@@ -47,7 +47,7 @@ class EnglishEntryadmirably extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 6, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 7, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),

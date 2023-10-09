@@ -249,6 +249,9 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjust.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjustable.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjustment.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_ad_lib.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_administer.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_administration.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -511,6 +514,9 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "adjust",
     "adjustable",
     "adjustment",
+    "ad lib",
+    "administer",
+    "administration",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -2309,6 +2315,27 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryadjustment(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "ad lib") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadlib(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "administer") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadminister(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "administration") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadministration(),
                     ),
                   );
                 }

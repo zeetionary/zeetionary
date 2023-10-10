@@ -3,52 +3,51 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryad - replace speakAd - replace ad - /æd/, /ˌeɪˈdiː/ - find Dopsum2
+// replace these: replace EnglishEntryadulterate - replace speakAdulterate - replace adulterate - /əˈdʌltəreɪt/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryad extends StatelessWidget {
-  EnglishEntryad({Key? key}) : super(key: key);
+class EnglishEntryadulterate extends StatelessWidget {
+  EnglishEntryadulterate({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAd(String languageCode) async {
-    // DOPSUM: CHANGE speakAd
+  Future<void> speakAdulterate(String languageCode) async {
+    // DOPSUM: CHANGE speakAdulterate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ad"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adulterate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAd142568(String languageCode) async {
-    // DOPSUM: CHANGE speakAd
+  Future<void> speakAdulte658134(String languageCode) async {
+    // DOPSUM: CHANGE speakAdulterate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I often prefer the ads on TV to the actual programmes."); // DOPSUM: CHANGE TEXT
+        "The water supply had been adulterated with chemicals from the soil."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAd4247(String languageCode) async {
-    // DOPSUM: CHANGE speakAd
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("during the seventh century AD"); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakAd(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAd
+  // Future<void> speakAdulterate(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdulterate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ad"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adulterate"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAdulterate(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdulterate
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("adulterate"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 8, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 7, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -68,7 +67,7 @@ class EnglishEntryad extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'ad', // DOPSUM: CHANGE WORD ENTRY - Find /æd/, /ˌeɪˈdiː/
+                              "adulterate", // DOPSUM: CHANGE WORD ENTRY - Find /əˈdʌltəreɪt/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -84,7 +83,7 @@ class EnglishEntryad extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /æd/, /ˌeɪˈdiː/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əˈdʌltəreɪt/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -93,16 +92,16 @@ class EnglishEntryad extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAd(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAdulterate(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /æd/, /ˌeɪˈdiː/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /əˈdʌltəreɪt/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -111,7 +110,7 @@ class EnglishEntryad extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAd(
+                              onPressed: () => speakAdulterate(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -130,8 +129,8 @@ class EnglishEntryad extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(),
-                  VideoIconForTab(), // FIND: 2,
                   VideoIconForTab(),
+                  // VideoIconForTab(), // FIND: 2,
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -161,9 +160,9 @@ class EnglishEntryad extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: (لاتین) زایینی، دوای زایین، پاش‌زایین، بانگەواز، دانەزانین، ئاگاداری
+کوردی: تێکەڵ‌دار، تێکەڵ، تراو، تراوێنراو
 
-١. (ناو) وێنەیەک یان ڤیدیۆیەک کە دەیەوێت کەسێک ڕازیبکات بۆ کڕینی شتێک. کورتکراوەیە بۆ advertisement''',
+١. (کردار) پیسبوونی خواردن یان خواردنەوە بەھۆی زیادبوونی شتی تر بۆی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -173,7 +172,7 @@ class EnglishEntryad extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "I often prefer the ads on TV to the actual programmes.",
+                                    "The water supply had been adulterated with chemicals from the soil.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -184,7 +183,7 @@ class EnglishEntryad extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆرجار حەزم بە ڕیکلامەکانە لەسەر تەلەفیزیۆن وەک لە خودی پڕۆگرامەکان خۆیان",
+                                    "سەرچاوەی ئاوەکە پیسبووە بە مادەی کیمیایی لە خاکەکەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -196,7 +195,7 @@ class EnglishEntryad extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAd142568("en-GB"),
+                                onPressed: () => speakAdulte658134("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -204,59 +203,9 @@ class EnglishEntryad extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAd142568(
-                                    // REPLACE: ad /æd/, /ˌeɪˈdiː/
+                                onPressed: () => speakAdulte658134(
+                                    // REPLACE: adulterate /əˈdʌltəreɪt/
                                     "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (هاوەڵکار) لە دوای لەدایکبوونی پێغەمبەر عیسا''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "during the seventh century AD",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە ماوەی سەدەی حەوتەمی دوای زایین",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAd4247("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAd4247(// REPLACE: ad /æd/, /ˌeɪˈdiː/
-                                        "en-US"),
                               ),
                             ],
                           ),
@@ -268,7 +217,7 @@ class EnglishEntryad extends StatelessWidget {
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     // YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
@@ -304,12 +253,12 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-Noun: ad (Derived forms: ads)
-1. A public promotion of some product or service (= advertisement, advertizement [US, non-standard], advertising, advertizing [US, non-standard], advert [Brit])
+- Adjective: adulterate (Derived forms: adulterated, adulterates, adulterating)
+1. Mixed with impurities (= adulterated, debased)
 
-- Adverb: AD
-1. In the Christian era; used before dates after the supposed year Christ was born (= A.D., anno Domini, year of our Lord)
-"in AD 200";
+- Verb: adulterate 
+1. Corrupt, debase, or make impure by adding a foreign or inferior substance; often by replacing valuable ingredients with inferior ones (= load, stretch, dilute, debase)
+"adulterate liquor";
 '''),
         ],
       ),
@@ -320,7 +269,7 @@ Noun: ad (Derived forms: ads)
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'V2RytpvQ9BA';
+  static String myVideoId = 'GKNLvqeP_DE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -328,7 +277,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 106, // DOPSUM: CHANGE IT
+      startAt: 278, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -347,7 +296,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'Bhro-CO1QA4';
+  static String myVideoId = 'fP2WUnBjmkk';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -355,7 +304,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 355, // DOPSUM: CHANGE IT
+      startAt: 222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -374,7 +323,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = '5LPMNPmvkcM';
+  static String myVideoId = 'suHdHxj68q8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -382,7 +331,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 56, // DOPSUM: CHANGE IT
+      startAt: 329, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -401,7 +350,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'Q6Y7eNvD-Ng';
+  static String myVideoId = '-YOjOtJ2vvw';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -409,7 +358,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 13, // DOPSUM: CHANGE IT
+      startAt: 558, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -428,7 +377,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '_qWF9ycAb90';
+  static String myVideoId = 'OIe3kaaRo28';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -436,39 +385,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 7, // DOPSUM: CHANGE IT
+      startAt: 859, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedfive({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'ltpY063yUmY';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 64, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedsix({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

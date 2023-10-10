@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryDopsum - replace speakAdhesive - replace adhesive - /ədˈhiːsɪv/ - /ədˈhiːzɪv/ - find Dopsum2
+// replace these: replace EnglishEntryDopsum - replace speakAdhesive - replace adhesive - /ədˈhiːsɪv/, /ədˈhiːzɪv/ - find Dopsum2
 
 enum TtsState { playing }
 
@@ -66,7 +66,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "adhesive", // DOPSUM: CHANGE WORD ENTRY - Find /ədˈhiːsɪv/ - /ədˈhiːzɪv/
+                              "adhesive", // DOPSUM: CHANGE WORD ENTRY - Find /ədˈhiːsɪv/, /ədˈhiːzɪv/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -82,7 +82,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /ədˈhiːsɪv/ - /ədˈhiːzɪv/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /ədˈhiːsɪv/, /ədˈhiːzɪv/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -100,7 +100,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /ədˈhiːsɪv/ - /ədˈhiːzɪv/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /ədˈhiːsɪv/, /ədˈhiːzɪv/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -203,7 +203,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () => speakAdhesive(
-                                    // REPLACE: adhesive /ədˈhiːsɪv/ - /ədˈhiːzɪv/
+                                    // REPLACE: adhesive /ədˈhiːsɪv/, /ədˈhiːzɪv/
                                     "en-US"),
                               ),
                             ],
@@ -253,7 +253,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () => speakAdhesive(
-                                    // REPLACE: adhesive /ədˈhiːsɪv/ - /ədˈhiːzɪv/
+                                    // REPLACE: adhesive /ədˈhiːsɪv/, /ədˈhiːzɪv/
                                     "en-US"),
                               ),
                             ],

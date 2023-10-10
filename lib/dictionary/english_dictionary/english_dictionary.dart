@@ -267,6 +267,12 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admittance.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admittedly.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admonish.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_ad_nauseam.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adolescence.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adolescent.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adopt.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adoption.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adoptive.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -547,6 +553,12 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "admittance",
     "admittedly",
     "admonish",
+    "ad nauseam",
+    "adolescence",
+    "adolescent",
+    "adopt",
+    "adoption",
+    "adoptive",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -2471,6 +2483,48 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryadmonish(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "ad nauseam") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadnauseam(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adolescence") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadolescence(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adolescent") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadolescent(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adopt") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadopt(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adoption") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadoption(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adoptive") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadoptive(),
                     ),
                   );
                 }

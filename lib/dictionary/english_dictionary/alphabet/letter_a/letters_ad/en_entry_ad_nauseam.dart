@@ -3,51 +3,51 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryadaptable - replace speakAdaptable - replace adaptable - /əˈdæptəbl/ - find Dopsum2
+// replace these: replace EnglishEntryadnauseam - replace speakAdnauseam - replace adnauseam - /ˌæd ˈnɔːziəm/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryadaptable extends StatelessWidget {
-  EnglishEntryadaptable({Key? key}) : super(key: key);
+class EnglishEntryadnauseam extends StatelessWidget {
+  EnglishEntryadnauseam({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdaptable(String languageCode) async {
-    // DOPSUM: CHANGE speakAdaptable
+  Future<void> speakAdnauseam(String languageCode) async {
+    // DOPSUM: CHANGE speakAdnauseam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adaptable"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adnauseam"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdap2537(String languageCode) async {
-    // DOPSUM: CHANGE speakAdaptable
+  Future<void> speakAdn25691(String languageCode) async {
+    // DOPSUM: CHANGE speakAdnauseam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Successful businesses are highly adaptable to economic change."); // DOPSUM: CHANGE TEXT
+        "Sports commentators repeat the same phrases ad nauseam."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdaptable(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdaptable
+  // Future<void> speakAdnauseam(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdnauseam
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adaptable"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adnauseam"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdaptable(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdaptable
+  // Future<void> speakAdnauseam(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdnauseam
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adaptable"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("adnauseam"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 8, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 6, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -67,7 +67,7 @@ class EnglishEntryadaptable extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "adaptable", // DOPSUM: CHANGE WORD ENTRY - Find /əˈdæptəbl/
+                              "adnauseam", // DOPSUM: CHANGE WORD ENTRY - Find /ˌæd ˈnɔːziəm/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -83,7 +83,7 @@ class EnglishEntryadaptable extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈdæptəbl/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /ˌæd ˈnɔːziəm/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -92,7 +92,7 @@ class EnglishEntryadaptable extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAdaptable(
+                              onPressed: () => speakAdnauseam(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -101,7 +101,7 @@ class EnglishEntryadaptable extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈdæptəbl/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /ˌæd ˈnɔːziəm/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -110,7 +110,7 @@ class EnglishEntryadaptable extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAdaptable(
+                              onPressed: () => speakAdnauseam(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -129,8 +129,8 @@ class EnglishEntryadaptable extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(), // FIND: 2,
+                  // VideoIconForTab(),
+                  // VideoIconForTab(), // FIND: 2,
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -160,9 +160,9 @@ class EnglishEntryadaptable extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: لەگونجان‌ھاتو، لەسازان‌ھاتوو، ڕادێ، گونجاو، سازاو، دەق‌گرتوو
+کوردی: بە ڕادەی ڕشانەوە یان بێز لێ‌کردنەوە
 
-١. (ھاوەڵناو) ھەبوونی توانای ڕاھاتن بە بارودۆخی نوێ''',
+١. (ھاوەڵکار) تا ئاستێکی بێزارکەر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -172,7 +172,7 @@ class EnglishEntryadaptable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Successful businesses are highly adaptable to economic change.",
+                                    "Sports commentators repeat the same phrases ad nauseam.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -183,7 +183,7 @@ class EnglishEntryadaptable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بزنسی گەورە بە زۆری خۆیدەگونجێنێت لەگەڵ گۆڕانکاریی ئابووری ",
+                                    "کۆمێنتارە وەرزشییەکان ھەمان شت دووبارە و دووبارە دەکەنەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -195,7 +195,7 @@ class EnglishEntryadaptable extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdap2537("en-GB"),
+                                onPressed: () => speakAdn25691("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -203,8 +203,8 @@ class EnglishEntryadaptable extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAdap2537(
-                                    // REPLACE: adaptable /əˈdæptəbl/
+                                onPressed: () => speakAdn25691(
+                                    // REPLACE: adnauseam /ˌæd ˈnɔːziəm/
                                     "en-US"),
                               ),
                             ],
@@ -216,8 +216,8 @@ class EnglishEntryadaptable extends StatelessWidget {
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
-                    YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    // YoutubeEmbeddedfive(),
+                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     // YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
@@ -253,9 +253,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: adaptable  
-1. Capable of adapting (of becoming or being made suitable) to a particular situation or use
-"to succeed one must be adaptable"; "the frame was adaptable to cloth bolts of different widths"
+- Adverb: ad nauseam 
+1. To a sickening extent
+"he played the song ad nauseam"
 '''),
         ],
       ),
@@ -266,7 +266,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'T2k80X9kbsM';
+  static String myVideoId = 'TVq2ivVpZgQ';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -274,7 +274,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 397, // DOPSUM: CHANGE IT
+      startAt: 16, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -293,7 +293,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = '9KppNMmA2V4';
+  static String myVideoId = 'VwOMDQAmRtQ';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -301,7 +301,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 583, // DOPSUM: CHANGE IT
+      startAt: 73, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -320,7 +320,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = '01iofNdVGa4';
+  static String myVideoId = '5xQH8NSGRzI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -328,7 +328,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 127, // DOPSUM: CHANGE IT
+      startAt: 50, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -347,7 +347,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'zf8pHwce9s8';
+  static String myVideoId = 'uevoGGrcaeM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -355,66 +355,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 3310, // DOPSUM: CHANGE IT
+      startAt: 2338, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedfour({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'X_wodL64e2M';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 190, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedfive({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'iMvtHqLmEkI';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 4750, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedsix({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

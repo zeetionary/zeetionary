@@ -3,46 +3,48 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryadaptable - replace speakAdaptable - replace adaptable - /əˈdæptəbl/ - find Dopsum2
+// replace these: replace EnglishEntryadoption - replace speakAdoption - replace adoption - /əˈdɑːpʃn/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryadaptable extends StatelessWidget {
-  EnglishEntryadaptable({Key? key}) : super(key: key);
+class EnglishEntryadoption extends StatelessWidget {
+  EnglishEntryadoption({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdaptable(String languageCode) async {
-    // DOPSUM: CHANGE speakAdaptable
+  Future<void> speakAdoption(String languageCode) async {
+    // DOPSUM: CHANGE speakAdoption
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adaptable"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adoption"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdap2537(String languageCode) async {
-    // DOPSUM: CHANGE speakAdaptable
+  Future<void> speakAdopt58694(String languageCode) async {
+    // DOPSUM: CHANGE speakAdoption
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("She put the baby up for adoption."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAdop5861(String languageCode) async {
+    // DOPSUM: CHANGE speakAdoption
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Successful businesses are highly adaptable to economic change."); // DOPSUM: CHANGE TEXT
+        "The widespread adoption of new technology could save 162 billion dollars a year."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdaptable(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdaptable
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adaptable"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAdaptable(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdaptable
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adaptable"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAdop25674(String languageCode) async {
+    // DOPSUM: CHANGE speakAdoption
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The party announced the formal adoption of George Smith as their election candidate."); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -67,7 +69,7 @@ class EnglishEntryadaptable extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "adaptable", // DOPSUM: CHANGE WORD ENTRY - Find /əˈdæptəbl/
+                              "adoption", // DOPSUM: CHANGE WORD ENTRY - Find /əˈdɒpʃn/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -83,7 +85,7 @@ class EnglishEntryadaptable extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈdæptəbl/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əˈdɒpʃn/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -92,16 +94,16 @@ class EnglishEntryadaptable extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAdaptable(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAdoption(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈdæptəbl/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /əˈdɑːpʃn/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -110,7 +112,7 @@ class EnglishEntryadaptable extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAdaptable(
+                              onPressed: () => speakAdoption(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -160,9 +162,9 @@ class EnglishEntryadaptable extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: لەگونجان‌ھاتو، لەسازان‌ھاتوو، ڕادێ، گونجاو، سازاو، دەق‌گرتوو
+کوردی: کردنەمناڵی خۆ، مناڵ‌گرتنەخۆ، مناڵ‌ھەڵگرتنەوە، ھەڵبژاردن، پەسند، وەرگرتن، ڕەچاوکردن، گرتنەبەر
 
-١. (ھاوەڵناو) ھەبوونی توانای ڕاھاتن بە بارودۆخی نوێ''',
+١. (ناو) ھەڵگرتنەوەی منداڵ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -172,7 +174,7 @@ class EnglishEntryadaptable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Successful businesses are highly adaptable to economic change.",
+                                    "She put the baby up for adoption.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -183,7 +185,7 @@ class EnglishEntryadaptable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بزنسی گەورە بە زۆری خۆیدەگونجێنێت لەگەڵ گۆڕانکاریی ئابووری ",
+                                    "دەستبەرداری منداڵەکە بوو بۆ ھەڵگرتنەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -195,7 +197,7 @@ class EnglishEntryadaptable extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdap2537("en-GB"),
+                                onPressed: () => speakAdopt58694("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -203,8 +205,108 @@ class EnglishEntryadaptable extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAdap2537(
-                                    // REPLACE: adaptable /əˈdæptəbl/
+                                onPressed: () => speakAdopt58694(
+                                    // REPLACE: adoption /əˈdɑːpʃn/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٢. (ناو) دەستکردن بە بەکارھێنانی شتێک''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The widespread adoption of new technology could save 162 billion dollars a year.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "بەکارھێنانی بەرفراوانی تەکنەلۆژیای تازە ئەکرێت ١٦٢ ملیار دۆلاری ساڵانە بگەڕێنێتەوە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAdop5861("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAdop5861(
+                                    // REPLACE: adoption /əˈdɑːpʃn/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٣. (ناو) دیاریکردنی کەسێک وەک کاندیدی هەڵبژاردن''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The party announced the formal adoption of George Smith as their election candidate.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "پارتەکە بە فەرمی ھەڵبژاردنی جۆرج سمیسی وەک کاندیدی ھەڵبژاردنەکان ڕاگەیاند",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAdop25674("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAdop25674(
+                                    // REPLACE: adoption /əˈdɑːpʃn/
                                     "en-US"),
                               ),
                             ],
@@ -253,9 +355,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: adaptable  
-1. Capable of adapting (of becoming or being made suitable) to a particular situation or use
-"to succeed one must be adaptable"; "the frame was adaptable to cloth bolts of different widths"
+- Noun: adoption (Derived forms: adoptions)
+1. The act of accepting with approval; favourable reception (= acceptance, acceptation, espousal)
+"its adoption by society";
+ 
+2. (law) a legal proceeding that creates a parent-child relation between persons not related by blood; the adopted child is entitled to all privileges belonging to a natural child of the adoptive parents (including the right to inherit)
+ 
+3. The appropriation (of ideas or words etc) from another source (= borrowing)
+"the adoption of ancient motifs was very apparent";
 '''),
         ],
       ),
@@ -266,7 +373,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'T2k80X9kbsM';
+  static String myVideoId = 'vn1_vUghWzA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -274,7 +381,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 397, // DOPSUM: CHANGE IT
+      startAt: 157, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -293,7 +400,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = '9KppNMmA2V4';
+  static String myVideoId = 'nmZtoWLX3JE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -301,7 +408,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 583, // DOPSUM: CHANGE IT
+      startAt: 48, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -320,7 +427,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = '01iofNdVGa4';
+  static String myVideoId = 'uPQ7GRQFZDg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -328,7 +435,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 127, // DOPSUM: CHANGE IT
+      startAt: 65, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -347,7 +454,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'zf8pHwce9s8';
+  static String myVideoId = 'pJvqmSz-1eM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -355,7 +462,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 3310, // DOPSUM: CHANGE IT
+      startAt: 42, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -374,7 +481,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'X_wodL64e2M';
+  static String myVideoId = 'ZkH5UCp8h1k';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -382,7 +489,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 190, // DOPSUM: CHANGE IT
+      startAt: 30, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -401,7 +508,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'iMvtHqLmEkI';
+  static String myVideoId = '9As1fbbmq-U';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -409,7 +516,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 4750, // DOPSUM: CHANGE IT
+      startAt: 180, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

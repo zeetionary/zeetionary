@@ -273,6 +273,13 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adopt.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adoption.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adoptive.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adorable.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adoration.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adore.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adorn.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adornment.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adrenaline.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adrift.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -559,6 +566,13 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "adopt",
     "adoption",
     "adoptive",
+    "adorable",
+    "adoration",
+    "adore",
+    "adorn",
+    "adornment",
+    "adrenaline",
+    "adrift",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -2528,6 +2542,55 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     ),
                   );
                 }
+                if (wordsEnglish == "adorable") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadorable(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adoration") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadoration(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adore") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadore(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adorn") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadorn(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adornment") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadornment(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adrenaline") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadrenaline(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adrift") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadrift(),
+                    ),
+                  );
+                }
               },
             ),
           ),
@@ -2555,16 +2618,18 @@ class EnglishDictionary extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-      itemCount: words.length,
-      itemBuilder: (BuildContext context, int index) {
-        return ListTileEnglish(
-          wordsEnglish: words[index],
-          onTap: () {
-            onTapWord(words[index]);
-          },
-        );
-      },
+    return Scrollbar(
+      child: ListView.builder(
+        itemCount: words.length,
+        itemBuilder: (BuildContext context, int index) {
+          return ListTileEnglish(
+            wordsEnglish: words[index],
+            onTap: () {
+              onTapWord(words[index]);
+            },
+          );
+        },
+      ),
     );
   }
 }

@@ -284,6 +284,31 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adult.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adulthood.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adulterate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adultery.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adulterer.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adulterous.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advance.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advanced.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advancement.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advantage.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advantageous.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advent.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adventure.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adventurer.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adventurous.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adverb.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adverbial.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adversary.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adverse.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adversely.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adversity.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advert.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advertise.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advertisement.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advertiser.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advertising.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advice.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advise.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -580,7 +605,32 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "adulation",
     "adult",
     "adulterate",
+    "adulterer",
+    "adulterous",
+    "adultery",
     "adulthood",
+    "advance",
+    "advanced",
+    "advancement",
+    "advantage",
+    "advantageous",
+    "advent",
+    "adventure",
+    "adventurer",
+    "adventurous",
+    "adverb",
+    "adverbial",
+    "adversary",
+    "adverse",
+    "adversely",
+    "adversity",
+    "advert",
+    "advertise",
+    "advertisement",
+    "advertiser",
+    "advertising",
+    "advice",
+    "advise",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -2620,10 +2670,185 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     ),
                   );
                 }
+                if (wordsEnglish == "adultery") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadultery(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adulterer") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadulterer(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adulterous") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadulterous(),
+                    ),
+                  );
+                }
                 if (wordsEnglish == "adulthood") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryadulthood(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "advance") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadvance(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "advanced") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadvanced(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "advancement") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadvancement(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "advantage") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadvantage(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "advantageous") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadvantageous(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "advent") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadvent(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adventure") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadventure(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adventurer") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadventurer(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adventurous") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadventurous(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adverb") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadverb(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adverbial") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadverbial(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adversary") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadversary(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adverse") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadverse(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adversely") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadversely(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adversity") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadversity(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "advert") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadvert(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "advertise") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadvertise(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "advertisement") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadvertisement(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "advertiser") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadvertiser(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "advertising") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadvertising(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "advice") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadvice(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "advise") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadvise(),
                     ),
                   );
                 }

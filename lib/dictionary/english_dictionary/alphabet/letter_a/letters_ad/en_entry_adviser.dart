@@ -3,53 +3,51 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryadvise - replace speakAdvise - replace advise - /ədˈvaɪz/ - find Dopsum2
+// replace these: replace EnglishEntryadviser - replace speakAdviser - replace adviser - /ədˈvaɪzər/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryadvise extends StatelessWidget {
-  EnglishEntryadvise({Key? key}) : super(key: key);
+class EnglishEntryadviser extends StatelessWidget {
+  EnglishEntryadviser({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdvise(String languageCode) async {
-    // DOPSUM: CHANGE speakAdvise
+  Future<void> speakAdviser(String languageCode) async {
+    // DOPSUM: CHANGE speakAdviser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("advise"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("adviser"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdv399865(String languageCode) async {
-    // DOPSUM: CHANGE speakAdvise
+  Future<void> speakAd36528(String languageCode) async {
+    // DOPSUM: CHANGE speakAdviser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They advised me against visiting the troubled of the country."); // DOPSUM: CHANGE TEXT
+        "You ought to consult an independent legal adviser."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdvise259935(String languageCode) async {
-    // DOPSUM: CHANGE speakAdvise
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Her mother was away and couldn't advise her."); // DOPSUM: CHANGE TEXT
-  }
+  // Future<void> speakAdviser(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdviser
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("adviser"); // DOPSUM: CHANGE TEXT
+  // }
 
-  Future<void> speakAdvi789255(String languageCode) async {
-    // DOPSUM: CHANGE speakAdvise
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We employ an expert to advise on new technology."); // DOPSUM: CHANGE TEXT
-  }
+  // Future<void> speakAdviser(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAdviser
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("adviser"); // DOPSUM: CHANGE TEXT
+  // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 9, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 8, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -69,7 +67,7 @@ class EnglishEntryadvise extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "advise", // DOPSUM: CHANGE WORD ENTRY - Find /ədˈvaɪz/
+                              "adviser", // DOPSUM: CHANGE WORD ENTRY - Find /ədˈvaɪzə(r)/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -85,7 +83,7 @@ class EnglishEntryadvise extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /ədˈvaɪz/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /ədˈvaɪzə(r)/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -95,7 +93,7 @@ class EnglishEntryadvise extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAdvise(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAdviser(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -103,7 +101,7 @@ class EnglishEntryadvise extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /ədˈvaɪz/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /ədˈvaɪzər/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -112,7 +110,7 @@ class EnglishEntryadvise extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAdvise(
+                              onPressed: () => speakAdviser(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -133,7 +131,7 @@ class EnglishEntryadvise extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(), // FIND: 2,
-                  VideoIconForTab(),
+                  // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -162,7 +160,9 @@ class EnglishEntryadvise extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (کردار) پێدانی ڕاوێژ و ئامۆژگاری بە کەسێک''',
+کوردی: ڕاوێژکار، ڕاوێژەر، شیرەتڤان، ئامۆژگار، بەپرس‌وڕا
+
+١. (ناو) کەسێک کە کاری ڕاوێژکاری دەکات؛ ئامۆژگاری بە کەسێک دەدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -172,7 +172,7 @@ class EnglishEntryadvise extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "They advised me against visiting the south of the country.",
+                                    "You ought to consult an independent legal adviser.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -183,7 +183,7 @@ class EnglishEntryadvise extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕاوێژیان پێدام دژ بە سەردانیکردنی باشووری وڵاتەکە",
+                                    "پێویستە ڕاوێژ بە ڕاوێژکارێکی یاسایی سەربەخۆ بکەیت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -195,7 +195,7 @@ class EnglishEntryadvise extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdv399865("en-GB"),
+                                onPressed: () => speakAd36528("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -204,100 +204,7 @@ class EnglishEntryadvise extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAdv399865(// REPLACE: advise /ədˈvaɪz/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Her mother was away and couldn't advise her.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دایکی دوور بوو لێی و نەیدەتوانی ئامۆژگاری بکات",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAdvise259935("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAdvise259935(
-                                    // REPLACE: advise /ədˈvaɪz/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (کردار) یارمەتیدانی کەسێک لە شتێکدا کە زۆری لەسەر دەزانیت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We employ an expert to advise on new technology.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "شارەزایەک دادەمەزرێنین بۆپێدانی ڕاوێژ لەسەر تەکنەلۆژیای تازە",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAdvi789255("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAdvi789255(// REPLACE: advise /ədˈvaɪz/
+                                    speakAd36528(// REPLACE: adviser /ədˈvaɪzər/
                                         "en-US"),
                               ),
                             ],
@@ -311,7 +218,7 @@ class EnglishEntryadvise extends StatelessWidget {
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    YoutubeEmbeddedseven(),
+                    // YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
@@ -346,14 +253,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: advise (= Derived forms: advised, advising, advises)
-1. Give advice to (= rede [archaic], counsel)
-"The teacher advises troubled students";
- 
-2. Inform (somebody) of something (= notify, give notice, send word, apprise)
-"I advised him that the rent was due";
- 
-3. Make a proposal, declare a plan for something (= propose, suggest)
+- Noun: adviser (Derived forms: advisers)
+1. An expert who gives advice (= advisor, consultant)
+"an adviser helped students select their courses";
 '''),
         ],
       ),
@@ -364,7 +266,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'ZCbAx9pZU7k';
+  static String myVideoId = 'VP2wn4EytSY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -372,7 +274,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -391,7 +293,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = '7jt-g00I9N0';
+  static String myVideoId = 'OVIT27oX9eo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -399,7 +301,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 14, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -418,7 +320,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = '9TugA_z5vQE';
+  static String myVideoId = 's_zB_D9DBhE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -426,7 +328,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 420, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -445,7 +347,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'NYQZx1irvYc';
+  static String myVideoId = '3-0-81q-fGo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -453,7 +355,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 257, // DOPSUM: CHANGE IT
+      startAt: 977, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -472,7 +374,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'SG6TPTBBz7g';
+  static String myVideoId = 'IuGJ8k6lcOY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -480,7 +382,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 556, // DOPSUM: CHANGE IT
+      startAt: 29, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -499,7 +401,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'iXl0rCHpk60';
+  static String myVideoId = 'DoxI_3RhVUg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -507,39 +409,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 455, // DOPSUM: CHANGE IT
+      startAt: 1054, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedsix({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'n5CPMf5eC_s';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 930, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedseven({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

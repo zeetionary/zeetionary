@@ -309,6 +309,21 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advertising.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advice.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advise.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adviser.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advisory.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advisable.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advocate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aerial.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aerobatics.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aerobics.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aerodynamic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aerodynamics.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aeronautics.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aeroplane.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aerosol.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aerospace.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aesthetic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aesthetically.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -630,7 +645,22 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "advertiser",
     "advertising",
     "advice",
+    "advisable",
     "advise",
+    "adviser",
+    "advisory",
+    "advocate",
+    "aerial",
+    "aerobatics",
+    "aerobics",
+    "aerodynamic",
+    "aerodynamics",
+    "aeronautics",
+    "aeroplane",
+    "aerosol",
+    "aerospace",
+    "aesthetic",
+    "aesthetically",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -2845,10 +2875,115 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     ),
                   );
                 }
+                if (wordsEnglish == "advisable") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadvisable(),
+                    ),
+                  );
+                }
                 if (wordsEnglish == "advise") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryadvise(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "adviser") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadviser(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "advisory") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadvisory(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "advocate") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryadvocate(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aerial") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaerial(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aerobatics") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaerobatics(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aerobics") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaerobics(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aerodynamic") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaerodynamic(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aerodynamics") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaerodynamics(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aeronautics") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaeronautics(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aeroplane") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaeroplane(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aerosol") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaerosol(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aerospace") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaerospace(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aesthetic") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaesthetic(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aesthetically") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaesthetically(),
                     ),
                   );
                 }

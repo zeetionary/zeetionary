@@ -3151,10 +3151,10 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     ),
                   );
                 }
-                if (wordsEnglish == "affix") {
+                if (wordsEnglish == "afflict") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffix(),
+                      builder: (context) => EnglishEntryafflict(),
                     ),
                   );
                 }

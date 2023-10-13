@@ -137,8 +137,7 @@ class EnglishEntryabdication extends StatelessWidget {
                             '''
 کوردی: دەست‌لێ‌کێشانەوە، دەست‌لێ‌ھەڵگرتن، وازلێ‌ھێنان (لە پاتشایەتی)، ڕاقەتاندن، کارڤەکێشان، دەست‌پێ‌کێشانەوە، لێ‌سەندنەوە (بەرپرسایەتی)
 
-١. (ناو) کرداری وازھێنان لە پۆستی پاشایی یان شاژنی
-                            ''',
+١. (ناو) کرداری وازھێنان لە پۆستی پاشایی یان شاژنی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -148,9 +147,7 @@ class EnglishEntryabdication extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-the chain of events leading to the king's abdication
-                                    ''',
+                                    "the chain of events leading to the king's abdication",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -161,9 +158,7 @@ the chain of events leading to the king's abdication
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-ئەو زنجیرە ڕووداوانەی کە دەرەنجامەکەی وازھێنانی پاشا بوو٠
-                                    ''',
+                                    "ئەو زنجیرە ڕووداوانەی کە دەرەنجامەکەی وازھێنانی پاشا بوو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

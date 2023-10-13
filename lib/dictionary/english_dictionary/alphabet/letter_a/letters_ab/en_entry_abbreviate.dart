@@ -147,9 +147,7 @@ class EnglishEntryAbbreviate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-When taking notes, it's helpful to abbreviate long phrases to save time and space.
-                                    ''',
+                                    "When taking notes, it's helpful to abbreviate long phrases to save time and space.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -160,9 +158,7 @@ When taking notes, it's helpful to abbreviate long phrases to save time and spac
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-کاتێک تێبینی دەنووسیت، واباشە دەستەواژە درێژەکان کورتبکەیتەوە بۆ گەڕاندنەوەی کات و مەودای نووسین٠
-                                    ''',
+                                    "کاتێک تێبینی دەنووسیت، واباشە دەستەواژە درێژەکان کورتبکەیتەوە بۆ گەڕاندنەوەی کات و مەودای نووسین",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

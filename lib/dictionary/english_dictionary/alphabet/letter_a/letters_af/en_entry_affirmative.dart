@@ -230,6 +230,9 @@ class EnglishEntryaffirmative extends StatelessWidget {
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const SizedBox(
+                                width: 40,
+                              ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,

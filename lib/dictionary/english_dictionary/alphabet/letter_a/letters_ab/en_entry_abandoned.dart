@@ -157,9 +157,7 @@ class EnglishEntryAbandoned extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-The child was found abandoned but unharmed.
-                                    ''',
+                                    "The child was found abandoned but unharmed.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -170,9 +168,7 @@ The child was found abandoned but unharmed.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-منداڵەکە بە جێھێڵدراوی دۆزرایەوە، بەڵام بێ زیان بوو٠
-                                    ''',
+                                    "منداڵەکە بە جێھێڵدراوی دۆزرایەوە، بەڵام بێ زیان بوو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -202,9 +198,7 @@ The child was found abandoned but unharmed.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-There was an abandoned supermarket trolley in the middle of the road.
-                                    ''',
+                                    "There was an abandoned supermarket trolley in the middle of the road.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -215,9 +209,7 @@ There was an abandoned supermarket trolley in the middle of the road.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-گالیسکەیەکی جێھێڵدراوی سوپەرمارکێتێک لە ناوەڕاتی شەقامەکە بوو٠
-                                    ''',
+                                    "گالیسکەیەکی جێھێڵدراوی سوپەرمارکێتێک لە ناوەڕاتی شەقامەکە بوو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

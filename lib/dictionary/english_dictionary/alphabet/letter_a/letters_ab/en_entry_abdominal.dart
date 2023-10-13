@@ -3,7 +3,7 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: EnglishEntryabdominal - speakAbdominal - /æbˈdɒmɪnl/ - dopsum1
+// replace these: EnglishEntryabdominal - speakAbdominal - /æbˈdɒmɪnl/ - abdominal
 
 enum TtsState { playing }
 
@@ -16,7 +16,7 @@ class EnglishEntryabdominal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dopsum1"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("abdominal"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAbdo5536(String languageCode) async {
@@ -50,7 +50,7 @@ class EnglishEntryabdominal extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'Dopsum1', // DOPSUM: CHANGE WORD ENTRY
+                              'abdominal', // DOPSUM: CHANGE WORD ENTRY
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -136,8 +136,7 @@ class EnglishEntryabdominal extends StatelessWidget {
                             '''
 کوردی: زگی، سگی، ورگی، ناوزگ، ماسوولکەکانی زگ، کۆمەڵە ماسوولکەی سگ
 
-١. (هاوەڵناو) پەیوەندیدار بە سک
-                            ''',
+١. (هاوەڵناو) پەیوەندیدار بە سک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -147,22 +146,21 @@ class EnglishEntryabdominal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-abdominal pains
-                                    ''',
+                                    "abdominal pains",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const SizedBox(
+                                width: 50,
+                              ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-ئازاری سک
-                                    ''',
+                                    "سک ئێشە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

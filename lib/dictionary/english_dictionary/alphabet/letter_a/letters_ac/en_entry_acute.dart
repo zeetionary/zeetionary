@@ -294,7 +294,7 @@ class EnglishEntryacute extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئازاری سەختی سکئێشە",
+                                    "ئازاری سەختی سک ئێشە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

@@ -147,9 +147,7 @@ class EnglishEntryabbot extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-Under the abbot's leadership, the monastery flourished as a center of prayer and learning.
-                                    ''',
+                                    "Under the abbot's leadership, the monastery flourished as a center of prayer and learning.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -160,9 +158,7 @@ Under the abbot's leadership, the monastery flourished as a center of prayer and
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-لە دەمی سەرۆکایەتی ڕەبەنەکە، کڵیساکە پەرەیسەند وەک ناوەندێکی نزاکردن و فێربوون٠
-                                    ''',
+                                    "لە دەمی سەرۆکایەتی ڕەبەنەکە، کڵیساکە پەرەیسەند وەک ناوەندێکی نزاکردن و فێربوون",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

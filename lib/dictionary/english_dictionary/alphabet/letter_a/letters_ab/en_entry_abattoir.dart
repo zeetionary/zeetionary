@@ -161,7 +161,7 @@ Some people prefer to purchase meat directly from the abattoir to ensure its fre
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-ھەندێک کەس پێیان باشترە کە گۆشت ڕاستەوخۆ لە قەسابخانەکە بکڕن بۆ ئەوەی لە پاکی و سەرچاوەکەی دڵنیابن٠.
+ھەندێک کەس پێیان باشترە کە گۆشت ڕاستەوخۆ لە قەسابخانەکە بکڕن بۆ ئەوەی لە پاکی و سەرچاوەکەی دڵنیابن.
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction

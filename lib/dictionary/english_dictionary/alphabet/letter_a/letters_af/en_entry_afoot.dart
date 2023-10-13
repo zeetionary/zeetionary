@@ -183,7 +183,7 @@ class EnglishEntryafoot extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پلان لە ئارادایە بۆ زیادکردنی باج٠",
+                                    "پلان لە ئارادایە بۆ زیادکردنی باج",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

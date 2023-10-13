@@ -184,7 +184,7 @@ class EnglishEntryafflict extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شارەکەمان بۆ چەندین دەیەیە گیرۆدە بووە بە ڕێژەیەکی زۆری تاوان٠",
+                                    "شارەکەمان بۆ چەندین دەیەیە گیرۆدە بووە بە ڕێژەیەکی زۆری تاوان",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -227,7 +227,7 @@ class EnglishEntryafflict extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وشکەساڵی سەخت ھەرێمەکەی گرتووەتەوە٠",
+                                    "وشکەساڵی سەخت ھەرێمەکەی گرتووەتەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

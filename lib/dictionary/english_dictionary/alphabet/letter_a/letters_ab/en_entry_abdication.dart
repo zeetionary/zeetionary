@@ -162,7 +162,7 @@ the chain of events leading to the king's abdication
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-ئەو زنجیرە ڕووداوانەی کە دەرەنجامەکەی وازھێنانی پاشا بوو٠
+ئەو زنجیرە ڕووداوانەی کە دەرەنجامەکەی وازھێنانی پاشا بوو
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction

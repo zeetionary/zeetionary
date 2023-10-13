@@ -166,7 +166,7 @@ class EnglishEntryA extends StatelessWidget {
                           children: [
                             const Text(
                               // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              '١. (ئامراز) پێش ناوی ژمێردراو یان تاک بەکاردێت لە کاتی ئاماژە بۆ کەسانێک یان ئەو شتانەی کە پێشوەختە باس نەکراون٠',
+                              '١. (ئامراز) پێش ناوی ژمێردراو یان تاک بەکاردێت لە کاتی ئاماژە بۆ کەسانێک یان ئەو شتانەی کە پێشوەختە باس نەکراون',
                               style: TextStyle(fontSize: 18),
                               textAlign: TextAlign
                                   .right, // Set text alignment to right
@@ -231,7 +231,7 @@ class EnglishEntryA extends StatelessWidget {
                                   child: Align(
                                     alignment: Alignment.topLeft,
                                     child: Text(
-                                      "میوانێکت ھەیە٠",
+                                      "میوانێکت ھەیە",
                                       textAlign: TextAlign
                                           .right, // Right-to-left direction
                                     ),
@@ -279,7 +279,7 @@ class EnglishEntryA extends StatelessWidget {
                                   child: Align(
                                     alignment: Alignment.topLeft,
                                     child: Text(
-                                      "ئەو بوودییە٠",
+                                      "ئەو بوودییە",
                                       textAlign: TextAlign
                                           .right, // Right-to-left direction
                                     ),

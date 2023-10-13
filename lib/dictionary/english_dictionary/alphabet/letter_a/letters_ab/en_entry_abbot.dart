@@ -161,7 +161,7 @@ Under the abbot's leadership, the monastery flourished as a center of prayer and
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-لە دەمی سەرۆکایەتی ڕەبەنەکە، کڵیساکە پەرەیسەند وەک ناوەندێکی نزاکردن و فێربوون٠
+لە دەمی سەرۆکایەتی ڕەبەنەکە، کڵیساکە پەرەیسەند وەک ناوەندێکی نزاکردن و فێربوون
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction

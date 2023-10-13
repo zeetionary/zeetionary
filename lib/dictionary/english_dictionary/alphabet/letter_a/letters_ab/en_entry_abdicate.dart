@@ -170,7 +170,7 @@ He abdicated in favour of his son.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وازی لە تەختی شاھانە ھێنا لە بەرژەوەندی کوڕەکەی٠",
+                                    "وازی لە تەختی شاھانە ھێنا لە بەرژەوەندی کوڕەکەی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

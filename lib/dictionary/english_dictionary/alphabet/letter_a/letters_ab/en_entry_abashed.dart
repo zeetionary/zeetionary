@@ -159,7 +159,7 @@ He glanced at Juliet accusingly and she looked abashed.
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-بە چاوی گومانەوە لە جولیای دەڕوانی و ئەویش شەرمەزار بوو٠
+بە چاوی گومانەوە لە جولیای دەڕوانی و ئەویش شەرمەزار بوو
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction

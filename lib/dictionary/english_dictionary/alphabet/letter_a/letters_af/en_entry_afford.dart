@@ -191,7 +191,7 @@ class EnglishEntryafford extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەرگیز تەکسی نەدەگرت، ئەگەرچی پارەشی ھەبوو٠",
+                                    "ھەرگیز تەکسی نەدەگرت، ئەگەرچی پارەشی ھەبوو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -234,7 +234,7 @@ class EnglishEntryafford extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نەیاندەتوانی خانوویەک لەوێ بکڕن٠",
+                                    "نەیاندەتوانی خانوویەک لەوێ بکڕن",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -284,7 +284,7 @@ class EnglishEntryafford extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناتوانین ئەم ھۆشدارییە پشتگوێ بخەین٠",
+                                    "ناتوانین ئەم ھۆشدارییە پشتگوێ بخەین",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -334,7 +334,7 @@ class EnglishEntryafford extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دارەکە ھەندێک سێبەر دەبەخشێت٠",
+                                    "دارەکە ھەندێک سێبەر دەبەخشێت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

@@ -186,7 +186,7 @@ The baby had been abandoned by its mother.
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-منداڵەکە لەلایەن دایکی جێھێڵدرابوو٠
+منداڵەکە لەلایەن دایکی جێھێڵدرابوو
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
@@ -231,7 +231,7 @@ Snow forced many drivers to abandon their vehicles.
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-بەفر ژمارەیەکی زۆر شۆفێری ناچارکرد ئۆتۆمبێلەکانیان بەجێبھێڵن٠
+بەفر ژمارەیەکی زۆر شۆفێری ناچارکرد ئۆتۆمبێلەکانیان بەجێبھێڵن
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
@@ -282,7 +282,7 @@ They abandoned the match because of rain.
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-یارییەکەیان وەستاند بەھۆی باران بارین٠
+یارییەکەیان وەستاند بەھۆی باران بارین
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
@@ -333,7 +333,7 @@ Germany abandoned its political leaders after WWII.
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-ئەڵمانیا دەستبەرداری سەرکردایەتییەکەی بوو لەدوای جەنگی دووەمی جیھان٠
+ئەڵمانیا دەستبەرداری سەرکردایەتییەکەی بوو لەدوای جەنگی دووەمی جیھان
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction

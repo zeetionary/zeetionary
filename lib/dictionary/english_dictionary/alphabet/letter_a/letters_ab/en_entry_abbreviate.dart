@@ -161,7 +161,7 @@ When taking notes, it's helpful to abbreviate long phrases to save time and spac
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-کاتێک تێبینی دەنووسیت، واباشە دەستەواژە درێژەکان کورتبکەیتەوە بۆ گەڕاندنەوەی کات و مەودای نووسین٠
+کاتێک تێبینی دەنووسیت، واباشە دەستەواژە درێژەکان کورتبکەیتەوە بۆ گەڕاندنەوەی کات و مەودای نووسین
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction

@@ -158,7 +158,7 @@ class EnglishEntryAbacus extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-لە سەردەمانی کۆندا خەڵکی پشتیان بە ژمێرکە دەبەست بۆ لێکدانەوە بیرکارییەکان٠
+لە سەردەمانی کۆندا خەڵکی پشتیان بە ژمێرکە دەبەست بۆ لێکدانەوە بیرکارییەکان
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction

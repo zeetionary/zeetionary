@@ -228,7 +228,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەندێک کەس ماوە ماوە پێویستیان بە سەلماندنی خۆشەویستی لە ھاوسەرەکانیانەوە ھەیە٠",
+                                    "ھەندێک کەس ماوە ماوە پێویستیان بە سەلماندنی خۆشەویستی لە ھاوسەرەکانیانەوە ھەیە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -278,7 +278,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵەکان بەردەوام داوای ھەست و سۆزی دایک و باوکیان دەکرد٠",
+                                    "منداڵەکان بەردەوام داوای ھەست و سۆزی دایک و باوکیان دەکرد",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

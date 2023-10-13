@@ -3,52 +3,68 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryafflict - replace speakAfflict - replace afflict - /əˈflɪkt/ - find Dopsum2
+// replace these: replace EnglishEntryafloat - replace speakAfloat - replace afloat - /əˈfləʊt/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryafflict extends StatelessWidget {
-  EnglishEntryafflict({Key? key}) : super(key: key);
+class EnglishEntryafloat extends StatelessWidget {
+  EnglishEntryafloat({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAfflict(String languageCode) async {
-    // DOPSUM: CHANGE speakAfflict
+  Future<void> speakAfloat(String languageCode) async {
+    // DOPSUM: CHANGE speakAfloat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("afflict"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("afloat"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffl455(String languageCode) async {
-    // DOPSUM: CHANGE speakAfflict
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Our city has been afflicted with a high crime rate for decades."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAffli994(String languageCode) async {
-    // DOPSUM: CHANGE speakAfflict
+  Future<void> speakAflo45(String languageCode) async {
+    // DOPSUM: CHANGE speakAfloat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Severe drought has afflicted the region."); // DOPSUM: CHANGE TEXT
+        "They were struggling to keep the vessel afloat."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAfflict(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAfflict
+  Future<void> speakAfl5988(String languageCode) async {
+    // DOPSUM: CHANGE speakAfloat
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Many small businesses are struggling to stay afloat."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAfloat(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAfloat
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("afflict"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("afloat"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAfloat(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAfloat
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("afloat"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAfloat(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAfloat
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("afloat"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 10, // 2 + VIDEOS FIND: YoutubeEmbeddedone
+      length: 11, // 2 + VIDEOS FIND: YoutubeEmbeddedone
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -68,7 +84,7 @@ class EnglishEntryafflict extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "afflict", // DOPSUM: CHANGE WORD ENTRY - Find /əˈflɪkt/
+                              "afloat", // DOPSUM: CHANGE WORD ENTRY - Find /əˈfləʊt/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -84,7 +100,7 @@ class EnglishEntryafflict extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈflɪkt/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əˈfləʊt/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -94,7 +110,7 @@ class EnglishEntryafflict extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAfflict(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAfloat(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -102,7 +118,7 @@ class EnglishEntryafflict extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈflɪkt/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /əˈfləʊt/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -111,7 +127,7 @@ class EnglishEntryafflict extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAfflict(
+                              onPressed: () => speakAfloat(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -134,7 +150,7 @@ class EnglishEntryafflict extends StatelessWidget {
                   VideoIconForTab(), // FIND: 2,
                   VideoIconForTab(),
                   VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -161,9 +177,9 @@ class EnglishEntryafflict extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: گیرۆدەبوون، توش‌بوون، پێوەبوون، لێقەومان، بەڵاگیربوون
+کوردی: سەراوکەوتە، سواراو، لەسەرئاو، بەسەر ئاوەوە، لەسەراو، بە حەواوە، لە حەوادا، ڕۆییو، ڕۆیندە، لەجووڵەدا، باو، سەرزمان‌کەوتوو، لە دەریا (دا)، لەسەر کەشتی یان گەمی، پارەی تەواوی هەیە بۆ دانەوەی قەرزەکان
 
-١. (کردار) تووشبوون بە شتێکی خراپ''',
+١. (هاوەڵناو) سەرئاوکەوتوو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -173,7 +189,7 @@ class EnglishEntryafflict extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Our city has been afflicted with a high crime rate for decades.",
+                                    "They were struggling to keep the boat afloat.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -184,7 +200,7 @@ class EnglishEntryafflict extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شارەکەمان بۆ چەندین دەیەیە گیرۆدە بووە بە ڕێژەیەکی زۆری تاوان٠",
+                                    "تەقەلایان بوو بۆ ئەوەی بەلەمەکە سەراوکەوتە بهێڵنەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -196,7 +212,7 @@ class EnglishEntryafflict extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAffl455("en-GB"),
+                                onPressed: () => speakAflo45("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -205,10 +221,17 @@ class EnglishEntryafflict extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAffl455(// REPLACE: afflict /əˈflɪkt/
+                                    speakAflo45(// REPLACE: afloat /əˈfləʊt/
                                         "en-US"),
                               ),
                             ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+١. (هاوەڵناو) هەبوونی بەشی پێویست پارە بۆ دانەوەی قەرزەکانی کۆمپانیایەک و توانای مانەوە''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
                           ),
                           Row(
                             children: [
@@ -216,7 +239,7 @@ class EnglishEntryafflict extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Severe drought has afflicted the region.",
+                                    "Many small businesses are struggling to stay afloat.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -227,7 +250,7 @@ class EnglishEntryafflict extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وشکەساڵی سەخت ھەرێمەکەی گرتووەتەوە٠",
+                                    "ژمارەیەکی زۆر بزنسی بچووک تەقەلایانە ئیفلاس نەکەن",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -239,7 +262,7 @@ class EnglishEntryafflict extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAffli994("en-GB"),
+                                onPressed: () => speakAfl5988("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -248,7 +271,7 @@ class EnglishEntryafflict extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAffli994(// REPLACE: afflict /əˈflɪkt/
+                                    speakAfl5988(// REPLACE: afloat /əˈfləʊt/
                                         "en-US"),
                               ),
                             ],
@@ -264,7 +287,7 @@ class EnglishEntryafflict extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
+                    YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
@@ -297,12 +320,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: afflict (Derived forms: afflicting, afflicts, afflicted)
-1. Cause great unhappiness for; distress
-"she was afflicted by the death of her parents"
+- Adjective: afloat
+1. Borne on the water; floating
  
-2. Cause physical pain or suffering in (= smite)
-"afflict with the plague";
+2. Without a clear purpose or direction (= adrift, aimless, directionless, planless, rudderless, undirected)
+"Russia is afloat and chaotic";
+ 
+3. Covered with water (= awash, flooded, inundated, overflowing)
+"the main deck was afloat";
 '''),
         ],
       ),
@@ -313,7 +338,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'Bf68h7dozPE';
+  static String myVideoId = 'JiqGzwvAW1c';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -321,7 +346,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 61, // DOPSUM: CHANGE IT
+      startAt: 199, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -340,7 +365,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'XaJSYxit1qI';
+  static String myVideoId = 'zqllxbPWKNI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -348,7 +373,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 340, // DOPSUM: CHANGE IT
+      startAt: 1011, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -367,7 +392,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'VeBX4WjhhXs';
+  static String myVideoId = 'mY3SEMTROas';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -375,7 +400,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 2092, // DOPSUM: CHANGE IT
+      startAt: 100, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -394,7 +419,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'LXcUDMn64Lw';
+  static String myVideoId = 'X6X23MGrhg8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -402,7 +427,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 2677, // DOPSUM: CHANGE IT
+      startAt: 513, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -421,7 +446,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'tehQjoZFyGY';
+  static String myVideoId = '62EGPCEmeh4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -429,7 +454,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 557, // DOPSUM: CHANGE IT
+      startAt: 600, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -448,7 +473,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'acN2MQQYGWg';
+  static String myVideoId = 'XFJnWp1tAdU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -456,7 +481,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 3192, // DOPSUM: CHANGE IT
+      startAt: 947, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -475,7 +500,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = '6B5Bthon7QM';
+  static String myVideoId = 'u0hrhZoL9Cg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -483,7 +508,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 535, // DOPSUM: CHANGE IT
+      startAt: 227, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -502,7 +527,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'D3GGhpbXuuk';
+  static String myVideoId = 'A90BDh1ZrHI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -510,12 +535,39 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 437, // DOPSUM: CHANGE IT
+      startAt: 242, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedeight({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddednine extends StatelessWidget {
+  static String myVideoId = '4C9948aQF8U';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 449, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddednine({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

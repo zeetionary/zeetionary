@@ -324,7 +324,6 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aerospace.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aesthetic.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aesthetically.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/letters_fr/en_entry_afar.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affable.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affably.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affair.dart';
@@ -343,6 +342,15 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affirmative.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affix.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afflict.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affliction.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affluence.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affluent.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afford.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affront.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afloat.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afoot.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/letters_fa/en_entry_far_afield.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/letters_fr/en_entry_from_afar.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -698,10 +706,18 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "affirmative",
     "affix",
     "afflict",
+    "affliction",
+    "affluence",
+    "affluent",
+    "afford",
+    "affront",
+    "afloat",
+    "afoot",
     "dopsum",
     "dopsum",
     "dopsum",
     "dopsum",
+    "far afield",
     "from afar",
   ];
   List<String> filteredWords = [];
@@ -3155,6 +3171,62 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryafflict(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "affliction") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaffliction(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "affluence") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaffluence(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "affluent") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaffluent(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "afford") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryafford(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "affront") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaffront(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "afloat") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryafloat(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "afoot") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryafoot(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "far afield") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryfarafield(),
                     ),
                   );
                 }

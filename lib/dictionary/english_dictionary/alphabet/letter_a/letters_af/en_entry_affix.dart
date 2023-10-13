@@ -212,7 +212,7 @@ class EnglishEntryaffix extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (ناو) پێشگر و پاشگر لە ڕێزماندا''',
+٢. (ناو) پێشگر و پاشگر لە ڕێزماندا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

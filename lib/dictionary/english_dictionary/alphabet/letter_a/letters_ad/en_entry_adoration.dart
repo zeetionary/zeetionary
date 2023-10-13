@@ -162,7 +162,6 @@ class EnglishEntryadoration extends StatelessWidget {
                             '''
 کوردی: پەرستن، پەرستشت، دڵ‌پێدان، دڵ‌تێچوون، ھۆگری، دڵبەستەیی، پیاھەڵوتن، ستایشت
 
-
 ١. (ناو) ھەستی خۆشەویستییەکی زۆر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,

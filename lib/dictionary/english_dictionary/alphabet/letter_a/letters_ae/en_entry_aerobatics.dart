@@ -162,7 +162,7 @@ class EnglishEntryaerobatics extends StatelessWidget {
                             '''
 کوردی: ئاسمان‌بازی، ئێرۆباتیکس
 
-١. (ناو) ئنجامدانی جوڵەی سەرکێشی بە فڕۆکە لە ئاسماندا''',
+١. (ناو) ئەنجامدانی جوڵەی سەرکێشی بە فڕۆکە لە ئاسماندا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

@@ -335,6 +335,11 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affectionate.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affectionately.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affidavit.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affiliate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affiliation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affinity.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affirm.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affirmation.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -682,6 +687,11 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "affectionate",
     "affectionately",
     "affidavit",
+    "affiliate",
+    "affiliation",
+    "affinity",
+    "affirm",
+    "affirmation",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -3080,6 +3090,41 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryaffidavit(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "affiliate") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaffiliate(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "affiliation") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaffiliation(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "affinity") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaffinity(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "affirm") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaffirm(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "affirmation") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaffirmation(),
                     ),
                   );
                 }

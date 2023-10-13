@@ -3,51 +3,69 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryaffectionate - replace speakAffectionate - replace affectionate - /əˈfekʃənət/ - find Dopsum2
+// replace these: replace EnglishEntryaffinity - replace speakAffinity - replace affinity - /əˈfɪnəti/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryaffectionate extends StatelessWidget {
-  EnglishEntryaffectionate({Key? key}) : super(key: key);
+class EnglishEntryaffinity extends StatelessWidget {
+  EnglishEntryaffinity({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAffectionate(String languageCode) async {
-    // DOPSUM: CHANGE speakAffectionate
+  Future<void> speakAffinity(String languageCode) async {
+    // DOPSUM: CHANGE speakAffinity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("affectionate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("affinity"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffect25699(String languageCode) async {
-    // DOPSUM: CHANGE speakAffectionate
+  Future<void> speakAffi5699(String languageCode) async {
+    // DOPSUM: CHANGE speakAffinity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He is very affectionate towards his children."); // DOPSUM: CHANGE TEXT
+        "Sam was born in the country and had a deep affinity with nature."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAffectionate(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAffectionate
+  Future<void> speakAf155(String languageCode) async {
+    // DOPSUM: CHANGE speakAffinity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Humans have a special affinity for dolphins."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAffinity145(String languageCode) async {
+    // DOPSUM: CHANGE speakAffinity
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "There is a close affinity between Italian and Spanish."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAffinity(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAffinity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("affectionate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("affinity"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAffectionate(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAffectionate
+  // Future<void> speakAffinity(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAffinity
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("affectionate"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("affinity"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 12, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -67,7 +85,7 @@ class EnglishEntryaffectionate extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "affectionate", // DOPSUM: CHANGE WORD ENTRY - Find /əˈfekʃənət/
+                              "affinity", // DOPSUM: CHANGE WORD ENTRY - Find /əˈfɪnəti/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -83,7 +101,7 @@ class EnglishEntryaffectionate extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈfekʃənət/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əˈfɪnəti/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -92,16 +110,16 @@ class EnglishEntryaffectionate extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAffectionate(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAffinity(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈfekʃənət/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /əˈfɪnəti/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -110,7 +128,7 @@ class EnglishEntryaffectionate extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAffectionate(
+                              onPressed: () => speakAffinity(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -134,7 +152,7 @@ class EnglishEntryaffectionate extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -160,9 +178,9 @@ class EnglishEntryaffectionate extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: بەسۆز، دڵسۆز، بەبەزەیی، بەخرۆش
+کوردی: بەستراوی، پێوەستایەتی، پشت‌پێ‌بەستوویی، خۆبەستەیی، سەربەدی‌یەتی، پاشکۆیی، پێوەبەندایەتی، دیبەندایەتی، لێکچوویی، لێک‌نزیکی، وەکھەڤی، نزیکی، وەکیەکی، پێوەندی، تێکەڵی، خزمایەتی ژن‌ومێردایەتی، ئەوینداری، مەیل، (کیمیا) ھۆگرێتی، ڕاکێشان، ڕاکێشەرێتی
 
-١. (ھاوەڵناو) هەبوونی خاسیەتی ھەست و سۆز پیشاندان''',
+١. (ناو) بوونی ھەستێکی بەھێز کە لە شتێک تێدەگەیت و حەزت بۆی ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -172,9 +190,9 @@ class EnglishEntryaffectionate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "He is very affectionate towards his children.",
+                                    "Sam was born in the country and had a deep affinity with nature.",
                                     textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
+                                        .ltr, // Right-to-left direction1
                                   ),
                                 ),
                               ),
@@ -183,7 +201,7 @@ class EnglishEntryaffectionate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر بەسۆزە لەگەڵ منداڵانی",
+                                    "سام لە لادێ لەدایکبووبوو و ھۆگرییەکی قووڵی بۆ سرووشت ھەبوو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -195,7 +213,7 @@ class EnglishEntryaffectionate extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAffect25699("en-GB"),
+                                onPressed: () => speakAffi5699("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -203,8 +221,101 @@ class EnglishEntryaffectionate extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAffect25699(
-                                    // REPLACE: affectionate /əˈfekʃənət/
+                                onPressed: () => speakAffi5699(
+                                    // REPLACE: affinity /əˈfɪnəti/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Humans have a special affinity for dolphins.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction1
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "مرۆڤ ھۆگرییەکی تایبەتی بۆ دۆڵفین ھەیە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAf155("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAf155(// REPLACE: affinity /əˈfɪnəti/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٢. (ناو) بوونی خاسیەتی لێکچوو''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "There is a close affinity between Italian and Spanish.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction1
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "لێکچوونی زۆر ھەیە لەنێوان زمانەکانی ئیسپانی و ئیتالی",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAffinity145("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAffinity145(
+                                    // REPLACE: affinity /əˈfɪnəti/
                                     "en-US"),
                               ),
                             ],
@@ -221,7 +332,7 @@ class EnglishEntryaffectionate extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
+                    YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -253,9 +364,24 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: affectionate 
-1. Having or displaying warmth or affection (= fond, lovesome, tender)
-"affectionate children";
+- Noun: affinity (Derived forms: affinities)
+1. A natural attraction or feeling of kinship
+"an affinity for politics"; "the mysterious affinity between them"; "James's affinity with Sam"
+ 
+2. Inherent resemblance between persons or things
+ 
+3. The force attracting atoms to each other and binding them together in a molecule (= chemical attraction)
+"basic dyes have an affinity for wool and silk";
+
+4. A close connection marked by community of interests or similarity in nature or character (= kinship)
+"found a natural affinity with the immigrants";
+ 
+5. (biology) state of relationship between organisms or groups of organisms resulting in resemblance in structure or structural parts (= phylogenetic relation)
+"in anatomical structure prehistoric man shows close affinity with modern humans";
+ 
+6. (anthropology) kinship by marriage or adoption; not a blood relationship
+ 
+7. (immunology) the attraction between an antigen and an antibody
 '''),
         ],
       ),
@@ -266,7 +392,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'N2ggk0njcDo';
+  static String myVideoId = '5G0j_Huv2Fg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -274,7 +400,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 20, // DOPSUM: CHANGE IT
+      startAt: 2819, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -293,7 +419,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'E7wHsCTg9XE';
+  static String myVideoId = 'LbPw9AlVKVM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -301,7 +427,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 2, // DOPSUM: CHANGE IT
+      startAt: 1208, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -320,7 +446,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'jq6HuYII-H0';
+  static String myVideoId = 'YpdMpPXsTXE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -328,7 +454,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 97, // DOPSUM: CHANGE IT
+      startAt: 254, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -347,7 +473,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'hoihoGGdQ4U';
+  static String myVideoId = 'S9cZlONstG4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -355,7 +481,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 632, // DOPSUM: CHANGE IT
+      startAt: 304, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -374,7 +500,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'r9cLluDKIhk';
+  static String myVideoId = '374ItP8thgA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -382,7 +508,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 419, // DOPSUM: CHANGE IT
+      startAt: 321, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -401,7 +527,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'Ir3eJ1t13fk';
+  static String myVideoId = 'mICxKmCjF-4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -409,7 +535,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 661, // DOPSUM: CHANGE IT
+      startAt: 446, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -428,7 +554,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'LYUdnsIn5OU';
+  static String myVideoId = 'XVvFRE6yNPk';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -436,7 +562,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 74, // DOPSUM: CHANGE IT
+      startAt: 532, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -455,7 +581,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'iK7lICvUhCI';
+  static String myVideoId = 'OPta1DBLD90';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -463,7 +589,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 147, // DOPSUM: CHANGE IT
+      startAt: 85, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -482,7 +608,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'mNIXRXikYDc';
+  static String myVideoId = 'CpRqWJTp9mY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -490,12 +616,39 @@ class YoutubeEmbeddednine extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 176, // DOPSUM: CHANGE IT
+      startAt: 102, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddednine({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedten extends StatelessWidget {
+  static String myVideoId = 'v4nvHgBSzL0';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 259, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedten({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

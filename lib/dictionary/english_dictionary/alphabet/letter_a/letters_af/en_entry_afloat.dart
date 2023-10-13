@@ -200,7 +200,7 @@ class EnglishEntryafloat extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەقەلایان بوو بۆ ئەوەی بەلەمەکە سەراوکەوتە بهێڵنەوە",
+                                    "تەقەلایان بوو بۆ ئەوەی بەلەمەکە سەراوکەوتە بهێڵنەوە٠",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -250,7 +250,7 @@ class EnglishEntryafloat extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژمارەیەکی زۆر بزنسی بچووک تەقەلایانە ئیفلاس نەکەن",
+                                    "ژمارەیەکی زۆر بزنسی بچووک تەقەلایانە ئیفلاس نەکەن٠",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

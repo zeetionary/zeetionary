@@ -183,7 +183,7 @@ class EnglishEntryaffluent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە گەڕەکێکی دەوڵەمەند دەژین",
+                                    "لە گەڕەکێکی دەوڵەمەند دەژین٠",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

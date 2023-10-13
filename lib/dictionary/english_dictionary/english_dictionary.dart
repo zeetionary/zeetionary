@@ -324,6 +324,14 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aerospace.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aesthetic.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aesthetically.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/letters_fr/en_entry_afar.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affable.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affably.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affair.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affect.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affectation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affected.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affection.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -661,6 +669,18 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "aerospace",
     "aesthetic",
     "aesthetically",
+    "affable",
+    "affably",
+    "affair",
+    "affect",
+    "affectation",
+    "affected",
+    "affection",
+    "dopsum",
+    "dopsum",
+    "dopsum",
+    "dopsum",
+    "from afar",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -2984,6 +3004,62 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryaesthetically(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "affable") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaffable(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "affably") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaffably(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "affair") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaffair(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "affect") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaffect(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "affectation") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaffectation(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "affected") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaffected(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "affection") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaffection(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "from afar") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryafar(),
                     ),
                   );
                 }

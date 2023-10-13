@@ -161,7 +161,7 @@ The storm showed no signs of abating.
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-زریانەکە هیچ ئاماژەیەکی دامرکانی پیشان نەدەدا
+زریانەکە هیچ ئاماژەیەکی دامرکانی پیشان نەدەدا٠
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction

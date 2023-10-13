@@ -162,7 +162,7 @@ The city spends 9 million dollars a year on air pollution abatement.
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-شارەکە ساڵانە ٩ ملیۆن دۆلار خەرج دەکات بۆ کەمکردنەوەی پیسبوونی بەرگەھەوا
+شارەکە ساڵانە ٩ ملیۆن دۆلار خەرج دەکات بۆ کەمکردنەوەی پیسبوونی بەرگەھەوا٠
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction

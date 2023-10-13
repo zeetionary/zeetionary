@@ -160,7 +160,7 @@ She was completely taken aback by his anger.
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-تووشی شۆک بوو بە توڕەییەکەی
+تووشی شۆک بوو بە توڕەییەکەی٠
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction

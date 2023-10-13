@@ -170,9 +170,7 @@ He abdicated in favour of his son.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-وازی لە تەختی شاھانە ھێنا لە بەرژەوەندی کوڕەکەی
-                                    ''',
+                                    "وازی لە تەختی شاھانە ھێنا لە بەرژەوەندی کوڕەکەی٠",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -216,7 +214,7 @@ She was forced to abdicate the throne of Spain.
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-ناچارکرا واز لە تەختی شاھانەیی ئیسپانیا بھێنێت
+ناچارکرا واز لە تەختی شاھانەیی ئیسپانیا بھێنێت٠
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction

@@ -162,7 +162,7 @@ their childhood abandonment by their mother
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-دەستبەرداربوون لێیان لەلایەن دایکیان
+دەستبەرداربوون لێیان لەلایەن دایکیان٠
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction

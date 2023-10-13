@@ -49,7 +49,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: SizedBox(
-              height: 50,
+              height: 60,
               child: TextField(
                 controller: _searchController,
                 onChanged: filterquestions,

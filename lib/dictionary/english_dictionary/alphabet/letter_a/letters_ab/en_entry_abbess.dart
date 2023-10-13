@@ -161,7 +161,7 @@ The abbess oversaw the daily activities of the abbey, ensuring that everything r
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-ژنە ڕەبەنەکە سەرپەرشتی چالاکییەکانی ڕۆژانەی کڵێساکەی دەکرد بۆ دڵنیابوون لەوەی ھەموو شتێک بێ کێشە بەڕێوەدەچوو
+ژنە ڕەبەنەکە سەرپەرشتی چالاکییەکانی ڕۆژانەی کڵێساکەی دەکرد بۆ دڵنیابوون لەوەی ھەموو شتێک بێ کێشە بەڕێوەدەچوو٠
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction

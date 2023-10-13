@@ -147,9 +147,7 @@ class EnglishEntryAbattoir extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-Some people prefer to purchase meat directly from the abattoir to ensure its freshness and origin.
-                                    ''',
+                                    "Some people prefer to purchase meat directly from the abattoir to ensure its freshness and origin.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -160,9 +158,7 @@ Some people prefer to purchase meat directly from the abattoir to ensure its fre
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-ھەندێک کەس پێیان باشترە کە گۆشت ڕاستەوخۆ لە قەسابخانەکە بکڕن بۆ ئەوەی لە پاکی و سەرچاوەکەی دڵنیابن.
-                                    ''',
+                                    "ھەندێک کەس پێیان باشترە کە گۆشت ڕاستەوخۆ لە قەسابخانەکە بکڕن بۆ ئەوەی لە پاکی و سەرچاوەکەی دڵنیابن",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

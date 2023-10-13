@@ -172,9 +172,7 @@ class EnglishEntryAbandon extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-The baby had been abandoned by its mother.
-                                    ''',
+                                    "The baby had been abandoned by its mother.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -185,9 +183,7 @@ The baby had been abandoned by its mother.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-منداڵەکە لەلایەن دایکی جێھێڵدرابوو
-                                    ''',
+                                    "منداڵەکە لەلایەن دایکی جێھێڵدرابوو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -217,9 +213,7 @@ The baby had been abandoned by its mother.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-Snow forced many drivers to abandon their vehicles.
-                                    ''',
+                                    "Snow forced many drivers to abandon their vehicles.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -230,9 +224,7 @@ Snow forced many drivers to abandon their vehicles.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-بەفر ژمارەیەکی زۆر شۆفێری ناچارکرد ئۆتۆمبێلەکانیان بەجێبھێڵن
-                                    ''',
+                                    "بەفر ژمارەیەکی زۆر شۆفێری ناچارکرد ئۆتۆمبێلەکانیان بەجێبھێڵن",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -268,9 +260,7 @@ Snow forced many drivers to abandon their vehicles.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-They abandoned the match because of rain.
-                                    ''',
+                                    "They abandoned the match because of rain.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -281,9 +271,7 @@ They abandoned the match because of rain.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-یارییەکەیان وەستاند بەھۆی باران بارین
-                                    ''',
+                                    "یارییەکەیان وەستاند بەھۆی باران بارین",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -319,9 +307,7 @@ They abandoned the match because of rain.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-Germany abandoned its political leaders after WWII.
-                                    ''',
+                                    "Germany abandoned its political leaders after WWII.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -332,9 +318,7 @@ Germany abandoned its political leaders after WWII.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-ئەڵمانیا دەستبەرداری سەرکردایەتییەکەی بوو لەدوای جەنگی دووەمی جیھان
-                                    ''',
+                                    "ئەڵمانیا دەستبەرداری سەرکردایەتییەکەی بوو لەدوای جەنگی دووەمی جیھان",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

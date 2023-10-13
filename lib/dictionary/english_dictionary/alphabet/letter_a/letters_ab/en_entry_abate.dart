@@ -147,9 +147,7 @@ class EnglishEntryAbate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-The storm showed no signs of abating.
-                                    ''',
+                                    "The storm showed no signs of abating.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -160,9 +158,7 @@ The storm showed no signs of abating.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-زریانەکە هیچ ئاماژەیەکی دامرکانی پیشان نەدەدا٠
-                                    ''',
+                                    "زریانەکە هیچ ئاماژەیەکی دامرکانی پیشان نەدەدا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

@@ -148,9 +148,7 @@ class EnglishEntryabatement extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-The city spends 9 million dollars a year on air pollution abatement.
-                                    ''',
+                                    "The city spends 9 million dollars a year on air pollution abatement.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -161,9 +159,7 @@ The city spends 9 million dollars a year on air pollution abatement.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-شارەکە ساڵانە ٩ ملیۆن دۆلار خەرج دەکات بۆ کەمکردنەوەی پیسبوونی بەرگەھەوا٠
-                                    ''',
+                                    "شارەکە ساڵانە ٩ ملیۆن دۆلار خەرج دەکات بۆ کەمکردنەوەی پیسبوونی بەرگەھەوا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

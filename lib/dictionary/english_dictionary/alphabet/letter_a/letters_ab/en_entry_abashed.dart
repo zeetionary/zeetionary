@@ -145,9 +145,7 @@ class EnglishEntryAbashed extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-He glanced at Juliet accusingly and she looked abashed.
-                                    ''',
+                                    "He glanced at Juliet accusingly and she looked abashed.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -158,9 +156,7 @@ He glanced at Juliet accusingly and she looked abashed.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-بە چاوی گومانەوە لە جولیای دەڕوانی و ئەویش شەرمەزار بوو
-                                    ''',
+                                    "بە چاوی گومانەوە لە جولیای دەڕوانی و ئەویش شەرمەزار بوو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

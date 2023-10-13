@@ -135,8 +135,7 @@ class EnglishEntryAback extends StatelessWidget {
                             '''
 کوردی: داچڵەکین، ھەڵبەزینەوە، داترووسکان، سەرسووڕمان، واق‌وڕمان
 
-١. (ھاوەڵکار) تووشی سەرسوڕمان و شۆک بیت بە شتێک
-                            ''',
+١. (ھاوەڵکار) تووشی سەرسوڕمان و شۆک بیت بە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -146,9 +145,7 @@ class EnglishEntryAback extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-She was completely taken aback by his anger.
-                                    ''',
+                                    "She was completely taken aback by his anger.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -159,9 +156,7 @@ She was completely taken aback by his anger.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-تووشی شۆک بوو بە توڕەییەکەی٠
-                                    ''',
+                                    "تووشی شۆک بوو بە توڕەییەکەی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

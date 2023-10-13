@@ -188,9 +188,7 @@ class EnglishEntryA extends StatelessWidget {
                                   child: Align(
                                     alignment: Alignment.topLeft,
                                     child: Text(
-                                      '''
-                      لە یەک کاتدا دەتوانم تەنھا دووان ھەڵبگرم٠
-                                      ''',
+                                      "لە یەک کاتدا دەتوانم تەنھا دووان ھەڵبگرم",
                                       textAlign: TextAlign
                                           .right, // Right-to-left direction
                                     ),
@@ -327,9 +325,7 @@ class EnglishEntryA extends StatelessWidget {
                                   child: Align(
                                     alignment: Alignment.topLeft,
                                     child: Text(
-                                      '''
-شێر ئاژەڵێکی دڕندەیە٠
-                                      ''',
+                                      "شێر ئاژەڵێکی دڕندەیە",
                                       textAlign: TextAlign
                                           .right, // Right-to-left direction
                                     ),
@@ -377,9 +373,7 @@ class EnglishEntryA extends StatelessWidget {
                                   child: Align(
                                     alignment: Alignment.topLeft,
                                     child: Text(
-                                      '''
-زانیارییەکی باش لە زمانی فەڕەنسی٠
-                                      ''',
+                                      "زانیارییەکی باش لە زمانی فەڕەنسی",
                                       textAlign: TextAlign
                                           .right, // Right-to-left direction
                                     ),

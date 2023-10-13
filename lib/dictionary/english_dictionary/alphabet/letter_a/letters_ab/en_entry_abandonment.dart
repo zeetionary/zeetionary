@@ -148,9 +148,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-their childhood abandonment by their mother
-                                    ''',
+                                    "their childhood abandonment by their mother",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -161,9 +159,7 @@ their childhood abandonment by their mother
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-دەستبەرداربوون لێیان لەلایەن دایکیان
-                                    ''',
+                                    "دەستبەرداربوون لێیان لەلایەن دایکیان",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

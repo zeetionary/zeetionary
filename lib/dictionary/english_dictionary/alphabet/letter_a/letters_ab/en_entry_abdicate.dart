@@ -157,9 +157,7 @@ class EnglishEntryabdicate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-He abdicated in favour of his son.
-                                    ''',
+                                    "He abdicated in favour of his son.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -200,9 +198,7 @@ He abdicated in favour of his son.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-She was forced to abdicate the throne of Spain.
-                                    ''',
+                                    "She was forced to abdicate the throne of Spain.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -213,9 +209,7 @@ She was forced to abdicate the throne of Spain.
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-ناچارکرا واز لە تەختی شاھانەیی ئیسپانیا بھێنێت٠
-                                    ''',
+                                    "ناچارکرا واز لە تەختی شاھانەیی ئیسپانیا بھێنێت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

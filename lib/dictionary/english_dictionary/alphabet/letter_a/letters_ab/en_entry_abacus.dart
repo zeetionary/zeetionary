@@ -145,8 +145,7 @@ class EnglishEntryAbacus extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''In ancient times, people relied on an abacus to perform mathematical calculations.
-                                    ''',
+                                    "In ancient times, people relied on an abacus to perform mathematical calculations.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -157,9 +156,7 @@ class EnglishEntryAbacus extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-لە سەردەمانی کۆندا خەڵکی پشتیان بە ژمێرکە دەبەست بۆ لێکدانەوە بیرکارییەکان
-                                    ''',
+                                    "لە سەردەمانی کۆندا خەڵکی پشتیان بە ژمێرکە دەبەست بۆ لێکدانەوە بیرکارییەکان",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

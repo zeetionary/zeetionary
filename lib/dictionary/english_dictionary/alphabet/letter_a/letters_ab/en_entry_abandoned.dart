@@ -171,7 +171,7 @@ The child was found abandoned but unharmed.
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-منداڵەکە بە جێھێڵدراوی دۆزرایەوە، بەڵام بێ زیان بوو
+منداڵەکە بە جێھێڵدراوی دۆزرایەوە، بەڵام بێ زیان بوو٠
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
@@ -216,7 +216,7 @@ There was an abandoned supermarket trolley in the middle of the road.
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     '''
-گالیسکەیەکی جێھێڵدراوی سوپەرمارکێتێک لە ناوەڕاتی شەقامەکە بوو
+گالیسکەیەکی جێھێڵدراوی سوپەرمارکێتێک لە ناوەڕاتی شەقامەکە بوو٠
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction

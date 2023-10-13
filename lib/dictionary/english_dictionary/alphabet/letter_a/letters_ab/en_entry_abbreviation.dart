@@ -148,9 +148,7 @@ class EnglishEntryabbreviation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-What's the abbreviation for this word?
-                                    ''',
+                                    "What's the abbreviation for this word?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -161,9 +159,7 @@ What's the abbreviation for this word?
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    '''
-کورتکراوەی ئەم وشەیە چییە؟
-                                    ''',
+                                    "کورتکراوەی ئەم وشەیە چییە؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

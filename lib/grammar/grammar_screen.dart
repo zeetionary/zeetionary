@@ -48,17 +48,20 @@ class _GrammarScreenState extends State<GrammarScreen> {
         children: [
           Padding(
             padding: const EdgeInsets.all(16.0),
-            child: TextField(
-              controller: _searchController,
-              onChanged: filtersubjects,
-              decoration: InputDecoration(
-                labelText: 'Search a grammar subject',
-                prefixIcon: const Icon(Icons.search),
-                suffixIcon: IconButton(
-                  icon: const Icon(Icons.clear),
-                  onPressed: clearSearch,
+            child: SizedBox(
+              height: 50,
+              child: TextField(
+                controller: _searchController,
+                onChanged: filtersubjects,
+                decoration: InputDecoration(
+                  labelText: 'Search here',
+                  prefixIcon: const Icon(Icons.search),
+                  suffixIcon: IconButton(
+                    icon: const Icon(Icons.clear),
+                    onPressed: clearSearch,
+                  ),
+                  border: const OutlineInputBorder(),
                 ),
-                border: const OutlineInputBorder(),
               ),
             ),
           ),

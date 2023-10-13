@@ -50,17 +50,20 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
                 TextDirection.rtl, // Set the text direction to right-to-left
             child: Padding(
               padding: const EdgeInsets.all(16.0),
-              child: TextField(
-                controller: _searchController,
-                onChanged: filterWords,
-                decoration: InputDecoration(
-                  labelText: 'لێرە بگەڕێ',
-                  prefixIcon: const Icon(Icons.search),
-                  suffixIcon: IconButton(
-                    icon: const Icon(Icons.clear),
-                    onPressed: clearSearch,
+              child: SizedBox(
+                height: 50,
+                child: TextField(
+                  controller: _searchController,
+                  onChanged: filterWords,
+                  decoration: InputDecoration(
+                    labelText: 'لێرە بگەڕێ',
+                    prefixIcon: const Icon(Icons.search),
+                    suffixIcon: IconButton(
+                      icon: const Icon(Icons.clear),
+                      onPressed: clearSearch,
+                    ),
+                    border: const OutlineInputBorder(),
                   ),
-                  border: const OutlineInputBorder(),
                 ),
               ),
             ),

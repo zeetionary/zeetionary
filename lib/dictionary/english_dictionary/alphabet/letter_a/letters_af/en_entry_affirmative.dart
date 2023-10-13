@@ -3,53 +3,52 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryaffirmation - replace speakAffirmation - replace affirmation - /ˌæfərˈmeɪʃn/ - find Dopsum2
+// replace these: replace EnglishEntryaffirmative - replace speakAffirmative - replace affirmative - /əˈfɜːrmətɪv/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryaffirmation extends StatelessWidget {
-  EnglishEntryaffirmation({Key? key}) : super(key: key);
+class EnglishEntryaffirmative extends StatelessWidget {
+  EnglishEntryaffirmative({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAffirmation(String languageCode) async {
-    // DOPSUM: CHANGE speakAffirmation
+  Future<void> speakAffirmative(String languageCode) async {
+    // DOPSUM: CHANGE speakAffirmative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("affirmation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("affirmative"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffirmat144(String languageCode) async {
-    // DOPSUM: CHANGE speakAffirmation
+  Future<void> speakAffirm556(String languageCode) async {
+    // DOPSUM: CHANGE speakAffirmative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We welcome the government's affirmation of its intention to act."); // DOPSUM: CHANGE TEXT
+        "He gave an affirmative response to the question."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffir25(String languageCode) async {
-    // DOPSUM: CHANGE speakAffirmation
+  Future<void> speakAffirmat899(String languageCode) async {
+    // DOPSUM: CHANGE speakAffirmative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Some people need frequent affirmations of love from their partners."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She answered in the affirmative."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAff677(String languageCode) async {
-    // DOPSUM: CHANGE speakAffirmation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The children were constantly looking for affirmation from their parents."); // DOPSUM: CHANGE TEXT
-  }
+  // Future<void> speakAffirmative(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAffirmative
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("affirmative"); // DOPSUM: CHANGE TEXT
+  // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: YoutubeEmbeddedone
+      length: 10, // 2 + VIDEOS FIND: YoutubeEmbeddedone
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -69,7 +68,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "affirmation", // DOPSUM: CHANGE WORD ENTRY - Find /ˌæfəˈmeɪʃn/
+                              "affirmative", // DOPSUM: CHANGE WORD ENTRY - Find /əˈfɜːmətɪv/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -85,7 +84,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /ˌæfəˈmeɪʃn/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əˈfɜːmətɪv/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -94,7 +93,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAffirmation(
+                              onPressed: () => speakAffirmative(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -103,7 +102,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /ˌæfərˈmeɪʃn/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /əˈfɜːrmətɪv/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -112,7 +111,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAffirmation(
+                              onPressed: () => speakAffirmative(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -135,8 +134,8 @@ class EnglishEntryaffirmation extends StatelessWidget {
                   VideoIconForTab(), // FIND: 2,
                   VideoIconForTab(),
                   VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -162,9 +161,9 @@ class EnglishEntryaffirmation extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: سەلماندن، پەسندکردن، چەسپاندن، مۆرکردن، پتەواندن، بەڕاست‌دانان، پشت‌ڕاست‌کردنەوە
+کوردی: (لۆژیک) ئەرێنی، ئەرێتی، پۆزیتیڤ، وەڵامی ئەرێنی یا ئەرێ
 
-١. (ھاوەڵناو) بە فەرمی ڕاگەیاندنی ئەوەی شتێک ڕاستە، یان ئەوەی کە پشتگیری شتێک بە تەواوی دەکەیت''',
+١. (ھاوەڵناو) وەڵامێکی ئەرێنی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -174,7 +173,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "We welcome the government's affirmation of its intention to act.",
+                                    "He gave an affirmative response to the question.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -185,7 +184,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێویستیمان بە پشتڕاستکردنەوەی حکومەتە کە نیازی ھەیە ھەنگاو بنێت٠.",
+                                    "وەڵامێکی ئەرێنی دا بە پرسیارەکە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -197,7 +196,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAffirmat144("en-GB"),
+                                onPressed: () => speakAffirm556("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -205,51 +204,8 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAffirmat144(
-                                    // REPLACE: affirmation /ˌæfərˈmeɪʃn/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Some people need frequent affirmations of love from their partners.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەندێک کەس ماوە ماوە پێویستیان بە سەلماندنی خۆشەویستی لە ھاوسەرەکانیانەوە ھەیە٠",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAffir25("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAffir25(
-                                    // REPLACE: affirmation /ˌæfərˈmeɪʃn/
+                                onPressed: () => speakAffirm556(
+                                    // REPLACE: affirmative /əˈfɜːrmətɪv/
                                     "en-US"),
                               ),
                             ],
@@ -257,7 +213,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. (ھاوەڵناو) پشتیوانی سۆزداری''',
+٢. (ناو) وشەیەک کە واتای بەڵێ دەدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -267,7 +223,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The children were constantly looking for affirmation from their parents.",
+                                    "She answered in the affirmative (= said ‘yes’).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -278,7 +234,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵەکان بەردەوام داوای ھەست و سۆزی دایک و باوکیان دەکرد٠",
+                                    "بە بەڵێ وەڵامی داوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -290,7 +246,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAff677("en-GB"),
+                                onPressed: () => speakAffirmat899("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -298,8 +254,8 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAff677(
-                                    // REPLACE: affirmation /ˌæfərˈmeɪʃn/
+                                onPressed: () => speakAffirmat899(
+                                    // REPLACE: affirmative /əˈfɜːrmətɪv/
                                     "en-US"),
                               ),
                             ],
@@ -315,8 +271,8 @@ class EnglishEntryaffirmation extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -348,14 +304,19 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: affirmation (Derived forms: affirmations)
-1. A statement asserting the existence or the truth of something (= avowal, avouchment)
+- Adjective: affirmative
+1. Hopeful about the future (= optimistic)
+"an affirmative outlook";
  
-2. The act of affirming, asserting or stating something (= assertion, statement)
+2. Expressing or manifesting praise or approval (= approving, approbative, approbatory, plausive)
+"an affirmative nod";
  
-3. (religion) a solemn declaration that serves the same purpose as an oath (if an oath is objectionable to the person on religious or ethical grounds)
- 
-4. (law) a judgment by a higher court that the judgment of a lower court was correct and should stand
+3. Affirming or giving assent (= affirmatory)
+"affirmative votes"; "an affirmative decision";
+
+- Noun: affirmative (Derived forms: affirmatives)
+1. A 'yes' reply, a reply of affirmation
+"he answered in the affirmative"
 '''),
         ],
       ),
@@ -366,7 +327,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'aWt8s2FD2U8';
+  static String myVideoId = 'zm5QVcTI2I8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -374,7 +335,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 271, // DOPSUM: CHANGE IT
+      startAt: 9, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -393,7 +354,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'YeOfcpyE2Fo';
+  static String myVideoId = '1Hyx4a0Se7U';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -401,7 +362,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 7, // DOPSUM: CHANGE IT
+      startAt: 15, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -420,7 +381,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'OL1dSEmOmBY';
+  static String myVideoId = 'hd2qtQuGDts';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -428,7 +389,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 90, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -447,7 +408,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = '3uOadcGI1oQ';
+  static String myVideoId = 'wJa5Ch0O4BI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -455,7 +416,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 145, // DOPSUM: CHANGE IT
+      startAt: 3014, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -474,7 +435,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'RMY3VD2pEmU';
+  static String myVideoId = 'dGpJRvawgNI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -482,7 +443,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1003, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -501,7 +462,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'aDMjgOYOcDw';
+  static String myVideoId = 'pa-Z5QCZQNg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -509,7 +470,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1919, // DOPSUM: CHANGE IT
+      startAt: 211, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -528,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = '7mHeY1B5Xzk';
+  static String myVideoId = 'GSWip28CWs8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -536,7 +497,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 75, // DOPSUM: CHANGE IT
+      startAt: 463, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -555,7 +516,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'yo1pJ_D-H3M';
+  static String myVideoId = 'eJ-WJssJgdg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -563,66 +524,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 44, // DOPSUM: CHANGE IT
+      startAt: 2002, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedeight({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = '48I21gisf5s';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 738, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddednine({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'vVPk5lRHQGc';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 603, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedten({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

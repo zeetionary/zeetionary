@@ -340,6 +340,9 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affinity.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affirm.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affirmation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affirmative.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affix.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afflict.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -692,6 +695,9 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "affinity",
     "affirm",
     "affirmation",
+    "affirmative",
+    "affix",
+    "afflict",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -730,17 +736,20 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
         children: [
           Padding(
             padding: const EdgeInsets.all(16.0),
-            child: TextField(
-              controller: _searchController,
-              onChanged: filterWords,
-              decoration: InputDecoration(
-                labelText: 'Search here',
-                prefixIcon: const Icon(Icons.search),
-                suffixIcon: IconButton(
-                  icon: const Icon(Icons.clear),
-                  onPressed: clearSearch,
+            child: SizedBox(
+              height: 50,
+              child: TextField(
+                controller: _searchController,
+                onChanged: filterWords,
+                decoration: InputDecoration(
+                  labelText: 'Search here',
+                  prefixIcon: const Icon(Icons.search),
+                  suffixIcon: IconButton(
+                    icon: const Icon(Icons.clear),
+                    onPressed: clearSearch,
+                  ),
+                  border: const OutlineInputBorder(),
                 ),
-                border: const OutlineInputBorder(),
               ),
             ),
           ),
@@ -3125,6 +3134,27 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryaffirmation(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "affirmative") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaffirmative(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "affix") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaffix(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "affix") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaffix(),
                     ),
                   );
                 }

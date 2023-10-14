@@ -137,7 +137,7 @@ class EnglishEntryAbate extends StatelessWidget {
                             '''
 کوردی: دامرکان، داکوژان، ئارام‌گرتن
 
-١. (کردار) لەدەستدانی هێز و لاوازبوون''',
+١. (کردار) لەدەستدانی ھێز و لاوازبوون''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -158,7 +158,7 @@ class EnglishEntryAbate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زریانەکە هیچ ئاماژەیەکی دامرکانی پیشان نەدەدا",
+                                    "زریانەکە ھیچ ئاماژەیەکی دامرکانی پیشان نەدەدا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

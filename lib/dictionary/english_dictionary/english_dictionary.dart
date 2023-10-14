@@ -349,6 +349,10 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affront.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afloat.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afoot.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_aforementioned.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afraid.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afresh.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_after.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/letters_fa/en_entry_far_afield.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/letters_fr/en_entry_from_afar.dart';
 
@@ -713,6 +717,10 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "affront",
     "afloat",
     "afoot",
+    "aforementioned",
+    "afraid",
+    "afresh",
+    "after",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -3220,6 +3228,34 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryafoot(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aforementioned") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaforementioned(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "afraid") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryafraid(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "afresh") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryafresh(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "after") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryafter(),
                     ),
                   );
                 }

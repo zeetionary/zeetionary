@@ -3,34 +3,51 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: EnglishEntryabdominal - speakAbdominal - /æbˈdɒmɪnl/ - abdominal
+// replace these: replace EnglishEntryaforementioned - replace speakAforementioned - replace aforementioned - /əˈfɔːmenʃənd/,  /əˌfɔːˈmenʃənd/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryabdominal extends StatelessWidget {
-  EnglishEntryabdominal({Key? key}) : super(key: key);
+class EnglishEntryaforementioned extends StatelessWidget {
+  EnglishEntryaforementioned({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbdominal(String languageCode) async {
-    // DOPSUM: CHANGE speakAbdominal
+  Future<void> speakAforementioned(String languageCode) async {
+    // DOPSUM: CHANGE speakAforementioned
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abdominal"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aforementioned"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAbdo5536(String languageCode) async {
-    // DOPSUM: CHANGE speakAbdominal
+  Future<void> speakAforemen96(String languageCode) async {
+    // DOPSUM: CHANGE speakAforementioned
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abdominal pains"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The aforementioned person was seen acting suspiciously."); // DOPSUM: CHANGE TEXT
   }
+
+  // Future<void> speakAforementioned(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAforementioned
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("aforementioned"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAforementioned(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAforementioned
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("aforementioned"); // DOPSUM: CHANGE TEXT
+  // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 6,
+      length: 10, // 2 + VIDEOS FIND: YoutubeEmbeddedone
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -50,7 +67,7 @@ class EnglishEntryabdominal extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'abdominal', // DOPSUM: CHANGE WORD ENTRY
+                              "aforementioned", // DOPSUM: CHANGE WORD ENTRY - Find /əˈfɔːmenʃənd/,  /əˌfɔːˈmenʃənd/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -66,7 +83,7 @@ class EnglishEntryabdominal extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /æbˈdɒmɪnl/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əˈfɔːmenʃənd/,  /əˌfɔːˈmenʃənd/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -75,7 +92,7 @@ class EnglishEntryabdominal extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAbdominal(
+                              onPressed: () => speakAforementioned(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -84,7 +101,7 @@ class EnglishEntryabdominal extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /æbˈdɑːmɪnl/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              'IpaUS: /əˈfɔːrmenʃənd/,  /əˌfɔːˈrmenʃənd/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -93,7 +110,7 @@ class EnglishEntryabdominal extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAbdominal(
+                              onPressed: () => speakAforementioned(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -112,6 +129,15 @@ class EnglishEntryabdominal extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(), // FIND: 2,
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                 ],
@@ -134,9 +160,9 @@ class EnglishEntryabdominal extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: زگی، سگی، ورگی، ناوزگ، ماسوولکەکانی زگ، کۆمەڵە ماسوولکەی سگ
+کوردی: ناوبراو، نێودێرکراو، لەوەپێش‌گوتراو، باس‌کراو، لەسەرۆھاتوو
 
-١. (ھاوەڵناو) پەیوەندیدار بە سک''',
+١. (ھاوەڵناو) کەسێک یان شتێک کە پێشتر باسکراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -146,21 +172,21 @@ class EnglishEntryabdominal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "abdominal pains",
+                                    "The aforementioned person was seen acting suspiciously.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const SizedBox(
-                                width: 50,
-                              ),
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سک ئێشە",
+                                    "ناوبراو بینرا کە بە گومانەوە ڕەفتاری دەکرد",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -172,7 +198,7 @@ class EnglishEntryabdominal extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAbdo5536("en-GB"),
+                                onPressed: () => speakAforemen96("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -180,19 +206,30 @@ class EnglishEntryabdominal extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAbdo5536("en-US"),
+                                onPressed: () => speakAforemen96(
+                                    // REPLACE: aforementioned /əˈfɔːmenʃənd/,  /əˌfɔːˈmenʃənd/
+                                    "en-US"),
                               ),
                             ],
                           ),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedOne(), // DOPSUM: FROM YOUTUBE BELOW
-                    YoutubeEmbeddedTwo(),
-                    YoutubeEmbeddedThree(),
-                    YoutubeEmbeddedFour(),
-                    // YoutubeEmbeddedFive(),
-                    // YoutubeEmbeddedSix()
+                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedtwo(),
+                    YoutubeEmbeddedthree(),
+                    YoutubeEmbeddedfour(),
+                    YoutubeEmbeddedfive(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedeight(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedthirteen(),
+                    // YoutubeEmbeddedfourteen(),
+                    // YoutubeEmbeddedfifteen(),
                   ],
                 ),
               ),
@@ -219,12 +256,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: abdominal (plural: abdominals)
-1. Of or relating to or near the abdomen
-"abdominal muscles"
-
-- Noun: abdominal  ub'dóm(-u)-nul
-2۔ The muscles of the abdomen (=abdominal muscle, ab)
+- Adjective: aforementioned 
+1. Being the one previously mentioned or spoken of (= aforesaid, said, aforenamed)
+"works of all the aforementioned authors";
 '''),
         ],
       ),
@@ -234,8 +268,8 @@ class EnglishMeaning extends StatelessWidget {
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
-class YoutubeEmbeddedOne extends StatelessWidget {
-  static String myVideoId = 'UT7ZoZmtfJA';
+class YoutubeEmbeddedone extends StatelessWidget {
+  static String myVideoId = 'oD9BaNAH-eE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -243,12 +277,12 @@ class YoutubeEmbeddedOne extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 63, // DOPSUM: CHANGE IT
+      startAt: 299, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
-  YoutubeEmbeddedOne({Key? key}) : super(key: key);
+  YoutubeEmbeddedone({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -261,8 +295,8 @@ class YoutubeEmbeddedOne extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedTwo extends StatelessWidget {
-  static String myVideoId = 'bsDUzpLXdAg';
+class YoutubeEmbeddedtwo extends StatelessWidget {
+  static String myVideoId = 'khOUvmOQExc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -270,12 +304,12 @@ class YoutubeEmbeddedTwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 629, // DOPSUM: CHANGE IT
+      startAt: 171, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
-  YoutubeEmbeddedTwo({Key? key}) : super(key: key);
+  YoutubeEmbeddedtwo({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -288,8 +322,8 @@ class YoutubeEmbeddedTwo extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedThree extends StatelessWidget {
-  static String myVideoId = 'bggKYpX4pdU';
+class YoutubeEmbeddedthree extends StatelessWidget {
+  static String myVideoId = '0ST4_hmop9Y';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -297,12 +331,12 @@ class YoutubeEmbeddedThree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 784, // DOPSUM: CHANGE IT
+      startAt: 233, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
-  YoutubeEmbeddedThree({Key? key}) : super(key: key);
+  YoutubeEmbeddedthree({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -315,8 +349,8 @@ class YoutubeEmbeddedThree extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedFour extends StatelessWidget {
-  static String myVideoId = 'rU7fkv0UTPg';
+class YoutubeEmbeddedfour extends StatelessWidget {
+  static String myVideoId = 'WtAoc3_1Ido';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -324,12 +358,120 @@ class YoutubeEmbeddedFour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 39, // DOPSUM: CHANGE IT
+      startAt: 265, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
-  YoutubeEmbeddedFour({Key? key}) : super(key: key);
+  YoutubeEmbeddedfour({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  static String myVideoId = 'JcpboMScfIY';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 1377, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedfive({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  static String myVideoId = 'T8uc3NzU7J4';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 932, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedsix({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  static String myVideoId = 'P1HiB84S4UI';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 1329, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedseven({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  static String myVideoId = 'IQ3F2_7TazA';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 605, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedeight({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

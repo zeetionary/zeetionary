@@ -153,9 +153,9 @@ class EnglishEntryable extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: توانا، بەتوانا، توانادار، خورت، لێوەشاو، لێهاتوو، بەکارهاتوو، ژێهاتی، شارەزا
+کوردی: توانا، بەتوانا، توانادار، خورت، لێوەشاو، لێھاتوو، بەکارھاتوو، ژێھاتی، شارەزا
 
-١. (ھاوەڵناو) هەبوونی بەهرەمەندی، زانیاری، یان شارەزایی بۆ ئەنجامدانی کارێک''',
+١. (ھاوەڵناو) ھەبوونی بەھرەمەندی، زانیاری، یان شارەزایی بۆ ئەنجامدانی کارێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -217,7 +217,7 @@ class EnglishEntryable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هێشتا دەتوانین ڤیزا وەربگرین بۆ ئەوەی هاتووچۆی تایلەند بکەین",
+                                    "ھێشتا دەتوانین ڤیزا وەربگرین بۆ ئەوەی ھاتووچۆی تایلەند بکەین",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -258,7 +258,7 @@ class EnglishEntryable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئامادەیت و توانات هەیە هەرچی بکەیت کە پێویست بێت؟",
+                                    "ئامادەیت و توانات ھەیە ھەرچی بکەیت کە پێویست بێت؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

@@ -353,6 +353,9 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afraid.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afresh.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_after.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_aftereffect.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_aftermath.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afterthought.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/letters_fa/en_entry_far_afield.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/letters_fr/en_entry_from_afar.dart';
 
@@ -721,6 +724,9 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "afraid",
     "afresh",
     "after",
+    "aftereffect",
+    "aftermath",
+    "afterthought",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -3256,6 +3262,27 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryafter(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aftereffect") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaftereffect(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aftermath") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaftermath(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "afterthought") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryafterthought(),
                     ),
                   );
                 }

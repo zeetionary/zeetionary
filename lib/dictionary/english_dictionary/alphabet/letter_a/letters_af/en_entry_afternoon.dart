@@ -3,51 +3,52 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryfarafield - replace speakFarafield - replace afield - /fɑː(r) əˈfiːld/ - find Dopsum2
+// replace these: replace EnglishEntryafternoon - replace speakAfternoon - replace afternoon - /ˌɑːftəˈnuːn/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryfarafield extends StatelessWidget {
-  EnglishEntryfarafield({Key? key}) : super(key: key);
+class EnglishEntryafternoon extends StatelessWidget {
+  EnglishEntryafternoon({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakFarafield(String languageCode) async {
-    // DOPSUM: CHANGE speakFarafield
+  Future<void> speakAfternoon(String languageCode) async {
+    // DOPSUM: CHANGE speakAfternoon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("far afield"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("afternoon"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakFaraf45228(String languageCode) async {
-    // DOPSUM: CHANGE speakFarafield
+  Future<void> speakAftern6288(String languageCode) async {
+    // DOPSUM: CHANGE speakAfternoon
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We export our products to countries as far afield as Japan and Canada."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("In the afternoon, they went shopping."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakFarafield(String languageCode) async {
-  //   // DOPSUM: CHANGE speakFarafield
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("far afield"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAftern481(String languageCode) async {
+    // DOPSUM: CHANGE speakAfternoon
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Come over on Sunday afternoon."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakFarafield(String languageCode) async {
-  //   // DOPSUM: CHANGE speakFarafield
+  // Future<void> speakAfternoon(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAfternoon
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("far afield"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("afternoon"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 10, // 2 + VIDEOS FIND: YoutubeEmbeddedone
+      length: 11, // 2 + VIDEOS FIND: YoutubeEmbeddedone
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -67,7 +68,7 @@ class EnglishEntryfarafield extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "far afield (or farther/further afield)", // DOPSUM: CHANGE WORD ENTRY - Find /fɑː(r) əˈfiːld/
+                              "afternoon", // DOPSUM: CHANGE WORD ENTRY - Find /ˌɑːftəˈnuːn/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -83,7 +84,7 @@ class EnglishEntryfarafield extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /fɑː(r) əˈfiːld/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /ˌɑːftəˈnuːn/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -92,7 +93,7 @@ class EnglishEntryfarafield extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakFarafield(
+                              onPressed: () => speakAfternoon(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -101,7 +102,7 @@ class EnglishEntryfarafield extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /fɑːr əˈfiːld/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /ˌɑːftərˈnuːn/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -110,7 +111,7 @@ class EnglishEntryfarafield extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakFarafield(
+                              onPressed: () => speakAfternoon(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -133,7 +134,7 @@ class EnglishEntryfarafield extends StatelessWidget {
                   VideoIconForTab(), // FIND: 2,
                   VideoIconForTab(),
                   VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -160,9 +161,9 @@ class EnglishEntryfarafield extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: لە دەشت، دوور، دوور لە، لە دوورەوە، لە ڕێگای دوورەوە، دوورەدەست، چەپەک، دوور لە نیشتیمان
+کوردی: پاش‌نێوەڕۆ، دوانیوەڕۆ، ئێوارە، نێوەڕۆ، عەسر
 
-١. (ئیدیەم) لە دوورییەکی زۆرەوە''',
+١. (ناو) ناوەڕاستی ڕۆژ، لە کاتژمێر ١٢ی دوای نیوەڕۆ بۆ ٦ی ئێوارە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -172,18 +173,21 @@ class EnglishEntryfarafield extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "We export our products to countries as far afield as Japan and Canada.",
+                                    "In the afternoon, they went shopping.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەرھەمەکانمان ھەناردە ئەکەین بۆ وڵاتانی دووری وەک ژاپۆن و کەنەدا",
+                                    "لە نیوەڕواندا دەچوون بۆ بازاڕ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -195,7 +199,7 @@ class EnglishEntryfarafield extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakFaraf45228("en-GB"),
+                                onPressed: () => speakAftern6288("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -203,8 +207,54 @@ class EnglishEntryfarafield extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakFaraf45228(
-                                    // REPLACE: afield /fɑːr əˈfiːld/
+                                onPressed: () => speakAftern6288(
+                                    // REPLACE: afternoon /ˌɑːftəˈnuːn/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Come over on Sunday afternoon.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "نیوەڕۆی یەکشەمە وەرە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAftern481("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAftern481(
+                                    // REPLACE: afternoon /ˌɑːftəˈnuːn/
                                     "en-US"),
                               ),
                             ],
@@ -220,7 +270,7 @@ class EnglishEntryfarafield extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
+                    YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
@@ -253,15 +303,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adverb: afield 
-1. Faraway from home or one's usual surroundings (= abroad)
-"looking afield for new lands to conquer";
+- Noun: afternoon (Derived forms: afternoons)
+1. The part of the day between noon and evening (= arvo [Austral, NZ, informal])
+"he spent a quiet afternoon in the park";
  
-2. In or into a field (especially a field of battle)
-"the armies were afield, challenging the enemy's advance"; "unlawful to carry hunting rifles afield until the season opens"
- 
-3. Off the subject; beyond the point at issue
-"such digressions can lead us too far afield"
+2. A conventional expression of greeting or farewell, used to wish someone a good afternoon (= good afternoon)
 '''),
         ],
       ),
@@ -272,7 +318,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'KB0kltHtnBA';
+  static String myVideoId = 'JkLsDxOQS94';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -280,7 +326,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 68, // DOPSUM: CHANGE IT
+      startAt: 9, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -299,7 +345,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'EMXnJMCoFYI';
+  static String myVideoId = 'wu95JPidByY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -307,7 +353,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 788, // DOPSUM: CHANGE IT
+      startAt: 12, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -326,7 +372,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'JR-8PZ_nCvE';
+  static String myVideoId = 'xv7ZgQjMn_c';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -334,7 +380,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 352, // DOPSUM: CHANGE IT
+      startAt: 3132, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -353,7 +399,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'cQWlnTyOSig';
+  static String myVideoId = '5qCSRzLM2iA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -361,7 +407,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 305, // DOPSUM: CHANGE IT
+      startAt: 12, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -380,7 +426,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'gX0xVhbDzKs';
+  static String myVideoId = 'EAk3tO0-ZBI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -388,7 +434,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1075, // DOPSUM: CHANGE IT
+      startAt: 1039, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -407,7 +453,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'uNm0d7-OLKY';
+  static String myVideoId = 'T0ohllmyiE0';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -415,7 +461,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1364, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -434,7 +480,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'UuygDcFw_k4';
+  static String myVideoId = 'AvO2u9WUrxE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -442,7 +488,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 213, // DOPSUM: CHANGE IT
+      startAt: 63, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -461,7 +507,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'LFlKbx9NZKg';
+  static String myVideoId = 'fp_SFKaU8sw';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -469,12 +515,39 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 347, // DOPSUM: CHANGE IT
+      startAt: 1576, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedeight({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddednine extends StatelessWidget {
+  static String myVideoId = 'qIlkMuiGZEg';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 102, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddednine({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

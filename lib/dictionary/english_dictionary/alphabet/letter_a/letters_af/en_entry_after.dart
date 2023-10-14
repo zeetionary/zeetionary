@@ -455,7 +455,7 @@ class EnglishEntryafter extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەدوای ڕیچارد ئەو درێژترینە",
+                                    "لەدوای ڕیچارد ئەو بەرزترینە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -614,7 +614,7 @@ class EnglishEntryafter extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەرگیز لێی خۆشنابم لەدوای ئەوەی کردی",
+                                    "ھەرگیز لێی خۆشنابم لەدوای ئەوەی وتی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

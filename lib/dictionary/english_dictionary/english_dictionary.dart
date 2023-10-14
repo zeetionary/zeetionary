@@ -355,9 +355,24 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_after.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_aftereffect.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_aftermath.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afternoon.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afterwards.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_again.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/letters_co/en_entry_come_of_age.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afterthought.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_against.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_age.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aged.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_age_group.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_ageing.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_ageism.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_ageist.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_age_limit.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_age_old.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agency.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/letters_fa/en_entry_far_afield.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/letters_fr/en_entry_from_afar.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_u/letters_un/en_entry_under_age.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -726,13 +741,28 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "after",
     "aftereffect",
     "aftermath",
+    "afternoon",
     "afterthought",
+    "afterwards",
+    "again",
+    "against",
+    "age",
+    "aged",
+    "age group",
+    "ageing",
+    "ageism",
+    "ageist",
+    "agency",
+    "age limit",
+    "age-old",
     "dopsum",
     "dopsum",
     "dopsum",
     "dopsum",
+    "come of age",
     "far afield",
     "from afar",
+    "under age",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -3279,10 +3309,115 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     ),
                   );
                 }
+                if (wordsEnglish == "afternoon") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryafternoon(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "afterwards") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryafterwards(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "again") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryagain(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "come of age") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntrycomeofage(),
+                    ),
+                  );
+                }
                 if (wordsEnglish == "afterthought") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryafterthought(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "against") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryagainst(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "age") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryage(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aged") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaged(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "age group") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryagegroup(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "ageing") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryageing(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "ageism") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryageism(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "ageist") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryageist(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "age limit") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryagelimit(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "age-old") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryageold(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "agency") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryagency(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "under age") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryunderage(),
                     ),
                   );
                 }

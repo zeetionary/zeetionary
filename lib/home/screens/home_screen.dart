@@ -32,6 +32,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
+        scrolledUnderElevation: 0,
         title: const ZeetionaryAppbar(),
         leading: Builder(builder: (context) {
           return IconButton(
@@ -83,8 +84,8 @@ class ZeetionaryAppbar extends StatelessWidget {
       shaderCallback: (Rect bounds) {
         return const LinearGradient(
           colors: [
-            Color.fromARGB(255, 156, 169, 232),
-            Color.fromARGB(255, 207, 70, 70)
+            Color.fromARGB(255, 142, 154, 215),
+            Color.fromARGB(255, 219, 84, 84)
           ], // Define your gradient colors here
           tileMode: TileMode.clamp,
         ).createShader(bounds);

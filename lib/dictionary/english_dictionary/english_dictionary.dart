@@ -370,6 +370,11 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_age_limit.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_age_old.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agency.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agenda.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agent.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aggravate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aggravation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aggregate.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/letters_fa/en_entry_far_afield.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/letters_fr/en_entry_from_afar.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_u/letters_un/en_entry_under_age.dart';
@@ -752,8 +757,13 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "ageing",
     "ageism",
     "ageist",
-    "agency",
     "age limit",
+    "agency",
+    "agenda",
+    "agent",
+    "aggravate",
+    "aggravation",
+    "aggregate",
     "age-old",
     "dopsum",
     "dopsum",
@@ -3411,6 +3421,41 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryagency(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "agenda") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryagenda(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "agent") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryagent(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aggravate") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaggravate(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aggravation") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaggravation(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aggregate") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaggregate(),
                     ),
                   );
                 }

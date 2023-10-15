@@ -3,52 +3,52 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryadhere - replace speakAdhere - replace adhere - /ədˈhɪr/ - find Dopsum2
+// replace these: replace EnglishEntryaggravate - replace speakAggravate - replace aggravate - /ˈæɡrəveɪt/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryadhere extends StatelessWidget {
-  EnglishEntryadhere({Key? key}) : super(key: key);
+class EnglishEntryaggravate extends StatelessWidget {
+  EnglishEntryaggravate({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdhere(String languageCode) async {
-    // DOPSUM: CHANGE speakAdhere
+  Future<void> speakAggravate(String languageCode) async {
+    // DOPSUM: CHANGE speakAggravate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adhere"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aggravate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdhe55661(String languageCode) async {
-    // DOPSUM: CHANGE speakAdhere
+  Future<void> speakAggrav25189(String languageCode) async {
+    // DOPSUM: CHANGE speakAggravate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Pollution can aggravate asthma."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAggrav3744(String languageCode) async {
+    // DOPSUM: CHANGE speakAggravate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Clean the surface first, or the paint will not adhere."); // DOPSUM: CHANGE TEXT
+        "Military intervention will only aggravate the conflict even further."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdhe2537(String languageCode) async {
-    // DOPSUM: CHANGE speakAdhere
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Once in the bloodstream, the bacteria adhere to the surface of the red cells."); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakAdhere(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdhere
+  // Future<void> speakAggravate(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAggravate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adhere"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aggravate"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 8, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 10, // 2 + VIDEOS FIND: YoutubeEmbeddedone
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -68,7 +68,7 @@ class EnglishEntryadhere extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "adhere", // DOPSUM: CHANGE WORD ENTRY - Find /ədˈhɪə(r)/
+                              "aggravate", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæɡrəveɪt/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -84,7 +84,7 @@ class EnglishEntryadhere extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /ədˈhɪə(r)/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /ˈæɡrəveɪt/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -93,16 +93,16 @@ class EnglishEntryadhere extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAdhere(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAggravate(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /ədˈhɪr/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /ˈæɡrəveɪt/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -111,7 +111,7 @@ class EnglishEntryadhere extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAdhere(
+                              onPressed: () => speakAggravate(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -132,8 +132,8 @@ class EnglishEntryadhere extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(), // FIND: 2,
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -161,7 +161,7 @@ class EnglishEntryadhere extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (کردار) لکان بە شتێکەوە''',
+١. (کردار) خراپترکردنی بارودۆخێکی خراپ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -171,18 +171,21 @@ class EnglishEntryadhere extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Clean the surface first, or the paint will not adhere.",
+                                    "Pollution can aggravate asthma.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەرەتا ڕووەکەی پاکبکەوە ئەگەرنا بۆیەکە پێوەی نالکێنێت",
+                                    "پیسبوونی ژینگە ڕبۆ توندتر دەکات",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -194,7 +197,7 @@ class EnglishEntryadhere extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdhe55661("en-GB"),
+                                onPressed: () => speakAggrav25189("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -202,9 +205,9 @@ class EnglishEntryadhere extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAdhe55661(// REPLACE: adhere /ədˈhɪr/
-                                        "en-US"),
+                                onPressed: () => speakAggrav25189(
+                                    // REPLACE: aggravate /ˈæɡrəveɪt/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -214,18 +217,21 @@ class EnglishEntryadhere extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Once in the bloodstream, the bacteria adhere to the surface of the red cells.",
+                                    "Military intervention will only aggravate the conflict even further.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەرکە بچێتە ناو سووڕی خوێن، بەکتریا دەلکێت بە خڕۆکە سوورەکانەوە",
+                                    "دەستوەردانی سەربازی تەنھا پێکدادانەکە ئاڵۆزتر دەکات",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -237,7 +243,7 @@ class EnglishEntryadhere extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdhe2537("en-GB"),
+                                onPressed: () => speakAggrav3744("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -245,9 +251,9 @@ class EnglishEntryadhere extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAdhe2537(// REPLACE: adhere /ədˈhɪr/
-                                        "en-US"),
+                                onPressed: () => speakAggrav3744(
+                                    // REPLACE: aggravate /ˈæɡrəveɪt/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -260,8 +266,8 @@ class EnglishEntryadhere extends StatelessWidget {
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    // YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
+                    YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
@@ -295,23 +301,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: adhere (Derived forms: adhered, adheres, adhering)
-1. Be compatible or in accordance with
-"You must adhere to the rules"
+- Verb: aggravate (Derived forms: aggravating, aggravates, aggravated)
+1. Make worse (= worsen, exacerbate, exasperate)
+"This drug aggravates the pain";
  
-2. Follow through or carry out a plan without deviation
-"They adhered to their plan"
- 
-3. Come or be in close contact with; stick or hold together and resist separation (= cling, cleave, stick, cohere)
-"The dress adheres to her body";
- 
-4. Be a devoted follower or supporter (= stick)
-"The residents of this village adhered to Catholicism";
- 
-5. Be loyal to (= stand by, stick by, stick)
- 
-6. Remain stuck to; keep in place (= hold fast, bond, bind, stick, stick to)
-"Will this wallpaper adhere to the wall?";
+2. Make very annoyed or frustrated (= exacerbate, exasperate)
 '''),
         ],
       ),
@@ -322,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'KLGSLCaksdY';
+  static String myVideoId = 'raHRPtIk6fU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -330,7 +324,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 285, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -349,7 +343,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'NGbFtTYQpus';
+  static String myVideoId = 'wCGYcj7xRVg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -357,7 +351,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 544, // DOPSUM: CHANGE IT
+      startAt: 88, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -376,7 +370,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'mVqgzW2V9OA';
+  static String myVideoId = '4fZ7OuZ5uyc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -384,7 +378,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 113, // DOPSUM: CHANGE IT
+      startAt: 35, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -403,7 +397,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'Y63dBBlHlSk';
+  static String myVideoId = 'uGv1xasBCmo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -411,7 +405,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 88, // DOPSUM: CHANGE IT
+      startAt: 224, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -430,7 +424,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '3J8_JM7Qiss';
+  static String myVideoId = 'TgGo1mjFJkY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -438,7 +432,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 790, // DOPSUM: CHANGE IT
+      startAt: 395, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -457,7 +451,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'sVnikEoeruU';
+  static String myVideoId = 'EjlQBJHnD2Y';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -465,12 +459,66 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1244, // DOPSUM: CHANGE IT
+      startAt: 51, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedsix({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  static String myVideoId = 'n2Tg-OmOztM';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 62, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedseven({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  static String myVideoId = 'uGtWnH7mQBQ';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 395, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedeight({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

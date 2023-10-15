@@ -19,13 +19,14 @@ class EnglishEntryacquiescence extends StatelessWidget {
     await flutterTts.speak("acquiescence"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcquiescence(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAcquiescence
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acquiescence"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAcquiesc2596(String languageCode) async {
+    // DOPSUM: CHANGE speakAcquiescence
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I must admit, your acquiescence surprised me."); // DOPSUM: CHANGE TEXT
+  }
 
   // Future<void> speakAcquiescence(String languageCode) async {
   //   // DOPSUM: CHANGE speakAcquiescence
@@ -194,7 +195,7 @@ class EnglishEntryacquiescence extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAcquiescence("en-GB"),
+                                onPressed: () => speakAcquiesc2596("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -202,7 +203,7 @@ class EnglishEntryacquiescence extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAcquiescence(
+                                onPressed: () => speakAcquiesc2596(
                                     "en-US"), // REPLACE acquiescence /ˌækwiˈesns/
                               ),
                             ],

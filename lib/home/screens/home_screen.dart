@@ -134,7 +134,6 @@ class ZeetionaryAppbar extends StatelessWidget {
   }
 }
 
-
 // onWillPop: () async {
 //         final shouldPop = await showDialog<bool>(
 //           context: context,

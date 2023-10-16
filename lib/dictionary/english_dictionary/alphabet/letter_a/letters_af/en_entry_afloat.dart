@@ -177,9 +177,9 @@ class EnglishEntryafloat extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: سەراوکەوتە، سواراو، لەسەرئاو، بەسەر ئاوەوە، لەسەراو، بە حەواوە، لە حەوادا، ڕۆییو، ڕۆیندە، لەجووڵەدا، باو، سەرزمان‌کەوتوو، لە دەریا (دا)، لەسەر کەشتی یان گەمی، پارەی تەواوی هەیە بۆ دانەوەی قەرزەکان
+کوردی: سەراوکەوتە، سواراو، لەسەرئاو، بەسەر ئاوەوە، لەسەراو، بە حەواوە، لە حەوادا، ڕۆییو، ڕۆیندە، لەجووڵەدا، باو، سەرزمان‌کەوتوو، لە دەریا (دا)، لەسەر کەشتی یان گەمی، پارەی تەواوی ھەیە بۆ دانەوەی قەرزەکان
 
-١. (هاوەڵناو) سەرئاوکەوتوو''',
+١. (ھاوەڵناو) سەرئاوکەوتوو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -200,7 +200,7 @@ class EnglishEntryafloat extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەقەلایان بوو بۆ ئەوەی بەلەمەکە سەراوکەوتە بهێڵنەوە",
+                                    "تەقەلایان بوو بۆ ئەوەی بەلەمەکە سەراوکەوتە بھێڵنەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -229,7 +229,7 @@ class EnglishEntryafloat extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (هاوەڵناو) هەبوونی بەشی پێویست پارە بۆ دانەوەی قەرزەکانی کۆمپانیایەک و توانای مانەوە''',
+٢. (ھاوەڵناو) ھەبوونی بەشی پێویست پارە بۆ دانەوەی قەرزەکانی کۆمپانیایەک و توانای مانەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

@@ -167,7 +167,7 @@ class EnglishEntryabsolutemajority extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێژەی ٢٨٠ کورسی پێویستن بۆ بردنەوەی زۆرینەی ڕەھا لە ئەەنجوومەنی نیشتیمانی",
+                                    "ڕێژەی ٢٨٠ کورسی پێویستن بۆ بردنەوەی زۆرینەی ڕەھا لە ئەنجوومەنی نیشتیمانی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

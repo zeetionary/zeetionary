@@ -25,7 +25,7 @@ class EnglishEntryadvise extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They advised me against visiting the troubled of the country."); // DOPSUM: CHANGE TEXT
+        "They advised me against visiting the south of the country."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAdvise259935(String languageCode) async {

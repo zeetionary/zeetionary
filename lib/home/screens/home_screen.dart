@@ -30,44 +30,76 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     // final user = ref.watch(userProvider)!;
     final currentTheme = ref.watch(themeNotifierProvider);
 
-    return Scaffold(
-      appBar: AppBar(
-        scrolledUnderElevation: 0,
-        title: const ZeetionaryAppbar(),
-        leading: Builder(builder: (context) {
-          return IconButton(
-            icon: const Icon(Icons.menu),
-            onPressed: () => displayDrawer(context),
-          );
-        }),
-      ),
-      body: Constants.tabWidgets[_page],
-      drawer: const CommunityListDrawer(),
-      bottomNavigationBar: CupertinoTabBar(
-        // activeColor: currentTheme.iconTheme.color,
-        backgroundColor: currentTheme.backgroundColor,
-        items: [
-          BottomNavigationBarItem(
-            icon: Image.asset(
-              'assets/images/uk_two.png',
+    return WillPopScope(
+      onWillPop: () async {
+        final shouldPop = await showDialog<bool>(
+          context: context,
+          builder: (context) {
+            return AlertDialog(
+              title: const Text('Exit'),
+              content: const Text('Are you sure you want to exit the app?'),
+              actions: [
+                TextButton(
+                  onPressed: () {
+                    Navigator.pop(context, true);
+                  },
+                  child: const Text('Yes'),
+                ),
+                TextButton(
+                  onPressed: () {
+                    Navigator.pop(context, false);
+                  },
+                  child: const Text(
+                    'No',
+                    style: TextStyle(color: Colors.red),
+                  ),
+                ),
+              ],
+            );
+          },
+        );
+        return shouldPop!;
+      },
+      child: Scaffold(
+        appBar: AppBar(
+          // centerTitle: true,
+          scrolledUnderElevation: 0,
+          title: const ZeetionaryAppbar(),
+          leading: Builder(builder: (context) {
+            return IconButton(
+              icon: const Icon(Icons.menu),
+              onPressed: () => displayDrawer(context),
+            );
+          }),
+        ),
+        body: Constants.tabWidgets[_page],
+        drawer: const CommunityListDrawer(),
+        bottomNavigationBar: CupertinoTabBar(
+          // activeColor: currentTheme.iconTheme.color,
+          backgroundColor: currentTheme.backgroundColor,
+          items: [
+            BottomNavigationBarItem(
+              icon: Image.asset(
+                'assets/images/uk_two.png',
+              ),
+              activeIcon: const Icon(Icons.home),
+              label: '',
             ),
-            activeIcon: const Icon(Icons.home),
-            label: '',
-          ),
-          BottomNavigationBarItem(
-            icon: Image.asset(
-              'assets/images/kurd_two.png',
+            BottomNavigationBarItem(
+              icon: Image.asset(
+                'assets/images/kurd_two.png',
+              ),
+              activeIcon: const Icon(Icons.home),
+              label: '',
             ),
-            activeIcon: const Icon(Icons.home),
-            label: '',
-          ),
-          const BottomNavigationBarItem(icon: Icon(Icons.book), label: ''),
-          const BottomNavigationBarItem(
-              icon: Icon(Icons.question_answer), label: ''),
-          const BottomNavigationBarItem(icon: Icon(Icons.quiz), label: ''),
-        ],
-        onTap: onPageChanged,
-        currentIndex: _page,
+            const BottomNavigationBarItem(icon: Icon(Icons.book), label: ''),
+            const BottomNavigationBarItem(
+                icon: Icon(Icons.question_answer), label: ''),
+            const BottomNavigationBarItem(icon: Icon(Icons.quiz), label: ''),
+          ],
+          onTap: onPageChanged,
+          currentIndex: _page,
+        ),
       ),
     );
   }
@@ -101,3 +133,34 @@ class ZeetionaryAppbar extends StatelessWidget {
     );
   }
 }
+
+
+// onWillPop: () async {
+//         final shouldPop = await showDialog<bool>(
+//           context: context,
+//           builder: (context) {
+//             return AlertDialog(
+//               title: const Text('Exit'),
+//               content: const Text('Are you sure you want to exit the app?'),
+//               actions: [
+//                 TextButton(
+//                   onPressed: () {
+//                     Navigator.pop(context, true);
+//                   },
+//                   child: const Text('Yes'),
+//                 ),
+//                 TextButton(
+//                   onPressed: () {
+//                     Navigator.pop(context, false);
+//                   },
+//                   child: const Text(
+//                     'No',
+//                     style: TextStyle(color: Colors.red),
+//                   ),
+//                 ),
+//               ],
+//             );
+//           },
+//         );
+//         return shouldPop!;
+//       },

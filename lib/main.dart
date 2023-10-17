@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:routemaster/routemaster.dart';
+import 'package:back_button_interceptor/back_button_interceptor.dart';
 
 import 'package:zeetionary/firebase/core/common/error_text.dart';
 import 'package:zeetionary/firebase/core/common/loader.dart';
@@ -48,9 +49,21 @@ class _MyAppState extends ConsumerState<MyApp> {
   }
 
   @override
+  void dispose() {
+    BackButtonInterceptor.remove(myInterceptor);
+    super.dispose();
+  }
+
+  bool myInterceptor(bool stopDefaultButtonEvent, RouteInfo info) {
+    print("BACK BUTTON!"); // Do some stuff.
+    return true;
+  }
+
+  @override
   void initState() {
     super.initState(); //initialize splash screen
     initialization();
+    BackButtonInterceptor.add(myInterceptor);
   }
 
   void initialization() async {

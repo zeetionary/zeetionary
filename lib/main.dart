@@ -80,10 +80,10 @@ class _MyAppState extends ConsumerState<MyApp> {
                 if (data != null) {
                   getData(ref, data);
                   if (userModel != null) {
-                    return loggedInRoute;
+                    return loggedInRoute; // send to home screen
                   }
                 }
-                return loggedOutRoute;
+                return loggedOutRoute; // send to login
               },
             ),
             routeInformationParser: const RoutemasterParser(),

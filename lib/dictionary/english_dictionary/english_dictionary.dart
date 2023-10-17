@@ -384,6 +384,10 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aggrieved.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aghast.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agile.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agility.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aging.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agitate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agitation.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/letters_fa/en_entry_far_afield.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/letters_fr/en_entry_from_afar.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_u/letters_un/en_entry_under_age.dart';
@@ -770,6 +774,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "agency",
     "agenda",
     "agent",
+    "age-old",
     "aggravate",
     "aggravation",
     "aggregate",
@@ -781,7 +786,10 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "aggrieved",
     "aghast",
     "agile",
-    "age-old",
+    "agility",
+    "aging",
+    "agitate",
+    "agitation",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -3529,6 +3537,34 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) => EnglishEntryagile(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "agility") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryagility(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "aging") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryaging(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "agitate") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryagitate(),
+                    ),
+                  );
+                }
+                if (wordsEnglish == "agitation") {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => EnglishEntryagitation(),
                     ),
                   );
                 }

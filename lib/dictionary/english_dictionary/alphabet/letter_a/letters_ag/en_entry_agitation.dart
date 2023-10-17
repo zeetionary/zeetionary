@@ -3,70 +3,50 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryaffect - replace speakAffect - replace affect - /əˈfekt/ - find Dopsum2
+// replace these: replace EnglishEntryagitation - replace speakDopsum - replace Dopsum1 - /haʊ/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryaffect extends StatelessWidget {
-  EnglishEntryaffect({Key? key}) : super(key: key);
+class EnglishEntryagitation extends StatelessWidget {
+  EnglishEntryagitation({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAffect(String languageCode) async {
-    // DOPSUM: CHANGE speakAffect
+  Future<void> speakDopsum(String languageCode) async {
+    // DOPSUM: CHANGE speakDopsum
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("affect"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffe5699(String languageCode) async {
-    // DOPSUM: CHANGE speakAffect
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The article deals with issues affecting the lives of children."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAffe741(String languageCode) async {
-    // DOPSUM: CHANGE speakAffect
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Your opinion will not affect my decision."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAffe25699(String languageCode) async {
-    // DOPSUM: CHANGE speakAffect
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The disease is more likely to affect women than men."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAff2566(String languageCode) async {
-    // DOPSUM: CHANGE speakAffect
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They were deeply affected by the news of her death."); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakAffect(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAffect
+  // Future<void> speakDopsum(String languageCode) async {
+  //   // DOPSUM: CHANGE speakDopsum
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("affect"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakDopsum(String languageCode) async {
+  //   // DOPSUM: CHANGE speakDopsum
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakDopsum(String languageCode) async {
+  //   // DOPSUM: CHANGE speakDopsum
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 2, // 2 + VIDEOS FIND: YoutubeEmbeddedone
       child: Scaffold(
         appBar: AppBar(
           title: const ZeetionaryAppbar(),
@@ -86,7 +66,7 @@ class EnglishEntryaffect extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "affect", // DOPSUM: CHANGE WORD ENTRY - Find /əˈfekt/
+                              "Dopsum1", // DOPSUM: CHANGE WORD ENTRY - Find /haʊ/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -102,7 +82,7 @@ class EnglishEntryaffect extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈfekt/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /haʊ/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -112,7 +92,7 @@ class EnglishEntryaffect extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAffect(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakDopsum(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -120,7 +100,7 @@ class EnglishEntryaffect extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈfekt/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /haʊ/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -129,7 +109,7 @@ class EnglishEntryaffect extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAffect(
+                              onPressed: () => speakDopsum(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -144,16 +124,16 @@ class EnglishEntryaffect extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(), // FIND: 2,
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(), // FIND: 2,
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -179,7 +159,9 @@ class EnglishEntryaffect extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (کردار) کاریگەری درووستکردن''',
+کوردی: 
+
+١. (هاوەڵناو) پێناسە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -189,18 +171,21 @@ class EnglishEntryaffect extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The article deals with issues affecting the lives of children.",
+                                    "DOPSUM_WRITE_A_SENTENCE",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وتارەکە مامەڵە لەگەڵ ئەو کێشانە دەکات کە کاریگەری لەسەر ژیانی منداڵان درووست دەکەن",
+                                    "رستە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -212,7 +197,7 @@ class EnglishEntryaffect extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAffe5699("en-GB"),
+                                onPressed: () => speakDopsum("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -221,150 +206,7 @@ class EnglishEntryaffect extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAffe5699(// REPLACE: affect /əˈfekt/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Your opinion will not affect my decision.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بۆچوونت کاریگەری لەسەر بڕیارەکەم ناکات",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAffe741("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAffe741(// REPLACE: affect /əˈfekt/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (کردار) نەخۆشییەک کە کاریگەری دەبێت لەسەر جەستە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The disease is more likely to affect women than men.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "نەخۆشییەکە ئەگەری زیاترە تووشی ژنان بێت وەک لە پیاوان",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAffe25699("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAffe25699(// REPLACE: affect /əˈfekt/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (کردار) وا لە کەسێک بکەیت ھەست بە دڵتەنگی بکات''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "They were deeply affected by the news of her death.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زۆر ناڕەحەت بوون بە ھەواڵی مردنی",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAff2566("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAff2566(// REPLACE: affect /əˈfekt/
+                                    speakDopsum(// REPLACE: Dopsum1 /haʊ/
                                         "en-US"),
                               ),
                             ],
@@ -373,15 +215,15 @@ class EnglishEntryaffect extends StatelessWidget {
                       ),
                     ),
                     YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
-                    YoutubeEmbeddedtwo(),
-                    YoutubeEmbeddedthree(),
-                    YoutubeEmbeddedfour(),
-                    YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    YoutubeEmbeddedseven(),
-                    YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedtwo(),
+                    // YoutubeEmbeddedthree(),
+                    // YoutubeEmbeddedfour(),
+                    // YoutubeEmbeddedfive(),
+                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    // YoutubeEmbeddedseven(),
+                    // YoutubeEmbeddedeight(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -413,24 +255,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: affect (Derived forms: affecting, affected, affects)
-1. Have an effect upon (= impact, bear upon, bear on, touch on, touch)
-"Will the new rules affect me?";
- 
-2. Act physically on; have an effect upon
-"the medicine affects my heart rate"
- 
-3. Connect closely and often incriminatingly (= involve, regard)
-"This new ruling affects your business";
- 
-4. Make believe with the intent to deceive (= feign, sham, pretend, dissemble)
-"He affected that he was ill";
 
-5. Have an emotional or cognitive impact upon (= impress, move, strike)
-"This child affected me as unusually mature";
+Dopsum2 
 
-- Noun: affect ((Derived forms: affects))
-The conscious subjective aspect of feeling or emotion
+Dopsum2
 '''),
         ],
       ),
@@ -441,7 +269,7 @@ The conscious subjective aspect of feeling or emotion
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '4kzGtLkRW_g';
+  static String myVideoId = 'PUT_VIDEO_ID';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -449,7 +277,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -468,7 +296,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'OHdV9aO6jaE';
+  static String myVideoId = 'PUT_VIDEO_ID';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -476,7 +304,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 112, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -495,7 +323,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'omsGQUTM2fo';
+  static String myVideoId = 'PUT_VIDEO_ID';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -503,7 +331,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 884, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -522,7 +350,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = '3oeB4goJaM8';
+  static String myVideoId = 'PUT_VIDEO_ID';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -530,7 +358,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 167, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -549,7 +377,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'n_QVtF9Bdw4';
+  static String myVideoId = 'PUT_VIDEO_ID';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -557,7 +385,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 239, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -576,7 +404,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'hdb83uN6AUg';
+  static String myVideoId = 'PUT_VIDEO_ID';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -584,7 +412,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 12, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -603,7 +431,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'OF000Jm-U9c';
+  static String myVideoId = 'PUT_VIDEO_ID';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -611,7 +439,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 44, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -630,7 +458,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'XRIEz_YjVIc';
+  static String myVideoId = 'PUT_VIDEO_ID';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -638,7 +466,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 18, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -657,7 +485,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = '2W-KUSb3DTM';
+  static String myVideoId = 'PUT_VIDEO_ID';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -665,7 +493,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 298, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -684,7 +512,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'byLbEzE9yHI';
+  static String myVideoId = 'PUT_VIDEO_ID';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -692,7 +520,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 156, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

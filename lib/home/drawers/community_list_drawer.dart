@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/firebase/features/auth/controller/auth_controller.dart';
 import 'package:zeetionary/theme/pallete.dart';
+// import 'package:zeetionary/home/screens/history_screen.dart';
 
 class CommunityListDrawer extends ConsumerWidget {
   const CommunityListDrawer({super.key});

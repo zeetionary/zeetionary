@@ -12,11 +12,11 @@ class Constants {
   static const uk1Path = 'assets/images/uk_one.png';
   static const kurd1Path = 'assets/images/kurd_one.png';
 
-  static const tabWidgets = [
-    DictionaryScreenEnglish(),
+  static var tabWidgets = [
+    const DictionaryScreenEnglish(),
     DictionaryScreenKurdish(),
-    GrammarScreen(),
-    QuestionsScreen(),
-    QuizScreen(),
+    const GrammarScreen(),
+    const QuestionsScreen(),
+    const QuizScreen(),
   ];
 }

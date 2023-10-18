@@ -25,6 +25,13 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     });
   }
 
+  // bool shouldPop = true;
+
+  // return WillPopScope(
+  //     onWillPop: () async {
+  //       return shouldPop;
+  //     },
+
   @override
   Widget build(BuildContext context) {
     // final user = ref.watch(userProvider)!;

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart'; // a page that contains the entry for the word "aback"
 
 final GoRouter _router = GoRouter(
   routes: <RouteBase>[
     GoRoute(
-      path: '/dictionaryEnglish',
+      path: '/dictionaryenglish',
       builder: (BuildContext context, GoRouterState state) {
         return const DictionaryScreenEnglish();
       },
@@ -66,8 +66,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Directionality(
-            textDirection:
-                TextDirection.rtl, // Set the text direction to right-to-left
+            textDirection: TextDirection.ltr,
             child: Padding(
               padding: const EdgeInsets.all(16.0),
               child: SizedBox(
@@ -90,8 +89,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
           ),
           Expanded(
             child: Directionality(
-              textDirection:
-                  TextDirection.rtl, // Set the text direction to right-to-left
+              textDirection: TextDirection.ltr,
               child: EnglishDictionary(
                 words: filteredWords,
                 onTapWord: (wordsEnglish) {

@@ -1,5 +1,25 @@
 import 'package:flutter/material.dart';
+// import 'package:go_router/go_router.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
+
+// final GoRouter _router = GoRouter(
+//   routes: <RouteBase>[
+//     GoRoute(
+//       path: '/dictionarykurdish',
+//       builder: (BuildContext context, GoRouterState state) {
+//         return const DictionaryScreenKurdish();
+//       },
+//       routes: <RouteBase>[
+//         GoRoute(
+//           path: 'kurdish/:aback',
+//           builder: (BuildContext context, GoRouterState state) {
+//             return EnglishEntryAback();
+//           },
+//         ),
+//       ],
+//     ),
+//   ],
+// );
 
 class DictionaryScreenKurdish extends StatefulWidget {
   const DictionaryScreenKurdish({Key? key}) : super(key: key);

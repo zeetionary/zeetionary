@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 // import 'package:go_router/go_router.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abandon.dart';
 
 // final GoRouter _router = GoRouter(
 //   routes: <RouteBase>[
@@ -20,6 +20,53 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 //     ),
 //   ],
 // );
+
+// Define the routes
+// final router = GoRouter(
+//   routes: <RouteBase>[
+//     GoRoute(
+//       path: '/dictionarykurdish',
+//       builder: (BuildContext context, GoRouterState state) {
+//         return const DictionaryScreenKurdish();
+//       },
+//       routes: <RouteBase>[
+//         GoRoute(
+//           path: 'kurdish/:aback',
+//           builder: (BuildContext context, GoRouterState state) {
+//             return EnglishEntryAback();
+//           },
+//         ),
+//       ],
+//     ),
+//   ],
+//   navigatorKey: GlobalKey<NavigatorState>(),
+//   initialLocation: "/",
+// );
+
+// class MyRoutes {
+//   static Route<dynamic> generateRoute(RouteSettings settings) {
+//     switch (settings.name) {
+//       case '/':
+//         return MaterialPageRoute(builder: (_) => const FirstScreen());
+//       case '/second':
+//         return MaterialPageRoute(builder: (_) => const SecondScreen());
+//       default:
+//         return MaterialPageRoute(builder: (_) => const Scaffold(
+//               body: Center(
+//                 child: Text('Route not found'),
+//               ),
+//             ));
+//     }
+//   }
+
+//   static const FirstScreen = StatelessWidget(() {
+//     // Your FirstScreen widget code here.
+//   });
+
+//   static const SecondScreen = StatelessWidget(() {
+//     // Your SecondScreen widget code here.
+//   });
+// }
 
 class DictionaryScreenKurdish extends StatefulWidget {
   const DictionaryScreenKurdish({Key? key}) : super(key: key);
@@ -101,7 +148,7 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
                     // For example:
                     Navigator.of(context).push(
                       MaterialPageRoute(
-                        builder: (context) => EnglishEntryAback(),
+                        builder: (context) => EnglishEntryAbandon(),
                       ),
                     );
                   }

@@ -32,6 +32,13 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   //       return shouldPop;
   //     },
 
+  // onWillPop: () async {
+  //       // Pop the screen of the item.
+  //       Navigator.pop(context);
+
+  //       return true; // Allow the back button to pop the route.
+  //     },
+
   @override
   Widget build(BuildContext context) {
     // final user = ref.watch(userProvider)!;

@@ -12,8 +12,8 @@ class DictionaryScreenKurdish extends StatefulWidget {
 class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   final List<String> allWordsKurdish = [
-    "aback",
-    "abacus",
+    "کوردی",
+    "کوردستان",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -75,7 +75,7 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
               child: EnglishDictionary(
                 words: filteredWords,
                 onTapWord: (wordsKurdish) {
-                  if (wordsKurdish == "aback") {
+                  if (wordsKurdish == "کوردی") {
                     // Handle the onTap event for the word "dog" here.
                     // You can navigate to a different screen or perform any desired action.
                     // For example:

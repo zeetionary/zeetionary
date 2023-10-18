@@ -257,7 +257,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (ناو) کۆمپانیایەک یان دامەزراوەیەک کە بەشێکە لە یەکێکی گەورەتر''',
+٢. (ناو) کۆمپانیایەک یان دامەزراوەیەک کە بەشێکە لە یەکێکی گەورەتر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

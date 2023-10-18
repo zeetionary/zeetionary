@@ -268,7 +268,7 @@ class EnglishEntryagitate extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. (کردار) تووڕەکردنی کەسێک''',
+٣. (کردار) تێکدانی شلەیەک بۆ تێکەڵکردنی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

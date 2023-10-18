@@ -14,7 +14,7 @@ class Constants {
 
   static var tabWidgets = [
     const DictionaryScreenEnglish(),
-    DictionaryScreenKurdish(),
+    const DictionaryScreenKurdish(),
     const GrammarScreen(),
     const QuestionsScreen(),
     const QuizScreen(),

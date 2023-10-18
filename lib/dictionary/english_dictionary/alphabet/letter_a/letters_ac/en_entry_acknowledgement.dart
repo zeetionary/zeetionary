@@ -37,13 +37,14 @@ class EnglishEntryacknowledgement extends StatelessWidget {
         "I wrote to them but never got any acknowledgement."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAcknowledgement(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAcknowledgement
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("acknowledgement"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAcknowle65899(String languageCode) async {
+    // DOPSUM: CHANGE speakAcknowledgement
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The flowers were a small acknowledgement of your kindness."); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -245,7 +246,7 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAckno5387("en-GB"),
+                                onPressed: () => speakAcknowle65899("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -253,7 +254,7 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAckno5387(
+                                onPressed: () => speakAcknowle65899(
                                     "en-US"), // REPLACE acknowledgement /əkˈnɑːlɪdʒmənt/
                               ),
                             ],

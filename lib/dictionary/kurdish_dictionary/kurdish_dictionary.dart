@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-// import 'package:go_router/go_router.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
 
 class DictionaryScreenKurdish extends StatefulWidget {

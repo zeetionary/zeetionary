@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abandon.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
 
 class DictionaryScreenKurdish extends StatefulWidget {
   const DictionaryScreenKurdish({Key? key}) : super(key: key);
@@ -12,8 +12,8 @@ class DictionaryScreenKurdish extends StatefulWidget {
 class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   final List<String> allWordsKurdish = [
-    "کوردی یەک",
-    "کوردی دوو",
+    "aback",
+    "abacus",
   ];
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
@@ -75,13 +75,13 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
               child: EnglishDictionary(
                 words: filteredWords,
                 onTapWord: (wordsKurdish) {
-                  if (wordsKurdish == "کوردی یەک") {
+                  if (wordsKurdish == "aback") {
                     // Handle the onTap event for the word "dog" here.
                     // You can navigate to a different screen or perform any desired action.
                     // For example:
                     Navigator.of(context).push(
                       MaterialPageRoute(
-                        builder: (context) => EnglishEntryAbandon(),
+                        builder: (context) => EnglishEntryAback(),
                       ),
                     );
                   }

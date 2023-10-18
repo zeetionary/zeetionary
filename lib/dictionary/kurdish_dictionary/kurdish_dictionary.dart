@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 // import 'package:go_router/go_router.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abandon.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
 
 // final GoRouter _router = GoRouter(
 //   routes: <RouteBase>[
@@ -148,7 +148,7 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
                     // For example:
                     Navigator.of(context).push(
                       MaterialPageRoute(
-                        builder: (context) => EnglishEntryAbandon(),
+                        builder: (context) => EnglishEntryAback(),
                       ),
                     );
                   }

@@ -400,6 +400,10 @@ final loggedOutRoute = RouteMap(routes: {
 
 final loggedInRoute = RouteMap(routes: {
   '/': (_) => const MaterialPage(child: HomeScreen()),
+  // English dictionary starts here
+  // English dictionary starts here
+  // English dictionary starts here
+  // English dictionary starts here
   '/english-a': (_) => MaterialPage(child: EnglishEntrya()),
   '/english-aback': (_) => MaterialPage(child: EnglishEntryaback()),
   '/english-abacus': (_) => MaterialPage(child: EnglishEntryabacus()),
@@ -834,21 +838,3 @@ final loggedInRoute = RouteMap(routes: {
   // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
 });
-
-// final routes = RouteMap(
-//   routes: {
-//     '/': (_) => const CupertinoTabPage(
-//           child: HomePage(),
-//           paths: ['feed', 'settings'],
-//         ),
-//     '/feed': (_) => const MaterialPage(child: FeedPage()),
-//     '/feed/profile/:id': (_) => const MaterialPage(child: ProfilePage()),
-//     '/settings': (_) => const MaterialPage(child: SettingsPage()),
-//   },
-// );
-
-
-
-
-
-

@@ -410,10 +410,6 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "under age",
   ];
 
-  // void navigateToCreateCommunity(BuildContext context) {
-  //   Routemaster.of(context).push('/english-aback');
-  // }
-
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
 

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
 import 'package:routemaster/routemaster.dart';
 
 class DictionaryScreenKurdish extends StatefulWidget {
@@ -16,10 +15,6 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
     "کوردی",
     "کوردستان",
   ];
-
-  // void navigateToCreateCommunity(BuildContext context) {
-  //   Routemaster.of(context).push('/english-aback');
-  // }
 
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();

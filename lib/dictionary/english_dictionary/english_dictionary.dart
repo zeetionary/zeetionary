@@ -862,35 +862,35 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                 if (wordsEnglish == "a") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryA(),
+                      builder: (context) => EnglishEntrya(),
                     ),
                   );
                 }
                 if (wordsEnglish == "aback") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryAback(),
+                      builder: (context) => EnglishEntryaback(),
                     ),
                   );
                 }
                 if (wordsEnglish == "abacus") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryAbacus(),
+                      builder: (context) => EnglishEntryabacus(),
                     ),
                   );
                 }
                 if (wordsEnglish == "abandon") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryAbandon(),
+                      builder: (context) => EnglishEntryabandon(),
                     ),
                   );
                 }
                 if (wordsEnglish == "abandoned") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryAbandoned(),
+                      builder: (context) => EnglishEntryabandoned(),
                     ),
                   );
                 }
@@ -904,14 +904,14 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                 if (wordsEnglish == "abashed") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryAbashed(),
+                      builder: (context) => EnglishEntryabashed(),
                     ),
                   );
                 }
                 if (wordsEnglish == "abate") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryAbate(),
+                      builder: (context) => EnglishEntryabate(),
                     ),
                   );
                 }

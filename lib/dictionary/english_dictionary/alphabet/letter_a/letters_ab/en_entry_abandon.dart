@@ -5,8 +5,8 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryAbandon extends StatelessWidget {
-  EnglishEntryAbandon({Key? key}) : super(key: key);
+class EnglishEntryabandon extends StatelessWidget {
+  EnglishEntryabandon({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakAbandon(String languageCode) async {

@@ -3,12 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: EnglishEntryAbate - speakAbate - /əˈbeɪt/
+// replace these: EnglishEntryabate - speakAbate - /əˈbeɪt/
 
 enum TtsState { playing }
 
-class EnglishEntryAbate extends StatelessWidget {
-  EnglishEntryAbate({Key? key}) : super(key: key);
+class EnglishEntryabate extends StatelessWidget {
+  EnglishEntryabate({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakAbate(String languageCode) async {

@@ -1,396 +1,6 @@
 import 'package:flutter/material.dart';
-// import 'package:routemaster/routemaster.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/dopsum.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_a.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abacus.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abandon.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abandoned.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abandonment.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abashed.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abatement.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abattoir.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abbess.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abbey.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abbot.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abbreviate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abbreviation.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abdicate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abdication.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abdomen.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abdominal.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abduct.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abduction.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aberration.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abet.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abhor.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abhorrence.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abhorrent.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abide.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abiding.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_ability.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abject.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abjectly.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_ablaze.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_able.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_able_bodied.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abnormal.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abnormality.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abnormally.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aboard.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abode.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abolish.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abolition.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abominable.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abominably.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aboriginal.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aborigine.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abort.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abortion.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abortive.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abound.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abound_in.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abound_with.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_about.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_about_turn.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_above.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_the_above.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_above_all.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_above_yourself.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_above_below_the_fold.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_above_beyond_suspicion.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abrasion.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abrasive.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abreast.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abridge.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abridgement.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abroad.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abrupt.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abruptly.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abruptness.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abscess.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abscond.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abseil.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absence.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absent.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absent_minded.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absentee.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absolute.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absolutely.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absolute_majority.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absolute_zero.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absolve.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absorb.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absorbent.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absorption.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abstain.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abstemious.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abstention.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abstinence.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abstract.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absurd.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absurdity.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_absurdly.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abundance.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abundant.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abundantly.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abuse.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abusive.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abysmal.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abysmally.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_abyss.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_academic.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_academically.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_academy.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accede.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accelerate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acceleration.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accelerator.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accent.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accentuate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accept.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acceptable.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acceptance.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_access.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accessible.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accession.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accessory.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accident.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accidental.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accidentally.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acclaim.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acclimatize.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accolade.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accommodate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accommodating.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accommodation.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accompaniment.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accompanist.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accompany.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accomplice.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accomplish.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accomplished.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accomplishment.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accord.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accordingly.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_according_to.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accordion.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accost.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_account.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_account_for.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accountable.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accountancy.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accountant.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accredited.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accreditation.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accrue.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accumulate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accumulation.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accuracy.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accurate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accurately.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accusation.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accuse.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_the_accused.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accuser.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accustom_to.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_accustomed.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_ace.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_ache.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_achieve.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_achievement.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_achilles_heel.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acid.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acid_rain.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acid_test.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acknowledge.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acknowledgement.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acne.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acorn.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acoustic.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acoustics.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquaint.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquaintance.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquainted.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquiesce.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquiescence.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquire.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquisition.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquisitive.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquit.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acquittal.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acre.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acreage.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acrid.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acrimonious.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acrimony.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acrobat.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acrobatic.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acrobatics.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acronym.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_across.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acrylic.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_act.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_action.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_activate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_active.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_actively.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_activist.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_activity.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_actor.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_actress.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_actual.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_actually.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acumen.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acupuncture.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acute.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acute_accent.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acute_angle.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acutely.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ac/en_entry_acuteness.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_ad.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adamant.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adams_apple.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adapt.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adaptable.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adaptation.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adaptor.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_add.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adder.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_addict.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_addicted.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_addiction.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_addictive.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_addition.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_additional.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_additionally.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_additive.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_address.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adept.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adequate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adequately.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adhere.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adhere_to.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adherence.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adherent.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adhesion.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adhesive.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_ad_hoc.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjacent.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjectival.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjective.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjoin.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjourn.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjournment.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjudicate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjudication.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjudicator.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjunct.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjust.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjustable.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adjustment.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_ad_lib.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_administer.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_administration.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_administrative.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_administrator.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admirable.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admirably.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admiral.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admiration.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admire.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admirer.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admiring.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admissible.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admission.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admit.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admittance.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admittedly.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_admonish.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_ad_nauseam.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adolescence.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adolescent.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adopt.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adoption.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adoptive.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adorable.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adoration.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adore.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adorn.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adornment.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adrenaline.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adrift.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adulation.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adult.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adulthood.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adulterate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adultery.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adulterer.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adulterous.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advance.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advanced.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advancement.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advantage.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advantageous.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advent.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adventure.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adventurer.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adventurous.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adverb.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adverbial.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adversary.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adverse.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adversely.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adversity.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advert.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advertise.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advertisement.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advertiser.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advertising.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advice.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advise.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_adviser.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advisory.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advisable.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ad/en_entry_advocate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aerial.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aerobatics.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aerobics.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aerodynamic.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aerodynamics.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aeronautics.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aeroplane.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aerosol.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aerospace.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aesthetic.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ae/en_entry_aesthetically.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affable.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affably.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affair.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affect.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affectation.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affected.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affection.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affectionate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affectionately.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affidavit.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affiliate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affiliation.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affinity.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affirm.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affirmation.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affirmative.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affix.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afflict.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affliction.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affluence.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affluent.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afford.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_affront.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afloat.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afoot.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_aforementioned.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afraid.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afresh.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_after.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_aftereffect.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_aftermath.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afternoon.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afterwards.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_again.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/letters_co/en_entry_come_of_age.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_af/en_entry_afterthought.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_against.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_age.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aged.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_age_group.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_ageing.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_ageism.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_ageist.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_age_limit.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_age_old.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agency.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agenda.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agent.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aggravate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aggravation.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aggregate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aggression.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aggressive.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aggressively.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aggressiveness.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aggressor.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aggrieved.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aghast.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agile.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agility.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aging.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agitate.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agitation.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/letters_fa/en_entry_far_afield.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/letters_fr/en_entry_from_afar.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_u/letters_un/en_entry_under_age.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
+import 'package:routemaster/routemaster.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({Key? key}) : super(key: key);
@@ -799,6 +409,11 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "from afar",
     "under age",
   ];
+
+  // void navigateToCreateCommunity(BuildContext context) {
+  //   Routemaster.of(context).push('/english-aback');
+  // }
+
   List<String> filteredWords = [];
   final TextEditingController _searchController = TextEditingController();
 
@@ -829,2767 +444,1243 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: SizedBox(
-              height: 60,
-              child: TextField(
-                controller: _searchController,
-                onChanged: filterWords,
-                decoration: InputDecoration(
-                  labelText: 'Search here',
-                  prefixIcon: const Icon(Icons.search),
-                  suffixIcon: IconButton(
-                    icon: const Icon(Icons.clear),
-                    onPressed: clearSearch,
+          Directionality(
+            textDirection:
+                TextDirection.ltr, // Set the text direction to right-to-left
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: SizedBox(
+                height: 60,
+                child: TextField(
+                  controller: _searchController,
+                  onChanged: filterWords,
+                  decoration: InputDecoration(
+                    labelText: 'Search here',
+                    prefixIcon: const Icon(Icons.search),
+                    suffixIcon: IconButton(
+                      icon: const Icon(Icons.clear),
+                      onPressed: clearSearch,
+                    ),
+                    border: const OutlineInputBorder(),
                   ),
-                  border: const OutlineInputBorder(),
                 ),
               ),
             ),
           ),
           Expanded(
-            child: EnglishDictionary(
-              words: filteredWords,
-              onTapWord: (wordsEnglish) {
-                if (wordsEnglish == "dopsum") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabstinence(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "a") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntrya(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aback") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaback(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abacus") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabacus(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abandon") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabandon(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abandoned") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabandoned(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abandonment") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabandonment(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abashed") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabashed(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abate") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabate(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abatement") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabatement(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abattoir") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryAbattoir(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abbess") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryAbbess(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abbey") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabbey(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abbot") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabbot(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abbreviate") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryAbbreviate(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abbreviation") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabbreviation(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abdicate") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabdicate(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abdication") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabdication(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abdomen") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabdomen(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abdominal") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabdominal(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abduct") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabduct(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abduction") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabduction(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aberration") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaberration(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abet") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabet(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abhor") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabhor(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abhorrence") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabhorrence(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abhorrent") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabhorrent(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abide") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabide(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abiding") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabiding(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "ability") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryability(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abject") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabject(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abjectly") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabjectly(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "ablaze") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryablaze(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "able") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryable(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "able-bodied") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryablebodied(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abnormal") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabnormal(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abnormality") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabnormality(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abnormally") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabnormally(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aboard") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaboard(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abode") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabode(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abolish") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabolish(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abolition") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabolition(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abominable") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabominable(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abominably") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabominably(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aboriginal") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaboriginal(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aborigine") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaborigine(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abort") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabort(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abortion") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabortion(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abortive") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabortive(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abound") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabound(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abound in") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaboundin(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abound with") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaboundwith(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "about") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabout(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "about turn") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaboutturn(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "above") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabove(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "above/below the fold") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabovebelowthefold(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "above yourself") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaboveyourself(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "above/beyond suspicion") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabovebeyondsuspicion(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "above all") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaboveall(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "the above") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntrytheabove(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abrasion") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabrasion(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abrasive") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabrasive(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abreast") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabreast(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abridge") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabridge(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abridgement") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabridgement(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abroad") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabroad(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abrupt") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabrupt(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abruptly") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabruptly(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abruptness") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabruptness(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abscess") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabscess(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abscond") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabscond(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abseil") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabseil(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "absence") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabsence(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "absent") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabsent(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "absentee") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabsentee(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "absent-minded") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabsentminded(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "absolute") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabsolute(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "absolutely") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabsolutely(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "absolute majority") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabsolutemajority(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "absolute zero") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabsolutezero(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "absolve") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabsolve(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "absorb") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabsorb(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "absorbent") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabsorbent(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "absorption") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabsorption(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abstain") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabstain(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abstemious") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabstemious(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abstention") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabstention(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abstinence") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabstinence(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abstract") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabstract(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "absurd") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabsurd(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "absurdity") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabsurdity(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "absurdly") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabsurdly(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abundance") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabundance(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abundant") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabundant(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abundantly") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabundantly(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abuse") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabuse(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abusive") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabusive(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abysmal") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabysmal(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abysmally") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabysmally(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "abyss") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryabyss(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "academic") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacademic(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "academically") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacademically(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "academy") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacademy(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accede") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccede(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accelerate") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccelerate(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acceleration") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacceleration(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accelerator") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccelerator(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accent") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccent(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accentuate") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccentuate(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accept") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccept(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acceptable") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacceptable(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acceptance") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacceptance(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "access") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccess(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accessible") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccessible(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accession") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccession(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accessory") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccessory(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accident") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccident(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accidental") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccidental(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accidentally") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccidentally(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acclaim") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacclaim(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acclimatize") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacclimatize(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accolade") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccolade(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accommodate") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccommodate(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accommodating") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccommodating(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accommodation") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccommodation(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accompaniment") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccompaniment(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accompanist") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccompanist(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accompany") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccompany(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accomplice") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccomplice(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accomplish") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccomplish(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accomplished") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccomplished(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accomplishment") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccomplishment(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accord") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccord(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accordingly") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccordingly(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "according to") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccordingto(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accordion") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccordion(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accost") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccost(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "account") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccount(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "account for") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccountfor(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accountable") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccountable(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accountancy") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccountancy(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accountant") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccountant(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accredited") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccredited(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accreditation") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccreditation(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accrue") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccrue(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accumulate") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccumulate(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accumulation") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccumulation(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accuracy") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccuracy(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accurate") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccurate(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accurately") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccurately(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accusation") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccusation(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accuse") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccuse(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "the accused") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntrytheaccused(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accuser") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntrytheaccuser(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accustom to") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccustomto(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "accustomed") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaccustomed(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "ace") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryace(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "ache") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryache(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "achieve") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryachieve(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "achievement") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryachievement(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "Achilles' heel") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryachillesheel(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acid") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacid(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acid rain") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacidrain(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acid test") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacidtest(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acknowledge") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacknowledge(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acknowledgement") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacknowledgement(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acne") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacne(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acorn") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacorn(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acoustic") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacoustic(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acoustics") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacoustics(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acquaint") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacquaint(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acquaintance") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacquaintance(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acquainted") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacquainted(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acquiesce") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacquiesce(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acquiescence") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacquiescence(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acquire") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacquire(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acquisition") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacquisition(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acquisitive") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacquisitive(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acquit") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacquit(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acquittal") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacquittal(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acre") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacre(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acreage") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacreage(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acrid") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacrid(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acrimonious") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacrimonious(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acrimony") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacrimony(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acrobat") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacrobat(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acrobatic") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacrobatic(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acrobatics") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacrobatics(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acronym") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacronym(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "across") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacross(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acrylic") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacrylic(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "act") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryact(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "action") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaction(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "activate") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryactivate(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "active") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryactive(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "actively") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryactively(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "activist") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryactivist(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "activity") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryactivity(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "actor") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryactor(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "actress") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryactress(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "actual") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryactual(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "actually") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryactually(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acumen") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacumen(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acupuncture") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacupuncture(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acute") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacute(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acute accent") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacuteaccent(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acute angle") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacuteangle(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acutely") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacutely(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "acuteness") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryacuteness(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "ad") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryad(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adamant") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadamant(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "Adam's apple") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadamsapple(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adapt") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadapt(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adaptable") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadaptable(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adaptation") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadaptation(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adaptor") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadaptor(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "add") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadd(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adder") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadder(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "addict") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaddict(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "addicted") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaddicted(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "addiction") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaddiction(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "addictive") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaddictive(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "addition") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaddition(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "additional") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadditional(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "additionally") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadditionally(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "additive") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadditive(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "address") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaddress(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adept") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadept(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adequate") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadequate(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adequately") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadequately(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adhere") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadhere(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adhere to") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadhereto(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adherence") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadherence(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adherent") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadherent(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adhesion") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadhesion(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adhesive") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadhesive(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "ad hoc") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadhoc(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adjacent") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadjacent(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adjectival") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadjectival(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adjective") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadjective(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adjoin") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadjoin(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adjourn") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadjourn(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adjournment") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadjournment(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adjudicate") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadjudicate(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adjudication") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadjudication(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adjudicator") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadjudicator(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adjunct") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadjunct(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adjust") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadjust(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adjustable") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadjustable(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adjustment") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadjustment(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "ad lib") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadlib(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "administer") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadminister(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "administration") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadministration(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "administrative") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadministrative(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "administrator") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadministrator(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "admirable") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadmirable(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "admirably") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadmirably(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "admiral") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadmiral(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "admiration") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadmiration(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "admire") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadmire(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "admirer") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadmirer(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "admiring") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadmiring(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "admissible") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadmissible(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "admission") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadmission(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "admit") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadmit(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "admittance") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadmittance(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "admittedly") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadmittedly(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "admonish") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadmonish(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "ad nauseam") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadnauseam(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adolescence") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadolescence(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adolescent") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadolescent(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adopt") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadopt(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adoption") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadoption(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adoptive") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadoptive(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adorable") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadorable(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adoration") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadoration(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adore") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadore(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adorn") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadorn(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adornment") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadornment(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adrenaline") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadrenaline(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adrift") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadrift(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adulation") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadulation(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adult") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadult(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adulterate") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadulterate(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adultery") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadultery(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adulterer") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadulterer(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adulterous") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadulterous(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adulthood") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadulthood(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "advance") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadvance(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "advanced") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadvanced(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "advancement") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadvancement(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "advantage") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadvantage(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "advantageous") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadvantageous(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "advent") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadvent(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adventure") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadventure(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adventurer") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadventurer(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adventurous") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadventurous(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adverb") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadverb(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adverbial") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadverbial(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adversary") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadversary(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adverse") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadverse(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adversely") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadversely(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adversity") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadversity(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "advert") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadvert(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "advertise") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadvertise(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "advertisement") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadvertisement(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "advertiser") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadvertiser(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "advertising") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadvertising(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "advice") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadvice(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "advisable") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadvisable(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "advise") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadvise(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "adviser") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadviser(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "advisory") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadvisory(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "advocate") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryadvocate(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aerial") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaerial(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aerobatics") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaerobatics(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aerobics") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaerobics(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aerodynamic") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaerodynamic(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aerodynamics") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaerodynamics(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aeronautics") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaeronautics(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aeroplane") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaeroplane(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aerosol") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaerosol(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aerospace") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaerospace(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aesthetic") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaesthetic(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aesthetically") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaesthetically(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affable") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffable(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affably") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffably(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affair") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffair(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affect") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffect(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affectation") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffectation(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affected") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffected(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affection") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffection(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affectionate") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffectionate(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affectionately") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffectionately(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affidavit") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffidavit(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affiliate") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffiliate(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affiliation") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffiliation(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affinity") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffinity(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affirm") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffirm(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affirmation") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffirmation(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affirmative") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffirmative(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affix") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffix(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "afflict") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryafflict(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affliction") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffliction(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affluence") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffluence(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affluent") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffluent(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "afford") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryafford(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "affront") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaffront(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "afloat") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryafloat(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "afoot") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryafoot(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aforementioned") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaforementioned(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "afraid") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryafraid(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "afresh") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryafresh(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "after") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryafter(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aftereffect") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaftereffect(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aftermath") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaftermath(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "afternoon") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryafternoon(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "afterwards") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryafterwards(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "again") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryagain(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "come of age") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntrycomeofage(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "afterthought") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryafterthought(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "against") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryagainst(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "age") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryage(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aged") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaged(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "age group") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryagegroup(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "ageing") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryageing(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "ageism") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryageism(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "ageist") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryageist(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "age limit") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryagelimit(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "age-old") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryageold(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "agency") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryagency(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "agenda") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryagenda(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "agent") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryagent(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aggravate") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaggravate(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aggravation") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaggravation(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aggregate") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaggregate(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aggression") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaggression(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aggressive") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaggressive(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aggressively") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaggressively(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aggressiveness") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaggressiveness(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aggressor") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaggressor(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aggrieved") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaggrieved(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aghast") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaghast(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "agile") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryagile(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "agility") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryagility(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "aging") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryaging(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "agitate") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryagitate(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "agitation") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryagitation(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "under age") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryunderage(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "far afield") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryfarafield(),
-                    ),
-                  );
-                }
-                if (wordsEnglish == "from afar") {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => EnglishEntryafar(),
-                    ),
-                  );
-                }
-              },
+            child: Directionality(
+              textDirection:
+                  TextDirection.ltr, // Set the text direction to right-to-left
+              child: EnglishDictionary(
+                words: filteredWords,
+                onTapWord: (wordsEnglish) {
+                  if (wordsEnglish == "dopsum") {
+                    Routemaster.of(context).push('/english-aback');
+                  }
+                  if (wordsEnglish == "dopsum") {
+                    Routemaster.of(context).push('/english-aback');
+                  }
+                  if (wordsEnglish == "a") {
+                    Routemaster.of(context).push('/english-a');
+                  }
+                  if (wordsEnglish == "aback") {
+                    Routemaster.of(context).push('/english-aback');
+                  }
+                  if (wordsEnglish == "abacus") {
+                    Routemaster.of(context).push('/english-abacus');
+                  }
+                  if (wordsEnglish == "abandon") {
+                    Routemaster.of(context).push('/english-abandon');
+                  }
+                  if (wordsEnglish == "abandoned") {
+                    Routemaster.of(context).push('/english-abandoned');
+                  }
+                  if (wordsEnglish == "abandonment") {
+                    Routemaster.of(context).push('/english-abandonment');
+                  }
+                  if (wordsEnglish == "abashed") {
+                    Routemaster.of(context).push('/english-abashed');
+                  }
+                  if (wordsEnglish == "abate") {
+                    Routemaster.of(context).push('/english-abate');
+                  }
+                  if (wordsEnglish == "abatement") {
+                    Routemaster.of(context).push('/english-abatement');
+                  }
+                  if (wordsEnglish == "abattoir") {
+                    Routemaster.of(context).push('/english-abattoir');
+                  }
+                  if (wordsEnglish == "abbess") {
+                    Routemaster.of(context).push('/english-abbess');
+                  }
+                  if (wordsEnglish == "abbey") {
+                    Routemaster.of(context).push('/english-abbey');
+                  }
+                  if (wordsEnglish == "abbot") {
+                    Routemaster.of(context).push('/english-abbot');
+                  }
+                  if (wordsEnglish == "abbreviate") {
+                    Routemaster.of(context).push('/english-abbreviate');
+                  }
+                  if (wordsEnglish == "abbreviation") {
+                    Routemaster.of(context).push('/english-abbreviation');
+                  }
+                  if (wordsEnglish == "abdicate") {
+                    Routemaster.of(context).push('/english-abdicate');
+                  }
+                  if (wordsEnglish == "abdication") {
+                    Routemaster.of(context).push('/english-abdication');
+                  }
+                  if (wordsEnglish == "abdomen") {
+                    Routemaster.of(context).push('/english-abdomen');
+                  }
+                  if (wordsEnglish == "abdominal") {
+                    Routemaster.of(context).push('/english-abdominal');
+                  }
+                  if (wordsEnglish == "abduct") {
+                    Routemaster.of(context).push('/english-abduct');
+                  }
+                  if (wordsEnglish == "abduction") {
+                    Routemaster.of(context).push('/english-abduction');
+                  }
+                  if (wordsEnglish == "aberration") {
+                    Routemaster.of(context).push('/english-aberration');
+                  }
+                  if (wordsEnglish == "abet") {
+                    Routemaster.of(context).push('/english-abet');
+                  }
+                  if (wordsEnglish == "abhor") {
+                    Routemaster.of(context).push('/english-aback');
+                  }
+                  if (wordsEnglish == "abhorrence") {
+                    Routemaster.of(context).push('/english-abhorrence');
+                  }
+                  if (wordsEnglish == "abhorrent") {
+                    Routemaster.of(context).push('/english-abhorrent');
+                  }
+                  if (wordsEnglish == "abide") {
+                    Routemaster.of(context).push('/english-abide');
+                  }
+                  if (wordsEnglish == "abiding") {
+                    Routemaster.of(context).push('/english-abiding');
+                  }
+                  if (wordsEnglish == "ability") {
+                    Routemaster.of(context).push('/english-ability');
+                  }
+                  if (wordsEnglish == "abject") {
+                    Routemaster.of(context).push('/english-abject');
+                  }
+                  if (wordsEnglish == "abjectly") {
+                    Routemaster.of(context).push('/english-abjectly');
+                  }
+                  if (wordsEnglish == "ablaze") {
+                    Routemaster.of(context).push('/english-ablaze');
+                  }
+                  if (wordsEnglish == "able") {
+                    Routemaster.of(context).push('/english-able');
+                  }
+                  if (wordsEnglish == "able-bodied") {
+                    Routemaster.of(context).push('/english-able-bodied');
+                  }
+                  if (wordsEnglish == "abnormal") {
+                    Routemaster.of(context).push('/english-abnormal');
+                  }
+                  if (wordsEnglish == "abnormality") {
+                    Routemaster.of(context).push('/english-abnormality');
+                  }
+                  if (wordsEnglish == "abnormally") {
+                    Routemaster.of(context).push('/english-abnormally');
+                  }
+                  if (wordsEnglish == "aboard") {
+                    Routemaster.of(context).push('/english-aboard');
+                  }
+                  if (wordsEnglish == "abode") {
+                    Routemaster.of(context).push('/english-abode');
+                  }
+                  if (wordsEnglish == "abolish") {
+                    Routemaster.of(context).push('/english-abolish');
+                  }
+                  if (wordsEnglish == "abolition") {
+                    Routemaster.of(context).push('/english-abolition');
+                  }
+                  if (wordsEnglish == "abominable") {
+                    Routemaster.of(context).push('/english-abominable');
+                  }
+                  if (wordsEnglish == "abominably") {
+                    Routemaster.of(context).push('/english-abominably');
+                  }
+                  if (wordsEnglish == "aboriginal") {
+                    Routemaster.of(context).push('/english-aboriginal');
+                  }
+                  if (wordsEnglish == "aborigine") {
+                    Routemaster.of(context).push('/english-aborigine');
+                  }
+                  if (wordsEnglish == "abort") {
+                    Routemaster.of(context).push('/english-abort');
+                  }
+                  if (wordsEnglish == "abortion") {
+                    Routemaster.of(context).push('/english-abortion');
+                  }
+                  if (wordsEnglish == "abortive") {
+                    Routemaster.of(context).push('/english-abortive');
+                  }
+                  if (wordsEnglish == "abound") {
+                    Routemaster.of(context).push('/english-abound');
+                  }
+                  if (wordsEnglish == "abound in") {
+                    Routemaster.of(context).push('/english-abound-in');
+                  }
+                  if (wordsEnglish == "abound with") {
+                    Routemaster.of(context).push('/english-abound-with');
+                  }
+                  if (wordsEnglish == "about") {
+                    Routemaster.of(context).push('/english-about');
+                  }
+                  if (wordsEnglish == "about turn") {
+                    Routemaster.of(context).push('/english-about-turn');
+                  }
+                  if (wordsEnglish == "above") {
+                    Routemaster.of(context).push('/english-above');
+                  }
+                  if (wordsEnglish == "the above") {
+                    Routemaster.of(context).push('/english-the-above');
+                  }
+                  if (wordsEnglish == "above all") {
+                    Routemaster.of(context).push('/english-above-all');
+                  }
+                  if (wordsEnglish == "above/below the fold") {
+                    Routemaster.of(context)
+                        .push('/english-above-below-the-fold');
+                  }
+                  if (wordsEnglish == "above/beyond suspicion") {
+                    Routemaster.of(context)
+                        .push("/english-above-beyond-suspicion");
+                  }
+                  if (wordsEnglish == "above yourself") {
+                    Routemaster.of(context).push('/english-above-yourself');
+                  }
+                  if (wordsEnglish == "abrasion") {
+                    Routemaster.of(context).push('/english-abrasion');
+                  }
+                  if (wordsEnglish == "abrasive") {
+                    Routemaster.of(context).push('/english-abrasive');
+                  }
+                  if (wordsEnglish == "abreast") {
+                    Routemaster.of(context).push('/english-abreast');
+                  }
+                  if (wordsEnglish == "abridge") {
+                    Routemaster.of(context).push('/english-abridge');
+                  }
+                  if (wordsEnglish == "abridgement") {
+                    Routemaster.of(context).push('/english-abridgement');
+                  }
+                  if (wordsEnglish == "abridge") {
+                    Routemaster.of(context).push('/english-abridge');
+                  }
+                  if (wordsEnglish == "abroad") {
+                    Routemaster.of(context).push('/english-abroad');
+                  }
+                  if (wordsEnglish == "abrupt") {
+                    Routemaster.of(context).push('/english-abrupt');
+                  }
+                  if (wordsEnglish == "abruptly") {
+                    Routemaster.of(context).push('/english-abruptly');
+                  }
+                  if (wordsEnglish == "abruptness") {
+                    Routemaster.of(context).push('/english-abruptness');
+                  }
+                  if (wordsEnglish == "abscess") {
+                    Routemaster.of(context).push('/english-abscess');
+                  }
+                  if (wordsEnglish == "abscond") {
+                    Routemaster.of(context).push('/english-abscond');
+                  }
+                  if (wordsEnglish == "abseil") {
+                    Routemaster.of(context).push('/english-abseil');
+                  }
+                  if (wordsEnglish == "absence") {
+                    Routemaster.of(context).push('/english-absence');
+                  }
+                  if (wordsEnglish == "absent") {
+                    Routemaster.of(context).push('/english-absent');
+                  }
+                  if (wordsEnglish == "absentee") {
+                    Routemaster.of(context).push('/english-absentee');
+                  }
+                  if (wordsEnglish == "absent-minded") {
+                    Routemaster.of(context).push('/english-absent-minded');
+                  }
+                  if (wordsEnglish == "absolute") {
+                    Routemaster.of(context).push('/english-absolute');
+                  }
+                  if (wordsEnglish == "absolutely") {
+                    Routemaster.of(context).push('/english-absolutely');
+                  }
+                  if (wordsEnglish == "absolute majority") {
+                    Routemaster.of(context).push('/english-absolute-majority');
+                  }
+                  if (wordsEnglish == "absolute zero") {
+                    Routemaster.of(context).push('/english-absolute-zero');
+                  }
+                  if (wordsEnglish == "absolve") {
+                    Routemaster.of(context).push('/english-absolve');
+                  }
+                  if (wordsEnglish == "absorb") {
+                    Routemaster.of(context).push('/english-absorb');
+                  }
+                  if (wordsEnglish == "absorbent") {
+                    Routemaster.of(context).push('/english-absorbent');
+                  }
+                  if (wordsEnglish == "absorption") {
+                    Routemaster.of(context).push('/english-absorption');
+                  }
+                  if (wordsEnglish == "abstain") {
+                    Routemaster.of(context).push('/english-abstain');
+                  }
+                  if (wordsEnglish == "abstemious") {
+                    Routemaster.of(context).push('/english-abstemious');
+                  }
+                  if (wordsEnglish == "abstention") {
+                    Routemaster.of(context).push('/english-abstention');
+                  }
+                  if (wordsEnglish == "abstinence") {
+                    Routemaster.of(context).push('/english-abstinence');
+                  }
+                  if (wordsEnglish == "abstract") {
+                    Routemaster.of(context).push('/english-abstract');
+                  }
+                  if (wordsEnglish == "absurd") {
+                    Routemaster.of(context).push('/english-absurd');
+                  }
+                  if (wordsEnglish == "absurdity") {
+                    Routemaster.of(context).push('/english-absurdity');
+                  }
+                  if (wordsEnglish == "absurdly") {
+                    Routemaster.of(context).push('/english-absurdly');
+                  }
+                  if (wordsEnglish == "abundance") {
+                    Routemaster.of(context).push('/english-abundance');
+                  }
+                  if (wordsEnglish == "abundant") {
+                    Routemaster.of(context).push('/english-abundant');
+                  }
+                  if (wordsEnglish == "abundantly") {
+                    Routemaster.of(context).push('/english-abundantly');
+                  }
+                  if (wordsEnglish == "abuse") {
+                    Routemaster.of(context).push('/english-abuse');
+                  }
+                  if (wordsEnglish == "abusive") {
+                    Routemaster.of(context).push('/english-abusive');
+                  }
+                  if (wordsEnglish == "abysmal") {
+                    Routemaster.of(context).push('/english-abysmal');
+                  }
+                  if (wordsEnglish == "abysmally") {
+                    Routemaster.of(context).push('/english-abysmally');
+                  }
+                  if (wordsEnglish == "abyss") {
+                    Routemaster.of(context).push('/english-abyss');
+                  }
+                  if (wordsEnglish == "academic") {
+                    Routemaster.of(context).push('/english-academic');
+                  }
+                  if (wordsEnglish == "academically") {
+                    Routemaster.of(context).push('/english-academically');
+                  }
+                  if (wordsEnglish == "academy") {
+                    Routemaster.of(context).push('/english-academy');
+                  }
+                  if (wordsEnglish == "accede") {
+                    Routemaster.of(context).push('/english-accede');
+                  }
+                  if (wordsEnglish == "accelerate") {
+                    Routemaster.of(context).push('/english-accelerate');
+                  }
+                  if (wordsEnglish == "acceleration") {
+                    Routemaster.of(context).push('/english-acceleration');
+                  }
+                  if (wordsEnglish == "accelerator") {
+                    Routemaster.of(context).push('/english-accelerator');
+                  }
+                  if (wordsEnglish == "accent") {
+                    Routemaster.of(context).push('/english-accent');
+                  }
+                  if (wordsEnglish == "accentuate") {
+                    Routemaster.of(context).push('/english-accentuate');
+                  }
+                  if (wordsEnglish == "accept") {
+                    Routemaster.of(context).push('/english-accept');
+                  }
+                  if (wordsEnglish == "acceptable") {
+                    Routemaster.of(context).push('/english-acceptable');
+                  }
+                  if (wordsEnglish == "acceptance") {
+                    Routemaster.of(context).push('/english-acceptance');
+                  }
+                  if (wordsEnglish == "access") {
+                    Routemaster.of(context).push('/english-access');
+                  }
+                  if (wordsEnglish == "accessible") {
+                    Routemaster.of(context).push('/english-accessible');
+                  }
+                  if (wordsEnglish == "accession") {
+                    Routemaster.of(context).push('/english-accession');
+                  }
+                  if (wordsEnglish == "accessory") {
+                    Routemaster.of(context).push('/english-accessory');
+                  }
+                  if (wordsEnglish == "accident") {
+                    Routemaster.of(context).push('/english-accident');
+                  }
+                  if (wordsEnglish == "accidental") {
+                    Routemaster.of(context).push('/english-accidental');
+                  }
+                  if (wordsEnglish == "accidentally") {
+                    Routemaster.of(context).push('/english-accidentally');
+                  }
+                  if (wordsEnglish == "acclaim") {
+                    Routemaster.of(context).push('/english-acclaim');
+                  }
+                  if (wordsEnglish == "acclimatize") {
+                    Routemaster.of(context).push('/english-acclimatize');
+                  }
+                  if (wordsEnglish == "accolade") {
+                    Routemaster.of(context).push('/english-accolade');
+                  }
+                  if (wordsEnglish == "accommodate") {
+                    Routemaster.of(context).push('/english-accommodate');
+                  }
+                  if (wordsEnglish == "accommodating") {
+                    Routemaster.of(context).push('/english-accommodating');
+                  }
+                  if (wordsEnglish == "accommodation") {
+                    Routemaster.of(context).push('/english-accommodation');
+                  }
+                  if (wordsEnglish == "accompaniment") {
+                    Routemaster.of(context).push('/english-accompaniment');
+                  }
+                  if (wordsEnglish == "accompanist") {
+                    Routemaster.of(context).push('/english-accompanist');
+                  }
+                  if (wordsEnglish == "accompany") {
+                    Routemaster.of(context).push('/english-accompany');
+                  }
+                  if (wordsEnglish == "accomplice") {
+                    Routemaster.of(context).push('/english-accomplice');
+                  }
+                  if (wordsEnglish == "accomplish") {
+                    Routemaster.of(context).push('/english-accomplish');
+                  }
+                  if (wordsEnglish == "accomplished") {
+                    Routemaster.of(context).push('/english-accomplished');
+                  }
+                  if (wordsEnglish == "accomplishment") {
+                    Routemaster.of(context).push('/english-accomplishment');
+                  }
+                  if (wordsEnglish == "accord") {
+                    Routemaster.of(context).push('/english-accord');
+                  }
+                  if (wordsEnglish == "accordingly") {
+                    Routemaster.of(context).push('/english-accordingly');
+                  }
+                  if (wordsEnglish == "according to") {
+                    Routemaster.of(context).push('/english-according-to');
+                  }
+                  if (wordsEnglish == "accordion") {
+                    Routemaster.of(context).push('/english-accordion');
+                  }
+                  if (wordsEnglish == "accost") {
+                    Routemaster.of(context).push('/english-accost');
+                  }
+                  if (wordsEnglish == "account") {
+                    Routemaster.of(context).push('/english-account');
+                  }
+                  if (wordsEnglish == "account for") {
+                    Routemaster.of(context).push('/english-account-for');
+                  }
+                  if (wordsEnglish == "accountable") {
+                    Routemaster.of(context).push('/english-accountable');
+                  }
+                  if (wordsEnglish == "accountancy") {
+                    Routemaster.of(context).push('/english-accountancy');
+                  }
+                  if (wordsEnglish == "accountant") {
+                    Routemaster.of(context).push('/english-accountant');
+                  }
+                  if (wordsEnglish == "accredited") {
+                    Routemaster.of(context).push('/english-accredited');
+                  }
+                  if (wordsEnglish == "accreditation") {
+                    Routemaster.of(context).push('/english-accreditation');
+                  }
+                  if (wordsEnglish == "accrue") {
+                    Routemaster.of(context).push('/english-accrue');
+                  }
+                  if (wordsEnglish == "accumulate") {
+                    Routemaster.of(context).push('/english-accumulate');
+                  }
+                  if (wordsEnglish == "accumulation") {
+                    Routemaster.of(context).push('/english-accumulation');
+                  }
+                  if (wordsEnglish == "accuracy") {
+                    Routemaster.of(context).push('/english-accuracy');
+                  }
+                  if (wordsEnglish == "accurate") {
+                    Routemaster.of(context).push('/english-accurate');
+                  }
+                  if (wordsEnglish == "accurately") {
+                    Routemaster.of(context).push('/english-accurately');
+                  }
+                  if (wordsEnglish == "accusation") {
+                    Routemaster.of(context).push('/english-accusation');
+                  }
+                  if (wordsEnglish == "accuse") {
+                    Routemaster.of(context).push('/english-accuse');
+                  }
+                  if (wordsEnglish == "the accused") {
+                    Routemaster.of(context).push('/english-the-accused');
+                  }
+                  if (wordsEnglish == "accuser") {
+                    Routemaster.of(context).push('/english-accuser');
+                  }
+                  if (wordsEnglish == "accustom to") {
+                    Routemaster.of(context).push('/english-accustom-to');
+                  }
+                  if (wordsEnglish == "accustomed") {
+                    Routemaster.of(context).push('/english-accustomed');
+                  }
+                  if (wordsEnglish == "ace") {
+                    Routemaster.of(context).push('/english-ace');
+                  }
+                  if (wordsEnglish == "ache") {
+                    Routemaster.of(context).push('/english-ache');
+                  }
+                  if (wordsEnglish == "achieve") {
+                    Routemaster.of(context).push('/english-achieve');
+                  }
+                  if (wordsEnglish == "achievement") {
+                    Routemaster.of(context).push('/english-achievement');
+                  }
+                  if (wordsEnglish == "Achilles' heel") {
+                    Routemaster.of(context).push('/english-achilles-heel');
+                  }
+                  if (wordsEnglish == "acid") {
+                    Routemaster.of(context).push('/english-acid');
+                  }
+                  if (wordsEnglish == "acid rain") {
+                    Routemaster.of(context).push('/english-acid-rain');
+                  }
+                  if (wordsEnglish == "acid test") {
+                    Routemaster.of(context).push('/english-acid-test');
+                  }
+                  if (wordsEnglish == "acknowledge") {
+                    Routemaster.of(context).push('/english-acknowledge');
+                  }
+                  if (wordsEnglish == "acknowledgement") {
+                    Routemaster.of(context).push('/english-acknowledgement');
+                  }
+                  if (wordsEnglish == "acne") {
+                    Routemaster.of(context).push('/english-acne');
+                  }
+                  if (wordsEnglish == "acorn") {
+                    Routemaster.of(context).push('/english-acorn');
+                  }
+                  if (wordsEnglish == "acoustic") {
+                    Routemaster.of(context).push('/english-acoustic');
+                  }
+                  if (wordsEnglish == "acoustics") {
+                    Routemaster.of(context).push('/english-acoustics');
+                  }
+                  if (wordsEnglish == "acquaint") {
+                    Routemaster.of(context).push('/english-acquaint');
+                  }
+                  if (wordsEnglish == "acquaintance") {
+                    Routemaster.of(context).push('/english-acquaintance');
+                  }
+                  if (wordsEnglish == "acquainted") {
+                    Routemaster.of(context).push('/english-acquainted');
+                  }
+                  if (wordsEnglish == "acquiesce") {
+                    Routemaster.of(context).push('/english-acquiesce');
+                  }
+                  if (wordsEnglish == "acquiescence") {
+                    Routemaster.of(context).push('/english-acquiescence');
+                  }
+                  if (wordsEnglish == "acquire") {
+                    Routemaster.of(context).push('/english-acquire');
+                  }
+                  if (wordsEnglish == "acquisition") {
+                    Routemaster.of(context).push('/english-acquisition');
+                  }
+                  if (wordsEnglish == "acquisitive") {
+                    Routemaster.of(context).push('/english-acquisitive');
+                  }
+                  if (wordsEnglish == "acquit") {
+                    Routemaster.of(context).push('/english-acquit');
+                  }
+                  if (wordsEnglish == "acquittal") {
+                    Routemaster.of(context).push('/english-acquittal');
+                  }
+                  if (wordsEnglish == "acre") {
+                    Routemaster.of(context).push('/english-acre');
+                  }
+                  if (wordsEnglish == "acreage") {
+                    Routemaster.of(context).push('/english-acreage');
+                  }
+                  if (wordsEnglish == "acrid") {
+                    Routemaster.of(context).push('/english-acrid');
+                  }
+                  if (wordsEnglish == "acrimonious") {
+                    Routemaster.of(context).push('/english-acrimonious');
+                  }
+                  if (wordsEnglish == "acrimony") {
+                    Routemaster.of(context).push('/english-acrimony');
+                  }
+                  if (wordsEnglish == "acrobat") {
+                    Routemaster.of(context).push('/english-acrobat');
+                  }
+                  if (wordsEnglish == "acrobatic") {
+                    Routemaster.of(context).push('/english-acrobatic');
+                  }
+                  if (wordsEnglish == "acrobatics") {
+                    Routemaster.of(context).push('/english-acrobatics');
+                  }
+                  if (wordsEnglish == "acronym") {
+                    Routemaster.of(context).push('/english-acronym');
+                  }
+                  if (wordsEnglish == "across") {
+                    Routemaster.of(context).push('/english-across');
+                  }
+                  if (wordsEnglish == "acrylic") {
+                    Routemaster.of(context).push('/english-acrylic');
+                  }
+                  if (wordsEnglish == "act") {
+                    Routemaster.of(context).push('/english-act');
+                  }
+                  if (wordsEnglish == "action") {
+                    Routemaster.of(context).push('/english-action');
+                  }
+                  if (wordsEnglish == "activate") {
+                    Routemaster.of(context).push('/english-activate');
+                  }
+                  if (wordsEnglish == "active") {
+                    Routemaster.of(context).push('/english-active');
+                  }
+                  if (wordsEnglish == "actively") {
+                    Routemaster.of(context).push('/english-actively');
+                  }
+                  if (wordsEnglish == "activist") {
+                    Routemaster.of(context).push('/english-activist');
+                  }
+                  if (wordsEnglish == "activity") {
+                    Routemaster.of(context).push('/english-activity');
+                  }
+                  if (wordsEnglish == "actor") {
+                    Routemaster.of(context).push('/english-actor');
+                  }
+                  if (wordsEnglish == "actress") {
+                    Routemaster.of(context).push('/english-actress');
+                  }
+                  if (wordsEnglish == "actual") {
+                    Routemaster.of(context).push('/english-actual');
+                  }
+                  if (wordsEnglish == "actually") {
+                    Routemaster.of(context).push('/english-actually');
+                  }
+                  if (wordsEnglish == "acumen") {
+                    Routemaster.of(context).push('/english-acumen');
+                  }
+                  if (wordsEnglish == "acupuncture") {
+                    Routemaster.of(context).push('/english-acupuncture');
+                  }
+                  if (wordsEnglish == "acute") {
+                    Routemaster.of(context).push('/english-acute');
+                  }
+                  if (wordsEnglish == "acute accent") {
+                    Routemaster.of(context).push('/english-acute-accent');
+                  }
+                  if (wordsEnglish == "acute angle") {
+                    Routemaster.of(context).push('/english-acute-angle');
+                  }
+                  if (wordsEnglish == "acutely") {
+                    Routemaster.of(context).push('/english-acutely');
+                  }
+                  if (wordsEnglish == "acuteness") {
+                    Routemaster.of(context).push('/english-acuteness');
+                  }
+                  if (wordsEnglish == "ad") {
+                    Routemaster.of(context).push('/english-ad');
+                  }
+                  if (wordsEnglish == "adamant") {
+                    Routemaster.of(context).push('/english-adamant');
+                  }
+                  if (wordsEnglish == "Adam's apple") {
+                    Routemaster.of(context).push('/english-adams-apple');
+                  }
+                  if (wordsEnglish == "adapt") {
+                    Routemaster.of(context).push('/english-adapt');
+                  }
+                  if (wordsEnglish == "adaptable") {
+                    Routemaster.of(context).push('/english-adaptable');
+                  }
+                  if (wordsEnglish == "adaptation") {
+                    Routemaster.of(context).push('/english-adaptation');
+                  }
+                  if (wordsEnglish == "adaptor") {
+                    Routemaster.of(context).push('/english-adaptor');
+                  }
+                  if (wordsEnglish == "add") {
+                    Routemaster.of(context).push('/english-add');
+                  }
+                  if (wordsEnglish == "adder") {
+                    Routemaster.of(context).push('/english-adder');
+                  }
+                  if (wordsEnglish == "addict") {
+                    Routemaster.of(context).push('/english-addict');
+                  }
+                  if (wordsEnglish == "addicted") {
+                    Routemaster.of(context).push('/english-addicted');
+                  }
+                  if (wordsEnglish == "addiction") {
+                    Routemaster.of(context).push('/english-addiction');
+                  }
+                  if (wordsEnglish == "addictive") {
+                    Routemaster.of(context).push('/english-addictive');
+                  }
+                  if (wordsEnglish == "addition") {
+                    Routemaster.of(context).push('/english-addition');
+                  }
+                  if (wordsEnglish == "additional") {
+                    Routemaster.of(context).push('/english-additional');
+                  }
+                  if (wordsEnglish == "additionally") {
+                    Routemaster.of(context).push('/english-additionally');
+                  }
+                  if (wordsEnglish == "additive") {
+                    Routemaster.of(context).push('/english-additive');
+                  }
+                  if (wordsEnglish == "address") {
+                    Routemaster.of(context).push('/english-address');
+                  }
+                  if (wordsEnglish == "adept") {
+                    Routemaster.of(context).push('/english-adept');
+                  }
+                  if (wordsEnglish == "adequate") {
+                    Routemaster.of(context).push('/english-adequate');
+                  }
+                  if (wordsEnglish == "adequately") {
+                    Routemaster.of(context).push('/english-adequately');
+                  }
+                  if (wordsEnglish == "adhere") {
+                    Routemaster.of(context).push('/english-adhere');
+                  }
+                  if (wordsEnglish == "adhere to") {
+                    Routemaster.of(context).push('/english-adhere-to');
+                  }
+                  if (wordsEnglish == "adherence") {
+                    Routemaster.of(context).push('/english-adherence');
+                  }
+                  if (wordsEnglish == "adherent") {
+                    Routemaster.of(context).push('/english-adherent');
+                  }
+                  if (wordsEnglish == "adhesion") {
+                    Routemaster.of(context).push('/english-adhesion');
+                  }
+                  if (wordsEnglish == "adhesive") {
+                    Routemaster.of(context).push('/english-adhesive');
+                  }
+                  if (wordsEnglish == "ad hoc") {
+                    Routemaster.of(context).push('/english-ad-hoc');
+                  }
+                  if (wordsEnglish == "adjacent") {
+                    Routemaster.of(context).push('/english-adjacent');
+                  }
+                  if (wordsEnglish == "adjectival") {
+                    Routemaster.of(context).push('/english-adjectival');
+                  }
+                  if (wordsEnglish == "adjective") {
+                    Routemaster.of(context).push('/english-adjective');
+                  }
+                  if (wordsEnglish == "adjoin") {
+                    Routemaster.of(context).push('/english-adjoin');
+                  }
+                  if (wordsEnglish == "adjourn") {
+                    Routemaster.of(context).push('/english-adjourn');
+                  }
+                  if (wordsEnglish == "adjournment") {
+                    Routemaster.of(context).push('/english-adjournment');
+                  }
+                  if (wordsEnglish == "adjudicate") {
+                    Routemaster.of(context).push('/english-adjudicate');
+                  }
+                  if (wordsEnglish == "adjudication") {
+                    Routemaster.of(context).push('/english-adjudication');
+                  }
+                  if (wordsEnglish == "adjudicator") {
+                    Routemaster.of(context).push('/english-adjudicator');
+                  }
+                  if (wordsEnglish == "adjunct") {
+                    Routemaster.of(context).push('/english-adjunct');
+                  }
+                  if (wordsEnglish == "adjust") {
+                    Routemaster.of(context).push('/english-adjust');
+                  }
+                  if (wordsEnglish == "adjustable") {
+                    Routemaster.of(context).push('/english-adjustable');
+                  }
+                  if (wordsEnglish == "adjustment") {
+                    Routemaster.of(context).push('/english-adjustment');
+                  }
+                  if (wordsEnglish == "ad lib") {
+                    Routemaster.of(context).push('/english-ad-lib');
+                  }
+                  if (wordsEnglish == "administer") {
+                    Routemaster.of(context).push('/english-administer');
+                  }
+                  if (wordsEnglish == "administration") {
+                    Routemaster.of(context).push('/english-administration');
+                  }
+                  if (wordsEnglish == "administrative") {
+                    Routemaster.of(context).push('/english-administrative');
+                  }
+                  if (wordsEnglish == "administrator") {
+                    Routemaster.of(context).push('/english-administrator');
+                  }
+                  if (wordsEnglish == "admirable") {
+                    Routemaster.of(context).push('/english-admirable');
+                  }
+                  if (wordsEnglish == "admirably") {
+                    Routemaster.of(context).push('/english-admirably');
+                  }
+                  if (wordsEnglish == "admiral") {
+                    Routemaster.of(context).push('/english-admiral');
+                  }
+                  if (wordsEnglish == "admiration") {
+                    Routemaster.of(context).push('/english-admiration');
+                  }
+                  if (wordsEnglish == "admire") {
+                    Routemaster.of(context).push('/english-admire');
+                  }
+                  if (wordsEnglish == "admirer") {
+                    Routemaster.of(context).push('/english-admirer');
+                  }
+                  if (wordsEnglish == "admiring") {
+                    Routemaster.of(context).push('/english-admiring');
+                  }
+                  if (wordsEnglish == "admissible") {
+                    Routemaster.of(context).push('/english-admissible');
+                  }
+                  if (wordsEnglish == "admission") {
+                    Routemaster.of(context).push('/english-admission');
+                  }
+                  if (wordsEnglish == "admit") {
+                    Routemaster.of(context).push('/english-admit');
+                  }
+                  if (wordsEnglish == "admittance") {
+                    Routemaster.of(context).push('/english-admittance');
+                  }
+                  if (wordsEnglish == "admittedly") {
+                    Routemaster.of(context).push('/english-admittedly');
+                  }
+                  if (wordsEnglish == "admonish") {
+                    Routemaster.of(context).push('/english-admonish');
+                  }
+                  if (wordsEnglish == "ad nauseam") {
+                    Routemaster.of(context).push('/english-ad-nauseam');
+                  }
+                  if (wordsEnglish == "adolescence") {
+                    Routemaster.of(context).push('/english-adolescence');
+                  }
+                  if (wordsEnglish == "adolescent") {
+                    Routemaster.of(context).push('/english-adolescent');
+                  }
+                  if (wordsEnglish == "adopt") {
+                    Routemaster.of(context).push('/english-adopt');
+                  }
+                  if (wordsEnglish == "adoption") {
+                    Routemaster.of(context).push('/english-adoption');
+                  }
+                  if (wordsEnglish == "adoptive") {
+                    Routemaster.of(context).push('/english-adoptive');
+                  }
+                  if (wordsEnglish == "adorable") {
+                    Routemaster.of(context).push('/english-adorable');
+                  }
+                  if (wordsEnglish == "adoration") {
+                    Routemaster.of(context).push('/english-adoration');
+                  }
+                  if (wordsEnglish == "adore") {
+                    Routemaster.of(context).push('/english-adore');
+                  }
+                  if (wordsEnglish == "adorn") {
+                    Routemaster.of(context).push('/english-adorn');
+                  }
+                  if (wordsEnglish == "adornment") {
+                    Routemaster.of(context).push('/english-adornment');
+                  }
+                  if (wordsEnglish == "adrenaline") {
+                    Routemaster.of(context).push('/english-adrenaline');
+                  }
+                  if (wordsEnglish == "adrift") {
+                    Routemaster.of(context).push('/english-adrift');
+                  }
+                  if (wordsEnglish == "adult") {
+                    Routemaster.of(context).push('/english-adult');
+                  }
+                  if (wordsEnglish == "adulation") {
+                    Routemaster.of(context).push('/english-adulation');
+                  }
+                  if (wordsEnglish == "adulterate") {
+                    Routemaster.of(context).push('/english-adulterate');
+                  }
+                  if (wordsEnglish == "adulterer") {
+                    Routemaster.of(context).push('/english-adulterer');
+                  }
+                  if (wordsEnglish == "adulterous") {
+                    Routemaster.of(context).push('/english-adulterous');
+                  }
+                  if (wordsEnglish == "adultery") {
+                    Routemaster.of(context).push('/english-adultery');
+                  }
+                  if (wordsEnglish == "adulthood") {
+                    Routemaster.of(context).push('/english-adulthood');
+                  }
+                  if (wordsEnglish == "advance") {
+                    Routemaster.of(context).push('/english-advance');
+                  }
+                  if (wordsEnglish == "advanced") {
+                    Routemaster.of(context).push('/english-advanced');
+                  }
+                  if (wordsEnglish == "advancement") {
+                    Routemaster.of(context).push('/english-advancement');
+                  }
+                  if (wordsEnglish == "advantage") {
+                    Routemaster.of(context).push('/english-advantage');
+                  }
+                  if (wordsEnglish == "advantageous") {
+                    Routemaster.of(context).push('/english-advantageous');
+                  }
+                  if (wordsEnglish == "advent") {
+                    Routemaster.of(context).push('/english-advent');
+                  }
+                  if (wordsEnglish == "adventure") {
+                    Routemaster.of(context).push('/english-adventure');
+                  }
+                  if (wordsEnglish == "adventurer") {
+                    Routemaster.of(context).push('/english-adventurer');
+                  }
+                  if (wordsEnglish == "adventurous") {
+                    Routemaster.of(context).push('/english-adventurous');
+                  }
+                  if (wordsEnglish == "adverb") {
+                    Routemaster.of(context).push('/english-adverb');
+                  }
+                  if (wordsEnglish == "adverbial") {
+                    Routemaster.of(context).push('/english-adverbial');
+                  }
+                  if (wordsEnglish == "adversary") {
+                    Routemaster.of(context).push('/english-adversary');
+                  }
+                  if (wordsEnglish == "adverse") {
+                    Routemaster.of(context).push('/english-adverse');
+                  }
+                  if (wordsEnglish == "adversely") {
+                    Routemaster.of(context).push('/english-adversely');
+                  }
+                  if (wordsEnglish == "adversity") {
+                    Routemaster.of(context).push('/english-adversity');
+                  }
+                  if (wordsEnglish == "advert") {
+                    Routemaster.of(context).push('/english-advert');
+                  }
+                  if (wordsEnglish == "advertise") {
+                    Routemaster.of(context).push('/english-advertise');
+                  }
+                  if (wordsEnglish == "advertisement") {
+                    Routemaster.of(context).push('/english-advertisement');
+                  }
+                  if (wordsEnglish == "advertiser") {
+                    Routemaster.of(context).push('/english-advertiser');
+                  }
+                  if (wordsEnglish == "advertising") {
+                    Routemaster.of(context).push('/english-advertising');
+                  }
+                  if (wordsEnglish == "advice") {
+                    Routemaster.of(context).push('/english-advice');
+                  }
+                  if (wordsEnglish == "advisable") {
+                    Routemaster.of(context).push('/english-advisable');
+                  }
+                  if (wordsEnglish == "advise") {
+                    Routemaster.of(context).push('/english-advise');
+                  }
+                  if (wordsEnglish == "adviser") {
+                    Routemaster.of(context).push('/english-adviser');
+                  }
+                  if (wordsEnglish == "advisory") {
+                    Routemaster.of(context).push('/english-advisory');
+                  }
+                  if (wordsEnglish == "advocate") {
+                    Routemaster.of(context).push('/english-advocate');
+                  }
+                  if (wordsEnglish == "aerial") {
+                    Routemaster.of(context).push('/english-aerial');
+                  }
+                  if (wordsEnglish == "aerobatics") {
+                    Routemaster.of(context).push('/english-aerobatics');
+                  }
+                  if (wordsEnglish == "aerobics") {
+                    Routemaster.of(context).push('/english-aerobics');
+                  }
+                  if (wordsEnglish == "aerodynamic") {
+                    Routemaster.of(context).push('/english-aerodynamic');
+                  }
+                  if (wordsEnglish == "aerodynamics") {
+                    Routemaster.of(context).push('/english-aerodynamics');
+                  }
+                  if (wordsEnglish == "aeronautics") {
+                    Routemaster.of(context).push('/english-aeronautics');
+                  }
+                  if (wordsEnglish == "aeroplane") {
+                    Routemaster.of(context).push('/english-aeroplane');
+                  }
+                  if (wordsEnglish == "aerosol") {
+                    Routemaster.of(context).push('/english-aerosol');
+                  }
+                  if (wordsEnglish == "aerospace") {
+                    Routemaster.of(context).push('/english-aerospace');
+                  }
+                  if (wordsEnglish == "aesthetic") {
+                    Routemaster.of(context).push('/english-aesthetic');
+                  }
+                  if (wordsEnglish == "aesthetically") {
+                    Routemaster.of(context).push('/english-aesthetically');
+                  }
+                  if (wordsEnglish == "affable") {
+                    Routemaster.of(context).push('/english-affable');
+                  }
+                  if (wordsEnglish == "affably") {
+                    Routemaster.of(context).push('/english-affably');
+                  }
+                  if (wordsEnglish == "affair") {
+                    Routemaster.of(context).push('/english-affair');
+                  }
+                  if (wordsEnglish == "affect") {
+                    Routemaster.of(context).push('/english-affect');
+                  }
+                  if (wordsEnglish == "affectation") {
+                    Routemaster.of(context).push('/english-affectation');
+                  }
+                  if (wordsEnglish == "affected") {
+                    Routemaster.of(context).push('/english-affected');
+                  }
+                  if (wordsEnglish == "affection") {
+                    Routemaster.of(context).push('/english-affection');
+                  }
+                  if (wordsEnglish == "affectionate") {
+                    Routemaster.of(context).push('/english-affectionate');
+                  }
+                  if (wordsEnglish == "affectionately") {
+                    Routemaster.of(context).push('/english-affectionately');
+                  }
+                  if (wordsEnglish == "affidavit") {
+                    Routemaster.of(context).push('/english-affidavit');
+                  }
+                  if (wordsEnglish == "affiliate") {
+                    Routemaster.of(context).push('/english-affiliate');
+                  }
+                  if (wordsEnglish == "affiliation") {
+                    Routemaster.of(context).push('/english-affiliation');
+                  }
+                  if (wordsEnglish == "affinity") {
+                    Routemaster.of(context).push('/english-affinity');
+                  }
+                  if (wordsEnglish == "affirm") {
+                    Routemaster.of(context).push('/english-affirm');
+                  }
+                  if (wordsEnglish == "affirmation") {
+                    Routemaster.of(context).push('/english-affirmation');
+                  }
+                  if (wordsEnglish == "affirmative") {
+                    Routemaster.of(context).push('/english-affirmative');
+                  }
+                  if (wordsEnglish == "affix") {
+                    Routemaster.of(context).push('/english-affix');
+                  }
+                  if (wordsEnglish == "afflict") {
+                    Routemaster.of(context).push('/english-afflict');
+                  }
+                  if (wordsEnglish == "affliction") {
+                    Routemaster.of(context).push('/english-affliction');
+                  }
+                  if (wordsEnglish == "affluence") {
+                    Routemaster.of(context).push('/english-affluence');
+                  }
+                  if (wordsEnglish == "affluent") {
+                    Routemaster.of(context).push('/english-affluent');
+                  }
+                  if (wordsEnglish == "afford") {
+                    Routemaster.of(context).push('/english-afford');
+                  }
+                  if (wordsEnglish == "affront") {
+                    Routemaster.of(context).push('/english-affront');
+                  }
+                  if (wordsEnglish == "afloat") {
+                    Routemaster.of(context).push('/english-afloat');
+                  }
+                  if (wordsEnglish == "afoot") {
+                    Routemaster.of(context).push('/english-afoot');
+                  }
+                  if (wordsEnglish == "aforementioned") {
+                    Routemaster.of(context).push('/english-aforementioned');
+                  }
+                  if (wordsEnglish == "afraid") {
+                    Routemaster.of(context).push('/english-afraid');
+                  }
+                  if (wordsEnglish == "afresh") {
+                    Routemaster.of(context).push('/english-afresh');
+                  }
+                  if (wordsEnglish == "after") {
+                    Routemaster.of(context).push('/english-after');
+                  }
+                  if (wordsEnglish == "aftereffect") {
+                    Routemaster.of(context).push('/english-aftereffect');
+                  }
+                  if (wordsEnglish == "aftermath") {
+                    Routemaster.of(context).push('/english-aftermath');
+                  }
+                  if (wordsEnglish == "afternoon") {
+                    Routemaster.of(context).push('/english-afternoon');
+                  }
+                  if (wordsEnglish == "afterthought") {
+                    Routemaster.of(context).push('/english-afterthought');
+                  }
+                  if (wordsEnglish == "afterwards") {
+                    Routemaster.of(context).push('/english-afterwards');
+                  }
+                  if (wordsEnglish == "again") {
+                    Routemaster.of(context).push('/english-again');
+                  }
+                  if (wordsEnglish == "against") {
+                    Routemaster.of(context).push('/english-against');
+                  }
+                  if (wordsEnglish == "age") {
+                    Routemaster.of(context).push('/english-age');
+                  }
+                  if (wordsEnglish == "aged") {
+                    Routemaster.of(context).push('/english-aged');
+                  }
+                  if (wordsEnglish == "age group") {
+                    Routemaster.of(context).push('/english-age-group');
+                  }
+                  if (wordsEnglish == "ageing") {
+                    Routemaster.of(context).push('/english-ageing');
+                  }
+                  if (wordsEnglish == "ageism") {
+                    Routemaster.of(context).push('/english-ageism');
+                  }
+                  if (wordsEnglish == "ageist") {
+                    Routemaster.of(context).push('/english-ageist');
+                  }
+                  if (wordsEnglish == "age limit") {
+                    Routemaster.of(context).push('/english-age-limit');
+                  }
+                  if (wordsEnglish == "agency") {
+                    Routemaster.of(context).push('/english-agency');
+                  }
+                  if (wordsEnglish == "agenda") {
+                    Routemaster.of(context).push('/english-agenda');
+                  }
+                  if (wordsEnglish == "agent") {
+                    Routemaster.of(context).push('/english-agent');
+                  }
+                  if (wordsEnglish == "age-old") {
+                    Routemaster.of(context).push('/english-age-old');
+                  }
+                  if (wordsEnglish == "aggravate") {
+                    Routemaster.of(context).push('/english-aggravate');
+                  }
+                  if (wordsEnglish == "aggravation") {
+                    Routemaster.of(context).push('/english-aggravation');
+                  }
+                  if (wordsEnglish == "aggregate") {
+                    Routemaster.of(context).push('/english-aggregate');
+                  }
+                  if (wordsEnglish == "aggression") {
+                    Routemaster.of(context).push('/english-aggression');
+                  }
+                  if (wordsEnglish == "aggressive") {
+                    Routemaster.of(context).push('/english-aggressive');
+                  }
+                  if (wordsEnglish == "aggressively") {
+                    Routemaster.of(context).push('/english-aggressively');
+                  }
+                  if (wordsEnglish == "aggressiveness") {
+                    Routemaster.of(context).push('/english-aggressiveness');
+                  }
+                  if (wordsEnglish == "aggressor") {
+                    Routemaster.of(context).push('/english-aggressor');
+                  }
+                  if (wordsEnglish == "aggrieved") {
+                    Routemaster.of(context).push('/english-aggrieved');
+                  }
+                  if (wordsEnglish == "aghast") {
+                    Routemaster.of(context).push('/english-aghast');
+                  }
+                  if (wordsEnglish == "agile") {
+                    Routemaster.of(context).push('/english-agile');
+                  }
+                  if (wordsEnglish == "agility") {
+                    Routemaster.of(context).push('/english-agility');
+                  }
+                  if (wordsEnglish == "aging") {
+                    Routemaster.of(context).push('/english-aging');
+                  }
+                  if (wordsEnglish == "agitate") {
+                    Routemaster.of(context).push('/english-agitate');
+                  }
+                  if (wordsEnglish == "agitation") {
+                    Routemaster.of(context).push('/english-agitation');
+                  }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  if (wordsEnglish == "come of age") {
+                    Routemaster.of(context).push('/english-come-of-age');
+                  }
+                  if (wordsEnglish == "far afield") {
+                    Routemaster.of(context).push('/english-far-afield');
+                  }
+                  if (wordsEnglish == "from afar") {
+                    Routemaster.of(context).push('/english-from-afar');
+                  }
+                  if (wordsEnglish == "under age") {
+                    Routemaster.of(context).push('/english-under-age');
+                  }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                },
+              ),
             ),
           ),
         ],
@@ -3616,18 +1707,16 @@ class EnglishDictionary extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scrollbar(
-      child: ListView.builder(
-        itemCount: words.length,
-        itemBuilder: (BuildContext context, int index) {
-          return ListTileEnglish(
-            wordsEnglish: words[index],
-            onTap: () {
-              onTapWord(words[index]);
-            },
-          );
-        },
-      ),
+    return ListView.builder(
+      itemCount: words.length,
+      itemBuilder: (BuildContext context, int index) {
+        return ListTileEnglish(
+          wordsEnglish: words[index],
+          onTap: () {
+            onTapWord(words[index]);
+          },
+        );
+      },
     );
   }
 }

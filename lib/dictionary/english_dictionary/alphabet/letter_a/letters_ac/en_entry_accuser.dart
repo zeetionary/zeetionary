@@ -3,12 +3,12 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/home/screens/home_screen.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntrytheaccuser - replace speakAccuser - replace accuser - /əˈkjuːzə(r)/ - find Dopsum2
+// replace these: replace EnglishEntryaccuser - replace speakAccuser - replace accuser - /əˈkjuːzə(r)/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntrytheaccuser extends StatelessWidget {
-  EnglishEntrytheaccuser({Key? key}) : super(key: key);
+class EnglishEntryaccuser extends StatelessWidget {
+  EnglishEntryaccuser({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakAccuser(String languageCode) async {

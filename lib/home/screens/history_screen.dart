@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:zeetionary/home/screens/home_screen.dart';
+import 'package:zeetionary/constants.dart';
 
 // class HistoryScreenMain extends StatelessWidget {
 //   const HistoryScreenMain({Key? key}) : super(key: key);

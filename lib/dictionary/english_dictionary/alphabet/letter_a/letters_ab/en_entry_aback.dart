@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import 'package:zeetionary/home/screens/home_screen.dart';
+import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 enum TtsState { playing }
@@ -32,17 +32,15 @@ class EnglishEntryaback extends StatelessWidget {
       length: 4,
       child: Scaffold(
         appBar: AppBar(
+          // centerTitle: true,
           title: const ZeetionaryAppbar(),
+          // leading: IconButton(
+          //   icon: const Icon(Icons.arrow_back_ios_new),
+          //   onPressed: () {
+          //     Navigator.of(context).pop();
+          //   },
+          // ),
         ),
-        // appBar: AppBar(
-        //   title: const ZeetionaryAppbar(),
-        //   leading: IconButton(
-        //     icon: const Icon(Icons.arrow_back_ios_new),
-        //     onPressed: () {
-        //       Navigator.of(context).pop();
-        //     },
-        //   ),
-        // ),
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),

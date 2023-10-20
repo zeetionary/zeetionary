@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:zeetionary/questions/question_screen.dart';
 import 'package:zeetionary/quiz/quiz_screen.dart';
 import 'package:zeetionary/grammar/grammar_screen.dart';
@@ -19,4 +20,33 @@ class Constants {
     const QuestionsScreen(),
     const QuizScreen(),
   ];
+}
+
+class ZeetionaryAppbar extends StatelessWidget {
+  const ZeetionaryAppbar({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return ShaderMask(
+      shaderCallback: (Rect bounds) {
+        return const LinearGradient(
+          colors: [
+            Color.fromARGB(255, 142, 154, 215),
+            Color.fromARGB(255, 219, 84, 84)
+          ], // Define your gradient colors here
+          tileMode: TileMode.clamp,
+        ).createShader(bounds);
+      },
+      child: const Text(
+        'Zeetionary',
+        style: TextStyle(
+          fontSize: 24.0, // Adjust font size as needed
+          fontWeight: FontWeight.bold, // Adjust font weight as needed
+          color: Colors.white, // Text color (will be masked by the gradient)
+        ),
+      ),
+    );
+  }
 }

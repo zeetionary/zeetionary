@@ -28,9 +28,7 @@ class _HistoryScreenState extends State<HistoryScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const ZeetionaryAppbar(),
-      ),
+      appBar: ZeetionaryAppbar(),
       body: Column(
         children: <Widget>[
           Padding(

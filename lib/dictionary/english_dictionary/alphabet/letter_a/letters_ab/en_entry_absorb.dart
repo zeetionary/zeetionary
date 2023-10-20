@@ -78,9 +78,7 @@ class EnglishEntryabsorb extends StatelessWidget {
     return DefaultTabController(
       length: 9,
       child: Scaffold(
-        appBar: AppBar(
-          title: const ZeetionaryAppbar(),
-        ),
+        appBar: ZeetionaryAppbar(),
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),

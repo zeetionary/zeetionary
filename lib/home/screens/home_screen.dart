@@ -48,7 +48,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       appBar: AppBar(
         // centerTitle: true,
         scrolledUnderElevation: 0,
-        title: const ZeetionaryAppbar(),
+        title: const ZeetionaryAppbarStyle(),
         leading: Builder(builder: (context) {
           return IconButton(
             icon: const Icon(Icons.menu),

@@ -31,16 +31,7 @@ class EnglishEntryaback extends StatelessWidget {
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: AppBar(
-          // centerTitle: true,
-          title: const ZeetionaryAppbar(),
-          // leading: IconButton(
-          //   icon: const Icon(Icons.arrow_back_ios_new),
-          //   onPressed: () {
-          //     Navigator.of(context).pop();
-          //   },
-          // ),
-        ),
+        appBar: ZeetionaryAppbar(),
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),

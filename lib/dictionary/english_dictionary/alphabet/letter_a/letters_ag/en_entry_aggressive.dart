@@ -60,9 +60,7 @@ class EnglishEntryaggressive extends StatelessWidget {
     return DefaultTabController(
       length: 10, // 2 + VIDEOS FIND: YoutubeEmbeddedone
       child: Scaffold(
-        appBar: AppBar(
-          title: const ZeetionaryAppbar(),
-        ),
+        appBar: ZeetionaryAppbar(),
         body: Padding(
           padding:
               const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),

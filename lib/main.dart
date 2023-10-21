@@ -14,6 +14,17 @@ import 'package:zeetionary/firebase_options.dart';
 import 'package:zeetionary/router.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
+// flutter clean AND flutter clean -v AND flutter doctor
+// flutter pub get
+// flutter channel stable
+// flutter run AND flutter run --release -v
+// adb uninstall com.example.zeetionary
+// flutter build apk
+// flutter upgrade AND flutter upgrade -v
+// flutter pub cache repair -v (Disclaimer: It will download each and every version of all the packages)
+// taskkill /f /im dart*
+// taskkill /f /im adb* (You can run "adb kill-server" too)
+
 void main() async {
   // WidgetsFlutterBinding.ensureInitialized();
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();

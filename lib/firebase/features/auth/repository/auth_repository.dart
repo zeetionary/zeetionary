@@ -84,3 +84,5 @@ class AuthRepository {
     await _auth.signOut();
   }
 }
+
+// August SHA certificate fingerprints 82:60:bf:89:f8:2c:b8:5f:f9:11:59:37:53:e1:d9:e2:42:54:47:88

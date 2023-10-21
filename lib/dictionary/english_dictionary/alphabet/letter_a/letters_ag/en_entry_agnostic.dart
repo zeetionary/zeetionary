@@ -3,45 +3,46 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryaglow - replace speakAglow - replace aglow - /əˈɡləʊ/ - find Dopsum2
+// replace these: replace EnglishEntryagnostic - replace speakAgnostic - replace agnostic - /æɡˈnɒstɪk/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryaglow extends StatelessWidget {
-  EnglishEntryaglow({Key? key}) : super(key: key);
+class EnglishEntryagnostic extends StatelessWidget {
+  EnglishEntryagnostic({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAglow(String languageCode) async {
-    // DOPSUM: CHANGE speakAglow
+  Future<void> speakAgnostic(String languageCode) async {
+    // DOPSUM: CHANGE speakAgnostic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aglow"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("agnostic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAg4599(String languageCode) async {
-    // DOPSUM: CHANGE speakAglow
+  Future<void> speakAgnos15666(String languageCode) async {
+    // DOPSUM: CHANGE speakAgnostic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His face was all aglow with excitement."); // DOPSUM: CHANGE TEXT
+        "Although he was raised a Catholic, he was an agnostic for most of his adult life."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAglow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAglow
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aglow"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAg45822(String languageCode) async {
+    // DOPSUM: CHANGE speakAgnostic
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Whether we are religious, atheist, or agnostic, there are some moral values we all share."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAglow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAglow
+  // Future<void> speakAgnostic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAgnostic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aglow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agnostic"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -65,7 +66,7 @@ class EnglishEntryaglow extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "aglow", // DOPSUM: CHANGE WORD ENTRY - Find /əˈɡləʊ/
+                              "agnostic", // DOPSUM: CHANGE WORD ENTRY - Find /æɡˈnɒstɪk/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -81,7 +82,7 @@ class EnglishEntryaglow extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈɡləʊ/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /æɡˈnɒstɪk/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -91,7 +92,7 @@ class EnglishEntryaglow extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAglow(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAgnostic(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -99,7 +100,7 @@ class EnglishEntryaglow extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈɡləʊ/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /æɡˈnɑːstɪk/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -108,7 +109,7 @@ class EnglishEntryaglow extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAglow(
+                              onPressed: () => speakAgnostic(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -158,9 +159,9 @@ class EnglishEntryaglow extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: ورشن، گەش، بریقەدار، درەوشاوە، ڕووناک، سورەوەبوو
+کوردی: نازانم‌بێژ، نازانم‌باوەڕ (= کەسێ کە پێی‌وایە ھیچ شتێ ناتوانرێ دەربارەی بوون یان سروشتی خوداوە (یان دوایین ھۆ) بزانرێ (و لە زانینیش نایەن) بێجگەلە شتە مادی‌یەکان)
 
-١. (ھاوەڵناو) بریقانەوە بە ڕەنگ و درەوشانەوە''',
+١. (ناو) کەسێک کە باوەڕی وایە ناتوانرێت بزانرێت خودا بوونی ھەیە یان نا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -170,7 +171,7 @@ class EnglishEntryaglow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "His face was all aglow with excitement.",
+                                    "Although he was raised a Catholic, he was an agnostic for most of his adult life.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -184,7 +185,7 @@ class EnglishEntryaglow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕووخساری لە خۆشیدا دەدرەوشایەوە",
+                                    "ئەگەرچی وەک کاسۆلیکێک گەورە کرا، بەڵام زۆرینەی تەمەنی پێگەشتوویی وەک ئەگنۆستیکێک بەسەربرد",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -196,7 +197,7 @@ class EnglishEntryaglow extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAg4599("en-GB"),
+                                onPressed: () => speakAgnos15666("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -204,9 +205,62 @@ class EnglishEntryaglow extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAg4599(// REPLACE: aglow /əˈɡləʊ/
-                                        "en-US"),
+                                onPressed: () => speakAgnos15666(
+                                    // REPLACE: agnostic /æɡˈnɑːstɪk/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٢. (ھاوەڵناو) ھەڵگری باوەڕی ئەگنۆستیکس''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Whether we are religious, atheist, or agnostic, there are some moral values we all share.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ئەوەی کە ئایینی، بێدین، یان ئەگنۆستیک بوو نازانرێت",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAg45822("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAg45822(
+                                    // REPLACE: agnostic /æɡˈnɑːstɪk/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -254,9 +308,15 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: aglow 
-1. Softly bright or radiant (= lambent, lucent, luminous)
-"a house aglow with lights";
+- Noun: agnostic (Derived forms: agnostics)
+1. Someone who is doubtful or noncommittal about something (= doubter)
+ 
+2. A person who claims that they cannot have true knowledge about the existence of God (but does not deny that God might exist)
+
+- Adjective: agnostic
+1. Of or pertaining to an agnostic or agnosticism
+ 
+2. Uncertain of all claims to knowledge (= agnostical)
 '''),
         ],
       ),
@@ -267,7 +327,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '1T_XQRl5ujQ';
+  static String myVideoId = 'ekNaONTnZTE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -275,7 +335,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 30, // DOPSUM: CHANGE IT
+      startAt: 109, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -294,7 +354,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'z0fEm3xYKfE';
+  static String myVideoId = '5rh_QyvDs9A';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -302,7 +362,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 71, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -321,7 +381,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'YlcRtHpwRi8';
+  static String myVideoId = 'uk8TM2DIRcU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -329,7 +389,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 612, // DOPSUM: CHANGE IT
+      startAt: 4, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -348,7 +408,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'Y_6aYGfUkdc';
+  static String myVideoId = 'MUY73E-olf0';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -356,7 +416,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 850, // DOPSUM: CHANGE IT
+      startAt: 231, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -375,7 +435,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '1Pd24_2UNjM';
+  static String myVideoId = 'OnyTyUU6juA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -383,7 +443,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 424, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -402,7 +462,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'N5qObNHNP5c';
+  static String myVideoId = '3DxMSufIIqY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -410,7 +470,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 378, // DOPSUM: CHANGE IT
+      startAt: 158, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -429,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'YHsbuyfYNRw';
+  static String myVideoId = 'jeyVV9Ckpt4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -437,7 +497,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1170, // DOPSUM: CHANGE IT
+      startAt: 25, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -456,7 +516,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'S3scaQS65iU';
+  static String myVideoId = 'uCM0Tvp6Dko';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -464,7 +524,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 306, // DOPSUM: CHANGE IT
+      startAt: 739, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

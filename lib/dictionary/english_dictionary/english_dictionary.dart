@@ -402,6 +402,9 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "agitation",
     "agitator",
     "aglow",
+    "AGM",
+    "agnostic",
+    "agonized",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -1641,21 +1644,21 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "agitation") {
                     Routemaster.of(context).push('/english-agitation');
                   }
+                  if (wordsEnglish == "agitator") {
+                    Routemaster.of(context).push('/english-agitator');
+                  }
                   if (wordsEnglish == "aglow") {
                     Routemaster.of(context).push('/english-aglow');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "AGM") {
+                    Routemaster.of(context).push('/english-agm');
+                  }
+                  if (wordsEnglish == "agnostic") {
+                    Routemaster.of(context).push('/english-agnostic');
+                  }
+                  if (wordsEnglish == "agonized") {
+                    Routemaster.of(context).push('/english-agonized');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push('/english-DOPSUM');
                   // }

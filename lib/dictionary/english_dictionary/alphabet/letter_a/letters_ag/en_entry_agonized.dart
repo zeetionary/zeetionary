@@ -3,51 +3,51 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryaglow - replace speakAglow - replace aglow - /əˈɡləʊ/ - find Dopsum2
+// replace these: replace EnglishEntryagonized - replace speakAgonized - replace agonized - /ˈæɡənaɪzd/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryaglow extends StatelessWidget {
-  EnglishEntryaglow({Key? key}) : super(key: key);
+class EnglishEntryagonized extends StatelessWidget {
+  EnglishEntryagonized({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAglow(String languageCode) async {
-    // DOPSUM: CHANGE speakAglow
+  Future<void> speakAgonized(String languageCode) async {
+    // DOPSUM: CHANGE speakAgonized
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aglow"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("agonized"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAg4599(String languageCode) async {
-    // DOPSUM: CHANGE speakAglow
+  Future<void> speakAgonized147(String languageCode) async {
+    // DOPSUM: CHANGE speakAgonized
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His face was all aglow with excitement."); // DOPSUM: CHANGE TEXT
+        "After five months of agonized debate they signed the treaty."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAglow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAglow
+  // Future<void> speakAgonized(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAgonized
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aglow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agonized"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAglow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAglow
+  // Future<void> speakAgonized(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAgonized
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aglow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agonized"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 10, // 2 + VIDEOS FIND: YoutubeEmbeddedone
+      length: 8, // 2 + VIDEOS FIND: YoutubeEmbeddedone
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -65,7 +65,7 @@ class EnglishEntryaglow extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "aglow", // DOPSUM: CHANGE WORD ENTRY - Find /əˈɡləʊ/
+                              "agonized", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæɡənaɪzd/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -81,7 +81,7 @@ class EnglishEntryaglow extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈɡləʊ/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /ˈæɡənaɪzd/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -91,7 +91,7 @@ class EnglishEntryaglow extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAglow(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAgonized(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -99,7 +99,7 @@ class EnglishEntryaglow extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈɡləʊ/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /ˈæɡənaɪzd/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -108,7 +108,7 @@ class EnglishEntryaglow extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAglow(
+                              onPressed: () => speakAgonized(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -129,8 +129,8 @@ class EnglishEntryaglow extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(), // FIND: 2,
-                  VideoIconForTab(),
-                  VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -158,9 +158,9 @@ class EnglishEntryaglow extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: ورشن، گەش، بریقەدار، درەوشاوە، ڕووناک، سورەوەبوو
+کوردی: ئازارچێشتوو، مەینەت‌بار، ئازاردیتوو، مەینەتی‌دیتوو، مەینەتی‌بەسەرھاتوو، دەردچێشتوو، ناڕەحەتی‌دیتوو، بەژان، بەسوێ، بەئێش
 
-١. (ھاوەڵناو) بریقانەوە بە ڕەنگ و درەوشانەوە''',
+١. (ھاوەڵناو) چەشتنی ئازار و پیشاندانی، یان نیگەرانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -170,7 +170,7 @@ class EnglishEntryaglow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "His face was all aglow with excitement.",
+                                    "After five months of agonized debate they signed the treaty.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -184,7 +184,7 @@ class EnglishEntryaglow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕووخساری لە خۆشیدا دەدرەوشایەوە",
+                                    "لەدوای پێنج مانگ مشتومڕی بەسوێ ڕێککەوتنەکەیان واژۆکرد",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -196,7 +196,7 @@ class EnglishEntryaglow extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAg4599("en-GB"),
+                                onPressed: () => speakAgonized147("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -204,9 +204,9 @@ class EnglishEntryaglow extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAg4599(// REPLACE: aglow /əˈɡləʊ/
-                                        "en-US"),
+                                onPressed: () => speakAgonized147(
+                                    // REPLACE: agonized /ˈæɡənaɪzd/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -219,8 +219,8 @@ class EnglishEntryaglow extends StatelessWidget {
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    YoutubeEmbeddedseven(),
-                    YoutubeEmbeddedeight(),
+                    // YoutubeEmbeddedseven(),
+                    // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
@@ -254,9 +254,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: aglow 
-1. Softly bright or radiant (= lambent, lucent, luminous)
-"a house aglow with lights";
+- Adjective: agonized  
+1. Expressing pain or agony (= agonised [Brit])
+"agonized screams";
 '''),
         ],
       ),
@@ -267,7 +267,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '1T_XQRl5ujQ';
+  static String myVideoId = 'iq6_iUhLHo4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -275,7 +275,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 30, // DOPSUM: CHANGE IT
+      startAt: 57, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -294,7 +294,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'z0fEm3xYKfE';
+  static String myVideoId = 'TZmy-HseMCE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -302,7 +302,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 9664, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -321,7 +321,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'YlcRtHpwRi8';
+  static String myVideoId = 'RzjF4kKzjaA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -329,7 +329,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 612, // DOPSUM: CHANGE IT
+      startAt: 4646, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -348,7 +348,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'Y_6aYGfUkdc';
+  static String myVideoId = '6XtuPck0b4U';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -356,7 +356,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 850, // DOPSUM: CHANGE IT
+      startAt: 23, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -375,7 +375,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '1Pd24_2UNjM';
+  static String myVideoId = 'nJ0aFq1ve0M';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -383,7 +383,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 424, // DOPSUM: CHANGE IT
+      startAt: 1092, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -402,7 +402,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'N5qObNHNP5c';
+  static String myVideoId = 'sf49XD7J7Bo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -410,66 +410,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 378, // DOPSUM: CHANGE IT
+      startAt: 134, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedsix({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'YHsbuyfYNRw';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 1170, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedseven({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'S3scaQS65iU';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 306, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedeight({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

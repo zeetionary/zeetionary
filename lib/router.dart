@@ -392,6 +392,19 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agitation.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agitator.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aglow.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agm.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agnostic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agonized.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/letters_fa/en_entry_far_afield.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/letters_fr/en_entry_from_afar.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_u/letters_un/en_entry_under_age.dart';
@@ -832,8 +845,9 @@ final loggedInRoute = RouteMap(routes: {
   '/english-agitation': (_) => MaterialPage(child: EnglishEntryagitation()),
   '/english-agitator': (_) => MaterialPage(child: EnglishEntryagitator()),
   '/english-aglow': (_) => MaterialPage(child: EnglishEntryaglow()),
-  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  '/english-agm': (_) => MaterialPage(child: EnglishEntryagm()),
+  '/english-agnostic': (_) => MaterialPage(child: EnglishEntryagnostic()),
+  '/english-agonized': (_) => MaterialPage(child: EnglishEntryagonized()),
   // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),

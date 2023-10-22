@@ -412,6 +412,8 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "agoraphobic",
     "agrarian",
     "agree",
+    "agreeable",
+    "agreeably",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -1687,18 +1689,18 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "agree") {
                     Routemaster.of(context).push('/english-agree');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "DOPSUM") {
+                    Routemaster.of(context).push('/english-DOPSUM');
+                  }
+                  if (wordsEnglish == "DOPSUM") {
+                    Routemaster.of(context).push('/english-DOPSUM');
+                  }
+                  if (wordsEnglish == "agreeable") {
+                    Routemaster.of(context).push('/english-agreeable');
+                  }
+                  if (wordsEnglish == "agreeably") {
+                    Routemaster.of(context).push('/english-agreeably');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push('/english-DOPSUM');
                   // }

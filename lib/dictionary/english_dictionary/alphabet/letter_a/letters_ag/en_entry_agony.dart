@@ -216,7 +216,7 @@ class EnglishEntryagony extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "/ˈæɡəniJack collapsed in agony on the floor./",
+                                    "Jack collapsed in agony on the floor.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),

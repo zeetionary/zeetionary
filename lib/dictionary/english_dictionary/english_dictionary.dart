@@ -415,6 +415,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "agreeable",
     "agreeably",
     "agreement",
+    "agriculture",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -1704,9 +1705,9 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "agreement") {
                     Routemaster.of(context).push('/english-agreement');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "agriculture") {
+                    Routemaster.of(context).push('/english-agriculture');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push('/english-DOPSUM');
                   // }

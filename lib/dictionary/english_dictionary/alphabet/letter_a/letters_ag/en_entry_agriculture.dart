@@ -184,7 +184,7 @@ class EnglishEntryagriculture extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کشتوکاڵ لە زۆر وڵات هێشتا هەر پشت بە ڕێگا باوە کۆنەکان دەبەستێت بەزۆری",
+                                    "کشتوکاڵ لە زۆر وڵات ھێشتا ھەر پشت بە ڕێگا باوە کۆنەکان دەبەستێت بەزۆری",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

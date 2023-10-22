@@ -406,6 +406,7 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agreeably.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agreement.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agriculture.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agricultural.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
@@ -868,7 +869,8 @@ final loggedInRoute = RouteMap(routes: {
   '/english-agreeably': (_) => MaterialPage(child: EnglishEntryagreeably()),
   '/english-agreement': (_) => MaterialPage(child: EnglishEntryagreement()),
   '/english-agriculture': (_) => MaterialPage(child: EnglishEntryagriculture()),
-  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  '/english-agricultural': (_) =>
+      MaterialPage(child: EnglishEntryagricultural()),
   // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),

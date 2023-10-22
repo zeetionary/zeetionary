@@ -34,7 +34,7 @@ class EnglishEntryagreement extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The agreement (= the document recording the agreement) was signed during a meeting at the UN."); // DOPSUM: CHANGE TEXT
+        "The agreement was signed during a meeting at the UN."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAgreem3544(String languageCode) async {

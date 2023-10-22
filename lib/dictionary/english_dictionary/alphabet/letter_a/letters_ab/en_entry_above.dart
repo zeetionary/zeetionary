@@ -579,7 +579,7 @@ class EnglishEntryabove extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٦. (ھاوەڵناو) ئاماژەپێکراو لەسەرەوە''',
+٧. (ھاوەڵناو) ئاماژەپێکراو لەسەرەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -678,8 +678,8 @@ class EnglishMeaning extends StatelessWidget {
 1. An earlier section of a written text
 "for instructions refer to the above"
 
-- Adjective: above  u'búv
-Appearing earlier in the same text
+- Adjective: above 
+1. Appearing earlier in the same text
 "flaws in the above interpretation"
 '''),
         ],

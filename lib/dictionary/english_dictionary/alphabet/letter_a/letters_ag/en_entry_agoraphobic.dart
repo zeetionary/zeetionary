@@ -184,7 +184,7 @@ class EnglishEntryagoraphobic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەگۆرافۆبیای ھەیە و ھەرچەندە بۆی بکرێت لە ماڵەوە دەمێنێتەوە",
+                                    "تووشبووی ئەگۆرافۆبیا بوو و ھەرچەندە بۆی بکرێت لە ماڵەوە دەمێنێتەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

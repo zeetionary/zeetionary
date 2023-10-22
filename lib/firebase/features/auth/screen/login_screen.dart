@@ -33,7 +33,7 @@ class LoginScreen extends ConsumerWidget {
               children: [
                 const SizedBox(height: 30),
                 const Text(
-                  'یەکەم فەرهەنگی ڤیدیۆییی ئینگلیزی - کوردی',
+                  'یەکەم فەرهەنگی ڤیدیۆیی ئینگلیزی - کوردی',
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,

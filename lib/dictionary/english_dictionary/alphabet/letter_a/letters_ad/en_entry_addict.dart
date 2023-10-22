@@ -182,7 +182,7 @@ class EnglishEntryaddict extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژمارەیەکی زۆر لە کوڕانی گەنج ئاڵوودەی کۆمپیوتەر بوونە",
+                                    "ژمارەیەکی زۆر لە کوڕانی گەنج ئاڵوودەی کۆمپیوتەر دەبن",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

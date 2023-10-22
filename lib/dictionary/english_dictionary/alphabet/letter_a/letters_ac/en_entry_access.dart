@@ -64,6 +64,15 @@ class EnglishEntryaccess extends StatelessWidget {
         "You need a password to get access to the computer system."); // DOPSUM: CHANGE TEXT
   }
 
+  Future<void> speakA2125666(String languageCode) async {
+    // DOPSUM: CHANGE speakAccess
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The village is easily accessed by public transport."); // DOPSUM: CHANGE TEXT
+  }
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -446,7 +455,7 @@ class EnglishEntryaccess extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakA2469("en-GB"),
+                                onPressed: () => speakA2125666("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -454,7 +463,7 @@ class EnglishEntryaccess extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakA2469("en-US"),
+                                onPressed: () => speakA2125666("en-US"),
                               ),
                             ],
                           ),

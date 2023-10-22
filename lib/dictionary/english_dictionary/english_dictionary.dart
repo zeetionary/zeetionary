@@ -415,8 +415,14 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "agreeable",
     "agreeably",
     "agreement",
-    "agriculture",
     "agricultural",
+    "agriculture",
+    "agritourism",
+    "agrochemical",
+    "agronomist",
+    "agronomy",
+    "aground",
+    "ahead",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -1712,6 +1718,102 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "agricultural") {
                     Routemaster.of(context).push('/english-agricultural');
                   }
+                  if (wordsEnglish == "agritourism") {
+                    Routemaster.of(context).push('/english-agritourism');
+                  }
+                  if (wordsEnglish == "agrochemical") {
+                    Routemaster.of(context).push('/english-agrochemical');
+                  }
+                  if (wordsEnglish == "agronomist") {
+                    Routemaster.of(context).push('/english-agronomist');
+                  }
+                  if (wordsEnglish == "agronomy") {
+                    Routemaster.of(context).push('/english-agronomy');
+                  }
+                  if (wordsEnglish == "aground") {
+                    Routemaster.of(context).push('/english-aground');
+                  }
+                  if (wordsEnglish == "ahead") {
+                    Routemaster.of(context).push('/english-ahead');
+                  }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push('/english-DOPSUM');
                   // }

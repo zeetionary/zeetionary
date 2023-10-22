@@ -3,51 +3,50 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryadnauseam - replace speakAdnauseam - replace adnauseam - /ˌæd ˈnɔːziəm/ - find Dopsum2
+// replace these: replace EnglishEntryagritourism - replace speakAgritourism - replace agritourism - /ˈæɡrɪtʊərɪzəm/,  /ˈæɡrɪtɔːrɪzəm/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryadnauseam extends StatelessWidget {
-  EnglishEntryadnauseam({Key? key}) : super(key: key);
+class EnglishEntryagritourism extends StatelessWidget {
+  EnglishEntryagritourism({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdnauseam(String languageCode) async {
-    // DOPSUM: CHANGE speakAdnauseam
+  Future<void> speakAgritourism(String languageCode) async {
+    // DOPSUM: CHANGE speakAgritourism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("adnauseam"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("agritourism"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAdn25691(String languageCode) async {
-    // DOPSUM: CHANGE speakAdnauseam
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Sports commentators repeat the same phrases ad nauseam."); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakAdnauseam(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdnauseam
+  // Future<void> speakAgritourism(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAgritourism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adnauseam"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agritourism"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdnauseam(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdnauseam
+  // Future<void> speakAgritourism(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAgritourism
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adnauseam"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("agritourism"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAgritourism(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAgritourism
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("agritourism"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 6, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 8, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -65,7 +64,7 @@ class EnglishEntryadnauseam extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "ad nauseam", // DOPSUM: CHANGE WORD ENTRY - Find /ˌæd ˈnɔːziəm/
+                              "agritourism", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæɡrɪtʊərɪzəm/,  /ˈæɡrɪtɔːrɪzəm/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -81,7 +80,7 @@ class EnglishEntryadnauseam extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /ˌæd ˈnɔːziəm/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /ˈæɡrɪtʊərɪzəm/,  /ˈæɡrɪtɔːrɪzəm/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -90,7 +89,7 @@ class EnglishEntryadnauseam extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAdnauseam(
+                              onPressed: () => speakAgritourism(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -99,7 +98,7 @@ class EnglishEntryadnauseam extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /ˌæd ˈnɔːziəm/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /ˈæɡrɪtʊrɪzəm/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -108,7 +107,7 @@ class EnglishEntryadnauseam extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAdnauseam(
+                              onPressed: () => speakAgritourism(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -127,8 +126,8 @@ class EnglishEntryadnauseam extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(), // FIND: 2,
+                  VideoIconForTab(),
+                  VideoIconForTab(), // FIND: 2,
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -150,72 +149,27 @@ class EnglishEntryadnauseam extends StatelessWidget {
                 child: TabBarView(
                   children: [
                     const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
-                    SingleChildScrollView(
+                    const SingleChildScrollView(
                       // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
+                          Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: بە ڕادەی ڕشانەوە یان بێز لێ‌کردنەوە
-
-١. (ھاوەڵکار) تا ئاستێکی بێزارکەر''',
+١. (ناو) سێکتەرێکی بازرگانی کە تێیدا شوێنی مانەوە لەلایەن جوتیاران دەدرێت بە کەسێک کە دەچێت و لەگەڵیان دەمێنێتەوە وەک بەشێک لە پشووی کارکردنی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Sports commentators repeat the same phrases ad nauseam.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کۆمێنتارە وەرزشییەکان ھەمان شت دووبارە و دووبارە دەکەنەوە",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAdn25691("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAdn25691(
-                                    // REPLACE: adnauseam /ˌæd ˈnɔːziəm/
-                                    "en-US"),
-                              ),
-                            ],
                           ),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
-                    // YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedfive(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     // YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
@@ -251,9 +205,8 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adverb: ad nauseam 
-1. To a sickening extent
-"he played the song ad nauseam"
+- Noun: agritourism 
+1. Tourism where visitors visit and/or stay on farms in rural areas
 '''),
         ],
       ),
@@ -264,7 +217,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'TVq2ivVpZgQ';
+  static String myVideoId = 'sMkqcI8Pkw8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -272,7 +225,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 16, // DOPSUM: CHANGE IT
+      startAt: 71, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -291,7 +244,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'VwOMDQAmRtQ';
+  static String myVideoId = '1G8W4LzK_ns';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -299,7 +252,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 73, // DOPSUM: CHANGE IT
+      startAt: 383, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -318,7 +271,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = '5xQH8NSGRzI';
+  static String myVideoId = 'fzbipY1sJ7A';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -326,7 +279,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 50, // DOPSUM: CHANGE IT
+      startAt: 215, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -345,7 +298,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'uevoGGrcaeM';
+  static String myVideoId = '9F2uDwQ6So8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -353,12 +306,66 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 2338, // DOPSUM: CHANGE IT
+      startAt: 818, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedfour({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  static String myVideoId = 'vGcaJnNZhBM';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 384, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedfive({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  static String myVideoId = '-tql3fSEAjc';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 6, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedsix({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -423,6 +423,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "agronomy",
     "aground",
     "ahead",
+    "ahead of",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -1735,6 +1736,9 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   }
                   if (wordsEnglish == "ahead") {
                     Routemaster.of(context).push('/english-ahead');
+                  }
+                  if (wordsEnglish == "ahead of") {
+                    Routemaster.of(context).push('/english-ahead-of');
                   }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push('/english-DOPSUM');

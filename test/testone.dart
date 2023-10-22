@@ -1,70 +1,174 @@
 import 'package:flutter/material.dart';
+import 'package:routemaster/routemaster.dart';
 
-/// Flutter code sample for [WillPopScope].
+class DictionaryScreenEnglish extends StatefulWidget {
+  const DictionaryScreenEnglish({Key? key}) : super(key: key);
 
-void main() => runApp(const WillPopScopeExampleApp());
+  @override
+  State<DictionaryScreenEnglish> createState() =>
+      _DictionaryScreenEnglishState();
+}
 
-class WillPopScopeExampleApp extends StatelessWidget {
-  const WillPopScopeExampleApp({super.key});
+class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
+  final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
+  final List<String> allWordsEnglish = [
+    "aback",
+    "abacus",
+  ];
+
+  List<String> filteredWords = [];
+  final TextEditingController _searchController = TextEditingController();
+
+  @override
+  void initState() {
+    super.initState();
+    filteredWords = List.from(allWordsEnglish);
+  }
+
+  void filterWords(String query) {
+    setState(() {
+      filteredWords = allWordsEnglish
+          .where((word) => word.toLowerCase().contains(query.toLowerCase()))
+          .toList();
+    });
+  }
+
+  void clearSearch() {
+    _searchController.clear();
+    filterWords('');
+  }
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: WillPopScopeExample(),
+    return Scaffold(
+      key: scaffoldKey,
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Directionality(
+            textDirection:
+                TextDirection.ltr, // Set the text direction to right-to-left
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: SizedBox(
+                height: 60,
+                child: TextField(
+                  controller: _searchController,
+                  onChanged: filterWords,
+                  decoration: InputDecoration(
+                    labelText: 'Search here',
+                    prefixIcon: const Icon(Icons.search),
+                    suffixIcon: IconButton(
+                      icon: const Icon(Icons.clear),
+                      onPressed: clearSearch,
+                    ),
+                    border: const OutlineInputBorder(),
+                  ),
+                ),
+              ),
+            ),
+          ),
+          Expanded(
+            child: Directionality(
+              textDirection:
+                  TextDirection.ltr, // Set the text direction to right-to-left
+              child: EnglishDictionary(
+                words: filteredWords,
+                onTapWord: (wordsEnglish) {
+                  if (wordsEnglish == "aback") {
+                    Routemaster.of(context).push('/english-aback');
+                  }
+                  if (wordsEnglish == "abacus") {
+                    Routemaster.of(context).push('/english-abacus');
+                  }
+                },
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  @override
+  void dispose() {
+    _searchController.dispose();
+    super.dispose();
+  }
+}
+
+class EnglishDictionary extends StatelessWidget {
+  final List<String> words;
+  final Function(String) onTapWord;
+
+  const EnglishDictionary({
+    Key? key,
+    required this.words,
+    required this.onTapWord,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView.builder(
+      itemCount: words.length,
+      itemBuilder: (BuildContext context, int index) {
+        return ListTileEnglish(
+          wordsEnglish: words[index],
+          onTap: () {
+            onTapWord(words[index]);
+          },
+        );
+      },
     );
   }
 }
 
-class WillPopScopeExample extends StatefulWidget {
-  const WillPopScopeExample({super.key});
+class ListTileEnglish extends StatelessWidget {
+  final String wordsEnglish;
+  final VoidCallback? onTap;
 
-  @override
-  State<WillPopScopeExample> createState() => _WillPopScopeExampleState();
-}
+  const ListTileEnglish({
+    Key? key,
+    required this.wordsEnglish,
+    this.onTap,
+  }) : super(key: key);
 
-class _WillPopScopeExampleState extends State<WillPopScopeExample> {
-  bool shouldPop = true;
   @override
   Widget build(BuildContext context) {
-    return WillPopScope(
-      onWillPop: () async {
-        return shouldPop;
-      },
-      child: Scaffold(
-        appBar: AppBar(
-          title: const Text('Flutter WillPopScope demo'),
-        ),
-        body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              OutlinedButton(
-                child: const Text('Push'),
-                onPressed: () {
-                  Navigator.of(context).push<void>(
-                    MaterialPageRoute<void>(
-                      builder: (BuildContext context) {
-                        return const WillPopScopeExample();
-                      },
-                    ),
-                  );
-                },
-              ),
-              OutlinedButton(
-                child: Text('shouldPop: $shouldPop'),
-                onPressed: () {
-                  setState(
-                    () {
-                      shouldPop = !shouldPop;
-                    },
-                  );
-                },
-              ),
-              const Text('Push to a new screen, then tap on shouldPop '
-                  'button to toggle its value. Press the back '
-                  'button in the appBar to check its behavior '
-                  'for different values of shouldPop'),
-            ],
+    return InkWell(
+      onTap: onTap,
+      child: ListTile(
+        key: key,
+        title: Text(wordsEnglish),
+        trailing: const Icon(Icons.arrow_forward),
+      ),
+    );
+  }
+}
+
+class CardButton extends StatelessWidget {
+  final String label;
+  final VoidCallback? onPressed;
+
+  const CardButton({
+    Key? key,
+    required this.label,
+    this.onPressed,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      height: 50,
+      child: Card(
+        child: InkWell(
+          onTap: onPressed,
+          child: Center(
+            child: Text(
+              label,
+              style: const TextStyle(fontSize: 16),
+            ),
           ),
         ),
       ),

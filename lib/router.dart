@@ -413,6 +413,7 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agronomy.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aground.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ah/en_entry_ahead.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ah/en_entry_ahead_of.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
@@ -920,6 +921,7 @@ final loggedInRoute = RouteMap(routes: {
   '/english-agronomy': (_) => MaterialPage(child: EnglishEntryagronomy()),
   '/english-aground': (_) => MaterialPage(child: EnglishEntryaground()),
   '/english-ahead': (_) => MaterialPage(child: EnglishEntryahead()),
+  '/english-ahead-of': (_) => MaterialPage(child: EnglishEntryaheadof()),
   // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),

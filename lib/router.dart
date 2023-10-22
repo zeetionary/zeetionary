@@ -395,6 +395,15 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agm.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agnostic.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agonized.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agonizing.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agony.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agony_aunt.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agoraphobia.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agoraphobic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agrarian.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_agree.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
@@ -848,6 +857,19 @@ final loggedInRoute = RouteMap(routes: {
   '/english-agm': (_) => MaterialPage(child: EnglishEntryagm()),
   '/english-agnostic': (_) => MaterialPage(child: EnglishEntryagnostic()),
   '/english-agonized': (_) => MaterialPage(child: EnglishEntryagonized()),
+  '/english-agonizing': (_) => MaterialPage(child: EnglishEntryagonizing()),
+  '/english-agony': (_) => MaterialPage(child: EnglishEntryagony()),
+  '/english-agony-aunt': (_) => MaterialPage(child: EnglishEntryagonyaunt()),
+  '/english-agoraphobia': (_) => MaterialPage(child: EnglishEntryagoraphobia()),
+  '/english-agoraphobic': (_) => MaterialPage(child: EnglishEntryagoraphobic()),
+  '/english-agrarian': (_) => MaterialPage(child: EnglishEntryagrarian()),
+  '/english-agree': (_) => MaterialPage(child: EnglishEntryagree()),
+  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),

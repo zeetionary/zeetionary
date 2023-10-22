@@ -405,6 +405,13 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "AGM",
     "agnostic",
     "agonized",
+    "agonizing",
+    "agony",
+    "agony aunt",
+    "agoraphobia",
+    "agoraphobic",
+    "agrarian",
+    "agree",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -1659,9 +1666,27 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "agonized") {
                     Routemaster.of(context).push('/english-agonized');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "agonizing") {
+                    Routemaster.of(context).push('/english-agonizing');
+                  }
+                  if (wordsEnglish == "agony") {
+                    Routemaster.of(context).push('/english-agony');
+                  }
+                  if (wordsEnglish == "agony aunt") {
+                    Routemaster.of(context).push('/english-agony-aunt');
+                  }
+                  if (wordsEnglish == "agoraphobia") {
+                    Routemaster.of(context).push('/english-agoraphobia');
+                  }
+                  if (wordsEnglish == "agoraphobic") {
+                    Routemaster.of(context).push('/english-agoraphobic');
+                  }
+                  if (wordsEnglish == "agrarian") {
+                    Routemaster.of(context).push('/english-agrarian');
+                  }
+                  if (wordsEnglish == "agree") {
+                    Routemaster.of(context).push('/english-agree');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push('/english-DOPSUM');
                   // }

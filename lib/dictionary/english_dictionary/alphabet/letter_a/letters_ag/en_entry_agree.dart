@@ -460,7 +460,7 @@ class EnglishEntryagree extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٦. (کردار) دوو شت یەکبگرنەوە لەگەڵ یک و ھەمان شت بن''',
+٦. (کردار) دوو شت یەکبگرنەوە لەگەڵ یەک و ھەمان شت بن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

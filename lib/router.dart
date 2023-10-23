@@ -414,18 +414,24 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aground.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ah/en_entry_ahead.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ah/en_entry_ahead_of.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_ai.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_aid.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_aide.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_aids.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_ailing.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_ailment.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aim.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aimless.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aimlessly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aint.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_air.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_airbag.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_airborne.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_air_conditioner.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_air_conditioned.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aircraft.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aircraft_carrier.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_airfield.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
@@ -922,22 +928,24 @@ final loggedInRoute = RouteMap(routes: {
   '/english-aground': (_) => MaterialPage(child: EnglishEntryaground()),
   '/english-ahead': (_) => MaterialPage(child: EnglishEntryahead()),
   '/english-ahead-of': (_) => MaterialPage(child: EnglishEntryaheadof()),
-  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  '/english-ai': (_) => MaterialPage(child: EnglishEntryai()),
+  '/english-aid': (_) => MaterialPage(child: EnglishEntryaid()),
+  '/english-aide': (_) => MaterialPage(child: EnglishEntryaide()),
+  '/english-aids': (_) => MaterialPage(child: EnglishEntryaids()),
+  '/english-ailing': (_) => MaterialPage(child: EnglishEntryailing()),
+  '/english-ailment': (_) => MaterialPage(child: EnglishEntryailment()),
+  '/english-aim': (_) => MaterialPage(child: EnglishEntryaim()),
+  '/english-aimless': (_) => MaterialPage(child: EnglishEntryaimless()),
+  '/english-aimlessly': (_) => MaterialPage(child: EnglishEntryaimlessly()),
+  "/english-ain't": (_) => MaterialPage(child: EnglishEntryaint()),
+  '/english-air': (_) => MaterialPage(child: EnglishEntryair()),
+  '/english-airbag': (_) => MaterialPage(child: EnglishEntryairbag()),
+  '/english-airborne': (_) => MaterialPage(child: EnglishEntryairborne()),
+  '/english-air-conditioner': (_) => MaterialPage(child: EnglishEntryairconditioner()),
+  '/english-air-conditioned': (_) => MaterialPage(child: EnglishEntryairconditioned()),
+  '/english-aircraft': (_) => MaterialPage(child: EnglishEntryaircraft()),
+  '/english-aircraft-carrier': (_) => MaterialPage(child: EnglishEntryaircraftcarrier()),
+  '/english-airfield': (_) => MaterialPage(child: EnglishEntryairfield()),
   // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // '/english-DOPSUM': (_) => MaterialPage(child: EnglishEntryDOPSUM()),

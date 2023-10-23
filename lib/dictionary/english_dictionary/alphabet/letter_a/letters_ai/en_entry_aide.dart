@@ -3,69 +3,51 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryaheadof - replace speakAheadof - replace ahead of - /əˈhed əv/ - find Dopsum2
+// replace these: replace EnglishEntryaide - replace speakAide - replace aide - /eɪd/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryaheadof extends StatelessWidget {
-  EnglishEntryaheadof({Key? key}) : super(key: key);
+class EnglishEntryaide extends StatelessWidget {
+  EnglishEntryaide({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAheadof(String languageCode) async {
-    // DOPSUM: CHANGE speakAheadof
+  Future<void> speakAide(String languageCode) async {
+    // DOPSUM: CHANGE speakAide
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ahead of"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aide"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAhead25355(String languageCode) async {
-    // DOPSUM: CHANGE speakAheadof
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Two boys were ahead of us."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAheadof2377(String languageCode) async {
-    // DOPSUM: CHANGE speakAheadof
+  Future<void> speakAid3596484(String languageCode) async {
+    // DOPSUM: CHANGE speakAide
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Ahead of us lay ten days of intensive training."); // DOPSUM: CHANGE TEXT
+        "He served as an aide to the former president."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAhead3522(String languageCode) async {
-    // DOPSUM: CHANGE speakAheadof
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I finished several days ahead of the deadline."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAheadof3596(String languageCode) async {
-    // DOPSUM: CHANGE speakAheadof
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was always well ahead of the rest of the class."); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakAheadof(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAheadof
+  // Future<void> speakAide(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAide
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aheadof"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aide"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAide(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAide
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("aide"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -83,7 +65,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "ahead of", // DOPSUM: CHANGE WORD ENTRY - Find /əˈhed əv/
+                              "aide", // DOPSUM: CHANGE WORD ENTRY - Find /eɪd/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -99,7 +81,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈhed əv/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /eɪd/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -109,7 +91,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAheadof(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAide(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -117,7 +99,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈhed əv/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /eɪd/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -126,7 +108,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAheadof(
+                              onPressed: () => speakAide(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -149,7 +131,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                   VideoIconForTab(), // FIND: 2,
                   VideoIconForTab(),
                   VideoIconForTab(),
-                  VideoIconForTab(),
+                  // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -176,7 +158,9 @@ class EnglishEntryaheadof extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (ئامراز) کات یان شوێنی لەپێش''',
+کوردی: یاریدەدەر، فریاکەوتوو، ئالیکار، یارمەتی‌دەر، ڕاوێژکار
+
+١. (ناو) کەسێک کە یارمەتی کەسێکی تر دەدات بۆ کردنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -186,7 +170,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Two boys were ahead of us.",
+                                    "He served as an aide to the former president.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -200,7 +184,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دوو کوڕ لە پێشمانەوە بوون",
+                                    "وەک یاریدەدەری سەرۆکی پێشوو کاری کرد",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -212,7 +196,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAhead25355("en-GB"),
+                                onPressed: () => speakAid3596484("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -220,161 +204,9 @@ class EnglishEntryaheadof extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAhead25355(
-                                    // REPLACE: aheadof /əˈhed əv/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Ahead of us lay ten days of intensive training.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دە ڕۆژی پڕ لە ڕاھێنانی سەختمان لە پێشە",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAheadof2377("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAheadof2377(
-                                    // REPLACE: aheadof /əˈhed əv/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ئامراز) پێش کەسێک یان شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I finished several days ahead of the deadline.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "چەند ڕۆژێک پێش وادەی دیاریکراو تەواو بووم",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAhead3522("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAhead3522(
-                                    // REPLACE: aheadof /əˈhed əv/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (ئامراز) باشتر لە کەسێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She was always well ahead of the rest of the class.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەمیشە لەپێش ئەوانی دیکەی پۆلەکە بووە",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAheadof3596("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAheadof3596(
-                                    // REPLACE: aheadof /əˈhed əv/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAid3596484(// REPLACE: aide /eɪd/
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -389,7 +221,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
+                    // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
@@ -422,15 +254,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Preposition: ahead of 
-1. in front of or before.
-"she walked ahead of him along the corridor";
-
-2. in store for; awaiting.
-"we have a long drive ahead of us";
-
-3. earlier than.
-"elimination of trade barriers came five years ahead of schedule";
+- Noun: aide (Derived forms: aides)
+1. Someone who acts as assistant (= auxiliary)
+ 
+2. (military) an officer who acts as military assistant to a more senior officer (= adjutant, aide-de-camp)
 '''),
         ],
       ),
@@ -441,7 +268,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 't6fIp7mMJ90';
+  static String myVideoId = 'ApLRKAyspLY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -449,7 +276,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 237, // DOPSUM: CHANGE IT
+      startAt: 373, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -468,7 +295,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'rsaLUIeurZ8';
+  static String myVideoId = '7JNqaJuKOfM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -476,7 +303,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 487, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -495,7 +322,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'GjMmsEwIcl0';
+  static String myVideoId = '8PJGIEz5YJ4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -503,7 +330,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 128, // DOPSUM: CHANGE IT
+      startAt: 233, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -522,7 +349,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'dSEyHI-Jj0k';
+  static String myVideoId = '2MZZrDA-I4M';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -530,7 +357,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 955, // DOPSUM: CHANGE IT
+      startAt: 872, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -549,7 +376,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '-L7o6HtX8Vg';
+  static String myVideoId = '3E17wr77ffM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -557,7 +384,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 664, // DOPSUM: CHANGE IT
+      startAt: 212, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -576,7 +403,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = '_pc1kON-doU';
+  static String myVideoId = '1wW-hlSVKM8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -584,7 +411,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 718, // DOPSUM: CHANGE IT
+      startAt: 105, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -603,7 +430,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'B35E8QleVhg';
+  static String myVideoId = 'n-hKc2QhJzc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -611,7 +438,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 43, // DOPSUM: CHANGE IT
+      startAt: 474, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -630,7 +457,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'Tuk04k5YLwk';
+  static String myVideoId = 'PJO8oks6zZk';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -638,66 +465,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 684, // DOPSUM: CHANGE IT
+      startAt: 430, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedeight({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'IlU-zDU6aQ0';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 2070, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddednine({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedten({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

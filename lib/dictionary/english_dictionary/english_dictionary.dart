@@ -424,6 +424,24 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "aground",
     "ahead",
     "ahead of",
+    "AI",
+    "aid",
+    "aide",
+    "AIDS",
+    "ailing",
+    "ailment",
+    "aim",
+    "aimless",
+    "aimlessly",
+    "ain't",
+    "air",
+    "airbag",
+    "airborne",
+    "air-conditioned",
+    "air conditioner",
+    "aircraft",
+    "aircraft carrier",
+    "airfield",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -1740,54 +1758,60 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "ahead of") {
                     Routemaster.of(context).push('/english-ahead-of');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "AI") {
+                    Routemaster.of(context).push('/english-ai');
+                  }
+                  if (wordsEnglish == "aid") {
+                    Routemaster.of(context).push('/english-aid');
+                  }
+                  if (wordsEnglish == "aide") {
+                    Routemaster.of(context).push('/english-aide');
+                  }
+                  if (wordsEnglish == "AIDS") {
+                    Routemaster.of(context).push('/english-aids');
+                  }
+                  if (wordsEnglish == "ailing") {
+                    Routemaster.of(context).push('/english-ailing');
+                  }
+                  if (wordsEnglish == "ailment") {
+                    Routemaster.of(context).push('/english-ailment');
+                  }
+                  if (wordsEnglish == "aim") {
+                    Routemaster.of(context).push('/english-aim');
+                  }
+                  if (wordsEnglish == "aimless") {
+                    Routemaster.of(context).push('/english-aimless');
+                  }
+                  if (wordsEnglish == "aimlessly") {
+                    Routemaster.of(context).push('/english-aimlessly');
+                  }
+                  if (wordsEnglish == "ain't") {
+                    Routemaster.of(context).push("/english-ain't");
+                  }
+                  if (wordsEnglish == "air") {
+                    Routemaster.of(context).push('/english-air');
+                  }
+                  if (wordsEnglish == "airbag") {
+                    Routemaster.of(context).push('/english-airbag');
+                  }
+                  if (wordsEnglish == "airborne") {
+                    Routemaster.of(context).push('/english-airborne');
+                  }
+                  if (wordsEnglish == "air conditioner") {
+                    Routemaster.of(context).push('/english-air-conditioner');
+                  }
+                  if (wordsEnglish == "air-conditioned") {
+                    Routemaster.of(context).push('/english-air-conditioned');
+                  }
+                  if (wordsEnglish == "aircraft") {
+                    Routemaster.of(context).push('/english-aircraft');
+                  }
+                  if (wordsEnglish == "aircraft carrier") {
+                    Routemaster.of(context).push('/english-aircraft-carrier');
+                  }
+                  if (wordsEnglish == "airfield") {
+                    Routemaster.of(context).push('/english-airfield');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push('/english-DOPSUM');
                   // }

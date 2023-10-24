@@ -469,6 +469,12 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "aisle",
     "ajar",
     "akin",
+    "à la carte",
+    "alacrity",
+    "alarm",
+    "alarm clock",
+    "alarming",
+    "alas",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -1921,24 +1927,24 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "akin") {
                     Routemaster.of(context).push('/english-akin');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "à la carte") {
+                    Routemaster.of(context).push('/english-a-la-carte');
+                  }
+                  if (wordsEnglish == "alacrity") {
+                    Routemaster.of(context).push('/english-alacrity');
+                  }
+                  if (wordsEnglish == "alarm") {
+                    Routemaster.of(context).push('/english-alarm');
+                  }
+                  if (wordsEnglish == "alarm clock") {
+                    Routemaster.of(context).push('/english-alarm-clock');
+                  }
+                  if (wordsEnglish == "alarming") {
+                    Routemaster.of(context).push('/english-alarming');
+                  }
+                  if (wordsEnglish == "alas") {
+                    Routemaster.of(context).push('/english-alas');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push('/english-DOPSUM');
                   // }

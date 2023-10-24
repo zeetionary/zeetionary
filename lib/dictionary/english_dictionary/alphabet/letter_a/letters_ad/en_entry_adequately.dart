@@ -249,7 +249,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adverb: adequately (x inadequately)
+- Adverb: adequately (X inadequately)
 1. In an adequate manner or to an adequate degree
 "he was adequately prepared"
 '''),

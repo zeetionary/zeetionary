@@ -444,6 +444,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "airfield",
     "air force",
     "air hostess",
+    "airing",
     "airlift",
     "airline",
     "airliner",
@@ -457,6 +458,10 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "airstrip",
     "air terminal",
     "airtight",
+    "air-to-air",
+    "air traffic controller",
+    "airway",
+    "airworthy",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -1872,6 +1877,36 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "airtight") {
                     Routemaster.of(context).push('/english-airtight');
                   }
+                  if (wordsEnglish == "air-to-air") {
+                    Routemaster.of(context).push('/english-air-to-air');
+                  }
+                  if (wordsEnglish == "air traffic controller") {
+                    Routemaster.of(context).push('/english-air-traffic-controller');
+                  }
+                  if (wordsEnglish == "airway") {
+                    Routemaster.of(context).push('/english-airway');
+                  }
+                  if (wordsEnglish == "airworthy") {
+                    Routemaster.of(context).push('/english-airworthy');
+                  }
+                  if (wordsEnglish == "airing") {
+                    Routemaster.of(context).push('/english-airing');
+                  }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push('/english-DOPSUM');
                   // }

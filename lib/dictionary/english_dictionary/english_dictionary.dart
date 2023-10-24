@@ -442,6 +442,21 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "aircraft",
     "aircraft carrier",
     "airfield",
+    "air force",
+    "air hostess",
+    "airlift",
+    "airline",
+    "airliner",
+    "airmail",
+    "air marshal",
+    "airplane",
+    "airport",
+    "air raid",
+    "airship",
+    "airspace",
+    "airstrip",
+    "air terminal",
+    "airtight",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -1812,48 +1827,51 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "airfield") {
                     Routemaster.of(context).push('/english-airfield');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "air force") {
+                    Routemaster.of(context).push('/english-air-force');
+                  }
+                  if (wordsEnglish == "air hostess") {
+                    Routemaster.of(context).push('/english-air-hostess');
+                  }
+                  if (wordsEnglish == "airlift") {
+                    Routemaster.of(context).push('/english-airlift');
+                  }
+                  if (wordsEnglish == "airline") {
+                    Routemaster.of(context).push('/english-airline');
+                  }
+                  if (wordsEnglish == "airliner") {
+                    Routemaster.of(context).push('/english-airliner');
+                  }
+                  if (wordsEnglish == "airmail") {
+                    Routemaster.of(context).push('/english-airmail');
+                  }
+                  if (wordsEnglish == "air marshal") {
+                    Routemaster.of(context).push('/english-air-marshal');
+                  }
+                  if (wordsEnglish == "airplane") {
+                    Routemaster.of(context).push('/english-airplane');
+                  }
+                  if (wordsEnglish == "airport") {
+                    Routemaster.of(context).push('/english-airport');
+                  }
+                  if (wordsEnglish == "air raid") {
+                    Routemaster.of(context).push('/english-air-raid');
+                  }
+                  if (wordsEnglish == "airship") {
+                    Routemaster.of(context).push('/english-airship');
+                  }
+                  if (wordsEnglish == "airspace") {
+                    Routemaster.of(context).push('/english-airspace');
+                  }
+                  if (wordsEnglish == "airstrip") {
+                    Routemaster.of(context).push('/english-airstrip');
+                  }
+                  if (wordsEnglish == "air terminal") {
+                    Routemaster.of(context).push('/english-air-terminal');
+                  }
+                  if (wordsEnglish == "airtight") {
+                    Routemaster.of(context).push('/english-airtight');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push('/english-DOPSUM');
                   // }

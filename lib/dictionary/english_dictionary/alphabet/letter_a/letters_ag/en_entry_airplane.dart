@@ -3,50 +3,51 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryDopsum - replace speakDopsum - replace Dopsum1 - /haʊ/ - find Dopsum2
+// replace these: replace EnglishEntryairplane - replace speakairplane - replace airplane - /ˈerəpleɪn/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryDopsum extends StatelessWidget {
-  EnglishEntryDopsum({Key? key}) : super(key: key);
+class EnglishEntryairplane extends StatelessWidget {
+  EnglishEntryairplane({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakDopsum(String languageCode) async {
-    // DOPSUM: CHANGE speakDopsum
+  Future<void> speakairplane(String languageCode) async {
+    // DOPSUM: CHANGE speakairplane
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("airplane"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakDopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakDopsum
+  Future<void> speakAerop3658(String languageCode) async {
+    // DOPSUM: CHANGE speakairplane
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("The airplane was carrying 350 people."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakairplane(String languageCode) async {
+  //   // DOPSUM: CHANGE speakairplane
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("airplane"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakDopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakDopsum
+  // Future<void> speakairplane(String languageCode) async {
+  //   // DOPSUM: CHANGE speakairplane
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakDopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakDopsum
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("airplane"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 2, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 10, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -64,7 +65,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "Dopsum1", // DOPSUM: CHANGE WORD ENTRY - Find /haʊ/
+                              "airplane (or aeroplane)", // DOPSUM: CHANGE WORD ENTRY - Find /ˈeərəpleɪn/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -80,7 +81,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUK: /haʊ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /ˈeəpleɪn/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -89,16 +90,16 @@ class EnglishEntryDopsum extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakDopsum(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakairplane(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              "IpaUS: /haʊ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /ˈeəpleɪn/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -107,7 +108,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakDopsum(
+                              onPressed: () => speakairplane(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -122,14 +123,14 @@ class EnglishEntryDopsum extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(), // FIND: 2,
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(), // FIND: 2,
+                  VideoIconForTab(),
+                  VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -157,9 +158,9 @@ class EnglishEntryDopsum extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: 
+کوردی: فڕۆکە، باڵافڕ، تەیارە
 
-١. (هاوەڵناو) پێناسە''',
+١. (ناو) فڕۆکە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -169,21 +170,18 @@ class EnglishEntryDopsum extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "DOPSUM_WRITE_A_SENTENCE",
+                                    "The airplane was carrying 350 people.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "رستە",
+                                    "فڕۆکەکە ٣٥٠ کەسی ھەڵگرتبوو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -195,7 +193,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakDopsum("en-GB"),
+                                onPressed: () => speakAerop3658("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -203,23 +201,23 @@ class EnglishEntryDopsum extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakDopsum(// REPLACE: Dopsum1 /haʊ/
-                                        "en-US"),
+                                onPressed: () => speakAerop3658(
+                                    // REPLACE: airplane /ˈerəpleɪn/
+                                    "en-US"),
                               ),
                             ],
                           ),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
-                    // YoutubeEmbeddedtwo(),
-                    // YoutubeEmbeddedthree(),
-                    // YoutubeEmbeddedfour(),
-                    // YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    // YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
+                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedtwo(),
+                    YoutubeEmbeddedthree(),
+                    YoutubeEmbeddedfour(),
+                    YoutubeEmbeddedfive(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
@@ -253,10 +251,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-
-Dopsum2 
-
-Dopsum2
+- Noun: airplane (Derived forms: airplanes)
+1. An aircraft that has a fixed wing and is powered by propellers or jets (= aeroplane [N. Amer], plane)
+"the flight was delayed due to trouble with the airplane";
 '''),
         ],
       ),
@@ -267,7 +264,7 @@ Dopsum2
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'JN1q2NCNRPg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -275,7 +272,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 631, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -294,7 +291,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'eJP93u7n5Ok';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -302,7 +299,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 564, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -321,7 +318,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'Z9l7aWpqkko';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -329,7 +326,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 8, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -348,7 +345,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'p2ou0oq9Bz4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -356,7 +353,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 15, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -375,7 +372,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'SlT9AVa72XA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -383,7 +380,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1112, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -402,7 +399,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'OK9zhumtGg0';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -410,7 +407,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 38, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -429,7 +426,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'Q_XAX08b5Vc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -437,7 +434,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 253, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -456,7 +453,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'jIBZFl7lBXU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -464,66 +461,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 78, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedeight({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddednine({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedten({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

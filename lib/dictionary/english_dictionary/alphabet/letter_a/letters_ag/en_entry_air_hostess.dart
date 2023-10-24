@@ -3,50 +3,51 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryDopsum - replace speakDopsum - replace Dopsum1 - /haʊ/ - find Dopsum2
+// replace these: replace EnglishEntryDopsum - replace speakAirhostess - replace air hostess - /ˈeə həʊstəs/,  /ˈeə həʊstes/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryDopsum extends StatelessWidget {
-  EnglishEntryDopsum({Key? key}) : super(key: key);
+class EnglishEntryairhostess extends StatelessWidget {
+  EnglishEntryairhostess({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakDopsum(String languageCode) async {
-    // DOPSUM: CHANGE speakDopsum
+  Future<void> speakAirhostess(String languageCode) async {
+    // DOPSUM: CHANGE speakAirhostess
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("air hostess"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakDopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakDopsum
+  Future<void> speakAirhostess43655(String languageCode) async {
+    // DOPSUM: CHANGE speakAirhostess
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "An air hostess announced that the plane had been hijacked."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAirhostess(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAirhostess
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("air hostess"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakDopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakDopsum
+  // Future<void> speakAirhostess(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAirhostess
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakDopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakDopsum
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("air hostess"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 2, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 8, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -64,7 +65,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "Dopsum1", // DOPSUM: CHANGE WORD ENTRY - Find /haʊ/
+                              "air hostess", // DOPSUM: CHANGE WORD ENTRY - Find /ˈeə həʊstəs/,  /ˈeə həʊstes/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -80,7 +81,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUK: /haʊ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /ˈeə həʊstəs/,  /ˈeə həʊstes/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -89,16 +90,16 @@ class EnglishEntryDopsum extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakDopsum(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAirhostess(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              "IpaUS: /haʊ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              'IpaUS: /ˈer həʊstəs/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -107,7 +108,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakDopsum(
+                              onPressed: () => speakAirhostess(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -122,12 +123,12 @@ class EnglishEntryDopsum extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(), // FIND: 2,
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(), // FIND: 2,
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -157,9 +158,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: 
-
-١. (هاوەڵناو) پێناسە''',
+١. (ناو) کارگوزاری فڕۆکە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -169,7 +168,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "DOPSUM_WRITE_A_SENTENCE",
+                                    "An air hostess announced that the plane had been hijacked.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -183,7 +182,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "رستە",
+                                    "یەکێک لە کارگوزاران ڕایگەیاند فڕۆکەکە ڕفێندراوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -195,7 +194,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakDopsum("en-GB"),
+                                onPressed: () => speakAirhostess43655("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -203,9 +202,9 @@ class EnglishEntryDopsum extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakDopsum(// REPLACE: Dopsum1 /haʊ/
-                                        "en-US"),
+                                onPressed: () => speakAirhostess43655(
+                                    // REPLACE: air hostess /ˈer həʊstəs/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -213,11 +212,11 @@ class EnglishEntryDopsum extends StatelessWidget {
                       ),
                     ),
                     YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
-                    // YoutubeEmbeddedtwo(),
-                    // YoutubeEmbeddedthree(),
-                    // YoutubeEmbeddedfour(),
-                    // YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedtwo(),
+                    YoutubeEmbeddedthree(),
+                    YoutubeEmbeddedfour(),
+                    YoutubeEmbeddedfive(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     // YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
@@ -253,10 +252,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-
-Dopsum2 
-
-Dopsum2
+- Noun: air hostess (= Derived forms: air hostesses)
+Usage: Brit
+1. A woman steward on an aeroplane (= stewardess, hostess)
 '''),
         ],
       ),
@@ -267,7 +265,7 @@ Dopsum2
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'DqmViXCyVKA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -275,7 +273,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 531, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -294,7 +292,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'GTlcEVQ_KwA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -302,7 +300,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 71, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -321,7 +319,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = '2ew2IWkWe5c';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -329,7 +327,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 111, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -348,7 +346,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'vwJVXZbmDVI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -356,7 +354,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 144, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -375,7 +373,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'xIVEKVukAZA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -383,7 +381,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 241, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -402,7 +400,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'Yzn2Dy1ueMI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -410,120 +408,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 245, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedsix({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedseven({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedeight({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddednine({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedten({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

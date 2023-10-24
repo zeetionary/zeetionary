@@ -3,50 +3,52 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryDopsum - replace speakDopsum - replace Dopsum1 - /haʊ/ - find Dopsum2
+// replace these: replace EnglishEntryDopsum - replace speakAirspace - replace airspace - /ˈeəspeɪs/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryDopsum extends StatelessWidget {
-  EnglishEntryDopsum({Key? key}) : super(key: key);
+class EnglishEntryairspace extends StatelessWidget {
+  EnglishEntryairspace({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakDopsum(String languageCode) async {
-    // DOPSUM: CHANGE speakDopsum
+  Future<void> speakAirspace(String languageCode) async {
+    // DOPSUM: CHANGE speakAirspace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("airspace"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakDopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakDopsum
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAirspace4355(String languageCode) async {
+    // DOPSUM: CHANGE speakAirspace
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The airspace over Europe is becoming more and more crowded."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakDopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakDopsum
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAirspace5366(String languageCode) async {
+    // DOPSUM: CHANGE speakAirspace
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The jet entered Chinese airspace without permission."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakDopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakDopsum
+  // Future<void> speakAirspace(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAirspace
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("airspace"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 2, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -64,7 +66,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "Dopsum1", // DOPSUM: CHANGE WORD ENTRY - Find /haʊ/
+                              "airspace", // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəspeɪs/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -80,7 +82,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUK: /haʊ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              "IpaUK: /ˈeəspeɪs/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -90,7 +92,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakDopsum(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAirspace(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -98,7 +100,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUS: /haʊ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              "IpaUS: /ˈerspeɪs/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -107,7 +109,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakDopsum(
+                              onPressed: () => speakAirspace(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -122,14 +124,14 @@ class EnglishEntryDopsum extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(), // FIND: 2,
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(), // FIND: 2,
+                  VideoIconForTab(),
+                  VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -157,9 +159,9 @@ class EnglishEntryDopsum extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: 
+کوردی: ناوچەی فڕین، بواری فڕین، ئاسمانی وڵاتێ
 
-١. (هاوەڵناو) پێناسە''',
+١. (ناو) ئاسمانی وڵاتێک کە لەلایەن ئەو وڵاتەوە کۆنترۆڵ کراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -169,7 +171,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "DOPSUM_WRITE_A_SENTENCE",
+                                    "The airspace over Europe is becoming more and more crowded.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -183,7 +185,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "رستە",
+                                    "ئاسمانی ئەورووپا زیاتر و زیاتر قەرەباڵغ دەبێت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -195,7 +197,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakDopsum("en-GB"),
+                                onPressed: () => speakAirspace4355("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -203,9 +205,55 @@ class EnglishEntryDopsum extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakDopsum(// REPLACE: Dopsum1 /haʊ/
-                                        "en-US"),
+                                onPressed: () => speakAirspace4355(
+                                    // REPLACE: airspace /ˈerspeɪs/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The jet entered Chinese airspace without permission.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "فڕۆکەکە چووە ئاسمانی چین بەبێ مۆڵەت",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAirspace5366("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAirspace5366(
+                                    // REPLACE: airspace /ˈerspeɪs/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -213,13 +261,13 @@ class EnglishEntryDopsum extends StatelessWidget {
                       ),
                     ),
                     YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
-                    // YoutubeEmbeddedtwo(),
-                    // YoutubeEmbeddedthree(),
-                    // YoutubeEmbeddedfour(),
-                    // YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    // YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
+                    YoutubeEmbeddedtwo(),
+                    YoutubeEmbeddedthree(),
+                    YoutubeEmbeddedfour(),
+                    YoutubeEmbeddedfive(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
@@ -253,10 +301,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-
-Dopsum2 
-
-Dopsum2
+- Noun: airspace (Derived forms: air spaces, airspaces)
+1. The space in the atmosphere immediately above the earth (= air space)
+ 
+2. The atmosphere above a nation that is deemed to be under its jurisdiction
+"the plane was refused permission to enter Chinese airspace"
 '''),
         ],
       ),
@@ -267,7 +316,7 @@ Dopsum2
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = '1FghL5wqAVc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -275,7 +324,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 170, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -294,7 +343,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'd3yWQgBAcj4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -302,7 +351,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 8, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -321,7 +370,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'cTLDidYtiXk';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -329,7 +378,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -348,7 +397,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'lRn6pz4g7rc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -356,7 +405,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -375,7 +424,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = '7n6cRlceht4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -383,7 +432,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 38, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -402,7 +451,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'jWtJGdPWIVA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -410,7 +459,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 5, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -429,7 +478,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'TGShvzugkfY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -437,7 +486,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 430, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -456,7 +505,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'Nts_8ZLIxwo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -464,7 +513,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 43, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

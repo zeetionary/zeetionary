@@ -468,6 +468,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "airy",
     "aisle",
     "ajar",
+    "akin",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -1887,7 +1888,8 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     Routemaster.of(context).push('/english-air-to-air');
                   }
                   if (wordsEnglish == "air traffic controller") {
-                    Routemaster.of(context).push('/english-air-traffic-controller');
+                    Routemaster.of(context)
+                        .push('/english-air-traffic-controller');
                   }
                   if (wordsEnglish == "airway") {
                     Routemaster.of(context).push('/english-airway');
@@ -1916,9 +1918,9 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "ajar") {
                     Routemaster.of(context).push('/english-ajar');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "akin") {
+                    Routemaster.of(context).push('/english-akin');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push('/english-DOPSUM');
                   // }

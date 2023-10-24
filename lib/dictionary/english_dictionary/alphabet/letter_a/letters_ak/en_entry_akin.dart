@@ -3,44 +3,44 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryajar - replace speakAjar - replace ajar - /əˈdʒɑː(r)/ - find Dopsum2
+// replace these: replace EnglishEntryakin - replace speakAkin - replace akin - /əˈkɪn/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryajar extends StatelessWidget {
-  EnglishEntryajar({Key? key}) : super(key: key);
+class EnglishEntryakin extends StatelessWidget {
+  EnglishEntryakin({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAjar(String languageCode) async {
-    // DOPSUM: CHANGE speakAjar
+  Future<void> speakAkin(String languageCode) async {
+    // DOPSUM: CHANGE speakAkin
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ajar"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("akin"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAjar256(String languageCode) async {
-    // DOPSUM: CHANGE speakAjar
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I'll leave the door ajar."); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakAjar(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAjar
+  // Future<void> speakAkin(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAkin
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ajar"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("akin"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAjar(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAjar
+  // Future<void> speakAkin(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAkin
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ajar"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("akin"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAkin(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAkin
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("akin"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -64,7 +64,7 @@ class EnglishEntryajar extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "ajar", // DOPSUM: CHANGE WORD ENTRY - Find /əˈdʒɑː(r)/
+                              "akin", // DOPSUM: CHANGE WORD ENTRY - Find /əˈkɪn/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -80,7 +80,7 @@ class EnglishEntryajar extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUK: /əˈdʒɑː(r)/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              "IpaUK: /əˈkɪn/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -90,7 +90,7 @@ class EnglishEntryajar extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAjar(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAkin(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -98,7 +98,7 @@ class EnglishEntryajar extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUS: /əˈdʒɑːr/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              "IpaUS: /əˈkɪn/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -107,7 +107,7 @@ class EnglishEntryajar extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAjar(
+                              onPressed: () => speakAkin(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -157,9 +157,9 @@ class EnglishEntryajar extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: نیوەکراوە، درزپێ‌دراو، قەڵەش‌پێ‌دراو (درگا و پەنجێرە)
+کوردی: 
 
-١. (ھاوەڵناو) کەمێک کراوە''',
+١. (هاوەڵناو) پێناسە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -169,7 +169,7 @@ class EnglishEntryajar extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "I'll leave the door ajar.",
+                                    "DOPSUM_WRITE_A_SENTENCE",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -183,7 +183,7 @@ class EnglishEntryajar extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەرگاکە بە کەمێک کراوە جێدێڵم",
+                                    "رستە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -195,7 +195,7 @@ class EnglishEntryajar extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAjar256("en-GB"),
+                                onPressed: () => speakAkin("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -204,7 +204,7 @@ class EnglishEntryajar extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAjar256(// REPLACE: ajar /əˈdʒɑːr/
+                                    speakAkin(// REPLACE: akin /əˈkɪn/
                                         "en-US"),
                               ),
                             ],
@@ -253,9 +253,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: ajar 
-1. Slightly open
-"the door was ajar"
+- Adjective: akin
+1. Similar in quality or character (= kindred)
+"a feeling akin to terror";
+ 
+2. Related by blood (= blood-related, cognate, consanguine, consanguineous, consanguineal, kin)
 '''),
         ],
       ),
@@ -266,7 +268,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '2uc33Ts_4vU';
+  static String myVideoId = 'mY3SEMTROas';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -274,7 +276,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 376, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -293,7 +295,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = '_2LApgOJe5k';
+  static String myVideoId = 'AAGIi62-sAU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -301,7 +303,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 525, // DOPSUM: CHANGE IT
+      startAt: 579, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -320,7 +322,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'KxPgrGdSHh8';
+  static String myVideoId = '9-8pkESUztc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -328,7 +330,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 353, // DOPSUM: CHANGE IT
+      startAt: 582, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -347,7 +349,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'I4HkRbfVzNQ';
+  static String myVideoId = 'MBsQOTvWL3Q';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -355,7 +357,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 686, // DOPSUM: CHANGE IT
+      startAt: 301, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -374,7 +376,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'U8ebSpLAO0U';
+  static String myVideoId = '2Hq4CtLfnZs';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -382,7 +384,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 370, // DOPSUM: CHANGE IT
+      startAt: 166, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -401,7 +403,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'eQ9eY0_DoEk';
+  static String myVideoId = 'fE4Z5hFLrqI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -409,7 +411,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 196, // DOPSUM: CHANGE IT
+      startAt: 223, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -428,7 +430,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'kK9qwCAm_S0';
+  static String myVideoId = 'EmT0i0xG6zg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -436,7 +438,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 74, // DOPSUM: CHANGE IT
+      startAt: 3949, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -455,7 +457,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'rF95MJL63Rs';
+  static String myVideoId = '895AKrvz_AI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -463,66 +465,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 96, // DOPSUM: CHANGE IT
+      startAt: 358, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedeight({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddednine({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedten({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

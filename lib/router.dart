@@ -419,39 +419,51 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_aide.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_aids.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_ailing.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_ailment.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aim.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aimless.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aimlessly.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aint.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_air.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_airbag.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_airborne.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_air_conditioner.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_air_conditioned.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aircraft.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_aircraft_carrier.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_airfield.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_air_force.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_air_hostess.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_airlift.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_airline.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_airliner.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_airmail.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_air_marshal.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_airplane.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_airport.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_air_raid.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_airship.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_airspace.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_airstrip.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_air_terminal.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_airtight.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_air_to_air.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_air_traffic_controller.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_airway.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_airworthy.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_airing.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_ailment.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_aim.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_aimless.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_aimlessly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_aint.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_air.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airbag.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airborne.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_air_conditioner.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_air_conditioned.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_aircraft.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_aircraft_carrier.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airfield.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_air_force.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_air_hostess.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airlift.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airline.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airliner.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airmail.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_air_marshal.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airplane.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airport.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_air_raid.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airship.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airspace.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airstrip.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_air_terminal.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airtight.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_air_to_air.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_air_traffic_controller.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airway.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airworthy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airing.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airing_cupboard.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airless.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_airily.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ai/en_entry_aisle.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_aj/en_entry_ajar.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ag/en_entry_DOPSUM.dart';
@@ -963,13 +975,32 @@ final loggedInRoute = RouteMap(routes: {
   "/english-airship": (_) => MaterialPage(child: EnglishEntryairship()),
   "/english-airspace": (_) => MaterialPage(child: EnglishEntryairspace()),
   "/english-airstrip": (_) => MaterialPage(child: EnglishEntryairstrip()),
-  "/english-air-terminal": (_) => MaterialPage(child: EnglishEntryairterminal()),
+  "/english-air-terminal": (_) =>
+      MaterialPage(child: EnglishEntryairterminal()),
   "/english-airtight": (_) => MaterialPage(child: EnglishEntryairtight()),
   "/english-air-to-air": (_) => MaterialPage(child: EnglishEntryairtoair()),
-  "/english-air-traffic-controller": (_) => MaterialPage(child: EnglishEntryairtrafficcontroller()),
+  "/english-air-traffic-controller": (_) =>
+      MaterialPage(child: EnglishEntryairtrafficcontroller()),
   "/english-airway": (_) => MaterialPage(child: EnglishEntryairway()),
   "/english-airworthy": (_) => MaterialPage(child: EnglishEntryairworthy()),
   "/english-airing": (_) => MaterialPage(child: EnglishEntryairing()),
+  "/english-airing-cupboard": (_) =>
+      MaterialPage(child: EnglishEntryairingcupboard()),
+  "/english-airless": (_) => MaterialPage(child: EnglishEntryairless()),
+  "/english-airy": (_) => MaterialPage(child: EnglishEntryairy()),
+  "/english-airily": (_) => MaterialPage(child: EnglishEntryairily()),
+  "/english-aisle": (_) => MaterialPage(child: EnglishEntryaisle()),
+  "/english-ajar": (_) => MaterialPage(child: EnglishEntryajar()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

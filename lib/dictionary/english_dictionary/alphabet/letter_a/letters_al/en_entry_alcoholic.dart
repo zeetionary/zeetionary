@@ -3,120 +3,62 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryalarm - replace speakAlarm - replace alarm - /əˈlɑːm/ - find Dopsum2
+// replace these: replace EnglishEntryalcoholic - replace speakAlcoholic - replace alcoholic - /ˌælkəˈhɒlɪk/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryalarm extends StatelessWidget {
-  EnglishEntryalarm({Key? key}) : super(key: key);
+class EnglishEntryalcoholic extends StatelessWidget {
+  EnglishEntryalcoholic({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlarm(String languageCode) async {
-    // DOPSUM: CHANGE speakAlarm
+  Future<void> speakAlcoholic(String languageCode) async {
+    // DOPSUM: CHANGE speakAlcoholic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alcoholic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlarm355(String languageCode) async {
-    // DOPSUM: CHANGE speakAlarm
+  Future<void> speakAlcoholic459(String languageCode) async {
+    // DOPSUM: CHANGE speakAlcoholic
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The fruit juice tasted slightly alcoholic."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAlcoholic469(String languageCode) async {
+    // DOPSUM: CHANGE speakAlcoholic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She decided to sound the alarm."); // DOPSUM: CHANGE TEXT
+        .speak("The guests left in an alcoholic haze."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlarm466(String languageCode) async {
-    // DOPSUM: CHANGE speakAlarm
+  Future<void> speakAlcoholic358(String languageCode) async {
+    // DOPSUM: CHANGE speakAlcoholic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I hammered on all the doors to raise the alarm."); // DOPSUM: CHANGE TEXT
+        "She was taking care of her alcoholic son."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlarm4255(String languageCode) async {
-    // DOPSUM: CHANGE speakAlarm
+  Future<void> speakAlcoholic39412(String languageCode) async {
+    // DOPSUM: CHANGE speakAlcoholic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A car alarm went off in the middle of the night."); // DOPSUM: CHANGE TEXT
+        "I don’t think an alcoholic can dry out without proper medical help."); // DOPSUM: CHANGE TEXT
   }
-
-  Future<void> speakAlarm4522(String languageCode) async {
-    // DOPSUM: CHANGE speakAlarm
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The alarm went off at 7 o'clock."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAlarm4277(String languageCode) async {
-    // DOPSUM: CHANGE speakAlarm
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The doctor said there was no cause for alarm."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAlarm7692(String languageCode) async {
-    // DOPSUM: CHANGE speakAlarm
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It alarms me that nobody takes this problem seriously."); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakAlarm(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlarm
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAlarm(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlarm
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAlarm(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlarm
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAlarm(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlarm
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAlarm(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlarm
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
-  // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -134,7 +76,7 @@ class EnglishEntryalarm extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "alarm", // DOPSUM: CHANGE WORD ENTRY - Find /əˈlɑːm/
+                              "alcoholic", // DOPSUM: CHANGE WORD ENTRY - Find /ˌælkəˈhɒlɪk/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -150,7 +92,7 @@ class EnglishEntryalarm extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUK: /əˈlɑːm/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              "IpaUK: /ˌælkəˈhɒlɪk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -159,16 +101,16 @@ class EnglishEntryalarm extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAlarm(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAlcoholic(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              "IpaUS: /əˈlɑːrm/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              "IpaUS: /ˌælkəˈhɑːlɪk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -177,7 +119,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAlarm(
+                              onPressed: () => speakAlcoholic(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -201,7 +143,7 @@ class EnglishEntryalarm extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(),
                   VideoIconForTab(),
-                  VideoIconForTab(),
+                  // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -227,9 +169,7 @@ class EnglishEntryalarm extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: لوورە، زەنگی مەترسی، نیشانەی مەترسی، ئاگادارکردنەوە، ھوشیارکردنەوە،	ترس، تۆقین، مەترسی، دڵەتەپێ، دڵەخورپە، سەعاتی زەنگ‌دار، چاڵمە، شەیپوور یان دەھۆڵی ئامادەبوون، ئاژیر، دەھۆڵی ئامادەباش(ی)
-
-١. (ناو) دەنگێکی بەرز کە خەڵکی لە کێشە ئاگادار دەکاتەوە''',
+١. (ھاوەڵناو) پەیوەندیدار بە کحول، یان ھەبوونی کحول تێیدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -239,7 +179,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "She decided to sound the alarm (= warn people that the situation was dangerous).",
+                                    "The fruit juice tasted slightly alcoholic.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -253,7 +193,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بڕیاریدا زەنگی مەترسی لێبدا",
+                                    "شەربەتەکە کەمێک تامی کحولی دەدا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -265,7 +205,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAlarm355("en-GB"),
+                                onPressed: () => speakAlcoholic459("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -273,62 +213,16 @@ class EnglishEntryalarm extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAlarm355(// REPLACE: alarm /əˈlɑːrm/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I hammered on all the doors to raise the alarm.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە ھەموو دەرگاکانم دا بۆ ئاگادارکردنەوە",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAlarm466("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAlarm466(// REPLACE: alarm /əˈlɑːrm/
-                                        "en-US"),
+                                onPressed: () => speakAlcoholic459(
+                                    // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
+                                    "en-US"),
                               ),
                             ],
                           ),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. (ناو) ئامێرێک کە زەنگی مەترسی لێدەدات''',
+٢. (ھاوەڵناو) پەیوەندیدار بە کحول، یان ھەبوونی کحول تێیدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -338,7 +232,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "A car alarm went off in the middle of the night (= started ringing).",
+                                    "The guests left in an alcoholic haze.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -352,7 +246,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زەنگی ئاگادارکەرەوەی ئۆتۆمبێلێک لە نیوە شەودا دەستی بە لێدان کرد",
+                                    "میوانەکان بە گێژخواردووی کحولەوە ڕۆشتن",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -364,7 +258,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAlarm4255("en-GB"),
+                                onPressed: () => speakAlcoholic469("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -372,16 +266,16 @@ class EnglishEntryalarm extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAlarm4255(// REPLACE: alarm /əˈlɑːrm/
-                                        "en-US"),
+                                onPressed: () => speakAlcoholic469(
+                                    // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
+                                    "en-US"),
                               ),
                             ],
                           ),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. (ناو) زەنگێک کە دیاری دەکەیت لەسەر کاتژمێرێک یان موبایل بۆ ئەوەی لە کاتێکی دیاریکراو لێبدات''',
+٣. (ھاوەڵناو) ئاڵوودەی کحول بە ڕادەی نەخۆشبوون''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -391,7 +285,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The alarm went off at 7 o'clock.",
+                                    "She was taking care of her alcoholic son.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -405,7 +299,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زەنگەکە لە کاتژمێر ٧ دەستی بە لێدان کرد",
+                                    "چاودێری کوڕە ئاڵوودەکەی دەکرد",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -417,7 +311,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAlarm4522("en-GB"),
+                                onPressed: () => speakAlcoholic358("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -425,16 +319,16 @@ class EnglishEntryalarm extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAlarm4522(// REPLACE: alarm /əˈlɑːrm/
-                                        "en-US"),
+                                onPressed: () => speakAlcoholic358(
+                                    // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
+                                    "en-US"),
                               ),
                             ],
                           ),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٤. (ناو) ترس و نیگەرانی لە کاتی مەترسی''',
+٤. (ناو) کەسێک لە ڕادەبەدەر بخواتەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -444,7 +338,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The doctor said there was no cause for alarm.",
+                                    "I don’t think an alcoholic can dry out without proper medical help.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -458,7 +352,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پزیشکەکە وتی ھیچ ھۆکارێک نییە بۆ دڵەخورپە",
+                                    "پێم وانییە کەسێکی ئاڵوودە بتوانێت خواردنەوە تەرک بکات بەبێ یارمەتی گونجاوی پزیشکی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -470,7 +364,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAlarm4277("en-GB"),
+                                onPressed: () => speakAlcoholic39412("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -478,62 +372,9 @@ class EnglishEntryalarm extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAlarm4277(// REPLACE: alarm /əˈlɑːrm/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٥. (کردار) درووستکردنی نیگەرانی یان مەترسی لای کەسێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "It alarms me that nobody takes this problem seriously.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تووشی دڵەخورپە دەبم کە ھیچ کەس ئەم کێشەیە بە جدی وەرناگرێت",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAlarm7692("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAlarm7692(// REPLACE: alarm /əˈlɑːrm/
-                                        "en-US"),
+                                onPressed: () => speakAlcoholic39412(
+                                    // REPLACE: alcoholic /ˌælkəˈhɑːlɪk/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -549,7 +390,7 @@ class EnglishEntryalarm extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -581,21 +422,15 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alarm (Derived forms: alarms)
-1. Fear resulting from the awareness of danger (= dismay, consternation)
+- Adjective: alcoholic
+1. Addicted to alcohol (= alcohol-dependent)
+"alcoholic expatriates in Paris";
  
-2. A device that signals the occurrence of some undesirable event (= warning device, alarm system)
- 
-3. An automatic signal (usually a sound) warning of danger (= alert, warning signal, alarum [archaic])
- 
-4. A clock that wakes a sleeper at some preset time (= alarm clock)
+2. Characteristic of or containing alcohol
+"alcoholic drinks"
 
-- Verb: alarm (Derived forms: alarms, alarming, alarmed)
-1. Fill with apprehension or alarm; cause to be unpleasantly surprised (= dismay, appal [Brit, Cdn], appall [US], horrify)
-"I was alarmed at the thought of being late for my interview";
-
-2. Warn or arouse to a sense of danger or call to a state of preparedness (= alert)
-"The empty house alarmed him";
+- Noun: alcoholic (Derived forms: alcoholics)
+1. A person who drinks alcohol to excess habitually (= alky [informal], dipsomaniac, boozer [informal], lush [N. Amer, informal], soaker [informal], souse [informal], dipso [informal], winebibber [archaic], alkie [informal], tosspot [informal], drunkard, drunk, rummy, sot, inebriate, wino [informal])
 '''),
         ],
       ),
@@ -606,7 +441,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'lyErdsXeMuA';
+  static String myVideoId = 'S4Du0z5fuLw';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -614,7 +449,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 75, // DOPSUM: CHANGE IT
+      startAt: 27, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -633,7 +468,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'C3CeB0X16LA';
+  static String myVideoId = '5wgvpo-xBnA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -641,7 +476,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 12, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -660,7 +495,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'DuAeaIcAXtg';
+  static String myVideoId = 'VAbZreFNDjg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -668,7 +503,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 154, // DOPSUM: CHANGE IT
+      startAt: 25, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -687,7 +522,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'To2L5aNAmfk';
+  static String myVideoId = 'F9lZKl6Qnho';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -695,7 +530,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 63, // DOPSUM: CHANGE IT
+      startAt: 2, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -714,7 +549,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'JmVF-HW7W0U';
+  static String myVideoId = 'pIFNyh0npAo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -722,7 +557,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 28, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -741,7 +576,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'ivJj8NDb-jk';
+  static String myVideoId = 'IJ45ejB80XA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -749,7 +584,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 33, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -768,7 +603,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'LTFmuNxsnKg';
+  static String myVideoId = 'E2wyBt4qAUc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -776,7 +611,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 9, // DOPSUM: CHANGE IT
+      startAt: 707, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -795,7 +630,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'SU0v2fz0F8g';
+  static String myVideoId = '3Hf6r5FczHM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -803,7 +638,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 362, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -822,7 +657,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'QLq6GEiHqR8';
+  static String myVideoId = 'E5PBZhdvaQY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -830,7 +665,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 504, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -849,7 +684,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'yOp0cyWp_P4';
+  static String myVideoId = 'PUT_VIDEO_ID';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -857,7 +692,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 590, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

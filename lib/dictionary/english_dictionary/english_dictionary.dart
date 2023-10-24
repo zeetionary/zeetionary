@@ -475,6 +475,14 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "alarm clock",
     "alarming",
     "alas",
+    "albatross",
+    "albeit",
+    "albino",
+    "album",
+    "alcohol",
+    "alcoholic",
+    "alcoholism",
+    "alcove",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -1945,6 +1953,36 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "alas") {
                     Routemaster.of(context).push('/english-alas');
                   }
+                  if (wordsEnglish == "albatross") {
+                    Routemaster.of(context).push('/english-albatross');
+                  }
+                  if (wordsEnglish == "albeit") {
+                    Routemaster.of(context).push('/english-albeit');
+                  }
+                  if (wordsEnglish == "albino") {
+                    Routemaster.of(context).push('/english-albino');
+                  }
+                  if (wordsEnglish == "album") {
+                    Routemaster.of(context).push('/english-album');
+                  }
+                  if (wordsEnglish == "alcohol") {
+                    Routemaster.of(context).push('/english-alcohol');
+                  }
+                  if (wordsEnglish == "alcoholic") {
+                    Routemaster.of(context).push('/english-alcoholic');
+                  }
+                  if (wordsEnglish == "alcoholism") {
+                    Routemaster.of(context).push('/english-alcoholism');
+                  }
+                  if (wordsEnglish == "alcove") {
+                    Routemaster.of(context).push('/english-alcove');
+                  }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push('/english-DOPSUM');
                   // }

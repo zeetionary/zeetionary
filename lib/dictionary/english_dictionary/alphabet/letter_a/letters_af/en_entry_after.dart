@@ -1058,7 +1058,7 @@ class EnglishEntryafter extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١٣. (لێکدەر) لەدوای کاتێک''',
+١٣. (ھاوەڵناو) لەدوای کاتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

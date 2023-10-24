@@ -3,114 +3,46 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryalarm - replace speakAlarm - replace alarm - /əˈlɑːm/ - find Dopsum2
+// replace these: replace EnglishEntryalbum - replace speakAlbum - replace album - /ˈælbəm/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryalarm extends StatelessWidget {
-  EnglishEntryalarm({Key? key}) : super(key: key);
+class EnglishEntryalbum extends StatelessWidget {
+  EnglishEntryalbum({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlarm(String languageCode) async {
-    // DOPSUM: CHANGE speakAlarm
+  Future<void> speakAlbum(String languageCode) async {
+    // DOPSUM: CHANGE speakAlbum
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("album"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlarm355(String languageCode) async {
-    // DOPSUM: CHANGE speakAlarm
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She decided to sound the alarm."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAlarm466(String languageCode) async {
-    // DOPSUM: CHANGE speakAlarm
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I hammered on all the doors to raise the alarm."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAlarm4255(String languageCode) async {
-    // DOPSUM: CHANGE speakAlarm
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A car alarm went off in the middle of the night."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAlarm4522(String languageCode) async {
-    // DOPSUM: CHANGE speakAlarm
+  Future<void> speakAlbum42599(String languageCode) async {
+    // DOPSUM: CHANGE speakAlbum
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("The alarm went off at 7 o'clock."); // DOPSUM: CHANGE TEXT
+        .speak("I keep the photographs in an album."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlarm4277(String languageCode) async {
-    // DOPSUM: CHANGE speakAlarm
+  Future<void> speakAlbum3655(String languageCode) async {
+    // DOPSUM: CHANGE speakAlbum
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The doctor said there was no cause for alarm."); // DOPSUM: CHANGE TEXT
+        "They recently released their debut album."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlarm7692(String languageCode) async {
-    // DOPSUM: CHANGE speakAlarm
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It alarms me that nobody takes this problem seriously."); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakAlarm(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlarm
+  // Future<void> speakAlbum(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAlbum
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAlarm(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlarm
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAlarm(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlarm
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAlarm(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlarm
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAlarm(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlarm
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alarm"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("album"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -134,7 +66,7 @@ class EnglishEntryalarm extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "alarm", // DOPSUM: CHANGE WORD ENTRY - Find /əˈlɑːm/
+                              "album", // DOPSUM: CHANGE WORD ENTRY - Find /ˈælbəm/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -150,7 +82,7 @@ class EnglishEntryalarm extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUK: /əˈlɑːm/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              "IpaUK: /ˈælbəm/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -160,7 +92,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAlarm(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAlbum(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -168,7 +100,7 @@ class EnglishEntryalarm extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUS: /əˈlɑːrm/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              "IpaUS: /ˈælbəm/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -177,7 +109,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAlarm(
+                              onPressed: () => speakAlbum(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -227,9 +159,9 @@ class EnglishEntryalarm extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: لوورە، زەنگی مەترسی، نیشانەی مەترسی، ئاگادارکردنەوە، ھوشیارکردنەوە،	ترس، تۆقین، مەترسی، دڵەتەپێ، دڵەخورپە، سەعاتی زەنگ‌دار، چاڵمە، شەیپوور یان دەھۆڵی ئامادەبوون، ئاژیر، دەھۆڵی ئامادەباش(ی)
+کوردی: ئاڵبۆم، وێنەدان، جێ‌وێنە، جێ‌پوول، پوول‌دان، ئاڵبۆمی موسیقا (بە چەندین پارچە موسیقاوە، لەسەر سی‌دی CD، کاسێت یان ئینتێرنێت)
 
-١. (ناو) دەنگێکی بەرز کە خەڵکی لە کێشە ئاگادار دەکاتەوە''',
+١. (ناو) کتێبێک کە تێیدا وێنە ھەڵدەگریت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -239,7 +171,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "She decided to sound the alarm (= warn people that the situation was dangerous).",
+                                    "I keep the photographs in an album.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -253,7 +185,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بڕیاریدا زەنگی مەترسی لێبدا",
+                                    "وێنەکان لە ئەلبومێکدا ھەڵدەگرم",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -265,7 +197,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAlarm355("en-GB"),
+                                onPressed: () => speakAlbum42599("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -274,53 +206,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAlarm355(// REPLACE: alarm /əˈlɑːrm/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I hammered on all the doors to raise the alarm.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە ھەموو دەرگاکانم دا بۆ ئاگادارکردنەوە",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAlarm466("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAlarm466(// REPLACE: alarm /əˈlɑːrm/
+                                    speakAlbum42599(// REPLACE: album /ˈælbəm/
                                         "en-US"),
                               ),
                             ],
@@ -328,7 +214,7 @@ class EnglishEntryalarm extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. (ناو) ئامێرێک کە زەنگی مەترسی لێدەدات''',
+٢. (ناو) ژمارەیەک پارچە موسیقا یان گۆرانی کە پێکەوە لەسەر ئینتەرنێت یان بە CD بڵاودەکرێنەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -338,7 +224,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "A car alarm went off in the middle of the night (= started ringing).",
+                                    "They recently released their debut album.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -352,7 +238,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زەنگی ئاگادارکەرەوەی ئۆتۆمبێلێک لە نیوە شەودا دەستی بە لێدان کرد",
+                                    "بەم نزیکانە یەکەم ئەلبومیان بڵاوکردەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -364,7 +250,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAlarm4255("en-GB"),
+                                onPressed: () => speakAlbum3655("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -373,166 +259,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAlarm4255(// REPLACE: alarm /əˈlɑːrm/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (ناو) زەنگێک کە دیاری دەکەیت لەسەر کاتژمێرێک یان موبایل بۆ ئەوەی لە کاتێکی دیاریکراو لێبدات''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The alarm went off at 7 o'clock.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زەنگەکە لە کاتژمێر ٧ دەستی بە لێدان کرد",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAlarm4522("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAlarm4522(// REPLACE: alarm /əˈlɑːrm/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٤. (ناو) ترس و نیگەرانی لە کاتی مەترسی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The doctor said there was no cause for alarm.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پزیشکەکە وتی ھیچ ھۆکارێک نییە بۆ دڵەخورپە",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAlarm4277("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAlarm4277(// REPLACE: alarm /əˈlɑːrm/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٥. (کردار) درووستکردنی نیگەرانی یان مەترسی لای کەسێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "It alarms me that nobody takes this problem seriously.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تووشی دڵەخورپە دەبم کە ھیچ کەس ئەم کێشەیە بە جدی وەرناگرێت",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAlarm7692("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAlarm7692(// REPLACE: alarm /əˈlɑːrm/
+                                    speakAlbum3655(// REPLACE: album /ˈælbəm/
                                         "en-US"),
                               ),
                             ],
@@ -581,21 +308,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alarm (Derived forms: alarms)
-1. Fear resulting from the awareness of danger (= dismay, consternation)
+- Noun: album (Derived forms: albums)
+1. One or more recordings issued together; originally released on 12-inch phonograph records (usually with attractive record covers) and later on cassette audiotape and compact disc (= record album)
  
-2. A device that signals the occurrence of some undesirable event (= warning device, alarm system)
- 
-3. An automatic signal (usually a sound) warning of danger (= alert, warning signal, alarum [archaic])
- 
-4. A clock that wakes a sleeper at some preset time (= alarm clock)
-
-- Verb: alarm (Derived forms: alarms, alarming, alarmed)
-1. Fill with apprehension or alarm; cause to be unpleasantly surprised (= dismay, appal [Brit, Cdn], appall [US], horrify)
-"I was alarmed at the thought of being late for my interview";
-
-2. Warn or arouse to a sense of danger or call to a state of preparedness (= alert)
-"The empty house alarmed him";
+2. A book of blank pages with pockets or envelopes; for organizing photographs or stamp collections etc
 '''),
         ],
       ),
@@ -606,7 +322,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'lyErdsXeMuA';
+  static String myVideoId = '14WE3A0PwVs';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -614,7 +330,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 75, // DOPSUM: CHANGE IT
+      startAt: 153, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -633,7 +349,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'C3CeB0X16LA';
+  static String myVideoId = 'i5RNOR6T8GM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -641,7 +357,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 21, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -660,7 +376,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'DuAeaIcAXtg';
+  static String myVideoId = 'rXqh6AcIb-c';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -668,7 +384,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 154, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -687,7 +403,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'To2L5aNAmfk';
+  static String myVideoId = 'cTozcxvFDtM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -695,7 +411,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 63, // DOPSUM: CHANGE IT
+      startAt: 33, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -714,7 +430,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'JmVF-HW7W0U';
+  static String myVideoId = '_VR13f6pPT8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -722,7 +438,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 28, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -741,7 +457,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'ivJj8NDb-jk';
+  static String myVideoId = '544DTGHIBM0';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -749,7 +465,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 33, // DOPSUM: CHANGE IT
+      startAt: 20, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -768,7 +484,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'LTFmuNxsnKg';
+  static String myVideoId = 'H1wjMGosYa8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -776,7 +492,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 9, // DOPSUM: CHANGE IT
+      startAt: 139, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -795,7 +511,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'SU0v2fz0F8g';
+  static String myVideoId = 'EIObKXp31TI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -803,7 +519,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 362, // DOPSUM: CHANGE IT
+      startAt: 17, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -822,7 +538,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'QLq6GEiHqR8';
+  static String myVideoId = 'fXyboC9qC5Y';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -830,7 +546,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 504, // DOPSUM: CHANGE IT
+      startAt: 17, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -849,7 +565,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'yOp0cyWp_P4';
+  static String myVideoId = '752G5keli6k';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -857,7 +573,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 590, // DOPSUM: CHANGE IT
+      startAt: 17, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

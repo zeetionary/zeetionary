@@ -465,14 +465,14 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alarm_clock.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alarming.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alas.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_albatross.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_albeit.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_albino.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_album.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alcohol.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alcoholic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alcoholism.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alcove.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
@@ -998,14 +998,14 @@ final loggedInRoute = RouteMap(routes: {
   "/english-alarm-clock": (_) => MaterialPage(child: EnglishEntryalarmclock()),
   "/english-alarming": (_) => MaterialPage(child: EnglishEntryalarming()),
   "/english-alas": (_) => MaterialPage(child: EnglishEntryalas()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-albatross": (_) => MaterialPage(child: EnglishEntryalbatross()),
+  "/english-albeit": (_) => MaterialPage(child: EnglishEntryalbeit()),
+  "/english-albino": (_) => MaterialPage(child: EnglishEntryalbino()),
+  "/english-album": (_) => MaterialPage(child: EnglishEntryalbum()),
+  "/english-alcohol": (_) => MaterialPage(child: EnglishEntryalcohol()),
+  "/english-alcoholic": (_) => MaterialPage(child: EnglishEntryalcoholic()),
+  "/english-alcoholism": (_) => MaterialPage(child: EnglishEntryalcoholism()),
+  "/english-alcove": (_) => MaterialPage(child: EnglishEntryalcove()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

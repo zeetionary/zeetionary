@@ -483,6 +483,8 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "alcoholic",
     "alcoholism",
     "alcove",
+    "ale",
+    "alert",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -1977,6 +1979,51 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "alcove") {
                     Routemaster.of(context).push('/english-alcove');
                   }
+                  if (wordsEnglish == "ale") {
+                    Routemaster.of(context).push('/english-ale');
+                  }
+                  if (wordsEnglish == "alert") {
+                    Routemaster.of(context).push('/english-alert');
+                  }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push('/english-DOPSUM');
                   // }

@@ -160,7 +160,7 @@ class EnglishEntryalcove extends StatelessWidget {
                             '''
 کوردی: شانشین، تاقە، گەنجینە، ئەلکۆڤ
 
-١. (ناو) تاق؛ بەشێکی دیوارێک کە لە دواتردرووستکراوە وەک لە بەشەکانی تر''',
+١. (ناو) تاق؛ بەشێکی دیوارێک کە لە دواتر درووستکراوە وەک لە بەشەکانی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

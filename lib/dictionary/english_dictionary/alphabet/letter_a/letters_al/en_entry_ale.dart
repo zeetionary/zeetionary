@@ -3,52 +3,51 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
-// replace these: replace EnglishEntryalbum - replace speakAlbum - replace album - /ˈælbəm/ - find Dopsum2
+// replace these: replace EnglishEntryale - replace speakAle - replace ale - /eɪl/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryalbum extends StatelessWidget {
-  EnglishEntryalbum({Key? key}) : super(key: key);
+class EnglishEntryale extends StatelessWidget {
+  EnglishEntryale({Key? key}) : super(key: key);
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlbum(String languageCode) async {
-    // DOPSUM: CHANGE speakAlbum
+  Future<void> speakAle(String languageCode) async {
+    // DOPSUM: CHANGE speakAle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("album"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ale"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlbum42599(String languageCode) async {
-    // DOPSUM: CHANGE speakAlbum
+  Future<void> speakAle346(String languageCode) async {
+    // DOPSUM: CHANGE speakAle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I keep the photographs in an album."); // DOPSUM: CHANGE TEXT
+        .speak("This pub specializes in fine ales."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlbum3655(String languageCode) async {
-    // DOPSUM: CHANGE speakAlbum
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "They recently released their debut album."); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakAlbum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlbum
+  // Future<void> speakAle(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAle
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("album"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ale"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAle(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAle
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("ale"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 9, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -66,7 +65,7 @@ class EnglishEntryalbum extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "album", // DOPSUM: CHANGE WORD ENTRY - Find /ˈælbəm/
+                              "ale", // DOPSUM: CHANGE WORD ENTRY - Find /eɪl/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -82,7 +81,7 @@ class EnglishEntryalbum extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUK: /ˈælbəm/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              "IpaUK: /eɪl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -92,7 +91,7 @@ class EnglishEntryalbum extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAlbum(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAle(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -100,7 +99,7 @@ class EnglishEntryalbum extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUS: /ˈælbəm/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              "IpaUS: /eɪl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -109,7 +108,7 @@ class EnglishEntryalbum extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAlbum(
+                              onPressed: () => speakAle(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -131,9 +130,9 @@ class EnglishEntryalbum extends StatelessWidget {
                   VideoIconForTab(),
                   VideoIconForTab(), // FIND: 2,
                   VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
+                  // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -159,9 +158,9 @@ class EnglishEntryalbum extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: ئاڵبۆم، وێنەدان، جێ‌وێنە، جێ‌پوول، پوول‌دان، ئاڵبومی موسیقا
+کوردی: ئێیل، ئەیل(= جۆرێ بیرە)، ئەیل‌خۆران، فێستیڤاڵێکی ئینگلتەرە، ئەڵمانی بنەڕەت)
 
-١. (ناو) کتێبێک کە تێیدا وێنە ھەڵدەگریت''',
+١. (ناو) جۆرە بیرەیەک کە بڵقی نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -171,7 +170,7 @@ class EnglishEntryalbum extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "I keep the photographs in an album.",
+                                    "This pub specializes in fine ales.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -185,7 +184,7 @@ class EnglishEntryalbum extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وێنەکان لە ئەلبومێکدا ھەڵدەگرم",
+                                    "ئەم باڕە شارەزایە لە ئەیڵی  فرەخاس",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -197,7 +196,7 @@ class EnglishEntryalbum extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAlbum42599("en-GB"),
+                                onPressed: () => speakAle346("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -206,60 +205,7 @@ class EnglishEntryalbum extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAlbum42599(// REPLACE: album /ˈælbəm/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) ژمارەیەک پارچە موسیقا یان گۆرانی کە پێکەوە لەسەر ئینتەرنێت یان بە سی دی بڵاودەکرێنەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "They recently released their debut album.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بەم نزیکانە یەکەم ئەلبومیان بڵاوکردەوە",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAlbum3655("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAlbum3655(// REPLACE: album /ˈælbəm/
+                                    speakAle346(// REPLACE: ale /eɪl/
                                         "en-US"),
                               ),
                             ],
@@ -274,9 +220,9 @@ class EnglishEntryalbum extends StatelessWidget {
                     YoutubeEmbeddedfive(),
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
-                    YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeight(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -308,10 +254,8 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: album (Derived forms: albums)
-1. One or more recordings issued together; originally released on 12-inch phonograph records (usually with attractive record covers) and later on cassette audiotape and compact disc (= record album)
- 
-2. A book of blank pages with pockets or envelopes; for organizing photographs or stamp collections etc
+- Noun: ale (Derived forms: ales)
+1. A general name for beer made with a top fermenting yeast; in some of the United States an ale is (by law) a brew of more than 4% alcohol by volume
 '''),
         ],
       ),
@@ -322,7 +266,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '14WE3A0PwVs';
+  static String myVideoId = 'BCGRSQ6GSKM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -330,7 +274,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 153, // DOPSUM: CHANGE IT
+      startAt: 17, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -349,7 +293,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'i5RNOR6T8GM';
+  static String myVideoId = 'eFMLO396aPY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -357,7 +301,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 21, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -376,7 +320,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'rXqh6AcIb-c';
+  static String myVideoId = '0XuprES_geo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -384,7 +328,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 127, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -403,7 +347,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'cTozcxvFDtM';
+  static String myVideoId = 'WpucGoO0kQ8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -411,7 +355,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 33, // DOPSUM: CHANGE IT
+      startAt: 346, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -430,7 +374,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '_VR13f6pPT8';
+  static String myVideoId = '3qW4hkMGkDQ';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -438,7 +382,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 10, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -457,7 +401,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = '544DTGHIBM0';
+  static String myVideoId = 'Oic24eEK7yc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -465,7 +409,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 20, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -484,7 +428,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'H1wjMGosYa8';
+  static String myVideoId = '0UZUpE8W-C0';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -492,7 +436,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 139, // DOPSUM: CHANGE IT
+      startAt: 30, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -511,7 +455,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'EIObKXp31TI';
+  static String myVideoId = 'PUT_VIDEO_ID';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -519,7 +463,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 17, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -538,7 +482,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'fXyboC9qC5Y';
+  static String myVideoId = 'PUT_VIDEO_ID';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -546,7 +490,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 17, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -565,7 +509,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = '752G5keli6k';
+  static String myVideoId = 'PUT_VIDEO_ID';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -573,7 +517,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 17, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

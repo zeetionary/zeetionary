@@ -64,7 +64,7 @@ class EnglishEntryaircraftcarrier extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "air craftcarrier", // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəkrɑːft kæriə(r)/
+                              "aircraft carrier", // DOPSUM: CHANGE WORD ENTRY - Find /ˈeəkrɑːft kæriə(r)/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),

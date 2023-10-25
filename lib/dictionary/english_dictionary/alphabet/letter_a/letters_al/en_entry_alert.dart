@@ -46,7 +46,7 @@ class EnglishEntryalert extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 2, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -122,16 +122,16 @@ class EnglishEntryalert extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(), // FIND: 2,
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(), // FIND: 2,
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
+                  VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
                   // VideoIconForTab(),
@@ -213,15 +213,15 @@ class EnglishEntryalert extends StatelessWidget {
                       ),
                     ),
                     YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
-                    // YoutubeEmbeddedtwo(),
-                    // YoutubeEmbeddedthree(),
-                    // YoutubeEmbeddedfour(),
-                    // YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    // YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
+                    YoutubeEmbeddedtwo(),
+                    YoutubeEmbeddedthree(),
+                    YoutubeEmbeddedfour(),
+                    YoutubeEmbeddedfive(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -302,21 +302,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        margin: const EdgeInsets.only(
-            top: 20.0), // Move it down by adjusting the top margin
-        padding: const EdgeInsets.all(5.0),
-        decoration: BoxDecoration(
-          border: Border.all(
-            color: const Color.fromARGB(110, 162, 239, 20),
-            width: 2.0, // Adjust the width as needed
-          ),
-        ),
-        child: YoutubePlayer(
-          controller: _controller,
-          liveUIColor: Colors.amber,
-        ),
-      ),
+      body: YouTubeContainerDesign(controller: _controller),
     );
   }
 }
@@ -340,21 +326,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        margin: const EdgeInsets.only(
-            top: 20.0), // Move it down by adjusting the top margin
-        padding: const EdgeInsets.all(5.0),
-        decoration: BoxDecoration(
-          border: Border.all(
-            color: const Color.fromARGB(110, 162, 239, 20),
-            width: 2.0, // Adjust the width as needed
-          ),
-        ),
-        child: YoutubePlayer(
-          controller: _controller,
-          liveUIColor: Colors.amber,
-        ),
-      ),
+      body: YouTubeContainerDesign(controller: _controller),
     );
   }
 }
@@ -378,21 +350,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        margin: const EdgeInsets.only(
-            top: 20.0), // Move it down by adjusting the top margin
-        padding: const EdgeInsets.all(5.0),
-        decoration: BoxDecoration(
-          border: Border.all(
-            color: const Color.fromARGB(110, 162, 239, 20),
-            width: 2.0, // Adjust the width as needed
-          ),
-        ),
-        child: YoutubePlayer(
-          controller: _controller,
-          liveUIColor: Colors.amber,
-        ),
-      ),
+      body: YouTubeContainerDesign(controller: _controller),
     );
   }
 }
@@ -416,21 +374,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        margin: const EdgeInsets.only(
-            top: 20.0), // Move it down by adjusting the top margin
-        padding: const EdgeInsets.all(5.0),
-        decoration: BoxDecoration(
-          border: Border.all(
-            color: const Color.fromARGB(110, 162, 239, 20),
-            width: 2.0, // Adjust the width as needed
-          ),
-        ),
-        child: YoutubePlayer(
-          controller: _controller,
-          liveUIColor: Colors.amber,
-        ),
-      ),
+      body: YouTubeContainerDesign(controller: _controller),
     );
   }
 }
@@ -454,21 +398,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        margin: const EdgeInsets.only(
-            top: 20.0), // Move it down by adjusting the top margin
-        padding: const EdgeInsets.all(5.0),
-        decoration: BoxDecoration(
-          border: Border.all(
-            color: const Color.fromARGB(110, 162, 239, 20),
-            width: 2.0, // Adjust the width as needed
-          ),
-        ),
-        child: YoutubePlayer(
-          controller: _controller,
-          liveUIColor: Colors.amber,
-        ),
-      ),
+      body: YouTubeContainerDesign(controller: _controller),
     );
   }
 }
@@ -492,27 +422,13 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        margin: const EdgeInsets.only(
-            top: 20.0), // Move it down by adjusting the top margin
-        padding: const EdgeInsets.all(5.0),
-        decoration: BoxDecoration(
-          border: Border.all(
-            color: const Color.fromARGB(110, 162, 239, 20),
-            width: 2.0, // Adjust the width as needed
-          ),
-        ),
-        child: YoutubePlayer(
-          controller: _controller,
-          liveUIColor: Colors.amber,
-        ),
-      ),
+      body: YouTubeContainerDesign(controller: _controller),
     );
   }
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = '4Ww6CwfyZVE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -520,7 +436,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -530,27 +446,13 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        margin: const EdgeInsets.only(
-            top: 20.0), // Move it down by adjusting the top margin
-        padding: const EdgeInsets.all(5.0),
-        decoration: BoxDecoration(
-          border: Border.all(
-            color: const Color.fromARGB(110, 162, 239, 20),
-            width: 2.0, // Adjust the width as needed
-          ),
-        ),
-        child: YoutubePlayer(
-          controller: _controller,
-          liveUIColor: Colors.amber,
-        ),
-      ),
+      body: YouTubeContainerDesign(controller: _controller),
     );
   }
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'eZnIUMAJtBo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -558,7 +460,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 2758, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -568,27 +470,13 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        margin: const EdgeInsets.only(
-            top: 20.0), // Move it down by adjusting the top margin
-        padding: const EdgeInsets.all(5.0),
-        decoration: BoxDecoration(
-          border: Border.all(
-            color: const Color.fromARGB(110, 162, 239, 20),
-            width: 2.0, // Adjust the width as needed
-          ),
-        ),
-        child: YoutubePlayer(
-          controller: _controller,
-          liveUIColor: Colors.amber,
-        ),
-      ),
+      body: YouTubeContainerDesign(controller: _controller),
     );
   }
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'VrKW58MS12g';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -596,7 +484,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1138, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -606,27 +494,13 @@ class YoutubeEmbeddednine extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        margin: const EdgeInsets.only(
-            top: 20.0), // Move it down by adjusting the top margin
-        padding: const EdgeInsets.all(5.0),
-        decoration: BoxDecoration(
-          border: Border.all(
-            color: const Color.fromARGB(110, 162, 239, 20),
-            width: 2.0, // Adjust the width as needed
-          ),
-        ),
-        child: YoutubePlayer(
-          controller: _controller,
-          liveUIColor: Colors.amber,
-        ),
-      ),
+      body: YouTubeContainerDesign(controller: _controller),
     );
   }
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'PmlRbfSavbI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -634,7 +508,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 190, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -644,74 +518,9 @@ class YoutubeEmbeddedten extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        margin: const EdgeInsets.only(
-            top: 20.0), // Move it down by adjusting the top margin
-        padding: const EdgeInsets.all(5.0),
-        decoration: BoxDecoration(
-          border: Border.all(
-            color: const Color.fromARGB(110, 162, 239, 20),
-            width: 2.0, // Adjust the width as needed
-          ),
-        ),
-        child: YoutubePlayer(
-          controller: _controller,
-          liveUIColor: Colors.amber,
-        ),
-      ),
+      body: YouTubeContainerDesign(controller: _controller),
     );
   }
 }
 
-// ICONS KURD - UK - VIDEO
-
-class VideoIconForTab extends StatelessWidget {
-  const VideoIconForTab({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Tab(
-      icon: Image.asset(
-        'assets/images/video_one.png',
-        width: 24,
-        height: 24,
-      ),
-    );
-  }
-}
-
-class KurdIconForTab extends StatelessWidget {
-  const KurdIconForTab({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Tab(
-      icon: Image.asset(
-        'assets/images/kurd_one.png',
-        width: 24,
-        height: 24,
-      ),
-    );
-  }
-}
-
-class UkIconForTab extends StatelessWidget {
-  const UkIconForTab({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Tab(
-      icon: Image.asset(
-        'assets/images/uk_one.png',
-        width: 24,
-        height: 24,
-      ),
-    );
-  }
-}
+// end

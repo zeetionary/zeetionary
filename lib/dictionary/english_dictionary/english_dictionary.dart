@@ -488,6 +488,23 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "algae",
     "algebra",
     "algorithm",
+    "alias",
+    "alibi",
+    "alien",
+    "alienate",
+    "alienation",
+    "alight",
+    "align",
+    "alignment",
+    "alike",
+    "alimentary canal",
+    "alimony",
+    "alive",
+    "alkali",
+    "all",
+    "all-clear",
+    "all-in",
+    "all-out",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -1997,24 +2014,57 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "algorithm") {
                     Routemaster.of(context).push('/english-algorithm');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "alias") {
+                    Routemaster.of(context).push('/english-alias');
+                  }
+                  if (wordsEnglish == "alibi") {
+                    Routemaster.of(context).push('/english-alibi');
+                  }
+                  if (wordsEnglish == "alien") {
+                    Routemaster.of(context).push('/english-alien');
+                  }
+                  if (wordsEnglish == "alienate") {
+                    Routemaster.of(context).push('/english-alienate');
+                  }
+                  if (wordsEnglish == "alienation") {
+                    Routemaster.of(context).push('/english-alienation');
+                  }
+                  if (wordsEnglish == "alight") {
+                    Routemaster.of(context).push('/english-alight');
+                  }
+                  if (wordsEnglish == "align") {
+                    Routemaster.of(context).push('/english-align');
+                  }
+                  if (wordsEnglish == "alignment") {
+                    Routemaster.of(context).push('/english-alignment');
+                  }
+                  if (wordsEnglish == "alike") {
+                    Routemaster.of(context).push('/english-alike');
+                  }
+                  if (wordsEnglish == "alimentary canal") {
+                    Routemaster.of(context).push('/english-alimentary-canal');
+                  }
+                  if (wordsEnglish == "alimony") {
+                    Routemaster.of(context).push('/english-alimony');
+                  }
+                  if (wordsEnglish == "alive") {
+                    Routemaster.of(context).push('/english-alive');
+                  }
+                  if (wordsEnglish == "alkali") {
+                    Routemaster.of(context).push('/english-alkali');
+                  }
+                  if (wordsEnglish == "all") {
+                    Routemaster.of(context).push('/english-all');
+                  }
+                  if (wordsEnglish == "all-clear") {
+                    Routemaster.of(context).push('/english-all-clear');
+                  }
+                  if (wordsEnglish == "all-in") {
+                    Routemaster.of(context).push('/english-all-in');
+                  }
+                  if (wordsEnglish == "all-out") {
+                    Routemaster.of(context).push('/english-all-out');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push('/english-DOPSUM');
                   // }

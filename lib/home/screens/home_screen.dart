@@ -87,35 +87,3 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     );
   }
 }
-
-
-
-// onWillPop: () async {
-//         final shouldPop = await showDialog<bool>(
-//           context: context,
-//           builder: (context) {
-//             return AlertDialog(
-//               title: const Text('Exit'),
-//               content: const Text('Are you sure you want to exit the app?'),
-//               actions: [
-//                 TextButton(
-//                   onPressed: () {
-//                     Navigator.pop(context, true);
-//                   },
-//                   child: const Text('Yes'),
-//                 ),
-//                 TextButton(
-//                   onPressed: () {
-//                     Navigator.pop(context, false);
-//                   },
-//                   child: const Text(
-//                     'No',
-//                     style: TextStyle(color: Colors.red),
-//                   ),
-//                 ),
-//               ],
-//             );
-//           },
-//         );
-//         return shouldPop!;
-//       },

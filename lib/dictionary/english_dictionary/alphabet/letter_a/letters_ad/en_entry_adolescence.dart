@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryadolescence - replace speakAdolescence - replace adolescence - /ˌædəˈlesns/ - find Dopsum2
 
@@ -140,7 +141,7 @@ class EnglishEntryadolescence extends StatelessWidget {
                   // VideoIconForTab(),
                 ],
                 indicator: BoxDecoration(
-                  color: const Color.fromARGB(110, 162, 239, 20),
+                  color: Pallete.tabsbackgroundColor,
                   borderRadius: BorderRadius.circular(16.0),
                 ),
                 indicatorSize: TabBarIndicatorSize.tab,
@@ -159,7 +160,6 @@ class EnglishEntryadolescence extends StatelessWidget {
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
 کوردی: نیمچەجەحێڵی، مێرمناڵی، نۆجوانی، تازەلاوی، ھەرزەکاری، سەروبەندی مێرمنداڵی یان نۆجوانی، قۆناخی پەرەسەندن بەرلە پێگەیشتوویی
-
 
 ١. (ناو) قۆناغی بوون بە ھەرزەکار''',
                             style: TextStyle(fontSize: 18),

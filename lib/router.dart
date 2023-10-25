@@ -475,9 +475,9 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alcove.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_ale.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alert.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_algae.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_algebra.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_algorithm.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
@@ -1041,9 +1041,9 @@ final loggedInRoute = RouteMap(routes: {
   "/english-alcove": (_) => MaterialPage(child: EnglishEntryalcove()),
   "/english-ale": (_) => MaterialPage(child: EnglishEntryale()),
   "/english-alert": (_) => MaterialPage(child: EnglishEntryalert()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-algae": (_) => MaterialPage(child: EnglishEntryalgae()),
+  "/english-algebra": (_) => MaterialPage(child: EnglishEntryalgebra()),
+  "/english-algorithm": (_) => MaterialPage(child: EnglishEntryalgorithm()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

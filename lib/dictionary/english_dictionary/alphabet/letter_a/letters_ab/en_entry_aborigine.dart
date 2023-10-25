@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: EnglishEntryaborigine - speakAborigine - aborigine - /ˌæbəˈrɪdʒəni/
 
@@ -110,7 +111,7 @@ class EnglishEntryaborigine extends StatelessWidget {
                   // VideoIconForTab(),
                 ],
                 indicator: BoxDecoration(
-                  color: const Color.fromARGB(110, 162, 239, 20),
+                  color: Pallete.tabsbackgroundColor,
                   borderRadius: BorderRadius.circular(16.0),
                 ),
                 indicatorSize: TabBarIndicatorSize.tab,

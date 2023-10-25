@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
+import 'package:zeetionary/theme/pallete.dart';
 
 // replace these: replace EnglishEntryaint - replace speakAint - replace ain't - /eɪnt/ - find Dopsum2
 
@@ -140,7 +141,7 @@ class EnglishEntryaint extends StatelessWidget {
                   // VideoIconForTab(),
                 ],
                 indicator: BoxDecoration(
-                  color: const Color.fromARGB(110, 162, 239, 20),
+                  color: Pallete.tabsbackgroundColor,
                   borderRadius: BorderRadius.circular(16.0),
                 ),
                 indicatorSize: TabBarIndicatorSize.tab,

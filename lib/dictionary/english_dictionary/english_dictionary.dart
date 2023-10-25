@@ -485,6 +485,9 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "alcove",
     "ale",
     "alert",
+    "algae",
+    "algebra",
+    "algorithm",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -1985,15 +1988,15 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "alert") {
                     Routemaster.of(context).push('/english-alert');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "algae") {
+                    Routemaster.of(context).push('/english-algae');
+                  }
+                  if (wordsEnglish == "algebra") {
+                    Routemaster.of(context).push('/english-algebra');
+                  }
+                  if (wordsEnglish == "algorithm") {
+                    Routemaster.of(context).push('/english-algorithm');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push('/english-DOPSUM');
                   // }

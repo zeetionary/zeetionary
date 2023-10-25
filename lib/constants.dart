@@ -6,6 +6,7 @@ import 'package:zeetionary/quiz/quiz_screen.dart';
 import 'package:zeetionary/grammar/grammar_screen.dart';
 import 'package:zeetionary/dictionary/english_dictionary/english_dictionary.dart';
 import 'package:zeetionary/dictionary/kurdish_dictionary/kurdish_dictionary.dart';
+import 'package:zeetionary/theme/pallete.dart';
 
 class Constants {
   static const logo1Path = 'assets/images/zeetionary_one.png';
@@ -92,34 +93,6 @@ class ZeetionaryAppbarStyle extends StatelessWidget {
   }
 }
 
-class YouTubeContainerDesign extends StatelessWidget {
-  const YouTubeContainerDesign({
-    super.key,
-    required YoutubePlayerController controller,
-  }) : _controller = controller;
-
-  final YoutubePlayerController _controller;
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      margin: const EdgeInsets.only(
-          top: 20.0), // Move it down by adjusting the top margin
-      padding: const EdgeInsets.all(5.0),
-      decoration: BoxDecoration(
-        border: Border.all(
-          color: const Color.fromARGB(110, 162, 239, 20),
-          width: 2.0, // Adjust the width as needed
-        ),
-      ),
-      child: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
-      ),
-    );
-  }
-}
-
 class VideoIconForTab extends StatelessWidget {
   const VideoIconForTab({
     super.key,
@@ -168,5 +141,81 @@ class UkIconForTab extends StatelessWidget {
         height: 24,
       ),
     );
+  }
+}
+
+class YouTubeContainerDesign extends StatelessWidget {
+  const YouTubeContainerDesign({
+    super.key,
+    required YoutubePlayerController controller,
+  }) : _controller = controller;
+
+  final YoutubePlayerController _controller;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: const EdgeInsets.only(
+          top: 20.0), // Move it down by adjusting the top margin
+      padding: const EdgeInsets.all(5.0),
+      decoration: BoxDecoration(
+        border: Border.all(
+          color: Pallete.tabsbackgroundColor,
+          width: 2.0, // Adjust the width as needed
+        ),
+      ),
+      child: YoutubePlayer(
+        controller: _controller,
+        liveUIColor: Colors.amber,
+      ),
+    );
+    // Scaffold(
+    //   body: YoutubePlayer(
+    //     controller: _controller,
+    //     liveUIColor: Colors.amber,
+    //   ),
+    // );
+
+    // Scaffold(
+    //   body: Container(
+    //     padding: EdgeInsets.all(8.0),
+    //     decoration: BoxDecoration(
+    //       border: Border.all(
+    //         color: Pallete.tabsbackgroundColor,
+    //         width: 2.0, // Adjust the width as needed
+    //       ),
+    //     ),
+    //     child: YoutubePlayer(
+    //       controller: _controller,
+    //       liveUIColor: Colors.amber,
+    //     ),
+    //   ),
+    // );
+
+    // color: Pallete.tabsbackgroundColor,
+
+    // Scaffold(
+    //   body: Container(
+    //     margin: const EdgeInsets.only(
+    //         top: 40.0), // Move it down by adjusting the top margin
+    //     padding: const EdgeInsets.all(10.0),
+    //     decoration: BoxDecoration(
+    //       color: Pallete.tabsbackgroundColor,
+    //       // color: Colors.blue, // Background color
+    //       borderRadius: BorderRadius.circular(10.0), // Rounded corners
+    //       boxShadow: const [
+    //         BoxShadow(
+    //           color: Colors.grey,
+    //           blurRadius: 5.0,
+    //           spreadRadius: 2.0,
+    //         ),
+    //       ],
+    //     ),
+    //     child: YoutubePlayer(
+    //       controller: _controller,
+    //       liveUIColor: Colors.amber,
+    //     ),
+    //   ),
+    // );
   }
 }

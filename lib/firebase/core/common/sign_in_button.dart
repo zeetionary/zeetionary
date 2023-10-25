@@ -5,7 +5,7 @@ import 'package:zeetionary/firebase/features/auth/controller/auth_controller.dar
 import 'package:zeetionary/theme/pallete.dart';
 
 class SignInButton extends ConsumerWidget {
-  const SignInButton({Key? key}) : super(key: key);
+  const SignInButton({super.key});
 
   void signInWithGoogle(BuildContext context, WidgetRef ref) {
     ref.read(authControllerProvider.notifier).signInWithGoogle(context);

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
-  const DictionaryScreenEnglish({Key? key}) : super(key: key);
+  const DictionaryScreenEnglish({super.key});
 
   @override
   State<DictionaryScreenEnglish> createState() =>
@@ -103,10 +103,10 @@ class EnglishDictionary extends StatelessWidget {
   final Function(String) onTapWord;
 
   const EnglishDictionary({
-    Key? key,
+    super.key,
     required this.words,
     required this.onTapWord,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -129,10 +129,10 @@ class ListTileEnglish extends StatelessWidget {
   final VoidCallback? onTap;
 
   const ListTileEnglish({
-    Key? key,
+    super.key,
     required this.wordsEnglish,
     this.onTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -152,10 +152,10 @@ class CardButton extends StatelessWidget {
   final VoidCallback? onPressed;
 
   const CardButton({
-    Key? key,
+    super.key,
     required this.label,
     this.onPressed,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

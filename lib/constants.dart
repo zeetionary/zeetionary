@@ -24,7 +24,7 @@ class Constants {
 }
 
 class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
-  const ZeetionaryAppbar({Key? key}) : super(key: key);
+  const ZeetionaryAppbar({super.key});
 
   @override
   Widget build(BuildContext context) {

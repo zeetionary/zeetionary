@@ -6,7 +6,7 @@ import 'package:zeetionary/constants.dart';
 import 'package:zeetionary/firebase/features/auth/controller/auth_controller.dart';
 
 class LoginScreen extends ConsumerWidget {
-  const LoginScreen({Key? key}) : super(key: key);
+  const LoginScreen({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

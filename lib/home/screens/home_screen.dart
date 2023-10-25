@@ -6,7 +6,7 @@ import 'package:zeetionary/home/drawers/community_list_drawer.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
 class HomeScreen extends ConsumerStatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   ConsumerState<ConsumerStatefulWidget> createState() => _HomeScreenState();

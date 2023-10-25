@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:zeetionary/constants.dart';
 
 // class HistoryScreenMain extends StatelessWidget {
-//   const HistoryScreenMain({Key? key}) : super(key: key);
+//   const HistoryScreenMain({super.key});
 
 //   @override
 //   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ import 'package:zeetionary/constants.dart';
 // }
 
 class HistoryScreen extends StatefulWidget {
-  const HistoryScreen({Key? key}) : super(key: key);
+  const HistoryScreen({super.key});
 
   @override
   _HistoryScreenState createState() => _HistoryScreenState();

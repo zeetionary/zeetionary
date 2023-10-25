@@ -393,7 +393,7 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_u/letters_un/en_entry_under_age.dart';
 
 class DictionaryScreenEnglishOld extends StatefulWidget {
-  const DictionaryScreenEnglishOld({Key? key}) : super(key: key);
+  const DictionaryScreenEnglishOld({super.key});
 
   @override
   State<DictionaryScreenEnglishOld> createState() =>
@@ -3610,10 +3610,10 @@ class EnglishDictionary extends StatelessWidget {
   final Function(String) onTapWord;
 
   const EnglishDictionary({
-    Key? key,
+    super.key,
     required this.words,
     required this.onTapWord,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -3638,10 +3638,10 @@ class ListTileEnglish extends StatelessWidget {
   final VoidCallback? onTap;
 
   const ListTileEnglish({
-    Key? key,
+    super.key,
     required this.wordsEnglish,
     this.onTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -3661,10 +3661,10 @@ class CardButton extends StatelessWidget {
   final VoidCallback? onPressed;
 
   const CardButton({
-    Key? key,
+    super.key,
     required this.label,
     this.onPressed,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

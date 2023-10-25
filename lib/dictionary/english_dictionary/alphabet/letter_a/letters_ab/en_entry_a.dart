@@ -6,7 +6,8 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 enum TtsState { playing }
 
 class EnglishEntrya extends StatelessWidget {
-  EnglishEntrya({Key? key}) : super(key: key);
+  EnglishEntrya({super.key});
+  // EnglishEntrya({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakA(String languageCode) async {
@@ -413,12 +414,12 @@ class EnglishEntrya extends StatelessWidget {
                         ),
                       ),
                     ),
-                    YoutubeEmbeddedOne(), // DOPSUM: FROM YOUTUBE BELOW
-                    YoutubeEmbeddedTwo(),
-                    // YoutubeEmbeddedThree(),
-                    // YoutubeEmbeddedFour(),
-                    // YoutubeEmbeddedFive(),
-                    // YoutubeEmbeddedSix()
+                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedtwo(),
+                    // YoutubeEmbeddedthree(),
+                    // YoutubeEmbeddedfour(),
+                    // YoutubeEmbeddedfive(),
+                    // YoutubeEmbeddedsix()
                   ],
                 ),
               ),
@@ -473,7 +474,7 @@ Noun: A
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
-class YoutubeEmbeddedOne extends StatelessWidget {
+class YoutubeEmbeddedone extends StatelessWidget {
   static String myVideoId = 'Ovzx0F9es';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
@@ -487,20 +488,31 @@ class YoutubeEmbeddedOne extends StatelessWidget {
     ),
   );
 
-  YoutubeEmbeddedOne({Key? key}) : super(key: key);
+  YoutubeEmbeddedone({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
+      body: Container(
+        margin: const EdgeInsets.only(
+            top: 20.0), // Move it down by adjusting the top margin
+        padding: const EdgeInsets.all(5.0),
+        decoration: BoxDecoration(
+          border: Border.all(
+            color: const Color.fromARGB(110, 162, 239, 20),
+            width: 2.0, // Adjust the width as needed
+          ),
+        ),
+        child: YoutubePlayer(
+          controller: _controller,
+          liveUIColor: Colors.amber,
+        ),
       ),
     );
   }
 }
 
-class YoutubeEmbeddedTwo extends StatelessWidget {
+class YoutubeEmbeddedtwo extends StatelessWidget {
   static String myVideoId = 'Kuy4cEXpXEE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
@@ -514,14 +526,25 @@ class YoutubeEmbeddedTwo extends StatelessWidget {
     ),
   );
 
-  YoutubeEmbeddedTwo({Key? key}) : super(key: key);
+  YoutubeEmbeddedtwo({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: YoutubePlayer(
-        controller: _controller,
-        liveUIColor: Colors.amber,
+      body: Container(
+        margin: const EdgeInsets.only(
+            top: 20.0), // Move it down by adjusting the top margin
+        padding: const EdgeInsets.all(5.0),
+        decoration: BoxDecoration(
+          border: Border.all(
+            color: const Color.fromARGB(110, 162, 239, 20),
+            width: 2.0, // Adjust the width as needed
+          ),
+        ),
+        child: YoutubePlayer(
+          controller: _controller,
+          liveUIColor: Colors.amber,
+        ),
       ),
     );
   }

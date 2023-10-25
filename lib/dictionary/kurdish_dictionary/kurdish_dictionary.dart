@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
 
 class DictionaryScreenKurdish extends StatefulWidget {
-  const DictionaryScreenKurdish({Key? key}) : super(key: key);
+  const DictionaryScreenKurdish({super.key});
 
   @override
   State<DictionaryScreenKurdish> createState() =>
@@ -109,10 +109,10 @@ class KurdishDictionary extends StatelessWidget {
   final Function(String) onTapWord;
 
   const KurdishDictionary({
-    Key? key,
+    super.key,
     required this.words,
     required this.onTapWord,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -135,10 +135,10 @@ class ListTileKurdish extends StatelessWidget {
   final VoidCallback? onTap;
 
   const ListTileKurdish({
-    Key? key,
+    super.key,
     required this.wordsKurdish,
     this.onTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -158,10 +158,10 @@ class CardButton extends StatelessWidget {
   final VoidCallback? onPressed;
 
   const CardButton({
-    Key? key,
+    super.key,
     required this.label,
     this.onPressed,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

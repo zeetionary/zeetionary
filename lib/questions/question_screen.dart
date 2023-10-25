@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:zeetionary/dictionary/english_dictionary/dopsum.dart';
 
 class QuestionsScreen extends StatefulWidget {
-  const QuestionsScreen({Key? key}) : super(key: key);
+  const QuestionsScreen({super.key});
 
   @override
   State<QuestionsScreen> createState() => _QuestionsScreenState();
@@ -99,10 +99,10 @@ class EnglishQuestions extends StatelessWidget {
   final Function(String) onTapQuestion;
 
   const EnglishQuestions({
-    Key? key,
+    super.key,
     required this.questions,
     required this.onTapQuestion,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -125,10 +125,10 @@ class ListTileEnglishQuestions extends StatelessWidget {
   final VoidCallback? onTap;
 
   const ListTileEnglishQuestions({
-    Key? key,
+    super.key,
     required this.questionsEnglish,
     this.onTap,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -148,10 +148,10 @@ class CardButton extends StatelessWidget {
   final VoidCallback? onPressed;
 
   const CardButton({
-    Key? key,
+    super.key,
     required this.label,
     this.onPressed,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

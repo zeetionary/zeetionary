@@ -20,13 +20,14 @@ class EnglishEntryadmirable extends StatelessWidget {
     await flutterTts.speak("admirable"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdmirable(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdmirable
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("admirable"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAdmirable4258(String languageCode) async {
+    // DOPSUM: CHANGE speakAdmirable
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Her dedication to her work was admirable."); // DOPSUM: CHANGE TEXT
+  }
 
   // Future<void> speakAdmirable(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdmirable
@@ -193,7 +194,7 @@ class EnglishEntryadmirable extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdmirable("en-GB"),
+                                onPressed: () => speakAdmirable4258("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -201,7 +202,7 @@ class EnglishEntryadmirable extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAdmirable(
+                                onPressed: () => speakAdmirable4258(
                                     // REPLACE: admirable /ˈædmərəbl/
                                     "en-US"),
                               ),

@@ -184,7 +184,7 @@ class EnglishEntryDopsum extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "رستە",
+                                    "رستە_رستە_رستە_رستە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

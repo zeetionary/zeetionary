@@ -32,25 +32,7 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     return AppBar(
       // centerTitle: true,
-      title: ShaderMask(
-        shaderCallback: (Rect bounds) {
-          return const LinearGradient(
-            colors: [
-              Color.fromARGB(255, 142, 154, 215),
-              Color.fromARGB(255, 219, 84, 84)
-            ], // Define your gradient colors here
-            tileMode: TileMode.clamp,
-          ).createShader(bounds);
-        },
-        child: const Text(
-          'Zeetionary',
-          style: TextStyle(
-            fontSize: 24.0, // Adjust font size as needed
-            fontWeight: FontWeight.bold, // Adjust font weight as needed
-            color: Colors.white, // Text color (will be masked by the gradient)
-          ),
-        ),
-      ),
+      title: const ZeetionaryAppbarStyle(),
       leading: IconButton(
         icon: const Icon(Icons.arrow_back_rounded),
         onPressed: () {
@@ -75,8 +57,8 @@ class ZeetionaryAppbarStyle extends StatelessWidget {
       shaderCallback: (Rect bounds) {
         return const LinearGradient(
           colors: [
-            Color.fromARGB(255, 142, 154, 215),
-            Color.fromARGB(255, 219, 84, 84)
+            Color.fromARGB(255, 107, 118, 175),
+            Color.fromARGB(255, 136, 62, 100),
           ], // Define your gradient colors here
           tileMode: TileMode.clamp,
         ).createShader(bounds);

@@ -515,6 +515,14 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "allegiance",
     "allegorical",
     "allegory",
+    "alleluia",
+    "allergic",
+    "alleviate",
+    "alleviation",
+    "alley",
+    "alliance",
+    "allied",
+    "allergy",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -2105,30 +2113,30 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "allegorical") {
                     Routemaster.of(context).push('/english-allegorical');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "alleluia") {
+                    Routemaster.of(context).push('/english-alleluia');
+                  }
+                  if (wordsEnglish == "allergy") {
+                    Routemaster.of(context).push('/english-allergy');
+                  }
+                  if (wordsEnglish == "allergic") {
+                    Routemaster.of(context).push('/english-allergic');
+                  }
+                  if (wordsEnglish == "alleviate") {
+                    Routemaster.of(context).push('/english-alleviate');
+                  }
+                  if (wordsEnglish == "alleviation") {
+                    Routemaster.of(context).push('/english-alleviation');
+                  }
+                  if (wordsEnglish == "alley") {
+                    Routemaster.of(context).push('/english-alley');
+                  }
+                  if (wordsEnglish == "alliance") {
+                    Routemaster.of(context).push('/english-alliance');
+                  }
+                  if (wordsEnglish == "allied") {
+                    Routemaster.of(context).push('/english-allied');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push('/english-DOPSUM');
                   // }

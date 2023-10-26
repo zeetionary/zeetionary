@@ -505,14 +505,14 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_allegiance.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_allegory.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_allegorical.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alleluia.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_allergy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_allergic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alleviate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alleviation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alley.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_alliance.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_allied.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
@@ -1176,6 +1176,62 @@ final loggedInRoute = RouteMap(routes: {
   "/english-allegiance": (_) => MaterialPage(child: EnglishEntryallegiance()),
   "/english-allegory": (_) => MaterialPage(child: EnglishEntryallegory()),
   "/english-allegorical": (_) => MaterialPage(child: EnglishEntryallegorical()),
+  "/english-alleluia": (_) => MaterialPage(child: EnglishEntryalleluia()),
+  "/english-allergy": (_) => MaterialPage(child: EnglishEntryallergy()),
+  "/english-allergic": (_) => MaterialPage(child: EnglishEntryallergic()),
+  "/english-alleviate": (_) => MaterialPage(child: EnglishEntryalleviate()),
+  "/english-alleviation": (_) => MaterialPage(child: EnglishEntryalleviation()),
+  "/english-alley": (_) => MaterialPage(child: EnglishEntryalley()),
+  "/english-alliance": (_) => MaterialPage(child: EnglishEntryalliance()),
+  "/english-allied": (_) => MaterialPage(child: EnglishEntryallied()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

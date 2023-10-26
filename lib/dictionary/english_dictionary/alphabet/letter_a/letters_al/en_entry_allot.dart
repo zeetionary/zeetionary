@@ -4,51 +4,52 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryaffectionately - replace speakAffectionately - replace affectionately - /əˈfekʃənətli/ - find Dopsum2
+// replace these: replace EnglishEntryallot - replace speakAllot - replace allot - /əˈlɒt/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryaffectionately extends StatelessWidget {
-  EnglishEntryaffectionately({super.key});
+class EnglishEntryallot extends StatelessWidget {
+  EnglishEntryallot({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAffectionately(String languageCode) async {
-    // DOPSUM: CHANGE speakAffectionately
+  Future<void> speakAllot(String languageCode) async {
+    // DOPSUM: CHANGE speakAllot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("affectionately"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("allot"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffecti248(String languageCode) async {
-    // DOPSUM: CHANGE speakAffectionately
+  Future<void> speakAllot4266(String languageCode) async {
+    // DOPSUM: CHANGE speakAllot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "William was affectionately known as Billy."); // DOPSUM: CHANGE TEXT
+        "I completed the test within the time allotted."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAffectionately(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAffectionately
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("affectionately"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAllot341(String languageCode) async {
+    // DOPSUM: CHANGE speakAllot
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "How much money has been allotted to us?"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAffectionately(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAffectionately
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("affectionately"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAllot42566(String languageCode) async {
+    // DOPSUM: CHANGE speakAllot
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakAllot341"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 9, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 9, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -66,7 +67,7 @@ class EnglishEntryaffectionately extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "affectionately", // DOPSUM: CHANGE WORD ENTRY - Find /əˈfekʃənətli/
+                              "allot", // DOPSUM: CHANGE WORD ENTRY - Find /əˈlɒt/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -82,7 +83,7 @@ class EnglishEntryaffectionately extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈfekʃənətli/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              "IpaUK: /əˈlɒt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -91,16 +92,16 @@ class EnglishEntryaffectionately extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAffectionately(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAllot(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈfekʃənətli/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              "IpaUS:  /əˈlɑːt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -109,7 +110,7 @@ class EnglishEntryaffectionately extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAffectionately(
+                              onPressed: () => speakAllot(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -124,21 +125,21 @@ class EnglishEntryaffectionately extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
                   VideoIconForTab(), // FIND: 2,
-                  VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(), // 07
+                  // VideoIconForTab(), // 08
+                  // VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 14
+                  // VideoIconForTab(), // 15
                 ],
                 indicator: BoxDecoration(
                   color: Pallete.tabsbackgroundColor,
@@ -159,9 +160,9 @@ class EnglishEntryaffectionately extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: بەسۆزانە، دڵسۆزانە، بە دڵسۆزی‌یەوە
+کوردی: تەرخان‌دان، تایبەتی‌دان، دابەش‌کردن، دابەشاندن، بەشینەوە
 
-١. (ھاوەڵکار) بەشێوەیەک کە سۆز و خۆشەویستی پیشان دەدات''',
+١. (کردار) پێدانی پارە، کات، یان ئەرک بە کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -171,18 +172,21 @@ class EnglishEntryaffectionately extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "William was affectionately known as Billy.",
+                                    "I completed the test within the time allotted.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ولیام بەھۆی سۆز و خۆشەویستی بۆی بە بیڵی ناسراوبوو",
+                                    "تاقیکردنەوەکەم کە لە ماوەی کاتی دیاریکراو تەواوکرد",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -194,7 +198,7 @@ class EnglishEntryaffectionately extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAffecti248("en-GB"),
+                                onPressed: () => speakAllot4266("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -202,16 +206,62 @@ class EnglishEntryaffectionately extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAffecti248(
-                                    // REPLACE: affectionately /əˈfekʃənətli/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAllot4266(// REPLACE: allot  /əˈlɑːt/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "How much money has been allotted to us?",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "چەندە پارەمان بۆ تەرخانکراوە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAllot42566("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAllot42566(// REPLACE: allot  /əˈlɑːt/
+                                        "en-US"),
                               ),
                             ],
                           ),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
@@ -252,9 +302,15 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adverb: affectionately
-1. With affection (= dearly, dear)
-"he treats her affectionately";
+- Verb: allot (Derived forms: allots, allotted, allotting)
+1. Give out (= assign, portion)
+"We were allotted new uniforms";
+ 
+2. Let have; give the right to; give the opportunity or permission to (= allow, grant, accord)
+"Mandela was allotted few visitors in prison";
+ 
+3. Give or provide in small portions (= distribute, administer, mete out, deal, parcel out, lot, dispense, deal out, dish out, dole out, mete, dole)
+"allot critical remarks to everyone present";
 '''),
         ],
       ),
@@ -265,7 +321,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'vNTNmwnovo8';
+  static String myVideoId = 'egLsCoXpJNA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -273,7 +329,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 45, // DOPSUM: CHANGE IT
+      startAt: 20, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -289,7 +345,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'Pck5JcnkYYs';
+  static String myVideoId = 'aH6h_V1NpC4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -297,7 +353,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1485, // DOPSUM: CHANGE IT
+      startAt: 61, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -313,7 +369,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'rQM4-zbS9fc';
+  static String myVideoId = 'RLSV4oI2U4Q';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -321,7 +377,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 412, // DOPSUM: CHANGE IT
+      startAt: 732, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -337,7 +393,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'yRFPjBuRRCg';
+  static String myVideoId = 'w2K8n3vJcjQ';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -345,7 +401,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 64, // DOPSUM: CHANGE IT
+      startAt: 615, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -361,7 +417,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '_rMsK50RQ5s';
+  static String myVideoId = 'V5BXuZL1HAg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -369,7 +425,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 93, // DOPSUM: CHANGE IT
+      startAt: 1682, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -385,7 +441,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'jMw1NAwYDbQ';
+  static String myVideoId = 'S525zDvRulo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -393,7 +449,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1670, // DOPSUM: CHANGE IT
+      startAt: 2073, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -409,7 +465,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'Pu76fKdu_eg';
+  static String myVideoId = 'n2JNb8idBMA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -417,7 +473,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 60, // DOPSUM: CHANGE IT
+      startAt: 652, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -431,5 +487,3 @@ class YoutubeEmbeddedseven extends StatelessWidget {
     );
   }
 }
-
-// end

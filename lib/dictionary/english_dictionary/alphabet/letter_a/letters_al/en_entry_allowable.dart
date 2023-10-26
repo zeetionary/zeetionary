@@ -4,51 +4,51 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryaffectionately - replace speakAffectionately - replace affectionately - /əˈfekʃənətli/ - find Dopsum2
+// replace these: replace EnglishEntryallowable - replace speakAllowable - replace allowable - /əˈlaʊəbl/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryaffectionately extends StatelessWidget {
-  EnglishEntryaffectionately({super.key});
+class EnglishEntryallowable extends StatelessWidget {
+  EnglishEntryallowable({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAffectionately(String languageCode) async {
-    // DOPSUM: CHANGE speakAffectionately
+  Future<void> speakAllowable(String languageCode) async {
+    // DOPSUM: CHANGE speakAllowable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("affectionately"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("allowable"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAffecti248(String languageCode) async {
-    // DOPSUM: CHANGE speakAffectionately
+  Future<void> speakAllowable432(String languageCode) async {
+    // DOPSUM: CHANGE speakAllowable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "William was affectionately known as Billy."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("A certain level of error is allowable."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAffectionately(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAffectionately
+  // Future<void> speakAllowable(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAllowable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("affectionately"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("allowable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAffectionately(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAffectionately
+  // Future<void> speakAllowable(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAllowable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("affectionately"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("allowable"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 9, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -66,7 +66,7 @@ class EnglishEntryaffectionately extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "affectionately", // DOPSUM: CHANGE WORD ENTRY - Find /əˈfekʃənətli/
+                              "allowable", // DOPSUM: CHANGE WORD ENTRY - Find /əˈlaʊəbl/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -82,7 +82,7 @@ class EnglishEntryaffectionately extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əˈfekʃənətli/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              "IpaUK: /əˈlaʊəbl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -91,7 +91,7 @@ class EnglishEntryaffectionately extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAffectionately(
+                              onPressed: () => speakAllowable(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -100,7 +100,7 @@ class EnglishEntryaffectionately extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əˈfekʃənətli/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              "IpaUS: /əˈlaʊəbl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -109,7 +109,7 @@ class EnglishEntryaffectionately extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAffectionately(
+                              onPressed: () => speakAllowable(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -124,21 +124,21 @@ class EnglishEntryaffectionately extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
                   VideoIconForTab(), // FIND: 2,
-                  VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(), // 07
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 14
+                  // VideoIconForTab(), // 15
                 ],
                 indicator: BoxDecoration(
                   color: Pallete.tabsbackgroundColor,
@@ -159,9 +159,9 @@ class EnglishEntryaffectionately extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: بەسۆزانە، دڵسۆزانە، بە دڵسۆزی‌یەوە
+کوردی: ڕەوا، ڕێدراو، دەستوورلەسەر، زاگۆنی، قانوونی، جێی‌پەسند، دەستوورپێدراو
 
-١. (ھاوەڵکار) بەشێوەیەک کە سۆز و خۆشەویستی پیشان دەدات''',
+١. (ھاوەڵناو) ڕێگەپێدراو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -171,18 +171,21 @@ class EnglishEntryaffectionately extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "William was affectionately known as Billy.",
+                                    "A certain level of error is allowable (= permitted to happen).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ولیام بەھۆی سۆز و خۆشەویستی بۆی بە بیڵی ناسراوبوو",
+                                    "ڕێژەیەکی دیاریکراوی ھەڵە ڕێگەپێدراوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -194,7 +197,7 @@ class EnglishEntryaffectionately extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAffecti248("en-GB"),
+                                onPressed: () => speakAllowable432("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -202,25 +205,32 @@ class EnglishEntryaffectionately extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAffecti248(
-                                    // REPLACE: affectionately /əˈfekʃənətli/
+                                onPressed: () => speakAllowable432(
+                                    // REPLACE: allowable /əˈlaʊəbl/
                                     "en-US"),
                               ),
                             ],
                           ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٢. (ھاوەڵناو) بڕە پارەیەک کە باج نایگرێتەوە''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -252,9 +262,12 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adverb: affectionately
-1. With affection (= dearly, dear)
-"he treats her affectionately";
+- Adjective: allowable 
+1. Deductible according to the tax laws
+ 
+2. Deserving to be allowed or considered
+ 
+3. That may be permitted especially as according to rule (= permissible)
 '''),
         ],
       ),
@@ -265,7 +278,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'vNTNmwnovo8';
+  static String myVideoId = 'z-wQnWUhX5Y';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -273,7 +286,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 45, // DOPSUM: CHANGE IT
+      startAt: 492, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -289,7 +302,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'Pck5JcnkYYs';
+  static String myVideoId = 'Fu3dOT9aP3E';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -297,7 +310,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1485, // DOPSUM: CHANGE IT
+      startAt: 850, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -313,7 +326,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'rQM4-zbS9fc';
+  static String myVideoId = 'LxdjSG5IFds';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -321,7 +334,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 412, // DOPSUM: CHANGE IT
+      startAt: 372, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -337,7 +350,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'yRFPjBuRRCg';
+  static String myVideoId = 'Q3lBzoeDuUQ';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -345,7 +358,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 64, // DOPSUM: CHANGE IT
+      startAt: 165, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -361,7 +374,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '_rMsK50RQ5s';
+  static String myVideoId = 'giDsW2NCDkE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -369,7 +382,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 93, // DOPSUM: CHANGE IT
+      startAt: 64, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -385,7 +398,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'jMw1NAwYDbQ';
+  static String myVideoId = 'Vk5bxHetL4s';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -393,7 +406,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1670, // DOPSUM: CHANGE IT
+      startAt: 273, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -409,7 +422,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'Pu76fKdu_eg';
+  static String myVideoId = 'TtUld2FZoAg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -417,7 +430,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 60, // DOPSUM: CHANGE IT
+      startAt: 473, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -432,4 +445,74 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-// end
+class YoutubeEmbeddedeight extends StatelessWidget {
+  static String myVideoId = 'ldVDM-v5uz0';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 554, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedeight({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddednine extends StatelessWidget {
+  static String myVideoId = '-BNDub3h2_I';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 410, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddednine({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedten extends StatelessWidget {
+  static String myVideoId = '20_TlrrB3W4';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 810, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedten({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}

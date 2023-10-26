@@ -517,12 +517,22 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "allegory",
     "alleluia",
     "allergic",
+    "allergy",
     "alleviate",
     "alleviation",
     "alley",
     "alliance",
     "allied",
-    "allergy",
+    "alligator",
+    "alliteration",
+    "allocate",
+    "allocation",
+    "allot",
+    "allotment",
+    "allow",
+    "allowable",
+    "allowance",
+    "alloy",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -2137,36 +2147,36 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "allied") {
                     Routemaster.of(context).push('/english-allied');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "alligator") {
+                    Routemaster.of(context).push('/english-alligator');
+                  }
+                  if (wordsEnglish == "alliteration") {
+                    Routemaster.of(context).push('/english-alliteration');
+                  }
+                  if (wordsEnglish == "allocate") {
+                    Routemaster.of(context).push('/english-allocate');
+                  }
+                  if (wordsEnglish == "allocation") {
+                    Routemaster.of(context).push('/english-allocation');
+                  }
+                  if (wordsEnglish == "allot") {
+                    Routemaster.of(context).push('/english-allot');
+                  }
+                  if (wordsEnglish == "allotment") {
+                    Routemaster.of(context).push('/english-allotment');
+                  }
+                  if (wordsEnglish == "allow") {
+                    Routemaster.of(context).push('/english-allow');
+                  }
+                  if (wordsEnglish == "allowable") {
+                    Routemaster.of(context).push('/english-allowable');
+                  }
+                  if (wordsEnglish == "allowance") {
+                    Routemaster.of(context).push('/english-allowance');
+                  }
+                  if (wordsEnglish == "alloy") {
+                    Routemaster.of(context).push('/english-alloy');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push('/english-DOPSUM');
                   // }

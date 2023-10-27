@@ -32,7 +32,7 @@ class Pallete {
     drawerTheme: const DrawerThemeData(
       backgroundColor: blackColor,
     ),
-    primaryColor: redColor,
+    primaryColor: whiteColor,
     backgroundColor:
         drawerColor, // will be used as alternative background color
   );
@@ -50,7 +50,7 @@ class Pallete {
     drawerTheme: const DrawerThemeData(
       backgroundColor: whiteColor,
     ),
-    primaryColor: redColor,
+    primaryColor: blackColor,
     backgroundColor: whiteColor,
   );
 }

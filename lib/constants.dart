@@ -7,6 +7,12 @@ import 'package:zeetionary/grammar/grammar_screen.dart';
 import 'package:zeetionary/dictionary/english_dictionary/english_dictionary.dart';
 import 'package:zeetionary/dictionary/kurdish_dictionary/kurdish_dictionary.dart';
 import 'package:zeetionary/theme/pallete.dart';
+import 'package:flutter/material.dart';
+import 'package:flashy_tab_bar2/flashy_tab_bar2.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:zeetionary/constants.dart';
+import 'package:zeetionary/home/drawers/community_list_drawer.dart';
+import 'package:zeetionary/theme/pallete.dart';
 
 class Constants {
   static const logo1Path = 'assets/images/zeetionary_one.png';
@@ -46,34 +52,61 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
   Size get preferredSize => const Size.fromHeight(kToolbarHeight);
 }
 
-class ZeetionaryAppbarStyle extends StatelessWidget {
-  const ZeetionaryAppbarStyle({
-    super.key,
-  });
+class ZeetionaryAppbarStyle extends ConsumerStatefulWidget {
+  const ZeetionaryAppbarStyle({super.key});
+
+  @override
+  ConsumerState<ConsumerStatefulWidget> createState() =>
+      _ZeetionaryAppbarStyleState();
+}
+
+class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
+  _ZeetionaryAppbarStyleState();
 
   @override
   Widget build(BuildContext context) {
-    return ShaderMask(
-      shaderCallback: (Rect bounds) {
-        return const LinearGradient(
-          colors: [
-            Color.fromARGB(255, 107, 118, 175),
-            Color.fromARGB(255, 136, 62, 100),
-          ], // Define your gradient colors here
-          tileMode: TileMode.clamp,
-        ).createShader(bounds);
-      },
-      child: const Text(
-        'Zeetionary',
-        style: TextStyle(
-          fontSize: 24.0, // Adjust font size as needed
-          fontWeight: FontWeight.bold, // Adjust font weight as needed
-          color: Colors.white, // Text color (will be masked by the gradient)
-        ),
+    final currentTheme = ref.watch(themeNotifierProvider);
+
+    return Text(
+      'Zeetionary',
+      style: TextStyle(
+        fontSize: 24.0, // Adjust font size as needed
+        fontWeight: FontWeight.bold, // Adjust font weight as needed
+        color: currentTheme
+            .primaryColor, // Text color (will be masked by the gradient)
       ),
     );
   }
 }
+
+// class ZeetionaryAppbarStyle extends StatelessWidget {
+//   const ZeetionaryAppbarStyle({
+//     super.key,
+//   });
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return ShaderMask(
+//       shaderCallback: (Rect bounds) {
+//         return const LinearGradient(
+//           colors: [
+//             Color.fromARGB(255, 107, 118, 175),
+//             Color.fromARGB(255, 136, 62, 100),
+//           ], // Define your gradient colors here
+//           tileMode: TileMode.clamp,
+//         ).createShader(bounds);
+//       },
+//       child: const Text(
+//         'Zeetionary',
+//         style: TextStyle(
+//           fontSize: 24.0, // Adjust font size as needed
+//           fontWeight: FontWeight.bold, // Adjust font weight as needed
+//           color: Colors.white, // Text color (will be masked by the gradient)
+//         ),
+//       ),
+//     );
+//   }
+// }
 
 class VideoIconForTab extends StatelessWidget {
   const VideoIconForTab({

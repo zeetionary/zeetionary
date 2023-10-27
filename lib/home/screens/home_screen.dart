@@ -81,33 +81,33 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
           FlashyTabBarItem(
             icon: Image.asset(
               'assets/images/uk_two.png',
-              width: 35,
+              width: 32,
             ),
             title: const Text('English'),
-            activeColor: currentTheme.dividerColor,
+            activeColor: currentTheme.primaryColor,
           ),
           FlashyTabBarItem(
             icon: Image.asset(
               'assets/images/kurd_two.png',
-              width: 35,
+              width: 32,
             ),
             title: const Text('Kurdish'),
-            activeColor: currentTheme.dividerColor,
+            activeColor: currentTheme.primaryColor,
           ),
           FlashyTabBarItem(
             icon: const Icon(Icons.book),
             title: const Text('Grammar'),
-            activeColor: currentTheme.dividerColor,
+            activeColor: currentTheme.primaryColor,
           ),
           FlashyTabBarItem(
             icon: const Icon(Icons.question_answer),
             title: const Text('Q&A'),
-            activeColor: currentTheme.dividerColor,
+            activeColor: currentTheme.primaryColor,
           ),
           FlashyTabBarItem(
             icon: const Icon(Icons.quiz),
             title: const Text('Quiz'),
-            activeColor: currentTheme.dividerColor,
+            activeColor: currentTheme.primaryColor,
           ),
         ],
       ),

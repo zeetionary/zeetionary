@@ -56,46 +56,58 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         }),
       ),
       drawer: const CommunityListDrawer(),
-      bottomNavigationBar: NavigationBar(
-        animationDuration: const Duration(seconds: 15),
-        backgroundColor: currentTheme.backgroundColor,
-        onDestinationSelected: (int index) {
-          setState(() {
-            currentPageIndex = index;
-          });
-        },
-        indicatorColor: currentTheme.scaffoldBackgroundColor,
-        selectedIndex: currentPageIndex,
-        destinations: <Widget>[
-          NavigationDestination(
-            selectedIcon: const Icon(Icons.home),
-            icon: Image.asset(
-              'assets/images/uk_two.png',
-              width: 30,
+      bottomNavigationBar: NavigationBarTheme(
+        data: NavigationBarThemeData(
+            indicatorColor: currentTheme.scaffoldBackgroundColor,
+            labelTextStyle: MaterialStateProperty.all(
+              const TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
+            )),
+        child: NavigationBar(
+          height: 80,
+          labelBehavior: NavigationDestinationLabelBehavior.onlyShowSelected,
+          animationDuration: const Duration(seconds: 1),
+          backgroundColor: currentTheme.backgroundColor,
+          onDestinationSelected: (int index) {
+            setState(() {
+              currentPageIndex = index;
+            });
+          },
+          indicatorColor: currentTheme.scaffoldBackgroundColor,
+          selectedIndex: currentPageIndex,
+          destinations: <Widget>[
+            NavigationDestination(
+              selectedIcon: const Icon(Icons.home),
+              icon: Image.asset(
+                'assets/images/uk_two.png',
+                width: 30,
+              ),
+              label: 'English',
             ),
-            label: 'English',
-          ),
-          NavigationDestination(
-            selectedIcon: const Icon(Icons.home),
-            icon: Image.asset(
-              'assets/images/kurd_two.png',
-              width: 30,
+            NavigationDestination(
+              selectedIcon: const Icon(Icons.home),
+              icon: Image.asset(
+                'assets/images/kurd_two.png',
+                width: 30,
+              ),
+              label: 'Kurdish',
             ),
-            label: 'Kurdish',
-          ),
-          const NavigationDestination(
-            icon: Icon(Icons.book),
-            label: 'Grammar',
-          ),
-          const NavigationDestination(
-            icon: Icon(Icons.question_answer),
-            label: 'Q&A',
-          ),
-          const NavigationDestination(
-            icon: Icon(Icons.quiz),
-            label: 'Quiz',
-          ),
-        ],
+            const NavigationDestination(
+              // selectedIcon: Icon(Icons.home),
+              icon: Icon(Icons.book),
+              label: 'Grammar',
+            ),
+            const NavigationDestination(
+              // selectedIcon: Icon(Icons.home),
+              icon: Icon(Icons.question_answer),
+              label: 'Q&A',
+            ),
+            const NavigationDestination(
+              // selectedIcon: Icon(Icons.home),
+              icon: Icon(Icons.quiz),
+              label: 'Quiz',
+            ),
+          ],
+        ),
       ),
       body: <Widget>[
         Container(

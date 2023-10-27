@@ -65,8 +65,8 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         child: NavigationBar(
           height: 80,
           labelBehavior: NavigationDestinationLabelBehavior.onlyShowSelected,
-          animationDuration: const Duration(seconds: 1),
-          backgroundColor: currentTheme.backgroundColor,
+          animationDuration: const Duration(milliseconds: 1200),
+          // backgroundColor: currentTheme.backgroundColor,
           onDestinationSelected: (int index) {
             setState(() {
               currentPageIndex = index;

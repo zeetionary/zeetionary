@@ -1185,7 +1185,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-alliance": (_) => MaterialPage(child: EnglishEntryalliance()),
   "/english-allied": (_) => MaterialPage(child: EnglishEntryallied()),
   "/english-alligator": (_) => MaterialPage(child: EnglishEntryalligator()),
-  "/english-alliteration": (_) => MaterialPage(child: EnglishEntryalliteration()),
+  "/english-alliteration": (_) =>
+      MaterialPage(child: EnglishEntryalliteration()),
   "/english-allocate": (_) => MaterialPage(child: EnglishEntryallocate()),
   "/english-allocation": (_) => MaterialPage(child: EnglishEntryallocation()),
   "/english-allot": (_) => MaterialPage(child: EnglishEntryallot()),

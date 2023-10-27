@@ -1,6 +1,5 @@
-// import 'package:flutter/cupertino.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flashy_tab_bar2/flashy_tab_bar2.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:zeetionary/home/drawers/community_list_drawer.dart';
@@ -16,16 +15,6 @@ class HomeScreen extends ConsumerStatefulWidget {
 class _HomeScreenState extends ConsumerState<HomeScreen> {
   int _page = 0;
 
-  int _selectedIndex = 0;
-
-  List<Widget> tabItems = [
-    const Center(child: Text("0")),
-    const Center(child: Text("1")),
-    const Center(child: Text("2")),
-    const Center(child: Text("3")),
-    const Center(child: Text("4"))
-  ];
-
   void displayDrawer(BuildContext context) {
     Scaffold.of(context).openDrawer();
   }
@@ -35,20 +24,6 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       _page = page;
     });
   }
-
-  // bool shouldPop = true;
-
-  // return WillPopScope(
-  //     onWillPop: () async {
-  //       return shouldPop;
-  //     },
-
-  // onWillPop: () async {
-  //       // Pop the screen of the item.
-  //       Navigator.pop(context);
-
-  //       return true; // Allow the back button to pop the route.
-  //     },
 
   @override
   Widget build(BuildContext context) {
@@ -69,74 +44,35 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       ),
       body: Constants.tabWidgets[_page],
       drawer: const CommunityListDrawer(),
-      bottomNavigationBar: FlashyTabBar(
-        animationCurve: Curves.linear,
-        selectedIndex: _selectedIndex,
-        iconSize: 30,
-        showElevation: false, // use this to remove appBar's elevation
-        onItemSelected: (index) => setState(() {
-          _selectedIndex = index;
-        }),
+      bottomNavigationBar: CupertinoTabBar(
+        // activeColor: currentTheme.iconTheme.color,
+        backgroundColor: currentTheme.backgroundColor,
         items: [
-          FlashyTabBarItem(
+          BottomNavigationBarItem(
             icon: Image.asset(
               'assets/images/uk_two.png',
-              width: 32,
+              width: 30,
             ),
-            title: const Text('English'),
-            activeColor: currentTheme.primaryColor,
+            activeIcon: const Icon(Icons.home),
+            label: 'English',
           ),
-          FlashyTabBarItem(
+          BottomNavigationBarItem(
             icon: Image.asset(
               'assets/images/kurd_two.png',
-              width: 32,
+              width: 30,
             ),
-            title: const Text('Kurdish'),
-            activeColor: currentTheme.primaryColor,
+            activeIcon: const Icon(Icons.home),
+            label: 'Kurdish',
           ),
-          FlashyTabBarItem(
-            icon: const Icon(Icons.book),
-            title: const Text('Grammar'),
-            activeColor: currentTheme.primaryColor,
-          ),
-          FlashyTabBarItem(
-            icon: const Icon(Icons.question_answer),
-            title: const Text('Q&A'),
-            activeColor: currentTheme.primaryColor,
-          ),
-          FlashyTabBarItem(
-            icon: const Icon(Icons.quiz),
-            title: const Text('Quiz'),
-            activeColor: currentTheme.primaryColor,
-          ),
+          const BottomNavigationBarItem(
+              icon: Icon(Icons.book), label: 'Grammar'),
+          const BottomNavigationBarItem(
+              icon: Icon(Icons.question_answer), label: 'Q&A'),
+          const BottomNavigationBarItem(icon: Icon(Icons.quiz), label: 'Quiz'),
         ],
+        onTap: onPageChanged,
+        currentIndex: _page,
       ),
-      // bottomNavigationBar: CupertinoTabBar(
-      //   // activeColor: currentTheme.iconTheme.color,
-      //   backgroundColor: currentTheme.backgroundColor,
-      //   items: [
-      //     BottomNavigationBarItem(
-      //       icon: Image.asset(
-      //         'assets/images/uk_two.png',
-      //       ),
-      //       activeIcon: const Icon(Icons.home),
-      //       label: '',
-      //     ),
-      //     BottomNavigationBarItem(
-      //       icon: Image.asset(
-      //         'assets/images/kurd_two.png',
-      //       ),
-      //       activeIcon: const Icon(Icons.home),
-      //       label: '',
-      //     ),
-      //     const BottomNavigationBarItem(icon: Icon(Icons.book), label: ''),
-      //     const BottomNavigationBarItem(
-      //         icon: Icon(Icons.question_answer), label: ''),
-      //     const BottomNavigationBarItem(icon: Icon(Icons.quiz), label: ''),
-      //   ],
-      //   onTap: onPageChanged,
-      //   currentIndex: _page,
-      // ),
     );
   }
 }

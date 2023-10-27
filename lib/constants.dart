@@ -167,7 +167,7 @@ class YouTubeContainerDesign extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.only(
           top: 20.0), // Move it down by adjusting the top margin
-      padding: const EdgeInsets.all(5.0),
+      padding: const EdgeInsets.all(6.0),
       decoration: BoxDecoration(
         border: Border.all(
           color: Pallete.tabsbackgroundColor,

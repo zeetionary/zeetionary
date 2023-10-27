@@ -9,9 +9,9 @@ final themeNotifierProvider =
 
 class Pallete {
   // Colors
-  static const blackColor = Color.fromRGBO(15, 15, 15, 1); // primary color
+  static const blackColor = Color(0xFF0F0F0F); // primary color
   static const lessblackColor =
-      Color.fromRGBO(15, 15, 15, 0.695); // primary color
+      Color.fromRGBO(15, 15, 15, 0.83); // primary color
   static const greyColor = Color.fromRGBO(26, 39, 45, 1); // secondary color
   static const drawerColor = Color.fromRGBO(18, 18, 18, 1);
   static const whiteColor = Colors.white;

@@ -4,170 +4,87 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryallright - replace speakAllright - replace all right - /ɔːl ˈraɪt/ - find Dopsum2
+// replace these: replace EnglishEntryalone - replace speakAlone - replace alone - /əˈləʊn/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryallright extends StatelessWidget {
-  EnglishEntryallright({super.key});
+class EnglishEntryalone extends StatelessWidget {
+  EnglishEntryalone({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAllright(String languageCode) async {
-    // DOPSUM: CHANGE speakAllright
+  Future<void> speakAlone(String languageCode) async {
+    // DOPSUM: CHANGE speakAlone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("all right"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alone"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllright124(String languageCode) async {
-    // DOPSUM: CHANGE speakAllright
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We've got to get up early, all right?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAllright123(String languageCode) async {
-    // DOPSUM: CHANGE speakAllright
+  Future<void> speakAlone1255(String languageCode) async {
+    // DOPSUM: CHANGE speakAlone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("‘Can you do it?’ ‘Oh, all right.’"); // DOPSUM: CHANGE TEXT
+        .speak("She was sitting all alone in the hall."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllright235(String languageCode) async {
-    // DOPSUM: CHANGE speakAllright
+  Future<void> speakAlone4692(String languageCode) async {
+    // DOPSUM: CHANGE speakAlone
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("I don't like going out alone at night."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAlone9652(String languageCode) async {
+    // DOPSUM: CHANGE speakAlone
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Carol felt all alone in the world."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAlone7451(String languageCode) async {
+    // DOPSUM: CHANGE speakAlone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "‘I'm really sorry.’ ‘That's all right, don't worry.’"); // DOPSUM: CHANGE TEXT
+        "You can't blame anyone else; you alone made the decision."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllright23469(String languageCode) async {
-    // DOPSUM: CHANGE speakAllright
+  Future<void> speakAlone4598(String languageCode) async {
+    // DOPSUM: CHANGE speakAlone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("All right class, turn to page 20."); // DOPSUM: CHANGE TEXT
+        .speak("The assassin said he had acted alone."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllright5241(String languageCode) async {
-    // DOPSUM: CHANGE speakAllright
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Are you getting along all right in your new job?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAllright3695(String languageCode) async {
-    // DOPSUM: CHANGE speakAllright
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I hope the children are all right."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAllright4577(String languageCode) async {
-    // DOPSUM: CHANGE speakAllright
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Your work is all right but I'm sure you could do better."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAllright87459(String languageCode) async {
-    // DOPSUM: CHANGE speakAllright
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We've got to get up early, all right?"); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakAllright(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAllright
+  // Future<void> speakAlone(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAlone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllright(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAllright
+  // Future<void> speakAlone(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAlone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAllright(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAllright
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAllright(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAllright
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAllright(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAllright
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAllright(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAllright
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAllright(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAllright
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAllright(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAllright
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAllright(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAllright
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("alone"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -185,7 +102,7 @@ class EnglishEntryallright extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "all right", // DOPSUM: CHANGE WORD ENTRY - Find /ɔːl ˈraɪt/
+                              "alone", // DOPSUM: CHANGE WORD ENTRY - Find /əˈləʊn/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -201,7 +118,7 @@ class EnglishEntryallright extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUK: /ɔːl ˈraɪt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              "IpaUK: /əˈləʊn/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -211,7 +128,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAllright(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAlone(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -219,7 +136,7 @@ class EnglishEntryallright extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUS: /ɔːl ˈraɪt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              "IpaUS: /əˈləʊn/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -228,7 +145,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAllright(
+                              onPressed: () => speakAlone(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -252,9 +169,9 @@ class EnglishEntryallright extends StatelessWidget {
                   VideoIconForTab(), // 07
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -278,9 +195,9 @@ class EnglishEntryallright extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: قایلکەر، باش، چاک، ڕاست، دروست، بێ‌گومان، حەتمەن، تا ڕادەیێ باش، باشە، بەڵێ
+کوردی: تەنیا، تەنێ، تاک و تەنیا، بێ‌ھاوتا، بێ‌وێنە، بەتەنیایی، فەقەت
 
-١. (سەرسوڕمان) بۆ زانینی ئەوەی کەسێک ڕازییە یان تێگەشتووە''',
+١. (ھاوەڵناو) بە تەنھا و بەبێ خەڵکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -290,7 +207,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "We've got to get up early, all right?",
+                                    "She was sitting all alone in the hall.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -304,7 +221,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەبێت زوو لە خەو ھەستین، تێگەشتی؟",
+                                    "بە تەنھا لە ھۆڵەکە دانیشتبوو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -316,7 +233,7 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAllright124("en-GB"),
+                                onPressed: () => speakAlone1255("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -324,16 +241,62 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAllright124(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAlone1255(// REPLACE: alone /əˈləʊn/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "I don't like going out alone at night.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "حەزناکەم شەوانە بە تەنھا دەربچم",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAlone4692("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAlone4692(// REPLACE: alone /əˈləʊn/
+                                        "en-US"),
                               ),
                             ],
                           ),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. (سەرسوڕمان) بۆ دەربڕینی ئەوەی کەسێک ڕازییە یان تێگەشتووە''',
+٢. (ھاوەڵناو) بەبێ یارمەتی کەسی دیکە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -343,7 +306,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "‘Can you do it?’ ‘Oh, all right.’",
+                                    "The assassin said he had acted alone.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -357,7 +320,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەتوانی بیکەیت؟ ئاھ، بەڵێ",
+                                    "بکوژەکە گوتی ھەر خۆی بووە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -369,7 +332,7 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAllright123("en-GB"),
+                                onPressed: () => speakAlone4598("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -377,16 +340,16 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAllright123(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAlone4598(// REPLACE: alone /əˈləʊn/
+                                        "en-US"),
                               ),
                             ],
                           ),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. (سەرسوڕمان) بۆ پەسەندکردنی سوپاس، یارمەتی، یان چاکە، یان کاتێک کەسێک داوای لێبووردن دەکات''',
+٣. (ھاوەڵناو) تەنھا و بێزار بەبێ ھیچ ھاوەڵێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -396,7 +359,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "‘I'm really sorry.’ ‘That's all right, don't worry.’",
+                                    "Carol felt all alone in the world.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -410,7 +373,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "'زۆر داوای لێبووردن دەکەم'، 'کێشە نییە، نیگەران مەبە",
+                                    "کارۆڵ ھەستی بە تەنھایی دەکرد لەم جیھانەدا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -422,7 +385,7 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAllright235("en-GB"),
+                                onPressed: () => speakAlone9652("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -430,16 +393,16 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAllright235(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAlone9652(// REPLACE: alone /əˈləʊn/
+                                        "en-US"),
                               ),
                             ],
                           ),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٤. (سەرسوڕمان) بۆ ڕاکێشانی سەرنج''',
+٤. (ھاوەڵناو) لەدوای ناو بەکاردێت بۆ وتنی ئەوەی کەسی ناوبراو تەنھا کەسە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -449,7 +412,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "All right class, turn to page 20.",
+                                    "You can't blame anyone else; you alone made the decision.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -463,7 +426,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆرباشە خوێندکاران، بیخەنە سەر پەڕەی ٢٠",
+                                    "ناتوانی لۆمەی کەسی تر بکەی؛ خۆت بە تەنھا بڕیارەکەت دا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -475,7 +438,7 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAllright23469("en-GB"),
+                                onPressed: () => speakAlone7451("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -483,221 +446,9 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAllright23469(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٥. (ھاوەڵناو) شتێک کە کێشەی نییە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Are you getting along all right in your new job?",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە کارە تازەکەت بێ کێشە ھەڵدەکەیت؟",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAllright5241("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAllright5241(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٦. (ھاوەڵناو) باش و سەلامەت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I hope the children are all right.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھیوادارم منداڵەکان سەلامەت بن",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAllright3695("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAllright3695(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٧. (ھاوەڵناو) شتێک کە خراپ نییە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Your work is all right but I'm sure you could do better.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کارەکەت خراپ نییە بەڵام دڵنیام ئەتتوانی باشتر بیت",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAllright4577("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAllright4577(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٨. (ھاوەڵناو) شتێک کە ڕێگەپێدراوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Are you sure it's all right for me to leave early?",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دڵنیایت کە ئاسایی دەبێت زوو کار جێبھێڵم",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAllright87459("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAllright87459(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAlone7451(// REPLACE: alone /əˈləʊn/
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -713,9 +464,9 @@ class EnglishEntryallright extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -745,18 +496,25 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adverb: all right 
-1. An expression of agreement normally occurring at the beginning of a sentence (= very well, fine, alright, OK, all righty [non-standard], righty-ho [Brit, informal])
+- Adverb: alone 
+1. Without any others being included or involved (= entirely, exclusively, solely, only, purely)
+"the burden of proof rests on the prosecution alone";
  
-2. Without doubt (used to reinforce an assertion) (= alright)
-"it's expensive all right";
- 
-3. In a satisfactory or adequate manner (= okay, O.K., alright, OK)
-"held up all right under pressure";
+2. Without anybody else or anything else (= solo, unaccompanied)
+"the child stayed home alone"; "the pillar stood alone, supporting nothing";
 
-- Adjective: all right 
-1. Being satisfactory or in satisfactory condition (= fine, o.k., OK, okay, hunky-dory [informal], cool [informal], alright, jake [N. Amer, Austral, NZ, informal])
-"the passengers were shaken up but are all right"; "is everything all right?";
+- Adjective: alone 
+1. Isolated from others
+"could be alone in a crowded room"; "was alone with her thoughts"; "I want to be alone"
+ 
+2. Lacking companions or companionship (= lone, lonely, solitary)
+"he was alone when we met him"; "she is alone much of the time";
+ 
+3. Exclusive of anyone or anything else (= only)
+"she alone believed him"; "cannot live by bread alone";
+ 
+4. Radically distinctive and without equal (= unique, unequaled [US], unequalled [Brit, Cdn], unparalleled)
+"he is alone in the field of microbiology"; "this theory is altogether alone in its penetration of the problem";
 '''),
         ],
       ),
@@ -767,7 +525,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '3YltYCrPZos';
+  static String myVideoId = 'a6I-cS7P4bA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -775,7 +533,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 59, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -791,7 +549,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'rPe4yziWiOg';
+  static String myVideoId = 'dpa2Z-cRowU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -799,7 +557,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 129, // DOPSUM: CHANGE IT
+      startAt: 84, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -815,7 +573,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'a_TSR_v07m0';
+  static String myVideoId = 'OJJd60zZmTE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -823,7 +581,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 605, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -839,7 +597,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = '56POcqkKG1E';
+  static String myVideoId = 'KW64FiB0ITg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -847,7 +605,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 34, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -863,7 +621,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'ZE7TS2Rituo';
+  static String myVideoId = 'kA1EArnmVHk';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -871,7 +629,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 27, // DOPSUM: CHANGE IT
+      startAt: 7, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -887,7 +645,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = '9sRQQRiltrE';
+  static String myVideoId = 'qQ7CBzg870Y';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -895,7 +653,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 13, // DOPSUM: CHANGE IT
+      startAt: 277, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -911,7 +669,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'e09xig209cQ';
+  static String myVideoId = '3Dl9RR1g6f8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -919,7 +677,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 356, // DOPSUM: CHANGE IT
+      startAt: 67, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -935,7 +693,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'QaZ93sibpk0';
+  static String myVideoId = 'eKkyOGX7VWU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -943,7 +701,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 306, // DOPSUM: CHANGE IT
+      startAt: 84, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -959,7 +717,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'HDntl7yzzVI';
+  static String myVideoId = '5gTkpMU-Ho4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -967,7 +725,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 295, // DOPSUM: CHANGE IT
+      startAt: 249, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -981,79 +739,3 @@ class YoutubeEmbeddednine extends StatelessWidget {
     );
   }
 }
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = '8HEfIJlcFbs';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 435, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedten({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = '44HXLCsdIk8';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 87, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedeleven({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = 'k3aAl92_VDE';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 121, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedtwelve({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-// end
-
-

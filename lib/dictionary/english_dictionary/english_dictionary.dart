@@ -534,6 +534,19 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "allowance",
     "alloy",
     "all right",
+    "allude to",
+    "alluring",
+    "allusion",
+    "ally",
+    "almanac",
+    "almighty",
+    "almond",
+    "almost",
+    "alms",
+    "aloft",
+    "alone",
+    "along",
+    "alongside",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -2181,45 +2194,45 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "all right") {
                     Routemaster.of(context).push('/english-all-right');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
+                  if (wordsEnglish == "allude to") {
+                    Routemaster.of(context).push("/english-allude-to");
+                  }
+                  if (wordsEnglish == "allusion") {
+                    Routemaster.of(context).push("/english-allusion");
+                  }
+                  if (wordsEnglish == "alluring") {
+                    Routemaster.of(context).push("/english-alluring");
+                  }
+                  if (wordsEnglish == "ally") {
+                    Routemaster.of(context).push("/english-ally");
+                  }
+                  if (wordsEnglish == "almanac") {
+                    Routemaster.of(context).push("/english-almanac");
+                  }
+                  if (wordsEnglish == "almighty") {
+                    Routemaster.of(context).push("/english-almighty");
+                  }
+                  if (wordsEnglish == "almond") {
+                    Routemaster.of(context).push("/english-almond");
+                  }
+                  if (wordsEnglish == "almost") {
+                    Routemaster.of(context).push("/english-almost");
+                  }
+                  if (wordsEnglish == "alms") {
+                    Routemaster.of(context).push("/english-alms");
+                  }
+                  if (wordsEnglish == "aloft") {
+                    Routemaster.of(context).push("/english-aloft");
+                  }
+                  if (wordsEnglish == "alone") {
+                    Routemaster.of(context).push("/english-alone");
+                  }
+                  if (wordsEnglish == "along") {
+                    Routemaster.of(context).push("/english-along");
+                  }
+                  if (wordsEnglish == "alongside") {
+                    Routemaster.of(context).push("/english-alongside");
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push("/english-DOPSUM");
                   // }

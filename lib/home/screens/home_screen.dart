@@ -1,5 +1,6 @@
-import 'package:flutter/cupertino.dart';
+// import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flashy_tab_bar2/flashy_tab_bar2.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:zeetionary/home/drawers/community_list_drawer.dart';
@@ -14,6 +15,16 @@ class HomeScreen extends ConsumerStatefulWidget {
 
 class _HomeScreenState extends ConsumerState<HomeScreen> {
   int _page = 0;
+
+  int _selectedIndex = 0;
+
+  List<Widget> tabItems = [
+    const Center(child: Text("0")),
+    const Center(child: Text("1")),
+    const Center(child: Text("2")),
+    const Center(child: Text("3")),
+    const Center(child: Text("4"))
+  ];
 
   void displayDrawer(BuildContext context) {
     Scaffold.of(context).openDrawer();
@@ -58,32 +69,74 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       ),
       body: Constants.tabWidgets[_page],
       drawer: const CommunityListDrawer(),
-      bottomNavigationBar: CupertinoTabBar(
-        // activeColor: currentTheme.iconTheme.color,
-        backgroundColor: currentTheme.backgroundColor,
+      bottomNavigationBar: FlashyTabBar(
+        animationCurve: Curves.linear,
+        selectedIndex: _selectedIndex,
+        iconSize: 30,
+        showElevation: false, // use this to remove appBar's elevation
+        onItemSelected: (index) => setState(() {
+          _selectedIndex = index;
+        }),
         items: [
-          BottomNavigationBarItem(
+          FlashyTabBarItem(
             icon: Image.asset(
               'assets/images/uk_two.png',
+              width: 35,
             ),
-            activeIcon: const Icon(Icons.home),
-            label: '',
+            title: const Text('English'),
+            activeColor: currentTheme.dividerColor,
           ),
-          BottomNavigationBarItem(
+          FlashyTabBarItem(
             icon: Image.asset(
               'assets/images/kurd_two.png',
+              width: 35,
             ),
-            activeIcon: const Icon(Icons.home),
-            label: '',
+            title: const Text('Kurdish'),
+            activeColor: currentTheme.dividerColor,
           ),
-          const BottomNavigationBarItem(icon: Icon(Icons.book), label: ''),
-          const BottomNavigationBarItem(
-              icon: Icon(Icons.question_answer), label: ''),
-          const BottomNavigationBarItem(icon: Icon(Icons.quiz), label: ''),
+          FlashyTabBarItem(
+            icon: const Icon(Icons.book),
+            title: const Text('Grammar'),
+            activeColor: currentTheme.dividerColor,
+          ),
+          FlashyTabBarItem(
+            icon: const Icon(Icons.question_answer),
+            title: const Text('Q&A'),
+            activeColor: currentTheme.dividerColor,
+          ),
+          FlashyTabBarItem(
+            icon: const Icon(Icons.quiz),
+            title: const Text('Quiz'),
+            activeColor: currentTheme.dividerColor,
+          ),
         ],
-        onTap: onPageChanged,
-        currentIndex: _page,
       ),
+      // bottomNavigationBar: CupertinoTabBar(
+      //   // activeColor: currentTheme.iconTheme.color,
+      //   backgroundColor: currentTheme.backgroundColor,
+      //   items: [
+      //     BottomNavigationBarItem(
+      //       icon: Image.asset(
+      //         'assets/images/uk_two.png',
+      //       ),
+      //       activeIcon: const Icon(Icons.home),
+      //       label: '',
+      //     ),
+      //     BottomNavigationBarItem(
+      //       icon: Image.asset(
+      //         'assets/images/kurd_two.png',
+      //       ),
+      //       activeIcon: const Icon(Icons.home),
+      //       label: '',
+      //     ),
+      //     const BottomNavigationBarItem(icon: Icon(Icons.book), label: ''),
+      //     const BottomNavigationBarItem(
+      //         icon: Icon(Icons.question_answer), label: ''),
+      //     const BottomNavigationBarItem(icon: Icon(Icons.quiz), label: ''),
+      //   ],
+      //   onTap: onPageChanged,
+      //   currentIndex: _page,
+      // ),
     );
   }
 }

@@ -18,7 +18,7 @@ import 'package:zeetionary/theme/pallete.dart';
 // flutter pub get
 // flutter channel stable
 // flutter run AND flutter run --release -v
-//
+// ADB uninstall com.example.zeetionary
 // flutter build apk
 // flutter upgrade AND flutter upgrade -v
 // flutter pub cache repair -v (Disclaimer: It will download each and every version of all the packages)

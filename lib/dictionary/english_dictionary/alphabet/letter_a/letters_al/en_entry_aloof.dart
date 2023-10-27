@@ -4,53 +4,51 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryalongside - replace speakAlongside - replace alongside - /əˌlɒŋˈsaɪd/ - find Dopsum2
+// replace these: replace EnglishEntryaloof - replace speakAloof - replace aloof - /əˈluːf/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryalongside extends StatelessWidget {
-  EnglishEntryalongside({super.key});
+class EnglishEntryaloof extends StatelessWidget {
+  EnglishEntryaloof({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlongside(String languageCode) async {
-    // DOPSUM: CHANGE speakAlongside
+  Future<void> speakAloof(String languageCode) async {
+    // DOPSUM: CHANGE speakAloof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alongside"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aloof"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlongside4592(String languageCode) async {
-    // DOPSUM: CHANGE speakAlongside
+  Future<void> speakAloof457(String languageCode) async {
+    // DOPSUM: CHANGE speakAloof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Nick caught up with me and rode alongside."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was a cold man, aloof and distant."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlongside4597(String languageCode) async {
-    // DOPSUM: CHANGE speakAlongside
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The new pill will be used alongside existing medicines."); // DOPSUM: CHANGE TEXT
-  }
+  // Future<void> speakAloof(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAloof
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("aloof"); // DOPSUM: CHANGE TEXT
+  // }
 
-  Future<void> speakAlongside9(String languageCode) async {
-    // DOPSUM: CHANGE speakAlongside
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Most of the staff refused to work alongside the new team."); // DOPSUM: CHANGE TEXT
-  }
+  // Future<void> speakAloof(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAloof
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("aloof"); // DOPSUM: CHANGE TEXT
+  // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -68,7 +66,7 @@ class EnglishEntryalongside extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "alongside", // DOPSUM: CHANGE WORD ENTRY - Find /əˌlɒŋˈsaɪd/
+                              "aloof", // DOPSUM: CHANGE WORD ENTRY - Find /əˈluːf/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -84,7 +82,7 @@ class EnglishEntryalongside extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUK: /əˌlɒŋˈsaɪd/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              "IpaUK: /əˈluːf/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -93,16 +91,16 @@ class EnglishEntryalongside extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAlongside(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAloof(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              "IpaUS: /əˌlɔːŋˈsaɪd/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              "IpaUS: /əˈluːf/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -111,7 +109,7 @@ class EnglishEntryalongside extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAlongside(
+                              onPressed: () => speakAloof(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -134,7 +132,7 @@ class EnglishEntryalongside extends StatelessWidget {
                   VideoIconForTab(), // FIND: 2,
                   VideoIconForTab(), // 07
                   VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
@@ -161,9 +159,9 @@ class EnglishEntryalongside extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: لەپاڵ، لەتەنیشت، لەلای، پێکەوە لەگەڵ، تەنیشت بە تەنیشت، پاڵ بە پاڵی، شان بە شان
+کوردی: دوور، جیا، ساردوسڕ، گۆشەگیر، لاتەریک، خۆدوورگر، دوورەپەرێز
 
-١. (ھاوەڵکار) شان بە شان یان لە تەنیشت''',
+١. (ھاوەڵناو) حەزنەکردن لە خەڵکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -173,7 +171,7 @@ class EnglishEntryalongside extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Nick caught up with me and rode alongside.",
+                                    "He was a cold man, aloof and distant.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -187,7 +185,7 @@ class EnglishEntryalongside extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نیک گەشتەوە پێم و شان بە شانم لێیخوڕی",
+                                    "کەسێکی ساردوسڕ و گۆشەگیر و دوورەپەرێز بوو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -199,7 +197,7 @@ class EnglishEntryalongside extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAlongside4592("en-GB"),
+                                onPressed: () => speakAloof457("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -207,108 +205,9 @@ class EnglishEntryalongside extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAlongside4592(
-                                    // REPLACE: alongside /əˌlɔːŋˈsaɪd/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ئامراز) لە تەنیشت، یان لەگەڵ''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The new pill will be used alongside existing medicines.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "حەبە تازەکە دەکرێت لەگەڵ دەرمانی دیکە بەکاربێت",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAlongside4597("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAlongside4597(
-                                    // REPLACE: alongside /əˌlɔːŋˈsaɪd/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Most of the staff refused to work alongside the new team.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "زۆرینەی ستافەکە ڕەتیان کردەوە شان بە شانی تیمە تازەکە کاربکەن",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAlongside9("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAlongside9(
-                                    // REPLACE: alongside /əˌlɔːŋˈsaɪd/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAloof457(// REPLACE: aloof /əˈluːf/
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -323,7 +222,7 @@ class EnglishEntryalongside extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
+                    // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
@@ -356,13 +255,13 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adverb: alongside  
-1. Side by side (= aboard)
-"anchored close alongside another ship";
+- Adjective: aloof
+1. Remote in manner (= distant, upstage)
+"stood apart with aloof dignity";
 
-- Preposition: alongside 
-1. Next to, at the side of (= beside)
-"the shop alongside the station";
+- Adverb: aloof 
+1. In an aloof manner
+"the local gentry and professional classes had held aloof for the school had accepted their sons readily enough"
 '''),
         ],
       ),
@@ -373,7 +272,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'gNie7TOut2k';
+  static String myVideoId = 're_VkwJW3Hk';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -397,7 +296,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'jtwXiLblJtw';
+  static String myVideoId = 'ea4Tq7HB7kU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -405,7 +304,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 34, // DOPSUM: CHANGE IT
+      startAt: 182, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -421,7 +320,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = '1_0WbPq2lhs';
+  static String myVideoId = 'dNKQYjsxgPU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -429,7 +328,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 123, // DOPSUM: CHANGE IT
+      startAt: 118, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -445,7 +344,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'TfE2cUK43IM';
+  static String myVideoId = 'oU0uNGUxdyo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -453,7 +352,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 23, // DOPSUM: CHANGE IT
+      startAt: 381, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -469,7 +368,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'PP2XvaHD07M';
+  static String myVideoId = 'PiW7Fr-ZDoQ';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -477,7 +376,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 544, // DOPSUM: CHANGE IT
+      startAt: 18, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -493,7 +392,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'gC5VF5DHKI4';
+  static String myVideoId = 'pvQP-85ADRE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -501,7 +400,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 3, // DOPSUM: CHANGE IT
+      startAt: 34, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -517,7 +416,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'k07_v9vggo0';
+  static String myVideoId = 'U_dDpmoQjqg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -525,7 +424,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 28, // DOPSUM: CHANGE IT
+      startAt: 220, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -541,7 +440,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'M3djHzuPRxA';
+  static String myVideoId = 'fRcPn3mJSyY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -549,36 +448,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 243, // DOPSUM: CHANGE IT
+      startAt: 1264, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
   YoutubeEmbeddedeight({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'wir7jmefyec';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 67, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddednine({super.key});
 
   @override
   Widget build(BuildContext context) {

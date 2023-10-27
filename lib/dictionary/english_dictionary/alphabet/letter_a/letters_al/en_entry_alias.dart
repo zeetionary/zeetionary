@@ -34,7 +34,7 @@ class EnglishEntryalias extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Paul Sopworth, alias (= also known as) Rupert Sharp, went to prison today."); // DOPSUM: CHANGE TEXT
+        "Paul Sopworth, alias Rupert Sharp, went to prison today."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAlias(String languageCode) async {

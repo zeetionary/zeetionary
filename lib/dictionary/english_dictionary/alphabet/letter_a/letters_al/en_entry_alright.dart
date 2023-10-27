@@ -4,160 +4,160 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryallright - replace speakAllright - replace all right - /ɔːl ˈraɪt/ - find Dopsum2
+// replace these: replace EnglishEntryalright - replace speakAlright - replace alright - /ɔːl ˈraɪt/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryallright extends StatelessWidget {
-  EnglishEntryallright({super.key});
+class EnglishEntryalright extends StatelessWidget {
+  EnglishEntryalright({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAllright(String languageCode) async {
-    // DOPSUM: CHANGE speakAllright
+  Future<void> speakAlright(String languageCode) async {
+    // DOPSUM: CHANGE speakAlright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("all right"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alright"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllright124(String languageCode) async {
-    // DOPSUM: CHANGE speakAllright
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We've got to get up early, all right?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAllright123(String languageCode) async {
-    // DOPSUM: CHANGE speakAllright
+  Future<void> speakAlright124(String languageCode) async {
+    // DOPSUM: CHANGE speakAlright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("‘Can you do it?’ ‘Oh, all right.’"); // DOPSUM: CHANGE TEXT
+        .speak("We've got to get up early, alright?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllright235(String languageCode) async {
-    // DOPSUM: CHANGE speakAllright
+  Future<void> speakAlright123(String languageCode) async {
+    // DOPSUM: CHANGE speakAlright
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("‘Can you do it?’ ‘Oh, alright.’"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAlright235(String languageCode) async {
+    // DOPSUM: CHANGE speakAlright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "‘I'm really sorry.’ ‘That's all right, don't worry.’"); // DOPSUM: CHANGE TEXT
+        "‘I'm really sorry.’ ‘That's alright, don't worry.’"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllright23469(String languageCode) async {
-    // DOPSUM: CHANGE speakAllright
+  Future<void> speakAlright23469(String languageCode) async {
+    // DOPSUM: CHANGE speakAlright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("All right class, turn to page 20."); // DOPSUM: CHANGE TEXT
+        .speak("alright class, turn to page 20."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllright5241(String languageCode) async {
-    // DOPSUM: CHANGE speakAllright
+  Future<void> speakAlright5241(String languageCode) async {
+    // DOPSUM: CHANGE speakAlright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Are you getting along all right in your new job?"); // DOPSUM: CHANGE TEXT
+        "Are you getting along alright in your new job?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllright3695(String languageCode) async {
-    // DOPSUM: CHANGE speakAllright
+  Future<void> speakAlright3695(String languageCode) async {
+    // DOPSUM: CHANGE speakAlright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I hope the children are all right."); // DOPSUM: CHANGE TEXT
+        .speak("I hope the children are alright."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllright4577(String languageCode) async {
-    // DOPSUM: CHANGE speakAllright
+  Future<void> speakAlright4577(String languageCode) async {
+    // DOPSUM: CHANGE speakAlright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Your work is all right but I'm sure you could do better."); // DOPSUM: CHANGE TEXT
+        "Your work is alright but I'm sure you could do better."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAllright87459(String languageCode) async {
-    // DOPSUM: CHANGE speakAllright
+  Future<void> speakAlright87459(String languageCode) async {
+    // DOPSUM: CHANGE speakAlright
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("We've got to get up early, all right?"); // DOPSUM: CHANGE TEXT
+        .speak("We've got to get up early, alright?"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAllright(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAllright
+  // Future<void> speakAlright(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAlright
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
   //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllright(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAllright
+  // Future<void> speakAlright(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAlright
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
   //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllright(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAllright
+  // Future<void> speakAlright(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAlright
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
   //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllright(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAllright
+  // Future<void> speakAlright(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAlright
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
   //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllright(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAllright
+  // Future<void> speakAlright(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAlright
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
   //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllright(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAllright
+  // Future<void> speakAlright(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAlright
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
   //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllright(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAllright
+  // Future<void> speakAlright(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAlright
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
   //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllright(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAllright
+  // Future<void> speakAlright(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAlright
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
   //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAllright(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAllright
+  // Future<void> speakAlright(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAlright
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
@@ -167,7 +167,7 @@ class EnglishEntryallright extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 17, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -185,7 +185,7 @@ class EnglishEntryallright extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "all right (or alright)", // DOPSUM: CHANGE WORD ENTRY - Find /ɔːl ˈraɪt/
+                              "alright (or all right)", // DOPSUM: CHANGE WORD ENTRY - Find /ɔːl ˈraɪt/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -211,7 +211,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAllright(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAlright(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -228,7 +228,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAllright(
+                              onPressed: () => speakAlright(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -255,9 +255,9 @@ class EnglishEntryallright extends StatelessWidget {
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
                   VideoIconForTab(), // 12
-                  // VideoIconForTab(), // 13
-                  // VideoIconForTab(), // 14
-                  // VideoIconForTab(), // 15
+                  VideoIconForTab(), // 13
+                  VideoIconForTab(), // 14
+                  VideoIconForTab(), // 15
                 ],
                 indicator: BoxDecoration(
                   color: Pallete.tabsbackgroundColor,
@@ -290,7 +290,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "We've got to get up early, all right?",
+                                    "We've got to get up early, alright?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -316,7 +316,7 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAllright124("en-GB"),
+                                onPressed: () => speakAlright124("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -324,8 +324,8 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAllright124(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
+                                onPressed: () => speakAlright124(
+                                    // REPLACE: alright /ɔːl ˈraɪt/
                                     "en-US"),
                               ),
                             ],
@@ -343,7 +343,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "‘Can you do it?’ ‘Oh, all right.’",
+                                    "‘Can you do it?’ ‘Oh, alright.’",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -369,7 +369,7 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAllright123("en-GB"),
+                                onPressed: () => speakAlright123("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -377,8 +377,8 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAllright123(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
+                                onPressed: () => speakAlright123(
+                                    // REPLACE: alright /ɔːl ˈraɪt/
                                     "en-US"),
                               ),
                             ],
@@ -396,7 +396,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "‘I'm really sorry.’ ‘That's all right, don't worry.’",
+                                    "‘I'm really sorry.’ ‘That's alright, don't worry.’",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -422,7 +422,7 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAllright235("en-GB"),
+                                onPressed: () => speakAlright235("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -430,8 +430,8 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAllright235(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
+                                onPressed: () => speakAlright235(
+                                    // REPLACE: alright /ɔːl ˈraɪt/
                                     "en-US"),
                               ),
                             ],
@@ -449,7 +449,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "All right class, turn to page 20.",
+                                    "alright class, turn to page 20.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -475,7 +475,7 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAllright23469("en-GB"),
+                                onPressed: () => speakAlright23469("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -483,8 +483,8 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAllright23469(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
+                                onPressed: () => speakAlright23469(
+                                    // REPLACE: alright /ɔːl ˈraɪt/
                                     "en-US"),
                               ),
                             ],
@@ -502,7 +502,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Are you getting along all right in your new job?",
+                                    "Are you getting along alright in your new job?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -528,7 +528,7 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAllright5241("en-GB"),
+                                onPressed: () => speakAlright5241("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -536,8 +536,8 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAllright5241(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
+                                onPressed: () => speakAlright5241(
+                                    // REPLACE: alright /ɔːl ˈraɪt/
                                     "en-US"),
                               ),
                             ],
@@ -555,7 +555,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "I hope the children are all right.",
+                                    "I hope the children are alright.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -581,7 +581,7 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAllright3695("en-GB"),
+                                onPressed: () => speakAlright3695("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -589,8 +589,8 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAllright3695(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
+                                onPressed: () => speakAlright3695(
+                                    // REPLACE: alright /ɔːl ˈraɪt/
                                     "en-US"),
                               ),
                             ],
@@ -608,7 +608,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Your work is all right but I'm sure you could do better.",
+                                    "Your work is alright but I'm sure you could do better.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -634,7 +634,7 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAllright4577("en-GB"),
+                                onPressed: () => speakAlright4577("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -642,8 +642,8 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAllright4577(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
+                                onPressed: () => speakAlright4577(
+                                    // REPLACE: alright /ɔːl ˈraɪt/
                                     "en-US"),
                               ),
                             ],
@@ -661,7 +661,7 @@ class EnglishEntryallright extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Are you sure it's all right for me to leave early?",
+                                    "Are you sure it's alright for me to leave early?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -687,7 +687,7 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAllright87459("en-GB"),
+                                onPressed: () => speakAlright87459("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -695,8 +695,8 @@ class EnglishEntryallright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAllright87459(
-                                    // REPLACE: all right /ɔːl ˈraɪt/
+                                onPressed: () => speakAlright87459(
+                                    // REPLACE: alright /ɔːl ˈraɪt/
                                     "en-US"),
                               ),
                             ],
@@ -716,9 +716,9 @@ class EnglishEntryallright extends StatelessWidget {
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
                     YoutubeEmbeddedtwelve(),
-                    // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddedfourteen(),
-                    // YoutubeEmbeddedfifteen(),
+                    YoutubeEmbeddedthirteen(),
+                    YoutubeEmbeddedfourteen(),
+                    YoutubeEmbeddedfifteen(),
                   ],
                 ),
               ),
@@ -745,18 +745,18 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adverb: all right 
-1. An expression of agreement normally occurring at the beginning of a sentence (= very well, fine, alright, OK, all righty [non-standard], righty-ho [Brit, informal])
+- Adverb: alright 
+1. An expression of agreement normally occurring at the beginning of a sentence (= very well, fine, alright, OK, alrighty [non-standard], righty-ho [Brit, informal])
  
 2. Without doubt (used to reinforce an assertion) (= alright)
-"it's expensive all right";
+"it's expensive alright";
  
 3. In a satisfactory or adequate manner (= okay, O.K., alright, OK)
-"held up all right under pressure";
+"held up alright under pressure";
 
-- Adjective: all right 
+- Adjective: alright 
 1. Being satisfactory or in satisfactory condition (= fine, o.k., OK, okay, hunky-dory [informal], cool [informal], alright, jake [N. Amer, Austral, NZ, informal])
-"the passengers were shaken up but are all right"; "is everything all right?";
+"the passengers were shaken up but are alright"; "is everything alright?";
 '''),
         ],
       ),
@@ -764,10 +764,8 @@ class EnglishMeaning extends StatelessWidget {
   }
 }
 
-// DOPSUM: FIRST YOUTUBE VIDEO
-
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '3YltYCrPZos';
+  static String myVideoId = 'U9WG9VNDkWQ';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -775,7 +773,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 59, // DOPSUM: CHANGE IT
+      startAt: 27, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -791,7 +789,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'rPe4yziWiOg';
+  static String myVideoId = 'ZCg9xHNPR3k';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -799,7 +797,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 129, // DOPSUM: CHANGE IT
+      startAt: 15, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -815,7 +813,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'a_TSR_v07m0';
+  static String myVideoId = 'hS2x1zl4rn0';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -823,7 +821,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 605, // DOPSUM: CHANGE IT
+      startAt: 280, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -839,7 +837,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = '56POcqkKG1E';
+  static String myVideoId = 'njn6krU3tQ8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -847,7 +845,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 34, // DOPSUM: CHANGE IT
+      startAt: 43, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -863,7 +861,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'ZE7TS2Rituo';
+  static String myVideoId = 'Cd1EmYRZynw';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -871,7 +869,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 27, // DOPSUM: CHANGE IT
+      startAt: 66, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -887,7 +885,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = '9sRQQRiltrE';
+  static String myVideoId = '_spuxXnul0U';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -895,7 +893,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 13, // DOPSUM: CHANGE IT
+      startAt: 1073, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -911,7 +909,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'e09xig209cQ';
+  static String myVideoId = 'khOUvmOQExc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -919,7 +917,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 356, // DOPSUM: CHANGE IT
+      startAt: 281, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -1054,6 +1052,74 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   }
 }
 
-// end
+class YoutubeEmbeddedthirteen extends StatelessWidget {
+  static String myVideoId = '3YltYCrPZos';
 
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 59, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
 
+  YoutubeEmbeddedthirteen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfourteen extends StatelessWidget {
+  static String myVideoId = 'rPe4yziWiOg';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 129, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedfourteen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedfifteen extends StatelessWidget {
+  static String myVideoId = 'a_TSR_v07m0';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 605, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedfifteen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}

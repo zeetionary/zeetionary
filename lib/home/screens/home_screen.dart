@@ -63,7 +63,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               const TextStyle(fontSize: 14, fontWeight: FontWeight.w500),
             )),
         child: NavigationBar(
-          height: 80,
+          height: 60,
           labelBehavior: NavigationDestinationLabelBehavior.onlyShowSelected,
           animationDuration: const Duration(milliseconds: 1200),
           // backgroundColor: currentTheme.backgroundColor,

@@ -10,9 +10,12 @@ final themeNotifierProvider =
 class Pallete {
   // Colors
   static const blackColor = Color.fromRGBO(15, 15, 15, 1); // primary color
+  static const lessblackColor =
+      Color.fromRGBO(15, 15, 15, 0.695); // primary color
   static const greyColor = Color.fromRGBO(26, 39, 45, 1); // secondary color
   static const drawerColor = Color.fromRGBO(18, 18, 18, 1);
   static const whiteColor = Colors.white;
+  static const lesswhiteColor = Color.fromARGB(189, 255, 255, 255);
   static var redColor = Colors.red.shade500;
   static var blueColor = Colors.blue.shade300;
   static var tabsbackgroundColor =
@@ -32,7 +35,7 @@ class Pallete {
     drawerTheme: const DrawerThemeData(
       backgroundColor: blackColor,
     ),
-    primaryColor: whiteColor,
+    primaryColor: lesswhiteColor,
     backgroundColor:
         drawerColor, // will be used as alternative background color
   );
@@ -50,7 +53,7 @@ class Pallete {
     drawerTheme: const DrawerThemeData(
       backgroundColor: whiteColor,
     ),
-    primaryColor: blackColor,
+    primaryColor: lessblackColor,
     backgroundColor: whiteColor,
   );
 }

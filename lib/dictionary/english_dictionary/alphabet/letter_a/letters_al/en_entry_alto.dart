@@ -4,35 +4,51 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: EnglishEntryabsolve - speakAbsolve - absolve - /əbˈzɒlv/
+// replace these: replace EnglishEntryalto - replace speakAlto - replace alto - /ˈæltəʊ/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryabsolve extends StatelessWidget {
-  EnglishEntryabsolve({super.key});
+class EnglishEntryalto extends StatelessWidget {
+  EnglishEntryalto({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbsolve(String languageCode) async {
-    // DOPSUM: CHANGE speakAbsolve
+  Future<void> speakAlto(String languageCode) async {
+    // DOPSUM: CHANGE speakAlto
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("absolve"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("alto"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAbsolve5555(String languageCode) async {
-    // DOPSUM: CHANGE speakAbsolve
+  Future<void> speakAlto4565(String languageCode) async {
+    // DOPSUM: CHANGE speakAlto
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The court absolved him of all responsibility for the accident."); // DOPSUM: CHANGE TEXT
+        "She began by singing soprano, then changed to alto."); // DOPSUM: CHANGE TEXT
   }
+
+  // Future<void> speakAlto(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAlto
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("alto"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAlto(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAlto
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("alto"); // DOPSUM: CHANGE TEXT
+  // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 7,
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -50,7 +66,7 @@ class EnglishEntryabsolve extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'absolve', // DOPSUM: CHANGE WORD ENTRY
+                              "alto", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæltəʊ/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -66,7 +82,7 @@ class EnglishEntryabsolve extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əbˈzɒlv/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              "IpaUK: /ˈæltəʊ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -76,7 +92,7 @@ class EnglishEntryabsolve extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAbsolve(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAlto(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -84,7 +100,7 @@ class EnglishEntryabsolve extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əbˈzɑːlv/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              "IpaUS: /ˈæltəʊ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -93,7 +109,7 @@ class EnglishEntryabsolve extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAbsolve(
+                              onPressed: () => speakAlto(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -108,21 +124,21 @@ class EnglishEntryabsolve extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
+                  VideoIconForTab(), // FIND: 2,
+                  VideoIconForTab(), // 07
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 14
+                  // VideoIconForTab(), // 15
                 ],
                 indicator: BoxDecoration(
                   color: Pallete.tabsbackgroundColor,
@@ -143,7 +159,7 @@ class EnglishEntryabsolve extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (کردار) بە فەرمی پاککردنەوەی کەسێک لە تۆمەت''',
+١. (ناو) دەنگێکی گۆرانی وتن کە نزمترە لە سۆپرانۆ (بەرزترین ئاست)، کەسێک کە بەم شێوەیە گۆرانی دەڵێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -153,18 +169,21 @@ class EnglishEntryabsolve extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The court absolved him of all responsibility for the accident.",
+                                    "She began by singing soprano, then changed to alto.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دادگا پاکیکردەوە/بێبەریکرد لە ھەر بەرپرسیاریەتییەک بۆ ڕووداوەکە",
+                                    "دەستی پێکرد بە چڕینی سۆپرانۆ، و دواتر گۆڕی بۆ ئالتۆ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -176,7 +195,7 @@ class EnglishEntryabsolve extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAbsolve5555("en-GB"),
+                                onPressed: () => speakAlto4565("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -184,25 +203,27 @@ class EnglishEntryabsolve extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAbsolve5555("en-US"),
+                                onPressed: () =>
+                                    speakAlto4565(// REPLACE: alto /ˈæltəʊ/
+                                        "en-US"),
                               ),
                             ],
                           ),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(),
-                    // YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -232,12 +253,24 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: absolve (Derived forms: absolving, absolved, absolves)
-1. Grant remission of a sin to (= shrive [archaic])
-"The priest absolved him and told him to say ten Hail Marys";
+- Adjective: alto 
+1. Of or being the lowest female voice (= contralto)
  
-2. Let off the hook (= free)
-"I absolve you from this responsibility";
+2. Of or being the highest male voice; having a range above that of tenor (= countertenor)
+ 
+3. (of a musical instrument) second highest member of a group
+"alto clarinet or recorder"
+
+- Noun: alto (Derived forms: altos)
+1. A singer whose voice lies in the alto clef
+ 
+2. The lowest female singing voice (= contralto)
+ 
+3. The highest adult male singing voice (= countertenor)
+ 
+4. (of a musical instrument) the second highest instrument in a family of musical instruments
+ 
+5. The pitch range of the lowest female voice
 '''),
         ],
       ),
@@ -248,7 +281,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'Hzv8E3z1nx8';
+  static String myVideoId = 'YWHZqhfLTTs';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -256,7 +289,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 588, // DOPSUM: CHANGE IT
+      startAt: 7, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -272,7 +305,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'QMiOMNIRs3k';
+  static String myVideoId = '96F5CgEIIbs';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -280,7 +313,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 241, // DOPSUM: CHANGE IT
+      startAt: 113, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -296,7 +329,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'c0xkUFe21Rk';
+  static String myVideoId = 'fprLGuGyRJE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -304,7 +337,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 507, // DOPSUM: CHANGE IT
+      startAt: 3, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -320,7 +353,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'Tprvv8OwRgA';
+  static String myVideoId = 'oMH286AE7Gc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -328,7 +361,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 96, // DOPSUM: CHANGE IT
+      startAt: 51, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -344,7 +377,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '_qHqox5GbeM';
+  static String myVideoId = '-hrbn2e16Rg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -352,7 +385,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 729, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -367,4 +400,174 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   }
 }
 
+class YoutubeEmbeddedsix extends StatelessWidget {
+  static String myVideoId = 'qW0tE4D6x-M';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 200, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedsix({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  static String myVideoId = 'WxNGO7FwTWc';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 382, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedseven({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  static String myVideoId = '87y1_IbJRZE';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 406, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedeight({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddednine extends StatelessWidget {
+  static String myVideoId = 'MHkmeDQNBJ0';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 77, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddednine({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedten extends StatelessWidget {
+  static String myVideoId = 'zRokDjsES0c';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 229, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedten({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedeleven extends StatelessWidget {
+  static String myVideoId = 'xFFs9UgOAlE';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 3073, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedeleven({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwelve extends StatelessWidget {
+  static String myVideoId = 'peZzbo26fzc';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 885, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedtwelve({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
 // end
+
+

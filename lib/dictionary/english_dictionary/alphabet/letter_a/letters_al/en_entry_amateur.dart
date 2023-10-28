@@ -4,53 +4,62 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: EnglishEntryaccessible - speakAccessible - accessible - /əkˈsesəbl/
+// replace these: replace EnglishEntryamateur - replace speakAmateur - replace amateur - /ˈæmətə(r)/,  /ˈæmətʃə(r)/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryaccessible extends StatelessWidget {
-  EnglishEntryaccessible({super.key});
+class EnglishEntryamateur extends StatelessWidget {
+  EnglishEntryamateur({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAccessible(String languageCode) async {
-    // DOPSUM: CHANGE speakAccessible
+  Future<void> speakAmateur(String languageCode) async {
+    // DOPSUM: CHANGE speakAmateur
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accessible"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amateur"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA2114(String languageCode) async {
-    // DOPSUM: CHANGE speakAccessible
+  Future<void> speakAmateur44451(String languageCode) async {
+    // DOPSUM: CHANGE speakAmateur
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The beach should be accessible to everyone."); // DOPSUM: CHANGE TEXT
+        "He was an amateur photographer until the age of 40, when he turned professional."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcc21587(String languageCode) async {
-    // DOPSUM: CHANGE speakAccessible
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Her poetry is always very accessible."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakA21598(String languageCode) async {
-    // DOPSUM: CHANGE speakAccessible
+  Future<void> speakAmateur47955(String languageCode) async {
+    // DOPSUM: CHANGE speakAmateur
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The remote desert area is accessible only by helicopter."); // DOPSUM: CHANGE TEXT
+        "The performance sounded very amateur, I’m afraid."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAmateur49555(String languageCode) async {
+    // DOPSUM: CHANGE speakAmateur
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "This work was done by a bunch of amateurs!"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAmateur44592(String languageCode) async {
+    // DOPSUM: CHANGE speakAmateur
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The tournament is open to both amateurs and professionals."); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 7,
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -68,7 +77,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'accessible', // DOPSUM: CHANGE WORD ENTRY
+                              "amateur", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæmətə(r)/,  /ˈæmətʃə(r)/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -84,7 +93,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əkˈsesəbl/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              "IpaUK: /ˈæmətə(r)/,  /ˈæmətʃə(r)/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -93,16 +102,16 @@ class EnglishEntryaccessible extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAccessible(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAmateur(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əkˈsesəbl/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              "IpaUS: /ˈæmətər/,  /ˈæmətʃər/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -111,7 +120,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAccessible(
+                              onPressed: () => speakAmateur(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -126,21 +135,21 @@ class EnglishEntryaccessible extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
+                  VideoIconForTab(), // FIND: 2,
+                  VideoIconForTab(), // 07
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 14
+                  // VideoIconForTab(), // 15
                 ],
                 indicator: BoxDecoration(
                   color: Pallete.tabsbackgroundColor,
@@ -161,9 +170,9 @@ class EnglishEntryaccessible extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: دەس‌پێ‌ڕاگەیشتوو، لە گەیشتن‌ھاتوو، لە تێگەیشتن‌ھاتوو، ئاسان، دەس دەکەوێ، لە دەسکەوتن‌ھاتوو
+کوردی: ئاماتۆڕ، ھەوەس‌کار، کەیفی، حەزکار، خۆشی‌کار، ناپیشەیی، ناشارەزا، تازەکار، ناشی
 
-١. (ھاوەڵناو) شتێک کە بەردەستە و بە ئاسانی دەتوانرێت بەکاربھێندرێت''',
+١. (ھاوەڵناو) کردنی شتێک بۆ ئارەزووی خۆت، نەک وەک پیشە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -173,18 +182,21 @@ class EnglishEntryaccessible extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The remote desert area is accessible only by helicopter.",
+                                    "He was an amateur photographer until the age of 40, when he turned professional.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناوچە بیابانە دوورەدەستەکە تەنھا لە ڕێگەی ھەلیکۆپتەرەوە دەتوانرێت سەردانی بکرێت",
+                                    "تاوەک تەمەنی ٤٠ ساڵیش ھەر وێنەگرێکی ھەوەس‌کار بوو، لەوەو بەدوا بوو کە بوو بە پڕۆفیشناڵ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -196,7 +208,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakA21598("en-GB"),
+                                onPressed: () => speakAmateur44451("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -204,14 +216,16 @@ class EnglishEntryaccessible extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakA21598("en-US"),
+                                onPressed: () => speakAmateur44451(
+                                    // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
+                                    "en-US"),
                               ),
                             ],
                           ),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. (ھاوەڵناو) شتێک کە دەکرێت بەکاربھێبدرێت یان بەردەست بێت بۆ کەسێک کە کێشەی لە ڕێکردن ھەیە''',
+٢. (ھاوەڵناو) شتێک کە بە باشی و شارەزاییەوە نەکراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -221,18 +235,21 @@ class EnglishEntryaccessible extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The beach should be accessible to everyone.",
+                                    "The performance sounded very amateur, I’m afraid.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەنار دەریاکە دەبێت بۆ ھەمووکەسێک بەردەست بێت",
+                                    "بەداخەوەم بەڵام نمایشەکە زۆر تازەکارانە دیاربوو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -244,7 +261,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakA2114("en-GB"),
+                                onPressed: () => speakAmateur47955("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -252,14 +269,16 @@ class EnglishEntryaccessible extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakA2114("en-US"),
+                                onPressed: () => speakAmateur47955(
+                                    // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
+                                    "en-US"),
                               ),
                             ],
                           ),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. (ھاوەڵناو) ئاسان بۆ تێگەیشتن''',
+٣. (ناو) کەسێک کە بۆ خۆشی و ھەوەس بەژداری چالاکییەک دەکات، نەک وەک پیشە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -269,18 +288,21 @@ class EnglishEntryaccessible extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Her poetry is always very accessible.",
+                                    "The tournament is open to both amateurs and professionals.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شیعرەکانی بۆ گەورە و بچووکن",
+                                    "پاڵەوانێتییەکە بۆ حەزکاران و پڕۆفیشناڵان کراوەیە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -292,7 +314,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAcc21587("en-GB"),
+                                onPressed: () => speakAmateur44592("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -300,25 +322,80 @@ class EnglishEntryaccessible extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAcc21587("en-US"),
+                                onPressed: () => speakAmateur44592(
+                                    // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٤. (ناو) کەسێک کە شارەزایی پێویستی نییە بۆ کردنی کارێک''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "This work was done by a bunch of amateurs!",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ئەم ئیشە لەلایەن ژمارەیەک تازە کارەوە ئەنجام دراوە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAmateur49555("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAmateur49555(
+                                    // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
+                                    "en-US"),
                               ),
                             ],
                           ),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(),
-                    // YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -348,18 +425,19 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: accessible
-1. Capable of being read with comprehension (= approachable)
-"readily accessible to the nonprofessional reader";
+Noun: amateur (Derived forms: amateurs)
+1. Someone who pursues a study or sport as a pastime
  
-2. Easily obtained
-"most students now have computers accessible"; "accessible money"
+2. An athlete who does not play for pay
  
-3. Easy to get along with or talk to; friendly
-"an accessible and genial man"
+3. Someone who is unqualified or not skilful enough
+
+- Adjective: amateur
+1. Engaged in as a pastime (= recreational, unpaid)
+"an amateur painter"; "gained valuable experience in amateur theatricals";
  
-4. Capable of being reached
-"a town accessible by rail"
+2. Lacking professional skill or expertise (= amateurish, inexpert, unskilled, rookie [informal])
+"a very amateur job";
 '''),
         ],
       ),
@@ -370,7 +448,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '-HyHZsa79LU';
+  static String myVideoId = 'NnkuQ47v8d8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -378,7 +456,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 633, // DOPSUM: CHANGE IT
+      startAt: 36, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -394,7 +472,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'GjMmsEwIcl0';
+  static String myVideoId = 'vK4jyLKWGKk';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -402,7 +480,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 69, // DOPSUM: CHANGE IT
+      startAt: 10, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -418,7 +496,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'SrDEtSlqJC4';
+  static String myVideoId = 'ZzGqFF1IXgc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -426,7 +504,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1165, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -442,7 +520,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'PqpCeiYycVM';
+  static String myVideoId = 'LWSIcpLEurA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -450,7 +528,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 420, // DOPSUM: CHANGE IT
+      startAt: 557, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -466,7 +544,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'ImoP-Apzrsg';
+  static String myVideoId = 'Rvt9CaR4_7k';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -474,7 +552,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 129, // DOPSUM: CHANGE IT
+      startAt: 6, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -489,4 +567,175 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   }
 }
 
+class YoutubeEmbeddedsix extends StatelessWidget {
+  static String myVideoId = 'K6twIhtexDA';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 53, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedsix({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  static String myVideoId = '0AJE4_Xo4ng';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 104, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedseven({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  static String myVideoId = '6dDlkawN3s0';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 8, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedeight({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddednine extends StatelessWidget {
+  static String myVideoId = 'fgWCjEGW5GI';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddednine({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedten extends StatelessWidget {
+  static String myVideoId = 'GisqGBMqocA';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 7, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedten({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedeleven extends StatelessWidget {
+  static String myVideoId = '6uKdMQHRM8k';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedeleven({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwelve extends StatelessWidget {
+  static String myVideoId = '-cHKXgam04M';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 46, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedtwelve({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
 // end
+
+
+// TODO Implement this library.

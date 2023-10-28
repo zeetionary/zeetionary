@@ -568,10 +568,37 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "alternator",
     "although",
     "altitude",
+    "alto",
+    "altogether",
+    "altruism",
+    "altruistic",
+    "aluminium",
+    "always",
+    "Alzheimer's disease",
+    "am",
+    "a.m.",
+    "amalgamate",
+    "amalgamation",
+    "amass",
+    "amateur",
+    "amateurish",
+    "amaze",
+    "amazement",
+    "amazing",
+    "ambassador",
+    "amber",
+    "ambidextrous",
+    "ambiguity",
+    "ambiguous",
+    "ambition",
+    "ambitious",
+    "ambivalence",
+    "ambivalent",
     "dopsum",
     "dopsum",
     "dopsum",
     "come of age",
+    "contralto",
     "far afield",
     "from afar",
     "under age",
@@ -2297,7 +2324,8 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     Routemaster.of(context).push("/english-alternately");
                   }
                   if (wordsEnglish == "alternating current") {
-                    Routemaster.of(context).push("/english-alternating-current");
+                    Routemaster.of(context)
+                        .push("/english-alternating-current");
                   }
                   if (wordsEnglish == "alternation") {
                     Routemaster.of(context).push("/english-alternation");
@@ -2317,87 +2345,87 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "altitude") {
                     Routemaster.of(context).push("/english-altitude");
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
+                  if (wordsEnglish == "alto") {
+                    Routemaster.of(context).push("/english-alto");
+                  }
+                  if (wordsEnglish == "contralto") {
+                    Routemaster.of(context).push("/english-contralto");
+                  }
+                  if (wordsEnglish == "altogether") {
+                    Routemaster.of(context).push("/english-altogether");
+                  }
+                  if (wordsEnglish == "altruism") {
+                    Routemaster.of(context).push("/english-altruism");
+                  }
+                  if (wordsEnglish == "altruistic") {
+                    Routemaster.of(context).push("/english-altruistic");
+                  }
+                  if (wordsEnglish == "aluminium") {
+                    Routemaster.of(context).push("/english-aluminium");
+                  }
+                  if (wordsEnglish == "always") {
+                    Routemaster.of(context).push("/english-always");
+                  }
+                  if (wordsEnglish == "Alzheimer's disease") {
+                    Routemaster.of(context).push("/english-alzheimers-disease");
+                  }
+                  if (wordsEnglish == "am") {
+                    Routemaster.of(context).push("/english-am");
+                  }
+                  if (wordsEnglish == "a.m.") {
+                    Routemaster.of(context).push("/english-a.m.");
+                  }
+                  if (wordsEnglish == "amalgamate") {
+                    Routemaster.of(context).push("/english-amalgamate");
+                  }
+                  if (wordsEnglish == "amalgamation") {
+                    Routemaster.of(context).push("/english-amalgamation");
+                  }
+                  if (wordsEnglish == "amass") {
+                    Routemaster.of(context).push("/english-amass");
+                  }
+                  if (wordsEnglish == "amateur") {
+                    Routemaster.of(context).push("/english-amateur");
+                  }
+                  if (wordsEnglish == "amateurish") {
+                    Routemaster.of(context).push("/english-amateurish");
+                  }
+                  if (wordsEnglish == "amaze") {
+                    Routemaster.of(context).push("/english-amaze");
+                  }
+                  if (wordsEnglish == "amazement") {
+                    Routemaster.of(context).push("/english-amazement");
+                  }
+                  if (wordsEnglish == "amazing") {
+                    Routemaster.of(context).push("/english-amazing");
+                  }
+                  if (wordsEnglish == "ambassador") {
+                    Routemaster.of(context).push("/english-ambassador");
+                  }
+                  if (wordsEnglish == "amber") {
+                    Routemaster.of(context).push("/english-amber");
+                  }
+                  if (wordsEnglish == "ambidextrous") {
+                    Routemaster.of(context).push("/english-ambidextrous");
+                  }
+                  if (wordsEnglish == "ambiguous") {
+                    Routemaster.of(context).push("/english-ambiguous");
+                  }
+                  if (wordsEnglish == "ambiguity") {
+                    Routemaster.of(context).push("/english-ambiguity");
+                  }
+                  if (wordsEnglish == "ambition") {
+                    Routemaster.of(context).push("/english-ambition");
+                  }
+                  if (wordsEnglish == "ambitious") {
+                    Routemaster.of(context).push("/english-ambitious");
+                  }
+                  if (wordsEnglish == "ambivalent") {
+                    Routemaster.of(context).push("/english-ambivalent");
+                  }
+                  if (wordsEnglish == "ambivalence") {
+                    Routemaster.of(context).push("/english-ambivalence");
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push("/english-DOPSUM");
                   // }

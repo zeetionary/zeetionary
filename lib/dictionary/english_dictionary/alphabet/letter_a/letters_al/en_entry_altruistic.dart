@@ -4,35 +4,51 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: EnglishEntryabsolve - speakAbsolve - absolve - /əbˈzɒlv/
+// replace these: replace EnglishEntryaltruistic - replace speakAltruistic - replace altruistic - /ˌæltruˈɪstɪk/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryabsolve extends StatelessWidget {
-  EnglishEntryabsolve({super.key});
+class EnglishEntryaltruistic extends StatelessWidget {
+  EnglishEntryaltruistic({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbsolve(String languageCode) async {
-    // DOPSUM: CHANGE speakAbsolve
+  Future<void> speakAltruistic(String languageCode) async {
+    // DOPSUM: CHANGE speakAltruistic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("absolve"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("altruistic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAbsolve5555(String languageCode) async {
-    // DOPSUM: CHANGE speakAbsolve
+  Future<void> speakAltruistic4583(String languageCode) async {
+    // DOPSUM: CHANGE speakAltruistic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The court absolved him of all responsibility for the accident."); // DOPSUM: CHANGE TEXT
+        "I doubt whether her motives for donating the money are altruistic - she's probably looking for publicity."); // DOPSUM: CHANGE TEXT
   }
+
+  // Future<void> speakAltruistic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAltruistic
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("altruistic"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAltruistic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAltruistic
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("altruistic"); // DOPSUM: CHANGE TEXT
+  // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 7,
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -50,7 +66,7 @@ class EnglishEntryabsolve extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'absolve', // DOPSUM: CHANGE WORD ENTRY
+                              "altruistic", // DOPSUM: CHANGE WORD ENTRY - Find /ˌæltruˈɪstɪk/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -66,7 +82,7 @@ class EnglishEntryabsolve extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əbˈzɒlv/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              "IpaUK: /ˌæltruˈɪstɪk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -75,16 +91,16 @@ class EnglishEntryabsolve extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAbsolve(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAltruistic(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əbˈzɑːlv/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              "IpaUS: /ˌæltruˈɪstɪk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -93,7 +109,7 @@ class EnglishEntryabsolve extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAbsolve(
+                              onPressed: () => speakAltruistic(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -108,21 +124,21 @@ class EnglishEntryabsolve extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
+                  VideoIconForTab(), // FIND: 2,
+                  VideoIconForTab(), // 07
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 14
+                  // VideoIconForTab(), // 15
                 ],
                 indicator: BoxDecoration(
                   color: Pallete.tabsbackgroundColor,
@@ -143,7 +159,9 @@ class EnglishEntryabsolve extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (کردار) بە فەرمی پاککردنەوەی کەسێک لە تۆمەت''',
+کوردی: لەخۆبردووانە، ئەویدی‌خوازانە، لەخۆبردوو، گیان‌بەخت‌کەر، فەداکار، گیان‌باز
+
+١. (ھاوەڵناو) ھەبوونی خاسیەتی لەخۆبردوویی؛ یارمەتیدانی کەسانی تر بەبێ ھیچ ھۆکارێکی کەسی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -153,18 +171,21 @@ class EnglishEntryabsolve extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The court absolved him of all responsibility for the accident.",
+                                    "I doubt whether her motives for donating the money are altruistic - she's probably looking for publicity.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دادگا پاکیکردەوە/بێبەریکرد لە ھەر بەرپرسیاریەتییەک بۆ ڕووداوەکە",
+                                    "گومانم ھەیە مەبەستی لە بەخشینی پارەکە تەنھا لەخۆبردوویی بێت، پێدەچێت بۆ ناوبانگ بگەڕێت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -176,7 +197,7 @@ class EnglishEntryabsolve extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAbsolve5555("en-GB"),
+                                onPressed: () => speakAltruistic4583("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -184,22 +205,24 @@ class EnglishEntryabsolve extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAbsolve5555("en-US"),
+                                onPressed: () => speakAltruistic4583(
+                                    // REPLACE: altruistic /ˌæltruˈɪstɪk/
+                                    "en-US"),
                               ),
                             ],
                           ),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(),
-                    // YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
@@ -232,12 +255,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: absolve (Derived forms: absolving, absolved, absolves)
-1. Grant remission of a sin to (= shrive [archaic])
-"The priest absolved him and told him to say ten Hail Marys";
- 
-2. Let off the hook (= free)
-"I absolve you from this responsibility";
+- Adjective: altruistic 
+1. Showing unselfish concern for the welfare of others
+"the company tried to project an altruistic image";
 '''),
         ],
       ),
@@ -248,7 +268,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'Hzv8E3z1nx8';
+  static String myVideoId = 'unX4FQqM6vI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -256,7 +276,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 588, // DOPSUM: CHANGE IT
+      startAt: 609, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -272,7 +292,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'QMiOMNIRs3k';
+  static String myVideoId = '9yjZpBq1XBE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -280,7 +300,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 241, // DOPSUM: CHANGE IT
+      startAt: 2187, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -296,7 +316,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'c0xkUFe21Rk';
+  static String myVideoId = '7eM7pb5M5DU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -304,7 +324,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 507, // DOPSUM: CHANGE IT
+      startAt: 396, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -320,7 +340,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'Tprvv8OwRgA';
+  static String myVideoId = '7xRit3yRim0';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -328,7 +348,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 96, // DOPSUM: CHANGE IT
+      startAt: 1229, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -344,7 +364,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '_qHqox5GbeM';
+  static String myVideoId = '9wk4ApHloHM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -352,7 +372,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 729, // DOPSUM: CHANGE IT
+      startAt: 95, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -367,4 +387,98 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   }
 }
 
-// end
+class YoutubeEmbeddedsix extends StatelessWidget {
+  static String myVideoId = 'bwvGL21aJ_s';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 74, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedsix({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  static String myVideoId = 'znwUCNrjpD4';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 336, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedseven({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  static String myVideoId = 'fqzaHvJ-yvw';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 84, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedeight({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddednine extends StatelessWidget {
+  static String myVideoId = '5jjdErDkDZE';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 1651, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddednine({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}

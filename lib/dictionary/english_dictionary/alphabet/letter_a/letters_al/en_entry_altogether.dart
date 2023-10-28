@@ -4,53 +4,77 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: EnglishEntryaccessible - speakAccessible - accessible - /əkˈsesəbl/
+// replace these: replace EnglishEntryaltogether - replace speakAltogether - replace altogether - /ˌɔːltəˈɡeðə(r)/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryaccessible extends StatelessWidget {
-  EnglishEntryaccessible({super.key});
+class EnglishEntryaltogether extends StatelessWidget {
+  EnglishEntryaltogether({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAccessible(String languageCode) async {
-    // DOPSUM: CHANGE speakAccessible
+  Future<void> speakAltogether(String languageCode) async {
+    // DOPSUM: CHANGE speakAltogether
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accessible"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("altogether"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA2114(String languageCode) async {
-    // DOPSUM: CHANGE speakAccessible
+  Future<void> speakAltogether588(String languageCode) async {
+    // DOPSUM: CHANGE speakAltogether
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The beach should be accessible to everyone."); // DOPSUM: CHANGE TEXT
+        "The train went slower and slower until it stopped altogether."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAcc21587(String languageCode) async {
-    // DOPSUM: CHANGE speakAccessible
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Her poetry is always very accessible."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakA21598(String languageCode) async {
-    // DOPSUM: CHANGE speakAccessible
+  Future<void> speakAltogether45666(String languageCode) async {
+    // DOPSUM: CHANGE speakAltogether
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The remote desert area is accessible only by helicopter."); // DOPSUM: CHANGE TEXT
+        "It was an altogether different situation."); // DOPSUM: CHANGE TEXT
   }
+
+  Future<void> speakAltogether523333(String languageCode) async {
+    // DOPSUM: CHANGE speakAltogether
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("You owe me £68 altogether."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAltogether4144(String languageCode) async {
+    // DOPSUM: CHANGE speakAltogether
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The food was good and we loved the music. Altogether it was a great evening."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAltogether(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAltogether
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("altogether"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAltogether(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAltogether
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("altogether"); // DOPSUM: CHANGE TEXT
+  // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 7,
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -68,7 +92,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              'accessible', // DOPSUM: CHANGE WORD ENTRY
+                              "altogether", // DOPSUM: CHANGE WORD ENTRY - Find /ˌɔːltəˈɡeðə(r)/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -84,7 +108,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əkˈsesəbl/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              "IpaUK: /ˌɔːltəˈɡeðə(r)/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -93,7 +117,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAccessible(
+                              onPressed: () => speakAltogether(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -102,7 +126,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əkˈsesəbl/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              "IpaUS: /ˌɔːltəˈɡeðər/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -111,7 +135,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAccessible(
+                              onPressed: () => speakAltogether(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -126,21 +150,21 @@ class EnglishEntryaccessible extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
+                  VideoIconForTab(), // FIND: 2,
+                  VideoIconForTab(), // 07
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 14
+                  // VideoIconForTab(), // 15
                 ],
                 indicator: BoxDecoration(
                   color: Pallete.tabsbackgroundColor,
@@ -161,9 +185,9 @@ class EnglishEntryaccessible extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: دەس‌پێ‌ڕاگەیشتوو، لە گەیشتن‌ھاتوو، لە تێگەیشتن‌ھاتوو، ئاسان، دەس دەکەوێ، لە دەسکەوتن‌ھاتوو
+کوردی: سەرجەم، تێکڕا، هەمەبەهەم، لە هەموو لایەکەوە، لەسەریەک، بەتەواوەتی
 
-١. (ھاوەڵناو) شتێک کە بەردەستە و بە ئاسانی دەتوانرێت بەکاربھێندرێت''',
+١. (هاوەڵکار) بە تەواوی؛ هەموو پێکەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -173,18 +197,21 @@ class EnglishEntryaccessible extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The remote desert area is accessible only by helicopter.",
+                                    "The train went slower and slower until it stopped altogether.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناوچە بیابانە دوورەدەستەکە تەنھا لە ڕێگەی ھەلیکۆپتەرەوە دەتوانرێت سەردانی بکرێت",
+                                    "شەمەندەفەرەکە هێواشتر و هێواشتر چوو تا بەتەواوی وەستا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -196,7 +223,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakA21598("en-GB"),
+                                onPressed: () => speakAltogether588("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -204,14 +231,62 @@ class EnglishEntryaccessible extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakA21598("en-US"),
+                                onPressed: () => speakAltogether588(
+                                    // REPLACE: altogether /ˌɔːltəˈɡeðər/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "It was an altogether different situation.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "بە تەواوی بارودۆخێکی گونجاو بوو",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAltogether45666("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAltogether45666(
+                                    // REPLACE: altogether /ˌɔːltəˈɡeðər/
+                                    "en-US"),
                               ),
                             ],
                           ),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. (ھاوەڵناو) شتێک کە دەکرێت بەکاربھێبدرێت یان بەردەست بێت بۆ کەسێک کە کێشەی لە ڕێکردن ھەیە''',
+٢. (هاوەڵکار) کۆی گشتی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -221,18 +296,21 @@ class EnglishEntryaccessible extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The beach should be accessible to everyone.",
+                                    "You owe me £68 altogether.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەنار دەریاکە دەبێت بۆ ھەمووکەسێک بەردەست بێت",
+                                    "کۆی گشتی ٦٨ پاوەند قەرزارمی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -244,7 +322,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakA2114("en-GB"),
+                                onPressed: () => speakAltogether523333("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -252,14 +330,16 @@ class EnglishEntryaccessible extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakA2114("en-US"),
+                                onPressed: () => speakAltogether523333(
+                                    // REPLACE: altogether /ˌɔːltəˈɡeðər/
+                                    "en-US"),
                               ),
                             ],
                           ),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. (ھاوەڵناو) ئاسان بۆ تێگەیشتن''',
+٣. (هاوەڵکار) بەکورتی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -269,18 +349,21 @@ class EnglishEntryaccessible extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Her poetry is always very accessible.",
+                                    "The food was good and we loved the music. Altogether it was a great evening.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شیعرەکانی بۆ گەورە و بچووکن",
+                                    "خواردنەکە باش بوو حەزیشمان بە موسیقاکە بوو. بەکورتی، شەوێکی خۆش بوو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -292,7 +375,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAcc21587("en-GB"),
+                                onPressed: () => speakAltogether4144("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -300,22 +383,24 @@ class EnglishEntryaccessible extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAcc21587("en-US"),
+                                onPressed: () => speakAltogether4144(
+                                    // REPLACE: altogether /ˌɔːltəˈɡeðər/
+                                    "en-US"),
                               ),
                             ],
                           ),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(),
-                    // YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
@@ -348,18 +433,20 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: accessible
-1. Capable of being read with comprehension (= approachable)
-"readily accessible to the nonprofessional reader";
+- Adverb: altogether 
+1. To a complete degree or to the full or entire extent; Completely or entirely (= wholly, entirely, completely, totally, all, whole, right, totes [informal])
+"it was not altogether her fault"; "an altogether new approach";
  
-2. Easily obtained
-"most students now have computers accessible"; "accessible money"
+2. With everything included or counted (= all told, in all)
+"altogether he earns close to a million dollars";
  
-3. Easy to get along with or talk to; friendly
-"an accessible and genial man"
- 
-4. Capable of being reached
-"a town accessible by rail"
+3. With everything considered (and neglecting details) (= all in all, on the whole, tout ensemble)
+"altogether, I'm sorry it happened";
+
+- Noun: altogether (Derived forms: altogethers)
+Usage: informal
+1. The state of being without clothing or covering of any kind (= nakedness, nudity, nudeness, raw [informal], birthday suit [informal])
+"in the altogether";
 '''),
         ],
       ),
@@ -370,7 +457,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '-HyHZsa79LU';
+  static String myVideoId = 'hFZFjoX2cGg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -378,7 +465,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 633, // DOPSUM: CHANGE IT
+      startAt: 849, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -394,7 +481,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'GjMmsEwIcl0';
+  static String myVideoId = 'IqsLnLiASmA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -402,7 +489,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 69, // DOPSUM: CHANGE IT
+      startAt: 474, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -418,7 +505,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'SrDEtSlqJC4';
+  static String myVideoId = 'lex6USTugUU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -426,7 +513,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1165, // DOPSUM: CHANGE IT
+      startAt: 1017, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -442,7 +529,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'PqpCeiYycVM';
+  static String myVideoId = 'kTaYet07Ioo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -450,7 +537,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 420, // DOPSUM: CHANGE IT
+      startAt: 55, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -466,7 +553,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'ImoP-Apzrsg';
+  static String myVideoId = '6QgR6Tjle7g';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -474,7 +561,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 129, // DOPSUM: CHANGE IT
+      startAt: 237, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -489,4 +576,98 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   }
 }
 
-// end
+class YoutubeEmbeddedsix extends StatelessWidget {
+  static String myVideoId = '-7bIDbaU_zQ';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 311, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedsix({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedseven extends StatelessWidget {
+  static String myVideoId = 'GIJ_olY4BnE';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 580, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedseven({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedeight extends StatelessWidget {
+  static String myVideoId = 'VVsdb90aOmA';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 1560, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedeight({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddednine extends StatelessWidget {
+  static String myVideoId = '3n99jqOdeSw';
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      loop: true,
+      mute: false,
+      startAt: 923, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddednine({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}

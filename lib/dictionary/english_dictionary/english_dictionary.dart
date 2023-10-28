@@ -558,6 +558,16 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "Alsatian",
     "also",
     "altar",
+    "alteration",
+    "alternate",
+    "alternately",
+    "alternating current",
+    "alternation",
+    "alternative",
+    "alternatively",
+    "alternator",
+    "although",
+    "altitude",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -2277,36 +2287,36 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "altar") {
                     Routemaster.of(context).push("/english-altar");
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
+                  if (wordsEnglish == "alteration") {
+                    Routemaster.of(context).push("/english-alteration");
+                  }
+                  if (wordsEnglish == "alternate") {
+                    Routemaster.of(context).push("/english-alternate");
+                  }
+                  if (wordsEnglish == "alternately") {
+                    Routemaster.of(context).push("/english-alternately");
+                  }
+                  if (wordsEnglish == "alternating current") {
+                    Routemaster.of(context).push("/english-alternating-current");
+                  }
+                  if (wordsEnglish == "alternation") {
+                    Routemaster.of(context).push("/english-alternation");
+                  }
+                  if (wordsEnglish == "alternative") {
+                    Routemaster.of(context).push("/english-alternative");
+                  }
+                  if (wordsEnglish == "alternatively") {
+                    Routemaster.of(context).push("/english-alternatively");
+                  }
+                  if (wordsEnglish == "alternator") {
+                    Routemaster.of(context).push("/english-alternator");
+                  }
+                  if (wordsEnglish == "although") {
+                    Routemaster.of(context).push("/english-although");
+                  }
+                  if (wordsEnglish == "altitude") {
+                    Routemaster.of(context).push("/english-altitude");
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push("/english-DOPSUM");
                   // }

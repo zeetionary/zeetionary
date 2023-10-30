@@ -185,7 +185,7 @@ class EnglishEntryaftermath extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەرۆک سەردانی هەرێمەکەی کرد لە دوای دەرئەنجامی کارەساتەکە",
+                                    "سەرۆک سەردانی هەرێمەکەی کرد لە دەرئەنجامی کارەساتەکە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

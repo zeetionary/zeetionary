@@ -603,6 +603,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "amend",
     "amendment",
     "amenity",
+    "American",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -2466,9 +2467,9 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "amenity") {
                     Routemaster.of(context).push("/english-amenity");
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
+                  if (wordsEnglish == "American") {
+                    Routemaster.of(context).push("/english-american");
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push("/english-DOPSUM");
                   // }

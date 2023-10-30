@@ -595,7 +595,7 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_amendment.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_m/letters_ma/en_entry_make_amends.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_amenity.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_american.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_al/en_entry_DOPSUM.dart';
@@ -1274,7 +1274,7 @@ final loggedInRoute = RouteMap(routes: {
   "/english-amendment": (_) => MaterialPage(child: EnglishEntryamendment()),
   "/english-make-amends": (_) => MaterialPage(child: EnglishEntrymakeamends()),
   "/english-amenity": (_) => MaterialPage(child: EnglishEntryamenity()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-american": (_) => MaterialPage(child: EnglishEntryamerican()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

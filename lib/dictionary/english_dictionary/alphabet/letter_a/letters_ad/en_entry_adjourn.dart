@@ -207,6 +207,7 @@ class EnglishEntryadjourn extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

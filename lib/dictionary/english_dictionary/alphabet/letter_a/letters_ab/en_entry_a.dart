@@ -58,7 +58,16 @@ class EnglishEntrya extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("a good knowledge of French"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("a good knowledge of French."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speak63328(String languageCode) async {
+    // DOPSUM: CHANGE speakA
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("I have a pen."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -212,6 +221,7 @@ class EnglishEntrya extends StatelessWidget {
                                 ),
                               ],
                             ),
+                            const DividerSentences(),
                             Row(
                               children: [
                                 const Expanded(
@@ -253,6 +263,7 @@ class EnglishEntrya extends StatelessWidget {
                                 ),
                               ],
                             ),
+                            const DividerDefinition(),
                             const Text(
                               // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                               '٢. (ئامراز) بەکاردێت بۆ ئەوەی نیشانی بدات کە کەسێک/شتێک ئەندامی گروپێک یان پیشەیەکە',
@@ -301,6 +312,7 @@ class EnglishEntrya extends StatelessWidget {
                                 ),
                               ],
                             ),
+                            const DividerDefinition(),
                             const Text(
                               // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                               '٣. (ئامراز) بەکاردێت بۆ گشتگیرکردن',
@@ -349,6 +361,7 @@ class EnglishEntrya extends StatelessWidget {
                                 ),
                               ],
                             ),
+                            const DividerDefinition(),
                             const Text(
                               // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                               '٤. (ئامراز) پێش ناوی نەژمێردراو بەکاردێت کاتێک هاوەڵناوێک لە پێشیان یان دەستەواژەیەک لە دوایان دێت',
@@ -397,6 +410,7 @@ class EnglishEntrya extends StatelessWidget {
                                 ),
                               ],
                             ),
+                            const DividerDefinition(),
                             const Text(
                               // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                               '٥. (ئامراز) لە پێش ئەو ناوانە بەکاردێت کە پێکەوە ناودەهێندرێن ',
@@ -404,12 +418,54 @@ class EnglishEntrya extends StatelessWidget {
                               textAlign: TextAlign
                                   .right, // Set text alignment to right
                             ),
+                            const DividerDefinition(),
                             const Text(
                               // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                               '٦. لە جیاتی ژمارە یەک بەکاردێت',
                               style: TextStyle(fontSize: 18),
                               textAlign: TextAlign
                                   .right, // Set text alignment to right
+                            ),
+                            Row(
+                              children: [
+                                const Expanded(
+                                  child: Align(
+                                    alignment: Alignment.topLeft,
+                                    child: Text(
+                                      "I have a pen.",
+                                      textDirection: TextDirection
+                                          .ltr, // Right-to-left direction
+                                    ),
+                                  ),
+                                ),
+                                // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                                const Expanded(
+                                  child: Align(
+                                    alignment: Alignment.topLeft,
+                                    child: Text(
+                                      "پێنووسێکم هەیە",
+                                      textAlign: TextAlign
+                                          .right, // Right-to-left direction
+                                    ),
+                                  ),
+                                ),
+                                IconButton(
+                                  iconSize: 18,
+                                  icon: const Icon(
+                                    Icons.record_voice_over,
+                                    color: Colors.blue,
+                                  ),
+                                  onPressed: () => speak63328("en-GB"),
+                                ),
+                                IconButton(
+                                  iconSize: 18,
+                                  icon: const Icon(
+                                    Icons.record_voice_over,
+                                    color: Colors.red,
+                                  ),
+                                  onPressed: () => speak63328("en-US"),
+                                ),
+                              ],
                             ),
                           ],
                         ),

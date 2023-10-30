@@ -194,6 +194,7 @@ class EnglishEntryaboriginal extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''

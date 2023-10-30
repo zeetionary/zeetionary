@@ -226,6 +226,7 @@ class EnglishEntryabsolute extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -267,10 +268,11 @@ class EnglishEntryabsolute extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (ھاوەڵناو) بەکاردێت بۆ جەختکردنەوە''',
+٢. (ھاوەڵناو) بەکاردێت بۆ جەختکردنەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -315,10 +317,11 @@ class EnglishEntryabsolute extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (ھاوەڵناو) نەگۆڕ بەبێ ئەوەی گومانی لەسەر بێت''',
+٣. (ھاوەڵناو) نەگۆڕ بەبێ ئەوەی گومانی لەسەر بێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -363,10 +366,11 @@ class EnglishEntryabsolute extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (ھاوەڵناو) گەشتن بە کۆتایی''',
+٤. (ھاوەڵناو) گەشتن بە کۆتایی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

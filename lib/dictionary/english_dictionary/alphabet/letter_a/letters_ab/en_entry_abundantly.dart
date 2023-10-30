@@ -199,10 +199,11 @@ class EnglishEntryabundantly extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (ھاوەڵکار) بە ژمارەیەکی زۆر''',
+٢. (ھاوەڵکار) بە ژمارەیەکی زۆر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

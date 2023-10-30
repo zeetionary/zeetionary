@@ -211,6 +211,7 @@ class EnglishEntryafraid extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

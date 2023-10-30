@@ -193,6 +193,7 @@ I can't abide people with no sense of humour.
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

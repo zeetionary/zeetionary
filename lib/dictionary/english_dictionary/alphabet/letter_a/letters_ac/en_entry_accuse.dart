@@ -206,6 +206,7 @@ class EnglishEntryaccuse extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           Row(
                             children: [
                               const Expanded(

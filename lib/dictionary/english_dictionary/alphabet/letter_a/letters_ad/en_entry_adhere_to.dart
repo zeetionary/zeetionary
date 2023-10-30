@@ -207,6 +207,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

@@ -154,6 +154,34 @@ class UkIconForTab extends StatelessWidget {
   }
 }
 
+class DividerDefinition extends StatelessWidget {
+  const DividerDefinition({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: SizedBox(
+          width: MediaQuery.of(context).size.width / 1, child: const Divider()),
+    );
+  }
+}
+
+class DividerSentences extends StatelessWidget {
+  const DividerSentences({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: SizedBox(
+          width: MediaQuery.of(context).size.width / 3, child: const Divider()),
+    );
+  }
+}
+
 class YouTubeContainerDesign extends StatelessWidget {
   const YouTubeContainerDesign({
     super.key,

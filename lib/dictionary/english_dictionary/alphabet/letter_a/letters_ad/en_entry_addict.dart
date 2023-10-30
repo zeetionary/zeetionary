@@ -209,6 +209,7 @@ class EnglishEntryaddict extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

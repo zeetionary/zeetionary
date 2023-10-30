@@ -209,6 +209,7 @@ class EnglishEntryaffluence extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

@@ -206,6 +206,7 @@ class EnglishEntryabandon extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -247,6 +248,7 @@ class EnglishEntryabandon extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '٢. (کردار) وەستان لە کردنی شتێک',
@@ -294,6 +296,7 @@ class EnglishEntryabandon extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '٣. (کردار) وەستان لە باوەڕبوون بە شتێک',

@@ -209,12 +209,11 @@ class EnglishEntryadjustment extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: ڕێکخستن، میزان‌کردن، ڕێکاندن، گونجان، ساز، سازان، داھاتن، ڕاست‌کردنەوە، گۆڕان، ئامێری ڕاست‌کردنەوە یان میزان‌کردن، میزانە
-
-١. (ناو) گۆڕانکاریی بچووک بۆ چاکترکردنی شتێک''',
+٢. (ناو) گۆڕانکاری لە ڕەفتار یان بیرکردنەوەی کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

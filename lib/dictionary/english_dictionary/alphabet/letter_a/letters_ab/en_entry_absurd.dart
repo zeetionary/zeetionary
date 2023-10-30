@@ -199,6 +199,7 @@ class EnglishEntryabsurd extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

@@ -199,10 +199,11 @@ class EnglishEntryabrasive extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (هاوەڵناو) کەسێک کە ڕەفتاری دڵشکێن و خراپە''',
+٢. (هاوەڵناو) کەسێک کە ڕەفتاری دڵشکێن و خراپە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

@@ -209,6 +209,7 @@ class EnglishEntryafflict extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

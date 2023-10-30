@@ -191,6 +191,7 @@ class EnglishEntryabandoned extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

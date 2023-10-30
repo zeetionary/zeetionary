@@ -249,6 +249,7 @@ class EnglishEntryalready extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
@@ -302,6 +303,7 @@ class EnglishEntryalready extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
@@ -355,10 +357,11 @@ class EnglishEntryalready extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٤. (ھاوەڵکار) باکاردێت بۆ دەربڕینی بێزاری''',
+٤. (ھاوەڵکار) بەکاردێت بۆ دەربڕینی بێزاری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -382,7 +385,7 @@ class EnglishEntryalready extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دە بوەستە، کەس ھەست بە بەزەیی ناکات بۆت",
+                                    "دە وازبێنە، کەس ھەست بە بەزەیی ناکات بۆت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -408,6 +411,7 @@ class EnglishEntryalready extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
@@ -456,6 +460,7 @@ class EnglishEntryalready extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -498,6 +503,7 @@ class EnglishEntryalready extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

@@ -209,6 +209,7 @@ class EnglishEntryaffectation extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

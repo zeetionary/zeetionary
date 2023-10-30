@@ -193,7 +193,7 @@ class EnglishEntryablaze extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "رستە",
+                                    "تەواوی بیناکە زوو بوو بە بڵێسە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -217,6 +217,7 @@ class EnglishEntryablaze extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -258,6 +259,7 @@ class EnglishEntryablaze extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
@@ -306,6 +308,7 @@ class EnglishEntryablaze extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -347,6 +350,7 @@ class EnglishEntryablaze extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''

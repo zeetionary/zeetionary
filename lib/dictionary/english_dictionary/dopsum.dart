@@ -216,6 +216,8 @@ class EnglishEntryDopsum extends StatelessWidget {
                               ),
                             ],
                           ),
+                          // const DividerSentences()
+                          const DividerDefinition()
                         ],
                       ),
                     ),

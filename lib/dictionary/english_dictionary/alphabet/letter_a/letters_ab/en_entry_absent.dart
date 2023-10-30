@@ -190,6 +190,7 @@ class EnglishEntryabsent extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           Row(
                             children: [
                               const Expanded(

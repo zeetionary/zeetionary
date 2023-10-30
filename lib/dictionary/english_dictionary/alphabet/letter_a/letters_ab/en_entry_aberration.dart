@@ -195,6 +195,7 @@ a temporary aberration of his exhausted mind
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

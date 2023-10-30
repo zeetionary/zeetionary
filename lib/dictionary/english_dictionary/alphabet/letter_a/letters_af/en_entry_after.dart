@@ -69,7 +69,7 @@ class EnglishEntryafter extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It was pleasantly cool in the house after the sticky heat outside."); // DOPSUM: CHANGE TEXT
+        "It was pleasantly cool in the house after the heat outside."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAfter5622(String languageCode) async {
@@ -511,7 +511,7 @@ class EnglishEntryafter extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەگاکە بگرە لەدوای خۆت",
+                                    "دەرگاکە بگرە لەدوای خۆت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

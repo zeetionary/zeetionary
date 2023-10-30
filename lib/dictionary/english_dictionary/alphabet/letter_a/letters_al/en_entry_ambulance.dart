@@ -4,45 +4,45 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryalzheimersdisease - replace speakAlzheimersdisease - replace Alzheimer's disease - /ˈæltshaɪməz dɪziːz/,  /ˈɔːltshaɪməz dɪziːz/ - find Dopsum2
+// replace these: replace EnglishEntryambulance - replace speakAmbulance - replace ambulance - /ˈæmbjələns/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryalzheimersdisease extends StatelessWidget {
-  EnglishEntryalzheimersdisease({super.key});
+class EnglishEntryambulance extends StatelessWidget {
+  EnglishEntryambulance({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlzheimersdisease(String languageCode) async {
-    // DOPSUM: CHANGE speakAlzheimersdisease
+  Future<void> speakAmbulance(String languageCode) async {
+    // DOPSUM: CHANGE speakAmbulance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Alzheimer's disease"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ambulance"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlzheimersdisease6555(String languageCode) async {
-    // DOPSUM: CHANGE speakAlzheimersdisease
+  Future<void> speakAmbulanc7955(String languageCode) async {
+    // DOPSUM: CHANGE speakAmbulance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The most common form of dementia is Alzheimer's disease."); // DOPSUM: CHANGE TEXT
+        "The ambulance crew rushed her to the hospital."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlzheimersdisease(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlzheimersdisease
+  // Future<void> speakAmbulance(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmbulance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Alzheimer's disease"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ambulance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlzheimersdisease(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlzheimersdisease
+  // Future<void> speakAmbulance(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmbulance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Alzheimer's disease"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ambulance"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -67,7 +67,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "Alzheimer's disease", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæltshaɪməz dɪziːz/,  /ˈɔːltshaɪməz dɪziːz/
+                                "ambulance", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæmbjələns/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -81,32 +81,12 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                             // ),
                           ],
                         ),
-                        // Row(
-                        //   children: [
-                        //     const Expanded(
-                        //       child: Text(
-                        //         "IpaUK: /ˈæltshaɪməz dɪziːz/,  /ˈɔːltshaɪməz dɪziːz/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                        //         style: TextStyle(fontSize: 14),
-                        //       ),
-                        //     ),
-                        //     IconButton(
-                        //       iconSize: 16,
-                        //       icon: const Icon(
-                        //         Icons.record_voice_over,
-                        //         color: Colors.blue,
-                        //       ),
-                        //       onPressed: () => speakAlzheimersdisease(
-                        //           // DOPSUM: CHANGE THE WORD ABOVE
-                        //           "en-GB"),
-                        //     ),
-                        //   ],
-                        // ),
                         Row(
                           children: [
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˈæltshaɪməz dɪziːz/,  /ˈɔːltshaɪməz dɪziːz/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈæmbjələns/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -116,7 +96,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAlzheimersdisease(
+                              onPressed: () => speakAmbulance(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -127,7 +107,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˈɑːltshaɪmərz dɪziːz/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                "IpaUS: /ˈæmbjələns/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -137,7 +117,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAlzheimersdisease(
+                              onPressed: () => speakAmbulance(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -187,9 +167,9 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: نەخۆشی ئالزایمێر، ئەلزەھایمەر، نەخۆشی لەبیرچوونەوە
+کوردی: ماشێنی فریاکەوتن، نەخۆش‌بەر، نەخۆش‌ھەڵگر، نەخۆش‌خانەی گەڕۆک
 
-١. (ناو) نەخۆشییەک کە زۆرجار بەساڵاچووان تووشی دەبن کە دەبێتەھۆی لەبیرچوونەوە و لەدەستدانی توانای قسەکردن''',
+١. (ناو) ئۆتۆمبێلێک کە کەرەستەی تایبەتی تێدایە و نەخۆشی پێ دەبردرێت بۆ نەخۆشخانە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -199,7 +179,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The most common form of dementia is Alzheimer's disease.",
+                                    "The ambulance crew rushed her to the hospital.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -213,7 +193,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "باوترین جۆری خەڵەفاوی نەخۆشی ئالزایمێرە",
+                                    "ستافی ئەمبولانسەکە خێرا بردیان بۆ نەخۆشخانە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -225,8 +205,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () =>
-                                    speakAlzheimersdisease6555("en-GB"),
+                                onPressed: () => speakAmbulanc7955("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -234,12 +213,14 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAlzheimersdisease6555(
-                                    // REPLACE: Alzheimer's disease /ˈɑːltshaɪmərz dɪziːz/
+                                onPressed: () => speakAmbulanc7955(
+                                    // REPLACE: ambulance /ˈæmbjələns/
                                     "en-US"),
                               ),
                             ],
                           ),
+                          // const DividerSentences()
+                          // const DividerDefinition()
                         ],
                       ),
                     ),
@@ -284,8 +265,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: Alzheimer's disease
-1. A progressive form of presenile dementia that is similar to senile dementia except that it usually starts in the 40s or 50s; first symptoms are impaired memory which is followed by impaired thought and speech and finally complete helplessness (= Alzheimer's, Alzheimers)
+- Noun: ambulance (Derived forms: ambulances)
+1. A vehicle that takes people to and from hospitals
+"The car pulled over when the ambulance approached at high speed"
 '''),
         ],
       ),
@@ -296,7 +278,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '3i_GcNxc4UY';
+  static String myVideoId = 'oTLZ4Essy8o';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -304,7 +286,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 40, // DOPSUM: CHANGE IT
+      startAt: 60, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -320,7 +302,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'Sq7uVZ_0D3U';
+  static String myVideoId = 'T1xLtk6F27E';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -328,7 +310,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 21, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -344,7 +326,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'nGN3J4JgV7Q';
+  static String myVideoId = 'K6HTPAUqE-o';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -352,7 +334,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 29, // DOPSUM: CHANGE IT
+      startAt: 6, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -368,7 +350,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = '6NcT0YmdTso';
+  static String myVideoId = 'uxwHuT4C8_c';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -392,7 +374,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'Y-bfodmHsP8';
+  static String myVideoId = 's_TUCjplHzE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -400,7 +382,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 107, // DOPSUM: CHANGE IT
+      startAt: 3, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -416,7 +398,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = '9I5gUwZ5CMk';
+  static String myVideoId = 'iiKDU1QHD6c';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -424,7 +406,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 8, // DOPSUM: CHANGE IT
+      startAt: 23, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -440,7 +422,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = '2H60C8_NF-0';
+  static String myVideoId = 'UhWX5vPZfFY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -448,7 +430,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 58, // DOPSUM: CHANGE IT
+      startAt: 28, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -464,7 +446,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'HdYdYeNAYpU';
+  static String myVideoId = '2tBokI5lw1w';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -472,7 +454,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 5, // DOPSUM: CHANGE IT
+      startAt: 25, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -488,7 +470,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'THvQvftca_s';
+  static String myVideoId = 'kar_AQ5WKE4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -496,7 +478,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 21, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -512,7 +494,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'MoY0cdFsaqs';
+  static String myVideoId = '8_RP8PadxgI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -520,7 +502,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 180, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -586,3 +568,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 // end
 
 
+// TODO Implement this library.

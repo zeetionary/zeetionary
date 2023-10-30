@@ -4,51 +4,51 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryalzheimersdisease - replace speakAlzheimersdisease - replace Alzheimer's disease - /ˈæltshaɪməz dɪziːz/,  /ˈɔːltshaɪməz dɪziːz/ - find Dopsum2
+// replace these: replace EnglishEntryamble - replace speakAmble - replace amble - /ˈæmbl/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryalzheimersdisease extends StatelessWidget {
-  EnglishEntryalzheimersdisease({super.key});
+class EnglishEntryamble extends StatelessWidget {
+  EnglishEntryamble({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlzheimersdisease(String languageCode) async {
-    // DOPSUM: CHANGE speakAlzheimersdisease
+  Future<void> speakAmble(String languageCode) async {
+    // DOPSUM: CHANGE speakAmble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Alzheimer's disease"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amble"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlzheimersdisease6555(String languageCode) async {
-    // DOPSUM: CHANGE speakAlzheimersdisease
+  Future<void> speakAmble88544(String languageCode) async {
+    // DOPSUM: CHANGE speakAmble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The most common form of dementia is Alzheimer's disease."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Mark ambled over to the girls."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlzheimersdisease(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlzheimersdisease
+  // Future<void> speakAmble(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmble
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Alzheimer's disease"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amble"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAlzheimersdisease(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlzheimersdisease
+  // Future<void> speakAmble(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmble
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Alzheimer's disease"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amble"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -67,7 +67,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "Alzheimer's disease", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæltshaɪməz dɪziːz/,  /ˈɔːltshaɪməz dɪziːz/
+                                "amble", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæmbl/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -81,32 +81,12 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                             // ),
                           ],
                         ),
-                        // Row(
-                        //   children: [
-                        //     const Expanded(
-                        //       child: Text(
-                        //         "IpaUK: /ˈæltshaɪməz dɪziːz/,  /ˈɔːltshaɪməz dɪziːz/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                        //         style: TextStyle(fontSize: 14),
-                        //       ),
-                        //     ),
-                        //     IconButton(
-                        //       iconSize: 16,
-                        //       icon: const Icon(
-                        //         Icons.record_voice_over,
-                        //         color: Colors.blue,
-                        //       ),
-                        //       onPressed: () => speakAlzheimersdisease(
-                        //           // DOPSUM: CHANGE THE WORD ABOVE
-                        //           "en-GB"),
-                        //     ),
-                        //   ],
-                        // ),
                         Row(
                           children: [
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˈæltshaɪməz dɪziːz/,  /ˈɔːltshaɪməz dɪziːz/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈæmbl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -116,9 +96,9 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAlzheimersdisease(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAmble(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
@@ -127,7 +107,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˈɑːltshaɪmərz dɪziːz/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                "IpaUS: /ˈæmbl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -137,7 +117,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAlzheimersdisease(
+                              onPressed: () => speakAmble(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -161,7 +141,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                   VideoIconForTab(), // 07
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
@@ -187,9 +167,9 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: نەخۆشی ئالزایمێر، ئەلزەھایمەر، نەخۆشی لەبیرچوونەوە
+کوردی: ھەنگاوی بەھێواشی، نەرمەھەنگاو، وێرغە، نەرمەڕەوت
 
-١. (ناو) نەخۆشییەک کە زۆرجار بەساڵاچووان تووشی دەبن کە دەبێتەھۆی لەبیرچوونەوە و لەدەستدانی توانای قسەکردن''',
+١. (کردار) ڕێکردن بە ھێواشی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -199,7 +179,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The most common form of dementia is Alzheimer's disease.",
+                                    "Mark ambled over to the girls.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -213,7 +193,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "باوترین جۆری خەڵەفاوی نەخۆشی ئالزایمێرە",
+                                    "مارک بەھێواشی چوو بۆ لای کچەکان",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -225,8 +205,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () =>
-                                    speakAlzheimersdisease6555("en-GB"),
+                                onPressed: () => speakAmble88544("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -234,12 +213,14 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAlzheimersdisease6555(
-                                    // REPLACE: Alzheimer's disease /ˈɑːltshaɪmərz dɪziːz/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAmble88544(// REPLACE: amble /ˈæmbl/
+                                        "en-US"),
                               ),
                             ],
                           ),
+                          // const DividerSentences()
+                          // const DividerDefinition()
                         ],
                       ),
                     ),
@@ -252,7 +233,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -284,8 +265,12 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: Alzheimer's disease
-1. A progressive form of presenile dementia that is similar to senile dementia except that it usually starts in the 40s or 50s; first symptoms are impaired memory which is followed by impaired thought and speech and finally complete helplessness (= Alzheimer's, Alzheimers)
+- Verb: amble (Derived forms: ambled, ambles, ambling)
+1. Walk leisurely (= mosey [informal], truck [informal])
+"Bobbie told Reggie she was going to amble over to the post office";
+
+- Noun: amble (Derived forms: ambled, ambles, ambling)
+1. A leisurely walk (usually in some public place) (= promenade, saunter, stroll, perambulation)
 '''),
         ],
       ),
@@ -296,7 +281,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '3i_GcNxc4UY';
+  static String myVideoId = 'x94BqWK1Ks4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -304,7 +289,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 40, // DOPSUM: CHANGE IT
+      startAt: 450, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -320,7 +305,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'Sq7uVZ_0D3U';
+  static String myVideoId = 'vb4CizX2Kj8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -328,7 +313,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 47, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -344,7 +329,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'nGN3J4JgV7Q';
+  static String myVideoId = 'TcSpBAZvMhI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -352,7 +337,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 29, // DOPSUM: CHANGE IT
+      startAt: 420, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -368,7 +353,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = '6NcT0YmdTso';
+  static String myVideoId = '28d5-w6gyfo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -376,7 +361,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 275, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -392,7 +377,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'Y-bfodmHsP8';
+  static String myVideoId = 'dATZsuPdOnM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -400,7 +385,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 107, // DOPSUM: CHANGE IT
+      startAt: 130, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -416,7 +401,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = '9I5gUwZ5CMk';
+  static String myVideoId = '2oOa62-ElDg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -424,7 +409,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 8, // DOPSUM: CHANGE IT
+      startAt: 158, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -440,7 +425,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = '2H60C8_NF-0';
+  static String myVideoId = 'HSVUtNRNcS4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -448,7 +433,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 58, // DOPSUM: CHANGE IT
+      startAt: 528, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -464,7 +449,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'HdYdYeNAYpU';
+  static String myVideoId = 'IhO1XlHVNUA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -472,7 +457,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 5, // DOPSUM: CHANGE IT
+      startAt: 514, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -488,7 +473,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'THvQvftca_s';
+  static String myVideoId = 'RcHsaufa8_8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -496,7 +481,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 668, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -512,7 +497,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'MoY0cdFsaqs';
+  static String myVideoId = 'PUT_VIDEO_ID';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -520,7 +505,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 180, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -586,3 +571,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 // end
 
 
+// TODO Implement this library.

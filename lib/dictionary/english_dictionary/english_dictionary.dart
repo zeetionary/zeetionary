@@ -594,6 +594,15 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "ambitious",
     "ambivalence",
     "ambivalent",
+    "amble",
+    "ambulance",
+    "ambush",
+    "ameba",
+    "amen",
+    "amenable",
+    "amend",
+    "amendment",
+    "amenity",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -601,6 +610,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "contralto",
     "far afield",
     "from afar",
+    "make amends",
     "under age",
   ];
 
@@ -2426,36 +2436,36 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   if (wordsEnglish == "ambivalence") {
                     Routemaster.of(context).push("/english-ambivalence");
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
-                  // }
+                  if (wordsEnglish == "amble") {
+                    Routemaster.of(context).push("/english-amble");
+                  }
+                  if (wordsEnglish == "ambulance") {
+                    Routemaster.of(context).push("/english-ambulance");
+                  }
+                  if (wordsEnglish == "ambush") {
+                    Routemaster.of(context).push("/english-ambush");
+                  }
+                  if (wordsEnglish == "ameba") {
+                    Routemaster.of(context).push("/english-ameba");
+                  }
+                  if (wordsEnglish == "amen") {
+                    Routemaster.of(context).push("/english-amen");
+                  }
+                  if (wordsEnglish == "amenable") {
+                    Routemaster.of(context).push("/english-amenable");
+                  }
+                  if (wordsEnglish == "amend") {
+                    Routemaster.of(context).push("/english-amend");
+                  }
+                  if (wordsEnglish == "amendment") {
+                    Routemaster.of(context).push("/english-amendment");
+                  }
+                  if (wordsEnglish == "make amends") {
+                    Routemaster.of(context).push("/english-make-amends");
+                  }
+                  if (wordsEnglish == "amenity") {
+                    Routemaster.of(context).push("/english-amenity");
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   Routemaster.of(context).push("/english-DOPSUM");
                   // }

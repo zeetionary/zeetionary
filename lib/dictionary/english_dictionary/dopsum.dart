@@ -44,6 +44,70 @@ class EnglishEntryDopsum extends StatelessWidget {
   //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
   // }
 
+  // Future<void> speakDopsum(String languageCode) async {
+  //   // DOPSUM: CHANGE speakDopsum
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakDopsum(String languageCode) async {
+  //   // DOPSUM: CHANGE speakDopsum
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakDopsum(String languageCode) async {
+  //   // DOPSUM: CHANGE speakDopsum
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakDopsum(String languageCode) async {
+  //   // DOPSUM: CHANGE speakDopsum
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakDopsum(String languageCode) async {
+  //   // DOPSUM: CHANGE speakDopsum
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakDopsum(String languageCode) async {
+  //   // DOPSUM: CHANGE speakDopsum
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakDopsum(String languageCode) async {
+  //   // DOPSUM: CHANGE speakDopsum
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakDopsum(String languageCode) async {
+  //   // DOPSUM: CHANGE speakDopsum
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  // }
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -82,8 +146,9 @@ class EnglishEntryDopsum extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Expanded(
-                              child: Text(
+                            Container(
+                              constraints: const BoxConstraints(maxWidth: 300),
+                              child: const Text(
                                 "IpaUK: /haʊ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
@@ -102,8 +167,9 @@ class EnglishEntryDopsum extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Expanded(
-                              child: Text(
+                            Container(
+                              constraints: const BoxConstraints(maxWidth: 300),
+                              child: const Text(
                                 "IpaUS: /haʊ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                                 style: TextStyle(fontSize: 14),
                               ),
@@ -216,8 +282,6 @@ class EnglishEntryDopsum extends StatelessWidget {
                               ),
                             ],
                           ),
-                          // const DividerSentences()
-                          const DividerDefinition()
                         ],
                       ),
                     ),

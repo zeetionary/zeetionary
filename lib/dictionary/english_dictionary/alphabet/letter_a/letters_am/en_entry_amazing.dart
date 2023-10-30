@@ -4,46 +4,46 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryamaze - replace speakAmaze - replace amaze - /əˈmeɪz/ - find Dopsum2
+// replace these: replace EnglishEntryamazing - replace speakAmazing - replace ama0zing - /əˈmeɪzɪŋ/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryamaze extends StatelessWidget {
-  EnglishEntryamaze({super.key});
+class EnglishEntryamazing extends StatelessWidget {
+  EnglishEntryamazing({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmaze(String languageCode) async {
-    // DOPSUM: CHANGE speakAmaze
+  Future<void> speakAmazing(String languageCode) async {
+    // DOPSUM: CHANGE speakAmazing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amaze"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amazing"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmaze6222(String languageCode) async {
-    // DOPSUM: CHANGE speakAmaze
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Just the size of the place amazed her."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAmaze4211(String languageCode) async {
-    // DOPSUM: CHANGE speakAmaze
+  Future<void> speakAmazing45555(String languageCode) async {
+    // DOPSUM: CHANGE speakAmazing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "What amazes me is how long she managed to hide it from us."); // DOPSUM: CHANGE TEXT
+        "The amazing thing is, he really believes he'll get away with it."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmaze(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmaze
+  Future<void> speakAmazing95314(String languageCode) async {
+    // DOPSUM: CHANGE speakAmazing
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I find it amazing that people can be so irresponsible."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAmazing(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmazing
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amaze"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amazing"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -67,7 +67,7 @@ class EnglishEntryamaze extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "amaze", // DOPSUM: CHANGE WORD ENTRY - Find /əˈmeɪz/
+                              "amazing", // DOPSUM: CHANGE WORD ENTRY - Find /əˈmeɪzɪŋ/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -83,7 +83,7 @@ class EnglishEntryamaze extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUK: /əˈmeɪz/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              "IpaUK: /əˈmeɪzɪŋ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -93,7 +93,7 @@ class EnglishEntryamaze extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAmaze(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAmazing(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -101,7 +101,7 @@ class EnglishEntryamaze extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUS: /əˈmeɪz/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              "IpaUS: /əˈmeɪzɪŋ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -110,7 +110,7 @@ class EnglishEntryamaze extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAmaze(
+                              onPressed: () => speakAmazing(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -160,7 +160,7 @@ class EnglishEntryamaze extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (کردار) سەرسامکردن''',
+١. (ھاوەڵناو) سەیر و سەرسوڕھێنەر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -170,7 +170,7 @@ class EnglishEntryamaze extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Just the size of the place amazed her.",
+                                    "The amazing thing is, he really believes he'll get away with it.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -184,7 +184,7 @@ class EnglishEntryamaze extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گەورەیی شوێنەکە بە تەنھا سەرسامی کرد",
+                                    "ئەوەی سەیرە ئەوەیە پێی‌وایە لەمە دەربازی دەبێت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -196,7 +196,7 @@ class EnglishEntryamaze extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAmaze6222("en-GB"),
+                                onPressed: () => speakAmazing45555("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -204,19 +204,20 @@ class EnglishEntryamaze extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAmaze6222(// REPLACE: amaze /əˈmeɪz/
-                                        "en-US"),
+                                onPressed: () => speakAmazing45555(
+                                    // REPLACE: amazing /əˈmeɪzɪŋ/
+                                    "en-US"),
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "What amazes me is how long she managed to hide it from us.",
+                                    "I find it amazing that people can be so irresponsible.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -230,7 +231,7 @@ class EnglishEntryamaze extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەوەی سەرسامم دەکات ئەوەیە کە چەند زۆر توانی لێمان بشارێتەوە",
+                                    "لام سەیرە خەڵکی دەکرێت ھێندە نابەرپرسانە بن",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -242,7 +243,7 @@ class EnglishEntryamaze extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAmaze4211("en-GB"),
+                                onPressed: () => speakAmazing95314("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -250,9 +251,9 @@ class EnglishEntryamaze extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAmaze4211(// REPLACE: amaze /əˈmeɪz/
-                                        "en-US"),
+                                onPressed: () => speakAmazing95314(
+                                    // REPLACE: amazing /əˈmeɪzɪŋ/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -300,9 +301,12 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: amaze (Derived forms: amazing, amazes, amazed)
-1. Fill with wonder or astonishment; greatly surprise (= astonish, astound)
-"Your ability to speak six languages amazes me!";
+- Adjective: amazing 
+1. Surprising greatly (= astonishing, jaw-dropping [informal], incredible)
+"she does an amazing amount of work";
+ 
+2. Inspiring awe, admiration or wonder (= awe-inspiring, awesome, awful [archaic], awing, breathtaking)
+"New York is an amazing city";
 '''),
         ],
       ),
@@ -313,7 +317,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '3aqm6zWmMI8';
+  static String myVideoId = '_a8u4949t_k';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -321,7 +325,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 22, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -337,7 +341,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'Kbr7PPXpX6c';
+  static String myVideoId = 'JGNiafLl0iA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -345,7 +349,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 297, // DOPSUM: CHANGE IT
+      startAt: 135, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -361,7 +365,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = '2GZrPR5Ajrs';
+  static String myVideoId = 'ygZW8DAmbxU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -369,7 +373,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 296, // DOPSUM: CHANGE IT
+      startAt: 263, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -385,7 +389,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'rMNAdHqGMhs';
+  static String myVideoId = '_JZxFm4MXMI';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -393,7 +397,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 367, // DOPSUM: CHANGE IT
+      startAt: 520, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -409,7 +413,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'y3eR8QLPjlc';
+  static String myVideoId = 'aCSXz3eBTiU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -417,7 +421,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 112, // DOPSUM: CHANGE IT
+      startAt: 118, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -433,7 +437,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'maoFISpmlYA';
+  static String myVideoId = 's4c-S3Xm4JE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -441,7 +445,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 7, // DOPSUM: CHANGE IT
+      startAt: 178, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -457,7 +461,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'ZVJ5oLS74mc';
+  static String myVideoId = 'U8Gv83xiFP8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -465,7 +469,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 723, // DOPSUM: CHANGE IT
+      startAt: 99, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -481,7 +485,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'YVgQKlhzE-Y';
+  static String myVideoId = '98v11x3e9HU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -489,7 +493,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 28, // DOPSUM: CHANGE IT
+      startAt: 7, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

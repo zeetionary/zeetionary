@@ -781,7 +781,7 @@ class EnglishEntryact extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پاشا لە یەک بەش دەکوژرێت",
+                                    "پاشا لە یەکەم بەش دەکوژرێت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

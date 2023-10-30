@@ -217,7 +217,7 @@ class EnglishEntryabsurd extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەدڵنیاییەوە ڕاست نییە، جی بیرۆکەیەکی گاڵتەجاڕانەیە",
+                                    "بەدڵنیاییەوە ڕاست نییە، چی بیرۆکەیەکی گاڵتەجاڕانەیە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

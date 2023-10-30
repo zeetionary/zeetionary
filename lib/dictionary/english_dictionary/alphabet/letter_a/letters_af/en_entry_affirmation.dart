@@ -184,7 +184,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێویستیمان بە پشتڕاستکردنەوەی حکومەتە کە نیازی ھەیە ھەنگاو بنێت٠.",
+                                    "پێشوازی دەکەین لە پشتڕاستکردنەوەی حکومەت لەوەی کەوا نیازی ھەیە ھەنگاو بنێت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

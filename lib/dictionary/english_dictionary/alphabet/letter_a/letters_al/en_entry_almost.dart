@@ -210,6 +210,7 @@ class EnglishEntryalmost extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -256,6 +257,7 @@ class EnglishEntryalmost extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

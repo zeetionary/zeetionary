@@ -212,6 +212,7 @@ class EnglishEntryallergy extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

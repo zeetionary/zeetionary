@@ -210,6 +210,7 @@ class EnglishEntryallocate extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

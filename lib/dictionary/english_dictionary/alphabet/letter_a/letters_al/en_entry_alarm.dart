@@ -280,6 +280,7 @@ class EnglishEntryalarm extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -326,6 +327,7 @@ class EnglishEntryalarm extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
@@ -379,6 +381,7 @@ class EnglishEntryalarm extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
@@ -432,6 +435,7 @@ class EnglishEntryalarm extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
@@ -485,6 +489,7 @@ class EnglishEntryalarm extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''

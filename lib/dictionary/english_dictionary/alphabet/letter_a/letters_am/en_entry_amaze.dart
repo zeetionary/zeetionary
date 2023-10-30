@@ -4,62 +4,52 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryamateur - replace speakAmateur - replace amateur - /ˈæmətə(r)/,  /ˈæmətʃə(r)/ - find Dopsum2
+// replace these: replace EnglishEntryamaze - replace speakAmaze - replace amaze - /əˈmeɪz/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryamateur extends StatelessWidget {
-  EnglishEntryamateur({super.key});
+class EnglishEntryamaze extends StatelessWidget {
+  EnglishEntryamaze({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmateur(String languageCode) async {
-    // DOPSUM: CHANGE speakAmateur
+  Future<void> speakAmaze(String languageCode) async {
+    // DOPSUM: CHANGE speakAmaze
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amateur"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amaze"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmateur44451(String languageCode) async {
-    // DOPSUM: CHANGE speakAmateur
+  Future<void> speakAmaze6222(String languageCode) async {
+    // DOPSUM: CHANGE speakAmaze
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Just the size of the place amazed her."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAmaze4211(String languageCode) async {
+    // DOPSUM: CHANGE speakAmaze
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He was an amateur photographer until the age of 40, when he turned professional."); // DOPSUM: CHANGE TEXT
+        "What amazes me is how long she managed to hide it from us."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmateur47955(String languageCode) async {
-    // DOPSUM: CHANGE speakAmateur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The performance sounded very amateur, I’m afraid."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAmateur49555(String languageCode) async {
-    // DOPSUM: CHANGE speakAmateur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "This work was done by a bunch of amateurs!"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAmateur44592(String languageCode) async {
-    // DOPSUM: CHANGE speakAmateur
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The tournament is open to both amateurs and professionals."); // DOPSUM: CHANGE TEXT
-  }
+  // Future<void> speakAmaze(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmaze
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("amaze"); // DOPSUM: CHANGE TEXT
+  // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -77,7 +67,7 @@ class EnglishEntryamateur extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "amateur", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæmətə(r)/,  /ˈæmətʃə(r)/
+                              "amaze", // DOPSUM: CHANGE WORD ENTRY - Find /əˈmeɪz/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -93,7 +83,7 @@ class EnglishEntryamateur extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUK: /ˈæmətə(r)/,  /ˈæmətʃə(r)/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              "IpaUK: /əˈmeɪz/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -103,7 +93,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAmateur(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAmaze(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -111,7 +101,7 @@ class EnglishEntryamateur extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUS: /ˈæmətər/,  /ˈæmətʃər/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              "IpaUS: /əˈmeɪz/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -120,7 +110,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAmateur(
+                              onPressed: () => speakAmaze(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -143,10 +133,10 @@ class EnglishEntryamateur extends StatelessWidget {
                   VideoIconForTab(), // FIND: 2,
                   VideoIconForTab(), // 07
                   VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -170,9 +160,7 @@ class EnglishEntryamateur extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: ئاماتۆڕ، ھەوەس‌کار، کەیفی، حەزکار، خۆشی‌کار، ناپیشەیی، ناشارەزا، تازەکار، ناشی
-
-١. (ھاوەڵناو) کردنی شتێک بۆ ئارەزووی خۆت، نەک وەک پیشە''',
+١. (کردار) سەرسامکردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -182,7 +170,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "He was an amateur photographer until the age of 40, when he turned professional.",
+                                    "Just the size of the place amazed her.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -196,7 +184,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تاوەک تەمەنی ٤٠ ساڵیش ھەر وێنەگرێکی ھەوەس‌کار بوو، لەوەو بەدوا بوو کە بوو بە پڕۆفیشناڵ",
+                                    "گەورەیی شوێنەکە بە تەنھا سەرسامی کرد",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -208,7 +196,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAmateur44451("en-GB"),
+                                onPressed: () => speakAmaze6222("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -216,26 +204,20 @@ class EnglishEntryamateur extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAmateur44451(
-                                    // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAmaze6222(// REPLACE: amaze /əˈmeɪz/
+                                        "en-US"),
                               ),
                             ],
                           ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ھاوەڵناو) شتێک کە بە باشی و شارەزاییەوە نەکراوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The performance sounded very amateur, I’m afraid.",
+                                    "What amazes me is how long she managed to hide it from us.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -249,7 +231,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەداخەوەم بەڵام نمایشەکە زۆر تازەکارانە دیاربوو",
+                                    "ئەوەی سەرسامم دەکات ئەوەیە کە چەند زۆر توانی لێمان بشارێتەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -261,7 +243,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAmateur47955("en-GB"),
+                                onPressed: () => speakAmaze4211("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -269,115 +251,9 @@ class EnglishEntryamateur extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAmateur47955(
-                                    // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (ناو) کەسێک کە بۆ خۆشی و ھەوەس بەژداری چالاکییەک دەکات، نەک وەک پیشە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The tournament is open to both amateurs and professionals.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پاڵەوانێتییەکە بۆ حەزکاران و پڕۆفیشناڵان کراوەیە",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAmateur44592("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAmateur44592(
-                                    // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٤. (ناو) کەسێک کە شارەزایی پێویستی نییە بۆ کردنی کارێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "This work was done by a bunch of amateurs!",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەم ئیشە لەلایەن ژمارەیەک تازە کارەوە ئەنجام دراوە",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAmateur49555("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAmateur49555(
-                                    // REPLACE: amateur /ˈæmətər/,  /ˈæmətʃər/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAmaze4211(// REPLACE: amaze /əˈmeɪz/
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -392,10 +268,10 @@ class EnglishEntryamateur extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -425,19 +301,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-Noun: amateur (Derived forms: amateurs)
-1. Someone who pursues a study or sport as a pastime
- 
-2. An athlete who does not play for pay
- 
-3. Someone who is unqualified or not skilful enough
-
-- Adjective: amateur
-1. Engaged in as a pastime (= recreational, unpaid)
-"an amateur painter"; "gained valuable experience in amateur theatricals";
- 
-2. Lacking professional skill or expertise (= amateurish, inexpert, unskilled, rookie [informal])
-"a very amateur job";
+- Verb: amaze (Derived forms: amazing, amazes, amazed)
+1. Fill with wonder or astonishment; greatly surprise (= astonish, astound)
+"Your ability to speak six languages amazes me!";
 '''),
         ],
       ),
@@ -448,7 +314,7 @@ Noun: amateur (Derived forms: amateurs)
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'NnkuQ47v8d8';
+  static String myVideoId = '3aqm6zWmMI8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -456,7 +322,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 36, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -472,7 +338,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'vK4jyLKWGKk';
+  static String myVideoId = 'Kbr7PPXpX6c';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -480,7 +346,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 10, // DOPSUM: CHANGE IT
+      startAt: 297, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -496,7 +362,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'ZzGqFF1IXgc';
+  static String myVideoId = '2GZrPR5Ajrs';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -504,7 +370,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 296, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -520,7 +386,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'LWSIcpLEurA';
+  static String myVideoId = 'rMNAdHqGMhs';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -528,7 +394,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 557, // DOPSUM: CHANGE IT
+      startAt: 367, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -544,7 +410,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'Rvt9CaR4_7k';
+  static String myVideoId = 'y3eR8QLPjlc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -552,7 +418,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 6, // DOPSUM: CHANGE IT
+      startAt: 112, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -568,7 +434,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'K6twIhtexDA';
+  static String myVideoId = 'maoFISpmlYA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -576,7 +442,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 53, // DOPSUM: CHANGE IT
+      startAt: 7, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -592,7 +458,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = '0AJE4_Xo4ng';
+  static String myVideoId = 'ZVJ5oLS74mc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -600,7 +466,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 104, // DOPSUM: CHANGE IT
+      startAt: 723, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -616,7 +482,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = '6dDlkawN3s0';
+  static String myVideoId = 'YVgQKlhzE-Y';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -624,7 +490,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 8, // DOPSUM: CHANGE IT
+      startAt: 28, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -640,7 +506,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'fgWCjEGW5GI';
+  static String myVideoId = 'PUT_VIDEO_ID';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -648,7 +514,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -664,7 +530,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'GisqGBMqocA';
+  static String myVideoId = 'PUT_VIDEO_ID';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -672,7 +538,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 7, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -688,7 +554,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = '6uKdMQHRM8k';
+  static String myVideoId = 'PUT_VIDEO_ID';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -696,7 +562,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -712,7 +578,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = '-cHKXgam04M';
+  static String myVideoId = 'PUT_VIDEO_ID';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -720,7 +586,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 46, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

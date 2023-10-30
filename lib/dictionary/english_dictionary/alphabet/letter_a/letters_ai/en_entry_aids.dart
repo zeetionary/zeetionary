@@ -158,7 +158,7 @@ class EnglishEntryaids extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (ناو) نەخۆشییەکی کوشندە کە لە ڕێگەی ڤایرۆسی HIV لە کەسێک بۆ کەسێکی تر دەگوازرێتەوە و دەبێتەهۆی لاوازی جەستە بەرامبەر نەخۆشی''',
+١. (ناو) نەخۆشییەکی کوشندە کە لە ڕێگەی ڤایرۆسی ئێچ ئای ڤییەوە لە کەسێک بۆ کەسێکی تر دەگوازرێتەوە و دەبێتەهۆی لاوازی جەستە بەرامبەر نەخۆشی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

@@ -230,10 +230,11 @@ class EnglishEntryalight extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. (کردار) نیشتنەوە لەسەر شتێک لەدوای فڕین بۆی''',
+٢. (کردار) نیشتنەوە لەسەر شتێک لەدوای فڕین بۆی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -283,10 +284,11 @@ class EnglishEntryalight extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٤. (کردار) دابەزین لە پاسێک یان شەمەندەفەرێک، یان ئامێرێکی دیکەی گواستنەوە''',
+٣. (کردار) دابەزین لە پاسێک یان شەمەندەفەرێک، یان ئامێرێکی دیکەی گواستنەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

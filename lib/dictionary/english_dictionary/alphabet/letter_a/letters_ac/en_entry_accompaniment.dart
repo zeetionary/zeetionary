@@ -29,6 +29,15 @@ class EnglishEntryaccompaniment extends StatelessWidget {
         .speak("Serve plain rice as an accompaniment."); // DOPSUM: CHANGE TEXT
   }
 
+  Future<void> speakA569222(String languageCode) async {
+    // DOPSUM: CHANGE speakAccompaniment
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("High blood pressure is a common accompaniment to this disease."); // DOPSUM: CHANGE TEXT
+  }
+
   Future<void> speakAc15587(String languageCode) async {
     // DOPSUM: CHANGE speakAccompaniment
     await flutterTts.setLanguage(languageCode);
@@ -285,7 +294,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakA77499("en-GB"),
+                                onPressed: () => speakA569222("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -293,7 +302,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakA77499("en-US"),
+                                onPressed: () => speakA569222("en-US"),
                               ),
                             ],
                           ),

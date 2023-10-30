@@ -184,7 +184,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "باوکی ئەفسەری باڵای ھێزای ئاسمانیی ئوسترالیا بوو",
+                                    "باوکی ئەفسەری باڵای ھێزی ئاسمانیی ئوسترالیا بوو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -210,6 +210,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
@@ -237,7 +238,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێکارە تازەکانی ئەمنییەت زیادکردنی ژمارەی ئەفسەرە نھێنییەکان و توندکردنی دەرگای فڕۆکەوانەکان لەخۆدەگرێت",
+                                    "ڕێکارە تازەکانی ئەمنییەت زیادکردنی ژمارەی ئەفسەرە نھێنییەکان و توندکردنی دەرگای ژووری فڕۆکەوانەکان لەخۆدەگرێت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

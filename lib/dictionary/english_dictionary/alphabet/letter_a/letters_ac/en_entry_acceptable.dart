@@ -284,7 +284,7 @@ class EnglishEntryacceptable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێیتێ ئەچێ ڕێگەچارەیەک بدۆزینەوە کە ھەردوو لا لەسەری کۆکبن",
+                                    "ڕێی تێ ئەچێ ڕێگەچارەیەک بدۆزینەوە کە ھەردوو لا لەسەری کۆکبن",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

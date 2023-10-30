@@ -237,6 +237,7 @@ class EnglishEntryaltogether extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -283,6 +284,7 @@ class EnglishEntryaltogether extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
@@ -336,6 +338,7 @@ class EnglishEntryaltogether extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''

@@ -265,6 +265,7 @@ class EnglishEntryaid extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -311,6 +312,7 @@ class EnglishEntryaid extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
@@ -364,6 +366,7 @@ class EnglishEntryaid extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
@@ -417,6 +420,7 @@ class EnglishEntryaid extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
@@ -470,6 +474,7 @@ class EnglishEntryaid extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
@@ -516,6 +521,7 @@ class EnglishEntryaid extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
@@ -569,6 +575,7 @@ class EnglishEntryaid extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

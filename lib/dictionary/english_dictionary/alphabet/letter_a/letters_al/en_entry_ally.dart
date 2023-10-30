@@ -212,6 +212,7 @@ class EnglishEntryally extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
@@ -265,10 +266,11 @@ class EnglishEntryally extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. (ناو) وڵاتانی ھاوپەیمان لە جەنگی یەکەم و دووەمی جیاھنی''',
+٣. (ناو) وڵاتانی ھاوپەیمان لە جەنگی یەکەم و دووەمی جیھانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

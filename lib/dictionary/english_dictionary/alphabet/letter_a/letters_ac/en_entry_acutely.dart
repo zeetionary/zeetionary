@@ -47,6 +47,15 @@ class EnglishEntryacutely extends StatelessWidget {
         "She acutely identified all the main problems."); // DOPSUM: CHANGE TEXT
   }
 
+  Future<void> speakAcute666632(String languageCode) async {
+    // DOPSUM: CHANGE speakAcutely
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Another scandal would be acutely embarrassing for the government."); // DOPSUM: CHANGE TEXT
+  }
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -240,7 +249,7 @@ class EnglishEntryacutely extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAcu427("en-GB"),
+                                onPressed: () => speakAcute7481("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -249,7 +258,7 @@ class EnglishEntryacutely extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAcu427(// REPLACE: acutely /əˈkjuːtli/
+                                    speakAcute7481(// REPLACE: acutely /əˈkjuːtli/
                                         "en-US"),
                               ),
                             ],
@@ -291,7 +300,7 @@ class EnglishEntryacutely extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAcute7481("en-GB"),
+                                onPressed: () => speakAcute666632("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -299,7 +308,7 @@ class EnglishEntryacutely extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAcute7481(
+                                onPressed: () => speakAcute666632(
                                     // REPLACE: acutely /əˈkjuːtli/
                                     "en-US"),
                               ),

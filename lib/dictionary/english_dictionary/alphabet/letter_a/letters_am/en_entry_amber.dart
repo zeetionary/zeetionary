@@ -4,47 +4,48 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryamazing - replace speakAmazing - replace ama0zing - /əˈmeɪzɪŋ/ - find Dopsum2
+// replace these: replace EnglishEntryamber - replace speakAmber - replace amber - /ˈæmbə(r)/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryamazing extends StatelessWidget {
-  EnglishEntryamazing({super.key});
+class EnglishEntryamber extends StatelessWidget {
+  EnglishEntryamber({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmazing(String languageCode) async {
-    // DOPSUM: CHANGE speakAmazing
+  Future<void> speakAmber(String languageCode) async {
+    // DOPSUM: CHANGE speakAmber
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amazing"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amber"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmazing45555(String languageCode) async {
-    // DOPSUM: CHANGE speakAmazing
+  Future<void> speakAmber4447(String languageCode) async {
+    // DOPSUM: CHANGE speakAmber
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Her amber eyes shone in the dark."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAmber46922(String languageCode) async {
+    // DOPSUM: CHANGE speakAmber
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The amazing thing is, he really believes he'll get away with it."); // DOPSUM: CHANGE TEXT
+        "He has a collection of prehistoric insects preserved in amber."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmazing95314(String languageCode) async {
-    // DOPSUM: CHANGE speakAmazing
+  Future<void> speakAmber4699(String languageCode) async {
+    // DOPSUM: CHANGE speakAmber
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I find it amazing that people can be so irresponsible."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The traffic lights were on amber."); // DOPSUM: CHANGE TEXT
   }
-
-  // Future<void> speakAmazing(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmazing
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amazing"); // DOPSUM: CHANGE TEXT
-  // }
 
   @override
   Widget build(BuildContext context) {
@@ -67,7 +68,7 @@ class EnglishEntryamazing extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "amazing", // DOPSUM: CHANGE WORD ENTRY - Find /əˈmeɪzɪŋ/
+                              "amber", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæmbə(r)/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -83,7 +84,7 @@ class EnglishEntryamazing extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUK: /əˈmeɪzɪŋ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              "IpaUK: /ˈæmbə(r)/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -93,7 +94,7 @@ class EnglishEntryamazing extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAmazing(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAmber(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -101,7 +102,7 @@ class EnglishEntryamazing extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUS: /əˈmeɪzɪŋ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              "IpaUS: /ˈæmbər/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -110,7 +111,7 @@ class EnglishEntryamazing extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAmazing(
+                              onPressed: () => speakAmber(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -160,7 +161,7 @@ class EnglishEntryamazing extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (ھاوەڵناو) سەیر و سەرسوڕھێنەر''',
+١. (ھاوەڵناو) عەمبەری؛ ڕەنگی زەرد و قاوەیی تێکەڵ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -170,7 +171,7 @@ class EnglishEntryamazing extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The amazing thing is, he really believes he'll get away with it.",
+                                    "Her amber eyes shone in the dark.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -184,7 +185,7 @@ class EnglishEntryamazing extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەوەی سەیرە ئەوەیە پێی‌وایە لەمە دەربازی دەبێت",
+                                    "چاوە عەمبەرییەکانی لە تاریکییەکەدا دەدرەوشانەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -196,7 +197,7 @@ class EnglishEntryamazing extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAmazing45555("en-GB"),
+                                onPressed: () => speakAmber4447("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -204,11 +205,19 @@ class EnglishEntryamazing extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAmazing45555(
-                                    // REPLACE: amazing /əˈmeɪzɪŋ/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAmber4447(// REPLACE: amber /ˈæmbər/
+                                        "en-US"),
                               ),
                             ],
+                          ),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٢. (ناو) عەمبەر؛ مادەیەکی زەرد و قاوەییە کە لە کۆندا لە دارەوە درووست دەبوو و بەکاردەھات بۆ خشڵ و مادەی جوان''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
                           ),
                           Row(
                             children: [
@@ -216,7 +225,7 @@ class EnglishEntryamazing extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "I find it amazing that people can be so irresponsible.",
+                                    "He has a collection of prehistoric insects preserved in amber.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -230,7 +239,7 @@ class EnglishEntryamazing extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لام سەیرە خەڵکی دەکرێت ھێندە نابەرپرسانە بن",
+                                    "ژمارەیەک لە مێرووی پێش مێژووی ھەیە کە لە عەمبەردا پاراستوونی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -242,7 +251,7 @@ class EnglishEntryamazing extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAmazing95314("en-GB"),
+                                onPressed: () => speakAmber46922("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -250,9 +259,63 @@ class EnglishEntryamazing extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAmazing95314(
-                                    // REPLACE: amazing /əˈmeɪzɪŋ/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAmber46922(// REPLACE: amber /ˈæmbər/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٣. (ناو) عەمبەر؛ ڕەنگی زەردی قاوەیی باو''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The traffic lights were on amber.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ترافیک لایتەکان لەسەر گڵۆپە زەردەکە بوون",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAmber4699("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAmber4699(// REPLACE: amber /ˈæmbər/
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -300,12 +363,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: amazing 
-1. Surprising greatly (= astonishing, jaw-dropping [informal], incredible)
-"she does an amazing amount of work";
+- Adjective: amber (Derived forms: ambers)
+1. Of a medium to dark brownish yellow colour (= brownish-yellow, yellow-brown)
+
+- Noun: amber (= brownish-yellow, yellow-brown)
+1. A deep yellow colour (= gold)
+"an amber light illuminated the room";
  
-2. Inspiring awe, admiration or wonder (= awe-inspiring, awesome, awful [archaic], awing, breathtaking)
-"New York is an amazing city";
+2. A hard yellowish to brownish translucent fossil resin; used for jewellery
 '''),
         ],
       ),
@@ -316,7 +381,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '_a8u4949t_k';
+  static String myVideoId = 's3B-qp3U5G0';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -324,7 +389,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 22, // DOPSUM: CHANGE IT
+      startAt: 720, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -340,7 +405,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'JGNiafLl0iA';
+  static String myVideoId = 'SEZu7K5tGxw';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -348,7 +413,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 135, // DOPSUM: CHANGE IT
+      startAt: 366, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -364,7 +429,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'ygZW8DAmbxU';
+  static String myVideoId = 'CupbRr2m_sM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -372,7 +437,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 263, // DOPSUM: CHANGE IT
+      startAt: 207, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -388,7 +453,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = '_JZxFm4MXMI';
+  static String myVideoId = '6MoBvV12C58';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -396,7 +461,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 520, // DOPSUM: CHANGE IT
+      startAt: 135, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -412,7 +477,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'aCSXz3eBTiU';
+  static String myVideoId = 'Kunqw1FWrJM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -420,7 +485,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 118, // DOPSUM: CHANGE IT
+      startAt: 671, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -436,7 +501,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 's4c-S3Xm4JE';
+  static String myVideoId = 'Ukjat70Iyt4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -444,7 +509,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 178, // DOPSUM: CHANGE IT
+      startAt: 70, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -460,7 +525,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'U8Gv83xiFP8';
+  static String myVideoId = 'oS830cxjVFk';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -468,7 +533,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 99, // DOPSUM: CHANGE IT
+      startAt: 441, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -484,7 +549,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = '98v11x3e9HU';
+  static String myVideoId = 'npeCDLsyJwE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -492,7 +557,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 7, // DOPSUM: CHANGE IT
+      startAt: 364, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

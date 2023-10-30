@@ -281,7 +281,7 @@ class EnglishEntryaccount extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. (ناو) ھەبوونی ھەژمارێکی لەسەر ئینتەرنێت''',
+٢. (ناو) ھەبوونی ھەژمارێک لەسەر ئینتەرنێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -351,7 +351,7 @@ class EnglishEntryaccount extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گێڕانەوەی تەواوی ڕووداوەکەی دا بە پۆلیس",
+                                    "گێڕانەوەی تەواوی ڕووداوەکەی بە پۆلیس گوت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -428,7 +428,7 @@ class EnglishEntryaccount extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٥. (کردار) ھەبوونی بؤچوونێک لەسەر کەسێک''',
+٥. (کردار) ھەبوونی بۆچوونێک لەسەر کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

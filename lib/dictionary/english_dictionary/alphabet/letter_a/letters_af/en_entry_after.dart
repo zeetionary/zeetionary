@@ -483,7 +483,7 @@ class EnglishEntryafter extends StatelessWidget {
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''

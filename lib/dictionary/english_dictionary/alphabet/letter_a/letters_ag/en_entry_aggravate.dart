@@ -210,6 +210,7 @@ class EnglishEntryaggravate extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

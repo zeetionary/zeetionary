@@ -2306,7 +2306,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     Routemaster.of(context).push("/english-alright");
                   }
                   if (wordsEnglish == "Alsatian") {
-                    Routemaster.of(context).push("/english-Alsatian");
+                    Routemaster.of(context).push("/english-alsatian");
                   }
                   if (wordsEnglish == "also") {
                     Routemaster.of(context).push("/english-also");

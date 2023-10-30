@@ -210,6 +210,7 @@ class EnglishEntryallege extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

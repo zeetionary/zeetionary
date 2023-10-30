@@ -20,21 +20,23 @@ class EnglishEntryadhesive extends StatelessWidget {
     await flutterTts.speak("adhesive"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdhesive(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdhesive
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adhesive"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAdhesive471(String languageCode) async {
+    // DOPSUM: CHANGE speakAdhesive
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The adhesive takes at least an hour to set."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAdhesive(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdhesive
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("adhesive"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAdhesive6355(String languageCode) async {
+    // DOPSUM: CHANGE speakAdhesive
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The labels are easy to apply and very adhesive."); // DOPSUM: CHANGE TEXT
+  }
 
   // Future<void> speakAdhesive(String languageCode) async {
   //   // DOPSUM: CHANGE speakAdhesive
@@ -193,7 +195,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdhesive("en-GB"),
+                                onPressed: () => speakAdhesive471("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -201,7 +203,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAdhesive(
+                                onPressed: () => speakAdhesive471(
                                     // REPLACE: adhesive /ədˈhiːsɪv/, /ədˈhiːzɪv/
                                     "en-US"),
                               ),
@@ -244,7 +246,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdhesive("en-GB"),
+                                onPressed: () => speakAdhesive6355("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -252,7 +254,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAdhesive(
+                                onPressed: () => speakAdhesive6355(
                                     // REPLACE: adhesive /ədˈhiːsɪv/, /ədˈhiːzɪv/
                                     "en-US"),
                               ),

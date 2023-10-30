@@ -183,7 +183,7 @@ class EnglishEntryacquaintance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە شەمەندەفەەرەکە ناسیاوێکی کۆنم بینی",
+                                    "لە شەمەندەفەرەکە ناسیاوێکی کۆنمم بینی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

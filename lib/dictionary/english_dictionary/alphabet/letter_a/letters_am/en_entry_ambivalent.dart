@@ -4,48 +4,47 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryambition - replace speakAmbition - replace ambition - /æmˈbɪʃn/ - find Dopsum2
+// replace these: replace EnglishEntryambivalent - replace speakAmbivalent - replace ambivalent - /æmˈbɪvələnt/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryambition extends StatelessWidget {
-  EnglishEntryambition({super.key});
+class EnglishEntryambivalent extends StatelessWidget {
+  EnglishEntryambivalent({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmbition(String languageCode) async {
-    // DOPSUM: CHANGE speakAmbition
+  Future<void> speakAmbivalent(String languageCode) async {
+    // DOPSUM: CHANGE speakAmbivalent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ambition"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ambivalent"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmbition422(String languageCode) async {
-    // DOPSUM: CHANGE speakAmbition
+  Future<void> speakAmbivalent4633(String languageCode) async {
+    // DOPSUM: CHANGE speakAmbivalent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "At last he had realized his life's ambition."); // DOPSUM: CHANGE TEXT
+        "She seems to feel ambivalent about her new job."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmbition3444(String languageCode) async {
-    // DOPSUM: CHANGE speakAmbition
+  Future<void> speakAmbivalent46777(String languageCode) async {
+    // DOPSUM: CHANGE speakAmbivalent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He had only one ambition in life."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The party's position on nuclear weapons is deeply ambivalent."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmbition344(String languageCode) async {
-    // DOPSUM: CHANGE speakAmbition
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She was driven by personal ambition."); // DOPSUM: CHANGE TEXT
-  }
+  // Future<void> speakAmbivalent(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmbivalent
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("ambivalent"); // DOPSUM: CHANGE TEXT
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -68,7 +67,7 @@ class EnglishEntryambition extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "ambition", // DOPSUM: CHANGE WORD ENTRY - Find /æmˈbɪʃn/
+                              "ambivalent", // DOPSUM: CHANGE WORD ENTRY - Find /æmˈbɪvələnt/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -84,7 +83,7 @@ class EnglishEntryambition extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUK: /æmˈbɪʃn/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              "IpaUK: /æmˈbɪvələnt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -93,16 +92,16 @@ class EnglishEntryambition extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAmbition(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAmbivalent(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const Text(
-                              "IpaUS: /æmˈbɪʃn/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              "IpaUS: /æmˈbɪvələnt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -111,7 +110,7 @@ class EnglishEntryambition extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAmbition(
+                              onPressed: () => speakAmbivalent(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -161,9 +160,9 @@ class EnglishEntryambition extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: بەرزەفڕی، بەرز(ە)خوازی، ھێزخوازی، ئارەزوو، ئامانج، ئاوات
+کوردی: دوودڵ، دڕدۆنگ، بەشک، ڕاڕا، وازی‌وازی، تاوتاو، دڵاودڵ، دژبەیەک، پێک‌ناکۆک، پێک‌دژ، یەک‌نەگرەوە، دوولا(یەنە)گەر
 
-١. (ناو) شتێک کە دەتەوێت بیکەیت یان بەدەستی بھێنیت''',
+١. (ھاوەڵناو) دوودڵ، ھەبوونی ھەستی ئەرێنی و ەرێنی لە یەک کاتدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -173,7 +172,7 @@ class EnglishEntryambition extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "At last he had realized his life's ambition.",
+                                    "She seems to feel ambivalent about her new job.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -187,7 +186,7 @@ class EnglishEntryambition extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەکۆتاییدا لە ئامانجەکانی ژیانی تێگەشت",
+                                    "وادیاربوو دوودڵ بێت سەبارەت بە کارە تازەکەی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -199,7 +198,7 @@ class EnglishEntryambition extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAmbition422("en-GB"),
+                                onPressed: () => speakAmbivalent4633("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -207,19 +206,20 @@ class EnglishEntryambition extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAmbition422(
-                                    // REPLACE: ambition /æmˈbɪʃn/
+                                onPressed: () => speakAmbivalent4633(
+                                    // REPLACE: ambivalent /æmˈbɪvələnt/
                                     "en-US"),
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "He had only one ambition in life.",
+                                    "The party's position on nuclear weapons is deeply ambivalent.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -233,7 +233,7 @@ class EnglishEntryambition extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یەک ئامانجی لە ژیاندا ھەبوو",
+                                    "ھەڵوێستی پارتەکە سەبارەت بە چەکی ئەتۆمی پێک‌دژانەیە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -245,7 +245,7 @@ class EnglishEntryambition extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAmbition3444("en-GB"),
+                                onPressed: () => speakAmbivalent46777("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -253,61 +253,8 @@ class EnglishEntryambition extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAmbition3444(
-                                    // REPLACE: ambition /æmˈbɪʃn/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) ئاوات خواستن بە پارە و دەسەڵات''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She was driven by personal ambition.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بە حەز و ئارەزووی خۆی ھەڵدەسووڕا",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAmbition344("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAmbition344(
-                                    // REPLACE: ambition /æmˈbɪʃn/
+                                onPressed: () => speakAmbivalent46777(
+                                    // REPLACE: ambivalent /æmˈbɪvələnt/
                                     "en-US"),
                               ),
                             ],
@@ -356,14 +303,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: ambition (Derived forms: ambitioning, ambitioned, ambitions)
-1. A cherished desire (= aspiration, dream)
-"his ambition is to own his own business";
- 
-2. A strong drive for success (= ambitiousness)
-
-- Verb: ambition (Derived forms: ambitioning, ambitioned, ambitions)
-1. Have as one's ambition
+- Adjective: ambivalent  
+1. Uncertain or unable to decide about what course to follow
+"was ambivalent about having children"
 '''),
         ],
       ),
@@ -374,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '_UnDjRJbcN0';
+  static String myVideoId = 'i-8lMiG32N4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -382,7 +324,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 3, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -398,7 +340,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'AOGAGXGCjQ4';
+  static String myVideoId = 'Sbp_EeBk-As';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -406,7 +348,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1358, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -422,7 +364,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'QXrNph4RqyI';
+  static String myVideoId = '0J3RQCVXLcA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -430,7 +372,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1134, // DOPSUM: CHANGE IT
+      startAt: 247, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -446,7 +388,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = '-IWT0AFYhoY';
+  static String myVideoId = 'o8F2ZKZ5XsQ';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -454,7 +396,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 398, // DOPSUM: CHANGE IT
+      startAt: 692, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -470,7 +412,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '_yhRlnI7NjQ';
+  static String myVideoId = 'YDvXOHjV4UM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -478,7 +420,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 15, // DOPSUM: CHANGE IT
+      startAt: 674, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -494,7 +436,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = '3Au-5To9rDk';
+  static String myVideoId = 'FiOU5peDFDQ';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -502,7 +444,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 39, // DOPSUM: CHANGE IT
+      startAt: 146, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -518,7 +460,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'wVbQki1V3yA';
+  static String myVideoId = '_637LY0s3Qs';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -526,7 +468,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 12, // DOPSUM: CHANGE IT
+      startAt: 330, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -542,7 +484,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'zqllxbPWKNI';
+  static String myVideoId = 'CuIYD-zTEDc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -550,7 +492,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 199, // DOPSUM: CHANGE IT
+      startAt: 335, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -566,7 +508,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'O4iGNXsqghs';
+  static String myVideoId = 'ytMNr9gLqE4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -574,7 +516,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 397, // DOPSUM: CHANGE IT
+      startAt: 920, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -590,7 +532,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'mY3SEMTROas';
+  static String myVideoId = 'd_P2XDDcPc0';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -598,7 +540,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1818, // DOPSUM: CHANGE IT
+      startAt: 234, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -614,7 +556,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = 'Xzv84ZdtlE0';
+  static String myVideoId = '0tYm41hb48o';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -622,7 +564,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 751, // DOPSUM: CHANGE IT
+      startAt: 4762, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -638,7 +580,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = 'kRr9LQ7mZ_A';
+  static String myVideoId = 'X8CD2QEYo6Q';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -646,7 +588,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 784, // DOPSUM: CHANGE IT
+      startAt: 1547, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

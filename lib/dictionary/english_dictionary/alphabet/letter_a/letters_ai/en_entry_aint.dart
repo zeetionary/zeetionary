@@ -159,7 +159,8 @@ class EnglishEntryaint extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (کورتکراوە) کورتکراوە بۆ am not/is not/are not''',
+١. (کورتکراوە) کورتکراوە بۆ
+am not/is not/are not''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -212,7 +213,8 @@ class EnglishEntryaint extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (کورتکراوە) کورتکراوە بۆ has not/have not''',
+١. (کورتکراوە) کورتکراوە بۆ
+has not/have not''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

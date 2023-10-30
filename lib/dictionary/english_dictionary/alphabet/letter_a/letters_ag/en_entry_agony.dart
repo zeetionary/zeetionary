@@ -211,6 +211,7 @@ class EnglishEntryagony extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

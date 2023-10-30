@@ -66,7 +66,7 @@ class EnglishEntryabscond extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUK: /əbˈskɒnd//', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              'IpaUK: /əbˈskɒnd/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -84,7 +84,7 @@ class EnglishEntryabscond extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              'IpaUS: /əbˈskɑːnd//', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                              'IpaUS: /əbˈskɑːnd/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(

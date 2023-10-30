@@ -212,6 +212,7 @@ class EnglishEntryalleviate extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
                           Row(
                             children: [
                               const Expanded(

@@ -200,7 +200,7 @@ class EnglishEntryadmit extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە کەللەڕەقییەوە ڕەتیدەکردەوە دان بە ڕاستییەکە بنێ",
+                                    "بە کەللەڕەقییەوە ڕەتیدەکاتەوە دان بە ڕاستییەکە بنێ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

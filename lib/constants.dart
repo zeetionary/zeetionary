@@ -33,6 +33,7 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     return AppBar(
       // centerTitle: true,
+      scrolledUnderElevation: 0,
       title: const ZeetionaryAppbarStyle(),
       leading: IconButton(
         icon: const Icon(Icons.arrow_back_rounded),
@@ -40,6 +41,14 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
           Routemaster.of(context).pop();
         },
       ),
+      actions: [
+        IconButton(
+          icon: const Icon(Icons.history),
+          onPressed: () {
+            Routemaster.of(context).push('/history-screen');
+          },
+        ),
+      ],
     );
   }
 

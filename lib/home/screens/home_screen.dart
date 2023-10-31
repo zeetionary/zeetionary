@@ -1,11 +1,13 @@
 // import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:zeetionary/dictionary/english_dictionary/english_dictionary.dart';
 import 'package:zeetionary/dictionary/kurdish_dictionary/kurdish_dictionary.dart';
 import 'package:zeetionary/grammar/grammar_screen.dart';
 import 'package:zeetionary/home/drawers/community_list_drawer.dart';
+import 'package:zeetionary/home/screens/history_screen.dart';
 import 'package:zeetionary/questions/question_screen.dart';
 import 'package:zeetionary/quiz/quiz_screen.dart';
 import 'package:zeetionary/theme/pallete.dart';
@@ -22,6 +24,14 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
 
   void displayDrawer(BuildContext context) {
     Scaffold.of(context).openDrawer();
+  }
+
+  void goToHistory(BuildContext context) {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (context) => const HistoryScreen(),
+      ),
+    );
   }
 
   // final List<Widget> _pages = [
@@ -54,6 +64,14 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             onPressed: () => displayDrawer(context),
           );
         }),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.history),
+            onPressed: () {
+              Routemaster.of(context).push('/history-screen');
+            },
+          ),
+        ],
       ),
       drawer: const CommunityListDrawer(),
       bottomNavigationBar: NavigationBarTheme(

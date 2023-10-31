@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
 import 'package:routemaster/routemaster.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class DictionaryScreenEnglish extends StatefulWidget {
   const DictionaryScreenEnglish({super.key});
@@ -646,8 +647,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Directionality(
-            textDirection:
-                TextDirection.ltr, // Set the text direction to right-to-left
+            textDirection: TextDirection.ltr,
             child: Padding(
               padding: const EdgeInsets.all(16.0),
               child: SizedBox(
@@ -676,177 +676,235 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                 words: filteredWords,
                 onTapWord: (wordsEnglish) {
                   if (wordsEnglish == "dopsum") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aback');
                   }
                   if (wordsEnglish == "dopsum") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aback');
                   }
                   if (wordsEnglish == "a") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-a');
                   }
                   if (wordsEnglish == "aback") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aback');
                   }
                   if (wordsEnglish == "abacus") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abacus');
                   }
                   if (wordsEnglish == "abandon") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abandon');
                   }
                   if (wordsEnglish == "abandoned") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abandoned');
                   }
                   if (wordsEnglish == "abandonment") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abandonment');
                   }
                   if (wordsEnglish == "abashed") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abashed');
                   }
                   if (wordsEnglish == "abate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abate');
                   }
                   if (wordsEnglish == "abatement") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abatement');
                   }
                   if (wordsEnglish == "abattoir") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abattoir');
                   }
                   if (wordsEnglish == "abbess") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abbess');
                   }
                   if (wordsEnglish == "abbey") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abbey');
                   }
                   if (wordsEnglish == "abbot") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abbot');
                   }
                   if (wordsEnglish == "abbreviate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abbreviate');
                   }
                   if (wordsEnglish == "abbreviation") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abbreviation');
                   }
                   if (wordsEnglish == "abdicate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abdicate');
                   }
                   if (wordsEnglish == "abdication") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abdication');
                   }
                   if (wordsEnglish == "abdomen") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abdomen');
                   }
                   if (wordsEnglish == "abdominal") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abdominal');
                   }
                   if (wordsEnglish == "abduct") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abduct');
                   }
                   if (wordsEnglish == "abduction") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abduction');
                   }
                   if (wordsEnglish == "aberration") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aberration');
                   }
                   if (wordsEnglish == "abet") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abet');
                   }
                   if (wordsEnglish == "abhor") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aback');
                   }
                   if (wordsEnglish == "abhorrence") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abhorrence');
                   }
                   if (wordsEnglish == "abhorrent") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abhorrent');
                   }
                   if (wordsEnglish == "abide") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abide');
                   }
                   if (wordsEnglish == "abiding") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abiding');
                   }
                   if (wordsEnglish == "ability") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-ability');
                   }
                   if (wordsEnglish == "abject") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abject');
                   }
                   if (wordsEnglish == "abjectly") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abjectly');
                   }
                   if (wordsEnglish == "ablaze") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-ablaze');
                   }
                   if (wordsEnglish == "able") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-able');
                   }
                   if (wordsEnglish == "able-bodied") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-able-bodied');
                   }
                   if (wordsEnglish == "abnormal") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abnormal');
                   }
                   if (wordsEnglish == "abnormality") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abnormality');
                   }
                   if (wordsEnglish == "abnormally") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abnormally');
                   }
                   if (wordsEnglish == "aboard") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aboard');
                   }
                   if (wordsEnglish == "abode") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abode');
                   }
                   if (wordsEnglish == "abolish") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abolish');
                   }
                   if (wordsEnglish == "abolition") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abolition');
                   }
                   if (wordsEnglish == "abominable") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abominable');
                   }
                   if (wordsEnglish == "abominably") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abominably');
                   }
                   if (wordsEnglish == "aboriginal") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aboriginal');
                   }
                   if (wordsEnglish == "aborigine") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aborigine');
                   }
                   if (wordsEnglish == "abort") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abort');
                   }
                   if (wordsEnglish == "abortion") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abortion');
                   }
                   if (wordsEnglish == "abortive") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abortive');
                   }
                   if (wordsEnglish == "abound") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abound');
                   }
                   if (wordsEnglish == "abound in") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abound-in');
                   }
                   if (wordsEnglish == "abound with") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abound-with');
                   }
                   if (wordsEnglish == "about") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-about');
                   }
                   if (wordsEnglish == "about turn") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-about-turn');
                   }
                   if (wordsEnglish == "above") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-above');
                   }
                   if (wordsEnglish == "the above") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-the-above');
                   }
                   if (wordsEnglish == "above all") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-above-all');
                   }
                   if (wordsEnglish == "above/below the fold") {
@@ -858,1170 +916,1559 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                         .push("/english-above-beyond-suspicion");
                   }
                   if (wordsEnglish == "above yourself") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-above-yourself');
                   }
                   if (wordsEnglish == "abrasion") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abrasion');
                   }
                   if (wordsEnglish == "abrasive") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abrasive');
                   }
                   if (wordsEnglish == "abreast") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abreast');
                   }
                   if (wordsEnglish == "abridge") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abridge');
                   }
                   if (wordsEnglish == "abridgement") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abridgement');
                   }
                   if (wordsEnglish == "abridge") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abridge');
                   }
                   if (wordsEnglish == "abroad") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abroad');
                   }
                   if (wordsEnglish == "abrupt") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abrupt');
                   }
                   if (wordsEnglish == "abruptly") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abruptly');
                   }
                   if (wordsEnglish == "abruptness") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abruptness');
                   }
                   if (wordsEnglish == "abscess") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abscess');
                   }
                   if (wordsEnglish == "abscond") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abscond');
                   }
                   if (wordsEnglish == "abseil") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abseil');
                   }
                   if (wordsEnglish == "absence") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-absence');
                   }
                   if (wordsEnglish == "absent") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-absent');
                   }
                   if (wordsEnglish == "absentee") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-absentee');
                   }
                   if (wordsEnglish == "absent-minded") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-absent-minded');
                   }
                   if (wordsEnglish == "absolute") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-absolute');
                   }
                   if (wordsEnglish == "absolutely") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-absolutely');
                   }
                   if (wordsEnglish == "absolute majority") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-absolute-majority');
                   }
                   if (wordsEnglish == "absolute zero") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-absolute-zero');
                   }
                   if (wordsEnglish == "absolve") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-absolve');
                   }
                   if (wordsEnglish == "absorb") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-absorb');
                   }
                   if (wordsEnglish == "absorbent") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-absorbent');
                   }
                   if (wordsEnglish == "absorption") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-absorption');
                   }
                   if (wordsEnglish == "abstain") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abstain');
                   }
                   if (wordsEnglish == "abstemious") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abstemious');
                   }
                   if (wordsEnglish == "abstention") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abstention');
                   }
                   if (wordsEnglish == "abstinence") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abstinence');
                   }
                   if (wordsEnglish == "abstract") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abstract');
                   }
                   if (wordsEnglish == "absurd") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-absurd');
                   }
                   if (wordsEnglish == "absurdity") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-absurdity');
                   }
                   if (wordsEnglish == "absurdly") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-absurdly');
                   }
                   if (wordsEnglish == "abundance") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abundance');
                   }
                   if (wordsEnglish == "abundant") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abundant');
                   }
                   if (wordsEnglish == "abundantly") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abundantly');
                   }
                   if (wordsEnglish == "abuse") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abuse');
                   }
                   if (wordsEnglish == "abusive") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abusive');
                   }
                   if (wordsEnglish == "abysmal") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abysmal');
                   }
                   if (wordsEnglish == "abysmally") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abysmally');
                   }
                   if (wordsEnglish == "abyss") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-abyss');
                   }
                   if (wordsEnglish == "academic") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-academic');
                   }
                   if (wordsEnglish == "academically") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-academically');
                   }
                   if (wordsEnglish == "academy") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-academy');
                   }
                   if (wordsEnglish == "accede") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accede');
                   }
                   if (wordsEnglish == "accelerate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accelerate');
                   }
                   if (wordsEnglish == "acceleration") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acceleration');
                   }
                   if (wordsEnglish == "accelerator") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accelerator');
                   }
                   if (wordsEnglish == "accent") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accent');
                   }
                   if (wordsEnglish == "accentuate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accentuate');
                   }
                   if (wordsEnglish == "accept") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accept');
                   }
                   if (wordsEnglish == "acceptable") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acceptable');
                   }
                   if (wordsEnglish == "acceptance") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acceptance');
                   }
                   if (wordsEnglish == "access") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-access');
                   }
                   if (wordsEnglish == "accessible") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accessible');
                   }
                   if (wordsEnglish == "accession") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accession');
                   }
                   if (wordsEnglish == "accessory") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accessory');
                   }
                   if (wordsEnglish == "accident") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accident');
                   }
                   if (wordsEnglish == "accidental") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accidental');
                   }
                   if (wordsEnglish == "accidentally") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accidentally');
                   }
                   if (wordsEnglish == "acclaim") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acclaim');
                   }
                   if (wordsEnglish == "acclimatize") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acclimatize');
                   }
                   if (wordsEnglish == "accolade") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accolade');
                   }
                   if (wordsEnglish == "accommodate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accommodate');
                   }
                   if (wordsEnglish == "accommodating") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accommodating');
                   }
                   if (wordsEnglish == "accommodation") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accommodation');
                   }
                   if (wordsEnglish == "accompaniment") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accompaniment');
                   }
                   if (wordsEnglish == "accompanist") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accompanist');
                   }
                   if (wordsEnglish == "accompany") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accompany');
                   }
                   if (wordsEnglish == "accomplice") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accomplice');
                   }
                   if (wordsEnglish == "accomplish") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accomplish');
                   }
                   if (wordsEnglish == "accomplished") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accomplished');
                   }
                   if (wordsEnglish == "accomplishment") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accomplishment');
                   }
                   if (wordsEnglish == "accord") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accord');
                   }
                   if (wordsEnglish == "accordingly") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accordingly');
                   }
                   if (wordsEnglish == "according to") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-according-to');
                   }
                   if (wordsEnglish == "accordion") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accordion');
                   }
                   if (wordsEnglish == "accost") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accost');
                   }
                   if (wordsEnglish == "account") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-account');
                   }
                   if (wordsEnglish == "account for") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-account-for');
                   }
                   if (wordsEnglish == "accountable") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accountable');
                   }
                   if (wordsEnglish == "accountancy") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accountancy');
                   }
                   if (wordsEnglish == "accountant") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accountant');
                   }
                   if (wordsEnglish == "accredited") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accredited');
                   }
                   if (wordsEnglish == "accreditation") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accreditation');
                   }
                   if (wordsEnglish == "accrue") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accrue');
                   }
                   if (wordsEnglish == "accumulate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accumulate');
                   }
                   if (wordsEnglish == "accumulation") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accumulation');
                   }
                   if (wordsEnglish == "accuracy") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accuracy');
                   }
                   if (wordsEnglish == "accurate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accurate');
                   }
                   if (wordsEnglish == "accurately") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accurately');
                   }
                   if (wordsEnglish == "accusation") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accusation');
                   }
                   if (wordsEnglish == "accuse") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accuse');
                   }
                   if (wordsEnglish == "the accused") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-the-accused');
                   }
                   if (wordsEnglish == "accuser") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accuser');
                   }
                   if (wordsEnglish == "accustom to") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accustom-to');
                   }
                   if (wordsEnglish == "accustomed") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-accustomed');
                   }
                   if (wordsEnglish == "ace") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-ace');
                   }
                   if (wordsEnglish == "ache") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-ache');
                   }
                   if (wordsEnglish == "achieve") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-achieve');
                   }
                   if (wordsEnglish == "achievement") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-achievement');
                   }
                   if (wordsEnglish == "Achilles' heel") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-achilles-heel');
                   }
                   if (wordsEnglish == "acid") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acid');
                   }
                   if (wordsEnglish == "acid rain") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acid-rain');
                   }
                   if (wordsEnglish == "acid test") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acid-test');
                   }
                   if (wordsEnglish == "acknowledge") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acknowledge');
                   }
                   if (wordsEnglish == "acknowledgement") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acknowledgement');
                   }
                   if (wordsEnglish == "acne") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acne');
                   }
                   if (wordsEnglish == "acorn") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acorn');
                   }
                   if (wordsEnglish == "acoustic") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acoustic');
                   }
                   if (wordsEnglish == "acoustics") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acoustics');
                   }
                   if (wordsEnglish == "acquaint") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acquaint');
                   }
                   if (wordsEnglish == "acquaintance") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acquaintance');
                   }
                   if (wordsEnglish == "acquainted") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acquainted');
                   }
                   if (wordsEnglish == "acquiesce") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acquiesce');
                   }
                   if (wordsEnglish == "acquiescence") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acquiescence');
                   }
                   if (wordsEnglish == "acquire") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acquire');
                   }
                   if (wordsEnglish == "acquisition") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acquisition');
                   }
                   if (wordsEnglish == "acquisitive") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acquisitive');
                   }
                   if (wordsEnglish == "acquit") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acquit');
                   }
                   if (wordsEnglish == "acquittal") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acquittal');
                   }
                   if (wordsEnglish == "acre") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acre');
                   }
                   if (wordsEnglish == "acreage") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acreage');
                   }
                   if (wordsEnglish == "acrid") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acrid');
                   }
                   if (wordsEnglish == "acrimonious") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acrimonious');
                   }
                   if (wordsEnglish == "acrimony") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acrimony');
                   }
                   if (wordsEnglish == "acrobat") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acrobat');
                   }
                   if (wordsEnglish == "acrobatic") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acrobatic');
                   }
                   if (wordsEnglish == "acrobatics") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acrobatics');
                   }
                   if (wordsEnglish == "acronym") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acronym');
                   }
                   if (wordsEnglish == "across") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-across');
                   }
                   if (wordsEnglish == "acrylic") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acrylic');
                   }
                   if (wordsEnglish == "act") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-act');
                   }
                   if (wordsEnglish == "action") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-action');
                   }
                   if (wordsEnglish == "activate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-activate');
                   }
                   if (wordsEnglish == "active") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-active');
                   }
                   if (wordsEnglish == "actively") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-actively');
                   }
                   if (wordsEnglish == "activist") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-activist');
                   }
                   if (wordsEnglish == "activity") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-activity');
                   }
                   if (wordsEnglish == "actor") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-actor');
                   }
                   if (wordsEnglish == "actress") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-actress');
                   }
                   if (wordsEnglish == "actual") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-actual');
                   }
                   if (wordsEnglish == "actually") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-actually');
                   }
                   if (wordsEnglish == "acumen") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acumen');
                   }
                   if (wordsEnglish == "acupuncture") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acupuncture');
                   }
                   if (wordsEnglish == "acute") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acute');
                   }
                   if (wordsEnglish == "acute accent") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acute-accent');
                   }
                   if (wordsEnglish == "acute angle") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acute-angle');
                   }
                   if (wordsEnglish == "acutely") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acutely');
                   }
                   if (wordsEnglish == "acuteness") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-acuteness');
                   }
                   if (wordsEnglish == "ad") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-ad');
                   }
                   if (wordsEnglish == "adamant") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adamant');
                   }
                   if (wordsEnglish == "Adam's apple") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adams-apple');
                   }
                   if (wordsEnglish == "adapt") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adapt');
                   }
                   if (wordsEnglish == "adaptable") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adaptable');
                   }
                   if (wordsEnglish == "adaptation") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adaptation');
                   }
                   if (wordsEnglish == "adaptor") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adaptor');
                   }
                   if (wordsEnglish == "add") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-add');
                   }
                   if (wordsEnglish == "adder") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adder');
                   }
                   if (wordsEnglish == "addict") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-addict');
                   }
                   if (wordsEnglish == "addicted") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-addicted');
                   }
                   if (wordsEnglish == "addiction") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-addiction');
                   }
                   if (wordsEnglish == "addictive") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-addictive');
                   }
                   if (wordsEnglish == "addition") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-addition');
                   }
                   if (wordsEnglish == "additional") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-additional');
                   }
                   if (wordsEnglish == "additionally") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-additionally');
                   }
                   if (wordsEnglish == "additive") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-additive');
                   }
                   if (wordsEnglish == "address") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-address');
                   }
                   if (wordsEnglish == "adept") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adept');
                   }
                   if (wordsEnglish == "adequate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adequate');
                   }
                   if (wordsEnglish == "adequately") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adequately');
                   }
                   if (wordsEnglish == "adhere") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adhere');
                   }
                   if (wordsEnglish == "adhere to") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adhere-to');
                   }
                   if (wordsEnglish == "adherence") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adherence');
                   }
                   if (wordsEnglish == "adherent") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adherent');
                   }
                   if (wordsEnglish == "adhesion") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adhesion');
                   }
                   if (wordsEnglish == "adhesive") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adhesive');
                   }
                   if (wordsEnglish == "ad hoc") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-ad-hoc');
                   }
                   if (wordsEnglish == "adjacent") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adjacent');
                   }
                   if (wordsEnglish == "adjectival") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adjectival');
                   }
                   if (wordsEnglish == "adjective") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adjective');
                   }
                   if (wordsEnglish == "adjoin") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adjoin');
                   }
                   if (wordsEnglish == "adjourn") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adjourn');
                   }
                   if (wordsEnglish == "adjournment") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adjournment');
                   }
                   if (wordsEnglish == "adjudicate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adjudicate');
                   }
                   if (wordsEnglish == "adjudication") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adjudication');
                   }
                   if (wordsEnglish == "adjudicator") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adjudicator');
                   }
                   if (wordsEnglish == "adjunct") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adjunct');
                   }
                   if (wordsEnglish == "adjust") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adjust');
                   }
                   if (wordsEnglish == "adjustable") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adjustable');
                   }
                   if (wordsEnglish == "adjustment") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adjustment');
                   }
                   if (wordsEnglish == "ad lib") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-ad-lib');
                   }
                   if (wordsEnglish == "administer") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-administer');
                   }
                   if (wordsEnglish == "administration") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-administration');
                   }
                   if (wordsEnglish == "administrative") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-administrative');
                   }
                   if (wordsEnglish == "administrator") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-administrator');
                   }
                   if (wordsEnglish == "admirable") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-admirable');
                   }
                   if (wordsEnglish == "admirably") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-admirably');
                   }
                   if (wordsEnglish == "admiral") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-admiral');
                   }
                   if (wordsEnglish == "admiration") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-admiration');
                   }
                   if (wordsEnglish == "admire") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-admire');
                   }
                   if (wordsEnglish == "admirer") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-admirer');
                   }
                   if (wordsEnglish == "admiring") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-admiring');
                   }
                   if (wordsEnglish == "admissible") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-admissible');
                   }
                   if (wordsEnglish == "admission") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-admission');
                   }
                   if (wordsEnglish == "admit") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-admit');
                   }
                   if (wordsEnglish == "admittance") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-admittance');
                   }
                   if (wordsEnglish == "admittedly") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-admittedly');
                   }
                   if (wordsEnglish == "admonish") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-admonish');
                   }
                   if (wordsEnglish == "ad nauseam") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-ad-nauseam');
                   }
                   if (wordsEnglish == "adolescence") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adolescence');
                   }
                   if (wordsEnglish == "adolescent") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adolescent');
                   }
                   if (wordsEnglish == "adopt") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adopt');
                   }
                   if (wordsEnglish == "adoption") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adoption');
                   }
                   if (wordsEnglish == "adoptive") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adoptive');
                   }
                   if (wordsEnglish == "adorable") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adorable');
                   }
                   if (wordsEnglish == "adoration") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adoration');
                   }
                   if (wordsEnglish == "adore") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adore');
                   }
                   if (wordsEnglish == "adorn") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adorn');
                   }
                   if (wordsEnglish == "adornment") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adornment');
                   }
                   if (wordsEnglish == "adrenaline") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adrenaline');
                   }
                   if (wordsEnglish == "adrift") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adrift');
                   }
                   if (wordsEnglish == "adult") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adult');
                   }
                   if (wordsEnglish == "adulation") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adulation');
                   }
                   if (wordsEnglish == "adulterate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adulterate');
                   }
                   if (wordsEnglish == "adulterer") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adulterer');
                   }
                   if (wordsEnglish == "adulterous") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adulterous');
                   }
                   if (wordsEnglish == "adultery") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adultery');
                   }
                   if (wordsEnglish == "adulthood") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adulthood');
                   }
                   if (wordsEnglish == "advance") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-advance');
                   }
                   if (wordsEnglish == "advanced") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-advanced');
                   }
                   if (wordsEnglish == "advancement") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-advancement');
                   }
                   if (wordsEnglish == "advantage") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-advantage');
                   }
                   if (wordsEnglish == "advantageous") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-advantageous');
                   }
                   if (wordsEnglish == "advent") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-advent');
                   }
                   if (wordsEnglish == "adventure") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adventure');
                   }
                   if (wordsEnglish == "adventurer") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adventurer');
                   }
                   if (wordsEnglish == "adventurous") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adventurous');
                   }
                   if (wordsEnglish == "adverb") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adverb');
                   }
                   if (wordsEnglish == "adverbial") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adverbial');
                   }
                   if (wordsEnglish == "adversary") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adversary');
                   }
                   if (wordsEnglish == "adverse") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adverse');
                   }
                   if (wordsEnglish == "adversely") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adversely');
                   }
                   if (wordsEnglish == "adversity") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adversity');
                   }
                   if (wordsEnglish == "advert") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-advert');
                   }
                   if (wordsEnglish == "advertise") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-advertise');
                   }
                   if (wordsEnglish == "advertisement") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-advertisement');
                   }
                   if (wordsEnglish == "advertiser") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-advertiser');
                   }
                   if (wordsEnglish == "advertising") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-advertising');
                   }
                   if (wordsEnglish == "advice") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-advice');
                   }
                   if (wordsEnglish == "advisable") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-advisable');
                   }
                   if (wordsEnglish == "advise") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-advise');
                   }
                   if (wordsEnglish == "adviser") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-adviser');
                   }
                   if (wordsEnglish == "advisory") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-advisory');
                   }
                   if (wordsEnglish == "advocate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-advocate');
                   }
                   if (wordsEnglish == "aerial") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aerial');
                   }
                   if (wordsEnglish == "aerobatics") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aerobatics');
                   }
                   if (wordsEnglish == "aerobics") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aerobics');
                   }
                   if (wordsEnglish == "aerodynamic") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aerodynamic');
                   }
                   if (wordsEnglish == "aerodynamics") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aerodynamics');
                   }
                   if (wordsEnglish == "aeronautics") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aeronautics');
                   }
                   if (wordsEnglish == "aeroplane") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aeroplane');
                   }
                   if (wordsEnglish == "aerosol") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aerosol');
                   }
                   if (wordsEnglish == "aerospace") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aerospace');
                   }
                   if (wordsEnglish == "aesthetic") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aesthetic');
                   }
                   if (wordsEnglish == "aesthetically") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aesthetically');
                   }
                   if (wordsEnglish == "affable") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affable');
                   }
                   if (wordsEnglish == "affably") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affably');
                   }
                   if (wordsEnglish == "affair") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affair');
                   }
                   if (wordsEnglish == "affect") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affect');
                   }
                   if (wordsEnglish == "affectation") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affectation');
                   }
                   if (wordsEnglish == "affected") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affected');
                   }
                   if (wordsEnglish == "affection") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affection');
                   }
                   if (wordsEnglish == "affectionate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affectionate');
                   }
                   if (wordsEnglish == "affectionately") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affectionately');
                   }
                   if (wordsEnglish == "affidavit") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affidavit');
                   }
                   if (wordsEnglish == "affiliate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affiliate');
                   }
                   if (wordsEnglish == "affiliation") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affiliation');
                   }
                   if (wordsEnglish == "affinity") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affinity');
                   }
                   if (wordsEnglish == "affirm") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affirm');
                   }
                   if (wordsEnglish == "affirmation") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affirmation');
                   }
                   if (wordsEnglish == "affirmative") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affirmative');
                   }
                   if (wordsEnglish == "affix") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affix');
                   }
                   if (wordsEnglish == "afflict") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-afflict');
                   }
                   if (wordsEnglish == "affliction") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affliction');
                   }
                   if (wordsEnglish == "affluence") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affluence');
                   }
                   if (wordsEnglish == "affluent") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affluent');
                   }
                   if (wordsEnglish == "afford") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-afford');
                   }
                   if (wordsEnglish == "affront") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-affront');
                   }
                   if (wordsEnglish == "afloat") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-afloat');
                   }
                   if (wordsEnglish == "afoot") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-afoot');
                   }
                   if (wordsEnglish == "aforementioned") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aforementioned');
                   }
                   if (wordsEnglish == "afraid") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-afraid');
                   }
                   if (wordsEnglish == "afresh") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-afresh');
                   }
                   if (wordsEnglish == "after") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-after');
                   }
                   if (wordsEnglish == "aftereffect") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aftereffect');
                   }
                   if (wordsEnglish == "aftermath") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aftermath');
                   }
                   if (wordsEnglish == "afternoon") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-afternoon');
                   }
                   if (wordsEnglish == "afterthought") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-afterthought');
                   }
                   if (wordsEnglish == "afterwards") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-afterwards');
                   }
                   if (wordsEnglish == "again") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-again');
                   }
                   if (wordsEnglish == "against") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-against');
                   }
                   if (wordsEnglish == "age") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-age');
                   }
                   if (wordsEnglish == "aged") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aged');
                   }
                   if (wordsEnglish == "age group") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-age-group');
                   }
                   if (wordsEnglish == "ageing") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-ageing');
                   }
                   if (wordsEnglish == "ageism") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-ageism');
                   }
                   if (wordsEnglish == "ageist") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-ageist');
                   }
                   if (wordsEnglish == "age limit") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-age-limit');
                   }
                   if (wordsEnglish == "agency") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agency');
                   }
                   if (wordsEnglish == "agenda") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agenda');
                   }
                   if (wordsEnglish == "agent") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agent');
                   }
                   if (wordsEnglish == "age-old") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-age-old');
                   }
                   if (wordsEnglish == "aggravate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aggravate');
                   }
                   if (wordsEnglish == "aggravation") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aggravation');
                   }
                   if (wordsEnglish == "aggregate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aggregate');
                   }
                   if (wordsEnglish == "aggression") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aggression');
                   }
                   if (wordsEnglish == "aggressive") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aggressive');
                   }
                   if (wordsEnglish == "aggressively") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aggressively');
                   }
                   if (wordsEnglish == "aggressiveness") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aggressiveness');
                   }
                   if (wordsEnglish == "aggressor") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aggressor');
                   }
                   if (wordsEnglish == "aggrieved") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aggrieved');
                   }
                   if (wordsEnglish == "aghast") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aghast');
                   }
                   if (wordsEnglish == "agile") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agile');
                   }
                   if (wordsEnglish == "agility") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agility');
                   }
                   if (wordsEnglish == "aging") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aging');
                   }
                   if (wordsEnglish == "agitate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agitate');
                   }
                   if (wordsEnglish == "agitation") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agitation');
                   }
                   if (wordsEnglish == "agitator") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agitator');
                   }
                   if (wordsEnglish == "aglow") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aglow');
                   }
                   if (wordsEnglish == "AGM") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agm');
                   }
                   if (wordsEnglish == "agnostic") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agnostic');
                   }
                   if (wordsEnglish == "agonized") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agonized');
                   }
                   if (wordsEnglish == "agonizing") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agonizing');
                   }
                   if (wordsEnglish == "agony") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agony');
                   }
                   if (wordsEnglish == "agony aunt") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agony-aunt');
                   }
                   if (wordsEnglish == "agoraphobia") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agoraphobia');
                   }
                   if (wordsEnglish == "agoraphobic") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agoraphobic');
                   }
                   if (wordsEnglish == "agrarian") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agrarian');
                   }
                   if (wordsEnglish == "agree") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agree');
                   }
                   if (wordsEnglish == "DOPSUM") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-DOPSUM');
                   }
                   if (wordsEnglish == "DOPSUM") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-DOPSUM');
                   }
                   if (wordsEnglish == "agreeable") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agreeable');
                   }
                   if (wordsEnglish == "agreeably") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agreeably');
                   }
                   if (wordsEnglish == "agreement") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agreement');
                   }
                   if (wordsEnglish == "agriculture") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agriculture');
                   }
                   if (wordsEnglish == "agricultural") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agricultural');
                   }
                   if (wordsEnglish == "agritourism") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agritourism');
                   }
                   if (wordsEnglish == "agrochemical") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agrochemical');
                   }
                   if (wordsEnglish == "agronomist") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agronomist');
                   }
                   if (wordsEnglish == "agronomy") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-agronomy');
                   }
                   if (wordsEnglish == "aground") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aground');
                   }
                   if (wordsEnglish == "ahead") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-ahead');
                   }
                   if (wordsEnglish == "ahead of") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-ahead-of');
                   }
                   if (wordsEnglish == "AI") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-ai');
                   }
                   if (wordsEnglish == "aid") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aid');
                   }
                   if (wordsEnglish == "aide") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aide');
                   }
                   if (wordsEnglish == "AIDS") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aids');
                   }
                   if (wordsEnglish == "ailing") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-ailing');
                   }
                   if (wordsEnglish == "ailment") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-ailment');
                   }
                   if (wordsEnglish == "aim") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aim');
                   }
                   if (wordsEnglish == "aimless") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aimless');
                   }
                   if (wordsEnglish == "aimlessly") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aimlessly');
                   }
                   if (wordsEnglish == "ain't") {
-                    Routemaster.of(context).push("/english-ain't");
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aint");
                   }
                   if (wordsEnglish == "air") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-air');
                   }
                   if (wordsEnglish == "airbag") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airbag');
                   }
                   if (wordsEnglish == "airborne") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airborne');
                   }
                   if (wordsEnglish == "air conditioner") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-air-conditioner');
                   }
                   if (wordsEnglish == "air-conditioned") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-air-conditioned');
                   }
                   if (wordsEnglish == "aircraft") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aircraft');
                   }
                   if (wordsEnglish == "aircraft carrier") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aircraft-carrier');
                   }
                   if (wordsEnglish == "airfield") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airfield');
                   }
                   if (wordsEnglish == "air force") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-air-force');
                   }
                   if (wordsEnglish == "air hostess") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-air-hostess');
                   }
                   if (wordsEnglish == "airlift") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airlift');
                   }
                   if (wordsEnglish == "airline") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airline');
                   }
                   if (wordsEnglish == "airliner") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airliner');
                   }
                   if (wordsEnglish == "airmail") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airmail');
                   }
                   if (wordsEnglish == "air marshal") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-air-marshal');
                   }
                   if (wordsEnglish == "airplane") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airplane');
                   }
                   if (wordsEnglish == "airport") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airport');
                   }
                   if (wordsEnglish == "air raid") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-air-raid');
                   }
                   if (wordsEnglish == "airship") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airship');
                   }
                   if (wordsEnglish == "airspace") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airspace');
                   }
                   if (wordsEnglish == "airstrip") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airstrip');
                   }
                   if (wordsEnglish == "air terminal") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-air-terminal');
                   }
                   if (wordsEnglish == "airtight") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airtight');
                   }
                   if (wordsEnglish == "air-to-air") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-air-to-air');
                   }
                   if (wordsEnglish == "air traffic controller") {
@@ -2029,309 +2476,411 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                         .push('/english-air-traffic-controller');
                   }
                   if (wordsEnglish == "airway") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airway');
                   }
                   if (wordsEnglish == "airworthy") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airworthy');
                   }
                   if (wordsEnglish == "airing") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airing');
                   }
                   if (wordsEnglish == "airing cupboard") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airing-cupboard');
                   }
                   if (wordsEnglish == "airless") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airless');
                   }
                   if (wordsEnglish == "airy") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airy');
                   }
                   if (wordsEnglish == "airily") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-airily');
                   }
                   if (wordsEnglish == "aisle") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-aisle');
                   }
                   if (wordsEnglish == "ajar") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-ajar');
                   }
                   if (wordsEnglish == "akin") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-akin');
                   }
                   if (wordsEnglish == "à la carte") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-a-la-carte');
                   }
                   if (wordsEnglish == "alacrity") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alacrity');
                   }
                   if (wordsEnglish == "alarm") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alarm');
                   }
                   if (wordsEnglish == "alarm clock") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alarm-clock');
                   }
                   if (wordsEnglish == "alarming") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alarming');
                   }
                   if (wordsEnglish == "alas") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alas');
                   }
                   if (wordsEnglish == "albatross") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-albatross');
                   }
                   if (wordsEnglish == "albeit") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-albeit');
                   }
                   if (wordsEnglish == "albino") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-albino');
                   }
                   if (wordsEnglish == "album") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-album');
                   }
                   if (wordsEnglish == "alcohol") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alcohol');
                   }
                   if (wordsEnglish == "alcoholic") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alcoholic');
                   }
                   if (wordsEnglish == "alcoholism") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alcoholism');
                   }
                   if (wordsEnglish == "alcove") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alcove');
                   }
                   if (wordsEnglish == "ale") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-ale');
                   }
                   if (wordsEnglish == "alert") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alert');
                   }
                   if (wordsEnglish == "algae") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-algae');
                   }
                   if (wordsEnglish == "algebra") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-algebra');
                   }
                   if (wordsEnglish == "algorithm") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-algorithm');
                   }
                   if (wordsEnglish == "alias") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alias');
                   }
                   if (wordsEnglish == "alibi") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alibi');
                   }
                   if (wordsEnglish == "alien") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alien');
                   }
                   if (wordsEnglish == "alienate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alienate');
                   }
                   if (wordsEnglish == "alienation") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alienation');
                   }
                   if (wordsEnglish == "alight") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alight');
                   }
                   if (wordsEnglish == "align") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-align');
                   }
                   if (wordsEnglish == "alignment") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alignment');
                   }
                   if (wordsEnglish == "alike") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alike');
                   }
                   if (wordsEnglish == "alimentary canal") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alimentary-canal');
                   }
                   if (wordsEnglish == "alimony") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alimony');
                   }
                   if (wordsEnglish == "alive") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alive');
                   }
                   if (wordsEnglish == "alkali") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alkali');
                   }
                   if (wordsEnglish == "all") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-all');
                   }
                   if (wordsEnglish == "all-clear") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-all-clear');
                   }
                   if (wordsEnglish == "all-in") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-all-in');
                   }
                   if (wordsEnglish == "all-out") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-all-out');
                   }
                   if (wordsEnglish == "all-rounder") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-all-rounder');
                   }
                   if (wordsEnglish == "Allah") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-allah');
                   }
                   if (wordsEnglish == "allay") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-allay');
                   }
                   if (wordsEnglish == "allegation") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-allegation');
                   }
                   if (wordsEnglish == "allege") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-allege');
                   }
                   if (wordsEnglish == "alleged") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alleged');
                   }
                   if (wordsEnglish == "allegedly") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-allegedly');
                   }
                   if (wordsEnglish == "allegiance") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-allegiance');
                   }
                   if (wordsEnglish == "allegory") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-allegory');
                   }
                   if (wordsEnglish == "allegorical") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-allegorical');
                   }
                   if (wordsEnglish == "alleluia") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alleluia');
                   }
                   if (wordsEnglish == "allergy") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-allergy');
                   }
                   if (wordsEnglish == "allergic") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-allergic');
                   }
                   if (wordsEnglish == "alleviate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alleviate');
                   }
                   if (wordsEnglish == "alleviation") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alleviation');
                   }
                   if (wordsEnglish == "alley") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alley');
                   }
                   if (wordsEnglish == "alliance") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alliance');
                   }
                   if (wordsEnglish == "allied") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-allied');
                   }
                   if (wordsEnglish == "alligator") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alligator');
                   }
                   if (wordsEnglish == "alliteration") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alliteration');
                   }
                   if (wordsEnglish == "allocate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-allocate');
                   }
                   if (wordsEnglish == "allocation") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-allocation');
                   }
                   if (wordsEnglish == "allot") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-allot');
                   }
                   if (wordsEnglish == "allotment") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-allotment');
                   }
                   if (wordsEnglish == "allow") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-allow');
                   }
                   if (wordsEnglish == "allowable") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-allowable');
                   }
                   if (wordsEnglish == "allowance") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-allowance');
                   }
                   if (wordsEnglish == "alloy") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-alloy');
                   }
                   if (wordsEnglish == "all right") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-all-right');
                   }
                   if (wordsEnglish == "allude to") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-allude-to");
                   }
                   if (wordsEnglish == "allusion") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-allusion");
                   }
                   if (wordsEnglish == "alluring") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-alluring");
                   }
                   if (wordsEnglish == "ally") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-ally");
                   }
                   if (wordsEnglish == "almanac") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-almanac");
                   }
                   if (wordsEnglish == "almighty") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-almighty");
                   }
                   if (wordsEnglish == "almond") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-almond");
                   }
                   if (wordsEnglish == "almost") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-almost");
                   }
                   if (wordsEnglish == "alms") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-alms");
                   }
                   if (wordsEnglish == "aloft") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-aloft");
                   }
                   if (wordsEnglish == "alone") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-alone");
                   }
                   if (wordsEnglish == "along") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-along");
                   }
                   if (wordsEnglish == "alongside") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-alongside");
                   }
                   if (wordsEnglish == "aloof") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-aloof");
                   }
                   if (wordsEnglish == "aloofness") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-aloofness");
                   }
                   if (wordsEnglish == "aloud") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-aloud");
                   }
                   if (wordsEnglish == "alphabet") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-alphabet");
                   }
                   if (wordsEnglish == "alphabetical") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-alphabetical");
                   }
                   if (wordsEnglish == "alphabetically") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-alphabetically");
                   }
                   if (wordsEnglish == "already") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-already");
                   }
                   if (wordsEnglish == "alright") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-alright");
                   }
                   if (wordsEnglish == "Alsatian") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-alsatian");
                   }
                   if (wordsEnglish == "also") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-also");
                   }
                   if (wordsEnglish == "altar") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-altar");
                   }
                   if (wordsEnglish == "alteration") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-alteration");
                   }
                   if (wordsEnglish == "alternate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-alternate");
                   }
                   if (wordsEnglish == "alternately") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-alternately");
                   }
                   if (wordsEnglish == "alternating current") {
@@ -2339,244 +2888,292 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                         .push("/english-alternating-current");
                   }
                   if (wordsEnglish == "alternation") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-alternation");
                   }
                   if (wordsEnglish == "alternative") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-alternative");
                   }
                   if (wordsEnglish == "alternatively") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-alternatively");
                   }
                   if (wordsEnglish == "alternator") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-alternator");
                   }
                   if (wordsEnglish == "although") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-although");
                   }
                   if (wordsEnglish == "altitude") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-altitude");
                   }
                   if (wordsEnglish == "alto") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-alto");
                   }
                   if (wordsEnglish == "contralto") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-contralto");
                   }
                   if (wordsEnglish == "altogether") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-altogether");
                   }
                   if (wordsEnglish == "altruism") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-altruism");
                   }
                   if (wordsEnglish == "altruistic") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-altruistic");
                   }
                   if (wordsEnglish == "aluminium") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-aluminium");
                   }
                   if (wordsEnglish == "always") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-always");
                   }
                   if (wordsEnglish == "Alzheimer's disease") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-alzheimers-disease");
                   }
                   if (wordsEnglish == "am") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-am");
                   }
                   if (wordsEnglish == "a.m.") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-a-m");
                   }
                   if (wordsEnglish == "amalgamate") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-amalgamate");
                   }
                   if (wordsEnglish == "amalgamation") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-amalgamation");
                   }
                   if (wordsEnglish == "amass") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-amass");
                   }
                   if (wordsEnglish == "amateur") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-amateur");
                   }
                   if (wordsEnglish == "amateurish") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-amateurish");
                   }
                   if (wordsEnglish == "amaze") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-amaze");
                   }
                   if (wordsEnglish == "amazement") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-amazement");
                   }
                   if (wordsEnglish == "amazing") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-amazing");
                   }
                   if (wordsEnglish == "ambassador") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-ambassador");
                   }
                   if (wordsEnglish == "amber") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-amber");
                   }
                   if (wordsEnglish == "ambidextrous") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-ambidextrous");
                   }
                   if (wordsEnglish == "ambiguous") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-ambiguous");
                   }
                   if (wordsEnglish == "ambiguity") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-ambiguity");
                   }
                   if (wordsEnglish == "ambition") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-ambition");
                   }
                   if (wordsEnglish == "ambitious") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-ambitious");
                   }
                   if (wordsEnglish == "ambivalent") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-ambivalent");
                   }
                   if (wordsEnglish == "ambivalence") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-ambivalence");
                   }
                   if (wordsEnglish == "amble") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-amble");
                   }
                   if (wordsEnglish == "ambulance") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-ambulance");
                   }
                   if (wordsEnglish == "ambush") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-ambush");
                   }
                   if (wordsEnglish == "ameba") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-ameba");
                   }
                   if (wordsEnglish == "amen") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-amen");
                   }
                   if (wordsEnglish == "amenable") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-amenable");
                   }
                   if (wordsEnglish == "amend") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-amend");
                   }
                   if (wordsEnglish == "amendment") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-amendment");
                   }
                   if (wordsEnglish == "make amends") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-make-amends");
                   }
                   if (wordsEnglish == "amenity") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-amenity");
                   }
                   if (wordsEnglish == "American") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-american");
                   }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push("/english-DOPSUM");
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
                   // }
                   if (wordsEnglish == "come of age") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-come-of-age');
                   }
                   if (wordsEnglish == "far afield") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-far-afield');
                   }
                   if (wordsEnglish == "from afar") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-from-afar');
                   }
                   if (wordsEnglish == "under age") {
+                    saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-under-age');
                   }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push('/english-DOPSUM');
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push('/english-DOPSUM');
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push('/english-DOPSUM');
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push('/english-DOPSUM');
                   // }
                 },
               ),
@@ -2585,6 +3182,16 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
         ],
       ),
     );
+  }
+
+  void saveToHistory(String word) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    List<String> history = prefs.getStringList('history') ?? [];
+
+    if (!history.contains(word)) {
+      history.add(word);
+      await prefs.setStringList('history', history);
+    }
   }
 
   @override

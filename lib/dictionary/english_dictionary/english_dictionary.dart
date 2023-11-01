@@ -611,6 +611,10 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "amiably",
     "amicable",
     "amicably",
+    "amid",
+    "amidst",
+    "amiss",
+    "ammonia",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -619,6 +623,8 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "far afield",
     "from afar",
     "make amends",
+    "not come/go amiss",
+    "take something amiss",
     "under age",
   ];
 
@@ -3109,30 +3115,30 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-amicably');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "amid") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amid');
+                  }
+                  if (wordsEnglish == "amidst") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amidst');
+                  }
+                  if (wordsEnglish == "amiss") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amiss');
+                  }
+                  if (wordsEnglish == "not come/go amiss") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-not-come-go-amiss');
+                  }
+                  if (wordsEnglish == "take something amiss") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-take-something-amiss');
+                  }
+                  if (wordsEnglish == "ammonia") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-ammonia');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

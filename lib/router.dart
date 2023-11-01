@@ -606,14 +606,12 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amiably.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amicable.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amicably.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amid.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amidst.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amiss.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_n/letters_no/en_entry_not_come_go_amiss.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_t/letters_ta/en_entry_take_something_amiss.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_ammonia.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
@@ -1671,12 +1669,12 @@ final loggedInRoute = RouteMap(routes: {
   "/english-amiably": (_) => MaterialPage(child: EnglishEntryamiably()),
   "/english-amicable": (_) => MaterialPage(child: EnglishEntryamicable()),
   "/english-amicably": (_) => MaterialPage(child: EnglishEntryamicably()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-amid": (_) => MaterialPage(child: EnglishEntryamid()),
+  "/english-amidst": (_) => MaterialPage(child: EnglishEntryamidst()),
+  "/english-amiss": (_) => MaterialPage(child: EnglishEntryamiss()),
+  "/english-not-come-go-amiss": (_) => MaterialPage(child: EnglishEntrynotcomegoamiss()),
+  "/english-take-something-amiss": (_) => MaterialPage(child: EnglishEntrytakesomethingamiss()),
+  "/english-ammonia": (_) => MaterialPage(child: EnglishEntryammonia()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

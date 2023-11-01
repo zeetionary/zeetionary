@@ -183,7 +183,7 @@ class EnglishEntryalphabetical extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناوەکان لە لیستەکەدا بە ڕیزبەندی (ئەلفوبێن)",
+                                    "ناوەکان لە لیستەکەدا بە ڕیزبەندین (ئەلفوبێن)",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

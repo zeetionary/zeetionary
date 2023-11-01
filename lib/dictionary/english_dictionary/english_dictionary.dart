@@ -605,6 +605,12 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "amendment",
     "amenity",
     "American",
+    "American football",
+    "amethyst",
+    "amiable",
+    "amiably",
+    "amicable",
+    "amicably",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -3063,90 +3069,6 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-american");
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push("/english-DOPSUM");
-                  // }
                   if (wordsEnglish == "come of age") {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-come-of-age');
@@ -3163,17 +3085,185 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-under-age');
                   }
+                  if (wordsEnglish == "American football") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-american-football');
+                  }
+                  if (wordsEnglish == "amethyst") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amethyst');
+                  }
+                  if (wordsEnglish == "amiable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amiable');
+                  }
+                  if (wordsEnglish == "amiably") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amiably');
+                  }
+                  if (wordsEnglish == "amicable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amicable');
+                  }
+                  if (wordsEnglish == "amicably") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amicably');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push('/english-DOPSUM');
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push('/english-DOPSUM');
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push('/english-DOPSUM');
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
                   // }
                   // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish); Routemaster.of(context).push('/english-DOPSUM');
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  // }
+                  // if (wordsEnglish == "DOPSUM") {
+                  //   saveToHistory(wordsEnglish);
+                  //   Routemaster.of(context).push('/english-DOPSUM');
                   // }
                 },
               ),

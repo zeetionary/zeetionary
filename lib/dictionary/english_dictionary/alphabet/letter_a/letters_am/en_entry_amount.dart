@@ -4,52 +4,96 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryamenable - replace speakAmenable - replace amenable - /əˈmiːnəbl/ - find Dopsum2
+// replace these: replace EnglishEntryamount - replace speakAmount - replace amount - /əˈmaʊnt/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryamenable extends StatelessWidget {
-  EnglishEntryamenable({super.key});
+class EnglishEntryamount extends StatelessWidget {
+  EnglishEntryamount({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmenable(String languageCode) async {
-    // DOPSUM: CHANGE speakAmenable
+  Future<void> speakAmount(String languageCode) async {
+    // DOPSUM: CHANGE speakAmount
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amenable"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amount"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmenable48577(String languageCode) async {
-    // DOPSUM: CHANGE speakAmenable
+  Future<void> speakAmount4447(String languageCode) async {
+    // DOPSUM: CHANGE speakAmount
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I was amazed at the amount he could eat."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAmount49652(String languageCode) async {
+    // DOPSUM: CHANGE speakAmount
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Try to reduce the amount of energy and water you use at home."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAmount3522(String languageCode) async {
+    // DOPSUM: CHANGE speakAmount
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("They had three very amenable children."); // DOPSUM: CHANGE TEXT
+        .speak("Everyone has paid the same amount."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmenable635211(String languageCode) async {
-    // DOPSUM: CHANGE speakAmenable
+  Future<void> speakAmount5523(String languageCode) async {
+    // DOPSUM: CHANGE speakAmount
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "His earnings are said to amount to £300 000 per annum."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAmount5622(String languageCode) async {
+    // DOPSUM: CHANGE speakAmount
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Their actions in the war amount to genocide."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAmount514(String languageCode) async {
+    // DOPSUM: CHANGE speakAmount
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("He seemed most amenable to my idea."); // DOPSUM: CHANGE TEXT
+        .speak("You'll never amount to anything."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmenable(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmenable
+  // Future<void> speakAmount(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmount
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amenable"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amount"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAmount(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmount
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("amount"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -68,7 +112,7 @@ class EnglishEntryamenable extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "amenable", // DOPSUM: CHANGE WORD ENTRY - Find /əˈmiːnəbl/
+                                "amount", // DOPSUM: CHANGE WORD ENTRY - Find /əˈmaʊnt/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -87,7 +131,7 @@ class EnglishEntryamenable extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˈmiːnəbl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əˈmaʊnt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -98,7 +142,7 @@ class EnglishEntryamenable extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAmenable(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAmount(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -108,7 +152,7 @@ class EnglishEntryamenable extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˈmiːnəbl/,  /əˈmenəbl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                "IpaUS: /əˈmaʊnt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -118,7 +162,7 @@ class EnglishEntryamenable extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAmenable(
+                              onPressed: () => speakAmount(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -144,7 +188,7 @@ class EnglishEntryamenable extends StatelessWidget {
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -168,9 +212,9 @@ class EnglishEntryamenable extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: بەرپرس، لێ‌پرسراو، قایل، پێخۆش‌بوو، ساز، ڕازی، گوێڕایەڵ، ملکەچ، قسەبیس، حاڵی، گوێ(ڕا)گرتوو، ژێربارەوەچوو، ئەرک‌لەسەر
+کوردی: سەرجەم، کۆ، تێکڕا، بڕ، ھێند، ھەند، ئەندازە
 
-١. (ھاوەڵناو) شتێک کە ئاسان کاریگەر دەبێت یان کۆنترۆڵ دەکرێت''',
+١. (ناو) ڕێژە یان بڕ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -180,7 +224,7 @@ class EnglishEntryamenable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "They had three very amenable children.",
+                                    "I was amazed at the amount he could eat.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -194,7 +238,7 @@ class EnglishEntryamenable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سێ منداڵی گوێگریان ھەبوو",
+                                    "سەرسام‌بووم بەوەی دەتوانێت چەندە بخوات",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -206,7 +250,7 @@ class EnglishEntryamenable extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAmenable48577("en-GB"),
+                                onPressed: () => speakAmount4447("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -214,21 +258,20 @@ class EnglishEntryamenable extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAmenable48577(
-                                    // REPLACE: amenable /əˈmiːnəbl/,  /əˈmenəbl/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAmount4447(// REPLACE: amount /əˈmaʊnt/
+                                        "en-US"),
                               ),
                             ],
                           ),
                           const DividerSentences(),
-                          // const DividerDefinition(),
                           Row(
                             children: [
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "He seemed most amenable to my idea.",
+                                    "Try to reduce the amount of energy and water you use at home.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -242,7 +285,7 @@ class EnglishEntryamenable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر قایل دیاربوو بە بیرۆکەکەم",
+                                    "ھەوڵ‌بدە بڕی وزە و ئاوی بەکارھێندراو لە مەڵەوە کەم‌بکەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -254,7 +297,7 @@ class EnglishEntryamenable extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAmenable635211("en-GB"),
+                                onPressed: () => speakAmount49652("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -262,14 +305,228 @@ class EnglishEntryamenable extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAmenable635211(
-                                    // REPLACE: amenable /əˈmiːnəbl/,  /əˈmenəbl/
+                                onPressed: () => speakAmount49652(
+                                    // REPLACE: amount /əˈmaʊnt/
                                     "en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٢. (ناو) بڕە پارەیەک''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Everyone has paid the same amount.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ھەمووان ھەمان بڕیان داوە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAmount3522("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAmount3522(// REPLACE: amount /əˈmaʊnt/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٣. (کردار) کۆی‌گشتی شتێک''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "His earnings are said to amount to £300 000 per annum.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "قازانجەکانی دەبن بە ٣٠٠٠٠٠ پاوەند لە ساڵێکدا",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAmount5523("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAmount5523(// REPLACE: amount /əˈmaʊnt/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٤. (کردار) ھاوتابوون بە شتێک ''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Their actions in the war amount to genocide.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "کردەوەکانیان لە جەنگەکەدا ھاوتایە بە جینۆساید",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAmount5622("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAmount5622(// REPLACE: amount /əˈmaʊnt/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٥. (کردار) بوون بە شتێک ''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "You'll never amount to anything.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ھەرگیز نابیت بە ھیچ",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAmount514("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAmount514(// REPLACE: amount /əˈmaʊnt/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
@@ -284,7 +541,7 @@ class EnglishEntryamenable extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -314,18 +571,26 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: amenable 
-1. Disposed or willing to conform (= conformable)
-"someone amenable to the instruction of others";
+- Noun: amount (Derived forms: amounts)
+1. A quantity of money (= sum, sum of money, amount of money)
+"the amount he had in cash was insufficient"; "he borrowed a large amount of money";
  
-2. Responsive to suggestions and influences (= tractable)
-"an amenable child";
+2. The relative magnitude of something with reference to a criterion
+"an adequate amount of food for four people"
  
-3. Open to being acted upon in a certain way
-"an amenable hospitalization should not result in untimely death"; "the tumour was not amenable to surgical treatment"
+3. How much there is or how many there are of something that you can quantify (= measure, quantity)
  
-4. Liable to answer to a higher authority
-"the president is amenable to the constitutional court"
+4. A quantity obtained by the addition of a group of numbers (= sum, total)
+
+- Verb: amount (Derived forms: amounts, amounting, amounted)
+1. Be tantamount or equivalent to
+"Her action amounted to a rebellion"
+ 
+2. Add up in number or quantity (= total, number, add up, come)
+"The bills amounted to £2,000";
+
+3. To measure up to in kind or quality (= come, add up)
+"This idea will never amount to anything";
 '''),
         ],
       ),
@@ -336,7 +601,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'ndHOav52t7k';
+  static String myVideoId = '1bP5AvsRex4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -344,7 +609,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 643, // DOPSUM: CHANGE IT
+      startAt: 29, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -360,7 +625,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'hkO8qXCFYWA';
+  static String myVideoId = 'TPKpxno16Cw';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -368,7 +633,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 465, // DOPSUM: CHANGE IT
+      startAt: 283, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -384,7 +649,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'pv-c70rrKZI';
+  static String myVideoId = 'UCQv96-dqmQ';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -392,7 +657,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 280, // DOPSUM: CHANGE IT
+      startAt: 20, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -408,7 +673,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = '3kr7C2L6AUA';
+  static String myVideoId = 'qy2r9X0wM1o';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -416,7 +681,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 339, // DOPSUM: CHANGE IT
+      startAt: 1229, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -432,7 +697,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'QqFnn_spo4c';
+  static String myVideoId = 'GVsUOuSjvcg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -440,7 +705,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 294, // DOPSUM: CHANGE IT
+      startAt: 432, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -456,7 +721,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = '4rEEBRS3_AA';
+  static String myVideoId = 'kHTcoPoAnys';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -464,7 +729,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 650, // DOPSUM: CHANGE IT
+      startAt: 742, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -480,7 +745,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'Solb9uA-tgQ';
+  static String myVideoId = 'mS9CFBlLOcg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -488,7 +753,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 2666, // DOPSUM: CHANGE IT
+      startAt: 1485, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -504,7 +769,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'pafA-RU3q7U';
+  static String myVideoId = 'XfLHaB8dEYc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -512,7 +777,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 429, // DOPSUM: CHANGE IT
+      startAt: 174, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -528,7 +793,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = '6L68XIics5c';
+  static String myVideoId = 'ChgIkbg0x80';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -536,7 +801,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 317, // DOPSUM: CHANGE IT
+      startAt: 500, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -552,7 +817,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'PnO7pL-QWyc';
+  static String myVideoId = '4J0xFUyz1nw';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -560,7 +825,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1586, // DOPSUM: CHANGE IT
+      startAt: 7, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -576,7 +841,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = '4tBXTnDPpiA';
+  static String myVideoId = 'ZnKvQbpDYXU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -584,7 +849,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 437, // DOPSUM: CHANGE IT
+      startAt: 129, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -600,7 +865,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'qWAagS_MANg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -608,7 +873,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 228, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

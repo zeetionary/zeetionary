@@ -615,6 +615,17 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "amidst",
     "amiss",
     "ammonia",
+    "ammunition",
+    "amnesia",
+    "amnesty",
+    "amniocentesis",
+    "amoeba",
+    "amok",
+    "among",
+    "amongst",
+    "amorous",
+    "amorously",
+    "amount",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -3133,56 +3144,57 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   }
                   if (wordsEnglish == "take something amiss") {
                     saveToHistory(wordsEnglish);
-                    Routemaster.of(context).push('/english-take-something-amiss');
+                    Routemaster.of(context)
+                        .push('/english-take-something-amiss');
                   }
                   if (wordsEnglish == "ammonia") {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-ammonia');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "ammunition") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-ammunition');
+                  }
+                  if (wordsEnglish == "amnesia") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amnesia');
+                  }
+                  if (wordsEnglish == "amnesty") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amnesty');
+                  }
+                  if (wordsEnglish == "amniocentesis") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amniocentesis');
+                  }
+                  if (wordsEnglish == "amoeba") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amoeba');
+                  }
+                  if (wordsEnglish == "amok") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amok');
+                  }
+                  if (wordsEnglish == "among") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-among');
+                  }
+                  if (wordsEnglish == "amongst") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amongst');
+                  }
+                  if (wordsEnglish == "amorous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amorous');
+                  }
+                  if (wordsEnglish == "amorously") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amorously');
+                  }
+                  if (wordsEnglish == "amount") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amount');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

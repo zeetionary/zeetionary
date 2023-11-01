@@ -107,7 +107,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                 'assets/images/kurd_two.png',
                 width: 30,
               ),
-              label: 'Kurdish',
+              label: 'کوردی',
             ),
             const NavigationDestination(
               // selectedIcon: Icon(Icons.home),

@@ -19,6 +19,14 @@ class EnglishEntryaction extends StatelessWidget {
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("action"); // DOPSUM: CHANGE TEXT
   }
+  
+  Future<void> speakAction9652(String languageCode) async {
+    // DOPSUM: CHANGE speakAction
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Each of us must take responsibility for our own actions."); // DOPSUM: CHANGE TEXT
+  }
 
   Future<void> speakAct25473(String languageCode) async {
     // DOPSUM: CHANGE speakAction
@@ -381,7 +389,7 @@ class EnglishEntryaction extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAct25473("en-GB"),
+                                onPressed: () => speakAction9652("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -389,7 +397,7 @@ class EnglishEntryaction extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAct25473(
+                                onPressed: () => speakAction9652(
                                     "en-US"), // REPLACE action /ˈækʃn/
                               ),
                             ],
@@ -398,7 +406,7 @@ class EnglishEntryaction extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. (ناو) ئەو شتانەی کە کرێکاران دەیکەین بۆ دەربڕینی ناڕەزایی''',
+٣. (ناو) ئەو هەنگاوانەی کە کرێکاران دەینێن بۆ دەربڕینی ناڕەزایی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

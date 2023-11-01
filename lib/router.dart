@@ -612,17 +612,17 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_n/letters_no/en_entry_not_come_go_amiss.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_t/letters_ta/en_entry_take_something_amiss.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_ammonia.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_ammunition.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amnesia.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amnesty.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amniocentesis.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amoeba.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_m/letters_am/en_entry_amok.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_among.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amongst.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amorous.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amorously.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amount.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
@@ -1675,17 +1675,17 @@ final loggedInRoute = RouteMap(routes: {
   "/english-not-come-go-amiss": (_) => MaterialPage(child: EnglishEntrynotcomegoamiss()),
   "/english-take-something-amiss": (_) => MaterialPage(child: EnglishEntrytakesomethingamiss()),
   "/english-ammonia": (_) => MaterialPage(child: EnglishEntryammonia()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-ammunition": (_) => MaterialPage(child: EnglishEntryammunition()),
+  "/english-amnesia": (_) => MaterialPage(child: EnglishEntryamnesia()),
+  "/english-amnesty": (_) => MaterialPage(child: EnglishEntryamnesty()),
+  "/english-amniocentesis": (_) => MaterialPage(child: EnglishEntryamniocentesis()),
+  "/english-amoeba": (_) => MaterialPage(child: EnglishEntryamoeba()),
+  "/english-amok": (_) => MaterialPage(child: EnglishEntryamok()),
+  "/english-among": (_) => MaterialPage(child: EnglishEntryamong()),
+  "/english-amongst": (_) => MaterialPage(child: EnglishEntryamongst()),
+  "/english-amorous": (_) => MaterialPage(child: EnglishEntryamorous()),
+  "/english-amorously": (_) => MaterialPage(child: EnglishEntryamorously()),
+  "/english-amount": (_) => MaterialPage(child: EnglishEntryamount()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

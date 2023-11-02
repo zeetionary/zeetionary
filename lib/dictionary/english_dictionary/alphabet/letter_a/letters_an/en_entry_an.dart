@@ -42,7 +42,7 @@ class EnglishEntryan extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She's a atheist."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She's an atheist."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speak197524(String languageCode) async {
@@ -286,7 +286,7 @@ class EnglishEntryan extends StatelessWidget {
                                   child: Align(
                                     alignment: Alignment.topLeft,
                                     child: Text(
-                                      "She's a atheist.",
+                                      "She's an atheist.",
                                       textDirection: TextDirection
                                           .ltr, // Right-to-left direction
                                     ),
@@ -384,7 +384,7 @@ class EnglishEntryan extends StatelessWidget {
                                   child: Align(
                                     alignment: Alignment.topLeft,
                                     child: Text(
-                                      "a excellent knowledge of French",
+                                      "an excellent knowledge of French",
                                       textDirection: TextDirection
                                           .ltr, // Right-to-left direction
                                     ),

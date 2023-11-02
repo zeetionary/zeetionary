@@ -25,7 +25,8 @@ class EnglishEntryanaemia extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The main symptoms of anaemia are tiredness and pallor."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The main symptoms of anaemia are tiredness and pallor."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnaemia(String languageCode) async {
@@ -252,9 +253,9 @@ class EnglishEntryanaemia extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnaemia558(// REPLACE: anaemia /əˈniːmiə/
-                                        "en-US"),
+                                onPressed: () => speakAnaemia558(
+                                    // REPLACE: anaemia /əˈniːmiə/
+                                    "en-US"),
                               ),
                             ],
                           ),

@@ -648,6 +648,13 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "an",
     "anachronism",
     "anaemia",
+    "anaemic",
+    "anaerobic",
+    "anaesthesia",
+    "anaesthetic",
+    "anaesthetist",
+    "anaesthetize",
+    "anagram",
     "dopsum",
     "dopsum",
     "come of age",
@@ -3304,34 +3311,34 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-anaemia');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "anaemic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anaemic');
+                  }
+                  if (wordsEnglish == "anaerobic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anaerobic');
+                  }
+                  if (wordsEnglish == "anaesthesia") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anaesthesia');
+                  }
+                  if (wordsEnglish == "anaesthetic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anaesthetic');
+                  }
+                  if (wordsEnglish == "anaesthetist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anaesthetist');
+                  }
+                  if (wordsEnglish == "anaesthetize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anaesthetize');
+                  }
+                  if (wordsEnglish == "anagram") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anagram');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

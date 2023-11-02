@@ -629,13 +629,13 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amphetamine.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amphibian.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amphibious.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amphitheatre.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_ample.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amply.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amplify.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amplification.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amplifier.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amplitude.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
@@ -1692,13 +1692,13 @@ final loggedInRoute = RouteMap(routes: {
   "/english-amphetamine": (_) => MaterialPage(child: EnglishEntryamphetamine()),
   "/english-amphibian": (_) => MaterialPage(child: EnglishEntryamphibian()),
   "/english-amphibious": (_) => MaterialPage(child: EnglishEntryamphibious()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-amphitheatre": (_) => MaterialPage(child: EnglishEntryamphitheatre()),
+  "/english-ample": (_) => MaterialPage(child: EnglishEntryample()),
+  "/english-amply": (_) => MaterialPage(child: EnglishEntryamply()),
+  "/english-amplify": (_) => MaterialPage(child: EnglishEntryamplify()),
+  "/english-amplification": (_) => MaterialPage(child: EnglishEntryamplification()),
+  "/english-amplifier": (_) => MaterialPage(child: EnglishEntryamplifier()),
+  "/english-amplitude": (_) => MaterialPage(child: EnglishEntryamplitude()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

@@ -632,6 +632,13 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "amphetamine",
     "amphibian",
     "amphibious",
+    "amphitheatre",
+    "ample",
+    "amplify",
+    "amplification",
+    "amplifier",
+    "amplitude",
+    "amply",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -3225,34 +3232,34 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-amphibious');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "amphitheatre") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amphitheatre');
+                  }
+                  if (wordsEnglish == "ample") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-ample');
+                  }
+                  if (wordsEnglish == "amply") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amply');
+                  }
+                  if (wordsEnglish == "amplify") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amplify');
+                  }
+                  if (wordsEnglish == "amplification") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amplification');
+                  }
+                  if (wordsEnglish == "amplifier") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amplifier');
+                  }
+                  if (wordsEnglish == "amplitude") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amplitude');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

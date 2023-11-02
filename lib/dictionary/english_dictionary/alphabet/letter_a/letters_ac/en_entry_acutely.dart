@@ -193,7 +193,7 @@ class EnglishEntryacutely extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆرباش ئاگاداری ئەو ناڕيحەتییانەم کە تووشیان دەبین",
+                                    "زۆرباش ئاگاداری ئەو ناڕەحەتییانەم کە تووشیان دەبین",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

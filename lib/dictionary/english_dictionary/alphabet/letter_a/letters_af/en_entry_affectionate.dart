@@ -182,7 +182,7 @@ class EnglishEntryaffectionate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر بەسۆزە لەگەڵ منداڵانی",
+                                    "زۆر بەسۆزە لەگەڵ منداڵەکانی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

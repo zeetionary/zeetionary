@@ -4,62 +4,90 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: EnglishEntryabstract - speakAbstract - abstract - /ˈæbstrækt/
+// replace these: replace EnglishEntryampup - replace speakAmpup - replace amp up - /æmp ʌp/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryabstract extends StatelessWidget {
-  EnglishEntryabstract({super.key});
+class EnglishEntryampup extends StatelessWidget {
+  EnglishEntryampup({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAbstract(String languageCode) async {
-    // DOPSUM: CHANGE speakAbstract
+  Future<void> speakAmpup(String languageCode) async {
+    // DOPSUM: CHANGE speakAmpup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abstract"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amp up"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA65897(String languageCode) async {
-    // DOPSUM: CHANGE speakAbstract
+  Future<void> speakAmpup4414(String languageCode) async {
+    // DOPSUM: CHANGE speakAmpup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Their plan is to abstract 8 million gallons of water from the river."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He knew exactly when to amp the music up."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA259874(String languageCode) async {
-    // DOPSUM: CHANGE speakAbstract
+  Future<void> speakAmpup5560(String languageCode) async {
+    // DOPSUM: CHANGE speakAmpup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "the work of American abstract artists like Mark Rothko"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We're always looking for ways to amp up productivity in the workplace."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA78946(String languageCode) async {
-    // DOPSUM: CHANGE speakAbstract
+  Future<void> speakAmpup44855(String languageCode) async {
+    // DOPSUM: CHANGE speakAmpup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We may talk of beautiful things but beauty itself is abstract."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("After amping the crowd up with an impressive light show, the band took to the stage."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakA29867(String languageCode) async {
-    // DOPSUM: CHANGE speakAbstract
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The research shows that pre-school children are capable of thinking in abstract terms."); // DOPSUM: CHANGE TEXT
-  }
+  // Future<void> speakAmpup(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmpup
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("amp up"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAmpup(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmpup
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("amp up"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAmpup(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmpup
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("amp up"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAmpup(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmpup
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("amp up"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAmpup(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmpup
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("amp up"); // DOPSUM: CHANGE TEXT
+  // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14,
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -76,10 +104,12 @@ class EnglishEntryabstract extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              'abstract', // DOPSUM: CHANGE WORD ENTRY
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
+                            Expanded(
+                              child: Text(
+                                "amp up", // DOPSUM: CHANGE WORD ENTRY - Find /æmp ʌp/
+                                style: TextStyle(
+                                    fontSize: 20, fontWeight: FontWeight.bold),
+                              ),
                             ),
                             // SizedBox(
                             //   width: 10,
@@ -92,9 +122,12 @@ class EnglishEntryabstract extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ˈæbstrækt/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
+                            Container(
+                              constraints: const BoxConstraints(maxWidth: 300),
+                              child: const Text(
+                                "IpaUK: /æmp ʌp/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                style: TextStyle(fontSize: 14),
+                              ),
                             ),
                             IconButton(
                               iconSize: 16,
@@ -103,16 +136,19 @@ class EnglishEntryabstract extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAbstract(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAmpup(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ˈæbstrækt/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
-                              style: TextStyle(fontSize: 14),
+                            Container(
+                              constraints: const BoxConstraints(maxWidth: 300),
+                              child: const Text(
+                                "IpaUS: /æmp ʌp/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                style: TextStyle(fontSize: 14),
+                              ),
                             ),
                             IconButton(
                               iconSize: 16,
@@ -120,7 +156,7 @@ class EnglishEntryabstract extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAbstract(
+                              onPressed: () => speakAmpup(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -135,21 +171,21 @@ class EnglishEntryabstract extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
+                  VideoIconForTab(), // FIND: 2,
+                  VideoIconForTab(), // 07
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 14
+                  // VideoIconForTab(), // 15
                 ],
                 indicator: BoxDecoration(
                   color: Pallete.tabsbackgroundColor,
@@ -170,9 +206,7 @@ class EnglishEntryabstract extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: ڕووت، ھەڵماڵراو، ئابستراکت، مانایی، ئایدیاڵ، خەیاڵی، ئەندێشەیی، ناکرداری، ناکۆنکرێت، بیردۆزی، تیۆریک
-
-١. (ھاوەڵناو) پشتبەستوو بە ئایدیا گشتییەکان، نەک کەسێک، شتێک، یان بارودۆخێکیی تایبەت''',
+١. (کاری لێکدراو) زیادکردنی دەنگی موسیقا کە لە بڵیندگۆیەکەوە لێدەدرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -182,18 +216,21 @@ class EnglishEntryabstract extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The research shows that pre-school children are capable of thinking in abstract terms.",
+                                    "He knew exactly when to amp the music up.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "توێژینەوەکە دەریخستووە کە ئەو منداڵانەی لە قوتابخانە نین توانای بیرکردنەوەیان ھەیە بە بەکارھێنانی خەیاڵیان ",
+                                    "زۆرباش دەیزانی کەی دەنگی موسیقاکە زیادبکات",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -205,7 +242,7 @@ class EnglishEntryabstract extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakA29867("en-GB"),
+                                onPressed: () => speakAmpup4414("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -213,7 +250,9 @@ class EnglishEntryabstract extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakA29867("en-US"),
+                                onPressed: () =>
+                                    speakAmpup4414(// REPLACE: amp up /æmp ʌp/
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -221,7 +260,7 @@ class EnglishEntryabstract extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. (ھاوەڵناو) شتێک کە تەنھا وەک ئایدیا بوونی ھەیە، نەک بەشێوەی فیزیایی ''',
+٢. (کاری لێکدراو) زیادکردنی ڕێژە یان بڕی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -231,18 +270,21 @@ class EnglishEntryabstract extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "We may talk of beautiful things but beauty itself is abstract.",
+                                    "We're always looking for ways to amp up productivity in the workplace.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەتوانین باس لە شتە جوانەکان بکەین، بەڵام جوانی خۆی واتاییە ",
+                                    "ھەمیشە ھەوڵ دەدەین ڕێگا بدۆزینەوە بۆ زیادکردنی بەرھەمھێنان لە شوێن‌کارەکەمان",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -254,7 +296,7 @@ class EnglishEntryabstract extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakA78946("en-GB"),
+                                onPressed: () => speakAmpup5560("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -262,7 +304,9 @@ class EnglishEntryabstract extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakA78946("en-US"),
+                                onPressed: () =>
+                                    speakAmpup5560(// REPLACE: amp up /æmp ʌp/
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -270,7 +314,7 @@ class EnglishEntryabstract extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. (ھاوەڵناو) جۆرێکی ھونەر کە شتەکان وەک خۆیان پیشان نادا، بەڵکو بەو جۆرەی ھونەرمەندەکە دەیانبینێت ''',
+٣. (کاری لێکدراو) پێدانی جۆش‌وخرۆش بە کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -280,18 +324,21 @@ class EnglishEntryabstract extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "the work of American abstract artists like Mark Rothko",
+                                    "After amping the crowd up with an impressive light show, the band took to the stage.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کارەکانی ھونەرمەندە ئەبستراکتییە ئەمریکییەکانی وەک مارک رۆسکۆ ",
+                                    "لەدوای ئەوەی جەماوەرەکەیان خرۆشاند بە نمایشی لایتەکان، باندەکە چوونە سەر ستەیج",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -303,7 +350,7 @@ class EnglishEntryabstract extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakA259874("en-GB"),
+                                onPressed: () => speakAmpup44855("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -311,68 +358,21 @@ class EnglishEntryabstract extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakA259874("en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٤. (کردار) سڕینەوەی شتێک لە شوێنێک ''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Their plan is to abstract 8 million gallons of water from the river.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پلانەکەیان ئەوەبوو کە ھەشت ملیۆن گاڵۆن ئاو لە ڕووبارەکە دەربکەن ",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakA65897("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakA65897("en-US"),
+                                onPressed: () =>
+                                    speakAmpup44855(// REPLACE: amp up /æmp ʌp/
+                                        "en-US"),
                               ),
                             ],
                           ),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
@@ -408,34 +408,15 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: abstract
-1. Not representing or imitating external reality or the objects of nature (= abstractionist, nonfigurative, nonobjective)
-"a large abstract painting";
- 
-2. Dealing with a subject in the abstract without practical purpose or intention
-"abstract reasoning"; "abstract science"
- 
-3. Existing only in the mind; separated from embodiment
-"abstract words like 'truth' and 'justice'"
- 
-4. (computing) of a class in object-oriented programming, being a partial basis for subclasses rather than being completely defined and directly usable
+- Phrasal verb: amp up (Derived forms: amping up, amps up, amped up)
+1. to make (someone) more excited or energetic (= excite, energize)
+"When Smith came out to accept her trophy, Bieber smothered her with kisses, and then pumped his fist to amp up the crowd.";
 
-- Verb: abstract (Derived forms: abstracted, abstracting, abstracts)
-1. Consider a concept without thinking of a specific example; consider abstractly or theoretically
- 
-2. Consider apart from a particular case or instance
-"Let's abstract away from this particular example"
- 
-3. Give an abstract (of)
- 
-4. Take by theft
-- hook [informal], snitch [informal], thieve, cop [informal], knock off [informal], glom [N. Amer, informal], pilfer, cabbage [informal], purloin, pinch [Brit, informal], snarf [N. Amer, informal], swipe [informal], sneak [informal], filch [informal], nobble [Brit, informal], lift, whip [Brit, informal], nick [Brit, informal], snatch [informal], blag [Brit, informal]
+2.  to make (something) more intense (= heighten, intensify)
+"The violence is amped by the presence of automatic weapons and gyrating camerawork, but it all feels very familiar.";
 
-- Noun: abstract (Derived forms: abstracts)
-1. A concept or idea not associated with any specific instance (= abstraction)
-"he loved her only in the abstract--not in person";
- 
-2. A sketchy summary of the main points of an argument or theory (= outline, synopsis, précis, rundown)
+3.  to increase the amount of (something) (= raise)
+"As investors get used to steady returns, they start borrowing to amp up gains";
 '''),
         ],
       ),
@@ -446,7 +427,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '951Js2UoMSumx4';
+  static String myVideoId = '7EnWiGYT1g4';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -454,7 +435,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 238, // DOPSUM: CHANGE IT
+      startAt: 224, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -470,7 +451,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = '1Gxrwh4zGPg';
+  static String myVideoId = 'oOAyQUBithQ';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -478,7 +459,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 1136, // DOPSUM: CHANGE IT
+      startAt: 716, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -494,7 +475,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'J-K5OjAkiEA';
+  static String myVideoId = 'yhviJ9vB7Zg';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -502,7 +483,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 299, // DOPSUM: CHANGE IT
+      startAt: 1090, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -518,7 +499,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'QBoVj2qpVe0';
+  static String myVideoId = '_4xyf0fOd4I';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -526,7 +507,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 28, // DOPSUM: CHANGE IT
+      startAt: 540, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -542,7 +523,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '3C9wZf88y4Q';
+  static String myVideoId = 'uBQJ9iYUgoU';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -550,7 +531,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 739, // DOPSUM: CHANGE IT
+      startAt: 297, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -566,7 +547,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'lGdpsmZC1pg';
+  static String myVideoId = 'Rw2C9-6N6t8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -574,7 +555,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 157, // DOPSUM: CHANGE IT
+      startAt: 215, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -590,7 +571,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'SwQhKFMxmDY';
+  static String myVideoId = 'SedzswEwpPw';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -598,7 +579,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 3182, // DOPSUM: CHANGE IT
+      startAt: 22, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -614,7 +595,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'o2RGudbzHLw';
+  static String myVideoId = 'llpsjbNQIns';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -622,7 +603,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 737, // DOPSUM: CHANGE IT
+      startAt: 300, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -638,7 +619,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'K0c94ghBS4A';
+  static String myVideoId = '0WNMatxr7BE';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -646,7 +627,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 563, // DOPSUM: CHANGE IT
+      startAt: 895, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -662,7 +643,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'QcUey-DVYjk';
+  static String myVideoId = 'itJUeqkGwGc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -670,7 +651,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 10, // DOPSUM: CHANGE IT
+      startAt: 513, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -686,7 +667,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = 'IwJzsE8CvzQ';
+  static String myVideoId = '58MRRR6TJgY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -694,7 +675,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 421, // DOPSUM: CHANGE IT
+      startAt: 219, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -710,7 +691,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = 'Y_lY_LWkpoo';
+  static String myVideoId = 'riJcpOYXJvY';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -718,7 +699,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 665, // DOPSUM: CHANGE IT
+      startAt: 423, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -734,3 +715,6 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 }
 
 // end
+
+
+// TODO Implement this library.

@@ -626,6 +626,9 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "amorous",
     "amorously",
     "amount",
+    "amp",
+    "amp up",
+    "ampersand",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -3195,22 +3198,22 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-amount');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "amp") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amp');
+                  }
+                  if (wordsEnglish == "amp up") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amp-up');
+                  }
+                  if (wordsEnglish == "ampersand") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-ampersand');
+                  }
+                  if (wordsEnglish == "amphetamine") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amphetamine');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

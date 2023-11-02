@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
 // import 'package:zeetionary/grammar/grammar_screen.dart';
-import 'package:zeetionary/dictionary/english_dictionary/dopsum.dart';
 
 class GrammarScreen extends StatefulWidget {
   const GrammarScreen({super.key});
@@ -75,7 +75,7 @@ class _GrammarScreenState extends State<GrammarScreen> {
                   // For example:
                   Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (context) => EnglishEntryDopsum(),
+                      builder: (context) => EnglishEntryaback(),
                     ),
                   );
                 }

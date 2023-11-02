@@ -4,34 +4,90 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: EnglishEntryaccolade - speakAccolade - accolade - /ˈækəleɪd/
+// replace these: replace EnglishEntryampersand - replace speakAmpersand - replace ampersand - /ˈæmpəsænd/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryaccolade extends StatelessWidget {
-  EnglishEntryaccolade({super.key});
+class EnglishEntryampersand extends StatelessWidget {
+  EnglishEntryampersand({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAccolade(String languageCode) async {
-    // DOPSUM: CHANGE speakAccolade
+  Future<void> speakAmpersand(String languageCode) async {
+    // DOPSUM: CHANGE speakAmpersand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("accolade"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ampersand"); // DOPSUM: CHANGE TEXT
   }
-  
-  Future<void> speakAccolade85566(String languageCode) async {
-    // DOPSUM: CHANGE speakAccolade
+
+  Future<void> speakAmpersand0856(String languageCode) async {
+    // DOPSUM: CHANGE speakAmpersand
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He's been granted the ultimate accolade - his face on a postage stamp."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She has worked for both Google & Microsoft."); // DOPSUM: CHANGE TEXT
   }
+
+  // Future<void> speakAmpersand(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmpersand
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("ampersand"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAmpersand(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmpersand
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("ampersand"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAmpersand(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmpersand
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("ampersand"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAmpersand(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmpersand
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("ampersand"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAmpersand(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmpersand
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("ampersand"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAmpersand(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmpersand
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("ampersand"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAmpersand(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmpersand
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("ampersand"); // DOPSUM: CHANGE TEXT
+  // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 9,
+      length: 6, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -48,10 +104,12 @@ class EnglishEntryaccolade extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              'accolade', // DOPSUM: CHANGE WORD ENTRY
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
+                            Expanded(
+                              child: Text(
+                                "ampersand", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæmpəsænd/
+                                style: TextStyle(
+                                    fontSize: 20, fontWeight: FontWeight.bold),
+                              ),
                             ),
                             // SizedBox(
                             //   width: 10,
@@ -64,9 +122,12 @@ class EnglishEntryaccolade extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ˈækəleɪd/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
+                            Container(
+                              constraints: const BoxConstraints(maxWidth: 300),
+                              child: const Text(
+                                "IpaUK: /ˈæmpəsænd/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                style: TextStyle(fontSize: 14),
+                              ),
                             ),
                             IconButton(
                               iconSize: 16,
@@ -74,17 +135,20 @@ class EnglishEntryaccolade extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAccolade(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAmpersand(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ˈækəleɪd/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
-                              style: TextStyle(fontSize: 14),
+                            Container(
+                              constraints: const BoxConstraints(maxWidth: 300),
+                              child: const Text(
+                                "IpaUS: /ˈæmpərsænd/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                style: TextStyle(fontSize: 14),
+                              ),
                             ),
                             IconButton(
                               iconSize: 16,
@@ -92,7 +156,7 @@ class EnglishEntryaccolade extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAccolade(
+                              onPressed: () => speakAmpersand(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -107,21 +171,21 @@ class EnglishEntryaccolade extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  // VideoIconForTab(), // 05
+                  // VideoIconForTab(), // FIND: 2,
+                  // VideoIconForTab(), // 07
+                  // VideoIconForTab(), // 08
+                  // VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 14
+                  // VideoIconForTab(), // 15
                 ],
                 indicator: BoxDecoration(
                   color: Pallete.tabsbackgroundColor,
@@ -142,9 +206,9 @@ class EnglishEntryaccolade extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: پیاھەڵوتن، پەسن(دان)، ڕێ‌وڕەسمی پێدانی پلەوپایەی شۆڕەسواری (کە لەودا سووک شمشێر بەسەر شانا دەھێنرێ)
+کوردی: «وە»نیشان، ئەمپێرساند (نیشانەی & = بەواتای «وە»)
 
-١. (ناو) ستایش یان خەڵاتکردنی کەسێک بەھۆی دەستکەوتەکانی''',
+١. (ناو) نیشانەی & کە بە واتای «و» بەکاردێت ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -154,18 +218,21 @@ class EnglishEntryaccolade extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "He's been granted the ultimate accolade - his face on a postage stamp.",
+                                    "She has worked for both Google & Microsoft.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەوپەڕی ستایشی پێدرا بە دانانی وێنەکەی لەسەر پوولی پۆستەیەک",
+                                    "بۆ ھەردوو گووگڵ و مایکرۆسۆفت کاری‌کردووە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -177,7 +244,7 @@ class EnglishEntryaccolade extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAccolade85566("en-GB"),
+                                onPressed: () => speakAmpersand0856("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -185,20 +252,22 @@ class EnglishEntryaccolade extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAccolade85566("en-US"),
+                                onPressed: () => speakAmpersand0856(
+                                    // REPLACE: ampersand /ˈæmpərsænd/
+                                    "en-US"),
                               ),
                             ],
                           ),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
-                    YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(),
-                    YoutubeEmbeddedseven(),
+                    // YoutubeEmbeddedfive(),
+                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    // YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
@@ -233,9 +302,8 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: accolade (Derived forms: accolades)
-1. A tangible symbol signifying approval or distinction (= award, honor [US], honour [Brit, Cdn], laurels)
-"an accolade for bravery";
+- Noun: ampersand (= Derived forms: ampersands)
+1. A punctuation mark (&amp;) used to represent conjunction (and)
 '''),
         ],
       ),
@@ -246,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '29aLEnKvSAA';
+  static String myVideoId = 'zUrDUxh5xS0';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -254,7 +322,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 227, // DOPSUM: CHANGE IT
+      startAt: 144, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -270,7 +338,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'ligo_LBPfiE';
+  static String myVideoId = 'oOLDS5vo79I';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -278,7 +346,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      // startAt: 227, // DOPSUM: CHANGE IT
+      startAt: 82, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -294,7 +362,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'f3UOtY647GU';
+  static String myVideoId = 'nB_s79lHSVs';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -302,7 +370,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 523, // DOPSUM: CHANGE IT
+      startAt: 385, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -318,7 +386,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'cbzyHaWlcHI';
+  static String myVideoId = 'zYierUhIFNQ';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -326,7 +394,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 750, // DOPSUM: CHANGE IT
+      startAt: 5863, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -340,77 +408,3 @@ class YoutubeEmbeddedfour extends StatelessWidget {
     );
   }
 }
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'yXc-BNchgdg';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 12, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedfive({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = '8VE_AxA2e6I';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 497, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedsix({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'Io0v8y_zzpM';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true,
-      loop: true,
-      mute: false,
-      startAt: 52, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedseven({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-// end

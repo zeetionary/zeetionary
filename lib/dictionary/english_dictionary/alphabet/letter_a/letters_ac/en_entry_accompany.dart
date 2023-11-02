@@ -226,7 +226,7 @@ class EnglishEntryaccompany extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناچاردەبم داوات لێ بکەم ەلەگەڵم بێیت بۆ بنکەی پۆلیس",
+                                    "ناچاردەبم داوات لێ بکەم لەگەڵم بێیت بۆ بنکەی پۆلیس",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

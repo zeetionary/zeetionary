@@ -224,7 +224,7 @@ class EnglishEntryacclaim extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دۆزینەوەکانی ستایشی بەرفراوانیان بەدوای خۆیاندا ھێنا.",
+                                    "دۆزینەوەکانی ستایشی بەرفراوانیان بەدوای خۆیاندا ھێنا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

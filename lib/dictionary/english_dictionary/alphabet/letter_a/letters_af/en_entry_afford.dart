@@ -43,7 +43,7 @@ class EnglishEntryafford extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We can afford to wait."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We cannot afford to ignore this warning."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAf44922(String languageCode) async {

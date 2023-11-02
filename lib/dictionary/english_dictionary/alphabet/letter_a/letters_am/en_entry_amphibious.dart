@@ -4,90 +4,90 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryAdopsum - replace speakAdopsum - replace Dopsum1 - /haʊ/ - find Dopsum2
+// replace these: replace EnglishEntryamphibious - replace speakAmphibious - replace amphibious - /æmˈfɪbiəs/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryAdopsum extends StatelessWidget {
-  EnglishEntryAdopsum({super.key});
+class EnglishEntryamphibious extends StatelessWidget {
+  EnglishEntryamphibious({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdopsum(String languageCode) async {
-    // DOPSUM: CHANGE speakAdopsum
+  Future<void> speakAmphibious(String languageCode) async {
+    // DOPSUM: CHANGE speakAmphibious
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("amphibious"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  Future<void> speakAmphibious3344(String languageCode) async {
+    // DOPSUM: CHANGE speakAmphibious
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Most species of frogs are amphibious."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAmphibious496002(String languageCode) async {
+    // DOPSUM: CHANGE speakAmphibious
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("A third brigade is at sea, ready for an amphibious assault."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAmphibious44952(String languageCode) async {
+    // DOPSUM: CHANGE speakAmphibious
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("I saw an amphibious plane at the lake yesterday."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAmphibious(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmphibious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amphibious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  // Future<void> speakAmphibious(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmphibious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amphibious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  // Future<void> speakAmphibious(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmphibious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amphibious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  // Future<void> speakAmphibious(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmphibious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amphibious"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  // Future<void> speakAmphibious(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAmphibious
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("amphibious"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 2, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -106,7 +106,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "Dopsum1", // DOPSUM: CHANGE WORD ENTRY - Find /haʊ/
+                                "amphibious", // DOPSUM: CHANGE WORD ENTRY - Find /æmˈfɪbiəs/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -125,7 +125,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /haʊ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /æmˈfɪbiəs/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -136,7 +136,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAdopsum(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAmphibious(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -146,7 +146,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /haʊ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                "IpaUS: /æmˈfɪbiəs/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -156,7 +156,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAdopsum(
+                              onPressed: () => speakAmphibious(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -171,18 +171,18 @@ class EnglishEntryAdopsum extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  // VideoIconForTab(), // 01
-                  // VideoIconForTab(), // 02
-                  // VideoIconForTab(), // 03
-                  // VideoIconForTab(), // 04
-                  // VideoIconForTab(), // 05
-                  // VideoIconForTab(), // FIND: 2,
-                  // VideoIconForTab(), // 07
-                  // VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
+                  VideoIconForTab(), // FIND: 2,
+                  VideoIconForTab(), // 07
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -206,9 +206,9 @@ class EnglishEntryAdopsum extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: 
+کوردی: دووژینە، وشکاوەکی، وشکاوی، (کرداری لەشکری) زەمینی-دەریایی، وشکانی-ئاوی
 
-١. (هاوەڵناو) پێناسە''',
+١. (ھاوەڵناو) گیانەوەرێک کە توانای ھەیە لە وشکانی و ئاودا بژێ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -218,7 +218,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "DOPSUM_WRITE_A_SENTENCE",
+                                    "Most species of frogs are amphibious.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -232,7 +232,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "رستە_رستە_رستە_رستە",
+                                    "زۆرینەی بۆقەکان دووژینەن",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -244,7 +244,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdopsum("en-GB"),
+                                onPressed: () => speakAmphibious3344("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -253,7 +253,116 @@ class EnglishEntryAdopsum extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAdopsum(// REPLACE: Dopsum1 /haʊ/
+                                    speakAmphibious3344(// REPLACE: amphibious /æmˈfɪbiəs/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٢. (ھاوەڵناو) ئۆپەراسیۆنێکی سەربازی کە سەربازان لە دەریاوە دێنەسەر وشکانی''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "A third brigade is at sea, ready for an amphibious assault.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "سێیەم لیوا لە دەریان و ئامادەی ھێرشی ئاوین",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAmphibious496002("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAmphibious496002(// REPLACE: Dopsum1 /haʊ/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          // const DividerSentences(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٣. (ھاوەڵناو) ئۆتۆمبێلێک یان فڕۆکەیەک کە توانای ھەبێت لەسەر ئاو و وشکانیش کاربکات''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "I saw an amphibious plane at the lake yesterday.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "دوێنێ فڕۆکەیەکی جووتفڕم بینی لە دەریاچەکەدا ",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAmphibious44952("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAmphibious44952(// REPLACE: Dopsum1 /haʊ/
                                         "en-US"),
                               ),
                             ],
@@ -264,17 +373,17 @@ class EnglishEntryAdopsum extends StatelessWidget {
                       ),
                     ),
                     YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
-                    // YoutubeEmbeddedtwo(),
-                    // YoutubeEmbeddedthree(),
-                    // YoutubeEmbeddedfour(),
-                    // YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    // YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedtwo(),
+                    YoutubeEmbeddedthree(),
+                    YoutubeEmbeddedfour(),
+                    YoutubeEmbeddedfive(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -304,10 +413,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-
-Dopsum2 
-
-Dopsum2
+- Adjective: amphibious  
+1. Relating to or characteristic of animals of the class Amphibia (= amphibian)
+ 
+2. Operating or living on land and in water
+"amphibious vehicles"; "amphibious operations"; "amphibious troops"; "frogs are amphibious animals"
 '''),
         ],
       ),
@@ -318,7 +428,7 @@ Dopsum2
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = '3lM9jJR4dPo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -326,7 +436,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -342,7 +452,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = '8ekMrwNur9Y';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -350,7 +460,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 133, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -366,7 +476,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'dWtmCKZAFhQ';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -374,7 +484,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 6, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -390,7 +500,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'jUejvrbRJmk';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -398,7 +508,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 19, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -414,7 +524,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'KPICvVm5QOA';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -422,7 +532,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 29, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -438,7 +548,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 's6Xy4INpS_w';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -446,7 +556,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -462,7 +572,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'YPvq1YbpKbM';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -470,7 +580,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -486,7 +596,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'BmUrJaOo1Lw';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -494,7 +604,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 271, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -510,7 +620,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'xYKL9MRXVrw';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -518,7 +628,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 890, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -534,7 +644,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = '-Rrmqju74A8';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -542,7 +652,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 574, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -558,7 +668,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = '1TgoPjQ3K14';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -566,7 +676,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 526, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -582,7 +692,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = 'pJ41WRSrrOo';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -590,7 +700,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
       autoPlay: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 297, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -608,3 +718,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 // end
 
 
+// TODO Implement this library.

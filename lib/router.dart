@@ -627,8 +627,8 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amp_up.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_ampersand.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amphetamine.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amphibian.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amphibious.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_DOPSUM.dart';
@@ -1690,8 +1690,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-amp-up": (_) => MaterialPage(child: EnglishEntryampup()),
   "/english-ampersand": (_) => MaterialPage(child: EnglishEntryampersand()),
   "/english-amphetamine": (_) => MaterialPage(child: EnglishEntryamphetamine()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-amphibian": (_) => MaterialPage(child: EnglishEntryamphibian()),
+  "/english-amphibious": (_) => MaterialPage(child: EnglishEntryamphibious()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

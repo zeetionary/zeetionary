@@ -629,6 +629,9 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "amp",
     "amp up",
     "ampersand",
+    "amphetamine",
+    "amphibian",
+    "amphibious",
     "dopsum",
     "dopsum",
     "dopsum",
@@ -3214,14 +3217,14 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-amphetamine');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "amphibian") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amphibian');
+                  }
+                  if (wordsEnglish == "amphibious") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-amphibious');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

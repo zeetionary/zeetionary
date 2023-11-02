@@ -325,7 +325,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 346, // DOPSUM: CHANGE IT
@@ -349,7 +349,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 1264, // DOPSUM: CHANGE IT
@@ -373,7 +373,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 179, // DOPSUM: CHANGE IT
@@ -397,7 +397,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 1149, // DOPSUM: CHANGE IT
@@ -421,7 +421,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 260, // DOPSUM: CHANGE IT
@@ -445,7 +445,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 100, // DOPSUM: CHANGE IT
@@ -469,7 +469,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 148, // DOPSUM: CHANGE IT

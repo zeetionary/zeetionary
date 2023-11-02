@@ -273,7 +273,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 57, // DOPSUM: CHANGE IT
@@ -297,7 +297,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 9664, // DOPSUM: CHANGE IT
@@ -321,7 +321,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 4646, // DOPSUM: CHANGE IT
@@ -345,7 +345,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 23, // DOPSUM: CHANGE IT
@@ -369,7 +369,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 1092, // DOPSUM: CHANGE IT
@@ -393,7 +393,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 134, // DOPSUM: CHANGE IT

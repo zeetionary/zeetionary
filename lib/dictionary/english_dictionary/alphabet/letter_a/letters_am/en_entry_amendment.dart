@@ -25,7 +25,8 @@ class EnglishEntryamendment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Parliament passed the bill without further amendment."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Parliament passed the bill without further amendment."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAmendment4557(String languageCode) async {
@@ -33,7 +34,8 @@ class EnglishEntryamendment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The Senate added numerous amendments to the bill."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The Senate added numerous amendments to the bill."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAmendment74111(String languageCode) async {
@@ -41,7 +43,8 @@ class EnglishEntryamendment extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The 19th Amendment gave women the right to vote."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The 19th Amendment gave women the right to vote."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -95,9 +98,9 @@ class EnglishEntryamendment extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAmendment(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAmendment(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -212,9 +215,9 @@ class EnglishEntryamendment extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAmendment1244(// REPLACE: amendment /əˈmendmənt/
-                                        "en-US"),
+                                onPressed: () => speakAmendment1244(
+                                    // REPLACE: amendment /əˈmendmənt/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -260,9 +263,9 @@ class EnglishEntryamendment extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAmendment4557(// REPLACE: amendment /əˈmendmənt/
-                                        "en-US"),
+                                onPressed: () => speakAmendment4557(
+                                    // REPLACE: amendment /əˈmendmənt/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -315,9 +318,9 @@ class EnglishEntryamendment extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAmendment74111(// REPLACE: amendment /əˈmendmənt/
-                                        "en-US"),
+                                onPressed: () => speakAmendment74111(
+                                    // REPLACE: amendment /əˈmendmənt/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -386,7 +389,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 207, // DOPSUM: CHANGE IT
@@ -410,7 +413,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 107, // DOPSUM: CHANGE IT
@@ -434,7 +437,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 67, // DOPSUM: CHANGE IT
@@ -458,7 +461,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 57, // DOPSUM: CHANGE IT
@@ -482,7 +485,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 24, // DOPSUM: CHANGE IT
@@ -506,7 +509,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 24, // DOPSUM: CHANGE IT
@@ -530,7 +533,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       // startAt: 222222222222222, // DOPSUM: CHANGE IT
@@ -554,7 +557,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 25, // DOPSUM: CHANGE IT
@@ -578,7 +581,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 222222222222222, // DOPSUM: CHANGE IT
@@ -602,7 +605,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 222222222222222, // DOPSUM: CHANGE IT
@@ -626,7 +629,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 222222222222222, // DOPSUM: CHANGE IT
@@ -650,7 +653,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true,
+      autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
       startAt: 222222222222222, // DOPSUM: CHANGE IT

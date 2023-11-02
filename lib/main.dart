@@ -24,6 +24,7 @@ import 'package:zeetionary/theme/pallete.dart';
 // flutter pub cache repair -v (Disclaimer: It will download each and every version of all the packages)
 // taskkill /f /im dart*
 // taskkill /f /im adb* (You can run "adb kill-server" too)
+// flutter doctor --android-licenses
 
 void main() async {
   // WidgetsFlutterBinding.ensureInitialized();

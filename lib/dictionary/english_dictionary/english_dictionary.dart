@@ -655,6 +655,13 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "anaesthetist",
     "anaesthetize",
     "anagram",
+    "analgesic",
+    "analog",
+    "analogue",
+    "analogy",
+    "analogous",
+    "analyse",
+    "analysis",
     "dopsum",
     "dopsum",
     "come of age",
@@ -3339,34 +3346,34 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-anagram');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "analgesic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-analgesic');
+                  }
+                  if (wordsEnglish == "analogue") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-analogue');
+                  }
+                  if (wordsEnglish == "analog") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-analog');
+                  }
+                  if (wordsEnglish == "analogy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-analogy');
+                  }
+                  if (wordsEnglish == "analogous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-analogous');
+                  }
+                  if (wordsEnglish == "analyse") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-analyse');
+                  }
+                  if (wordsEnglish == "analysis") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-analysis');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

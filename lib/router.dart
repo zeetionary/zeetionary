@@ -652,13 +652,13 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anaesthetist.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anaesthetize.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anagram.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_analgesic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_analogue.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_analog.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_analogy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_analogous.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_analyse.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_analysis.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
@@ -1390,13 +1390,13 @@ final loggedInRoute = RouteMap(routes: {
   "/english-anaesthetist": (_) => MaterialPage(child: EnglishEntryanaesthetist()),
   "/english-anaesthetize": (_) => MaterialPage(child: EnglishEntryanaesthetize()),
   "/english-anagram": (_) => MaterialPage(child: EnglishEntryanagram()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-analgesic": (_) => MaterialPage(child: EnglishEntryanalgesic()),
+  "/english-analogue": (_) => MaterialPage(child: EnglishEntryanalogue()),
+  "/english-analog": (_) => MaterialPage(child: EnglishEntryanalog()),
+  "/english-analogy": (_) => MaterialPage(child: EnglishEntryanalogy()),
+  "/english-analogous": (_) => MaterialPage(child: EnglishEntryanalogous()),
+  "/english-analyse": (_) => MaterialPage(child: EnglishEntryanalyse()),
+  "/english-analysis": (_) => MaterialPage(child: EnglishEntryanalysis()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

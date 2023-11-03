@@ -721,7 +721,7 @@ class HistoryScreen extends StatelessWidget {
       "analyze": '/english-analyze',
       "anarchy": '/english-anarchy',
       "anarchist": '/english-anarchist',
-      // "DOPSUM": '/english-DOPSUM',
+      "anatomy": '/english-anatomy',
       // "DOPSUM": '/english-DOPSUM',
       // "DOPSUM": '/english-DOPSUM',
       // "DOPSUM": '/english-DOPSUM',

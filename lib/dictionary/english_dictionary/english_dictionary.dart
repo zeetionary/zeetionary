@@ -668,6 +668,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "analyze",
     "anarchy",
     "anarchist",
+    "anatomy",
     "dopsum",
     "dopsum",
     "come of age",
@@ -3404,10 +3405,10 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-anarchist');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "anatomy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anatomy');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

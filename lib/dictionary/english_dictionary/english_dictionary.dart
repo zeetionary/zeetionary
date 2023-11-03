@@ -662,6 +662,12 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "analogous",
     "analyse",
     "analysis",
+    "analyst",
+    "analytic",
+    "analytical",
+    "analyze",
+    "anarchy",
+    "anarchist",
     "dopsum",
     "dopsum",
     "come of age",
@@ -3374,30 +3380,30 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-analysis');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "analyst") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-analyst');
+                  }
+                  if (wordsEnglish == "analytical") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-analytical');
+                  }
+                  if (wordsEnglish == "analytic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-analytic');
+                  }
+                  if (wordsEnglish == "analyze") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-analyze');
+                  }
+                  if (wordsEnglish == "anarchy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anarchy');
+                  }
+                  if (wordsEnglish == "anarchist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anarchist');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

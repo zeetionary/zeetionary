@@ -113,7 +113,7 @@ class EnglishEntryafter extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("She asked after you (= how you were)."); // DOPSUM: CHANGE TEXT
+        .speak("She asked after you."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAfter459322(String languageCode) async {

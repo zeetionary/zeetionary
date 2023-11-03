@@ -280,7 +280,7 @@ class EnglishEntryanalysis extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بڕیارەکەمان‌دا لەدواو لەبەرچاوگرتنی لێکدانەوەمان بۆ بارودۆخەکە",
+                                    "بڕیارەکەمان‌دا لەدوای لەبەرچاوگرتنی لێکدانەوەمان بۆ بارودۆخەکە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

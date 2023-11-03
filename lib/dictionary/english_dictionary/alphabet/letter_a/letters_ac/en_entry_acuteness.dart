@@ -160,7 +160,7 @@ class EnglishEntryacuteness extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (ناو) ڕێژەی کوذندەیی و سەختی شتێک''',
+١. (ناو) ڕێژەی کوشندەیی و سەختی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

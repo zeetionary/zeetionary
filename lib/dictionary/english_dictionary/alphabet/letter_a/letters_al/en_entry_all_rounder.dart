@@ -205,7 +205,7 @@ class EnglishEntryallrounder extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAllrounder(
+                                onPressed: () => speakAllrounder12544(
                                     // REPLACE: all-rounder /ˌɔːl ˈraʊndər/
                                     "en-US"),
                               ),

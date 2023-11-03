@@ -335,7 +335,7 @@ class EnglishEntryanalogy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەتوانین لەم بیردۆزە تێ‌بگەین بە بەراوردکردنی بی مرۆڤ",
+                                    "ئەتوانین لەم بیردۆزە تێ‌بگەین بە بەراوردکردنی بە مرۆڤ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

@@ -209,7 +209,7 @@ class EnglishEntryamply extends StatelessWidget {
                             '''
 کوردی: بەزیادەوە، بەدوورودرێژی، بە تێروتەسەلی، بەلێشاو
 
-١. (ھاوەڵناو) بەپێی پێویست یان زیاتر''',
+١. (ناو) بەپێی پێویست یان زیاتر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

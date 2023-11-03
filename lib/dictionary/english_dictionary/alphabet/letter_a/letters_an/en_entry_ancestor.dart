@@ -4,84 +4,84 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryanatomy - replace speakAnatomy - replace anatomy - /əˈnætəmi/ - find Dopsum2
+// replace these: replace EnglishEntryancestor - replace speakAncestor - replace ancestor - /ˈænsestə(r)/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryanatomy extends StatelessWidget {
-  EnglishEntryanatomy({super.key});
+class EnglishEntryancestor extends StatelessWidget {
+  EnglishEntryancestor({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnatomy(String languageCode) async {
-    // DOPSUM: CHANGE speakAnatomy
+  Future<void> speakAncestor(String languageCode) async {
+    // DOPSUM: CHANGE speakAncestor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anatomy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ancestor"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnatomy409(String languageCode) async {
-    // DOPSUM: CHANGE speakAnatomy
+  Future<void> speakAncestor7690(String languageCode) async {
+    // DOPSUM: CHANGE speakAncestor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("An understanding of human anatomy is important to a dancer."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("His ancestors had come to America from Ireland."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnatomy499(String languageCode) async {
-    // DOPSUM: CHANGE speakAnatomy
+  Future<void> speakAncestor4800(String languageCode) async {
+    // DOPSUM: CHANGE speakAncestor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The female anatomy includes organs like the ovaries and uterus."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("There were portraits of his ancestors on the walls of the room."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnatomy9500(String languageCode) async {
-    // DOPSUM: CHANGE speakAnatomy
+  Future<void> speakAncestor02560(String languageCode) async {
+    // DOPSUM: CHANGE speakAncestor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Various parts of his anatomy were clearly visible."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("These bones come from an animal that is the ancestor of the modern horse."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnatomy5582(String languageCode) async {
-    // DOPSUM: CHANGE speakAnatomy
+  Future<void> speakAncestor0805(String languageCode) async {
+    // DOPSUM: CHANGE speakAncestor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The article explores an anatomy of the current recession's causes."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("This wooden instrument is the ancestor of the modern metal flute."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnatomy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnatomy
+  // Future<void> speakAncestor(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAncestor
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anatomy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ancestor"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnatomy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnatomy
+  // Future<void> speakAncestor(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAncestor
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anatomy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ancestor"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnatomy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnatomy
+  // Future<void> speakAncestor(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAncestor
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anatomy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ancestor"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnatomy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnatomy
+  // Future<void> speakAncestor(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAncestor
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anatomy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ancestor"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -106,7 +106,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "anatomy", // DOPSUM: CHANGE WORD ENTRY - Find /əˈnætəmi/
+                                "ancestor", // DOPSUM: CHANGE WORD ENTRY - Find /ˈænsestə(r)/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -125,7 +125,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˈnætəmi/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈænsestə(r)/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -136,7 +136,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAnatomy(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAncestor(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -146,7 +146,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˈnætəmi/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                "IpaUS: /ˈænsestər/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -156,7 +156,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAnatomy(
+                              onPressed: () => speakAncestor(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -176,7 +176,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // FIND: 2,
+                  VideoIconForTab(), // FIND: 14,
                   VideoIconForTab(), // 07
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
@@ -206,9 +206,9 @@ class EnglishEntryanatomy extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: ئاناتۆمی، توێکاری، یەکاڵاکردنەوە، توێ‌توێ‌کردن، دارەڕا، چوارچێوە، پێکھاتە، داروبار، لەش، جەستە، تاوتوێ(کردن)، لێکدانەوە، شی‌کردنەوە، پێکھاتە یان داڕشتەی پێچەڵاوپێچ
+کوردی: ڕەچەڵەک، پێشینە، کال‌وباب، باووباپیر(ان)، بنەباب، ئەژداد، شێوەی سەرەتایی یان کۆن
 
-١. (ناو) وردبوونەوەی زانستی لە پێکھاتەی فیزیکی مرۆڤ، ئاژەڵ، و ڕووەک''',
+١. (ناو) باوان؛ کەسێکی بنەماڵەکەت کە زۆر لەمەوپێش ژیاوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -218,7 +218,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "An understanding of human anatomy is important to a dancer.",
+                                    "His ancestors had come to America from Ireland.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -232,7 +232,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تێگەشتن لە پێکھاتەی درووستبوونی لەشی مرۆڤ گرنگە بۆ سەماکارێک",
+                                    "باوانی لە ئێرلەنداوە ھات‌بوون بۆ ئەمریکا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -244,7 +244,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnatomy409("en-GB"),
+                                onPressed: () => speakAncestor7690("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -253,7 +253,55 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAnatomy409(// REPLACE: anatomy /əˈnætəmi/
+                                    speakAncestor7690(// REPLACE: ancestor /ˈænsestər/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "There were portraits of his ancestors on the walls of the room.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "وێنەی باوانی لەسەر دیواری ژوورەکە بوو",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAncestor4800("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAncestor4800(// REPLACE: ancestor /ˈænsestər/
                                         "en-US"),
                               ),
                             ],
@@ -263,7 +311,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. (ناو) پێکھاتەی فیزیکی مرۆڤ، ئاژەڵ، یان ڕووەک''',
+٢. (ناو) ئاژەڵێک کە لە کۆندا ژیاوە و لە ئێستادا ئاژەڵێکی تر لێوەی گەشەی کردووە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -273,7 +321,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The female anatomy includes organs like the ovaries and uterus.",
+                                    "These bones come from an animal that is the ancestor of the modern horse.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -287,7 +335,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جەستەی مێینە ئەندامەکانی وەک ھێلکەدان و مناڵ‌دان لەخۆدەگرێت",
+                                    "ئەم ئێسکانە ھی ئاژەڵێکن کە باوانی ئەسپی ئێستایە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -299,7 +347,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnatomy499("en-GB"),
+                                onPressed: () => speakAncestor02560("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -308,7 +356,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAnatomy499(// REPLACE: anatomy /əˈnætəmi/
+                                    speakAncestor02560(// REPLACE: ancestor /ˈænsestər/
                                         "en-US"),
                               ),
                             ],
@@ -318,7 +366,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. (ناو) جەستەی مرۆڤێک''',
+٣. (ناو) شێوەیەکی سەرەتایی کەرەستەیەک کە لە ئێستادا زیاتر بەرەوپێش‌چووە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -328,7 +376,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Various parts of his anatomy were clearly visible.",
+                                    "This wooden instrument is the ancestor of the modern metal flute.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -342,7 +390,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژمارەیەک لە بەشەکانی جەستەی بەڕوونی دیاربوون",
+                                    "ئەم ئامێرە دارینە شێوەی سەرەتایی فلوتی ئاسنی ئەم سەردەمەیە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -354,7 +402,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnatomy9500("en-GB"),
+                                onPressed: () => speakAncestor0805("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -363,62 +411,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAnatomy9500(// REPLACE: anatomy /əˈnætəmi/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٤. (ناو) لێکۆڵینەوەی ورد لە بابەتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The article explores an anatomy of the current recession's causes.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وتارەکە لێکۆڵینەوەیەکی وردە لە ھۆکارەکانی ئەم قەیرانەی ئێستا",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAnatomy5582("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAnatomy5582(// REPLACE: anatomy /əˈnætəmi/
+                                    speakAncestor0805(// REPLACE: ancestor /ˈænsestər/
                                         "en-US"),
                               ),
                             ],
@@ -469,13 +462,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anatomy (Derived forms: anatomies)
-1. The branch of morphology that deals with the structure of animals (= general anatomy)
+- Noun: ancestor (Derived forms: ancestors)
+1. Someone from whom you are descended (but usually more remote than a grandparent) (= ascendant, ascendent, antecedent, root)
  
-2. The physical body of a human being (= human body, physical body, material body, soma, build, figure, physique, shape, bod [informal], chassis [informal], frame, form, flesh)
- 
-3. A detailed analysis
-"he studied the anatomy of crimes"
+2. An earlier form from which a later form evolved
 '''),
         ],
       ),
@@ -486,7 +476,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "0foq0Krn9yI";
+  static String myVideoId = "9kakBfGxhpM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -495,7 +485,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 74, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -511,7 +501,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "gl0VUHLJuls";
+  static String myVideoId = "KN7sekRxFHg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -520,7 +510,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 38, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -536,7 +526,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "hA95iw4B2jg";
+  static String myVideoId = "QkCJcTtjDME";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -545,7 +535,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 1218, // DOPSUM: CHANGE IT
+      startAt: 103, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -561,7 +551,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "Fa13JKGG0ds";
+  static String myVideoId = "jBBJvgK5YAg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -570,7 +560,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 388, // DOPSUM: CHANGE IT
+      startAt: 32, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -586,7 +576,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "fZJGTevM3QI";
+  static String myVideoId = "KD1R9AIFB0c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -595,7 +585,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 120, // DOPSUM: CHANGE IT
+      startAt: 49, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -611,7 +601,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "IlU-zDU6aQ0";
+  static String myVideoId = "M8lm9HOHwZY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -620,7 +610,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 2491, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -636,7 +626,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "0olmZzsF4Xo";
+  static String myVideoId = "J-K5OjAkiEA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -645,7 +635,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 685, // DOPSUM: CHANGE IT
+      startAt: 495, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -661,7 +651,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "KdpkxdP9Thw";
+  static String myVideoId = "KT18KJouHWg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -670,7 +660,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 258, // DOPSUM: CHANGE IT
+      startAt: 754, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -686,7 +676,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "6SGvnwsbf88";
+  static String myVideoId = "j9h2-ZVDLB8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -695,7 +685,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 188, // DOPSUM: CHANGE IT
+      startAt: 67, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -711,7 +701,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "eKUEZY3R3cI";
+  static String myVideoId = "ZT3X1fYFViE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -720,7 +710,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 5, // DOPSUM: CHANGE IT
+      startAt: 735, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -736,7 +726,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "xuObV1RvXNk";
+  static String myVideoId = "39qDQ0chwOk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -745,7 +735,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 291, // DOPSUM: CHANGE IT
+      startAt: 384, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -761,7 +751,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "qk97w6ZmV90";
+  static String myVideoId = "QHscMam4W7s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -770,7 +760,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 148, // DOPSUM: CHANGE IT
+      startAt: 492, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

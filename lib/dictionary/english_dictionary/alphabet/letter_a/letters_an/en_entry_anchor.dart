@@ -4,90 +4,90 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryanatomy - replace speakAnatomy - replace anatomy - /əˈnætəmi/ - find Dopsum2
+// replace these: replace EnglishEntryanchor - replace speakAnchor - replace anchor - /ˈæŋkə(r)/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryanatomy extends StatelessWidget {
-  EnglishEntryanatomy({super.key});
+class EnglishEntryanchor extends StatelessWidget {
+  EnglishEntryanchor({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnatomy(String languageCode) async {
-    // DOPSUM: CHANGE speakAnatomy
+  Future<void> speakAnchor(String languageCode) async {
+    // DOPSUM: CHANGE speakAnchor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anatomy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anchor"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnatomy409(String languageCode) async {
-    // DOPSUM: CHANGE speakAnatomy
+  Future<void> speakAnchor08996(String languageCode) async {
+    // DOPSUM: CHANGE speakAnchor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("An understanding of human anatomy is important to a dancer."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We raised the anchor and set sail."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnatomy499(String languageCode) async {
-    // DOPSUM: CHANGE speakAnatomy
+  Future<void> speakAnchor104(String languageCode) async {
+    // DOPSUM: CHANGE speakAnchor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The female anatomy includes organs like the ovaries and uterus."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("We weighed anchor."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnatomy9500(String languageCode) async {
-    // DOPSUM: CHANGE speakAnatomy
+  Future<void> speakAnchor10(String languageCode) async {
+    // DOPSUM: CHANGE speakAnchor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Various parts of his anatomy were clearly visible."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She was my anchor when things were difficult for me."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnatomy5582(String languageCode) async {
-    // DOPSUM: CHANGE speakAnatomy
+  Future<void> speakAnchor1044(String languageCode) async {
+    // DOPSUM: CHANGE speakAnchor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The article explores an anatomy of the current recession's causes."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She was questioned by a BBC anchor about her trip."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnatomy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnatomy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anatomy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAnchor0995(String languageCode) async {
+    // DOPSUM: CHANGE speakAnchor
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("We anchored off the coast of Spain."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnatomy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnatomy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anatomy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAnchor550(String languageCode) async {
+    // DOPSUM: CHANGE speakAnchor
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("The ropes were anchored to the rocks."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnatomy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnatomy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anatomy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAnchor5006(String languageCode) async {
+    // DOPSUM: CHANGE speakAnchor
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Her novels are anchored in everyday experience."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnatomy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnatomy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anatomy"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAnchor444(String languageCode) async {
+    // DOPSUM: CHANGE speakAnchor
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("She anchored the evening news for seven years."); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -106,7 +106,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "anatomy", // DOPSUM: CHANGE WORD ENTRY - Find /əˈnætəmi/
+                                "anchor", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæŋkə(r)/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -125,7 +125,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˈnætəmi/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈæŋkə(r)/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -136,7 +136,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAnatomy(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAnchor(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -146,7 +146,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˈnætəmi/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                "IpaUS: /ˈæŋkər/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -156,7 +156,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAnatomy(
+                              onPressed: () => speakAnchor(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -176,7 +176,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // FIND: 2,
+                  VideoIconForTab(), // FIND: 12,
                   VideoIconForTab(), // 07
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
@@ -206,9 +206,9 @@ class EnglishEntryanatomy extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: ئاناتۆمی، توێکاری، یەکاڵاکردنەوە، توێ‌توێ‌کردن، دارەڕا، چوارچێوە، پێکھاتە، داروبار، لەش، جەستە، تاوتوێ(کردن)، لێکدانەوە، شی‌کردنەوە، پێکھاتە یان داڕشتەی پێچەڵاوپێچ
+کوردی: لەنگەر، پشت‌وپەنا، پشتیوان، وەستێنەی ماشێنی
 
-١. (ناو) وردبوونەوەی زانستی لە پێکھاتەی فیزیکی مرۆڤ، ئاژەڵ، و ڕووەک''',
+١. (ناو) پارچە ئاسنێکی قورس کە بە زنجیرێک یان گوریسێک بەستراوە و لەلایەکی کەشتیەک یان بەلەمێکەوە دەخرێتەخوارەوە بۆ ئەوەی لەنگەر بگرێت ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -218,7 +218,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "An understanding of human anatomy is important to a dancer.",
+                                    "We raised the anchor and set sail.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -232,7 +232,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تێگەشتن لە پێکھاتەی درووستبوونی لەشی مرۆڤ گرنگە بۆ سەماکارێک",
+                                    "لەنگەرەکەمان خستەخوارەوە و دەستمان بە گەشت‌کرد",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -244,7 +244,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnatomy409("en-GB"),
+                                onPressed: () => speakAnchor08996("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -253,7 +253,55 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAnatomy409(// REPLACE: anatomy /əˈnætəmi/
+                                    speakAnchor08996(// REPLACE: anchor /ˈæŋkər/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "We weighed anchor (= pulled it out of the water).",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "لەنگەرەکەمان ھەڵکێشا",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnchor104("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAnchor104(// REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
                               ),
                             ],
@@ -263,7 +311,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. (ناو) پێکھاتەی فیزیکی مرۆڤ، ئاژەڵ، یان ڕووەک''',
+٢. (ناو) پشت‌و‌پەنا؛ کەسێک کە پشتیوانی کەسێک دەکات لە تەنگانەدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -273,7 +321,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The female anatomy includes organs like the ovaries and uterus.",
+                                    "She was my anchor when things were difficult for me.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -287,7 +335,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جەستەی مێینە ئەندامەکانی وەک ھێلکەدان و مناڵ‌دان لەخۆدەگرێت",
+                                    "کە شتەکان سەخت‌بوون بۆم ئەو پشت‌وپەنام بوو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -299,7 +347,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnatomy499("en-GB"),
+                                onPressed: () => speakAnchor10("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -308,7 +356,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAnatomy499(// REPLACE: anatomy /əˈnætəmi/
+                                    speakAnchor10(// REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
                               ),
                             ],
@@ -318,7 +366,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. (ناو) جەستەی مرۆڤێک''',
+٣. (ناو) پێشکەشکاری تەلەفیزیۆن یان ڕادیۆ ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -328,7 +376,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Various parts of his anatomy were clearly visible.",
+                                    "She was questioned by a BBC anchor about her trip.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -342,7 +390,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژمارەیەک لە بەشەکانی جەستەی بەڕوونی دیاربوون",
+                                    "لەلایەن پێشکەشکارێکی بی‌بی‌سی‌یەوە پرسیاری لێکرا لەسەر گەشتەکەی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -354,7 +402,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnatomy9500("en-GB"),
+                                onPressed: () => speakAnchor1044("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -363,7 +411,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAnatomy9500(// REPLACE: anatomy /əˈnætəmi/
+                                    speakAnchor1044(// REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
                               ),
                             ],
@@ -373,7 +421,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٤. (ناو) لێکۆڵینەوەی ورد لە بابەتێک''',
+٤. (کردار) داگرتنی لەنگەری کەشتییەک یان بەلەمێک بۆ وەستاندنی لە جوڵان ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -383,7 +431,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The article explores an anatomy of the current recession's causes.",
+                                    "We anchored off the coast of Spain.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -397,7 +445,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وتارەکە لێکۆڵینەوەیەکی وردە لە ھۆکارەکانی ئەم قەیرانەی ئێستا",
+                                    "لە کەناراوەکانی ئیسپانیا لەنگەرمان گرت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -409,7 +457,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnatomy5582("en-GB"),
+                                onPressed: () => speakAnchor0995("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -418,7 +466,172 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAnatomy5582(// REPLACE: anatomy /əˈnætəmi/
+                                    speakAnchor0995(// REPLACE: anchor /ˈæŋkər/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٥. (کردار) دانانی شتێک لە شوێنێک کە چی‌تر ناجوڵێت ''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The ropes were anchored to the rocks.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "گوریسەکان لە بەردەکان گیرکرابوون",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnchor550("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAnchor550(// REPLACE: anchor /ˈæŋkər/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٦. (کردار) پشت‌بەستنی شتێک بە شتێکی تر ''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Her novels are anchored in everyday experience.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ڕۆمانەکانی پشت بە ئەزموونی ڕۆژانە دەبەستن",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnchor5006("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAnchor5006(// REPLACE: anchor /ˈæŋkər/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٧. (کردار) پێشکەشکردنی ھەواڵ ''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "She anchored the evening news for seven years.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ھەواڵی ئێوارانی بۆ حەوت ساڵ پێشکەش‌دەکرد",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnchor444("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAnchor444(// REPLACE: anchor /ˈæŋkər/
                                         "en-US"),
                               ),
                             ],
@@ -469,13 +682,22 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anatomy (Derived forms: anatomies)
-1. The branch of morphology that deals with the structure of animals (= general anatomy)
+- Verb: anchor (Derived forms: anchors, anchoring, anchored)
+1. Fix firmly and stably (= ground)
+"anchor the lamppost in concrete";
  
-2. The physical body of a human being (= human body, physical body, material body, soma, build, figure, physique, shape, bod [informal], chassis [informal], frame, form, flesh)
+2. Secure a vessel with an anchor (= cast anchor, drop anchor)
+"We anchored at Baltimore"; "We cast anchor at Baltimore"; "We dropped anchor at Baltimore";
  
-3. A detailed analysis
-"he studied the anatomy of crimes"
+3. [N. Amer] Serve as an anchorperson
+
+- Noun: anchor (Derived forms: anchors)
+1. A mechanical device that prevents a vessel from moving (= ground tackle)
+ 
+2. A central cohesive source of support and stability (= mainstay, keystone, backbone, linchpin, lynchpin)
+"faith is his anchor";
+
+3. A television reporter who coordinates a broadcast to which several correspondents contribute (= anchorman, anchorperson)
 '''),
         ],
       ),
@@ -486,7 +708,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "0foq0Krn9yI";
+  static String myVideoId = "7JWQKAbZE8E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -495,7 +717,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 365, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -511,7 +733,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "gl0VUHLJuls";
+  static String myVideoId = "q3lw_aH-Np0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -520,7 +742,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 60, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -536,7 +758,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "hA95iw4B2jg";
+  static String myVideoId = "RoSO3_0Ufr0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -545,7 +767,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 1218, // DOPSUM: CHANGE IT
+      startAt: 6, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -561,7 +783,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "Fa13JKGG0ds";
+  static String myVideoId = "xzo_f92h4lQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -570,7 +792,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 388, // DOPSUM: CHANGE IT
+      startAt: 6, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -586,7 +808,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "fZJGTevM3QI";
+  static String myVideoId = "pWjdXmDxdIA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -595,7 +817,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 120, // DOPSUM: CHANGE IT
+      startAt: 14, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -611,7 +833,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "IlU-zDU6aQ0";
+  static String myVideoId = "WXk0ew4Wj_Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -620,7 +842,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 2491, // DOPSUM: CHANGE IT
+      startAt: 30, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -636,7 +858,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "0olmZzsF4Xo";
+  static String myVideoId = "sosCBJv2tV8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -645,7 +867,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 685, // DOPSUM: CHANGE IT
+      startAt: 24, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -661,7 +883,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "KdpkxdP9Thw";
+  static String myVideoId = "4Nr1AgIfajI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -670,7 +892,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 258, // DOPSUM: CHANGE IT
+      startAt: 386, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -686,7 +908,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "6SGvnwsbf88";
+  static String myVideoId = "FTo07ejsYoQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -695,7 +917,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 188, // DOPSUM: CHANGE IT
+      startAt: 881, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -711,7 +933,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "eKUEZY3R3cI";
+  static String myVideoId = "jvQlDuDDK7E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -720,7 +942,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 5, // DOPSUM: CHANGE IT
+      startAt: 1607, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -736,7 +958,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "xuObV1RvXNk";
+  static String myVideoId = "rLNwO4IBMOc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -745,7 +967,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 291, // DOPSUM: CHANGE IT
+      startAt: 95, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -761,7 +983,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "qk97w6ZmV90";
+  static String myVideoId = "ktd_2ozZ9Qk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -770,7 +992,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 148, // DOPSUM: CHANGE IT
+      startAt: 231, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

@@ -668,7 +668,12 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "analyze",
     "anarchy",
     "anarchist",
+    "anatomical",
     "anatomy",
+    "ancestor",
+    "ancestral",
+    "ancestry",
+    "anchor",
     "dopsum",
     "dopsum",
     "come of age",
@@ -3409,26 +3414,26 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-anatomy');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "anatomical") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anatomical');
+                  }
+                  if (wordsEnglish == "ancestor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-ancestor');
+                  }
+                  if (wordsEnglish == "ancestral") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-ancestral');
+                  }
+                  if (wordsEnglish == "ancestry") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-ancestry');
+                  }
+                  if (wordsEnglish == "anchor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anchor');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

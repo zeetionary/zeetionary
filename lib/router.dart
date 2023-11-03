@@ -666,11 +666,11 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anarchy.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anarchist.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anatomy.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anatomical.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_ancestor.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_ancestral.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_ancestry.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anchor.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
@@ -1419,11 +1419,11 @@ final loggedInRoute = RouteMap(routes: {
   "/english-anarchy": (_) => MaterialPage(child: EnglishEntryanarchy()),
   "/english-anarchist": (_) => MaterialPage(child: EnglishEntryanarchist()),
   "/english-anatomy": (_) => MaterialPage(child: EnglishEntryanatomy()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-anatomical": (_) => MaterialPage(child: EnglishEntryanatomical()),
+  "/english-ancestor": (_) => MaterialPage(child: EnglishEntryancestor()),
+  "/english-ancestral": (_) => MaterialPage(child: EnglishEntryancestral()),
+  "/english-ancestry": (_) => MaterialPage(child: EnglishEntryancestry()),
+  "/english-anchor": (_) => MaterialPage(child: EnglishEntryanchor()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

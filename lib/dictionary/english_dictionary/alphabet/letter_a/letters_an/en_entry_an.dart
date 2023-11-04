@@ -25,7 +25,7 @@ class EnglishEntryan extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("I went there at an ausoicious day."); // DOPSUM: CHANGE TEXT
+        .speak("I went there on an auspicious day."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speak48652(String languageCode) async {
@@ -195,7 +195,7 @@ class EnglishEntryan extends StatelessWidget {
                                   child: Align(
                                     alignment: Alignment.topLeft,
                                     child: Text(
-                                      'I went there at an auspicious day.',
+                                      'I went there on an auspicious day.',
                                       textDirection: TextDirection
                                           .ltr, // Right-to-left direction
                                     ),

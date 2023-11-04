@@ -679,6 +679,18 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "ancient",
     "ancillary",
     "and",
+    "anecdote",
+    "anemia",
+    "anemic",
+    "anemone",
+    "anesthesia",
+    "anesthetic",
+    "anesthetist",
+    "anesthetize",
+    "anew",
+    "angel",
+    "angelic",
+    "anger",
     "dopsum",
     "dopsum",
     "come of age",
@@ -3459,34 +3471,54 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-and');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "anecdote") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anecdote');
+                  }
+                  if (wordsEnglish == "anemia") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anemia');
+                  }
+                  if (wordsEnglish == "anemic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anemic');
+                  }
+                  if (wordsEnglish == "anemone") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anemone');
+                  }
+                  if (wordsEnglish == "anesthesia") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anesthesia');
+                  }
+                  if (wordsEnglish == "anesthetic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anesthetic');
+                  }
+                  if (wordsEnglish == "anesthetist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anesthetist');
+                  }
+                  if (wordsEnglish == "anesthetize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anesthetize');
+                  }
+                  if (wordsEnglish == "anew") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anew');
+                  }
+                  if (wordsEnglish == "angel") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-angel');
+                  }
+                  if (wordsEnglish == "angelic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-angelic');
+                  }
+                  if (wordsEnglish == "anger") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anger');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

@@ -191,7 +191,7 @@ class EnglishEntrycontralto extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەستی پێکرد بە چڕینی سۆپرانۆ، و دواتر گۆڕی بۆ ئالتۆ",
+                                    "دەستی پێکرد بە چڕینی سۆپرانۆ، و دواتر گۆڕی بۆ کۆنتراڵتۆ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

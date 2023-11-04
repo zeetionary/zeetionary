@@ -696,6 +696,13 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "angler",
     "angling",
     "anglicize",
+    "Anglo-",
+    "angrily",
+    "angst",
+    "anguish",
+    "anguished",
+    "angular",
+    "angry",
     "dopsum",
     "dopsum",
     "come of age",
@@ -3544,33 +3551,33 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-anglicize');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
+                  if (wordsEnglish == "Anglo-") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anglo');
+                  }
+                  if (wordsEnglish == "angry") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-angry');
+                  }
+                  if (wordsEnglish == "angrily") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-angrily');
+                  }
+                  if (wordsEnglish == "angst") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-angst');
+                  }
+                  if (wordsEnglish == "anguish") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anguish');
+                  }
+                  if (wordsEnglish == "anguished") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anguished');
+                  }
+                  // if (wordsEnglish == "angular") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
+                  //   Routemaster.of(context).push('/english-angular');
                   // }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);

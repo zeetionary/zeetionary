@@ -691,6 +691,11 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "angel",
     "angelic",
     "anger",
+    "angina",
+    "angle",
+    "angler",
+    "angling",
+    "anglicize",
     "dopsum",
     "dopsum",
     "come of age",
@@ -3519,26 +3524,26 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-anger');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "angina") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-angina');
+                  }
+                  if (wordsEnglish == "angle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-angle');
+                  }
+                  if (wordsEnglish == "angler") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-angler');
+                  }
+                  if (wordsEnglish == "angling") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-angling');
+                  }
+                  if (wordsEnglish == "anglicize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anglicize');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

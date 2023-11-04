@@ -698,11 +698,11 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "anglicize",
     "Anglo-",
     "angrily",
+    "angry",
     "angst",
     "anguish",
     "anguished",
     "angular",
-    "angry",
     "dopsum",
     "dopsum",
     "come of age",
@@ -3575,10 +3575,10 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-anguished');
                   }
-                  // if (wordsEnglish == "angular") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-angular');
-                  // }
+                  if (wordsEnglish == "angular") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-angular');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

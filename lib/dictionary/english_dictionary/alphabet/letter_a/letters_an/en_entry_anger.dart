@@ -38,21 +38,21 @@ class EnglishEntryanger extends StatelessWidget {
         "The plan provoked anger among local residents."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnger(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnger
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anger"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAnger005(String languageCode) async {
+    // DOPSUM: CHANGE speakAnger
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("The question clearly angered him."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnger(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnger
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anger"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAnger950(String languageCode) async {
+    // DOPSUM: CHANGE speakAnger
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("They were angered that their complaints were dismissed."); // DOPSUM: CHANGE TEXT
+  }
 
   // Future<void> speakAnger(String languageCode) async {
   //   // DOPSUM: CHANGE speakAnger
@@ -210,7 +210,7 @@ class EnglishEntryanger extends StatelessWidget {
                             '''
 کوردی: قەڵسی، تووڕەیی، ڕک، ڕق، قین، ئاژر، شیپۆر
 
-١. (ھاوەڵناو) توڕەیی؛ ھەستێکی توند کە ھەتە کاتێک شتێکی خراپ ڕوودەدات''',
+١. (ناو) توڕەیی؛ ھەستێکی توند کە ھەتە کاتێک شتێکی خراپ ڕوودەدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -304,6 +304,109 @@ class EnglishEntryanger extends StatelessWidget {
                                 ),
                                 onPressed: () =>
                                     speakAnger407(// REPLACE: anger /ˈæŋɡər/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٢. (کردار) توڕەکردنی کەسێک''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The question clearly angered him.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "پرسیارەکە بەڕوونی تووڕەی‌کرد",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnger005("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAnger005(// REPLACE: anger /ˈæŋɡər/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "They were angered that their complaints were dismissed.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "تووڕەبوون بەوەی ناڕەزاییەکانیان وەلاخران",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnger950("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAnger950(// REPLACE: anger /ˈæŋɡər/
                                         "en-US"),
                               ),
                             ],

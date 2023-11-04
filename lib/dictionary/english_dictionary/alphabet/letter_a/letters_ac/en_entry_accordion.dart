@@ -134,9 +134,9 @@ class EnglishEntryaccordion extends StatelessWidget {
                           Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: (موسیقا) ئاکۆردیەن، ئاکاردیۆن
+کوردی: (میوزیک) ئاکۆردیەن، ئاکاردیۆن
 
-١. (ناو) ئامێرێکی موسیقاییە کە بە ھەردوو دەستت دەیگریت و بە پاڵنان و ڕاکێشانی ھەردوو بەشەکەی و پەنجەنان بە کلیلەکانی سەری دەنگ درووست دەکات''',
+١. (ناو) ئامێرێکی میوزیکییە کە بە ھەردوو دەستت دەیگریت و بە پاڵنان و ڕاکێشانی ھەردوو بەشەکەی و پەنجەنان بە کلیلەکانی سەری دەنگ درووست دەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

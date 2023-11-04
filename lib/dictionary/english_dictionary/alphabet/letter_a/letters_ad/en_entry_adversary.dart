@@ -159,7 +159,7 @@ class EnglishEntryadversary extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: دوژمن، نەیار، هەڤرک، گاڤبەر، ناحەز، ڕقەبەر، دژبەر، دژەون، بەرهەڵست، ڕکەبەر
+کوردی: دوژمن، نەیار، ھەڤرک، گاڤبەر، ناحەز، ڕقەبەر، دژبەر، دژەون، بەرھەڵست، ڕکەبەر
 
 
 ١. (ناو) کەسێک کە دووژمن یان ڕکابەرتە''',

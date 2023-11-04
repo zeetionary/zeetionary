@@ -145,7 +145,7 @@ class EnglishEntryaccidentally extends StatelessWidget {
                             '''
 کوردی: بەڕێکەوت، بێ‌مەبەستانە
 
-١. بە هەڵکەوت ڕوودان''',
+١. بە ھەڵکەوت ڕوودان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

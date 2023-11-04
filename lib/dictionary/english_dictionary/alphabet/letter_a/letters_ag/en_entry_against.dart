@@ -178,7 +178,7 @@ class EnglishEntryagainst extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: دژی، بە دژی، بەرانبەر، بەرامبەر، هەڤبەر، لە بەرامبەر، پێچەوانە، بە زیانی، بە زەرەری، بەرەوڕووی، بەرامبەری، ڕووبەرووی، لەسەر، بە، لەگەڵ
+کوردی: دژی، بە دژی، بەرانبەر، بەرامبەر، ھەڤبەر، لە بەرامبەر، پێچەوانە، بە زیانی، بە زەرەری، بەرەوڕووی، بەرامبەری، ڕووبەرووی، لەسەر، بە، لەگەڵ
 
 ١. (ئامراز) دژ بە شتێک''',
                             style: TextStyle(fontSize: 18),
@@ -251,7 +251,7 @@ class EnglishEntryagainst extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دژ بە ویستی خۆی ناچار بە هاوسەرگیری کرا",
+                                    "دژ بە ویستی خۆی ناچار بە ھاوسەرگیری کرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

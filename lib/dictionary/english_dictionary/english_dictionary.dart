@@ -674,6 +674,11 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "ancestral",
     "ancestry",
     "anchor",
+    "anchorage",
+    "anchovy",
+    "ancient",
+    "ancillary",
+    "and",
     "dopsum",
     "dopsum",
     "come of age",
@@ -3434,26 +3439,26 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-anchor');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "anchorage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anchorage');
+                  }
+                  if (wordsEnglish == "anchovy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anchovy');
+                  }
+                  if (wordsEnglish == "ancient") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-ancient');
+                  }
+                  if (wordsEnglish == "ancillary") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-ancillary');
+                  }
+                  if (wordsEnglish == "and") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-and');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

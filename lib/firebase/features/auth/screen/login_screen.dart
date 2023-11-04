@@ -18,7 +18,7 @@ class LoginScreen extends ConsumerWidget {
           TextButton(
             onPressed: () {},
             child: const Text(
-              'چۆنیەتیی بەکارهێنان',
+              'چۆنیەتیی بەکارھێنان',
               style: TextStyle(
                 color: Colors.red,
                 fontWeight: FontWeight.bold,
@@ -33,7 +33,7 @@ class LoginScreen extends ConsumerWidget {
               children: [
                 const SizedBox(height: 30),
                 const Text(
-                  'یەکەم فەرهەنگی ڤیدیۆیی ئینگلیزی - کوردی',
+                  'یەکەم فەرھەنگی ڤیدیۆیی ئینگلیزی - کوردی',
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,

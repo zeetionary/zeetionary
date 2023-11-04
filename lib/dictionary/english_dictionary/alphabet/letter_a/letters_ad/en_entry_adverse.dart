@@ -161,7 +161,7 @@ class EnglishEntryadverse extends StatelessWidget {
                             '''
 کوردی: خراپ، ناخۆش، نالەبار، شپرزە، زیاناوی، دژ، دژبەر، نەیار، ڕکەبەر
 
-١. (هاوەڵناو) شتێک کە ئەنجامی باشی نابێت''',
+١. (ھاوەڵناو) شتێک کە ئەنجامی باشی نابێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

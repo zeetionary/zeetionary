@@ -161,7 +161,7 @@ class EnglishEntryaddicted extends StatelessWidget {
                             '''
 کوردی: گیرۆدە، خووپێ‌گرتوو، ئالوودە، فێر
 
-١. (هاوەڵناو) ئاڵوودەبوون بە شتێک''',
+١. (ھاوەڵناو) ئاڵوودەبوون بە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

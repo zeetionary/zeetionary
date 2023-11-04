@@ -267,7 +267,7 @@ class EnglishEntryahead extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەمە لە مانگەکانی داهاتوودا کێشە درووست دەکات",
+                                    "ئەمە لە مانگەکانی داھاتوودا کێشە درووست دەکات",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

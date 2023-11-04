@@ -161,7 +161,7 @@ class EnglishEntryaccompany extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: یاوەریکردن، هاودەمیکردن
+کوردی: یاوەریکردن، ھاودەمیکردن
 
 ١. (کردار) چوون بۆ شوێنێک لەگەڵ کەسێک''',
                             style: TextStyle(fontSize: 18),

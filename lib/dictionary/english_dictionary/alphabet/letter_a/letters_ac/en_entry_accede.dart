@@ -222,7 +222,7 @@ class EnglishEntryaccede extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شاژن ڤیکتۆریا چووە سەر تەختی شاهانە لە ساڵی ١٨٣٧",
+                                    "شاژن ڤیکتۆریا چووە سەر تەختی شاھانە لە ساڵی ١٨٣٧",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

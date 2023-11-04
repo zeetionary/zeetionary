@@ -364,7 +364,7 @@ class EnglishEntrya extends StatelessWidget {
                             const DividerDefinition(),
                             const Text(
                               // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              '٤. (ئامراز) پێش ناوی نەژمێردراو بەکاردێت کاتێک هاوەڵناوێک لە پێشیان یان دەستەواژەیەک لە دوایان دێت',
+                              '٤. (ئامراز) پێش ناوی نەژمێردراو بەکاردێت کاتێک ھاوەڵناوێک لە پێشیان یان دەستەواژەیەک لە دوایان دێت',
                               style: TextStyle(fontSize: 18),
                               textAlign: TextAlign
                                   .right, // Set text alignment to right
@@ -413,7 +413,7 @@ class EnglishEntrya extends StatelessWidget {
                             const DividerDefinition(),
                             const Text(
                               // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              '٥. (ئامراز) لە پێش ئەو ناوانە بەکاردێت کە پێکەوە ناودەهێندرێن ',
+                              '٥. (ئامراز) لە پێش ئەو ناوانە بەکاردێت کە پێکەوە ناودەھێندرێن ',
                               style: TextStyle(fontSize: 18),
                               textAlign: TextAlign
                                   .right, // Set text alignment to right
@@ -443,7 +443,7 @@ class EnglishEntrya extends StatelessWidget {
                                   child: Align(
                                     alignment: Alignment.topLeft,
                                     child: Text(
-                                      "پێنووسێکم هەیە",
+                                      "پێنووسێکم ھەیە",
                                       textAlign: TextAlign
                                           .right, // Right-to-left direction
                                     ),

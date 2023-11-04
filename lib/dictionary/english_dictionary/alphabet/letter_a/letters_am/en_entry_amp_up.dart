@@ -209,7 +209,7 @@ class EnglishEntryampup extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (کاری لێکدراو) زیادکردنی دەنگی موسیقا کە لە بڵیندگۆیەکەوە لێدەدرێت''',
+١. (کاری لێکدراو) زیادکردنی دەنگی میوزیک کە لە بڵیندگۆیەکەوە لێدەدرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -233,7 +233,7 @@ class EnglishEntryampup extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆرباش دەیزانی کەی دەنگی موسیقاکە زیادبکات",
+                                    "زۆرباش دەیزانی کەی دەنگی میوزیککە زیادبکات",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

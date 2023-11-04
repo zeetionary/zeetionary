@@ -161,7 +161,7 @@ class EnglishEntryaffectionate extends StatelessWidget {
                             '''
 کوردی: بەسۆز، دڵسۆز، بەبەزەیی، بەخرۆش
 
-١. (ھاوەڵناو) هەبوونی خاسیەتی ھەست و سۆز پیشاندان''',
+١. (ھاوەڵناو) ھەبوونی خاسیەتی ھەست و سۆز پیشاندان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

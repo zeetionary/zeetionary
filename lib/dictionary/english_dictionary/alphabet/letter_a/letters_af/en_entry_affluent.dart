@@ -159,9 +159,9 @@ class EnglishEntryaffluent extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: هەڵقوڵیو، گوڕبوو، لێشاو، زۆروزەبەند، دەوڵەمەند، خۆش‌گوزەران
+کوردی: ھەڵقوڵیو، گوڕبوو، لێشاو، زۆروزەبەند، دەوڵەمەند، خۆش‌گوزەران
 
-١. (هاوەڵناو) دەوڵەمەند و خۆشگوزەران''',
+١. (ھاوەڵناو) دەوڵەمەند و خۆشگوزەران''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

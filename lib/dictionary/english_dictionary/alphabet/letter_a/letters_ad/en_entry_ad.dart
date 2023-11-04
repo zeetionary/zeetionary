@@ -213,7 +213,7 @@ class EnglishEntryad extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. (هاوەڵکار) لە دوای لەدایکبوونی پێغەمبەر عیسا''',
+٢. (ھاوەڵکار) لە دوای لەدایکبوونی پێغەمبەر عیسا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

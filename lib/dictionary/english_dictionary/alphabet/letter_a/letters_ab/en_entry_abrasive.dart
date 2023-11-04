@@ -154,7 +154,7 @@ class EnglishEntryabrasive extends StatelessWidget {
                             '''
 کوردی: کڕێنەر، کڕەک، داخورێنەر، سوێنەر، زبرە، خاوێن‌کەرەوە، داتاشەر، لووس‌کەر، مشت‌وماڵ‌دەر، ژان‌بەدڵ‌گەیێن، جەرگبڕ، دڵ‌شکێن، ناخۆش، توندوتیژ، کەرەسە یا مەتریاڵی سوێنەر، ماکی سوواندن، سوێنە
 
-١. (هاوەڵناو) شتێک کە زبرە و بەکاردێت بۆ پاککردنەوە یان لووسکردن''',
+١. (ھاوەڵناو) شتێک کە زبرە و بەکاردێت بۆ پاککردنەوە یان لووسکردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -203,7 +203,7 @@ class EnglishEntryabrasive extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. (هاوەڵناو) کەسێک کە ڕەفتاری دڵشکێن و خراپە''',
+٢. (ھاوەڵناو) کەسێک کە ڕەفتاری دڵشکێن و خراپە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

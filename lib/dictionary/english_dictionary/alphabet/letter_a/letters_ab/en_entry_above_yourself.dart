@@ -134,7 +134,7 @@ class EnglishEntryaboveyourself extends StatelessWidget {
                           Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. کاتێک کە خۆت بە زیاتر لەوەی هەیت دەزانیت''',
+١. کاتێک کە خۆت بە زیاتر لەوەی ھەیت دەزانیت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

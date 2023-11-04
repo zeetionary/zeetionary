@@ -233,7 +233,7 @@ class EnglishEntryactor extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نازانم ئەگەر بە ڕاستی مەبەستی لەو شتانە بوو کە گوتی، هەمیشە نمایشکارێکی باش بووە (ئاسان نییە بزانی ڕاست ئەکات یان نا)",
+                                    "نازانم ئەگەر بە ڕاستی مەبەستی لەو شتانە بوو کە گوتی، ھەمیشە نمایشکارێکی باش بووە (ئاسان نییە بزانی ڕاست ئەکات یان نا)",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

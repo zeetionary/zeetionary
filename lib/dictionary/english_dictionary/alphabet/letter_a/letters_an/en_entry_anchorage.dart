@@ -4,52 +4,90 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryamalgamation - replace speakAmalgamation - replace amalgamation - /əˌmælɡəˈmeɪʃn/ - find Dopsum2
+// replace these: replace EnglishEntryanchorage - replace speakAnchorage - replace anchorage - /ˈæŋkərɪdʒ/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryamalgamation extends StatelessWidget {
-  EnglishEntryamalgamation({super.key});
+class EnglishEntryanchorage extends StatelessWidget {
+  EnglishEntryanchorage({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmalgamation(String languageCode) async {
-    // DOPSUM: CHANGE speakAmalgamation
+  Future<void> speakAnchorage(String languageCode) async {
+    // DOPSUM: CHANGE speakAnchorage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amalgamation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmalgamation45999(String languageCode) async {
-    // DOPSUM: CHANGE speakAmalgamation
+  Future<void> speakAnchorage152(String languageCode) async {
+    // DOPSUM: CHANGE speakAnchorage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        " We look towards the amalgamation of some of the neighborhood factories."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The bay is well known as a safe anchorage."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmalgamation4444(String languageCode) async {
-    // DOPSUM: CHANGE speakAmalgamation
+  Future<void> speakAnchorage145(String languageCode) async {
+    // DOPSUM: CHANGE speakAnchorage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The proposed amalgamation of the two institutes has mow fallen through."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The plant needs firm anchorage."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmalgamation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmalgamation
+  // Future<void> speakAnchorage(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnchorage
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amalgamation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAnchorage(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnchorage
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAnchorage(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnchorage
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAnchorage(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnchorage
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAnchorage(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnchorage
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAnchorage(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnchorage
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("anchorage"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -66,10 +104,12 @@ class EnglishEntryamalgamation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "amalgamation", // DOPSUM: CHANGE WORD ENTRY - Find /əˌmælɡəˈmeɪʃn/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
+                            Expanded(
+                              child: Text(
+                                "anchorage", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæŋkərɪdʒ/
+                                style: TextStyle(
+                                    fontSize: 20, fontWeight: FontWeight.bold),
+                              ),
                             ),
                             // SizedBox(
                             //   width: 10,
@@ -82,9 +122,12 @@ class EnglishEntryamalgamation extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUK: /əˌmælɡəˈmeɪʃn/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
+                            Container(
+                              constraints: const BoxConstraints(maxWidth: 300),
+                              child: const Text(
+                                "IpaUK: /ˈæŋkərɪdʒ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                style: TextStyle(fontSize: 14),
+                              ),
                             ),
                             IconButton(
                               iconSize: 16,
@@ -92,17 +135,20 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAmalgamation(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAnchorage(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUS: /əˌmælɡəˈmeɪʃn/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
+                            Container(
+                              constraints: const BoxConstraints(maxWidth: 300),
+                              child: const Text(
+                                "IpaUS: /ˈæŋkərɪdʒ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                style: TextStyle(fontSize: 14),
+                              ),
                             ),
                             IconButton(
                               iconSize: 16,
@@ -110,7 +156,7 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAmalgamation(
+                              onPressed: () => speakAnchorage(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -133,8 +179,8 @@ class EnglishEntryamalgamation extends StatelessWidget {
                   VideoIconForTab(), // FIND: 2,
                   VideoIconForTab(), // 07
                   VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
@@ -160,9 +206,9 @@ class EnglishEntryamalgamation extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: تێک‌خستن، تێک‌ھەڵکێشان، تێکەڵ‌کردن، تێک‌وەردان، یەکخستن، لێک‌دان، داڕشتن، ئەمەلگاندن
+کوردی: ئەسکەلە، بەندەر، لەنگەرگا، لەنگەرگە، تابگە، لەنگەرانە، (پارەی) لەنگرخستن، لەنگەرگرتن
 
-١. (ھاوەڵناو) پڕۆسەی یەکخستن، یان ئەوەی درووست دەبێت لە ئەنجامی ئەم پڕۆسەیە''',
+١. (ناو) شوێنی لەنگەرگرتنی کەشتی و بەلەم''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -172,7 +218,7 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "We look towards the amalgamation of some of the neighborhood factories.",
+                                    "The bay is well known as a safe anchorage.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -186,7 +232,7 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە نیازین ژمارەیەک لە کارگەکانی گەڕەکەکە یەکبخەین",
+                                    "لاوچەکە باش ناسراوە وەک بەندەرێکی سەلامەتە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -198,8 +244,7 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () =>
-                                    speakAmalgamation45999("en-GB"),
+                                onPressed: () => speakAnchorage152("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -207,20 +252,28 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAmalgamation45999(
-                                    // REPLACE: amalgamation /əˌmælɡəˈmeɪʃn/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAnchorage152(// REPLACE: anchorage /ˈæŋkərɪdʒ/
+                                        "en-US"),
                               ),
                             ],
                           ),
-                          const DividerSentences(),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٢. (ناو) جێگیرکردنی شتێک بە قایمی لە جێگەی خۆیدا''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
                           Row(
                             children: [
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The proposed amalgamation of the two institutes has mow fallen through.",
+                                    "The plant needs firm anchorage.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -234,7 +287,7 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پڕۆسەی پێشنیازکراوی یەکخستنی دوو پەیمانگاکە شکستی ھێناوە",
+                                    "ڕووەکەکە پێویستی بە قایمکردنی توند ھەیە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -246,7 +299,7 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAmalgamation4444("en-GB"),
+                                onPressed: () => speakAnchorage145("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -254,12 +307,14 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAmalgamation4444(
-                                    // REPLACE: amalgamation /əˌmælɡəˈmeɪʃn/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAnchorage145(// REPLACE: anchorage /ˈæŋkərɪdʒ/
+                                        "en-US"),
                               ),
                             ],
                           ),
+                          // const DividerSentences(),
+                          // const DividerDefinition(),
                         ],
                       ),
                     ),
@@ -271,8 +326,8 @@ class EnglishEntryamalgamation extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -304,8 +359,22 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: amalgamation (Derived forms: amalgamations)
-1. The combination of two or more commercial companies (= merger, uniting)
+- Noun: anchorage (Derived forms: anchorages)
+1. A fee for anchoring
+ 
+2. Place for vessels to anchor (= anchorage ground)
+ 
+3. The act of anchoring
+ 
+4. The condition of being secured to a base
+"the plant needs a firm anchorage"
+ 
+5. The provision of a sense of security or steadfastness
+"the mother provides emotional anchorage for the entire family"
+
+- Noun: Anchorage 
+1. A city in south central Alaska
+"Anchorage is the largest city in Alaska"
 '''),
         ],
       ),
@@ -316,15 +385,16 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'iuOYz8zt9J4';
+  static String myVideoId = "sr284c-q8oY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 362, // DOPSUM: CHANGE IT
+      startAt: 527, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -340,15 +410,16 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'ihwAF-zahsA';
+  static String myVideoId = "bzVEnC5LZpc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 1132, // DOPSUM: CHANGE IT
+      startAt: 62, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -364,15 +435,16 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = '5vhpgWQiujg';
+  static String myVideoId = "Hcq9_Tw2eTE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 59, // DOPSUM: CHANGE IT
+      startAt: 1007, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -388,15 +460,16 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'Rvey9g0VgY0';
+  static String myVideoId = "3htwtaJI2nM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 580, // DOPSUM: CHANGE IT
+      startAt: 315, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -412,15 +485,16 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'CjiKlLE3NuI';
+  static String myVideoId = "-qePXPjPLgM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 160, // DOPSUM: CHANGE IT
+      startAt: 182, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -436,15 +510,16 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'GVZypq_M75Y';
+  static String myVideoId = "eMGog4QJsIs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 802, // DOPSUM: CHANGE IT
+      startAt: 282, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -460,15 +535,16 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'w1iGQHQGA2o';
+  static String myVideoId = "sf36euTbI9w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 346, // DOPSUM: CHANGE IT
+      startAt: 1704, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -484,15 +560,16 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'Y5TIAJnqGbA';
+  static String myVideoId = "5-G5Eq9i5ck";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 408, // DOPSUM: CHANGE IT
+      startAt: 514, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -506,3 +583,166 @@ class YoutubeEmbeddedeight extends StatelessWidget {
     );
   }
 }
+
+class YoutubeEmbeddednine extends StatelessWidget {
+  static String myVideoId = "WF7xVsrGd_E";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+      startAt: 293, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddednine({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedten extends StatelessWidget {
+  static String myVideoId = "ELeRyWNqMRk";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+      startAt: 269, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedten({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedeleven extends StatelessWidget {
+  static String myVideoId = "PUT_VIDEO_ID";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedeleven({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwelve extends StatelessWidget {
+  static String myVideoId = "PUT_VIDEO_ID";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedtwelve({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+// morethan one video, only first autoplay
+
+// class YoutubeEmbeddethirteen extends StatelessWidget {
+//   static String myVideoId = "PUT_VIDEO_ID";
+//   static String myVideoIdTwo = "PUT_VIDEO_ID";
+//   static String myVideoIdThree = "PUT_VIDEO_ID";
+
+//   final YoutubePlayerController _controller = YoutubePlayerController(
+//     initialVideoId: myVideoId,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   final YoutubePlayerController _controllertwo = YoutubePlayerController(
+//     initialVideoId: myVideoIdTwo,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   final YoutubePlayerController _controllerthree = YoutubePlayerController(
+//     initialVideoId: myVideoIdThree,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   YoutubeEmbeddethirteen({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       body: SingleChildScrollView(
+//         child: Column(
+//           children: [
+//             YouTubeContainerDesign(controller: _controller),
+//             YouTubeContainerDesign(controller: _controllertwo),
+//             YouTubeContainerDesign(controller: _controllerthree),
+//           ],
+//         ),
+//       ),
+//     );
+//   }
+// }
+
+// end // TODO Implement this library.

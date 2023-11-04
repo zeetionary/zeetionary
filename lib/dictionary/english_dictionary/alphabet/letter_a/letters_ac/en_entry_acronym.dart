@@ -160,7 +160,7 @@ class EnglishEntryacronym extends StatelessWidget {
                             '''
 کوردی: سەروشە، سەرناو، نووکەناو
 
-١. (ناو) وشەیەک کە تەنها لە چەند پیتی سەرەتای وشەیەک پێکهاتووە.''',
+١. (ناو) وشەیەک کە تەنھا لە چەند پیتی سەرەتای وشەیەک پێکھاتووە.''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

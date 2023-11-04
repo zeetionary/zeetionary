@@ -161,7 +161,7 @@ class EnglishEntryaimlessly extends StatelessWidget {
                             '''
 کوردی: بێ‌مەبەستانە، لەخۆوە، سەرلێ‌شێواو
 
-١. (هاوەڵکار) بەبێ هۆ و مەبەست''',
+١. (ھاوەڵکار) بەبێ ھۆ و مەبەست''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

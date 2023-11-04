@@ -407,7 +407,7 @@ class EnglishEntryaction extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. (ناو) ئەو هەنگاوانەی کە کرێکاران دەینێن بۆ دەربڕینی ناڕەزایی''',
+٣. (ناو) ئەو ھەنگاوانەی کە کرێکاران دەینێن بۆ دەربڕینی ناڕەزایی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

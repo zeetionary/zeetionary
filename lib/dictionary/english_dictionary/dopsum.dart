@@ -208,7 +208,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                             '''
 کوردی: 
 
-١. (هاوەڵناو) پێناسە''',
+١. (ھاوەڵناو) پێناسە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

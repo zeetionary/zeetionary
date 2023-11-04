@@ -169,9 +169,9 @@ class EnglishEntryalso extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: دیسان، هەروەها، ـیش، سەرەڕای ئەوەش، لەگەڵ ئەمەش
+کوردی: دیسان، ھەروەھا، ـیش، سەرەڕای ئەوەش، لەگەڵ ئەمەش
 
-١. (هاوەڵکار) هەروەها''',
+١. (ھاوەڵکار) ھەروەھا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -195,7 +195,7 @@ class EnglishEntryalso extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "فەرەنسی و ئەڵمانی بە پاراوی دەزانێت. هەروەها کەمێک ئیتالیش دەزانێت",
+                                    "فەرەنسی و ئەڵمانی بە پاراوی دەزانێت. ھەروەھا کەمێک ئیتالیش دەزانێت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -242,7 +242,7 @@ class EnglishEntryalso extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆرم حەز لێ نەبوو. هەروەها زۆریش گران بوو",
+                                    "زۆرم حەز لێ نەبوو. ھەروەھا زۆریش گران بوو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

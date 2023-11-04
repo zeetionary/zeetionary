@@ -185,7 +185,7 @@ class EnglishEntryagronomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کشتوکاڵناسی زۆر شت لەخۆدەگرێت وەک بۆماوەناسی ڕووەک، ئاودێری، و بەرهەمهێنانی خۆراک",
+                                    "کشتوکاڵناسی زۆر شت لەخۆدەگرێت وەک بۆماوەناسی ڕووەک، ئاودێری، و بەرھەمھێنانی خۆراک",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

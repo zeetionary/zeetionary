@@ -154,7 +154,7 @@ class EnglishEntryabundant extends StatelessWidget {
                             '''
 کوردی: زۆر، زۆر و زەبەند، زیاد، فرە، فراوان، بەون، بێ‌ژمار، بۆش، فت‌وفراوان، بەپیت، بەبەرەکەت، فەرێح، فت‌وفراوان، گەلێک، پڕ، لێواولێو، پڕاوپڕ، زیاتر لە پێویست
 
-١. (هاوەڵناو) کاتێک شتێک ئێجگار زۆرە''',
+١. (ھاوەڵناو) کاتێک شتێک ئێجگار زۆرە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -217,7 +217,7 @@ class EnglishEntryabundant extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەڵگەی زۆرمان هەیە بۆ سەلماندنی تاوانەکەی",
+                                    "بەڵگەی زۆرمان ھەیە بۆ سەلماندنی تاوانەکەی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

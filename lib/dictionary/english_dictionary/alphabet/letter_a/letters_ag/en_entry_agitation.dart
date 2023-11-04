@@ -160,7 +160,7 @@ class EnglishEntryagitation extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: نیگەرانی، ناڕەحەتی، دڵەڕاوکێ، شڵەژان، ورووژان، هەژان، پەشۆکاوی، پشێوی، ئاڵۆزی، شۆر، ئاژاوە، شاڵاو، هەڵمەت، ڕاگەیاندن، ڕاتڵەکان، شڵەقاندن، شێواندن، لێکدان، تەکان‌دان
+کوردی: نیگەرانی، ناڕەحەتی، دڵەڕاوکێ، شڵەژان، ورووژان، ھەژان، پەشۆکاوی، پشێوی، ئاڵۆزی، شۆر، ئاژاوە، شاڵاو، ھەڵمەت، ڕاگەیاندن، ڕاتڵەکان، شڵەقاندن، شێواندن، لێکدان، تەکان‌دان
 
 ١. (ناو) ناڕەحەتی و نیگەرانی''',
                             style: TextStyle(fontSize: 18),
@@ -186,7 +186,7 @@ class EnglishEntryagitation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەوڵیدەدا ناڕەحەتیی پیشان نەدات",
+                                    "ھەوڵیدەدا ناڕەحەتیی پیشان نەدات",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -240,7 +240,7 @@ class EnglishEntryagitation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناڕەزایی زۆر بەرامبەر سەرۆک هەبووە",
+                                    "ناڕەزایی زۆر بەرامبەر سەرۆک ھەبووە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

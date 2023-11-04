@@ -161,7 +161,7 @@ class EnglishEntryadditional extends StatelessWidget {
                             '''
 کوردی: زیادی، زیادە، سەرخراو، سەربار
 
-١. (هاوەڵناو) زیاتر لەوەی سەرەتا باسکراوە''',
+١. (ھاوەڵناو) زیاتر لەوەی سەرەتا باسکراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

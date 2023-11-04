@@ -161,7 +161,7 @@ class EnglishEntryalms extends StatelessWidget {
                             '''
 کوردی: خێر، خێرات، سەدەقە
 
-١. (ناو) پارە و خواردن و خۆراک کە دەدرێت بە هەژاران''',
+١. (ناو) پارە و خواردن و خۆراک کە دەدرێت بە ھەژاران''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -185,7 +185,7 @@ class EnglishEntryalms extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جاران خەڵکی وایان دەزانی ئەرکی ئاینییانە پارە بە هەژاران بدەن",
+                                    "جاران خەڵکی وایان دەزانی ئەرکی ئاینییانە پارە بە ھەژاران بدەن",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

@@ -186,7 +186,7 @@ class EnglishEntryagent extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: نوێنەر، بریکار، دەڵاڵ، (ڕێزمان) کارا، بکەر، هۆکار، بکەر، ئەنجام‌دەر، سیخوڕ، ئامێر، ئامراز، کەرەسە، هۆ، (کیمیا) کارا (= ماک یان مادەیێ کە دەبێتە هۆی کاردانەوەی کیمیایی)
+کوردی: نوێنەر، بریکار، دەڵاڵ، (ڕێزمان) کارا، بکەر، ھۆکار، بکەر، ئەنجام‌دەر، سیخوڕ، ئامێر، ئامراز، کەرەسە، ھۆ، (کیمیا) کارا (= ماک یان مادەیێ کە دەبێتە ھۆی کاردانەوەی کیمیایی)
 
 ١. (ناو) کەسێک کە نوێنەری کەسێکی ترە لە بزنسێک یان سیاسەت''',
                             style: TextStyle(fontSize: 18),
@@ -212,7 +212,7 @@ class EnglishEntryagent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نوێنەرەکەمان لە نیویۆرک مامەڵە لەگەڵ هەموو فرۆشتنەکانمان لە ئەمریکا دەکات",
+                                    "نوێنەرەکەمان لە نیویۆرک مامەڵە لەگەڵ ھەموو فرۆشتنەکانمان لە ئەمریکا دەکات",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -296,7 +296,7 @@ class EnglishEntryagent extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. (ناو) کەسێک کە بە نهێنی زانیاری بۆ حکومەتێک یان دامەزراوەیەک کۆدەکاتەوە''',
+٣. (ناو) کەسێک کە بە نھێنی زانیاری بۆ حکومەتێک یان دامەزراوەیەک کۆدەکاتەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -320,7 +320,7 @@ class EnglishEntryagent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وەک سیخوڕێکی نهێنی کاری دەکرد لە لەندەن",
+                                    "وەک سیخوڕێکی نھێنی کاری دەکرد لە لەندەن",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -350,7 +350,7 @@ class EnglishEntryagent extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٤. (ناو) کەسێک یان شتێک کە کاریگەرییەکی گرنگی لەسەر بارودۆخێک هەیە''',
+٤. (ناو) کەسێک یان شتێک کە کاریگەرییەکی گرنگی لەسەر بارودۆخێک ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

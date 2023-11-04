@@ -159,7 +159,7 @@ class EnglishEntryaftermath extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: ئەنجام، پێ‌ئاژۆ، ئاکام، قۆناخی دوای کارەساتێ یان ڕووداوی ناخۆش، (کشت‌وکاڵ) بەر یان چینی دووهەم
+کوردی: ئەنجام، پێ‌ئاژۆ، ئاکام، قۆناخی دوای کارەساتێ یان ڕووداوی ناخۆش، (کشت‌وکاڵ) بەر یان چینی دووھەم
 
 ١. (ناو) دەرئەنجامی ڕووداوێک یان جەنگ''',
                             style: TextStyle(fontSize: 18),
@@ -185,7 +185,7 @@ class EnglishEntryaftermath extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەرۆک سەردانی هەرێمەکەی کرد لە دەرئەنجامی کارەساتەکە",
+                                    "سەرۆک سەردانی ھەرێمەکەی کرد لە دەرئەنجامی کارەساتەکە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

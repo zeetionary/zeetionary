@@ -158,7 +158,7 @@ class EnglishEntryaerobics extends StatelessWidget {
                           Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (ناو) ڕاھێنانی جەستەیی بۆ بەھێزکردنی دڵ و سنگ، زۆرجار بەکۆمەڵ دەکرێت لەگەل موسیقا''',
+١. (ناو) ڕاھێنانی جەستەیی بۆ بەھێزکردنی دڵ و سنگ، زۆرجار بەکۆمەڵ دەکرێت لەگەل میوزیک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

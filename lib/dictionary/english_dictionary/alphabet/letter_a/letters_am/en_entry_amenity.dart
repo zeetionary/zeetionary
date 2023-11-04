@@ -305,7 +305,7 @@ class EnglishEntryamenity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هوتێلەکە خزمەتگوزاریی نایابی تێدایە",
+                                    "ھوتێلەکە خزمەتگوزاریی نایابی تێدایە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

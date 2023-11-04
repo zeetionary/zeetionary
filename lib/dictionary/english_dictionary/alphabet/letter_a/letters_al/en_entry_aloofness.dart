@@ -161,7 +161,7 @@ class EnglishEntryaloofness extends StatelessWidget {
                             '''
 کوردی: گۆشەگیری، لاتەریکی، لە خەڵک پرینگانەوە، دوورەپەرێزی
 
-١. (هاوەڵناو) گۆشەگیری و دووری لە خەڵکی تر''',
+١. (ھاوەڵناو) گۆشەگیری و دووری لە خەڵکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -185,7 +185,7 @@ class EnglishEntryaloofness extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دوورەپەرێزییە ساردوسڕییەکەی وەک خۆبەزلزانی دەبینرا لەلایەن هەندێک کەسەوە",
+                                    "دوورەپەرێزییە ساردوسڕییەکەی وەک خۆبەزلزانی دەبینرا لەلایەن ھەندێک کەسەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

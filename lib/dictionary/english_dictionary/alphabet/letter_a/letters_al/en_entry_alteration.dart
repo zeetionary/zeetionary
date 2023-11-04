@@ -185,7 +185,7 @@ class EnglishEntryalteration extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەندێک گۆڕانکاری لە خانووەکە دەکەن",
+                                    "ھەندێک گۆڕانکاری لە خانووەکە دەکەن",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

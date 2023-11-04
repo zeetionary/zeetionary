@@ -161,9 +161,9 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: (موسیقا) لەگەڵ، ھاوڕێ، پاشکۆ، لەگەڵ‌بوون
+کوردی: (میوزیک) لەگەڵ، ھاوڕێ، پاشکۆ، لەگەڵ‌بوون
 
-١. (ناو) موسیقایەک کە لەگەڵ گۆرانی لی ئەدرێت''',
+١. (ناو) میوزیکیەک کە لەگەڵ گۆرانی لی ئەدرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -184,7 +184,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گۆرانییەک بە موسیقاوە لەگەڵی",
+                                    "گۆرانییەک بە میوزیکوە لەگەڵی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

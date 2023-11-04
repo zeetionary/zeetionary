@@ -231,7 +231,7 @@ class EnglishEntryamuse extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وتارێکم لە چاپی دوێنێی ڕۆژنامەکە هێناوە کە پێم‌وایە دەتخاتە پێکەنین",
+                                    "وتارێکم لە چاپی دوێنێی ڕۆژنامەکە ھێناوە کە پێم‌وایە دەتخاتە پێکەنین",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

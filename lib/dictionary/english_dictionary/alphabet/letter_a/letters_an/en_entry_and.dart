@@ -4,157 +4,120 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryact - replace speakAct - replace act - /ækt/ - find Dopsum2
+// replace these: replace EnglishEntryand - replace speakAnd - replace and - /ənd/,  /ən/,  /n/, strong form  /ænd/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryact extends StatelessWidget {
-  EnglishEntryact({super.key});
+class EnglishEntryand extends StatelessWidget {
+  EnglishEntryand({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAct(String languageCode) async {
-    // DOPSUM: CHANGE speakAct
+  Future<void> speakAnd(String languageCode) async {
+    // DOPSUM: CHANGE speakAnd
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("act"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("and"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAct7859(String languageCode) async {
-    // DOPSUM: CHANGE speakAct
+  Future<void> speakAnd15005(String languageCode) async {
+    // DOPSUM: CHANGE speakAnd
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Sue and I left early."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAnd5044(String languageCode) async {
+    // DOPSUM: CHANGE speakAnd
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("She came in and took her coat off."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAnd2205(String languageCode) async {
+    // DOPSUM: CHANGE speakAnd
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Go and get me a pen please."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAnd0258(String languageCode) async {
+    // DOPSUM: CHANGE speakAnd
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It is vital that we act to stop the destruction of the rainforests."); // DOPSUM: CHANGE TEXT
+        "‘We talked for hours.’ ‘And what did you decide?’"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAct42693(String languageCode) async {
-    // DOPSUM: CHANGE speakAct
+  Future<void> speakAnd8854(String languageCode) async {
+    // DOPSUM: CHANGE speakAnd
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Miss another class and you'll fail."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAnd5560(String languageCode) async {
+    // DOPSUM: CHANGE speakAnd
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("What's 47 and 16?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAnd22410(String languageCode) async {
+    // DOPSUM: CHANGE speakAnd
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("The pain got worse and worse."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAnd5570(String languageCode) async {
+    // DOPSUM: CHANGE speakAnd
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The government was criticized for failing to act decisively."); // DOPSUM: CHANGE TEXT
+        "I like city life but there are cities and cities."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAct7691(String languageCode) async {
-    // DOPSUM: CHANGE speakAct
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The man was seen acting suspiciously."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAct4589(String languageCode) async {
-    // DOPSUM: CHANGE speakAct
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Who's acting the part of Hamlet?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAct15932(String languageCode) async {
-    // DOPSUM: CHANGE speakAct
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He's been acting the devoted husband all day."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAct1527(String languageCode) async {
-    // DOPSUM: CHANGE speakAct
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Can you act as interpreter?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAct3541(String languageCode) async {
-    // DOPSUM: CHANGE speakAct
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Alcohol acts quickly on the brain."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAct75381(String languageCode) async {
-    // DOPSUM: CHANGE speakAct
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "You have committed a serious criminal act."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAc25341(String languageCode) async {
-    // DOPSUM: CHANGE speakAct
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The old Act has now been repealed."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAct1258(String languageCode) async {
-    // DOPSUM: CHANGE speakAct
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Don't take her seriously—it's all an act."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAct75638(String languageCode) async {
-    // DOPSUM: CHANGE speakAct
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The king is killed in the opening act."); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakAct(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAct
+  // Future<void> speakAnd(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnd
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("act"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("and"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAct(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAct
+  // Future<void> speakAnd(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnd
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("act"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("and"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAct(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAct
+  // Future<void> speakAnd(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnd
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("act"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAct(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAct
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("act"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("and"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: YoutubeEmbeddedfifteen
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -171,10 +134,12 @@ class EnglishEntryact extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              'act', // DOPSUM: CHANGE WORD ENTRY - Find /ækt/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
+                            Expanded(
+                              child: Text(
+                                "and", // DOPSUM: CHANGE WORD ENTRY - Find /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                style: TextStyle(
+                                    fontSize: 20, fontWeight: FontWeight.bold),
+                              ),
                             ),
                             // SizedBox(
                             //   width: 10,
@@ -187,9 +152,12 @@ class EnglishEntryact extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /ækt/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
+                            Container(
+                              constraints: const BoxConstraints(maxWidth: 300),
+                              child: const Text(
+                                "IpaUK: /ənd/,  /ən/,  /n/, strong form  /ænd/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                style: TextStyle(fontSize: 14),
+                              ),
                             ),
                             IconButton(
                               iconSize: 16,
@@ -198,16 +166,19 @@ class EnglishEntryact extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAct(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAnd(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /ækt/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
+                            Container(
+                              constraints: const BoxConstraints(maxWidth: 300),
+                              child: const Text(
+                                "IpaUS: /ənd/,  /ən/,  /n/, strong form  /ænd/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                style: TextStyle(fontSize: 14),
+                              ),
                             ),
                             IconButton(
                               iconSize: 16,
@@ -215,7 +186,7 @@ class EnglishEntryact extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAct(
+                              onPressed: () => speakAnd(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -230,21 +201,21 @@ class EnglishEntryact extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
                   VideoIconForTab(), // FIND: 2,
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(), // 07
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 14
+                  // VideoIconForTab(), // 15
                 ],
                 indicator: BoxDecoration(
                   color: Pallete.tabsbackgroundColor,
@@ -265,9 +236,9 @@ class EnglishEntryact extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: کار، کردە، کردەوە، کریار، دەستوور، فەرمان، ڕەفتار، ڕەوتار، ھەڵس‌وکەوت، قانوون، یاسا، زاکوون، قەباڵە، سەنەد، پەردە (شانو)، بەش، شانۆ، بەرنامە، دەستەی شانۆیی (میوزیکژەن، ئەکتەر و ھتد)، واخۆنیشان‌دان، واخۆنواندن، واخۆدەرخستن، (ماف) دەستووری نووسراوی پارلەمان، کۆنگرێس و ھتد
+کوردی: و، وە، لەگەڵ، تا، ھەتا، کە، ھەروەھا
 
-١. (کردار) کردنی شتێک بە مەبەستی دیاریکراو، یان بۆ مامەڵەکردن  لەگەڵ بارودۆخێک''',
+١. (لێکدەر) و''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -277,18 +248,21 @@ class EnglishEntryact extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "It is vital that we act to stop the destruction of the rainforests.",
+                                    "Sue and I left early.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر گرنگە ھەنگاوبنێین بۆ وەستاندنی وێرانکردنی جەنگەڵەکان",
+                                    "من و سوو زوو ڕۆشتین",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -300,7 +274,7 @@ class EnglishEntryact extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAct7859("en-GB"),
+                                onPressed: () => speakAnd15005("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -308,59 +282,18 @@ class EnglishEntryact extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAct7859("en-US"), // REPLACE act /ækt/
+                                onPressed: () => speakAnd15005(
+                                    // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                    "en-US"),
                               ),
                             ],
                           ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The government was criticized for failing to act decisively.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "حکومەت بەر ڕەخنە درا بەھۆی شکستھێنان لە ھەنگاونان بە خێرایی",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAct42693("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAct42693("en-US"), // REPLACE act /ækt/
-                              ),
-                            ],
-                          ),
+                          // const DividerSentences(),
                           const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. (کردار) ڕەفتارکردن بەشێوەیەک''',
+٢. (لێکدەر) دواتر، لەدوای شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -370,18 +303,21 @@ class EnglishEntryact extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The man was seen acting suspiciously.",
+                                    "She came in and took her coat off.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پیاوەکە بینرا بە گوماناوییەوە ڕەفتاری دەکرد",
+                                    "ھاتە ژوورەوە و پاڵتۆکەی داکەند",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -393,7 +329,7 @@ class EnglishEntryact extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAct7691("en-GB"),
+                                onPressed: () => speakAnd5044("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -401,16 +337,18 @@ class EnglishEntryact extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAct7691("en-US"), // REPLACE act /ækt/
+                                onPressed: () => speakAnd5044(
+                                    // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                    "en-US"),
                               ),
                             ],
                           ),
+                          // const DividerSentences(),
                           const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. (کردار) ڕۆڵبینین لە بەشیکی شانۆیەک یان فیلمێک''',
+٣. (لێکدەر) لەدوای ھەندێک کردار بەکاردێت بەمەبەستی پیشاندانی ھۆکاری ئەنجام‌دانی کردارەکە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -420,18 +358,21 @@ class EnglishEntryact extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Who's acting the part of Hamlet?",
+                                    "Go and get me a pen please.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کێ ڕۆڵی ھاملێت دەبینێت؟",
+                                    "تکایە بچۆ و پێنووسێکم بۆ بێنە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -443,7 +384,7 @@ class EnglishEntryact extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAct4589("en-GB"),
+                                onPressed: () => speakAnd2205("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -451,16 +392,18 @@ class EnglishEntryact extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAct4589("en-US"), // REPLACE act /ækt/
+                                onPressed: () => speakAnd2205(
+                                    // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                    "en-US"),
                               ),
                             ],
                           ),
+                          // const DividerSentences(),
                           const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٤. (کردار) خۆنیشاندانت بەشێوەیەکی تایبەت لە ڕێگەی ڕەفتارکردنتەوە''',
+٤. (لێکدەر) بەکاردێت بۆ ناساندنی لێدوانێک یان پرسیارێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -470,18 +413,21 @@ class EnglishEntryact extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "He's been acting the devoted husband all day.",
+                                    "‘We talked for hours.’ ‘And what did you decide?’",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەواوی ڕۆژەکە وەک مێردێکی خەمخۆر خۆی نیشانداوە",
+                                    "'بۆ چەندین کاتژمێر گفتوگۆمان کرد.' 'ئەی چی بڕیارێکتان دا؟'",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -493,7 +439,7 @@ class EnglishEntryact extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAct15932("en-GB"),
+                                onPressed: () => speakAnd0258("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -501,16 +447,18 @@ class EnglishEntryact extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAct15932("en-US"), // REPLACE act /ækt/
+                                onPressed: () => speakAnd0258(
+                                    // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                    "en-US"),
                               ),
                             ],
                           ),
+                          // const DividerSentences(),
                           const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٥. (کردار) کردنی کارێک''',
+٥. (لێکدەر) بۆ پیشاندانی ئەنجام''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -520,18 +468,21 @@ class EnglishEntryact extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Can you act as interpreter?",
+                                    "Miss another class and you'll fail.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەتوانی وەک وەرگێڕێک کار بکەیت؟",
+                                    "یەک وانەی تر نەیەی دەرناچیت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -543,7 +494,7 @@ class EnglishEntryact extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAct1527("en-GB"),
+                                onPressed: () => speakAnd8854("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -551,16 +502,18 @@ class EnglishEntryact extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAct1527("en-US"), // REPLACE act /ækt/
+                                onPressed: () => speakAnd8854(
+                                    // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                    "en-US"),
                               ),
                             ],
                           ),
+                          // const DividerSentences(),
                           const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٦. (کردار) ھەبوونی کاریگەرییەک لەسەر شتێک''',
+٦. (لێکدەر) کۆ؛ لە کۆکردنەوەدا بو وتنی ژمارەیەک زیادبکرێت بۆ ژمارەیەکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -570,18 +523,21 @@ class EnglishEntryact extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Alcohol acts quickly on the brain.",
+                                    "What's 47 and 16?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کحوول ڕاستەوخۆ کاریگەری لەسەر مێشک دەبێت",
+                                    "٤٧ کۆی ١٦ چەند دەکات؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -593,7 +549,7 @@ class EnglishEntryact extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAct3541("en-GB"),
+                                onPressed: () => speakAnd5560("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -601,16 +557,73 @@ class EnglishEntryact extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAct3541("en-US"), // REPLACE act /ækt/
+                                onPressed: () => speakAnd5560(
+                                    // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                    "en-US"),
                               ),
                             ],
                           ),
+                          // const DividerSentences(),
+                          // const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٧. (لێکدەر) لەگەڵ وشەی دووبارەدا بەکاردێت بۆ پیشاندانی دووبارەبوونەوە و بەردەوامی''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The pain got worse and worse.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ئازارەکە خراپتر و خراپتر بوو",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnd22410("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAnd22410(
+                                    // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
                           const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٧. (ناو) شتێک کە کەسێک دەیکات''',
+٨. (لێکدەر) لەگەڵ وشەی دووبارەدا بەکاردێت وتنی ئەوەی دوو شت دەکرێت یەک خاسیەتیان ھەبێت بەڵام زۆر جیاواز بن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -620,18 +633,21 @@ class EnglishEntryact extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "You have committed a serious criminal act.",
+                                    "I like city life but there are cities and cities.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
                                 ),
                               ),
                               // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کارێکی تاوانکاریی کوشندەت کردووە",
+                                    "حەزم لە ژیانی شارە، بەڵام شار ھەیە و شاری تریش ھەیە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -643,7 +659,7 @@ class EnglishEntryact extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAct75381("en-GB"),
+                                onPressed: () => speakAnd5570("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -651,165 +667,18 @@ class EnglishEntryact extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAct75381("en-US"), // REPLACE act /ækt/
+                                onPressed: () => speakAnd5570(
+                                    // REPLACE: and /ənd/,  /ən/,  /n/, strong form  /ænd/
+                                    "en-US"),
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٨. (ناو) یاسایەک کە لەلایەن پەرلەمانەوە دەرکراوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The old Act has now been repealed.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "یاسا کۆنەکە ئێستا ھەڵپەسێردراوە",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAc25341("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAc25341("en-US"), // REPLACE act /ækt/
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٩. (ناو) ڕەفتارێک کە ڕاستی نییە و یەنھا بە مەبەستە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Don't take her seriously—it's all an act.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بە جدی مەیگرە، ھەمووی نمایشە",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAct1258("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAct1258("en-US"), // REPLACE act /ækt/
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١٠. (ناو) یەکێک لەو بەشانەی شانۆ یان ئۆپێرایەکی لێ پێکدێت''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The king is killed in the opening act.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پاشا لە یەکەم بەش دەکوژرێت",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAct75638("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAct75638("en-US"), // REPLACE act /ækt/
-                              ),
-                            ],
-                          ),
+                          // const DividerSentences(),
+                          // const DividerDefinition(),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
@@ -819,8 +688,8 @@ class EnglishEntryact extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -850,48 +719,19 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: act (Derived forms: acts)
-1. Something that people do or cause to happen (= deed, human action, human activity)
+- Conjunction: and 
+1. Used to connect words, clauses or sentences; used to indicate that the following thing is also included, or add an additional point
+"eggs, chips and bacon"
  
-2. (law) a legal document codifying the result of deliberations of a committee, society or legislative body (= enactment)
+2. In order to; used instead of "to", especially after try, come, go
+"I'll try and do that before tomorrow"
  
-3. A subdivision of a play, opera or ballet
- 
-4. A short performance that is part of a longer program (= routine, number, turn, bit)
-"he did his act three times every evening";
- 
-5. A manifestation of insincerity
-"he put on quite an act for her benefit"
+3. Used to indicate causation or something that follows
+"do that and I'll scream"
 
-- Verb: act (routine, number, turn, bit)
-1. Perform an action; do something (= move)
-"think before you act"; "The governor should act on the new energy bill"; "The nanny acted quickly by grabbing the toddler and covering him with a wet towel";
- 
-2. Show a certain behaviour; conduct or comport oneself (= behave, do)
-"You should act like an adult"; "The dog acts ferocious, but he is really afraid of people";
- 
-3. (performing arts) Perform a role or part (= play, represent)
-"She wants to act Lady Macbeth, but she is too young for the role";
- 
-4. Discharge one's duties
-"She acts as the chair"; "In what capacity are you acting?"
- 
-5. Pretend to have certain qualities or state of mind (= play, act as)
-"He acted the idiot";
- 
-6. Be suitable for theatrical performance
-"This scene acts well"
- 
-7. Have a desired or expected effect or outcome (= work)
-"The breaks of my new car act quickly";
- 
-8. Be engaged in an activity, often for no particular purpose other than pleasure
- 
-9. Behave unnaturally or affectedly (= dissemble, pretend)
-"She's just acting";
- 
-10 (dramaturgy) perform on a stage or theatre (= play, roleplay, playact)
-"She acts in this play"; "He acted in 'Julius Caesar'";
+- Preposition: and 
+1. With the addition of; increased by (= plus)
+"one and one is two";
 '''),
         ],
       ),
@@ -902,15 +742,16 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '9jAC3FFXUgY';
+  static String myVideoId = "ML8IL77gQ3k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 50, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -926,15 +767,16 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'jxLkbJozKbY';
+  static String myVideoId = "njn6krU3tQ8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 421, // DOPSUM: CHANGE IT
+      startAt: 13, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -950,15 +792,16 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'B8OIka3jP90';
+  static String myVideoId = "LDP08F3op80";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 212, // DOPSUM: CHANGE IT
+      startAt: 6, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -974,15 +817,16 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'kfZe5L1I17U';
+  static String myVideoId = "Btu0O47u3rY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 202, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -998,15 +842,16 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'nJDvbcIby38';
+  static String myVideoId = "2ihOXaU0I8o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 437, // DOPSUM: CHANGE IT
+      startAt: 12, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -1022,15 +867,16 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = '_7_QXVcvcfQ';
+  static String myVideoId = "z7JU0BoX0nQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 588, // DOPSUM: CHANGE IT
+      startAt: 22, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -1046,15 +892,16 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'voyu61pPEdA';
+  static String myVideoId = "sSdMX8AWurI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 672, // DOPSUM: CHANGE IT
+      startAt: 7, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -1070,15 +917,16 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'Lr-zoNnDid0';
+  static String myVideoId = "kNw8V_Fkw28";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 508, // DOPSUM: CHANGE IT
+      startAt: 87, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -1094,15 +942,16 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'A5fWlmRambI';
+  static String myVideoId = "_spuxXnul0U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 683, // DOPSUM: CHANGE IT
+      startAt: 29, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -1118,15 +967,16 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'LtxikccfpaU';
+  static String myVideoId = "wmiIUN-7qhE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 100, // DOPSUM: CHANGE IT
+      startAt: 25, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -1141,4 +991,115 @@ class YoutubeEmbeddedten extends StatelessWidget {
   }
 }
 
-// end
+class YoutubeEmbeddedeleven extends StatelessWidget {
+  static String myVideoId = "4J0xFUyz1nw";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+      startAt: 183, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedeleven({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwelve extends StatelessWidget {
+  static String myVideoId = "Zi4LMpSDccc";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+      startAt: 69, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedtwelve({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+// morethan one video, only first autoplay
+
+// class YoutubeEmbeddethirteen extends StatelessWidget {
+//   static String myVideoId = "PUT_VIDEO_ID";
+//   static String myVideoIdTwo = "PUT_VIDEO_ID";
+//   static String myVideoIdThree = "PUT_VIDEO_ID";
+
+//   final YoutubePlayerController _controller = YoutubePlayerController(
+//     initialVideoId: myVideoId,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   final YoutubePlayerController _controllertwo = YoutubePlayerController(
+//     initialVideoId: myVideoIdTwo,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   final YoutubePlayerController _controllerthree = YoutubePlayerController(
+//     initialVideoId: myVideoIdThree,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   YoutubeEmbeddethirteen({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       body: SingleChildScrollView(
+//         child: Column(
+//           children: [
+//             YouTubeContainerDesign(controller: _controller),
+//             YouTubeContainerDesign(controller: _controllertwo),
+//             YouTubeContainerDesign(controller: _controllerthree),
+//           ],
+//         ),
+//       ),
+//     );
+//   }
+// }
+
+// end // TODO Implement this library.

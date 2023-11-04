@@ -265,7 +265,7 @@ class EnglishEntryadoption extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. (ناو) دیاریکردنی کەسێک وەک کاندیدی هەڵبژاردن''',
+٣. (ناو) دیاریکردنی کەسێک وەک کاندیدی ھەڵبژاردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

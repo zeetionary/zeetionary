@@ -711,6 +711,11 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "animosity",
     "ankle",
     "annals",
+    "annihilate",
+    "annihilation",
+    "anniversary",
+    "annotate",
+    "annotation",
     "annex",
     "annexation",
     "annexe",
@@ -3634,26 +3639,26 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-annexe');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "annihilate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-annihilate');
+                  }
+                  if (wordsEnglish == "annihilation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-annihilation');
+                  }
+                  if (wordsEnglish == "anniversary") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anniversary');
+                  }
+                  if (wordsEnglish == "annotate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-annotate');
+                  }
+                  if (wordsEnglish == "annotation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-annotation');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

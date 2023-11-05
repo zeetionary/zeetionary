@@ -284,7 +284,7 @@ class EnglishEntryangry extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەزاران خۆپیشاندەری تووڕە چوونە گۆڕاپانەکە",
+                                    "ھەزاران خۆپیشاندەری تووڕە چوونە گۆڕەپانەکە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

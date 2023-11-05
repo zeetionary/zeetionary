@@ -185,7 +185,7 @@ class EnglishEntryaltruism extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سیاسەتمەداران کارناکەن بە گیانی لەخۆبردوویی",
+                                    "سیاسەتمەداران کارناکەن بە گیانی لەخۆبردووی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

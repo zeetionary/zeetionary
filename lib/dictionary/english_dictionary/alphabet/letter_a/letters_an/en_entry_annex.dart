@@ -4,84 +4,86 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryanchovy - replace speakAnchovy - replace anchovy - /ˈæntʃəvi/ - find Dopsum2
+// replace these: replace EnglishEntryannex - replace speakAnnex - replace annex - /ˈæneks/,  /əˈneks/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryanchovy extends StatelessWidget {
-  EnglishEntryanchovy({super.key});
+class EnglishEntryannex extends StatelessWidget {
+  EnglishEntryannex({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnchovy(String languageCode) async {
-    // DOPSUM: CHANGE speakAnchovy
+  Future<void> speakAnnex(String languageCode) async {
+    // DOPSUM: CHANGE speakAnnex
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("annex"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnchovy502(String languageCode) async {
-    // DOPSUM: CHANGE speakAnchovy
+  Future<void> speakAnnex1135(String languageCode) async {
+    // DOPSUM: CHANGE speakAnnex
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Decorate the top of the pizza with anchovies/strips of anchovy."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Germany annexed Austria in 1938."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnchovy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnchovy
+  Future<void> speakAnnex1140(String languageCode) async {
+    // DOPSUM: CHANGE speakAnnex
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Delicate and valuable books are kept in an air-conditioned annexe to the main library."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAnnex(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnnex
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annex"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnchovy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnchovy
+  // Future<void> speakAnnex(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnnex
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annex"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnchovy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnchovy
+  // Future<void> speakAnnex(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnnex
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annex"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnchovy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnchovy
+  // Future<void> speakAnnex(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnnex
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annex"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnchovy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnchovy
+  // Future<void> speakAnnex(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnnex
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annex"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnchovy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnchovy
+  // Future<void> speakAnnex(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnnex
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAnchovy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnchovy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anchovy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("annex"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -106,7 +108,7 @@ class EnglishEntryanchovy extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "anchovy", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæntʃəvi/
+                                "annex", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæneks/,  /əˈneks/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -125,7 +127,7 @@ class EnglishEntryanchovy extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˈæntʃəvi/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈæneks/,  /əˈneks/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -136,7 +138,7 @@ class EnglishEntryanchovy extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAnchovy(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAnnex(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -146,7 +148,7 @@ class EnglishEntryanchovy extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˈæntʃəʊvi/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                "IpaUS: /ˈæneks/,  /əˈneks/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -156,7 +158,7 @@ class EnglishEntryanchovy extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAnchovy(
+                              onPressed: () => speakAnnex(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -176,8 +178,8 @@ class EnglishEntryanchovy extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // FIND: 12,
-                  VideoIconForTab(), // 07
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 12,
+                  VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -206,7 +208,9 @@ class EnglishEntryanchovy extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (ناو) ماسییەکی بچووک کە دەخورێت و تامی سوێرە''',
+کوردی: داگیرکردن، لاخانوو(بەرە)، دەستەی لا(پاڵ)، لادەستە، خانووبەرەی سەرخستە یان لکاو، خانووبەرەی سەرخراو (نووساوە بە خانووبەرەی سەرەکی)، پاشکۆ، سەرخستە
+
+١. (کردار) داگیرکردنی وڵاتێک یان ناوچەیەک بە ھێز''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -216,7 +220,7 @@ class EnglishEntryanchovy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Decorate the top of the pizza with anchovies/strips of anchovy.",
+                                    "Germany annexed Austria in 1938.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -230,7 +234,7 @@ class EnglishEntryanchovy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەرەوەی پیتزاکە بڕازێنەوە بە پارچە ئانچۆڤی",
+                                    "ئەڵمانیا نەمسای داگیرکرد لە ساڵی ١٩٣٨",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -242,7 +246,7 @@ class EnglishEntryanchovy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnchovy502("en-GB"),
+                                onPressed: () => speakAnnex1135("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -250,9 +254,64 @@ class EnglishEntryanchovy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnchovy502(// REPLACE: anchovy /ˈæntʃəʊvi/
-                                        "en-US"),
+                                onPressed: () => speakAnnex1135(
+                                    // REPLACE: annex /ˈæneks/,  /əˈneks/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٢. (کردار) ژوورێکی زیادە کە زیاد دەکرێت بۆ ژوورێکی گەورەتر''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Delicate and valuable books are kept in an air-conditioned annexe to the main library.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "کتێبە ناسک و بەنرخەکان لە ژوورێکی بچووکی کتێبخانە سەرەکییەکەن کە سیستەمی فێنککەرەوەی تێدایە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnnex1140("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAnnex1140(
+                                    // REPLACE: annex /ˈæneks/,  /əˈneks/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -261,7 +320,7 @@ class EnglishEntryanchovy extends StatelessWidget {
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
+                    YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
@@ -302,10 +361,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anchovy (Derived forms: anchovies)
-1. Tiny fishes usually canned or salted; used for hors d'oeuvres or as seasoning in sauces
+- Noun: annex (Derived forms: annexed, annexes, annexing)
+1. An addition that extends a main building (= annexe [Brit], extension, wing)
+
+Verb: annex (Derived forms: annexed, annexes, annexing)
+1. Take (territory) as if by conquest
+"Hitler annexed Lithuania"
  
-2. Small herring-like plankton-eating fishes often canned whole or as paste; abundant in tropical waters worldwide
+2. Add an extra part to
 '''),
         ],
       ),
@@ -316,7 +379,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "VMEyb5ngWFM";
+  static String myVideoId = "qV3qL51tH_8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -325,7 +388,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 585, // DOPSUM: CHANGE IT
+      startAt: 536, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -341,7 +404,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "7EnWiGYT1g4";
+  static String myVideoId = "UKyDFyUGTUA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -350,7 +413,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 142, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -366,7 +429,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "YpUDblEURdY";
+  static String myVideoId = "stYX_2iGA_I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -375,7 +438,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 166, // DOPSUM: CHANGE IT
+      startAt: 631, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -391,7 +454,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "nwnhoOIQ5KU";
+  static String myVideoId = "grGTYBfhjio";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -400,7 +463,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 506, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -416,7 +479,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "T-vxRbm-YoI";
+  static String myVideoId = "OnjI-FBdRTQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -425,7 +488,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 350, // DOPSUM: CHANGE IT
+      startAt: 8797, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -441,7 +504,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "4vQxnENSSLM";
+  static String myVideoId = "Wu4t0qaUiNs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -450,7 +513,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 672, // DOPSUM: CHANGE IT
+      startAt: 670, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -466,7 +529,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "MP_nWuLYpJw";
+  static String myVideoId = "8YkGrKQXZxE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -475,7 +538,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 177, // DOPSUM: CHANGE IT
+      startAt: 406, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -491,7 +554,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "YqFen-4pUvw";
+  static String myVideoId = "dWaNdWMLEt8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -516,7 +579,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "dr3rMTxq3bA";
+  static String myVideoId = "TPEdTajhR6A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -525,7 +588,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 234, // DOPSUM: CHANGE IT
+      startAt: 414, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -541,7 +604,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "4G6Y6glM_hg";
+  static String myVideoId = "_0boi1KQz3c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -550,7 +613,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 344, // DOPSUM: CHANGE IT
+      startAt: 398, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

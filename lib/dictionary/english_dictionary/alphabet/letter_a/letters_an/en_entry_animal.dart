@@ -4,106 +4,96 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryanalytic - replace speakAnalytic - replace analytic - /ˌænəˈlɪtɪk/ - find Dopsum2
+// replace these: replace EnglishEntryanimal - replace speakAnimal - replace animal - /ˈænɪml/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryanalytic extends StatelessWidget {
-  EnglishEntryanalytic({super.key});
+class EnglishEntryanimal extends StatelessWidget {
+  EnglishEntryanimal({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnalytic(String languageCode) async {
-    // DOPSUM: CHANGE speakAnalytic
+  Future<void> speakAnimal(String languageCode) async {
+    // DOPSUM: CHANGE speakAnimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("analytic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("animal"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnalytical150(String languageCode) async {
-    // DOPSUM: CHANGE speakAnalytical
+  Future<void> speakAnimal858(String languageCode) async {
+    // DOPSUM: CHANGE speakAnimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She has a clear analytic mind."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The animal began to sicken and soon died."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnalytical0025(String languageCode) async {
-    // DOPSUM: CHANGE speakAnalytical
+  Future<void> speakAnimal0052(String languageCode) async {
+    // DOPSUM: CHANGE speakAnimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The analytic methods we developed for this project will be useful for our future work."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A horse is a large animal."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnalytic47906(String languageCode) async {
-    // DOPSUM: CHANGE speakAnalytic
+  Future<void> speakAnimal440(String languageCode) async {
+    // DOPSUM: CHANGE speakAnimal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("This book is one of the masterpieces of analytic philosophy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This product has not been tested on animals."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnalytic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnalytic
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analytic"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAnimal4608(String languageCode) async {
+    // DOPSUM: CHANGE speakAnimal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Humans are the only animals to have developed speech."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnalytic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnalytic
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analytic"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAnimal4390(String languageCode) async {
+    // DOPSUM: CHANGE speakAnimal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He's a real animal when he's had too much to drink."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnalytic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnalytic
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analytic"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAnimal4077(String languageCode) async {
+    // DOPSUM: CHANGE speakAnimal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She knew that Dave wasn't the right man for her but she couldn't deny the animal attraction between them."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnalytic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnalytic
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analytic"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAnimal914(String languageCode) async {
+    // DOPSUM: CHANGE speakAnimal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "As an actor, he has a sort of animal magnetism."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAnalytic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnalytic
+  // Future<void> speakAnimal(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnimal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analytic"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAnalytic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnalytic
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analytic"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAnalytic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnalytic
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analytic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("animal"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -122,7 +112,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "analytic", // DOPSUM: CHANGE WORD ENTRY - Find /ˌænəˈlɪtɪk/
+                                "animal", // DOPSUM: CHANGE WORD ENTRY - Find /ˈænɪml/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -141,7 +131,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˌænəˈlɪtɪk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈænɪml/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -152,7 +142,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAnalytic(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAnimal(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -162,7 +152,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˌænəˈlɪtɪk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                "IpaUS: /ˈænɪml/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -172,7 +162,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAnalytic(
+                              onPressed: () => speakAnimal(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -192,13 +182,13 @@ class EnglishEntryanalytic extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // FIND: 2,
-                  VideoIconForTab(), // 07
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 14,
+                  VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -222,7 +212,9 @@ class EnglishEntryanalytic extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (ھاوەڵناو) بەکارھێنانی شێوازی بیرکردنەوەی لۆژیکیانە بۆ تێگەشتن لە شتێک، بەتایبەتی بە سەیرکردنی ھەموو بەشەکانی''',
+کوردی: گیان‌لەبەر، ڕۆح‌لەبەر، ئاژەڵ، گیانەوەر، گیان‌دار، ژین‌دار، جانەوەر، زیندەوەر، بوونەوەر، گیانەوەری چوارپێ، مرۆڤی دڕندە، گیانەوەری، لەشی، جەستەیی، تەنانی
+
+١. (ناو) ئاژەڵ؛ گیانلەبەرێک کە باڵندە، ماسی، خشۆک، مێروو، یان مرۆڤ نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -232,7 +224,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "She has a clear analytic mind.",
+                                    "The animal began to sicken and soon died.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -246,7 +238,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مێشکێکی تەواو بەدیقەتی ھەیە",
+                                    "ئاژەڵەکە لاوازبوو و بەزووی مرد",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -258,7 +250,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnalytical150("en-GB"),
+                                onPressed: () => speakAnimal858("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -267,7 +259,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAnalytical150(// REPLACE: analytical /ˌænəˈlɪtɪkl/
+                                    speakAnimal858(// REPLACE: animal /ˈænɪml/
                                         "en-US"),
                               ),
                             ],
@@ -280,7 +272,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The analytic methods we developed for this project will be useful for our future work.",
+                                    "A horse is a large animal.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -294,7 +286,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو ڕێگا شیکارییانەی گەشەمان‌پێدا بۆ ئەم پڕۆژە بەسوود دەبێت بۆ کارەکانی داھاتوومان",
+                                    "ئەسپ ئاژەڵێکی گەورەیە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -306,7 +298,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnalytical0025("en-GB"),
+                                onPressed: () => speakAnimal0052("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -315,7 +307,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAnalytical0025(// REPLACE: analytical /ˌænəˈlɪtɪkl/
+                                    speakAnimal0052(// REPLACE: animal /ˈænɪml/
                                         "en-US"),
                               ),
                             ],
@@ -325,7 +317,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. (ھاوەڵناو) پەیوەندیدار بە بەکارھێنانی لۆژیک (وردبوونەوە و بیرکردنەوە لە بیرۆکەکان بە ڕێگای زانستی)''',
+٢. (ناو) ھەرشتێکی زیندوو کە مرۆڤ یان ڕووەک نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -335,7 +327,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "This book is one of the masterpieces of analytic philosophy.",
+                                    "This product has not been tested on animals.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -349,7 +341,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم کتێبە یەکێکە لە شاکارەکانی فەلسەفەی شیکارانە",
+                                    "ئەم بەرھەمە ھێشتا لەسەر ئاژەڵ تاقی‌نەکراوەتەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -361,7 +353,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnalytic47906("en-GB"),
+                                onPressed: () => speakAnimal440("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -370,7 +362,220 @@ class EnglishEntryanalytic extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAnalytic47906(// REPLACE: analytical /ˌænəˈlɪtɪkl/
+                                    speakAnimal440(// REPLACE: animal /ˈænɪml/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٣. (ناو) ھەرشتێکی زیندوو، بە مرۆڤیشەوە''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Humans are the only animals to have developed speech.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "مرۆڤ تەنھا گیانلەبەرە کە توانای قسەکردنی گەشەپێ‌دابێت",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnimal4608("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAnimal4608(// REPLACE: animal /ˈænɪml/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٤. (ناو) کەسێک کە بە دڕندەیی ڕەفتار دەکات''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "He's a real animal when he's had too much to drink.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "دەبێت بە دڕندەیەکی تەواو کە زۆر دەخواتەوە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnimal4390("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAnimal4390(// REPLACE: animal /ˈænɪml/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٥. (ھاوەڵناو) پەیوەندیدار بە حەزی جەستەیی کەسێک''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "She knew that Dave wasn't the right man for her but she couldn't deny the animal attraction between them.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "دەیزانی دەیڤ کەسێکی شیاو نییە بۆی، بەڵام نەیدەتوانی نکۆڵی بکات لە حەزی جەستەییان بۆ یەکدی",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnimal4077("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAnimal4077(// REPLACE: animal /ˈænɪml/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "As an actor, he has a sort of animal magnetism.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "وەک ئەکتەرێک، کەسێکی دڵبەرە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnimal914("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAnimal914(// REPLACE: animal /ˈænɪml/
                                         "en-US"),
                               ),
                             ],
@@ -380,7 +585,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
+                    YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
@@ -389,9 +594,9 @@ class EnglishEntryanalytic extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -421,20 +626,19 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: analytic 
-1. (mathematics) using or subjected to a methodology using algebra and calculus
-"analytic statics"
+- Noun: animal (Derived forms: animals)
+1. A living organism characterized by voluntary movement (= animate being, beast, brute, creature, fauna)
  
-2. Using or skilled in using analysis (i.e., separating a whole--intellectual or substantial--into its elemental parts or basic principles) (= analytical)
-"an analytic experiment"; "a keenly analytic man";
+2. Someone who treats others inhumanely, or is regarded as wildly violent or uncivilized (= brute)
  
-3. (linguistics) expressing a grammatical category by using two or more words rather than inflection (= uninflected)
+3. Any non-human animal, esp. a land-living mammal (= beast)
  
-4. (logic) of a proposition that is necessarily true independent of fact or experience (= analytical)
-"'all spinsters are unmarried' is an analytic proposition";
+4. A particular kind of person or thing (= beast)
+"he's a strange animal";
 
-5. (maths) complex valued and complex differentiable (= holomorphic)
-"The professor introduced analytic functions of several complex variables";
+- Adjective: animal  
+1. Marked by the appetites and passions of the body (= carnal, fleshly, sensual)
+"animal instincts";
 '''),
         ],
       ),
@@ -445,7 +649,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "krtf-v19TJg";
+  static String myVideoId = "6wAPCumZ1oU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -454,7 +658,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 65, // DOPSUM: CHANGE IT
+      startAt: 30, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -470,7 +674,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "eyUNmkT5bzU";
+  static String myVideoId = "3gt_G1BjTD4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -479,7 +683,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 50, // DOPSUM: CHANGE IT
+      startAt: 10, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -495,7 +699,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "RMFtsdD2M8c";
+  static String myVideoId = "W0-qgICcVSw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -504,7 +708,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 98, // DOPSUM: CHANGE IT
+      startAt: 6, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -520,7 +724,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "MWJZsW9HooY";
+  static String myVideoId = "Fw4Av_cQdgs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -529,7 +733,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 13, // DOPSUM: CHANGE IT
+      startAt: 23, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -545,7 +749,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "JjZyQjZjnj8";
+  static String myVideoId = "Tk2Hy7UGRk0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -554,7 +758,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 263, // DOPSUM: CHANGE IT
+      startAt: 19, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -570,7 +774,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "7Vm282YvOGw";
+  static String myVideoId = "47MNn4bsmSw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -579,7 +783,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 2044, // DOPSUM: CHANGE IT
+      startAt: 588, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -595,7 +799,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "zlm1aajH6gY";
+  static String myVideoId = "9ttxmg2nBOQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -604,7 +808,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 623, // DOPSUM: CHANGE IT
+      startAt: 263, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -620,7 +824,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "oXPhvh4eGcM";
+  static String myVideoId = "N7HFXgyTya0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -629,7 +833,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 848, // DOPSUM: CHANGE IT
+      startAt: 14, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -645,7 +849,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "N5FQRGfPy8I";
+  static String myVideoId = "AZeyHTJfi_E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -654,7 +858,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 2990, // DOPSUM: CHANGE IT
+      startAt: 61, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -670,7 +874,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID";
+  static String myVideoId = "i7Buzy6p5q4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -679,7 +883,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 8, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -695,7 +899,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID";
+  static String myVideoId = "v4GiajimGnE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -704,7 +908,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 37, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -720,7 +924,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID";
+  static String myVideoId = "BfUoopDpmmY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -729,7 +933,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 83, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );

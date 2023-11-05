@@ -4,51 +4,91 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryaltruistic - replace speakAltruistic - replace altruistic - /ˌæltruˈɪstɪk/ - find Dopsum2
+// replace these: replace EnglishEntryanimatronics - replace speakAnimatronics - replace animatronics - /ˌænɪməˈtrɒnɪks/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryaltruistic extends StatelessWidget {
-  EnglishEntryaltruistic({super.key});
+class EnglishEntryanimatronics extends StatelessWidget {
+  EnglishEntryanimatronics({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAltruistic(String languageCode) async {
-    // DOPSUM: CHANGE speakAltruistic
+  Future<void> speakAnimatronics(String languageCode) async {
+    // DOPSUM: CHANGE speakAnimatronics
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("altruistic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("animatronics"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAltruistic4583(String languageCode) async {
-    // DOPSUM: CHANGE speakAltruistic
+  Future<void> speakAnimatronics1043(String languageCode) async {
+    // DOPSUM: CHANGE speakAnimatronics
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I doubt whether her motives for donating the money are altruistic - she's probably looking for publicity."); // DOPSUM: CHANGE TEXT
+        "Ask them if they can find out who's doing the animatronics."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAltruistic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAltruistic
+  // Future<void> speakAnimatronics(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnimatronics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("altruistic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("animatronics"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAltruistic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAltruistic
+  // Future<void> speakAnimatronics(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnimatronics
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("altruistic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("animatronics"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAnimatronics(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnimatronics
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("animatronics"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAnimatronics(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnimatronics
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("animatronics"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAnimatronics(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnimatronics
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("animatronics"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAnimatronics(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnimatronics
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("animatronics"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAnimatronics(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnimatronics
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("animatronics"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -65,10 +105,12 @@ class EnglishEntryaltruistic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "altruistic", // DOPSUM: CHANGE WORD ENTRY - Find /ˌæltruˈɪstɪk/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
+                            Expanded(
+                              child: Text(
+                                "animatronics", // DOPSUM: CHANGE WORD ENTRY - Find /ˌænɪməˈtrɒnɪks/
+                                style: TextStyle(
+                                    fontSize: 20, fontWeight: FontWeight.bold),
+                              ),
                             ),
                             // SizedBox(
                             //   width: 10,
@@ -81,9 +123,12 @@ class EnglishEntryaltruistic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUK: /ˌæltruˈɪstɪk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
+                            Container(
+                              constraints: const BoxConstraints(maxWidth: 300),
+                              child: const Text(
+                                "IpaUK: /ˌænɪməˈtrɒnɪks/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                style: TextStyle(fontSize: 14),
+                              ),
                             ),
                             IconButton(
                               iconSize: 16,
@@ -91,7 +136,7 @@ class EnglishEntryaltruistic extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAltruistic(
+                              onPressed: () => speakAnimatronics(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -99,9 +144,12 @@ class EnglishEntryaltruistic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUS: /ˌæltruˈɪstɪk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
+                            Container(
+                              constraints: const BoxConstraints(maxWidth: 300),
+                              child: const Text(
+                                "IpaUS: /ˌænɪməˈtrɑːnɪks/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                style: TextStyle(fontSize: 14),
+                              ),
                             ),
                             IconButton(
                               iconSize: 16,
@@ -109,7 +157,7 @@ class EnglishEntryaltruistic extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAltruistic(
+                              onPressed: () => speakAnimatronics(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -129,13 +177,13 @@ class EnglishEntryaltruistic extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // FIND: 2,
-                  VideoIconForTab(), // 07
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 14,
+                  VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -159,9 +207,7 @@ class EnglishEntryaltruistic extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: لەخۆبردووانە، ئەویدی‌خوازانە، لەخۆبردوو، گیان‌بەخت‌کەر، فەداکار، گیان‌باز
-
-١. (ھاوەڵناو) ھەبوونی خاسیەتی لەخۆبردوویی؛ یارمەتیدانی کەسانی تر بەبێ ھیچ ھۆکارێکی کەسی''',
+١. (ناو) پڕۆسەی درووستکردنی ڕۆبۆت لەشێوەی مرۆڤ یان ئاژەڵدا کە لە فیلمدا بەکاردێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -171,7 +217,7 @@ class EnglishEntryaltruistic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "I doubt whether her motives for donating the money are altruistic - she's probably looking for publicity.",
+                                    "Ask them if they can find out who's doing the animatronics.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -185,7 +231,7 @@ class EnglishEntryaltruistic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گومانم ھەیە مەبەستی لە بەخشینی پارەکە تەنھا لەخۆبردووی بێت، پێدەچێت بۆ ناوبانگ بگەڕێت",
+                                    "پرسیاریان لێ‌بکە ئاخۆ دەزانن کێ کاری ئانیماترۆنیکسەکەی کردووە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -197,7 +243,7 @@ class EnglishEntryaltruistic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAltruistic4583("en-GB"),
+                                onPressed: () => speakAnimatronics1043("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -205,16 +251,18 @@ class EnglishEntryaltruistic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAltruistic4583(
-                                    // REPLACE: altruistic /ˌæltruˈɪstɪk/
+                                onPressed: () => speakAnimatronics1043(
+                                    // REPLACE: animatronics /ˌænɪməˈtrɑːnɪks/
                                     "en-US"),
                               ),
                             ],
                           ),
+                          // const DividerSentences(),
+                          // const DividerDefinition(),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
+                    YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
@@ -223,9 +271,9 @@ class EnglishEntryaltruistic extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -255,9 +303,8 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: altruistic 
-1. Showing unselfish concern for the welfare of others
-"the company tried to project an altruistic image";
+- Noun: animatronics  
+1. The construction of robots to look like animals (developed for Disneyland)
 '''),
         ],
       ),
@@ -268,15 +315,16 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'unX4FQqM6vI';
+  static String myVideoId = "8z5sH94afms";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 609, // DOPSUM: CHANGE IT
+      startAt: 127, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -292,15 +340,16 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = '9yjZpBq1XBE';
+  static String myVideoId = "GXkI8o2SHAM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 2187, // DOPSUM: CHANGE IT
+      startAt: 111, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -316,15 +365,16 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = '7eM7pb5M5DU';
+  static String myVideoId = "uNIfx0Xddzc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 396, // DOPSUM: CHANGE IT
+      startAt: 163, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -340,15 +390,16 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = '7xRit3yRim0';
+  static String myVideoId = "JHEj-d8kLaE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 1229, // DOPSUM: CHANGE IT
+      startAt: 12, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -364,15 +415,16 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '9wk4ApHloHM';
+  static String myVideoId = "uhIq_PvZM8g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 95, // DOPSUM: CHANGE IT
+      startAt: 5, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -388,15 +440,16 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'bwvGL21aJ_s';
+  static String myVideoId = "tUhK_hbbWvg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 74, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -412,15 +465,16 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'znwUCNrjpD4';
+  static String myVideoId = "BxywJw1U2hM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 336, // DOPSUM: CHANGE IT
+      startAt: 10, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -436,15 +490,16 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'fqzaHvJ-yvw';
+  static String myVideoId = "hcb7Tt4Q_V0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 84, // DOPSUM: CHANGE IT
+      startAt: 9, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -460,15 +515,16 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = '5jjdErDkDZE';
+  static String myVideoId = "4-EQ9sAoeDw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 1651, // DOPSUM: CHANGE IT
+      startAt: 37, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -482,3 +538,141 @@ class YoutubeEmbeddednine extends StatelessWidget {
     );
   }
 }
+
+class YoutubeEmbeddedten extends StatelessWidget {
+  static String myVideoId = "3HWZX2_nzn0";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedten({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedeleven extends StatelessWidget {
+  static String myVideoId = "q8bIpU2Td0Y";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+      startAt: 4, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedeleven({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwelve extends StatelessWidget {
+  static String myVideoId = "VGtalQfVP2k";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+      startAt: 8, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+    ),
+  );
+
+  YoutubeEmbeddedtwelve({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+// morethan one video, only first autoplay
+
+// class YoutubeEmbeddethirteen extends StatelessWidget {
+//   static String myVideoId = "PUT_VIDEO_ID";
+//   static String myVideoIdTwo = "PUT_VIDEO_ID";
+//   static String myVideoIdThree = "PUT_VIDEO_ID";
+
+//   final YoutubePlayerController _controller = YoutubePlayerController(
+//     initialVideoId: myVideoId,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   final YoutubePlayerController _controllertwo = YoutubePlayerController(
+//     initialVideoId: myVideoIdTwo,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   final YoutubePlayerController _controllerthree = YoutubePlayerController(
+//     initialVideoId: myVideoIdThree,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   YoutubeEmbeddethirteen({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       body: SingleChildScrollView(
+//         child: Column(
+//           children: [
+//             YouTubeContainerDesign(controller: _controller),
+//             YouTubeContainerDesign(controller: _controllertwo),
+//             YouTubeContainerDesign(controller: _controllerthree),
+//           ],
+//         ),
+//       ),
+//     );
+//   }
+// }
+
+// end // TODO Implement this library.

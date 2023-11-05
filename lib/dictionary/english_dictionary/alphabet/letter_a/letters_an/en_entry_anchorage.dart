@@ -232,7 +232,7 @@ class EnglishEntryanchorage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لاوچەکە باش ناسراوە وەک بەندەرێکی سەلامەتە",
+                                    "کەنداوەکە بەباشی وەک بەندەرێکی سەلامەت ناسراوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

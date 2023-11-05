@@ -703,6 +703,17 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "anguish",
     "anguished",
     "angular",
+    "animal",
+    "animate",
+    "animated",
+    "animation",
+    "animatronics",
+    "animosity",
+    "ankle",
+    "annals",
+    "annex",
+    "annexation",
+    "annexe",
     "dopsum",
     "dopsum",
     "come of age",
@@ -3579,50 +3590,50 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-angular');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "animal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-animal');
+                  }
+                  if (wordsEnglish == "animate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-animate');
+                  }
+                  if (wordsEnglish == "animated") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-animated');
+                  }
+                  if (wordsEnglish == "animation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-animation');
+                  }
+                  if (wordsEnglish == "animatronics") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-animatronics');
+                  }
+                  if (wordsEnglish == "animosity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-animosity');
+                  }
+                  if (wordsEnglish == "ankle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-ankle');
+                  }
+                  if (wordsEnglish == "annals") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-annals');
+                  }
+                  if (wordsEnglish == "annex") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-annex');
+                  }
+                  if (wordsEnglish == "annexation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-annexation');
+                  }
+                  if (wordsEnglish == "annexe") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-annexe');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

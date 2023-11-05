@@ -700,6 +700,21 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anguish.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anguished.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_angular.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_animal.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_animate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_animated.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_animation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_animatronics.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_animosity.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_ankle.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_annals.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_annex.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_annexation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_annexe.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
@@ -1479,17 +1494,17 @@ final loggedInRoute = RouteMap(routes: {
   "/english-anguish": (_) => MaterialPage(child: EnglishEntryanguish()),
   "/english-anguished": (_) => MaterialPage(child: EnglishEntryanguished()),
   "/english-angular": (_) => MaterialPage(child: EnglishEntryangular()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-animal": (_) => MaterialPage(child: EnglishEntryanimal()),
+  "/english-animate": (_) => MaterialPage(child: EnglishEntryanimate()),
+  "/english-animated": (_) => MaterialPage(child: EnglishEntryanimated()),
+  "/english-animation": (_) => MaterialPage(child: EnglishEntryanimation()),
+  "/english-animatronics": (_) => MaterialPage(child: EnglishEntryanimatronics()),
+  "/english-animosity": (_) => MaterialPage(child: EnglishEntryanimosity()),
+  "/english-ankle": (_) => MaterialPage(child: EnglishEntryankle()),
+  "/english-annals": (_) => MaterialPage(child: EnglishEntryannals()),
+  "/english-annex": (_) => MaterialPage(child: EnglishEntryannex()),
+  "/english-annexation": (_) => MaterialPage(child: EnglishEntryannexation()),
+  "/english-annexe": (_) => MaterialPage(child: EnglishEntryannexe()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

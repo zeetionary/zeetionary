@@ -716,6 +716,9 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "anniversary",
     "annotate",
     "annotation",
+    "announce",
+    "announcement",
+    "announcer",
     "annex",
     "annexation",
     "annexe",
@@ -3659,18 +3662,18 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-annotation');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "announce") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-announce');
+                  }
+                  if (wordsEnglish == "announcement") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-announcement');
+                  }
+                  if (wordsEnglish == "announcer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-announcer');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

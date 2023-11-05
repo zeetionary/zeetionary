@@ -716,9 +716,9 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anniversary.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_annotate.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_annotation.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_announce.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_announcement.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_announcer.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
@@ -1443,8 +1443,10 @@ final loggedInRoute = RouteMap(routes: {
   "/english-anaerobic": (_) => MaterialPage(child: EnglishEntryanaerobic()),
   "/english-anaesthesia": (_) => MaterialPage(child: EnglishEntryanaesthesia()),
   "/english-anaesthetic": (_) => MaterialPage(child: EnglishEntryanaesthetic()),
-  "/english-anaesthetist": (_) => MaterialPage(child: EnglishEntryanaesthetist()),
-  "/english-anaesthetize": (_) => MaterialPage(child: EnglishEntryanaesthetize()),
+  "/english-anaesthetist": (_) =>
+      MaterialPage(child: EnglishEntryanaesthetist()),
+  "/english-anaesthetize": (_) =>
+      MaterialPage(child: EnglishEntryanaesthetize()),
   "/english-anagram": (_) => MaterialPage(child: EnglishEntryanagram()),
   "/english-analgesic": (_) => MaterialPage(child: EnglishEntryanalgesic()),
   "/english-analogue": (_) => MaterialPage(child: EnglishEntryanalogue()),
@@ -1498,7 +1500,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-animate": (_) => MaterialPage(child: EnglishEntryanimate()),
   "/english-animated": (_) => MaterialPage(child: EnglishEntryanimated()),
   "/english-animation": (_) => MaterialPage(child: EnglishEntryanimation()),
-  "/english-animatronics": (_) => MaterialPage(child: EnglishEntryanimatronics()),
+  "/english-animatronics": (_) =>
+      MaterialPage(child: EnglishEntryanimatronics()),
   "/english-animosity": (_) => MaterialPage(child: EnglishEntryanimosity()),
   "/english-ankle": (_) => MaterialPage(child: EnglishEntryankle()),
   "/english-annals": (_) => MaterialPage(child: EnglishEntryannals()),
@@ -1506,13 +1509,15 @@ final loggedInRoute = RouteMap(routes: {
   "/english-annexation": (_) => MaterialPage(child: EnglishEntryannexation()),
   "/english-annexe": (_) => MaterialPage(child: EnglishEntryannexe()),
   "/english-annihilate": (_) => MaterialPage(child: EnglishEntryannihilate()),
-  "/english-annihilation": (_) => MaterialPage(child: EnglishEntryannihilation()),
+  "/english-annihilation": (_) =>
+      MaterialPage(child: EnglishEntryannihilation()),
   "/english-anniversary": (_) => MaterialPage(child: EnglishEntryanniversary()),
   "/english-annotate": (_) => MaterialPage(child: EnglishEntryannotate()),
   "/english-annotation": (_) => MaterialPage(child: EnglishEntryannotation()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-announce": (_) => MaterialPage(child: EnglishEntryannounce()),
+  "/english-announcement": (_) =>
+      MaterialPage(child: EnglishEntryannouncement()),
+  "/english-announcer": (_) => MaterialPage(child: EnglishEntryannouncer()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

@@ -719,6 +719,21 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "announce",
     "announcement",
     "announcer",
+    "annoy",
+    "annoyance",
+    "annual",
+    "annually",
+    "annuity",
+    "annul",
+    "annulment",
+    "anode",
+    "anoint",
+    "anomaly",
+    "anomalous",
+    "anon",
+    "anon.",
+    "anonymity",
+    "anonymous",
     "annex",
     "annexation",
     "annexe",
@@ -3674,62 +3689,66 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-announcer');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "annoy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-annoy');
+                  }
+                  if (wordsEnglish == "annoyance") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-annoyance');
+                  }
+                  if (wordsEnglish == "annual") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-annual');
+                  }
+                  if (wordsEnglish == "annually") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-annually');
+                  }
+                  if (wordsEnglish == "annuity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-annuity');
+                  }
+                  if (wordsEnglish == "annul") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-annul');
+                  }
+                  if (wordsEnglish == "annulment") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-annulment');
+                  }
+                  if (wordsEnglish == "anode") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anode');
+                  }
+                  if (wordsEnglish == "anoint") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anoint');
+                  }
+                  if (wordsEnglish == "anomaly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anomaly');
+                  }
+                  if (wordsEnglish == "anomalous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anomalous');
+                  }
+                  if (wordsEnglish == "anonymous") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anonymous');
+                  }
+                  if (wordsEnglish == "anonymity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anonymity');
+                  }
+                  if (wordsEnglish == "anon.") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anon-two');
+                  }
+                  if (wordsEnglish == "anon") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anon');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

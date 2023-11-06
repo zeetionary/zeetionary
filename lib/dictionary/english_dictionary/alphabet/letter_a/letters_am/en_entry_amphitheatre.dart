@@ -265,7 +265,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (ناو) ژوورێک، ھۆڵێک، یان سینەمایەک کە جێگەی دانیشتنی تێدایە کە پلەپلە بەرزدەبنەوە''',
+٢. (ناو) ژوورێک، ھۆڵێک، یان سینەمایەک کە جێگەی دانیشتنی تێدایە کە پلەپلە بەرزدەبنەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

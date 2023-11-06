@@ -4,92 +4,97 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryanorexic - replace speakAnorexic - replace anorexic - /ˌænəˈreksɪk/ - find Dopsum2
+// replace these: replace EnglishEntryanticipate - replace speakAnticipate - replace anticipate - /ænˈtɪsɪpeɪt/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryanorexic extends StatelessWidget {
+class EnglishEntryanticipate extends StatelessWidget {
   // blank divider
-  EnglishEntryanorexic({super.key});
+  EnglishEntryanticipate({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnorexic(String languageCode) async {
-    // DOPSUM: CHANGE speakAnorexic
+  Future<void> speakAnticipate(String languageCode) async {
+    // DOPSUM: CHANGE speakAnticipate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anticipate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnorexic908(String languageCode) async {
-    // DOPSUM: CHANGE speakAnorexic
+  Future<void> speakAnticipate1032(String languageCode) async {
+    // DOPSUM: CHANGE speakAnticipate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Our anticipated arrival time is 8.30."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAnticipate1033(String languageCode) async {
+    // DOPSUM: CHANGE speakAnticipate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("I don't anticipate it being a problem."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAnticipate1036(String languageCode) async {
+    // DOPSUM: CHANGE speakAnticipate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Not eating makes an anorexic feel in control."); // DOPSUM: CHANGE TEXT
+        "Try and anticipate what the interviewers will ask."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnorexic909(String languageCode) async {
-    // DOPSUM: CHANGE speakAnorexic
+  Future<void> speakAnticipate1038(String languageCode) async {
+    // DOPSUM: CHANGE speakAnticipate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She looks anorexic to me."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We eagerly anticipated the day we would leave school."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnorexic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnorexic
+  Future<void> speakAnticipate1040(String languageCode) async {
+    // DOPSUM: CHANGE speakAnticipate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "When Scott reached the South Pole he found that Amundsen had anticipated him."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAnticipate(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnticipate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticipate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnorexic
+  // Future<void> speakAnticipate(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnticipate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticipate"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnorexic
+  // Future<void> speakAnticipate(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnticipate
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAnorexic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnorexic
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAnorexic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnorexic
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAnorexic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnorexic
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticipate"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -108,7 +113,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "anorexic", // DOPSUM: CHANGE WORD ENTRY - Find /ˌænəˈreksɪk/
+                                "anticipate", // DOPSUM: CHANGE WORD ENTRY - Find /ænˈtɪsɪpeɪt/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -127,7 +132,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˌænəˈreksɪk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ænˈtɪsɪpeɪt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -137,9 +142,9 @@ class EnglishEntryanorexic extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAnorexic(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAnticipate(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -148,7 +153,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˌænəˈreksɪk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                "IpaUS: /ænˈtɪsɪpeɪt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -158,7 +163,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAnorexic(
+                              onPressed: () => speakAnticipate(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -178,12 +183,12 @@ class EnglishEntryanorexic extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 10,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 13,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
@@ -208,9 +213,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: تووش‌بوو بە بێ‌ئیشتیایی دەروونی، نەخۆشی تووش‌بوو بە بێ‌ئیشتیایی دەروونی
-
-١. (ناو) کەسێکی تووشبوو بە بێ‌ئیشتیایی؛ نەخۆشییەکی دەروونی کە تێیدا کەسێک بە ھەڵە پێێ‌وایە کە کێشی زیادە بۆیە خواردنی کەم دەخوات و دەبێتە ھۆی کێش‌کەمی بە ئاستێکی مەترسیدار''',
+١. (کردار) پێشبینی‌کردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -220,7 +223,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Not eating makes an anorexic feel in control.",
+                                    "Our anticipated arrival time is 8.30.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -234,7 +237,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خواردن نەخواردن وا لە کەسێکی بێ‌ئیشتیا دەکات ھەست بکات کۆنترۆڵی کێشی کردووە",
+                                    "کاتی پێشبینیکراوی گەشتنمان ٨:٣٠ یە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -246,7 +249,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnorexic908("en-GB"),
+                                onPressed: () => speakAnticipate1032("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -254,8 +257,56 @@ class EnglishEntryanorexic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAnorexic908(
-                                    // REPLACE: anorexic /ˌænəˈreksɪk/
+                                onPressed: () => speakAnticipate1032(
+                                    // REPLACE: anticipate /ænˈtɪsɪpeɪt/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "I don't anticipate it being a problem.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "پێشبینی ناکەم ببێتە کێشە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnticipate1033("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAnticipate1033(
+                                    // REPLACE: anticipate /ænˈtɪsɪpeɪt/
                                     "en-US"),
                               ),
                             ],
@@ -265,7 +316,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. (ناو) پەیوەندیدار بە تووشبوون بە بێ‌ئیشتیایی؛ نەخۆشییەکی دەروونی کە تێیدا کەسێک بە ھەڵە پێێ‌وایە کە کێشی زیادە بۆیە خواردنی کەم دەخوات و دەبێتە ھۆی کێش‌کەمی بە ئاستێکی مەترسیدار''',
+٢. (کردار) پێشبینی‌کردنی ڕوودانی شتێک و کردنی ئامادەکاری بۆ مامەڵە لەگەڵی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -275,7 +326,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "She looks anorexic to me.",
+                                    "Try and anticipate what the interviewers will ask.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -289,7 +340,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بێ‌ئیشتیا دیارە لام",
+                                    "هەوڵ‌بدە پێشبینی بکە دیدارکاران چی پرسیارێک دەکەن",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -301,7 +352,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnorexic909("en-GB"),
+                                onPressed: () => speakAnticipate1036("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -309,8 +360,118 @@ class EnglishEntryanorexic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAnorexic909(
-                                    // REPLACE: anorexic /ˌænəˈreksɪk/
+                                onPressed: () => speakAnticipate1036(
+                                    // REPLACE: anticipate /ænˈtɪsɪpeɪt/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٣. (کردار) بە کەیف‌سازی بیرکردنەوە لە شتێک کە ڕوودەدات''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "We eagerly anticipated the day we would leave school.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "بە خۆشییەوە بیرمان لەو ڕۆژە دەکردەوە کە قوتابخانە جێدێڵین",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnticipate1038("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAnticipate1038(
+                                    // REPLACE: anticipate /ænˈtɪsɪpeɪt/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٤. (کردار) کردنی شتێک پێش کەسێکی تر''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "When Scott reached the South Pole he found that Amundsen had anticipated him.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "کە سکۆت گەشتە جەمسەری باشوور زانی ئامندسن پێشی دابوویەوە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnticipate1040("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAnticipate1040(
+                                    // REPLACE: anticipate /ænˈtɪsɪpeɪt/
                                     "en-US"),
                               ),
                             ],
@@ -328,9 +489,9 @@ class EnglishEntryanorexic extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
@@ -361,11 +522,21 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: anorexic
-1. Suffering from anorexia nervosa; pathologically thin (= anorectic)
-
-- Noun: anorexic (Derived forms: anorexics)
-1. A person suffering from anorexia nervosa (= anorectic)
+- Verb: anticipate (Derived forms: anticipated, anticipates, anticipating) 
+1. Regard something as probable or likely (= expect)
+"The meteorologists are anticipating rain for tomorrow";
+ 
+2.Act in advance of; deal with ahead of time
+ 
+3. Realize beforehand (= previse, foreknow, foresee)
+ 
+4. Make a prediction about; tell in advance (= predict, foretell, prognosticate, call, forebode, promise)
+"anticipate the outcome of an election";
+ 
+5. Be excited or anxious about (= look for, look to)
+ 
+6. Be a forerunner of or occur earlier than
+"This composition anticipates Impressionism"
 '''),
         ],
       ),
@@ -376,12 +547,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "6yo61uGNI9c";
+  static String myVideoId = "https://youtu.be/hFZFjoX2cGg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1125, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -401,12 +572,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "9-NfU3sFHXg";
+  static String myVideoId = "https://youtu.be/HDntl7yzzVI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 146, // DOPSUM: CHANGE IT
+      startAt: 262, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -426,12 +597,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "BivQrVvWNaw";
+  static String myVideoId = "https://youtu.be/gfOMFa5RZaE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 565, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -451,12 +622,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "K1FG0Wjf_Cc";
+  static String myVideoId = "https://youtu.be/erDE9B-X7mk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 106, // DOPSUM: CHANGE IT
+      startAt: 675, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -476,12 +647,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "jDrkdxpaGMs";
+  static String myVideoId = "https://youtu.be/fdGWRq1dVBA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 540, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -501,12 +672,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "UeNQ9ZGJi7I";
+  static String myVideoId = "https://youtu.be/b5fNif_WGdc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2937, // DOPSUM: CHANGE IT
+      startAt: 351, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -526,12 +697,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "cPRX_x-vW9U";
+  static String myVideoId = "https://youtu.be/oVX5OSIw5ms?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 512, // DOPSUM: CHANGE IT
+      startAt: 523, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -551,12 +722,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "UaNzP0AX0Gw";
+  static String myVideoId = "https://youtu.be/Ov2rndaPlwA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 10, // DOPSUM: CHANGE IT
+      startAt: 73, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -576,12 +747,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/x629nYBuLpY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1207, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -601,12 +772,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/KSuYDQ7tFEk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1042, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -626,12 +797,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/wnhIPmXdyyA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1232, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

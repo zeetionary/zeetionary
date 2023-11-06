@@ -4,92 +4,93 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryanorexic - replace speakAnorexic - replace anorexic - /ˌænəˈreksɪk/ - find Dopsum2
+// replace these: replace EnglishEntryanthropologist - replace speakAnthropologist - replace anthropologist - /ˌænθrəˈpɒlədʒɪst/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryanorexic extends StatelessWidget {
+class EnglishEntryanthropologist extends StatelessWidget {
   // blank divider
-  EnglishEntryanorexic({super.key});
+  EnglishEntryanthropologist({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnorexic(String languageCode) async {
-    // DOPSUM: CHANGE speakAnorexic
+  Future<void> speakAnthropologist(String languageCode) async {
+    // DOPSUM: CHANGE speakAnthropologist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anthropologist"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnorexic908(String languageCode) async {
-    // DOPSUM: CHANGE speakAnorexic
+  Future<void> speakAnthropologist857(String languageCode) async {
+    // DOPSUM: CHANGE speakAnthropologist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Not eating makes an anorexic feel in control."); // DOPSUM: CHANGE TEXT
+        "An anthropologist dug and found old bones in the ground."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnorexic909(String languageCode) async {
-    // DOPSUM: CHANGE speakAnorexic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She looks anorexic to me."); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakAnorexic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnorexic
+  // Future<void> speakAnthropologist(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnthropologist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anthropologist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnorexic
+  // Future<void> speakAnthropologist(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnthropologist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anthropologist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnorexic
+  // Future<void> speakAnthropologist(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnthropologist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anthropologist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnorexic
+  // Future<void> speakAnthropologist(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnthropologist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anthropologist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnorexic
+  // Future<void> speakAnthropologist(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnthropologist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anthropologist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnorexic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnorexic
+  // Future<void> speakAnthropologist(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnthropologist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anorexic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anthropologist"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAnthropologist(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnthropologist
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("anthropologist"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -108,7 +109,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "anorexic", // DOPSUM: CHANGE WORD ENTRY - Find /ˌænəˈreksɪk/
+                                "anthropologist", // DOPSUM: CHANGE WORD ENTRY - Find /ˌænθrəˈpɒlədʒɪst/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -127,7 +128,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˌænəˈreksɪk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˌænθrəˈpɒlədʒɪst/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -137,9 +138,9 @@ class EnglishEntryanorexic extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAnorexic(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAnthropologist(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -148,7 +149,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˌænəˈreksɪk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                "IpaUS: /ˌænθrəˈpɑːlədʒɪst/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -158,7 +159,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAnorexic(
+                              onPressed: () => speakAnthropologist(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -178,12 +179,12 @@ class EnglishEntryanorexic extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 10,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 13,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
@@ -208,9 +209,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: تووش‌بوو بە بێ‌ئیشتیایی دەروونی، نەخۆشی تووش‌بوو بە بێ‌ئیشتیایی دەروونی
-
-١. (ناو) کەسێکی تووشبوو بە بێ‌ئیشتیایی؛ نەخۆشییەکی دەروونی کە تێیدا کەسێک بە ھەڵە پێێ‌وایە کە کێشی زیادە بۆیە خواردنی کەم دەخوات و دەبێتە ھۆی کێش‌کەمی بە ئاستێکی مەترسیدار''',
+١. (ناو) کەسێک کە لێکۆڵینەوە دەکات لە مێژووی مرۆڤایەتی، بەتایبەتی سەرچاوە و گەشە و نەریت و باوەڕەکانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -220,7 +219,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Not eating makes an anorexic feel in control.",
+                                    "An anthropologist dug and found old bones in the ground.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -234,7 +233,7 @@ class EnglishEntryanorexic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خواردن نەخواردن وا لە کەسێکی بێ‌ئیشتیا دەکات ھەست بکات کۆنترۆڵی کێشی کردووە",
+                                    "مرۆڤناسێک هەڵکۆڵینی کرد و ئێسکی کۆنی دۆزییەوە لە زەوییەکەدا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -246,7 +245,8 @@ class EnglishEntryanorexic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnorexic908("en-GB"),
+                                onPressed: () =>
+                                    speakAnthropologist857("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -254,63 +254,8 @@ class EnglishEntryanorexic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAnorexic908(
-                                    // REPLACE: anorexic /ˌænəˈreksɪk/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) پەیوەندیدار بە تووشبوون بە بێ‌ئیشتیایی؛ نەخۆشییەکی دەروونی کە تێیدا کەسێک بە ھەڵە پێێ‌وایە کە کێشی زیادە بۆیە خواردنی کەم دەخوات و دەبێتە ھۆی کێش‌کەمی بە ئاستێکی مەترسیدار''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She looks anorexic to me.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بێ‌ئیشتیا دیارە لام",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAnorexic909("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAnorexic909(
-                                    // REPLACE: anorexic /ˌænəˈreksɪk/
+                                onPressed: () => speakAnthropologist857(
+                                    // REPLACE: anthropologist /ˌænθrəˈpɑːlədʒɪst/
                                     "en-US"),
                               ),
                             ],
@@ -328,9 +273,9 @@ class EnglishEntryanorexic extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
@@ -361,11 +306,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: anorexic
-1. Suffering from anorexia nervosa; pathologically thin (= anorectic)
-
-- Noun: anorexic (Derived forms: anorexics)
-1. A person suffering from anorexia nervosa (= anorectic)
+- Noun: anthropologist (Derived forms: anthropologists)
+1. A social scientist who specializes in anthropology
+"the anthropologist was impressed by the reconditeness of the native proverbs"
 '''),
         ],
       ),
@@ -376,12 +319,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "6yo61uGNI9c";
+  static String myVideoId = "https://youtu.be/P4SDBVaUboc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 71, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -401,12 +344,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "9-NfU3sFHXg";
+  static String myVideoId = "https://youtu.be/6DYgImG1CKo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 146, // DOPSUM: CHANGE IT
+      startAt: 8, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -426,12 +369,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "BivQrVvWNaw";
+  static String myVideoId = "https://youtu.be/7EQ16b7b0Eg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 12, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -451,12 +394,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "K1FG0Wjf_Cc";
+  static String myVideoId = "https://youtu.be/7fbSXzLzzhg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 106, // DOPSUM: CHANGE IT
+      startAt: 405, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -476,12 +419,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "jDrkdxpaGMs";
+  static String myVideoId = "https://youtu.be/zt1D0S-dO-c?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 7, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -501,12 +444,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "UeNQ9ZGJi7I";
+  static String myVideoId = "https://youtu.be/5mEu0AYpcO4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2937, // DOPSUM: CHANGE IT
+      startAt: 64, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -526,12 +469,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "cPRX_x-vW9U";
+  static String myVideoId = "https://youtu.be/_Xp5rsGtR3w?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 512, // DOPSUM: CHANGE IT
+      startAt: 107, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -551,12 +494,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "UaNzP0AX0Gw";
+  static String myVideoId = "https://youtu.be/ybo3L_WhxCw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 10, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -576,12 +519,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/BmUrJaOo1Lw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 199, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -601,12 +544,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/YCnFYvL17v4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1164, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -626,12 +569,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/IOgq4Nk2H8w?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 796, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

@@ -749,6 +749,29 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_antarctic.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_antarctic_circle.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_antecedent.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_antediluvian.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_antelope.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_antenatal.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_antenna.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anthem.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anthology.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anthrax.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anthropology.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anthropologist.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anti.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anti_two.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_antibiotic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_antibody.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anticipate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anticipation.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
@@ -1579,21 +1602,21 @@ final loggedInRoute = RouteMap(routes: {
   "/english-antarctic": (_) => MaterialPage(child: EnglishEntryantarctic()),
   "/english-antarctic-circle": (_) => MaterialPage(child: EnglishEntryantarcticcircle()),
   "/english-antecedent": (_) => MaterialPage(child: EnglishEntryantecedent()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-antediluvian": (_) => MaterialPage(child: EnglishEntryantediluvian()),
+  "/english-antelope": (_) => MaterialPage(child: EnglishEntryantelope()),
+  "/english-antenatal": (_) => MaterialPage(child: EnglishEntryantenatal()),
+  "/english-antenna": (_) => MaterialPage(child: EnglishEntryantenna()),
+  "/english-anthem": (_) => MaterialPage(child: EnglishEntryanthem()),
+  "/english-anthology": (_) => MaterialPage(child: EnglishEntryanthology()),
+  "/english-anthrax": (_) => MaterialPage(child: EnglishEntryanthrax()),
+  "/english-anthropology": (_) => MaterialPage(child: EnglishEntryanthropology()),
+  "/english-anthropologist": (_) => MaterialPage(child: EnglishEntryanthropologist()),
+  "/english-anti": (_) => MaterialPage(child: EnglishEntryanti()),
+  "/english-anti-two": (_) => MaterialPage(child: EnglishEntryantitwo()),
+  "/english-antibiotic": (_) => MaterialPage(child: EnglishEntryantibiotic()),
+  "/english-antibody": (_) => MaterialPage(child: EnglishEntryantibody()),
+  "/english-anticipate": (_) => MaterialPage(child: EnglishEntryanticipate()),
+  "/english-anticipation": (_) => MaterialPage(child: EnglishEntryanticipation()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

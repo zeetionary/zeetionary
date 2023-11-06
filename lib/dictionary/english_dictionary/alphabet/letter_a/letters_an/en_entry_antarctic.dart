@@ -265,7 +265,7 @@ class EnglishEntryantarctic extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (هاوەڵناو) پەیوەندیدار بە هەرێمی خولگەی جەمسەری باشووری زەوی''',
+٢. (هاوەڵناو) پەیوەندیدار بە هەرێمی خولگەی جەمسەری باشووری زەوی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

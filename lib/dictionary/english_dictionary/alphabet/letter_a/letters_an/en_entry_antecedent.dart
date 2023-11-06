@@ -22,29 +22,31 @@ class EnglishEntryantecedent extends StatelessWidget {
     await flutterTts.speak("antecedent"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntecedent(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntecedent
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antecedent"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAntecedent411(String languageCode) async {
+    // DOPSUM: CHANGE speakAntecedent
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The book dealt with the historical antecedents of the Civil War."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAntecedent(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntecedent
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antecedent"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAntecedent414(String languageCode) async {
+    // DOPSUM: CHANGE speakAntecedent
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Many people feel a great curiosity to find out about their antecedents."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAntecedent(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntecedent
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antecedent"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAntecedent421(String languageCode) async {
+    // DOPSUM: CHANGE speakAntecedent
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("When the college was established in 1546, it inherited a hall from each of three antecedent institutions."); // DOPSUM: CHANGE TEXT
+  }
 
   // Future<void> speakAntecedent(String languageCode) async {
   //   // DOPSUM: CHANGE speakAntecedent
@@ -208,9 +210,9 @@ class EnglishEntryantecedent extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: پێش‌تر، پێشکەوتوو، پێش‌وەچوو، پێشوو، بەری، پێشی، پێشین، پێشەکی، (ڕێزمان) پێش‌ترە، مەرجەع
+کوردی: پێش‌تر، پێشکەوتوو، پێش‌وەچوو، پێشهات، پێشوو، بەری، پێشی، پێشین، پێشەکی، باوان، باپیران، (ڕێزمان) پێش‌ترە، مەرجەع
 
-١. (ھاوەڵناو) پێناسە''',
+١. (ناو) شتێک کە پێش شتێکی تر بوونی هەبووە و کاریگەری لەسەری هەبووە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -220,7 +222,7 @@ class EnglishEntryantecedent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "DOPSUM_WRITE_A_SENTENCE",
+                                    "The book dealt with the historical antecedents of the Civil War.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -234,7 +236,7 @@ class EnglishEntryantecedent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "رستە_رستە_رستە_رستە",
+                                    "کتێبەکە لێکۆڵینەوەی لە پێشهاتەکانی جەنگی ناوخۆیی ئەمریکا دەکرد",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -246,7 +248,7 @@ class EnglishEntryantecedent extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAntecedent("en-GB"),
+                                onPressed: () => speakAntecedent411("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -254,7 +256,125 @@ class EnglishEntryantecedent extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAntecedent(
+                                onPressed: () => speakAntecedent411(
+                                    // REPLACE: antecedent /ˌæntɪˈsiːdnt/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٢. (ناو) باپیرانی کەسێک''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Many people feel a great curiosity to find out about their antecedents.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "زۆر کەس حەزدەکەن زانیاری لەسەر باپیرانیان بزانن",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAntecedent414("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAntecedent414(
+                                    // REPLACE: antecedent /ˌæntɪˈsiːdnt/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٣. (ناو) وشەیەک لە ڕستەیەکدا کە یەکێک لە وشەکانی دواتری ڕستەکە بۆی دەگەڕێتەوە ''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),// const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٤. (هاوەڵناو) پێشووتر ''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "When the college was established in 1546, it inherited a hall from each of three antecedent institutions.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "کاتێک کۆلێژەکە لە ساڵی ١٥٤٦ دامەزرا هۆڵێکی لە هەریەک لە سێ پەیمانگاکەی پێشووتر وەرگرت",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAntecedent421("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAntecedent421(
                                     // REPLACE: antecedent /ˌæntɪˈsiːdnt/
                                     "en-US"),
                               ),
@@ -318,6 +438,7 @@ class EnglishMeaning extends StatelessWidget {
 "phrenology was an antecedent of modern neuroscience";
  
 4. The referent of an anaphor; a phrase or clause that is referred to by an anaphoric pronoun
+"In ‘He grabbed the ball and threw it in the air’, ‘ball’ is the antecedent of ‘it’.";
 '''),
         ],
       ),

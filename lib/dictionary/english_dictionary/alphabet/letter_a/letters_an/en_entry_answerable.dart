@@ -237,7 +237,7 @@ class EnglishEntryanswerable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سیخوڕێکی سەربەخۆ کە پێویست نەبوو وەڵامی هیچ کەس بداتەوە بۆ ڕەفتارەکانی",
+                                    "سیخوڕێکی سەربەخۆ بوو کە پێویست نەبوو وەڵامی هیچ کەس بداتەوە بۆ ڕەفتارەکانی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -316,7 +316,7 @@ class EnglishEntryanswerable extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (ھاوەڵناو) بەرپرسیار بۆ شتێک و هەبوونی ئامادەیی وەرگرتنی سزا بۆی''',
+٢. (ھاوەڵناو) بەرپرسیار بۆ شتێک و هەبوونی ئامادەیی وەرگرتنی سزا بۆی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

@@ -210,7 +210,7 @@ class EnglishEntryannoyance extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: ناڕەحەتی، ڕق‌هەستاوی، تووڕەیی، دڵ‌ئێشان، زیزی، دڵ‌شکان، دڵ‌ڕەنجان، تەنگەتاوکردن، سەرئێشاندن، هەراسان‌کردن، بەتەنگ‌هێنان، جاڕزکردن، ناڕەحەت‌کردن، دەردپێدان، هەڵپێچان، زۆربۆهێنان، بێزارکردن، مایەی مزاحیم‌بوون، مایەی‌سەرئێشە
+کوردی: ناڕەحەتی، ڕق‌ھەستاوی، تووڕەیی، دڵ‌ئێشان، زیزی، دڵ‌شکان، دڵ‌ڕەنجان، تەنگەتاوکردن، سەرئێشاندن، ھەراسان‌کردن، بەتەنگ‌ھێنان، جاڕزکردن، ناڕەحەت‌کردن، دەردپێدان، ھەڵپێچان، زۆربۆھێنان، بێزارکردن، مایەی مزاحیم‌بوون، مایەی‌سەرئێشە
 
 ١. (ناو) کەمێک بێزاری''',
                             style: TextStyle(fontSize: 18),
@@ -284,7 +284,7 @@ class EnglishEntryannoyance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وازم لە کۆلێژ هێنا کە بووە هۆی بێزاریی دایک و باوکم",
+                                    "وازم لە کۆلێژ ھێنا کە بووە ھۆی بێزاریی دایک و باوکم",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -315,7 +315,7 @@ class EnglishEntryannoyance extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. (ناو) شتێک کە دەبێتە هۆی کەمێک بێزاری''',
+٢. (ناو) شتێک کە دەبێتە ھۆی کەمێک بێزاری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -339,7 +339,7 @@ class EnglishEntryannoyance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یەکێک لە گەورەترین جاڕسکەرەکان ئەوەبوو مێشوولە هەموو شەوێک بتگەزێت",
+                                    "یەکێک لە گەورەترین جاڕسکەرەکان ئەوەبوو مێشوولە ھەموو شەوێک بتگەزێت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

@@ -234,7 +234,7 @@ class EnglishEntryanomaly extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەندێک بەشی نائاسایی لە ڕاپۆرتەکە هەیە",
+                                    "ھەندێک بەشی نائاسایی لە ڕاپۆرتەکە ھەیە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

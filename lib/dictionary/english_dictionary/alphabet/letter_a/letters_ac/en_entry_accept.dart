@@ -20,6 +20,14 @@ class EnglishEntryaccept extends StatelessWidget {
     await flutterTts.speak("accept"); // DOPSUM: CHANGE TEXT
   }
 
+  Future<void> speakAccept1112(String languageCode) async {
+    // DOPSUM: CHANGE speakAccept
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("He asked me to marry him and I accepted."); // DOPSUM: CHANGE TEXT
+  }
+
   Future<void> speakA68974(String languageCode) async {
     // DOPSUM: CHANGE speakAccept
     await flutterTts.setLanguage(languageCode);
@@ -223,7 +231,7 @@ class EnglishEntryaccept extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAccept("en-GB"),
+                                onPressed: () => speakAccept1112("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -231,7 +239,7 @@ class EnglishEntryaccept extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAccept("en-US"),
+                                onPressed: () => speakAccept1112("en-US"),
                               ),
                             ],
                           ),

@@ -234,7 +234,7 @@ class EnglishEntryannoy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دڵنیام تەنها بۆ بێزارکردنی من دەیکات",
+                                    "دڵنیام تەنھا بۆ بێزارکردنی من دەیکات",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -711,6 +710,9 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "animosity",
     "ankle",
     "annals",
+    "annex",
+    "annexation",
+    "annexe",
     "annihilate",
     "annihilation",
     "anniversary",
@@ -734,9 +736,16 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "anon.",
     "anonymity",
     "anonymous",
-    "annex",
-    "annexation",
-    "annexe",
+    "anorak",
+    "anorexia",
+    "anorexia nervosa",
+    "anorexic",
+    "another",
+    "answer",
+    "answerable",
+    "ant",
+    "antagonism",
+    "antagonist",
     "dopsum",
     "dopsum",
     "come of age",
@@ -758,11 +767,39 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     filteredWords = List.from(allWordsEnglish);
   }
 
+  // void filterWords(String query) {
+  //   setState(() {
+  //     filteredWords = allWordsEnglish
+  //         .where((word) => word.toLowerCase().contains(query.toLowerCase()))
+  //         .toList();
+  //   });
+  // }
+
   void filterWords(String query) {
     setState(() {
-      filteredWords = allWordsEnglish
-          .where((word) => word.toLowerCase().contains(query.toLowerCase()))
-          .toList();
+      if (query.isEmpty) {
+        // If the query is empty, show all words
+        filteredWords = List.from(allWordsEnglish);
+      } else {
+        // Sort words to prioritize exact matches first
+        filteredWords = allWordsEnglish
+            .where((word) => word.toLowerCase().contains(query.toLowerCase()))
+            .toList();
+
+        filteredWords.sort((a, b) {
+          bool exactMatchA = a.toLowerCase() == query.toLowerCase();
+          bool exactMatchB = b.toLowerCase() == query.toLowerCase();
+
+          if (exactMatchA && !exactMatchB) {
+            return -1; // A is an exact match, so it comes first.
+          } else if (!exactMatchA && exactMatchB) {
+            return 1; // B is an exact match, so it comes first.
+          } else {
+            // If both are exact matches or neither are, sort them based on lexicographic order.
+            return a.toLowerCase().compareTo(b.toLowerCase());
+          }
+        });
+      }
     });
   }
 
@@ -3749,46 +3786,46 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-anon');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "anorak") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anorak');
+                  }
+                  if (wordsEnglish == "anorexia") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anorexia');
+                  }
+                  if (wordsEnglish == "anorexia nervosa") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anorexia-nervosa');
+                  }
+                  if (wordsEnglish == "anorexic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anorexic');
+                  }
+                  if (wordsEnglish == "another") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-another');
+                  }
+                  if (wordsEnglish == "answer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-answer');
+                  }
+                  if (wordsEnglish == "answerable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-answerable');
+                  }
+                  if (wordsEnglish == "ant") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-ant');
+                  }
+                  if (wordsEnglish == "antagonism") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-antagonism');
+                  }
+                  if (wordsEnglish == "antagonist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-antagonist');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

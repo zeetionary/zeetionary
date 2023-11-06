@@ -236,7 +236,7 @@ class EnglishEntryannounce extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خۆشحاڵین بە ڕاگەیاندنی ئەوەی هەر پێنج کاندیدەکە سەرکەوتووبوون",
+                                    "خۆشحاڵین بە ڕاگەیاندنی ئەوەی ھەر پێنج کاندیدەکە سەرکەوتووبوون",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -284,7 +284,7 @@ class EnglishEntryannounce extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دوێنێ حکومەت پلانی ڕەخساندنی یەک ملیۆن هەلی کاری بە میدیا ڕاگەیاند",
+                                    "دوێنێ حکومەت پلانی ڕەخساندنی یەک ملیۆن ھەلی کاری بە میدیا ڕاگەیاند",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -394,7 +394,7 @@ class EnglishEntryannounce extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕایگەیاند وازی لە خواردنەوە هێنا",
+                                    "ڕایگەیاند وازی لە خواردنەوە ھێنا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -449,7 +449,7 @@ class EnglishEntryannounce extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هاتنی میوانەکانی ڕاگەیاند کە گەشتن",
+                                    "ھاتنی میوانەکانی ڕاگەیاند کە گەشتن",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

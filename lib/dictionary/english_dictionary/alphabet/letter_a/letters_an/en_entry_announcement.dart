@@ -210,7 +210,7 @@ class EnglishEntryannouncement extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: ڕاگەیاندن، دانەزانین، بڵاوکاری، بڵاوکردنەوە، ئاگاداری، ئاگاهی، بانگەواز، جاڕ، بڵاوکراوە، هەواڵ
+کوردی: ڕاگەیاندن، دانەزانین، بڵاوکاری، بڵاوکردنەوە، ئاگاداری، ئاگاھی، بانگەواز، جاڕ، بڵاوکراوە، ھەواڵ
 
 ١. (ناو) ڕاگەیاندنێک کە بە فەرمی بە خەڵکی دەوترێت''',
                             style: TextStyle(fontSize: 18),
@@ -284,7 +284,7 @@ class EnglishEntryannouncement extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەم‌زوانە چاوەڕوانی ڕاگەیاندنێک دەکرێت دەربارەی داهاتووی",
+                                    "بەم‌زوانە چاوەڕوانی ڕاگەیاندنێک دەکرێت دەربارەی داھاتووی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -339,7 +339,7 @@ class EnglishEntryannouncement extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕاگەیاندنی بڕیارەکە هاوار و قریوەی بەدواداهات",
+                                    "ڕاگەیاندنی بڕیارەکە ھاوار و قریوەی بەدواداھات",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

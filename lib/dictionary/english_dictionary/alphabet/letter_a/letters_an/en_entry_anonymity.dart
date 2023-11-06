@@ -234,7 +234,7 @@ class EnglishEntryanonymity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناوەکانی ناو کتێبەکە گۆڕدران بۆ هێشتنەوەی بێ‌ناوی",
+                                    "ناوەکانی ناو کتێبەکە گۆڕدران بۆ ھێشتنەوەی بێ‌ناوی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

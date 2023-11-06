@@ -208,7 +208,7 @@ class EnglishEntryannihilation extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: لەنێوچوون، تیاچوون، وێرانی، کاول‌بوون، قەڵاچۆ، فەوتاندن، نەهێشتن، کوێرکردنەوە، خاپووربوون، قڕ، قڕتێکەوتن، تەخت‌وپەخت‌بوون، پاکتاوبوون، هەڵتەکان، بەزین، شکست، تێ‌شکان (یەکجاری)، نەمان
+کوردی: لەنێوچوون، تیاچوون، وێرانی، کاول‌بوون، قەڵاچۆ، فەوتاندن، نەھێشتن، کوێرکردنەوە، خاپووربوون، قڕ، قڕتێکەوتن، تەخت‌وپەخت‌بوون، پاکتاوبوون، ھەڵتەکان، بەزین، شکست، تێ‌شکان (یەکجاری)، نەمان
 
 ١. (ناو) لەناوبردنی تەواوەتی''',
                             style: TextStyle(fontSize: 18),
@@ -234,7 +234,7 @@ class EnglishEntryannihilation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە سەردەمی جەنگی سارد هەڕەشەی قڕبوونی  ئەتۆمی هەمیشە لە هزری خەڵکیدا بوو",
+                                    "لە سەردەمی جەنگی سارد ھەڕەشەی قڕبوونی  ئەتۆمی ھەمیشە لە ھزری خەڵکیدا بوو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -289,7 +289,7 @@ class EnglishEntryannihilation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یاریزانە بەرازیلییەکە پێویستی تەنها بە ٨٢ خولەک بوو بۆ تێکشکاندنی تەواوی ڕکابەرەکەی",
+                                    "یاریزانە بەرازیلییەکە پێویستی تەنھا بە ٨٢ خولەک بوو بۆ تێکشکاندنی تەواوی ڕکابەرەکەی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

@@ -235,7 +235,7 @@ class EnglishEntryanontwo extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پارەکە بەخشرا لەلایەن بازرگانێکی خۆجێیی کە دەیەوێتبە نهێنی بمێنێتەوە",
+                                    "پارەکە بەخشرا لەلایەن بازرگانێکی خۆجێیی کە دەیەوێتبە نھێنی بمێنێتەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -290,7 +290,7 @@ class EnglishEntryanontwo extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نامەیەکی نهێنی پێ‌گەیشت کە هەڕەشەی ئەوەی لێ‌دەکرد کە وردەکاری پەیوەندییە سۆزدارییەکەی ئاشکرا دەکات ئەگەر پارەکە نەدات",
+                                    "نامەیەکی نھێنی پێ‌گەیشت کە ھەڕەشەی ئەوەی لێ‌دەکرد کە وردەکاری پەیوەندییە سۆزدارییەکەی ئاشکرا دەکات ئەگەر پارەکە نەدات",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

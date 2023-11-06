@@ -208,9 +208,9 @@ class EnglishEntryannulment extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: هەڵوەشاندنەوە، هەڵوەشاندن، پووچەڵ‌کردنەوە، بەتاڵ‌کردنەوە، پووکاندنەوە
+کوردی: ھەڵوەشاندنەوە، ھەڵوەشاندن، پووچەڵ‌کردنەوە، بەتاڵ‌کردنەوە، پووکاندنەوە
 
-١. (ناو) کرداری بەفەرمی ناساندنی ئەوەی شتێک، بەتایبەتی هاوسەرگیری، لەڕووی یاساییەوە نەناسراوە''',
+١. (ناو) کرداری بەفەرمی ناساندنی ئەوەی شتێک، بەتایبەتی ھاوسەرگیری، لەڕووی یاساییەوە نەناسراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -234,7 +234,7 @@ class EnglishEntryannulment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پاشا هەوڵی‌دا هەڵوەشاندنەوەی هاوسەرگیرییەکەی لەگەڵ کاسرینی ئاراگۆن دا",
+                                    "پاشا ھەوڵی‌دا ھەڵوەشاندنەوەی ھاوسەرگیرییەکەی لەگەڵ کاسرینی ئاراگۆن دا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

@@ -211,7 +211,7 @@ class EnglishEntryannual extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: ساڵانە، ساڵی، ساڵیانە، یەک‌ساڵە، هەر ساڵ، یەک‌ساڵە، یەک‌ساڵەژی، ساڵنامە، ڕووەک یان گیای یەک‌ساڵە
+کوردی: ساڵانە، ساڵی، ساڵیانە، یەک‌ساڵە، ھەر ساڵ، یەک‌ساڵە، یەک‌ساڵەژی، ساڵنامە، ڕووەک یان گیای یەک‌ساڵە
 
 ١. (ھاوەڵناو) شتێک کە ساڵی جارێک ڕووبدات''',
                             style: TextStyle(fontSize: 18),
@@ -371,7 +371,7 @@ class EnglishEntryannual extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. (ناو) کتێبێک کە بۆ منداڵانە و ساڵی جارێک بە هەمان ناونیشان بەڵام ناوەڕۆکی جیاواز بڵاودەبێتەوە''',
+٣. (ناو) کتێبێک کە بۆ منداڵانە و ساڵی جارێک بە ھەمان ناونیشان بەڵام ناوەڕۆکی جیاواز بڵاودەبێتەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),

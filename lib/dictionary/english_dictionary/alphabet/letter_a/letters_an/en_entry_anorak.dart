@@ -4,85 +4,86 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryanniversary - replace speakAnniversary - replace anniversary - /ˌænɪˈvɜːsəri/ - find Dopsum2
+// replace these: replace EnglishEntryanorak - replace speakAnorak - replace anorak - /ˈænəræk/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryanniversary extends StatelessWidget {
-  EnglishEntryanniversary({super.key});
+class EnglishEntryanorak extends StatelessWidget {
+  // blank divider
+  EnglishEntryanorak({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnniversary(String languageCode) async {
-    // DOPSUM: CHANGE speakAnniversary
+  Future<void> speakAnorak(String languageCode) async {
+    // DOPSUM: CHANGE speakAnorak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anorak"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnniversary147(String languageCode) async {
-    // DOPSUM: CHANGE speakAnniversary
+  Future<void> speakAnorak836(String languageCode) async {
+    // DOPSUM: CHANGE speakAnorak
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The company is celebrating its 100-year anniversary this year."); // DOPSUM: CHANGE TEXT
+        "My Mum made me take my anorak in case it rained."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnniversary(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnniversary
+  // Future<void> speakAnorak(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnorak
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anorak"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnniversary(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnniversary
+  // Future<void> speakAnorak(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnorak
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anorak"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnniversary(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnniversary
+  // Future<void> speakAnorak(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnorak
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anorak"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnniversary(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnniversary
+  // Future<void> speakAnorak(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnorak
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anorak"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnniversary(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnniversary
+  // Future<void> speakAnorak(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnorak
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anorak"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnniversary(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnniversary
+  // Future<void> speakAnorak(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnorak
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anorak"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnniversary(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnniversary
+  // Future<void> speakAnorak(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnorak
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anniversary"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anorak"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -107,7 +108,7 @@ class EnglishEntryanniversary extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "anniversary", // DOPSUM: CHANGE WORD ENTRY - Find /ˌænɪˈvɜːsəri/
+                                "anorak", // DOPSUM: CHANGE WORD ENTRY - Find /ˈænəræk/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -126,7 +127,7 @@ class EnglishEntryanniversary extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˌænɪˈvɜːsəri/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈænəræk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -136,9 +137,9 @@ class EnglishEntryanniversary extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAnniversary(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAnorak(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
@@ -147,7 +148,7 @@ class EnglishEntryanniversary extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˌænɪˈvɜːrsəri/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                "IpaUS: /ˈænəræk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -157,7 +158,7 @@ class EnglishEntryanniversary extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAnniversary(
+                              onPressed: () => speakAnorak(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -183,8 +184,8 @@ class EnglishEntryanniversary extends StatelessWidget {
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
-                  VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
@@ -207,9 +208,9 @@ class EnglishEntryanniversary extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: ساڵ‌گەڕانەوە، ساڵ‌وەگەر، ساڵیاد، ساڵەوەختینە، ساڵگەڕ، ساڵ‌ڕۆژ
+کوردی: ئەنورەک، باڵتە، باگیر، باگێڕەوە
 
-١. (ھاوەڵناو) ساڵیاد؛ بەروارێک کە تێیدا ڕێژەیەکی دیاریکراو ساڵی تەواو بەسەر ڕووداوێک تێ‌پەڕیوە''',
+١. (ناو) پاڵتاوێکی کورت لەگەڵ کڵاوێک بۆ پاراستن لە باران''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -219,7 +220,7 @@ class EnglishEntryanniversary extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The company is celebrating its 100-year anniversary this year.",
+                                    "My Mum made me take my anorak in case it rained.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -233,7 +234,7 @@ class EnglishEntryanniversary extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەمساڵ کۆمپانیاکە یادی ١٠٠ھەمین ساڵی دەکاتەوە",
+                                    "دایکم زۆری لێ‌کردم پاڵتاوەکەم ببەم نەوەک باران ببارێ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -245,7 +246,7 @@ class EnglishEntryanniversary extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnniversary147("en-GB"),
+                                onPressed: () => speakAnorak836("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -253,9 +254,9 @@ class EnglishEntryanniversary extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAnniversary147(
-                                    // REPLACE: anniversary /ˌænɪˈvɜːrsəri/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAnorak836(// REPLACE: anorak /ˈænəræk/
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -305,9 +306,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anniversary (Derived forms: anniversaries)
-1. The date on which an event occurred in some previous year (or the celebration of it) (= day of remembrance)
-"We remembered the 50th anniversary of the liberation of Auschwitz";
+- Noun: anorak (Derived forms: anoraks)
+1. A kind of heavy jacket (= parka, windbreaker [N. Amer], windcheater [Brit])
+ 
+2. [Brit, informal] Someone considered boring because of their obsessive hobby or narrow solitary interests (= trainspotter [Brit, informal], nerd [informal], spod [Brit, informal])
 '''),
         ],
       ),
@@ -318,17 +320,17 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "_9vTdTKVrt4";
+  static String myVideoId = "hw0opXl3LcI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 78, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -343,17 +345,17 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "1CsN6ZYgp2Y";
+  static String myVideoId = "o9mGF-mtX-4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 90, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 13, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -368,17 +370,18 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "Eb4RooyW11M";
+  static String myVideoId = "E4Zd7cmQQmQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 986, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
+      hideThumbnail: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 52, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -393,17 +396,17 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "_Bxnov4Iz0s";
+  static String myVideoId = "c5XzjxbMC_w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 166, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -418,17 +421,17 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "vKkpvQlHEG8";
+  static String myVideoId = "tLEPDV7U9QA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 154, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 77, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -443,17 +446,17 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "pcEWkf08CAA";
+  static String myVideoId = "jRq8zrAUPTU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 221, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 52, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -468,17 +471,17 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "O658Kh4lc8g";
+  static String myVideoId = "r-E-88UdF6M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 656, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 109, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -493,17 +496,17 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "jyHgsJ2MIoA";
+  static String myVideoId = "lzjaArV9n0o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 419, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 72, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -518,17 +521,17 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "nqK8B6z6xAI";
+  static String myVideoId = "-TKORm5IepY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 1248, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -543,17 +546,17 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "Q_v-ujCbry4";
+  static String myVideoId = "q9cLHwszHzI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 214, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 497, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -568,17 +571,17 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "nlPpV5h2LhI";
+  static String myVideoId = "Oi3wmmkaXy0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 242, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 52, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -593,17 +596,17 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -620,9 +623,9 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 // morethan one video, only first autoplay
 
 // class YoutubeEmbeddethirteen extends StatelessWidget {
-//   static String myVideoId = "PUT_VIDEO_ID";
-//   static String myVideoIdTwo = "PUT_VIDEO_ID";
-//   static String myVideoIdThree = "PUT_VIDEO_ID";
+//   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+//   static String myVideoIdTwo = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+//   static String myVideoIdThree = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
 //   final YoutubePlayerController _controller = YoutubePlayerController(
 //     initialVideoId: myVideoId,

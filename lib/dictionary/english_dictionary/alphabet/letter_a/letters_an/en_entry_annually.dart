@@ -208,7 +208,7 @@ class EnglishEntryannually extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: لە ساڵ‌دا، ساڵ‌بەساڵ، هەر ساڵە، ساڵانە
+کوردی: لە ساڵ‌دا، ساڵ‌بەساڵ، ھەر ساڵە، ساڵانە
 
 ١. (ھاوەڵکار) ئەنجامدانی شتێک ساڵی جارێک''',
                             style: TextStyle(fontSize: 18),

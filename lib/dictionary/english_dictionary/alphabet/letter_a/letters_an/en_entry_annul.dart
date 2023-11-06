@@ -232,7 +232,7 @@ class EnglishEntryannul extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هاوسەرگیرییەکەیان هەڵوەشێندرایەوە لەدوای تەنها شەش مانگ",
+                                    "ھاوسەرگیرییەکەیان ھەڵوەشێندرایەوە لەدوای تەنھا شەش مانگ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

@@ -234,7 +234,7 @@ class EnglishEntryannihilate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مرۆڤایەتی هێندە چەکی هەیە بەتەواوی خۆی لەناو ببات",
+                                    "مرۆڤایەتی ھێندە چەکی ھەیە بەتەواوی خۆی لەناو ببات",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -289,7 +289,7 @@ class EnglishEntryannihilate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕکابەرەکەی تێکشکاند کە هیچ ئەوەی یارییەکی نەبردەوە",
+                                    "ڕکابەرەکەی تێکشکاند کە ھیچ ئەوەی یارییەکی نەبردەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

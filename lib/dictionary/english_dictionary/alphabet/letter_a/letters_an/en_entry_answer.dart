@@ -4,119 +4,158 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryage - replace speakAge - replace age - /eɪdʒ/ - find Dopsum2
+// replace these: replace EnglishEntryanswer - replace speakAnswer - replace answer - /ˈɑːnsə(r)/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryage extends StatelessWidget {
-  EnglishEntryage({super.key});
+class EnglishEntryanswer extends StatelessWidget {
+  // blank divider
+  EnglishEntryanswer({super.key});
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAge(String languageCode) async {
-    // DOPSUM: CHANGE speakAge
+  Future<void> speakAnswer(String languageCode) async {
+    // DOPSUM: CHANGE speakAnswer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("age"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("answer"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAge938665(String languageCode) async {
-    // DOPSUM: CHANGE speakAge
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "When I was your age I was already married."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAge28225(String languageCode) async {
-    // DOPSUM: CHANGE speakAge
+  Future<void> speakAnswer1019(String languageCode) async {
+    // DOPSUM: CHANGE speakAnswer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The children range in age from 5 to 10."); // DOPSUM: CHANGE TEXT
+        "I rang the bell, but there was no answer."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAge45562(String languageCode) async {
-    // DOPSUM: CHANGE speakAge
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I waited for ages."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAge41663(String languageCode) async {
-    // DOPSUM: CHANGE speakAge
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She dreaded old age."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAge955887(String languageCode) async {
-    // DOPSUM: CHANGE speakAge
+  Future<void> speakAnswer1021(String languageCode) async {
+    // DOPSUM: CHANGE speakAnswer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("He lived during the Elizabethan age."); // DOPSUM: CHANGE TEXT
+        .speak("Can't you give me a definitive answer?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAge471114(String languageCode) async {
-    // DOPSUM: CHANGE speakAge
+  Future<void> speakAnswer1022(String languageCode) async {
+    // DOPSUM: CHANGE speakAnswer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("As he aged, his memory got worse."); // DOPSUM: CHANGE TEXT
+        .speak("She had no answer to the accusations."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAge25221(String languageCode) async {
-    // DOPSUM: CHANGE speakAge
+  Future<void> speakAnswer1025(String languageCode) async {
+    // DOPSUM: CHANGE speakAnswer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "My mother has really aged since she became ill."); // DOPSUM: CHANGE TEXT
+        "Write your answers on the sheet provided."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAge(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAge
+  Future<void> speakAnswer1026(String languageCode) async {
+    // DOPSUM: CHANGE speakAnswer
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Do you know the answer to question 12?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAnswer1027(String languageCode) async {
+    // DOPSUM: CHANGE speakAnswer
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "This may not be the answer for everyone."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAnswer1029(String languageCode) async {
+    // DOPSUM: CHANGE speakAnswer
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The obvious answer would be to cancel the party."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAnswer1032(String languageCode) async {
+    // DOPSUM: CHANGE speakAnswer
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I repeated the question, but she didn't answer."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAnswer1034(String languageCode) async {
+    // DOPSUM: CHANGE speakAnswer
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("You haven't answered my question."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAnswer1036(String languageCode) async {
+    // DOPSUM: CHANGE speakAnswer
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He refused to answer the charges against him."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAnswer1039(String languageCode) async {
+    // DOPSUM: CHANGE speakAnswer
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He was summoned before the council to answer charges of treason."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAnswer(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnswer
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("age"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("answer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAge(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAge
+  // Future<void> speakAnswer(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnswer
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("age"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("answer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAge(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAge
+  // Future<void> speakAnswer(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnswer
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("age"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("answer"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAge(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAge
+  // Future<void> speakAnswer(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnswer
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("age"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("answer"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: YoutubeEmbeddedone
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -133,10 +172,12 @@ class EnglishEntryage extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "age", // DOPSUM: CHANGE WORD ENTRY - Find /eɪdʒ/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
+                            Expanded(
+                              child: Text(
+                                "answer", // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːnsə(r)/
+                                style: TextStyle(
+                                    fontSize: 20, fontWeight: FontWeight.bold),
+                              ),
                             ),
                             // SizedBox(
                             //   width: 10,
@@ -149,9 +190,12 @@ class EnglishEntryage extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUK: /eɪdʒ/', // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
+                            Container(
+                              constraints: const BoxConstraints(maxWidth: 300),
+                              child: const Text(
+                                "IpaUK: /ˈɑːnsə(r)/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                style: TextStyle(fontSize: 14),
+                              ),
                             ),
                             IconButton(
                               iconSize: 16,
@@ -160,16 +204,19 @@ class EnglishEntryage extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAge(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAnswer(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const Text(
-                              'IpaUS: /eɪdʒ/', // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
+                            Container(
+                              constraints: const BoxConstraints(maxWidth: 300),
+                              child: const Text(
+                                "IpaUS: /ˈænsər/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                style: TextStyle(fontSize: 14),
+                              ),
                             ),
                             IconButton(
                               iconSize: 16,
@@ -177,7 +224,7 @@ class EnglishEntryage extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAge(
+                              onPressed: () => speakAnswer(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -192,21 +239,21 @@ class EnglishEntryage extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(), // FIND: 2,
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 14,
+                  VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 14
+                  // VideoIconForTab(), // 15
                 ],
                 indicator: BoxDecoration(
                   color: Pallete.tabsbackgroundColor,
@@ -227,9 +274,9 @@ class EnglishEntryage extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: تەمەن، عومر، سن، سێرە، ڕستی ساڵ، ساڵ، کۆنی، کەڤناتی، پیری، کۆنەساڵی، بەساڵاچوویی، قۆناخ، چەرخ، چاخ، ڕۆژگار، زەمانە، سەردەم
+کوردی: وەڵام، وەرام، بەرسڤ، کاردانەوە، دژکردەوە، چارەسەری، ڕێگاچارە
 
-١. (ناو) ژمارەی ئەو ساڵانەی کەسێک ژیاوە یان شتێک بوونی ھەبووە''',
+١. (ناو) شتێک کە دەیکەیت، دەینووسیت، یان دەیڵێیت وەک وەڵام بۆ پرسیارێک یان بارودۆخێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -239,7 +286,7 @@ class EnglishEntryage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "When I was your age I was already married.",
+                                    "I rang the bell, but there was no answer.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -253,7 +300,7 @@ class EnglishEntryage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کە لە تەمەنی تۆ بووم ماوەیەک بوو ھاوسەرگیریم کردبوو",
+                                    "زەنگم لێدا بەڵام وەڵام نەبوو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -265,7 +312,7 @@ class EnglishEntryage extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAge938665("en-GB"),
+                                onPressed: () => speakAnswer1019("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -274,19 +321,20 @@ class EnglishEntryage extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAge938665(// REPLACE: age /eɪdʒ/
+                                    speakAnswer1019(// REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
                               ),
                             ],
                           ),
                           const DividerSentences(),
+                          // const DividerDefinition(),
                           Row(
                             children: [
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The children range in age from 5 to 10.",
+                                    "Can't you give me a definitive answer?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -300,7 +348,7 @@ class EnglishEntryage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵەکان تەمەنیان لە نێوان ٥ بۆ ١٠ ساڵانە",
+                                    "دەتوانیت وەڵامێکی تەواوم پێ بدەیت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -312,7 +360,7 @@ class EnglishEntryage extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAge28225("en-GB"),
+                                onPressed: () => speakAnswer1021("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -321,16 +369,65 @@ class EnglishEntryage extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAge28225(// REPLACE: age /eɪdʒ/
+                                    speakAnswer1021(// REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
                               ),
                             ],
                           ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "She had no answer to the accusations.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ھیچ وەڵامی بۆ تۆمەتەکان نەبوو",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnswer1022("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAnswer1022(// REPLACE: answer /ˈɑːnsər/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
                           const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. (ناو) بۆ ماوەیەکی زۆر''',
+٢. (ناو) شتێک کە دەینووسیت یان دەیڵێیت وەک وەڵام بۆ پرسیارێک لە تاقیکردنەوەیەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -340,7 +437,7 @@ class EnglishEntryage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "I waited for ages.",
+                                    "Write your answers on the sheet provided.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -354,7 +451,7 @@ class EnglishEntryage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ ماوەیەکی زۆر چاوەڕێ بووم",
+                                    "وەڵامەکانت لەسەر ئەو پەڕە بنووسە کە پێت‌دراوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -366,7 +463,7 @@ class EnglishEntryage extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAge45562("en-GB"),
+                                onPressed: () => speakAnswer1025("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -375,16 +472,65 @@ class EnglishEntryage extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAge45562(// REPLACE: age /eɪdʒ/
+                                    speakAnswer1025(// REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
                               ),
                             ],
                           ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Do you know the answer (= the right one) to question 12?",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "وەڵامی پرسیاری ١٢یەم دەزانی؟",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnswer1026("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAnswer1026(// REPLACE: answer /ˈɑːnsər/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
                           const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٣. (ناو) کاتێکی دیاریکراو لە تەمەنی کەسێک''',
+٣. (ناو) چارەسەری کێشەیەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -394,7 +540,7 @@ class EnglishEntryage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "She dreaded old age.",
+                                    "This may not be the answer for everyone.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -408,7 +554,7 @@ class EnglishEntryage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە پیرێتی دەترسا",
+                                    "ئەمە ڕەنگە چارەسەر نەبێت بۆ ھەموان",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -420,7 +566,7 @@ class EnglishEntryage extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAge41663("en-GB"),
+                                onPressed: () => speakAnswer1027("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -429,16 +575,65 @@ class EnglishEntryage extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAge41663(// REPLACE: age /eɪdʒ/
+                                    speakAnswer1027(// REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
                               ),
                             ],
                           ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The obvious answer would be to cancel the party.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "چارەسەری ڕوون ھەڵوەشاندنەوەی ئاھەنگەکەیە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnswer1029("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAnswer1029(// REPLACE: answer /ˈɑːnsər/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
                           const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٤. (ناو) سەردەمێکی دیاریکراو لە مێژوودا''',
+٤. (کردار) کردن، نووسین، یان وتنی شتێک وەک وەڵام بۆ پرسیارێک یان بارودۆخێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -448,7 +643,7 @@ class EnglishEntryage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "He lived during the Elizabethan age.",
+                                    "I repeated the question, but she didn't answer.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -462,7 +657,7 @@ class EnglishEntryage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە سەردەمی دەسەڵاتداریی ئیلیزابێس ژیا",
+                                    "پرسیارەکەم دووبارە کردەوە بەڵام وەڵامی نەداوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -474,7 +669,7 @@ class EnglishEntryage extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAge955887("en-GB"),
+                                onPressed: () => speakAnswer1032("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -483,16 +678,113 @@ class EnglishEntryage extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAge955887(// REPLACE: age /eɪdʒ/
+                                    speakAnswer1032(// REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
                               ),
                             ],
                           ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "You haven't answered my question.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "وەڵامی پرسیارەکەمت نەداوەتەوە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnswer1034("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAnswer1034(// REPLACE: answer /ˈɑːnsər/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "He refused to answer the charges against him.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ڕەتی‌کردەوە وەڵامی تۆمەتەکانی دژی بداتەوە",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnswer1036("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAnswer1036(// REPLACE: answer /ˈɑːnsər/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
                           const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٥. (کردار) تەمەنکردن''',
+٥. (کردار) بەرگری‌کردن لە خۆت بەرامبەر تۆمەت یان ڕەخنە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -502,7 +794,7 @@ class EnglishEntryage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "As he aged, his memory got worse.",
+                                    "He was summoned before the council to answer charges of treason.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -516,7 +808,7 @@ class EnglishEntryage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کە تەمەنی دەکرد بیر و ھۆشی خراپتر دەبوو",
+                                    "بانگ‌کرایە پێش ئەنجوومەنەکە بۆ وەڵامدانەوەی تۆمەتی خیانەت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -528,7 +820,7 @@ class EnglishEntryage extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAge471114("en-GB"),
+                                onPressed: () => speakAnswer1039("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -537,69 +829,17 @@ class EnglishEntryage extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAge471114(// REPLACE: age /eɪdʒ/
+                                    speakAnswer1039(// REPLACE: answer /ˈɑːnsər/
                                         "en-US"),
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٦. (کردار) پیر دەرکەوتن''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "My mother has really aged since she became ill.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دایکم ڕەنگی پیربووە لەوەتەی نەخۆش کەوتووە",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAge25221("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAge25221(// REPLACE: age /eɪdʒ/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
+                          // const DividerSentences(),
+                          // const DividerDefinition(),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
+                    YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
@@ -609,8 +849,8 @@ class EnglishEntryage extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -640,34 +880,50 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: age (Derived forms: ages)
-1. How long something has existed
-"it was replaced because of its age"
+- Verb: answer (Derived forms: answers, answering, answered)
+1. Say or write something in response (= reply, respond)
+"answer the question"; "We answered that we would accept the invitation"; "She didn't want to answer";
  
-2. An era of history having some distinctive feature (= historic period)
-"we live in a litigious age";
+2. Respond to a signal
+"answer the door"; "answer the telephone"
  
-3. A time of life (usually defined in years) at which some particular qualification or power arises (= eld)
-"she was now of school age";
+3. Give the correct answer or solution to
+"answer a question"; "answer the riddle"
  
-4. A prolonged period of time (= long time, years, yonks [Brit, informal], lifetime, donkey's years [Brit, informal])
-"we've known each other for ages";
+4. Understand the meaning of (= resolve)
+"The question concerning the meaning of life cannot be answered";
  
-5. A late time of life (= old age, years, eld, geezerhood)
-"old age is not for sissies"; "age hasn't slowed him down at all";
+5. Give a defence or refutation of (a charge) or in (an argument)
+"The defendant answered to all the charges of the prosecution"
+ 
+6. Be liable or accountable
+"She must answer for her actions"
+ 
+7. Be sufficient; be adequate, either in quality or quantity (= suffice, do, serve)
+"A few words would answer";
+ 
+8. Match or correspond
+"The drawing of the suspect answers to the description the victim gave"
+ 
+9. Be satisfactory for; meet the requirements of or serve the purpose of
+"This may answer her needs"
+ 
+10. React to a stimulus or command
+"The steering of my new car answers to the slightest touch"
 
-- Verb: age (Derived forms: ages, ageing, aging, aged)
-1. Begin to seem older; get older
-"The death of his wife caused him to age fast"
+- Noun: answer (Derived forms: answers)
+1. A statement (either spoken or written) that is made to reply to a question or request or criticism or accusation (= reply, response)
+"I waited several days for his answer";
+
+2. A statement that solves a problem or explains how to solve the problem (= solution, result, resolution, solvent)
+"the answers were in the back of the book";
+
+3. The speech act of replying to a question
  
-2. Grow old or older (= senesce, get on, mature, maturate)
-"She aged gracefully"; "we age every day--what a depressing thought!";
+4. (law) the principal pleading by the defendant in response to plaintiff's complaint; in criminal law it consists of the defendant's plea of 'guilty' or 'not guilty' (or nolo contendere); in civil law it must contain denials of all allegations in the plaintiff's complaint that the defendant hopes to controvert and it can contain affirmative defences or counterclaims
  
-3. Make older
-"The death of his child aged him tremendously"
- 
-4. Cause to ripen or develop fully (= ripen, mature)
-"Age matures a good wine";
+5. A nonverbal reaction
+"his answer to any problem was to get drunk"; "their answer was to sue me"
 '''),
         ],
       ),
@@ -678,16 +934,17 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'VVh6EkYwIGU';
+  static String myVideoId = "_h97cjyraEk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 176, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 24, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -702,16 +959,17 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'kOd19ljsklQ';
+  static String myVideoId = "zJ5rFV5b9Xs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 6, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 9, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -726,16 +984,17 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'gsrakIxmHEY';
+  static String myVideoId = "s2JLkXCPIW8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 51, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 141, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -750,16 +1009,17 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = '3YrmQfvUNfg';
+  static String myVideoId = "UZk17HJGu8I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 273, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 26, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -774,16 +1034,17 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'Uivy6vnP2B0';
+  static String myVideoId = "md68cIq-I4g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 165, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 155, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -798,16 +1059,17 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'yKBgsQiF380';
+  static String myVideoId = "-aq1n8MSk8c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 18, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -822,16 +1084,17 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'dKbissUX-TE';
+  static String myVideoId = "DPZzrlFCD_I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 14, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 610, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -846,16 +1109,17 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'KhSbEsFtvFs';
+  static String myVideoId = "w98l2EFR6dE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 23, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 16, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -870,16 +1134,17 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'UaQ8CNLE1bk';
+  static String myVideoId = "XFGAQrEUaeU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 89, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -894,16 +1159,17 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = '7cf33DCzuqk';
+  static String myVideoId = "e09xig209cQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
-      loop: true,
-      mute: false,
       // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
     ),
   );
 
@@ -917,4 +1183,115 @@ class YoutubeEmbeddedten extends StatelessWidget {
   }
 }
 
-// end
+class YoutubeEmbeddedeleven extends StatelessWidget {
+  static String myVideoId = "-HyHZsa79LU";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 1239, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  YoutubeEmbeddedeleven({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwelve extends StatelessWidget {
+  static String myVideoId = "j1BfO7VlIw4";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 968, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  YoutubeEmbeddedtwelve({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+// morethan one video, only first autoplay
+
+// class YoutubeEmbeddethirteen extends StatelessWidget {
+//   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+//   static String myVideoIdTwo = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+//   static String myVideoIdThree = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+//   final YoutubePlayerController _controller = YoutubePlayerController(
+//     initialVideoId: myVideoId,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   final YoutubePlayerController _controllertwo = YoutubePlayerController(
+//     initialVideoId: myVideoIdTwo,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   final YoutubePlayerController _controllerthree = YoutubePlayerController(
+//     initialVideoId: myVideoIdThree,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   YoutubeEmbeddethirteen({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       body: SingleChildScrollView(
+//         child: Column(
+//           children: [
+//             YouTubeContainerDesign(controller: _controller),
+//             YouTubeContainerDesign(controller: _controllertwo),
+//             YouTubeContainerDesign(controller: _controllerthree),
+//           ],
+//         ),
+//       ),
+//     );
+//   }
+// }
+
+// end // TODO Implement this library.

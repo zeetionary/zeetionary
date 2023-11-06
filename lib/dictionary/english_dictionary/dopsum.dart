@@ -11,6 +11,7 @@ enum TtsState { playing }
 class EnglishEntryAdopsum extends StatelessWidget {
   // blank divider
   EnglishEntryAdopsum({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakAdopsum(String languageCode) async {

@@ -235,7 +235,7 @@ class EnglishEntryanontwo extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پارەکە بەخشرا لەلایەن بازرگانێکی خۆجێیی کە دەیەوێتبە نھێنی بمێنێتەوە",
+                                    "پارەکە بەخشرا لەلایەن بازرگانێکی خۆجێیی کە دەخوازێت بە نھێنی بمێنێتەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

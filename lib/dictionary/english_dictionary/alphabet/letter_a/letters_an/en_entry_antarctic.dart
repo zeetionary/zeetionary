@@ -4,91 +4,94 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryantagonist - replace speakAntagonist - replace antagonist - /ænˈtæɡənɪst/ - find Dopsum2
+// replace these: replace EnglishEntryantarctic - replace speakAntarctic - replace Antarctic - /ænˈtɑːktɪk/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryantagonist extends StatelessWidget {
+class EnglishEntryantarctic extends StatelessWidget {
   // blank divider
-  EnglishEntryantagonist({super.key});
+  EnglishEntryantarctic({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntagonist(String languageCode) async {
-    // DOPSUM: CHANGE speakAntagonist
+  Future<void> speakAntarctic(String languageCode) async {
+    // DOPSUM: CHANGE speakAntarctic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntagonist1255(String languageCode) async {
-    // DOPSUM: CHANGE speakAntagonist
+  Future<void> speakAntarctic134(String languageCode) async {
+    // DOPSUM: CHANGE speakAntarctic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He has always been the prime minister’s most formidable antagonist in Parliament."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The protection of the Antarctic from commercial exploitation is an important goal of environmentalists."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntagonist(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonist
+  Future<void> speakAntarctic136(String languageCode) async {
+    // DOPSUM: CHANGE speakAntarctic
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Scientists went on an Antarctic expedition to study penguins and ice."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAntarctic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAntarctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonist(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonist
+  // Future<void> speakAntarctic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAntarctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonist(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonist
+  // Future<void> speakAntarctic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAntarctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonist(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonist
+  // Future<void> speakAntarctic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAntarctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonist(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonist
+  // Future<void> speakAntarctic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAntarctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonist(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonist
+  // Future<void> speakAntarctic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAntarctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAntagonist(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonist
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Antarctic"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -107,7 +110,7 @@ class EnglishEntryantagonist extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "antagonist", // DOPSUM: CHANGE WORD ENTRY - Find /ænˈtæɡənɪst/
+                                "Antarctic", // DOPSUM: CHANGE WORD ENTRY - Find /ænˈtɑːktɪk/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -126,7 +129,7 @@ class EnglishEntryantagonist extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ænˈtæɡənɪst/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ænˈtɑːktɪk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -136,7 +139,7 @@ class EnglishEntryantagonist extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAntagonist(
+                              onPressed: () => speakAntarctic(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -147,7 +150,7 @@ class EnglishEntryantagonist extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ænˈtæɡənɪst/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                "IpaUS: /ænˈtɑːrktɪk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -157,7 +160,7 @@ class EnglishEntryantagonist extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAntagonist(
+                              onPressed: () => speakAntarctic(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -177,13 +180,13 @@ class EnglishEntryantagonist extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 14,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 12,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -207,9 +210,7 @@ class EnglishEntryantagonist extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: دوژمن، نەیار، هەڤڕک، ناکۆک، پێک‌دژ، بەرهەڵست، دژ، دژبەر
-
-١. (ناو) کەسێک کە بە سەرسەختی دژی کەسێک یان شتێکە''',
+١. (ناو) هەرێمی خولگەی جەمسەری باشووری زەوی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -219,7 +220,7 @@ class EnglishEntryantagonist extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "He has always been the prime minister’s most formidable antagonist in Parliament.",
+                                    "The protection of the Antarctic from commercial exploitation is an important goal of environmentalists.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -233,7 +234,7 @@ class EnglishEntryantagonist extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەمیشە گەورەترین نەیاری سەرۆک وەزیران بووە لە پەرلەمان",
+                                    "پاراستنی خولگەی جەمسەری باشوری زەوی لە بەکارهێنانی بە مەبەستی بازرگانی یەکێکە لە ئامانجە سەرەکییەکانی ژینگەپارێزان ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -245,7 +246,7 @@ class EnglishEntryantagonist extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAntagonist1255("en-GB"),
+                                onPressed: () => speakAntarctic134("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -253,8 +254,63 @@ class EnglishEntryantagonist extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAntagonist1255(
-                                    // REPLACE: antagonist /ænˈtæɡənɪst/
+                                onPressed: () => speakAntarctic134(
+                                    // REPLACE: Antarctic /ænˈtɑːrktɪk/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+١. (هاوەڵناو) پەیوەندیدار بە هەرێمی خولگەی جەمسەری باشووری زەوی''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Scientists went on an Antarctic expedition to study penguins and ice.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "زاناکان دەستیان گە گەڕانێکی خولگەی جەمسەری باشوور کرد بۆ لێکۆڵینەوە لە پەنگوینەکان و سەهۆڵ",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAntarctic136("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAntarctic136(
+                                    // REPLACE: Antarctic /ænˈtɑːrktɪk/
                                     "en-US"),
                               ),
                             ],
@@ -274,8 +330,8 @@ class EnglishEntryantagonist extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -305,13 +361,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: antagonist (Derived forms: antagonists) (= adversary, opponent, opposer, resister)
-1. Someone who offers opposition
+- Noun: Antarctic 
+1. The region around the south pole: Antarctica and surrounding waters (= Antarctic Zone, South Frigid Zone)
 
-2. A muscle that relaxes while another contracts
-"when bending the elbow the triceps are the antagonist"
- 
-3. A drug that neutralizes or counteracts the effects of another drug
+- Adjective: Antarctic 
+1. At or near the south pole (= south-polar)
 '''),
         ],
       ),
@@ -322,12 +376,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "9IrW6_6tC44";
+  static String myVideoId = "WHdzMX8smps";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 728, // DOPSUM: CHANGE IT
+      startAt: 43, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -347,12 +401,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "uUX0l8wVVdE";
+  static String myVideoId = "yTaVvSe03TQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 58, // DOPSUM: CHANGE IT
+      startAt: 272, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -372,12 +426,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "JTDRQDiaTWM";
+  static String myVideoId = "VjTXa7K1N_w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 80, // DOPSUM: CHANGE IT
+      startAt: 629, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -397,12 +451,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "0zhI18S7TDg";
+  static String myVideoId = "SzL8D1AtyQs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 130, // DOPSUM: CHANGE IT
+      startAt: 61, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -422,12 +476,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "DuMA7xqCtgg";
+  static String myVideoId = "EvRAuy1ZmTc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 235, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -447,12 +501,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "tFSgH_cUm2E";
+  static String myVideoId = "5UqjS1RGRzo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 478, // DOPSUM: CHANGE IT
+      startAt: 12, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -472,12 +526,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "YwOMc-4OEWg";
+  static String myVideoId = "9NGVkjVMYNM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 13, // DOPSUM: CHANGE IT
+      startAt: 81, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -497,12 +551,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "9GR3XSuInYE";
+  static String myVideoId = "EuSMfdeIuh8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 18, // DOPSUM: CHANGE IT
+      startAt: 288, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -522,12 +576,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "PYzhuFS8YkE";
+  static String myVideoId = "HVjqSPsz1sk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1646, // DOPSUM: CHANGE IT
+      startAt: 4, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -547,12 +601,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "fY2CF-T05qY";
+  static String myVideoId = "tjj7At0COd4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1276, // DOPSUM: CHANGE IT
+      startAt: 8, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -572,12 +626,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "JcpboMScfIY";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5177, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -597,12 +651,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "EM4odIQZVgw";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 128, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

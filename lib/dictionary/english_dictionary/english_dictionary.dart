@@ -746,6 +746,11 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "ant",
     "antagonism",
     "antagonist",
+    "antagonistic",
+    "antagonize",
+    "Antarctic",
+    "the Antarctic Circle",
+    "antecedent",
     "dopsum",
     "dopsum",
     "come of age",
@@ -3826,26 +3831,26 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-antagonist');
                   }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM');
-                  // }
+                  if (wordsEnglish == "antagonistic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-antagonistic');
+                  }
+                  if (wordsEnglish == "antagonize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-antagonize');
+                  }
+                  if (wordsEnglish == "Antarctic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-antarctic');
+                  }
+                  if (wordsEnglish == "the Antarctic Circle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-antarctic-circle');
+                  }
+                  if (wordsEnglish == "antecedent") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-antecedent');
+                  }
                   // if (wordsEnglish == "DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM');

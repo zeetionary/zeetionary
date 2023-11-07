@@ -237,7 +237,7 @@ class EnglishEntryantonym extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "فەرهەنگی دژواتاکان ئامرازێکی یارمەتیدەرە بۆ تێگەشتن لە دژواتاکان لە زمانێکدا.",
+                                    "فەرھەنگی دژواتاکان ئامرازێکی یارمەتیدەرە بۆ تێگەشتن لە دژواتاکان لە زمانێکدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

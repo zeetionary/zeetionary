@@ -790,8 +790,8 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "anxious",
     "anxiously",
     "any",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
+    // "anybody",
+    // "anyhow",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
@@ -4133,13 +4133,13 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-any');
                   }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "anybody") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
+                  //   Routemaster.of(context).push('/english-anybody');
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "anyhow") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
+                  //   Routemaster.of(context).push('/english-anyhow');
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
@@ -4567,6 +4567,8 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
       await prefs.setStringList('history', history);
     }
   }
+
+  // https://chat.openai.com/c/1b6a5ca9-fbb4-4eb2-8a47-8df7b4085fdc
 
   @override
   void dispose() {

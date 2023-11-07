@@ -209,10 +209,10 @@ class EnglishEntryAdopsum extends StatelessWidget {
                         children: [
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
+                            """
 کوردی: 
 
-١. (ھاوەڵناو) پێناسە''',
+١. (ھاوەڵناو) پێناسە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

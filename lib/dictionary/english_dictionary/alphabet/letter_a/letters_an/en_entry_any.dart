@@ -76,6 +76,49 @@ class EnglishEntryany extends StatelessWidget {
         "It isn't just any day—it's my birthday!"); // DOPSUM: CHANGE TEXT
   }
 
+  Future<void> speakAny944(String languageCode) async {
+    // DOPSUM: CHANGE speakAny
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "We need some more paint; there isn't any left."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAny947(String languageCode) async {
+    // DOPSUM: CHANGE speakAny
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("I'll take any you don't want."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAny951(String languageCode) async {
+    // DOPSUM: CHANGE speakAny
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("He wasn't any good at French."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAny(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAny
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("any"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAny(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAny
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("any"); // DOPSUM: CHANGE TEXT
+  // }
+
   // Future<void> speakAny(String languageCode) async {
   //   // DOPSUM: CHANGE speakAny
   //   await flutterTts.setLanguage(languageCode);
@@ -214,9 +257,9 @@ class EnglishEntryany extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: هیچ‌چەشنە، هیچ‌کەس، هیچ‌کەسێ، هەرکەس، هەموو کەس، هەرکەسێ، هیچ‌یەک، هەر، هەریەک، هەرکام، ئیدی، ئیتر
+کوردی: ھیچ‌چەشنە، ھیچ‌کەس، ھیچ‌کەسێ، ھەرکەس، ھەموو کەس، ھەرکەسێ، ھیچ‌یەک، ھەر، ھەریەک، ھەرکام، ئیدی، ئیتر
 
-١. (دیارخەر) بۆ پیشاندانی بڕ لەگەڵ ناوی نەژمێردراو یان کۆ لە ڕستەی نەرێ و پرسیاری، لەدوای if و whether، یان لەدوای هەندێک کردارەوە، بۆ نموونە prevent و ban و forbid''',
+١. (دیارخەر) بۆ پیشاندانی بڕ لەگەڵ ناوی نەژمێردراو یان کۆ لە ڕستەی نەرێ و پرسیاری، لەدوای if و whether، یان لەدوای ھەندێک کردارەوە، بۆ نموونە prevent و ban و forbid''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -242,7 +285,7 @@ class EnglishEntryany extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هیچ گۆشتم نەخوارد.",
+                                    "ھیچ گۆشتم نەخوارد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -292,7 +335,7 @@ class EnglishEntryany extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناتوانی بێ هیچ پێڵاوێک بچیتە دەرەوە.",
+                                    "ناتوانی بێ ھیچ پێڵاوێک بچیتە دەرەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -342,7 +385,7 @@ class EnglishEntryany extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەموو جۆرە قسەکردنێک لە پۆلدا قەدەغە دەکات.",
+                                    "ھەموو جۆرە قسەکردنێک لە پۆلدا قەدەغە دەکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -400,7 +443,7 @@ class EnglishEntryany extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەر کتێبێکت دەوێت بیبە.",
+                                    "ھەر کتێبێکت دەوێت بیبە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -450,7 +493,7 @@ class EnglishEntryany extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەموو مامۆستایەک پێت دەڵێت قوتابیان بە خێرایی جیاواز فێردەبن.",
+                                    "ھەموو مامۆستایەک پێت دەڵێت قوتابیان بە خێرایی جیاواز فێردەبن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -508,7 +551,7 @@ class EnglishEntryany extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەمڕۆ هەر ڕۆژێکی وا ئاسایی نییە، لەدایکبوونی منە.",
+                                    "ئەمڕۆ ھەر ڕۆژێکی وا ئاسایی نییە، لەدایکبوونی منە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -540,7 +583,7 @@ class EnglishEntryany extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٤. (جێناو) بەکاردەهێنرێت لە ڕستەی نەرێ و پرسیاری، لەدوای if و whether بۆ ئاماژەکردن بە بڕ یان ژمارە''',
+٤. (جێناو) بەکاردەھێنرێت لە ڕستەی نەرێ و پرسیاری، لەدوای if و whether بۆ ئاماژەکردن بە بڕ یان ژمارە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -566,7 +609,7 @@ class EnglishEntryany extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەمڕۆ هەر ڕۆژێکی وا ئاسایی نییە، لە if دایکبوونی منە.",
+                                    "پێویستیمان بە ھەندێکی تر بۆیەیە؛ ھیچ نەماوە.",
                                     textDirection: TextDirection.rtl,
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
@@ -579,7 +622,7 @@ class EnglishEntryany extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAny821("en-GB"),
+                                onPressed: () => speakAny944("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -588,7 +631,123 @@ class EnglishEntryany extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAny821(// REPLACE: any /ˈeni/
+                                    speakAny944(// REPLACE: any /ˈeni/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            '''
+٥. (جێناو) یەکێک یان زیاتر لە ژمارەیەک شت یان خەڵک کە گرنگ نییە''',
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "I'll take any you don't want.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ئەوەیان دەبەم کە ناتەوێ.",
+                                    textDirection: TextDirection.rtl,
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAny947("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAny947(// REPLACE: any /ˈeni/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٦. (جێناو) بەکاردێت بۆ جەختکردنەوە لە ھاوەڵناوێک یان ھاوەڵکارێک لە ڕستەی نەرێ و پرسیاری، بە واتای 'بە ھیچ شێوەیەک'""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "He wasn't any good at French.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ھیچ لە فەرەنسی باش نەبوو.",
+                                    textDirection: TextDirection.rtl,
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAny951("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAny951(// REPLACE: any /ˈeni/
                                         "en-US"),
                               ),
                             ],
@@ -656,7 +815,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/21Z4RIOFhMA?t=";
+  static String myVideoId = "21Z4RIOFhMA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -681,7 +840,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/hFZFjoX2cGg?t=";
+  static String myVideoId = "hFZFjoX2cGg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -706,7 +865,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/a_TSR_v07m0?t=";
+  static String myVideoId = "a_TSR_v07m0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -731,7 +890,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/VrKW58MS12g?t=";
+  static String myVideoId = "VrKW58MS12g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -756,7 +915,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/PUvp9fmAAAY?t=";
+  static String myVideoId = "PUvp9fmAAAY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -781,7 +940,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/DPZzrlFCD_I?t=";
+  static String myVideoId = "DPZzrlFCD_I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -806,7 +965,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/hS2x1zl4rn0?t=";
+  static String myVideoId = "hS2x1zl4rn0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -831,7 +990,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/qsobCAGiuRU?t=";
+  static String myVideoId = "qsobCAGiuRU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -856,7 +1015,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/_spuxXnul0U?t=";
+  static String myVideoId = "_spuxXnul0U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -881,7 +1040,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/Kou7ur5xt_4?t=";
+  static String myVideoId = "Kou7ur5xt_4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -906,7 +1065,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/W4mmfzFazoI?t=";
+  static String myVideoId = "W4mmfzFazoI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -931,7 +1090,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/8HEfIJlcFbs?t=";
+  static String myVideoId = "8HEfIJlcFbs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

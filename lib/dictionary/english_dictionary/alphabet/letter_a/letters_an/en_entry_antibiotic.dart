@@ -27,8 +27,8 @@ class EnglishEntryantibiotic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The doctor put her on antibiotics (= told her to take them)."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The doctor put her on antibiotics."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAntibiotic(String languageCode) async {

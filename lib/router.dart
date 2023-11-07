@@ -788,8 +788,8 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anxious.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anxiously.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_any.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anybody.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anyhow.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
@@ -1679,8 +1679,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-anxious": (_) => MaterialPage(child: EnglishEntryanxious()),
   "/english-anxiously": (_) => MaterialPage(child: EnglishEntryanxiously()),
   "/english-any": (_) => MaterialPage(child: EnglishEntryany()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-anybody": (_) => MaterialPage(child: EnglishEntryanybody()),
+  "/english-anyhow": (_) => MaterialPage(child: EnglishEntryanyhow()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

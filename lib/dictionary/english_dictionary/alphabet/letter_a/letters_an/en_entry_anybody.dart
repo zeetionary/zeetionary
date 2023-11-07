@@ -4,92 +4,91 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace EnglishEntryanxiety - replace speakAnxiety
+// replace EnglishEntryAdopsum - replace speakAnybody
 
-// replace anxiety - /æŋˈzaɪəti/ - find WORD_WEB
+// replace anybody - /ˈenibɒdi/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryanxiety extends StatelessWidget {
+class EnglishEntryanybody extends StatelessWidget {
   // blank divider
-  EnglishEntryanxiety({super.key});
+  EnglishEntryanybody({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnxiety(String languageCode) async {
-    // DOPSUM: CHANGE speakAnxiety
+  Future<void> speakAnybody(String languageCode) async {
+    // DOPSUM: CHANGE speakAnybody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anxiety"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anybody"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnxiety651(String languageCode) async {
-    // DOPSUM: CHANGE speakAnxiety
+  Future<void> speakAnybody1055(String languageCode) async {
+    // DOPSUM: CHANGE speakAnybody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Some hospital patients experience high levels of anxiety."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Is there anybody who can help me?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnxiety656(String languageCode) async {
-    // DOPSUM: CHANGE speakAnxiety
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A lot of anxiety surrounds the issue of human cloning."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAnxiety700(String languageCode) async {
-    // DOPSUM: CHANGE speakAnxiety
+  Future<void> speakAnybody1056(String languageCode) async {
+    // DOPSUM: CHANGE speakAnybody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Some people are feeling the pressure and suffering from anxiety and depression."); // DOPSUM: CHANGE TEXT
+        "She wasn't anybody before she got that job."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnxiety705(String languageCode) async {
-    // DOPSUM: CHANGE speakAnxiety
+  Future<void> speakAnybody1059(String languageCode) async {
+    // DOPSUM: CHANGE speakAnybody
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "If you're worried about your health, share your anxieties with your doctor."); // DOPSUM: CHANGE TEXT
+        "Anybody could dress well with all that money."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnxiety708(String languageCode) async {
-    // DOPSUM: CHANGE speakAnxiety
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anxiety"); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakAnxiety(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnxiety
+  // Future<void> speakAnybody(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnybody
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiety"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anybody"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnxiety(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnxiety
+  // Future<void> speakAnybody(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnybody
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiety"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anybody"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnxiety(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnxiety
+  // Future<void> speakAnybody(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnybody
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiety"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anybody"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAnybody(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnybody
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("anybody"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAnybody(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnybody
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("anybody"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -114,7 +113,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "anxiety", // DOPSUM: CHANGE WORD ENTRY - Find /æŋˈzaɪəti/
+                                "anybody", // DOPSUM: CHANGE WORD ENTRY - Find /ˈenibɒdi/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -133,7 +132,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /æŋˈzaɪəti/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈenibɒdi/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -144,7 +143,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAnxiety(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAnybody(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -154,7 +153,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /æŋˈzaɪəti/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /ˈenibɑːdi/,  /ˈenibʌdi/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -164,7 +163,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAnxiety(
+                              onPressed: () => speakAnybody(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -213,10 +212,10 @@ class EnglishEntryanxiety extends StatelessWidget {
                         children: [
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-کوردی: دڵەتەپە، دڵەخورپێ، دڵەڕاوکێ، خەتەرە، نگەرانی، ناڕەحەتی، خەم، پەرێشانی، ئارام‌لێ‌ھەڵگیراوی، تامەزرۆیی، گوڕوتین، پەرۆش، مەراق
+                            """
+کوردی: هیچ‌کەس، کەسێ، هەرکەس، هەرکەسێ
 
-١. (ناو) دۆخی ھەستکردن بە شڵەژاوی و نیگەرانی سەبارەت بەوەی شتێکی خراپ ڕوودەدات''',
+١. (ھاوەڵناو) لە ڕستەی پرسیاری و نەرێ لە دوای if و whether بەکاردێ، و لەدوای هەندێ کردار، بۆ نموونە prevent و forbid و avoid""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -227,7 +226,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Some hospital patients experience high levels of anxiety.",
+                                    "Is there anybody who can help me?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -242,7 +241,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەندێک لە نەخۆشانی نەخۆشخانە بە دڵەڕاوکێی زۆردا تێپەڕدەبن.",
+                                    "کەس هەیە بتوانێ یارمەتیم بدا؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -255,7 +254,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnxiety651("en-GB"),
+                                onPressed: () => speakAnybody1055("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -263,8 +262,8 @@ class EnglishEntryanxiety extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAnxiety651(
-                                    // REPLACE: anxiety /æŋˈzaɪəti/
+                                onPressed: () => speakAnybody1055(
+                                    // REPLACE: anybody /ˈenibɑːdi/,  /ˈenibʌdi/
                                     "en-US"),
                               ),
                             ],
@@ -277,7 +276,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "A lot of anxiety surrounds the issue of human cloning.",
+                                    "She wasn't anybody before she got that job.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -292,7 +291,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دڵەڕاوکێی زۆر ھەیە سەبارەت بۆ کۆپی‌کردنی مرۆڤ.",
+                                    "پێش ئەوەی کارەکە وەربگرێت هیچ نەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -305,7 +304,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnxiety656("en-GB"),
+                                onPressed: () => speakAnybody1056("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -313,8 +312,8 @@ class EnglishEntryanxiety extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAnxiety656(
-                                    // REPLACE: anxiety /æŋˈzaɪəti/
+                                onPressed: () => speakAnybody1056(
+                                    // REPLACE: anybody /ˈenibɑːdi/,  /ˈenibʌdi/
                                     "en-US"),
                               ),
                             ],
@@ -323,8 +322,8 @@ class EnglishEntryanxiety extends StatelessWidget {
                           const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) نەخۆشییەکی دەروونی کە دەبێتەھۆی ئەوەی کەسێک ھێندە زۆر نیگەران بێت کە کاریگەری نەرێنی زۆری لەسەریان ھەبێت''',
+                            """
+١. (ھاوەڵناو) هەرکەسێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -335,7 +334,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Some people are feeling the pressure and suffering from anxiety and depression.",
+                                    "Anybody could dress well with all that money.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -350,7 +349,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەندێک کەس ھەست بە پەستان و ئازاری دڵەخورپە و بێزاری دەکەن.",
+                                    "هەمووکەس دەیتوانی بەباشی خۆی بپۆشێ بەو هەموو پارەوە",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -363,7 +362,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnxiety700("en-GB"),
+                                onPressed: () => speakAnybody1059("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -371,124 +370,8 @@ class EnglishEntryanxiety extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAnxiety700(
-                                    // REPLACE: anxiety /æŋˈzaɪəti/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (ناو) نیگەرانی و ترس دەربارەی شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "If you're worried about your health, share your anxieties with your doctor.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەگەر نیگەرانیت بۆ تەندرووستیت، لای دکتۆرەکەت نیگەرانییەکانت باس بکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAnxiety705("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAnxiety705(
-                                    // REPLACE: anxiety /æŋˈzaɪəti/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٤. (ناو) ھەستێکی بەھێز بۆ ویستنی کردنی شتێک یان ویستنی ڕوودانی شتێک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "A couple of photographers fell over themselves in their anxiety to get a shot of her.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ژمارەیەک ڕۆژنامەنووس کەوتن بە مل خۆیاندا لە تامەزرۆییان بۆ گرتنی چەند وێنەیەکی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAnxiety708("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAnxiety708(
-                                    // REPLACE: anxiety /æŋˈzaɪəti/
+                                onPressed: () => speakAnybody1059(
+                                    // REPLACE: anybody /ˈenibɑːdi/,  /ˈenibʌdi/
                                     "en-US"),
                               ),
                             ],
@@ -539,10 +422,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anxiety (Derived forms: anxieties)
-1. (psychiatry) a relatively permanent state of worry and nervousness occurring in a variety of mental disorders, usually accompanied by compulsive behaviour or attacks of panic (= anxiousness)
- 
-2. A vague unpleasant emotion that is experienced in anticipation of some (usually ill-defined) misfortun
+- Pronoun: anybody 
+- Any person (= anyone)
+"has anybody seen my wallet?";
 '''),
         ],
       ),
@@ -553,12 +435,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "L1HCG3BGK8I";
+  static String myVideoId = "https://youtu.be/-LHXbw4x2Ws?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 19, // DOPSUM: CHANGE IT
+      startAt: 75, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -578,12 +460,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "O-6f5wQXSu8";
+  static String myVideoId = "https://youtu.be/LDflrf85h9Y?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 234, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -603,12 +485,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "XIrQKo-d7h4";
+  static String myVideoId = "https://youtu.be/VBDaJZegkao";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 104, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -628,12 +510,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "Eupw-yTBkQI";
+  static String myVideoId = "https://youtu.be/44HXLCsdIk8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 147, // DOPSUM: CHANGE IT
+      startAt: 257, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -653,12 +535,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "Zrg7lJyIYzQ";
+  static String myVideoId = "https://youtu.be/qxVWpWNPEWU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 25, // DOPSUM: CHANGE IT
+      startAt: 351, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -678,12 +560,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "LnV3Q2xIb1U";
+  static String myVideoId = "https://youtu.be/MGO4_8YRKro?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 596, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -703,12 +585,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "QjLOWQqy2MU";
+  static String myVideoId = "https://youtu.be/2ihOXaU0I8o?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 24, // DOPSUM: CHANGE IT
+      startAt: 279, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -728,12 +610,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "QwtPA-07NnU";
+  static String myVideoId = "https://youtu.be/GjMmsEwIcl0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 18, // DOPSUM: CHANGE IT
+      startAt: 350, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -753,12 +635,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "4pLUleLdwY4";
+  static String myVideoId = "https://youtu.be/qWAagS_MANg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 290, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -778,12 +660,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "UfGDb41oDjo";
+  static String myVideoId = "https://youtu.be/-l2KPjQ2lJA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 47, // DOPSUM: CHANGE IT
+      startAt: 35, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -803,12 +685,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "2EPnNOlxF8M";
+  static String myVideoId = "https://youtu.be/gdgPAetNY5U?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 31, // DOPSUM: CHANGE IT
+      startAt: 610, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -828,12 +710,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "b5i0aY_rUZU";
+  static String myVideoId = "https://youtu.be/nLiSWJDhAmQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 80, // DOPSUM: CHANGE IT
+      startAt: 599, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

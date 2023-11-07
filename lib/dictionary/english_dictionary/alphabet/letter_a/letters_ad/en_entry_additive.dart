@@ -164,6 +164,7 @@ class EnglishEntryadditive extends StatelessWidget {
 ١. (ناو) مادەیەک کە زیاد دەکرێت بۆ شتێک بۆ ئەوەی ڕەنگ یان تامی پێبدات، یان بۆ ئەوەی وا بکات زیاتر سوودی ھەبێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadditive extends StatelessWidget {
                                     "This beverage is full of additives - just look at the label!",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,6 +187,7 @@ class EnglishEntryadditive extends StatelessWidget {
                                     "ئەم خواردنەوەیە پڕە لە مادەی زیادکراو. سەیری نووسراوەکەی سەری بکە ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

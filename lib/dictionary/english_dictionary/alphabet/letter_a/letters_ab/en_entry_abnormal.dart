@@ -157,6 +157,7 @@ class EnglishEntryabnormal extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە جیاوازە لە شێوازی ئاسایی، بەتایبەت شتێک کە جێگەی نیگەرانییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryabnormal extends StatelessWidget {
                                     "abnormal levels of sugar in the blood",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -175,9 +177,10 @@ class EnglishEntryabnormal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێژەی نائاسایی شەکر لە خوێندا",
+                                    "ڕێژەی نائاسایی شەکر لە خوێندا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -209,6 +212,7 @@ class EnglishEntryabnormal extends StatelessWidget {
                                     "They thought his behaviour was abnormal.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -217,9 +221,10 @@ class EnglishEntryabnormal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وایان بیرکردەوە ڕەفتارەکانی نائاسایی بێت",
+                                    "وایان بیرکردەوە ڕەفتارەکانی نائاسایی بێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -251,6 +256,7 @@ class EnglishEntryabnormal extends StatelessWidget {
                                     "The ship was blown off course by abnormal weather conditions.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -259,9 +265,10 @@ class EnglishEntryabnormal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەشتییەکە ڕێڕەوی خۆی لەدەستدا بەھۆی کەشوھەوای نائاسایی",
+                                    "کەشتییەکە ڕێڕەوی خۆی لەدەستدا بەھۆی کەشوھەوای نائاسایی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

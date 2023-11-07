@@ -165,6 +165,7 @@ class EnglishEntryaggressiveness extends StatelessWidget {
 ١. (ناو) شەڕەنخوازی و توندوتیژی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryaggressiveness extends StatelessWidget {
                                     "Our addiction to oil feeds belligerence, aggressiveness, and war. Wherever oil is drilled, people are killed for profit.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryaggressiveness extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خووگرتنمان بە نەوت تەنھا دوژمنایەتی و توندوتیژی و شەڕی لێ دەکەوێتەوە. لە ھەرکوێ نەوت دەربھێندرێت، خەڵکی بۆ پارە دەکوژرێن",
+                                    "خووگرتنمان بە نەوت تەنھا دوژمنایەتی و توندوتیژی و شەڕی لێ دەکەوێتەوە. لە ھەرکوێ نەوت دەربھێندرێت، خەڵکی بۆ پارە دەکوژرێن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryaggressiveness extends StatelessWidget {
 ٢. (ناو) سەرسەختی لە ھەوڵدان بۆ سەرکەوتن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -229,6 +233,7 @@ class EnglishEntryaggressiveness extends StatelessWidget {
                                     "Her talent and aggressiveness make her a tennis star of the future.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,9 +245,10 @@ class EnglishEntryaggressiveness extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەھرە و سەرسەختیی بۆ سەرکەوتن وا دەکات ببێت بە ئەستێرەیەکی تێنس لە داھاتوودا",
+                                    "بەھرە و سەرسەختیی بۆ سەرکەوتن وا دەکات ببێت بە ئەستێرەیەکی تێنس لە داھاتوودا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

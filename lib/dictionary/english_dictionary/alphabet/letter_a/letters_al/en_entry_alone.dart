@@ -200,6 +200,7 @@ class EnglishEntryalone extends StatelessWidget {
 ١. (ھاوەڵناو) بە تەنھا و بەبێ خەڵکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -210,6 +211,7 @@ class EnglishEntryalone extends StatelessWidget {
                                     "She was sitting all alone in the hall.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -221,9 +223,10 @@ class EnglishEntryalone extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە تەنھا لە ھۆڵەکە دانیشتبوو",
+                                    "بە تەنھا لە ھۆڵەکە دانیشتبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -257,6 +260,7 @@ class EnglishEntryalone extends StatelessWidget {
                                     "I don't like going out alone at night.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -268,9 +272,10 @@ class EnglishEntryalone extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حەزناکەم شەوانە بە تەنھا دەربچم",
+                                    "حەزناکەم شەوانە بە تەنھا دەربچم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -301,6 +306,7 @@ class EnglishEntryalone extends StatelessWidget {
 ٢. (ھاوەڵناو) بەبێ یارمەتی کەسی دیکە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -311,6 +317,7 @@ class EnglishEntryalone extends StatelessWidget {
                                     "The assassin said he had acted alone.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -322,9 +329,10 @@ class EnglishEntryalone extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بکوژەکە گوتی ھەر خۆی بووە",
+                                    "بکوژەکە گوتی ھەر خۆی بووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -355,6 +363,7 @@ class EnglishEntryalone extends StatelessWidget {
 ٣. (ھاوەڵناو) تەنھا و بێزار بەبێ ھیچ ھاوەڵێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -365,6 +374,7 @@ class EnglishEntryalone extends StatelessWidget {
                                     "Carol felt all alone in the world.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -376,9 +386,10 @@ class EnglishEntryalone extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کارۆڵ ھەستی بە تەنھایی دەکرد لەم جیھانەدا",
+                                    "کارۆڵ ھەستی بە تەنھایی دەکرد لەم جیھانەدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -409,6 +420,7 @@ class EnglishEntryalone extends StatelessWidget {
 ٤. (ھاوەڵناو) لەدوای ناو بەکاردێت بۆ وتنی ئەوەی کەسی ناوبراو تەنھا کەسە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -419,6 +431,7 @@ class EnglishEntryalone extends StatelessWidget {
                                     "You can't blame anyone else; you alone made the decision.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -430,9 +443,10 @@ class EnglishEntryalone extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناتوانی لۆمەی کەسی تر بکەی؛ خۆت بە تەنھا بڕیارەکەت دا",
+                                    "ناتوانی لۆمەی کەسی تر بکەی؛ خۆت بە تەنھا بڕیارەکەت دا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

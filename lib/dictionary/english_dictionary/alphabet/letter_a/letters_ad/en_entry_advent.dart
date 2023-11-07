@@ -165,6 +165,7 @@ class EnglishEntryadvent extends StatelessWidget {
 ١. (ناو) گەشتنی کەسێک، بۆنەیەک، یان داھێنانێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryadvent extends StatelessWidget {
                                     "Before the advent of the railways, communications were slow and difficult.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryadvent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێش داھێنانی سکەی ئاسنین، پەیوەندیکردن زۆر سەخت بوو",
+                                    "پێش داھێنانی سکەی ئاسنین، پەیوەندیکردن زۆر سەخت بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

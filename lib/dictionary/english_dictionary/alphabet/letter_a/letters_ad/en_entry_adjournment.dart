@@ -164,6 +164,7 @@ class EnglishEntryadjournment extends StatelessWidget {
 ١. (ناو) وەستانی کۆبوونەوەیەک یان دانیشتنێکی دادگا بۆ ماوەیەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadjournment extends StatelessWidget {
                                     "The judge granted us a short adjournment.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadjournment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دادوەرەکە وچانێکی کاتی بەخشی",
+                                    "دادوەرەکە وچانێکی کاتی بەخشی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

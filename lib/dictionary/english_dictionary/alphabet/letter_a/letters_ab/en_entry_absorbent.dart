@@ -148,6 +148,7 @@ class EnglishEntryabsorbent extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی توانای ھەڵمژین، بەتایبەتی ھەڵمژینی شلە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryabsorbent extends StatelessWidget {
                                     "The towels are highly absorbent.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryabsorbent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خاولییەکان زۆر ھەڵمژن",
+                                    "خاولییەکان زۆر ھەڵمژن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryageist extends StatelessWidget {
 ١. (ناو) کەسێک کە مامەڵەی لەگەڵ کەسانی بە تەمەن خراپە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryageist extends StatelessWidget {
                                     "The fact is, we live in an ageist society.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryageist extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕاستییەکە ئەوەیە لە کۆمەڵگایەکدا دەژین کە مامەڵەی لەگەڵ کەسانی پیر خراپە",
+                                    "ڕاستییەکە ئەوەیە لە کۆمەڵگایەکدا دەژین کە مامەڵەی لەگەڵ کەسانی پیر خراپە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

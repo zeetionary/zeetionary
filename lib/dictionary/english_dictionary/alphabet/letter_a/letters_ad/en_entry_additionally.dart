@@ -164,6 +164,7 @@ class EnglishEntryadditionally extends StatelessWidget {
 ١. (ھاوەڵکار) زیاتر لەوەی پێشووتر باسکراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadditionally extends StatelessWidget {
                                     "The bus service runs on weekends. Additionally, the it will run on Sundays, every two hours.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadditionally extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھێڵی پاسەکە لە ڕۆژانی ھەفتە کارایە. جگە لەوەش، ڕۆژانی یەکشەممە ھەر دوو کاتژمێر جارێک بەردەست دەبێت",
+                                    "ھێڵی پاسەکە لە ڕۆژانی ھەفتە کارایە. جگە لەوەش، ڕۆژانی یەکشەممە ھەر دوو کاتژمێر جارێک بەردەست دەبێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -210,6 +210,7 @@ class EnglishEntryamuse extends StatelessWidget {
 ١. (کردار) خستنەپێکەنین''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -220,6 +221,7 @@ class EnglishEntryamuse extends StatelessWidget {
                                     "I've brought an article from yesterday's paper that I thought might amuse you.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -231,9 +233,10 @@ class EnglishEntryamuse extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وتارێکم لە چاپی دوێنێی ڕۆژنامەکە ھێناوە کە پێم‌وایە دەتخاتە پێکەنین",
+                                    "وتارێکم لە چاپی دوێنێی ڕۆژنامەکە ھێناوە کە پێم‌وایە دەتخاتە پێکەنین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

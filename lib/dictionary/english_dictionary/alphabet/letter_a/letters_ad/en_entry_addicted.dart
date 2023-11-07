@@ -164,6 +164,7 @@ class EnglishEntryaddicted extends StatelessWidget {
 ١. (ھاوەڵناو) ئاڵوودەبوون بە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaddicted extends StatelessWidget {
                                     "It did not take James very long to get addicted to video games.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,6 +187,7 @@ class EnglishEntryaddicted extends StatelessWidget {
                                     "زۆری نەبرد بۆ جەیمس بۆ ئەوەی ئاڵوودە بێت بە یارییە ڤیدیۆییەکان ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

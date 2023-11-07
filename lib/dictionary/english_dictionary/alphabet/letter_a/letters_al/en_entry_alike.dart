@@ -182,6 +182,7 @@ class EnglishEntryalike extends StatelessWidget {
 ١. (ھاوەڵکار) وەک یەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -192,6 +193,7 @@ class EnglishEntryalike extends StatelessWidget {
                                     "They tried to treat all their children alike.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -203,9 +205,10 @@ class EnglishEntryalike extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەوڵیان دا وەک یەک مامەڵە لەگەڵ منداڵەکانیان بکەن",
+                                    "ھەوڵیان دا وەک یەک مامەڵە لەگەڵ منداڵەکانیان بکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -236,6 +239,7 @@ class EnglishEntryalike extends StatelessWidget {
 ٢. (ھاوەڵکار) بە یەکسان بۆ ھەردوولا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -246,6 +250,7 @@ class EnglishEntryalike extends StatelessWidget {
                                     "Good management benefits employers and employees alike.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -257,9 +262,10 @@ class EnglishEntryalike extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەڕێوەبردنی باش سوود بە خاوەنکاران و کرێکاران دەگەیەنێت بە یەکسانی",
+                                    "بەڕێوەبردنی باش سوود بە خاوەنکاران و کرێکاران دەگەیەنێت بە یەکسانی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -290,6 +296,7 @@ class EnglishEntryalike extends StatelessWidget {
 ٢. (ھاوەڵناو) لێکچوو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -300,6 +307,7 @@ class EnglishEntryalike extends StatelessWidget {
                                     "Airports are all alike to me.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -311,9 +319,10 @@ class EnglishEntryalike extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "فڕۆکەخانەکان ھەموو وەکیەکن بۆم",
+                                    "فڕۆکەخانەکان ھەموو وەکیەکن بۆم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryagronomist extends StatelessWidget {
 ١. (ناو) شارەزایەکی کە زانستی کە کاردەکات لەسەر پەیوەندی نێوان کشتوکاڵ و ژینگە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryagronomist extends StatelessWidget {
                                     "Agronomists were working on new ways to create healthier food.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -188,6 +190,7 @@ class EnglishEntryagronomist extends StatelessWidget {
                                     "شارەزایانی کشتوکاڵ کاریان لەسەر ڕێگای تازە دەکرد بۆ بەرھەمھێنانی خواردنی تەندرووستتر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

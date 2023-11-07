@@ -236,6 +236,7 @@ class EnglishEntryamok extends StatelessWidget {
 ١. (ھاوەڵکار) لەناکاو توڕەبوون یان تووشی خرۆشان، و ڕەفتارکردن بە توندوتیژانە، بەتایبەتی لە شوێنێکی گشتی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -246,6 +247,7 @@ class EnglishEntryamok extends StatelessWidget {
                                     "The army ran amok after one of its senior officers was killed.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -260,6 +262,7 @@ class EnglishEntryamok extends StatelessWidget {
                                     "سوپاکە شێت‌وھار بوون لەدوای ئەوەی یەکێک لە سەرکردە باڵاکانیان کوژرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

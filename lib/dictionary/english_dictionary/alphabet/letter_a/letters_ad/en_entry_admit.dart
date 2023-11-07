@@ -182,6 +182,7 @@ class EnglishEntryadmit extends StatelessWidget {
 ١. (کردار) داننان بەوەی شتێک ڕاستە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -192,6 +193,7 @@ class EnglishEntryadmit extends StatelessWidget {
                                     "She stubbornly refuses to admit the truth.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -200,9 +202,10 @@ class EnglishEntryadmit extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە کەللەڕەقییەوە ڕەتیدەکاتەوە دان بە ڕاستییەکە بنێ",
+                                    "بە کەللەڕەقییەوە ڕەتیدەکاتەوە دان بە ڕاستییەکە بنێ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -236,6 +239,7 @@ class EnglishEntryadmit extends StatelessWidget {
                                     "It was generally admitted that the government had acted too quickly.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -244,9 +248,10 @@ class EnglishEntryadmit extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەشێوەیەکی گشتی دان بەوەدا نرا کە حکومەت بەزووی ھەنگاوی نا",
+                                    "بەشێوەیەکی گشتی دان بەوەدا نرا کە حکومەت بەزووی ھەنگاوی نا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -277,6 +282,7 @@ class EnglishEntryadmit extends StatelessWidget {
 ٢. (کردار) داننان بە بەرپرسیاریەتی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -287,6 +293,7 @@ class EnglishEntryadmit extends StatelessWidget {
                                     "He refused to admit his guilt.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -295,9 +302,10 @@ class EnglishEntryadmit extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕەتیکردەوە دان بە ھەڵەکەیدا بنێت",
+                                    "ڕەتیکردەوە دان بە ھەڵەکەیدا بنێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -328,6 +336,7 @@ class EnglishEntryadmit extends StatelessWidget {
 ٣. (کردار) ڕێگەدان بە کەسێک بچێتە شوێنێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -338,6 +347,7 @@ class EnglishEntryadmit extends StatelessWidget {
                                     "You will not be admitted to the theatre after the performance has started.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -346,9 +356,10 @@ class EnglishEntryadmit extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێگەت پێنادرێت بچیتە ناو ھۆڵی شانۆ لەدوای ئەوەی نمایش دەستیپێکردووە",
+                                    "ڕێگەت پێنادرێت بچیتە ناو ھۆڵی شانۆ لەدوای ئەوەی نمایش دەستیپێکردووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -379,6 +390,7 @@ class EnglishEntryadmit extends StatelessWidget {
 ٤. (کردار) بردنی کەسێک بۆ نەخۆشخانە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -389,6 +401,7 @@ class EnglishEntryadmit extends StatelessWidget {
                                     "Two crash victims were admitted to the local hospital.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -397,9 +410,10 @@ class EnglishEntryadmit extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دوو قوربانی پێکدادانەکە بردرانە نۆخۆشخانە ناوخۆییەکە",
+                                    "دوو قوربانی پێکدادانەکە بردرانە نۆخۆشخانە ناوخۆییەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

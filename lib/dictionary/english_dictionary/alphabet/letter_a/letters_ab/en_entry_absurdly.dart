@@ -148,6 +148,7 @@ class EnglishEntryabsurdly extends StatelessWidget {
 ١. بە ئاستێک کە جێگەی باوەڕ نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryabsurdly extends StatelessWidget {
                                     "The paintings were sold for absurdly high prices.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryabsurdly extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تابلۆکان بەنرخی ئێجگار بەرز فرۆشران",
+                                    "تابلۆکان بەنرخی ئێجگار بەرز فرۆشران.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

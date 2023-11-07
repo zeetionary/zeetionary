@@ -164,6 +164,7 @@ class EnglishEntryadvancement extends StatelessWidget {
 ١. (ناو) پڕۆسەی بەرەوپێشچوون''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadvancement extends StatelessWidget {
                                     "All she was interested in was the advancement of her own career.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadvancement extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەموو ئەوەی گرنگ بوو بۆی بەرەوپێشچوونی کارەکەی بوو",
+                                    "ھەموو ئەوەی گرنگ بوو بۆی بەرەوپێشچوونی کارەکەی بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

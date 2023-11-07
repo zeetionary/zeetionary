@@ -199,6 +199,7 @@ class EnglishEntryaffair extends StatelessWidget {
 ١. (ناو) ئەو بابەتانەی کە خەڵکی گرنگیان پێدەدات، یان مژاری سیاسی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -209,6 +210,7 @@ class EnglishEntryaffair extends StatelessWidget {
                                     "He's always interfering in (= trying to influence) other people's affairs.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -217,9 +219,10 @@ class EnglishEntryaffair extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەمیشە خۆی لە کاری خەڵکی تر ھەڵدەقورتێنێت",
+                                    "ھەمیشە خۆی لە کاری خەڵکی تر ھەڵدەقورتێنێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -253,6 +256,7 @@ class EnglishEntryaffair extends StatelessWidget {
                                     "As a leader, he's been criticized for his inexperience in foreign affairs.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -261,9 +265,10 @@ class EnglishEntryaffair extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وەک سەرکردەیەک، ڕەخنەی لێ گیردرا بۆ بێ ئەزموونیی لە کارووباری دەرەوە",
+                                    "وەک سەرکردەیەک، ڕەخنەی لێ گیردرا بۆ بێ ئەزموونیی لە کارووباری دەرەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -294,6 +299,7 @@ class EnglishEntryaffair extends StatelessWidget {
 ٢. (ناو) ڕووداوێک کە خەڵکی قسەی لەسەر دەکەن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -304,6 +310,7 @@ class EnglishEntryaffair extends StatelessWidget {
                                     "The newspapers exaggerated the whole affair wildly.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -312,9 +319,10 @@ class EnglishEntryaffair extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕۆژنامەکە تەواوی ڕووداوەکەی زۆر گەورە کرد",
+                                    "ڕۆژنامەکە تەواوی ڕووداوەکەی زۆر گەورە کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -345,6 +353,7 @@ class EnglishEntryaffair extends StatelessWidget {
 ٣. (ناو) پەیوەندی سێکسی نێوان دوو کەس، زۆرجار لە کاتێکدا یەکێک یان ھەردووکیان لە پەیوەندین لەگەڵ کەسێکی تردا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -355,6 +364,7 @@ class EnglishEntryaffair extends StatelessWidget {
                                     "She was having an affair with a co-worker.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -363,9 +373,10 @@ class EnglishEntryaffair extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پەیوەندی سێکسی ھەبوو لەگەڵ ھاوپیشەیەکی",
+                                    "پەیوەندی سێکسی ھەبوو لەگەڵ ھاوپیشەیەکی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

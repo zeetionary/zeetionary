@@ -164,6 +164,7 @@ class EnglishEntryacquaint extends StatelessWidget {
 ١. (کردار) ئاشناکردنی کەسێک بە کەسێکی تر یان شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryacquaint extends StatelessWidget {
                                     "Please acquaint me with the facts of the case.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryacquaint extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تکایە ئاشنام بکە بە ڕاستییەکانی کەیسەکە",
+                                    "تکایە ئاشنام بکە بە ڕاستییەکانی کەیسەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

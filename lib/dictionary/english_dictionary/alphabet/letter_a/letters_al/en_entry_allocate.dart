@@ -163,6 +163,7 @@ class EnglishEntryallocate extends StatelessWidget {
 ١. (کردار) پێدانی شتێک بە فەرمی بە کەسێک یان شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryallocate extends StatelessWidget {
                                     "A large sum has been allocated for buying new books for the library.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryallocate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گوژمەیەکی زۆر تەرخانکراوە بۆ کڕینی پەرتووک بۆ پەرتوکخانەکە",
+                                    "گوژمەیەکی زۆر تەرخانکراوە بۆ کڕینی پەرتووک بۆ پەرتوکخانەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -220,6 +223,7 @@ class EnglishEntryallocate extends StatelessWidget {
                                     "More money should be allocated for famine relief.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -231,9 +235,10 @@ class EnglishEntryallocate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەبێت پارەی زیاتر تەرخان بکرێت بۆ سوککردنی وشکەساڵییەکە",
+                                    "دەبێت پارەی زیاتر تەرخان بکرێت بۆ سوککردنی وشکەساڵییەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

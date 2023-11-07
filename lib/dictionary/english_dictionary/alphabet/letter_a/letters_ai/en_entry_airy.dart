@@ -166,6 +166,7 @@ class EnglishEntryairy extends StatelessWidget {
 ١. (ھاوەڵناو) شوێنێک کە جەنجاڵی کەمە و ھەوای پاکی زۆرە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryairy extends StatelessWidget {
                                     "The office was light and airy.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -187,9 +189,10 @@ class EnglishEntryairy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئۆفیسەکە ڕۆشن و ھەواخۆش بوو",
+                                    "ئۆفیسەکە ڕۆشن و ھەواخۆش بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -220,6 +223,7 @@ class EnglishEntryairy extends StatelessWidget {
 ٢. (ھاوەڵناو) ڕەفتارکردن یان کردنی شتێک بە شێوەیەک کە گرنگ نەبێ لات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -230,6 +234,7 @@ class EnglishEntryairy extends StatelessWidget {
                                     "He dismissed her with an airy wave.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -241,9 +246,10 @@ class EnglishEntryairy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ماڵئاوایی لێکرد بە دەستڕاوەشاندنێکی سادە",
+                                    "ماڵئاوایی لێکرد بە دەستڕاوەشاندنێکی سادە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -274,6 +280,7 @@ class EnglishEntryairy extends StatelessWidget {
 ٣. (ھاوەڵناو) شتێک کە بە جدی نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -284,6 +291,7 @@ class EnglishEntryairy extends StatelessWidget {
                                     "The airy promises proved empty in practical implementation.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -295,9 +303,10 @@ class EnglishEntryairy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەڵێنە دەستکردەکانی پڕووپووچ بوون بە کرداری",
+                                    "بەڵێنە دەستکردەکانی پڕووپووچ بوون بە کرداری.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

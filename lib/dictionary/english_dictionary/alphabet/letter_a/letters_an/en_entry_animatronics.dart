@@ -210,6 +210,7 @@ class EnglishEntryanimatronics extends StatelessWidget {
 ١. (ناو) پڕۆسەی درووستکردنی ڕۆبۆت لەشێوەی مرۆڤ یان ئاژەڵدا کە لە فیلمدا بەکاردێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -220,6 +221,7 @@ class EnglishEntryanimatronics extends StatelessWidget {
                                     "Ask them if they can find out who's doing the animatronics.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -231,9 +233,10 @@ class EnglishEntryanimatronics extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پرسیاریان لێ‌بکە ئاخۆ دەزانن کێ کاری ئانیماترۆنیکسەکەی کردووە",
+                                    "پرسیاریان لێ‌بکە ئاخۆ دەزانن کێ کاری ئانیماترۆنیکسەکەی کردووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

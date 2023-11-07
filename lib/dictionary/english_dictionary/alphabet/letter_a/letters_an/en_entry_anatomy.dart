@@ -25,7 +25,8 @@ class EnglishEntryanatomy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("An understanding of human anatomy is important to a dancer."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "An understanding of human anatomy is important to a dancer."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnatomy499(String languageCode) async {
@@ -33,7 +34,8 @@ class EnglishEntryanatomy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The female anatomy includes organs like the ovaries and uterus."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The female anatomy includes organs like the ovaries and uterus."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnatomy9500(String languageCode) async {
@@ -41,7 +43,8 @@ class EnglishEntryanatomy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Various parts of his anatomy were clearly visible."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Various parts of his anatomy were clearly visible."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnatomy5582(String languageCode) async {
@@ -49,7 +52,8 @@ class EnglishEntryanatomy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The article explores an anatomy of the current recession's causes."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The article explores an anatomy of the current recession's causes."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnatomy(String languageCode) async {
@@ -211,6 +215,7 @@ class EnglishEntryanatomy extends StatelessWidget {
 ١. (ناو) وردبوونەوەی زانستی لە پێکھاتەی فیزیکی مرۆڤ، ئاژەڵ، و ڕووەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +226,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                     "An understanding of human anatomy is important to a dancer.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +238,10 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تێگەشتن لە پێکھاتەی درووستبوونی لەشی مرۆڤ گرنگە بۆ سەماکارێک",
+                                    "تێگەشتن لە پێکھاتەی درووستبوونی لەشی مرۆڤ گرنگە بۆ سەماکارێک.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -252,9 +259,9 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnatomy409(// REPLACE: anatomy /əˈnætəmi/
-                                        "en-US"),
+                                onPressed: () => speakAnatomy409(
+                                    // REPLACE: anatomy /əˈnætəmi/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -266,6 +273,7 @@ class EnglishEntryanatomy extends StatelessWidget {
 ٢. (ناو) پێکھاتەی فیزیکی مرۆڤ، ئاژەڵ، یان ڕووەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -276,6 +284,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                     "The female anatomy includes organs like the ovaries and uterus.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -287,9 +296,10 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جەستەی مێینە ئەندامەکانی وەک ھێلکەدان و مناڵ‌دان لەخۆدەگرێت",
+                                    "جەستەی مێینە ئەندامەکانی وەک ھێلکەدان و مناڵ‌دان لەخۆدەگرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -307,9 +317,9 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnatomy499(// REPLACE: anatomy /əˈnætəmi/
-                                        "en-US"),
+                                onPressed: () => speakAnatomy499(
+                                    // REPLACE: anatomy /əˈnætəmi/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -321,6 +331,7 @@ class EnglishEntryanatomy extends StatelessWidget {
 ٣. (ناو) جەستەی مرۆڤێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -331,6 +342,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                     "Various parts of his anatomy were clearly visible.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -342,9 +354,10 @@ class EnglishEntryanatomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژمارەیەک لە بەشەکانی جەستەی بەڕوونی دیاربوون",
+                                    "ژمارەیەک لە بەشەکانی جەستەی بەڕوونی دیاربوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -362,9 +375,9 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnatomy9500(// REPLACE: anatomy /əˈnætəmi/
-                                        "en-US"),
+                                onPressed: () => speakAnatomy9500(
+                                    // REPLACE: anatomy /əˈnætəmi/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -376,6 +389,7 @@ class EnglishEntryanatomy extends StatelessWidget {
 ٤. (ناو) لێکۆڵینەوەی ورد لە بابەتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -386,6 +400,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                     "The article explores an anatomy of the current recession's causes.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -400,6 +415,7 @@ class EnglishEntryanatomy extends StatelessWidget {
                                     "وتارەکە لێکۆڵینەوەیەکی وردە لە ھۆکارەکانی ئەم قەیرانەی ئێستا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -417,9 +433,9 @@ class EnglishEntryanatomy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnatomy5582(// REPLACE: anatomy /əˈnætəmi/
-                                        "en-US"),
+                                onPressed: () => speakAnatomy5582(
+                                    // REPLACE: anatomy /əˈnætəmi/
+                                    "en-US"),
                               ),
                             ],
                           ),

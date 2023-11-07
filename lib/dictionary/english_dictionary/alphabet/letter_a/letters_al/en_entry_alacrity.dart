@@ -164,6 +164,7 @@ class EnglishEntryalacrity extends StatelessWidget {
 ١. (ناو) شادی و جۆشوخرۆشی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalacrity extends StatelessWidget {
                                     "They accepted the offer with alacrity.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalacrity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئۆفەرەکەیان بە جۆشوخرۆشییەوە پەسەندکرد",
+                                    "ئۆفەرەکەیان بە جۆشوخرۆشییەوە پەسەندکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

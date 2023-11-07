@@ -163,6 +163,7 @@ class EnglishEntryacuteaccent extends StatelessWidget {
 ١. (ناو) ئاماژەیەک کە لەسەر پیتێکی بزوێن دادەنرێت بۆ پیشاندانی چۆنیەتیی خوێندنەوەی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

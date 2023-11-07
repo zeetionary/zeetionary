@@ -166,6 +166,7 @@ class EnglishEntryaesthetic extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە جوانی ھونەر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryaesthetic extends StatelessWidget {
                                     "The works of art are judged on purely aesthetic grounds.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryaesthetic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کارە ھونەرییەکان تەنھا لە لایەنی ھونەرییەوە بڕیاریان لەسەر دەدرێت",
+                                    "کارە ھونەرییەکان تەنھا لە لایەنی ھونەرییەوە بڕیاریان لەسەر دەدرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -217,6 +220,7 @@ class EnglishEntryaesthetic extends StatelessWidget {
 ٢. (ھاوەڵناو) درووستکراو بەشێوەیەکی ھونەری کە جوانە بۆ سەیرکردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -227,6 +231,7 @@ class EnglishEntryaesthetic extends StatelessWidget {
                                     "Their furniture was more aesthetic than functional.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +240,10 @@ class EnglishEntryaesthetic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شتومەکەکانیان زیاتر بۆ جوانکاری بوو وەک ئەوەی بۆ پێویستی بووبن",
+                                    "شتومەکەکانیان زیاتر بۆ جوانکاری بوو وەک ئەوەی بۆ پێویستی بووبن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -268,6 +274,7 @@ class EnglishEntryaesthetic extends StatelessWidget {
 ٣. (ھاوەڵناو) جوانکاری و بیرۆکەکانی ناو کارێکی ھونەری یان ئەدەبی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -278,6 +285,7 @@ class EnglishEntryaesthetic extends StatelessWidget {
                                     "The students debated the aesthetic of the poems.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -286,9 +294,10 @@ class EnglishEntryaesthetic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خوێندکاران گەنگەشەی لایەنی جوانکاری (ڕەوانبێژی) لە شیعرەکانیان کرد",
+                                    "خوێندکاران گەنگەشەی لایەنی جوانکاری (ڕەوانبێژی) لە شیعرەکانیان کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

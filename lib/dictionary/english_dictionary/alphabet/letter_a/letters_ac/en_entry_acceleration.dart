@@ -157,6 +157,7 @@ class EnglishEntryacceleration extends StatelessWidget {
 ١. (ناو) ڕێژەی زیادبوونی خێرایی شتێک؛ تاودان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryacceleration extends StatelessWidget {
                                     "There has been a rapid acceleration in the growth of industry.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -175,9 +177,10 @@ class EnglishEntryacceleration extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زیادبوونێکی خێرا ڕوویداوە لە گەشەی پیشەسازییەکە",
+                                    "زیادبوونێکی خێرا ڕوویداوە لە گەشەی پیشەسازی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -205,6 +208,7 @@ class EnglishEntryacceleration extends StatelessWidget {
 ٢. (ناو) تاودانی ئۆتۆمبێل''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -215,6 +219,7 @@ class EnglishEntryacceleration extends StatelessWidget {
                                     "a car with good acceleration",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -223,9 +228,10 @@ class EnglishEntryacceleration extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئۆتۆمبێلێک بە تاودانی باشەوە",
+                                    "ئۆتۆمبێلێک بە تاودانی باشەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

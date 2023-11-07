@@ -164,6 +164,7 @@ class EnglishEntryacquisitive extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر ئەزکەر لە شتی تازە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryacquisitive extends StatelessWidget {
                                     "It is an acquisitive company looking for ways to expand.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryacquisitive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کۆمپانیایەکی زۆرخوازە کە بەشوێن ڕێگادا دەگەڕێت بۆ فراوانبوون",
+                                    "کۆمپانیایەکی زۆرخوازە کە بەشوێن ڕێگادا دەگەڕێت بۆ فراوانبوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

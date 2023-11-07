@@ -164,6 +164,7 @@ class EnglishEntryaghast extends StatelessWidget {
 ١. (ھاوەڵناو) تۆقاو و سەرسوڕماو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaghast extends StatelessWidget {
                                     "He stood aghast at the sight of so much blood.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -188,6 +190,7 @@ class EnglishEntryaghast extends StatelessWidget {
                                     "واقوڕماو بوو بە بینینی خوێنێکی زۆر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

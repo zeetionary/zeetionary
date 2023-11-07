@@ -218,6 +218,7 @@ class EnglishEntryantiquity extends StatelessWidget {
 ١. (ناو) سەردەمانی کۆن، بەتایبەتی سەردەمی یۆنان و ڕۆمی کۆن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -228,6 +229,7 @@ class EnglishEntryantiquity extends StatelessWidget {
                                     "The statue was brought to Rome in antiquity.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -239,9 +241,10 @@ class EnglishEntryantiquity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "رستە_رستە_رستە_رستە",
+                                    "رستە_رستە_رستە_رستە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -273,6 +276,7 @@ class EnglishEntryantiquity extends StatelessWidget {
 ٢. (ناو) لە دۆخێکی کۆندا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -283,6 +287,7 @@ class EnglishEntryantiquity extends StatelessWidget {
                                     "Archaeologists found 40 bodies of varying antiquity in the area.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -294,9 +299,10 @@ class EnglishEntryantiquity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شوێنەوارناسان ٤٠ جەستەیان دۆزییەوە لە ناوچەکە کە لە تەمەنی جیاوازدا بوون",
+                                    "شوێنەوارناسان ٤٠ جەستەیان دۆزییەوە لە ناوچەکە کە لە تەمەنی جیاوازدا بوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -328,6 +334,7 @@ class EnglishEntryantiquity extends StatelessWidget {
 ٣. (ناو) پارچە شوێنەوارێکی سەردەمانی کۆن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -338,6 +345,7 @@ class EnglishEntryantiquity extends StatelessWidget {
                                     "Under Greek law, all antiquities that are discovered in Greece belong to the government.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -349,9 +357,10 @@ class EnglishEntryantiquity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەپێی یاسای یۆنان ھەموو ئەو پارچە شوێنەوارانەی لە یۆنان دەدۆزرێنەوە دەگەڕێنەوە بۆ حکومەت",
+                                    "بەپێی یاسای یۆنان ھەموو ئەو پارچە شوێنەوارانەی لە یۆنان دەدۆزرێنەوە دەگەڕێنەوە بۆ حکومەت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

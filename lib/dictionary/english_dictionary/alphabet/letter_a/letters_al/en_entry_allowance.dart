@@ -190,6 +190,7 @@ class EnglishEntryallowance extends StatelessWidget {
 ١. (ناو) بڕە پارەیەک کە بە بەردەوامی دەدرێت بە کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -200,6 +201,7 @@ class EnglishEntryallowance extends StatelessWidget {
                                     "Do you get an allowance for clothing?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -214,6 +216,7 @@ class EnglishEntryallowance extends StatelessWidget {
                                     "پارە وەردەگریت بۆ جلوبەرگ؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -247,6 +250,7 @@ class EnglishEntryallowance extends StatelessWidget {
                                     "The weekly allowance for each child is £15.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -258,9 +262,10 @@ class EnglishEntryallowance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەفتانەی ھەر منداڵێک ١٥ پاوەندە",
+                                    "ھەفتانەی ھەر منداڵێک ١٥ پاوەندە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -291,6 +296,7 @@ class EnglishEntryallowance extends StatelessWidget {
 ٢. (ناو) ڕێژەی ڕێگەپێدراو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -301,6 +307,7 @@ class EnglishEntryallowance extends StatelessWidget {
                                     "The recommended daily allowance of vitamin C is 60–90 milligrams.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -312,9 +319,10 @@ class EnglishEntryallowance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێژەی پێشنیازکراوی ڕۆژانەی ڤیتامین سی ٦٠-٩٠ میلیگرامە",
+                                    "ڕێژەی پێشنیازکراوی ڕۆژانەی ڤیتامین سی ٦٠-٩٠ میلیگرامە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -166,6 +166,7 @@ class EnglishEntryaccident extends StatelessWidget {
 ١. (ناو) ڕووداوێکی ناخۆش، زۆرجار ڕووداوی ھاتوچۆ، کە قوربانی لێدەکەوێتەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryaccident extends StatelessWidget {
                                     "One in seven accidents is caused by sleepy drivers.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryaccident extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە حەوت ڕووداودا یەکێکیان بەھۆی شۆفێری خەوالووەوە ڕوودەدات",
+                                    "لە حەوت ڕووداودا یەکێکیان بەھۆی شۆفێری خەوالووەوە ڕوودەدات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -218,6 +221,7 @@ class EnglishEntryaccident extends StatelessWidget {
                                     "Every year in the United Kingdom more than 4 000 people die in accidents in the home.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -226,9 +230,10 @@ class EnglishEntryaccident extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەموو ساڵێک ٤٠٠٠ کەس لە شانشینی یەکگرتوو دەمرن لە ئەنجامی ئەو ڕووداوانەی لە ماڵەوە ڕوودەدەن",
+                                    "ھەموو ساڵێک ٤٠٠٠ کەس لە شانشینی یەکگرتوو دەمرن لە ئەنجامی ئەو ڕووداوانەی لە ماڵەوە ڕوودەدەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -257,6 +262,7 @@ class EnglishEntryaccident extends StatelessWidget {
 ٢. (ناو) شتێک کە بەشێوەیەکی چاوەڕواننەکراو ڕوودەدات، نەک بەپێی پلانی پێشوەختە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -267,6 +273,7 @@ class EnglishEntryaccident extends StatelessWidget {
                                     "Their early arrival was just an accident.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -275,9 +282,10 @@ class EnglishEntryaccident extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زوو گەیشتنیان تەنھا بە ڕێکەوت بوو",
+                                    "زوو گەیشتنیان تەنھا بە ڕێکەوت بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

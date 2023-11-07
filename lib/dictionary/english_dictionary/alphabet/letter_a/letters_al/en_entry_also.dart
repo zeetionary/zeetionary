@@ -174,6 +174,7 @@ class EnglishEntryalso extends StatelessWidget {
 ١. (ھاوەڵکار) ھەروەھا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -184,6 +185,7 @@ class EnglishEntryalso extends StatelessWidget {
                                     "She's fluent in French and German. She also speaks a little Italian.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -195,9 +197,10 @@ class EnglishEntryalso extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "فەرەنسی و ئەڵمانی بە پاراوی دەزانێت. ھەروەھا کەمێک ئیتالیش دەزانێت",
+                                    "فەرەنسی و ئەڵمانی بە پاراوی دەزانێت. ھەروەھا کەمێک ئیتالیش دەزانێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -231,6 +234,7 @@ class EnglishEntryalso extends StatelessWidget {
                                     "I didn't like it that much. Also, it was much too expensive.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -242,9 +246,10 @@ class EnglishEntryalso extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆرم حەز لێ نەبوو. ھەروەھا زۆریش گران بوو",
+                                    "زۆرم حەز لێ نەبوو. ھەروەھا زۆریش گران بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

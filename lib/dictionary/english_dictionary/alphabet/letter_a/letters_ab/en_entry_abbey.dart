@@ -138,6 +138,7 @@ class EnglishEntryabbey extends StatelessWidget {
 ١. (ناو) کڵێسایەکی گەورە لەگەڵ بینای دیکە لە دەوریدا کە تێیدا ڕەبەنەکان تێیدا دەژین''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -150,6 +151,7 @@ a ruined abbey
                                     ''',
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -163,6 +165,7 @@ a ruined abbey
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

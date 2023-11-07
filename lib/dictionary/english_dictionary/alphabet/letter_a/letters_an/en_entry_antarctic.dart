@@ -213,6 +213,7 @@ class EnglishEntryantarctic extends StatelessWidget {
 ١. (ناو) ھەرێمی خولگەی جەمسەری باشووری زەوی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryantarctic extends StatelessWidget {
                                     "The protection of the Antarctic from commercial exploitation is an important goal of environmentalists.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -237,6 +239,7 @@ class EnglishEntryantarctic extends StatelessWidget {
                                     "پاراستنی خولگەی جەمسەری باشوری زەوی لە بەکارھێنانی بە مەبەستی بازرگانی یەکێکە لە ئامانجە سەرەکییەکانی ژینگەپارێزان ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -268,6 +271,7 @@ class EnglishEntryantarctic extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بە ھەرێمی خولگەی جەمسەری باشووری زەوی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -278,6 +282,7 @@ class EnglishEntryantarctic extends StatelessWidget {
                                     "Scientists went on an Antarctic expedition to study penguins and ice.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -292,6 +297,7 @@ class EnglishEntryantarctic extends StatelessWidget {
                                     "زاناکان دەستیان گە گەڕانێکی خولگەی جەمسەری باشوور کرد بۆ لێکۆڵینەوە لە پەنگوینەکان و سەھۆڵ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -157,6 +157,7 @@ class EnglishEntryable extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی بەھرەمەندی، زانیاری، یان شارەزایی بۆ ئەنجامدانی کارێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryable extends StatelessWidget {
                                     "You must be able to speak French for this job.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -175,9 +177,10 @@ class EnglishEntryable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ ئەم کارە دەبێت بتوانی بە فەڕەنسی قسەبکەیت",
+                                    "بۆ ئەم کارە دەبێت بتوانی بە فەڕەنسی قسەبکەیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -209,6 +212,7 @@ class EnglishEntryable extends StatelessWidget {
                                     "We're still able to get visas to come and go from Thailand.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -217,9 +221,10 @@ class EnglishEntryable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھێشتا دەتوانین ڤیزا وەربگرین بۆ ئەوەی ھاتووچۆی تایلەند بکەین",
+                                    "ھێشتا دەتوانین ڤیزا وەربگرین بۆ ئەوەی ھاتووچۆی تایلەند بکەین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -251,6 +256,7 @@ class EnglishEntryable extends StatelessWidget {
                                     "Are you really willing and able to do what is necessary?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -262,6 +268,7 @@ class EnglishEntryable extends StatelessWidget {
                                     "ئامادەیت و توانات ھەیە ھەرچی بکەیت کە پێویست بێت؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

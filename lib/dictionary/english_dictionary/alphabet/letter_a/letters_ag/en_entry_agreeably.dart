@@ -165,6 +165,7 @@ class EnglishEntryagreeably extends StatelessWidget {
 ١. (ناو) بە ھاوڕایی و بێ کێشە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryagreeably extends StatelessWidget {
                                     "They were agreeably surprised by the quality of the food.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryagreeably extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەموو تێکڕا سەرسام بوون بە کوالێتی خواردنەکە",
+                                    "ھەموو تێکڕا سەرسام بوون بە کوالێتی خواردنەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -222,6 +225,7 @@ class EnglishEntryagreeably extends StatelessWidget {
                                     "The day was agreeably warm after the cool night.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +237,10 @@ class EnglishEntryagreeably extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕۆژەکە خۆش و خۆرەتاو بوو لە دوای ئەو شەوە ساردە",
+                                    "ڕۆژەکە خۆش و خۆرەتاو بوو لە دوای ئەو شەوە ساردە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

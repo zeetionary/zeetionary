@@ -157,6 +157,7 @@ class EnglishEntryabstain extends StatelessWidget {
 ١. (کردار) بێلایەنبوون لە دەنگداندا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryabstain extends StatelessWidget {
                                     "Ten people voted in favour, five against and two abstained.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -175,9 +177,10 @@ class EnglishEntryabstain extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دە کەس بە بەڵێ دەنگیاندا، پێنج بە نەخێر، و دووانیش بێلایەن بوون",
+                                    "دە کەس بە بەڵێ دەنگیاندا، پێنج بە نەخێر، و دووانیش بێلایەن بوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -206,6 +209,7 @@ class EnglishEntryabstain extends StatelessWidget {
 ١. (کردار) خۆبەدوورگرتن لە شتێک کە حەزت لێیە، بەھۆی ئەوەی خراپە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -216,6 +220,7 @@ class EnglishEntryabstain extends StatelessWidget {
                                     "to abstain from alcohol/sex/drugs",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -227,6 +232,7 @@ class EnglishEntryabstain extends StatelessWidget {
                                     "خۆبەدوورگرتن لە کحول/سێکس/مادەی خۆشبەر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

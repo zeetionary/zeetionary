@@ -164,6 +164,7 @@ class EnglishEntryagelimit extends StatelessWidget {
 ١. (ناو) کەمترین یان زۆرترین تەمەن کە کەسێک دەتوانێت شتێک بکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryagelimit extends StatelessWidget {
                                     "The lower age limit for buying cigarettes in the UK is 16.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryagelimit extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەمترین تەمەن بۆ کڕینی جگەرە لە شانشینی یەکگرتوو ١٦ ساڵییە",
+                                    "کەمترین تەمەن بۆ کڕینی جگەرە لە شانشینی یەکگرتوو ١٦ ساڵییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

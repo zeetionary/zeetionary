@@ -236,6 +236,7 @@ class EnglishEntryamiable extends StatelessWidget {
 ١. (ھاوەڵناو) ڕووخۆش و ڕەزاسووک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -246,6 +247,7 @@ class EnglishEntryamiable extends StatelessWidget {
                                     "Her parents seemed very amiable.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -257,9 +259,10 @@ class EnglishEntryamiable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دایک و باوکی ڕووخۆش بوون",
+                                    "دایک و باوکی ڕووخۆش بوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

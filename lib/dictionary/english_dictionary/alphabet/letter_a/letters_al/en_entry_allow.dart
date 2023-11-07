@@ -391,6 +391,7 @@ class EnglishEntryallow extends StatelessWidget {
 ١. (کردار) ڕێگەدان بە ڕوودانی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -401,6 +402,7 @@ class EnglishEntryallow extends StatelessWidget {
                                     "His parents won't allow him to stay out late.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -412,9 +414,10 @@ class EnglishEntryallow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دایک و باوکی ڕێگەی پێ نادەن تا درەنگ لە دەرەوە بمێنێتەوە",
+                                    "دایک و باوکی ڕێگەی پێ نادەن تا درەنگ لە دەرەوە بمێنێتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -448,6 +451,7 @@ class EnglishEntryallow extends StatelessWidget {
                                     "The law allowed companies to dismiss workers without any reason.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -459,9 +463,10 @@ class EnglishEntryallow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یاساکە ڕێگە بە کۆمپانیاکان کرێکاران بەبێ ھیچ ھۆکارێک دەربکەن",
+                                    "یاساکە ڕێگە بە کۆمپانیاکان کرێکاران بەبێ ھیچ ھۆکارێک دەربکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -492,6 +497,7 @@ class EnglishEntryallow extends StatelessWidget {
 ٢. (کردار) ڕێگەدان بە کەسێک شتێکی ھەبێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -502,6 +508,7 @@ class EnglishEntryallow extends StatelessWidget {
                                     "You're allowed an hour to complete the test.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -513,9 +520,10 @@ class EnglishEntryallow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یەک کاتژمێر کاتت ھەیە بۆ وەڵامدانەوەی تاقیکردنەوەکە",
+                                    "یەک کاتژمێر کاتت ھەیە بۆ وەڵامدانەوەی تاقیکردنەوەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -546,6 +554,7 @@ class EnglishEntryallow extends StatelessWidget {
 ٣. (کردار) ڕێگەدان بە کەسێک بچێتە شوێنێک یان جێی بھێڵێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -556,6 +565,7 @@ class EnglishEntryallow extends StatelessWidget {
                                     "They weren't allowed into the country.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -567,9 +577,10 @@ class EnglishEntryallow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێگەیان پێنەدرا بچنە ناو وڵاتەکە",
+                                    "ڕێگەیان پێنەدرا بچنە ناو وڵاتەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -600,6 +611,7 @@ class EnglishEntryallow extends StatelessWidget {
 ٤. (کردار) گونجاندنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -610,6 +622,7 @@ class EnglishEntryallow extends StatelessWidget {
                                     "The system allows people the opportunity to browse a wide selection of books.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -621,9 +634,10 @@ class EnglishEntryallow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سیستەمەکە ھەلی ئەوە دەگونجێنێت کە خەڵکی لەناو ژمارەیەکی زۆر جیاوازی پەرتووکدا بگەڕێن",
+                                    "سیستەمەکە ھەلی ئەوە دەگونجێنێت کە خەڵکی لەناو ژمارەیەکی زۆر جیاوازی پەرتووکدا بگەڕێن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -654,6 +668,7 @@ class EnglishEntryallow extends StatelessWidget {
 ٥. (کردار) پەسەندکردن یان داننان بە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -664,6 +679,7 @@ class EnglishEntryallow extends StatelessWidget {
                                     "She was very helpful when my mother was ill—I'll allow you that.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -675,9 +691,10 @@ class EnglishEntryallow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر یارمەتیدەر بوو کە دایکم نەخۆش بوو، دان بەوەدا دەنێم",
+                                    "زۆر یارمەتیدەر بوو کە دایکم نەخۆش بوو، دان بەوەدا دەنێم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

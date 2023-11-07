@@ -164,6 +164,7 @@ class EnglishEntryalkali extends StatelessWidget {
 ١. (ناو) مادەیەکی کیمیایی کە لەگەڵ ترشەڵۆک کارلێک دەکات بۆ درووستکردنی خوێ و ڕەنووسی ھایدرۆجینی بەرزتر دەبێت لە حەوت کە لە ئاودا دەتوێتەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalkali extends StatelessWidget {
                                     "When an acid and an alkali react together the result is a salt and water.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalkali extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کاتێک ترش و تفت کارلێک دەکەن خوێ و ئاو درووست دەکەن",
+                                    "کاتێک ترش و تفت کارلێک دەکەن خوێ و ئاو درووست دەکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

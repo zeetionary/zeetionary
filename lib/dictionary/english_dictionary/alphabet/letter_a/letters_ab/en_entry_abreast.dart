@@ -148,6 +148,7 @@ class EnglishEntryabreast extends StatelessWidget {
 ١. (ھاوەڵکار) شانبەشان ڕێکردن لەگەڵ کەسێک بە ھەمان ئاراستە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryabreast extends StatelessWidget {
                                     "A police car drove abreast of us and signalled us to stop.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryabreast extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەیارەیەکی پۆلیس شانبەشانمان ڕۆشت و ئاماژەی بۆ کردین بوەستین",
+                                    "سەیارەیەکی پۆلیس شانبەشانمان ڕۆشت و ئاماژەی بۆ کردین بوەستین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

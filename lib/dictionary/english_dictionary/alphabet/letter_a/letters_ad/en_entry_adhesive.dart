@@ -165,6 +165,7 @@ class EnglishEntryadhesive extends StatelessWidget {
 ١. (ناو) مادەیەک کە دەلکێت بە شتەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                                     "The adhesive takes at least an hour to set.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryadhesive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەزگەکە نزیکەی یەک کاتژمێری دەوێت تاوەکو شوێنی خۆی بگرێت",
+                                    "لەزگەکە نزیکەی یەک کاتژمێری دەوێت تاوەکو شوێنی خۆی بگرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryadhesive extends StatelessWidget {
 ٢. (ھاوەڵناو) ھەبوونی خاسیەتی لکان بە شتەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +230,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                                     "The labels are easy to apply and very adhesive.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +239,10 @@ class EnglishEntryadhesive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نووسراوەکان بە ئاسانی لێدەدرێن و باش دەنووسێن پێوە",
+                                    "نووسراوەکان بە ئاسانی لێدەدرێن و باش دەنووسێن پێوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryaftereffect extends StatelessWidget {
 ١. (ناو) کاریگەری دەرمانێک یان ڕووداوێک کە دواتر دەردەکەوێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaftereffect extends StatelessWidget {
                                     "Headaches are an aftereffect of this sort of accident.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryaftereffect extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەرئێشە دەرئەنجامی ئەم جۆرە ڕووداوانەیە",
+                                    "سەرئێشە دەرئەنجامی ئەم جۆرە ڕووداوانەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

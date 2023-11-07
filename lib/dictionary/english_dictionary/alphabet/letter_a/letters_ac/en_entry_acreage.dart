@@ -164,6 +164,7 @@ class EnglishEntryacreage extends StatelessWidget {
 ١. (ناو) پارچە زەوییەک کە بە گاوەخان پێوراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryacreage extends StatelessWidget {
                                     "The aim is to double the forestry acreage by the end of the decade.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryacreage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئامانجەکە ئەوەیە ڕووبەری دارستانەکە دوو ھێندە بکرێت تا کۆتایی ئەم دەیەیە",
+                                    "ئامانجەکە ئەوەیە ڕووبەری دارستانەکە دوو ھێندە بکرێت تا کۆتایی ئەم دەیەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

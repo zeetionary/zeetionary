@@ -141,6 +141,7 @@ class EnglishEntryaboundwith extends StatelessWidget {
 ١. (کرداری لێکدراو) کاتێک شتێک ڕێژەیەکی زۆر لە شتێکی تێدایە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -151,6 +152,7 @@ class EnglishEntryaboundwith extends StatelessWidget {
                                     "The lakes abound with fish.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -159,9 +161,10 @@ class EnglishEntryaboundwith extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەریاچەکە پڕە لە ماسی",
+                                    "دەریاچەکە پڕە لە ماسی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

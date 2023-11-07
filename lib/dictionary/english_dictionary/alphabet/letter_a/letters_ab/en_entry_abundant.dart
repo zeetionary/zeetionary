@@ -157,6 +157,7 @@ class EnglishEntryabundant extends StatelessWidget {
 ١. (ھاوەڵناو) کاتێک شتێک ئێجگار زۆرە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryabundant extends StatelessWidget {
                                     "Fish are abundant in the lake.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -175,9 +177,10 @@ class EnglishEntryabundant extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ماسی ئێجگار زۆرە لە دەریاچەکە",
+                                    "ماسی ئێجگار زۆرە لە دەریاچەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -209,6 +212,7 @@ class EnglishEntryabundant extends StatelessWidget {
                                     "We have abundant evidence to prove his guilt..",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -217,9 +221,10 @@ class EnglishEntryabundant extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەڵگەی زۆرمان ھەیە بۆ سەلماندنی تاوانەکەی",
+                                    "بەڵگەی زۆرمان ھەیە بۆ سەلماندنی تاوانەکەی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

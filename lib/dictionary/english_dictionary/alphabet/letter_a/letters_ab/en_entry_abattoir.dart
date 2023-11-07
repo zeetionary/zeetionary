@@ -139,6 +139,7 @@ class EnglishEntryAbattoir extends StatelessWidget {
 ١. (ناو) پشوێنێک کە ئاژەڵان تێیدا دەکوژرێن بە مەبەستی فرۆشتنی گۆشتەکەیان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -149,6 +150,7 @@ class EnglishEntryAbattoir extends StatelessWidget {
                                     "Some people prefer to purchase meat directly from the abattoir to ensure its freshness and origin.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -157,9 +159,10 @@ class EnglishEntryAbattoir extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەندێک کەس پێیان باشترە کە گۆشت ڕاستەوخۆ لە قەسابخانەکە بکڕن بۆ ئەوەی لە پاکی و سەرچاوەکەی دڵنیابن",
+                                    "ھەندێک کەس پێیان باشترە کە گۆشت ڕاستەوخۆ لە قەسابخانەکە بکڕن بۆ ئەوەی لە پاکی و سەرچاوەکەی دڵنیابن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

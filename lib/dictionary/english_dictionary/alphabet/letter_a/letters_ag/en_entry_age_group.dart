@@ -164,6 +164,7 @@ class EnglishEntryagegroup extends StatelessWidget {
 ١. (ناو) کۆمەڵە کەسێکی ھاوتەمەن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryagegroup extends StatelessWidget {
                                     "People in the younger age groups tended to vote less.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryagegroup extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو کەسانەی تەمەنیان گەنج بوو کەمتر دەنگیان دا",
+                                    "ئەو کەسانەی تەمەنیان گەنج بوو کەمتر دەنگیان دا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

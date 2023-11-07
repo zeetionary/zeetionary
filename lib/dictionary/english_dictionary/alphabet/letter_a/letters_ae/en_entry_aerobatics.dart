@@ -164,6 +164,7 @@ class EnglishEntryaerobatics extends StatelessWidget {
 ١. (ناو) ئەنجامدانی جوڵەی سەرکێشی بە فڕۆکە لە ئاسماندا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaerobatics extends StatelessWidget {
                                     "The crowd was entertained with a display of aerobatics.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryaerobatics extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جەماوەرەکە دڵخۆشبوون بە نمایشی فڕۆکەکان",
+                                    "جەماوەرەکە دڵخۆشبوون بە نمایشی فڕۆکەکان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

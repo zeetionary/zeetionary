@@ -162,6 +162,7 @@ class EnglishEntryactivist extends StatelessWidget {
 ١. (ناو) کەسێک کە کاردەکات بۆ گۆڕانی سیاسی یان کۆمەڵایەتی، بەتایبەت وەک ئەندامی ڕێکخراوێک کە ئامانجی دیاریکراوی ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryactivist extends StatelessWidget {
                                     "Thousands of environmental activists joined the march to demand action on climate change.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,6 +185,7 @@ class EnglishEntryactivist extends StatelessWidget {
                                     "ھەزاران چالاکوانی ژینگەیی بەژداربوون لە ڕێپێوانێک بۆ داوای ھەنگاونان دژ بە گۆڕانی کەشوھەوا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

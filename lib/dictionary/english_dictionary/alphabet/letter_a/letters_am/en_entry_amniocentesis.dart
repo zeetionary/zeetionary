@@ -234,6 +234,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
 ١. (ھاوەڵناو) ئەمنیۆسێنتێسیس؛ تاقی‌کردنەوەیەکی پزیشکی بۆ ژنانی سکپڕ، بەمەبەستی دیاریکردنی بوونی نەخۆشییەکی تایبەتی یا کێشەیەکی تەندرووستی لە ئاوەڵمەدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -244,6 +245,7 @@ class EnglishEntryamniocentesis extends StatelessWidget {
                                     "Pregnant women over the age of 35 will be offered (an) amniocentesis.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -255,9 +257,10 @@ class EnglishEntryamniocentesis extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژنانی سکپڕی سەروو ٣٥ ساڵان ئەمنیۆسێنتێسیسیان بۆ دەکرێت",
+                                    "ژنانی سکپڕی سەروو ٣٥ ساڵان ئەمنیۆسێنتێسیسیان بۆ دەکرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

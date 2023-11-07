@@ -139,6 +139,7 @@ class EnglishEntryabdication extends StatelessWidget {
 ١. (ناو) کرداری وازھێنان لە پۆستی پاشایی یان شاژنی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -149,6 +150,7 @@ class EnglishEntryabdication extends StatelessWidget {
                                     "the chain of events leading to the king's abdication",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -157,9 +159,10 @@ class EnglishEntryabdication extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو زنجیرە ڕووداوانەی کە دەرەنجامەکەی وازھێنانی پاشا بوو",
+                                    "ئەو زنجیرە ڕووداوانەی کە دەرەنجامەکەی وازھێنانی پاشا بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

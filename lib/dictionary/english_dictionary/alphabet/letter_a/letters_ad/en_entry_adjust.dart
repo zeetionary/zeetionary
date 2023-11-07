@@ -173,6 +173,7 @@ class EnglishEntryadjust extends StatelessWidget {
 ١. (کردار) گۆڕینی شتێک بە کەمی بۆ ئەوەی لەگەڵ بارودۆخێکی تازە بگونجێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -183,6 +184,7 @@ class EnglishEntryadjust extends StatelessWidget {
                                     "This button is for adjusting the volume.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -191,9 +193,10 @@ class EnglishEntryadjust extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم دووگمە بۆ ڕێکخستنی دەنگەکەیە",
+                                    "ئەم دووگمە بۆ ڕێکخستنی دەنگەکەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -227,6 +230,7 @@ class EnglishEntryadjust extends StatelessWidget {
                                     "The brakes need to be adjusted.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +239,10 @@ class EnglishEntryadjust extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وەستێنەرەکان دەبێت ڕێکبخرێن",
+                                    "وەستێنەرەکان دەبێت ڕێکبخرێن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -268,6 +273,7 @@ class EnglishEntryadjust extends StatelessWidget {
 ٢. (کردار) خۆڕاھێنان بە بارودۆخێکی تازە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -278,6 +284,7 @@ class EnglishEntryadjust extends StatelessWidget {
                                     "It took her a while to adjust to living alone.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -286,9 +293,10 @@ class EnglishEntryadjust extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ماوەیەکی پێچوو تا ڕابێت بە تەنھایی ژیان",
+                                    "ماوەیەکی پێچوو تا ڕابێت بە تەنھایی ژیان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -319,6 +327,7 @@ class EnglishEntryadjust extends StatelessWidget {
 ٣. (کردار) کردنی گۆڕانێک لە شتێکدا بۆ ئەوەی باشتر یان ڕێکتر دەربکەوێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -329,6 +338,7 @@ class EnglishEntryadjust extends StatelessWidget {
                                     "He smoothed his hair and adjusted his tie.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -337,9 +347,10 @@ class EnglishEntryadjust extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "قژی سافکرد و بۆینباخەکەی ڕێکخست",
+                                    "قژی سافکرد و بۆینباخەکەی ڕێکخست.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -165,6 +165,7 @@ class EnglishEntryadequate extends StatelessWidget {
 ١. (ھاوەڵناو) بە پێی پێویست باش یان زۆر بۆ مەبەستێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryadequate extends StatelessWidget {
                                     "The room was small but adequate.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryadequate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژوورەکە بچووک بوو، بەڵام بەشمانی دەکرد",
+                                    "ژوورەکە بچووک بوو، بەڵام بەشمانی دەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryadequate extends StatelessWidget {
                                     "He didn't give an adequate answer to the question.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -227,9 +231,10 @@ class EnglishEntryadequate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وەڵامێکی تەواوی پرسیارەکەی نەداوە",
+                                    "وەڵامێکی تەواوی پرسیارەکەی نەداوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

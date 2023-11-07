@@ -217,6 +217,7 @@ class EnglishEntryantique extends StatelessWidget {
 ١. (ناو) شتی کۆن و گران‌بەھا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -227,6 +228,7 @@ class EnglishEntryantique extends StatelessWidget {
                                     "Priceless antiques were destroyed in the fire.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -238,9 +240,10 @@ class EnglishEntryantique extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پارچە ئەنتیکی گران‌بەھا لە ئاگرەکەدا لەناوچوون",
+                                    "پارچە ئەنتیکی گران‌بەھا لە ئاگرەکەدا لەناوچوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -272,6 +275,7 @@ class EnglishEntryantique extends StatelessWidget {
 ٢. (ھاوەڵناو) کۆن و گران‌بەھا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -282,6 +286,7 @@ class EnglishEntryantique extends StatelessWidget {
                                     "Some antique jewelry sparkles and shines.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -293,9 +298,10 @@ class EnglishEntryantique extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەندێک خشڵی ئەنتیکە ھێشتا بریسکە و درەوشانەوەیان ھەیە",
+                                    "ھەندێک خشڵی ئەنتیکە ھێشتا بریسکە و درەوشانەوەیان ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

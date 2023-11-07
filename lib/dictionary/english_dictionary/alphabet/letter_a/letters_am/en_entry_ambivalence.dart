@@ -164,6 +164,7 @@ class EnglishEntryambivalence extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی دوودڵی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryambivalence extends StatelessWidget {
                                     "I've never lied about my feelings, including my ambivalence about getting married again.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryambivalence extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەرگیز درۆم سەبارەت بە ھەستەکانم نەکردووە، لەنێوانیاندا دوودڵیم سەبارەت بە دووبارە ھاوسەرگیری کردن",
+                                    "ھەرگیز درۆم سەبارەت بە ھەستەکانم نەکردووە، لەنێوانیاندا دوودڵیم سەبارەت بە دووبارە ھاوسەرگیری کردن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

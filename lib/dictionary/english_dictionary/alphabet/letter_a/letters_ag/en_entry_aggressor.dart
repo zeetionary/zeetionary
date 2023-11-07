@@ -164,6 +164,7 @@ class EnglishEntryaggressor extends StatelessWidget {
 ١. (ناو) کەسێک یان وڵاتێک کە سەرەتا ھێرش دەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaggressor extends StatelessWidget {
                                     "They are seen as the aggressors in the civil war.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryaggressor extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وەک دەساوێژ دەبینرێن لە شەڕە ناوخۆییەکە",
+                                    "وەک دەساوێژ دەبینرێن لە شەڕە ناوخۆییەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

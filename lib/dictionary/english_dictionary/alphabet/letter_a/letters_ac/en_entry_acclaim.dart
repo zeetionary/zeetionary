@@ -157,6 +157,7 @@ class EnglishEntryacclaim extends StatelessWidget {
 ١. (کردار) بەرزنرخاندنی شتێک بەشێوەیەکی گشتی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryacclaim extends StatelessWidget {
                                     "This book has been widely acclaimed as a modern classic.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -175,9 +177,10 @@ class EnglishEntryacclaim extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم کتێبە بەشێوەیەکی بەرفراوان پەسندراوە وەک کتێبێکی کلاسیکی سەردەم",
+                                    "ئەم کتێبە بەشێوەیەکی بەرفراوان پەسندراوە وەک کتێبێکی کلاسیکی سەردەم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -206,6 +209,7 @@ class EnglishEntryacclaim extends StatelessWidget {
 ٢. (ناو) ستایش و مەحتکردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -216,6 +220,7 @@ class EnglishEntryacclaim extends StatelessWidget {
                                     "His discoveries earned him wide acclaim.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -224,9 +229,10 @@ class EnglishEntryacclaim extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دۆزینەوەکانی ستایشی بەرفراوانیان بەدوای خۆیاندا ھێنا",
+                                    "دۆزینەوەکانی ستایشی بەرفراوانیان بەدوای خۆیاندا ھێنا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

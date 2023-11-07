@@ -212,6 +212,7 @@ class EnglishEntryanemone extends StatelessWidget {
 ١. (ناو) ڕووەکێک کە گوڵی سوور و سپی و شین و مۆریان ھەیە، شێوەیان وەک پیاڵەیە و ناوەڕاستیان ڕەشە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryanemone extends StatelessWidget {
                                     "We saw wild anemones in the woods.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryanemone extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گوڵاڵەی دەشتیمان بینی لە دارستانەکان",
+                                    "گوڵاڵەی دەشتیمان بینی لە دارستانەکان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -25,7 +25,8 @@ class EnglishEntryanalogous extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Sleep has often been thought of as being in some way analogous to death."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Sleep has often been thought of as being in some way analogous to death."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnalogous8401(String languageCode) async {
@@ -33,7 +34,8 @@ class EnglishEntryanalogous extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The two situations are roughly analogous."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The two situations are roughly analogous."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnalogous(String languageCode) async {
@@ -135,9 +137,9 @@ class EnglishEntryanalogous extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAnalogous(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAnalogous(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -211,6 +213,7 @@ class EnglishEntryanalogous extends StatelessWidget {
 ١. (ھاوەڵناو) لێکچوو لەگەڵ شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +224,7 @@ class EnglishEntryanalogous extends StatelessWidget {
                                     "Sleep has often been thought of as being in some way analogous to death.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +236,10 @@ class EnglishEntryanalogous extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خەوتن زۆرجار بەجۆرێک لە جۆرەکان بە مردن چوێندراوە",
+                                    "خەوتن زۆرجار بەجۆرێک لە جۆرەکان بە مردن چوێندراوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -252,9 +257,9 @@ class EnglishEntryanalogous extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnalogous852401(// REPLACE: analogous /əˈnæləɡəs/
-                                        "en-US"),
+                                onPressed: () => speakAnalogous852401(
+                                    // REPLACE: analogous /əˈnæləɡəs/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -269,6 +274,7 @@ class EnglishEntryanalogous extends StatelessWidget {
                                     "The two situations are roughly analogous.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -280,9 +286,10 @@ class EnglishEntryanalogous extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەردوو بارودۆخەکە تاڕادەیەک لێکچوون",
+                                    "ھەردوو بارودۆخەکە تاڕادەیەک لێکچوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -300,9 +307,9 @@ class EnglishEntryanalogous extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnalogous8401(// REPLACE: analogous /əˈnæləɡəs/
-                                        "en-US"),
+                                onPressed: () => speakAnalogous8401(
+                                    // REPLACE: analogous /əˈnæləɡəs/
+                                    "en-US"),
                               ),
                             ],
                           ),

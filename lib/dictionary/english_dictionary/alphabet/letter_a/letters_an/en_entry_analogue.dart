@@ -25,7 +25,8 @@ class EnglishEntryanalogue extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("This is the standard method used to convert analogue signals to digital."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This is the standard method used to convert analogue signals to digital."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnalogue79005(String languageCode) async {
@@ -33,7 +34,8 @@ class EnglishEntryanalogue extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She still uses an old-fashioned analogue alarm clock."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She still uses an old-fashioned analogue alarm clock."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnalogue8506(String languageCode) async {
@@ -41,7 +43,8 @@ class EnglishEntryanalogue extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Scientists are attempting to compare features of extinct animals with living analogues."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Scientists are attempting to compare features of extinct animals with living analogues."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnalogue(String languageCode) async {
@@ -211,6 +214,7 @@ class EnglishEntryanalogue extends StatelessWidget {
 ١. (ھاوەڵناو) ئامێرێکی ئەلیکترۆنی کە مەودایەکی بەردەوام گۆڕاوی بڕی فیزیایی بەکاردێنێت بۆ پێوان و کۆگاکردنی زانیاری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +225,7 @@ class EnglishEntryanalogue extends StatelessWidget {
                                     "This is the standard method used to convert analogue signals to digital.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,6 +240,7 @@ class EnglishEntryanalogue extends StatelessWidget {
                                     "ئەمە ڕێگای ستانداردە بۆ گۆڕینی شەپۆلی ئەنالۆگ بۆ دیجیتاڵ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -252,9 +258,9 @@ class EnglishEntryanalogue extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnalogue85096(// REPLACE: analogue /ˈænəlɔːɡ/
-                                        "en-US"),
+                                onPressed: () => speakAnalogue85096(
+                                    // REPLACE: analogue /ˈænəlɔːɡ/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -266,6 +272,7 @@ class EnglishEntryanalogue extends StatelessWidget {
 ٢. (ھاوەڵناو) کاتژمێرێک کە میلی ھەیە وەک ئەوەی ژمارەکان پیشان‌بدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -276,6 +283,7 @@ class EnglishEntryanalogue extends StatelessWidget {
                                     "She still uses an old-fashioned analogue alarm clock.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -287,9 +295,10 @@ class EnglishEntryanalogue extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھێشتا کاتژمێرێکی ئەنالۆگی کۆنەباو وەک چاڵمە بەکاردێنێت",
+                                    "ھێشتا کاتژمێرێکی ئەنالۆگی کۆنەباو وەک چاڵمە بەکاردێنێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -307,9 +316,9 @@ class EnglishEntryanalogue extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnalogue79005(// REPLACE: analogue /ˈænəlɔːɡ/
-                                        "en-US"),
+                                onPressed: () => speakAnalogue79005(
+                                    // REPLACE: analogue /ˈænəlɔːɡ/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -321,6 +330,7 @@ class EnglishEntryanalogue extends StatelessWidget {
 ٣. (ناو) شتێک کە ھاوشێوەی شتێکی ترە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -331,6 +341,7 @@ class EnglishEntryanalogue extends StatelessWidget {
                                     "Scientists are attempting to compare features of extinct animals with living analogues.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -342,9 +353,10 @@ class EnglishEntryanalogue extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زاناکان ھەوڵ‌دەدەن خاسیەتەکانی ئاژەڵە لەناوچووەکان بەراورد بکەن بە لێکچووە زیندووەکانیان",
+                                    "زاناکان ھەوڵ‌دەدەن خاسیەتەکانی ئاژەڵە لەناوچووەکان بەراورد بکەن بە لێکچووە زیندووەکانیان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -362,9 +374,9 @@ class EnglishEntryanalogue extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnalogue8506(// REPLACE: analogue /ˈænəlɔːɡ/
-                                        "en-US"),
+                                onPressed: () => speakAnalogue8506(
+                                    // REPLACE: analogue /ˈænəlɔːɡ/
+                                    "en-US"),
                               ),
                             ],
                           ),

@@ -164,6 +164,7 @@ class EnglishEntryaffix extends StatelessWidget {
 ١. (کردار) لکاندنی شتێک بە شتێکەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaffix extends StatelessWidget {
                                     "The sticker must be affixed to your windshield.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryaffix extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ستیکەرەکە ئەبێت بلکێنرێت بە جامی ئۆتۆمبێلەکەوە",
+                                    "ستیکەرەکە ئەبێت بلکێنرێت بە جامی ئۆتۆمبێلەکەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -215,6 +218,7 @@ class EnglishEntryaffix extends StatelessWidget {
 ٢. (ناو) پێشگر و پاشگر لە ڕێزماندا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

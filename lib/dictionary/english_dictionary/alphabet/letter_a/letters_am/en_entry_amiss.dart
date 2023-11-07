@@ -237,6 +237,7 @@ class EnglishEntryamiss extends StatelessWidget {
 ١. (ھاوەڵناو) ھەڵە، نامۆ؛ جیاواز لە ئاسایی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -247,6 +248,7 @@ class EnglishEntryamiss extends StatelessWidget {
                                     "She sensed something was amiss and called the police.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -258,9 +260,10 @@ class EnglishEntryamiss extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەستیان‌کرد شتێک گوماناوییە و پەیوەندییان بە پۆلیسەوە کرد",
+                                    "ھەستیان‌کرد شتێک گوماناوییە و پەیوەندییان بە پۆلیسەوە کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -294,6 +297,7 @@ class EnglishEntryamiss extends StatelessWidget {
                                     "He shone a light inside and saw nothing amiss.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -305,9 +309,10 @@ class EnglishEntryamiss extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لایتێکی بۆ ژوورەوە لێدا و ھیچی نائاسایی نەدی",
+                                    "لایتێکی بۆ ژوورەوە لێدا و ھیچی نائاسایی نەدی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

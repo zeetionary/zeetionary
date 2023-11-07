@@ -175,6 +175,7 @@ class EnglishEntryacceptance extends StatelessWidget {
 ١. (ناو) کرداری پەسەندکردنی دیارییەک، میواندارییەک، یان پێشنیارێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -185,6 +186,7 @@ class EnglishEntryacceptance extends StatelessWidget {
                                     "So far we have had one refusal and three acceptances.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -193,9 +195,10 @@ class EnglishEntryacceptance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تاوەکو ئێستا یەک ڕەتکردنەوە و سێ پەسەندکردنمان ھەبووە",
+                                    "تاوەکو ئێستا یەک ڕەتکردنەوە و سێ پەسەندکردنمان ھەبووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -227,6 +230,7 @@ class EnglishEntryacceptance extends StatelessWidget {
                                     "Please confirm your acceptance of this offer in writing.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +239,10 @@ class EnglishEntryacceptance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تکایە بە نووسراو دڵنیایی بکەوە کە ئەم پێشنیازە پەسەند دەکەیت",
+                                    "تکایە بە نووسراو دڵنیایی بکەوە کە ئەم پێشنیازە پەسەند دەکەیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -266,6 +271,7 @@ class EnglishEntryacceptance extends StatelessWidget {
 ٢. (ناو) ڕازیبوون بە شتێک و پەسەندکردنی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -276,6 +282,7 @@ class EnglishEntryacceptance extends StatelessWidget {
                                     "The new laws have gained widespread acceptance.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -284,9 +291,10 @@ class EnglishEntryacceptance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یاسا نوێیەکان بە فراوانی پەسەندکراون",
+                                    "یاسا نوێیەکان بە فراوانی پەسەندکراون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -318,6 +326,7 @@ class EnglishEntryacceptance extends StatelessWidget {
                                     "The idea was slow to gain general acceptance.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -329,6 +338,7 @@ class EnglishEntryacceptance extends StatelessWidget {
                                     "بیرۆکەکە بەھێواشی لەلایەن ڕای گشتییەوە پەسەنددەکرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -357,6 +367,7 @@ class EnglishEntryacceptance extends StatelessWidget {
 ٣. (ناو) پڕۆسەی ڕێگەدان بە کەسێک کە پەیوەندی بکات بە گرووپێکەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -367,6 +378,7 @@ class EnglishEntryacceptance extends StatelessWidget {
                                     "Your acceptance into the union is guaranteed.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -375,9 +387,10 @@ class EnglishEntryacceptance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێگەدانپێتان بۆ چوونە ناو یەکێتییەکە دەستەبەرە",
+                                    "ڕێگەدانپێتان بۆ چوونە ناو یەکێتییەکە دەستەبەرە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -213,6 +213,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
 ١. (ھاوەڵناو، ھاوەڵکار) پێچەوانەی سووڕانی میلەکانی سەعات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                                     "'How do I get the top off this bottle?'' 'Push it down and twist it anticlockwise.'",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -237,6 +239,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                                     "«چۆن سەری ئەم بوتڵە بکەمەوە؟» «پاڵی‌بنە خوار و بە پێچەوانەی میلی کاتژمێر بیسووڕێنە»",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -271,6 +274,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                                     "Turn the key anticlockwise/in an anticlockwise direction.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -285,6 +289,7 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                                     "کلیلەکە بە ئاراستەی پێچيوانەی میلی کاتژمێر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

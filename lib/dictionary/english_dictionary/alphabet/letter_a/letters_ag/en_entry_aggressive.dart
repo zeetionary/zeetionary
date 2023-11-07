@@ -175,6 +175,7 @@ class EnglishEntryaggressive extends StatelessWidget {
 ١. (ھاوەڵناو) تووڕە و شەڕەنگێز''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -185,6 +186,7 @@ class EnglishEntryaggressive extends StatelessWidget {
                                     "He became increasingly aggressive as the evening wore on.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -196,9 +198,10 @@ class EnglishEntryaggressive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کە شەوەکە زیاتر تێپەڕی زیاتر شەڕەنخواز بوو",
+                                    "کە شەوەکە زیاتر تێپەڕی زیاتر شەڕەنخواز بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -229,6 +232,7 @@ class EnglishEntryaggressive extends StatelessWidget {
 ٢. (ھاوەڵناو) سەرسەخت لەسەر سەرکەوتن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -239,6 +243,7 @@ class EnglishEntryaggressive extends StatelessWidget {
                                     "We need to get more aggressive in fighting terrorism.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -253,6 +258,7 @@ class EnglishEntryaggressive extends StatelessWidget {
                                     "پێویستە سەرسەختتر بین لە شەڕی دژ بە تیرۆر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -283,6 +289,7 @@ class EnglishEntryaggressive extends StatelessWidget {
 ٣. (ھاوەڵناو) نەخۆشییەک کە بەخێرایی پەرەدەسێنێت و چارەسەری سەختە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -293,6 +300,7 @@ class EnglishEntryaggressive extends StatelessWidget {
                                     "Doctors diagnosed her with a rare and aggressive cancer, which was feared to be incurable.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -304,9 +312,10 @@ class EnglishEntryaggressive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دکتۆرەکان نەخۆشییەکەیان دەستنیشانکرد بە جۆرێکی سەختی شێرپەنجە کە ترس ھەیە چارەسەری نەبێت",
+                                    "دکتۆرەکان نەخۆشییەکەیان دەستنیشانکرد بە جۆرێکی سەختی شێرپەنجە کە ترس ھەیە چارەسەری نەبێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -337,6 +346,7 @@ class EnglishEntryaggressive extends StatelessWidget {
 ٤. (ھاوەڵناو) چارەسەرێکی نۆخۆشی کە ئامانج لێی ئەوەیە زۆرترین ماوە بەردەوامی بە کەسێک بدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -347,6 +357,7 @@ class EnglishEntryaggressive extends StatelessWidget {
                                     "Nicholas was diagnosed with the rare disease in November and has undergone aggressive treatments since then.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -358,9 +369,10 @@ class EnglishEntryaggressive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نەخۆشییەکەی نیکۆلاس لە تشرینی دووەم بە یەکێکی دەگمەن دەستنیشانکرا و لەو کاتەوە ھەموو چارەسەرێکی وەرگرتووە",
+                                    "نەخۆشییەکەی نیکۆلاس لە تشرینی دووەم بە یەکێکی دەگمەن دەستنیشانکرا و لەو کاتەوە ھەموو چارەسەرێکی وەرگرتووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

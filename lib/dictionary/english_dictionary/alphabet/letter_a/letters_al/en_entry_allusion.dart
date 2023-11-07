@@ -164,6 +164,7 @@ class EnglishEntryallusion extends StatelessWidget {
 ١. (ناو) شتێک کە بە شێوەی ناڕاستەوخۆ باسی کەسێک یان شتێک دەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryallusion extends StatelessWidget {
                                     "His statement was seen as an allusion to the recent drug-related killings.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryallusion extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وتەکەی وابینرا کە ئاماژەیەک بێت بۆ ئەو کوشتنانەی ئەم ماوە کە پەیوەندیدار بە مادەی ھۆشبەر بوون",
+                                    "وتەکەی وابینرا کە ئاماژەیەک بێت بۆ ئەو کوشتنانەی ئەم ماوە کە پەیوەندیدار بە مادەی ھۆشبەر بوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

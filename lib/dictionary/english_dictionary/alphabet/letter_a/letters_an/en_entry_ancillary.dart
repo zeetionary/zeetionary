@@ -213,6 +213,7 @@ class EnglishEntryancillary extends StatelessWidget {
 ١. (ھاوەڵناو) پێدانی یارمەتی پێویست بە کار و چالاکییەکانی ڕێکخراوێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryancillary extends StatelessWidget {
                                     "Ancillary workers support the hospital staff in various non-medical roles.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryancillary extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کارمەندە ئاریکارەکان یارمەتی ستافی نەخۆشخانەکە دەدەن لە ژمارەیەک لایەنی نا-تەندرووستییەوە",
+                                    "کارمەندە ئاریکارەکان یارمەتی ستافی نەخۆشخانەکە دەدەن لە ژمارەیەک لایەنی نا-تەندرووستییەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -268,6 +271,7 @@ class EnglishEntryancillary extends StatelessWidget {
 ٢. (ھاوەڵناو) لەگەڵ شتێکی تر کە زیاتر گرنگە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -278,6 +282,7 @@ class EnglishEntryancillary extends StatelessWidget {
                                     "Ancillary rights are often included in entertainment industry contracts for creators.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -289,9 +294,10 @@ class EnglishEntryancillary extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مافە لاوەکییەکان زۆرجار لە گرێبەستەکانی پیشەسازی فیلم و میوزیک ھەن بۆ بەرھەمھێنەران",
+                                    "مافە لاوەکییەکان زۆرجار لە گرێبەستەکانی پیشەسازی فیلم و میوزیک ھەن بۆ بەرھەمھێنەران.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

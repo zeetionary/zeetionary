@@ -148,6 +148,7 @@ class EnglishEntryaccountable extends StatelessWidget {
 ١. (ھاوەڵناو) دانانی کەسێک بە بەرپرس بۆ قسە و کردارەکانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryaccountable extends StatelessWidget {
                                     "Someone must be held accountable for the killings.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryaccountable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەسێک دەبێت بە بەرپرسیار دابنرێت بۆ کووشتنەکان",
+                                    "کەسێک دەبێت بە بەرپرسیار دابنرێت بۆ کووشتنەکان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

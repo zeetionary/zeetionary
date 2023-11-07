@@ -212,6 +212,7 @@ class EnglishEntryamplifier extends StatelessWidget {
 ١. (ناو) پارچەیەکی ئەلیکترۆنی کە دەنگ بەرزدەکاتەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryamplifier extends StatelessWidget {
                                     "Have you connected the speakers to the amplifier?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -236,6 +238,7 @@ class EnglishEntryamplifier extends StatelessWidget {
                                     "بڵیندگۆکانت پەیوەست‌کردووە بە دەنگپێدەرەکەوە؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

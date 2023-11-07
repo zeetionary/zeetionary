@@ -157,6 +157,7 @@ class EnglishEntryabrupt extends StatelessWidget {
 ١. (ھاوەڵناو) لەناکاو و چاوەڕواننەکراو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryabrupt extends StatelessWidget {
                                     "The accident brought his career to an abrupt end.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -178,6 +180,7 @@ class EnglishEntryabrupt extends StatelessWidget {
                                     "ڕووداوەکە کارەکەی ھێنایە کۆتاییەکی لەناکاو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -206,6 +209,7 @@ class EnglishEntryabrupt extends StatelessWidget {
 ١. (ھاوەڵناو) قسەکردن بەشێوەیەکی ناشرین، زۆرجار بە بەکارھێنانی وشەی کەمتر لەوەی پێویستە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -216,6 +220,7 @@ class EnglishEntryabrupt extends StatelessWidget {
                                     "She was very abrupt with me in our meeting.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -224,9 +229,10 @@ class EnglishEntryabrupt extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر توند بوو لەگەڵم لە چاوپێکەوتنەکە",
+                                    "زۆر توند بوو لەگەڵم لە چاوپێکەوتنەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

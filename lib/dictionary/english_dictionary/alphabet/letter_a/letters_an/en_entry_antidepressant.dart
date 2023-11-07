@@ -214,6 +214,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
 ١. (ناو) دەرمانێک کە بەکاردێت بۆ چارەسەری بێزاری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +225,7 @@ class EnglishEntryantidepressant extends StatelessWidget {
                                     "She's been on antidepressants ever since her husband died.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +237,10 @@ class EnglishEntryantidepressant extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەوەتەی ھاوسەرەکەی مردووە دژە-خەمۆکی دەخوات",
+                                    "لەوەتەی ھاوسەرەکەی مردووە دژە-خەمۆکی دەخوات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

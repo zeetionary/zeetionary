@@ -165,6 +165,7 @@ class EnglishEntryagitation extends StatelessWidget {
 ١. (ناو) ناڕەحەتی و نیگەرانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryagitation extends StatelessWidget {
                                     "She was trying not to show her agitation.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryagitation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەوڵیدەدا ناڕەحەتیی پیشان نەدات",
+                                    "ھەوڵیدەدا ناڕەحەتیی پیشان نەدات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryagitation extends StatelessWidget {
 ٢. (ناو) ناڕەزایی جەماوەری بۆ گۆڕانکاریی سیاسی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -229,6 +233,7 @@ class EnglishEntryagitation extends StatelessWidget {
                                     "There has been mass agitation against the president.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,9 +245,10 @@ class EnglishEntryagitation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناڕەزایی زۆر بەرامبەر سەرۆک ھەبووە",
+                                    "ناڕەزایی زۆر بەرامبەر سەرۆک ھەبووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -273,6 +279,7 @@ class EnglishEntryagitation extends StatelessWidget {
 ٣. (ناو) تێکەڵکردنی شلە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

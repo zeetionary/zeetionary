@@ -148,6 +148,7 @@ class EnglishEntryabsolutemajority extends StatelessWidget {
 ١. زیاتر لە نیوەی دەنگدەران''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryabsolutemajority extends StatelessWidget {
                                     "280 seats are needed for an absolute majority in the National Assembly.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryabsolutemajority extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێژەی ٢٨٠ کورسی پێویستن بۆ بردنەوەی زۆرینەی ڕەھا لە ئەنجوومەنی نیشتیمانی",
+                                    "ڕێژەی ٢٨٠ کورسی پێویستن بۆ بردنەوەی زۆرینەی ڕەھا لە ئەنجوومەنی نیشتیمانی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

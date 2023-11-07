@@ -165,6 +165,7 @@ class EnglishEntryadministrator extends StatelessWidget {
 ١. (ناو) کەسێک کە ئەرکی بەڕێوەبردنی دامەزراوەیەکی ھەیە، یان کەسێک کە کار لەگەڵ تۆمارەکان دەکات لە ئۆفیسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryadministrator extends StatelessWidget {
                                     "Such decisions are made by the hospital administrators.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,6 +188,7 @@ class EnglishEntryadministrator extends StatelessWidget {
                                     "بڕیاری لەم شێوەیە لەلایەن بەڕێوەبەرانی نەخۆشخانەکەوە دەدرێن ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryadministrator extends StatelessWidget {
 ٢. (ناو) کەسێک کە ئەرکی بەڕێوەبردنی سیستەمێکی کۆمپیوتەری بەدەستە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +230,7 @@ class EnglishEntryadministrator extends StatelessWidget {
                                     "If you are unable to access the site, contact your system administrator.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -237,6 +242,7 @@ class EnglishEntryadministrator extends StatelessWidget {
                                     "ئەگەر ناتوانی بچیتە ناو سایتەکەوە پەیوەندی بە بەڕێوەبەری سیستەمەکەتەوە بکە ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

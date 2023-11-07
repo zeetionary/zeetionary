@@ -166,6 +166,7 @@ class EnglishEntryadoption extends StatelessWidget {
 ١. (ناو) ھەڵگرتنەوەی منداڵ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryadoption extends StatelessWidget {
                                     "She put the baby up for adoption.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryadoption extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەستبەرداری منداڵەکە بوو بۆ ھەڵگرتنەوە",
+                                    "دەستبەرداری منداڵەکە بوو بۆ ھەڵگرتنەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -217,6 +220,7 @@ class EnglishEntryadoption extends StatelessWidget {
 ٢. (ناو) دەستکردن بە بەکارھێنانی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -227,6 +231,7 @@ class EnglishEntryadoption extends StatelessWidget {
                                     "The widespread adoption of new technology could save 162 billion dollars a year.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +240,10 @@ class EnglishEntryadoption extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەکارھێنانی بەرفراوانی تەکنەلۆژیای تازە ئەکرێت ١٦٢ ملیار دۆلاری ساڵانە بگەڕێنێتەوە",
+                                    "بەکارھێنانی بەرفراوانی تەکنەلۆژیای تازە ئەکرێت ١٦٢ ملیار دۆلاری ساڵانە بگەڕێنێتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -268,6 +274,7 @@ class EnglishEntryadoption extends StatelessWidget {
 ٣. (ناو) دیاریکردنی کەسێک وەک کاندیدی ھەڵبژاردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -278,6 +285,7 @@ class EnglishEntryadoption extends StatelessWidget {
                                     "The party announced the formal adoption of George Smith as their election candidate.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -286,9 +294,10 @@ class EnglishEntryadoption extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پارتەکە بە فەرمی ھەڵبژاردنی جۆرج سمیسی وەک کاندیدی ھەڵبژاردنەکان ڕاگەیاند",
+                                    "پارتەکە بە فەرمی ھەڵبژاردنی جۆرج سمیسی وەک کاندیدی ھەڵبژاردنەکان ڕاگەیاند.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

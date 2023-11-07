@@ -172,6 +172,7 @@ class EnglishEntryambulance extends StatelessWidget {
 ١. (ناو) ئۆتۆمبێلێک کە کەرەستەی تایبەتی تێدایە و نەخۆشی پێ دەبردرێت بۆ نەخۆشخانە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -182,6 +183,7 @@ class EnglishEntryambulance extends StatelessWidget {
                                     "The ambulance crew rushed her to the hospital.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -193,9 +195,10 @@ class EnglishEntryambulance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ستافی ئەمبولانسەکە خێرا بردیان بۆ نەخۆشخانە",
+                                    "ستافی ئەمبولانسەکە خێرا بردیان بۆ نەخۆشخانە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -166,6 +166,7 @@ class EnglishEntryaddition extends StatelessWidget {
 ١. (ناو) شتێک کە زیاد دەکرێت بۆ شتێکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryaddition extends StatelessWidget {
                                     "All of these technologies are fairly recent additions.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryaddition extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەموو ئەم تەکنۆلۆژییانە تازە زیادکراون",
+                                    "ھەموو ئەم تەکنۆلۆژییانە تازە زیادکراون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -217,6 +220,7 @@ class EnglishEntryaddition extends StatelessWidget {
 ٢. (ناو) کردەی زیادکردنی شتێک بۆ شتێکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -227,6 +231,7 @@ class EnglishEntryaddition extends StatelessWidget {
                                     "Add salt, tasting with every addition.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +240,10 @@ class EnglishEntryaddition extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خوێی تێبکە و لەگەڵ ھەر تێکردنێک تامی بکە",
+                                    "خوێی تێبکە و لەگەڵ ھەر تێکردنێک تامی بکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -268,6 +274,7 @@ class EnglishEntryaddition extends StatelessWidget {
 ٣. (ناو) بەشیکی تازە کە زیاددەکرێت بۆ بینایەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -278,6 +285,7 @@ class EnglishEntryaddition extends StatelessWidget {
                                     "The addition should match the architecture of the house.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -286,9 +294,10 @@ class EnglishEntryaddition extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەشە زیادکراوەکە دەبێت بگونجێت لەگەڵ نەخشەی خانووەکە",
+                                    "بەشە زیادکراوەکە دەبێت بگونجێت لەگەڵ نەخشەی خانووەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

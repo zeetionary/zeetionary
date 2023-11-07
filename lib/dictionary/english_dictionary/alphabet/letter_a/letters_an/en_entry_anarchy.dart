@@ -25,7 +25,8 @@ class EnglishEntryanarchy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The overthrow of the military regime was followed by a period of anarchy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The overthrow of the military regime was followed by a period of anarchy."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnarchy041(String languageCode) async {
@@ -33,7 +34,8 @@ class EnglishEntryanarchy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("There was complete anarchy in the classroom when their usual teacher was away."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There was complete anarchy in the classroom when their usual teacher was away."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnarchy(String languageCode) async {
@@ -211,6 +213,7 @@ class EnglishEntryanarchy extends StatelessWidget {
 ١. (ناو) پاشاگەردانی؛ بارودۆخێک کە تێیدا کەس‌بە‌کەس نییە و حکومەت بوونی نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +224,7 @@ class EnglishEntryanarchy extends StatelessWidget {
                                     "The overthrow of the military regime was followed by a period of anarchy.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +236,10 @@ class EnglishEntryanarchy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لادانی ڕژێمە سەربازییەکە ماوەیەک لە پاشاگەردانی بەدوادا ھات",
+                                    "لادانی ڕژێمە سەربازییەکە ماوەیەک لە پاشاگەردانی بەدوادا ھات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -252,9 +257,9 @@ class EnglishEntryanarchy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnarchy470(// REPLACE: anarchy /ˈænərki/
-                                        "en-US"),
+                                onPressed: () => speakAnarchy470(
+                                    // REPLACE: anarchy /ˈænərki/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -269,6 +274,7 @@ class EnglishEntryanarchy extends StatelessWidget {
                                     "There was complete anarchy in the classroom when their usual teacher was away.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -280,9 +286,10 @@ class EnglishEntryanarchy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەرکەس بۆخۆی بوو لە پۆلەکەدا کاتێک مامۆستاکەی خۆیان لەوێ نەبوو",
+                                    "ھەرکەس بۆخۆی بوو لە پۆلەکەدا کاتێک مامۆستاکەی خۆیان لەوێ نەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -300,9 +307,9 @@ class EnglishEntryanarchy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnarchy041(// REPLACE: anarchy /ˈænərki/
-                                        "en-US"),
+                                onPressed: () => speakAnarchy041(
+                                    // REPLACE: anarchy /ˈænərki/
+                                    "en-US"),
                               ),
                             ],
                           ),

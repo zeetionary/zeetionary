@@ -165,6 +165,7 @@ class EnglishEntrytheaccused extends StatelessWidget {
 ١. (ناو) کەسێک کە لە دادگا گومانلێکراوە بە تاوانێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntrytheaccused extends StatelessWidget {
                                     "The accused was found innocent.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,6 +188,7 @@ class EnglishEntrytheaccused extends StatelessWidget {
                                     "گومانلێکراو بە بێتاوان ناسێندرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -218,6 +221,7 @@ class EnglishEntrytheaccused extends StatelessWidget {
                                     "All the accused have pleaded guilty.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -226,9 +230,10 @@ class EnglishEntrytheaccused extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەموو گومانلێکراوان دانیان بە تاوانەکەدا نا",
+                                    "ھەموو گومانلێکراوان دانیان بە تاوانەکەدا نا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

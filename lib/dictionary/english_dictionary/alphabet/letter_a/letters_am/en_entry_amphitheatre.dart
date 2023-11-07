@@ -212,6 +212,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
 ١. (ناو) بینایەکی بازنەیی کە سەقفی نییە و ڕیزە جێگای پلەپلەی دانیشتنی ھەیە بە دەوری گۆڕاپانێک لە ناوەڕاستی بیناکەدا. ئەم بینایانە زیاتر لە یۆنان و ڕۆمی کۆندا بەکاردەھاتن بۆ ئاھەنگە چێژبەخشەکان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                                     "The amphitheatre is well worth a visit.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شانۆپانەکە شایەنی سەردانییەکە",
+                                    "شانۆپانەکە شایەنی سەردانییەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -268,6 +271,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
 ٢. (ناو) ژوورێک، ھۆڵێک، یان سینەمایەک کە جێگەی دانیشتنی تێدایە کە پلەپلە بەرزدەبنەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           // const DividerDefinition(),
                           // const DividerSentences(),

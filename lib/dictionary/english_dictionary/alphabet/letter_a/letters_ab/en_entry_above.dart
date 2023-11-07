@@ -213,6 +213,7 @@ class EnglishEntryabove extends StatelessWidget {
 ١. (ئامراز) لە سەروو کەسێک یان شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryabove extends StatelessWidget {
                                     "We were flying above the clouds.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -231,9 +233,10 @@ class EnglishEntryabove extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە سەروو ھەورەکانەوە دەفڕین",
+                                    "لە سەروو ھەورەکانەوە دەفڕین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -265,6 +268,7 @@ class EnglishEntryabove extends StatelessWidget {
                                     "A captain in the navy ranks above a captain in the army.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -273,9 +277,10 @@ class EnglishEntryabove extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کاپتنێک لە ھێزی دەریایی لە سەروو کاپتنێکی سوپاوەیە",
+                                    "کاپتنێک لە ھێزی دەریایی لە سەروو کاپتنێکی سوپاوەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -304,6 +309,7 @@ class EnglishEntryabove extends StatelessWidget {
 ٢. (ئامراز) لە سەروو ڕێژەیەک، ژمارەیەک، یان ئاستێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -314,6 +320,7 @@ class EnglishEntryabove extends StatelessWidget {
                                     "Temperatures have been above average.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -322,9 +329,10 @@ class EnglishEntryabove extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پلەی گەرمی لە سەروو ڕێژەی ئاسایی بووە",
+                                    "پلەی گەرمی لە سەروو ڕێژەی ئاسایی بووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -353,6 +361,7 @@ class EnglishEntryabove extends StatelessWidget {
 ٣. (ئامراز) کاتێک شتێک باشتر یان گرنگترە لە شتی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -363,6 +372,7 @@ class EnglishEntryabove extends StatelessWidget {
                                     "I rate her above most other players of her age.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -371,9 +381,10 @@ class EnglishEntryabove extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەڵسەنگاندنم بۆی ئەوەیە کە باشترە لە یاریزانانی دیکەی ھاوتەمەنی خۆی",
+                                    "ھەڵسەنگاندنم بۆی ئەوەیە کە باشترە لە یاریزانانی دیکەی ھاوتەمەنی خۆی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -402,6 +413,7 @@ class EnglishEntryabove extends StatelessWidget {
 ٤. (ئامراز) لە ئاستێک کە شتێکی لێ ناوەشێتەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -412,6 +424,7 @@ class EnglishEntryabove extends StatelessWidget {
                                     "She's not above lying when it suits her.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -420,9 +433,10 @@ class EnglishEntryabove extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە درۆکردن بەدەر نییە کە لە بەرژەوەندی خۆی بێت",
+                                    "لە درۆکردن بەدەر نییە کە لە بەرژەوەندی خۆی بێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -451,6 +465,7 @@ class EnglishEntryabove extends StatelessWidget {
 ٥. (ھاوەڵکار) لە شوێنێکی بەرز''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -461,6 +476,7 @@ class EnglishEntryabove extends StatelessWidget {
                                     "Put it on the shelf above.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -469,9 +485,10 @@ class EnglishEntryabove extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بیخە سەر ڕەفەکەی سەرەوە",
+                                    "بیخە سەر ڕەفەکەی سەرەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -503,6 +520,7 @@ class EnglishEntryabove extends StatelessWidget {
                                     "Seen from above the cars looked tiny.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -511,9 +529,10 @@ class EnglishEntryabove extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە سەرەوە ئۆتۆمبێلەکان وردیلانە دیاربوون",
+                                    "لە سەرەوە ئۆتۆمبێلەکان وردیلانە دیاربوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -542,6 +561,7 @@ class EnglishEntryabove extends StatelessWidget {
 ٦. (ھاوەڵکار) لە سەروو ڕێژەیەک، ژمارەیەک، یان ئاستێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -552,6 +572,7 @@ class EnglishEntryabove extends StatelessWidget {
                                     "children aged 12 and above",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -563,6 +584,7 @@ class EnglishEntryabove extends StatelessWidget {
                                     "منداڵانی تەمەن ١٢ ساڵ یان زیاتر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -591,6 +613,7 @@ class EnglishEntryabove extends StatelessWidget {
 ٧. (ھاوەڵناو) ئاماژەپێکراو لەسەرەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -601,6 +624,7 @@ class EnglishEntryabove extends StatelessWidget {
                                     "Please write to us at the above address.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -609,9 +633,10 @@ class EnglishEntryabove extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تکایە لە ڕێگای ناونیشانەکەی سەرەوەوە پەیوەندیمان پێوە بکە",
+                                    "تکایە لە ڕێگای ناونیشانەکەی سەرەوەوە پەیوەندیمان پێوە بکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

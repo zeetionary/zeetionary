@@ -213,6 +213,7 @@ class EnglishEntryannex extends StatelessWidget {
 ١. (کردار) داگیرکردنی وڵاتێک یان ناوچەیەک بە ھێز''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryannex extends StatelessWidget {
                                     "Germany annexed Austria in 1938.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -237,6 +239,7 @@ class EnglishEntryannex extends StatelessWidget {
                                     "ئەڵمانیا نەمسای داگیرکرد لە ساڵی ١٩٣٨",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -268,6 +271,7 @@ class EnglishEntryannex extends StatelessWidget {
 ٢. (ناو) ژوورێکی زیادە کە زیاد دەکرێت بۆ ژوورێکی گەورەتر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -278,6 +282,7 @@ class EnglishEntryannex extends StatelessWidget {
                                     "Delicate and valuable books are kept in an air-conditioned annex to the main library.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -289,9 +294,10 @@ class EnglishEntryannex extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کتێبە ناسک و بەنرخەکان لە ژوورێکی بچووکی کتێبخانە سەرەکییەکەن کە سیستەمی فێنککەرەوەی تێدایە",
+                                    "کتێبە ناسک و بەنرخەکان لە ژوورێکی بچووکی کتێبخانە سەرەکییەکەن کە سیستەمی فێنککەرەوەی تێدایە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

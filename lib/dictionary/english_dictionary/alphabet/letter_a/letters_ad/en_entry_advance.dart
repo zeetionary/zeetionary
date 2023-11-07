@@ -254,6 +254,7 @@ class EnglishEntryadvance extends StatelessWidget {
 ١. (ناو) بەرەوپێشچوون و سەرکەوتن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -264,6 +265,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                     "We live in an age of rapid technological advance.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -272,9 +274,10 @@ class EnglishEntryadvance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە سەردەمێکدا دەژین کە تەکنەلۆژیا بەخێرایی بەرەو پێشەوە دەچێت",
+                                    "لە سەردەمێکدا دەژین کە تەکنەلۆژیا بەخێرایی بەرەو پێشەوە دەچێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -305,6 +308,7 @@ class EnglishEntryadvance extends StatelessWidget {
 ٢. (ناو) بۆ پێشەوە جووڵەی کۆمەڵێک کەس، بەتایبەت یەکەی سەربازی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -315,6 +319,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                     "Enemy advances had forced them to retreat into the mountains.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -323,9 +328,10 @@ class EnglishEntryadvance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێشڕەویی دووژمن ناچاری کردبوون بکشێنەوە ناو چیکان",
+                                    "پێشڕەویی دووژمن ناچاری کردبوون بکشێنەوە ناو چیکان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -356,6 +362,7 @@ class EnglishEntryadvance extends StatelessWidget {
 ٣. (ناو) پارەیەک کە لەپێشدا دەدرێت وەک پێشەکی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -366,6 +373,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                     "The publishers have paid me an advance.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -374,9 +382,10 @@ class EnglishEntryadvance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بڵاکەرەوەکان پێشەکییەکیان داوە پێم",
+                                    "بڵاکەرەوەکان پێشەکییەکیان داوە پێم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -407,6 +416,7 @@ class EnglishEntryadvance extends StatelessWidget {
 ٤. (ناو) ھەوڵدان بۆ دەستپێکردنی پەیوەندیی سێکسی لەگەڵ کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -417,6 +427,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                     "He had made advances to one of his colleagues.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -425,9 +436,10 @@ class EnglishEntryadvance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەوڵیدا پەیوەندی سێکسی لەگەڵ یەکێک لە ھاوکارەکانی درووست بکات",
+                                    "ھەوڵیدا پەیوەندی سێکسی لەگەڵ یەکێک لە ھاوکارەکانی درووست بکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -458,6 +470,7 @@ class EnglishEntryadvance extends StatelessWidget {
 ٥. (کردار) بەرەوپێشچوون و گەشەکردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -468,6 +481,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                     "Our knowledge of the disease has advanced considerably over recent years.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -476,9 +490,10 @@ class EnglishEntryadvance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تێگەشتنمان بۆ نەخۆشییەکە زۆر بەرەوپێشچووە لە چەند ساڵی ڕابردوودا",
+                                    "تێگەشتنمان بۆ نەخۆشییەکە زۆر بەرەوپێشچووە لە چەند ساڵی ڕابردوودا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -509,6 +524,7 @@ class EnglishEntryadvance extends StatelessWidget {
 ٦. (کردار) بەرەوپێشچوونی کۆمەڵە کەسێک، بەتایبەتی پێشڕەویکردنی سەربازی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -519,6 +535,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                     "The troops were finally given the order to advance.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -530,6 +547,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                     "سەربازان لە کۆتاییدا فەرمانی پێشڕەوییان پێدرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -560,6 +578,7 @@ class EnglishEntryadvance extends StatelessWidget {
 ٧. (کردار) یارمەتیدان لە سەرکەوتنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -570,6 +589,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                     "They worked together to advance the cause of democracy.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -578,9 +598,10 @@ class EnglishEntryadvance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێکەوە کاریان کرد بۆ بەرەوپێشچوونی دۆزی دیموکراسی",
+                                    "پێکەوە کاریان کرد بۆ بەرەوپێشچوونی دۆزی دیموکراسی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -611,6 +632,7 @@ class EnglishEntryadvance extends StatelessWidget {
 ٨. (کردار) پێدانی پارە لە پێش کاتی خۆی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -621,6 +643,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                     "We will advance you the money.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -629,9 +652,10 @@ class EnglishEntryadvance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پارەکەت بە پێشەکی پێدەدەین",
+                                    "پارەکەت بە پێشەکی پێدەدەین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -662,6 +686,7 @@ class EnglishEntryadvance extends StatelessWidget {
 ٩. (کردار) پێشنیارکردنی بیرۆکەیەک یان پلانێک بۆ گەنگەشەکردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -672,6 +697,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                     "The article advances a new theory to explain changes in the climate.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -683,6 +709,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                     "وتارەکە بیردۆزێکی تازە پێشنیار دەکات بۆ ڕوونکردنەوەی گۆڕان لە ئاووھەوا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -713,6 +740,7 @@ class EnglishEntryadvance extends StatelessWidget {
 ١٠. (کردار) گۆڕینی کاتی ڕووداوێک بۆ ئەوەی زووتر ڕووبدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -723,6 +751,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                     "The date of the trial has been advanced by one week.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -731,9 +760,10 @@ class EnglishEntryadvance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێکەوتی دانیشتنەکەی دادگا یەک ھەفتە ھێنراوەتە پێشەوە",
+                                    "ڕێکەوتی دانیشتنەکەی دادگا یەک ھەفتە ھێنراوەتە پێشەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -764,6 +794,7 @@ class EnglishEntryadvance extends StatelessWidget {
 ١١. (کردار) چوونە قۆناغێکی دواتری شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -774,6 +805,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                     "Participants advance through the program by answering a series of questions.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -785,6 +817,7 @@ class EnglishEntryadvance extends StatelessWidget {
                                     "بەژداربووان دەچنە قۆناغەکانی دواتری پڕۆگرامەکە بە وەڵامدانەوەی ژمارەیەک پرسیار",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

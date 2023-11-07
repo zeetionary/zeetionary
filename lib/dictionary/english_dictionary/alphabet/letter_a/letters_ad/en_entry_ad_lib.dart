@@ -165,6 +165,7 @@ class EnglishEntryadlib extends StatelessWidget {
 ١. (ھاوەڵکار) پێشکەشکردنی شتێک بەبێ ئامادەکاریی پێشوەختە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryadlib extends StatelessWidget {
                                     "She delivered her speech ad lib.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryadlib extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وتارەکەی بەبێ ئامادەکاریی پێشوەختە پێشکەشکرد",
+                                    "وتارەکەی بەبێ ئامادەکاریی پێشوەختە پێشکەشکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryadlib extends StatelessWidget {
 ٢. (ھاوەڵکار) وتنی شتێک بەبێ ئامادەکاریی پێشوەختە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +230,7 @@ class EnglishEntryadlib extends StatelessWidget {
                                     "I lost my notes and had to ad-lib the whole speech.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -237,6 +242,7 @@ class EnglishEntryadlib extends StatelessWidget {
                                     "تێبینییەکانمم ونکرد و ناچاربووم تەواوی وتارەکە لەخۆوە پێشکەش بکەم ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

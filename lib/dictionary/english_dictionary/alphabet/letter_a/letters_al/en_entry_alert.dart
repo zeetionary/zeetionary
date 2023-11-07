@@ -218,6 +218,7 @@ class EnglishEntryalert extends StatelessWidget {
 ١. (کردار) وریاکردنەوەی کەسێک لەسەر بارودۆخێکی مەترسیدار، یان یەکێک کە پێویستە بەپەلە مامەڵەی لەگەڵ بکرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -228,6 +229,7 @@ class EnglishEntryalert extends StatelessWidget {
                                     "An anonymous letter alerted police to the possibility of a terrorist attack at the airport.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -239,9 +241,10 @@ class EnglishEntryalert extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نامەیەکی نھێنی پۆلیسی ئاگادارکردەوە لە ئەگەری ھێرشێکی تیرۆریستی لە فڕۆکەخانەکە",
+                                    "نامەیەکی نھێنی پۆلیسی ئاگادارکردەوە لە ئەگەری ھێرشێکی تیرۆریستی لە فڕۆکەخانەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -275,6 +278,7 @@ class EnglishEntryalert extends StatelessWidget {
                                     "Neighbours quickly alerted the emergency services.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -286,9 +290,10 @@ class EnglishEntryalert extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دراوسێیەکان بەپەلە تیمە فریاگوزارییەکانیان ئاگادارکردەوە",
+                                    "دراوسێیەکان بەپەلە تیمە فریاگوزارییەکانیان ئاگادارکردەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -319,6 +324,7 @@ class EnglishEntryalert extends StatelessWidget {
 ٢. (کردار) ئاگادارکردنەوەی کەسێک لە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -329,6 +335,7 @@ class EnglishEntryalert extends StatelessWidget {
                                     "They had been alerted to the possibility of further price rises.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -340,9 +347,10 @@ class EnglishEntryalert extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئاگادارکرابوونەوە لە ئەگەری زیادبوونی زیاتری نرخ",
+                                    "ئاگادارکرابوونەوە لە ئەگەری زیادبوونی زیاتری نرخ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -373,6 +381,7 @@ class EnglishEntryalert extends StatelessWidget {
 ٣. (ناو) بارودۆخێک کە تێیدا خەڵکی ئاگادارکراون بۆ مەترسی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -383,6 +392,7 @@ class EnglishEntryalert extends StatelessWidget {
                                     "More than 5 000 troops have been placed on (full) alert.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -397,6 +407,7 @@ class EnglishEntryalert extends StatelessWidget {
                                     "زیاتر لە ٥٠٠٠ سەرباز خراونەتە ئامادابەشیی تەواو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -427,6 +438,7 @@ class EnglishEntryalert extends StatelessWidget {
 ٤. (ناو) ئاگادارکەرەوە بۆ شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -437,6 +449,7 @@ class EnglishEntryalert extends StatelessWidget {
                                     "I get text alerts when I have used 80% of my mobile data.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -448,9 +461,10 @@ class EnglishEntryalert extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئاگادارکەرەوەیەکی نووسراوم پێدەگات کە زیاتر لە ٨٠٪ ئینتەرنێتی موبایلەکەم بەکاربێنم",
+                                    "ئاگادارکەرەوەیەکی نووسراوم پێدەگات کە زیاتر لە ٨٠٪ ئینتەرنێتی موبایلەکەم بەکاربێنم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -481,6 +495,7 @@ class EnglishEntryalert extends StatelessWidget {
 ٥. (ھاوەڵناو) ھەبوونی توانای بیرکردنەوە بەخێرایی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -491,6 +506,7 @@ class EnglishEntryalert extends StatelessWidget {
                                     "Two alert scientists spotted the mistake.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -502,9 +518,10 @@ class EnglishEntryalert extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دوو زانای وریا تێبینی ھەڵەکەیان کرد",
+                                    "دوو زانای وریا تێبینی ھەڵەکەیان کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -535,6 +552,7 @@ class EnglishEntryalert extends StatelessWidget {
 ٦. (ھاوەڵناو) ئاگاداربوون لە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -545,6 +563,7 @@ class EnglishEntryalert extends StatelessWidget {
                                     "We must be alert to the possibility of danger.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -556,9 +575,10 @@ class EnglishEntryalert extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێویستە چاوکراوە بین بۆ مەترسی",
+                                    "پێویستە چاوکراوە بین بۆ مەترسی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

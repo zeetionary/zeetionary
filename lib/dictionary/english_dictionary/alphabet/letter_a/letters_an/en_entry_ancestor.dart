@@ -25,7 +25,8 @@ class EnglishEntryancestor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("His ancestors had come to America from Ireland."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "His ancestors had come to America from Ireland."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAncestor4800(String languageCode) async {
@@ -33,7 +34,8 @@ class EnglishEntryancestor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("There were portraits of his ancestors on the walls of the room."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There were portraits of his ancestors on the walls of the room."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAncestor02560(String languageCode) async {
@@ -41,7 +43,8 @@ class EnglishEntryancestor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("These bones come from an animal that is the ancestor of the modern horse."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "These bones come from an animal that is the ancestor of the modern horse."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAncestor0805(String languageCode) async {
@@ -49,7 +52,8 @@ class EnglishEntryancestor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("This wooden instrument is the ancestor of the modern metal flute."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This wooden instrument is the ancestor of the modern metal flute."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAncestor(String languageCode) async {
@@ -211,6 +215,7 @@ class EnglishEntryancestor extends StatelessWidget {
 ١. (ناو) باوان؛ کەسێکی بنەماڵەکەت کە زۆر لەمەوپێش ژیاوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +226,7 @@ class EnglishEntryancestor extends StatelessWidget {
                                     "His ancestors had come to America from Ireland.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,6 +241,7 @@ class EnglishEntryancestor extends StatelessWidget {
                                     "باوانی لە ئێرلەنداوە ھات‌بوون بۆ ئەمریکا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -252,9 +259,9 @@ class EnglishEntryancestor extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAncestor7690(// REPLACE: ancestor /ˈænsestər/
-                                        "en-US"),
+                                onPressed: () => speakAncestor7690(
+                                    // REPLACE: ancestor /ˈænsestər/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -269,6 +276,7 @@ class EnglishEntryancestor extends StatelessWidget {
                                     "There were portraits of his ancestors on the walls of the room.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -280,9 +288,10 @@ class EnglishEntryancestor extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وێنەی باوانی لەسەر دیواری ژوورەکە بوو",
+                                    "وێنەی باوانی لەسەر دیواری ژوورەکە بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -300,9 +309,9 @@ class EnglishEntryancestor extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAncestor4800(// REPLACE: ancestor /ˈænsestər/
-                                        "en-US"),
+                                onPressed: () => speakAncestor4800(
+                                    // REPLACE: ancestor /ˈænsestər/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -314,6 +323,7 @@ class EnglishEntryancestor extends StatelessWidget {
 ٢. (ناو) ئاژەڵێک کە لە کۆندا ژیاوە و لە ئێستادا ئاژەڵێکی تر لێوەی گەشەی کردووە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -324,6 +334,7 @@ class EnglishEntryancestor extends StatelessWidget {
                                     "These bones come from an animal that is the ancestor of the modern horse.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -335,9 +346,10 @@ class EnglishEntryancestor extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم ئێسکانە ھی ئاژەڵێکن کە باوانی ئەسپی ئێستایە",
+                                    "ئەم ئێسکانە ھی ئاژەڵێکن کە باوانی ئەسپی ئێستایە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -355,9 +367,9 @@ class EnglishEntryancestor extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAncestor02560(// REPLACE: ancestor /ˈænsestər/
-                                        "en-US"),
+                                onPressed: () => speakAncestor02560(
+                                    // REPLACE: ancestor /ˈænsestər/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -369,6 +381,7 @@ class EnglishEntryancestor extends StatelessWidget {
 ٣. (ناو) شێوەیەکی سەرەتایی کەرەستەیەک کە لە ئێستادا زیاتر بەرەوپێش‌چووە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -379,6 +392,7 @@ class EnglishEntryancestor extends StatelessWidget {
                                     "This wooden instrument is the ancestor of the modern metal flute.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -390,9 +404,10 @@ class EnglishEntryancestor extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم ئامێرە دارینە شێوەی سەرەتایی فلوتی ئاسنی ئەم سەردەمەیە",
+                                    "ئەم ئامێرە دارینە شێوەی سەرەتایی فلوتی ئاسنی ئەم سەردەمەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -410,9 +425,9 @@ class EnglishEntryancestor extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAncestor0805(// REPLACE: ancestor /ˈænsestər/
-                                        "en-US"),
+                                onPressed: () => speakAncestor0805(
+                                    // REPLACE: ancestor /ˈænsestər/
+                                    "en-US"),
                               ),
                             ],
                           ),

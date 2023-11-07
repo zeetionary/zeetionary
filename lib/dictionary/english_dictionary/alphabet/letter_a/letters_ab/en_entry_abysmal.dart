@@ -147,6 +147,7 @@ class EnglishEntryabysmal extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە زۆر خراپ بێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -157,6 +158,7 @@ class EnglishEntryabysmal extends StatelessWidget {
                                     "His manners are abysmal.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -165,9 +167,10 @@ class EnglishEntryabysmal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەڵسوکەوتی زۆر خراپە",
+                                    "ھەڵسوکەوتی زۆر خراپە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

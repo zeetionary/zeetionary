@@ -164,6 +164,7 @@ class EnglishEntryairingcupboard extends StatelessWidget {
 ١. (ناو) دۆڵابێک کە جلوبەرگی پاکی تێدەخەیت بۆ ئەوەی دڵنیابیت بە تەواوی وشکن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryairingcupboard extends StatelessWidget {
                                     "Put the clothes in the airing cupboard.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryairingcupboard extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جلەکان بخە دۆڵابەکە",
+                                    "جلەکان بخە دۆڵابەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

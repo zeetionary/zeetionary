@@ -162,6 +162,7 @@ class EnglishEntryairless extends StatelessWidget {
 ١. (ھاوەڵناو) بێ ھەوا و ناخۆش''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryairless extends StatelessWidget {
                                     "The night was hot and airless.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryairless extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شەوەکە گەرم و بێ با بوو",
+                                    "شەوەکە گەرم و بێ با بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

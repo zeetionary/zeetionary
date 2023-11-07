@@ -157,6 +157,7 @@ class EnglishEntryacademically extends StatelessWidget {
 ١. (ھاوەڵکار) پەیوەندیدار بە خوێندن، بەتایبەتی خوێندنی قاتابخانە و زانکۆ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryacademically extends StatelessWidget {
                                     "You have to do well academically to get into medical school.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -175,9 +177,10 @@ class EnglishEntryacademically extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ ئەوەی بچیتە بەشی پزیشکی پێویستە لەلایەنی خوێندنەوە باش بیت",
+                                    "بۆ ئەوەی بچیتە بەشی پزیشکی پێویستە لەلایەنی خوێندنەوە باش بیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -206,6 +209,7 @@ class EnglishEntryacademically extends StatelessWidget {
 ٢. (ھاوەڵکار) پەیوەندیدار بە خوێندن و خوێندنەوە، وەک لە شارەزایی کردەیی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -216,6 +220,7 @@ class EnglishEntryacademically extends StatelessWidget {
                                     "He wasn’t very well qualified academically but had a lot of experience.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -227,6 +232,7 @@ class EnglishEntryacademically extends StatelessWidget {
                                     "لەلایەنی ئەکادیمییەوە زۆر لێوەشاوە نەبوو، بەڵام ئەزموونێکی زۆری ھەبوو ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

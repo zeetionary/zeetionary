@@ -164,6 +164,7 @@ class EnglishEntryabandon extends StatelessWidget {
 ١. (کردار) جێھێشتنی کەسێک یان شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryabandon extends StatelessWidget {
                                     "The baby had been abandoned by its mother.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryabandon extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵەکە لەلایەن دایکی جێھێڵدرابوو",
+                                    "منداڵەکە لەلایەن دایکی جێھێڵدرابوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryabandon extends StatelessWidget {
                                     "Snow forced many drivers to abandon their vehicles.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -224,9 +228,10 @@ class EnglishEntryabandon extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەفر ژمارەیەکی زۆر شۆفێری ناچارکرد ئۆتۆمبێلەکانیان بەجێبھێڵن",
+                                    "بەفر ژمارەیەکی زۆر شۆفێری ناچارکرد ئۆتۆمبێلەکانیان بەجێبھێڵن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -254,6 +259,7 @@ class EnglishEntryabandon extends StatelessWidget {
                             '٢. (کردار) وەستان لە کردنی شتێک',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -264,6 +270,7 @@ class EnglishEntryabandon extends StatelessWidget {
                                     "They abandoned the match because of rain.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -272,9 +279,10 @@ class EnglishEntryabandon extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یارییەکەیان وەستاند بەھۆی باران بارین",
+                                    "یارییەکەیان وەستاند بەھۆی باران بارین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -302,6 +310,7 @@ class EnglishEntryabandon extends StatelessWidget {
                             '٣. (کردار) وەستان لە باوەڕبوون بە شتێک',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -312,6 +321,7 @@ class EnglishEntryabandon extends StatelessWidget {
                                     "Germany abandoned its political leaders after WWII.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -320,9 +330,10 @@ class EnglishEntryabandon extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەڵمانیا دەستبەرداری سەرکردایەتییەکەی بوو لەدوای جەنگی دووەمی جیھان",
+                                    "ئەڵمانیا دەستبەرداری سەرکردایەتییەکەی بوو لەدوای جەنگی دووەمی جیھان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

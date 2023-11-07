@@ -164,6 +164,7 @@ class EnglishEntryalgae extends StatelessWidget {
 ١. (ناو) خانەی زۆر سەرەتایی کە ھیچ ڕەگ و قەد و بنەچەیان نییە و لە نزیک ئاو دەژین''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalgae extends StatelessWidget {
                                     "Algae has clogged the intake to the water stem.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalgae extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "قەوزە ڕێگای ڕێڕەوی ئاوەکەی گرتبوو",
+                                    "قەوزە ڕێگای ڕێڕەوی ئاوەکەی گرتبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -214,6 +214,7 @@ class EnglishEntryanthology extends StatelessWidget {
 ١. (ناو) ھەڵبژاردەیەک لە کاری ھونەری کە لێکچووة و بە باشترین دادەنرێن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +225,7 @@ class EnglishEntryanthology extends StatelessWidget {
                                     "This Michael Jackson anthology includes some rare recordings of his best songs.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +237,10 @@ class EnglishEntryanthology extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم گوڵب‌ژێرەی مایکڵ جاکسۆن ھەندێک لە تۆماری دەگمەنی باشترین گۆرانییەکانی تێدایە",
+                                    "ئەم گوڵب‌ژێرەی مایکڵ جاکسۆن ھەندێک لە تۆماری دەگمەنی باشترین گۆرانییەکانی تێدایە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

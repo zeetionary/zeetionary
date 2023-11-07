@@ -212,6 +212,7 @@ class EnglishEntryanti extends StatelessWidget {
 ١. (ئامراز) دژ بە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryanti extends StatelessWidget {
                                     "They’re completely anti the new proposals.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryanti extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە تەواوی دژ بە پێشنیازە تازەکانن",
+                                    "بە تەواوی دژ بە پێشنیازە تازەکانن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

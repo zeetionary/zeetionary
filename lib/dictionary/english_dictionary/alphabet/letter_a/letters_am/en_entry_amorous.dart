@@ -236,6 +236,7 @@ class EnglishEntryamorous extends StatelessWidget {
 ١. (ھاوەڵناو) پیشاندانی حەزی سێکسی و خۆشەویستی بۆ کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -246,6 +247,7 @@ class EnglishEntryamorous extends StatelessWidget {
                                     "Mary rejected Tony's amorous advances.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -257,9 +259,10 @@ class EnglishEntryamorous extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ماری ھەوڵە ئەویندارییەکانی تۆنی‌ی ڕەتکردەوە",
+                                    "ماری ھەوڵە ئەویندارییەکانی تۆنی‌ی ڕەتکردەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

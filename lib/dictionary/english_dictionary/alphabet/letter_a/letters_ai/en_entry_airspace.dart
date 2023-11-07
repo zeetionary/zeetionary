@@ -165,6 +165,7 @@ class EnglishEntryairspace extends StatelessWidget {
 ١. (ناو) ئاسمانی وڵاتێک کە لەلایەن ئەو وڵاتەوە کۆنترۆڵ کراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryairspace extends StatelessWidget {
                                     "The airspace over Europe is becoming more and more crowded.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryairspace extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئاسمانی ئەورووپا زیاتر و زیاتر قەرەباڵغ دەبێت",
+                                    "ئاسمانی ئەورووپا زیاتر و زیاتر قەرەباڵغ دەبێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -222,6 +225,7 @@ class EnglishEntryairspace extends StatelessWidget {
                                     "The jet entered Chinese airspace without permission.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +237,10 @@ class EnglishEntryairspace extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "فڕۆکەکە چووە ئاسمانی چین بەبێ مۆڵەت",
+                                    "فڕۆکەکە چووە ئاسمانی چین بەبێ مۆڵەت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

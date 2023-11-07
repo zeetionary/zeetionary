@@ -25,7 +25,8 @@ class EnglishEntryaccept extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He asked me to marry him and I accepted."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He asked me to marry him and I accepted."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakA68974(String languageCode) async {
@@ -201,6 +202,7 @@ class EnglishEntryaccept extends StatelessWidget {
 ١. (کردار) ڕازیبوون بە وەرگرتنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -211,6 +213,7 @@ class EnglishEntryaccept extends StatelessWidget {
                                     "He asked me to marry him and I accepted.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -219,9 +222,10 @@ class EnglishEntryaccept extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "داوای لێکردم شووی پێ بکەم و ڕازی بووم",
+                                    "داوای لێکردم شووی پێ بکەم و ڕازی بووم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -253,6 +257,7 @@ class EnglishEntryaccept extends StatelessWidget {
                                     "Please accept our sincere apologies.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -261,9 +266,10 @@ class EnglishEntryaccept extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تکایە داوای لێبووردنەکەمان پەسەند بکە کە لە دڵەوەیە",
+                                    "تکایە داوای لێبووردنەکەمان پەسەند بکە کە لە دڵەوەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -292,6 +298,7 @@ class EnglishEntryaccept extends StatelessWidget {
 ٢. (کردار) ڕازیبوون بە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -302,6 +309,7 @@ class EnglishEntryaccept extends StatelessWidget {
                                     "They accepted the court's decision.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -310,9 +318,10 @@ class EnglishEntryaccept extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بڕیاری دادگایان پەسەندکرد",
+                                    "بڕیاری دادگایان پەسەندکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -344,6 +353,7 @@ class EnglishEntryaccept extends StatelessWidget {
                                     "He accepted all the changes we proposed.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -352,9 +362,10 @@ class EnglishEntryaccept extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەموو ئەو گۆڕانکارییانەی پەسەندکرد کە پێشنیازمان کردبوو",
+                                    "ھەموو ئەو گۆڕانکارییانەی پەسەندکرد کە پێشنیازمان کردبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -383,6 +394,7 @@ class EnglishEntryaccept extends StatelessWidget {
 ٣. (کردار) وەرگرتنی جۆری پارەدان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -393,6 +405,7 @@ class EnglishEntryaccept extends StatelessWidget {
                                     "This machine only accepts coins.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -401,9 +414,10 @@ class EnglishEntryaccept extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم ئامێرە تەنھا سکە وەردەگرێت",
+                                    "ئەم ئامێرە تەنھا سکە وەردەگرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -432,6 +446,7 @@ class EnglishEntryaccept extends StatelessWidget {
 ٤. (کردار) دانپێدانان بە ھەڵە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -442,6 +457,7 @@ class EnglishEntryaccept extends StatelessWidget {
                                     "He accepts full responsibility for what happened.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -450,9 +466,10 @@ class EnglishEntryaccept extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەرپرسیاریەتی تەواو ھەڵدەگرێت بۆ ئەوەی کە ڕوویدا",
+                                    "بەرپرسیاریەتی تەواو ھەڵدەگرێت بۆ ئەوەی کە ڕوویدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -481,6 +498,7 @@ class EnglishEntryaccept extends StatelessWidget {
 ٥. (کردار) بەردەوامبوون لە بارودۆخێکی سەختدا بەبێ وەستان چونکە ئەزانیت ناتوانیت بیگۆڕیت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -491,6 +509,7 @@ class EnglishEntryaccept extends StatelessWidget {
                                     "You just have to accept the fact that we're never going to be rich.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -499,9 +518,10 @@ class EnglishEntryaccept extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەبێت ئەو ڕاستییە پەسەند بکەیت کە ئێمە ھەرگیز دەوڵەمەند نابین",
+                                    "دەبێت ئەو ڕاستییە پەسەند بکەیت کە ئێمە ھەرگیز دەوڵەمەند نابین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

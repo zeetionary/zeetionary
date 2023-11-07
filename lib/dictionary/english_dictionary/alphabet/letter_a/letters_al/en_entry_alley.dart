@@ -164,6 +164,7 @@ class EnglishEntryalley extends StatelessWidget {
 ١. (ناو) ڕێگایەکی باریک لە نێوان خانوو و باڵەخانە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalley extends StatelessWidget {
                                     "The car was hidden down a narrow alley.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalley extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئۆتۆمبێلەکە لە کۆڵانێکی باریک شاردرابوویەوە",
+                                    "ئۆتۆمبێلەکە لە کۆڵانێکی باریک شاردرابوویەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

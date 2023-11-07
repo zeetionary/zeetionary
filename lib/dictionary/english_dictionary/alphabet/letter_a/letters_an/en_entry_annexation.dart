@@ -213,6 +213,7 @@ class EnglishEntryannexation extends StatelessWidget {
 ١. (ناو) داگیرکاری؛ جۆنترۆڵ‌کردنی وڵاتێک بە ھێز''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryannexation extends StatelessWidget {
                                     "He mentioned the Japanese annexation of Korea in 1910 .",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryannexation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "داگیرکاریی ژاپۆنی بۆسەر کۆریا لە ساڵی ١٩١٠ ناوھێنا",
+                                    "داگیرکاریی ژاپۆنی بۆسەر کۆریا لە ساڵی ١٩١٠ ناوھێنا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -271,6 +274,7 @@ class EnglishEntryannexation extends StatelessWidget {
                                     "The country's annexation of its neighbour caused an outcry.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -282,9 +286,10 @@ class EnglishEntryannexation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "داگیرکاریی وڵاتەکە بۆسەر دراوسێکەی کاردانەوەی توندی بەدودا ھات",
+                                    "داگیرکاریی وڵاتەکە بۆسەر دراوسێکەی کاردانەوەی توندی بەدودا ھات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

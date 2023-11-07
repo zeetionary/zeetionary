@@ -202,6 +202,7 @@ class EnglishEntryalready extends StatelessWidget {
 ١. (ھاوەڵکار) پێش کاتێک لە ڕابردوودا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -212,6 +213,7 @@ class EnglishEntryalready extends StatelessWidget {
                                     "We got there early but Mike had already left.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -223,9 +225,10 @@ class EnglishEntryalready extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زوو گەشتینە ئەوێ، بەڵام مایک لەمێژبوو ڕۆشتبوو",
+                                    "زوو گەشتینە ئەوێ، بەڵام مایک لەمێژبوو ڕۆشتبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -256,6 +259,7 @@ class EnglishEntryalready extends StatelessWidget {
 ٢. (ھاوەڵکار) پێش کاتێکی چاوەڕوانکراو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -266,6 +270,7 @@ class EnglishEntryalready extends StatelessWidget {
                                     "You're not leaving already, are you?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -280,6 +285,7 @@ class EnglishEntryalready extends StatelessWidget {
                                     "ھەروا زوو ناڕۆن، وایە؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -310,6 +316,7 @@ class EnglishEntryalready extends StatelessWidget {
 ٣. (ھاوەڵکار) بۆ جەختکردنەوە لەوەی شتێک بوونی ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -320,6 +327,7 @@ class EnglishEntryalready extends StatelessWidget {
                                     "The new company already has an excellent reputation.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -331,9 +339,10 @@ class EnglishEntryalready extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کۆمپانیا تازەکە بەری نھا ناوودەنگێکی نایابی ھەیە",
+                                    "کۆمپانیا تازەکە بەری نھا ناوودەنگێکی نایابی ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -364,6 +373,7 @@ class EnglishEntryalready extends StatelessWidget {
 ٤. (ھاوەڵکار) بەکاردێت بۆ دەربڕینی بێزاری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -374,6 +384,7 @@ class EnglishEntryalready extends StatelessWidget {
                                     "Just stop already, no one feels sorry for you.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -385,9 +396,10 @@ class EnglishEntryalready extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دە وازبێنە، کەس ھەست بە بەزەیی ناکات بۆت",
+                                    "دە وازبێنە، کەس ھەست بە بەزەیی ناکات بۆت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

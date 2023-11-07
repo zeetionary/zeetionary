@@ -164,6 +164,7 @@ class EnglishEntryambidextrous extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی توانای بەکارھێنانی دەستە ڕاست و چەپ وەک یەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryambidextrous extends StatelessWidget {
                                     "I am naturally left-handed, but was not allowed to write with my left hand, with the result that I became ambidextrous.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryambidextrous extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەشێوەیەکی سرووشتی چەپلەرم، بەڵام ڕێگەم پێ‌نەدرا بە دەستە چەپم بنووسم، و لە ئەنجامدا بوومە دوودەستە",
+                                    "بەشێوەیەکی سرووشتی چەپلەرم، بەڵام ڕێگەم پێ‌نەدرا بە دەستە چەپم بنووسم، و لە ئەنجامدا بوومە دوودەستە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

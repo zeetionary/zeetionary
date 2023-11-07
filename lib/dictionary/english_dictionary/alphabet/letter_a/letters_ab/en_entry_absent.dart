@@ -148,6 +148,7 @@ class EnglishEntryabsent extends StatelessWidget {
 ١. (ھاوەڵناو) ئامادەنەبوو لە شوێنێک بە ھۆکارێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryabsent extends StatelessWidget {
                                     "He was absent from work for two weeks.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryabsent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ ماوەی دوو ھەفتە لە کار نەبوو",
+                                    "بۆ ماوەی دوو ھەفتە لە کار نەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -200,6 +203,7 @@ class EnglishEntryabsent extends StatelessWidget {
                                     "He was absent from work for two weeks.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -208,9 +212,10 @@ class EnglishEntryabsent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ ماوەی دوو ھەفتە لە کار نەبوو",
+                                    "بۆ ماوەی دوو ھەفتە لە کار نەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

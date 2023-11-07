@@ -25,7 +25,8 @@ class EnglishEntryanecdote extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The book is a rich store of anecdote."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The book is a rich store of anecdote."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnecdote460(String languageCode) async {
@@ -33,7 +34,8 @@ class EnglishEntryanecdote extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("This research is based on anecdote, not fact."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This research is based on anecdote, not fact."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnecdote(String languageCode) async {
@@ -211,6 +213,7 @@ class EnglishEntryanecdote extends StatelessWidget {
 ١. (ناو) کورتە چیرۆکێکی سەرجڕاکێش و خۆش و پێکەنیناوی لەسەر کەسێک یان ڕووداوێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +224,7 @@ class EnglishEntryanecdote extends StatelessWidget {
                                     "The book is a rich store of anecdote.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +236,10 @@ class EnglishEntryanecdote extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کتێبەکە سەرچاوەیەکی دەوڵەمەندی سەرگوزشتەیە",
+                                    "کتێبەکە سەرچاوەیەکی دەوڵەمەندی سەرگوزشتەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -252,9 +257,9 @@ class EnglishEntryanecdote extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnecdote5407(// REPLACE: anecdote /ˈænɪkdəʊt/
-                                        "en-US"),
+                                onPressed: () => speakAnecdote5407(
+                                    // REPLACE: anecdote /ˈænɪkdəʊt/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -266,6 +271,7 @@ class EnglishEntryanecdote extends StatelessWidget {
 ٢. (ناو) گێڕانەوەی کەسیی کەسێک بۆ ڕووداوێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -276,6 +282,7 @@ class EnglishEntryanecdote extends StatelessWidget {
                                     "This research is based on anecdote, not fact.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -287,9 +294,10 @@ class EnglishEntryanecdote extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم توێژینەوەیە پشتی بە سەرگوزشتە بەستووە نەک ڕاستی",
+                                    "ئەم توێژینەوەیە پشتی بە سەرگوزشتە بەستووە نەک ڕاستی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -307,9 +315,9 @@ class EnglishEntryanecdote extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnecdote460(// REPLACE: anecdote /ˈænɪkdəʊt/
-                                        "en-US"),
+                                onPressed: () => speakAnecdote460(
+                                    // REPLACE: anecdote /ˈænɪkdəʊt/
+                                    "en-US"),
                               ),
                             ],
                           ),

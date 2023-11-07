@@ -25,7 +25,8 @@ class EnglishEntryancient extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Archaeologists are excavating the ruined temples of this ancient civilization."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Archaeologists are excavating the ruined temples of this ancient civilization."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAncient4077(String languageCode) async {
@@ -33,7 +34,8 @@ class EnglishEntryancient extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("People have lived in this valley since ancient times."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "People have lived in this valley since ancient times."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAncient102(String languageCode) async {
@@ -41,7 +43,8 @@ class EnglishEntryancient extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He's got an ancient laptop."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He's got an ancient laptop."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAncient558030(String languageCode) async {
@@ -49,7 +52,8 @@ class EnglishEntryancient extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The ancients believed in mythical creatures and powerful gods."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The ancients believed in mythical creatures and powerful gods."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAncient(String languageCode) async {
@@ -211,6 +215,7 @@ class EnglishEntryancient extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر‌کۆن؛ پێش ھەزاران ساڵ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +226,7 @@ class EnglishEntryancient extends StatelessWidget {
                                     "Archaeologists are excavating the ruined temples of this ancient civilization.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +238,10 @@ class EnglishEntryancient extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شوێنەوارناسان پەرستگا وێرانەکانی ئەم شارستانیەتە کۆنە ھەڵدەدەنەوە",
+                                    "شوێنەوارناسان پەرستگا وێرانەکانی ئەم شارستانیەتە کۆنە ھەڵدەدەنەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -252,9 +259,9 @@ class EnglishEntryancient extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAncient2258(// REPLACE: ancient /ˈeɪnʃənt/
-                                        "en-US"),
+                                onPressed: () => speakAncient2258(
+                                    // REPLACE: ancient /ˈeɪnʃənt/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -269,6 +276,7 @@ class EnglishEntryancient extends StatelessWidget {
                                     "People have lived in this valley since ancient times.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -280,9 +288,10 @@ class EnglishEntryancient extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خەڵکی لەدێر زەمانەوە لەم دۆڵە ژیاون",
+                                    "خەڵکی لەدێر زەمانەوە لەم دۆڵە ژیاون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -300,9 +309,9 @@ class EnglishEntryancient extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAncient4077(// REPLACE: ancient /ˈeɪnʃənt/
-                                        "en-US"),
+                                onPressed: () => speakAncient4077(
+                                    // REPLACE: ancient /ˈeɪnʃənt/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -314,6 +323,7 @@ class EnglishEntryancient extends StatelessWidget {
 ٢. (ھاوەڵناو) زۆر‌کۆن؛ شتێک لەزووەوە ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -324,6 +334,7 @@ class EnglishEntryancient extends StatelessWidget {
                                     "He's got an ancient laptop.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -335,9 +346,10 @@ class EnglishEntryancient extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لاپتۆپێکی قەدیمی ھەیە",
+                                    "لاپتۆپێکی قەدیمی ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -355,9 +367,9 @@ class EnglishEntryancient extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAncient102(// REPLACE: ancient /ˈeɪnʃənt/
-                                        "en-US"),
+                                onPressed: () => speakAncient102(
+                                    // REPLACE: ancient /ˈeɪnʃənt/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -369,6 +381,7 @@ class EnglishEntryancient extends StatelessWidget {
 ٣. (ھاوەڵناو) وەک ناو بەکاردێت بۆ خەڵکی سەردەمی کۆن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -379,6 +392,7 @@ class EnglishEntryancient extends StatelessWidget {
                                     "The ancients believed in mythical creatures and powerful gods.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -390,9 +404,10 @@ class EnglishEntryancient extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زووژیاوان باوەڕیان بە بوونەوەری ئەفسانەیی و کۆمەڵە خواوەندی بەدەسەڵات ھەبوو",
+                                    "زووژیاوان باوەڕیان بە بوونەوەری ئەفسانەیی و کۆمەڵە خواوەندی بەدەسەڵات ھەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -410,9 +425,9 @@ class EnglishEntryancient extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAncient558030(// REPLACE: ancient /ˈeɪnʃənt/
-                                        "en-US"),
+                                onPressed: () => speakAncient558030(
+                                    // REPLACE: ancient /ˈeɪnʃənt/
+                                    "en-US"),
                               ),
                             ],
                           ),

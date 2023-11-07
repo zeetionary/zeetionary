@@ -146,6 +146,7 @@ class EnglishEntryaccountancy extends StatelessWidget {
 ١. (ناو) کاری ژمێریاری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -156,6 +157,7 @@ class EnglishEntryaccountancy extends StatelessWidget {
                                     "She studied accountancy at university.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -164,9 +166,10 @@ class EnglishEntryaccountancy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە زانکۆ ژمێریاری خوێند",
+                                    "لە زانکۆ ژمێریاری خوێند.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

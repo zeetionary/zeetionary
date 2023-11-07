@@ -212,6 +212,7 @@ class EnglishEntryampersand extends StatelessWidget {
 ١. (ناو) نیشانەی & کە بە واتای «و» بەکاردێت ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryampersand extends StatelessWidget {
                                     "She has worked for both Google & Microsoft.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryampersand extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ ھەردوو گووگڵ و مایکرۆسۆفت کاری‌کردووە",
+                                    "بۆ ھەردوو گووگڵ و مایکرۆسۆفت کاری‌کردووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

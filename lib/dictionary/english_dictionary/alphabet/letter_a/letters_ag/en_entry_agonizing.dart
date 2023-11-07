@@ -164,6 +164,7 @@ class EnglishEntryagonizing extends StatelessWidget {
 ١. (ھاوەڵناو) پێناسە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryagonizing extends StatelessWidget {
                                     "His father’s agonizing death devastated her.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryagonizing extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مردنە بەژانەکەی باوکی وێرانی کرد",
+                                    "مردنە بەژانەکەی باوکی وێرانی کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

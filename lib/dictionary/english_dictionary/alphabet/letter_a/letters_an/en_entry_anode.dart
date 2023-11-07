@@ -213,6 +213,7 @@ class EnglishEntryanode extends StatelessWidget {
 ١. (ناو) جەمسەری ئەرێنی؛ شوێنی چوونە ژوورەوەی تەزووی کارەبایی لە باتری یان ئامێری کارەبایی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryanode extends StatelessWidget {
                                     "A red wire is often attached to the anode.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryanode extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وایەرێکی سوور زۆرجار دەلکێنرێت بە جەمسەرە گەرمەکەوە",
+                                    "وایەرێکی سوور زۆرجار دەلکێنرێت بە جەمسەرە گەرمەکەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

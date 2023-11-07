@@ -212,6 +212,7 @@ class EnglishEntryampup extends StatelessWidget {
 ١. (کاری لێکدراو) زیادکردنی دەنگی میوزیک کە لە بڵیندگۆیەکەوە لێدەدرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryampup extends StatelessWidget {
                                     "He knew exactly when to amp the music up.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryampup extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆرباش دەیزانی کەی دەنگی میوزیککە زیادبکات",
+                                    "زۆرباش دەیزانی کەی دەنگی میوزیککە زیادبکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -266,6 +269,7 @@ class EnglishEntryampup extends StatelessWidget {
 ٢. (کاری لێکدراو) زیادکردنی ڕێژە یان بڕی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -276,6 +280,7 @@ class EnglishEntryampup extends StatelessWidget {
                                     "We're always looking for ways to amp up productivity in the workplace.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -287,9 +292,10 @@ class EnglishEntryampup extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەمیشە ھەوڵ دەدەین ڕێگا بدۆزینەوە بۆ زیادکردنی بەرھەمھێنان لە شوێن‌کارەکەمان",
+                                    "ھەمیشە ھەوڵ دەدەین ڕێگا بدۆزینەوە بۆ زیادکردنی بەرھەمھێنان لە شوێن‌کارەکەمان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -320,6 +326,7 @@ class EnglishEntryampup extends StatelessWidget {
 ٣. (کاری لێکدراو) پێدانی جۆش‌وخرۆش بە کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -330,6 +337,7 @@ class EnglishEntryampup extends StatelessWidget {
                                     "After amping the crowd up with an impressive light show, the band took to the stage.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -344,6 +352,7 @@ class EnglishEntryampup extends StatelessWidget {
                                     "لەدوای ئەوەی جەماوەرەکەیان خرۆشاند بە نمایشی لایتەکان، باندەکە چوونە سەر ستەیج",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

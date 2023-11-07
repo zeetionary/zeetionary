@@ -166,6 +166,7 @@ class EnglishEntryallocation extends StatelessWidget {
 ١. (ناو) بڕێک لە شتێک، زۆرجار پارە، کە تەرخان دەکرێت بۆ مەبەستێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryallocation extends StatelessWidget {
                                     "We have spent our entire allocation for the year.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -187,9 +189,10 @@ class EnglishEntryallocation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەواوی گوژمەی ئەم ساڵەمان خەرجکردووە",
+                                    "تەواوی گوژمەی ئەم ساڵەمان خەرجکردووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -223,6 +226,7 @@ class EnglishEntryallocation extends StatelessWidget {
                                     "The charity is trying to get its allocation increased for next year.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +238,10 @@ class EnglishEntryallocation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێکخراوە خێرخوازییەکە ھەوڵ دەدات بودجەکەی بۆ ساڵی داھاتوو زیاد بکات",
+                                    "ڕێکخراوە خێرخوازییەکە ھەوڵ دەدات بودجەکەی بۆ ساڵی داھاتوو زیاد بکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -267,6 +272,7 @@ class EnglishEntryallocation extends StatelessWidget {
 ٢. (ناو) کرداری پێدانی بڕێک لە شتێک، زۆرجار پارە، بۆ مەبەستێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -277,6 +283,7 @@ class EnglishEntryallocation extends StatelessWidget {
                                     "The allocation of space in this office is unusual.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -288,9 +295,10 @@ class EnglishEntryallocation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێدانی شوێن لەم ئۆفیسەدا نامۆیە",
+                                    "پێدانی شوێن لەم ئۆفیسەدا نامۆیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

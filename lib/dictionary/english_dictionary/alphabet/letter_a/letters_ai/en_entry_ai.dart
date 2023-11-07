@@ -162,6 +162,7 @@ class EnglishEntryai extends StatelessWidget {
 ١. (ناو) ژیری دەستکرد؛ لێکۆڵینەوە لە کۆمپیوتەر بۆ ئەوەی وەک مرۆڤ مامەڵە بکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryai extends StatelessWidget {
                                     "This new technology uses AI to recognize character features in the same way a human brain does.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryai extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم تەکنۆلەژیا تازەیە ژیری دەستکرد بەکاردەھێنێ بۆ ناسینەوەی خاسیەتەکانی کارەکتەرێک وەک ئەوەی مێشکی مرۆڤ دەیکات",
+                                    "ئەم تەکنۆلەژیا تازەیە ژیری دەستکرد بەکاردەھێنێ بۆ ناسینەوەی خاسیەتەکانی کارەکتەرێک وەک ئەوەی مێشکی مرۆڤ دەیکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

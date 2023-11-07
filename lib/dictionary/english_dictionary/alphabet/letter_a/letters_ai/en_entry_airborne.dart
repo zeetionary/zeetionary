@@ -164,6 +164,7 @@ class EnglishEntryairborne extends StatelessWidget {
 ١. (ھاوەڵناو) بوونی توانای جوڵان لە ھەوادا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryairborne extends StatelessWidget {
                                     "Do not leave your seat until the plane is airborne.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -188,6 +190,7 @@ class EnglishEntryairborne extends StatelessWidget {
                                     "کورسییەکەت جێ مەھێڵە تا فڕۆکە دەچێتە ئاسمان (بارودۆخی فڕین)",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryadjunct extends StatelessWidget {
 ١. (ناو) ھاوەڵکارێک یان دەستەواژەیەک کە واتا زیاددەکات بۆ کرداری ڕستەیەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
@@ -171,6 +172,7 @@ class EnglishEntryadjunct extends StatelessWidget {
 ٢. (ناو) شتێک کە زیاددەکرێت بۆ شتێکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -181,6 +183,7 @@ class EnglishEntryadjunct extends StatelessWidget {
                                     "The course would be a useful adjunct to my studies.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -189,9 +192,10 @@ class EnglishEntryadjunct extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کۆرسەکە سەرخستەیەکی باش دەبێت بۆ خوێندنەکەم",
+                                    "کۆرسەکە سەرخستەیەکی باش دەبێت بۆ خوێندنەکەم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

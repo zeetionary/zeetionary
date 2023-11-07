@@ -175,6 +175,7 @@ class EnglishEntryabstract extends StatelessWidget {
 ١. (ھاوەڵناو) پشتبەستوو بە ئایدیا گشتییەکان، نەک کەسێک، شتێک، یان بارودۆخێکیی تایبەت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -185,6 +186,7 @@ class EnglishEntryabstract extends StatelessWidget {
                                     "The research shows that pre-school children are capable of thinking in abstract terms.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -196,6 +198,7 @@ class EnglishEntryabstract extends StatelessWidget {
                                     "توێژینەوەکە دەریخستووە کە ئەو منداڵانەی لە قوتابخانە نین توانای بیرکردنەوەیان ھەیە بە بەکارھێنانی خەیاڵیان ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -224,6 +227,7 @@ class EnglishEntryabstract extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە تەنھا وەک ئایدیا بوونی ھەیە، نەک بەشێوەی فیزیایی ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -234,6 +238,7 @@ class EnglishEntryabstract extends StatelessWidget {
                                     "We may talk of beautiful things but beauty itself is abstract.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -245,6 +250,7 @@ class EnglishEntryabstract extends StatelessWidget {
                                     "دەتوانین باس لە شتە جوانەکان بکەین، بەڵام جوانی خۆی واتاییە ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -273,6 +279,7 @@ class EnglishEntryabstract extends StatelessWidget {
 ٣. (ھاوەڵناو) جۆرێکی ھونەر کە شتەکان وەک خۆیان پیشان نادا، بەڵکو بەو جۆرەی ھونەرمەندەکە دەیانبینێت ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -283,6 +290,7 @@ class EnglishEntryabstract extends StatelessWidget {
                                     "the work of American abstract artists like Mark Rothko",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -294,6 +302,7 @@ class EnglishEntryabstract extends StatelessWidget {
                                     "کارەکانی ھونەرمەندە ئەبستراکتییە ئەمریکییەکانی وەک مارک رۆسکۆ ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -322,6 +331,7 @@ class EnglishEntryabstract extends StatelessWidget {
 ٤. (کردار) سڕینەوەی شتێک لە شوێنێک ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -332,6 +342,7 @@ class EnglishEntryabstract extends StatelessWidget {
                                     "Their plan is to abstract 8 million gallons of water from the river.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -343,6 +354,7 @@ class EnglishEntryabstract extends StatelessWidget {
                                     "پلانەکەیان ئەوەبوو کە ھەشت ملیۆن گاڵۆن ئاو لە ڕووبارەکە دەربکەن ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

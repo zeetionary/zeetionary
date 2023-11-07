@@ -148,6 +148,7 @@ class EnglishEntryabsentee extends StatelessWidget {
 ١. (ناو) کەسێکی نائامادە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryabsentee extends StatelessWidget {
                                     "There are several absentees from school this week, because a lot of people have flu.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryabsentee extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژمارەیەک کەس نەھاتوون بۆ خوێندنگە ئەم ھەفتە بەھۆی ئەوەی ژمارەیەکی زۆر خەڵک ئەنفلۆنزایان ھەیە",
+                                    "ژمارەیەک کەس نەھاتوون بۆ خوێندنگە ئەم ھەفتە بەھۆی ئەوەی ژمارەیەکی زۆر خەڵک ئەنفلۆنزایان ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

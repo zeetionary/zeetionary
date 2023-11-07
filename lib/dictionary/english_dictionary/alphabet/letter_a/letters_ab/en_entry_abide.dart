@@ -147,6 +147,7 @@ class EnglishEntryabide extends StatelessWidget {
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -159,6 +160,7 @@ I can't abide people with no sense of humour.
                                     ''',
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -172,6 +174,7 @@ I can't abide people with no sense of humour.
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -205,6 +208,7 @@ I can’t abide people who look down on others.
                                     ''',
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -218,6 +222,7 @@ I can’t abide people who look down on others.
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

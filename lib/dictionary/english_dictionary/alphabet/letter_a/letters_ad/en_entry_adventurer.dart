@@ -164,6 +164,7 @@ class EnglishEntryadventurer extends StatelessWidget {
 ١. (ناو) کەسێک کە حەزی بە ئەزموونی تازە و بەجۆشھێنەرە، بەتایبەتی ڕۆیشتن بۆ شوێنی تازە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadventurer extends StatelessWidget {
                                     "He was something of an adventurer, living most of his life abroad.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadventurer extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەسێکی تا ڕادەیەک سەرکێش بوو کە زۆرینەی ژیانی لە دەرەوە بەسەر دەبرد",
+                                    "کەسێکی تا ڕادەیەک سەرکێش بوو کە زۆرینەی ژیانی لە دەرەوە بەسەر دەبرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

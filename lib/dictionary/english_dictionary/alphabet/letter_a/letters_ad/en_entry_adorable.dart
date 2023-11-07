@@ -163,6 +163,7 @@ class EnglishEntryadorable extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر جوان و خۆشەویست''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryadorable extends StatelessWidget {
                                     "What an adorable child!",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -181,9 +183,10 @@ class EnglishEntryadorable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چی منداڵێکی ژیکەڵەیە",
+                                    "چی منداڵێکی ژیکەڵەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

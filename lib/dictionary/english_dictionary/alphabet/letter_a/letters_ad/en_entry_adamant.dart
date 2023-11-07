@@ -164,6 +164,7 @@ class EnglishEntryadamant extends StatelessWidget {
 ١. (ھاوەڵناو) بەردەوامبوون لەسەر بۆچوونی خۆت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadamant extends StatelessWidget {
                                     "Eva was adamant that she would not come.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadamant extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئێڤا سوور بوو لەسەر ئەوەی کە نایەت",
+                                    "ئێڤا سوور بوو لەسەر ئەوەی کە نایەت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

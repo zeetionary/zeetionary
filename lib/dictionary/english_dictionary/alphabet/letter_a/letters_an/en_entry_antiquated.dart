@@ -216,6 +216,7 @@ class EnglishEntryantiquated extends StatelessWidget {
 ١. (ھاوەڵناو) شتێکی کۆن کە چی‌تر گونجاو نییە بۆ ئەم سەردەمە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +227,7 @@ class EnglishEntryantiquated extends StatelessWidget {
                                     "The antiquated heating system barely heats the larger rooms.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -237,9 +239,10 @@ class EnglishEntryantiquated extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سیستەمی گەرمییە کۆنەکە بە ئەستەم ژووری گەورە گەرم‌دەکاتەوە",
+                                    "سیستەمی گەرمییە کۆنەکە بە ئەستەم ژووری گەورە گەرم‌دەکاتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

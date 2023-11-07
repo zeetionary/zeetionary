@@ -165,6 +165,7 @@ class EnglishEntryaccustomto extends StatelessWidget {
 ١. (کاری لێکدراو) خۆگونجاندن لەگەڵ شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryaccustomto extends StatelessWidget {
                                     "It took him a while to accustom himself to the idea.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryaccustomto extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ماوەیەکی پێچوو تا خۆی بە بیرۆکەکە ڕابێنێت",
+                                    "ماوەیەکی پێچوو تا خۆی بە بیرۆکەکە ڕابێنێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -218,6 +221,7 @@ class EnglishEntryaccustomto extends StatelessWidget {
                                     "Education should accustom children to thinking for themselves.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -226,9 +230,10 @@ class EnglishEntryaccustomto extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خوێندن دەبێت منداڵان ڕابێنێت لەسەر بیرکردنەوەی خۆیان",
+                                    "خوێندن دەبێت منداڵان ڕابێنێت لەسەر بیرکردنەوەی خۆیان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -175,6 +175,7 @@ class EnglishEntryacceptable extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە زۆرینەی خەڵک لە کۆمەڵگا پێیان گونجاوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -185,6 +186,7 @@ class EnglishEntryacceptable extends StatelessWidget {
                                     "It is perfectly acceptable for you as an employee to say no.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -196,6 +198,7 @@ class EnglishEntryacceptable extends StatelessWidget {
                                     "شتێکی تەواو ئاساییە بۆ تۆ وەک کرێکارێک بڵێت نەخێر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -227,6 +230,7 @@ class EnglishEntryacceptable extends StatelessWidget {
                                     "Children must learn socially acceptable behaviour.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +239,10 @@ class EnglishEntryacceptable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵان دەبێت فێری ڕەفتاری لەگەڵ کۆمەڵگە گونجاو ببن",
+                                    "منداڵان دەبێت فێری ڕەفتاری لەگەڵ کۆمەڵگە گونجاو ببن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -266,6 +271,7 @@ class EnglishEntryacceptable extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە جێگەی قبووڵکردنە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -276,6 +282,7 @@ class EnglishEntryacceptable extends StatelessWidget {
                                     "It is possible to find a solution that is acceptable to both sides.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -284,9 +291,10 @@ class EnglishEntryacceptable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێی تێ ئەچێ ڕێگەچارەیەک بدۆزینەوە کە ھەردوو لا لەسەری کۆکبن",
+                                    "ڕێی تێ ئەچێ ڕێگەچارەیەک بدۆزینەوە کە ھەردوو لا لەسەری کۆکبن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -315,6 +323,7 @@ class EnglishEntryacceptable extends StatelessWidget {
 ٣. (ھاوەڵناو) شتێک کە زۆر باش نییە، بەڵام خراپیش نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -325,6 +334,7 @@ class EnglishEntryacceptable extends StatelessWidget {
                                     "Inspectors found that teaching standards were acceptable, but could be improved.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -333,9 +343,10 @@ class EnglishEntryacceptable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چاودێران بۆیان دەرکەوت کە ستانداردەکانی وانەوتنەوە خراپ نەبوون، بەڵام دەکرا باشتر کرابان",
+                                    "چاودێران بۆیان دەرکەوت کە ستانداردەکانی وانەوتنەوە خراپ نەبوون، بەڵام دەکرا باشتر کرابان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -157,6 +157,7 @@ class EnglishEntryaccordingto extends StatelessWidget {
 ١. بە گوێرەی شتێک یان وتەی کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryaccordingto extends StatelessWidget {
                                     "You've been absent six times according to our records.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -175,9 +177,10 @@ class EnglishEntryaccordingto extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەپێی تۆمارەکانمان شەش جار نەھاتوو بوویتە",
+                                    "بەپێی تۆمارەکانمان شەش جار نەھاتوو بوویتە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -206,6 +209,7 @@ class EnglishEntryaccordingto extends StatelessWidget {
 ٢. بە پێی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -216,6 +220,7 @@ class EnglishEntryaccordingto extends StatelessWidget {
                                     "The work was done according to her instructions.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -227,6 +232,7 @@ class EnglishEntryaccordingto extends StatelessWidget {
                                     "کارەکە کرا بەپێی ڕێنماییەکانی ئەو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

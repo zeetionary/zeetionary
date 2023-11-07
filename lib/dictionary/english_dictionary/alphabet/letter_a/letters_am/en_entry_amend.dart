@@ -172,6 +172,7 @@ class EnglishEntryamend extends StatelessWidget {
 ١. (کردار) دەستکاریکردنی یاسایەک یان لێدوانێک بۆ چاککردنی ھەڵەیەک یان باشترکردنی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -182,6 +183,7 @@ class EnglishEntryamend extends StatelessWidget {
                                     "Parliament will vote to amend the constitution.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -193,9 +195,10 @@ class EnglishEntryamend extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پەرلەمان دەنگ لەسەر ھەمواری دەستوور دەدات",
+                                    "پەرلەمان دەنگ لەسەر ھەمواری دەستوور دەدات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -230,6 +233,7 @@ class EnglishEntryamend extends StatelessWidget {
                                     "MPs were urged to amend the law to prevent another oil tanker disaster.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -241,9 +245,10 @@ class EnglishEntryamend extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پەرلەمانتاران ھاندران گۆڕانکاری لە یاساکە بکەن بۆ ڕێگری لە کارەساتێکی دیکەی تەنکەری نەوتی",
+                                    "پەرلەمانتاران ھاندران گۆڕانکاری لە یاساکە بکەن بۆ ڕێگری لە کارەساتێکی دیکەی تەنکەری نەوتی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

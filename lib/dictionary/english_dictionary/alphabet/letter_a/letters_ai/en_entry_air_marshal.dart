@@ -163,6 +163,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
 ١. (ناو) ئەفسەرێکی باڵا لە ھێزی ئاسمانیی بەریتانیا و ژمارەیەک وڵاتی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
                                     "Her father was an air marshal in the Australian Air Force.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryairmarshal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "باوکی ئەفسەری باڵای ھێزی ئاسمانیی ئوسترالیا بوو",
+                                    "باوکی ئەفسەری باڵای ھێزی ئاسمانیی ئوسترالیا بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -217,6 +220,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
 ٢. (ناو) کەسێکی ڕاھێنراو کە وەک سەرنشینێکی ئاسایی لە فڕۆکەیەکە بۆ حاڵەتی نەخوازراو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -227,6 +231,7 @@ class EnglishEntryairmarshal extends StatelessWidget {
                                     "New security measures included increasing the number of air marshals and fortifying cockpit doors.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -238,9 +243,10 @@ class EnglishEntryairmarshal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێکارە تازەکانی ئەمنییەت زیادکردنی ژمارەی ئەفسەرە نھێنییەکان و توندکردنی دەرگای ژووری فڕۆکەوانەکان لەخۆدەگرێت",
+                                    "ڕێکارە تازەکانی ئەمنییەت زیادکردنی ژمارەی ئەفسەرە نھێنییەکان و توندکردنی دەرگای ژووری فڕۆکەوانەکان لەخۆدەگرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

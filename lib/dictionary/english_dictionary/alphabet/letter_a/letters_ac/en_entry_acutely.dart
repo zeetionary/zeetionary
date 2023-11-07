@@ -175,6 +175,7 @@ class EnglishEntryacutely extends StatelessWidget {
 ١. (ھاوەڵکار) تێبینی و ھەستکردن بە شتێک زۆر بە باشی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -185,6 +186,7 @@ class EnglishEntryacutely extends StatelessWidget {
                                     "I am acutely aware of the difficulties we face.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -193,9 +195,10 @@ class EnglishEntryacutely extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆرباش ئاگاداری ئەو ناڕەحەتییانەم کە تووشیان دەبین",
+                                    "زۆرباش ئاگاداری ئەو ناڕەحەتییانەم کە تووشیان دەبین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -229,6 +232,7 @@ class EnglishEntryacutely extends StatelessWidget {
                                     "She acutely identified all the main problems.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -237,9 +241,10 @@ class EnglishEntryacutely extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زیرەکانە ھەموو کێشە سەرەکییەکانی دەستنیشانکرد",
+                                    "زیرەکانە ھەموو کێشە سەرەکییەکانی دەستنیشانکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -270,6 +275,7 @@ class EnglishEntryacutely extends StatelessWidget {
 ٢. (ھاوەڵکار) دەرکەوتنی ھەستێکی خراپ زۆر بە زەقی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -280,6 +286,7 @@ class EnglishEntryacutely extends StatelessWidget {
                                     "Another scandal would be acutely embarrassing for the government.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -288,9 +295,10 @@ class EnglishEntryacutely extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئابڕووچوونێکی تر زۆر شەرمھێنەر دەبێت بۆ حکومەت",
+                                    "ئابڕووچوونێکی تر زۆر شەرمھێنەر دەبێت بۆ حکومەت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

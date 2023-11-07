@@ -149,6 +149,7 @@ class EnglishEntryabandoned extends StatelessWidget {
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -159,6 +160,7 @@ class EnglishEntryabandoned extends StatelessWidget {
                                     "The child was found abandoned but unharmed.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -167,9 +169,10 @@ class EnglishEntryabandoned extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵەکە بە جێھێڵدراوی دۆزرایەوە، بەڵام بێ زیان بوو",
+                                    "منداڵەکە بە جێھێڵدراوی دۆزرایەوە، بەڵام بێ زیان بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -201,6 +204,7 @@ class EnglishEntryabandoned extends StatelessWidget {
                                     "There was an abandoned supermarket trolley in the middle of the road.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -209,9 +213,10 @@ class EnglishEntryabandoned extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گالیسکەیەکی جێھێڵدراوی سوپەرمارکێتێک لە ناوەڕاتی شەقامەکە بوو",
+                                    "گالیسکەیەکی جێھێڵدراوی سوپەرمارکێتێک لە ناوەڕاتی شەقامەکە بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

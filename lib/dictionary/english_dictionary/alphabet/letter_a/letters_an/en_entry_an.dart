@@ -198,6 +198,7 @@ class EnglishEntryan extends StatelessWidget {
                                       'I went there on an auspicious day.',
                                       textDirection: TextDirection
                                           .ltr, // Right-to-left direction
+                                      textAlign: TextAlign.left,
                                     ),
                                   ),
                                 ),
@@ -206,9 +207,10 @@ class EnglishEntryan extends StatelessWidget {
                                   child: Align(
                                     alignment: Alignment.topLeft,
                                     child: Text(
-                                      "لە ڕۆژێکی پیرۆزدا چوومە ئەوێ",
+                                      "لە ڕۆژێکی پیرۆزدا چوومە ئەوێ.",
                                       textAlign: TextAlign
                                           .right, // Right-to-left direction
+                                      textDirection: TextDirection.rtl,
                                     ),
                                   ),
                                 ),
@@ -240,6 +242,7 @@ class EnglishEntryan extends StatelessWidget {
                                       "There's an animal on the street.",
                                       textDirection: TextDirection
                                           .ltr, // Right-to-left direction
+                                      textAlign: TextAlign.left,
                                     ),
                                   ),
                                 ),
@@ -248,9 +251,10 @@ class EnglishEntryan extends StatelessWidget {
                                   child: Align(
                                     alignment: Alignment.topLeft,
                                     child: Text(
-                                      "ئاژەڵێک لەسەر شەقامەکەیە",
+                                      "ئاژەڵێک لەسەر شەقامەکەیە.",
                                       textAlign: TextAlign
                                           .right, // Right-to-left direction
+                                      textDirection: TextDirection.rtl,
                                     ),
                                   ),
                                 ),
@@ -289,6 +293,7 @@ class EnglishEntryan extends StatelessWidget {
                                       "She's an atheist.",
                                       textDirection: TextDirection
                                           .ltr, // Right-to-left direction
+                                      textAlign: TextAlign.left,
                                     ),
                                   ),
                                 ),
@@ -297,9 +302,10 @@ class EnglishEntryan extends StatelessWidget {
                                   child: Align(
                                     alignment: Alignment.topLeft,
                                     child: Text(
-                                      "ئەو بێ‌دینە",
+                                      "ئەو بێ‌دینە.",
                                       textAlign: TextAlign
                                           .right, // Right-to-left direction
+                                      textDirection: TextDirection.rtl,
                                     ),
                                   ),
                                 ),
@@ -338,6 +344,7 @@ class EnglishEntryan extends StatelessWidget {
                                       "A lion is an animal.",
                                       textDirection: TextDirection
                                           .ltr, // Right-to-left direction
+                                      textAlign: TextAlign.left,
                                     ),
                                   ),
                                 ),
@@ -346,9 +353,10 @@ class EnglishEntryan extends StatelessWidget {
                                   child: Align(
                                     alignment: Alignment.topLeft,
                                     child: Text(
-                                      "شێر ئاژەڵێکە",
+                                      "شێر ئاژەڵێکە.",
                                       textAlign: TextAlign
                                           .right, // Right-to-left direction
+                                      textDirection: TextDirection.rtl,
                                     ),
                                   ),
                                 ),
@@ -387,6 +395,7 @@ class EnglishEntryan extends StatelessWidget {
                                       "an excellent knowledge of French",
                                       textDirection: TextDirection
                                           .ltr, // Right-to-left direction
+                                      textAlign: TextAlign.left,
                                     ),
                                   ),
                                 ),
@@ -395,9 +404,10 @@ class EnglishEntryan extends StatelessWidget {
                                   child: Align(
                                     alignment: Alignment.topLeft,
                                     child: Text(
-                                      "زانیارییەکی نایاب لە زمانی فەڕەنسی",
+                                      "زانیارییەکی نایاب لە زمانی فەڕەنسی.",
                                       textAlign: TextAlign
                                           .right, // Right-to-left direction
+                                      textDirection: TextDirection.rtl,
                                     ),
                                   ),
                                 ),
@@ -444,6 +454,7 @@ class EnglishEntryan extends StatelessWidget {
                                       "I have an apple.",
                                       textDirection: TextDirection
                                           .ltr, // Right-to-left direction
+                                      textAlign: TextAlign.left,
                                     ),
                                   ),
                                 ),
@@ -452,9 +463,10 @@ class EnglishEntryan extends StatelessWidget {
                                   child: Align(
                                     alignment: Alignment.topLeft,
                                     child: Text(
-                                      "سێوێکم ھەیە",
+                                      "سێوێکم ھەیە.",
                                       textAlign: TextAlign
                                           .right, // Right-to-left direction
+                                      textDirection: TextDirection.rtl,
                                     ),
                                   ),
                                 ),

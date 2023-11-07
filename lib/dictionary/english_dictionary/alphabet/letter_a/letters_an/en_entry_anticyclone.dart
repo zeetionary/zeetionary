@@ -212,6 +212,7 @@ class EnglishEntryanticyclone extends StatelessWidget {
 ١. (ناو) ئەنتی‌سایکلۆن؛ ناوچەیەکی پەستان بەرز کە کەشوھەوایەکی ھێمن و ئاسمانێکی ڕوونی ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryanticyclone extends StatelessWidget {
                                     "The anticyclone brought bright sunshine and calm conditions to most areas.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryanticyclone extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دژە-زریانەکە تیشکی ڕوون و کەشی ھێمنی ھێنا بۆ زۆرێک لە ناوچەکان",
+                                    "دژە-زریانەکە تیشکی ڕوون و کەشی ھێمنی ھێنا بۆ زۆرێک لە ناوچەکان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

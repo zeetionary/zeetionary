@@ -166,6 +166,7 @@ class EnglishEntryambition extends StatelessWidget {
 ١. (ناو) شتێک کە دەتەوێت بیکەیت یان بەدەستی بھێنیت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryambition extends StatelessWidget {
                                     "At last he had realized his life's ambition.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -187,9 +189,10 @@ class EnglishEntryambition extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەکۆتاییدا لە ئامانجەکانی ژیانی تێگەشت",
+                                    "لەکۆتاییدا لە ئامانجەکانی ژیانی تێگەشت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -223,6 +226,7 @@ class EnglishEntryambition extends StatelessWidget {
                                     "He had only one ambition in life.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +238,10 @@ class EnglishEntryambition extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یەک ئامانجی لە ژیاندا ھەبوو",
+                                    "یەک ئامانجی لە ژیاندا ھەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -267,6 +272,7 @@ class EnglishEntryambition extends StatelessWidget {
 ٢. (ناو) ئاوات‌خواستن بە پارە و دەسەڵات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -277,6 +283,7 @@ class EnglishEntryambition extends StatelessWidget {
                                     "She was driven by personal ambition.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -291,6 +298,7 @@ class EnglishEntryambition extends StatelessWidget {
                                     "بە حەز و ئارەزووی خۆی ھەڵدەسووڕا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

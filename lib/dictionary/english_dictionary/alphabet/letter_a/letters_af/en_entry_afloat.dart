@@ -181,6 +181,7 @@ class EnglishEntryafloat extends StatelessWidget {
 ١. (ھاوەڵناو) سەرئاوکەوتوو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -191,6 +192,7 @@ class EnglishEntryafloat extends StatelessWidget {
                                     "They were struggling to keep the boat afloat.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -199,9 +201,10 @@ class EnglishEntryafloat extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەقەلایان بوو بۆ ئەوەی بەلەمەکە سەراوکەوتە بھێڵنەوە",
+                                    "تەقەلایان بوو بۆ ئەوەی بەلەمەکە سەراوکەوتە بھێڵنەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -232,6 +235,7 @@ class EnglishEntryafloat extends StatelessWidget {
 ٢. (ھاوەڵناو) ھەبوونی بەشی پێویست پارە بۆ دانەوەی قەرزەکانی کۆمپانیایەک و توانای مانەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -242,6 +246,7 @@ class EnglishEntryafloat extends StatelessWidget {
                                     "Many small businesses are struggling to stay afloat.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -250,9 +255,10 @@ class EnglishEntryafloat extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژمارەیەکی زۆر بزنسی بچووک تەقەلایانە ئیفلاس نەکەن",
+                                    "ژمارەیەکی زۆر بزنسی بچووک تەقەلایانە ئیفلاس نەکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

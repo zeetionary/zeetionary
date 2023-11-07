@@ -236,6 +236,7 @@ class EnglishEntryamnesia extends StatelessWidget {
 ١. (ناو) بارێکی تەندرووستی کە تێیدا کەسێک بەشێک یان تەواوی بیروھۆشی لەدەستدەدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -246,6 +247,7 @@ class EnglishEntryamnesia extends StatelessWidget {
                                     "After the accident he suffered periods of amnesia.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -257,9 +259,10 @@ class EnglishEntryamnesia extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەدوای ڕووداوەکە تووشی بیرنەمایی ماوە ماوە دەبوو",
+                                    "لەدوای ڕووداوەکە تووشی بیرنەمایی ماوە ماوە دەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

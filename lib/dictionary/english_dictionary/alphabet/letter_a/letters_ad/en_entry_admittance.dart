@@ -164,6 +164,7 @@ class EnglishEntryadmittance extends StatelessWidget {
 ١. (ناو) ماف یان کردای چوونە ناو شوێنێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadmittance extends StatelessWidget {
                                     "He was refused admittance into the country.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadmittance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێگەی پێ نەدرا بچێتە ناو وڵاتەکەوە",
+                                    "ڕێگەی پێ نەدرا بچێتە ناو وڵاتەکەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

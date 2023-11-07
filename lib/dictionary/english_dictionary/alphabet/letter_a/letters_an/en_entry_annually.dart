@@ -213,6 +213,7 @@ class EnglishEntryannually extends StatelessWidget {
 ١. (ھاوەڵکار) ئەنجامدانی شتێک ساڵی جارێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryannually extends StatelessWidget {
                                     "The exhibition is held annually.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryannually extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێشانگاکە ساڵی جارێک ئەنجام‌دەدرێت",
+                                    "پێشانگاکە ساڵی جارێک ئەنجام‌دەدرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

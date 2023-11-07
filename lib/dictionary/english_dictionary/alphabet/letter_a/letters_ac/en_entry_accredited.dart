@@ -157,6 +157,7 @@ class EnglishEntryaccredited extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە بە فەرمی ناسێنراوە وەک شتێک، یان شتێک کە بە کوالێتی باش ناسراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryaccredited extends StatelessWidget {
                                     "Only accredited journalists were allowed entry.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -175,9 +177,10 @@ class EnglishEntryaccredited extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەنھا ڕۆژنامەنووسانی جێباوەڕ ڕێگەیان پێدرا بچنەژوورەوە",
+                                    "تەنھا ڕۆژنامەنووسانی جێباوەڕ ڕێگەیان پێدرا بچنەژوورەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -209,6 +212,7 @@ class EnglishEntryaccredited extends StatelessWidget {
                                     "The university was the most accredited around the country.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -217,9 +221,10 @@ class EnglishEntryaccredited extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زانکۆکە لە ھەموو ئەوانی تر زیاتر باوەڕپێکراو بوو لە وڵاتەکە",
+                                    "زانکۆکە لە ھەموو ئەوانی تر زیاتر باوەڕپێکراو بوو لە وڵاتەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

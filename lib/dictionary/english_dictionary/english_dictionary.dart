@@ -783,13 +783,13 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "antisocial",
     "antithesis",
     "antler",
-    // "antonym",
-    // "anus",
-    // "anvil",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
+    "antonym",
+    "anus",
+    "anvil",
+    "anxiety",
+    "anxious",
+    "anxiously",
+    "any",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
@@ -4105,34 +4105,34 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-antler');
                   }
-                  // if (wordsEnglish == "antonym") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-antonym');
-                  // }
-                  // if (wordsEnglish == "anus") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-anus');
-                  // }
-                  // if (wordsEnglish == "anvil") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-anvil');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
+                  if (wordsEnglish == "antonym") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-antonym');
+                  }
+                  if (wordsEnglish == "anus") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anus');
+                  }
+                  if (wordsEnglish == "anvil") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anvil');
+                  }
+                  if (wordsEnglish == "anxiety") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anxiety');
+                  }
+                  if (wordsEnglish == "anxious") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anxious');
+                  }
+                  if (wordsEnglish == "anxiously") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anxiously');
+                  }
+                  if (wordsEnglish == "any") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-any');
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');

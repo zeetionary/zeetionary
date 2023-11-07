@@ -164,6 +164,7 @@ class EnglishEntryagitator extends StatelessWidget {
 ١. (ناو) کەسێک کە ھەوڵ دەدات خەڵکی ڕازی بکات بەژداری ناڕەزایی بکەن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryagitator extends StatelessWidget {
                                     "It is thought that the strike was the work of undercover political agitators.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryagitator extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "باوەڕ وایە مانگرتنەکە کاری ئاژاوەگێڕە نھێنییە سیاسییەکان بوو",
+                                    "باوەڕ وایە مانگرتنەکە کاری ئاژاوەگێڕە نھێنییە سیاسییەکان بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

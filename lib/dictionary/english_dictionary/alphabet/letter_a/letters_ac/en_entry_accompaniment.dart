@@ -166,6 +166,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
 ١. (ناو) میوزیکیەک کە لەگەڵ گۆرانی لی ئەدرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                                     "a song with piano accompaniment",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گۆرانییەک بە میوزیکوە لەگەڵی",
+                                    "گۆرانییەک بە میوزیکوە لەگەڵی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -215,6 +218,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
 ٢. (ناو) شتێک کە لەگەڵ شتێکی تر دەیخۆیت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -225,6 +229,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                                     "Serve plain rice as an accompaniment.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +238,10 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "برنجی سادە دابنێ وەک پاشکۆ",
+                                    "برنجی سادە دابنێ وەک پاشکۆ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -264,6 +270,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
 ٣. (ناو) شتێک کە لەگەڵ شتێکی تر ڕوودەدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -274,6 +281,7 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                                     "High blood pressure is a common accompaniment to this disease.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -282,9 +290,10 @@ class EnglishEntryaccompaniment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پەستانی بەرزی خوێن زۆرجار لەگەڵ ئەم نەخۆشیە دەبێت",
+                                    "پەستانی بەرزی خوێن زۆرجار لەگەڵ ئەم نەخۆشیە دەبێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

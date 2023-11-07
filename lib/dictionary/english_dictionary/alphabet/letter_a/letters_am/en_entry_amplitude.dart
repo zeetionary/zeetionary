@@ -213,6 +213,7 @@ class EnglishEntryamplitude extends StatelessWidget {
 ١. (ناو) زۆرترین ماوەی کشانی شەپۆلێکی دەنگی یان ڕادیۆیی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryamplitude extends StatelessWidget {
                                     "Sound waves are measured by their amplitude.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryamplitude extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شەپۆلی دەنگی بەپێی کشانیان دەپێورێن",
+                                    "شەپۆلی دەنگی بەپێی کشانیان دەپێورێن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -268,6 +271,7 @@ class EnglishEntryamplitude extends StatelessWidget {
 ٢. (ناو) بڕێکی زۆر، یان مەودایەکی فراوان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -278,6 +282,7 @@ class EnglishEntryamplitude extends StatelessWidget {
                                     "The sheer amplitude of the novel invites comparisons with Tolstoy.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -289,9 +294,10 @@ class EnglishEntryamplitude extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەربڵاویی فراوانی ڕۆمانەکە وادەکات بەوانەی تۆڵستۆی بەراورد بکرێت",
+                                    "بەربڵاویی فراوانی ڕۆمانەکە وادەکات بەوانەی تۆڵستۆی بەراورد بکرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -166,6 +166,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
 ١. (کردار) گرێدراو بە شتێکەوە، بوون بە بەشێک لە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
                                     "The group is not affiliated to any political party.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryaffiliate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گرووپەکە گرێدراو نییە بە ھیچ پارتێکی سیاسییەوە",
+                                    "گرووپەکە گرێدراو نییە بە ھیچ پارتێکی سیاسییەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -220,6 +223,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
                                     "The hospital is affiliated with the university.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -228,9 +232,10 @@ class EnglishEntryaffiliate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نەخۆشخانەکە گرێدراو نییە بە زانکۆکەوە",
+                                    "نەخۆشخانەکە گرێدراو نییە بە زانکۆکەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -261,6 +266,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
 ٢. (ناو) کۆمپانیایەک یان دامەزراوەیەک کە بەشێکە لە یەکێکی گەورەتر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -271,6 +277,7 @@ class EnglishEntryaffiliate extends StatelessWidget {
                                     "Our college is an affiliate of the university.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -279,9 +286,10 @@ class EnglishEntryaffiliate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کۆلێژەکەمان بەشێکە لە زانکۆکە",
+                                    "کۆلێژەکەمان بەشێکە لە زانکۆکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

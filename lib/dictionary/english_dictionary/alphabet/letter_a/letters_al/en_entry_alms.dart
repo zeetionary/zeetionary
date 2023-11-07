@@ -164,6 +164,7 @@ class EnglishEntryalms extends StatelessWidget {
 ١. (ناو) پارە و خواردن و خۆراک کە دەدرێت بە ھەژاران''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalms extends StatelessWidget {
                                     "In the past, people thought it was their religious duty to give alms to the poor.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalms extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جاران خەڵکی وایان دەزانی ئەرکی ئاینییانە پارە بە ھەژاران بدەن",
+                                    "جاران خەڵکی وایان دەزانی ئەرکی ئاینییانە پارە بە ھەژاران بدەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

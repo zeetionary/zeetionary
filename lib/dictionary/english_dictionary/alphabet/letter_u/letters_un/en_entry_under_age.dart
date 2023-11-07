@@ -163,6 +163,7 @@ class EnglishEntryunderage extends StatelessWidget {
 ١. (ئیدیەم) لەخوار تەمەنی یاسایی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryunderage extends StatelessWidget {
                                     "It is illegal to sell cigarettes to children who are under age.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryunderage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "قەدەغەیە جگەرە بە کەسانی منداڵ بفرۆشیت",
+                                    "قەدەغەیە جگەرە بە کەسانی منداڵ بفرۆشیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

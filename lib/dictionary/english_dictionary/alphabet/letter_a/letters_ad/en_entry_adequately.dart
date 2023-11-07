@@ -162,6 +162,7 @@ class EnglishEntryadequately extends StatelessWidget {
 ١. (ھاوەڵکار) بەپێی پێویست''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryadequately extends StatelessWidget {
                                     "While some patients can be adequately cared for at home, others are best served by care in a hospital.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -180,9 +182,10 @@ class EnglishEntryadequately extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەگەرچی ھەندێک نەخۆش لەوانەیە بتواندرێت بەپێی پێویست لە ماڵەوە چاودێری بکرێن، ئەوانی تر باشتر خزمەت دەکرێن لە نەخۆشخانە",
+                                    "ئەگەرچی ھەندێک نەخۆش لەوانەیە بتواندرێت بەپێی پێویست لە ماڵەوە چاودێری بکرێن، ئەوانی تر باشتر خزمەت دەکرێن لە نەخۆشخانە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

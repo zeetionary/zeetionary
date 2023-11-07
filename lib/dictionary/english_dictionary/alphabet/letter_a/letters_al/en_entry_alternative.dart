@@ -175,6 +175,7 @@ class EnglishEntryalternative extends StatelessWidget {
 ١. (ناو) شتێک کە دەیکەیت یان ھەڵیدەبژێریت کاتێک زیاتر لە یەک ھەڵبژاردەت ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -185,6 +186,7 @@ class EnglishEntryalternative extends StatelessWidget {
                                     "The car is too expensive so we're trying to find a cheaper alternative.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -196,9 +198,10 @@ class EnglishEntryalternative extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئۆتۆمبێلەکە زۆر گرانە بۆیە ھەوڵ دەدەین جێگرەوەیەکی ھەرزانتر بدۆزینەوە",
+                                    "ئۆتۆمبێلەکە زۆر گرانە بۆیە ھەوڵ دەدەین جێگرەوەیەکی ھەرزانتر بدۆزینەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -232,6 +235,7 @@ class EnglishEntryalternative extends StatelessWidget {
                                     "We had no alternative but to fire Gibson.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -243,9 +247,10 @@ class EnglishEntryalternative extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھیچ ھەڵبژاردەیەکمان نەبوو جگە لە دەرکردنی گیبسن لە کارەکەی",
+                                    "ھیچ ھەڵبژاردەیەکمان نەبوو جگە لە دەرکردنی گیبسن لە کارەکەی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -276,6 +281,7 @@ class EnglishEntryalternative extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە دەکرێت جێگرەوە بێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -286,6 +292,7 @@ class EnglishEntryalternative extends StatelessWidget {
                                     "The road was closed so we had to find an alternative route.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -297,9 +304,10 @@ class EnglishEntryalternative extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێگاکە گیرابوو، بۆیە ناچاربووین یەکێکی دیکە بدۆزینەوە",
+                                    "ڕێگاکە گیرابوو، بۆیە ناچاربووین یەکێکی دیکە بدۆزینەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -330,6 +338,7 @@ class EnglishEntryalternative extends StatelessWidget {
 ٣. (ھاوەڵناو) ئەو شتانەی کە باو نین بەڵام ڕێژەیەکی کەمی شوێنکەوتووی وابەستە بەخۆیان ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -340,6 +349,7 @@ class EnglishEntryalternative extends StatelessWidget {
                                     "In Los Angeles many companies encourage their employees to use alternative means of transportation, rather than the car.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -354,6 +364,7 @@ class EnglishEntryalternative extends StatelessWidget {
                                     "لە لۆس ئەنجلس زۆر کۆمپانیا کارمەندانیان ھاندەدەن کە ڕێگای دیکەی گواستنەوە بەکاربێنن لە جیاتی ئۆتۆمبێل",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

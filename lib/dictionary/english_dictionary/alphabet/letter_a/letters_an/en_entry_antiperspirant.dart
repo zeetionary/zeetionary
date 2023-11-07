@@ -216,6 +216,7 @@ class EnglishEntryantiperspirant extends StatelessWidget {
 ١. (ناو) مادەیەک کە بەکاردێت دژ بە ئارەق، بەتایبەتی لەژێر باڵ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +227,7 @@ class EnglishEntryantiperspirant extends StatelessWidget {
                                     "Antiperspirant can make you more comfortable on hot days.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -237,9 +239,10 @@ class EnglishEntryantiperspirant extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە ڕۆژانی گەرمدا دژە-بۆن دەکرێت وابکات زیاتر ئاسوودە بیت",
+                                    "لە ڕۆژانی گەرمدا دژە-بۆن دەکرێت وابکات زیاتر ئاسوودە بیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

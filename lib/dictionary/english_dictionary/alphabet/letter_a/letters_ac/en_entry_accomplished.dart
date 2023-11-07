@@ -139,6 +139,7 @@ class EnglishEntryaccomplished extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی ژمارەیەکی زۆر شارەزایی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -149,6 +150,7 @@ class EnglishEntryaccomplished extends StatelessWidget {
                                     "She was an elegant and accomplished woman.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -157,9 +159,10 @@ class EnglishEntryaccomplished extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژنێکی ڕێکپۆش و کارامە بوو بوو",
+                                    "ژنێکی ڕێکپۆش و کارامە بوو بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

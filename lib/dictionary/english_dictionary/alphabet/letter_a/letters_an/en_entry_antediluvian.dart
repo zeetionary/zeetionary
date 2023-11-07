@@ -214,6 +214,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
 ١. (ھاوەڵناو) کۆنەپەرست''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +225,7 @@ class EnglishEntryantediluvian extends StatelessWidget {
                                     "My mother has some hopelessly antediluvian ideas about the role of women.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +237,10 @@ class EnglishEntryantediluvian extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دایکم ھەندێک بیرۆکەی کۆنەپەرستانەی نائومێدکەری ھەیە دەربارەی ئەرکی ژنان",
+                                    "دایکم ھەندێک بیرۆکەی کۆنەپەرستانەی نائومێدکەری ھەیە دەربارەی ئەرکی ژنان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

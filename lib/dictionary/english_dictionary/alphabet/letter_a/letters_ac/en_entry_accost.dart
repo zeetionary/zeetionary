@@ -146,6 +146,7 @@ class EnglishEntryaccost extends StatelessWidget {
 ١. چوون بۆ لای کەسێک و قسەکردن لەگەڵی بەشێوەیەکی بێڕێزانە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -156,6 +157,7 @@ class EnglishEntryaccost extends StatelessWidget {
                                     "She was accosted in the street by a complete stranger.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -167,6 +169,7 @@ class EnglishEntryaccost extends StatelessWidget {
                                     "لەلایەن بێگانەیەکەوە لەسەر شەقام قسەیپێکرا ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

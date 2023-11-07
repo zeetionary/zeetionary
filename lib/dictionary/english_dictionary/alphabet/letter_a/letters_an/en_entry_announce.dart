@@ -215,6 +215,7 @@ class EnglishEntryannounce extends StatelessWidget {
 ١. (کردار) بە فەرمی ڕاگەیاندنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -225,6 +226,7 @@ class EnglishEntryannounce extends StatelessWidget {
                                     "We are pleased to announce that all five candidates were successful.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -236,9 +238,10 @@ class EnglishEntryannounce extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خۆشحاڵین بە ڕاگەیاندنی ئەوەی ھەر پێنج کاندیدەکە سەرکەوتووبوون",
+                                    "خۆشحاڵین بە ڕاگەیاندنی ئەوەی ھەر پێنج کاندیدەکە سەرکەوتووبوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -273,6 +276,7 @@ class EnglishEntryannounce extends StatelessWidget {
                                     "The government yesterday announced to the media plans to create a million new jobs.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -284,9 +288,10 @@ class EnglishEntryannounce extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دوێنێ حکومەت پلانی ڕەخساندنی یەک ملیۆن ھەلی کاری بە میدیا ڕاگەیاند",
+                                    "دوێنێ حکومەت پلانی ڕەخساندنی یەک ملیۆن ھەلی کاری بە میدیا ڕاگەیاند.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -318,6 +323,7 @@ class EnglishEntryannounce extends StatelessWidget {
 ٢. (کردار) پێدانی زانیاری بە خەڵکی، زۆرجار لە ڕێگەی بڵیندگۆوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -328,6 +334,7 @@ class EnglishEntryannounce extends StatelessWidget {
                                     "Has our flight been announced yet?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -342,6 +349,7 @@ class EnglishEntryannounce extends StatelessWidget {
                                     "گەشتەکەمان ڕاگەیەندراوە؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -373,6 +381,7 @@ class EnglishEntryannounce extends StatelessWidget {
 ٣. (کردار) وتنی شتێک بە دەنگی بەرز''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -383,6 +392,7 @@ class EnglishEntryannounce extends StatelessWidget {
                                     "She announced that she'd given up drinking.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -394,9 +404,10 @@ class EnglishEntryannounce extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕایگەیاند وازی لە خواردنەوە ھێنا",
+                                    "ڕایگەیاند وازی لە خواردنەوە ھێنا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -428,6 +439,7 @@ class EnglishEntryannounce extends StatelessWidget {
 ٤. (کردار) ڕاگەیاندنی ناوی خۆت یان کەسێک کە دەگاتە شوێنێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -438,6 +450,7 @@ class EnglishEntryannounce extends StatelessWidget {
                                     "He announced the guests as they arrived. (= called out their names, for example at a formal party)",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -449,9 +462,10 @@ class EnglishEntryannounce extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھاتنی میوانەکانی ڕاگەیاند کە گەشتن",
+                                    "ھاتنی میوانەکانی ڕاگەیاند کە گەشتن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

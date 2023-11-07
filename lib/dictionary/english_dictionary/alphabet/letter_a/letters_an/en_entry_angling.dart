@@ -210,6 +210,7 @@ class EnglishEntryangling extends StatelessWidget {
 ١. (ناو) ماسیگری، ڕاوەماسی؛ چوون بۆ ڕاوەماسی بە قولاب، زیاتر بۆ خۆشی یان وەک وەرزش''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -220,6 +221,7 @@ class EnglishEntryangling extends StatelessWidget {
                                     "On weekends, they often go angling by the lake.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -231,9 +233,10 @@ class EnglishEntryangling extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە ڕۆژانی کۆتایی ھەفتە زۆرجار  دەچوون بۆ ڕاوەماسی لە دەریاچەکە",
+                                    "لە ڕۆژانی کۆتایی ھەفتە زۆرجار  دەچوون بۆ ڕاوەماسی لە دەریاچەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -182,6 +182,7 @@ class EnglishEntryalliance extends StatelessWidget {
 ١. (ناو) ڕێککەوتنێک لەنێوان دوو وڵات یان دوو لایەن بۆ بەدەستھێنانی شتێک کە ھەموویان بە ھاوبەشی دەیانەوێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -192,6 +193,7 @@ class EnglishEntryalliance extends StatelessWidget {
                                     "The government has tried to forge alliances with environmentalists.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -203,9 +205,10 @@ class EnglishEntryalliance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حکومەت ھەوڵیداوە ھاوپەیمانییەک لەگەڵ ژینگەدۆستان ببەستێت",
+                                    "حکومەت ھەوڵیداوە ھاوپەیمانییەک لەگەڵ ژینگەدۆستان ببەستێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -239,6 +242,7 @@ class EnglishEntryalliance extends StatelessWidget {
                                     "The marriage was meant to cement the alliance between the two countries.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -250,9 +254,10 @@ class EnglishEntryalliance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئامانج لە ھاوسەرگیرییەکە ئەوەبوو ھاوپەیمانی لەنێوان دوو وڵاتەکە پتەو بکات",
+                                    "ئامانج لە ھاوسەرگیرییەکە ئەوەبوو ھاوپەیمانی لەنێوان دوو وڵاتەکە پتەو بکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -283,6 +288,7 @@ class EnglishEntryalliance extends StatelessWidget {
 ٢. (ناو) کۆمەڵە وڵاتێک یان لایەنێک کە ڕێککەوتنێک ھەیە لەنێوانیان بۆ بەدەستھێنانی شتێک کە ھەموویان بە ھاوبەشی دەیانەوێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -293,6 +299,7 @@ class EnglishEntryalliance extends StatelessWidget {
                                     "Seven more countries have been invited to join the alliance.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -304,9 +311,10 @@ class EnglishEntryalliance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حەوت وڵاتی دیکە بانگھێشتکراون پەیوەندی بە ھاوپەیمانییەکەوە بکەن",
+                                    "حەوت وڵاتی دیکە بانگھێشتکراون پەیوەندی بە ھاوپەیمانییەکەوە بکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

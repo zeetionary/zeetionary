@@ -213,6 +213,7 @@ class EnglishEntryample extends StatelessWidget {
 ١. (ھاوەڵناو) بەشی پێویست، یان زیاتر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryample extends StatelessWidget {
                                     "There was ample time to get to the airport.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryample extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کاتی پێویست ھەبوو بۆ گەشتن بە فڕۆکەخانەکە",
+                                    "کاتی پێویست ھەبوو بۆ گەشتن بە فڕۆکەخانەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -268,6 +271,7 @@ class EnglishEntryample extends StatelessWidget {
 ٢. (ھاوەڵناو) کەسێک کە جەستەیەکی گەورە و پتو و جوانی ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -278,6 +282,7 @@ class EnglishEntryample extends StatelessWidget {
                                     "These clothes belonged to a man of more ample girth.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -289,9 +294,10 @@ class EnglishEntryample extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم جلانە ھی پیاوێکی کەمەر زل‌ترە",
+                                    "ئەم جلانە ھی پیاوێکی کەمەر زل‌ترە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

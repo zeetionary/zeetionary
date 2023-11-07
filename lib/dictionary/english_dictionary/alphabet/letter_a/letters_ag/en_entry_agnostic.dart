@@ -165,6 +165,7 @@ class EnglishEntryagnostic extends StatelessWidget {
 ١. (ناو) کەسێک کە باوەڕی وایە ناتوانرێت بزانرێت خودا بوونی ھەیە یان نا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryagnostic extends StatelessWidget {
                                     "Although he was raised a Catholic, he was an agnostic for most of his adult life.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryagnostic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەگەرچی وەک کاسۆلیکێک گەورە کرا، بەڵام زۆرینەی تەمەنی پێگەشتوویی وەک ئەگنۆستیکێک بەسەربرد",
+                                    "ئەگەرچی وەک کاسۆلیکێک گەورە کرا، بەڵام زۆرینەی تەمەنی پێگەشتوویی وەک ئەگنۆستیکێک بەسەربرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryagnostic extends StatelessWidget {
 ٢. (ھاوەڵناو) ھەڵگری باوەڕی ئەگنۆستیکس''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -229,6 +233,7 @@ class EnglishEntryagnostic extends StatelessWidget {
                                     "Whether we are religious, atheist, or agnostic, there are some moral values we all share.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,9 +245,10 @@ class EnglishEntryagnostic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەوەی کە ئایینی، بێدین، یان ئەگنۆستیک بوو نازانرێت",
+                                    "ئەوەی کە ئایینی، بێدین، یان ئەگنۆستیک بوو نازانرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

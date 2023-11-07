@@ -137,6 +137,7 @@ class EnglishEntryaccrue extends StatelessWidget {
 ١. (کردار) زیادکردنی بەتێپەڕبوونی کات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -147,6 +148,7 @@ class EnglishEntryaccrue extends StatelessWidget {
                                     "By the time they leave, they'll have accrued a year's holiday pay.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -155,9 +157,10 @@ class EnglishEntryaccrue extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تا ئەوکاتەی دەڕۆن، بەشی پشوویەکی یەک ساڵە پارە کۆدەکەنەوە",
+                                    "تا ئەوکاتەی دەڕۆن، بەشی پشوویەکی یەک ساڵە پارە کۆدەکەنەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

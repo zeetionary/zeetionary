@@ -140,6 +140,7 @@ class EnglishEntryabnormality extends StatelessWidget {
 ١. (ناو) تایبەتمەندییەکی کەسێک یان شتێک کە ئاسایی نییە و زیانی ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -150,6 +151,7 @@ class EnglishEntryabnormality extends StatelessWidget {
                                     "miscarriage can be caused by fetal abnormality",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -158,9 +160,10 @@ class EnglishEntryabnormality extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەبارچوون ئەکرێت ڕووبدات بەھۆی نائاساییبوونی ئاوڵەمە",
+                                    "لەبارچوون ئەکرێت ڕووبدات بەھۆی نائاساییبوونی ئاوڵەمە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

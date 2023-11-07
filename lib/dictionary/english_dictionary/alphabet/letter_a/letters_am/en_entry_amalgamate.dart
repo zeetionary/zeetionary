@@ -164,6 +164,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
 ١. (کردار) یەکگرتن بۆ درووستکردنی شتێکی گەورەتر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                     "A number of colleges have amalgamated to form the new university.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژمارەیەک کۆلێژ یەکیان گرتووە بۆ درووستکردنی زانکۆ تازەکە",
+                                    "ژمارەیەک کۆلێژ یەکیان گرتووە بۆ درووستکردنی زانکۆ تازەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -221,6 +224,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                     "They decided to amalgamate the two schools.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +236,10 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بڕیاریاندا دوو قوتابخانەکە یەکبخەن",
+                                    "بڕیاریاندا دوو قوتابخانەکە یەکبخەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -265,6 +270,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
 ٢. (کردار) یەکخستنی دوو شت یان زیاتر بۆ درووستکردنی یەک شت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -275,6 +281,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                     "This information will be amalgamated with information obtained earlier.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -289,6 +296,7 @@ class EnglishEntryamalgamate extends StatelessWidget {
                                     "ئەم زانیارییە یەکدەخرێت لەگەڵ زانیاری پێشووتر بەدەستھێنراو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

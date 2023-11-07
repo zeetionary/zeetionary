@@ -162,6 +162,7 @@ class EnglishEntryadulterous extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە پەیوەنسییەکی نابەجێ کە لە دەرەوەی ھاوسەرگیرییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryadulterous extends StatelessWidget {
                                     "He had an adulterous relationship with his wife's best friend.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -180,9 +182,10 @@ class EnglishEntryadulterous extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پەیوەندی نابەجێی جەستەیی ھەبوو لەگەڵ باشترین ھاوڕێی ژنەکەی",
+                                    "پەیوەندی نابەجێی جەستەیی ھەبوو لەگەڵ باشترین ھاوڕێی ژنەکەی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

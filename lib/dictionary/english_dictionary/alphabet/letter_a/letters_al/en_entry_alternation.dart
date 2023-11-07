@@ -164,6 +164,7 @@ class EnglishEntryalternation extends StatelessWidget {
 ١. (ناو) ڕودانی دوو شت بەدوای یەکدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalternation extends StatelessWidget {
                                     "The alternation of sun and snow continued for the rest of the week.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalternation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نۆرەکاری خۆرەتاو و بەفربارین بەردەوام بوو تا کۆتایی ھەفتەکە",
+                                    "نۆرەکاری خۆرەتاو و بەفربارین بەردەوام بوو تا کۆتایی ھەفتەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

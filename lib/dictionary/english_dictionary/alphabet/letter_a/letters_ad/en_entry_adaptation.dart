@@ -165,6 +165,7 @@ class EnglishEntryadaptation extends StatelessWidget {
 ١. (ناو) پڕۆسەی ڕاھاتن لەگەڵ بارودۆخێکی تازە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryadaptation extends StatelessWidget {
                                     "The process of adaptation to a new school is difficult for some children.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryadaptation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پڕۆسەی ڕاھاتن بە قوتابخانەیەکی یازە بۆ ھەندێک منداڵ ئاسان نییە",
+                                    "پڕۆسەی ڕاھاتن بە قوتابخانەیەکی یازە بۆ ھەندێک منداڵ ئاسان نییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryadaptation extends StatelessWidget {
 ٢. (ناو) فیلمێک، درامەیەک، یان شانۆیەک کە پشتی ب کتێبێک یان شانۆیەک بەستووە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +230,7 @@ class EnglishEntryadaptation extends StatelessWidget {
                                     "a screen adaptation of Shakespeare’s ‘Macbeth’",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -237,6 +242,7 @@ class EnglishEntryadaptation extends StatelessWidget {
                                     "سازاندنی فیلمیی ماکبێسی شکسپیر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

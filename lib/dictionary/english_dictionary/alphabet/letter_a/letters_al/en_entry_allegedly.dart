@@ -164,6 +164,7 @@ class EnglishEntryallegedly extends StatelessWidget {
 ١. (ھاوەڵکار) بەپێی ئەوەی بانگەشە دەکرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryallegedly extends StatelessWidget {
                                     "She was arrested for allegedly stealing a car.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryallegedly extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەستگیرکرا بەھۆی ئەوە بانگەشە دەکرێت ئۆتۆمبێلێکی دزی بێت",
+                                    "دەستگیرکرا بەھۆی ئەوە بانگەشە دەکرێت ئۆتۆمبێلێکی دزی بێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

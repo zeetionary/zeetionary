@@ -165,6 +165,7 @@ class EnglishEntryalcohol extends StatelessWidget {
 ١. (ناو) خواردنەوەی وەک بیرە و شەراب کە دەبێتەھۆی سەرخۆش بوون''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryalcohol extends StatelessWidget {
                                     "He was unable to overcome his addiction to alcohol.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -189,6 +191,7 @@ class EnglishEntryalcohol extends StatelessWidget {
                                     "نەیدەتوانی زاڵ ببێت بەسەر ئاڵوودەیی بە کحوول",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryalcohol extends StatelessWidget {
 ٢. (ناو) ئەو مادە شلەییەی کە لە خواردنەوەکانی وەک بیرە و شەرابدا ھەیە و بەکاردێت لە دەرمان و بەرھەمەکانی پاککردنەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -229,6 +233,7 @@ class EnglishEntryalcohol extends StatelessWidget {
                                     "Wine contains about 10% alcohol.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,9 +245,10 @@ class EnglishEntryalcohol extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بیرە ڕێژەی ١٠٪ کحولی تێدایە",
+                                    "بیرە ڕێژەی ١٠٪ کحولی تێدایە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

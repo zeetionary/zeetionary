@@ -165,6 +165,7 @@ class EnglishEntryagency extends StatelessWidget {
 ١. (ناو) دامەزراوەیەک کە خزمەتگوزارییەک پێشکەش دەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryagency extends StatelessWidget {
                                     "She works for an surveillance agency.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryagency extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ دەزگایەکی چاودێری کاردەکات",
+                                    "بۆ دەزگایەکی چاودێری کاردەکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryagency extends StatelessWidget {
 ٢. (ناو) فەرمانگەیەکی حکومەت کە خزمەتگوزارییەکی دیاریکراو پێشکەش دەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -229,6 +233,7 @@ class EnglishEntryagency extends StatelessWidget {
                                     "Some laboratories are operated by government agencies.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,9 +245,10 @@ class EnglishEntryagency extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەندێک تاقیگە لەلایەن فەرمانگەکانی حکومەتەوە بەڕێوەدەبردرێن",
+                                    "ھەندێک تاقیگە لەلایەن فەرمانگەکانی حکومەتەوە بەڕێوەدەبردرێن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

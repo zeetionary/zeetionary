@@ -164,6 +164,7 @@ class EnglishEntryallin extends StatelessWidget {
 ١. (ھاوەڵناو) لەخۆگرتنی تەواوی خەرجییەکان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryallin extends StatelessWidget {
                                     "The all-in holiday includes fares, full board and entrance to museums.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryallin extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پشووەکە کرێی گواستنەوە و ژەمە خواردنەکان و چوونە مۆزەخانەکان لەخۆدەگرێت",
+                                    "پشووەکە کرێی گواستنەوە و ژەمە خواردنەکان و چوونە مۆزەخانەکان لەخۆدەگرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

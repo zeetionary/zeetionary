@@ -165,6 +165,7 @@ class EnglishEntryaddict extends StatelessWidget {
 ١. (ناو) کەسێک کە ناتوانێت دەستبەرداری شتێک بێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryaddict extends StatelessWidget {
                                     "Many young boys become computer addicts.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryaddict extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژمارەیەکی زۆر لە کوڕانی گەنج ئاڵوودەی کۆمپیوتەر دەبن",
+                                    "ژمارەیەکی زۆر لە کوڕانی گەنج ئاڵوودەی کۆمپیوتەر دەبن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryaddict extends StatelessWidget {
                                     "He used to be a drug addict for years.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -227,9 +231,10 @@ class EnglishEntryaddict extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جاران بۆ ماوەیەکی زۆر ئاڵوودەی مادەی ھۆشبەر بوو",
+                                    "جاران بۆ ماوەیەکی زۆر ئاڵوودەی مادەی ھۆشبەر بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

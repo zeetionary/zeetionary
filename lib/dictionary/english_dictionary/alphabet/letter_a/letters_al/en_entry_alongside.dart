@@ -166,6 +166,7 @@ class EnglishEntryalongside extends StatelessWidget {
 ١. (ھاوەڵکار) شان بە شان یان لە تەنیشت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryalongside extends StatelessWidget {
                                     "Nick caught up with me and rode alongside.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -187,9 +189,10 @@ class EnglishEntryalongside extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نیک گەشتەوە پێم و شان بە شانم لێیخوڕی",
+                                    "نیک گەشتەوە پێم و شان بە شانم لێیخوڕی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -220,6 +223,7 @@ class EnglishEntryalongside extends StatelessWidget {
 ٢. (ئامراز) لە تەنیشت، یان لەگەڵ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -230,6 +234,7 @@ class EnglishEntryalongside extends StatelessWidget {
                                     "The new pill will be used alongside existing medicines.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -241,9 +246,10 @@ class EnglishEntryalongside extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حەبە تازەکە دەکرێت لەگەڵ دەرمانی دیکە بەکاربێت",
+                                    "حەبە تازەکە دەکرێت لەگەڵ دەرمانی دیکە بەکاربێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -277,6 +283,7 @@ class EnglishEntryalongside extends StatelessWidget {
                                     "Most of the staff refused to work alongside the new team.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -288,9 +295,10 @@ class EnglishEntryalongside extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆرینەی ستافەکە ڕەتیان کردەوە شان بە شانی تیمە تازەکە کاربکەن",
+                                    "زۆرینەی ستافەکە ڕەتیان کردەوە شان بە شانی تیمە تازەکە کاربکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

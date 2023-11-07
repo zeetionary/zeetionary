@@ -165,6 +165,7 @@ class EnglishEntryallotment extends StatelessWidget {
 ١. (ناو) پارچە زەوییەکی بچووک کە کەسێک بە کرێی دەگرێت بە مەبەستی چاندن لەسەری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryallotment extends StatelessWidget {
                                     "They eat fresh vegetables from their allotment.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryallotment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "میوەی تازەی زەوییەکەی خۆیان دەخۆن",
+                                    "میوەی تازەی زەوییەکەی خۆیان دەخۆن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryallotment extends StatelessWidget {
 ٢. (ناو) ڕێژەیەک لە شتێک کە کەسێک پێی دەدرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -229,6 +233,7 @@ class EnglishEntryallotment extends StatelessWidget {
                                     "Water allotments to farmers were cut back in the drought.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,9 +245,10 @@ class EnglishEntryallotment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پشکی ئاو بە جوتیاران کەمکرایەوە لە وشکەساڵییەکە",
+                                    "پشکی ئاو بە جوتیاران کەمکرایەوە لە وشکەساڵییەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

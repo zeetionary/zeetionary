@@ -148,6 +148,7 @@ class EnglishEntryaccidental extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک بە ڕێکەوت ڕووبدات، نەک بە پلان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryaccidental extends StatelessWidget {
                                     "I didn't think our meeting was accidental—he must have known I would be there.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryaccidental extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وا ھەست ناکەم چاوپێکەوتنەکەمان بە ھەڵکەوت بووبێت، ئەبێت زانیبێتی من لەوێ دەبم",
+                                    "وا ھەست ناکەم چاوپێکەوتنەکەمان بە ھەڵکەوت بووبێت، ئەبێت زانیبێتی من لەوێ دەبم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

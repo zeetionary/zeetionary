@@ -165,6 +165,7 @@ class EnglishEntryadmiring extends StatelessWidget {
 ١. (ھاوەڵناو) پیشاندانی ڕێز بۆ شتێک یان کەسێک یان ئەوەی بەدەستیان ھێناوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryadmiring extends StatelessWidget {
                                     "James was admiring of her courage and determination.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryadmiring extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جەیمس ڕێزی ھەبوو بۆ بوێری و پێداگرییەکەی",
+                                    "جەیمس ڕێزی ھەبوو بۆ بوێری و پێداگرییەکەی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryadmiring extends StatelessWidget {
 ٢. (ھاوەڵناو) پیشاندانی سەرسامی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +230,7 @@ class EnglishEntryadmiring extends StatelessWidget {
                                     "She was used to receiving admiring glances from men.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +239,10 @@ class EnglishEntryadmiring extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕاھاتبوو بە نیگای سەرسامی پیاوان بۆی",
+                                    "ڕاھاتبوو بە نیگای سەرسامی پیاوان بۆی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

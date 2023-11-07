@@ -146,6 +146,7 @@ class EnglishEntryaccountfor extends StatelessWidget {
 ١. (کاری لێکدراو) شتێک کە ھۆکاری شتێک ڕووندەکاتەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -156,6 +157,7 @@ class EnglishEntryaccountfor extends StatelessWidget {
                                     "The poor weather may have accounted for the small crowd.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -164,9 +166,10 @@ class EnglishEntryaccountfor extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خراپی کەشوھەوا ڕەنگە ھۆکاربووبێت بۆ بچووکی گردبوونەوەکە",
+                                    "خراپی کەشوھەوا ڕەنگە ھۆکاربووبێت بۆ بچووکی گردبوونەوەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

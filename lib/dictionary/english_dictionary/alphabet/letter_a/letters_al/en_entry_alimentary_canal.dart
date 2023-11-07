@@ -164,6 +164,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
 ١. (ناو) جۆگەی خۆراک لە دەمەوە بۆ کۆم''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                                     "I had an abscess in the lower part of my alimentary canal.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دومەڵێکم ھەبوو لە بەشی خوارەوەی جۆگەی ھەرسم",
+                                    "دومەڵێکم ھەبوو لە بەشی خوارەوەی جۆگەی ھەرسم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

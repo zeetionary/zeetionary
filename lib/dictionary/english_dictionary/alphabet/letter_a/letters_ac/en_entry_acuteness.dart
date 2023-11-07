@@ -163,6 +163,7 @@ class EnglishEntryacuteness extends StatelessWidget {
 ١. (ناو) ڕێژەی کوشندەیی و سەختی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryacuteness extends StatelessWidget {
                                     "The choice of drug depends upon the severity, acuteness and cause of the pain.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -181,9 +183,10 @@ class EnglishEntryacuteness extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەڵبژاردنی دەرمانەکە دەکەوێتە سەرکوشندەیی، دژواری، و ھۆکاری ئازارەکە",
+                                    "ھەڵبژاردنی دەرمانەکە دەکەوێتە سەرکوشندەیی، دژواری، و ھۆکاری ئازارەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -214,6 +217,7 @@ class EnglishEntryacuteness extends StatelessWidget {
 ٢. (ناو) ڕێژەی ھەستیاریی ھەستێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +228,7 @@ class EnglishEntryacuteness extends StatelessWidget {
                                     "He is remembered for the acuteness of his intellect.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,6 +240,7 @@ class EnglishEntryacuteness extends StatelessWidget {
                                     "یاد دەکرێتەوە بۆ بوونی داناییەکی زۆر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

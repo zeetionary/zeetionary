@@ -157,6 +157,7 @@ class EnglishEntryaccordingly extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە لەگەڵ بارودۆخەکە دەگونجێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryaccordingly extends StatelessWidget {
                                     "We have to discover his plans and act accordingly.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -175,9 +177,10 @@ class EnglishEntryaccordingly extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێویستە پلانەکانی بدۆزینەوە و بە گونجاوی کردار بنێین",
+                                    "پێویستە پلانەکانی بدۆزینەوە و بە گونجاوی کردار بنێین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -206,6 +209,7 @@ class EnglishEntryaccordingly extends StatelessWidget {
 ٢. (ھاوەڵکار) بۆ دەربڕینی ئەنجامی ھۆکارێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -216,6 +220,7 @@ class EnglishEntryaccordingly extends StatelessWidget {
                                     "The cost of materials rose sharply last year. Accordingly, we were forced to increase our prices.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -224,9 +229,10 @@ class EnglishEntryaccordingly extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نرخی کەرەستەکان ساڵی ڕابردوو بەرزبوویەوە، لەبەر ئەوە ناچاربووین نرخەکان بەرزبکەینەوە",
+                                    "نرخی کەرەستەکان ساڵی ڕابردوو بەرزبوویەوە، لەبەر ئەوە ناچاربووین نرخەکان بەرزبکەینەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -216,6 +216,7 @@ class EnglishEntryanticipate extends StatelessWidget {
 ١. (کردار) پێشبینی‌کردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +227,7 @@ class EnglishEntryanticipate extends StatelessWidget {
                                     "Our anticipated arrival time is 8.30.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -237,9 +239,10 @@ class EnglishEntryanticipate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کاتی پێشبینیکراوی گەشتنمان ٨:٣٠ یە",
+                                    "کاتی پێشبینیکراوی گەشتنمان ٨:٣٠ یە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -274,6 +277,7 @@ class EnglishEntryanticipate extends StatelessWidget {
                                     "I don't anticipate it being a problem.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -285,9 +289,10 @@ class EnglishEntryanticipate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێشبینی ناکەم ببێتە کێشە",
+                                    "پێشبینی ناکەم ببێتە کێشە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -319,6 +324,7 @@ class EnglishEntryanticipate extends StatelessWidget {
 ٢. (کردار) پێشبینی‌کردنی ڕوودانی شتێک و کردنی ئامادەکاری بۆ مامەڵە لەگەڵی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -329,6 +335,7 @@ class EnglishEntryanticipate extends StatelessWidget {
                                     "Try and anticipate what the interviewers will ask.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -340,9 +347,10 @@ class EnglishEntryanticipate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەوڵ‌بدە پێشبینی بکە دیدارکاران چی پرسیارێک دەکەن",
+                                    "ھەوڵ‌بدە پێشبینی بکە دیدارکاران چی پرسیارێک دەکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -374,6 +382,7 @@ class EnglishEntryanticipate extends StatelessWidget {
 ٣. (کردار) بە کەیف‌سازی بیرکردنەوە لە شتێک کە ڕوودەدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -384,6 +393,7 @@ class EnglishEntryanticipate extends StatelessWidget {
                                     "We eagerly anticipated the day we would leave school.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -395,9 +405,10 @@ class EnglishEntryanticipate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە خۆشییەوە بیرمان لەو ڕۆژە دەکردەوە کە قوتابخانە جێدێڵین",
+                                    "بە خۆشییەوە بیرمان لەو ڕۆژە دەکردەوە کە قوتابخانە جێدێڵین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -429,6 +440,7 @@ class EnglishEntryanticipate extends StatelessWidget {
 ٤. (کردار) کردنی شتێک پێش کەسێکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -439,6 +451,7 @@ class EnglishEntryanticipate extends StatelessWidget {
                                     "When Scott reached the South Pole he found that Amundsen had anticipated him.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -450,9 +463,10 @@ class EnglishEntryanticipate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کە سکۆت گەشتە جەمسەری باشوور زانی ئامندسن پێشی دابوویەوە",
+                                    "کە سکۆت گەشتە جەمسەری باشوور زانی ئامندسن پێشی دابوویەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

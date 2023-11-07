@@ -234,6 +234,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
 ١. (ناو) یاتییەک کە لەلایەن دوو تیمی ١١ کەسی دەکرێت بە تۆپێکی ھێلکەیی کە یاریزانان ھەوڵ دەدەن تێی ھەڵبدەن، بیھاوێژن، یان ھەڵیبگرن، و بیخەنە ھێڵی تیمی بەرامبەر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -244,6 +245,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
                                     "American Football doesn't interest me at all.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -255,9 +257,10 @@ class EnglishEntryamericanfootball extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھیچ حەزم بە تۆپێنی ئەمریکی نییە",
+                                    "ھیچ حەزم بە تۆپێنی ئەمریکی نییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

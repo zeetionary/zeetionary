@@ -162,6 +162,7 @@ class EnglishEntryairhostess extends StatelessWidget {
 ١. (ناو) کارگوزاری فڕۆکە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryairhostess extends StatelessWidget {
                                     "An air hostess announced that the plane had been hijacked.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryairhostess extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یەکێک لە کارگوزاران ڕایگەیاند فڕۆکەکە ڕفێندراوە",
+                                    "یەکێک لە کارگوزاران ڕایگەیاند فڕۆکەکە ڕفێندراوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

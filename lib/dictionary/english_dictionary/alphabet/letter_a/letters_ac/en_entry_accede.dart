@@ -155,6 +155,7 @@ class EnglishEntryaccede extends StatelessWidget {
 ١. (کردار) ڕازیبوون بە داوایەک/پێشنیارێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -165,6 +166,7 @@ class EnglishEntryaccede extends StatelessWidget {
                                     "He acceded to demands for his resignation.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -173,9 +175,10 @@ class EnglishEntryaccede extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ملیدا بۆ داواکارییەکانی دەستلەکارکێشانەوەی",
+                                    "ملیدا بۆ داواکارییەکانی دەستلەکارکێشانەوەی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -204,6 +207,7 @@ class EnglishEntryaccede extends StatelessWidget {
 ٢. (کردار) وەرگرتنی پۆستێکی باڵا، بۆ نموونە پۆستی پاشا یان شاژنی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -214,6 +218,7 @@ class EnglishEntryaccede extends StatelessWidget {
                                     "Queen Victoria acceded to the throne in 1837.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -225,6 +230,7 @@ class EnglishEntryaccede extends StatelessWidget {
                                     "شاژن ڤیکتۆریا چووە سەر تەختی شاھانە لە ساڵی ١٨٣٧",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

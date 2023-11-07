@@ -214,6 +214,7 @@ class EnglishEntryanalog extends StatelessWidget {
 ١. (ھاوەڵناو) ئامێرێکی ئەلیکترۆنی کە مەودایەکی بەردەوام گۆڕاوی بڕی فیزیایی بەکاردێنێت بۆ پێوان و کۆگاکردنی زانیاری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +225,7 @@ class EnglishEntryanalog extends StatelessWidget {
                                     "This is the standard method used to convert analog signals to digital.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -238,6 +240,7 @@ class EnglishEntryanalog extends StatelessWidget {
                                     "ئەمە ڕێگای ستانداردە بۆ گۆڕینی شەپۆلی ئەنالۆگ بۆ دیجیتاڵ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -269,6 +272,7 @@ class EnglishEntryanalog extends StatelessWidget {
 ٢. (ھاوەڵناو) کاتژمێرێک کە میلی ھەیە وەک ئەوەی ژمارەکان پیشان‌بدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -279,6 +283,7 @@ class EnglishEntryanalog extends StatelessWidget {
                                     "She still uses an old-fashioned analog alarm clock.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -290,9 +295,10 @@ class EnglishEntryanalog extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھێشتا کاتژمێرێکی ئەنالۆگی کۆنەباو وەک چاڵمە بەکاردێنێت",
+                                    "ھێشتا کاتژمێرێکی ئەنالۆگی کۆنەباو وەک چاڵمە بەکاردێنێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -324,6 +330,7 @@ class EnglishEntryanalog extends StatelessWidget {
 ٣. (ناو) شتێک کە ھاوشێوەی شتێکی ترە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -334,6 +341,7 @@ class EnglishEntryanalog extends StatelessWidget {
                                     "Scientists are attempting to compare features of extinct animals with living analogs.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -345,9 +353,10 @@ class EnglishEntryanalog extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زاناکان ھەوڵ‌دەدەن خاسیەتەکانی ئاژەڵە لەناوچووەکان بەراورد بکەن بە لێکچووە زیندووەکانیان",
+                                    "زاناکان ھەوڵ‌دەدەن خاسیەتەکانی ئاژەڵە لەناوچووەکان بەراورد بکەن بە لێکچووە زیندووەکانیان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

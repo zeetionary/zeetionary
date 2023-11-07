@@ -165,6 +165,7 @@ class EnglishEntryambassador extends StatelessWidget {
 ١. (ناو) باڵیۆز؛ نوێنەری وڵاتێک لە وڵاتێکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryambassador extends StatelessWidget {
                                     "The US ambassador to Egypt was recalled to Washington in protest.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -189,6 +191,7 @@ class EnglishEntryambassador extends StatelessWidget {
                                     "باڵیۆزی ئەمریکا لە ناڕەزاییدا کشێندرایەوە لە میسر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -222,6 +225,7 @@ class EnglishEntryambassador extends StatelessWidget {
                                     "He's former ambassador of Germany to the UN.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +237,10 @@ class EnglishEntryambassador extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نێردەی پێشووتری ئەڵمانیایە بۆ نەتەوە یەکگرتووەکان",
+                                    "نێردەی پێشووتری ئەڵمانیایە بۆ نەتەوە یەکگرتووەکان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

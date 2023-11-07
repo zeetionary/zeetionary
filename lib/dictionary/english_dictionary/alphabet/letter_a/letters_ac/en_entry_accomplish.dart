@@ -148,6 +148,7 @@ class EnglishEntryaccomplish extends StatelessWidget {
 ١. (ناو) سەرکەوتن لە کردن یان تەواوکردنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryaccomplish extends StatelessWidget {
                                     "The first part of the plan has been accomplished.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryaccomplish extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یەکەم بەشی پلانەکە بەدەستھێندراوە",
+                                    "یەکەم بەشی پلانەکە بەدەستھێندراوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

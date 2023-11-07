@@ -164,6 +164,7 @@ class EnglishEntryageism extends StatelessWidget {
 ١. (ناو) مامەڵەی خراپ لەگەڵ کەسانی بەتەمەن، زۆرجار لە شوێنی کارکردن، بەھۆی ئەوەی پیرن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryageism extends StatelessWidget {
                                     "At 56, no one would hire her, and she felt she was a victim of ageism.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryageism extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە تەمەنی ٥٦ ساڵی کەس کاری پێنەدەدا، و ھەستی دەکرد قوربانیەکی تەمەنگەرییە",
+                                    "لە تەمەنی ٥٦ ساڵی کەس کاری پێنەدەدا، و ھەستی دەکرد قوربانیەکی تەمەنگەرییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

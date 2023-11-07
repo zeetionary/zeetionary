@@ -165,6 +165,7 @@ class EnglishEntryairing extends StatelessWidget {
 ١. (ناو) گەنگەشەی بابەتێک لەبەردەم ڕای گشتی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryairing extends StatelessWidget {
                                     "The subject got a thorough airing in the British press.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -189,6 +191,7 @@ class EnglishEntryairing extends StatelessWidget {
                                     "بابەتەکە گەنگەشەی تەواوی لەسەر کرا لە میدیای بەریتانیا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryairing extends StatelessWidget {
 ٢. (ناو) ڕێگەدان بە ھەواگۆڕکێ بۆ ئەوەی شتێک تازە و وشک بکاتەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -229,6 +233,7 @@ class EnglishEntryairing extends StatelessWidget {
                                     "Open the windows and give the house a good airing.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,9 +245,10 @@ class EnglishEntryairing extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پەنجەرەکان بکەوە و ھەواگۆڕکێیەکی باش بدە بە ژوورەکە",
+                                    "پەنجەرەکان بکەوە و ھەواگۆڕکێیەکی باش بدە بە ژوورەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

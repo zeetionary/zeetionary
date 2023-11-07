@@ -238,6 +238,7 @@ class EnglishEntryamong extends StatelessWidget {
 ١. (ئامراز) دەوردراو بە کەسێک یان شتێک، لە ناوەڕاستی کەسێک یان شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -248,6 +249,7 @@ class EnglishEntryamong extends StatelessWidget {
                                     "I saw a few familiar faces among the crowd.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -259,9 +261,10 @@ class EnglishEntryamong extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چەند ڕووخسارێکی ناسیاوم بینی لەناو جەماوەرەکەدا",
+                                    "چەند ڕووخسارێکی ناسیاوم بینی لەناو جەماوەرەکەدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -292,6 +295,7 @@ class EnglishEntryamong extends StatelessWidget {
 ٢. (ئامراز) بوون بە بەشێک لە گرووپێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -302,6 +306,7 @@ class EnglishEntryamong extends StatelessWidget {
                                     "A British woman was among the survivors.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -313,9 +318,10 @@ class EnglishEntryamong extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژنێکی بەریتانی لەناو ڕزگاربووان بوو",
+                                    "ژنێکی بەریتانی لەناو ڕزگاربووان بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -346,6 +352,7 @@ class EnglishEntryamong extends StatelessWidget {
 ٣. (ئامراز) دابەشکردن لە نێوان سێ کەس یان زیاتر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -356,6 +363,7 @@ class EnglishEntryamong extends StatelessWidget {
                                     "He divided the country among his sons.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -367,9 +375,10 @@ class EnglishEntryamong extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وڵاتەکەی لە نێوان کوڕەکانی دابەش‌کرد",
+                                    "وڵاتەکەی لە نێوان کوڕەکانی دابەش‌کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -163,6 +163,7 @@ class EnglishEntryamazing extends StatelessWidget {
 ١. (ھاوەڵناو) سەیر و سەرسوڕھێنەر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryamazing extends StatelessWidget {
                                     "The amazing thing is, he really believes he'll get away with it.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryamazing extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەوەی سەیرە ئەوەیە پێی‌وایە لەمە دەربازی دەبێت",
+                                    "ئەوەی سەیرە ئەوەیە پێی‌وایە لەمە دەربازی دەبێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -220,6 +223,7 @@ class EnglishEntryamazing extends StatelessWidget {
                                     "I find it amazing that people can be so irresponsible.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -231,9 +235,10 @@ class EnglishEntryamazing extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لام سەیرە خەڵکی دەکرێت ھێندە نابەرپرسانە بن",
+                                    "لام سەیرە خەڵکی دەکرێت ھێندە نابەرپرسانە بن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

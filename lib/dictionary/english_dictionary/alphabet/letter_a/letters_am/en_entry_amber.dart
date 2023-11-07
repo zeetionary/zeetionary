@@ -164,6 +164,7 @@ class EnglishEntryamber extends StatelessWidget {
 ١. (ھاوەڵناو) عەمبەری؛ ڕەنگی زەرد و قاوەیی تێکەڵ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryamber extends StatelessWidget {
                                     "Her amber eyes shone in the dark.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryamber extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چاوە عەمبەرییەکانی لە تاریکییەکەدا دەدرەوشانەوە",
+                                    "چاوە عەمبەرییەکانی لە تاریکییەکەدا دەدرەوشانەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -218,6 +221,7 @@ class EnglishEntryamber extends StatelessWidget {
 ٢. (ناو) عەمبەر؛ مادەیەکی زەرد و قاوەییە کە لە کۆندا لە دارەوە درووست دەبوو و بەکاردەھات بۆ خشڵ و مادەی جوان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -228,6 +232,7 @@ class EnglishEntryamber extends StatelessWidget {
                                     "He has a collection of prehistoric insects preserved in amber.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -239,9 +244,10 @@ class EnglishEntryamber extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژمارەیەک لە مێرووی پێش مێژووی ھەیە کە لە عەمبەردا پاراستوونی",
+                                    "ژمارەیەک لە مێرووی پێش مێژووی ھەیە کە لە عەمبەردا پاراستوونی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -272,6 +278,7 @@ class EnglishEntryamber extends StatelessWidget {
 ٣. (ناو) عەمبەر؛ ڕەنگی زەردی قاوەیی باو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -282,6 +289,7 @@ class EnglishEntryamber extends StatelessWidget {
                                     "The traffic lights were on amber.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -293,9 +301,10 @@ class EnglishEntryamber extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ترافیک لایتەکان لەسەر گڵۆپە زەردەکە بوون",
+                                    "ترافیک لایتەکان لەسەر گڵۆپە زەردەکە بوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

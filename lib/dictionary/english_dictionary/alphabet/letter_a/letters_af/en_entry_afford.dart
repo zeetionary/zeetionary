@@ -173,6 +173,7 @@ class EnglishEntryafford extends StatelessWidget {
 ١. (کردار) ھەبوونی پارەی پێویست''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -183,6 +184,7 @@ class EnglishEntryafford extends StatelessWidget {
                                     "She never took a taxi, even though she could afford to.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -191,9 +193,10 @@ class EnglishEntryafford extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەرگیز تەکسی نەدەگرت، ئەگەرچی پارەشی ھەبوو",
+                                    "ھەرگیز تەکسی نەدەگرت، ئەگەرچی پارەشی ھەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -227,6 +230,7 @@ class EnglishEntryafford extends StatelessWidget {
                                     "They couldn't afford to buy a house there.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +239,10 @@ class EnglishEntryafford extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نەیاندەتوانی خانوویەک لەوێ بکڕن",
+                                    "نەیاندەتوانی خانوویەک لەوێ بکڕن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -268,6 +273,7 @@ class EnglishEntryafford extends StatelessWidget {
 ٢. (کردار) شتێک کە پێویستە خۆتی لێ بە دوور ئەگەرنا کێشەت بۆ درووست دەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -278,6 +284,7 @@ class EnglishEntryafford extends StatelessWidget {
                                     "We cannot afford to ignore this warning.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -286,9 +293,10 @@ class EnglishEntryafford extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناتوانین ئەم ھۆشدارییە پشتگوێ بخەین",
+                                    "ناتوانین ئەم ھۆشدارییە پشتگوێ بخەین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -319,6 +327,7 @@ class EnglishEntryafford extends StatelessWidget {
 ٣. (کردار) پێدانی شتێک بە کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -329,6 +338,7 @@ class EnglishEntryafford extends StatelessWidget {
                                     "The tree affords some shelter from the sun.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -337,9 +347,10 @@ class EnglishEntryafford extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دارەکە ھەندێک سێبەر دەبەخشێت",
+                                    "دارەکە ھەندێک سێبەر دەبەخشێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

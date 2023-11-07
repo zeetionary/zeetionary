@@ -165,6 +165,7 @@ class EnglishEntryaccusation extends StatelessWidget {
 ١. (ناو) کاتێک کەسێک بە کردنی کارێکی ھەڵە تۆمەتبار دەکەیت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryaccusation extends StatelessWidget {
                                     "There was a hint of accusation in her voice.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryaccusation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئاماژەیەکی گومان لێکردن ھەبوو لە دەنگیدا",
+                                    "ئاماژەیەکی گومان لێکردن ھەبوو لە دەنگیدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -217,6 +220,7 @@ class EnglishEntryaccusation extends StatelessWidget {
                                     "At the time, no one believed her accusations against him.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -225,9 +229,10 @@ class EnglishEntryaccusation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کاتی خۆی ھیچ کەس باوەڕی بە تۆمەتەکانی دژ بە ئەو نەکرد",
+                                    "کاتی خۆی ھیچ کەس باوەڕی بە تۆمەتەکانی دژ بە ئەو نەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

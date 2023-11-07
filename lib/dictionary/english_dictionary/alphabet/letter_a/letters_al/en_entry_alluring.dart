@@ -164,6 +164,7 @@ class EnglishEntryalluring extends StatelessWidget {
 ١. (ھاوەڵناو) جوان و سەرنجڕاکێش بەشێوەیەکی سیحراوی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalluring extends StatelessWidget {
                                     "She was wearing a most alluring dress at the wedding.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalluring extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دڵڕفێنەرترین جلی لە ئاھەنگی ھاوسەرگیرییەکە لەبەرکردبوو",
+                                    "دڵڕفێنەرترین جلی لە ئاھەنگی ھاوسەرگیرییەکە لەبەرکردبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

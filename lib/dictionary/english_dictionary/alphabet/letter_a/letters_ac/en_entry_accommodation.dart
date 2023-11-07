@@ -175,6 +175,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
 ١. (ناو) شوێنی ژیان یان کارکردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -185,6 +186,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
                                     "She lived on her own in rented accommodation.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -193,9 +195,10 @@ class EnglishEntryaccommodation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە تەنھا دەژیا لە جێگایەکی کری",
+                                    "بە تەنھا دەژیا لە جێگایەکی کری.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -227,6 +230,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
                                     "We need more secure accommodation for young prisoners.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +239,10 @@ class EnglishEntryaccommodation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێویستیمان بە جێگای سەلامەتتر ھەیە بۆ زیندانییە گەنجەکان",
+                                    "پێویستیمان بە جێگای سەلامەتتر ھەیە بۆ زیندانییە گەنجەکان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -269,6 +274,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
                                     "The boat provides overnight accommodations for four adults.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -277,9 +283,10 @@ class EnglishEntryaccommodation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەلەمەکە جێگای مانەوەی شەوانی بۆ چوار کەسی پێگەیشتوو ھەیە",
+                                    "بەلەمەکە جێگای مانەوەی شەوانی بۆ چوار کەسی پێگەیشتوو ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -308,6 +315,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
 ٢. (ناو) ڕێککوتنێک لەلایەن چەند لایەنێکی ناکۆک کە ھەموویان پێی ڕازین''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -318,6 +326,7 @@ class EnglishEntryaccommodation extends StatelessWidget {
                                     "They were forced to reach an accommodation with the rebels.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -326,9 +335,10 @@ class EnglishEntryaccommodation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناچارکران لەگەڵ یاخیبووان بگەنە سازان",
+                                    "ناچارکران لەگەڵ یاخیبووان بگەنە سازان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

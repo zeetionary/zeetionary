@@ -236,6 +236,7 @@ class EnglishEntryangle extends StatelessWidget {
 ١. (ناو) گۆشە؛ بۆشایی نێوان دوو ھێڵ لەو خاڵەی بە یەکدی دەگەن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -246,6 +247,7 @@ class EnglishEntryangle extends StatelessWidget {
                                     "The interior angles of a square are right angles or angles of 90 degrees.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -257,9 +259,10 @@ class EnglishEntryangle extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گۆشەکانی ناوەوەی چوارگۆشەیەک تەواون یان گۆشەی ٩٠ پلەیین",
+                                    "گۆشەکانی ناوەوەی چوارگۆشەیەک تەواون یان گۆشەی ٩٠ پلەیین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -291,6 +294,7 @@ class EnglishEntryangle extends StatelessWidget {
 ٢. (ناو) سووچەکانی ناوەوە یان دەرەوەی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -301,6 +305,7 @@ class EnglishEntryangle extends StatelessWidget {
                                     "It's a modern building, all brick and glass and sharp angles.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -312,9 +317,10 @@ class EnglishEntryangle extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بینایەکی سەردەمیانەیە، ھەموو خشت و شووشە و گۆشەی تیژە",
+                                    "بینایەکی سەردەمیانەیە، ھەموو خشت و شووشە و گۆشەی تیژە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -346,6 +352,7 @@ class EnglishEntryangle extends StatelessWidget {
 ٣. (ناو) ئاراستەی شتێک کە نە بەرەو سەرەوە یان خوارەوە، نە بەرەو ڕاست یان چەپە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -356,6 +363,7 @@ class EnglishEntryangle extends StatelessWidget {
                                     "She adjusted the angle of the legs to make the table stand more firmly.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -367,9 +375,10 @@ class EnglishEntryangle extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئاراستەی لاقەکانی ڕێکخست بۆ ئەوەی مێزەکە قایمتر بوەستێ",
+                                    "ئاراستەی لاقەکانی ڕێکخست بۆ ئەوەی مێزەکە قایمتر بوەستێ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -404,6 +413,7 @@ class EnglishEntryangle extends StatelessWidget {
                                     "Venus and the Earth orbit the Sun at a slight angle to each other.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -415,9 +425,10 @@ class EnglishEntryangle extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زووھرە و زەوی بەدەوری خۆردا دەسووڕێنەوە بە ئاراستەیەک کەمێک بەلای یەکتردا",
+                                    "زووھرە و زەوی بەدەوری خۆردا دەسووڕێنەوە بە ئاراستەیەک کەمێک بەلای یەکتردا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -449,6 +460,7 @@ class EnglishEntryangle extends StatelessWidget {
 ٤. (ناو) گۆشەنیگا؛ شوێنی سەیرکردنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -459,6 +471,7 @@ class EnglishEntryangle extends StatelessWidget {
                                     "The painting changes slightly when seen from different angles.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -470,9 +483,10 @@ class EnglishEntryangle extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تابلۆکە کەمێک دەگۆڕێت کە لە گۆشەنیگای دیکەوە سەیردەکرێت",
+                                    "تابلۆکە کەمێک دەگۆڕێت کە لە گۆشەنیگای دیکەوە سەیردەکرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -504,6 +518,7 @@ class EnglishEntryangle extends StatelessWidget {
 ٥. (ناو) گۆشەنیگا؛ شێوازی ڕوانین یان بیرکردنەوە لە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -514,6 +529,7 @@ class EnglishEntryangle extends StatelessWidget {
                                     "You can look at the issue from many different angles.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -525,9 +541,10 @@ class EnglishEntryangle extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بابەتەکە دەتوانرێت لە زۆر گۆشەنیگای جیاوازەوە سەیربکرێت",
+                                    "بابەتەکە دەتوانرێت لە زۆر گۆشەنیگای جیاوازەوە سەیربکرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -559,6 +576,7 @@ class EnglishEntryangle extends StatelessWidget {
 ٦. (کردار) دانانی شتێک بەشێوەیەک کە ڕاستەوخۆ ڕووی لە شتێک نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -569,6 +587,7 @@ class EnglishEntryangle extends StatelessWidget {
                                     "He angled his chair so that he could sit and watch her.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -580,9 +599,10 @@ class EnglishEntryangle extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کورسییەکەی بەلاداخست بۆ ئەوەی دابنیشێت و سەیری بکات",
+                                    "کورسییەکەی بەلاداخست بۆ ئەوەی دابنیشێت و سەیری بکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -614,6 +634,7 @@ class EnglishEntryangle extends StatelessWidget {
 ٧. (کردار) پێشکەشکردنی زانیاری یان ڕاپۆرتێک بە شێوازێک یان بۆ کەسانێکی دیاریکراو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -624,6 +645,7 @@ class EnglishEntryangle extends StatelessWidget {
                                     "The programme is angled towards younger viewers.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -635,9 +657,10 @@ class EnglishEntryangle extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پڕۆگرامەکە بۆ بیسەرانی گەنجە",
+                                    "پڕۆگرامەکە بۆ بیسەرانی گەنجە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -669,6 +692,7 @@ class EnglishEntryangle extends StatelessWidget {
 ٨. (کردار) ماسیگرتن بە قولاب''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -679,6 +703,7 @@ class EnglishEntryangle extends StatelessWidget {
                                     "On weekends, they often go angling by the lake.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -690,9 +715,10 @@ class EnglishEntryangle extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە ڕۆژانی کۆتایی ھەفتە دەچن بۆ ماسیگرتن لە دەریاچەکە",
+                                    "لە ڕۆژانی کۆتایی ھەفتە دەچن بۆ ماسیگرتن لە دەریاچەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

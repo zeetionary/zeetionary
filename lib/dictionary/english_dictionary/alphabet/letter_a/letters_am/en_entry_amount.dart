@@ -217,6 +217,7 @@ class EnglishEntryamount extends StatelessWidget {
 ١. (ناو) ڕێژە یان بڕ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -227,6 +228,7 @@ class EnglishEntryamount extends StatelessWidget {
                                     "I was amazed at the amount he could eat.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -238,9 +240,10 @@ class EnglishEntryamount extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەرسام‌بووم بەوەی دەتوانێت چەندە بخوات",
+                                    "سەرسام‌بووم بەوەی دەتوانێت چەندە بخوات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -274,6 +277,7 @@ class EnglishEntryamount extends StatelessWidget {
                                     "Try to reduce the amount of energy and water you use at home.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -285,9 +289,10 @@ class EnglishEntryamount extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەوڵ‌بدە بڕی وزە و ئاوی بەکارھێندراو لە مەڵەوە کەم‌بکەوە",
+                                    "ھەوڵ‌بدە بڕی وزە و ئاوی بەکارھێندراو لە مەڵەوە کەم‌بکەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -318,6 +323,7 @@ class EnglishEntryamount extends StatelessWidget {
 ٢. (ناو) بڕە پارەیەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -328,6 +334,7 @@ class EnglishEntryamount extends StatelessWidget {
                                     "Everyone has paid the same amount.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -339,9 +346,10 @@ class EnglishEntryamount extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەمووان ھەمان بڕیان داوە",
+                                    "ھەمووان ھەمان بڕیان داوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -372,6 +380,7 @@ class EnglishEntryamount extends StatelessWidget {
 ٣. (کردار) کۆی‌گشتی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -382,6 +391,7 @@ class EnglishEntryamount extends StatelessWidget {
                                     "His earnings are said to amount to £300 000 per annum.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -393,9 +403,10 @@ class EnglishEntryamount extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "قازانجەکانی دەبن بە ٣٠٠٠٠٠ پاوەند لە ساڵێکدا",
+                                    "قازانجەکانی دەبن بە ٣٠٠٠٠٠ پاوەند لە ساڵێکدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -426,6 +437,7 @@ class EnglishEntryamount extends StatelessWidget {
 ٤. (کردار) ھاوتابوون بە شتێک ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -436,6 +448,7 @@ class EnglishEntryamount extends StatelessWidget {
                                     "Their actions in the war amount to genocide.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -447,9 +460,10 @@ class EnglishEntryamount extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کردەوەکانیان لە جەنگەکەدا ھاوتایە بە جینۆساید",
+                                    "کردەوەکانیان لە جەنگەکەدا ھاوتایە بە جینۆساید.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -480,6 +494,7 @@ class EnglishEntryamount extends StatelessWidget {
 ٥. (کردار) بوون بە شتێک ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -490,6 +505,7 @@ class EnglishEntryamount extends StatelessWidget {
                                     "You'll never amount to anything.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -501,9 +517,10 @@ class EnglishEntryamount extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەرگیز نابیت بە ھیچ",
+                                    "ھەرگیز نابیت بە ھیچ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

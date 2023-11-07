@@ -175,6 +175,7 @@ class EnglishEntryamateur extends StatelessWidget {
 ١. (ھاوەڵناو) کردنی شتێک بۆ ئارەزووی خۆت، نەک وەک پیشە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -185,6 +186,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                     "He was an amateur photographer until the age of 40, when he turned professional.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -199,6 +201,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                     "تاوەک تەمەنی ٤٠ ساڵیش ھەر وێنەگرێکی ھەوەس‌کار بوو، لەوەو بەدوا بوو کە بوو بە پڕۆفیشناڵ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -229,6 +232,7 @@ class EnglishEntryamateur extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە بە باشی و شارەزاییەوە نەکراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -239,6 +243,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                     "The performance sounded very amateur, I’m afraid.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -250,9 +255,10 @@ class EnglishEntryamateur extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەداخەوەم بەڵام نمایشەکە زۆر تازەکارانە دیاربوو",
+                                    "بەداخەوەم بەڵام نمایشەکە زۆر تازەکارانە دیاربوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -283,6 +289,7 @@ class EnglishEntryamateur extends StatelessWidget {
 ٣. (ناو) کەسێک کە بۆ خۆشی و ھەوەس بەژداری چالاکییەک دەکات، نەک وەک پیشە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -293,6 +300,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                     "The tournament is open to both amateurs and professionals.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -304,9 +312,10 @@ class EnglishEntryamateur extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پاڵەوانێتییەکە بۆ حەزکاران و پڕۆفیشناڵان کراوەیە",
+                                    "پاڵەوانێتییەکە بۆ حەزکاران و پڕۆفیشناڵان کراوەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -337,6 +346,7 @@ class EnglishEntryamateur extends StatelessWidget {
 ٤. (ناو) کەسێک کە شارەزایی پێویستی نییە بۆ کردنی کارێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -347,6 +357,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                     "This work was done by a bunch of amateurs!",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -358,9 +369,10 @@ class EnglishEntryamateur extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم ئیشە لەلایەن ژمارەیەک تازە کارەوە ئەنجام دراوە",
+                                    "ئەم ئیشە لەلایەن ژمارەیەک تازە کارەوە ئەنجام دراوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

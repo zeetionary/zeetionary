@@ -180,6 +180,7 @@ class EnglishEntryaheadof extends StatelessWidget {
 ١. (ئامراز) کات یان شوێنی لەپێش''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -190,6 +191,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                                     "Two boys were ahead of us.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -201,9 +203,10 @@ class EnglishEntryaheadof extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دوو کوڕ لە پێشمانەوە بوون",
+                                    "دوو کوڕ لە پێشمانەوە بوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -237,6 +240,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                                     "Ahead of us lay ten days of intensive training.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -248,9 +252,10 @@ class EnglishEntryaheadof extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دە ڕۆژی پڕ لە ڕاھێنانی سەختمان لە پێشە",
+                                    "دە ڕۆژی پڕ لە ڕاھێنانی سەختمان لە پێشە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -281,6 +286,7 @@ class EnglishEntryaheadof extends StatelessWidget {
 ٢. (ئامراز) پێش کەسێک یان شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -291,6 +297,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                                     "I finished several days ahead of the deadline.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -302,9 +309,10 @@ class EnglishEntryaheadof extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چەند ڕۆژێک پێش وادەی دیاریکراو تەواو بووم",
+                                    "چەند ڕۆژێک پێش وادەی دیاریکراو تەواو بووم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -335,6 +343,7 @@ class EnglishEntryaheadof extends StatelessWidget {
 ٣. (ئامراز) باشتر لە کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -345,6 +354,7 @@ class EnglishEntryaheadof extends StatelessWidget {
                                     "She was always well ahead of the rest of the class.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -356,9 +366,10 @@ class EnglishEntryaheadof extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەمیشە لەپێش ئەوانی دیکەی پۆلەکە بووە",
+                                    "ھەمیشە لەپێش ئەوانی دیکەی پۆلەکە بووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

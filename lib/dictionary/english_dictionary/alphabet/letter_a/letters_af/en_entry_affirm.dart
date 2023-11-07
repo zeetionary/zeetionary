@@ -163,6 +163,7 @@ class EnglishEntryaffirm extends StatelessWidget {
 ١. (کردار) بەڕوونی وتنی ئەوەی شتێک ڕاستە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,7 +173,8 @@ class EnglishEntryaffirm extends StatelessWidget {
                                   child: Text(
                                     "Both sides affirmed their commitment to the ceasefire.",
                                     textDirection: TextDirection
-                                        .ltr, // Right-to-left direction1
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -181,9 +183,10 @@ class EnglishEntryaffirm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەردوو لایەن بەڕوونی پابەندی خۆیان بە ئاگربەستەوە ڕاگەیاند",
+                                    "ھەردوو لایەن بەڕوونی پابەندی خۆیان بە ئاگربەستەوە ڕاگەیاند.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -214,6 +217,7 @@ class EnglishEntryaffirm extends StatelessWidget {
 ٢. (کردار) وتنی ئەوەی باوەڕت بەشتێکە و بەرگری لێ دەکەیت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,7 +227,8 @@ class EnglishEntryaffirm extends StatelessWidget {
                                   child: Text(
                                     "We affirm the principle that leaders must be chosen by the people and be accountable to the people.",
                                     textDirection: TextDirection
-                                        .ltr, // Right-to-left direction1
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +237,10 @@ class EnglishEntryaffirm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پشتیوانی ئەو باوەڕە دەکەین کە سەرکردەکان دەبێت لەلایەن خەڵکەوە ھەڵبژێردرێن و بەرپرسیار بن بەرامبەر خەڵکی",
+                                    "پشتیوانی ئەو باوەڕە دەکەین کە سەرکردەکان دەبێت لەلایەن خەڵکەوە ھەڵبژێردرێن و بەرپرسیار بن بەرامبەر خەڵکی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

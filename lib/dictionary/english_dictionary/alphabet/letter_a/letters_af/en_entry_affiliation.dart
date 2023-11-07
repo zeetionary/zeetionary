@@ -164,6 +164,7 @@ class EnglishEntryaffiliation extends StatelessWidget {
 ١. (ناو) پەیوەندی لەگەڵ پارتێک یان ڕێکخراوێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaffiliation extends StatelessWidget {
                                     "The group has affiliations with several organizations abroad.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryaffiliation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گرووپەکە پەیوەندی ھەیە لەگەڵ ژمارەیەک ڕێکخراوی بیانی",
+                                    "گرووپەکە پەیوەندی ھەیە لەگەڵ ژمارەیەک ڕێکخراوی بیانی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

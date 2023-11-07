@@ -164,6 +164,7 @@ class EnglishEntryadvertising extends StatelessWidget {
 ١. (ناو) چالاکی یان پیشەسازی ڕیکلامکرن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadvertising extends StatelessWidget {
                                     "Paid advertising on social media is an assured way to reach out to customers.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadvertising extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕیکلامکردن لەسەر سۆشیال میدیا ڕێگایەکی زۆرباشە بۆ گەشتن بە کڕیاران",
+                                    "ڕیکلامکردن لەسەر سۆشیال میدیا ڕێگایەکی زۆرباشە بۆ گەشتن بە کڕیاران.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

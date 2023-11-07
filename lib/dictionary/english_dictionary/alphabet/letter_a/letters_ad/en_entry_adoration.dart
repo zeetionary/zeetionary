@@ -164,6 +164,7 @@ class EnglishEntryadoration extends StatelessWidget {
 ١. (ناو) ھەستی خۆشەویستییەکی زۆر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadoration extends StatelessWidget {
                                     "He gazed at her with pure adoration.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadoration extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لێی دەڕوانی بە ئەڤینێکی بێگەرد",
+                                    "لێی دەڕوانی بە ئەڤینێکی بێگەرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

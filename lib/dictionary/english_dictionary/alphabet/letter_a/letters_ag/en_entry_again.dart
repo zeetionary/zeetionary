@@ -199,6 +199,7 @@ class EnglishEntryagain extends StatelessWidget {
 ١. (ھاوەڵکار) جارێکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -209,6 +210,7 @@ class EnglishEntryagain extends StatelessWidget {
                                     "This must never happen again.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -220,9 +222,10 @@ class EnglishEntryagain extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەمە ئەبێت ھەرگیز ڕوونەداتەوە",
+                                    "ئەمە ئەبێت ھەرگیز ڕوونەداتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -256,6 +259,7 @@ class EnglishEntryagain extends StatelessWidget {
                                     "If he does it again I'll have to tell him.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -267,9 +271,10 @@ class EnglishEntryagain extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەگەر دووبارەی بکاتەوە دەبێت پێی بڵێم",
+                                    "ئەگەر دووبارەی بکاتەوە دەبێت پێی بڵێم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -300,6 +305,7 @@ class EnglishEntryagain extends StatelessWidget {
 ٢. (ھاوەڵکار) پیشاندانی ئەوەی کەسێک لە ھەمان شوێن یان بارودۆخ دەبێت کە پێشووتر لێی بووە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -310,6 +316,7 @@ class EnglishEntryagain extends StatelessWidget {
                                     "He was glad to be home again.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -321,9 +328,10 @@ class EnglishEntryagain extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خۆشحاڵبوو کە دووبارە لە ماڵەوە بوو",
+                                    "خۆشحاڵبوو کە دووبارە لە ماڵەوە بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -354,6 +362,7 @@ class EnglishEntryagain extends StatelessWidget {
 ٣. (ھاوەڵکار) زیادبوون بۆ سەر ژمارەیەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -364,6 +373,7 @@ class EnglishEntryagain extends StatelessWidget {
                                     "The cost is about half as much again as it was two years ago.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -378,6 +388,7 @@ class EnglishEntryagain extends StatelessWidget {
                                     "نرخەکەی نیوەی نرخی دوو ساڵ پێش ئێستای خۆی چووەتە سەر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

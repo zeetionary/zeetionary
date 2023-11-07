@@ -12,8 +12,8 @@ class DictionaryScreenKurdish extends StatefulWidget {
 class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   final List<String> allwordsKurdish = [
-    "کوردی",
-    "کوردستان",
+    "کوردی.",
+    "کوردستان.",
   ];
 
   List<String> filteredWords = [];
@@ -76,10 +76,10 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
               child: KurdishDictionary(
                 words: filteredWords,
                 onTapWord: (wordsKurdish) {
-                  if (wordsKurdish == "کوردی") {
+                  if (wordsKurdish == "کوردی.") {
                     Routemaster.of(context).push('/english-aback');
                   }
-                  if (wordsKurdish == "کوردستان") {
+                  if (wordsKurdish == "کوردستان.") {
                     Routemaster.of(context).push('/english-abacus');
                   }
                   // if (wordsKurdish == "DOPSUM") {

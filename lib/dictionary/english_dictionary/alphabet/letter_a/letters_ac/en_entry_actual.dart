@@ -166,6 +166,7 @@ class EnglishEntryactual extends StatelessWidget {
 ١. (ھاوەڵناو) بەکاردێت بۆ جەختکردنەوە لە ڕاستییەتی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryactual extends StatelessWidget {
                                     "The actual cost was higher than we expected.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryactual extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تێچووی ڕاستی زیاتر لەوە بوو کە چاوەڕێمان دەکرد",
+                                    "تێچووی ڕاستی زیاتر لەوە بوو کە چاوەڕێمان دەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -220,6 +223,7 @@ class EnglishEntryactual extends StatelessWidget {
                                     "What were his actual words?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -231,6 +235,7 @@ class EnglishEntryactual extends StatelessWidget {
                                     "قسەکانی بە دەقیقی چی بوون؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -261,6 +266,7 @@ class EnglishEntryactual extends StatelessWidget {
 ٢. (ھاوەڵناو) بەکاردێت بۆ جەختکردنەوە لە گرنگترین بەشی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -271,6 +277,7 @@ class EnglishEntryactual extends StatelessWidget {
                                     "The wedding preparations take weeks but the actual ceremony takes less than an hour.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -279,9 +286,10 @@ class EnglishEntryactual extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئامادەکاریی ھاوسەرگیرییەکە چەندین ھەفتەی پێدەچوو، بەڵام ئاھەنگەکە خۆی کەمتر لە یەک کاتژمێری دەوێت",
+                                    "ئامادەکاریی ھاوسەرگیرییەکە چەندین ھەفتەی پێدەچوو، بەڵام ئاھەنگەکە خۆی کەمتر لە یەک کاتژمێری دەوێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

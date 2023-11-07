@@ -162,6 +162,7 @@ class EnglishEntryairconditioned extends StatelessWidget {
 ١. (ھاوەڵناو) شوێنێک کە سیستەمی فێنککەرەوەی تێدایە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryairconditioned extends StatelessWidget {
                                     "The restaurant is air-conditioned.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryairconditioned extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چێشتخانەکە سیستەمی فێنککەرەوەی تێدایە",
+                                    "چێشتخانەکە سیستەمی فێنککەرەوەی تێدایە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

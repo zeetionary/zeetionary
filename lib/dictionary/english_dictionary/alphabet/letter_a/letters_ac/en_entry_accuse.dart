@@ -164,6 +164,7 @@ class EnglishEntryaccuse extends StatelessWidget {
 ١. (کردار) وتنی ئەوەی کەسێک کارێکی ھەڵەی کردووە یان تۆمەتبارە بۆی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaccuse extends StatelessWidget {
                                     "She accused him of lying.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryaccuse extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە درۆکردن تۆمەتباری کرد",
+                                    "بە درۆکردن تۆمەتباری کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryaccuse extends StatelessWidget {
                                     "The government was accused of incompetence.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -227,6 +231,7 @@ class EnglishEntryaccuse extends StatelessWidget {
                                     "حکومەت بە ناکارامەیی تۆمەتبارکرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

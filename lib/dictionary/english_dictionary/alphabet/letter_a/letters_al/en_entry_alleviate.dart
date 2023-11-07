@@ -165,6 +165,7 @@ class EnglishEntryalleviate extends StatelessWidget {
 ١. (کردار) سەختی شتێک کەمبکەیتەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryalleviate extends StatelessWidget {
                                     "A number of measures were taken to alleviate the problem.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryalleviate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژمارەیەک ڕێکار گردرانە بەر بۆ سوککردنی کێشەکە",
+                                    "ژمارەیەک ڕێکار گردرانە بەر بۆ سوککردنی کێشەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -222,6 +225,7 @@ class EnglishEntryalleviate extends StatelessWidget {
                                     "The drugs did nothing to alleviate her pain/suffering.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +237,10 @@ class EnglishEntryalleviate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چارەسەرەکان ھیچیان نەکرد بۆ کەمکردنەوەی ئازارەکەی",
+                                    "چارەسەرەکان ھیچیان نەکرد بۆ کەمکردنەوەی ئازارەکەی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

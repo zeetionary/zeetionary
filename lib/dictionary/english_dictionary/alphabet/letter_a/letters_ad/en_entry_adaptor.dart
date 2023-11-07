@@ -163,6 +163,7 @@ class EnglishEntryadaptor extends StatelessWidget {
 ١. (ناو) ئامێرێک کە بەکاردێت بۆ پێکەوەلکاندنی دوو پارچەی کارەبایی کە پێکەوە ناگونجێن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
@@ -170,6 +171,7 @@ class EnglishEntryadaptor extends StatelessWidget {
 ٢. (ناو) ئامێرێک کە بەکاردێت بۆ لکاندنی زیاتر لە یەک ئامێری کارەبایی بە پلاکێکەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
@@ -177,6 +179,7 @@ class EnglishEntryadaptor extends StatelessWidget {
 ٣. (ناو) کەسێک کە کتێبێک یان شانۆیەک دووبارە دەنووسێتەوە بۆ ئەوەی بگونجێت لەگەڵ کردنی بە شانۆ یان فیلم''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

@@ -149,6 +149,7 @@ class EnglishEntryabhor extends StatelessWidget {
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -161,6 +162,7 @@ Most decent people abhor corruption in government.
                                     ''',
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -174,6 +176,7 @@ Most decent people abhor corruption in government.
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -206,6 +209,7 @@ She abhors any form of cruelty towards animals.
                                     ''',
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -219,6 +223,7 @@ She abhors any form of cruelty towards animals.
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

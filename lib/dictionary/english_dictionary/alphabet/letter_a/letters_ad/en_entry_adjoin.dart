@@ -164,6 +164,7 @@ class EnglishEntryadjoin extends StatelessWidget {
 ١. (کردار) بوون لە تەنیشت شتێک، یان گرێدراو پێوەی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadjoin extends StatelessWidget {
                                     "It's at this point that these three neighbourhoods adjoin.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadjoin extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەم خاڵەدایە کە ھەر سێ گەڕەکەکە یەکدەگرن",
+                                    "لەم خاڵەدایە کە ھەر سێ گەڕەکەکە یەکدەگرن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

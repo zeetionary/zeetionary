@@ -164,6 +164,7 @@ class EnglishEntryadminister extends StatelessWidget {
 ١. (کردار) بەڕێوەبردنی کۆمپانیایەک، دامەزراوەیەک، یان وڵاتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadminister extends StatelessWidget {
                                     "The country has to face up to the high cost of administering medical services.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadminister extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وڵاتەکە دەبێت مامەڵە لەگەڵ بەرزی نرخی بەڕێوەبردنی خزمەتگوزارییە تەندرووستییەکان بکات",
+                                    "وڵاتەکە دەبێت مامەڵە لەگەڵ بەرزی نرخی بەڕێوەبردنی خزمەتگوزارییە تەندرووستییەکان بکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -215,6 +218,7 @@ class EnglishEntryadminister extends StatelessWidget {
 ٢. (کردار) دڵنیاییکردنی ئەوەی شتێک بەشێوەیەکی دادپەروەرانە دەکرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -225,6 +229,7 @@ class EnglishEntryadminister extends StatelessWidget {
                                     "It is the function of the courts to administer the laws which Parliament has enacted.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +238,10 @@ class EnglishEntryadminister extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەرکی دادگاکانە ئەو یاسایانە جێبەجێبکەن کە پەرلەمان تێیپەڕاندوون",
+                                    "ئەرکی دادگاکانە ئەو یاسایانە جێبەجێبکەن کە پەرلەمان تێیپەڕاندوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -266,6 +272,7 @@ class EnglishEntryadminister extends StatelessWidget {
 ٣. (کردار) پێدانی شتێک بە کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -276,6 +283,7 @@ class EnglishEntryadminister extends StatelessWidget {
                                     "A taxi driver administered first aid to the victims.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -284,9 +292,10 @@ class EnglishEntryadminister extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شۆفێری تەکسییەک فریاگوزاری سەرەتایی بۆ قوربانیان ئەنجامدا",
+                                    "شۆفێری تەکسییەک فریاگوزاری سەرەتایی بۆ قوربانیان ئەنجامدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

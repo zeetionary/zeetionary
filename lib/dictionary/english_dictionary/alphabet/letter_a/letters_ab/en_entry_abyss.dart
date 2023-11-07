@@ -148,6 +148,7 @@ class EnglishEntryabyss extends StatelessWidget {
 ١. (ناو) چاڵێکی قووڵ کە پێدەچێت کۆتایی نەبێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryabyss extends StatelessWidget {
                                     "They took a long look into the abyss before deciding whether to jump.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryabyss extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەیرێکی زۆری چاڵەکەیان کرد پێش ئەوەی بڕیار بدەن لەسەر بازدان",
+                                    "سەیرێکی زۆری چاڵەکەیان کرد پێش ئەوەی بڕیار بدەن لەسەر بازدان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

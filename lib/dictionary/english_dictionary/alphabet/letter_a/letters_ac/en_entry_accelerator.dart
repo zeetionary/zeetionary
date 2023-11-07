@@ -148,6 +148,7 @@ class EnglishEntryaccelerator extends StatelessWidget {
 ١. ئەو بەشەی ئۆتۆمبێل کە بەکاردێت بۆ کۆنترۆڵی خێرایی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryaccelerator extends StatelessWidget {
                                     "She put her foot on the accelerator and we sped through the traffic lights.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryaccelerator extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێی لەسەر بەنزین دانا و بەخێرایی بە ترافیک لایتەکە تێپەڕین",
+                                    "پێی لەسەر بەنزین دانا و بەخێرایی بە ترافیک لایتەکە تێپەڕین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

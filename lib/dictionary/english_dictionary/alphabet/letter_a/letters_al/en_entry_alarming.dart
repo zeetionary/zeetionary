@@ -164,6 +164,7 @@ class EnglishEntryalarming extends StatelessWidget {
 ١. (ھاوەڵناو) بە ئاستێک کە جێگەی نیگەرانی و ترسە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalarming extends StatelessWidget {
                                     "The rainforests are disappearing at an alarming rate.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalarming extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دارستانەکان بە ئاستێکی ترسێنەر کەمدەبن",
+                                    "دارستانەکان بە ئاستێکی ترسێنەر کەمدەبن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

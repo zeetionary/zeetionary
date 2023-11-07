@@ -219,6 +219,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
 ١. (ناو) مادەیەک کە ڕێگە لە ھەوکردنی برین دەکات بە کوشتنی بەکتریا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -229,6 +230,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
                                     "Dab the graze with antiseptic.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,9 +242,10 @@ class EnglishEntryantiseptic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕووشاوییەکە بە خاوێن‌کەر بساوە",
+                                    "ڕووشاوییەکە بە خاوێن‌کەر بساوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -277,6 +280,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
                                     "Use antiseptic to clean and dress cuts.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -288,9 +292,10 @@ class EnglishEntryantiseptic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خاوێن‌کەر بەکاربێنە بۆ پاککردنەوە و دواتر برینەکە بپێچە",
+                                    "خاوێن‌کەر بەکاربێنە بۆ پاککردنەوە و دواتر برینەکە بپێچە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -322,6 +327,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
 ٢. (ھاوەڵناو) ھەبوونی خاسیەتی ڕێگری لە ھەوکردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -332,6 +338,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
                                     "When you get a little cut, you can use antiseptic cream.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -343,9 +350,10 @@ class EnglishEntryantiseptic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کاتێک برینێکی بچووکت دەبێت دەتوانی کرێمی دژە-ھەوکردن بەکاربێنی",
+                                    "کاتێک برینێکی بچووکت دەبێت دەتوانی کرێمی دژە-ھەوکردن بەکاربێنی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -377,6 +385,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
 ٣. (ھاوەڵناو) زۆرپاک بەبێ بوونی ھیچ بەکتریایەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -387,6 +396,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
                                     "Cover the burn with an antiseptic dressing.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -398,9 +408,10 @@ class EnglishEntryantiseptic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "برینەکە بە پارچەیەکی زۆرپاک ببەستە",
+                                    "برینەکە بە پارچەیەکی زۆرپاک ببەستە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -213,6 +213,7 @@ class EnglishEntryant extends StatelessWidget {
 ١. (ناو) مێروویەکی بچووک کە لەژێر زەویدا بە ژمارەیەکی زۆر و گرووپی ڕێکخراو دەژین''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryant extends StatelessWidget {
                                     "Ants are tiny insects that crawl on the ground in large groups.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryant extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مێروولە مێرووی بچووکن کە بەسەر زەویدا دەڕۆن بە گرووپی زۆرەوە",
+                                    "مێروولە مێرووی بچووکن کە بەسەر زەویدا دەڕۆن بە گرووپی زۆرەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

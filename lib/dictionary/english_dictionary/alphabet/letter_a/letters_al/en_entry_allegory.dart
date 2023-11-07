@@ -164,6 +164,7 @@ class EnglishEntryallegory extends StatelessWidget {
 ١. (ناو) چیرۆکێک کە تێیدا ھەر کارەکتەرێک سمبولە بۆ بیرۆکەیەک یان چەمکێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryallegory extends StatelessWidget {
                                     "The play can be read as allegory.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryallegory extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شانۆکە دەکرێت وەک  ھێرۆک ببینرێت",
+                                    "شانۆکە دەکرێت وەک  ھێرۆک ببینرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

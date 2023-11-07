@@ -164,6 +164,7 @@ class EnglishEntryaforementioned extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک یان شتێک کە پێشتر باسکراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaforementioned extends StatelessWidget {
                                     "The aforementioned person was seen acting suspiciously.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryaforementioned extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناوبراو بینرا کە بە گومانەوە ڕەفتاری دەکرد",
+                                    "ناوبراو بینرا کە بە گومانەوە ڕەفتاری دەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

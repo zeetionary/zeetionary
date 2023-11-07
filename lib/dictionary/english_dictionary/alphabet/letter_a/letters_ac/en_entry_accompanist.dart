@@ -146,6 +146,7 @@ class EnglishEntryaccompanist extends StatelessWidget {
 ١. کەسێک کە ئامێرێکی موسیقی دەژەنێت لە کاتێکدا کەسێکی تر بەشە گرنگەکەی گۆرانییەکە دەڵێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -156,6 +157,7 @@ class EnglishEntryaccompanist extends StatelessWidget {
                                     "The singer's accompanist on the piano was Charles Harman.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -164,9 +166,10 @@ class EnglishEntryaccompanist extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پیانۆژەنی گۆرانیبێژەکە چارڵس ھارمان بوو",
+                                    "پیانۆژەنی گۆرانیبێژەکە چارڵس ھارمان بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

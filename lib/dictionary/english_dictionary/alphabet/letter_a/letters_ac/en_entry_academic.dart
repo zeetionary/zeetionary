@@ -184,6 +184,7 @@ class EnglishEntryacademic extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار لەگەڵ پەروەردە، بەتایبەت خوێندنی خوێندنگە و زانکۆ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -194,6 +195,7 @@ class EnglishEntryacademic extends StatelessWidget {
                                     "The university is renowned throughout the world for its academic excellence.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -202,9 +204,10 @@ class EnglishEntryacademic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زانکۆکە ناسراوە لە جیھاندا بۆ باشترین بوون لەلایەنی ئەکادیمییەوە",
+                                    "زانکۆکە ناسراوە لە جیھاندا بۆ باشترین بوون لەلایەنی ئەکادیمییەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -233,6 +236,7 @@ class EnglishEntryacademic extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بە خوێندن و خوێندنەوەی زۆر، وەک لە شارەزایی کرداری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -243,6 +247,7 @@ class EnglishEntryacademic extends StatelessWidget {
                                     "We are looking for practical experience as well as academic achievement.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -251,9 +256,10 @@ class EnglishEntryacademic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئێمە بە شوێن ئەزموونی کردار دەگەڕێن لەگەڵ بەدەستھێنانی ئەکادیمی",
+                                    "ئێمە بە شوێن ئەزموونی کردار دەگەڕێن لەگەڵ بەدەستھێنانی ئەکادیمی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -282,6 +288,7 @@ class EnglishEntryacademic extends StatelessWidget {
 ٣. (ھاوەڵناو) کەسێک کە باشە لەو بابەتانەی کە پەیوەندی بە خوێندن و خوێندنەوەوە ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -292,6 +299,7 @@ class EnglishEntryacademic extends StatelessWidget {
                                     "She wasn't very academic and hated school.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -300,9 +308,10 @@ class EnglishEntryacademic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەسێکی ئەکادیمی نەبوو و ڕقی لە قوتابخانە بوو",
+                                    "کەسێکی ئەکادیمی نەبوو و ڕقی لە قوتابخانە بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -331,6 +340,7 @@ class EnglishEntryacademic extends StatelessWidget {
 ٤. (ناو) کەسێک کە لە کۆلێجێک یان زانکۆیەک کار دەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -341,6 +351,7 @@ class EnglishEntryacademic extends StatelessWidget {
                                     "There is much debate among academics about this issue.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -349,9 +360,10 @@ class EnglishEntryacademic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مشتومڕی زۆر ھەیە لە نێوان لێکۆڵەران سەبارەت بەم بابەتە",
+                                    "مشتومڕی زۆر ھەیە لە نێوان لێکۆڵەران سەبارەت بەم بابەتە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

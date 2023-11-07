@@ -164,6 +164,7 @@ class EnglishEntryalphabet extends StatelessWidget {
 ١. (ناو) ئەلفیبێی زمانێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalphabet extends StatelessWidget {
                                     "Alpha is the first letter of the Greek alphabet.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalphabet extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەلفا یەکەم پیتی ئەلفوبێی یۆنانییە",
+                                    "ئەلفا یەکەم پیتی ئەلفوبێی یۆنانییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

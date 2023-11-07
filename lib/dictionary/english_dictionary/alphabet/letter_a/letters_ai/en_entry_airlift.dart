@@ -163,6 +163,7 @@ class EnglishEntryairlift extends StatelessWidget {
 ١. (ناو) ئۆپەراسیۆنی گواستنەوەی خەڵکی بە فڕۆکە لە ناوچەیەکی مەترسیدار یان لێقەوماو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryairlift extends StatelessWidget {
                                     "The German authorities are considering an airlift if the situation becomes critical.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryairlift extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەسەڵاتدارانی ئەڵمانیا بیر لە ئۆپەراسیۆنی گواستنەوەی ڕزگارکردن بە فڕۆکە دەکەنەوە لە حاڵەتی خراپبوونی دۆخەکە",
+                                    "دەسەڵاتدارانی ئەڵمانیا بیر لە ئۆپەراسیۆنی گواستنەوەی ڕزگارکردن بە فڕۆکە دەکەنەوە لە حاڵەتی خراپبوونی دۆخەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -217,6 +220,7 @@ class EnglishEntryairlift extends StatelessWidget {
 ٢. (کردار) گواستنەوەی کەسێک بە فڕۆکە لە شوێنێکی مەترسیدار یان لێقەوماو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -227,6 +231,7 @@ class EnglishEntryairlift extends StatelessWidget {
                                     "Over 200 residents were airlifted off the island.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -238,9 +243,10 @@ class EnglishEntryairlift extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زیاتر لە ٢٠٠ کەس لە دوورگەکە بە فڕۆکە ڕزگارکران",
+                                    "زیاتر لە ٢٠٠ کەس لە دوورگەکە بە فڕۆکە ڕزگارکران.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

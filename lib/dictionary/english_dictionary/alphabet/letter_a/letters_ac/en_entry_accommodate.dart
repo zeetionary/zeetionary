@@ -173,6 +173,7 @@ class EnglishEntryaccommodate extends StatelessWidget {
 ١. (کردار) دابینکردنی شوێنی مانەوە بۆ کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -183,6 +184,7 @@ class EnglishEntryaccommodate extends StatelessWidget {
                                     "The hotel can accommodate up to 500 guests.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -191,9 +193,10 @@ class EnglishEntryaccommodate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھوتێلەکە ئەتوانێت ٥٠٠ میوان لەخۆبگرێت",
+                                    "ھوتێلەکە ئەتوانێت ٥٠٠ میوان لەخۆبگرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -222,6 +225,7 @@ class EnglishEntryaccommodate extends StatelessWidget {
 ٢. (کردار) توانای لەخۆگرتنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -232,6 +236,7 @@ class EnglishEntryaccommodate extends StatelessWidget {
                                     "The garage can accommodate three cars.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,9 +245,10 @@ class EnglishEntryaccommodate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گەراجەکە شوێنی سێ ئۆتۆمبێلی تێدا دەبێتەوە",
+                                    "گەراجەکە شوێنی سێ ئۆتۆمبێلی تێدا دەبێتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -271,6 +277,7 @@ class EnglishEntryaccommodate extends StatelessWidget {
 ٣. (کردار) لەبەرچاوگرتنی پێویستی یان بۆچوونی کەسێک و گرنگیپێدان پێی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -281,6 +288,7 @@ class EnglishEntryaccommodate extends StatelessWidget {
                                     "Our proposal tries to accommodate the special needs of minority groups.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -289,9 +297,10 @@ class EnglishEntryaccommodate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێشنیارەکانمان ھەوڵ دەدات پێداویستییە تایبەتەکانی کەمایەتییەکان لەبەرچاوبگرێت",
+                                    "پێشنیارەکانمان ھەوڵ دەدات پێداویستییە تایبەتەکانی کەمایەتییەکان لەبەرچاوبگرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -320,6 +329,7 @@ class EnglishEntryaccommodate extends StatelessWidget {
 ٤. (کردار) یارمەتیدانی کەسێک بە پێدانی ئەوەی دەیەوێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -330,6 +340,7 @@ class EnglishEntryaccommodate extends StatelessWidget {
                                     "I’m sure the bank will be able to accommodate you.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -338,9 +349,10 @@ class EnglishEntryaccommodate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دڵنیام بانکەکە دەتوانێت یارمەتیت بدات",
+                                    "دڵنیام بانکەکە دەتوانێت یارمەتیت بدات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryalarmclock extends StatelessWidget {
 ١. (ناو) کاتژمێرێکی زەنگدار کە دەتوانێت لە کاتێکی دیاریکراو زەنگ لێبدات و لە خەو ھەڵت بسێنێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalarmclock extends StatelessWidget {
                                     "I set the alarm clock for 7 o'clock.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalarmclock extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زەنگی کاتژمێرەکەم بۆ کاتژمێر ٧ چالاککرد",
+                                    "زەنگی کاتژمێرەکەم بۆ کاتژمێر ٧ چالاککرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

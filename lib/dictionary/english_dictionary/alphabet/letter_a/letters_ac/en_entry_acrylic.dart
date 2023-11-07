@@ -163,6 +163,7 @@ class EnglishEntryacrylic extends StatelessWidget {
 ١. (ھاوەڵناو) درووستکراو لە مادەیەک کە بە پڕۆسەی کیمیایی درووستکراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryacrylic extends StatelessWidget {
                                     "an acrylic sweater",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,6 +186,7 @@ class EnglishEntryacrylic extends StatelessWidget {
                                     "فانیلەیەلی ئەکریلیک",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryacrylic extends StatelessWidget {
                                     "acrylic paint",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -227,6 +231,7 @@ class EnglishEntryacrylic extends StatelessWidget {
                                     "بۆیەی ئەکریلیک",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

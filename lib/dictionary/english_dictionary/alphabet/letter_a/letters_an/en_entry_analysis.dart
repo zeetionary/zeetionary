@@ -25,7 +25,8 @@ class EnglishEntryanalysis extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Further analysis revealed significant regional variations in the results."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Further analysis revealed significant regional variations in the results."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnalysis7499(String languageCode) async {
@@ -33,7 +34,8 @@ class EnglishEntryanalysis extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We made the decision based on our analysis of the situation."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We made the decision based on our analysis of the situation."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnalysis7066(String languageCode) async {
@@ -41,7 +43,8 @@ class EnglishEntryanalysis extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The blood samples are sent to the laboratory for analysis."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The blood samples are sent to the laboratory for analysis."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnalysis(String languageCode) async {
@@ -211,6 +214,7 @@ class EnglishEntryanalysis extends StatelessWidget {
 ١. (ناو) توێژینەوەی ورد لەسەر شتێک بۆ زیاتر تێگەشتن لێی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +225,7 @@ class EnglishEntryanalysis extends StatelessWidget {
                                     "Further analysis revealed significant regional variations in the results.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +237,10 @@ class EnglishEntryanalysis extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "توێژینەوەی زیاتر جیاوازیی بەرچاوی ھەرێمی لە ئەنجامەکان دەرخست",
+                                    "توێژینەوەی زیاتر جیاوازیی بەرچاوی ھەرێمی لە ئەنجامەکان دەرخست.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -252,9 +258,9 @@ class EnglishEntryanalysis extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnalysis000(// REPLACE: analysis /əˈnæləsɪs/
-                                        "en-US"),
+                                onPressed: () => speakAnalysis000(
+                                    // REPLACE: analysis /əˈnæləsɪs/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -269,6 +275,7 @@ class EnglishEntryanalysis extends StatelessWidget {
                                     "We made the decision based on our analysis of the situation.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -280,9 +287,10 @@ class EnglishEntryanalysis extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بڕیارەکەمان‌دا لەدوای لەبەرچاوگرتنی لێکدانەوەمان بۆ بارودۆخەکە",
+                                    "بڕیارەکەمان‌دا لەدوای لەبەرچاوگرتنی لێکدانەوەمان بۆ بارودۆخەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -300,9 +308,9 @@ class EnglishEntryanalysis extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnalysis7499(// REPLACE: analysis /əˈnæləsɪs/
-                                        "en-US"),
+                                onPressed: () => speakAnalysis7499(
+                                    // REPLACE: analysis /əˈnæləsɪs/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -314,6 +322,7 @@ class EnglishEntryanalysis extends StatelessWidget {
 ٢. (ناو) لێکۆڵینەوەی ورد لە شتێک بۆ ئەوەی بزانی لە چی پێکھاتووە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -324,6 +333,7 @@ class EnglishEntryanalysis extends StatelessWidget {
                                     "The blood samples are sent to the laboratory for analysis.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -335,9 +345,10 @@ class EnglishEntryanalysis extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سامپڵەکانی خوێنەکە نێردران بۆ تاقیگە بۆ لێکۆڵینەوە",
+                                    "سامپڵەکانی خوێنەکە نێردران بۆ تاقیگە بۆ لێکۆڵینەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -355,9 +366,9 @@ class EnglishEntryanalysis extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnalysis7066(// REPLACE: analysis /əˈnæləsɪs/
-                                        "en-US"),
+                                onPressed: () => speakAnalysis7066(
+                                    // REPLACE: analysis /əˈnæləsɪs/
+                                    "en-US"),
                               ),
                             ],
                           ),

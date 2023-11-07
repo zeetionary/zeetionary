@@ -233,6 +233,7 @@ class EnglishEntryalarm extends StatelessWidget {
 ١. (ناو) دەنگێکی بەرز کە خەڵکی لە کێشە ئاگادار دەکاتەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -243,6 +244,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                     "She decided to sound the alarm (= warn people that the situation was dangerous).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -254,9 +256,10 @@ class EnglishEntryalarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بڕیاریدا زەنگی مەترسی لێبدا",
+                                    "بڕیاریدا زەنگی مەترسی لێبدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -290,6 +293,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                     "I hammered on all the doors to raise the alarm.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -301,9 +305,10 @@ class EnglishEntryalarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە ھەموو دەرگاکانم دا بۆ ئاگادارکردنەوە",
+                                    "لە ھەموو دەرگاکانم دا بۆ ئاگادارکردنەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -334,6 +339,7 @@ class EnglishEntryalarm extends StatelessWidget {
 ٢. (ناو) ئامێرێک کە زەنگی مەترسی لێدەدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -344,6 +350,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                     "A car alarm went off in the middle of the night (= started ringing).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -355,9 +362,10 @@ class EnglishEntryalarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زەنگی ئاگادارکەرەوەی ئۆتۆمبێلێک لە نیوە شەودا دەستی بە لێدان کرد",
+                                    "زەنگی ئاگادارکەرەوەی ئۆتۆمبێلێک لە نیوە شەودا دەستی بە لێدان کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -388,6 +396,7 @@ class EnglishEntryalarm extends StatelessWidget {
 ٣. (ناو) زەنگێک کە دیاری دەکەیت لەسەر کاتژمێرێک یان موبایل بۆ ئەوەی لە کاتێکی دیاریکراو لێبدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -398,6 +407,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                     "The alarm went off at 7 o'clock.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -409,9 +419,10 @@ class EnglishEntryalarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زەنگەکە لە کاتژمێر ٧ دەستی بە لێدان کرد",
+                                    "زەنگەکە لە کاتژمێر ٧ دەستی بە لێدان کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -442,6 +453,7 @@ class EnglishEntryalarm extends StatelessWidget {
 ٤. (ناو) ترس و نیگەرانی لە کاتی مەترسی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -452,6 +464,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                     "The doctor said there was no cause for alarm.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -463,9 +476,10 @@ class EnglishEntryalarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پزیشکەکە وتی ھیچ ھۆکارێک نییە بۆ دڵەخورپە",
+                                    "پزیشکەکە وتی ھیچ ھۆکارێک نییە بۆ دڵەخورپە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -496,6 +510,7 @@ class EnglishEntryalarm extends StatelessWidget {
 ٥. (کردار) درووستکردنی نیگەرانی یان مەترسی لای کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -506,6 +521,7 @@ class EnglishEntryalarm extends StatelessWidget {
                                     "It alarms me that nobody takes this problem seriously.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -517,9 +533,10 @@ class EnglishEntryalarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تووشی دڵەخورپە دەبم کە ھیچ کەس ئەم کێشەیە بە جدی وەرناگرێت",
+                                    "تووشی دڵەخورپە دەبم کە ھیچ کەس ئەم کێشەیە بە جدی وەرناگرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

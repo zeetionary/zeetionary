@@ -212,6 +212,7 @@ class EnglishEntryanniversary extends StatelessWidget {
 ١. (ھاوەڵناو) ساڵیاد؛ بەروارێک کە تێیدا ڕێژەیەکی دیاریکراو ساڵی تەواو بەسەر ڕووداوێک تێ‌پەڕیوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryanniversary extends StatelessWidget {
                                     "The company is celebrating its 100-year anniversary this year.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryanniversary extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەمساڵ کۆمپانیاکە یادی ١٠٠ھەمین ساڵی دەکاتەوە",
+                                    "ئەمساڵ کۆمپانیاکە یادی ١٠٠ھەمین ساڵی دەکاتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

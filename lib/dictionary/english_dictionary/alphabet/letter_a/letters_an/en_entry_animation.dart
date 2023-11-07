@@ -214,6 +214,7 @@ class EnglishEntryanimation extends StatelessWidget {
 ١. (ناو) پڕۆسەی درووستکردنی فیلمێک کە تێیدا نیگار یان وێنەی مرۆڤ و ئاژەڵ وادەردەکەون بجووڵێن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +225,7 @@ class EnglishEntryanimation extends StatelessWidget {
                                     "The intricate process of creating cartoon animation requires skill and creativity.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +237,10 @@ class EnglishEntryanimation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پڕۆسەی ئاڵۆزی درووستکردنی ئەنیمەیشنی کارتۆنی پێویستی بە شارەزایی و تازەگەرییە",
+                                    "پڕۆسەی ئاڵۆزی درووستکردنی ئەنیمەیشنی کارتۆنی پێویستی بە شارەزایی و تازەگەرییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -269,6 +272,7 @@ class EnglishEntryanimation extends StatelessWidget {
 ٢. (ناو) فیلمێک کە تێیدا نیگار یان وێنەی مرۆڤ و ئاژەڵ وادەردەکەون بجووڵێن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -279,6 +283,7 @@ class EnglishEntryanimation extends StatelessWidget {
                                     "The electronic dictionary included some animations.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -290,9 +295,10 @@ class EnglishEntryanimation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "فەرھەنگە ئەلیکترۆنییەکە ژمارەیەک ئەنیمەیشنی تێدابوو",
+                                    "فەرھەنگە ئەلیکترۆنییەکە ژمارەیەک ئەنیمەیشنی تێدابوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -324,6 +330,7 @@ class EnglishEntryanimation extends StatelessWidget {
 ٣. (ناو) وزە و جۆش‌وخرۆشی لە شێوازی دەرکەوتنی کەسێک، یان ڕەفتار و قسەکردنی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -334,6 +341,7 @@ class EnglishEntryanimation extends StatelessWidget {
                                     "His face was drained of all colour and animation.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -345,9 +353,10 @@ class EnglishEntryanimation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕووخساری ھیچ ڕەنگ و تین‌وگوڕی تێدانەمابوو",
+                                    "ڕووخساری ھیچ ڕەنگ و تین‌وگوڕی تێدانەمابوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryacupuncture extends StatelessWidget {
 ١. (ناو) ڕێگایەکی چارەسەرکردنی ئازار و نەخۆشی بە بەکارھێنانی دەرزیی تایبەتی باریک کە دەکرێن بە بەشەکانی جەستەدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryacupuncture extends StatelessWidget {
                                     "Acupuncture has been practised in China for thousands of years.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryacupuncture extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەرزی ئاژنین ھەزاران ساڵە لە چین پەیڕەو دەکرێت",
+                                    "دەرزی ئاژنین ھەزاران ساڵە لە چین پەیڕەو دەکرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

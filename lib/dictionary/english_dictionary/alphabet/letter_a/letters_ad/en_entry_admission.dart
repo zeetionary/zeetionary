@@ -183,6 +183,7 @@ class EnglishEntryadmission extends StatelessWidget {
 ١. (ناو) وەرگرتنی کەسێک لە شوێنێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -193,6 +194,7 @@ class EnglishEntryadmission extends StatelessWidget {
                                     "Hospital admission is not necessary in most cases.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -201,9 +203,10 @@ class EnglishEntryadmission extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چوونە نەخۆشخانە لە زۆر حاڵەتدا پێویست نییە",
+                                    "چوونە نەخۆشخانە لە زۆر حاڵەتدا پێویست نییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -237,6 +240,7 @@ class EnglishEntryadmission extends StatelessWidget {
                                     "Is there any charge for admission?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -248,6 +252,7 @@ class EnglishEntryadmission extends StatelessWidget {
                                     "ھیچ پارەیەک بۆ چوونەژوورەوە وەردەگیرێت؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -278,6 +283,7 @@ class EnglishEntryadmission extends StatelessWidget {
 ٢. (ناو) دانپێدانانی کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -288,6 +294,7 @@ class EnglishEntryadmission extends StatelessWidget {
                                     "She has made no admission of any involvement in the plot.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -296,9 +303,10 @@ class EnglishEntryadmission extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھیچ دانپێدانانێکی نەناوە بە تێوەگلان لە پلانەکەوە",
+                                    "ھیچ دانپێدانانێکی نەناوە بە تێوەگلان لە پلانەکەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -329,6 +337,7 @@ class EnglishEntryadmission extends StatelessWidget {
 ٣. (ناو) بڕە پارەیەک کە ئەدرێت بۆ چوونەژوورەوە بۆ شوێنێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -339,6 +348,7 @@ class EnglishEntryadmission extends StatelessWidget {
                                     "There is an admission fee of 10 dollars.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -347,9 +357,10 @@ class EnglishEntryadmission extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کرێی چوونەژوورەوە ١٠ دۆلارە",
+                                    "کرێی چوونەژوورەوە ١٠ دۆلارە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

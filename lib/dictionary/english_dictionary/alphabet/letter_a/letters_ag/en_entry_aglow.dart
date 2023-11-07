@@ -164,6 +164,7 @@ class EnglishEntryaglow extends StatelessWidget {
 ١. (ھاوەڵناو) بریقانەوە بە ڕەنگ و درەوشانەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaglow extends StatelessWidget {
                                     "His face was all aglow with excitement.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryaglow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕووخساری لە خۆشیدا دەدرەوشایەوە",
+                                    "ڕووخساری لە خۆشیدا دەدرەوشایەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

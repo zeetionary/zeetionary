@@ -164,6 +164,7 @@ class EnglishEntryaisle extends StatelessWidget {
 ١. (ناو) نێوانی ڕیزە کورسی یان شتی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaisle extends StatelessWidget {
                                     "She looked radiant as she walked down the aisle on her father’s arm.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryaisle extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گەشبین دەردەکەوت کە بە ڕێڕەکەدا تێدەپەڕی دەست لەناو دەستی باوکی",
+                                    "گەشبین دەردەکەوت کە بە ڕێڕەکەدا تێدەپەڕی دەست لەناو دەستی باوکی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -139,6 +139,7 @@ class EnglishEntryabbot extends StatelessWidget {
 ١. (ناو) پیاوێک کە سەرۆکایەتی کڵێسایەک دەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -149,6 +150,7 @@ class EnglishEntryabbot extends StatelessWidget {
                                     "Under the abbot's leadership, the monastery flourished as a center of prayer and learning.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -157,9 +159,10 @@ class EnglishEntryabbot extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە دەمی سەرۆکایەتی ڕەبەنەکە، کڵیساکە پەرەیسەند وەک ناوەندێکی نزاکردن و فێربوون",
+                                    "لە دەمی سەرۆکایەتی ڕەبەنەکە، کڵیساکە پەرەیسەند وەک ناوەندێکی نزاکردن و فێربوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

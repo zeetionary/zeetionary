@@ -164,6 +164,7 @@ class EnglishEntryadjudication extends StatelessWidget {
 ١. (ناو) پڕۆسەی ناوبژی کە نێوان دوو لایەن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadjudication extends StatelessWidget {
                                     "The case was referred to a higher court for adjudication.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadjudication extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەیسەکە نێردرا بۆ داگایەکی باڵاتر بۆ ناوبژی",
+                                    "کەیسەکە نێردرا بۆ داگایەکی باڵاتر بۆ ناوبژی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

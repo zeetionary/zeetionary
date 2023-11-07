@@ -139,6 +139,7 @@ class EnglishEntryAbbreviate extends StatelessWidget {
 ١. (کردار) کورتکردنەوەی وشە یان ناو، زۆرجار بە تەنھا بەکارھێنانی پیتەکانی سەرەتا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -149,6 +150,7 @@ class EnglishEntryAbbreviate extends StatelessWidget {
                                     "When taking notes, it's helpful to abbreviate long phrases to save time and space.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -157,9 +159,10 @@ class EnglishEntryAbbreviate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کاتێک تێبینی دەنووسیت، واباشە دەستەواژە درێژەکان کورتبکەیتەوە بۆ گەڕاندنەوەی کات و مەودای نووسین",
+                                    "کاتێک تێبینی دەنووسیت، واباشە دەستەواژە درێژەکان کورتبکەیتەوە بۆ گەڕاندنەوەی کات و مەودای نووسین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

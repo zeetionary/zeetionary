@@ -25,7 +25,8 @@ class EnglishEntryanalyze extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The job involves collecting and analyzing data."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The job involves collecting and analyzing data."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakanalyze4920(String languageCode) async {
@@ -33,7 +34,8 @@ class EnglishEntryanalyze extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He tried to analyze his feelings."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He tried to analyze his feelings."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakanalyze469(String languageCode) async {
@@ -41,7 +43,8 @@ class EnglishEntryanalyze extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We need to analyze what went wrong."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We need to analyze what went wrong."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakanalyze(String languageCode) async {
@@ -211,6 +214,7 @@ class EnglishEntryanalyze extends StatelessWidget {
 ١. (ھاوەڵناو) لێکۆڵینەوە لە شتێک و شیتەڵ‌کردنی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +225,7 @@ class EnglishEntryanalyze extends StatelessWidget {
                                     "The job involves collecting and analyzing data.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +237,10 @@ class EnglishEntryanalyze extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کارەکە کۆکردنەوە و شیکردنەوەی داتا لەخۆدەگرێت",
+                                    "کارەکە کۆکردنەوە و شیکردنەوەی داتا لەخۆدەگرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -252,9 +258,9 @@ class EnglishEntryanalyze extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakanalyze7950(// REPLACE: analyze /ˈænəlaɪz/
-                                        "en-US"),
+                                onPressed: () => speakanalyze7950(
+                                    // REPLACE: analyze /ˈænəlaɪz/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -269,6 +275,7 @@ class EnglishEntryanalyze extends StatelessWidget {
                                     "He tried to analyze his feelings.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -280,9 +287,10 @@ class EnglishEntryanalyze extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەوڵی‌دا لە ھەستەکانی تێ‌بگات",
+                                    "ھەوڵی‌دا لە ھەستەکانی تێ‌بگات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -300,9 +308,9 @@ class EnglishEntryanalyze extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakanalyze4920(// REPLACE: analyze /ˈænəlaɪz/
-                                        "en-US"),
+                                onPressed: () => speakanalyze4920(
+                                    // REPLACE: analyze /ˈænəlaɪz/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -316,6 +324,7 @@ class EnglishEntryanalyze extends StatelessWidget {
                                     "We need to analyze what went wrong.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -327,9 +336,10 @@ class EnglishEntryanalyze extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێویستە لێ‌بکۆڵینەوە لەوەی چی ھەڵە ڕوویدا",
+                                    "پێویستە لێ‌بکۆڵینەوە لەوەی چی ھەڵە ڕوویدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -347,9 +357,9 @@ class EnglishEntryanalyze extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakanalyze469(// REPLACE: analyze /ˈænəlaɪz/
-                                        "en-US"),
+                                onPressed: () => speakanalyze469(
+                                    // REPLACE: analyze /ˈænəlaɪz/
+                                    "en-US"),
                               ),
                             ],
                           ),

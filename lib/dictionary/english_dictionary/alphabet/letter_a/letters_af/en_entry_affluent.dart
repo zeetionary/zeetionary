@@ -164,6 +164,7 @@ class EnglishEntryaffluent extends StatelessWidget {
 ١. (ھاوەڵناو) دەوڵەمەند و خۆشگوزەران''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaffluent extends StatelessWidget {
                                     "We live in an affluent neighborhood.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryaffluent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە گەڕەکێکی دەوڵەمەند دەژین",
+                                    "لە گەڕەکێکی دەوڵەمەند دەژین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

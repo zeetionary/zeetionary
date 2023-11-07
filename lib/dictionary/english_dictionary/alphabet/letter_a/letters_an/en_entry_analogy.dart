@@ -25,7 +25,8 @@ class EnglishEntryanalogy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The teacher drew an analogy between the human heart and a pump."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The teacher drew an analogy between the human heart and a pump."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnalogy8540(String languageCode) async {
@@ -33,7 +34,8 @@ class EnglishEntryanalogy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The computer is a useful analogy for the brain."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The computer is a useful analogy for the brain."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnalogy8704(String languageCode) async {
@@ -41,7 +43,8 @@ class EnglishEntryanalogy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We can understand this theory by analogy with human beings."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We can understand this theory by analogy with human beings."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnalogy(String languageCode) async {
@@ -211,6 +214,7 @@ class EnglishEntryanalogy extends StatelessWidget {
 ١. (ناو) بەراوردکارییەک لەگەڵ شتێک کە خاسیەتی لێکچووی ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +225,7 @@ class EnglishEntryanalogy extends StatelessWidget {
                                     "The teacher drew an analogy between the human heart and a pump.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +237,10 @@ class EnglishEntryanalogy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مامۆستاکە دڵی مرۆڤی چواند بە پەمپێک",
+                                    "مامۆستاکە دڵی مرۆڤی چواند بە پەمپێک.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -252,9 +258,9 @@ class EnglishEntryanalogy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnalogy4805(// REPLACE: analogy /əˈnælədʒi/
-                                        "en-US"),
+                                onPressed: () => speakAnalogy4805(
+                                    // REPLACE: analogy /əˈnælədʒi/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -269,6 +275,7 @@ class EnglishEntryanalogy extends StatelessWidget {
                                     "The computer is a useful analogy for the brain.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -280,9 +287,10 @@ class EnglishEntryanalogy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کۆمپیوتەر لێکچوویەکی باشە بۆ مێشک",
+                                    "کۆمپیوتەر لێکچوویەکی باشە بۆ مێشک.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -300,9 +308,9 @@ class EnglishEntryanalogy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnalogy8540(// REPLACE: analogy /əˈnælədʒi/
-                                        "en-US"),
+                                onPressed: () => speakAnalogy8540(
+                                    // REPLACE: analogy /əˈnælədʒi/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -314,6 +322,7 @@ class EnglishEntryanalogy extends StatelessWidget {
 ٢. (ناو) پڕۆسەی بەراوردکردنی دوو شتی لێكچوو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -324,6 +333,7 @@ class EnglishEntryanalogy extends StatelessWidget {
                                     "We can understand this theory by analogy with human beings.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -335,9 +345,10 @@ class EnglishEntryanalogy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەتوانین لەم بیردۆزە تێ‌بگەین بە بەراوردکردنی بە مرۆڤ",
+                                    "ئەتوانین لەم بیردۆزە تێ‌بگەین بە بەراوردکردنی بە مرۆڤ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -355,9 +366,9 @@ class EnglishEntryanalogy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnalogy8704(// REPLACE: analogy /əˈnælədʒi/
-                                        "en-US"),
+                                onPressed: () => speakAnalogy8704(
+                                    // REPLACE: analogy /əˈnælədʒi/
+                                    "en-US"),
                               ),
                             ],
                           ),

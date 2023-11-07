@@ -164,6 +164,7 @@ class EnglishEntryairterminal extends StatelessWidget {
 ١. (ناو) بینای فڕۆکەخانە کە تێیدا گەشتیاران کارەکانیان ئەنجام دەدەن و چاوەڕێی فڕۆکە دەکەن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryairterminal extends StatelessWidget {
                                     "Passengers are conveyed by bus to the air terminal.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryairterminal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گەشتیاران بە پاس دەگوازرێنەوە دواوێستگەی فڕۆکەخانەکە",
+                                    "گەشتیاران بە پاس دەگوازرێنەوە دواوێستگەی فڕۆکەخانەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

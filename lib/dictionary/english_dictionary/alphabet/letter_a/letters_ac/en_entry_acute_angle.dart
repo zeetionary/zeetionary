@@ -163,6 +163,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
 ١. (ناو) گۆشەیەک کە پلەکەی کەمترە لە ٩٠ پلە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

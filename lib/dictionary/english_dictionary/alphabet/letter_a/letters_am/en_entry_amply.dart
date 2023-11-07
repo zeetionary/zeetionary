@@ -212,6 +212,7 @@ class EnglishEntryamply extends StatelessWidget {
 ١. (ناو) بەپێی پێویست یان زیاتر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryamply extends StatelessWidget {
                                     "His efforts were amply rewarded.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryamply extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەوڵەکانی بەزیادەوە بەخشیشکران",
+                                    "ھەوڵەکانی بەزیادەوە بەخشیشکران.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

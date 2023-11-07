@@ -162,6 +162,7 @@ class EnglishEntryadvertiser extends StatelessWidget {
 ١. (ناو) کەسێک یان دامەزراوەیەک کە کاری ڕیکلام دەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryadvertiser extends StatelessWidget {
                                     "Magazines need to attract advertisers to survive.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -180,9 +182,10 @@ class EnglishEntryadvertiser extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گۆڤارەکان دەبێت سەرنجی بڵاوکاران ڕابکێشن بۆ ئەوەی بەردەوام بن",
+                                    "گۆڤارەکان دەبێت سەرنجی بڵاوکاران ڕابکێشن بۆ ئەوەی بەردەوام بن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

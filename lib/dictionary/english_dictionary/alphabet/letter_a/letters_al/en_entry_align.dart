@@ -165,6 +165,7 @@ class EnglishEntryalign extends StatelessWidget {
 ١. (کردار) ھاوتەریب یان ھاوئاراستەکردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryalign extends StatelessWidget {
                                     "The top and bottom line of each column on the page should align.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryalign extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھێڵی سەرەوە و خوارەوەی ستوونی سەر پەڕەکە دەبێت لەسەر یەک ھێڵ بن",
+                                    "ھێڵی سەرەوە و خوارەوەی ستوونی سەر پەڕەکە دەبێت لەسەر یەک ھێڵ بن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -222,6 +225,7 @@ class EnglishEntryalign extends StatelessWidget {
                                     "This pillar is roughly aligned with the others.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -236,6 +240,7 @@ class EnglishEntryalign extends StatelessWidget {
                                     "پایەکە تاڕادەیەک تەریبە لەگەڵ ئەوانی تر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

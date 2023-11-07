@@ -148,6 +148,7 @@ class EnglishEntryabstinence extends StatelessWidget {
 ١. کرداری خۆپارێزی لەو شتانەی کە حەزت لێیە، بۆ نموونە مادە کحوولییەکان و سێکس''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryabstinence extends StatelessWidget {
                                     "total abstinence from alcohol",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -169,6 +171,7 @@ class EnglishEntryabstinence extends StatelessWidget {
                                     "خۆبەدوورگرتنی تەواو لە کحوول",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

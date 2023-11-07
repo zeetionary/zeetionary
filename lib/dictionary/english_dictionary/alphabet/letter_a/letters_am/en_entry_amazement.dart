@@ -164,6 +164,7 @@ class EnglishEntryamazement extends StatelessWidget {
 ١. (ناو) ھەستی باوەڕنەکردن بەوەی ڕوویداوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryamazement extends StatelessWidget {
                                     "She looked at him in amazement.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryamazement extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە سەرسامییەوە سەیری دەکرد",
+                                    "بە سەرسامییەوە سەیری دەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

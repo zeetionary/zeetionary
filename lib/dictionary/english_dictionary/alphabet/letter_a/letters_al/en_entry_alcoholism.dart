@@ -162,6 +162,7 @@ class EnglishEntryalcoholism extends StatelessWidget {
 ١. (ناو) ئاڵوودەیی بە کحول''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryalcoholism extends StatelessWidget {
                                     "He finally sought treatment for his alcoholism.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryalcoholism extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە کۆتاییدا ھەوڵی چارەسەری بۆ ئاڵوودەییەکەی بە کحول دا",
+                                    "لە کۆتاییدا ھەوڵی چارەسەری بۆ ئاڵوودەییەکەی بە کحول دا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

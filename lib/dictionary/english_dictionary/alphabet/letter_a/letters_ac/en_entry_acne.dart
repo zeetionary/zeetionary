@@ -164,6 +164,7 @@ class EnglishEntryacne extends StatelessWidget {
 ١. (ناو) ژمارەیەک زیپکە کە لە تەمەنی گەنجیدا دەردەکەوێت لەسەر ڕووخسار و مل''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryacne extends StatelessWidget {
                                     "Acne often clears up by itself.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryacne extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئاکنی بەزۆری بۆ خۆی لادەچێت",
+                                    "ئاکنی بەزۆری بۆ خۆی لادەچێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -166,6 +166,7 @@ class EnglishEntryabroad extends StatelessWidget {
 ١. (ھاوەڵکار) پەیوەندیدار بە وڵاتێکی بیانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryabroad extends StatelessWidget {
                                     "She worked abroad for a year.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryabroad extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە دەروەی وڵات بۆ ساڵێک کاری کرد",
+                                    "لە دەروەی وڵات بۆ ساڵێک کاری کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -218,6 +221,7 @@ class EnglishEntryabroad extends StatelessWidget {
                                     "He was famous, both at home and abroad.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -226,9 +230,10 @@ class EnglishEntryabroad extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە ناوەوە و دەروەی وڵات بەناوبانگ بوو",
+                                    "لە ناوەوە و دەروەی وڵات بەناوبانگ بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -257,6 +262,7 @@ class EnglishEntryabroad extends StatelessWidget {
 ١. (ھاوەڵکار) شتێک کە لەلایەن زۆر کەسەوە باس دەکرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -267,6 +273,7 @@ class EnglishEntryabroad extends StatelessWidget {
                                     "There was news abroad that a change was coming.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -275,9 +282,10 @@ class EnglishEntryabroad extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەواڵێکی بەربڵاو ھەبوو کە گۆڕانکارییەک بەڕێوەیە",
+                                    "ھەواڵێکی بەربڵاو ھەبوو کە گۆڕانکارییەک بەڕێوەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

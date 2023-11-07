@@ -174,6 +174,7 @@ class EnglishEntryalthough extends StatelessWidget {
 ١. (لێکدەر) بۆ وتنی شتێک کە وا دەکات خاڵی سەرەکی ڕستەکە ببێت بە سوپرایز''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -184,6 +185,7 @@ class EnglishEntryalthough extends StatelessWidget {
                                     "Although the sun was shining, it wasn't very warm.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -195,9 +197,10 @@ class EnglishEntryalthough extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەگەرچی خۆرەکە دەدرەوشایەوە، ھێندە گەرم نەبوو",
+                                    "ئەگەرچی خۆرەکە دەدرەوشایەوە، ھێندە گەرم نەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -228,6 +231,7 @@ class EnglishEntryalthough extends StatelessWidget {
 ٢. (لێکدەر) بۆ وتنی بەڵام''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -238,6 +242,7 @@ class EnglishEntryalthough extends StatelessWidget {
                                     "I felt he was wrong, although I didn't say so at the time.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -249,9 +254,10 @@ class EnglishEntryalthough extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەستم کرد ھەڵەبوو، بەڵام/ئەگەرچی ئەوکاتە ئەوەم نەوت",
+                                    "ھەستم کرد ھەڵەبوو، بەڵام/ئەگەرچی ئەوکاتە ئەوەم نەوت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

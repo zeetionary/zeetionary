@@ -164,6 +164,7 @@ class EnglishEntryallrounder extends StatelessWidget {
 ١. (ناو) کەسێک یان شتێک کە زۆر شارەزایی، توانا، یان سوودی ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryallrounder extends StatelessWidget {
                                     "He is a good all-rounder who likes tennis, cricket, and swimming.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryallrounder extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەزارپیشەیەکی باشە کە حەزی بە تێنس و کریکت و مەلەوانی ھەیە",
+                                    "ھەزارپیشەیەکی باشە کە حەزی بە تێنس و کریکت و مەلەوانی ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

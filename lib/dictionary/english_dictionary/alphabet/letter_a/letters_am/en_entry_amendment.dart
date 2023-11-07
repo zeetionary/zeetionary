@@ -174,6 +174,7 @@ class EnglishEntryamendment extends StatelessWidget {
 ١. (ناو) گۆڕانکارییەکی بچووک کە لە یاسایەک یان دۆکیومێنتێک دەکرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -184,6 +185,7 @@ class EnglishEntryamendment extends StatelessWidget {
                                     "Parliament passed the bill without further amendment.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -198,6 +200,7 @@ class EnglishEntryamendment extends StatelessWidget {
                                     "پەرلەمان پڕۆژە یاساکەی تێپەڕاند بەبێ گۆڕانکاری زیاتر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -232,6 +235,7 @@ class EnglishEntryamendment extends StatelessWidget {
                                     "The Senate added numerous amendments to the bill.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -243,9 +247,10 @@ class EnglishEntryamendment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەنجوومەنی پیران ژمارەیەک گۆڕانکاری بۆ پڕۆژە یاساکە زیادکرد",
+                                    "ئەنجوومەنی پیران ژمارەیەک گۆڕانکاری بۆ پڕۆژە یاساکە زیادکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -277,6 +282,7 @@ class EnglishEntryamendment extends StatelessWidget {
 ٢. (ناو) گۆڕانکارییەک لە دەستووری ئەمریکا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -287,6 +293,7 @@ class EnglishEntryamendment extends StatelessWidget {
                                     "The 19th Amendment gave women the right to vote.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -298,9 +305,10 @@ class EnglishEntryamendment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نۆزدەیەمین گۆڕانکاری بۆ دەستووری ئەمریکا مافی دەنگدانی دا بە ژنان",
+                                    "نۆزدەیەمین گۆڕانکاری بۆ دەستووری ئەمریکا مافی دەنگدانی دا بە ژنان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

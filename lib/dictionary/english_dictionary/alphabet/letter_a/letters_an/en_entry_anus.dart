@@ -215,6 +215,7 @@ class EnglishEntryanus extends StatelessWidget {
 ١. (ھاوەڵناو) ئەندامێکی جەستەی مرۆڤ کە کونێکە لە ڕێگەیەوە خواردن دەکرێتە دەرەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           // Row(
                           //   children: [
@@ -236,7 +237,7 @@ class EnglishEntryanus extends StatelessWidget {
                           //       child: Align(
                           //         alignment: Alignment.topLeft,
                           //         child: Text(
-                          //           "رستە_رستە_رستە_رستە",
+                          //           "رستە_رستە_رستە_رستە.",
                           //           textAlign: TextAlign
                           //               .right, // Right-to-left direction
                           //         ),

@@ -165,6 +165,7 @@ class EnglishEntryaddictive extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە ئاسان نییە لە بەکارھێنانی بوەستی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryaddictive extends StatelessWidget {
                                     "The game is very addictive.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryaddictive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یارییەکە زۆر ئاڵوودەکەرە",
+                                    "یارییەکە زۆر ئاڵوودەکەرە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryaddictive extends StatelessWidget {
 ٢. (ھاوەڵناو) کەسێک کە بە ئاسانی ئاڵوودە دەبێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +230,7 @@ class EnglishEntryaddictive extends StatelessWidget {
                                     "Some people have an addictive personality.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +239,10 @@ class EnglishEntryaddictive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەندێک کەس ھەر بە کەسایەتی گیرۆدەی شت دەبن",
+                                    "ھەندێک کەس ھەر بە کەسایەتی گیرۆدەی شت دەبن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

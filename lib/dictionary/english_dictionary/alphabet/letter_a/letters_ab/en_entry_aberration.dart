@@ -149,6 +149,7 @@ class EnglishEntryaberration extends StatelessWidget {
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -161,6 +162,7 @@ a temporary aberration of his exhausted mind
                                     ''',
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -174,6 +176,7 @@ a temporary aberration of his exhausted mind
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -207,6 +210,7 @@ A childless woman was regarded as an aberration, almost a social outcast.
                                     ''',
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -220,6 +224,7 @@ A childless woman was regarded as an aberration, almost a social outcast.
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

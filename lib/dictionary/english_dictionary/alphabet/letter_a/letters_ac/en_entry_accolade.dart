@@ -148,6 +148,7 @@ class EnglishEntryaccolade extends StatelessWidget {
 ١. (ناو) ستایش یان خەڵاتکردنی کەسێک بەھۆی دەستکەوتەکانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryaccolade extends StatelessWidget {
                                     "He's been granted the ultimate accolade - his face on a postage stamp.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryaccolade extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەوپەڕی ستایشی پێدرا بە دانانی وێنەکەی لەسەر پوولی پۆستەیەک",
+                                    "ئەوپەڕی ستایشی پێدرا بە دانانی وێنەکەی لەسەر پوولی پۆستەیەک.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

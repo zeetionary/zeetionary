@@ -149,6 +149,7 @@ class EnglishEntryabdicate extends StatelessWidget {
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -159,6 +160,7 @@ class EnglishEntryabdicate extends StatelessWidget {
                                     "He abdicated in favour of his son.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -167,9 +169,10 @@ class EnglishEntryabdicate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وازی لە تەختی شاھانە ھێنا لە بەرژەوەندی کوڕەکەی",
+                                    "وازی لە تەختی شاھانە ھێنا لە بەرژەوەندی کوڕەکەی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -201,6 +204,7 @@ class EnglishEntryabdicate extends StatelessWidget {
                                     "She was forced to abdicate the throne of Spain.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -209,9 +213,10 @@ class EnglishEntryabdicate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناچارکرا واز لە تەختی شاھانەیی ئیسپانیا بھێنێت",
+                                    "ناچارکرا واز لە تەختی شاھانەیی ئیسپانیا بھێنێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

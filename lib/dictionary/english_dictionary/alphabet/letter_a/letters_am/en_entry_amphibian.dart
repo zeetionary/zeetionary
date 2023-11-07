@@ -213,6 +213,7 @@ class EnglishEntryamphibian extends StatelessWidget {
 ١. (ناو) گیانەوەرێک کە لە ھەردوو وشکانی و ئاودا دەژی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryamphibian extends StatelessWidget {
                                     "Salamanders, frogs, and other amphibian life are particularly sensitive to extreme pH levels.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryamphibian extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەلەمەندەر و بۆق گیانەوەرە دووژینەکانی دیکە بەتایبەتی ھەستیارن بە ژینگەی ڕەنووسی ھایدرۆجینی بەرز",
+                                    "سەلەمەندەر و بۆق گیانەوەرە دووژینەکانی دیکە بەتایبەتی ھەستیارن بە ژینگەی ڕەنووسی ھایدرۆجینی بەرز.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -267,6 +270,7 @@ class EnglishEntryamphibian extends StatelessWidget {
 ٢. (ناو) ئۆتۆمبێلێک یان فڕۆکەیەکی سەربازی کە لە وشکانی و ئاودا کاردەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -277,6 +281,7 @@ class EnglishEntryamphibian extends StatelessWidget {
                                     "He flew an amphibian, which he could set down on water in case of an engine problem.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -288,9 +293,10 @@ class EnglishEntryamphibian extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "فڕۆکەیەکی جووتفڕی لێدەخوڕی، کە دەیتوانی لەسەر ئاو بینیشێنێتەوە لە حاڵەتی کێشە لە بزوێنەرەکانی",
+                                    "فڕۆکەیەکی جووتفڕی لێدەخوڕی، کە دەیتوانی لەسەر ئاو بینیشێنێتەوە لە حاڵەتی کێشە لە بزوێنەرەکانی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

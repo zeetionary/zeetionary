@@ -137,6 +137,7 @@ class EnglishEntryaback extends StatelessWidget {
 ١. (ھاوەڵکار) تووشی سەرسوڕمان و شۆک بیت بە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -147,6 +148,7 @@ class EnglishEntryaback extends StatelessWidget {
                                     "She was completely taken aback by his anger.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -155,9 +157,10 @@ class EnglishEntryaback extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تووشی شۆک بوو بە توڕەییەکەی",
+                                    "تووشی شۆک بوو بە توڕەییەکەی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

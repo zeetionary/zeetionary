@@ -212,6 +212,7 @@ class EnglishEntryamusing extends StatelessWidget {
 ١. (ھاوەڵناو) جێگەی خۆشی و پێکەنین''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryamusing extends StatelessWidget {
                                     "I didn't find the joke at all amusing.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryamusing extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نوکتەکەم ھیچ بە جێگەی پێکەنین نەبینی",
+                                    "نوکتەکەم ھیچ بە جێگەی پێکەنین نەبینی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

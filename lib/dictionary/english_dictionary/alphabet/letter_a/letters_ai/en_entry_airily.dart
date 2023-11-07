@@ -164,6 +164,7 @@ class EnglishEntryairily extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە شتێک لات گرنگ نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryairily extends StatelessWidget {
                                     "'He can do what he likes - it doesn't bother me,' she said airily.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -188,6 +190,7 @@ class EnglishEntryairily extends StatelessWidget {
                                     "ئەو خەمساردییەوە وتی «چی دەکات با بیکات، گرنگ نییە لام»",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

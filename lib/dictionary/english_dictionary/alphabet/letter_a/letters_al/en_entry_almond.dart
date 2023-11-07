@@ -164,6 +164,7 @@ class EnglishEntryalmond extends StatelessWidget {
 ١. (ناو) بادەم''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalmond extends StatelessWidget {
                                     "The almond cake is particularly sublime.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalmond extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کێکە بادەمەکە بەتایبەتی سەرسوڕھێنەرە",
+                                    "کێکە بادەمەکە بەتایبەتی سەرسوڕھێنەرە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

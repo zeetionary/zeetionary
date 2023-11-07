@@ -212,6 +212,7 @@ class EnglishEntryamulet extends StatelessWidget {
 ١. (ناو) خشڵێک کە کەسێک دەیبەستێت‌ لەخۆی چونکە باوەڕی وایە لە خراپە دەیپارێزێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryamulet extends StatelessWidget {
                                     "The child was wearing a shiny amulet around his neck for good luck.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -236,6 +238,7 @@ class EnglishEntryamulet extends StatelessWidget {
                                     "منداڵەکە چاوەزارێکی لە دەوری ملی بەستبوو بۆ ھێنانی بەختی باش",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

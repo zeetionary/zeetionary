@@ -300,6 +300,7 @@ class EnglishEntryair extends StatelessWidget {
 ١. (ناو) ھەوا؛ ئەو گازانەی کە لە بەرگەھەوای زەویدا ھەن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -310,6 +311,7 @@ class EnglishEntryair extends StatelessWidget {
                                     "Let's go out for some fresh air.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -321,9 +323,10 @@ class EnglishEntryair extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "با بچین ھەندێک ھەوای پاک ھەڵمژین",
+                                    "با بچین ھەندێک ھەوای پاک ھەڵمژین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -357,6 +360,7 @@ class EnglishEntryair extends StatelessWidget {
                                     "She was gasping for air as she ran out of the burning house.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -368,9 +372,10 @@ class EnglishEntryair extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەناسەبڕکێی بوو بۆ ھەوا کە لە خانووە سووتاوەکەوە ڕایکردە دەرەوە",
+                                    "ھەناسەبڕکێی بوو بۆ ھەوا کە لە خانووە سووتاوەکەوە ڕایکردە دەرەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -401,6 +406,7 @@ class EnglishEntryair extends StatelessWidget {
 ٢. (ناو) بۆشایی؛ بۆشایی نێوان زەوی و ئاسمان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -411,6 +417,7 @@ class EnglishEntryair extends StatelessWidget {
                                     "Wave your hands in the air!",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -422,9 +429,10 @@ class EnglishEntryair extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەست ڕاوەشێنە لە ھەوادا",
+                                    "دەست ڕاوەشێنە لە ھەوادا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -458,6 +466,7 @@ class EnglishEntryair extends StatelessWidget {
                                     "I kicked the ball high into the air.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -469,9 +478,10 @@ class EnglishEntryair extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەرز لە تۆپەکەم ھەڵدا بە ئاسماندا",
+                                    "بەرز لە تۆپەکەم ھەڵدا بە ئاسماندا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -502,6 +512,7 @@ class EnglishEntryair extends StatelessWidget {
 ٣. (ناو) ئاسمان کە فڕۆکە تێیدا دەفڕێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -512,6 +523,7 @@ class EnglishEntryair extends StatelessWidget {
                                     "We watched as the helicopter took to the air.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -523,9 +535,10 @@ class EnglishEntryair extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەیرمان کرد کە ھەلیکۆپتەرەکە فڕییە ئاسمان",
+                                    "سەیرمان کرد کە ھەلیکۆپتەرەکە فڕییە ئاسمان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -556,6 +569,7 @@ class EnglishEntryair extends StatelessWidget {
 ٤. (ناو) ڕواڵەت؛ شێوازی دەرکەوتنی شتێک یان کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -566,6 +580,7 @@ class EnglishEntryair extends StatelessWidget {
                                     "There was an air of complete confidence about her.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -577,9 +592,10 @@ class EnglishEntryair extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕواڵەتێکی تەواو متمانە بەخۆبوونی تێدا بوو",
+                                    "ڕواڵەتێکی تەواو متمانە بەخۆبوونی تێدا بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -610,6 +626,7 @@ class EnglishEntryair extends StatelessWidget {
 ٥. (کردار) وشککردنەوەی جل''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -620,6 +637,7 @@ class EnglishEntryair extends StatelessWidget {
                                     "Air the sheets well.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -631,9 +649,10 @@ class EnglishEntryair extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێخەفەکان باش وشک بکەوە",
+                                    "پێخەفەکان باش وشک بکەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -664,6 +683,7 @@ class EnglishEntryair extends StatelessWidget {
 ٦. (کردار) ڕێگەدان بە ھەوا بۆ ناو ژوورێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -674,6 +694,7 @@ class EnglishEntryair extends StatelessWidget {
                                     "Leave the window open to air the room.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -685,9 +706,10 @@ class EnglishEntryair extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پەنجەرەکە بە کراوەیی بھێڵەوە بۆ ئەوەی ھەوای پاک بێتە ژوورەکەوە",
+                                    "پەنجەرەکە بە کراوەیی بھێڵەوە بۆ ئەوەی ھەوای پاک بێتە ژوورەکەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -718,6 +740,7 @@ class EnglishEntryair extends StatelessWidget {
 ٧. (کردار) دەربڕینی بیروڕا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -728,6 +751,7 @@ class EnglishEntryair extends StatelessWidget {
                                     "The issues were openly aired and discussed by the group.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -739,9 +763,10 @@ class EnglishEntryair extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بابەتەکان بە ڕاشکاوی دەربڕدران و گەنگەشە کران لەلایەن گرووپەکەوە",
+                                    "بابەتەکان بە ڕاشکاوی دەربڕدران و گەنگەشە کران لەلایەن گرووپەکەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -772,6 +797,7 @@ class EnglishEntryair extends StatelessWidget {
 ٨. (کردار) پەخشکردنی پڕۆگرامی تەلەفیزیۆنی یان ڕادیۆیی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -782,6 +808,7 @@ class EnglishEntryair extends StatelessWidget {
                                     "The program aired last week.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -796,6 +823,7 @@ class EnglishEntryair extends StatelessWidget {
                                     "پڕۆگرامەکە ھەفتەی ڕابردوو پێشکەشکرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

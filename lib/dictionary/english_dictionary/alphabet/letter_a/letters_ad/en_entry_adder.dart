@@ -163,6 +163,7 @@ class EnglishEntryadder extends StatelessWidget {
 ١. (ناو) مارێکی بچووکە کە خاڵی شێوە ئەڵماسی لەسەر پشتی ھەیە. ئەم مارە تەنھا ماری ژەھراوییە لە بەریتانیا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

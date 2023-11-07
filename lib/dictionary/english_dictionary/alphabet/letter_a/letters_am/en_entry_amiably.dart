@@ -236,6 +236,7 @@ class EnglishEntryamiably extends StatelessWidget {
 ١. (ھاوەڵناو) بەشێوەیەکی ھاوڕێیانە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -246,6 +247,7 @@ class EnglishEntryamiably extends StatelessWidget {
                                     "They were chatting quite amiably on the phone last night so I assumed everything was okay.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -257,9 +259,10 @@ class EnglishEntryamiably extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دوێنێ شەو بە تەلەفۆن زۆر بە ڕووخۆشانە قسەیان دەکرد، بۆیە وام‌دانا ھەموو شتێک باشە",
+                                    "دوێنێ شەو بە تەلەفۆن زۆر بە ڕووخۆشانە قسەیان دەکرد، بۆیە وام‌دانا ھەموو شتێک باشە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

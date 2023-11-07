@@ -165,6 +165,7 @@ class EnglishEntryagenda extends StatelessWidget {
 ١. (ناو) کۆمەڵە بابەتێک کە لە کۆبوونەوەیەک باسدەکرێن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryagenda extends StatelessWidget {
                                     "We have a very full agenda of issues to discuss.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryagenda extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کارنامەمان بابەتێکی زۆر لەخۆدەگرێت بۆ باسکردن",
+                                    "کارنامەمان بابەتێکی زۆر لەخۆدەگرێت بۆ باسکردن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryagenda extends StatelessWidget {
 ٢. (ناو) کۆمەڵە شتێک کە دەبێت بکرێن، یان کۆمەڵە کێشەیەک کە دەبێت چارەسەر بکرێن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -229,6 +233,7 @@ class EnglishEntryagenda extends StatelessWidget {
                                     "Education is now at the top of the government's agenda (= most important).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,9 +245,10 @@ class EnglishEntryagenda extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پەروەردە و فێرکردن لە گرنگترین خاڵەکانی کارنامەی حکومەتە",
+                                    "پەروەردە و فێرکردن لە گرنگترین خاڵەکانی کارنامەی حکومەتە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

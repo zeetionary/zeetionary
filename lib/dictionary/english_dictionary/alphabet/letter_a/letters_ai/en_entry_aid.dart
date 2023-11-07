@@ -218,6 +218,7 @@ class EnglishEntryaid extends StatelessWidget {
 ١. (ناو) خواردن و کەلوپەل کە وەک یارمەتی دابەش دەکرێن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -228,6 +229,7 @@ class EnglishEntryaid extends StatelessWidget {
                                     "The British government has now suspended humanitarian aid to the area.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -239,9 +241,10 @@ class EnglishEntryaid extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حکومەتی بەریتانیا ھاریکاری مرۆیی بۆ ناوچەکە وەستاندووە",
+                                    "حکومەتی بەریتانیا ھاریکاری مرۆیی بۆ ناوچەکە وەستاندووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -275,6 +278,7 @@ class EnglishEntryaid extends StatelessWidget {
                                     "Emergency aid arrived too late for many.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -286,9 +290,10 @@ class EnglishEntryaid extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یارمەتی فریاگوزاری زۆر درەنگ بۆ زۆر کەس گەشت",
+                                    "یارمەتی فریاگوزاری زۆر درەنگ بۆ زۆر کەس گەشت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -319,6 +324,7 @@ class EnglishEntryaid extends StatelessWidget {
 ٢. (ناو) یارمەتییەک کە پێویستە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -329,6 +335,7 @@ class EnglishEntryaid extends StatelessWidget {
                                     "One of the staff saw he was in difficulty and came to his aid (= helped him).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -340,9 +347,10 @@ class EnglishEntryaid extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یەکێک لە ستافەکە بینی کە لە کێشەدایە و چوو بە ھانای",
+                                    "یەکێک لە ستافەکە بینی کە لە کێشەدایە و چوو بە ھانای.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -373,6 +381,7 @@ class EnglishEntryaid extends StatelessWidget {
 ٣. (ناو) شتێک کە یارمەتیت دەدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -383,6 +392,7 @@ class EnglishEntryaid extends StatelessWidget {
                                     "Photos make useful teaching aids.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -394,9 +404,10 @@ class EnglishEntryaid extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وێنە یارمەتیدەری باشە لە فێرکردندا",
+                                    "وێنە یارمەتیدەری باشە لە فێرکردندا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -427,6 +438,7 @@ class EnglishEntryaid extends StatelessWidget {
 ٤. (کردار) یارمەتیتدانی کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -437,6 +449,7 @@ class EnglishEntryaid extends StatelessWidget {
                                     "The charity was established to aid hurricane victims.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -448,9 +461,10 @@ class EnglishEntryaid extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێکخراوە خێرخوازییەکە دامەزرا بۆ یارمەتیدانی قوربانیانی گێژەلووکەکە",
+                                    "ڕێکخراوە خێرخوازییەکە دامەزرا بۆ یارمەتیدانی قوربانیانی گێژەلووکەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -484,6 +498,7 @@ class EnglishEntryaid extends StatelessWidget {
                                     "They were accused of aiding him to escape.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -495,9 +510,10 @@ class EnglishEntryaid extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تۆمەتبارکران بە یارمەتیدانی لە ڕاکردندا",
+                                    "تۆمەتبارکران بە یارمەتیدانی لە ڕاکردندا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -528,6 +544,7 @@ class EnglishEntryaid extends StatelessWidget {
 ٥. (کردار) یارمەتیتدانی ڕوودانی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -538,6 +555,7 @@ class EnglishEntryaid extends StatelessWidget {
                                     "New drugs are now available to aid recovery.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -549,9 +567,10 @@ class EnglishEntryaid extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەرمانە تازەکان ئێستا بەردەستن بۆ یارمەتیدانی چاکبوونەوە",
+                                    "دەرمانە تازەکان ئێستا بەردەستن بۆ یارمەتیدانی چاکبوونەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -585,6 +604,7 @@ class EnglishEntryaid extends StatelessWidget {
                                     "Peppermint aids digestion.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -596,9 +616,10 @@ class EnglishEntryaid extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نەعنا یارمەتی ھەرسکردن دەدات",
+                                    "نەعنا یارمەتی ھەرسکردن دەدات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

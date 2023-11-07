@@ -164,6 +164,7 @@ class EnglishEntryadaptable extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی توانای ڕاھاتن بە بارودۆخی نوێ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadaptable extends StatelessWidget {
                                     "Successful businesses are highly adaptable to economic change.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,6 +187,7 @@ class EnglishEntryadaptable extends StatelessWidget {
                                     "بزنسی گەورە بە زۆری خۆیدەگونجێنێت لەگەڵ گۆڕانکاریی ئابووری ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

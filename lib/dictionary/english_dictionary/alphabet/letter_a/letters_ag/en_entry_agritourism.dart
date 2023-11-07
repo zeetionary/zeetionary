@@ -161,6 +161,7 @@ class EnglishEntryagritourism extends StatelessWidget {
 ١. (ناو) سێکتەرێکی بازرگانی کە تێیدا شوێنی مانەوە لەلایەن جوتیاران دەدرێت بە کەسێک کە دەچێت و لەگەڵیان دەمێنێتەوە وەک بەشێک لە پشووی کارکردنی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

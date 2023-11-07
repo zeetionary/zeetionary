@@ -145,6 +145,7 @@ class EnglishEntryaboveall extends StatelessWidget {
 ١. بە تایبەتی، لە سەروو ھەموو شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -155,6 +156,7 @@ class EnglishEntryaboveall extends StatelessWidget {
                                     "Above all, keep in touch.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -163,9 +165,10 @@ class EnglishEntryaboveall extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە سەروو ھەموو شتێک، لە پەیوەندیدا بە لەگەڵم",
+                                    "لە سەروو ھەموو شتێک، لە پەیوەندیدا بە لەگەڵم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

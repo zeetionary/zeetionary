@@ -213,6 +213,7 @@ class EnglishEntryanorak extends StatelessWidget {
 ١. (ناو) پاڵتاوێکی کورت لەگەڵ کڵاوێک بۆ پاراستن لە باران''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryanorak extends StatelessWidget {
                                     "My Mum made me take my anorak in case it rained.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryanorak extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دایکم زۆری لێ‌کردم پاڵتاوەکەم ببەم نەوەک باران ببارێ",
+                                    "دایکم زۆری لێ‌کردم پاڵتاوەکەم ببەم نەوەک باران ببارێ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

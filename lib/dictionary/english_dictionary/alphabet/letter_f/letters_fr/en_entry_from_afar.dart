@@ -164,6 +164,7 @@ class EnglishEntryafar extends StatelessWidget {
 ١. (ئیدیەم) لە دوورەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryafar extends StatelessWidget {
                                     "Even from afar the castle was most impressive.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryafar extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەنانەت دووراودووریش قەڵاکە ھەر سەرنجڕاکێش بوو",
+                                    "تەنانەت دووراودووریش قەڵاکە ھەر سەرنجڕاکێش بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

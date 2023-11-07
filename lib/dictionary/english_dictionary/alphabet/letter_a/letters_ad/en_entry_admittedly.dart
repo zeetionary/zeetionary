@@ -164,6 +164,7 @@ class EnglishEntryadmittedly extends StatelessWidget {
 ١. (ھاوەڵکار) زۆرجار لە سەرەتای ڕستە بەکاردێت بۆ داننان بەوەی شتێک ڕاستە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadmittedly extends StatelessWidget {
                                     "Admittedly, I could have tried harder but I still don't think all this criticism is fair.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadmittedly extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دان بەوەدا دەنێم دەکرا ھەوڵی زیاترم دابا، بەڵام ھێشتا باوەڕم وانییە ئەم ھەموو لۆمەیە دادپەروەرییە",
+                                    "دان بەوەدا دەنێم دەکرا ھەوڵی زیاترم دابا، بەڵام ھێشتا باوەڕم وانییە ئەم ھەموو لۆمەیە دادپەروەرییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

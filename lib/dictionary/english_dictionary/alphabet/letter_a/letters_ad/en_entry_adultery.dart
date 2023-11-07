@@ -164,6 +164,7 @@ class EnglishEntryadultery extends StatelessWidget {
 ١. (ناو) سێکس لە نێوان کەسێکی خێزاندار و کەسێکی تر کە خێزانەکەی نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadultery extends StatelessWidget {
                                     "He was accused of committing adultery.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadultery extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تاوانبارکرا بە ئەنجامدانی زینا",
+                                    "تاوانبارکرا بە ئەنجامدانی زینا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

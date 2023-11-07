@@ -25,7 +25,8 @@ class EnglishEntryanatomical extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("All medical students are required to do an anatomical dissection of a human body."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "All medical students are required to do an anatomical dissection of a human body."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnatomical(String languageCode) async {
@@ -135,9 +136,9 @@ class EnglishEntryanatomical extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAnatomical(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAnatomical(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -211,6 +212,7 @@ class EnglishEntryanatomical extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە پێکھاتەی فیزیکی مرۆڤ، ئاژەڵ، یان ڕووەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +223,7 @@ class EnglishEntryanatomical extends StatelessWidget {
                                     "All medical students are required to do an anatomical dissection of a human body.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +235,10 @@ class EnglishEntryanatomical extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەموو خوێندکارانی پزیشکی دەبێت توێکارییەکی یەکاڵاکردنەوەیی جەستەی مرۆڤ بکەن",
+                                    "ھەموو خوێندکارانی پزیشکی دەبێت توێکارییەکی یەکاڵاکردنەوەیی جەستەی مرۆڤ بکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -252,9 +256,9 @@ class EnglishEntryanatomical extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnatomical460(// REPLACE: anatomical /ˌænəˈtɑːmɪkl/
-                                        "en-US"),
+                                onPressed: () => speakAnatomical460(
+                                    // REPLACE: anatomical /ˌænəˈtɑːmɪkl/
+                                    "en-US"),
                               ),
                             ],
                           ),

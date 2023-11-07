@@ -148,6 +148,7 @@ class EnglishEntryabridgement extends StatelessWidget {
 ١. (ناو) کتێبێک یان نووسراوێک کە ھەندێک لە بەشەکانی لادراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryabridgement extends StatelessWidget {
                                     "Abridgement of this complex text was extremely difficult.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryabridgement extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کورتکردنەوەی ئەم نووسینە ئاڵۆزە کارێکی سەخت بوو",
+                                    "کورتکردنەوەی ئەم نووسینە ئاڵۆزە کارێکی سەخت بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

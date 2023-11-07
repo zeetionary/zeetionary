@@ -214,6 +214,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
 ١. (ناو) یەکێک لە ھێڵەکانی درێژی کە بە نزیکەیی ٧٠ پلە لە باشووری زەوییە و دەوری خولگەی جەمسەری باشووری داوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +225,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
                                     "Penguins live near the Antarctic Circle where it's very cold.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +237,10 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پەنگوینەکان نزیک لە سووڕگەی ئەنتارکتیک دەژین کە زۆر ساردە",
+                                    "پەنگوینەکان نزیک لە سووڕگەی ئەنتارکتیک دەژین کە زۆر ساردە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

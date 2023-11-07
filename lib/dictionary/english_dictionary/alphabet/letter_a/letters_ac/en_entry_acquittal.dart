@@ -164,6 +164,7 @@ class EnglishEntryacquittal extends StatelessWidget {
 ١. (ھاوەڵناو) ناساندنی گومانلێکراوێک لە دادگا بە بێ گوناح''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryacquittal extends StatelessWidget {
                                     "The case resulted in an acquittal.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryacquittal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەیسەکە بە لێخۆشبوون کۆتایی ھات",
+                                    "کەیسەکە بە لێخۆشبوون کۆتایی ھات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

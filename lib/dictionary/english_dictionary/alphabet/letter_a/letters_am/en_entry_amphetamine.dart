@@ -212,6 +212,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
 ١. (ناو) دەرمانێ کە وات لێ‌دەکا ھەست بە ورووژان و ھێز و وزەیەکی زۆر بکەی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryamphetamine extends StatelessWidget {
                                     "Floyd was banned from racing after a test revealed traces of amphetamine in his urine.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryamphetamine extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێگری‌کرا لە فلۆید بەژداری لە پێشبڕکێیەکە بکات بەھۆی ئەوەی پشکنینەکە پاشماوەی وزەبەخشی لە میزەکەی ئاشکراکرد",
+                                    "ڕێگری‌کرا لە فلۆید بەژداری لە پێشبڕکێیەکە بکات بەھۆی ئەوەی پشکنینەکە پاشماوەی وزەبەخشی لە میزەکەی ئاشکراکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

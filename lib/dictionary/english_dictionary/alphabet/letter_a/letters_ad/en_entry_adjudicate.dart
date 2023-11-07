@@ -162,6 +162,7 @@ class EnglishEntryadjudicate extends StatelessWidget {
 ١. (کردار) بڕیاردان لە نێوان دوو لایەن کە کامیان ڕاستە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryadjudicate extends StatelessWidget {
                                     "Their purpose is to adjudicate disputes between employers and employees.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -180,9 +182,10 @@ class EnglishEntryadjudicate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئامانجیان ئەوەیە کێشەی نیوان خاوەنکاران و کرێکاران چارەسەر بکەن",
+                                    "ئامانجیان ئەوەیە کێشەی نیوان خاوەنکاران و کرێکاران چارەسەر بکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

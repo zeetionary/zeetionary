@@ -212,6 +212,7 @@ class EnglishEntryangina extends StatelessWidget {
 ١. (ھاوەڵناو) ژانەسگ بەھۆی کەمی چوونی خوێن بۆ دڵ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryangina extends StatelessWidget {
                                     "If you experience angina while exercising, stop.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryangina extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەگەر تووشی سنگ‌ئێشە دەبیت لەکاتی ڕاھێنان، بوەستە",
+                                    "ئەگەر تووشی سنگ‌ئێشە دەبیت لەکاتی ڕاھێنان، بوەستە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

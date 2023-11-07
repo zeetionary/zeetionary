@@ -164,6 +164,7 @@ class EnglishEntryadulterate extends StatelessWidget {
 ١. (کردار) پیسبوونی خواردن یان خواردنەوە بەھۆی زیادبوونی شتی تر بۆی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadulterate extends StatelessWidget {
                                     "The water supply had been adulterated with chemicals from the soil.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadulterate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەرچاوەی ئاوەکە پیسبووە بە مادەی کیمیایی لە خاکەکەوە",
+                                    "سەرچاوەی ئاوەکە پیسبووە بە مادەی کیمیایی لە خاکەکەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

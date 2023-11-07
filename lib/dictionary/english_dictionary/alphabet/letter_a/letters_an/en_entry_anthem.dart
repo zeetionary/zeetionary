@@ -214,6 +214,7 @@ class EnglishEntryanthem extends StatelessWidget {
 ١. (ناو) گۆرانییەک کە تایبەتمەندییەکی گرنگی ھەیە وڵاتێک، ڕێکخراوێک، یان کۆمەڵە کەسێک و لە بۆنە تایبەتەکاندا دەوترێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +225,7 @@ class EnglishEntryanthem extends StatelessWidget {
                                     "The European anthem was played at the opening and closing ceremonies.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +237,10 @@ class EnglishEntryanthem extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەنزیمی ئەورووپا لێدرا لە سەرەتا و کۆتایی بۆنەکە",
+                                    "ئەنزیمی ئەورووپا لێدرا لە سەرەتا و کۆتایی بۆنەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -165,6 +165,7 @@ class EnglishEntryactively extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە کاری لەسەر دەکرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryactively extends StatelessWidget {
                                     "Your proposal is being actively considered.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryactively extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێشنیارەکەت بەڕشتی کاری لەسەر دەکرێت",
+                                    "پێشنیارەکەت بەڕشتی کاری لەسەر دەکرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -215,6 +218,7 @@ class EnglishEntryactively extends StatelessWidget {
 ٢. (ھاوەڵکار) بەشێوەیەک کە ھەوڵی بۆ دەدەیت و چاوەڕێی شانس ناکەیت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -225,6 +229,7 @@ class EnglishEntryactively extends StatelessWidget {
                                     "She was actively looking for a job.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -236,6 +241,7 @@ class EnglishEntryactively extends StatelessWidget {
                                     "بە جدییانە بۆ کارێک دەگەڕا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

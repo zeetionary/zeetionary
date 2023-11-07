@@ -164,6 +164,7 @@ class EnglishEntryafoot extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە لە پلاندایە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryafoot extends StatelessWidget {
                                     "There are plans afoot to increase taxation.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,6 +187,7 @@ class EnglishEntryafoot extends StatelessWidget {
                                     "پلان لە ئارادایە بۆ زیادکردنی باج",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

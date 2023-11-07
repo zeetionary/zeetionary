@@ -183,6 +183,7 @@ class EnglishEntryadd extends StatelessWidget {
 ١. (کردار) زیادکردنی شتێک بۆ شتێکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -193,6 +194,7 @@ class EnglishEntryadd extends StatelessWidget {
                                     "Shall I add your name to the list?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -204,6 +206,7 @@ class EnglishEntryadd extends StatelessWidget {
                                     "ناوت زیادبکەم بۆ لیستەکە؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -237,6 +240,7 @@ class EnglishEntryadd extends StatelessWidget {
                                     "Chlorine is added to the water to kill bacteria.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -248,6 +252,7 @@ class EnglishEntryadd extends StatelessWidget {
                                     "کلۆر زیاد دەکرێت بۆ ئاو بۆ کووشتنی بەکتریا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -278,6 +283,7 @@ class EnglishEntryadd extends StatelessWidget {
 ٢. (کردار) کۆکردنەوەی ژمارە پێکەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -288,6 +294,7 @@ class EnglishEntryadd extends StatelessWidget {
                                     "He knew how to add and subtract.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -296,9 +303,10 @@ class EnglishEntryadd extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەیزانی چۆن کۆکرنەوە و لێدەرکردن بکات",
+                                    "دەیزانی چۆن کۆکرنەوە و لێدەرکردن بکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -329,6 +337,7 @@ class EnglishEntryadd extends StatelessWidget {
 ٣. (کردار) زیادلرتنی قسەیەک بۆ شتێک کە پێشتر وتووتە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -339,6 +348,7 @@ class EnglishEntryadd extends StatelessWidget {
                                     "I have nothing to add to my earlier statement.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -347,9 +357,10 @@ class EnglishEntryadd extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھیچم نییە بۆ وتن زیاتر لەوەی پێشتر وتم",
+                                    "ھیچم نییە بۆ وتن زیاتر لەوەی پێشتر وتم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryactress extends StatelessWidget {
 ١. (ناو) ژنێک کە کاری ڕۆڵگێڕان لە شانۆ و فیلم ئەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryactress extends StatelessWidget {
                                     "The Oscar-winning actress has taken a break from acting.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryactress extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خانمە ئەکتەرەکەی براوەی خەڵاتی ئۆسکار بۆ ماوەیەک پشووی لە ڕۆڵگێڕان وەرگرتووە",
+                                    "خانمە ئەکتەرەکەی براوەی خەڵاتی ئۆسکار بۆ ماوەیەک پشووی لە ڕۆڵگێڕان وەرگرتووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -193,6 +193,7 @@ class EnglishEntryabsorb extends StatelessWidget {
 ١. (کردار) ھەڵمژینی مادەی شل، گاس، یان تەنی دیکە لە ھەوادا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -203,6 +204,7 @@ class EnglishEntryabsorb extends StatelessWidget {
                                     "Plants absorb carbon dioxide from the air.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -211,9 +213,10 @@ class EnglishEntryabsorb extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕووەکەکان دووانە ئۆکسیدی کاربۆن لە سرووشتەوە وەردەگرن",
+                                    "ڕووەکەکان دووانە ئۆکسیدی کاربۆن لە سرووشتەوە وەردەگرن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -245,6 +248,7 @@ class EnglishEntryabsorb extends StatelessWidget {
                                     "Let the rice cook until it has absorbed all the water.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -253,9 +257,10 @@ class EnglishEntryabsorb extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بھێڵە برنجەکە بکوڵێت ھەتا تەواوی ئاوەکە ھەڵدەمژێت",
+                                    "بھێڵە برنجەکە بکوڵێت ھەتا تەواوی ئاوەکە ھەڵدەمژێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -284,6 +289,7 @@ class EnglishEntryabsorb extends StatelessWidget {
 ٢. ھەڵمژینی گەرمی، ڕۆشنایی، وزە، و دەنگ لە جیاتی دانەوەیان ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -294,6 +300,7 @@ class EnglishEntryabsorb extends StatelessWidget {
                                     "Black walls absorb a lot of heat during the day.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -302,9 +309,10 @@ class EnglishEntryabsorb extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دیواری ڕەش لە ڕۆژدا ڕێژەیەکی زۆر گەرمی دەمژێت",
+                                    "دیواری ڕەش لە ڕۆژدا ڕێژەیەکی زۆر گەرمی دەمژێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -333,6 +341,7 @@ class EnglishEntryabsorb extends StatelessWidget {
 ٣. (کردار) کەمکردنەوەی کاریگەریی بەرکەوتن لەلایەن تەنێکی فیزیاییەوە   ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -343,6 +352,7 @@ class EnglishEntryabsorb extends StatelessWidget {
                                     "This tennis racket absorbs shock on impact.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -351,9 +361,10 @@ class EnglishEntryabsorb extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەسکە تێنسەکە لەگەل بەرکەوتندا تەزوو دەمژێت",
+                                    "دەسکە تێنسەکە لەگەل بەرکەوتندا تەزوو دەمژێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -382,6 +393,7 @@ class EnglishEntryabsorb extends StatelessWidget {
 ٤. (کردار) وەرگرتنی زانیاری و تێگەشتن لێی   ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -392,6 +404,7 @@ class EnglishEntryabsorb extends StatelessWidget {
                                     "It took me several days to absorb the fact of her death.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -400,9 +413,10 @@ class EnglishEntryabsorb extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چەند ڕۆژێکی پێچوو بۆم تا مردنەکەی پەسەندبکەم",
+                                    "چەند ڕۆژێکی پێچوو بۆم تا مردنەکەی پەسەندبکەم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -431,6 +445,7 @@ class EnglishEntryabsorb extends StatelessWidget {
 ٥. (کردار) وا لە کەسێک بکەیت بە تەواوی ھەموو بیرکردنەوەیت پێ بدات   ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -441,6 +456,7 @@ class EnglishEntryabsorb extends StatelessWidget {
                                     "His work absorbed him completely.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -449,9 +465,10 @@ class EnglishEntryabsorb extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کارەکەی بەتەواوی ھەموو ھۆش و بیری بردبوو",
+                                    "کارەکەی بەتەواوی ھەموو ھۆش و بیری بردبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

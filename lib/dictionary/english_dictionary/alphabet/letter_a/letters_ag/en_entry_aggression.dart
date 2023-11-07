@@ -165,6 +165,7 @@ class EnglishEntryaggression extends StatelessWidget {
 ١. (ناو) ھەستی ڕق و شەڕانگێزی کە ڕەنگە ببێتە ھۆی توندتوتیژی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryaggression extends StatelessWidget {
                                     "The research shows that computer games may cause aggression.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryaggression extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "توێژینەوەکە دەریدەخات کە یارییە ئەلیکترۆنییەکان دەکرێت ببنەھۆی شەڕەنگێزی",
+                                    "توێژینەوەکە دەریدەخات کە یارییە ئەلیکترۆنییەکان دەکرێت ببنەھۆی شەڕەنگێزی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryaggression extends StatelessWidget {
 ٢. (ناو) شەڕفرۆشتنی کەسێک یان وڵاتێک بە یەکێکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -229,6 +233,7 @@ class EnglishEntryaggression extends StatelessWidget {
                                     "The president announced that the country would not tolerate foreign aggressions.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,9 +245,10 @@ class EnglishEntryaggression extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەرۆک ڕایگەیاند کە وڵاتەکە چاوپۆشی ناکات لە ھیچ دەستدرێژییەکی دەرەکی",
+                                    "سەرۆک ڕایگەیاند کە وڵاتەکە چاوپۆشی ناکات لە ھیچ دەستدرێژییەکی دەرەکی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

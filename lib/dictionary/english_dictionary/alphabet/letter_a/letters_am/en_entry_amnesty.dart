@@ -237,6 +237,7 @@ class EnglishEntryamnesty extends StatelessWidget {
 ١. (ناو) لێبوردن لە زیندانیان یان ئەو کەسانەی تاوانیان کردووە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -247,6 +248,7 @@ class EnglishEntryamnesty extends StatelessWidget {
                                     "The president granted a general amnesty for all political prisoners.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -258,9 +260,10 @@ class EnglishEntryamnesty extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەرۆک لێبووردنی گشتی بۆ ھەموو زیندانیانی سیاسی دەرکرد",
+                                    "سەرۆک لێبووردنی گشتی بۆ ھەموو زیندانیانی سیاسی دەرکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -291,6 +294,7 @@ class EnglishEntryamnesty extends StatelessWidget {
 ٢. (ناو) ماوەیەکی دیاریکراو کە تاوانباران دەتوانن دان بە تاواندا بنێن، یان چەکەکانیان، یان کەلوپەلی دزراو بدەن‌بەدەستەوە بەبێ ئەوەی سزابدرێن ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -301,6 +305,7 @@ class EnglishEntryamnesty extends StatelessWidget {
                                     "2 000 knives have been handed in during the month-long amnesty.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -312,9 +317,10 @@ class EnglishEntryamnesty extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "٢٠٠٠ چەقۆ دران‌بەدەستەوە لە ماوەی مۆڵەتە یەک مانگییەکە",
+                                    "٢٠٠٠ چەقۆ دران‌بەدەستەوە لە ماوەی مۆڵەتە یەک مانگییەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

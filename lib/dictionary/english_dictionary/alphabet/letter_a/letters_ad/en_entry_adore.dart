@@ -162,6 +162,7 @@ class EnglishEntryadore extends StatelessWidget {
 ١. (کردار) خۆشویستنی زۆری کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryadore extends StatelessWidget {
                                     "It's obvious that she adores him.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -180,9 +182,10 @@ class EnglishEntryadore extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئاشکرایە کە ئەڤینداریەتی",
+                                    "ئاشکرایە کە ئەڤینداریەتی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

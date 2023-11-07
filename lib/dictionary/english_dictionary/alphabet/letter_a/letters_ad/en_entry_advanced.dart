@@ -165,6 +165,7 @@ class EnglishEntryadvanced extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی شتی سەردەمی و بیردۆز و ئایدیای تازە پەرەپێدراو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryadvanced extends StatelessWidget {
                                     "Scientists are working on highly advanced technology to replace fossil fuels.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryadvanced extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زاناکان کار دەکەن لەسەر تەکنۆلۆژیای زۆر پێشکەوتوو بۆ شوێنگرتنەوەی سوتەمەنی بەبەردبوو",
+                                    "زاناکان کار دەکەن لەسەر تەکنۆلۆژیای زۆر پێشکەوتوو بۆ شوێنگرتنەوەی سوتەمەنی بەبەردبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryadvanced extends StatelessWidget {
 ٢. (ھاوەڵناو) لە ئاستێکی بەرزدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +230,7 @@ class EnglishEntryadvanced extends StatelessWidget {
                                     "He hopes to pursue an advanced degree in economics.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +239,10 @@ class EnglishEntryadvanced extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھیواخوازە بڕوانامەیەکی بەرز لە ئابووریدا بەدەستبھێنێت",
+                                    "ھیواخوازە بڕوانامەیەکی بەرز لە ئابووریدا بەدەستبھێنێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

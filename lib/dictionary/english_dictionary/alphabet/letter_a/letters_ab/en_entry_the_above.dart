@@ -146,6 +146,7 @@ class EnglishEntrytheabove extends StatelessWidget {
 ١. شتێک یان کەسێک کە لە سەرەوە باسکراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -156,6 +157,7 @@ class EnglishEntrytheabove extends StatelessWidget {
                                     "Please notify us if the above is not correct.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -167,6 +169,7 @@ class EnglishEntrytheabove extends StatelessWidget {
                                     "تکایە ئاگادارمان بکەوە ئەگەر ئەوەی لە سەرەوە نووسراوە ڕاست نییە ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

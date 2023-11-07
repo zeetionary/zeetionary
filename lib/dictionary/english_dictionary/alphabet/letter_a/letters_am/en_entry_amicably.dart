@@ -237,6 +237,7 @@ class EnglishEntryamicably extends StatelessWidget {
 ١. (ھاوەڵناو) بە ھاوڕیانە و تەبایی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -247,6 +248,7 @@ class EnglishEntryamicably extends StatelessWidget {
                                     "The policeman chatted amicably to the bystanders.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -258,9 +260,10 @@ class EnglishEntryamicably extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پۆلیسەکان بە ھاوڕێیانە لەگەڵ پیادەکان قسەیان دەکرد",
+                                    "پۆلیسەکان بە ھاوڕێیانە لەگەڵ پیادەکان قسەیان دەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -294,6 +297,7 @@ class EnglishEntryamicably extends StatelessWidget {
                                     "I hope we can settle this amicably.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -305,9 +309,10 @@ class EnglishEntryamicably extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھیوادارم بە تەبایی ئەمە چارەسەر بکەین",
+                                    "ھیوادارم بە تەبایی ئەمە چارەسەر بکەین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

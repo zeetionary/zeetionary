@@ -25,7 +25,8 @@ class EnglishEntryannals extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("His deeds went down in the annals of British history."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "His deeds went down in the annals of British history."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnnals1125(String languageCode) async {
@@ -33,7 +34,8 @@ class EnglishEntryannals extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("This is a historic day in the annals of the team."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This is a historic day in the annals of the team."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnnals(String languageCode) async {
@@ -211,6 +213,7 @@ class EnglishEntryannals extends StatelessWidget {
 ١. (ھاوەڵناو) تۆماری مێژوویی؛ تۆماری فەرمی ڕووداو و چالاکیی ساڵانە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +224,7 @@ class EnglishEntryannals extends StatelessWidget {
                                     "His deeds went down in the annals of British history.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +236,10 @@ class EnglishEntryannals extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کارەکانی چوونە تۆماری مێژووی بەریتانیاوە",
+                                    "کارەکانی چوونە تۆماری مێژووی بەریتانیاوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -269,6 +274,7 @@ class EnglishEntryannals extends StatelessWidget {
                                     "This is a historic day in the annals of the team.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -280,9 +286,10 @@ class EnglishEntryannals extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەمە ڕۆژێکی مێژووییە لە مێژوونامەی تیمەکە",
+                                    "ئەمە ڕۆژێکی مێژووییە لە مێژوونامەی تیمەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

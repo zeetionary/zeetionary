@@ -164,6 +164,7 @@ class EnglishEntryaftermath extends StatelessWidget {
 ١. (ناو) دەرئەنجامی ڕووداوێک یان جەنگ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaftermath extends StatelessWidget {
                                     "The president visited the region in the immediate aftermath of the disaster.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryaftermath extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەرۆک سەردانی ھەرێمەکەی کرد لە دەرئەنجامی کارەساتەکە",
+                                    "سەرۆک سەردانی ھەرێمەکەی کرد لە دەرئەنجامی کارەساتەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -163,6 +163,7 @@ class EnglishEntryacorn extends StatelessWidget {
 ١. (ھاوەڵناو) کاکڵەی بچووکی دار بەڕوو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

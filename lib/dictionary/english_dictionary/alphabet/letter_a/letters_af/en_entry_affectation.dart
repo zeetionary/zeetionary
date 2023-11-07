@@ -165,6 +165,7 @@ class EnglishEntryaffectation extends StatelessWidget {
 ١. (ناو) گفت و ڕەفتار کە سرووشتی نییە و ئامانج لێی ئەوەیە کەسانی تر سەرسام بکەی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryaffectation extends StatelessWidget {
                                     "She has many annoying little affectations.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryaffectation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژمارەیەکی زۆر مەکربازیی بچووکی ھەیە",
+                                    "ژمارەیەکی زۆر مەکربازیی بچووکی ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryaffectation extends StatelessWidget {
                                     "He raised his eyebrows with an affectation of surprise (= pretending to be surprised).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -227,9 +231,10 @@ class EnglishEntryaffectation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "برۆیەکانی بەرزکردەوە بە خۆنواندنی ئەوەی کە سەرسامە",
+                                    "برۆیەکانی بەرزکردەوە بە خۆنواندنی ئەوەی کە سەرسامە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -25,7 +25,8 @@ class EnglishEntryanchovy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Decorate the top of the pizza with anchovies/strips of anchovy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Decorate the top of the pizza with anchovies/strips of anchovy."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnchovy(String languageCode) async {
@@ -209,6 +210,7 @@ class EnglishEntryanchovy extends StatelessWidget {
 ١. (ناو) ماسییەکی بچووک کە دەخورێت و تامی سوێرە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -219,6 +221,7 @@ class EnglishEntryanchovy extends StatelessWidget {
                                     "Decorate the top of the pizza with anchovies/strips of anchovy.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -230,9 +233,10 @@ class EnglishEntryanchovy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەرەوەی پیتزاکە بڕازێنەوە بە پارچە ئانچۆڤی",
+                                    "سەرەوەی پیتزاکە بڕازێنەوە بە پارچە ئانچۆڤی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -250,9 +254,9 @@ class EnglishEntryanchovy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnchovy502(// REPLACE: anchovy /ˈæntʃəʊvi/
-                                        "en-US"),
+                                onPressed: () => speakAnchovy502(
+                                    // REPLACE: anchovy /ˈæntʃəʊvi/
+                                    "en-US"),
                               ),
                             ],
                           ),

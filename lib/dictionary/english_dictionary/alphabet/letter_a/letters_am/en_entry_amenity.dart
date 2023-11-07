@@ -237,6 +237,7 @@ class EnglishEntryamenity extends StatelessWidget {
 ١. (ناو) خزمەتگوزاری؛ ئەو خزمەتگوزارییانەی وا دەکەن شوێنێک بە کەڵکی ژیان بێت، یان ژیانکردن تێیدا خۆش بێت ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -247,6 +248,7 @@ class EnglishEntryamenity extends StatelessWidget {
                                     "Many of the houses lacked even basic amenities (= baths, showers, hot water, etc.).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -258,9 +260,10 @@ class EnglishEntryamenity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژمارەیەکی زۆر لە خانووەکان تەنانەت خزمەتگوزارییە سەرەتاییەکانیشیان تێدا نییە",
+                                    "ژمارەیەکی زۆر لە خانووەکان تەنانەت خزمەتگوزارییە سەرەتاییەکانیشیان تێدا نییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -294,6 +297,7 @@ class EnglishEntryamenity extends StatelessWidget {
                                     "The hotel has excellent amenities.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -305,9 +309,10 @@ class EnglishEntryamenity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھوتێلەکە خزمەتگوزاریی نایابی تێدایە",
+                                    "ھوتێلەکە خزمەتگوزاریی نایابی تێدایە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

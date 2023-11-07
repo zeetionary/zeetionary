@@ -210,6 +210,7 @@ class EnglishEntryanon extends StatelessWidget {
 ١. (ھاوەڵکار) دەسبەجێ، لەڕێوە، زوو، بەزوویی، خێرا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -220,6 +221,7 @@ class EnglishEntryanon extends StatelessWidget {
                                     "See you anon.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -231,9 +233,10 @@ class EnglishEntryanon extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زوو دەتبینمەوە",
+                                    "زوو دەتبینمەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

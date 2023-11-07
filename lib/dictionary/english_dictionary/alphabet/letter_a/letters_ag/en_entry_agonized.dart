@@ -164,6 +164,7 @@ class EnglishEntryagonized extends StatelessWidget {
 ١. (ھاوەڵناو) چەشتنی ئازار و پیشاندانی، یان نیگەرانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryagonized extends StatelessWidget {
                                     "After five months of agonized debate they signed the treaty.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryagonized extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەدوای پێنج مانگ مشتومڕی بەسوێ ڕێککەوتنەکەیان واژۆکرد",
+                                    "لەدوای پێنج مانگ مشتومڕی بەسوێ ڕێککەوتنەکەیان واژۆکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

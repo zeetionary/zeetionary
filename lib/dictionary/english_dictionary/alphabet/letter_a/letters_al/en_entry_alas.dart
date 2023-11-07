@@ -164,6 +164,7 @@ class EnglishEntryalas extends StatelessWidget {
 ١. (سەرسوڕمان) بۆ دەربڕینی نیگەرانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalas extends StatelessWidget {
                                     "For many people, alas, hunger is part of everyday life.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalas extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ زۆر کەس، بەداخەوە، برسێتی بەشێکە لە ژیانی ڕۆژانە",
+                                    "بۆ زۆر کەس، بەداخەوە، برسێتی بەشێکە لە ژیانی ڕۆژانە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

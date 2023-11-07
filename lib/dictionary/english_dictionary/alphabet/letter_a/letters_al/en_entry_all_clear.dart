@@ -164,6 +164,7 @@ class EnglishEntryallclear extends StatelessWidget {
 ١. (ناو) ئاماژەیەک بۆ ئەوەی شوێنێک چی تر مەترسیدار نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryallclear extends StatelessWidget {
                                     "The children hid in the basement until the all-clear sounded.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -188,6 +190,7 @@ class EnglishEntryallclear extends StatelessWidget {
                                     "منداڵەکان خۆیان لەژێر زەمینەکە شاردەوە تاوەکو ئاماژەی سەلامەتییان پێدرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -218,6 +221,7 @@ class EnglishEntryallclear extends StatelessWidget {
 ٢. (ناو) وتنی ئەوەی ھیچ کێشەیەک نییە، بۆ نموونە پزیشک بڵێت ھیچ کێشەی تەندرووستیت نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -228,6 +232,7 @@ class EnglishEntryallclear extends StatelessWidget {
                                     "The building was given the all-clear following tests.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -239,9 +244,10 @@ class EnglishEntryallclear extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بیناکە بە سەلامەت دانرا لە دوای پشکنینەکان",
+                                    "بیناکە بە سەلامەت دانرا لە دوای پشکنینەکان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -272,6 +278,7 @@ class EnglishEntryallclear extends StatelessWidget {
 ٣. (ناو) مۆڵەتپێدان بۆ کردنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -282,6 +289,7 @@ class EnglishEntryallclear extends StatelessWidget {
                                     "The ship was given the all-clear to sail.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -296,6 +304,7 @@ class EnglishEntryallclear extends StatelessWidget {
                                     "کەشتییەکە مۆڵەتی پێدرا بۆ چوونە دەریا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

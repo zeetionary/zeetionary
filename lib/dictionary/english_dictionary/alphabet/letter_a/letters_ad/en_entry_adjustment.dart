@@ -165,6 +165,7 @@ class EnglishEntryadjustment extends StatelessWidget {
 ١. (ناو) گۆڕانکاریی بچووک بۆ چاکترکردنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryadjustment extends StatelessWidget {
                                     "I've made a few adjustments to the design.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryadjustment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەندێک گۆڕانکاریی بچووکم کردووە بۆ باشترکردنی دیزاینەکە",
+                                    "ھەندێک گۆڕانکاریی بچووکم کردووە بۆ باشترکردنی دیزاینەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryadjustment extends StatelessWidget {
 ٢. (ناو) گۆڕانکاری لە ڕەفتار یان بیرکردنەوەی کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +230,7 @@ class EnglishEntryadjustment extends StatelessWidget {
                                     "The process of adjustment to life in another country can be very difficult.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +239,10 @@ class EnglishEntryadjustment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پڕۆسەی ڕاھاتن بە ژیانکردن لە وڵاتێکی تر ئەکرێت زۆر قوورس بێت",
+                                    "پڕۆسەی ڕاھاتن بە ژیانکردن لە وڵاتێکی تر ئەکرێت زۆر قوورس بێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

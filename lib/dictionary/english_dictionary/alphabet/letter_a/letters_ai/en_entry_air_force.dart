@@ -162,6 +162,7 @@ class EnglishEntryairforce extends StatelessWidget {
 ١. (ناو) ھێزی ئاسمانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryairforce extends StatelessWidget {
                                     "His parents discouraged him from joining the airforce.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryairforce extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دایک و باوکی ساردیان کردەوە لە پەیوەندیکردن بە ھێزی ئاسمانی",
+                                    "دایک و باوکی ساردیان کردەوە لە پەیوەندیکردن بە ھێزی ئاسمانی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

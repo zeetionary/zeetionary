@@ -237,6 +237,7 @@ class EnglishEntryamerican extends StatelessWidget {
 ١. (ناو) کەسێکی ئەمریکایی، بەتایبەت دانیشتووی ویلایەتە یەکگرتووەکانی ئەمریکا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -247,6 +248,7 @@ class EnglishEntryamerican extends StatelessWidget {
                                     "He said he was proud to be an American.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -258,9 +260,10 @@ class EnglishEntryamerican extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گوتی شانازییە بۆی خەڵکی ئەمریکا بێت",
+                                    "گوتی شانازییە بۆی خەڵکی ئەمریکا بێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -291,6 +294,7 @@ class EnglishEntryamerican extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بە ئەمریکا، بەتایبەت ویلایەتە یەکگرتووەکانی ئەمریکا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -301,6 +305,7 @@ class EnglishEntryamerican extends StatelessWidget {
                                     "I'm American.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -312,9 +317,10 @@ class EnglishEntryamerican extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "من ئەمریکیم",
+                                    "من ئەمریکیم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -348,6 +354,7 @@ class EnglishEntryamerican extends StatelessWidget {
                                     "They drive a big American car.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -359,9 +366,10 @@ class EnglishEntryamerican extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئۆتۆمبێلێکی گەورەی ئەمریکییان ھەیە",
+                                    "ئۆتۆمبێلێکی گەورەی ئەمریکییان ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

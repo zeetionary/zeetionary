@@ -141,6 +141,7 @@ class EnglishEntryabominably extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەکی زۆر خراپ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -151,6 +152,7 @@ class EnglishEntryabominably extends StatelessWidget {
                                     "She treated him abominably.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -159,9 +161,10 @@ class EnglishEntryabominably extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر بەخراپی مامەڵەی لەگەڵ کرد",
+                                    "زۆر بەخراپی مامەڵەی لەگەڵ کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

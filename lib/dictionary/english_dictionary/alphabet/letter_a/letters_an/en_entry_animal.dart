@@ -217,6 +217,7 @@ class EnglishEntryanimal extends StatelessWidget {
 ١. (ناو) ئاژەڵ؛ گیانلەبەرێک کە باڵندە، ماسی، خشۆک، مێروو، یان مرۆڤ نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -227,6 +228,7 @@ class EnglishEntryanimal extends StatelessWidget {
                                     "The animal began to sicken and soon died.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -238,9 +240,10 @@ class EnglishEntryanimal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئاژەڵەکە لاوازبوو و بەزووی مرد",
+                                    "ئاژەڵەکە لاوازبوو و بەزووی مرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -275,6 +278,7 @@ class EnglishEntryanimal extends StatelessWidget {
                                     "A horse is a large animal.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -286,9 +290,10 @@ class EnglishEntryanimal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەسپ ئاژەڵێکی گەورەیە",
+                                    "ئەسپ ئاژەڵێکی گەورەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -320,6 +325,7 @@ class EnglishEntryanimal extends StatelessWidget {
 ٢. (ناو) ھەرشتێکی زیندوو کە مرۆڤ یان ڕووەک نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -330,6 +336,7 @@ class EnglishEntryanimal extends StatelessWidget {
                                     "This product has not been tested on animals.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -341,9 +348,10 @@ class EnglishEntryanimal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم بەرھەمە ھێشتا لەسەر ئاژەڵ تاقی‌نەکراوەتەوە",
+                                    "ئەم بەرھەمە ھێشتا لەسەر ئاژەڵ تاقی‌نەکراوەتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -375,6 +383,7 @@ class EnglishEntryanimal extends StatelessWidget {
 ٣. (ناو) ھەرشتێکی زیندوو، بە مرۆڤیشەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -385,6 +394,7 @@ class EnglishEntryanimal extends StatelessWidget {
                                     "Humans are the only animals to have developed speech.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -396,9 +406,10 @@ class EnglishEntryanimal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مرۆڤ تەنھا گیانلەبەرە کە توانای قسەکردنی گەشەپێ‌دابێت",
+                                    "مرۆڤ تەنھا گیانلەبەرە کە توانای قسەکردنی گەشەپێ‌دابێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -430,6 +441,7 @@ class EnglishEntryanimal extends StatelessWidget {
 ٤. (ناو) کەسێک کە بە دڕندەیی ڕەفتار دەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -440,6 +452,7 @@ class EnglishEntryanimal extends StatelessWidget {
                                     "He's a real animal when he's had too much to drink.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -451,9 +464,10 @@ class EnglishEntryanimal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەبێت بە دڕندەیەکی تەواو کە زۆر دەخواتەوە",
+                                    "دەبێت بە دڕندەیەکی تەواو کە زۆر دەخواتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -485,6 +499,7 @@ class EnglishEntryanimal extends StatelessWidget {
 ٥. (ھاوەڵناو) پەیوەندیدار بە حەزی جەستەیی کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -495,6 +510,7 @@ class EnglishEntryanimal extends StatelessWidget {
                                     "She knew that Dave wasn't the right man for her but she couldn't deny the animal attraction between them.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -506,9 +522,10 @@ class EnglishEntryanimal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەیزانی دەیڤ کەسێکی شیاو نییە بۆی، بەڵام نەیدەتوانی نکۆڵی بکات لە حەزی جەستەییان بۆ یەکدی",
+                                    "دەیزانی دەیڤ کەسێکی شیاو نییە بۆی، بەڵام نەیدەتوانی نکۆڵی بکات لە حەزی جەستەییان بۆ یەکدی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -543,6 +560,7 @@ class EnglishEntryanimal extends StatelessWidget {
                                     "As an actor, he has a sort of animal magnetism.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -554,9 +572,10 @@ class EnglishEntryanimal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وەک ئەکتەرێک، کەسێکی دڵبەرە",
+                                    "وەک ئەکتەرێک، کەسێکی دڵبەرە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

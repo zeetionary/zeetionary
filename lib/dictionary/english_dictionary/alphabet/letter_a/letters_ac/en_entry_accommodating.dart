@@ -148,6 +148,7 @@ class EnglishEntryaccommodating extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە یارمەتیی کەسانی تر دەدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryaccommodating extends StatelessWidget {
                                     "They are very accommodating to people with special needs.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryaccommodating extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر بە تەنگ کەسانی خاوەن پێداویستی تایبەتەوە دەچن",
+                                    "زۆر بە تەنگ کەسانی خاوەن پێداویستی تایبەتەوە دەچن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

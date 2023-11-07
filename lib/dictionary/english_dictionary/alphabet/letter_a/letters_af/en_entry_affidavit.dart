@@ -164,6 +164,7 @@ class EnglishEntryaffidavit extends StatelessWidget {
 ١. (ناو) پارچە نووسراوێک کە سوێند دەخۆیت ڕاستە و لە دادگا دەکرێت وەک بەڵگە بەکاربێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaffidavit extends StatelessWidget {
                                     "He admitted he was one of a number of people stealing from the company, according to the affidavit filed by the shown to court.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,6 +187,7 @@ class EnglishEntryaffidavit extends StatelessWidget {
                                     "دانیپێدانا کە ئەو یەکێکە لەو کەسانەی دزی لە کۆمپانیاکە کردووە بەپێی ئەو سوێندنامەی بە دادگا پیشان درا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

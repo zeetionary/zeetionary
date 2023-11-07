@@ -165,6 +165,7 @@ class EnglishEntryallergy extends StatelessWidget {
 ١. (ناو) حاڵەتێکی تەندرووستی کە وات لێ داکات بارودۆخت تێک بچێت یان نەخۆش بکەویت ئەگەر شتێک بۆخیت یان دەست لە شتێک بدەیت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryallergy extends StatelessWidget {
                                     "I have an allergy to animal hair.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryallergy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەستیاریم بە مووی ئاژەڵ ھەیە",
+                                    "ھەستیاریم بە مووی ئاژەڵ ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -222,6 +225,7 @@ class EnglishEntryallergy extends StatelessWidget {
                                     "He developed an allergy to wheat.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +237,10 @@ class EnglishEntryallergy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەستیاری بە گەنمی بۆ درووست بوو",
+                                    "ھەستیاری بە گەنمی بۆ درووست بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

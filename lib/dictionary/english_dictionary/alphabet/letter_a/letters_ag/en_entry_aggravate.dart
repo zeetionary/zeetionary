@@ -163,6 +163,7 @@ class EnglishEntryaggravate extends StatelessWidget {
 ١. (کردار) خراپترکردنی بارودۆخێکی خراپ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryaggravate extends StatelessWidget {
                                     "Pollution can aggravate asthma.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryaggravate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پیسبوونی ژینگە ڕبۆ توندتر دەکات",
+                                    "پیسبوونی ژینگە ڕبۆ توندتر دەکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -220,6 +223,7 @@ class EnglishEntryaggravate extends StatelessWidget {
                                     "Military intervention will only aggravate the conflict even further.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -231,9 +235,10 @@ class EnglishEntryaggravate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەستوەردانی سەربازی تەنھا پێکدادانەکە ئاڵۆزتر دەکات",
+                                    "دەستوەردانی سەربازی تەنھا پێکدادانەکە ئاڵۆزتر دەکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

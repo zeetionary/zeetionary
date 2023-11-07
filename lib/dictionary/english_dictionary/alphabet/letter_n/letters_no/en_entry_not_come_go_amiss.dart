@@ -235,6 +235,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
 ١. (ئیدیەم) شتێک کە سوودی دەبێت لە بارودۆخێکی دیاریکراودا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -245,6 +246,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                                     "A little luck wouldn't go amiss right now!",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -259,6 +261,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                                     "کەمێک بەخت خراپ نابێت ئێستا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -293,6 +296,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                                     "I followed them all the way to make sure nothing went amiss.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -304,9 +308,10 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەواوی ڕێگاکە شوێنیان کەوتم بۆ ئەوەی دڵنیابم ھیچ شتێک بە ھەڵە نەچوو",
+                                    "تەواوی ڕێگاکە شوێنیان کەوتم بۆ ئەوەی دڵنیابم ھیچ شتێک بە ھەڵە نەچوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

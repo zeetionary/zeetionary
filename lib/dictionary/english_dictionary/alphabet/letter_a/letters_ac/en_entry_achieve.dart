@@ -175,6 +175,7 @@ class EnglishEntryachieve extends StatelessWidget {
 ١. (کردار) بەدەستھێنانی شتێک لەدوای ھەوڵێکی زۆر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -185,6 +186,7 @@ class EnglishEntryachieve extends StatelessWidget {
                                     "She has worked hard to achieve her goal.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -193,9 +195,10 @@ class EnglishEntryachieve extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە زەحمەتەوە کاریکرد بۆ بەدەستھێنانی ئامانجەکەی",
+                                    "بە زەحمەتەوە کاریکرد بۆ بەدەستھێنانی ئامانجەکەی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -228,6 +231,7 @@ class EnglishEntryachieve extends StatelessWidget {
                                     "Sooner or later our efforts will achieve results.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -239,6 +243,7 @@ class EnglishEntryachieve extends StatelessWidget {
                                     "زوو یان درەنگ ھەوڵەکانمان دەگات بە ئامانج",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -268,6 +273,7 @@ class EnglishEntryachieve extends StatelessWidget {
 ٢. (کردار) سەرکەوتن لە کردنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -278,6 +284,7 @@ class EnglishEntryachieve extends StatelessWidget {
                                     "All you've achieved is to upset my parents.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -286,9 +293,10 @@ class EnglishEntryachieve extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەموو ئەوەی کردووتە بێزارکردنی دایک و باوکمانە",
+                                    "ھەموو ئەوەی کردووتە بێزارکردنی دایک و باوکمانە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -318,6 +326,7 @@ class EnglishEntryachieve extends StatelessWidget {
 ٣. (کردار) سەرکەوتووبوون''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -328,6 +337,7 @@ class EnglishEntryachieve extends StatelessWidget {
                                     "Students need to achieve academically in order to enter the labour market.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -336,9 +346,10 @@ class EnglishEntryachieve extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خوێندکاران دەبێت لەلایەنی خوێندنەوە سەرکەوتووبن بۆ ئەوەی بچنە ناو بازاڕی کارەوە",
+                                    "خوێندکاران دەبێت لەلایەنی خوێندنەوە سەرکەوتووبن بۆ ئەوەی بچنە ناو بازاڕی کارەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

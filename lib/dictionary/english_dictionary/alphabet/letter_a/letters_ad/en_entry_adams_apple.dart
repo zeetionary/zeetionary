@@ -163,6 +163,7 @@ class EnglishEntryadamsapple extends StatelessWidget {
 ١. (ناو) ئەو بەشەی قوڕگە کە ھاتووەتە دەرەوە و سەرووخوار دەکات کە شت دۆخۆیت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

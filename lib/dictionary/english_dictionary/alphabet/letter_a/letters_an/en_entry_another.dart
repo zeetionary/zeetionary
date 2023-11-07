@@ -217,6 +217,7 @@ class EnglishEntryanother extends StatelessWidget {
 ١. (دیارخەر، جێناو) یەکێکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -227,6 +228,7 @@ class EnglishEntryanother extends StatelessWidget {
                                     "Would you like another drink?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -241,6 +243,7 @@ class EnglishEntryanother extends StatelessWidget {
                                     "حەزت بە خواردنەوەیەکی ترە؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -275,6 +278,7 @@ class EnglishEntryanother extends StatelessWidget {
                                     "I'm going to have another piece of cake.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -286,9 +290,10 @@ class EnglishEntryanother extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پارچە کێکێکی تر دەخۆم",
+                                    "پارچە کێکێکی تر دەخۆم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -323,6 +328,7 @@ class EnglishEntryanother extends StatelessWidget {
                                     "We can fit another person in my car.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -334,9 +340,10 @@ class EnglishEntryanother extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەتوانین کەسێکی تر لە ئۆتۆمبێلەکەم جێبکەینەوە",
+                                    "دەتوانین کەسێکی تر لە ئۆتۆمبێلەکەم جێبکەینەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -368,6 +375,7 @@ class EnglishEntryanother extends StatelessWidget {
 ٢. (دیارخەر، جێناو) یەکێکی تر کە جیاوازە ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -378,6 +386,7 @@ class EnglishEntryanother extends StatelessWidget {
                                     "Let's do it another time.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -389,9 +398,10 @@ class EnglishEntryanother extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "با کاتێکی تر بیکەین",
+                                    "با کاتێکی تر بیکەین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -426,6 +436,7 @@ class EnglishEntryanother extends StatelessWidget {
                                     "I don't like this room. I'm going to ask for another.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -437,9 +448,10 @@ class EnglishEntryanother extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حەزم بەم ژوورە نییە، داوای دانەیەکی تر دەکەم",
+                                    "حەزم بەم ژوورە نییە، داوای دانەیەکی تر دەکەم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -471,6 +483,7 @@ class EnglishEntryanother extends StatelessWidget {
 ٣. (دیارخەر، جێناو) کەسێک یان شتێک کە وەک یەکێکی تە ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -481,6 +494,7 @@ class EnglishEntryanother extends StatelessWidget {
                                     "There'll never be another like him.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -492,9 +506,10 @@ class EnglishEntryanother extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەسێکی تری وەک ئەو دووبارە نابێتەوە",
+                                    "کەسێکی تری وەک ئەو دووبارە نابێتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

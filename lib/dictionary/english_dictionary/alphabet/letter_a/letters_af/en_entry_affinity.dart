@@ -182,6 +182,7 @@ class EnglishEntryaffinity extends StatelessWidget {
 ١. (ناو) بوونی ھەستێکی بەھێز کە لە شتێک تێدەگەیت و حەزت بۆی ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -200,9 +201,10 @@ class EnglishEntryaffinity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سام لە لادێ لەدایکبووبوو و ھۆگرییەکی قووڵی بۆ سرووشت ھەبوو",
+                                    "سام لە لادێ لەدایکبووبوو و ھۆگرییەکی قووڵی بۆ سرووشت ھەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -244,9 +246,10 @@ class EnglishEntryaffinity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مرۆڤ ھۆگرییەکی تایبەتی بۆ دۆڵفین ھەیە",
+                                    "مرۆڤ ھۆگرییەکی تایبەتی بۆ دۆڵفین ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -277,6 +280,7 @@ class EnglishEntryaffinity extends StatelessWidget {
 ٢. (ناو) بوونی خاسیەتی لێکچوو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -295,9 +299,10 @@ class EnglishEntryaffinity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لێکچوونی زۆر ھەیە لەنێوان زمانەکانی ئیسپانی و ئیتالی",
+                                    "لێکچوونی زۆر ھەیە لەنێوان زمانەکانی ئیسپانی و ئیتالی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

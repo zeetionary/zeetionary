@@ -214,6 +214,7 @@ class EnglishEntryantelope extends StatelessWidget {
 ١. (ناو) ئاژەڵێکی ئەفریقی یان ئاسیاییە کە شێوەی وەک ئاسکە و زۆر خێرایە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +225,7 @@ class EnglishEntryantelope extends StatelessWidget {
                                     "The hunter disembowelled the antelope.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +237,10 @@ class EnglishEntryantelope extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕاوچییەکە ئاسکەکێوییەکەی کەوڵ کرد",
+                                    "ڕاوچییەکە ئاسکەکێوییەکەی کەوڵ کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

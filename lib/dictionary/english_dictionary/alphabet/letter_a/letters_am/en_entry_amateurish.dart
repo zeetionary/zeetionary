@@ -164,6 +164,7 @@ class EnglishEntryamateurish extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە لە کردنیدا ئەزموون و شارەزایی نەبووە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryamateurish extends StatelessWidget {
                                     "Their website looks amateurish.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryamateurish extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وێبسایتەکەیان تازەکارانە دیاربوو",
+                                    "وێبسایتەکەیان تازەکارانە دیاربوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

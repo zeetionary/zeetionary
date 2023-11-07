@@ -137,6 +137,7 @@ class EnglishEntryabacus extends StatelessWidget {
 ١. (ناو) چوارچێوەیەک کە وایەری پێوەیە لەگەڵ تۆپی بچووک و بەکاردێت بۆ ژماردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -147,6 +148,7 @@ class EnglishEntryabacus extends StatelessWidget {
                                     "In ancient times, people relied on an abacus to perform mathematical calculations.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -155,9 +157,10 @@ class EnglishEntryabacus extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە سەردەمانی کۆندا خەڵکی پشتیان بە ژمێرکە دەبەست بۆ لێکدانەوە بیرکارییەکان",
+                                    "لە سەردەمانی کۆندا خەڵکی پشتیان بە ژمێرکە دەبەست بۆ لێکدانەوە بیرکارییەکان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

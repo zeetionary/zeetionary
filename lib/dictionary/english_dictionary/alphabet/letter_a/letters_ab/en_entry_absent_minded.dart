@@ -146,6 +146,7 @@ class EnglishEntryabsentminded extends StatelessWidget {
 ١. کەسێکە خەیاڵپڵاو کە بیر لە شتی تر دەکاتەوە وەک لەوەی کە لە دەوروبەریەتی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -156,6 +157,7 @@ class EnglishEntryabsentminded extends StatelessWidget {
                                     "Grandpa’s becoming quite absent-minded.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -164,9 +166,10 @@ class EnglishEntryabsentminded extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "باپیرە خەیکە خەیاڵپڵاو دەبێت",
+                                    "باپیرە خەیکە خەیاڵپڵاو دەبێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

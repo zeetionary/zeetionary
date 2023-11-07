@@ -165,6 +165,7 @@ class EnglishEntryacid extends StatelessWidget {
 ١. (ناو) مادەیەکی کیمیایی کە زۆرجار ترشە و ھایدرۆجینی تێدایە، ھایدرۆجینەکە دەکرێت بگۆڕدرێتەوە بە کانزایەک بۆ درووستکردنی خوێ. ئەسید بەزۆری ترشییەکی زۆری ھەیە کە دەکرێت کون درووستبکات لە شتێکدا یان زیان بگەیەنێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryacid extends StatelessWidget {
                                     "The acid burned a hole in her coat.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryacid extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەسیدەکە کونێکی درووستکرد لە پاڵتاوەکەی",
+                                    "ئەسیدەکە کونێکی درووستکرد لە پاڵتاوەکەی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -215,6 +218,7 @@ class EnglishEntryacid extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە ئەسیدی تێدایە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           const DividerDefinition(),
                           const Text(
@@ -223,6 +227,7 @@ class EnglishEntryacid extends StatelessWidget {
 ٣. (ناو) شتێک کە زۆر ترشە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -233,6 +238,7 @@ class EnglishEntryacid extends StatelessWidget {
                                     "It’s a very juicy fruit with a slightly acid flavour.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -241,9 +247,10 @@ class EnglishEntryacid extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "میوەیەکی زۆر ئاودارە لەگەڵ بوونی کەمێک تامی ترشی",
+                                    "میوەیەکی زۆر ئاودارە لەگەڵ بوونی کەمێک تامی ترشی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

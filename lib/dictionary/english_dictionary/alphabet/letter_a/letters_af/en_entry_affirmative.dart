@@ -165,6 +165,7 @@ class EnglishEntryaffirmative extends StatelessWidget {
 ١. (ھاوەڵناو) وەڵامێکی ئەرێنی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryaffirmative extends StatelessWidget {
                                     "He gave an affirmative response to the question.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryaffirmative extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وەڵامێکی ئەرێنی دا بە پرسیارەکە",
+                                    "وەڵامێکی ئەرێنی دا بە پرسیارەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryaffirmative extends StatelessWidget {
 ٢. (ناو) وشەیەک کە واتای بەڵێ دەدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +230,7 @@ class EnglishEntryaffirmative extends StatelessWidget {
                                     "She answered in the affirmative (= said ‘yes’).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -237,9 +242,10 @@ class EnglishEntryaffirmative extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە بەڵێ وەڵامی داوە",
+                                    "بە بەڵێ وەڵامی داوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

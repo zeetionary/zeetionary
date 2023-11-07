@@ -212,6 +212,7 @@ class EnglishEntryangelic extends StatelessWidget {
 ١. (ھاوەڵناو) فریشتەئاسا؛ باش و میھرەبان و جوان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryangelic extends StatelessWidget {
                                     "She smiled, revealing her angelic face to everyone around.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryangelic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێکەنی و ڕووخسارە فریشتەئاساکەی پیشانی ھەمووان دا",
+                                    "پێکەنی و ڕووخسارە فریشتەئاساکەی پیشانی ھەمووان دا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryairworthy extends StatelessWidget {
 ١. (ھاوەڵناو) فڕۆکەیەک کە گونجاوە بۆ فڕین''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryairworthy extends StatelessWidget {
                                     "The planes were certified airworthy.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryairworthy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "فڕۆکەکان بە گونجاو بۆ فڕین دانران",
+                                    "فڕۆکەکان بە گونجاو بۆ فڕین دانران.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

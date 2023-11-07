@@ -197,6 +197,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
 ١. (کردار) داننان بە ڕاستی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -207,6 +208,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
                                     "I have to acknowledge the fact that I am partly responsible.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -215,9 +217,10 @@ class EnglishEntryacknowledge extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەبێت دان بەو ڕاستییە بنێم کە من بەرپرسیارم بۆ بەشێکی",
+                                    "دەبێت دان بەو ڕاستییە بنێم کە من بەرپرسیارم بۆ بەشێکی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -250,6 +253,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
                                     "He does not acknowledge that he has done anything wrong.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -258,9 +262,10 @@ class EnglishEntryacknowledge extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دان بەوەدا نانێت کە ھیچ شتێکی ھەڵەی کردبێت",
+                                    "دان بەوەدا نانێت کە ھیچ شتێکی ھەڵەی کردبێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -290,6 +295,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
 ٢. (کردار) ناساندنی شتێک وەک ڕاستی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -300,6 +306,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
                                     "He is widely acknowledged as the best player in the world.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -308,9 +315,10 @@ class EnglishEntryacknowledge extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەشێوەیەکی گشتی ناسێندراوە بە باشتری یاریزانی جیھان",
+                                    "بەشێوەیەکی گشتی ناسێندراوە بە باشتری یاریزانی جیھان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -340,6 +348,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
 ٣. (کردار) بە کەسێک وتن کە شتێکت پێگەیشتووە کە بۆی ناردوویت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -350,6 +359,7 @@ class EnglishEntryacknowledge extends StatelessWidget {
                                     "All applications will be acknowledged.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -358,9 +368,10 @@ class EnglishEntryacknowledge extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەواوی داخوازینامەکان وەڵام دەدرێنەوە",
+                                    "تەواوی داخوازینامەکان وەڵام دەدرێنەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

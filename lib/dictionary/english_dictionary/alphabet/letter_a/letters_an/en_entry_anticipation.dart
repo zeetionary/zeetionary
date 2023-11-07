@@ -216,6 +216,7 @@ class EnglishEntryanticipation extends StatelessWidget {
 ١. (ناو) پێشبینی‌کردنی ڕوودانی شتێک لە داھاتوو و ھەوڵ‌دان بۆ کردنی کارێک دەربارەی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +227,7 @@ class EnglishEntryanticipation extends StatelessWidget {
                                     "He bought extra food in anticipation of more people coming than he'd invited.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -237,9 +239,10 @@ class EnglishEntryanticipation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خواردنی زیادەی کڕی لە پێشبینی ھاتنی خەڵکی زیاتر وەک لەوەی بانگھێشتی کردوون",
+                                    "خواردنی زیادەی کڕی لە پێشبینی ھاتنی خەڵکی زیاتر وەک لەوەی بانگھێشتی کردوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -274,6 +277,7 @@ class EnglishEntryanticipation extends StatelessWidget {
                                     "Parents visit the school in anticipation that action will be taken.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -285,9 +289,10 @@ class EnglishEntryanticipation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دایکان و باوکان سەردانی قوتابخانەکە دەکەن بەھیوای ئەوەی ھەنگاو بنرێت",
+                                    "دایکان و باوکان سەردانی قوتابخانەکە دەکەن بەھیوای ئەوەی ھەنگاو بنرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -319,6 +324,7 @@ class EnglishEntryanticipation extends StatelessWidget {
 ٢. (ناو) ھەستێکی خۆش کە ھەتە سەبارەت بە ڕوودانی شتێکی خۆش''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -329,6 +335,7 @@ class EnglishEntryanticipation extends StatelessWidget {
                                     "The courtroom was filled with anticipation.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -340,9 +347,10 @@ class EnglishEntryanticipation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژووری دادگا پڕ بوو لە تامەزرۆیی",
+                                    "ژووری دادگا پڕ بوو لە تامەزرۆیی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

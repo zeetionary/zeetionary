@@ -164,6 +164,7 @@ class EnglishEntryfarafield extends StatelessWidget {
 ١. (ئیدیەم) لە دوورییەکی زۆرەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryfarafield extends StatelessWidget {
                                     "We export our products to countries as far afield as Japan and Canada.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryfarafield extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەرھەمەکانمان ھەناردە ئەکەین بۆ وڵاتانی دووری وەک ژاپۆن و کەنەدا",
+                                    "بەرھەمەکانمان ھەناردە ئەکەین بۆ وڵاتانی دووری وەک ژاپۆن و کەنەدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

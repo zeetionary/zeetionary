@@ -214,6 +214,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
 ١. (ھاوەڵناو) دەرمانێک کە درووست‌کراوە بۆ ڕێگری لە ڤایرۆسی وەک ئێچ-ئای-ڤی کە دەبێتەھۆی ئایدز''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +225,7 @@ class EnglishEntryantiretroviral extends StatelessWidget {
                                     "Antiretroviral drugs are the only way to treat HIV.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +237,10 @@ class EnglishEntryantiretroviral extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئانتی‌ریترۆڤایرڵ تەنھا ڕێگەی چارەسەری ئایدزە",
+                                    "ئانتی‌ریترۆڤایرڵ تەنھا ڕێگەی چارەسەری ئایدزە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

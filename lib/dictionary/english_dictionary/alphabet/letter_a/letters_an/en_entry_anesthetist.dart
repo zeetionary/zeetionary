@@ -25,7 +25,8 @@ class EnglishEntryanesthetist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The anesthetist tried three times to insert the anaesthetic."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The anesthetist tried three times to insert the anaesthetic."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakanesthetist(String languageCode) async {
@@ -135,9 +136,9 @@ class EnglishEntryanesthetist extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakanesthetist(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakanesthetist(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -209,6 +210,7 @@ class EnglishEntryanesthetist extends StatelessWidget {
 ١. (ناو) پسپۆڕی بێ‌ھۆشی، کەسێک کە شارەزایی لە بەنج‌کردن ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -219,6 +221,7 @@ class EnglishEntryanesthetist extends StatelessWidget {
                                     "The anesthetist tried three times to insert the anaesthetic.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -230,9 +233,10 @@ class EnglishEntryanesthetist extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پسپۆڕی بێ‌ھۆشی سێ جار ھەوڵی‌دا بەنجەکە بکوتێ",
+                                    "پسپۆڕی بێ‌ھۆشی سێ جار ھەوڵی‌دا بەنجەکە بکوتێ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -250,9 +254,9 @@ class EnglishEntryanesthetist extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakanesthetist4805(// REPLACE: anesthetist /əˈnesθətɪst/
-                                        "en-US"),
+                                onPressed: () => speakanesthetist4805(
+                                    // REPLACE: anesthetist /əˈnesθətɪst/
+                                    "en-US"),
                               ),
                             ],
                           ),

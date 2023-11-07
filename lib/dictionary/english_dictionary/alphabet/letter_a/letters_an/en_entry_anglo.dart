@@ -210,6 +210,7 @@ class EnglishEntryanglo extends StatelessWidget {
 ١. (گرێدەر) ئینگلیزی یان بەریتانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -220,6 +221,7 @@ class EnglishEntryanglo extends StatelessWidget {
                                     "The term 'Anglo-Canadian' refers to people of English descent living in Canada.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -231,9 +233,10 @@ class EnglishEntryanglo extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئینگلیزی-بەریتانی واتە کەسێک کە بە ڕەچەڵەک ئینگلیزە بەڵام لە کەنەدا دەژی",
+                                    "ئینگلیزی-بەریتانی واتە کەسێک کە بە ڕەچەڵەک ئینگلیزە بەڵام لە کەنەدا دەژی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

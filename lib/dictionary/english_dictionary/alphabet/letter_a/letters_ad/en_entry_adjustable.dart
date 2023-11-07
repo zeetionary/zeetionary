@@ -164,6 +164,7 @@ class EnglishEntryadjustable extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە دەستکاری دەکرێت بۆ ئەو شێوەیەی کە خۆت دەتەوێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadjustable extends StatelessWidget {
                                     "The height of the bicycle seat is adjustable.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadjustable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەرزیی کورسی پاسکیلەکە ڕێکدەخرێت",
+                                    "بەرزیی کورسی پاسکیلەکە ڕێکدەخرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

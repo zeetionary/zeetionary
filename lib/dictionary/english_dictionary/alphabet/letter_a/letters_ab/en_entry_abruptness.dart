@@ -148,6 +148,7 @@ class EnglishEntryabruptness extends StatelessWidget {
 ١. (ناو) بەشێوەیەکی لەناکاو و کتوپڕ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryabruptness extends StatelessWidget {
                                     "The abruptness of the ending comes as a shock after the long slow build-up.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryabruptness extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەناکاوی کۆتاییپێھێنانەکە وەک شۆکێک وابوو لەدوای ئەو ھەموو خۆئامادەکرنە دوور و درێژە",
+                                    "لەناکاوی کۆتاییپێھێنانەکە وەک شۆکێک وابوو لەدوای ئەو ھەموو خۆئامادەکرنە دوور و درێژە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

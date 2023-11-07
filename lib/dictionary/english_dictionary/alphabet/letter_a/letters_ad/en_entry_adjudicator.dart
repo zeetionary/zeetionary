@@ -162,6 +162,7 @@ class EnglishEntryadjudicator extends StatelessWidget {
 ١. (ناو) کەسێک کە ناوبژی لەنێوان دوو کەس یان شت دەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryadjudicator extends StatelessWidget {
                                     "You may refer your complaint to an independent adjudicator.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -180,9 +182,10 @@ class EnglishEntryadjudicator extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەتوانیت ناڕەزاییەکەت بە ناوبژیکارێکی سەربەخۆ بڵێیت",
+                                    "ئەتوانیت ناڕەزاییەکەت بە ناوبژیکارێکی سەربەخۆ بڵێیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -145,6 +145,7 @@ class EnglishEntryabjectly extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە جێگەی بەزەییە بەڵام ھیچیش ناتوانرێت بکرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -155,6 +156,7 @@ class EnglishEntryabjectly extends StatelessWidget {
                                     "The government has abjectly failed to read the mood of the nation.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -163,9 +165,10 @@ class EnglishEntryabjectly extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حکومەت بە بێ باکییەوە شکستی ھێناوە لە تێگەشتن لە خواستی خەڵکی",
+                                    "حکومەت بە بێ باکییەوە شکستی ھێناوە لە تێگەشتن لە خواستی خەڵکی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -194,6 +197,7 @@ class EnglishEntryabjectly extends StatelessWidget {
 ٢. بەشێوەیەک کە ڕێزی خۆت ناگری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -204,6 +208,7 @@ class EnglishEntryabjectly extends StatelessWidget {
                                     "He apologized abjectly.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -212,9 +217,10 @@ class EnglishEntryabjectly extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەبێ ڕێزییەوە داوای لێبووردنی کرد",
+                                    "بەبێ ڕێزییەوە داوای لێبووردنی کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

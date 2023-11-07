@@ -165,6 +165,7 @@ class EnglishEntryalbino extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک یان ئاژەڵێک کە ڕەنگ لە پێستی یان قژی نییە و سپی دەردەکەون، یان لە چاوەکانی کە پەمەیی دەردەکەون''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryalbino extends StatelessWidget {
                                     "I ended up living with this albino guy who was an engineer.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryalbino extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەکۆتاییدا کەوتم لەگەڵ کابرایەکی ئەلباینۆ کە ئەندازیار بوو",
+                                    "لەکۆتاییدا کەوتم لەگەڵ کابرایەکی ئەلباینۆ کە ئەندازیار بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryalbino extends StatelessWidget {
 ٢. (ناو) کەسێکی ئەلباینۆ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -229,6 +233,7 @@ class EnglishEntryalbino extends StatelessWidget {
                                     "She was not an albino, but nearly so.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,9 +245,10 @@ class EnglishEntryalbino extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەسێکی ئەلباینۆ نەبوو، بەڵام نزیک بوو لێی",
+                                    "کەسێکی ئەلباینۆ نەبوو، بەڵام نزیک بوو لێی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -165,6 +165,7 @@ class EnglishEntryailing extends StatelessWidget {
 ١. (ھاوەڵناو) نەخۆش بەبێ باشتربوون''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryailing extends StatelessWidget {
                                     "She looked after her ailing father.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryailing extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چاودێری باوکە ناساخەکەی دەکات",
+                                    "چاودێری باوکە ناساخەکەی دەکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryailing extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە لە بارودۆخێکی باش نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -229,6 +233,7 @@ class EnglishEntryailing extends StatelessWidget {
                                     "Ted asked me if I could help him fix his ailing car.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,9 +245,10 @@ class EnglishEntryailing extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تێد داوای لێکردم کە یارمەتی بدەم ئۆتۆمبێلە داشقەکەی چاکبکاتەوە",
+                                    "تێد داوای لێکردم کە یارمەتی بدەم ئۆتۆمبێلە داشقەکەی چاکبکاتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

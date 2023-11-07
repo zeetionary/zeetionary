@@ -165,6 +165,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
 ١. (ھاوەڵناو) کەم کەم ڕاھاتن بە شتێک، بۆ نموونە بارودۆخێکی نوێ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                     "My eyes slowly grew accustomed to the dark.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چاوەکانم کەم کەم بە تاریکییەکە ڕاھات",
+                                    "چاوەکانم کەم کەم بە تاریکییەکە ڕاھات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -217,6 +220,7 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                     "This was not the kind of behaviour I was accustomed to.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -225,9 +229,10 @@ class EnglishEntryaccustomed extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەمە لەو جۆرە ڕەفتارانە نەبوو کە پێی ڕاھاتووم",
+                                    "ئەمە لەو جۆرە ڕەفتارانە نەبوو کە پێی ڕاھاتووم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

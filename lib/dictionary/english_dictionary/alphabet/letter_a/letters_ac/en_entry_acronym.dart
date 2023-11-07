@@ -163,6 +163,7 @@ class EnglishEntryacronym extends StatelessWidget {
 ١. (ناو) وشەیەک کە تەنھا لە چەند پیتی سەرەتای وشەیەک پێکھاتووە.''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

@@ -234,6 +234,7 @@ class EnglishEntryamethyst extends StatelessWidget {
 ١. (ناو) ئەمیتیست؛ بەردێکی بەنرخی وەنەوشەیی، کە لە دروستکردنی خشڵی جوانکاریدا بەکاردەھێنرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -244,6 +245,7 @@ class EnglishEntryamethyst extends StatelessWidget {
                                     "Bishops and cardinals used to wear amethyst as a symbol of peace.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -255,9 +257,10 @@ class EnglishEntryamethyst extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گەورە‌قەشە و سەر‌قەشەکان جاران ئەمیتیستیان وەک سمبولی ئاشتی لەبەردەکرد",
+                                    "گەورە‌قەشە و سەر‌قەشەکان جاران ئەمیتیستیان وەک سمبولی ئاشتی لەبەردەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

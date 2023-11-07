@@ -164,6 +164,7 @@ class EnglishEntryalimony extends StatelessWidget {
 ١. (ناو) پارەیەک کە دەیدەیت بە ھاوژینەکەت کەدوای جیابوونەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalimony extends StatelessWidget {
                                     "He has to pay alimony to his ex-wife.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalimony extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێویستە نەفەقە بدات بە ھاوسەری پێشووی",
+                                    "پێویستە نەفەقە بدات بە ھاوسەری پێشووی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

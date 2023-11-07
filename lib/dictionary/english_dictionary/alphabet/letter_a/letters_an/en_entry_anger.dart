@@ -43,7 +43,8 @@ class EnglishEntryanger extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The question clearly angered him."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The question clearly angered him."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnger950(String languageCode) async {
@@ -51,7 +52,8 @@ class EnglishEntryanger extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They were angered that their complaints were dismissed."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They were angered that their complaints were dismissed."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnger(String languageCode) async {
@@ -213,6 +215,7 @@ class EnglishEntryanger extends StatelessWidget {
 ١. (ناو) توڕەیی؛ ھەستێکی توند کە ھەتە کاتێک شتێکی خراپ ڕوودەدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +226,7 @@ class EnglishEntryanger extends StatelessWidget {
                                     "She had to find a way to express her pent-up anger.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +238,10 @@ class EnglishEntryanger extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێویست‌بوو ڕێگایەک بدۆزێتەوە بۆ دەربڕینی توڕەییە خوراوەکەی",
+                                    "پێویست‌بوو ڕێگایەک بدۆزێتەوە بۆ دەربڕینی توڕەییە خوراوەکەی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -271,6 +276,7 @@ class EnglishEntryanger extends StatelessWidget {
                                     "The plan provoked anger among local residents.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -282,9 +288,10 @@ class EnglishEntryanger extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پلانەکە بوو بەھۆی توڕەیی خەڵکە خۆجێییەکە",
+                                    "پلانەکە بوو بەھۆی توڕەیی خەڵکە خۆجێییەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -316,6 +323,7 @@ class EnglishEntryanger extends StatelessWidget {
 ٢. (کردار) توڕەکردنی کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -326,6 +334,7 @@ class EnglishEntryanger extends StatelessWidget {
                                     "The question clearly angered him.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -337,9 +346,10 @@ class EnglishEntryanger extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پرسیارەکە بەڕوونی تووڕەی‌کرد",
+                                    "پرسیارەکە بەڕوونی تووڕەی‌کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -374,6 +384,7 @@ class EnglishEntryanger extends StatelessWidget {
                                     "They were angered that their complaints were dismissed.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -385,9 +396,10 @@ class EnglishEntryanger extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تووڕەبوون بەوەی ناڕەزاییەکانیان وەلاخران",
+                                    "تووڕەبوون بەوەی ناڕەزاییەکانیان وەلاخران.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

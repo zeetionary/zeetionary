@@ -211,6 +211,7 @@ class EnglishEntryannotate extends StatelessWidget {
 ١. (کردار) تێبینی‌نووسین لەسەر لەسەر کتێبێک یان نووسراوێک ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +222,7 @@ class EnglishEntryannotate extends StatelessWidget {
                                     "The text was annotated with her own comments.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +234,10 @@ class EnglishEntryannotate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کتێبەکە ڕاڤەکرابوو بە کۆمێنتی خۆی",
+                                    "کتێبەکە ڕاڤەکرابوو بە کۆمێنتی خۆی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

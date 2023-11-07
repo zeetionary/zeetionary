@@ -25,7 +25,8 @@ class EnglishEntryanesthetic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("How long will I be under anesthetic?"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("How long will I be under anesthetic?"); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakanesthetic(String languageCode) async {
@@ -135,9 +136,9 @@ class EnglishEntryanesthetic extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakanesthetic(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakanesthetic(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -211,6 +212,7 @@ class EnglishEntryanesthetic extends StatelessWidget {
 ١. (ناو) بەنج؛ دەرمانێک کە وا دەکات بەشێک یان تەواوی جەستەی کەسێک ھەست بە ھیچ نەکات، بەتایبەتی ئازار''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +223,7 @@ class EnglishEntryanesthetic extends StatelessWidget {
                                     "How long will I be under anesthetic?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,6 +238,7 @@ class EnglishEntryanesthetic extends StatelessWidget {
                                     "چەندە لەژێر بەنج دەبم؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -252,9 +256,9 @@ class EnglishEntryanesthetic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakanesthetic8505(// REPLACE: anesthetic /ˌænəsˈθetɪk/
-                                        "en-US"),
+                                onPressed: () => speakanesthetic8505(
+                                    // REPLACE: anesthetic /ˌænəsˈθetɪk/
+                                    "en-US"),
                               ),
                             ],
                           ),

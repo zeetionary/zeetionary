@@ -25,7 +25,8 @@ class EnglishEntryancestry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He was able to trace his ancestry back over 1 000 years."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He was able to trace his ancestry back over 1 000 years."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAncestry4955(String languageCode) async {
@@ -33,7 +34,8 @@ class EnglishEntryancestry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("According to science, humans share a common ancestry with chimpanzees."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "According to science, humans share a common ancestry with chimpanzees."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAncestry(String languageCode) async {
@@ -211,6 +213,7 @@ class EnglishEntryancestry extends StatelessWidget {
 ١. (ناو) ڕەچەڵەکی کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +224,7 @@ class EnglishEntryancestry extends StatelessWidget {
                                     "He was able to trace his ancestry back over 1 000 years.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +236,10 @@ class EnglishEntryancestry extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەیتوانی ڕەچەڵەکی بەدرێژایی ١٠٠٠ ساڵ بگێڕێتەوە",
+                                    "دەیتوانی ڕەچەڵەکی بەدرێژایی ١٠٠٠ ساڵ بگێڕێتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -252,9 +257,9 @@ class EnglishEntryancestry extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAncestry1520(// REPLACE: ancestry /ˈænsestri/
-                                        "en-US"),
+                                onPressed: () => speakAncestry1520(
+                                    // REPLACE: ancestry /ˈænsestri/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -269,6 +274,7 @@ class EnglishEntryancestry extends StatelessWidget {
                                     "According to science, humans share a common ancestry with chimpanzees.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -280,9 +286,10 @@ class EnglishEntryancestry extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەپێی زانست مرۆڤ و شیمپانزی ھەمان باوانی ھاوبەشیان ھەیە",
+                                    "بەپێی زانست مرۆڤ و شیمپانزی ھەمان باوانی ھاوبەشیان ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -300,9 +307,9 @@ class EnglishEntryancestry extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAncestry4955(// REPLACE: ancestry /ˈænsestri/
-                                        "en-US"),
+                                onPressed: () => speakAncestry4955(
+                                    // REPLACE: ancestry /ˈænsestri/
+                                    "en-US"),
                               ),
                             ],
                           ),

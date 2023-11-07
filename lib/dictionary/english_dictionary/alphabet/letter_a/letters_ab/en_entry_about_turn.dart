@@ -141,6 +141,7 @@ class EnglishEntryaboutturn extends StatelessWidget {
 ١. بە تەواوی گۆڕینی بۆچوون، ڕەفتار، یان پلان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -151,6 +152,7 @@ class EnglishEntryaboutturn extends StatelessWidget {
                                     "The government did an about-turn over nuclear energy.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -159,9 +161,10 @@ class EnglishEntryaboutturn extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حکومەت بە تەواوی پلانەکانی گۆڕی لەسەر وزەی ئەتۆمی",
+                                    "حکومەت بە تەواوی پلانەکانی گۆڕی لەسەر وزەی ئەتۆمی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

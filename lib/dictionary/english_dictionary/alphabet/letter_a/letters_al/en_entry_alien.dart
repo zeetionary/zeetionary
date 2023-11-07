@@ -193,6 +193,7 @@ class EnglishEntryalien extends StatelessWidget {
 ١. (ناو) کەسێک کە خەڵکی ئەو وڵاتە نییە کە تێیدا دەژی یان کاردەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -203,6 +204,7 @@ class EnglishEntryalien extends StatelessWidget {
                                     "During the war, he was imprisoned as an enemy alien.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -217,6 +219,7 @@ class EnglishEntryalien extends StatelessWidget {
                                     "لەکاتی جەنگەکەدا وەک ھاوڵاتییەکی دووژمن زیندانی کرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -247,6 +250,7 @@ class EnglishEntryalien extends StatelessWidget {
 ٢. (ناو) بوونەوەری ھەسارەیەک جگە لە زەوی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -257,6 +261,7 @@ class EnglishEntryalien extends StatelessWidget {
                                     "Few movies represent intelligent aliens as physically different from humans.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -268,9 +273,10 @@ class EnglishEntryalien extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەم فیلم بوونەوەری ئاسمانی لە ڕووی جەستەییەوە جیاواز لە مرۆڤ پیشان دەدەن",
+                                    "کەم فیلم بوونەوەری ئاسمانی لە ڕووی جەستەییەوە جیاواز لە مرۆڤ پیشان دەدەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -301,6 +307,7 @@ class EnglishEntryalien extends StatelessWidget {
 ٣. (ھاوەڵناو) نامۆ و ترسێنەر، جیاواز لەوەی ئاساییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -311,6 +318,7 @@ class EnglishEntryalien extends StatelessWidget {
                                     "In a world that had suddenly become alien and dangerous, he was her only security.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -322,9 +330,10 @@ class EnglishEntryalien extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە جیھانێکدا کە جیاواز و ترسێنەرە، ئەو تەنھا پارێزەریەتی",
+                                    "لە جیھانێکدا کە جیاواز و ترسێنەرە، ئەو تەنھا پارێزەریەتی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -355,6 +364,7 @@ class EnglishEntryalien extends StatelessWidget {
 ٤. (ھاوەڵناو) بیانی؛ خەڵکی وڵاتێکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -365,6 +375,7 @@ class EnglishEntryalien extends StatelessWidget {
                                     "A part of me still feels alien in this country.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -376,9 +387,10 @@ class EnglishEntryalien extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەشێکم ھێشتا ھەست بە بێگانەیی دەکات لەم وڵاتە",
+                                    "بەشێکم ھێشتا ھەست بە بێگانەیی دەکات لەم وڵاتە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -409,6 +421,7 @@ class EnglishEntryalien extends StatelessWidget {
 ٥. (ھاوەڵناو) شتێکی نائاسایی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -419,6 +432,7 @@ class EnglishEntryalien extends StatelessWidget {
                                     "The idea is alien to our religion.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -430,9 +444,10 @@ class EnglishEntryalien extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بیرۆکەکە نامۆیە بە ئاینەکەمان",
+                                    "بیرۆکەکە نامۆیە بە ئاینەکەمان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -463,6 +478,7 @@ class EnglishEntryalien extends StatelessWidget {
 ٦. (ھاوەڵناو) پەیوەندیدار بە بوونەوەری دەرەوەی زەوی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -473,6 +489,7 @@ class EnglishEntryalien extends StatelessWidget {
                                     "An alien spacecraft crashed into Earth.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -484,9 +501,10 @@ class EnglishEntryalien extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەشتییەکی ئاسمانی بوونەوەری دیکە کێشای بە زەویدا",
+                                    "کەشتییەکی ئاسمانی بوونەوەری دیکە کێشای بە زەویدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryalgorithm extends StatelessWidget {
 ١. (ناو) کۆمەڵە یاسایەک یان ڕێنماییەک کە دەدرێت بە کۆمپیوتەرێک بۆ ئەوەی کارێک بکات بە پشتبەستن پێی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalgorithm extends StatelessWidget {
                                     "Music apps such as Spotify use algorithms to predict the probability that fans of one particular band will like another.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalgorithm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەپە میوزیکییەکان، بۆ نموونە سپۆتیفای، ئەلگۆریزم بەکاردێنن بۆ ئەوەی پێشبینی ئەگەری حەزی ھەوادارانی باندێک بۆ باندێکی دیکە بکەن",
+                                    "ئەپە میوزیکییەکان، بۆ نموونە سپۆتیفای، ئەلگۆریزم بەکاردێنن بۆ ئەوەی پێشبینی ئەگەری حەزی ھەوادارانی باندێک بۆ باندێکی دیکە بکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

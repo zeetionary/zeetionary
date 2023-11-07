@@ -164,6 +164,7 @@ class EnglishEntryagreeable extends StatelessWidget {
 ١. (ھاوەڵناو) شتێکی خۆش و دڵگیر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryagreeable extends StatelessWidget {
                                     "She did her best to make herself agreeable.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryagreeable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەموو شتێکی کرد بۆ ئەوەی دڵگیر بێت",
+                                    "ھەموو شتێکی کرد بۆ ئەوەی دڵگیر بێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

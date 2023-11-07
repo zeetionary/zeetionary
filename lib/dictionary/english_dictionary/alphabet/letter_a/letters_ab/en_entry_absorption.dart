@@ -166,6 +166,7 @@ class EnglishEntryabsorption extends StatelessWidget {
 ١. (ناو) ھەڵمژینی شلە، گاس، یان ھەر مادەیەکی دیکە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryabsorption extends StatelessWidget {
                                     "Vitamin D is necessary to aid the absorption of calcium from food.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryabsorption extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڤیتامین دی پێویستە بۆ یارمەتیی ھەڵمژینی کالسیۆم لە خۆراکەوە",
+                                    "ڤیتامین دی پێویستە بۆ یارمەتیی ھەڵمژینی کالسیۆم لە خۆراکەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -215,6 +218,7 @@ class EnglishEntryabsorption extends StatelessWidget {
 ١. (ناو) پڕۆسەی گرتنەخۆی گروپێکی بچووک لەلایەن یەکێکی گەورەترەوە ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -225,6 +229,7 @@ class EnglishEntryabsorption extends StatelessWidget {
                                     "the absorption of the town into the Leeds City Region",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +238,10 @@ class EnglishEntryabsorption extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گرتنەخۆی شارۆچکەکە لەلایەن ھەرێمی شاری لیدزەوە",
+                                    "گرتنەخۆی شارۆچکەکە لەلایەن ھەرێمی شاری لیدزەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -264,6 +270,7 @@ class EnglishEntryabsorption extends StatelessWidget {
 ١. (ناو) کاتێک کەسێک زۆر حەز لە شتێک دەکات ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -274,6 +281,7 @@ class EnglishEntryabsorption extends StatelessWidget {
                                     "His work suffered because of his total absorption in sport.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -282,9 +290,10 @@ class EnglishEntryabsorption extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کارەکەی زیانی پێگەیشت بەھۆی ڕۆچوونی بەناو وەرزشدا",
+                                    "کارەکەی زیانی پێگەیشت بەھۆی ڕۆچوونی بەناو وەرزشدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

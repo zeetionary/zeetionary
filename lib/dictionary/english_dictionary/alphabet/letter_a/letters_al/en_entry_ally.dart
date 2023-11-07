@@ -165,6 +165,7 @@ class EnglishEntryally extends StatelessWidget {
 ١. (ناو) ھاوپەیمان، دوو لایەن کە یارمەتی یەکدی دەدەن، بەتایبەت لە کاتی جەنگ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryally extends StatelessWidget {
                                     "Portugal is a traditional ally of England.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryally extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پرتوگال بەشێوەیەکی مێژوویی ھاوپەیمانی ئینگلتەرەیە",
+                                    "پرتوگال بەشێوەیەکی مێژوویی ھاوپەیمانی ئینگلتەرەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryally extends StatelessWidget {
 ٢. (ناو) کەسێک کە لە تەنگانەدا پشتی پێ دەبەستیت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -229,6 +233,7 @@ class EnglishEntryally extends StatelessWidget {
                                     "She had found an ally in her old teacher.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,9 +245,10 @@ class EnglishEntryally extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مامۆستا کۆنەکەی بووە بە دۆست و یاوەری",
+                                    "مامۆستا کۆنەکەی بووە بە دۆست و یاوەری.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -273,6 +279,7 @@ class EnglishEntryally extends StatelessWidget {
 ٣. (ناو) وڵاتانی ھاوپەیمان لە جەنگی یەکەم و دووەمی جیھانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

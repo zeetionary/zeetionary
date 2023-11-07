@@ -148,6 +148,7 @@ class EnglishEntryabsurdity extends StatelessWidget {
 ١. (ناو) شتێک کە تەواو گاڵتەجاڕانەیە و ھیچ لۆژیکی تێدا نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryabsurdity extends StatelessWidget {
                                     "It was only later that she could see the absurdity of the situation.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryabsurdity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەنھا لە دواتردا بوو کە پڕوپووچێتی بارودۆخەکەی بۆدەرکەوت",
+                                    "تەنھا لە دواتردا بوو کە پڕوپووچێتی بارودۆخەکەی بۆدەرکەوت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

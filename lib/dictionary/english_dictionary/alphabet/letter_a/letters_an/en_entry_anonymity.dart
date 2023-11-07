@@ -213,6 +213,7 @@ class EnglishEntryanonymity extends StatelessWidget {
 ١. (ناو) باری نەناسراوی‌بوون بۆ زۆرینەی کەسانی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryanonymity extends StatelessWidget {
                                     "Names of people in the book were changed to preserve anonymity.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryanonymity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناوەکانی ناو کتێبەکە گۆڕدران بۆ ھێشتنەوەی بێ‌ناوی",
+                                    "ناوەکانی ناو کتێبەکە گۆڕدران بۆ ھێشتنەوەی بێ‌ناوی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

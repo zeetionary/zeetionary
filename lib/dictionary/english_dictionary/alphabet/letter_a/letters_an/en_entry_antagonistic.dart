@@ -213,6 +213,7 @@ class EnglishEntryantagonistic extends StatelessWidget {
 ١. (ھاوەڵناو) پیشاندانی دژبەری و دوژمنایەتی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryantagonistic extends StatelessWidget {
                                     "The interview made her antagonistic towards journalists.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryantagonistic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چاوپێکەوتنەکە وای‌کرد دژبەرانە بێت بەرامبەر ڕۆژنامەنووسان",
+                                    "چاوپێکەوتنەکە وای‌کرد دژبەرانە بێت بەرامبەر ڕۆژنامەنووسان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryafresh extends StatelessWidget {
 ١. (ھاوەڵکار) دووبارە لە سەرەتاوە، زۆرجار بەشێوەیەکی جیاوازتر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryafresh extends StatelessWidget {
                                     "It was a chance to start afresh.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryafresh extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شانسێک بوو بۆ ئەوەی سەرلەنوێ دەستپێبکەینەوە",
+                                    "شانسێک بوو بۆ ئەوەی سەرلەنوێ دەستپێبکەینەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

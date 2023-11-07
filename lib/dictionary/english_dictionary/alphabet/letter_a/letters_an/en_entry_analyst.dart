@@ -25,7 +25,8 @@ class EnglishEntryanalyst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("City analysts forecast huge profits this year."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "City analysts forecast huge profits this year."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnalyst7401(String languageCode) async {
@@ -33,7 +34,8 @@ class EnglishEntryanalyst extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She is a financial analyst."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She is a financial analyst."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnalyst(String languageCode) async {
@@ -211,6 +213,7 @@ class EnglishEntryanalyst extends StatelessWidget {
 ١. (ناو) کەسێک کە کاری لێکۆڵینەوە و توێژینەوەیە بۆ تێگەشتن لە بابەتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +224,7 @@ class EnglishEntryanalyst extends StatelessWidget {
                                     "City analysts forecast huge profits this year.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +236,10 @@ class EnglishEntryanalyst extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "توێژەرانی شارەکە ئەمساڵ پێشبینی قازانجی زەبەلاح دەکەن",
+                                    "توێژەرانی شارەکە ئەمساڵ پێشبینی قازانجی زەبەلاح دەکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -252,9 +257,9 @@ class EnglishEntryanalyst extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnalyst45888(// REPLACE: analyst /ˈænəlɪst/
-                                        "en-US"),
+                                onPressed: () => speakAnalyst45888(
+                                    // REPLACE: analyst /ˈænəlɪst/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -269,6 +274,7 @@ class EnglishEntryanalyst extends StatelessWidget {
                                     "She is a financial analyst.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -280,9 +286,10 @@ class EnglishEntryanalyst extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لێکۆڵەرێکی ئابوورییە",
+                                    "لێکۆڵەرێکی ئابوورییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -300,9 +307,9 @@ class EnglishEntryanalyst extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnalyst7401(// REPLACE: analyst /ˈænəlɪst/
-                                        "en-US"),
+                                onPressed: () => speakAnalyst7401(
+                                    // REPLACE: analyst /ˈænəlɪst/
+                                    "en-US"),
                               ),
                             ],
                           ),

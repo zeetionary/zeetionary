@@ -236,6 +236,7 @@ class EnglishEntryamicable extends StatelessWidget {
 ١. (ھاوەڵناو) بە ھاوڕێیانە و بێ‌مشتومڕ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -246,6 +247,7 @@ class EnglishEntryamicable extends StatelessWidget {
                                     "An amicable settlement was reached.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -260,6 +262,7 @@ class EnglishEntryamicable extends StatelessWidget {
                                     "ڕێککەوتنێکی بێ‌مشتومڕ بەدەستھێنرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

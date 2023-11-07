@@ -166,6 +166,7 @@ class EnglishEntryaccompany extends StatelessWidget {
 ١. (کردار) چوون بۆ شوێنێک لەگەڵ کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryaccompany extends StatelessWidget {
                                     "He was accompanied on the visit by his wife.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryaccompany extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە گەشتەکەی ژنەکەی یاوەریکرد",
+                                    "لە گەشتەکەی ژنەکەی یاوەریکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -218,6 +221,7 @@ class EnglishEntryaccompany extends StatelessWidget {
                                     "I must ask you to accompany me to the police station.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -226,9 +230,10 @@ class EnglishEntryaccompany extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناچاردەبم داوات لێ بکەم لەگەڵم بێیت بۆ بنکەی پۆلیس",
+                                    "ناچاردەبم داوات لێ بکەم لەگەڵم بێیت بۆ بنکەی پۆلیس.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -260,6 +265,7 @@ class EnglishEntryaccompany extends StatelessWidget {
                                     "Warships will accompany the convoy.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -268,9 +274,10 @@ class EnglishEntryaccompany extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەشتی جەنگی یاوەری وەفدەکە دەکەن",
+                                    "کەشتی جەنگی یاوەری وەفدەکە دەکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -299,6 +306,7 @@ class EnglishEntryaccompany extends StatelessWidget {
 ٢. (کردار) ڕوودان لەگەڵ شتێکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -309,6 +317,7 @@ class EnglishEntryaccompany extends StatelessWidget {
                                     "Shouts of protest accompanied this announcement.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -317,9 +326,10 @@ class EnglishEntryaccompany extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەنگی ناڕەزایی لەگەڵ ئەم ڕاگەیاندنە بوو",
+                                    "دەنگی ناڕەزایی لەگەڵ ئەم ڕاگەیاندنە بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -163,6 +163,7 @@ class EnglishEntryaircraft extends StatelessWidget {
 ١. (ناو) فڕۆکە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryaircraft extends StatelessWidget {
                                     "The aircraft was flown by a young American pilot.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryaircraft extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "فڕۆکەکە بەدەستی فڕۆکەوانێکی گەنجی ئەمریکییەوە بوو",
+                                    "فڕۆکەکە بەدەستی فڕۆکەوانێکی گەنجی ئەمریکییەوە بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -220,6 +223,7 @@ class EnglishEntryaircraft extends StatelessWidget {
                                     "The aircraft is due to take off at midnight.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -231,9 +235,10 @@ class EnglishEntryaircraft extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "فڕۆکەکە لە نیوەشەودا دەفڕێت",
+                                    "فڕۆکەکە لە نیوەشەودا دەفڕێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

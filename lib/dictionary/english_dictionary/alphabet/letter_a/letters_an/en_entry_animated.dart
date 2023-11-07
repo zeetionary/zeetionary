@@ -214,6 +214,7 @@ class EnglishEntryanimated extends StatelessWidget {
 ١. (ھاوەڵناو) پڕ لە حەز و وزە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +225,7 @@ class EnglishEntryanimated extends StatelessWidget {
                                     "Mark was beginning to sound animated.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +237,10 @@ class EnglishEntryanimated extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مارک خەریک‌بوو دەستی‌دەکرد بەوەی کراوە بێت",
+                                    "مارک خەریک‌بوو دەستی‌دەکرد بەوەی کراوە بێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -272,6 +275,7 @@ class EnglishEntryanimated extends StatelessWidget {
                                     "Her face suddenly became animated.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -283,9 +287,10 @@ class EnglishEntryanimated extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕووخساری لەناکاو گەشایەوە",
+                                    "ڕووخساری لەناکاو گەشایەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -317,6 +322,7 @@ class EnglishEntryanimated extends StatelessWidget {
 ٢. (ھاوەڵناو) درووستکراو وەک ئەوەی ئەنیمەیشن بێ (فیلمی کۆمپیوتەری یان وێنەیەکی زۆری جوڵاو بەدوای یەکدا)''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -327,6 +333,7 @@ class EnglishEntryanimated extends StatelessWidget {
                                     "Animated cartoons are popular for entertainment and storytelling.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -338,9 +345,10 @@ class EnglishEntryanimated extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کارتۆنی ئەنیمەیشن باوە لە چێژبەخشین و چیرۆک‌گێڕانەوە",
+                                    "کارتۆنی ئەنیمەیشن باوە لە چێژبەخشین و چیرۆک‌گێڕانەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryadviser extends StatelessWidget {
 ١. (ناو) کەسێک کە کاری ڕاوێژکاری دەکات؛ ئامۆژگاری بە کەسێک دەدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadviser extends StatelessWidget {
                                     "You ought to consult an independent legal adviser.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadviser extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێویستە ڕاوێژ بە ڕاوێژکارێکی یاسایی سەربەخۆ بکەیت",
+                                    "پێویستە ڕاوێژ بە ڕاوێژکارێکی یاسایی سەربەخۆ بکەیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

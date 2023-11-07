@@ -211,6 +211,7 @@ class EnglishEntryannul extends StatelessWidget {
 ١. (کردار) بەفەرمی وتنی ئەوەی شتێک لەڕووی یاساییەوە نەناسراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +222,7 @@ class EnglishEntryannul extends StatelessWidget {
                                     "Their marriage was annulled after just six months.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +234,10 @@ class EnglishEntryannul extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھاوسەرگیرییەکەیان ھەڵوەشێندرایەوە لەدوای تەنھا شەش مانگ",
+                                    "ھاوسەرگیرییەکەیان ھەڵوەشێندرایەوە لەدوای تەنھا شەش مانگ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

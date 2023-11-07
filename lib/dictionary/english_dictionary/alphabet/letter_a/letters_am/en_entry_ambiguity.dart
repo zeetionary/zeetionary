@@ -164,6 +164,7 @@ class EnglishEntryambiguity extends StatelessWidget {
 ١. (ناو) ھەبوونی ناڕوونی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryambiguity extends StatelessWidget {
                                     "Write clear definitions in order to avoid ambiguity.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryambiguity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێناسەی ڕوون بنووسە بۆ ئەوەی لە ناڕوونی بەدوور بیت",
+                                    "پێناسەی ڕوون بنووسە بۆ ئەوەی لە ناڕوونی بەدوور بیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

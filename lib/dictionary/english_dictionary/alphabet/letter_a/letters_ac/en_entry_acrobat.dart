@@ -163,6 +163,7 @@ class EnglishEntryacrobat extends StatelessWidget {
 ١. (ناو) کەسێک کە نمایشی گیانبازی دەکات، زۆرجار لە گرووپێکی سێرکس''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

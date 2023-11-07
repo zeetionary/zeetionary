@@ -165,6 +165,7 @@ class EnglishEntryadornment extends StatelessWidget {
 ١. (ناو) خشڵ و ئارایشتە جوانکاری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryadornment extends StatelessWidget {
                                     "A plain necklace was her only adornment.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryadornment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ملوانکەیەکی سادە تەنھا خشڵ بوو بەست بووی",
+                                    "ملوانکەیەکی سادە تەنھا خشڵ بوو بەست بووی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryadornment extends StatelessWidget {
 ٢. (ناو) جەانکاری و ڕازاندنەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +230,7 @@ class EnglishEntryadornment extends StatelessWidget {
                                     "Precious stones have been used for the purposes of adornment for over 7000 years.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -237,6 +242,7 @@ class EnglishEntryadornment extends StatelessWidget {
                                     "بەردی گرانبەھا بۆ ڕازاندنەوە بەکارھاتوون بۆ زیاتر لە ٧٠٠٠ ساڵ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -214,6 +214,7 @@ class EnglishEntryantibiotic extends StatelessWidget {
 ١. (ناو) مادەیەک، بۆ نموونە پێنی‌سیلین، کە دەتوانێت گەشەی بەکتریا بوەستێنێت و تووشبوون بە نەخۆشی چارەسەر بکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +225,7 @@ class EnglishEntryantibiotic extends StatelessWidget {
                                     "The doctor put her on antibiotics (= told her to take them).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +237,10 @@ class EnglishEntryantibiotic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دکتۆرەکە پێی‌گوت دژەبەکتریا بخوات",
+                                    "دکتۆرەکە پێی‌گوت دژەبەکتریا بخوات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

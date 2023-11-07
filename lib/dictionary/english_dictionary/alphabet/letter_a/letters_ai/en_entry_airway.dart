@@ -164,6 +164,7 @@ class EnglishEntryairway extends StatelessWidget {
 ١. (ناو) ڕێڕەوی ھەوا بۆ سییەکان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryairway extends StatelessWidget {
                                     "Prevent the tongue falling back and obstructing the airway.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryairway extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێگە لە قوتدانی زمان بگرە لەوەی ڕێڕەوی ھەوا بگرێت",
+                                    "ڕێگە لە قوتدانی زمان بگرە لەوەی ڕێڕەوی ھەوا بگرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

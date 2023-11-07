@@ -163,6 +163,7 @@ class EnglishEntryalmost extends StatelessWidget {
 ١. (ھاوەڵکار) نزیکەی، لە دەوروبەری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryalmost extends StatelessWidget {
                                     "I like almost all of them.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryalmost extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بانزیکەیی حەزم لە ھەموویانە",
+                                    "بانزیکەیی حەزم لە ھەموویانە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -220,6 +223,7 @@ class EnglishEntryalmost extends StatelessWidget {
                                     "The castle is almost entirely surrounded by water.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -231,9 +235,10 @@ class EnglishEntryalmost extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "قەڵاکە بەنزیکەیی تەواو بە ئاو دەوردراوە",
+                                    "قەڵاکە بەنزیکەیی تەواو بە ئاو دەوردراوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -267,6 +272,7 @@ class EnglishEntryalmost extends StatelessWidget {
                                     "The painting is almost certainly a forgery.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -278,9 +284,10 @@ class EnglishEntryalmost extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تابلۆکە بە ئەگەری زۆر ساختەیە",
+                                    "تابلۆکە بە ئەگەری زۆر ساختەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

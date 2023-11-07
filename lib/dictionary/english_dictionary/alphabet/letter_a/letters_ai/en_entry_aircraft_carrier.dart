@@ -161,6 +161,7 @@ class EnglishEntryaircraftcarrier extends StatelessWidget {
 ١. (ناو) فڕۆکەھەڵگر؛ کەشتییەکی گەورە کە فڕۆکە لەسەری دەفڕن و دەنیشنەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

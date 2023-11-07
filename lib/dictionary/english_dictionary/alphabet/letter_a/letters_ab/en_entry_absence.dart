@@ -157,6 +157,7 @@ class EnglishEntryabsence extends StatelessWidget {
 ١. (ناو) کاتێک کەسێک لە شوێنێک ئامادە نییە لەکاتێکدا زۆرینەی کات لەوێیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryabsence extends StatelessWidget {
                                     "We did not receive any news during his long absence.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -175,9 +177,10 @@ class EnglishEntryabsence extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھیچ ھەواڵێکمان پێنەگەیشت لەو ماوە زۆرەی بزر بوو",
+                                    "ھیچ ھەواڵێکمان پێنەگەیشت لەو ماوە زۆرەی بزر بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -206,6 +209,7 @@ class EnglishEntryabsence extends StatelessWidget {
 ٢. (ناو) کاتی نەبوونی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -216,6 +220,7 @@ class EnglishEntryabsence extends StatelessWidget {
                                     "The case was dismissed in the absence of any definite proof.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -227,6 +232,7 @@ class EnglishEntryabsence extends StatelessWidget {
                                     "کەیسەکە کۆتایی پێھێنرا بەھۆی نەبوونی بەڵگەی ئاشکرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

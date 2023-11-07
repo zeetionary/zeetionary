@@ -163,6 +163,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەکی پەیوەندیدار بە جوانی و ھونەر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
                                     "The film is technically and aesthetically brilliant.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -181,9 +183,10 @@ class EnglishEntryaesthetically extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "فیلمەکە لەڕووی تەکنیکی و ھونەرییەوە نایاب بوو",
+                                    "فیلمەکە لەڕووی تەکنیکی و ھونەرییەوە نایاب بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -214,6 +217,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
 ٢. (ھاوەڵکار) بەشێوەیەک کە جوانە بۆ سەیرکردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +228,7 @@ class EnglishEntryaesthetically extends StatelessWidget {
                                     "The interior has been aesthetically decorated..",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +237,10 @@ class EnglishEntryaesthetically extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەشی ناوەوە بەشێوەیەکی جوان دیزاین کرابوو",
+                                    "بەشی ناوەوە بەشێوەیەکی جوان دیزاین کرابوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

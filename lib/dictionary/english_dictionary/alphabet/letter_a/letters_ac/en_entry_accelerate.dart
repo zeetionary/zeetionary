@@ -166,6 +166,7 @@ class EnglishEntryaccelerate extends StatelessWidget {
 ١. (کردار) شتێک خێراتر ڕووبدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryaccelerate extends StatelessWidget {
                                     "Exposure to the sun can accelerate the ageing process.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryaccelerate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەرکەوتن بە خۆر ئەکرێت بەتەمەنبوون خێراتر بکات",
+                                    "بەرکەوتن بە خۆر ئەکرێت بەتەمەنبوون خێراتر بکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -218,6 +221,7 @@ class EnglishEntryaccelerate extends StatelessWidget {
                                     "The pace of change has begun to accelerate.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -226,9 +230,10 @@ class EnglishEntryaccelerate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خێرایی گۆڕانکاری دەستیکردووە بە خێرابوون",
+                                    "خێرایی گۆڕانکاری دەستیکردووە بە خێرابوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -257,6 +262,7 @@ class EnglishEntryaccelerate extends StatelessWidget {
 ٢. (کردار) کاتێک ئۆتۆمبێلێک خێراتر دەڕوات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -267,6 +273,7 @@ class EnglishEntryaccelerate extends StatelessWidget {
                                     "The car accelerated to overtake me.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -275,9 +282,10 @@ class EnglishEntryaccelerate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئۆتۆمبێلەکە خێرایی زیادکرد بۆ تێپەڕاندنم",
+                                    "ئۆتۆمبێلەکە خێرایی زیادکرد بۆ تێپەڕاندنم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

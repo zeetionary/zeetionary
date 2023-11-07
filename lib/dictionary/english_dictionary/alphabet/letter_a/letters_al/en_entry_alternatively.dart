@@ -164,6 +164,7 @@ class EnglishEntryalternatively extends StatelessWidget {
 ١. (ھاوەڵکار) بۆ ناساندنی ھەڵبژاردەیەکی تر کە دەکرێت بەکاربێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalternatively extends StatelessWidget {
                                     "The agency will make travel arrangements for you. Alternatively, you can organize your own transport.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -188,6 +190,7 @@ class EnglishEntryalternatively extends StatelessWidget {
                                     "ئاژانسەکە کاری ڕێکخستنی گەشتەکەت بۆ دەکات. بەجێی‌ئەوە، خۆت دەتوانیت سەفەرەکەت ڕێک بخەیت ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

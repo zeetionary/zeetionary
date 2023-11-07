@@ -164,6 +164,7 @@ class EnglishEntryadvertise extends StatelessWidget {
 ١. (کردار) ڕیکلامکردن بۆ کاڵایەک یان خزمەتگوزارییەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadvertise extends StatelessWidget {
                                     "If you want to attract customers you need to advertise.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadvertise extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەگەر دەتەوێت کڕیار ڕابکێشیت ئەوا دەبێت ڕیکلام بکەیت",
+                                    "ئەگەر دەتەوێت کڕیار ڕابکێشیت ئەوا دەبێت ڕیکلام بکەیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -215,6 +218,7 @@ class EnglishEntryadvertise extends StatelessWidget {
 ٢. (کردار) بانگەشەکردن بۆ شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -225,6 +229,7 @@ class EnglishEntryadvertise extends StatelessWidget {
                                     "The best jobs are not always advertised in newspapers.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +238,10 @@ class EnglishEntryadvertise extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "باشترین کارەکان زۆرجار لە ڕۆژنامەکان بانگەشەیان بۆ ناکرێت",
+                                    "باشترین کارەکان زۆرجار لە ڕۆژنامەکان بانگەشەیان بۆ ناکرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -266,6 +272,7 @@ class EnglishEntryadvertise extends StatelessWidget {
 ٣. (کردار) وتن یان پیشاندانی شتێک لەسەر خۆت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -276,6 +283,7 @@ class EnglishEntryadvertise extends StatelessWidget {
                                     "She coughed to advertise her presence.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -284,9 +292,10 @@ class EnglishEntryadvertise extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کۆکی بۆ پیشاندانی ئامادەییبوونی",
+                                    "کۆکی بۆ پیشاندانی ئامادەییبوونی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

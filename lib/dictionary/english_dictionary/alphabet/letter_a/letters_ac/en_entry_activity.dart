@@ -175,6 +175,7 @@ class EnglishEntryactivity extends StatelessWidget {
 ١. (ناو) شتێک کە دەیکەیت لەبەرئەوەی حەزی لێیە یان چێژی لێ دەبینی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -185,6 +186,7 @@ class EnglishEntryactivity extends StatelessWidget {
                                     "Shopping is now a leisure activity.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -196,6 +198,7 @@ class EnglishEntryactivity extends StatelessWidget {
                                     "بازاڕکردن لە ئێستادا بووە بە چالاکییەکی چێژبەخش",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -229,6 +232,7 @@ class EnglishEntryactivity extends StatelessWidget {
                                     "The students were involved in a range of extracurricular activities.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,6 +244,7 @@ class EnglishEntryactivity extends StatelessWidget {
                                     "خوێندکاران ژمارەیەک چالاکییان لە دەروەی بەرنامەی خوێندنیان کرد ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -270,6 +275,7 @@ class EnglishEntryactivity extends StatelessWidget {
 ٢. (ناو) شتێک کە کەسێک دەیکات بە مەبەستی گەشتن بە ئامانجێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -280,6 +286,7 @@ class EnglishEntryactivity extends StatelessWidget {
                                     "He has decided to focus his time and resources on his business activities.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -288,9 +295,10 @@ class EnglishEntryactivity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بڕیاری داوە کات و تواناکانی تەرخان بکات بۆ کارە بازرگانییەکانی",
+                                    "بڕیاری داوە کات و تواناکانی تەرخان بکات بۆ کارە بازرگانییەکانی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -321,6 +329,7 @@ class EnglishEntryactivity extends StatelessWidget {
 ٣. (ناو) بارودۆخێک کە شتێک تێیدا ڕوودەدات، یان ژمارەیەکی زۆر شت دەکرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -331,6 +340,7 @@ class EnglishEntryactivity extends StatelessWidget {
                                     "The streets were noisy and full of activity.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -339,9 +349,10 @@ class EnglishEntryactivity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شەقامەکان پڕ لە ژاوەژاو و چالاکی بوون",
+                                    "شەقامەکان پڕ لە ژاوەژاو و چالاکی بوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

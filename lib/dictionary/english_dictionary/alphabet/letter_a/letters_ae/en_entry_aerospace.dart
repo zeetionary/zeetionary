@@ -163,6 +163,7 @@ class EnglishEntryaerospace extends StatelessWidget {
 ١. (ناو) پیشەسازی درووستکردنی فڕۆکە و کەشتی ئاسمانی و کەرەستە بۆ ناردنە بۆشایی ئاسمان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

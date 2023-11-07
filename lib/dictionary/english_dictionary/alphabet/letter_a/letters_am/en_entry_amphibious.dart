@@ -214,6 +214,7 @@ class EnglishEntryamphibious extends StatelessWidget {
 ١. (ھاوەڵناو) گیانەوەرێک کە توانای ھەیە لە وشکانی و ئاودا بژێ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +225,7 @@ class EnglishEntryamphibious extends StatelessWidget {
                                     "Most species of frogs are amphibious.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +237,10 @@ class EnglishEntryamphibious extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆرینەی بۆقەکان دووژینەن",
+                                    "زۆرینەی بۆقەکان دووژینەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -268,6 +271,7 @@ class EnglishEntryamphibious extends StatelessWidget {
 ٢. (ھاوەڵناو) ئۆپەراسیۆنێکی سەربازی کە سەربازان لە دەریاوە دێنەسەر وشکانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -278,6 +282,7 @@ class EnglishEntryamphibious extends StatelessWidget {
                                     "A third brigade is at sea, ready for an amphibious assault.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -289,9 +294,10 @@ class EnglishEntryamphibious extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سێیەم لیوا لە دەریان و ئامادەی ھێرشی ئاوین",
+                                    "سێیەم لیوا لە دەریان و ئامادەی ھێرشی ئاوین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -323,6 +329,7 @@ class EnglishEntryamphibious extends StatelessWidget {
 ٣. (ھاوەڵناو) ئۆتۆمبێلێک یان فڕۆکەیەک کە توانای ھەبێت لەسەر ئاو و وشکانیش کاربکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -333,6 +340,7 @@ class EnglishEntryamphibious extends StatelessWidget {
                                     "I saw an amphibious plane at the lake yesterday.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -347,6 +355,7 @@ class EnglishEntryamphibious extends StatelessWidget {
                                     "دوێنێ فڕۆکەیەکی جووتفڕم بینی لە دەریاچەکەدا ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

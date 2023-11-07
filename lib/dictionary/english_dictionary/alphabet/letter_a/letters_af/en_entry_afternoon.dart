@@ -165,6 +165,7 @@ class EnglishEntryafternoon extends StatelessWidget {
 ١. (ناو) ناوەڕاستی ڕۆژ، لە کاتژمێر ١٢ی دوای نیوەڕۆ بۆ ٦ی ئێوارە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryafternoon extends StatelessWidget {
                                     "In the afternoon, they went shopping.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryafternoon extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە نیوەڕواندا دەچوون بۆ بازاڕ",
+                                    "لە نیوەڕواندا دەچوون بۆ بازاڕ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -222,6 +225,7 @@ class EnglishEntryafternoon extends StatelessWidget {
                                     "Come over on Sunday afternoon.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +237,10 @@ class EnglishEntryafternoon extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نیوەڕۆی یەکشەمە وەرە",
+                                    "نیوەڕۆی یەکشەمە وەرە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -139,6 +139,7 @@ class EnglishEntryabate extends StatelessWidget {
 ١. (کردار) لەدەستدانی ھێز و لاوازبوون''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -149,6 +150,7 @@ class EnglishEntryabate extends StatelessWidget {
                                     "The storm showed no signs of abating.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -157,9 +159,10 @@ class EnglishEntryabate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زریانەکە ھیچ ئاماژەیەکی دامرکانی پیشان نەدەدا",
+                                    "زریانەکە ھیچ ئاماژەیەکی دامرکانی پیشان نەدەدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

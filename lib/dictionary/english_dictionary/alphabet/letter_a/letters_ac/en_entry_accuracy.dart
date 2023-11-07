@@ -165,6 +165,7 @@ class EnglishEntryaccuracy extends StatelessWidget {
 ١. (ناو) ڕاستی و درووستی شتێک و ئایا تا چەند تەواوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryaccuracy extends StatelessWidget {
                                     "They questioned the accuracy of the information in the file.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryaccuracy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گومانیان خستەسەر ئەو زانیارییانەی لە فایلەکە بوون",
+                                    "گومانیان خستەسەر ئەو زانیارییانەی لە فایلەکە بوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -217,6 +220,7 @@ class EnglishEntryaccuracy extends StatelessWidget {
                                     "She hits the ball with great accuracy.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -225,9 +229,10 @@ class EnglishEntryaccuracy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە تۆپەکە دەدات بە وردیی زۆرەوە",
+                                    "لە تۆپەکە دەدات بە وردیی زۆرەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

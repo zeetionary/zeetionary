@@ -184,6 +184,7 @@ class EnglishEntryalignment extends StatelessWidget {
 ١. (ناو) ڕێک لەسەر ھێڵێکی ڕاست''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -194,6 +195,7 @@ class EnglishEntryalignment extends StatelessWidget {
                                     "A bone in my spine was out of alignment.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -205,9 +207,10 @@ class EnglishEntryalignment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئێسکێک لە بڕبڕەی پشتم پلابوو",
+                                    "ئێسکێک لە بڕبڕەی پشتم پلابوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -241,6 +244,7 @@ class EnglishEntryalignment extends StatelessWidget {
                                     "The door needs to be in alignment with the frame before you start work on it.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -252,9 +256,10 @@ class EnglishEntryalignment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەرگاکە پێویستە لەگەڵ چوارچێوەکەی ڕێک بێت پێش ئەوەی دەست بە کارکردن بکەیت لەسەری",
+                                    "دەرگاکە پێویستە لەگەڵ چوارچێوەکەی ڕێک بێت پێش ئەوەی دەست بە کارکردن بکەیت لەسەری.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -285,6 +290,7 @@ class EnglishEntryalignment extends StatelessWidget {
 ٢. (ناو) ئەو بارودۆخەی کە پەیوەندی یەکگیرر ھەیە لەنێوان دوو شت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -295,6 +301,7 @@ class EnglishEntryalignment extends StatelessWidget {
                                     "We will implement policies in alignment with our fiscal goals.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -306,9 +313,10 @@ class EnglishEntryalignment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو سیاسەت دادەڕێژین کە لەگەل ئامانجەکانی ساڵەکەمان یەکبگرێتەوە",
+                                    "ئەو سیاسەت دادەڕێژین کە لەگەل ئامانجەکانی ساڵەکەمان یەکبگرێتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -342,6 +350,7 @@ class EnglishEntryalignment extends StatelessWidget {
                                     "Property prices are too high and need to be brought back into alignment.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -353,9 +362,10 @@ class EnglishEntryalignment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نرخی زەوی زۆر بەرزە و پێویستە ڕێکبخرێت",
+                                    "نرخی زەوی زۆر بەرزە و پێویستە ڕێکبخرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -386,6 +396,7 @@ class EnglishEntryalignment extends StatelessWidget {
 ٣. (ناو) پشتگیری ئابووری یان سیاسی وڵاتێک یان گرووپێک بۆ یەکێکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -396,6 +407,7 @@ class EnglishEntryalignment extends StatelessWidget {
                                     "The new prime minister has moved into a much closer alignment with America.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -407,9 +419,10 @@ class EnglishEntryalignment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەرۆک وەزیرانە نوێیەکە ھاوپەیمانییەکی زیاتری لەگەڵ ئەمریکادا ھەیە",
+                                    "سەرۆک وەزیرانە نوێیەکە ھاوپەیمانییەکی زیاتری لەگەڵ ئەمریکادا ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

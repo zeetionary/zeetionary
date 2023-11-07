@@ -164,6 +164,7 @@ class EnglishEntryadoptive extends StatelessWidget {
 ١. (ھاوەڵناو) دایک و باوکی ھەڵگرەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadoptive extends StatelessWidget {
                                     "When he was 7 months old, his mother gave him up to his adoptive parents.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadoptive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کە ٧ مانگ بوو دایکی دەستبەرداری بوو بۆ دایک و باوکە ھەڵگرەوەکەی",
+                                    "کە ٧ مانگ بوو دایکی دەستبەرداری بوو بۆ دایک و باوکە ھەڵگرەوەکەی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

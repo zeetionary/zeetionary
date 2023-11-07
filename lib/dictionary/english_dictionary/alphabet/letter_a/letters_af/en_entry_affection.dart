@@ -165,6 +165,7 @@ class EnglishEntryaffection extends StatelessWidget {
 ١. (ناو) سۆز و خۆشەویستی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryaffection extends StatelessWidget {
                                     "Children need lots of love and affection.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryaffection extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵان پێویستیان بە سۆز و خەشەویستی زۆر ھەیە",
+                                    "منداڵان پێویستیان بە سۆز و خەشەویستی زۆر ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryaffection extends StatelessWidget {
                                     "I have a great affection for New York.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -227,9 +231,10 @@ class EnglishEntryaffection extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خۆشەویستی زۆرم بۆ نیویۆرک ھەیە",
+                                    "خۆشەویستی زۆرم بۆ نیویۆرک ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

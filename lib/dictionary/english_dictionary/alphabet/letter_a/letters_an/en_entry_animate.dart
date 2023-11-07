@@ -214,6 +214,7 @@ class EnglishEntryanimate extends StatelessWidget {
 ١. (کردار) وا لە شتێک بکەیت کە زیاتر کراوە و پڕ وزە بێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +225,7 @@ class EnglishEntryanimate extends StatelessWidget {
                                     "A smile suddenly animated her face.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -238,6 +240,7 @@ class EnglishEntryanimate extends StatelessWidget {
                                     "پێکەنینێک ڕووخساری کردەوە (گەشاندەوە)",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -269,6 +272,7 @@ class EnglishEntryanimate extends StatelessWidget {
 ٢. (کردار) درووستکردنی ئەنیمەیشن (فیلمی کۆمپیوتەری یان وێنەیەکی زۆری جوڵاو بەدوای یەکدا)''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -279,6 +283,7 @@ class EnglishEntryanimate extends StatelessWidget {
                                     "The much-loved characters have been animated in this new film.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -293,6 +298,7 @@ class EnglishEntryanimate extends StatelessWidget {
                                     "کارەکتەرە زۆر خۆشەویستەکان لەم فیلمە تازەدا وێناکراون ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -324,6 +330,7 @@ class EnglishEntryanimate extends StatelessWidget {
 ٣. (ھاوەڵناو) شتێکی زیندوو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -334,6 +341,7 @@ class EnglishEntryanimate extends StatelessWidget {
                                     "Children quickly learn to distinguish between animate and inanimate motion.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -345,9 +353,10 @@ class EnglishEntryanimate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵان بەزووی فێردەبن جیاوازی بکەن لەنێوان جووڵەی شتی زیندوو و بێ‌گیان",
+                                    "منداڵان بەزووی فێردەبن جیاوازی بکەن لەنێوان جووڵەی شتی زیندوو و بێ‌گیان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

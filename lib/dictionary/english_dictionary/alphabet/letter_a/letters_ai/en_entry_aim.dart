@@ -202,6 +202,7 @@ class EnglishEntryaim extends StatelessWidget {
 ١. (کردار) ھەوڵدان بۆ بەدەستھێنانی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -212,6 +213,7 @@ class EnglishEntryaim extends StatelessWidget {
                                     "We should aim for a bigger share of the market.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -223,9 +225,10 @@ class EnglishEntryaim extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەبێت ئامانجمان پشکێکی زیاتری بازاڕ بێت",
+                                    "دەبێت ئامانجمان پشکێکی زیاتری بازاڕ بێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -259,6 +262,7 @@ class EnglishEntryaim extends StatelessWidget {
                                     "The government is aiming at a 50% reduction in unemployment.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -270,9 +274,10 @@ class EnglishEntryaim extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حکومەت ئامانجیەتی بە ڕێژەی ٥٠٪ بێکاری کەمبکاتەوە",
+                                    "حکومەت ئامانجیەتی بە ڕێژەی ٥٠٪ بێکاری کەمبکاتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -303,6 +308,7 @@ class EnglishEntryaim extends StatelessWidget {
 ٢. (کردار) ھەبوونی شتێک وەک ئامانج''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -313,6 +319,7 @@ class EnglishEntryaim extends StatelessWidget {
                                     "These measures are aimed at preventing violent crime.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -324,9 +331,10 @@ class EnglishEntryaim extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم ڕێکارانە ئامانجیانە تاوانی توندوتیژی کەمبکەنەوە",
+                                    "ئەم ڕێکارانە ئامانجیانە تاوانی توندوتیژی کەمبکەنەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -357,6 +365,7 @@ class EnglishEntryaim extends StatelessWidget {
 ٣. (کردار) وتن یان کردنی شتێک بە ئامانجی کارلێککردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -367,6 +376,7 @@ class EnglishEntryaim extends StatelessWidget {
                                     "My criticism wasn't aimed at you.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -378,9 +388,10 @@ class EnglishEntryaim extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕەخنەکانم ڕوو لە تۆ نەبوون",
+                                    "ڕەخنەکانم ڕوو لە تۆ نەبوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -411,6 +422,7 @@ class EnglishEntryaim extends StatelessWidget {
 ٤. (کردار) ڕووکردنی چەک، کامێرا، بۆکس، یان شتێکی تر لە کەسێک یان شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -421,6 +433,7 @@ class EnglishEntryaim extends StatelessWidget {
                                     "I was aiming at the tree but hit the car by mistake.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -432,9 +445,10 @@ class EnglishEntryaim extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئامانجم لە دارەکە گرتەوە، بەڵام بە ھەڵە لە ئۆتۆمبێلەکەم دا",
+                                    "ئامانجم لە دارەکە گرتەوە، بەڵام بە ھەڵە لە ئۆتۆمبێلەکەم دا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -465,6 +479,7 @@ class EnglishEntryaim extends StatelessWidget {
 ٥. (کردار) ئامانج، شتێک کە ھەوڵی بەدەستھێنانی دەدەیت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -475,6 +490,7 @@ class EnglishEntryaim extends StatelessWidget {
                                     "His sole aim in life is to enjoy himself.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -486,9 +502,10 @@ class EnglishEntryaim extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەنھا ئامانجی لە ژیان ئەوە بوو خۆشی لە خۆی ببینێت",
+                                    "تەنھا ئامانجی لە ژیان ئەوە بوو خۆشی لە خۆی ببینێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -519,6 +536,7 @@ class EnglishEntryaim extends StatelessWidget {
 ٦. (کردار) شارەزایی لە ئامانجگرتنەوە بە چەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -529,6 +547,7 @@ class EnglishEntryaim extends StatelessWidget {
                                     "Her aim was good and she hit the lion with her first shot.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -540,9 +559,10 @@ class EnglishEntryaim extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئامانجگرتنەکەی باش بوو و بە یەکەم لێدان لە شێرەکەی دا",
+                                    "ئامانجگرتنەکەی باش بوو و بە یەکەم لێدان لە شێرەکەی دا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

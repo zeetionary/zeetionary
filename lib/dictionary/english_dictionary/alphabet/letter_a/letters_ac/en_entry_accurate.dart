@@ -175,6 +175,7 @@ class EnglishEntryaccurate extends StatelessWidget {
 ١. (ھاوەڵناو) ڕاست و درووست لە ھەموو لایەکەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -185,6 +186,7 @@ class EnglishEntryaccurate extends StatelessWidget {
                                     "The film is not historically accurate.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -193,9 +195,10 @@ class EnglishEntryaccurate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "فیلمەکە لەلایەنی مێژووییەوە درووست نییە",
+                                    "فیلمەکە لەلایەنی مێژووییەوە درووست نییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -227,6 +230,7 @@ class EnglishEntryaccurate extends StatelessWidget {
                                     "The cost is an accurate reflection of the high quality of our products.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +239,10 @@ class EnglishEntryaccurate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نرخەکان ڕەنگدانەوەی درووستی کوالێتیی بەرزی کاڵاکانمانە",
+                                    "نرخەکان ڕەنگدانەوەی درووستی کوالێتیی بەرزی کاڵاکانمانە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -266,6 +271,7 @@ class EnglishEntryaccurate extends StatelessWidget {
 ٢. (ھاوەڵناو) ھەبوونی توانای بەدەستەوەدانی زانیاریی درووست''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -276,6 +282,7 @@ class EnglishEntryaccurate extends StatelessWidget {
                                     "My watch is not very accurate.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -284,9 +291,10 @@ class EnglishEntryaccurate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کاتژمێرەکەم تەواو نییە",
+                                    "کاتژمێرەکەم تەواو نییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -318,6 +326,7 @@ class EnglishEntryaccurate extends StatelessWidget {
                                     "Scientists have found a more accurate way of dating cave paintings.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -326,9 +335,10 @@ class EnglishEntryaccurate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زاناکان ڕیگایەکی وردتریان دۆزیوەتەوە بۆ زانینی سەردەمی وێنەی ناو ئەشکەوتەکان",
+                                    "زاناکان ڕیگایەکی وردتریان دۆزیوەتەوە بۆ زانینی سەردەمی وێنەی ناو ئەشکەوتەکان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryairtoair extends StatelessWidget {
 ١. (ھاوەڵناو) موشەکێک کە لە ئاسمانەوە دەھاوءژرێت بۆ ئامانجێک کە لە ئاسمانە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryairtoair extends StatelessWidget {
                                     "The aid includes 200 supersonic air-to-air missiles and military communications equipment.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryairtoair extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یارمەتییەکە ٢٠٠ مووشەکی دەنگبڕی ئاسمان بۆ ئاسمان لەخۆدەگرێت لەگەڵ لەگەڵ کەرەستەی پەیوەندی سەربازی",
+                                    "یارمەتییەکە ٢٠٠ مووشەکی دەنگبڕی ئاسمان بۆ ئاسمان لەخۆدەگرێت لەگەڵ لەگەڵ کەرەستەی پەیوەندی سەربازی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

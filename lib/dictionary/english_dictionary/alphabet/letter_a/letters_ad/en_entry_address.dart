@@ -226,6 +226,7 @@ class EnglishEntryaddress extends StatelessWidget {
 ١. (ناو) شوێنی ژیان یان کارکردنی کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -236,6 +237,7 @@ class EnglishEntryaddress extends StatelessWidget {
                                     "I'll give you my address and phone number.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -244,9 +246,10 @@ class EnglishEntryaddress extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناونیشان و ژمارە تەلەفۆنی خۆمت پێ ئەدەم",
+                                    "ناونیشان و ژمارە تەلەفۆنی خۆمت پێ ئەدەم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -280,6 +283,7 @@ class EnglishEntryaddress extends StatelessWidget {
                                     "Police found him at an address (= a house or flat) in West London.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -288,9 +292,10 @@ class EnglishEntryaddress extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پۆلیس لە شوێنێک لە ڕۆژھەڵاتی لەندەن دۆزییەوە",
+                                    "پۆلیس لە شوێنێک لە ڕۆژھەڵاتی لەندەن دۆزییەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -321,6 +326,7 @@ class EnglishEntryaddress extends StatelessWidget {
 ٢. (ناو) ژمارەیەک پیت و ژمارە کە ناونیشانی شوێنێک یان کەسێکە لەسەر ئینتەرنێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -331,6 +337,7 @@ class EnglishEntryaddress extends StatelessWidget {
                                     "What's your email address?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -342,6 +349,7 @@ class EnglishEntryaddress extends StatelessWidget {
                                     "ناونیشانی ئیمەیڵەکەت چییە؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -372,6 +380,7 @@ class EnglishEntryaddress extends StatelessWidget {
 ٣. (ناو) وتارێکی فەرمی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -382,6 +391,7 @@ class EnglishEntryaddress extends StatelessWidget {
                                     "He gave details of the policy in an address to party members.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -390,9 +400,10 @@ class EnglishEntryaddress extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وردەکارییەکانی سیاسەتیانی ڕوونکردەوە لە وتارێکدا بۆ ئەندامانی پارتەکە",
+                                    "وردەکارییەکانی سیاسەتیانی ڕوونکردەوە لە وتارێکدا بۆ ئەندامانی پارتەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -423,6 +434,7 @@ class EnglishEntryaddress extends StatelessWidget {
 ٤. (کردار) بیرکرنەوە لە چۆنیەتی مامەڵەکردن لەگەل کێشەیەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -433,6 +445,7 @@ class EnglishEntryaddress extends StatelessWidget {
                                     "These concerns were not adequately addressed in the report.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -441,9 +454,10 @@ class EnglishEntryaddress extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم نیگەرانیانە بەپێی پێویست لە ڕاپۆرتەکەدا مامەڵەیان لەگەڵ نەکراوە",
+                                    "ئەم نیگەرانیانە بەپێی پێویست لە ڕاپۆرتەکەدا مامەڵەیان لەگەڵ نەکراوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -474,6 +488,7 @@ class EnglishEntryaddress extends StatelessWidget {
 ٥. (کردار) نووسینی ناو و ناونیشانی کەسێک و شوێنەکەی لەسەر نامەیەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -484,6 +499,7 @@ class EnglishEntryaddress extends StatelessWidget {
                                     "The letter was correctly addressed, but delivered to the wrong house.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -495,6 +511,7 @@ class EnglishEntryaddress extends StatelessWidget {
                                     "نامەکە بە درووستی ناو و ناونیشانی لەسەر نووسرابوو، بەڵام بۆ ماڵێکی ھەڵە نێردرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -525,6 +542,7 @@ class EnglishEntryaddress extends StatelessWidget {
 ٦. (کردار) پێشکەشکردنی وتارێک بۆ کۆمەڵە کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -535,6 +553,7 @@ class EnglishEntryaddress extends StatelessWidget {
                                     "The President has been asked to address the parliament.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -543,9 +562,10 @@ class EnglishEntryaddress extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەرۆک داوای لێکرا وتارێک لە پەرلەمان پێشکەش بکات",
+                                    "سەرۆک داوای لێکرا وتارێک لە پەرلەمان پێشکەش بکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -576,6 +596,7 @@ class EnglishEntryaddress extends StatelessWidget {
 ٧. (کردار) وتنی شتێک ڕاستەوخۆ بە کەسێك''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -586,6 +607,7 @@ class EnglishEntryaddress extends StatelessWidget {
                                     "He addressed his comments to the supervisor.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -594,9 +616,10 @@ class EnglishEntryaddress extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆچوونەکانی ڕاستەوخۆ بە سەرپەرشتیارەکە گووت",
+                                    "بۆچوونەکانی ڕاستەوخۆ بە سەرپەرشتیارەکە گووت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

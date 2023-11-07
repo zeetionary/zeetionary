@@ -162,6 +162,7 @@ class EnglishEntryairconditioner extends StatelessWidget {
 ١. (ناو) ئامێرێک کە ھەوای ناو ژوور یان ئۆتۆمبێل دەگۆڕێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryairconditioner extends StatelessWidget {
                                     "The room temperature was controlled by using an air conditioner.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryairconditioner extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پلەی گەرمیی ژوورەکە کۆنترۆڵ کرابوو بە بەکارھێنانی ھەواگۆڕکێیەک/فێنککەرەوەیەک",
+                                    "پلەی گەرمیی ژوورەکە کۆنترۆڵ کرابوو بە بەکارھێنانی ھەواگۆڕکێیەک/فێنککەرەوەیەک.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -162,6 +162,7 @@ class EnglishEntryairliner extends StatelessWidget {
 ١. (ناو) فڕۆکەی نەفەرھەڵگر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryairliner extends StatelessWidget {
                                     "The airliner was hijacked by a group of terrorists.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,6 +188,7 @@ class EnglishEntryairliner extends StatelessWidget {
                                     "فڕۆکەکە لەلایەن ژمارەیەک تیرۆریستەوە ڕفێندرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

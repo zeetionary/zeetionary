@@ -165,6 +165,7 @@ class EnglishEntryactor extends StatelessWidget {
 ١. (ناو) کەسێک کە لە شانۆ یان فیلم ڕۆڵدەگێڕێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryactor extends StatelessWidget {
                                     "She is one of the country’s leading actors.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryactor extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یەکێکە لە ئەکتەرە ناسراوەکانی وڵاتەکە",
+                                    "یەکێکە لە ئەکتەرە ناسراوەکانی وڵاتەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -215,6 +218,7 @@ class EnglishEntryactor extends StatelessWidget {
 ٢. (ناو) کەسێک کە خۆی بەشێوەیەک دەردەخات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -225,6 +229,7 @@ class EnglishEntryactor extends StatelessWidget {
                                     "I don't know if he really meant the things he said—he was always a good actor.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -236,6 +241,7 @@ class EnglishEntryactor extends StatelessWidget {
                                     "نازانم ئەگەر بە ڕاستی مەبەستی لەو شتانە بوو کە گوتی، ھەمیشە نمایشکارێکی باش بووە (ئاسان نییە بزانی ڕاست ئەکات یان نا)",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -119,7 +119,8 @@ class EnglishEntryall extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The end of the trip came all too soon."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The end of the trip came all too soon."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAll(String languageCode) async {
@@ -313,6 +314,7 @@ class EnglishEntryall extends StatelessWidget {
 ١. (پێشناو) ھەموو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -323,6 +325,7 @@ class EnglishEntryall extends StatelessWidget {
                                     "All horses are animals, but not all animals are horses.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -334,9 +337,10 @@ class EnglishEntryall extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەموو ئەسپێک ئاژەڵە، بەڵام ھەموو ئاژەڵێک ئەسپ نییە",
+                                    "ھەموو ئەسپێک ئاژەڵە، بەڵام ھەموو ئاژەڵێک ئەسپ نییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -370,6 +374,7 @@ class EnglishEntryall extends StatelessWidget {
                                     "All my plants have died.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -381,9 +386,10 @@ class EnglishEntryall extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەموو ڕووەکەکانم وشکیان کردووە",
+                                    "ھەموو ڕووەکەکانم وشکیان کردووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -417,6 +423,7 @@ class EnglishEntryall extends StatelessWidget {
                                     "He has lost all his money.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -428,9 +435,10 @@ class EnglishEntryall extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەموو پارەکەی لەدەستداوە",
+                                    "ھەموو پارەکەی لەدەستداوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -461,6 +469,7 @@ class EnglishEntryall extends StatelessWidget {
 ٢. (پێشناو) تەواوی ماوەیەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -471,6 +480,7 @@ class EnglishEntryall extends StatelessWidget {
                                     "He's worked hard all year.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -482,9 +492,10 @@ class EnglishEntryall extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەواوی ساڵەکە بە سەختی کاری کردووە",
+                                    "تەواوی ساڵەکە بە سەختی کاری کردووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -515,6 +526,7 @@ class EnglishEntryall extends StatelessWidget {
 ٣. (پێشناو) تا بەرزترین ئاست''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -525,6 +537,7 @@ class EnglishEntryall extends StatelessWidget {
                                     "In all honesty (= being as honest as I can), I can't agree.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -536,9 +549,10 @@ class EnglishEntryall extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەواو سەرڕاست بم، ناتوانم ھاوڕابم",
+                                    "تەواو سەرڕاست بم، ناتوانم ھاوڕابم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -569,6 +583,7 @@ class EnglishEntryall extends StatelessWidget {
 ٤. (پێشناو) پێکھاتوو تەنھا لە یەک شت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -579,6 +594,7 @@ class EnglishEntryall extends StatelessWidget {
                                     "The magazine was all advertisements.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -590,9 +606,10 @@ class EnglishEntryall extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گۆڤارەکە ھەموو ڕیکلام بوو",
+                                    "گۆڤارەکە ھەموو ڕیکلام بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -623,6 +640,7 @@ class EnglishEntryall extends StatelessWidget {
 ٥. (جێناو) ھەموو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -633,6 +651,7 @@ class EnglishEntryall extends StatelessWidget {
                                     "They've eaten all of it.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -644,9 +663,10 @@ class EnglishEntryall extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەموویان خواردووە",
+                                    "ھەموویان خواردووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -680,6 +700,7 @@ class EnglishEntryall extends StatelessWidget {
                                     "All of them enjoyed the party.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -691,9 +712,10 @@ class EnglishEntryall extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەموویان چێژیان لە ئاھەنگەکە بینی",
+                                    "ھەموویان چێژیان لە ئاھەنگەکە بینی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -724,6 +746,7 @@ class EnglishEntryall extends StatelessWidget {
 ٦. (جێناو) تەنھا شت، ھەموو ئەوەی ھەتە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -734,6 +757,7 @@ class EnglishEntryall extends StatelessWidget {
                                     "It was all that I had.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -745,9 +769,10 @@ class EnglishEntryall extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەوە ھەموو ئەوە بوو ھەمبوو",
+                                    "ئەوە ھەموو ئەوە بوو ھەمبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -778,6 +803,7 @@ class EnglishEntryall extends StatelessWidget {
 ٧. (ھاوەڵکار) بە تەواوی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -788,6 +814,7 @@ class EnglishEntryall extends StatelessWidget {
                                     "The coffee went all over my skirt.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -799,9 +826,10 @@ class EnglishEntryall extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "قاوەکە ڕژا بە ھەموو تەنوورەکەمدا",
+                                    "قاوەکە ڕژا بە ھەموو تەنوورەکەمدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -832,6 +860,7 @@ class EnglishEntryall extends StatelessWidget {
 ٨. (ھاوەڵکار) زۆر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -842,6 +871,7 @@ class EnglishEntryall extends StatelessWidget {
                                     "Now don't get all upset about it.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -853,9 +883,10 @@ class EnglishEntryall extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر پەست مەبە لەسەری",
+                                    "زۆر پەست مەبە لەسەری.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -886,6 +917,7 @@ class EnglishEntryall extends StatelessWidget {
 ٩. (ھاوەڵکار) زیاتر لەوەی حەزی پێیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -896,6 +928,7 @@ class EnglishEntryall extends StatelessWidget {
                                     "The end of the trip came all too soon.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -907,9 +940,10 @@ class EnglishEntryall extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کۆتایی گەشتەکە زۆر زوو ھات",
+                                    "کۆتایی گەشتەکە زۆر زوو ھات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

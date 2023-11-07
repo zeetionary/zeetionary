@@ -193,6 +193,7 @@ class EnglishEntryaccount extends StatelessWidget {
 ١. (ناو) ڕێککەوتنێک کە کەسێک لەگەڵ بانکێك ھەیەتی بۆ ھەڵگرتنی پارەکانی و کێشانەوە لێی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -203,6 +204,7 @@ class EnglishEntryaccount extends StatelessWidget {
                                     "He opened an account at a bank in Germany.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -214,6 +216,7 @@ class EnglishEntryaccount extends StatelessWidget {
                                     "ھەژمارێکی کردەوە لە بانکێک لە ئەڵمانیا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -245,6 +248,7 @@ class EnglishEntryaccount extends StatelessWidget {
                                     "What's your account number please?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -256,6 +260,7 @@ class EnglishEntryaccount extends StatelessWidget {
                                     "بێزەحمەت، ژمارەی ھەژمارەکەت چەندە؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -284,6 +289,7 @@ class EnglishEntryaccount extends StatelessWidget {
 ٢. (ناو) ھەبوونی ھەژمارێک لەسەر ئینتەرنێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -294,6 +300,7 @@ class EnglishEntryaccount extends StatelessWidget {
                                     "My YouTube account was terminated.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -305,6 +312,7 @@ class EnglishEntryaccount extends StatelessWidget {
                                     "ھەژمارەکەم لەسەر یووتیووب سڕکرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -333,6 +341,7 @@ class EnglishEntryaccount extends StatelessWidget {
 ٣. (ناو) گێڕانەوەی ڕووداوێک کە ڕوویداوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -343,6 +352,7 @@ class EnglishEntryaccount extends StatelessWidget {
                                     "She gave the police a full account of the incident.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -351,9 +361,10 @@ class EnglishEntryaccount extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گێڕانەوەی تەواوی ڕووداوەکەی بە پۆلیس گوت",
+                                    "گێڕانەوەی تەواوی ڕووداوەکەی بە پۆلیس گوت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -382,6 +393,7 @@ class EnglishEntryaccount extends StatelessWidget {
 ٤. (ناو) لیستی حیساباتی کڕین و فرۆشتن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -392,6 +404,7 @@ class EnglishEntryaccount extends StatelessWidget {
                                     "Try to keep accurate accounts.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -400,9 +413,10 @@ class EnglishEntryaccount extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەوڵبدە لیستی حیساباتەکە بە درووستی ڕابگری",
+                                    "ھەوڵبدە لیستی حیساباتەکە بە درووستی ڕابگری.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -431,6 +445,7 @@ class EnglishEntryaccount extends StatelessWidget {
 ٥. (کردار) ھەبوونی بۆچوونێک لەسەر کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -441,6 +456,7 @@ class EnglishEntryaccount extends StatelessWidget {
                                     "English law a person is accounted innocent until they are proved guilty.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -449,9 +465,10 @@ class EnglishEntryaccount extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە یاسای ئینگلتەرە کەسێک بە بێتاوان سەیردەکرێت تا بە تاوانبار دەسەلمێندرێت",
+                                    "لە یاسای ئینگلتەرە کەسێک بە بێتاوان سەیردەکرێت تا بە تاوانبار دەسەلمێندرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

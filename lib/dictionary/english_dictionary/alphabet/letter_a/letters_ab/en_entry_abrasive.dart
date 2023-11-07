@@ -157,6 +157,7 @@ class EnglishEntryabrasive extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە زبرە و بەکاردێت بۆ پاککردنەوە یان لووسکردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryabrasive extends StatelessWidget {
                                     "The cleaner has a mildly abrasive action.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -175,9 +177,10 @@ class EnglishEntryabrasive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پاککەرەوەکە کەمێک کاری داتاشینیش دەکات",
+                                    "پاککەرەوەکە کەمێک کاری داتاشینیش دەکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -206,6 +209,7 @@ class EnglishEntryabrasive extends StatelessWidget {
 ٢. (ھاوەڵناو) کەسێک کە ڕەفتاری دڵشکێن و خراپە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -216,6 +220,7 @@ class EnglishEntryabrasive extends StatelessWidget {
                                     "Throughout his career he was known for his abrasive manner.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -224,9 +229,10 @@ class EnglishEntryabrasive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە درێژایی کارەکەی بەوە ناسراوبوو کە ڕەفتاری توند و خراپە",
+                                    "بە درێژایی کارەکەی بەوە ناسراوبوو کە ڕەفتاری توند و خراپە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

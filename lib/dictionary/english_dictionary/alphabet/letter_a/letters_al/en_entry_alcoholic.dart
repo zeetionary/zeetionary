@@ -173,6 +173,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە کحول، یان ھەبوونی کحول تێیدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -183,6 +184,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
                                     "The fruit juice tasted slightly alcoholic.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -194,9 +196,10 @@ class EnglishEntryalcoholic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شەربەتەکە کەمێک تامی کحولی دەدا",
+                                    "شەربەتەکە کەمێک تامی کحولی دەدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -227,6 +230,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بە کحول، یان ھەبوونی کحول تێیدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -237,6 +241,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
                                     "The guests left in an alcoholic haze.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -248,9 +253,10 @@ class EnglishEntryalcoholic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "میوانەکان بە گێژخواردوویی کحولەوە ڕۆشتن",
+                                    "میوانەکان بە گێژخواردوویی کحولەوە ڕۆشتن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -281,6 +287,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
 ٣. (ھاوەڵناو) ئاڵوودەی کحول بە ڕادەی نەخۆشبوون''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -291,6 +298,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
                                     "She was taking care of her alcoholic son.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -302,9 +310,10 @@ class EnglishEntryalcoholic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چاودێری کوڕە ئاڵوودەکەیی دەکرد",
+                                    "چاودێری کوڕە ئاڵوودەکەیی دەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -335,6 +344,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
 ٤. (ناو) کەسێک لە ڕادەبەدەر بخواتەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -345,6 +355,7 @@ class EnglishEntryalcoholic extends StatelessWidget {
                                     "I don’t think an alcoholic can dry out without proper medical help.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -356,9 +367,10 @@ class EnglishEntryalcoholic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێم وانییە کەسێکی ئاڵوودە بتوانێت خواردنەوە تەرک بکات بەبێ یارمەتی گونجاوی پزیشکی",
+                                    "پێم وانییە کەسێکی ئاڵوودە بتوانێت خواردنەوە تەرک بکات بەبێ یارمەتی گونجاوی پزیشکی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryadmirably extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە جێگەی ڕێزە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadmirably extends StatelessWidget {
                                     "Joe coped admirably with a difficult situation.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadmirably extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جۆو بەشێوەیەکی جێگەی ڕێز قەناعەتی بە بارودۆخێکی قوورس کرد",
+                                    "جۆو بەشێوەیەکی جێگەی ڕێز قەناعەتی بە بارودۆخێکی قوورس کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

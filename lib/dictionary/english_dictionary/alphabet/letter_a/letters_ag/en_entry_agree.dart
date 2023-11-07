@@ -199,6 +199,7 @@ class EnglishEntryagree extends StatelessWidget {
 ١. (کردار) ھاوڕابوون لەگەڵ کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -209,6 +210,7 @@ class EnglishEntryagree extends StatelessWidget {
                                     "When he said that, I had to agree.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -220,9 +222,10 @@ class EnglishEntryagree extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کە ئەوەی گوت، ناچاربووم ھاوڕابم",
+                                    "کە ئەوەی گوت، ناچاربووم ھاوڕابم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -253,6 +256,7 @@ class EnglishEntryagree extends StatelessWidget {
 ٢. (کردار) پەسەندکردنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -263,6 +267,7 @@ class EnglishEntryagree extends StatelessWidget {
                                     "I don't agree with hitting children as a punishment.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -274,9 +279,10 @@ class EnglishEntryagree extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لێدانی مناڵ وەک سزادان پەسەند ناکەم",
+                                    "لێدانی مناڵ وەک سزادان پەسەند ناکەم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -307,6 +313,7 @@ class EnglishEntryagree extends StatelessWidget {
 ٣. (کردار) کردن یان ڕێگەدان بە شتێک کە کەسێک دەیەوێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -317,6 +324,7 @@ class EnglishEntryagree extends StatelessWidget {
                                     "I asked for a pay rise and she agreed.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -328,9 +336,10 @@ class EnglishEntryagree extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "داوای زیادکردنی مووچەکەمم کرد و ئەویش ڕازی بوو",
+                                    "داوای زیادکردنی مووچەکەمم کرد و ئەویش ڕازی بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -361,6 +370,7 @@ class EnglishEntryagree extends StatelessWidget {
 ٤. (کردار) ڕێککەوتن لەگەڵ کەسێک بۆ کردنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -371,6 +381,7 @@ class EnglishEntryagree extends StatelessWidget {
                                     "We agreed to meet on Thursday.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -382,9 +393,10 @@ class EnglishEntryagree extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێککەوتین پێنجشەممە چاومان بە یەک بکەوێت",
+                                    "ڕێککەوتین پێنجشەممە چاومان بە یەک بکەوێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -415,6 +427,7 @@ class EnglishEntryagree extends StatelessWidget {
 ٥. (کردار) پەسەندکردنی پلانێک یان داوایەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -425,6 +438,7 @@ class EnglishEntryagree extends StatelessWidget {
                                     "Next year's budget has been agreed.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -436,9 +450,10 @@ class EnglishEntryagree extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بودجەی ساڵی داھاتوو پەسەندکراوە",
+                                    "بودجەی ساڵی داھاتوو پەسەندکراوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -469,6 +484,7 @@ class EnglishEntryagree extends StatelessWidget {
 ٦. (کردار) دوو شت یەکبگرنەوە لەگەڵ یەک و ھەمان شت بن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -479,6 +495,7 @@ class EnglishEntryagree extends StatelessWidget {
                                     "Your account of the accident does not agree with hers.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -493,6 +510,7 @@ class EnglishEntryagree extends StatelessWidget {
                                     "گێڕانەوەت بۆ ڕووداوەکە یەکناگرێتەوە لەگەڵ گێڕانەوەی ئەو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

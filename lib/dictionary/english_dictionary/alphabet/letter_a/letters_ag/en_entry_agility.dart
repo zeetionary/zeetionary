@@ -165,6 +165,7 @@ class EnglishEntryagility extends StatelessWidget {
 ١. (ناو) ھەبوونی توانای جوڵاندنی جەستە بەخێرایی و ئاسانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryagility extends StatelessWidget {
                                     "He has the agility of a mountain goat.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryagility extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گورجوگۆڵی بزنێکی شاخاوی ھەیە",
+                                    "گورجوگۆڵی بزنێکی شاخاوی ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryagility extends StatelessWidget {
 ٢. (ناو) ھەبوونی توانای بیرکردنەوە بەڕوونی و خێرایی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -229,6 +233,7 @@ class EnglishEntryagility extends StatelessWidget {
                                     "We underestimate the agility of a child's mind.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,9 +245,10 @@ class EnglishEntryagility extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بیروھۆشی منداڵ بە کەم سەیر دەکەین",
+                                    "بیروھۆشی منداڵ بە کەم سەیر دەکەین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

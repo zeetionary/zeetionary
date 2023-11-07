@@ -213,6 +213,7 @@ class EnglishEntryamplification extends StatelessWidget {
 ١. (ناو) زیادکردنی ھێزی شتێک، بەتایبەتی دەنگ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryamplification extends StatelessWidget {
                                     "Amplification of this energy promotes fertilization of the surrounding area.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -237,6 +239,7 @@ class EnglishEntryamplification extends StatelessWidget {
                                     "بەھێزکردنی ئەم وزەیە یارمەتیدەرە بۆ پیتاندنی ناوچەی دەورووبەر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -268,6 +271,7 @@ class EnglishEntryamplification extends StatelessWidget {
 ٢. (ناو) زیادکردنی ڕوونکردنەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -278,6 +282,7 @@ class EnglishEntryamplification extends StatelessWidget {
                                     "That comment needs some amplification.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -289,9 +294,10 @@ class EnglishEntryamplification extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو لێدوانە پێویستی بە ھەندێک ڕوونکردنەوە ھەیە",
+                                    "ئەو لێدوانە پێویستی بە ھەندێک ڕوونکردنەوە ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

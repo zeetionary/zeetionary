@@ -165,6 +165,7 @@ class EnglishEntryadvertisement extends StatelessWidget {
 ١. (ناو) بڵاونامەیەک کە ئاگادارییەک، وێنەیەک، یان ڤیدیۆیەکە کە بانگەشە بۆ شتێک دەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryadvertisement extends StatelessWidget {
                                     "You can place an advertisement on a website.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryadvertisement extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەتوانی ڕیکلامەکە بخەیتە سەر وێبسایتێک",
+                                    "دەتوانی ڕیکلامەکە بخەیتە سەر وێبسایتێک.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryadvertisement extends StatelessWidget {
 ٢. (ناو) نموونەیەک کە لایەنە باشەکانی شتێک پیشان دەدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +230,7 @@ class EnglishEntryadvertisement extends StatelessWidget {
                                     "I'm afraid I'm not a very good advertisement for the diet since I've actually put on weight!",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +239,10 @@ class EnglishEntryadvertisement extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەداخەوەم کە من نموونەیەکی باش نیم بۆ ژەمە خۆراکییەکە بەھۆی ئەوەی کێشم زیادی کردووە",
+                                    "بەداخەوەم کە من نموونەیەکی باش نیم بۆ ژەمە خۆراکییەکە بەھۆی ئەوەی کێشم زیادی کردووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

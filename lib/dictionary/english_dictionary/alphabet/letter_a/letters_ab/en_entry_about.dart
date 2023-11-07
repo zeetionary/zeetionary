@@ -221,6 +221,7 @@ class EnglishEntryabout extends StatelessWidget {
 ١. (ئامراز) دەربارەی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -231,6 +232,7 @@ class EnglishEntryabout extends StatelessWidget {
                                     "Tell me all about it.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -239,9 +241,10 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەموو شتێکم پێ بڵێ لەسەری",
+                                    "ھەموو شتێکم پێ بڵێ لەسەری.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -273,6 +276,7 @@ class EnglishEntryabout extends StatelessWidget {
                                     "What's she so angry about?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -284,6 +288,7 @@ class EnglishEntryabout extends StatelessWidget {
                                     "لەسەر چییە وا تووڕەیە؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -315,6 +320,7 @@ class EnglishEntryabout extends StatelessWidget {
                                     "There's something about this business that is not quite right.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -323,9 +329,10 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شتێک دەربارەی ئەم ئیشە لە جێگەی خۆی نییە",
+                                    "شتێک دەربارەی ئەم ئیشە لە جێگەی خۆی نییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -354,6 +361,7 @@ class EnglishEntryabout extends StatelessWidget {
 ٢. (ئامراز) بەکاردێت بۆ باسکردنی ئامانجی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -364,6 +372,7 @@ class EnglishEntryabout extends StatelessWidget {
                                     "Movies are all about making money these days.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -372,9 +381,10 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەم سەردەمەدا ئامانج لە ھەموو فیلمەکان قازانجە",
+                                    "لەم سەردەمەدا ئامانج لە ھەموو فیلمەکان قازانجە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -403,6 +413,7 @@ class EnglishEntryabout extends StatelessWidget {
 ٣. (ئامراز) سەرقاڵبوون بە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -413,6 +424,7 @@ class EnglishEntryabout extends StatelessWidget {
                                     "Everywhere people were going about their daily business.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -421,9 +433,10 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە ھەموو شوێنێک خەڵکی سەرقاڵی ژیانی ڕۆزانەیانن",
+                                    "لە ھەموو شوێنێک خەڵکی سەرقاڵی ژیانی ڕۆزانەیانن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -452,6 +465,7 @@ class EnglishEntryabout extends StatelessWidget {
 ٤. (ئامراز) بە ژمارەیەک لادا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -462,6 +476,7 @@ class EnglishEntryabout extends StatelessWidget {
                                     "We wandered about the town for an hour or so.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -470,9 +485,10 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نزیکەی کاتژمێرێک بە شارۆچکەکەدا سووڕاینەوە",
+                                    "نزیکەی کاتژمێرێک بە شارۆچکەکەدا سووڕاینەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -501,6 +517,7 @@ class EnglishEntryabout extends StatelessWidget {
 ٥. (ئامراز) بە ژمارەیەک لادا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -511,6 +528,7 @@ class EnglishEntryabout extends StatelessWidget {
                                     "We wandered about the town for an hour or so.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -519,9 +537,10 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نزیکەی کاتژمێرێک بە شارۆچکەکەدا سووڕاینەوە",
+                                    "نزیکەی کاتژمێرێک بە شارۆچکەکەدا سووڕاینەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -550,6 +569,7 @@ class EnglishEntryabout extends StatelessWidget {
 ٦. (ھاوەڵکار) بەنزیکەیی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -560,6 +580,7 @@ class EnglishEntryabout extends StatelessWidget {
                                     "They waited (for) about an hour.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -568,9 +589,10 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەنزیکەیی یەک کاتژمێر چاوەڕێ بوون",
+                                    "بەنزیکەیی یەک کاتژمێر چاوەڕێ بوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -599,6 +621,7 @@ class EnglishEntryabout extends StatelessWidget {
 ٧. (ھاوەڵکار) زۆر نزیک لە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -609,6 +632,7 @@ class EnglishEntryabout extends StatelessWidget {
                                     "I'm just about ready.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -617,9 +641,10 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یەک تۆزم ماوە",
+                                    "یەک تۆزم ماوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -648,6 +673,7 @@ class EnglishEntryabout extends StatelessWidget {
 ٩. (ھاوەڵکار) بە زۆر لادا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -658,6 +684,7 @@ class EnglishEntryabout extends StatelessWidget {
                                     "The children were rushing about in the garden.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -666,9 +693,10 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵەکان بە باخجەکەدا ھاتوچۆیان بوو",
+                                    "منداڵەکان بە باخجەکەدا ھاتوچۆیان بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -697,6 +725,7 @@ class EnglishEntryabout extends StatelessWidget {
 ١٠. (ھاوەڵکار) بە ھەڕەمەکی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -707,6 +736,7 @@ class EnglishEntryabout extends StatelessWidget {
                                     "Her books were lying about on the floor.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -715,9 +745,10 @@ class EnglishEntryabout extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کتێبەکانی لەسەر زەوییەکە کەوتبوون",
+                                    "کتێبەکانی لەسەر زەوییەکە کەوتبوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

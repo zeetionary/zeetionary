@@ -166,6 +166,7 @@ class EnglishEntryaccessible extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە بەردەستە و بە ئاسانی دەتوانرێت بەکاربھێندرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                                     "The remote desert area is accessible only by helicopter.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryaccessible extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناوچە بیابانە دوورەدەستەکە تەنھا لە ڕێگەی ھەلیکۆپتەرەوە دەتوانرێت سەردانی بکرێت",
+                                    "ناوچە بیابانە دوورەدەستەکە تەنھا لە ڕێگەی ھەلیکۆپتەرەوە دەتوانرێت سەردانی بکرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -215,6 +218,7 @@ class EnglishEntryaccessible extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە دەکرێت بەکاربھێبدرێت یان بەردەست بێت بۆ کەسێک کە کێشەی لە ڕێکردن ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -225,6 +229,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                                     "The beach should be accessible to everyone.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +238,10 @@ class EnglishEntryaccessible extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەنار دەریاکە دەبێت بۆ ھەمووکەسێک بەردەست بێت",
+                                    "کەنار دەریاکە دەبێت بۆ ھەمووکەسێک بەردەست بێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -264,6 +270,7 @@ class EnglishEntryaccessible extends StatelessWidget {
 ٣. (ھاوەڵناو) ئاسان بۆ تێگەیشتن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -274,6 +281,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                                     "Her poetry is always very accessible.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -282,9 +290,10 @@ class EnglishEntryaccessible extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شیعرەکانی بۆ گەورە و بچووکن",
+                                    "شیعرەکانی بۆ گەورە و بچووکن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

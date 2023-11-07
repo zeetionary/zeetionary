@@ -164,6 +164,7 @@ class EnglishEntryagrochemical extends StatelessWidget {
 ١. (ناو) مادەی کیمیایی کە بەکاردێت لە کشتوکاڵدا بەکاردێت بۆ کوشتنی مێروو یان باشترکردنی گەشە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryagrochemical extends StatelessWidget {
                                     "They produce a wide range of agrochemicals including pesticides, fungicides, and herbicides.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryagrochemical extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر مادەی کیمیایی درووست دەکەن، لەوانە مێرووکوژ، کەڕووکوژ، گیاکوژ",
+                                    "زۆر مادەی کیمیایی درووست دەکەن، لەوانە مێرووکوژ، کەڕووکوژ، گیاکوژ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

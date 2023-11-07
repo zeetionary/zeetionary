@@ -279,6 +279,7 @@ class EnglishEntryanswer extends StatelessWidget {
 ١. (ناو) شتێک کە دەیکەیت، دەینووسیت، یان دەیڵێیت وەک وەڵام بۆ پرسیارێک یان بارودۆخێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -289,6 +290,7 @@ class EnglishEntryanswer extends StatelessWidget {
                                     "I rang the bell, but there was no answer.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -300,9 +302,10 @@ class EnglishEntryanswer extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زەنگم لێدا بەڵام وەڵام نەبوو",
+                                    "زەنگم لێدا بەڵام وەڵام نەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -337,6 +340,7 @@ class EnglishEntryanswer extends StatelessWidget {
                                     "Can't you give me a definitive answer?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -348,9 +352,10 @@ class EnglishEntryanswer extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەتوانیت وەڵامێکی تەواوم پێ بدەیت",
+                                    "دەتوانیت وەڵامێکی تەواوم پێ بدەیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -385,6 +390,7 @@ class EnglishEntryanswer extends StatelessWidget {
                                     "She had no answer to the accusations.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -396,9 +402,10 @@ class EnglishEntryanswer extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھیچ وەڵامی بۆ تۆمەتەکان نەبوو",
+                                    "ھیچ وەڵامی بۆ تۆمەتەکان نەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -430,6 +437,7 @@ class EnglishEntryanswer extends StatelessWidget {
 ٢. (ناو) شتێک کە دەینووسیت یان دەیڵێیت وەک وەڵام بۆ پرسیارێک لە تاقیکردنەوەیەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -440,6 +448,7 @@ class EnglishEntryanswer extends StatelessWidget {
                                     "Write your answers on the sheet provided.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -451,9 +460,10 @@ class EnglishEntryanswer extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وەڵامەکانت لەسەر ئەو پەڕە بنووسە کە پێت‌دراوە",
+                                    "وەڵامەکانت لەسەر ئەو پەڕە بنووسە کە پێت‌دراوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -488,6 +498,7 @@ class EnglishEntryanswer extends StatelessWidget {
                                     "Do you know the answer (= the right one) to question 12?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -502,6 +513,7 @@ class EnglishEntryanswer extends StatelessWidget {
                                     "وەڵامی پرسیاری ١٢یەم دەزانی؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -533,6 +545,7 @@ class EnglishEntryanswer extends StatelessWidget {
 ٣. (ناو) چارەسەری کێشەیەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -543,6 +556,7 @@ class EnglishEntryanswer extends StatelessWidget {
                                     "This may not be the answer for everyone.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -554,9 +568,10 @@ class EnglishEntryanswer extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەمە ڕەنگە چارەسەر نەبێت بۆ ھەموان",
+                                    "ئەمە ڕەنگە چارەسەر نەبێت بۆ ھەموان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -591,6 +606,7 @@ class EnglishEntryanswer extends StatelessWidget {
                                     "The obvious answer would be to cancel the party.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -602,9 +618,10 @@ class EnglishEntryanswer extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چارەسەری ڕوون ھەڵوەشاندنەوەی ئاھەنگەکەیە",
+                                    "چارەسەری ڕوون ھەڵوەشاندنەوەی ئاھەنگەکەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -636,6 +653,7 @@ class EnglishEntryanswer extends StatelessWidget {
 ٤. (کردار) کردن، نووسین، یان وتنی شتێک وەک وەڵام بۆ پرسیارێک یان بارودۆخێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -646,6 +664,7 @@ class EnglishEntryanswer extends StatelessWidget {
                                     "I repeated the question, but she didn't answer.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -657,9 +676,10 @@ class EnglishEntryanswer extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پرسیارەکەم دووبارە کردەوە بەڵام وەڵامی نەداوە",
+                                    "پرسیارەکەم دووبارە کردەوە بەڵام وەڵامی نەداوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -694,6 +714,7 @@ class EnglishEntryanswer extends StatelessWidget {
                                     "You haven't answered my question.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -705,9 +726,10 @@ class EnglishEntryanswer extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وەڵامی پرسیارەکەمت نەداوەتەوە",
+                                    "وەڵامی پرسیارەکەمت نەداوەتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -742,6 +764,7 @@ class EnglishEntryanswer extends StatelessWidget {
                                     "He refused to answer the charges against him.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -753,9 +776,10 @@ class EnglishEntryanswer extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕەتی‌کردەوە وەڵامی تۆمەتەکانی دژی بداتەوە",
+                                    "ڕەتی‌کردەوە وەڵامی تۆمەتەکانی دژی بداتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -787,6 +811,7 @@ class EnglishEntryanswer extends StatelessWidget {
 ٥. (کردار) بەرگری‌کردن لە خۆت بەرامبەر تۆمەت یان ڕەخنە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -797,6 +822,7 @@ class EnglishEntryanswer extends StatelessWidget {
                                     "He was summoned before the council to answer charges of treason.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -808,9 +834,10 @@ class EnglishEntryanswer extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بانگ‌کرایە پێش ئەنجوومەنەکە بۆ وەڵامدانەوەی تۆمەتی خیانەت",
+                                    "بانگ‌کرایە پێش ئەنجوومەنەکە بۆ وەڵامدانەوەی تۆمەتی خیانەت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

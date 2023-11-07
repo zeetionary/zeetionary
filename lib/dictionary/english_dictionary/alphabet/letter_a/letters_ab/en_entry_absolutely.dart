@@ -164,6 +164,7 @@ class EnglishEntryabsolutely extends StatelessWidget {
 ١. (ھاوەڵکار) بەکاردێت بۆ جەختکردنەوە لەوەی شتێک بەتەواوی ڕاستە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryabsolutely extends StatelessWidget {
                                     "You're absolutely right.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryabsolutely extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەتەواوی ڕاست دەکەیت",
+                                    "بەتەواوی ڕاست دەکەیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryabsolutely extends StatelessWidget {
                                     "The place was absolutely packed.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -224,9 +228,10 @@ class EnglishEntryabsolutely extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شوێنەکە بەتەواوی پڕبوو",
+                                    "شوێنەکە بەتەواوی پڕبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -255,6 +260,7 @@ class EnglishEntryabsolutely extends StatelessWidget {
 ١. (ھاوەڵکار) لەگەڵ ھاوەڵناو بەکاردێت بۆ دەربڕینی ھەست بەتەواوی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -265,6 +271,7 @@ class EnglishEntryabsolutely extends StatelessWidget {
                                     "She absolutely adores you.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -273,9 +280,10 @@ class EnglishEntryabsolutely extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەتەواوی حەزی لێتە",
+                                    "بەتەواوی حەزی لێتە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

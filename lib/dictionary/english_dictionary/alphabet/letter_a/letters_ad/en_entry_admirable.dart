@@ -164,6 +164,7 @@ class EnglishEntryadmirable extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە شایەنی ڕێزە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadmirable extends StatelessWidget {
                                     "Her dedication to her work was admirable.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadmirable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خۆتەرخانکردنی بۆ کارەکەی جێی ڕێزە",
+                                    "خۆتەرخانکردنی بۆ کارەکەی جێی ڕێزە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

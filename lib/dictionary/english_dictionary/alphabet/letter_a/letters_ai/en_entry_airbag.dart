@@ -162,6 +162,7 @@ class EnglishEntryairbag extends StatelessWidget {
 ١. (ناو) ئامێرێکە لە ئۆتۆمبێلدا کە پڕ دەبێت لە ھەوا بۆ پاراستنی شۆفێرەکە لەکاتی پێکداداندا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryairbag extends StatelessWidget {
                                     "In the event of a collision, the airbag stops the driver of the car from hitting his or her chest on the steering wheel.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryairbag extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە حاڵەتی پێکداداندا ئێرباگەکە شۆفێرەکە دەوەستێنێت لە کێشانی سنگی بە سوکانەکەدا",
+                                    "لە حاڵەتی پێکداداندا ئێرباگەکە شۆفێرەکە دەوەستێنێت لە کێشانی سنگی بە سوکانەکەدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

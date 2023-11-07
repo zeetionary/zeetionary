@@ -164,6 +164,7 @@ class EnglishEntryacoustics extends StatelessWidget {
 ١. (ناو) گونجانی دیزاینی بینایەک لەگەڵ گواستنەوەی دەنگ بەناویدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryacoustics extends StatelessWidget {
                                     "The acoustics of the concert hall are excellent.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryacoustics extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھۆڵی کۆنسێرتەکە زۆر گونجاوە بۆ دەنگ",
+                                    "ھۆڵی کۆنسێرتەکە زۆر گونجاوە بۆ دەنگ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -214,6 +217,7 @@ class EnglishEntryacoustics extends StatelessWidget {
 ٢. (ناو) دەنگناسی؛ زانستی لێکۆڵینەوە لە دەنگ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

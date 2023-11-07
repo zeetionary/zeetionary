@@ -213,6 +213,7 @@ class EnglishEntryanomalous extends StatelessWidget {
 ١. (ھاوەڵناو) شتێکی نائاسایی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryanomalous extends StatelessWidget {
                                     "They couldn’t find an explanation for the seemingly anomalous results of the experiment.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryanomalous extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نەیان‌دەتوانی ڕوونکردنەوەیەک بدۆزنەوە بۆ ئەنجامە سەیرەکانی تاقیکردنەوەکە",
+                                    "نەیان‌دەتوانی ڕوونکردنەوەیەک بدۆزنەوە بۆ ئەنجامە سەیرەکانی تاقیکردنەوەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -165,6 +165,7 @@ class EnglishEntryadversary extends StatelessWidget {
 ١. (ناو) کەسێک کە دووژمن یان ڕکابەرتە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryadversary extends StatelessWidget {
                                     "He saw her as his main adversary within the company.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryadversary extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وەک ڕکابەری یەکەمی دەیبینی لە کۆمپانیەکەدا",
+                                    "وەک ڕکابەری یەکەمی دەیبینی لە کۆمپانیەکەدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

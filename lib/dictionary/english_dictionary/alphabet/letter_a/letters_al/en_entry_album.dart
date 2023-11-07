@@ -165,6 +165,7 @@ class EnglishEntryalbum extends StatelessWidget {
 ١. (ناو) کتێبێک کە تێیدا وێنە ھەڵدەگریت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryalbum extends StatelessWidget {
                                     "I keep the photographs in an album.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryalbum extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وێنەکان لە ئەلبومێکدا ھەڵدەگرم",
+                                    "وێنەکان لە ئەلبومێکدا ھەڵدەگرم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryalbum extends StatelessWidget {
 ٢. (ناو) ژمارەیەک پارچە میوزیک یان گۆرانی کە پێکەوە لەسەر ئینتەرنێت یان بە سی دی بڵاودەکرێنەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -229,6 +233,7 @@ class EnglishEntryalbum extends StatelessWidget {
                                     "They recently released their debut album.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,9 +245,10 @@ class EnglishEntryalbum extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەم نزیکانە یەکەم ئەلبومیان بڵاوکردەوە",
+                                    "بەم نزیکانە یەکەم ئەلبومیان بڵاوکردەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -162,6 +162,7 @@ class EnglishEntryacquiesce extends StatelessWidget {
 ١. (ھاوەڵناو) ڕازیبوون بە شتێک ئەگەرچی پێت گونجاو نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryacquiesce extends StatelessWidget {
                                     "She explained her plan and reluctantly we acquiesced.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -180,9 +182,10 @@ class EnglishEntryacquiesce extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پلانەکەی ڕوونکردەوە و ئێمەش بە نابەدڵییەوە ڕازیبووین",
+                                    "پلانەکەی ڕوونکردەوە و ئێمەش بە نابەدڵییەوە ڕازیبووین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

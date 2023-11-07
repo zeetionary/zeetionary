@@ -164,6 +164,7 @@ class EnglishEntryaccuser extends StatelessWidget {
 ١. (ناو) کەسێک کە کەسێک بە تۆمەتباری ڕووداوێک دەزانێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaccuser extends StatelessWidget {
                                     "He demanded the right to face his accusers at a public hearing.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryaccuser extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "داوای مافی ڕووبەڕووبوونەوەی لە گفتوگۆیەکی گشتی کرد بەرامبەر بە سکاڵالێکەرانی",
+                                    "داوای مافی ڕووبەڕووبوونەوەی لە گفتوگۆیەکی گشتی کرد بەرامبەر بە سکاڵالێکەرانی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

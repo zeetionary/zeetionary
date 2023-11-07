@@ -164,6 +164,7 @@ class EnglishEntryadmirer extends StatelessWidget {
 ١. (ناو) کەسێک کە سەرسامە بە  کەسێک یان شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadmirer extends StatelessWidget {
                                     "He is a great admirer of Picasso's early paintings.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadmirer extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەوینداری تابلۆ یەکەمینەکانی پیکاسۆیە",
+                                    "ئەوینداری تابلۆ یەکەمینەکانی پیکاسۆیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -148,6 +148,7 @@ class EnglishEntryabundance extends StatelessWidget {
 ١. (ناو) کاتێک شتێک بوونی ھەیە زیاد لە پێویست''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryabundance extends StatelessWidget {
                                     "The country has an abundance of natural resources.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryabundance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وڵاتەکە ڕێژەیەکی زۆر سامانی سرووشتی ھەیە",
+                                    "وڵاتەکە ڕێژەیەکی زۆر سامانی سرووشتی ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

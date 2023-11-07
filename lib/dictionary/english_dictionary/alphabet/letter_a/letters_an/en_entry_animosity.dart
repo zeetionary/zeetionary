@@ -213,6 +213,7 @@ class EnglishEntryanimosity extends StatelessWidget {
 ١. (ناو) ڕق‌وکینە بەرامبەر کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryanimosity extends StatelessWidget {
                                     "He felt no animosity towards his critics.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryanimosity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەستی بە ھیچ ڕقێک بەرامبەر بە ڕەخنەگرانی نەکرد",
+                                    "ھەستی بە ھیچ ڕقێک بەرامبەر بە ڕەخنەگرانی نەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -271,6 +274,7 @@ class EnglishEntryanimosity extends StatelessWidget {
                                     "They managed to discuss their past disagreements without animosity.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -282,9 +286,10 @@ class EnglishEntryanimosity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "توانیان بەبێ ڕق‌وکینە باسی ناکۆکییەکانی ڕابردوویان بکەن",
+                                    "توانیان بەبێ ڕق‌وکینە باسی ناکۆکییەکانی ڕابردوویان بکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

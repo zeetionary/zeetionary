@@ -212,6 +212,7 @@ class EnglishEntryanemia extends StatelessWidget {
 ١. (ناو) بارودۆخێکی تەندرووستی کە تێیدا کەسێک خڕۆکەی سوور یان ھیمۆگلۆبینی کەمە و دەبێتە ھۆی لاوازی و ڕەنگ‌پەڕیوی ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryanemia extends StatelessWidget {
                                     "The main symptoms of anemia are tiredness and pallor.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryanemia extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نیشانە سەرەکییەکانی ئەنیمیا ماندوێتی و ڕەنگ‌پەڕیویە",
+                                    "نیشانە سەرەکییەکانی ئەنیمیا ماندوێتی و ڕەنگ‌پەڕیویە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

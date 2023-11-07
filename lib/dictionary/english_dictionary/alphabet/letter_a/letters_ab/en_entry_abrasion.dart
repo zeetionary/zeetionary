@@ -157,6 +157,7 @@ class EnglishEntryabrasion extends StatelessWidget {
 ١. (ناو) بەشێکی جەستە کە کڕاوە بە شتێکی زبردا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryabrasion extends StatelessWidget {
                                     "He suffered cuts and abrasions to the face.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -175,9 +177,10 @@ class EnglishEntryabrasion extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تووشی برین و داڕووشان بوو لەسەر ڕووخساری",
+                                    "تووشی برین و داڕووشان بوو لەسەر ڕووخساری.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -206,6 +209,7 @@ class EnglishEntryabrasion extends StatelessWidget {
 ١. (ناو) زیانگەشتن بەڕووی شتێ بەھۆی داڕووشان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -216,6 +220,7 @@ class EnglishEntryabrasion extends StatelessWidget {
                                     "Diamonds have extreme resistance to abrasion.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -224,9 +229,10 @@ class EnglishEntryabrasion extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەڵماس بەرگری زۆری ھەیە بۆ داڕووشان",
+                                    "ئەڵماس بەرگری زۆری ھەیە بۆ داڕووشان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

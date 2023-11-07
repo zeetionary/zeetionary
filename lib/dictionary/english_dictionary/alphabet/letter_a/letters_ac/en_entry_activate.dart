@@ -164,6 +164,7 @@ class EnglishEntryactivate extends StatelessWidget {
 ١. (کردار) چالاککردنی شتێک، بۆ نموونە ئامێرێک یان پڕۆسەیەکی کیمیایی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryactivate extends StatelessWidget {
                                     "The gene is activated by a specific protein.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryactivate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جینەکە لەلایەن پڕۆتینێکی تایبەتەوە چالاک دەکرێت",
+                                    "جینەکە لەلایەن پڕۆتینێکی تایبەتەوە چالاک دەکرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

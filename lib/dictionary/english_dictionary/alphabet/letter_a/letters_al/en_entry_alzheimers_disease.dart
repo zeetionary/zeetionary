@@ -193,6 +193,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
 ١. (ناو) نەخۆشییەک کە زۆرجار بەساڵاچووان تووشی دەبن کە دەبێتەھۆی لەبیرچوونەوە و لەدەستدانی توانای قسەکردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -203,6 +204,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                     "The most common form of dementia is Alzheimer's disease.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -214,9 +216,10 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "باوترین جۆری خەڵەفاوی نەخۆشی ئالزایمێرە",
+                                    "باوترین جۆری خەڵەفاوی نەخۆشی ئالزایمێرە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

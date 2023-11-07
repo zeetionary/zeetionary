@@ -161,6 +161,7 @@ class EnglishEntryabominable extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر قێزەون''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -171,6 +172,7 @@ class EnglishEntryabominable extends StatelessWidget {
                                     "The judge described the attack as an abominable crime.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -179,9 +181,10 @@ class EnglishEntryabominable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دادوەرەکە ھێرشەکەی بە بێزراو پێناسەکرد",
+                                    "دادوەرەکە ھێرشەکەی بە بێزراو پێناسەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -213,6 +216,7 @@ class EnglishEntryabominable extends StatelessWidget {
                                     "We were served the most abominable coffee.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -224,6 +228,7 @@ class EnglishEntryabominable extends StatelessWidget {
                                     "ناخۆشترین قاوەمان پێشکەشکرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -255,6 +260,7 @@ class EnglishEntryabominable extends StatelessWidget {
                                     "I think you are utterly selfish and your behaviour has been abominable.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -263,9 +269,10 @@ class EnglishEntryabominable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێموایە زۆر خۆپەرستیت و ڕەفتارەکانت زۆر ناشرین بوونە",
+                                    "پێموایە زۆر خۆپەرستیت و ڕەفتارەکانت زۆر ناشرین بوونە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

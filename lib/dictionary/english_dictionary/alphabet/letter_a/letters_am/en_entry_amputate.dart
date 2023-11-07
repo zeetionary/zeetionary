@@ -210,6 +210,7 @@ class EnglishEntryamputate extends StatelessWidget {
 ١. (کردار) بڕینەوەی باڵ، لاق، یان پەنجەی کەسێک بە نەشتەرگەری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -220,6 +221,7 @@ class EnglishEntryamputate extends StatelessWidget {
                                     "Her right arm became infected and had to be amputated.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -231,9 +233,10 @@ class EnglishEntryamputate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "باڵی ڕاستی تووشی ھەوکردن بوو و ناچاربوون بی‌بڕنەوە",
+                                    "باڵی ڕاستی تووشی ھەوکردن بوو و ناچاربوون بی‌بڕنەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

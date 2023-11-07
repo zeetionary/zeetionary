@@ -161,6 +161,7 @@ class EnglishEntryaerodynamic extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە خاسیەتەکانی شتێک کە کاردەکاتە سەر جووڵەی لە ھەوادا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

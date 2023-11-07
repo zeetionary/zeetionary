@@ -139,6 +139,7 @@ class EnglishEntryaccordion extends StatelessWidget {
 ١. (ناو) ئامێرێکی میوزیکییە کە بە ھەردوو دەستت دەیگریت و بە پاڵنان و ڕاکێشانی ھەردوو بەشەکەی و پەنجەنان بە کلیلەکانی سەری دەنگ درووست دەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

@@ -164,6 +164,7 @@ class EnglishEntryaggrieved extends StatelessWidget {
 ١. (ھاوەڵناو) ھەستکردن بەوەی بەخراپی مامەڵەت لەگەڵ کراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaggrieved extends StatelessWidget {
                                     "He had every right to feel aggrieved at the decision.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryaggrieved extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەموو مافێکی ھەبوو ھەست بە مافخوراوی بکات  بەھۆی بڕیارەکەوە",
+                                    "ھەموو مافێکی ھەبوو ھەست بە مافخوراوی بکات  بەھۆی بڕیارەکەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

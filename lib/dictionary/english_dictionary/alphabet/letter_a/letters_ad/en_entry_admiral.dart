@@ -162,6 +162,7 @@ class EnglishEntryadmiral extends StatelessWidget {
 ١. (ناو) ئەفسەرێکی زۆر پایەبەرزی ھێزی دەریایی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryadmiral extends StatelessWidget {
                                     "The admiral visited the ships under his command.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -180,9 +182,10 @@ class EnglishEntryadmiral extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەدمیراڵەکە سەردانی کەشتییەکانی ژێر دەسەڵاتی کرد",
+                                    "ئەدمیراڵەکە سەردانی کەشتییەکانی ژێر دەسەڵاتی کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -181,6 +181,7 @@ class EnglishEntryace extends StatelessWidget {
 ١. (کردار) سەرکەوتووبوون لە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -191,6 +192,7 @@ class EnglishEntryace extends StatelessWidget {
                                     "He aced all his tests.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -202,6 +204,7 @@ class EnglishEntryace extends StatelessWidget {
                                     "لە ھەموو تاقیکردنەوەکانی سەرکەوتووبوو ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -231,6 +234,7 @@ class EnglishEntryace extends StatelessWidget {
 ٢. (ناو) کاردێکی یاریی کۆنکان بە سمبولێکی گەورەوە لە ناوەڕاستی کە دەکرێت گەورەترین یان نزمترین بەھای ھەبێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           const DividerDefinition(),
                           const Text(
@@ -239,6 +243,7 @@ class EnglishEntryace extends StatelessWidget {
 ٣. (ناو) کەسێک کە زۆرباشە لە کردنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -249,6 +254,7 @@ class EnglishEntryace extends StatelessWidget {
                                     "French ace Mbappé scored a penalty.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -260,6 +266,7 @@ class EnglishEntryace extends StatelessWidget {
                                     "بلیمەتەکەی فەرەنسا، مباپێ، لێدانێکی سزای کرد بە گۆڵ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -289,6 +296,7 @@ class EnglishEntryace extends StatelessWidget {
 ٤. (ناو) لە یاری تێنسدا، یەکەم سێرڤە کە ھێندە خێرایە دەبێت بە خاڵ ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -299,6 +307,7 @@ class EnglishEntryace extends StatelessWidget {
                                     "He served 20 aces in the match.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -307,9 +316,10 @@ class EnglishEntryace extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە یارییەکەدا ٢٠ جار ھەر بە یەکەم لێدان خاڵی تۆمارکرد",
+                                    "لە یارییەکەدا ٢٠ جار ھەر بە یەکەم لێدان خاڵی تۆمارکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -339,6 +349,7 @@ class EnglishEntryace extends StatelessWidget {
 ٥. (ھاوەڵناو) زۆرباش ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -349,6 +360,7 @@ class EnglishEntryace extends StatelessWidget {
                                     "We had an ace time.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -357,9 +369,10 @@ class EnglishEntryace extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کاتێکی زۆرخۆشمان ھەبوو",
+                                    "کاتێکی زۆرخۆشمان ھەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

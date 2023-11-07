@@ -165,6 +165,7 @@ class EnglishEntryaggravation extends StatelessWidget {
 ١. (ناو) خراپتربوونی بارودۆخێکی خراپ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryaggravation extends StatelessWidget {
                                     "I'd complain to the manager but it's not worth the aggravation.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -189,6 +191,7 @@ class EnglishEntryaggravation extends StatelessWidget {
                                     "لەلای بەڕێوبەر سکاڵا دەکەن، بەڵام ئەوە ناھێنێ (ئەو سەرئێشە تووشی خۆم بکەم)",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -222,6 +225,7 @@ class EnglishEntryaggravation extends StatelessWidget {
                                     "Rest the affected leg to avoid further aggravation of the condition.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +237,10 @@ class EnglishEntryaggravation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لاقە تووشبووەکەت بحەسێنەوە بۆ ئەوەی بارودۆخەکە خراپتر نەبێت",
+                                    "لاقە تووشبووەکەت بحەسێنەوە بۆ ئەوەی بارودۆخەکە خراپتر نەبێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

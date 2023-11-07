@@ -137,6 +137,7 @@ class EnglishEntryabovebelowthefold extends StatelessWidget {
 ١. کاتێک شتێک لە شوێنێک دەردەکەوێت کە بە ئاسانی دەبینرێت یان نابینرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

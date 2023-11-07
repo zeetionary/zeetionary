@@ -164,6 +164,7 @@ class EnglishEntryagronomy extends StatelessWidget {
 ١. (ناو) زانستی گرێدانی کشتوکاڵ و ژینگە پێکەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryagronomy extends StatelessWidget {
                                     "Agronomy encompasses work in many areas including plant genetics, irrigation, and food production.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryagronomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کشتوکاڵناسی زۆر شت لەخۆدەگرێت وەک بۆماوەناسی ڕووەک، ئاودێری، و بەرھەمھێنانی خۆراک",
+                                    "کشتوکاڵناسی زۆر شت لەخۆدەگرێت وەک بۆماوەناسی ڕووەک، ئاودێری، و بەرھەمھێنانی خۆراک.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

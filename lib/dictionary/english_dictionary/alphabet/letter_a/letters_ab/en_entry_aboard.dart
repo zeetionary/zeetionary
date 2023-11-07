@@ -152,6 +152,7 @@ class EnglishEntryaboard extends StatelessWidget {
 ١. (ئامراز، ھاوەڵکار) لەسەر یان ناو کەشتی، فڕۆکە، پاس، یان شمەندەفەر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -162,6 +163,7 @@ class EnglishEntryaboard extends StatelessWidget {
                                     "He was already aboard the plane.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -170,9 +172,10 @@ class EnglishEntryaboard extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێشوەختە لەناو فڕۆکەکە بوو",
+                                    "پێشوەختە لەناو فڕۆکەکە بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -204,6 +207,7 @@ class EnglishEntryaboard extends StatelessWidget {
                                     "The plane crashed, killing all 157 passengers aboard.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -212,9 +216,10 @@ class EnglishEntryaboard extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "فڕۆکەکە تێکشکا و ھەموو ١٥٧ سەرنشینەکەی گیانیان لەدەستدا",
+                                    "فڕۆکەکە تێکشکا و ھەموو ١٥٧ سەرنشینەکەی گیانیان لەدەستدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

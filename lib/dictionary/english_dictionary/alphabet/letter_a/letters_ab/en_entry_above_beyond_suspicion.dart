@@ -137,6 +137,7 @@ class EnglishEntryabovebeyondsuspicion extends StatelessWidget {
 ١. کەسێک کە لە ھەڵە و جێگەی گومان بەدەرە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

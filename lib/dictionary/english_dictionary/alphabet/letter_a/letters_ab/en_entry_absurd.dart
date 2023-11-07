@@ -157,6 +157,7 @@ class EnglishEntryabsurd extends StatelessWidget {
 ١. (ھاوەڵناو) شتێکی گاڵتەجاڕانە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryabsurd extends StatelessWidget {
                                     "That uniform makes the guards look absurd.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -175,9 +177,10 @@ class EnglishEntryabsurd extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جلە یەکپۆشییەکە وا لە سەربازەکان دەکات گاڵتەجاڕانە دەربکەون",
+                                    "جلە یەکپۆشییەکە وا لە سەربازەکان دەکات گاڵتەجاڕانە دەربکەون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -209,6 +212,7 @@ class EnglishEntryabsurd extends StatelessWidget {
                                     "Of course it's not true, what an absurd idea.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -217,9 +221,10 @@ class EnglishEntryabsurd extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەدڵنیاییەوە ڕاست نییە، چی بیرۆکەیەکی گاڵتەجاڕانەیە",
+                                    "بەدڵنیاییەوە ڕاست نییە، چی بیرۆکەیەکی گاڵتەجاڕانەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -232,6 +232,7 @@ class EnglishEntryage extends StatelessWidget {
 ١. (ناو) ژمارەی ئەو ساڵانەی کەسێک ژیاوە یان شتێک بوونی ھەبووە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -242,6 +243,7 @@ class EnglishEntryage extends StatelessWidget {
                                     "When I was your age I was already married.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -253,9 +255,10 @@ class EnglishEntryage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کە لە تەمەنی تۆ بووم ماوەیەک بوو ھاوسەرگیریم کردبوو",
+                                    "کە لە تەمەنی تۆ بووم ماوەیەک بوو ھاوسەرگیریم کردبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -289,6 +292,7 @@ class EnglishEntryage extends StatelessWidget {
                                     "The children range in age from 5 to 10.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -300,9 +304,10 @@ class EnglishEntryage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵەکان تەمەنیان لە نێوان ٥ بۆ ١٠ ساڵانە",
+                                    "منداڵەکان تەمەنیان لە نێوان ٥ بۆ ١٠ ساڵانە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -333,6 +338,7 @@ class EnglishEntryage extends StatelessWidget {
 ٢. (ناو) بۆ ماوەیەکی زۆر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -343,6 +349,7 @@ class EnglishEntryage extends StatelessWidget {
                                     "I waited for ages.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -354,9 +361,10 @@ class EnglishEntryage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ ماوەیەکی زۆر چاوەڕێ بووم",
+                                    "بۆ ماوەیەکی زۆر چاوەڕێ بووم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -387,6 +395,7 @@ class EnglishEntryage extends StatelessWidget {
 ٣. (ناو) کاتێکی دیاریکراو لە تەمەنی کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -397,6 +406,7 @@ class EnglishEntryage extends StatelessWidget {
                                     "She dreaded old age.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -411,6 +421,7 @@ class EnglishEntryage extends StatelessWidget {
                                     "لە پیرێتی دەترسا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -441,6 +452,7 @@ class EnglishEntryage extends StatelessWidget {
 ٤. (ناو) سەردەمێکی دیاریکراو لە مێژوودا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -451,6 +463,7 @@ class EnglishEntryage extends StatelessWidget {
                                     "He lived during the Elizabethan age.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -465,6 +478,7 @@ class EnglishEntryage extends StatelessWidget {
                                     "لە سەردەمی دەسەڵاتداریی ئیلیزابێس ژیا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -495,6 +509,7 @@ class EnglishEntryage extends StatelessWidget {
 ٥. (کردار) تەمەنکردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -505,6 +520,7 @@ class EnglishEntryage extends StatelessWidget {
                                     "As he aged, his memory got worse.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -516,9 +532,10 @@ class EnglishEntryage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کە تەمەنی دەکرد بیر و ھۆشی خراپتر دەبوو",
+                                    "کە تەمەنی دەکرد بیر و ھۆشی خراپتر دەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -549,6 +566,7 @@ class EnglishEntryage extends StatelessWidget {
 ٦. (کردار) پیر دەرکەوتن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -559,6 +577,7 @@ class EnglishEntryage extends StatelessWidget {
                                     "My mother has really aged since she became ill.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -570,9 +589,10 @@ class EnglishEntryage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دایکم ڕەنگی پیربووە لەوەتەی نەخۆش کەوتووە",
+                                    "دایکم ڕەنگی پیربووە لەوەتەی نەخۆش کەوتووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -166,6 +166,7 @@ class EnglishEntryadvice extends StatelessWidget {
 ١. (ھاوەڵناو) بۆچوونێک یان پێشنیارێک لەسەر ئەوەی کەسێک دەبێت چی بکات لە بارودۆخێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryadvice extends StatelessWidget {
                                     "Ask your teacher's advice on how to prepare for the exam.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryadvice extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "داوای ئامۆژگاری لە مامۆستاکەت بکە لەسەر چۆنیەتی خۆ ئامادەکردن بۆ تاقیکردنەوەکە",
+                                    "داوای ئامۆژگاری لە مامۆستاکەت بکە لەسەر چۆنیەتی خۆ ئامادەکردن بۆ تاقیکردنەوەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -220,6 +223,7 @@ class EnglishEntryadvice extends StatelessWidget {
                                     "Let me give you a piece of advice.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -228,9 +232,10 @@ class EnglishEntryadvice extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "با کەمێک ئامۆژگاریت بکەم",
+                                    "با کەمێک ئامۆژگاریت بکەم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

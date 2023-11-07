@@ -164,6 +164,7 @@ class EnglishEntryagony extends StatelessWidget {
 ١. (ناو) ئازاری زۆری جەستەیی یان دەروونی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryagony extends StatelessWidget {
                                     "The soldier died in agony.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryagony extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەربازەکە بە ئازارەوە مرد",
+                                    "سەربازەکە بە ئازارەوە مرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -221,6 +224,7 @@ class EnglishEntryagony extends StatelessWidget {
                                     "Jack collapsed in agony on the floor.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +236,10 @@ class EnglishEntryagony extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جاک لە ئازاردا کەوت بە زەوییەکەدا",
+                                    "جاک لە ئازاردا کەوت بە زەوییەکەدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

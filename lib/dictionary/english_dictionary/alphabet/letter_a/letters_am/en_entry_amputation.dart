@@ -212,6 +212,7 @@ class EnglishEntryamputation extends StatelessWidget {
 ١. (ھاوەڵناو) کردەی بڕینەوەی باڵ، لاق، یان پەنجەی کەسێک بە نەشتەرگەری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryamputation extends StatelessWidget {
                                     "A boyhood accident led to the amputation of one of his legs.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryamputation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕووداوێک لەکاتی منداڵی‌یدا بوو بەھۆی بڕینەوەی لاقێکی",
+                                    "ڕووداوێک لەکاتی منداڵی‌یدا بوو بەھۆی بڕینەوەی لاقێکی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

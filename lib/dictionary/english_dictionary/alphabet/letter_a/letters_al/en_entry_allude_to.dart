@@ -162,6 +162,7 @@ class EnglishEntryalludeto extends StatelessWidget {
 ١. (کاری لێکدراو) ئاماژەکردن بۆ شتێک؛ باسکردنی شتێک بە ناڕاستەوخۆ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryalludeto extends StatelessWidget {
                                     "The problem had been alluded to briefly in earlier discussions.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryalludeto extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە گفتوگۆکانی پێشووتر کێشەکە بە کورتی ئاماژەی پێکراوە",
+                                    "لە گفتوگۆکانی پێشووتر کێشەکە بە کورتی ئاماژەی پێکراوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

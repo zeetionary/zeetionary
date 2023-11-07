@@ -165,6 +165,7 @@ class EnglishEntryad extends StatelessWidget {
 ١. (ناو) وێنەیەک یان ڤیدیۆیەک کە دەیەوێت کەسێک ڕازیبکات بۆ کڕینی شتێک.''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryad extends StatelessWidget {
                                     "I often prefer the ads on TV to the actual programmes.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryad extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆرجار حەزم بە ڕیکلامەکانە لەسەر تەلەفیزیۆن وەک لە خودی پڕۆگرامەکان خۆیان",
+                                    "زۆرجار حەزم بە ڕیکلامەکانە لەسەر تەلەفیزیۆن وەک لە خودی پڕۆگرامەکان خۆیان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryad extends StatelessWidget {
 ٢. (ھاوەڵکار) لە دوای لەدایکبوونی پێغەمبەر عیسا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +230,7 @@ class EnglishEntryad extends StatelessWidget {
                                     "during the seventh century AD",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +239,10 @@ class EnglishEntryad extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە ماوەی سەدەی حەوتەمی دوای زایین",
+                                    "لە ماوەی سەدەی حەوتەمی دوای زایین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

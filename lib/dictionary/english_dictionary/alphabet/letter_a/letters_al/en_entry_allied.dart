@@ -166,6 +166,7 @@ class EnglishEntryallied extends StatelessWidget {
 ١. (ناو) پەیوەندیدار بە چەند وڵاتێکی ھاوپەیمان لە جەنگدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryallied extends StatelessWidget {
                                     "Many civilians died as a result of allied bombing.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -187,9 +189,10 @@ class EnglishEntryallied extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر ھاوڵاتی مەدەنی گیانیان لەدەستدا لە ئەنجامی بۆردوومانی ھاوپەیمانان",
+                                    "زۆر ھاوڵاتی مەدەنی گیانیان لەدەستدا لە ئەنجامی بۆردوومانی ھاوپەیمانان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -220,6 +223,7 @@ class EnglishEntryallied extends StatelessWidget {
 ٢. (ناو) پەیوەندیدار بە وڵاتانی ھاوپەیمان لە جەنگی یەکەم و دووەمی جیھانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -230,6 +234,7 @@ class EnglishEntryallied extends StatelessWidget {
                                     "Italy joined the war on the Allied side in 1915.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -241,9 +246,10 @@ class EnglishEntryallied extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئیتالیا لە ساڵی ١٩١٥ لە بەرەی ھاوپەیمانان پەیوەندی بە جەنگەکەوە کرد",
+                                    "ئیتالیا لە ساڵی ١٩١٥ لە بەرەی ھاوپەیمانان پەیوەندی بە جەنگەکەوە کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -274,6 +280,7 @@ class EnglishEntryallied extends StatelessWidget {
 ٣. (ناو) پەیوەندیدار بە یەکدی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -284,6 +291,7 @@ class EnglishEntryallied extends StatelessWidget {
                                     "Computer science and allied subjects are not taught here.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -295,9 +303,10 @@ class EnglishEntryallied extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زانستی کۆمپیوتەر و بابەتە پەیوەندیدارەکانی لێرە ناوترێنەوە",
+                                    "زانستی کۆمپیوتەر و بابەتە پەیوەندیدارەکانی لێرە ناوترێنەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

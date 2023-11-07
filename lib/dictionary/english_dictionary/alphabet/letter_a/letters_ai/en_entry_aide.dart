@@ -164,6 +164,7 @@ class EnglishEntryaide extends StatelessWidget {
 ١. (ناو) کەسێک کە یارمەتی کەسێکی تر دەدات بۆ کردنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaide extends StatelessWidget {
                                     "He served as an aide to the former president.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryaide extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وەک یاریدەدەری سەرۆکی پێشوو کاری کرد",
+                                    "وەک یاریدەدەری سەرۆکی پێشوو کاری کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

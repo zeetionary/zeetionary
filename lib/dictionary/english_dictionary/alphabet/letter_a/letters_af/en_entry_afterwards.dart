@@ -164,6 +164,7 @@ class EnglishEntryafterwards extends StatelessWidget {
 ١. (ھاوەڵکار) لە کاتێکی دواتر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryafterwards extends StatelessWidget {
                                     "Afterwards she was sorry for what she'd said.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryafterwards extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دواتر زۆر پەشیمان بۆ ئەوەی گوتی",
+                                    "دواتر زۆر پەشیمان بۆ ئەوەی گوتی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryacrimony extends StatelessWidget {
 ١. (ھاوەڵناو) دەربڕینی بیر یان ھەست بە توندی و توڕەیی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                                     "The dispute was settled without acrimony.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,6 +187,7 @@ class EnglishEntryacrimony extends StatelessWidget {
                                     "بابەتەکە بەبێ ناخۆشی چارەسەرکرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

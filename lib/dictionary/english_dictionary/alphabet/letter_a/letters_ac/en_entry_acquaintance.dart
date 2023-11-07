@@ -165,6 +165,7 @@ class EnglishEntryacquaintance extends StatelessWidget {
 ١. (ناو) کەسێک کە ناسیاویت لەگەڵی ھەیە بەڵام ھاوڕێی نزیکت نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryacquaintance extends StatelessWidget {
                                     "I bumped into an old acquaintance on the train.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryacquaintance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە شەمەندەفەرەکە ناسیاوێکی کۆنمم بینی",
+                                    "لە شەمەندەفەرەکە ناسیاوێکی کۆنمم بینی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -215,6 +218,7 @@ class EnglishEntryacquaintance extends StatelessWidget {
 ٢. (ناو) ھاوڕێیەتییەکی کەم''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -225,6 +229,7 @@ class EnglishEntryacquaintance extends StatelessWidget {
                                     "He hoped their acquaintance would develop further.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +238,10 @@ class EnglishEntryacquaintance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھیوای خواست ھاوڕێیەتییەکەیان سەر بۆ زیاتر بکێشێت",
+                                    "ھیوای خواست ھاوڕێیەتییەکەیان سەر بۆ زیاتر بکێشێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

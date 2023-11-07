@@ -212,6 +212,7 @@ class EnglishEntryanew extends StatelessWidget {
 ١. (ھاوەڵکار) کردنی شتێک لە سەرەتاوە یان بە شێوازێکی جیاواز''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryanew extends StatelessWidget {
                                     "They started life anew in Canada.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryanew extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژیانیان سەرلەنوێ لە کەنەدا دەست‌پێکرد",
+                                    "ژیانیان سەرلەنوێ لە کەنەدا دەست‌پێکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

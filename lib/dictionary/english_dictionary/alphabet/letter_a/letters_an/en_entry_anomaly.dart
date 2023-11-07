@@ -213,6 +213,7 @@ class EnglishEntryanomaly extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک یان بارودۆخێک کە نائاساییە وەک لەوەی چاوەڕوانکراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryanomaly extends StatelessWidget {
                                     "There are areas of anomaly in the report.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryanomaly extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەندێک بەشی نائاسایی لە ڕاپۆرتەکە ھەیە",
+                                    "ھەندێک بەشی نائاسایی لە ڕاپۆرتەکە ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

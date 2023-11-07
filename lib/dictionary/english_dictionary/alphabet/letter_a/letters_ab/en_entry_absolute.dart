@@ -184,6 +184,7 @@ class EnglishEntryabsolute extends StatelessWidget {
 ١. (ھاوەڵناو) بەتەواوی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -194,6 +195,7 @@ class EnglishEntryabsolute extends StatelessWidget {
                                     "I've joined a class for absolute beginners.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -202,9 +204,10 @@ class EnglishEntryabsolute extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەشداری وانەیەکم کردووە کە بۆ ئاستی تەواو سەرەتایە",
+                                    "بەشداری وانەیەکم کردووە کە بۆ ئاستی تەواو سەرەتایە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -236,6 +239,7 @@ class EnglishEntryabsolute extends StatelessWidget {
                                     "Clean water is an absolute necessity.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -244,9 +248,10 @@ class EnglishEntryabsolute extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئاوی پاک پێویستییەکی تەواو سەرەتایییە",
+                                    "ئاوی پاک پێویستییەکی تەواو سەرەتایییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -275,6 +280,7 @@ class EnglishEntryabsolute extends StatelessWidget {
 ٢. (ھاوەڵناو) بەکاردێت بۆ جەختکردنەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -285,6 +291,7 @@ class EnglishEntryabsolute extends StatelessWidget {
                                     "We must keep costs to an absolute minimum.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -293,9 +300,10 @@ class EnglishEntryabsolute extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەبێت نرخەکان بە ئەوپەڕی نزمی بھێڵینەوە",
+                                    "دەبێت نرخەکان بە ئەوپەڕی نزمی بھێڵینەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -324,6 +332,7 @@ class EnglishEntryabsolute extends StatelessWidget {
 ٣. (ھاوەڵناو) نەگۆڕ بەبێ ئەوەی گومانی لەسەر بێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -334,6 +343,7 @@ class EnglishEntryabsolute extends StatelessWidget {
                                     "He taught us that the laws of physics were absolute.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -342,9 +352,10 @@ class EnglishEntryabsolute extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "فێریکردین کە یاساکانی فیزیا نەگۆڕن",
+                                    "فێریکردین کە یاساکانی فیزیا نەگۆڕن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -373,6 +384,7 @@ class EnglishEntryabsolute extends StatelessWidget {
 ٤. (ھاوەڵناو) گەشتن بە کۆتایی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -383,6 +395,7 @@ class EnglishEntryabsolute extends StatelessWidget {
                                     "The divorce became absolute last week.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -391,9 +404,10 @@ class EnglishEntryabsolute extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جیابوونەوەکەیان ھەفتەی ڕابردوو گەشت بە کۆتایی",
+                                    "جیابوونەوەکەیان ھەفتەی ڕابردوو گەشت بە کۆتایی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

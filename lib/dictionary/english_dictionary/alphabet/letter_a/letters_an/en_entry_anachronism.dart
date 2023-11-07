@@ -213,6 +213,7 @@ class EnglishEntryanachronism extends StatelessWidget {
 ١. (ناو) کۆنەپەرستی؛ شتێک کە پەیوەندی بە ڕابردوو ھەیە و لەگەڵ سەردەمدا یەکناگرێتەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryanachronism extends StatelessWidget {
                                     "The monarchy is seen by many people as an anachronism in the modern world.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryanachronism extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پاشایەتی لەلایەن زۆر کەس بە بەشێک لە ڕابردوو دادەنرێت لە جیھانی ئەمڕۆدا",
+                                    "پاشایەتی لەلایەن زۆر کەس بە بەشێک لە ڕابردوو دادەنرێت لە جیھانی ئەمڕۆدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -268,6 +271,7 @@ class EnglishEntryanachronism extends StatelessWidget {
 ٢. شتێک کە یەکناگرێتەوە لەگەڵ ئەو سەردەمەی باسی‌دەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -278,6 +282,7 @@ class EnglishEntryanachronism extends StatelessWidget {
                                     "The book is full of anachronisms which suggests there were parts rewritten in later centuries.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -292,6 +297,7 @@ class EnglishEntryanachronism extends StatelessWidget {
                                     "کتێبەکە پڕە لە پاش‌وپێش‌گەری، ئەمەش واتە ھەندێکی دووبارە نووسرایەوە لە سەدەکانی دواتر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

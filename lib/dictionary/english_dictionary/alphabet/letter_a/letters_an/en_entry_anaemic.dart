@@ -33,7 +33,8 @@ class EnglishEntryanaemic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Both actors gave fairly anaemic performances."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Both actors gave fairly anaemic performances."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnaemic(String languageCode) async {
@@ -211,6 +212,7 @@ class EnglishEntryanaemic extends StatelessWidget {
 ١. (ھاوەڵناو) تووشبوو بە کەم‌خوێنی و لاوازی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +223,7 @@ class EnglishEntryanaemic extends StatelessWidget {
                                     "She looks anaemic.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +235,10 @@ class EnglishEntryanaemic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەم‌خوێن دیارە",
+                                    "کەم‌خوێن دیارە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -252,9 +256,9 @@ class EnglishEntryanaemic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnaemic55580(// REPLACE: anaemic /əˈniːmɪk/
-                                        "en-US"),
+                                onPressed: () => speakAnaemic55580(
+                                    // REPLACE: anaemic /əˈniːmɪk/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -266,6 +270,7 @@ class EnglishEntryanaemic extends StatelessWidget {
 ٢. (ھاوەڵناو) بێ‌ھێز و بێ‌کاریگەر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -276,6 +281,7 @@ class EnglishEntryanaemic extends StatelessWidget {
                                     "Both actors gave fairly anaemic performances.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -287,9 +293,10 @@ class EnglishEntryanaemic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەردوو ئەکتەرەکە تاڕادەیەک نمایشی لاوازیان پێشکەش‌کرد",
+                                    "ھەردوو ئەکتەرەکە تاڕادەیەک نمایشی لاوازیان پێشکەش‌کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -307,9 +314,9 @@ class EnglishEntryanaemic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnaemic4966(// REPLACE: anaemic /əˈniːmɪk/
-                                        "en-US"),
+                                onPressed: () => speakAnaemic4966(
+                                    // REPLACE: anaemic /əˈniːmɪk/
+                                    "en-US"),
                               ),
                             ],
                           ),

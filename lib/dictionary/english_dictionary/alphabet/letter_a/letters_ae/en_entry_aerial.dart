@@ -165,6 +165,7 @@ class EnglishEntryaerial extends StatelessWidget {
 ١. (ناو) پارچە دەزگایەک کە لە وایەر درووستکراوە یان پارچە ئاسنی باریک بۆ وەرگرتن و ناردنی ئاماژەی ڕادیۆ یان تەلەڤیزیۆن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryaerial extends StatelessWidget {
                                     "A forest of television aerials on the roofs could be seen afar.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryaerial extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژمارەیەکی زۆر ئاریەڵی تەلەڤیزیۆن لەسەر سەربانەکان لە دوورەوە دیار بوون",
+                                    "ژمارەیەکی زۆر ئاریەڵی تەلەڤیزیۆن لەسەر سەربانەکان لە دوورەوە دیار بوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryaerial extends StatelessWidget {
 ٢. (ھاوەڵناو) لە ئاسمانەوە یان لە ناو فڕۆکەیەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +230,7 @@ class EnglishEntryaerial extends StatelessWidget {
                                     "The massive aerial bombardment of military targets continued unabated.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +239,10 @@ class EnglishEntryaerial extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆمبارانی ئاسمانی بۆ سەر ئامانجە سەربازییەکان بەردەوام بوون",
+                                    "بۆمبارانی ئاسمانی بۆ سەر ئامانجە سەربازییەکان بەردەوام بوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

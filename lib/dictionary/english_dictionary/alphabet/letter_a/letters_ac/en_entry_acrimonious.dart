@@ -164,6 +164,7 @@ class EnglishEntryacrimonious extends StatelessWidget {
 ١. (ھاوەڵناو) مشتومڕێک یان کێشەیەک کە پڕە لە ھەست و قسەی ناخۆش''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryacrimonious extends StatelessWidget {
                                     "His parents went through an acrimonious divorce.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryacrimonious extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دایک و باوکی بە جیابوونەوەیەکی تاڵدا تێپەڕین",
+                                    "دایک و باوکی بە جیابوونەوەیەکی تاڵدا تێپەڕین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

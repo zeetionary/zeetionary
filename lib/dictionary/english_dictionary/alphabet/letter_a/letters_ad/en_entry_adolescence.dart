@@ -164,6 +164,7 @@ class EnglishEntryadolescence extends StatelessWidget {
 ١. (ناو) قۆناغی بوون بە ھەرزەکار''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadolescence extends StatelessWidget {
                                     "Adolescence brings about major changes in a young person’s body.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,6 +187,7 @@ class EnglishEntryadolescence extends StatelessWidget {
                                     "ھەرزەکاری گۆڕانکاریی گرنگ دێنێتە جەستەی کەسێکی گەنج",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

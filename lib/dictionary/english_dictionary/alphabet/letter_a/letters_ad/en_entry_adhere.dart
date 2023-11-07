@@ -163,6 +163,7 @@ class EnglishEntryadhere extends StatelessWidget {
 ١. (کردار) لکان بە شتێکەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryadhere extends StatelessWidget {
                                     "Clean the surface first, or the paint will not adhere.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -181,9 +183,10 @@ class EnglishEntryadhere extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەرەتا ڕووەکەی پاکبکەوە ئەگەرنا بۆیەکە پێوەی نالکێنێت",
+                                    "سەرەتا ڕووەکەی پاکبکەوە ئەگەرنا بۆیەکە پێوەی نالکێنێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -217,6 +220,7 @@ class EnglishEntryadhere extends StatelessWidget {
                                     "Once in the bloodstream, the bacteria adhere to the surface of the red cells.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -225,9 +229,10 @@ class EnglishEntryadhere extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەرکە بچێتە ناو سووڕی خوێن، بەکتریا دەلکێت بە خڕۆکە سوورەکانەوە",
+                                    "ھەرکە بچێتە ناو سووڕی خوێن، بەکتریا دەلکێت بە خڕۆکە سوورەکانەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryadditional extends StatelessWidget {
 ١. (ھاوەڵناو) زیاتر لەوەی سەرەتا باسکراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadditional extends StatelessWidget {
                                     "He provided additional information about this incident.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadditional extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زانیاریی زیادەی لەسەر ڕووداوەکە باسکرد",
+                                    "زانیاریی زیادەی لەسەر ڕووداوەکە باسکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -190,6 +190,7 @@ class EnglishEntryaltogether extends StatelessWidget {
 ١. (ھاوەڵکار) بە تەواوی؛ ھەموو پێکەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -200,6 +201,7 @@ class EnglishEntryaltogether extends StatelessWidget {
                                     "The train went slower and slower until it stopped altogether.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -214,6 +216,7 @@ class EnglishEntryaltogether extends StatelessWidget {
                                     "شەمەندەفەرەکە ھێواشتر و ھێواشتر چوو تا بەتەواوی وەستا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -247,6 +250,7 @@ class EnglishEntryaltogether extends StatelessWidget {
                                     "It was an altogether different situation.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -258,9 +262,10 @@ class EnglishEntryaltogether extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە تەواوی بارودۆخێکی گونجاو بوو",
+                                    "بە تەواوی بارودۆخێکی گونجاو بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -291,6 +296,7 @@ class EnglishEntryaltogether extends StatelessWidget {
 ٢. (ھاوەڵکار) کۆی گشتی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -301,6 +307,7 @@ class EnglishEntryaltogether extends StatelessWidget {
                                     "You owe me £68 altogether.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -312,9 +319,10 @@ class EnglishEntryaltogether extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کۆی گشتی ٦٨ پاوەند قەرزارمی",
+                                    "کۆی گشتی ٦٨ پاوەند قەرزارمی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -345,6 +353,7 @@ class EnglishEntryaltogether extends StatelessWidget {
 ٣. (ھاوەڵکار) بەکورتی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -355,6 +364,7 @@ class EnglishEntryaltogether extends StatelessWidget {
                                     "The food was good and we loved the music. Altogether it was a great evening.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -366,9 +376,10 @@ class EnglishEntryaltogether extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خواردنەکە باش بوو حەزیشمان بە میوزیککە بوو. بەکورتی، شەوێکی خۆش بوو",
+                                    "خواردنەکە باش بوو حەزیشمان بە میوزیککە بوو. بەکورتی، شەوێکی خۆش بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

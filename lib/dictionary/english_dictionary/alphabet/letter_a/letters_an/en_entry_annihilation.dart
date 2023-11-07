@@ -213,6 +213,7 @@ class EnglishEntryannihilation extends StatelessWidget {
 ١. (ناو) لەناوبردنی تەواوەتی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryannihilation extends StatelessWidget {
                                     "During the Cold War the threat of nuclear annihilation was always on people's minds.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryannihilation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە سەردەمی جەنگی سارد ھەڕەشەی قڕبوونی  ئەتۆمی ھەمیشە لە ھزری خەڵکیدا بوو",
+                                    "لە سەردەمی جەنگی سارد ھەڕەشەی قڕبوونی  ئەتۆمی ھەمیشە لە ھزری خەڵکیدا بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -268,6 +271,7 @@ class EnglishEntryannihilation extends StatelessWidget {
 ٢. (ناو) تێکشکاندنی تەواوی کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -278,6 +282,7 @@ class EnglishEntryannihilation extends StatelessWidget {
                                     "The Brazilian needed just 82 minutes to complete the annihilation of his opponent.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -289,9 +294,10 @@ class EnglishEntryannihilation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یاریزانە بەرازیلییەکە پێویستی تەنھا بە ٨٢ خولەک بوو بۆ تێکشکاندنی تەواوی ڕکابەرەکەی",
+                                    "یاریزانە بەرازیلییەکە پێویستی تەنھا بە ٨٢ خولەک بوو بۆ تێکشکاندنی تەواوی ڕکابەرەکەی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

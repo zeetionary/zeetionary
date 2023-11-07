@@ -164,6 +164,7 @@ class EnglishEntryagoraphobic extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە ئەگۆرافۆبیا (ترسی بوون لە شوێنی گشتی و قەرەباڵغ)''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryagoraphobic extends StatelessWidget {
                                     "She is agoraphobic and stays inside as much as she can.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryagoraphobic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تووشبووی ئەگۆرافۆبیا بوو و ھەرچەندە بۆی بکرێت لە ماڵەوە دەمێنێتەوە",
+                                    "تووشبووی ئەگۆرافۆبیا بوو و ھەرچەندە بۆی بکرێت لە ماڵەوە دەمێنێتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

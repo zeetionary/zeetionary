@@ -165,6 +165,7 @@ class EnglishEntryalbatross extends StatelessWidget {
 ١. (ناو) باڵندەیەک کە باڵی درێژی ھەیە و لە زەریای ھێمن و زەریاکانی باشوور دەژی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryalbatross extends StatelessWidget {
                                     "The albatross can stay airborne at sea for days at a time.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryalbatross extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەلباتروس دەتوانێت بۆ چەندین ڕۆژ لەیەک کاتدا لە ئاسماندا بمێنێتەوە",
+                                    "ئەلباتروس دەتوانێت بۆ چەندین ڕۆژ لەیەک کاتدا لە ئاسماندا بمێنێتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryalbatross extends StatelessWidget {
 ٢. (ناو) شتێک کە کێشەت بۆ درووست دەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -229,6 +233,7 @@ class EnglishEntryalbatross extends StatelessWidget {
                                     "The national debt is an albatross around the president’s neck.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,9 +245,10 @@ class EnglishEntryalbatross extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "قەرزە نیشتیمانییەکان مایەی سەرێشەن بۆ سەرۆک",
+                                    "قەرزە نیشتیمانییەکان مایەی سەرێشەن بۆ سەرۆک.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

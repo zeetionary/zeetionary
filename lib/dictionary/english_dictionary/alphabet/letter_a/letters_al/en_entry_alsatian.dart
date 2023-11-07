@@ -163,6 +163,7 @@ class EnglishEntryalsatian extends StatelessWidget {
 ١. (ناو) سەگێکی گەورە کە بەکاردێت لە یارمەتیدانی پۆلیس، بۆ پاسەوانی، یان ڕێنوینی نابینایان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

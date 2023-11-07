@@ -139,6 +139,7 @@ class EnglishEntryabscess extends StatelessWidget {
 ١. (ناو) بەشێکی ھەڵئاوساو و بە ئازاری پێست کە پڕە لە شلەی زەرد''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -149,6 +150,7 @@ class EnglishEntryabscess extends StatelessWidget {
                                     "He had a painful abscess on his hand.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -157,9 +159,10 @@ class EnglishEntryabscess extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دومەڵێکی گەورەی ھەبوو لەسەر دەستی",
+                                    "دومەڵێکی گەورەی ھەبوو لەسەر دەستی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

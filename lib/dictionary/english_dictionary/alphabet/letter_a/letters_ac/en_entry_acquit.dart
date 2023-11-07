@@ -162,6 +162,7 @@ class EnglishEntryacquit extends StatelessWidget {
 ١. (کردار) لێخۆشبوون لە گومانلێکراوێک لە دادگا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryacquit extends StatelessWidget {
                                     "She was acquitted on all charges.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,6 +185,7 @@ class EnglishEntryacquit extends StatelessWidget {
                                     "لە ھەموو تۆمەتەکان بێبەریکرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

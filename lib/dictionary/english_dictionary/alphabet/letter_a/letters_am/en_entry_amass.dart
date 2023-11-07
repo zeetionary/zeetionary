@@ -163,6 +163,7 @@ class EnglishEntryamass extends StatelessWidget {
 ١. (کردار) کۆکردنەوەی ڕێژەیەکی زۆر لە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryamass extends StatelessWidget {
                                     "They amassed enough evidence to convict her.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryamass extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەشی پێویست بەڵگەیان کۆکردەوە تاوانباری بکەن",
+                                    "بەشی پێویست بەڵگەیان کۆکردەوە تاوانباری بکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -220,6 +223,7 @@ class EnglishEntryamass extends StatelessWidget {
                                     "Germany has amassed a large number of troops on the border with France.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -231,9 +235,10 @@ class EnglishEntryamass extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەڵمانیا ڕێژەیەکی زۆر سەربازی لەسەر سنووری فەرەنسا کۆکردووەتەوە",
+                                    "ئەڵمانیا ڕێژەیەکی زۆر سەربازی لەسەر سنووری فەرەنسا کۆکردووەتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

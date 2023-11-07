@@ -164,6 +164,7 @@ class EnglishEntryaggressively extends StatelessWidget {
 ١. (ھاوەڵکار) شەڕەنگێزانە و بەتوڕەیی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaggressively extends StatelessWidget {
                                     "Many drivers behave aggressively on the road.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryaggressively extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر شۆفێر لەسەر شەقامەکان بە توندوتیژی ڕەفتار دەکەن",
+                                    "زۆر شۆفێر لەسەر شەقامەکان بە توندوتیژی ڕەفتار دەکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -218,6 +221,7 @@ class EnglishEntryaggressively extends StatelessWidget {
 ٢. (ھاوەڵکار) بەشێوەیەک کە ھێز و ماندووبوونی زیاتری تێدایە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -228,6 +232,7 @@ class EnglishEntryaggressively extends StatelessWidget {
                                     "They played more aggressively in the second half.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -239,9 +244,10 @@ class EnglishEntryaggressively extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە گێمی دووەم سەرسەختانەتر یارییان کرد",
+                                    "لە گێمی دووەم سەرسەختانەتر یارییان کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

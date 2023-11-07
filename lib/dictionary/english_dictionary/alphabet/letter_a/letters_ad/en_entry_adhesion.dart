@@ -163,6 +163,7 @@ class EnglishEntryadhesion extends StatelessWidget {
 ١. (ناو) توانای نووساندن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

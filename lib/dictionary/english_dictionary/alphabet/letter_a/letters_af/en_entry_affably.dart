@@ -162,6 +162,7 @@ class EnglishEntryaffably extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەکی ڕووخۆشی و ھاوڕێیانە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryaffably extends StatelessWidget {
                                     "We chatted affably for a few minutes.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -180,9 +182,10 @@ class EnglishEntryaffably extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ چەند خولەکێك بە ھاوڕێیانە قسەمان کرد",
+                                    "بۆ چەند خولەکێك بە ھاوڕێیانە قسەمان کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

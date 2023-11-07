@@ -25,7 +25,8 @@ class EnglishEntryanalgesic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("This cream contains a mild analgesic to soothe stings and bites."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This cream contains a mild analgesic to soothe stings and bites."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnalgesic101(String languageCode) async {
@@ -33,7 +34,8 @@ class EnglishEntryanalgesic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Aspirin is a mild analgesic."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Aspirin is a mild analgesic."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnalgesic(String languageCode) async {
@@ -135,9 +137,9 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAnalgesic(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAnalgesic(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -211,6 +213,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی خاسیەتی ئازارشکێن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +224,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                     "This cream contains a mild analgesic to soothe stings and bites.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +236,10 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم کرێمە ئازارشکێنێکی سووکی تێدایە کە پێوەدان و ھەستن ھێوردەکاتەوە",
+                                    "ئەم کرێمە ئازارشکێنێکی سووکی تێدایە کە پێوەدان و ھەستن ھێوردەکاتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -252,9 +257,9 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnalgesic5802(// REPLACE: analgesic /ˌænəlˈdʒiːzɪk/
-                                        "en-US"),
+                                onPressed: () => speakAnalgesic5802(
+                                    // REPLACE: analgesic /ˌænəlˈdʒiːzɪk/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -266,6 +271,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
 ٢. (ناو) ئازارشکێن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -276,6 +282,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                     "Aspirin is a mild analgesic.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -287,9 +294,10 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەسپرین ئازارشکێنێکی سووکە",
+                                    "ئەسپرین ئازارشکێنێکی سووکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -307,9 +315,9 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnalgesic101(// REPLACE: analgesic /ˌænəlˈdʒiːzɪk/
-                                        "en-US"),
+                                onPressed: () => speakAnalgesic101(
+                                    // REPLACE: analgesic /ˌænəlˈdʒiːzɪk/
+                                    "en-US"),
                               ),
                             ],
                           ),

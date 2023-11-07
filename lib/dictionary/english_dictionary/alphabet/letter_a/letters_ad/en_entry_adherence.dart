@@ -164,6 +164,7 @@ class EnglishEntryadherence extends StatelessWidget {
 ١. (ناو) پابەندبوون بە شتێک کە باوەڕت پێی ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadherence extends StatelessWidget {
                                     "strict adherence to the rules",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadherence extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پابەندبوونی توند بە یاساکانەوە",
+                                    "پابەندبوونی توند بە یاساکانەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

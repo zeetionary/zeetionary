@@ -139,6 +139,7 @@ class EnglishEntryabiding extends StatelessWidget {
 ١. (ھاوەڵناو) کاتێک ھەستێک یان باوەڕێک بۆ ماوەیەکی زۆر بەبێ گۆڕان بەردەوام دەبێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -151,6 +152,7 @@ He is an artist with an abiding concern for humanity.
                                     ''',
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -164,6 +166,7 @@ He is an artist with an abiding concern for humanity.
                                     ''',
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -157,6 +157,7 @@ class EnglishEntryabstention extends StatelessWidget {
 ١. (ناو) بەژاداری نەکردن لە دەنگدان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryabstention extends StatelessWidget {
                                     "Voter abstention is seen as the only real form of dissent in elections.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -175,9 +177,10 @@ class EnglishEntryabstention extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە ھەڵبژاردندا، بایکۆت بە تەنھا جۆری ڕاستیی ناڕەزایی دەربڕین دێت",
+                                    "لە ھەڵبژاردندا، بایکۆت بە تەنھا جۆری ڕاستیی ناڕەزایی دەربڕین دێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -206,6 +209,7 @@ class EnglishEntryabstention extends StatelessWidget {
 ١. (ناو) خۆبەدوورگرتن لە شتێک کە حەزت لێیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -216,6 +220,7 @@ class EnglishEntryabstention extends StatelessWidget {
                                     "The Church insisted on abstention from all luxuries.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -227,6 +232,7 @@ class EnglishEntryabstention extends StatelessWidget {
                                     "کڵێساکە خۆی بەدووردەگرت لە ھەموو جۆرە شتێکی جوان ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

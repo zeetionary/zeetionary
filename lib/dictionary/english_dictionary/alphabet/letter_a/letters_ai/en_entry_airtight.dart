@@ -164,6 +164,7 @@ class EnglishEntryairtight extends StatelessWidget {
 ١. (ھاوەڵناو) ڕێگەنەدان بە ھاتووچۆی ھەوا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryairtight extends StatelessWidget {
                                     "Store the cake in an airtight container.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryairtight extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کێکەکە لە دەفرێکی ھەوانەکێش ھەڵبگرە",
+                                    "کێکەکە لە دەفرێکی ھەوانەکێش ھەڵبگرە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -165,6 +165,7 @@ class EnglishEntryalgebra extends StatelessWidget {
 ١. (ناو) جۆرێکی بیرکاری کە تێیدا ژمارە و ھێماکان بڕ پیشان دەدەن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryalgebra extends StatelessWidget {
                                     "She is fascinated by algebra while he considers it meaningless nonsense.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryalgebra extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کچەکە حەزی بە ئەلجبرەیە لەکاتێکدا کوڕەکە بە ھیچ و پڕووپووچی دادەنا",
+                                    "کچەکە حەزی بە ئەلجبرەیە لەکاتێکدا کوڕەکە بە ھیچ و پڕووپووچی دادەنا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -219,6 +219,7 @@ class EnglishEntryacross extends StatelessWidget {
 ١. (ئامراز) لەلایەک بۆ لەیەکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -229,6 +230,7 @@ class EnglishEntryacross extends StatelessWidget {
                                     "I drew a line across the page.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -237,9 +239,10 @@ class EnglishEntryacross extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھێڵێکم کێشا لە لایەکی پەڕەکە بۆ لەیەکەی تری",
+                                    "ھێڵێکم کێشا لە لایەکی پەڕەکە بۆ لەیەکەی تری.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -272,6 +275,7 @@ class EnglishEntryacross extends StatelessWidget {
                                     "Where's the nearest bridge across the river?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -280,9 +284,10 @@ class EnglishEntryacross extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نزیکترین پرد کە بەسەر ڕووبارەکەدا بڕوات لە کوێیە",
+                                    "نزیکترین پرد کە بەسەر ڕووبارەکەدا بڕوات لە کوێیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -312,6 +317,7 @@ class EnglishEntryacross extends StatelessWidget {
 ٢. (ئامراز) لەلایەکەی تری شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -322,6 +328,7 @@ class EnglishEntryacross extends StatelessWidget {
                                     "There's a bank right across the street.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -330,9 +337,10 @@ class EnglishEntryacross extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بانکێک ھەیە لە لایەکەی تری شەقامەکەوە",
+                                    "بانکێک ھەیە لە لایەکەی تری شەقامەکەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -362,6 +370,7 @@ class EnglishEntryacross extends StatelessWidget {
 ٣. (ئامراز) لەسەر بەشێکی جەستە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -372,6 +381,7 @@ class EnglishEntryacross extends StatelessWidget {
                                     "He hit him across the face.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -380,9 +390,10 @@ class EnglishEntryacross extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کێشای بە ڕووخساریدا",
+                                    "کێشای بە ڕووخساریدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -412,6 +423,7 @@ class EnglishEntryacross extends StatelessWidget {
 ٤. (ئامراز) لە ھەموو بەشێکی وڵاتێک، گرووپێک. شوێنێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -422,6 +434,7 @@ class EnglishEntryacross extends StatelessWidget {
                                     "Her family is scattered across the country.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -430,9 +443,10 @@ class EnglishEntryacross extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خێزانەکەی بە وڵاتەکەدا بڵاوبووبوونەوە",
+                                    "خێزانەکەی بە وڵاتەکەدا بڵاوبووبوونەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -462,6 +476,7 @@ class EnglishEntryacross extends StatelessWidget {
 ٥. (ھاوەڵکار) لەلایەک بۆ لەیەکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -472,6 +487,7 @@ class EnglishEntryacross extends StatelessWidget {
                                     "The river is too wide. We can't swim across.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -480,9 +496,10 @@ class EnglishEntryacross extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕووبارەکە زۆر فراوانە. ناتوانین بپەڕینەوە",
+                                    "ڕووبارەکە زۆر فراوانە. ناتوانین بپەڕینەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -512,6 +529,7 @@ class EnglishEntryacross extends StatelessWidget {
 ٦. (ھاوەڵکار) بە ئاراستەیەکی دیاریکراو و ڕوو لە کەسێک یان شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -522,6 +540,7 @@ class EnglishEntryacross extends StatelessWidget {
                                     "When my name was called, he looked across at me.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -530,9 +549,10 @@ class EnglishEntryacross extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کە ناوم خوێندرایەوە، ڕاستەوخۆ ڕووی لە من کرد",
+                                    "کە ناوم خوێندرایەوە، ڕاستەوخۆ ڕووی لە من کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -562,6 +582,7 @@ class EnglishEntryacross extends StatelessWidget {
 ٧. (ھاوەڵکار) لە بەرامبەر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -572,6 +593,7 @@ class EnglishEntryacross extends StatelessWidget {
                                     "There's a school just across from our house.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -580,9 +602,10 @@ class EnglishEntryacross extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خوێندنگەیەک لە بەرامبەر ماڵمان ھەیە",
+                                    "خوێندنگەیەک لە بەرامبەر ماڵمان ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

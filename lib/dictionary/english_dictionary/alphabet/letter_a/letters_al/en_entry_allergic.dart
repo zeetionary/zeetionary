@@ -166,6 +166,7 @@ class EnglishEntryallergic extends StatelessWidget {
 ١. (ھاوەڵناو) بوونی ھەستیاری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryallergic extends StatelessWidget {
                                     "I like cats but unfortunately I'm allergic to them.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -187,9 +189,10 @@ class EnglishEntryallergic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حەزم لە پشیلەیە بەڵام ھەستیارم پێی",
+                                    "حەزم لە پشیلەیە بەڵام ھەستیارم پێی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -220,6 +223,7 @@ class EnglishEntryallergic extends StatelessWidget {
 ٢. (ھاوەڵناو) درووست بوو بەھۆی ھەستیاری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -230,6 +234,7 @@ class EnglishEntryallergic extends StatelessWidget {
                                     "He had an allergic reaction after eating the kiwi.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -241,9 +246,10 @@ class EnglishEntryallergic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کاردانەوەیەکی ھەستیاری ھەبوو لە دوای خواردنی کیوییەکە",
+                                    "کاردانەوەیەکی ھەستیاری ھەبوو لە دوای خواردنی کیوییەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -274,6 +280,7 @@ class EnglishEntryallergic extends StatelessWidget {
 ٣. (ھاوەڵناو) ھەبوونی ڕقێکی زۆر بۆشتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -284,6 +291,7 @@ class EnglishEntryallergic extends StatelessWidget {
                                     "You could see he was allergic to housework.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -295,9 +303,10 @@ class EnglishEntryallergic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەستت پێدەکرد ڕقی زۆری لە ئیشی ماڵەوە بوو",
+                                    "ھەستت پێدەکرد ڕقی زۆری لە ئیشی ماڵەوە بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

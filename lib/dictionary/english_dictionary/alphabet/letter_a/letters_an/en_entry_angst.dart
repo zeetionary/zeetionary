@@ -207,11 +207,12 @@ class EnglishEntryangst extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: (لە ئاڵمانی‌یەوە بە واتای "ترس") نگەرانی، ترس، دەروون‌تەنگی، ئارام‌لێ‌ھەڵگیراوی، دڵەڕاوکێ، ناڕەحەتی (بەتایبەت لە ڕەوش و بارودۆخی جیھان‌دا)
+کوردی: (لە ئاڵمانی‌یەوە بە واتای "ترس.") نگەرانی، ترس، دەروون‌تەنگی، ئارام‌لێ‌ھەڵگیراوی، دڵەڕاوکێ، ناڕەحەتی (بەتایبەت لە ڕەوش و بارودۆخی جیھان‌دا)
 
 ١. (ناو) ھەستی نیگەرانییەکی زۆر سەبارەت بە بارودۆخێک یان ژیانت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryangst extends StatelessWidget {
                                     "The boy’s mysterious disappearance has caused angst and guilt for the family.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryangst extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دیارنەمانی نادیاری کوڕەکە بووە بەھۆی نیگەرانی و ھەستی خەتاباری بۆ خێزانەکە",
+                                    "دیارنەمانی نادیاری کوڕەکە بووە بەھۆی نیگەرانی و ھەستی خەتاباری بۆ خێزانەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

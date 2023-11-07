@@ -211,6 +211,7 @@ class EnglishEntryanagram extends StatelessWidget {
 ١. (ناو) وشەیەک کە لە دووبارە ڕێکخستنەوەی پیتەکانی وشەیەکی تر درووست‌بووە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           // Row(
                           //   children: [
@@ -232,7 +233,7 @@ class EnglishEntryanagram extends StatelessWidget {
                           //       child: Align(
                           //         alignment: Alignment.topLeft,
                           //         child: Text(
-                          //           "رستە_رستە_رستە_رستە",
+                          //           "رستە_رستە_رستە_رستە.",
                           //           textAlign: TextAlign
                           //               .right, // Right-to-left direction
                           //         ),

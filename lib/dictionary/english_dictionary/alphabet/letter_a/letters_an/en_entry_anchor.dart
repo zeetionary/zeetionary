@@ -25,7 +25,8 @@ class EnglishEntryanchor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We raised the anchor and set sail."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We raised the anchor and set sail."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnchor104(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntryanchor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She was my anchor when things were difficult for me."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She was my anchor when things were difficult for me."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnchor1044(String languageCode) async {
@@ -49,7 +51,8 @@ class EnglishEntryanchor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She was questioned by a BBC anchor about her trip."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She was questioned by a BBC anchor about her trip."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnchor0995(String languageCode) async {
@@ -57,7 +60,8 @@ class EnglishEntryanchor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We anchored off the coast of Spain."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("We anchored off the coast of Spain."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnchor550(String languageCode) async {
@@ -65,7 +69,8 @@ class EnglishEntryanchor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The ropes were anchored to the rocks."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The ropes were anchored to the rocks."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnchor5006(String languageCode) async {
@@ -73,7 +78,8 @@ class EnglishEntryanchor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Her novels are anchored in everyday experience."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Her novels are anchored in everyday experience."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnchor444(String languageCode) async {
@@ -81,7 +87,8 @@ class EnglishEntryanchor extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She anchored the evening news for seven years."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She anchored the evening news for seven years."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -211,6 +218,7 @@ class EnglishEntryanchor extends StatelessWidget {
 ١. (ناو) پارچە ئاسنێکی قورس کە بە زنجیرێک یان گوریسێک بەستراوە و لەلایەکی کەشتیەک یان بەلەمێکەوە دەخرێتەخوارەوە بۆ ئەوەی لەنگەر بگرێت ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +229,7 @@ class EnglishEntryanchor extends StatelessWidget {
                                     "We raised the anchor and set sail.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +241,10 @@ class EnglishEntryanchor extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەنگەرەکەمان خستەخوارەوە و دەستمان بە گەشت‌کرد",
+                                    "لەنگەرەکەمان خستەخوارەوە و دەستمان بە گەشت‌کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -269,6 +279,7 @@ class EnglishEntryanchor extends StatelessWidget {
                                     "We weighed anchor (= pulled it out of the water).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -283,6 +294,7 @@ class EnglishEntryanchor extends StatelessWidget {
                                     "لەنگەرەکەمان ھەڵکێشا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -314,6 +326,7 @@ class EnglishEntryanchor extends StatelessWidget {
 ٢. (ناو) پشت‌و‌پەنا؛ کەسێک کە پشتیوانی کەسێک دەکات لە تەنگانەدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -324,6 +337,7 @@ class EnglishEntryanchor extends StatelessWidget {
                                     "She was my anchor when things were difficult for me.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -335,9 +349,10 @@ class EnglishEntryanchor extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کە شتەکان سەخت‌بوون بۆم ئەو پشت‌وپەنام بوو",
+                                    "کە شتەکان سەخت‌بوون بۆم ئەو پشت‌وپەنام بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -369,6 +384,7 @@ class EnglishEntryanchor extends StatelessWidget {
 ٣. (ناو) پێشکەشکاری تەلەفیزیۆن یان ڕادیۆ ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -379,6 +395,7 @@ class EnglishEntryanchor extends StatelessWidget {
                                     "She was questioned by a BBC anchor about her trip.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -390,9 +407,10 @@ class EnglishEntryanchor extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەلایەن پێشکەشکارێکی بی‌بی‌سی‌یەوە پرسیاری لێکرا لەسەر گەشتەکەی",
+                                    "لەلایەن پێشکەشکارێکی بی‌بی‌سی‌یەوە پرسیاری لێکرا لەسەر گەشتەکەی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -424,6 +442,7 @@ class EnglishEntryanchor extends StatelessWidget {
 ٤. (کردار) داگرتنی لەنگەری کەشتییەک یان بەلەمێک بۆ وەستاندنی لە جوڵان ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -434,6 +453,7 @@ class EnglishEntryanchor extends StatelessWidget {
                                     "We anchored off the coast of Spain.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -445,9 +465,10 @@ class EnglishEntryanchor extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە کەناراوەکانی ئیسپانیا لەنگەرمان گرت",
+                                    "لە کەناراوەکانی ئیسپانیا لەنگەرمان گرت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -479,6 +500,7 @@ class EnglishEntryanchor extends StatelessWidget {
 ٥. (کردار) دانانی شتێک لە شوێنێک کە چی‌تر ناجوڵێت ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -489,6 +511,7 @@ class EnglishEntryanchor extends StatelessWidget {
                                     "The ropes were anchored to the rocks.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -500,9 +523,10 @@ class EnglishEntryanchor extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گوریسەکان لە بەردەکان گیرکرابوون",
+                                    "گوریسەکان لە بەردەکان گیرکرابوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -534,6 +558,7 @@ class EnglishEntryanchor extends StatelessWidget {
 ٦. (کردار) پشت‌بەستنی شتێک بە شتێکی تر ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -544,6 +569,7 @@ class EnglishEntryanchor extends StatelessWidget {
                                     "Her novels are anchored in everyday experience.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -555,9 +581,10 @@ class EnglishEntryanchor extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕۆمانەکانی پشت بە ئەزموونی ڕۆژانە دەبەستن",
+                                    "ڕۆمانەکانی پشت بە ئەزموونی ڕۆژانە دەبەستن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -589,6 +616,7 @@ class EnglishEntryanchor extends StatelessWidget {
 ٧. (کردار) پێشکەشکردنی ھەواڵ ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -599,6 +627,7 @@ class EnglishEntryanchor extends StatelessWidget {
                                     "She anchored the evening news for seven years.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -610,9 +639,10 @@ class EnglishEntryanchor extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەواڵی ئێوارانی بۆ حەوت ساڵ پێشکەش‌دەکرد",
+                                    "ھەواڵی ئێوارانی بۆ حەوت ساڵ پێشکەش‌دەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

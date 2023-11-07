@@ -143,6 +143,7 @@ class EnglishEntryabnormally extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە جیاوازە لە شێوازی ئاسایی بۆ جۆرێک کە جێگەی نیگەرانییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -153,6 +154,7 @@ class EnglishEntryabnormally extends StatelessWidget {
                                     "abnormally high blood pressure",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -161,9 +163,10 @@ class EnglishEntryabnormally extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پەستانی نائاسایی بەرز لە خوێندا",
+                                    "پەستانی نائاسایی بەرز لە خوێندا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

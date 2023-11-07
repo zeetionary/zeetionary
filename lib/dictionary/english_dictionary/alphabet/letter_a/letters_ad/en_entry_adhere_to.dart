@@ -163,6 +163,7 @@ class EnglishEntryadhereto extends StatelessWidget {
 ١. (کاری لێکدراو) شوێنکەوتنی ڕەچەتەیەک، یاسایەک یان شتێک کە باوەڕی پێی ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                                     "For ten months he adhered to a no-fat low-salt diet.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -181,9 +183,10 @@ class EnglishEntryadhereto extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ ماوەی ١٠ مانگ پابەند بوو بە ژەمێکی بە چەوری کەم خوێ",
+                                    "بۆ ماوەی ١٠ مانگ پابەند بوو بە ژەمێکی بە چەوری کەم خوێ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -217,6 +220,7 @@ class EnglishEntryadhereto extends StatelessWidget {
                                     "She adheres to teaching methods she learned over 30 years ago.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -225,9 +229,10 @@ class EnglishEntryadhereto extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شوێن ئەو ڕێگایانەی وانەوتنەوە دەکەوێت کە ٣٠ ساڵ پێش ئێستا فێری بووە",
+                                    "شوێن ئەو ڕێگایانەی وانەوتنەوە دەکەوێت کە ٣٠ ساڵ پێش ئێستا فێری بووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

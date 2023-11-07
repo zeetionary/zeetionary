@@ -265,6 +265,7 @@ class EnglishEntryactive extends StatelessWidget {
 ١. (ھاوەڵناو) سەرقاڵ بە کارکردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -275,6 +276,7 @@ class EnglishEntryactive extends StatelessWidget {
                                     "Staying physically active in later years can also keep you feeling younger.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -283,9 +285,10 @@ class EnglishEntryactive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھێشتنەوەی چالاکیی جەستەیی لە کۆتاییەکانی ژیانت وات لێ دەکات ھەست بە گەنجی بکەی",
+                                    "ھێشتنەوەی چالاکیی جەستەیی لە کۆتاییەکانی ژیانت وات لێ دەکات ھەست بە گەنجی بکەی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -315,6 +318,7 @@ class EnglishEntryactive extends StatelessWidget {
 ٢. (ھاوەڵناو) بەژداربوون لە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -325,6 +329,7 @@ class EnglishEntryactive extends StatelessWidget {
                                     "They were both politically active.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -333,9 +338,10 @@ class EnglishEntryactive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەردووکیان لە سیاسەتدا چالاک بوون",
+                                    "ھەردووکیان لە سیاسەتدا چالاک بوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -365,6 +371,7 @@ class EnglishEntryactive extends StatelessWidget {
 ٣. (ھاوەڵناو) کردنی شتێک بە بەردەوامی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -375,6 +382,7 @@ class EnglishEntryactive extends StatelessWidget {
                                     "These animals are active only at night.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -383,9 +391,10 @@ class EnglishEntryactive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم ئاژەڵانە تەنھا لە شەودا چالاکن",
+                                    "ئەم ئاژەڵانە تەنھا لە شەودا چالاکن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -415,6 +424,7 @@ class EnglishEntryactive extends StatelessWidget {
 ٤. (ھاوەڵناو) کارا و پڕ لە بیرۆکە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -425,6 +435,7 @@ class EnglishEntryactive extends StatelessWidget {
                                     "That child has a very active imagination.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -433,9 +444,10 @@ class EnglishEntryactive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو منداڵە خەیاڵێکی کارای ھەیە",
+                                    "ئەو منداڵە خەیاڵێکی کارای ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -465,6 +477,7 @@ class EnglishEntryactive extends StatelessWidget {
 ٥. (ھاوەڵناو) شتێک کە ھێشتا کاردەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -475,6 +488,7 @@ class EnglishEntryactive extends StatelessWidget {
                                     "Ensure the website URL is an active link.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -483,9 +497,10 @@ class EnglishEntryactive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دڵنیابەوە کە لینکی وێبسایتەکە چالاکە",
+                                    "دڵنیابەوە کە لینکی وێبسایتەکە چالاکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -515,6 +530,7 @@ class EnglishEntryactive extends StatelessWidget {
 ٦. (ھاوەڵناو) لە ڕێزماندا ئەو کردارەیە کە بکەری ڕستەکە جێبەجێکەریەتی ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -525,6 +541,7 @@ class EnglishEntryactive extends StatelessWidget {
                                     "In ‘He was driving the car’, the verb is active.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -533,9 +550,10 @@ class EnglishEntryactive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە ڕستەی 'ئەو ئۆتۆمبێلەکەی لێدەخوڕی،' کردارەکە لە شێوەی دیارە",
+                                    "لە ڕستەی 'ئەو ئۆتۆمبێلەکەی لێدەخوڕی،' کردارەکە لە شێوەی دیارە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

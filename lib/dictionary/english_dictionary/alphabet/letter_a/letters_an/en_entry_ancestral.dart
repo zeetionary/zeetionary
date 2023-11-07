@@ -25,7 +25,8 @@ class EnglishEntryancestral extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They had long planned to visit the family's ancestral homeland in the Philippines."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They had long planned to visit the family's ancestral homeland in the Philippines."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAncestral(String languageCode) async {
@@ -135,9 +136,9 @@ class EnglishEntryancestral extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAncestral(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAncestral(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -211,6 +212,7 @@ class EnglishEntryancestral extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە باوانی کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +223,7 @@ class EnglishEntryancestral extends StatelessWidget {
                                     "They had long planned to visit the family's ancestral homeland in the Philippines.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +235,10 @@ class EnglishEntryancestral extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ماوەیەکی زۆر بوو پلانیان بوو سەردانی نیشتیمانی باوانیان بکەن کە لە فلیپین بوو",
+                                    "ماوەیەکی زۆر بوو پلانیان بوو سەردانی نیشتیمانی باوانیان بکەن کە لە فلیپین بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -252,9 +256,9 @@ class EnglishEntryancestral extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAncestral4609(// REPLACE: ancestral /ænˈsestrəl/
-                                        "en-US"),
+                                onPressed: () => speakAncestral4609(
+                                    // REPLACE: ancestral /ænˈsestrəl/
+                                    "en-US"),
                               ),
                             ],
                           ),

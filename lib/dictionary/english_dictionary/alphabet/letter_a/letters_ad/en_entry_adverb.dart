@@ -163,6 +163,7 @@ class EnglishEntryadverb extends StatelessWidget {
 ١. (ناو) وشەیەک کە زانیاری زیاد دەکات لەسەر کات، شوێن، شێواز، ھۆکار، یان ئاست بۆ کردارێک، ھاوەڵناوێک، دەستەواژەیەک، یان ھاوەڵکارێکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

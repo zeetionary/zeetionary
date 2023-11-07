@@ -213,6 +213,7 @@ class EnglishEntryannulment extends StatelessWidget {
 ١. (ناو) کرداری بەفەرمی ناساندنی ئەوەی شتێک، بەتایبەتی ھاوسەرگیری، لەڕووی یاساییەوە نەناسراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryannulment extends StatelessWidget {
                                     "The king sought an annulment of his marriage to Catherine of Aragon.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryannulment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پاشا ھەوڵی‌دا ھەڵوەشاندنەوەی ھاوسەرگیرییەکەی لەگەڵ کاسرینی ئاراگۆن دا",
+                                    "پاشا ھەوڵی‌دا ھەڵوەشاندنەوەی ھاوسەرگیرییەکەی لەگەڵ کاسرینی ئاراگۆن دا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -170,6 +170,7 @@ class EnglishEntryamoeba extends StatelessWidget {
 ١. (ناو) زیندەوەرێکی سەرەتایی کە لە یەک خانە پێکھاتووە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -180,6 +181,7 @@ class EnglishEntryamoeba extends StatelessWidget {
                                     "He is studying the ecology of amoeba.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -194,6 +196,7 @@ class EnglishEntryamoeba extends StatelessWidget {
                                     "توێژینەوە دەکات لەسەر ژینگەناسیی ئەمیبا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

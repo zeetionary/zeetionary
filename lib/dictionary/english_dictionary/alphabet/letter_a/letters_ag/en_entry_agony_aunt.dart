@@ -161,6 +161,7 @@ class EnglishEntryagonyaunt extends StatelessWidget {
 ١. (ناو) کەسێک کە لە ڕۆژنامە، گۆڤار، یان وێبسایتێک وەڵامی خەڵکی دەداتەوە و ڕاوێژیان پێدەدا لەسەر کێشەکانیان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

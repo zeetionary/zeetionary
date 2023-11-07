@@ -163,6 +163,7 @@ class EnglishEntryallege extends StatelessWidget {
 ١. (کردار) وتنی شتێک بەبێ بەڵگە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryallege extends StatelessWidget {
                                     "It is alleged that he mistreated the prisoners.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryallege extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەوترێت خراپ مامەڵەی لەگەڵ زیندانیان دەکرد",
+                                    "ئەوترێت خراپ مامەڵەی لەگەڵ زیندانیان دەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -220,6 +223,7 @@ class EnglishEntryallege extends StatelessWidget {
                                     "The two men allege (that) the police forced them to make false confessions.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -231,9 +235,10 @@ class EnglishEntryallege extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دوو پیاوەکە بانگەشەی ئەوە دەکەن کە پۆلیس ناچار بە دانپیانانی ھەڵەی کردوون",
+                                    "دوو پیاوەکە بانگەشەی ئەوە دەکەن کە پۆلیس ناچار بە دانپیانانی ھەڵەی کردوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

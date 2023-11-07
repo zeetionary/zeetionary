@@ -211,6 +211,7 @@ class EnglishEntryanoint extends StatelessWidget {
 ١. (ھاوەڵناو) دانانی ڕۆن یان ئاو لەسەر سەر یان جەستەی کەسێک وەک بەشێک لە ڕێوڕەسمێکی ئاینی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +222,7 @@ class EnglishEntryanoint extends StatelessWidget {
                                     "The priest anointed her with oil.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +234,10 @@ class EnglishEntryanoint extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "قەشەکە بە ڕۆن چەوری کرد",
+                                    "قەشەکە بە ڕۆن چەوری کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

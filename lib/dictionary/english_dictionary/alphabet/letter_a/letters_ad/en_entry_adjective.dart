@@ -160,9 +160,10 @@ class EnglishEntryadjective extends StatelessWidget {
                             '''
 کوردی: ئاوەڵ‌ناو، ڕەنگدێر، سەربە یا وەک ئاوەڵ‌ناو کار دەکا
 
-١. (ناو) وشەیەک زانیاریی زیادە دەدات لەسەر کەسێک یان شتێک، بۆ نموونە  وشەی جوان لە "ماڵێکی جوان"''',
+١. (ناو) وشەیەک زانیاریی زیادە دەدات لەسەر کەسێک یان شتێک، بۆ نموونە  وشەی جوان لە "ماڵێکی جوان."''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryadjective extends StatelessWidget {
                                     "Adjectives qualify nouns.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -181,9 +183,10 @@ class EnglishEntryadjective extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھاوەڵناو پێناسەی ناو دەکات",
+                                    "ھاوەڵناو پێناسەی ناو دەکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

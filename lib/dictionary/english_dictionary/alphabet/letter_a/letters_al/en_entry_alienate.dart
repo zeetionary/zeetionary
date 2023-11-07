@@ -163,6 +163,7 @@ class EnglishEntryalienate extends StatelessWidget {
 ١. (کردار) وا لە کەسێک بکەیت لێت دوور بێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryalienate extends StatelessWidget {
                                     "His comments have alienated a lot of young voters.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryalienate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لێدوانەکانی ژمارەیەکی زۆر ژمارەیەکی زۆر دەنگدەری گەنجی پەست کردووە",
+                                    "لێدوانەکانی ژمارەیەکی زۆر ژمارەیەکی زۆر دەنگدەری گەنجی پەست کردووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -217,6 +220,7 @@ class EnglishEntryalienate extends StatelessWidget {
 ٢. (کردار) ھەستی ئەوەی کە ئەو جێگەیەی لێیت گونجاو نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -227,6 +231,7 @@ class EnglishEntryalienate extends StatelessWidget {
                                     "Very talented children may feel alienated from the others in their class.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -238,9 +243,10 @@ class EnglishEntryalienate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵانی زۆر بەھرەمەند لەوانەیە ھەست بە نامۆیی بکەن لەگەل ئەوانی تری پۆلەکانیان",
+                                    "منداڵانی زۆر بەھرەمەند لەوانەیە ھەست بە نامۆیی بکەن لەگەل ئەوانی تری پۆلەکانیان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

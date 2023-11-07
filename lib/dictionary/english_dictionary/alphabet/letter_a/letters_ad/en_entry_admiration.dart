@@ -164,6 +164,7 @@ class EnglishEntryadmiration extends StatelessWidget {
 ١. (ناو) ھەبوونی ڕێزگرتن بۆ کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadmiration extends StatelessWidget {
                                     "I have great admiration for her as a writer.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadmiration extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێزی زۆرم بۆی وەک نووسەرێک ھەیە",
+                                    "ڕێزی زۆرم بۆی وەک نووسەرێک ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

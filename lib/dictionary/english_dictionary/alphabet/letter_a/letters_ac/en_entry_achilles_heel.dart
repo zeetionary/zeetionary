@@ -162,6 +162,7 @@ class EnglishEntryachillesheel extends StatelessWidget {
 ١. (ناو) خاڵی لاواز ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryachillesheel extends StatelessWidget {
                                     "The enemy had an Achilles heel somewhere, if only we could find it.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -180,9 +182,10 @@ class EnglishEntryachillesheel extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دووژمن خاڵێکی لاوازی ھەبوو، تەنھا ئەگەر بمانزانیایە لە کوێ",
+                                    "دووژمن خاڵێکی لاوازی ھەبوو، تەنھا ئەگەر بمانزانیایە لە کوێ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

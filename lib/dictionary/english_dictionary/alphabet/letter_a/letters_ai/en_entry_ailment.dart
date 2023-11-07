@@ -164,6 +164,7 @@ class EnglishEntryailment extends StatelessWidget {
 ١. (ناو) نەخۆشییەکی سووک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryailment extends StatelessWidget {
                                     "I got all the usual childhood ailments.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryailment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەموو دەردە باوەکانی منداڵیم گرت",
+                                    "ھەموو دەردە باوەکانی منداڵیم گرت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryadverse extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە ئەنجامی باشی نابێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadverse extends StatelessWidget {
                                     "This drug is known to have adverse side effects.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadverse extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم دەرمانە ناسراوە بەوەی کاریگەری لاوەکیی خراپی دەبێت",
+                                    "ئەم دەرمانە ناسراوە بەوەی کاریگەری لاوەکیی خراپی دەبێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -137,6 +137,7 @@ class EnglishEntryaboveyourself extends StatelessWidget {
 ١. کاتێک کە خۆت بە زیاتر لەوەی ھەیت دەزانیت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

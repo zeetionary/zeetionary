@@ -164,6 +164,7 @@ class EnglishEntryadolescent extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێکی ھەرزەکار''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadolescent extends StatelessWidget {
                                     "Stop acting like an adolescent!",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadolescent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وازبێنە لە ڕەفتارکردن وەک ھەرزەکارێک",
+                                    "وازبێنە لە ڕەفتارکردن وەک ھەرزەکارێک.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

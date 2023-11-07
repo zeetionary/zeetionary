@@ -164,6 +164,7 @@ class EnglishEntryadjacent extends StatelessWidget {
 ١. (ھاوەڵناو) نزیک لە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadjacent extends StatelessWidget {
                                     "Our farm land was adjacent to the river.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadjacent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زەوییە جوتیارییەکەمان نزیک بوو لە ڕووبارەکە",
+                                    "زەوییە جوتیارییەکەمان نزیک بوو لە ڕووبارەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

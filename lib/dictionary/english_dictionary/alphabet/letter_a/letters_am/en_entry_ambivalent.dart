@@ -165,6 +165,7 @@ class EnglishEntryambivalent extends StatelessWidget {
 ١. (ھاوەڵناو) دوودڵ، ھەبوونی ھەستی ئەرێنی و ەرێنی لە یەک کاتدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryambivalent extends StatelessWidget {
                                     "She seems to feel ambivalent about her new job.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryambivalent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وادیاربوو دوودڵ بێت سەبارەت بە کارە تازەکەی",
+                                    "وادیاربوو دوودڵ بێت سەبارەت بە کارە تازەکەی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -222,6 +225,7 @@ class EnglishEntryambivalent extends StatelessWidget {
                                     "The party's position on nuclear weapons is deeply ambivalent.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +237,10 @@ class EnglishEntryambivalent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەڵوێستی پارتەکە سەبارەت بە چەکی ئەتۆمی پێک‌دژانەیە",
+                                    "ھەڵوێستی پارتەکە سەبارەت بە چەکی ئەتۆمی پێک‌دژانەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

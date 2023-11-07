@@ -200,6 +200,7 @@ class EnglishEntryalternate extends StatelessWidget {
 ١. (ھاوەڵناو) کردنی شتێک سەرەتا بە یەکەم شت، دواتر بە شتێکی تر، و ئینجا دووبارە بە یەکەم شت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -210,6 +211,7 @@ class EnglishEntryalternate extends StatelessWidget {
                                     "Stretch up 30 times with alternate arms as a warm-up exercise.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -221,9 +223,10 @@ class EnglishEntryalternate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وەک خۆگەرمکردنەوەیەک ٣٠ جار سترێچ بکە، ھەرجارە و بە دەستێک",
+                                    "وەک خۆگەرمکردنەوەیەک ٣٠ جار سترێچ بکە، ھەرجارە و بە دەستێک.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -254,6 +257,7 @@ class EnglishEntryalternate extends StatelessWidget {
 ٢. (ھاوەڵناو) ڕۆژ نا ڕۆژ، جار نا جار، ساڵ نا ساڵ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -264,6 +268,7 @@ class EnglishEntryalternate extends StatelessWidget {
                                     "He and I clean our room on alternate days.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -275,9 +280,10 @@ class EnglishEntryalternate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "من و ئەو ژوورەکەمان ڕۆژ نا ڕۆژێک پاکدەکەینەوە",
+                                    "من و ئەو ژوورەکەمان ڕۆژ نا ڕۆژێک پاکدەکەینەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -308,6 +314,7 @@ class EnglishEntryalternate extends StatelessWidget {
 ٣. (کردار) ڕوودان بەدوای یەکدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -318,6 +325,7 @@ class EnglishEntryalternate extends StatelessWidget {
                                     "She alternated between cheerfulness and deep despair.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -329,9 +337,10 @@ class EnglishEntryalternate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەردەوام لە نێوان دڵخۆشی و نائومێدی قووڵ بوو",
+                                    "بەردەوام لە نێوان دڵخۆشی و نائومێدی قووڵ بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -362,6 +371,7 @@ class EnglishEntryalternate extends StatelessWidget {
 ٤. (کردار) ڕوودان بە بەردەوامی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -372,6 +382,7 @@ class EnglishEntryalternate extends StatelessWidget {
                                     "Ambulance crews alternate between emergency and routine work.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -383,9 +394,10 @@ class EnglishEntryalternate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تیمەکانی فریاگوزاری بەردەوام لەنێوان کاری ئاسایی ڕۆژانەیان و حاڵەتی نەخوازراون",
+                                    "تیمەکانی فریاگوزاری بەردەوام لەنێوان کاری ئاسایی ڕۆژانەیان و حاڵەتی نەخوازراون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -416,6 +428,7 @@ class EnglishEntryalternate extends StatelessWidget {
 ٥. (ناو) کەسێکی جێگرەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -426,6 +439,7 @@ class EnglishEntryalternate extends StatelessWidget {
                                     "David was too sick to attend, so Janet served as his alternate.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -437,9 +451,10 @@ class EnglishEntryalternate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەیڤد زۆر نەخۆش بوو کە بتوانێت بەژداربێت، بۆیە جانێت وەک جێگرەوەی کاری کرد",
+                                    "دەیڤد زۆر نەخۆش بوو کە بتوانێت بەژداربێت، بۆیە جانێت وەک جێگرەوەی کاری کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

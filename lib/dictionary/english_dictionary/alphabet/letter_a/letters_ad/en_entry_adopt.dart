@@ -181,6 +181,7 @@ class EnglishEntryadopt extends StatelessWidget {
 ١. (کردار) ھەڵگتنەوەی منداڵێک و بەخێوکردنی وەک منداڵی خۆت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -191,6 +192,7 @@ class EnglishEntryadopt extends StatelessWidget {
                                     "The child has now been legally adopted.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -199,9 +201,10 @@ class EnglishEntryadopt extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵەکە لە ئێستادا بە یاسایی ھەڵگیراوەتەوە",
+                                    "منداڵەکە لە ئێستادا بە یاسایی ھەڵگیراوەتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -232,6 +235,7 @@ class EnglishEntryadopt extends StatelessWidget {
 ٢. (کردار) دەستکردن بە بەکارھێنانی شێوازێکی مامەڵەکردن یان ڕێبازێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -242,6 +246,7 @@ class EnglishEntryadopt extends StatelessWidget {
                                     "The police adopted tighter security measures.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -253,6 +258,7 @@ class EnglishEntryadopt extends StatelessWidget {
                                     "پۆلیس ڕێکاری توندتری گرتەبەر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -283,6 +289,7 @@ class EnglishEntryadopt extends StatelessWidget {
 ٣. (کردار) بە فەرمی پەسەندکردنی بڕیارێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -293,6 +300,7 @@ class EnglishEntryadopt extends StatelessWidget {
                                     "The government adopted a resolution on disarmament.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -301,9 +309,10 @@ class EnglishEntryadopt extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حکومەت بڕیارنامەی چەکداماڵینی پەسەندکرد",
+                                    "حکومەت بڕیارنامەی چەکداماڵینی پەسەندکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -334,6 +343,7 @@ class EnglishEntryadopt extends StatelessWidget {
 ٤. (کردار) دەستکردن بە بەکارھێنانی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -344,6 +354,7 @@ class EnglishEntryadopt extends StatelessWidget {
                                     "The party adopted its current name in 1965.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -352,9 +363,10 @@ class EnglishEntryadopt extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پارتەکە ئەم ناوەی ئێستای لە ساڵی ١٩٦٥ ھەڵگرتەوە",
+                                    "پارتەکە ئەم ناوەی ئێستای لە ساڵی ١٩٦٥ ھەڵگرتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

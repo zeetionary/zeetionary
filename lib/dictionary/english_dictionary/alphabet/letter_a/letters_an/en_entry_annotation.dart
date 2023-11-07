@@ -214,6 +214,7 @@ class EnglishEntryannotation extends StatelessWidget {
 ١. (ناو) تێبینییەک کە زیاد دەکرێت بۆ کتێبێک، نووسراوێک، یان شتێک کە ڕوونکردنەوەی لەسەر دەدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +225,7 @@ class EnglishEntryannotation extends StatelessWidget {
                                     "It will be published with annotations.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +237,10 @@ class EnglishEntryannotation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بڵاودەکرێتەوە لەگەڵ پەراوێزدا",
+                                    "بڵاودەکرێتەوە لەگەڵ پەراوێزدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -272,6 +275,7 @@ class EnglishEntryannotation extends StatelessWidget {
                                     "The annotation of literary texts makes them more accessible.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -283,9 +287,10 @@ class EnglishEntryannotation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بڵاوکردنەوەی نووسراوی ئەدەبی بە ڕوونکردنەوەوە وادەکات خەڵکی زیاتر بیانخوێننەوە",
+                                    "بڵاوکردنەوەی نووسراوی ئەدەبی بە ڕوونکردنەوەوە وادەکات خەڵکی زیاتر بیانخوێننەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

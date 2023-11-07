@@ -164,6 +164,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
 ١. (ناو) جۆرە تەزوویەکی کارەبا کە ئاراستەی دەگۆڕێت بە خێرایی جێگیر لە ماوەی چەند چرکەیەکدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                                     "Unlike Edison, George Westinghouse was a proponent of alternating current.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -188,6 +190,7 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
                                     "پێچەوانەی تۆماس ئەدیسۆن، جۆرج وێستینگھاوس لایەنگیری تەزووی گۆڕاو بوو ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryamorously extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە حەزی سێکسی و خۆشەویستی پیشان دەدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryamorously extends StatelessWidget {
                                     "He looked at her amorously.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryamorously extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە ئەویندارانە سەیری دەکرد",
+                                    "بە ئەویندارانە سەیری دەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

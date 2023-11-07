@@ -162,6 +162,7 @@ class EnglishEntryacquainted extends StatelessWidget {
 ١. (ھاوەڵناو) ئاشنا لەگەڵ شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryacquainted extends StatelessWidget {
                                     "The students are already acquainted with the works of Shakespeare.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,6 +185,7 @@ class EnglishEntryacquainted extends StatelessWidget {
                                     "خوێندکاران لەمێژە ئاشنان لەگەڵ کارەکانی شکسپیر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

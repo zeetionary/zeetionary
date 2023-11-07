@@ -163,6 +163,7 @@ class EnglishEntryamaze extends StatelessWidget {
 ١. (کردار) سەرسامکردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryamaze extends StatelessWidget {
                                     "Just the size of the place amazed her.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryamaze extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گەورەیی شوێنەکە بە تەنھا سەرسامی کرد",
+                                    "گەورەیی شوێنەکە بە تەنھا سەرسامی کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -220,6 +223,7 @@ class EnglishEntryamaze extends StatelessWidget {
                                     "What amazes me is how long she managed to hide it from us.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -231,9 +235,10 @@ class EnglishEntryamaze extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەوەی سەرسامم دەکات ئەوەیە کە چەند زۆر توانی لێمان بشارێتەوە",
+                                    "ئەوەی سەرسامم دەکات ئەوەیە کە چەند زۆر توانی لێمان بشارێتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

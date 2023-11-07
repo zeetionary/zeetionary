@@ -161,6 +161,7 @@ class EnglishEntryabort extends StatelessWidget {
 ١. (کردار) کۆتایی ھێنان بە دووگیانی و ڕێگریکردن لە گەشە و لەدایکبوونی کۆرپەلە؛ لەباربردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -171,6 +172,7 @@ class EnglishEntryabort extends StatelessWidget {
                                     "She aborted the child due to health issues.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -179,9 +181,10 @@ class EnglishEntryabort extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵەکەی لەباربرد بەھۆی بارودۆخی تەندرووستییەوە",
+                                    "منداڵەکەی لەباربرد بەھۆی بارودۆخی تەندرووستییەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -210,6 +213,7 @@ class EnglishEntryabort extends StatelessWidget {
 ٢. (کردار) منداڵبوونی پێشوەختە بەجۆرێک کە منداڵەکە ڕزگاری نەبێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -220,6 +224,7 @@ class EnglishEntryabort extends StatelessWidget {
                                     "The virus can cause pregnant animals to abort.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -228,9 +233,10 @@ class EnglishEntryabort extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڤایرۆسەکە دەتوانێت وا لە ئاژەڵی دووگیان بکات پێشوەختە بەچکەکەیان بە مردووی ببێت",
+                                    "ڤایرۆسەکە دەتوانێت وا لە ئاژەڵی دووگیان بکات پێشوەختە بەچکەکەیان بە مردووی ببێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -259,6 +265,7 @@ class EnglishEntryabort extends StatelessWidget {
 ٣. (کردار) کۆتاییپێھێنان بە شتێک پێش ئەوەی تەواو بێت، زۆرجار بەھۆی ئەوەی شکستی دەھێنا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -269,6 +276,7 @@ class EnglishEntryabort extends StatelessWidget {
                                     "The plan was aborted at the last minute.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -277,9 +285,10 @@ class EnglishEntryabort extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پلانەکە لە کۆتا خولەکەکاندا پوچەڵکرایەوە",
+                                    "پلانەکە لە کۆتا خولەکەکاندا پوچەڵکرایەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryalternately extends StatelessWidget {
 ١. (ھاوەڵکار) ڕوودان بەدوای یەکدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalternately extends StatelessWidget {
                                     "He felt alternately hot and cold.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalternately extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جار نا جار ھەستی بە گەرما و سەرما دەکرد",
+                                    "جار نا جار ھەستی بە گەرما و سەرما دەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

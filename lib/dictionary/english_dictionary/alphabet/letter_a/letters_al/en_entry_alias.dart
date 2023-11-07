@@ -164,6 +164,7 @@ class EnglishEntryalias extends StatelessWidget {
 ١. (ناو) ناوێکی تر کە ناوی ڕاستی کەسێک نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalias extends StatelessWidget {
                                     "He travels under (= using) an alias.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalias extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەژێر نازناوێکدا گەشت دەکات",
+                                    "لەژێر نازناوێکدا گەشت دەکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -218,6 +221,7 @@ class EnglishEntryalias extends StatelessWidget {
 ٢. (ھاوەڵکار) لەپێش دەربڕینی ناوێکی خوازراو بەکاردێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -228,6 +232,7 @@ class EnglishEntryalias extends StatelessWidget {
                                     "Paul Kennedy, alias (= also known as) Rupert Sharp, went to prison today.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -239,9 +244,10 @@ class EnglishEntryalias extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پاوڵ کەنەدی کە ھەروەھا ناسراوە بە ڕوپرت شارپ ئەمڕۆ چوو بپ زیندان",
+                                    "پاوڵ کەنەدی کە ھەروەھا ناسراوە بە ڕوپرت شارپ ئەمڕۆ چوو بپ زیندان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

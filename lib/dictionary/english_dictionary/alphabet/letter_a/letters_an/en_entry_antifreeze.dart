@@ -214,6 +214,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
 ١. (ناو) مادەیەکی کیمیایی کە زیاد دەکرێت بۆ سیستەمی ساردکەرەوەی ئۆتۆمبێل بۆ ئەوەی ڕێگری لە بەستن بکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +225,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
                                     "Lack of antifreeze is a major cause of highway breakdowns.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +237,10 @@ class EnglishEntryantifreeze extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەمی دژەبەستن ھۆکارێکی سەرەکی تێکچوونی ڕێگاکانە",
+                                    "کەمی دژەبەستن ھۆکارێکی سەرەکی تێکچوونی ڕێگاکانە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

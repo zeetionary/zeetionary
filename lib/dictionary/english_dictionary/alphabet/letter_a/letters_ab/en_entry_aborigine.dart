@@ -132,6 +132,7 @@ class EnglishEntryaborigine extends StatelessWidget {
 ١. (ناو) بنەنشین یا دانیشتووی ڕەسەنی ئەوسترالیا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
@@ -139,6 +140,7 @@ class EnglishEntryaborigine extends StatelessWidget {
 ٢. (ناو) بنەنشین یا دانیشتووی ڕەسەنی وڵاتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

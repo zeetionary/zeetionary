@@ -215,6 +215,7 @@ class EnglishEntryannouncer extends StatelessWidget {
 ١. (ناو) بێژەری تەلەفیزیۆن یان ڕادیۆ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -225,6 +226,7 @@ class EnglishEntryannouncer extends StatelessWidget {
                                     "The announcer advertised a few forthcoming programmes.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -236,9 +238,10 @@ class EnglishEntryannouncer extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بێژەرەکە ژمارەیەک پڕۆگرامی ڕاگەیاند کە دواتر پێشکەش‌دەکرێن",
+                                    "بێژەرەکە ژمارەیەک پڕۆگرامی ڕاگەیاند کە دواتر پێشکەش‌دەکرێن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -270,6 +273,7 @@ class EnglishEntryannouncer extends StatelessWidget {
 ٢. (ناو) بانگەوازکەر؛ کەسێک کە لە وێستگەیەکدا زانیاری بە بڵیندگۆ دەدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -280,6 +284,7 @@ class EnglishEntryannouncer extends StatelessWidget {
                                     "The station announcer warned us that the train was running late.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -291,9 +296,10 @@ class EnglishEntryannouncer extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بانگەوازکەری وێستگەکە پێی ڕاگەیاندین شەمەندەفەرەکە درەنگ دەگات",
+                                    "بانگەوازکەری وێستگەکە پێی ڕاگەیاندین شەمەندەفەرەکە درەنگ دەگات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -325,6 +331,7 @@ class EnglishEntryannouncer extends StatelessWidget {
 ٣. (ناو) بێژەری یارییەکی وەرزشی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -335,6 +342,7 @@ class EnglishEntryannouncer extends StatelessWidget {
                                     "He was the announcer for the NBA game.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -346,9 +354,10 @@ class EnglishEntryannouncer extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بێژەری یارییەکەی ئێن-بی-ئەی بوو",
+                                    "بێژەری یارییەکەی ئێن-بی-ئەی بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

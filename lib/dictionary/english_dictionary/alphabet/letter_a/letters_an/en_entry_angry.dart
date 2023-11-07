@@ -215,6 +215,7 @@ class EnglishEntryangry extends StatelessWidget {
 ١. (ھاوەڵناو) تووڕە؛ بوونی ھەستی توند دەربارەی شتێک کە ڕقت لێیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -225,6 +226,7 @@ class EnglishEntryangry extends StatelessWidget {
                                     "Her behaviour really made me angry.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -236,9 +238,10 @@ class EnglishEntryangry extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕەفتارەکانی بەڕاستی تووڕەیان کردم",
+                                    "ڕەفتارەکانی بەڕاستی تووڕەیان کردم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -273,6 +276,7 @@ class EnglishEntryangry extends StatelessWidget {
                                     "Thousands of angry demonstrators filled the square.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -284,9 +288,10 @@ class EnglishEntryangry extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەزاران خۆپیشاندەری تووڕە چوونە گۆڕەپانەکە",
+                                    "ھەزاران خۆپیشاندەری تووڕە چوونە گۆڕەپانەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -318,6 +323,7 @@ class EnglishEntryangry extends StatelessWidget {
 ٢. (ھاوەڵناو) برینێک کە سووربووەتەوە و بەئازارە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -328,6 +334,7 @@ class EnglishEntryangry extends StatelessWidget {
                                     "On her leg was an angry sore.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -339,9 +346,10 @@ class EnglishEntryangry extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئاوساوییەکی بەئازار لەسەر لاقی بوو",
+                                    "ئاوساوییەکی بەئازار لەسەر لاقی بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -373,6 +381,7 @@ class EnglishEntryangry extends StatelessWidget {
 ٣. (ھاوەڵناو) تاریک و شەپۆلاوی و بەزریان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -383,6 +392,7 @@ class EnglishEntryangry extends StatelessWidget {
                                     "The angry sea with its terrible waves crashed against the rocky shore.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -397,6 +407,7 @@ class EnglishEntryangry extends StatelessWidget {
                                     "دەریا بەزریانەکە بە شەپۆلە ترسناکەکانییەوە کێشای بە کەناراوە بەردەڵانییەکە ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

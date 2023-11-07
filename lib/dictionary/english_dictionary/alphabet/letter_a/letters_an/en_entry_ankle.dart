@@ -212,6 +212,7 @@ class EnglishEntryankle extends StatelessWidget {
 ١. (ناو) ئەو بەشەی جەستە کە پێ و لاق پێکەوە دەبەستێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryankle extends StatelessWidget {
                                     "She suffered a serious ankle injury in training.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryankle extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تووشی گورزێکی کوشندە بوو لە قولەپێ‌یدا لەکاتی ڕاھێنان",
+                                    "تووشی گورزێکی کوشندە بوو لە قولەپێ‌یدا لەکاتی ڕاھێنان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -270,6 +273,7 @@ class EnglishEntryankle extends StatelessWidget {
                                     "My ankles have swollen.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -281,9 +285,10 @@ class EnglishEntryankle extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "قولەپێ‌یەکانم ئاوساون",
+                                    "قولەپێ‌یەکانم ئاوساون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

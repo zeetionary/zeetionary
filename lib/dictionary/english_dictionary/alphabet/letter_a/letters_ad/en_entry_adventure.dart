@@ -164,6 +164,7 @@ class EnglishEntryadventure extends StatelessWidget {
 ١. (ناو) کارێکی مەترسیدار کە زۆرجار چێژبەخشە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadventure extends StatelessWidget {
                                     "They fly around in their rocket ship and go on exciting adventures.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,6 +187,7 @@ class EnglishEntryadventure extends StatelessWidget {
                                     "لە کەشتییە ئاسمانییەکەیان دەفڕن و دەچنە گەشتی جەربەزەیی چێژبەخش",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

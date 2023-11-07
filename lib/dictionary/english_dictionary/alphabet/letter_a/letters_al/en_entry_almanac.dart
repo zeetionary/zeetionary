@@ -164,6 +164,7 @@ class EnglishEntryalmanac extends StatelessWidget {
 ١. (ناو) پەرتووکێک یان سەرچاوەیەکی ئەلیکترۆنی کە ھەموو ساڵێک بڵاودەکرێتەوە بۆ چالاکییەکانی ساڵە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalmanac extends StatelessWidget {
                                     "The almanac says there will be above normal rainfall in the first half of the winter in California.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -188,6 +190,7 @@ class EnglishEntryalmanac extends StatelessWidget {
                                     "ساڵنامەکە دەڵێت ئەمساڵ زیاتر لە کاتی ئاسایی باران دەبێت لە نیوەی یەکەمی زستان لە کالیفۆرنیا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

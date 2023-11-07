@@ -164,6 +164,7 @@ class EnglishEntryacquiescence extends StatelessWidget {
 ١. (ھاوەڵناو) ڕازیبوون بە شتێک ئەگەرچی باوەڕت پێی نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryacquiescence extends StatelessWidget {
                                     "I must admit, your acquiescence surprised me.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryacquiescence extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەبێت دانی پێدا بنێم، ڕازیبوونت سەرسامی کردم",
+                                    "دەبێت دانی پێدا بنێم، ڕازیبوونت سەرسامی کردم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

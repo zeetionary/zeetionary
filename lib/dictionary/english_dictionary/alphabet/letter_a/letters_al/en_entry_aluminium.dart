@@ -164,6 +164,7 @@ class EnglishEntryaluminium extends StatelessWidget {
 ١. (ناو) مادەیەکی سووکی کانزاییە کە بەکاردێت بۆ درووستکردنی کەرەستەی خواردن و پیشەسازی ئۆتۆمبێل''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaluminium extends StatelessWidget {
                                     " Aluminium is rapidly oxidized in air.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryaluminium extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئاڵومینیۆم بەخێرایی ژەنگ دەکات لە ھەوادا",
+                                    "ئاڵومینیۆم بەخێرایی ژەنگ دەکات لە ھەوادا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

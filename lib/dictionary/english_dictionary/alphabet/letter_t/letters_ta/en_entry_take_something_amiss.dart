@@ -234,6 +234,7 @@ class EnglishEntrytakesomethingamiss extends StatelessWidget {
 ١. (ئیدیەم) زویربوون بە شتێک بەھۆی ئەوەی بە ھەڵە لێی تێگەشتووی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -244,6 +245,7 @@ class EnglishEntrytakesomethingamiss extends StatelessWidget {
                                     "Would she take it amiss if I offered to help?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -258,6 +260,7 @@ class EnglishEntrytakesomethingamiss extends StatelessWidget {
                                     "بە ھەڵە تێدەگات ئەگەر یارمەتی پێشکەش بکەم؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

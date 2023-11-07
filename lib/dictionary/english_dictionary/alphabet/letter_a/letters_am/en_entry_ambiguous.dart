@@ -164,6 +164,7 @@ class EnglishEntryambiguous extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە دەکرێت زیاتر لە یەک لێکدانەوەی ھەبێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryambiguous extends StatelessWidget {
                                     "The paragraph is rendered ambiguous by the writer's careless use of pronouns.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryambiguous extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پەرەگرافەکە ناڕوون بووە بەھۆی کەمتەرخەمانە بەکارھێنانی جێناوەکان لەلایەن نووسەرەوە",
+                                    "پەرەگرافەکە ناڕوون بووە بەھۆی کەمتەرخەمانە بەکارھێنانی جێناوەکان لەلایەن نووسەرەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

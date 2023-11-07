@@ -166,6 +166,7 @@ class EnglishEntryacknowledgement extends StatelessWidget {
 ١. (ناو) داننان بە بوون یان ڕاستی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                                     "There is acknowledgement on his part that he was to blame.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دانیپێداناوە کە ئەو بەرپرسیارە",
+                                    "دانیپێداناوە کە ئەو بەرپرسیارە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryacknowledgement extends StatelessWidget {
 ٢. (ناو) دەربڕینی سوپاسگوزاری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +230,7 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                                     "The flowers were a small acknowledgement of your kindness.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +239,10 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گوڵەکان ناساندنێکی بچووکی میھرەبانیتە",
+                                    "گوڵەکان ناساندنێکی بچووکی میھرەبانیتە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -266,6 +272,7 @@ class EnglishEntryacknowledgement extends StatelessWidget {
 ٣. (ناو) نامەیەک یان ئیمەیڵێک بۆ دڵنیاکردنەوەی ئەوەی شتێک گەیشتووە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -276,6 +283,7 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                                     "I wrote to them but never got any acknowledgement.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -284,9 +292,10 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نامەم بۆ نووسین بەڵام ھیچ وەڵامم وەرنەگرت",
+                                    "نامەم بۆ نووسین بەڵام ھیچ وەڵامم وەرنەگرت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

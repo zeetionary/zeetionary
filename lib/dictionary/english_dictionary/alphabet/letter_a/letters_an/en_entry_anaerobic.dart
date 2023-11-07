@@ -25,7 +25,8 @@ class EnglishEntryanaerobic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Some bacteria can only live in anaerobic conditions."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Some bacteria can only live in anaerobic conditions."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnaerobic(String languageCode) async {
@@ -135,9 +136,9 @@ class EnglishEntryanaerobic extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAnaerobic(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAnaerobic(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -211,6 +212,7 @@ class EnglishEntryanaerobic extends StatelessWidget {
 ١. (ھاوەڵناو) ناپێویست بە ئۆکسجین''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +223,7 @@ class EnglishEntryanaerobic extends StatelessWidget {
                                     "Some bacteria can only live in anaerobic conditions.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +235,10 @@ class EnglishEntryanaerobic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەندێک بەکتریا تەنھا لە شوێنی بێ‌ئۆکسجیندا دەژین",
+                                    "ھەندێک بەکتریا تەنھا لە شوێنی بێ‌ئۆکسجیندا دەژین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -252,9 +256,9 @@ class EnglishEntryanaerobic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnaerobic0896(// REPLACE: anaerobic /ˌænəˈrəʊbɪk/
-                                        "en-US"),
+                                onPressed: () => speakAnaerobic0896(
+                                    // REPLACE: anaerobic /ˌænəˈrəʊbɪk/
+                                    "en-US"),
                               ),
                             ],
                           ),

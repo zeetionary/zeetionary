@@ -164,6 +164,7 @@ class EnglishEntryadvisable extends StatelessWidget {
 ١. (ھاوەڵناو) بیرۆکەیەکی ژیرانە و باش''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadvisable extends StatelessWidget {
                                     "We thought it advisable to seek police assistance.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadvisable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێمان وابوو باشتروایە داوای یارمەتی لە پۆلیس بکەین",
+                                    "پێمان وابوو باشتروایە داوای یارمەتی لە پۆلیس بکەین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

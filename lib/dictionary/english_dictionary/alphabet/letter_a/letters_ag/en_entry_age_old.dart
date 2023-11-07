@@ -164,6 +164,7 @@ class EnglishEntryageold extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە لەمێژە بوونی ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryageold extends StatelessWidget {
                                     "All the villagers followed the age-old custom of taking a siesta after lunch.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryageold extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەواوی گوندەکە شوێنی ئەو نەریتە کۆنە دەکەوتن کە دوای نانی نیوەڕۆ سەرخەوێک بشکێنن",
+                                    "تەواوی گوندەکە شوێنی ئەو نەریتە کۆنە دەکەوتن کە دوای نانی نیوەڕۆ سەرخەوێک بشکێنن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

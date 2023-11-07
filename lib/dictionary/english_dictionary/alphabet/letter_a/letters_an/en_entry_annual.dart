@@ -216,6 +216,7 @@ class EnglishEntryannual extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە ساڵی جارێک ڕووبدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +227,7 @@ class EnglishEntryannual extends StatelessWidget {
                                     "She organized this year's annual Christmas dinner dance.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -237,9 +239,10 @@ class EnglishEntryannual extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەمای ساڵانەی ئێوارەی کریسمسی بۆ ئەمساڵ ڕێکخست",
+                                    "سەمای ساڵانەی ئێوارەی کریسمسی بۆ ئەمساڵ ڕێکخست.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -274,6 +277,7 @@ class EnglishEntryannual extends StatelessWidget {
                                     "Companies publish annual reports to inform the public about the previous year's activities.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -285,9 +289,10 @@ class EnglishEntryannual extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کۆمپانیاکان ڕاپۆرتی ساڵانە بڵاودەکەنەوە بۆ ئەوەی ڕای‌ گشتی ئاگاداربکەنەوە سەبارەت بە چالاکییەکانی ساڵی پێشوویان",
+                                    "کۆمپانیاکان ڕاپۆرتی ساڵانە بڵاودەکەنەوە بۆ ئەوەی ڕای‌ گشتی ئاگاداربکەنەوە سەبارەت بە چالاکییەکانی ساڵی پێشوویان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -319,6 +324,7 @@ class EnglishEntryannual extends StatelessWidget {
 ٢. (ھاوەڵناو) بۆ ماوەی یەک ساڵ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -329,6 +335,7 @@ class EnglishEntryannual extends StatelessWidget {
                                     "I have decided to take my annual leave to be with my wife and baby.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -340,9 +347,10 @@ class EnglishEntryannual extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بڕیارم‌داوە مۆڵەتی ساڵانەم وەربگرم بۆ ئەوەی لەگەڵ ژنەکەم و منداڵەکەم بم",
+                                    "بڕیارم‌داوە مۆڵەتی ساڵانەم وەربگرم بۆ ئەوەی لەگەڵ ژنەکەم و منداڵەکەم بم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -374,6 +382,7 @@ class EnglishEntryannual extends StatelessWidget {
 ٣. (ناو) کتێبێک کە بۆ منداڵانە و ساڵی جارێک بە ھەمان ناونیشان بەڵام ناوەڕۆکی جیاواز بڵاودەبێتەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -384,6 +393,7 @@ class EnglishEntryannual extends StatelessWidget {
                                     "The children usually asked for comic or sporting annuals for Christmas.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -395,9 +405,10 @@ class EnglishEntryannual extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵەکان زۆرجار داوای کتێبی کۆمیک یان وەرزشییان دەکرد بۆ کریسمس",
+                                    "منداڵەکان زۆرجار داوای کتێبی کۆمیک یان وەرزشییان دەکرد بۆ کریسمس.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -157,6 +157,7 @@ class EnglishEntryaccord extends StatelessWidget {
 ١. (ناو) ڕێککەوتنێکی فەرمی نێوان دوو وڵات/دامەزراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryaccord extends StatelessWidget {
                                     "The two sides signed a peace accord last July.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -175,9 +177,10 @@ class EnglishEntryaccord extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەردوو لا ڕێککەوتنێکی ئاشتییان واژۆکرد لە تەممووزی ڕابردوو",
+                                    "ھەردوو لا ڕێککەوتنێکی ئاشتییان واژۆکرد لە تەممووزی ڕابردوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -206,6 +209,7 @@ class EnglishEntryaccord extends StatelessWidget {
 ٢. (کردار) پێدانی گرنگی تایبەت بە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -216,6 +220,7 @@ class EnglishEntryaccord extends StatelessWidget {
                                     "Our society accords great importance to the family.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -224,9 +229,10 @@ class EnglishEntryaccord extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کۆمەڵگاکەمان گرنگی تایبەت دەدات بە خێزان",
+                                    "کۆمەڵگاکەمان گرنگی تایبەت دەدات بە خێزان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

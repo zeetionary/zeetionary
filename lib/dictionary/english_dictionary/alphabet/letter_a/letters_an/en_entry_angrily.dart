@@ -211,6 +211,7 @@ class EnglishEntryangrily extends StatelessWidget {
 ١. (ھاوەڵکار) توند، بە توندی، بە تووڕەیی‌یەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +222,7 @@ class EnglishEntryangrily extends StatelessWidget {
                                     "Some senators reacted angrily to the president's remarks.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +234,10 @@ class EnglishEntryangrily extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەندێک سیناتۆر بەتوڕەییەوە کاردانەوەیان ھەبوو بۆ وتەکانی سەرۆک",
+                                    "ھەندێک سیناتۆر بەتوڕەییەوە کاردانەوەیان ھەبوو بۆ وتەکانی سەرۆک.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -269,6 +272,7 @@ class EnglishEntryangrily extends StatelessWidget {
                                     "The president angrily denounced the coup as illegal.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -280,9 +284,10 @@ class EnglishEntryangrily extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەرۆک بەتوڕەییەوە کودەتاکەی بە نایاسایی سەرکۆنەکرد",
+                                    "سەرۆک بەتوڕەییەوە کودەتاکەی بە نایاسایی سەرکۆنەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

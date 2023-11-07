@@ -210,6 +210,7 @@ class EnglishEntryanalytical extends StatelessWidget {
 ١. (ھاوەڵناو) بەکارھێنانی شێوازی بیرکردنەوەی لۆژیکیانە بۆ تێگەشتن لە شتێک، بەتایبەتی بە سەیرکردنی ھەموو بەشەکانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -220,6 +221,7 @@ class EnglishEntryanalytical extends StatelessWidget {
                                     "She has a clear analytical mind.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -231,9 +233,10 @@ class EnglishEntryanalytical extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مێشکێکی تەواو بەدیقەتی ھەیە",
+                                    "مێشکێکی تەواو بەدیقەتی ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryaddiction extends StatelessWidget {
 ١. (ناو) ئاڵوودەیی بە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaddiction extends StatelessWidget {
                                     "He is now fighting his addiction to alcohol.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryaddiction extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە ئێستادا ھەوڵ دەدات کۆتایی بە ئاڵوودەییەکەی بە کحوول بھێنێت",
+                                    "لە ئێستادا ھەوڵ دەدات کۆتایی بە ئاڵوودەییەکەی بە کحوول بھێنێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

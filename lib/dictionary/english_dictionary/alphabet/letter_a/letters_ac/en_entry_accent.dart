@@ -175,6 +175,7 @@ class EnglishEntryaccent extends StatelessWidget {
 ١. (ناو) شێوازی خوێندنەوەی وشەکانی زمانێک کە دەریدەخات کەسێک خەڵکی کوێیە یان کاری چییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -185,6 +186,7 @@ class EnglishEntryaccent extends StatelessWidget {
                                     "The Americans had learned Korean and spoke with a good accent.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -193,9 +195,10 @@ class EnglishEntryaccent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەمریکییەکان کۆری فێربووبوون و بە لەھجەیەکی باشەوە قسەیان پێدەکرد",
+                                    "ئەمریکییەکان کۆری فێربووبوون و بە لەھجەیەکی باشەوە قسەیان پێدەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -227,6 +230,7 @@ class EnglishEntryaccent extends StatelessWidget {
                                     "Where are you from? I can't place your accent.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +239,10 @@ class EnglishEntryaccent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خەڵکی کوێی؟ بە لەھجەکەتدا نازانم",
+                                    "خەڵکی کوێی؟ بە لەھجەکەتدا نازانم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -266,6 +271,7 @@ class EnglishEntryaccent extends StatelessWidget {
 ٢. (ناو) ئەو ھێزەی کە دەیخەیتە سەر بەشێکی وشەیەک لەکاتی وتنی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -276,6 +282,7 @@ class EnglishEntryaccent extends StatelessWidget {
                                     "On which syllable do you place the accent in this word?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -287,6 +294,7 @@ class EnglishEntryaccent extends StatelessWidget {
                                     "لەم وشەیەدا ھێز دەخەیتە سەر کام بڕگە؟ ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -315,6 +323,7 @@ class EnglishEntryaccent extends StatelessWidget {
 ٣. (کردار) جەختکردنەوە سەر شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -325,6 +334,7 @@ class EnglishEntryaccent extends StatelessWidget {
                                     "The women accent their eyes with make-up.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -333,9 +343,10 @@ class EnglishEntryaccent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژنان بە مەیکئەپ گرنگی تایبەت بە چاویان دەدەن",
+                                    "ژنان بە مەیکئەپ گرنگی تایبەت بە چاویان دەدەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

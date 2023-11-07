@@ -164,6 +164,7 @@ class EnglishEntryagoraphobia extends StatelessWidget {
 ١. (ناو) ترسی بوون لە شوێنی گشتی و قەرەباڵغ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryagoraphobia extends StatelessWidget {
                                     "She had agoraphobia and never wanted to go out of the house.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryagoraphobia extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەگۆرافۆبیای ھەبوو و ھەرگیز نەیدەویست لە ماڵە دەربچێت",
+                                    "ئەگۆرافۆبیای ھەبوو و ھەرگیز نەیدەویست لە ماڵەوە دەربچێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

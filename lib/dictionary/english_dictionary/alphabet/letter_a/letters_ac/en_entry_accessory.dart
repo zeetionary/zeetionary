@@ -157,6 +157,7 @@ class EnglishEntryaccessory extends StatelessWidget {
 ١. (ناو) پارچەیەکی شتێک کە زۆر گرنگ نییە، بەڵام دەکرێت زیاد بکرێت وەک جوانکاری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryaccessory extends StatelessWidget {
                                     "We stock a large range of bicycle accessories.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -175,9 +177,10 @@ class EnglishEntryaccessory extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێژەیەکی زۆر جیاواز لە جوانکارییەکانی پاسکیل ھەڵدەگرین",
+                                    "ڕێژەیەکی زۆر جیاواز لە جوانکارییەکانی پاسکیل ھەڵدەگرین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -209,6 +212,7 @@ class EnglishEntryaccessory extends StatelessWidget {
                                     "Sunglasses are much more than a fashion accessory.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -217,9 +221,10 @@ class EnglishEntryaccessory extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چاویلکە زۆر تەنھا بۆ جوانکاری و مۆدە نییە",
+                                    "چاویلکە زۆر تەنھا بۆ جوانکاری و مۆدە نییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

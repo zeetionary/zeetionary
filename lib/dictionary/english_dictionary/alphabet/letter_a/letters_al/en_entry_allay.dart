@@ -164,6 +164,7 @@ class EnglishEntryallay extends StatelessWidget {
 ١. (کردار) دامردکاندنەوەی شتێک، بۆ نموونە ترس''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryallay extends StatelessWidget {
                                     "The inquiry has done little to allay suspicion.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryallay extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لێکۆڵینەوەکە کاریگەری کەمی بووە لەسەر دامرکاندنەوەی گومان",
+                                    "لێکۆڵینەوەکە کاریگەری کەمی بووە لەسەر دامرکاندنەوەی گومان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryacidrain extends StatelessWidget {
 ١. (ناو) بارانێک کە مادەی کیمیایی زیانبەخشی دووکەڵی کارگەکانی تێدایە کە دەبێتە ھۆی زیان بۆ درەختەکان، دانەوێڵە، و بیناکان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryacidrain extends StatelessWidget {
                                     "Sulphur, falling as acid rain, is killing fish in the Great Lakes.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryacidrain extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سلفەر ئەگەر لەگەڵ ترشە باران بێت دەبێتە ھۆی کووشتنی ماسی لە دەریاچەکان",
+                                    "سلفەر ئەگەر لەگەڵ ترشە باران بێت دەبێتە ھۆی کووشتنی ماسی لە دەریاچەکان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

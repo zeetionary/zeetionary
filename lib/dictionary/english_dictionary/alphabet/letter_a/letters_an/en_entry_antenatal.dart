@@ -214,6 +214,7 @@ class EnglishEntryantenatal extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە چاودێریی ژنانی دووگیان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +225,7 @@ class EnglishEntryantenatal extends StatelessWidget {
                                     "Your blood pressure will be monitored at all antenatal checks.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +237,10 @@ class EnglishEntryantenatal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پەستانی خوێنت وەردەگیرێت لە ھەموو پشکنینەکانی دووگیانی",
+                                    "پەستانی خوێنت وەردەگیرێت لە ھەموو پشکنینەکانی دووگیانی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

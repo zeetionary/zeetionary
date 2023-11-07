@@ -164,6 +164,7 @@ class EnglishEntryallowable extends StatelessWidget {
 ١. (ھاوەڵناو) ڕێگەپێدراو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryallowable extends StatelessWidget {
                                     "A certain level of error is allowable (= permitted to happen).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryallowable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێژەیەکی دیاریکراوی ھەڵە ڕێگەپێدراوە",
+                                    "ڕێژەیەکی دیاریکراوی ھەڵە ڕێگەپێدراوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -218,6 +221,7 @@ class EnglishEntryallowable extends StatelessWidget {
 ٢. (ھاوەڵناو) بڕە پارەیەک کە باج نایگرێتەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

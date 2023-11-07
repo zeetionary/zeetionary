@@ -237,6 +237,7 @@ class EnglishEntryammunition extends StatelessWidget {
 ١. (ناو) تەقەمەنی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -247,6 +248,7 @@ class EnglishEntryammunition extends StatelessWidget {
                                     "A few of the men had run out of ammunition.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -258,9 +260,10 @@ class EnglishEntryammunition extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەندێک لە پیاوەکان تەقەمەنییان پێ‌نەماوە",
+                                    "ھەندێک لە پیاوەکان تەقەمەنییان پێ‌نەماوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -291,6 +294,7 @@ class EnglishEntryammunition extends StatelessWidget {
 ٢. (ناو) زانیاری کە دەکرێت بەکاربھێنرێت دژ بە کەسێک لە مشتومڕێکدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -301,6 +305,7 @@ class EnglishEntryammunition extends StatelessWidget {
                                     "The letter gave her all the ammunition she needed.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -315,6 +320,7 @@ class EnglishEntryammunition extends StatelessWidget {
                                     "نامەکە ھەموو زانیارییەکی پێدا کە پێویستی‌بوو لە دژی ئەو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

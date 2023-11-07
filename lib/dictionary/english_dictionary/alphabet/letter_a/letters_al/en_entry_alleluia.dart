@@ -164,6 +164,7 @@ class EnglishEntryalleluia extends StatelessWidget {
 ١. (ناو) وشەیەک بۆ دەربڕینی سوپاسگوزاری بۆ خودا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalleluia extends StatelessWidget {
                                     "When the news of their victory came, there was an 'alleluia' of happiness among the team.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalleluia extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کاتێک ھەواڵی سەرکەوتنیان گەشت، شوکرانەیەکی زۆری دڵخۆشی ھەبوو لەناو تیمەکە",
+                                    "کاتێک ھەواڵی سەرکەوتنیان گەشت، شوکرانەیەکی زۆری دڵخۆشی ھەبوو لەناو تیمەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

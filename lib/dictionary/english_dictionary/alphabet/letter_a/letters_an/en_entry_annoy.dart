@@ -213,6 +213,7 @@ class EnglishEntryannoy extends StatelessWidget {
 ١. (کردار) کەمێک کەسیك بێزار بکەیت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryannoy extends StatelessWidget {
                                     "I’m sure she does it just to annoy me.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryannoy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دڵنیام تەنھا بۆ بێزارکردنی من دەیکات",
+                                    "دڵنیام تەنھا بۆ بێزارکردنی من دەیکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

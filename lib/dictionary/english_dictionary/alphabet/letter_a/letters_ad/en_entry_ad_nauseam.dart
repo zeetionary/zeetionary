@@ -164,6 +164,7 @@ class EnglishEntryadnauseam extends StatelessWidget {
 ١. (ھاوەڵکار) تا ئاستێکی بێزارکەر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadnauseam extends StatelessWidget {
                                     "Sports commentators repeat the same phrases ad nauseam.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadnauseam extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کۆمێنتارە وەرزشییەکان ھەمان شت دووبارە و دووبارە دەکەنەوە",
+                                    "کۆمێنتارە وەرزشییەکان ھەمان شت دووبارە و دووبارە دەکەنەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

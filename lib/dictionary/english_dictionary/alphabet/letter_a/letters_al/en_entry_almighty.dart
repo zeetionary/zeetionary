@@ -175,6 +175,7 @@ class EnglishEntryalmighty extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی دەسەڵاتی تەواو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -185,6 +186,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                                     "Almighty God, have mercy on us.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -196,9 +198,10 @@ class EnglishEntryalmighty extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خودای بەدەسەڵات، ڕەحممان پێ بکە",
+                                    "خودای بەدەسەڵات، ڕەحممان پێ بکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -229,6 +232,7 @@ class EnglishEntryalmighty extends StatelessWidget {
 ٢. (ھاوەڵناو) زۆر بەرز''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -239,6 +243,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                                     "All of a sudden we heard an almighty crash from the kitchen.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -250,9 +255,10 @@ class EnglishEntryalmighty extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەناکاو تەقەیەکی بەرزمان لە چێشتخانەکەوە بیست",
+                                    "لەناکاو تەقەیەکی بەرزمان لە چێشتخانەکەوە بیست.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -283,6 +289,7 @@ class EnglishEntryalmighty extends StatelessWidget {
 ٣. (ھاوەڵناو) بۆ پیشاندانی توڕەیی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -293,6 +300,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                                     "God Almighty! What the hell do you think you are doing?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -307,6 +315,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                                     "بۆ خاتری خودا، پێت وایە چی دەکەیت؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -337,6 +346,7 @@ class EnglishEntryalmighty extends StatelessWidget {
 ٤. (ھاوەڵناو) خودا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -347,6 +357,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                                     "We must pray to the Almighty for forgiveness.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -358,9 +369,10 @@ class EnglishEntryalmighty extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەبێت لای خودا نزا بکەین بۆ لێخۆشبوون",
+                                    "دەبێت لای خودا نزا بکەین بۆ لێخۆشبوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

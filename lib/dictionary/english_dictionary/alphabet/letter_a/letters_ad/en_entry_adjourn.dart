@@ -163,6 +163,7 @@ class EnglishEntryadjourn extends StatelessWidget {
 ١. (کردار) وەستاندنی کۆبوونەوەیەک بۆ ماوەیەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryadjourn extends StatelessWidget {
                                     "The court adjourned for lunch.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -181,9 +183,10 @@ class EnglishEntryadjourn extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دادگا دانیشتنەکەی ھەڵپەسارد تاوەکو نیوەڕۆ",
+                                    "دادگا دانیشتنەکەی ھەڵپەسارد تاوەکو نیوەڕۆ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -217,6 +220,7 @@ class EnglishEntryadjourn extends StatelessWidget {
                                     "The case was adjourned for a week.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -228,6 +232,7 @@ class EnglishEntryadjourn extends StatelessWidget {
                                     "کەیسەکە بۆ ھەفتەیەک ھەڵپەسێردرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

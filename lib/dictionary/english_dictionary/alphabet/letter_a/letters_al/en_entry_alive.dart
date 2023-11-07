@@ -217,6 +217,7 @@ class EnglishEntryalive extends StatelessWidget {
 ١. (ھاوەڵناو) زیندوو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -227,6 +228,7 @@ class EnglishEntryalive extends StatelessWidget {
                                     "She had to steal food just to stay alive.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -238,9 +240,10 @@ class EnglishEntryalive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێویست بوو خواردن بدزێت بۆ ئەوەی بە زیندوویی بمێنێتەوە",
+                                    "پێویست بوو خواردن بدزێت بۆ ئەوەی بە زیندوویی بمێنێتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -274,6 +277,7 @@ class EnglishEntryalive extends StatelessWidget {
                                     "We don't know whether he's alive or dead.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -285,9 +289,10 @@ class EnglishEntryalive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نازانین زیندووە یان مردووە",
+                                    "نازانین زیندووە یان مردووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -318,6 +323,7 @@ class EnglishEntryalive extends StatelessWidget {
 ٢. (ھاوەڵناو) پڕ لە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -328,6 +334,7 @@ class EnglishEntryalive extends StatelessWidget {
                                     "Ed was alive with happiness.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -339,9 +346,10 @@ class EnglishEntryalive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئێد پڕ بوو لە خۆشی",
+                                    "ئێد پڕ بوو لە خۆشی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -372,6 +380,7 @@ class EnglishEntryalive extends StatelessWidget {
 ٣. (ھاوەڵناو) بەردەوام''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -382,6 +391,7 @@ class EnglishEntryalive extends StatelessWidget {
                                     "The old customs are still very much alive in this region.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -393,9 +403,10 @@ class EnglishEntryalive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نەریتە کۆنەکان ھێشتا زیندوون لەم ھەرێمە",
+                                    "نەریتە کۆنەکان ھێشتا زیندوون لەم ھەرێمە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -426,6 +437,7 @@ class EnglishEntryalive extends StatelessWidget {
 ٤. (ھاوەڵناو) پڕ لە زیندەوەر یان شتی جووڵاو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -436,6 +448,7 @@ class EnglishEntryalive extends StatelessWidget {
                                     "The pool was alive with goldfish.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -447,9 +460,10 @@ class EnglishEntryalive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حەوزەکە پڕ لە زەردەماسی بوو",
+                                    "حەوزەکە پڕ لە زەردەماسی بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -480,6 +494,7 @@ class EnglishEntryalive extends StatelessWidget {
 ٥. (ھاوەڵناو) ئاگادار لە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -490,6 +505,7 @@ class EnglishEntryalive extends StatelessWidget {
                                     "They are alive to the fact that the opposing team has not lost a game this season.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -501,9 +517,10 @@ class EnglishEntryalive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "باش ئاگاداری ئەو ڕاستییەن کە تیمی بەرامبەر ئەم وەرزە ھیچ یارییەکی نەدۆڕاندووە",
+                                    "باش ئاگاداری ئەو ڕاستییەن کە تیمی بەرامبەر ئەم وەرزە ھیچ یارییەکی نەدۆڕاندووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

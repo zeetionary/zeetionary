@@ -163,6 +163,7 @@ class EnglishEntryaccurately extends StatelessWidget {
 ١. (ھاوەڵکار) بە وردی و درووستی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryaccurately extends StatelessWidget {
                                     "The article accurately reflects public opinion.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -181,9 +183,10 @@ class EnglishEntryaccurately extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وتارەکە بە درووستی بۆچوونی شەقام پیشان دەدات",
+                                    "وتارەکە بە درووستی بۆچوونی شەقام پیشان دەدات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -212,6 +215,7 @@ class EnglishEntryaccurately extends StatelessWidget {
 ٢. (ھاوەڵکار) بەشێوەیەکی تەواو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +226,7 @@ class EnglishEntryaccurately extends StatelessWidget {
                                     "Quantities must be measured accurately.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -230,9 +235,10 @@ class EnglishEntryaccurately extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بڕەکان دەبێت بە تەواوی بپێورێن",
+                                    "بڕەکان دەبێت بە تەواوی بپێورێن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

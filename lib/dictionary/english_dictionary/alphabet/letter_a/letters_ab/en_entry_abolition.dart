@@ -143,6 +143,7 @@ class EnglishEntryabolition extends StatelessWidget {
 ١. (ناو) کۆتایی پێھێنانی یاسایەک، سیستەمێک، یان دامەزراوەیەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -153,6 +154,7 @@ class EnglishEntryabolition extends StatelessWidget {
                                     "The report recommended the complete abolition of the tax.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -161,9 +163,10 @@ class EnglishEntryabolition extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕاپۆرتەکە پێشنیاری بەتەواوی ھەڵوەشاندنی باجەکەی دەکرد",
+                                    "ڕاپۆرتەکە پێشنیاری بەتەواوی ھەڵوەشاندنی باجەکەی دەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -214,6 +214,7 @@ class EnglishEntryangel extends StatelessWidget {
 ١. (ناو) بوونێک کە باوەڕوایە خزمەتگوزاری خودان و دەنێردرێن بۆ گەیاندنی پەیامێک یان بەجێھێنانی ئەرکێک. زۆرجار فریشتە بە جلی سپی و باڵەوە پیشان‌دەدرێن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +225,7 @@ class EnglishEntryangel extends StatelessWidget {
                                     "She looks like an angel.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +237,10 @@ class EnglishEntryangel extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەڵێی فریشتەیە",
+                                    "ئەڵێی فریشتەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -272,6 +275,7 @@ class EnglishEntryangel extends StatelessWidget {
                                     "She wore a white costume with big furry angel wings.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -283,9 +287,10 @@ class EnglishEntryangel extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جلێکی سپی لەبەرکرد بە باڵی فریشتەیی پەڕدارەوە",
+                                    "جلێکی سپی لەبەرکرد بە باڵی فریشتەیی پەڕدارەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -317,6 +322,7 @@ class EnglishEntryangel extends StatelessWidget {
 ٢. (ناو) کەسێکی زۆرباش و میھرەبان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -327,6 +333,7 @@ class EnglishEntryangel extends StatelessWidget {
                                     "Mary’s children are little angels.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -338,9 +345,10 @@ class EnglishEntryangel extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵەکانی ماری فریشتەی وردیلەن",
+                                    "منداڵەکانی ماری فریشتەی وردیلەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -372,6 +380,7 @@ class EnglishEntryangel extends StatelessWidget {
 ٣. (ناو) بۆ ناوھێنانی کەسێک کە سوپاسگوزاری بۆی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -382,6 +391,7 @@ class EnglishEntryangel extends StatelessWidget {
                                     "Thanks Dad, you're an angel.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -393,9 +403,10 @@ class EnglishEntryangel extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سوپاس باوکە، تۆ فریشتەیت",
+                                    "سوپاس باوکە، تۆ فریشتەیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

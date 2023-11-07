@@ -164,6 +164,7 @@ class EnglishEntryadvisory extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی ڕۆڵی ڕاوێژکاری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadvisory extends StatelessWidget {
                                     "She is employed by the president in an advisory capacity.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadvisory extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ سەرۆک کاردەکات لە ئاستی ڕاوێژکاری",
+                                    "بۆ سەرۆک کاردەکات لە ئاستی ڕاوێژکاری.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

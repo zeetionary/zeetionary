@@ -139,6 +139,7 @@ class EnglishEntryAbbess extends StatelessWidget {
 ١. (ناو) ژنە ڕەبەنێک کە سەرۆکی کڵێسایەکە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -149,6 +150,7 @@ class EnglishEntryAbbess extends StatelessWidget {
                                     "The abbess oversaw the daily activities of the abbey, ensuring that everything ran smoothly.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -157,9 +159,10 @@ class EnglishEntryAbbess extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژنە ڕەبەنەکە سەرپەرشتی چالاکییەکانی ڕۆژانەی کڵێساکەی دەکرد بۆ دڵنیابوون لەوەی ھەموو شتێک بێ کێشە بەڕێوەدەچوو",
+                                    "ژنە ڕەبەنەکە سەرپەرشتی چالاکییەکانی ڕۆژانەی کڵێساکەی دەکرد بۆ دڵنیابوون لەوەی ھەموو شتێک بێ کێشە بەڕێوەدەچوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

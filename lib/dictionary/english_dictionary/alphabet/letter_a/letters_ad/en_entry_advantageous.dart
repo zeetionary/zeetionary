@@ -164,6 +164,7 @@ class EnglishEntryadvantageous extends StatelessWidget {
 ١. (ھاوەڵناو) بەسوود یان لە بەرژەوەندی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadvantageous extends StatelessWidget {
                                     "This plan could be advantageous for people on low incomes.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadvantageous extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم پلانە دەکرێت لە بەرژەوەندی ئەو کەسانە بێت کە داھاتیان نزمە",
+                                    "ئەم پلانە دەکرێت لە بەرژەوەندی ئەو کەسانە بێت کە داھاتیان نزمە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

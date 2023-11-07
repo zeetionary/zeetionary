@@ -181,6 +181,7 @@ class EnglishEntryaffect extends StatelessWidget {
 ١. (کردار) کاریگەری درووستکردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -191,6 +192,7 @@ class EnglishEntryaffect extends StatelessWidget {
                                     "The article deals with issues affecting the lives of children.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -199,9 +201,10 @@ class EnglishEntryaffect extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وتارەکە مامەڵە لەگەڵ ئەو کێشانە دەکات کە کاریگەری لەسەر ژیانی منداڵان درووست دەکەن",
+                                    "وتارەکە مامەڵە لەگەڵ ئەو کێشانە دەکات کە کاریگەری لەسەر ژیانی منداڵان درووست دەکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -235,6 +238,7 @@ class EnglishEntryaffect extends StatelessWidget {
                                     "Your opinion will not affect my decision.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -243,9 +247,10 @@ class EnglishEntryaffect extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆچوونت کاریگەری لەسەر بڕیارەکەم ناکات",
+                                    "بۆچوونت کاریگەری لەسەر بڕیارەکەم ناکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -276,6 +281,7 @@ class EnglishEntryaffect extends StatelessWidget {
 ٢. (کردار) نەخۆشییەک کە کاریگەری دەبێت لەسەر جەستە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -286,6 +292,7 @@ class EnglishEntryaffect extends StatelessWidget {
                                     "The disease is more likely to affect women than men.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -294,9 +301,10 @@ class EnglishEntryaffect extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نەخۆشییەکە ئەگەری زیاترە تووشی ژنان بێت وەک لە پیاوان",
+                                    "نەخۆشییەکە ئەگەری زیاترە تووشی ژنان بێت وەک لە پیاوان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -327,6 +335,7 @@ class EnglishEntryaffect extends StatelessWidget {
 ٣. (کردار) وا لە کەسێک بکەیت ھەست بە دڵتەنگی بکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -337,6 +346,7 @@ class EnglishEntryaffect extends StatelessWidget {
                                     "They were deeply affected by the news of her death.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -345,9 +355,10 @@ class EnglishEntryaffect extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر ناڕەحەت بوون بە ھەواڵی مردنی",
+                                    "زۆر ناڕەحەت بوون بە ھەواڵی مردنی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -143,6 +143,7 @@ class EnglishEntryabolish extends StatelessWidget {
 ١. (کردار) بە فەرمی کۆتایی پێھێنانی یاسایەک، سیستەمێک، یان دامەزراوەیەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -153,6 +154,7 @@ class EnglishEntryabolish extends StatelessWidget {
                                     "This tax should be abolished.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -161,9 +163,10 @@ class EnglishEntryabolish extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم باجە دەبێت کۆتایی بێت",
+                                    "ئەم باجە دەبێت کۆتایی بێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

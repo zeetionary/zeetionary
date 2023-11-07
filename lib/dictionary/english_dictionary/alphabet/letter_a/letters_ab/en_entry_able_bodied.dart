@@ -137,6 +137,7 @@ class EnglishEntryablebodied extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە جەستەیەکی ساغی ھەیە بەبێ ھیچ جۆرێکی کەمئەندامی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -147,6 +148,7 @@ class EnglishEntryablebodied extends StatelessWidget {
                                     "Military service is compulsory for every able-bodied male between 18 and 27.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -158,6 +160,7 @@ class EnglishEntryablebodied extends StatelessWidget {
                                     "خزمەتی سەربازی بەزۆرەملێیە بۆ کەسانی 18 بۆ 27 ساڵ ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -215,6 +215,7 @@ class EnglishEntryantenna extends StatelessWidget {
 ١. (ناو) شاخۆچکەی بچووکی ھەندێک مێروو کە بەکاردێن بۆ ھەست‌کردن و 'دەستدان' لە شت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -225,6 +226,7 @@ class EnglishEntryantenna extends StatelessWidget {
                                     "The minister was praised for his acute political antennae (= ability to understand complicated political situations).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -236,9 +238,10 @@ class EnglishEntryantenna extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وەزیرەکە پەسن‌کرا بۆ بیرتیژیی لە سیاسەتدا",
+                                    "وەزیرەکە پەسن‌کرا بۆ بیرتیژیی لە سیاسەتدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -270,6 +273,7 @@ class EnglishEntryantenna extends StatelessWidget {
 ٢. (ناو) پارچە دەزگایەک کە لە وایەر درووستکراوە یان پارچە ئاسنی باریک بۆ وەرگرتن و ناردنی ئاماژەی ڕادیۆ یان تەلەڤیزیۆن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -280,6 +284,7 @@ class EnglishEntryantenna extends StatelessWidget {
                                     "They installed a dish antenna on the roof.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -291,9 +296,10 @@ class EnglishEntryantenna extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەحنەی سەتەلایتێکیان لە سەربانەکە دانا",
+                                    "سەحنەی سەتەلایتێکیان لە سەربانەکە دانا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -140,6 +140,7 @@ class EnglishEntryabbreviation extends StatelessWidget {
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -150,6 +151,7 @@ class EnglishEntryabbreviation extends StatelessWidget {
                                     "What's the abbreviation for this word?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -161,6 +163,7 @@ class EnglishEntryabbreviation extends StatelessWidget {
                                     "کورتکراوەی ئەم وشەیە چییە؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

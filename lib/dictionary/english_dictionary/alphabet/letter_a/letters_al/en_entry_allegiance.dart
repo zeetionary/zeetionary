@@ -164,6 +164,7 @@ class EnglishEntryallegiance extends StatelessWidget {
 ١. (ناو) دڵسۆزی و وەفاداری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryallegiance extends StatelessWidget {
                                     "He affirmed his allegiance to the president.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryallegiance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وەفاداری خۆی بۆ سەرۆک دووپاتکردەوە",
+                                    "وەفاداری خۆی بۆ سەرۆک دووپاتکردەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

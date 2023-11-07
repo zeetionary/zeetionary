@@ -166,6 +166,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
 ١. (ھاوەڵناو) بە فەرمی ڕاگەیاندنی ئەوەی شتێک ڕاستە، یان ئەوەی کە پشتگیری شتێک بە تەواوی دەکەیت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                     "We welcome the government's affirmation of its intention to act.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێشوازی دەکەین لە پشتڕاستکردنەوەی حکومەت لەوەی کەوا نیازی ھەیە ھەنگاو بنێت",
+                                    "پێشوازی دەکەین لە پشتڕاستکردنەوەی حکومەت لەوەی کەوا نیازی ھەیە ھەنگاو بنێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -220,6 +223,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                     "Some people need frequent affirmations of love from their partners.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -228,9 +232,10 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەندێک کەس ماوە ماوە پێویستیان بە سەلماندنی خۆشەویستی لە ھاوسەرەکانیانەوە ھەیە",
+                                    "ھەندێک کەس ماوە ماوە پێویستیان بە سەلماندنی خۆشەویستی لە ھاوسەرەکانیانەوە ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -261,6 +266,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
 ٢. (ھاوەڵناو) پشتیوانی سۆزداری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -271,6 +277,7 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                     "The children were constantly looking for affirmation from their parents.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -279,9 +286,10 @@ class EnglishEntryaffirmation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵەکان بەردەوام داوای ھەست و سۆزی دایک و باوکیان دەکرد",
+                                    "منداڵەکان بەردەوام داوای ھەست و سۆزی دایک و باوکیان دەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

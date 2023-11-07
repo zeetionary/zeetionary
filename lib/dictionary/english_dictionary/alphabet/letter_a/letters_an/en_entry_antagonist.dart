@@ -213,6 +213,7 @@ class EnglishEntryantagonist extends StatelessWidget {
 ١. (ناو) کەسێک کە بە سەرسەختی دژی کەسێک یان شتێکە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryantagonist extends StatelessWidget {
                                     "He has always been the prime minister’s most formidable antagonist in Parliament.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryantagonist extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەمیشە گەورەترین نەیاری سەرۆک وەزیران بووە لە پەرلەمان",
+                                    "ھەمیشە گەورەترین نەیاری سەرۆک وەزیران بووە لە پەرلەمان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

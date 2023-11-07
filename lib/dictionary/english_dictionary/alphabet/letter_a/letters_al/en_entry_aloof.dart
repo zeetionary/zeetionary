@@ -164,6 +164,7 @@ class EnglishEntryaloof extends StatelessWidget {
 ١. (ھاوەڵناو) حەزنەکردن لە خەڵکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaloof extends StatelessWidget {
                                     "He was a cold man, aloof and distant.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryaloof extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەسێکی ساردوسڕ و گۆشەگیر و دوورەپەرێز بوو",
+                                    "کەسێکی ساردوسڕ و گۆشەگیر و دوورەپەرێز بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

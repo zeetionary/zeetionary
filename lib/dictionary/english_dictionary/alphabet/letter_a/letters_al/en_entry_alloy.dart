@@ -164,6 +164,7 @@ class EnglishEntryalloy extends StatelessWidget {
 ١. (ناو) داڕشتە؛ کانزایەک کە بە تێکەڵکردنی دوو کانزای تر، یان کانزایەک و مادەیەکی تر درووست بووە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalloy extends StatelessWidget {
                                     "Brass is an alloy of copper and zinc.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalloy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مسی سپی داڕشتەی مس و زینکە",
+                                    "مسی سپی داڕشتەی مس و زینکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

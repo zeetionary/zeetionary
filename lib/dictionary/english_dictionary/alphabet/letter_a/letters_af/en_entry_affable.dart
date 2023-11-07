@@ -164,6 +164,7 @@ class EnglishEntryaffable extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێکی ڕووخۆش و ئێسکسووک کە ئاسانە قسەی لەگەڵ بکرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaffable extends StatelessWidget {
                                     "He struck me as an affable sort of a man.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryaffable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وەک پیاوێکی ڕووخۆش ھاتە بەرچاوم",
+                                    "وەک پیاوێکی ڕووخۆش ھاتە بەرچاوم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

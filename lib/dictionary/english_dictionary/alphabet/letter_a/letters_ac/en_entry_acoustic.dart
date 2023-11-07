@@ -164,6 +164,7 @@ class EnglishEntryacoustic extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە دەنگ، یان ھەستی بیستن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryacoustic extends StatelessWidget {
                                     "The microphone converts acoustic waves to electrical signals for transmission.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryacoustic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مایکرۆفۆنەکە شەپۆلی دەنگی دەگۆڕێت بۆ نیشانەی کارەبایی بۆ گواستنەوە",
+                                    "مایکرۆفۆنەکە شەپۆلی دەنگی دەگۆڕێت بۆ نیشانەی کارەبایی بۆ گواستنەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -162,6 +162,7 @@ class EnglishEntryadversely extends StatelessWidget {
 ١. (ھاوەڵکار) بشێوەیەک کە ئەنجامێکی باشی نابێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryadversely extends StatelessWidget {
                                     "Her health was adversely affected by the climate.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -180,9 +182,10 @@ class EnglishEntryadversely extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەندرووستیی بەشێوەیەکی خراپ کاریگەربوو بە ئاووھەوایەکە",
+                                    "تەندرووستیی بەشێوەیەکی خراپ کاریگەربوو بە ئاووھەوایەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

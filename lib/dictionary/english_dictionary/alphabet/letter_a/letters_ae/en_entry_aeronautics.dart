@@ -163,6 +163,7 @@ class EnglishEntryaeronautics extends StatelessWidget {
 ١. (ناو) زانستی درووستکردن و فڕاندنی فڕۆکە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

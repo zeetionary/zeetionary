@@ -182,6 +182,7 @@ class EnglishEntryache extends StatelessWidget {
 ١. (کردار) ھەستکردن بە ئێشێکی زۆر کە بە ئازار نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -192,6 +193,7 @@ class EnglishEntryache extends StatelessWidget {
                                     "Her eyes ached from lack of sleep.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -200,9 +202,10 @@ class EnglishEntryache extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چاوەکانم ژانیان دەکرد بەھۆی کەمخەوییەوە",
+                                    "چاوەکانم ژانیان دەکرد بەھۆی کەمخەوییەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -235,6 +238,7 @@ class EnglishEntryache extends StatelessWidget {
                                     "It makes my heart ache (= it makes me sad) to see her suffer.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -243,9 +247,10 @@ class EnglishEntryache extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دڵم دێتە ژان کە دەبینم ئازار دەکێشێت",
+                                    "دڵم دێتە ژان کە دەبینم ئازار دەکێشێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -275,6 +280,7 @@ class EnglishEntryache extends StatelessWidget {
 ٢. (کردار) بوونی حەزێکی زۆر بۆ شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -285,6 +291,7 @@ class EnglishEntryache extends StatelessWidget {
                                     "I was aching for home.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -293,9 +300,10 @@ class EnglishEntryache extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خەریکبوو دڵی دەتەقا بۆ ماڵەوە",
+                                    "خەریکبوو دڵی دەتەقا بۆ ماڵەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -325,6 +333,7 @@ class EnglishEntryache extends StatelessWidget {
 ٣. (کردار) لەگەڵ بەشەکانی جەستە بەکاردێت بۆ ئاماژە بەوەی لەو بەشە ئازاری ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -335,6 +344,7 @@ class EnglishEntryache extends StatelessWidget {
                                     "Mummy, I've got a tummy ache.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -346,6 +356,7 @@ class EnglishEntryache extends StatelessWidget {
                                     "دایکە، سکم ژان ئەکا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

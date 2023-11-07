@@ -157,6 +157,7 @@ class EnglishEntryaccumulate extends StatelessWidget {
 ١. (کردار) کۆکردنەوەی شتێک بە تێپەڕبوونی کات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryaccumulate extends StatelessWidget {
                                     "I seem to have accumulated a lot of books.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -175,9 +177,10 @@ class EnglishEntryaccumulate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وادیارە کتێبی زۆرم خڕکردووەتەوە",
+                                    "وادیارە کتێبی زۆرم خڕکردووەتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -209,6 +212,7 @@ class EnglishEntryaccumulate extends StatelessWidget {
                                     "Dust and dirt soon accumulate if a house is not cleaned regularly.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -217,9 +221,10 @@ class EnglishEntryaccumulate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەپوتۆز ھەرزوو زیاددەکەن ئەگەر خانوویەک بە بەردەوامی پاکنەکرێتەوە",
+                                    "تەپوتۆز ھەرزوو زیاددەکەن ئەگەر خانوویەک بە بەردەوامی پاکنەکرێتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

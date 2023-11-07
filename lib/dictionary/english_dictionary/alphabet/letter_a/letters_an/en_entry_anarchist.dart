@@ -25,7 +25,8 @@ class EnglishEntryanarchist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He was a poet, an anarchist, and a vegan."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He was a poet, an anarchist, and a vegan."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnarchist(String languageCode) async {
@@ -135,9 +136,9 @@ class EnglishEntryanarchist extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAnarchist(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAnarchist(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -209,6 +210,7 @@ class EnglishEntryanarchist extends StatelessWidget {
 ١. (ناو) حکومەت‌نەویست؛ کەسێک کە باوەڕی‌وایە یاسا و حکومەت ناپێویستن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -219,6 +221,7 @@ class EnglishEntryanarchist extends StatelessWidget {
                                     "He was a poet, an anarchist, and a vegan.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -230,9 +233,10 @@ class EnglishEntryanarchist extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەسێکی شاعیر و حکومەت‌نەویست و گیاخۆر بوو",
+                                    "کەسێکی شاعیر و حکومەت‌نەویست و گیاخۆر بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -250,9 +254,9 @@ class EnglishEntryanarchist extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnarchist459(// REPLACE: anarchist /ˈænərkɪst/
-                                        "en-US"),
+                                onPressed: () => speakAnarchist459(
+                                    // REPLACE: anarchist /ˈænərkɪst/
+                                    "en-US"),
                               ),
                             ],
                           ),

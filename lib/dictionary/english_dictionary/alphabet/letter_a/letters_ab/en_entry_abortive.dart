@@ -152,6 +152,7 @@ class EnglishEntryabortive extends StatelessWidget {
 ١. (ھاوەڵناو) کارێکی شکستخواردوو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -162,6 +163,7 @@ class EnglishEntryabortive extends StatelessWidget {
                                     "He tried to set up a meeting but his efforts proved abortive.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -170,9 +172,10 @@ class EnglishEntryabortive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەوڵیدا کە کۆبوونەوەیەک ڕێکبخات، بەڵام ھەوڵەکانی بێ ئەنجام بوون",
+                                    "ھەوڵیدا کە کۆبوونەوەیەک ڕێکبخات، بەڵام ھەوڵەکانی بێ ئەنجام بوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -204,6 +207,7 @@ class EnglishEntryabortive extends StatelessWidget {
                                     "There was an abortive attempt to overthrow the government.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -212,9 +216,10 @@ class EnglishEntryabortive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەوڵێکی نەزۆک ھەبوو بۆ گۆڕینی حکومەت",
+                                    "ھەوڵێکی نەزۆک ھەبوو بۆ گۆڕینی حکومەت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

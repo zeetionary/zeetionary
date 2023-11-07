@@ -215,6 +215,7 @@ class EnglishEntryannouncement extends StatelessWidget {
 ١. (ناو) ڕاگەیاندنێک کە بە فەرمی بە خەڵکی دەوترێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -225,6 +226,7 @@ class EnglishEntryannouncement extends StatelessWidget {
                                     "We welcome the recent announcement by the Government.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -236,9 +238,10 @@ class EnglishEntryannouncement extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێشوازی لە ڕاگەیاندنە تازەکەی حکومەت دەکەین",
+                                    "پێشوازی لە ڕاگەیاندنە تازەکەی حکومەت دەکەین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -273,6 +276,7 @@ class EnglishEntryannouncement extends StatelessWidget {
                                     "An announcement about her future is expected soon.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -284,9 +288,10 @@ class EnglishEntryannouncement extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەم‌زوانە چاوەڕوانی ڕاگەیاندنێک دەکرێت دەربارەی داھاتووی",
+                                    "بەم‌زوانە چاوەڕوانی ڕاگەیاندنێک دەکرێت دەربارەی داھاتووی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -318,6 +323,7 @@ class EnglishEntryannouncement extends StatelessWidget {
 ٢. (ناو) بە فەرمی ڕاگەیاندنی شتێک بە خەڵکی ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -328,6 +334,7 @@ class EnglishEntryannouncement extends StatelessWidget {
                                     "Announcement of the verdict was accompanied by shouts and cheers.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -339,9 +346,10 @@ class EnglishEntryannouncement extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕاگەیاندنی بڕیارەکە ھاوار و قریوەی بەدواداھات",
+                                    "ڕاگەیاندنی بڕیارەکە ھاوار و قریوەی بەدواداھات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

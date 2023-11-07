@@ -152,6 +152,7 @@ class EnglishEntryaboriginal extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە دانیشتووانی ڕەسەنی ئوسترالیا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -162,6 +163,7 @@ class EnglishEntryaboriginal extends StatelessWidget {
                                     "the issue of Aboriginal land rights",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -173,6 +175,7 @@ class EnglishEntryaboriginal extends StatelessWidget {
                                     "کێشەی مافی خاوەندارێتیی زەوی لەلایەن دانیشتووانی ڕەسەنی ئوسترالیا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -201,6 +204,7 @@ class EnglishEntryaboriginal extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بە دانیشتووانی ڕەسەنی ناوچەیەک پێش ئەوەی ئەورووپییەکان تێیدا دەربکەون''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -211,6 +215,7 @@ class EnglishEntryaboriginal extends StatelessWidget {
                                     "the aboriginal peoples of Canada",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -219,9 +224,10 @@ class EnglishEntryaboriginal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دانیشتووانی ڕەسەنی کەنەدا",
+                                    "دانیشتووانی ڕەسەنی کەنەدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

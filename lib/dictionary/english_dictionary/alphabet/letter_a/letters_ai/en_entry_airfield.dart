@@ -164,6 +164,7 @@ class EnglishEntryairfield extends StatelessWidget {
 ١. (ناو) سووینێک کە فڕۆکە لێوەی دەفڕێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryairfield extends StatelessWidget {
                                     "It is not just enough to have a bare airfield.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryairfield extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بوونی تەنھا باڵافڕگەیەک بەس نییە",
+                                    "بوونی تەنھا باڵافڕگەیەک بەس نییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

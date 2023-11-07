@@ -163,6 +163,7 @@ class EnglishEntryajar extends StatelessWidget {
 ١. (ھاوەڵناو) کەمێک کراوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryajar extends StatelessWidget {
                                     "I'll leave the door ajar.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryajar extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەرگاکە بە کەمێک کراوە جێدێڵم",
+                                    "دەرگاکە بە کەمێک کراوە جێدێڵم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

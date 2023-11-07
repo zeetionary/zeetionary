@@ -139,6 +139,7 @@ class EnglishEntryabject extends StatelessWidget {
 ١. (ھاوەڵناو) خراپ و بەبێ ھیوا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -149,6 +150,7 @@ class EnglishEntryabject extends StatelessWidget {
                                     "the most abject slaves joined in the revolt",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -157,9 +159,10 @@ class EnglishEntryabject extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو کۆیلانەی لە خراپترین بارودۆخدا بوون پەیوەندییان کرد بە شۆڕشەکەوە",
+                                    "ئەو کۆیلانەی لە خراپترین بارودۆخدا بوون پەیوەندییان کرد بە شۆڕشەکەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -162,6 +162,7 @@ class EnglishEntryam extends StatelessWidget {
 ١. (کردار) کاری ڕانەبردوو لەگەڵ کەسی یەکەمی تاک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryam extends StatelessWidget {
                                     "I am a teacher.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryam extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "من مامۆستام",
+                                    "من مامۆستام.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -215,6 +218,7 @@ class EnglishEntryam extends StatelessWidget {
 ١. (کورتکراوە) یەکێک لە ڕێگا باوەکانی گواستنەوەی دەنگی ڕادیۆیی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -225,6 +229,7 @@ class EnglishEntryam extends StatelessWidget {
                                     "You're listening to Radio Gold, broadcasting 24 hours a day on 909 AM.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -236,9 +241,10 @@ class EnglishEntryam extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بیسەری ڕادیۆی گۆڵدی، پەخشی ٢٤ کاتژمێری لەسەر شەپۆلی ٩٠٩ ئەی ئێم",
+                                    "بیسەری ڕادیۆی گۆڵدی، پەخشی ٢٤ کاتژمێری لەسەر شەپۆلی ٩٠٩ ئەی ئێم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

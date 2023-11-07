@@ -164,6 +164,7 @@ class EnglishEntryaground extends StatelessWidget {
 ١. (ھاوەڵکار) کاتێک کەشتییەک بنکەکەی لە بنی دەریا دەدات بەھۆی ئەوەی قووڵی کەمە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaground extends StatelessWidget {
                                     "The oil tanker ran/went aground off the Spanish coast.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -188,6 +190,7 @@ class EnglishEntryaground extends StatelessWidget {
                                     "کەشتییە نەوتییەکە چەقی لە کەناراوەکانی ئیسپانیا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryalleviation extends StatelessWidget {
 ١. (ھاوەڵناو) پێناسە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalleviation extends StatelessWidget {
                                     "Acupuncture might help with the alleviation of headaches.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalleviation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەرزی ئاژنین لەوانەیە یارمەتیدەر بێت لە سوککردنی سەرێشە",
+                                    "دەرزی ئاژنین لەوانەیە یارمەتیدەر بێت لە سوککردنی سەرێشە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

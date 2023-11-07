@@ -164,6 +164,7 @@ class EnglishEntryale extends StatelessWidget {
 ١. (ناو) جۆرە بیرەیەک کە بڵقی نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryale extends StatelessWidget {
                                     "This pub specializes in fine ales.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryale extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم باڕە شارەزایە لە ئەیڵی  فرەخاس",
+                                    "ئەم باڕە شارەزایە لە ئەیڵی  فرەخاس.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

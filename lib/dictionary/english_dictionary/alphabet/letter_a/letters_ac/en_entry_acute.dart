@@ -182,6 +182,7 @@ class EnglishEntryacute extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە بە ئاستێکی سەخت بوونی ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -192,6 +193,7 @@ class EnglishEntryacute extends StatelessWidget {
                                     "There is an acute shortage of water.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -200,9 +202,10 @@ class EnglishEntryacute extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەمئاوییەکی سەخت بوونی ھەیە",
+                                    "کەمئاوییەکی سەخت بوونی ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -236,6 +239,7 @@ class EnglishEntryacute extends StatelessWidget {
                                     "The scandal was an acute embarrassment for the President.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -244,9 +248,10 @@ class EnglishEntryacute extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئابڕووچوونەکە شەرمەزارییەکی خراپ بوو بۆ سەرۆک",
+                                    "ئابڕووچوونەکە شەرمەزارییەکی خراپ بوو بۆ سەرۆک.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -277,6 +282,7 @@ class EnglishEntryacute extends StatelessWidget {
 ٢. (ھاوەڵناو) نەخۆشییەک کە لەناکاو سەخت و مەترسیدار دەبێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -287,6 +293,7 @@ class EnglishEntryacute extends StatelessWidget {
                                     "acute abdominal pains",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -295,9 +302,10 @@ class EnglishEntryacute extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئازاری سەختی سک ئێشە",
+                                    "ئازاری سەختی سک ئێشە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -328,6 +336,7 @@ class EnglishEntryacute extends StatelessWidget {
 ٣. (ھاوەڵناو) ھەبوونی ھەستی تیژ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -338,6 +347,7 @@ class EnglishEntryacute extends StatelessWidget {
                                     "Dogs have an acute sense of smell.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -346,9 +356,10 @@ class EnglishEntryacute extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەگ ھەستێکی تیژی بۆنکردنی ھەیە",
+                                    "سەگ ھەستێکی تیژی بۆنکردنی ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -379,6 +390,7 @@ class EnglishEntryacute extends StatelessWidget {
 ٤. (ھاوەڵناو) زیرەک و خێرا لە تێگەشتن و بڕیاردان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -389,6 +401,7 @@ class EnglishEntryacute extends StatelessWidget {
                                     "Her judgement is acute.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -397,9 +410,10 @@ class EnglishEntryacute extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بڕیاردانی وردبینانەیە",
+                                    "بڕیاردانی وردبینانەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

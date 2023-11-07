@@ -173,6 +173,7 @@ class EnglishEntryambush extends StatelessWidget {
 ١. (ناو) بۆسە؛ خۆشاردنەوە لە شوێنێک و ئەنجامدانی ھێرشی لەناکاو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -183,6 +184,7 @@ class EnglishEntryambush extends StatelessWidget {
                                     "Two soldiers were killed in a terrorist ambush.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -194,9 +196,10 @@ class EnglishEntryambush extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دوو سەرباز لە بۆسەیەکی تیرۆریستی کوژران",
+                                    "دوو سەرباز لە بۆسەیەکی تیرۆریستی کوژران.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -228,6 +231,7 @@ class EnglishEntryambush extends StatelessWidget {
 ٢. (کردار) خستنە بۆسەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -238,6 +242,7 @@ class EnglishEntryambush extends StatelessWidget {
                                     "The guerrillas ambushed them near the bridge.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -249,9 +254,10 @@ class EnglishEntryambush extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گەریلاکان خستنیانە بۆسەوە",
+                                    "گەریلاکان خستنیانە بۆسەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

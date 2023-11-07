@@ -161,6 +161,7 @@ class EnglishEntryaerobics extends StatelessWidget {
 ١. (ناو) ڕاھێنانی جەستەیی بۆ بەھێزکردنی دڵ و سنگ، زۆرجار بەکۆمەڵ دەکرێت لەگەل میوزیک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

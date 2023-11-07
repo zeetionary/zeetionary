@@ -25,7 +25,8 @@ class EnglishEntryanchorage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The bay is well known as a safe anchorage."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The bay is well known as a safe anchorage."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnchorage145(String languageCode) async {
@@ -33,7 +34,8 @@ class EnglishEntryanchorage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The plant needs firm anchorage."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The plant needs firm anchorage."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnchorage(String languageCode) async {
@@ -135,9 +137,9 @@ class EnglishEntryanchorage extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAnchorage(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAnchorage(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -211,6 +213,7 @@ class EnglishEntryanchorage extends StatelessWidget {
 ١. (ناو) شوێنی لەنگەرگرتنی کەشتی و بەلەم''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +224,7 @@ class EnglishEntryanchorage extends StatelessWidget {
                                     "The bay is well known as a safe anchorage.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +236,10 @@ class EnglishEntryanchorage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەنداوەکە بەباشی وەک بەندەرێکی سەلامەت ناسراوە",
+                                    "کەنداوەکە بەباشی وەک بەندەرێکی سەلامەت ناسراوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -252,9 +257,9 @@ class EnglishEntryanchorage extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnchorage152(// REPLACE: anchorage /ˈæŋkərɪdʒ/
-                                        "en-US"),
+                                onPressed: () => speakAnchorage152(
+                                    // REPLACE: anchorage /ˈæŋkərɪdʒ/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -266,6 +271,7 @@ class EnglishEntryanchorage extends StatelessWidget {
 ٢. (ناو) جێگیرکردنی شتێک بە قایمی لە جێگەی خۆیدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -276,6 +282,7 @@ class EnglishEntryanchorage extends StatelessWidget {
                                     "The plant needs firm anchorage.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -287,9 +294,10 @@ class EnglishEntryanchorage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕووەکەکە پێویستی بە قایمکردنی توند ھەیە",
+                                    "ڕووەکەکە پێویستی بە قایمکردنی توند ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -307,9 +315,9 @@ class EnglishEntryanchorage extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnchorage145(// REPLACE: anchorage /ˈæŋkərɪdʒ/
-                                        "en-US"),
+                                onPressed: () => speakAnchorage145(
+                                    // REPLACE: anchorage /ˈæŋkərɪdʒ/
+                                    "en-US"),
                               ),
                             ],
                           ),

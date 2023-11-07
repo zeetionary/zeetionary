@@ -161,6 +161,7 @@ class EnglishEntryabortion extends StatelessWidget {
 ١. (ناو) کرداری کۆتاییھێنان بە دووگیانی لە قۆناغەکانی سەرەتا؛ لەباربردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -171,6 +172,7 @@ class EnglishEntryabortion extends StatelessWidget {
                                     "the country's strict abortion laws",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -179,9 +181,10 @@ class EnglishEntryabortion extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یاسا توندەکانی وڵاتەکە سەبارەت بە لەباربردن",
+                                    "یاسا توندەکانی وڵاتەکە سەبارەت بە لەباربردن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -210,6 +213,7 @@ class EnglishEntryabortion extends StatelessWidget {
 ٢. (ناو) پڕۆسەی تەندرووستی بۆ لەباربردنی منداڵ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -220,6 +224,7 @@ class EnglishEntryabortion extends StatelessWidget {
                                     "She decided to have an abortion.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -228,9 +233,10 @@ class EnglishEntryabortion extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بڕیاریدا پڕۆسەی لەباربردن ئەنجامبدا",
+                                    "بڕیاریدا پڕۆسەی لەباربردن ئەنجامبدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -259,6 +265,7 @@ class EnglishEntryabortion extends StatelessWidget {
 ٣. (ناو) کردەی لەدایکبوونی منداڵی پێشوەختە بە مردوویی؛ لەبارچوون''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -269,6 +276,7 @@ class EnglishEntryabortion extends StatelessWidget {
                                     "Higher amounts of caffeine may be associated with increased rates of abortion and low birthweight.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -277,9 +285,10 @@ class EnglishEntryabortion extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێژەی زۆری کافین دەکرێت ببەسترێتەوە بە ژمارەی زۆری لەبارچوون و کێش کەمی لە کاتی لەدایکبوون",
+                                    "ڕێژەی زۆری کافین دەکرێت ببەسترێتەوە بە ژمارەی زۆری لەبارچوون و کێش کەمی لە کاتی لەدایکبوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

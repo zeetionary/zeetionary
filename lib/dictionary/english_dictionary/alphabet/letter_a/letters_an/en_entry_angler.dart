@@ -212,6 +212,7 @@ class EnglishEntryangler extends StatelessWidget {
 ١. (ناو) کەسێک کە ماسی دەگرێت بۆ خۆشی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryangler extends StatelessWidget {
                                     "The angler reeled in and went home.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryangler extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ماسیگرەکە قولابەکەیی کۆکردەوە و چووەوە ماڵەوە",
+                                    "ماسیگرەکە قولابەکەیی کۆکردەوە و چووەوە ماڵەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

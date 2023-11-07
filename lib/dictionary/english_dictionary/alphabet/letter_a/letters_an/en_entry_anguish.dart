@@ -213,6 +213,7 @@ class EnglishEntryanguish extends StatelessWidget {
 ١. (ناو) ئازار، ناڕەحەتی، یان ناخۆشییەکی زۆری دەروونی یان جەستەیی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryanguish extends StatelessWidget {
                                     "Tears of anguish filled her eyes.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryanguish extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "فرمێسکی ئازار و ناڕەحەتی ھێینابوویە قوڵپی گریان",
+                                    "فرمێسکی ئازار و ناڕەحەتی ھێینابوویە قوڵپی گریان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -271,6 +274,7 @@ class EnglishEntryanguish extends StatelessWidget {
                                     "He suffered the anguish of watching his son go to prison.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -282,9 +286,10 @@ class EnglishEntryanguish extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە ناڕەحەتی بینینی بردنی کوڕەکەی بۆ زیندان تێپەڕبوو",
+                                    "بە ناڕەحەتی بینینی بردنی کوڕەکەی بۆ زیندان تێپەڕبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

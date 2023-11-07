@@ -165,6 +165,7 @@ class EnglishEntryaccumulation extends StatelessWidget {
 ١. پێناسە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryaccumulation extends StatelessWidget {
                                     "Despite this accumulation of evidence, the government persisted in doing nothing.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryaccumulation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەرەڕای زیادبوونی بەڵگە، حکوومەت سووربوولەسەر ئەوەی ھیچ شتێکی ھەڵەی نەکردووە",
+                                    "سەرەڕای زیادبوونی بەڵگە، حکوومەت سووربوولەسەر ئەوەی ھیچ شتێکی ھەڵەی نەکردووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -217,6 +220,7 @@ class EnglishEntryaccumulation extends StatelessWidget {
                                     "Accumulations of sand can be formed by the action of waves on coastal beaches.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -225,9 +229,10 @@ class EnglishEntryaccumulation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کۆبوونەوەی خۆڵ ئەکرێت درووستببێت بەھۆی شەپۆل لە کەنار دەریاییەکان",
+                                    "کۆبوونەوەی خۆڵ ئەکرێت درووستببێت بەھۆی شەپۆل لە کەنار دەریاییەکان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

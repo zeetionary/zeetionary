@@ -165,6 +165,7 @@ class EnglishEntryaffluence extends StatelessWidget {
 ١. (ناو) بوونی پارەی زۆر و گوزەرانی باش''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryaffluence extends StatelessWidget {
                                     "The 1950s were an age of affluence in America.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,6 +188,7 @@ class EnglishEntryaffluence extends StatelessWidget {
                                     "ساڵانی ١٩٥٠ یەکان سەردەمی زۆر و زەبەندی بوو لە ئەمریکا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryaffluence extends StatelessWidget {
                                     "The nation's affluence has made two- and even three-car families the norm.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -227,9 +231,10 @@ class EnglishEntryaffluence extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەوڵەمەندی وڵاتەکە وایکردووە بوونی دوو و سێ ئۆتۆمبێل لە خێزانێکدا شتێکی ئاسایی بێت",
+                                    "دەوڵەمەندی وڵاتەکە وایکردووە بوونی دوو و سێ ئۆتۆمبێل لە خێزانێکدا شتێکی ئاسایی بێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

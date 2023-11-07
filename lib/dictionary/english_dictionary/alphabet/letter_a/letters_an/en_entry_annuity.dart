@@ -213,6 +213,7 @@ class EnglishEntryannuity extends StatelessWidget {
 ١. (ناو) بڕە پارەیەکی دیاریکراو کە دەدرێت بە کەسێک تا مردنی، زۆرجار وەک بەشێک لە بیمەنامەیەک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryannuity extends StatelessWidget {
                                     "She receives a small annuity.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryannuity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بیمەیەکی بچووکی ساڵانە وەردەگرێت",
+                                    "بیمەیەکی بچووکی ساڵانە وەردەگرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

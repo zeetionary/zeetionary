@@ -162,6 +162,7 @@ class EnglishEntryairmail extends StatelessWidget {
 ١. (ناو) پۆستەی ئاسمانی؛ ناردنی نامە لە ڕێگەی فڕۆکەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryairmail extends StatelessWidget {
                                     "Send it airmail/by airmail.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryairmail extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە پۆستەی ئاسمانی بینێرە",
+                                    "بە پۆستەی ئاسمانی بینێرە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

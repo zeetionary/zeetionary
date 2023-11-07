@@ -166,6 +166,7 @@ class EnglishEntryadrift extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک یان بەلەمێکی بێ کۆنترۆڵ لەناو دەریا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryadrift extends StatelessWidget {
                                     "He spent three days adrift on his yacht.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryadrift extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سێ ڕۆژی لەناو شەپۆلەکان بەسەربرد لەسەر یەختەکەی",
+                                    "سێ ڕۆژی لەناو شەپۆلەکان بەسەربرد لەسەر یەختەکەی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -217,6 +220,7 @@ class EnglishEntryadrift extends StatelessWidget {
 ٢. (ھاوەڵناو) کەسێکی تەنھا و سەرلێشێواو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -227,6 +231,7 @@ class EnglishEntryadrift extends StatelessWidget {
                                     "Without language, human beings are cast adrift.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +240,10 @@ class EnglishEntryadrift extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەبێ زمان مرۆڤەکان سەرلێشێواون",
+                                    "بەبێ زمان مرۆڤەکان سەرلێشێواون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -268,6 +274,7 @@ class EnglishEntryadrift extends StatelessWidget {
 ٣. (ھاوەڵناو) شتێک کە بەو شێوەیە بەڕێوەناچێت کە مەبەستە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -278,6 +285,7 @@ class EnglishEntryadrift extends StatelessWidget {
                                     "Something seems to have gone adrift in our calculations.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -286,9 +294,10 @@ class EnglishEntryadrift extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وادیارە شتێک لە خەمڵاندنەکانمان ناڕێکە",
+                                    "وادیارە شتێک لە خەمڵاندنەکانمان ناڕێکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -193,6 +193,7 @@ class EnglishEntryaccess extends StatelessWidget {
 ١. (ناو) ھەل یان مافی بینینی کەسێک، یان بەکارھێنانی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -203,6 +204,7 @@ class EnglishEntryaccess extends StatelessWidget {
                                     "You need a password to get access to the computer system.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -211,9 +213,10 @@ class EnglishEntryaccess extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێویستت بە تێپەڕەوشە ھەیە بۆ چوونەناو ناو سیستەمی کۆمپیوتەرەکە",
+                                    "پێویستت بە تێپەڕەوشە ھەیە بۆ چوونەناو ناو سیستەمی کۆمپیوتەرەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -245,6 +248,7 @@ class EnglishEntryaccess extends StatelessWidget {
                                     "Journalists were denied access to the President.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -253,9 +257,10 @@ class EnglishEntryaccess extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێگە بە ڕۆژنامەنووسان نەدرا سەرۆک ببینن",
+                                    "ڕێگە بە ڕۆژنامەنووسان نەدرا سەرۆک ببینن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -284,6 +289,7 @@ class EnglishEntryaccess extends StatelessWidget {
 ٢. (ناو) ڕێگای چوونەناو شوێنێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -294,6 +300,7 @@ class EnglishEntryaccess extends StatelessWidget {
                                     "The police gained access through a broken window.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -302,9 +309,10 @@ class EnglishEntryaccess extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پۆلیس چوونەژوورەوە لە ڕێگەی پەنجەرەیەکی شکاوەوە",
+                                    "پۆلیس چوونەژوورەوە لە ڕێگەی پەنجەرەیەکی شکاوەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -333,6 +341,7 @@ class EnglishEntryaccess extends StatelessWidget {
 ٣. (کردار) کردنەوەی فایلی کۆمپیوتەرێک، یان چوونەناو سیستەمی کۆمپیوتەرێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -343,6 +352,7 @@ class EnglishEntryaccess extends StatelessWidget {
                                     "Most people use their phones to access the internet.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -351,9 +361,10 @@ class EnglishEntryaccess extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆرینەی خەڵک موبایل بەکاردێنن بۆ بەکارھێنانی ئینتەرنێت",
+                                    "زۆرینەی خەڵک موبایل بەکاردێنن بۆ بەکارھێنانی ئینتەرنێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -382,6 +393,7 @@ class EnglishEntryaccess extends StatelessWidget {
 ٤. (کردار) توانای بەکارھێنانی شتێک، بەتایبەتی شتێک کە مافی بەکارھێنانیت ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -392,6 +404,7 @@ class EnglishEntryaccess extends StatelessWidget {
                                     "Older people may have difficulty accessing medical services.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -400,9 +413,10 @@ class EnglishEntryaccess extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەسانی بەتەمەن ڕەنگە کێشەیان ھەبێت لە بەکارھێنانی خزمەتگوزارییە تەندرووستییەکان",
+                                    "کەسانی بەتەمەن ڕەنگە کێشەیان ھەبێت لە بەکارھێنانی خزمەتگوزارییە تەندرووستییەکان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -431,6 +445,7 @@ class EnglishEntryaccess extends StatelessWidget {
 ٥. (کردار) چوونەناو شوێنێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -441,6 +456,7 @@ class EnglishEntryaccess extends StatelessWidget {
                                     "The village is easily accessed by public transport.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -452,6 +468,7 @@ class EnglishEntryaccess extends StatelessWidget {
                                     "بە ئاسانی دەتوانرێت چوونەناو گوندەکە ئەنجام بدرێت لە ڕێگەی گواستنەوەی گشتی ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

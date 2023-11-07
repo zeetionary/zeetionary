@@ -202,6 +202,7 @@ class EnglishEntryabuse extends StatelessWidget {
 ١. (ناو) بەکارھێنانی شتێک بەشێوەیەکی خراپ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -212,6 +213,7 @@ class EnglishEntryabuse extends StatelessWidget {
                                     "The legal system in this country is open to abuse.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -220,9 +222,10 @@ class EnglishEntryabuse extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سیستەمی دادوەری لەم وڵاتە ئەکرێت خراپ بەکاربێت",
+                                    "سیستەمی دادوەری لەم وڵاتە ئەکرێت خراپ بەکاربێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -254,6 +257,7 @@ class EnglishEntryabuse extends StatelessWidget {
                                     "He was arrested on charges of corruption and abuse of power.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -262,9 +266,10 @@ class EnglishEntryabuse extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەستگیرکرا بە تۆمەتەکانی گەندڵی و خراپ بەکارھێنانی دەسەڵات",
+                                    "دەستگیرکرا بە تۆمەتەکانی گەندڵی و خراپ بەکارھێنانی دەسەڵات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -293,6 +298,7 @@ class EnglishEntryabuse extends StatelessWidget {
 ٢. (ناو) مامەڵەی خراپ لەگەڵ کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -303,6 +309,7 @@ class EnglishEntryabuse extends StatelessWidget {
                                     "She suffered years of physical abuse.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -311,9 +318,10 @@ class EnglishEntryabuse extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ چەندین ساڵ بەدەست توندوتیژی جەستەییەوە ناڵاندی",
+                                    "بۆ چەندین ساڵ بەدەست توندوتیژی جەستەییەوە ناڵاندی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -342,6 +350,7 @@ class EnglishEntryabuse extends StatelessWidget {
 ٣. (ناو) قسەی چەوت و ناشرین و لەلایەن کەسێکی توڕەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -352,6 +361,7 @@ class EnglishEntryabuse extends StatelessWidget {
                                     "The man burst into a torrent of foul-mouthed racist abuse.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -360,9 +370,10 @@ class EnglishEntryabuse extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پیاوەکە دەستیکرد بە ژمارەیەکی زۆر لە قسەی پیسی ڕەگەزپەرستییانە",
+                                    "پیاوەکە دەستیکرد بە ژمارەیەکی زۆر لە قسەی پیسی ڕەگەزپەرستییانە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -391,6 +402,7 @@ class EnglishEntryabuse extends StatelessWidget {
 ٤. (کردار) بەکارھێنانی شتێک بە خراپی، یان بەکارھێنانی شتێکی خراپ کە زیانی بۆ جەستە ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -401,6 +413,7 @@ class EnglishEntryabuse extends StatelessWidget {
                                     "People who abuse alcohol over a long period will develop health problems.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -409,9 +422,10 @@ class EnglishEntryabuse extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو کەسانەی کە کە کحوول بۆ ماوەیەکی زۆر بەکاردێنن کێشەی تەندرووستییان بۆ درووستدەبێت",
+                                    "ئەو کەسانەی کە کە کحوول بۆ ماوەیەکی زۆر بەکاردێنن کێشەی تەندرووستییان بۆ درووستدەبێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -440,6 +454,7 @@ class EnglishEntryabuse extends StatelessWidget {
 ٥. (کردار) بەکارھێنانی زانیاری یان دەسەڵات بەشێوەیەکی خراپ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -450,6 +465,7 @@ class EnglishEntryabuse extends StatelessWidget {
                                     "She abused her position as principal by giving jobs to her friends.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -458,9 +474,10 @@ class EnglishEntryabuse extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێگەکەی خراپ بەکارھێنا وەک بەڕێوەبەرێک بە پێدانی کار بە ھاوڕێکانی",
+                                    "پێگەکەی خراپ بەکارھێنا وەک بەڕێوەبەرێک بە پێدانی کار بە ھاوڕێکانی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -489,6 +506,7 @@ class EnglishEntryabuse extends StatelessWidget {
 ٦. (کردار) دەستدرێژیکردنە سەر کەسێک، زۆرجار دەستدرێژی سێکسی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -499,6 +517,7 @@ class EnglishEntryabuse extends StatelessWidget {
                                     "The boy had been sexually abused.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -510,6 +529,7 @@ class EnglishEntryabuse extends StatelessWidget {
                                     "کوڕەکە دەستدرێژیی سێکسیی کرابووە سەر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -140,6 +140,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                             ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -150,6 +151,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                                     "their childhood abandonment by their mother",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -158,9 +160,10 @@ class EnglishEntryabandonment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەستبەرداربوون لێیان لەلایەن دایکیان",
+                                    "دەستبەرداربوون لێیان لەلایەن دایکیان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

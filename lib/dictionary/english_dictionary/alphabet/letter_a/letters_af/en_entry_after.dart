@@ -112,8 +112,7 @@ class EnglishEntryafter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She asked after you."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She asked after you."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAfter459322(String languageCode) async {
@@ -288,6 +287,7 @@ class EnglishEntryafter extends StatelessWidget {
 ١. (ئامراز) لەدوای شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -298,6 +298,7 @@ class EnglishEntryafter extends StatelessWidget {
                                     "We'll leave after lunch.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -309,9 +310,10 @@ class EnglishEntryafter extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەدوای نانی نیوەڕۆ دەچین",
+                                    "لەدوای نانی نیوەڕۆ دەچین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -345,6 +347,7 @@ class EnglishEntryafter extends StatelessWidget {
                                     "After winning the prize she became famous overnight.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -356,9 +359,10 @@ class EnglishEntryafter extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەدوای بردنەوەی خەڵاتەکە لە شەو و ڕۆژێکدا بەناوبانگ بوو",
+                                    "لەدوای بردنەوەی خەڵاتەکە لە شەو و ڕۆژێکدا بەناوبانگ بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -389,6 +393,7 @@ class EnglishEntryafter extends StatelessWidget {
 ٢. (ئامراز) لەدوای کەسێک یان شتێکەوە لە ڕیزبەندییەکدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -399,6 +404,7 @@ class EnglishEntryafter extends StatelessWidget {
                                     "Your name comes after mine in the list.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -410,9 +416,10 @@ class EnglishEntryafter extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناوت لەدوای ھی منەوەیە لە لیستەکەدا",
+                                    "ناوت لەدوای ھی منەوەیە لە لیستەکەدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -446,6 +453,7 @@ class EnglishEntryafter extends StatelessWidget {
                                     "He's the tallest, after Richard.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -457,9 +465,10 @@ class EnglishEntryafter extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەدوای ڕیچارد ئەو بەرزترینە",
+                                    "لەدوای ڕیچارد ئەو بەرزترینە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -490,6 +499,7 @@ class EnglishEntryafter extends StatelessWidget {
 ٣. (ئامراز) لەدوای کەسێکی ڕۆشتوو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -500,6 +510,7 @@ class EnglishEntryafter extends StatelessWidget {
                                     "Shut the door after you.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -511,9 +522,10 @@ class EnglishEntryafter extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەرگاکە بگرە لەدوای خۆت",
+                                    "دەرگاکە بگرە لەدوای خۆت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -544,6 +556,7 @@ class EnglishEntryafter extends StatelessWidget {
 ٤. (ئامراز) بەراورد بە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -554,6 +567,7 @@ class EnglishEntryafter extends StatelessWidget {
                                     "It was pleasantly cool in the house after the heat outside.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -565,9 +579,10 @@ class EnglishEntryafter extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە ماڵەوە فێنک و خۆش بوو بەراورد بە گەرماکەی دەرەوە",
+                                    "لە ماڵەوە فێنک و خۆش بوو بەراورد بە گەرماکەی دەرەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -598,6 +613,7 @@ class EnglishEntryafter extends StatelessWidget {
 ٥. (ئامراز) لە ئەنجامی شتێک کە ڕوویداوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -608,6 +624,7 @@ class EnglishEntryafter extends StatelessWidget {
                                     "I'll never forgive him after what he said.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -619,9 +636,10 @@ class EnglishEntryafter extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەرگیز لێی خۆشنابم لەدوای ئەوەی وتی",
+                                    "ھەرگیز لێی خۆشنابم لەدوای ئەوەی وتی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -652,6 +670,7 @@ class EnglishEntryafter extends StatelessWidget {
 ٦. (ئامراز) سەرەڕای شتێک کە ڕوویداوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -662,6 +681,7 @@ class EnglishEntryafter extends StatelessWidget {
                                     "I can't believe she'd do that, not after all I've done for her.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -673,9 +693,10 @@ class EnglishEntryafter extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "باوەڕناکەم ئەوەی کرد، سەرەڕای ئەو ھەموو شتەی بۆم کردە",
+                                    "باوەڕناکەم ئەوەی کرد، سەرەڕای ئەو ھەموو شتەی بۆم کردە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -706,6 +727,7 @@ class EnglishEntryafter extends StatelessWidget {
 ٧. (ئامراز) بەکاردێت بۆ وتنی ئەوەی شتێک زۆر یان بەبەردەوامی ڕوویداوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -716,6 +738,7 @@ class EnglishEntryafter extends StatelessWidget {
                                     "I've told you time after time not to do that.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -727,9 +750,10 @@ class EnglishEntryafter extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دووبارە و دووبارە پێم وتووی ئەوە نەکەیت",
+                                    "دووبارە و دووبارە پێم وتووی ئەوە نەکەیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -760,6 +784,7 @@ class EnglishEntryafter extends StatelessWidget {
 ٨. (ئامراز) ھەوڵدان بۆ گرتنی کەسێک یان شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -770,6 +795,7 @@ class EnglishEntryafter extends StatelessWidget {
                                     "The police are after him.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -781,9 +807,10 @@ class EnglishEntryafter extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پۆلیس بەدوایەتی",
+                                    "پۆلیس بەدوایەتی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -814,6 +841,7 @@ class EnglishEntryafter extends StatelessWidget {
 ٩. (ئامراز) دەربارەی کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -824,6 +852,7 @@ class EnglishEntryafter extends StatelessWidget {
                                     "She asked after you (= how you were).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -835,9 +864,10 @@ class EnglishEntryafter extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەواڵی پرسیت",
+                                    "ھەواڵی پرسیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -868,6 +898,7 @@ class EnglishEntryafter extends StatelessWidget {
 ١٠. (ئامراز) ناونانی کەسێک بەناوی کەسێکی ترەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -878,6 +909,7 @@ class EnglishEntryafter extends StatelessWidget {
                                     "We named the baby Ena after her grandmother.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -889,9 +921,10 @@ class EnglishEntryafter extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵەکەمان بەناوی داپیرەیەوە ناونا ئێنا",
+                                    "منداڵەکەمان بەناوی داپیرەیەوە ناونا ئێنا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -922,6 +955,7 @@ class EnglishEntryafter extends StatelessWidget {
 ١١. (لێکدەر) لەدوای ڕوودانی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -932,6 +966,7 @@ class EnglishEntryafter extends StatelessWidget {
                                     "I'll call you after I've spoken to them.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -943,9 +978,10 @@ class EnglishEntryafter extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پەیوەندیت پێوە دەکەم لەدوای ئەوەی قسەیان لەگەڵ دەکەم",
+                                    "پەیوەندیت پێوە دەکەم لەدوای ئەوەی قسەیان لەگەڵ دەکەم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -979,6 +1015,7 @@ class EnglishEntryafter extends StatelessWidget {
                                     "Several years after they'd split up they met again by chance in Paris.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -990,9 +1027,10 @@ class EnglishEntryafter extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چەند ساڵێک دوای ئەوەی جیابوونەوە، بە شانس یەکیان لە پاریس دیتەوە",
+                                    "چەند ساڵێک دوای ئەوەی جیابوونەوە، بە شانس یەکیان لە پاریس دیتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -1023,6 +1061,7 @@ class EnglishEntryafter extends StatelessWidget {
 ١٢. (ھاوەڵکار) لەدوای کاتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -1033,6 +1072,7 @@ class EnglishEntryafter extends StatelessWidget {
                                     "I could come next week, or the week after.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -1044,9 +1084,10 @@ class EnglishEntryafter extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەفتەی دواتر دێم، یان ھەفتەی دوای ئەوە",
+                                    "ھەفتەی دواتر دێم، یان ھەفتەی دوای ئەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -1077,6 +1118,7 @@ class EnglishEntryafter extends StatelessWidget {
 ١٣. (ھاوەڵناو) لەدوای کاتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -1087,6 +1129,7 @@ class EnglishEntryafter extends StatelessWidget {
                                     "In after years we never heard from him.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -1098,7 +1141,7 @@ class EnglishEntryafter extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ساڵانی دواتر ھیچمان لێ نەبیست",
+                                    "ساڵانی دواتر ھیچمان لێ نەبیست.",
                                     textAlign:
                                         TextAlign.right, // Right-to-left p
                                   ),

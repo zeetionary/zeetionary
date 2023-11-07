@@ -165,6 +165,7 @@ class EnglishEntryachievement extends StatelessWidget {
 ١. (ناو) شتێک کە کەسێک بە ھەوڵ و ماندییبیینی بە سەرکەوتووانە کردوویەتی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryachievement extends StatelessWidget {
                                     "It was a remarkable achievement for such a young player.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,6 +188,7 @@ class EnglishEntryachievement extends StatelessWidget {
                                     "دەستکەوتێکی ناوازە بوو یەریزانێکی وا گەنج ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -218,6 +221,7 @@ class EnglishEntryachievement extends StatelessWidget {
                                     "This work is the crowning achievement (= the greatest achievement) of her career.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -226,9 +230,10 @@ class EnglishEntryachievement extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەمە گەورەترین دەستکەوتی کارکردنیەتی",
+                                    "ئەمە گەورەترین دەستکەوتی کارکردنیەتی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

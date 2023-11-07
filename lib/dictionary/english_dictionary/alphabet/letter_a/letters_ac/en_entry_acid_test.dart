@@ -164,6 +164,7 @@ class EnglishEntryacidtest extends StatelessWidget {
 ١. (ناو) ڕێگای دیاریکردنی ئەوەی کەسێک/شتێک سەرکەوتووە یان نا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryacidtest extends StatelessWidget {
                                     "The acid test of a good driver is whether they remain calm in an emergency.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryacidtest extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەنگی مەحەک بۆ شۆفێرێکی باش ئەوەیە کە بە ئارامی دەمێنێتەوە لە حاڵەتی نەخوازراو یان نا",
+                                    "سەنگی مەحەک بۆ شۆفێرێکی باش ئەوەیە کە بە ئارامی دەمێنێتەوە لە حاڵەتی نەخوازراو یان نا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

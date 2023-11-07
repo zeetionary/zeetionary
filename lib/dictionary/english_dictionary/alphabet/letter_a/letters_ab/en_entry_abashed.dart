@@ -137,6 +137,7 @@ class EnglishEntryabashed extends StatelessWidget {
 ١. (ھاوەڵناو) شەرمەزار بەھۆی شتێک کە کردووتە                            ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -147,6 +148,7 @@ class EnglishEntryabashed extends StatelessWidget {
                                     "He glanced at Juliet accusingly and she looked abashed.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -155,9 +157,10 @@ class EnglishEntryabashed extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە چاوی گومانەوە لە جولیای دەڕوانی و ئەویش شەرمەزار بوو",
+                                    "بە چاوی گومانەوە لە جولیای دەڕوانی و ئەویش شەرمەزار بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

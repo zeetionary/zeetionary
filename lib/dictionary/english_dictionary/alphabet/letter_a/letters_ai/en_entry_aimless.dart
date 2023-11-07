@@ -164,6 +164,7 @@ class EnglishEntryaimless extends StatelessWidget {
 ١. (ھاوەڵناو) بێ پلان و ئاراستە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaimless extends StatelessWidget {
                                     "My life seemed aimless.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryaimless extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژیانم بێ ئامانج دیاربوو",
+                                    "ژیانم بێ ئامانج دیاربوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -221,6 +224,7 @@ class EnglishEntryaimless extends StatelessWidget {
                                     "She said that her life seemed aimless after her children left home.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +236,10 @@ class EnglishEntryaimless extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گوتی ژیانی بێ ئامانج بوو لەدوای ئەوەی منداڵەکانی ماڵەوەیان جێھێشت",
+                                    "گوتی ژیانی بێ ئامانج بوو لەدوای ئەوەی منداڵەکانی ماڵەوەیان جێھێشت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

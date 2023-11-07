@@ -165,6 +165,7 @@ class EnglishEntryadult extends StatelessWidget {
 ١. (ناو) کەسێک کە لە ڕووی یاساییەوە بەرپرسە بۆ کردارەکانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryadult extends StatelessWidget {
                                     "Children must be accompanied by an adult.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryadult extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵان دەبێت کەسێکی پێگەیشتوویان لەگەڵدا بێت",
+                                    "منداڵان دەبێت کەسێکی پێگەیشتوویان لەگەڵدا بێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryadult extends StatelessWidget {
 ٢. (ناو) ئاژەڵێکی تەواو پێگەیشتوو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +230,7 @@ class EnglishEntryadult extends StatelessWidget {
                                     "The fish return to the river as adults in order to breed.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +239,10 @@ class EnglishEntryadult extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ماسییەکان کە تەواو گەورە دەبن دەگەڕێنەوە ناو ڕووبارەکە بۆ زاوزێ",
+                                    "ماسییەکان کە تەواو گەورە دەبن دەگەڕێنەوە ناو ڕووبارەکە بۆ زاوزێ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

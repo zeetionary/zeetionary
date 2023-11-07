@@ -191,6 +191,7 @@ class EnglishEntryactually extends StatelessWidget {
 ١. (ھاوەڵکار) بەکاردێت بۆ پیشاندانی ئەوەی شتێک ڕاستە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -201,6 +202,7 @@ class EnglishEntryactually extends StatelessWidget {
                                     "There are lots of people there who can actually help you.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -209,9 +211,10 @@ class EnglishEntryactually extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژمارەیەکی زۆر خەڵک ھەن لەوێ کە بەڕاستی دەتوانن یارمەتیت بدەن",
+                                    "ژمارەیەکی زۆر خەڵک ھەن لەوێ کە بەڕاستی دەتوانن یارمەتیت بدەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -245,6 +248,7 @@ class EnglishEntryactually extends StatelessWidget {
                                     "The book was never actually published.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -253,9 +257,10 @@ class EnglishEntryactually extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کتێبەکە لەڕاستیدا ھەرگیز بڵاونەکراوە",
+                                    "کتێبەکە لەڕاستیدا ھەرگیز بڵاونەکراوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -286,6 +291,7 @@ class EnglishEntryactually extends StatelessWidget {
 ٢. (ھاوەڵکار) بەکاردێت بۆ وتنی ڕاستی بابەتێک و بەراوردکردنی لەگەڵ باوەڕی کەسێک لەسەری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -296,6 +302,7 @@ class EnglishEntryactually extends StatelessWidget {
                                     "The food was not actually all that expensive.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -304,9 +311,10 @@ class EnglishEntryactually extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەڕاستیدا خواردنەکە ئەوەنەش گران نەبوو",
+                                    "لەڕاستیدا خواردنەکە ئەوەنەش گران نەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -337,6 +345,7 @@ class EnglishEntryactually extends StatelessWidget {
 ٣. (ھاوەڵکار) بەکاردێت بۆ بە ڕێزەوە ڕاستکردنەوەی کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -347,6 +356,7 @@ class EnglishEntryactually extends StatelessWidget {
                                     "We're not American, actually. We're Canadian.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -355,9 +365,10 @@ class EnglishEntryactually extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئێمە ئەمریکی نین لەڕاستیدا. ئێمە کەنەدین",
+                                    "ئێمە ئەمریکی نین لەڕاستیدا. ئێمە کەنەدین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

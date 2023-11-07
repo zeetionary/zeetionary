@@ -214,6 +214,7 @@ class EnglishEntryantihistamine extends StatelessWidget {
 ١. (ناو) دەرمانێک بۆ چارەسەری ھەستیاری، بەتایبەتی ھەستیارییەک کە تووشی دەبیت لە چاو و لوت و قوڕگدا بەھۆی ھەڵمژینی ھەڵاڵەی گوڵ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -224,6 +225,7 @@ class EnglishEntryantihistamine extends StatelessWidget {
                                     "Antihistamine is often used to treat hay fever and insect bites.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +237,10 @@ class EnglishEntryantihistamine extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دژە-ھەستیاری زۆرجار بەکاردێت بۆ چارەسەری ھەستیاری بە ھەڵاڵەی گوڵ یان گەستنی مێروو",
+                                    "دژە-ھەستیاری زۆرجار بەکاردێت بۆ چارەسەری ھەستیاری بە ھەڵاڵەی گوڵ یان گەستنی مێروو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

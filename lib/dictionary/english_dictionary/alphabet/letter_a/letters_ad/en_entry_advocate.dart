@@ -165,6 +165,7 @@ class EnglishEntryadvocate extends StatelessWidget {
 ١. (ناو) لایەنگر و داکۆکیکاری شتێک ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryadvocate extends StatelessWidget {
                                     "Canada was one of the strongest advocates of sanctions.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryadvocate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەنەدا یەکێک لە سەختترین داکۆکیکارانی سزاکان بوو",
+                                    "کەنەدا یەکێک لە سەختترین داکۆکیکارانی سزاکان بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryadvocate extends StatelessWidget {
 ٢. (کردار) پشتگیریکردنی شتێک بەشێوەیەکی گشتی ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +230,7 @@ class EnglishEntryadvocate extends StatelessWidget {
                                     "The group does not advocate the use of violence.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +239,10 @@ class EnglishEntryadvocate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گرووپەکە پشتیوانی بەکارھێنانی توندوتیژی ناکات",
+                                    "گرووپەکە پشتیوانی بەکارھێنانی توندوتیژی ناکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

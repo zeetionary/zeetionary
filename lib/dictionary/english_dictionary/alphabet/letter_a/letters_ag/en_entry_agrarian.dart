@@ -164,6 +164,7 @@ class EnglishEntryagrarian extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە جووتیاران و کشتوکاڵ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryagrarian extends StatelessWidget {
                                     "The central government was urged to adopt a massive public investment programme in the agrarian sector to enhance grain production.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryagrarian extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حکومەتی ناوەندی ھاندرا بۆ دەستپێکردنی پڕۆگرامێکی گەورەی وەبەرھێنانی گشتگیر لە کەرتی کشتوکاڵی بۆ زیادکردنی بەرھەمھێنانی گەنم",
+                                    "حکومەتی ناوەندی ھاندرا بۆ دەستپێکردنی پڕۆگرامێکی گەورەی وەبەرھێنانی گشتگیر لە کەرتی کشتوکاڵی بۆ زیادکردنی بەرھەمھێنانی گەنم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

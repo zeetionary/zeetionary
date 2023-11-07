@@ -216,6 +216,7 @@ class EnglishEntryantecedent extends StatelessWidget {
 ١. (ناو) شتێک کە پێش شتێکی تر بوونی ھەبووە و کاریگەری لەسەری ھەبووە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +227,7 @@ class EnglishEntryantecedent extends StatelessWidget {
                                     "The book dealt with the historical antecedents of the Civil War.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -237,9 +239,10 @@ class EnglishEntryantecedent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کتێبەکە لێکۆڵینەوەی لە پێشھاتەکانی جەنگی ناوخۆیی ئەمریکا دەکرد",
+                                    "کتێبەکە لێکۆڵینەوەی لە پێشھاتەکانی جەنگی ناوخۆیی ئەمریکا دەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -271,6 +274,7 @@ class EnglishEntryantecedent extends StatelessWidget {
 ٢. (ناو) باپیرانی کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -281,6 +285,7 @@ class EnglishEntryantecedent extends StatelessWidget {
                                     "Many people feel a great curiosity to find out about their antecedents.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -292,9 +297,10 @@ class EnglishEntryantecedent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر کەس حەزدەکەن زانیاری لەسەر باپیرانیان بزانن",
+                                    "زۆر کەس حەزدەکەن زانیاری لەسەر باپیرانیان بزانن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -326,6 +332,7 @@ class EnglishEntryantecedent extends StatelessWidget {
 ٣. (ناو) وشەیەک لە ڕستەیەکدا کە یەکێک لە وشەکانی دواتری ڕستەکە بۆی دەگەڕێتەوە ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ), // const DividerSentences(),
                           const DividerDefinition(),
                           const Text(
@@ -334,6 +341,7 @@ class EnglishEntryantecedent extends StatelessWidget {
 ٤. (ھاوەڵناو) پێشووتر ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -344,6 +352,7 @@ class EnglishEntryantecedent extends StatelessWidget {
                                     "When the college was established in 1546, it inherited a hall from each of three antecedent institutions.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -355,9 +364,10 @@ class EnglishEntryantecedent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کاتێک کۆلێژەکە لە ساڵی ١٥٤٦ دامەزرا ھۆڵێکی لە ھەریەک لە سێ پەیمانگاکەی پێشووتر وەرگرت",
+                                    "کاتێک کۆلێژەکە لە ساڵی ١٥٤٦ دامەزرا ھۆڵێکی لە ھەریەک لە سێ پەیمانگاکەی پێشووتر وەرگرت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

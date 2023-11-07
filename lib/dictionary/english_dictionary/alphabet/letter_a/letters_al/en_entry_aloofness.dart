@@ -164,6 +164,7 @@ class EnglishEntryaloofness extends StatelessWidget {
 ١. (ھاوەڵناو) گۆشەگیری و دووری لە خەڵکی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaloofness extends StatelessWidget {
                                     "Her cool aloofness was seen as arrogance by some people.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryaloofness extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دوورەپەرێزییە ساردوسڕییەکەی وەک خۆبەزلزانی دەبینرا لەلایەن ھەندێک کەسەوە",
+                                    "دوورەپەرێزییە ساردوسڕییەکەی وەک خۆبەزلزانی دەبینرا لەلایەن ھەندێک کەسەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

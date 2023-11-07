@@ -164,6 +164,7 @@ class EnglishEntryaffliction extends StatelessWidget {
 ١. (ناو) ئازار و مەینەتی، یان شتێک کە ببێتە ھۆکاری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaffliction extends StatelessWidget {
                                     "These poor people are in great affliction.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryaffliction extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم خەڵکە ھەژارە لە مەینەتی زۆرن",
+                                    "ئەم خەڵکە ھەژارە لە مەینەتی زۆرن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

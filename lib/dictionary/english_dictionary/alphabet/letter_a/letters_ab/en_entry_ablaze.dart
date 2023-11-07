@@ -175,6 +175,7 @@ class EnglishEntryablaze extends StatelessWidget {
 ١. (ھاوەڵناو) سووتان بەخێرایی و بەھێزی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -185,6 +186,7 @@ class EnglishEntryablaze extends StatelessWidget {
                                     "The whole building was soon ablaze.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -193,9 +195,10 @@ class EnglishEntryablaze extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەواوی بیناکە زوو بوو بە بڵێسە",
+                                    "تەواوی بیناکە زوو بوو بە بڵێسە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -227,6 +230,7 @@ class EnglishEntryablaze extends StatelessWidget {
                                     "Cars and buses were set ablaze during the riot.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -235,9 +239,10 @@ class EnglishEntryablaze extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئۆتۆمبێل و پاسەکان لە ئاژاوەکەدا ئاگر تێبەردران",
+                                    "ئۆتۆمبێل و پاسەکان لە ئاژاوەکەدا ئاگر تێبەردران.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -266,6 +271,7 @@ class EnglishEntryablaze extends StatelessWidget {
 ٢. (ھاوەڵناو) ڕۆشن و پڕ لە ڕەنگ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -276,6 +282,7 @@ class EnglishEntryablaze extends StatelessWidget {
                                     "The trees were ablaze with the colours of autumn.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -284,9 +291,10 @@ class EnglishEntryablaze extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دارەکان پڕ لە ڕەنگی پایز بوون",
+                                    "دارەکان پڕ لە ڕەنگی پایز بوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -318,6 +326,7 @@ class EnglishEntryablaze extends StatelessWidget {
                                     "Every window was ablaze with light.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -326,9 +335,10 @@ class EnglishEntryablaze extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پەنجەرەکان پڕ لە ڕۆشنایی بوون",
+                                    "پەنجەرەکان پڕ لە ڕۆشنایی بوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -357,6 +367,7 @@ class EnglishEntryablaze extends StatelessWidget {
 ٣. (ھاوەڵناو) پڕ لە ھەست و جۆشوخرۆشی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -367,6 +378,7 @@ class EnglishEntryablaze extends StatelessWidget {
                                     "He turned to her, his eyes ablaze with love.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -375,9 +387,10 @@ class EnglishEntryablaze extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕووی تێکرد بە چاوی پڕ لە خۆشەویستییەوە",
+                                    "ڕووی تێکرد بە چاوی پڕ لە خۆشەویستییەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

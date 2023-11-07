@@ -164,6 +164,7 @@ class EnglishEntryalleged extends StatelessWidget {
 ١. (ھاوەڵناو) بانگەشەبۆکراو بەبێ بەڵگە ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalleged extends StatelessWidget {
                                     "The girl gave evidence in court against her alleged attacker.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalleged extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کچەکە لە داگا بەڵگەی پێشکەشکرد دژ بە ھێرشکارە تاوانبارکراوەکە",
+                                    "کچەکە لە داگا بەڵگەی پێشکەشکرد دژ بە ھێرشکارە تاوانبارکراوەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

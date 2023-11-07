@@ -267,6 +267,7 @@ class EnglishEntryaction extends StatelessWidget {
 ١. (ناو) پڕۆسەی کردنی شتێک نۆ بەدیھێنانی شتێک یان مامەڵە لەگەڵ بارودۆخێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -277,6 +278,7 @@ class EnglishEntryaction extends StatelessWidget {
                                     "Firefighters took action immediately to stop the blaze spreading.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -285,9 +287,10 @@ class EnglishEntryaction extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئاگرکوژێنەوەکان بەپەلە ھەنگاویان نا بۆ وەستاندنی بڵوبوونەوەی ئاگرەکە",
+                                    "ئاگرکوژێنەوەکان بەپەلە ھەنگاویان نا بۆ وەستاندنی بڵوبوونەوەی ئاگرەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -320,6 +323,7 @@ class EnglishEntryaction extends StatelessWidget {
                                     "The government is taking strong action on tax fraud.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -331,6 +335,7 @@ class EnglishEntryaction extends StatelessWidget {
                                     "حکومەت لێپێچینەوەی توند دەگرێتە بەر بۆ ڕێگری لە خۆدزینەوە لە باج",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -360,6 +365,7 @@ class EnglishEntryaction extends StatelessWidget {
 ٢. (ناو) شتێک کە کەسێک دەیکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -370,6 +376,7 @@ class EnglishEntryaction extends StatelessWidget {
                                     "Each of us must take responsibility for our own actions.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -378,9 +385,10 @@ class EnglishEntryaction extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تاک بە تاکمان دەبێت بەرپرسیاریەتی ھەڵبگرێت بۆ کردارەکانی خۆمان",
+                                    "تاک بە تاکمان دەبێت بەرپرسیاریەتی ھەڵبگرێت بۆ کردارەکانی خۆمان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -410,6 +418,7 @@ class EnglishEntryaction extends StatelessWidget {
 ٣. (ناو) ئەو ھەنگاوانەی کە کرێکاران دەینێن بۆ دەربڕینی ناڕەزایی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -420,6 +429,7 @@ class EnglishEntryaction extends StatelessWidget {
                                     "Workers voted in favour of strike action.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -428,9 +438,10 @@ class EnglishEntryaction extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کرێکاران دەنگیان دا لە بەرژەوەندی مانگرتن",
+                                    "کرێکاران دەنگیان دا لە بەرژەوەندی مانگرتن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -460,6 +471,7 @@ class EnglishEntryaction extends StatelessWidget {
 ٤. (ناو) کەیسێکی یاسایی دژ بە کۆمپانیایەک یان دامەزراوەیەک بۆ وەستاندنی لە کردنی شتێکدا، یان ناچارکردنی بە پارەدان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -470,6 +482,7 @@ class EnglishEntryaction extends StatelessWidget {
                                     "A libel action is being brought against the magazine that published the article.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -478,9 +491,10 @@ class EnglishEntryaction extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سکاڵایەکی ناوزڕاندن تۆمار دەکرێت دژ بە ئەو گۆڤارەی وتارەکەی بڵاوکردەوە",
+                                    "سکاڵایەکی ناوزڕاندن تۆمار دەکرێت دژ بە ئەو گۆڤارەی وتارەکەی بڵاوکردەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -510,6 +524,7 @@ class EnglishEntryaction extends StatelessWidget {
 ٥. (ناو) ڕووبەڕووبوونەوە لە شەڕێک یان جەنگێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -520,6 +535,7 @@ class EnglishEntryaction extends StatelessWidget {
                                     "I never saw action during the war.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -528,9 +544,10 @@ class EnglishEntryaction extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەرگیز ڕووبەڕووبوونەوەم نەبینی لەکاتی جەنگەکە",
+                                    "ھەرگیز ڕووبەڕووبوونەوەم نەبینی لەکاتی جەنگەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -560,6 +577,7 @@ class EnglishEntryaction extends StatelessWidget {
 ٦. (ناو) ئەو ڕووداوانەی لە چیرۆکێک یان شانۆیەک ڕوودەدەن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -570,6 +588,7 @@ class EnglishEntryaction extends StatelessWidget {
                                     "The action takes place in France.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -578,9 +597,10 @@ class EnglishEntryaction extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕووداوەکان لە فەرەنسا ڕوودەدن",
+                                    "ڕووداوەکان لە فەرەنسا ڕوودەدن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -610,6 +630,7 @@ class EnglishEntryaction extends StatelessWidget {
 ٧. (ناو) ڕووداوی خورۆشێنەر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -620,6 +641,7 @@ class EnglishEntryaction extends StatelessWidget {
                                     "I like films with plenty of action.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -628,9 +650,10 @@ class EnglishEntryaction extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حەزم لەو فیلمانەیە کە زۆر ڕووداوی خورۆشێنەریان تێدایە",
+                                    "حەزم لەو فیلمانەیە کە زۆر ڕووداوی خورۆشێنەریان تێدایە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -660,6 +683,7 @@ class EnglishEntryaction extends StatelessWidget {
 ٨. (کردار) دڵنیاییکردنەوە لەوەی شتێک مامەڵەی لەگەڵ دەکرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -670,6 +694,7 @@ class EnglishEntryaction extends StatelessWidget {
                                     "Your request will be actioned.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -678,9 +703,10 @@ class EnglishEntryaction extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "داواکەت مامەڵەی لەگەڵ دەکرێت",
+                                    "داواکەت مامەڵەی لەگەڵ دەکرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

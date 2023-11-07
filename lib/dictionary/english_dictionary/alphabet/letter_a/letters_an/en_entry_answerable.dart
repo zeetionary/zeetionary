@@ -216,6 +216,7 @@ class EnglishEntryanswerable extends StatelessWidget {
 ١. (ھاوەڵناو) بوونی پێویستیی وەڵامدانەوە بەرامبەر کەسێک کە دەسەڵاتی بەسەرت ھەیە یان شتێک، بۆ نموونە یاسا، کە کۆنترۆڵی کردارەکانت دەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +227,7 @@ class EnglishEntryanswerable extends StatelessWidget {
                                     "She was a free agent, answerable to no one for her behaviour.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -237,9 +239,10 @@ class EnglishEntryanswerable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سیخوڕێکی سەربەخۆ بوو کە پێویست نەبوو وەڵامی ھیچ کەس بداتەوە بۆ ڕەفتارەکانی",
+                                    "سیخوڕێکی سەربەخۆ بوو کە پێویست نەبوو وەڵامی ھیچ کەس بداتەوە بۆ ڕەفتارەکانی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -274,6 +277,7 @@ class EnglishEntryanswerable extends StatelessWidget {
                                     "Any European central bank should be directly answerable to the European Parliament.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -285,9 +289,10 @@ class EnglishEntryanswerable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەر بانکێکی ئەورووپی دەبێت ڕاستەوخۆ لەژێر چاودێری/بەرپرسیار بێت بەرامبەر یەکێتیی ئەورووپا بێت",
+                                    "ھەر بانکێکی ئەورووپی دەبێت ڕاستەوخۆ لەژێر چاودێری/بەرپرسیار بێت بەرامبەر یەکێتیی ئەورووپا بێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -319,6 +324,7 @@ class EnglishEntryanswerable extends StatelessWidget {
 ٢. (ھاوەڵناو) بەرپرسیار بۆ شتێک و ھەبوونی ئامادەیی وەرگرتنی سزا بۆی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -329,6 +335,7 @@ class EnglishEntryanswerable extends StatelessWidget {
                                     "Ministers must be made answerable for their decisions.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -340,9 +347,10 @@ class EnglishEntryanswerable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وەزیرەکان دەبێت بەرپرسیاربن بۆ بڕیارەکانیان",
+                                    "وەزیرەکان دەبێت بەرپرسیاربن بۆ بڕیارەکانیان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -377,6 +385,7 @@ class EnglishEntryanswerable extends StatelessWidget {
                                     "Soldiers who obey orders to commit atrocities should be answerable for their crimes.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -388,9 +397,10 @@ class EnglishEntryanswerable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو سەربازانەی گوێ‌ڕایەڵی ئەنجامدانی تاوانی جەنگ دەکەن دەبێت ئامادەی وەرگرتنی سزابن",
+                                    "ئەو سەربازانەی گوێ‌ڕایەڵی ئەنجامدانی تاوانی جەنگ دەکەن دەبێت ئامادەی وەرگرتنی سزابن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -163,6 +163,7 @@ class EnglishEntryaltitude extends StatelessWidget {
 ١. (ناو) بەرزایی لە سەروو ئاستی دەریا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryaltitude extends StatelessWidget {
                                     "We are flying at an altitude of 6 000 metres.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryaltitude extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە بەرزی ٦٠٠٠ مەتردا دەفڕین",
+                                    "لە بەرزی ٦٠٠٠ مەتردا دەفڕین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

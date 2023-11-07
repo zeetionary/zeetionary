@@ -157,6 +157,7 @@ class EnglishEntryabusive extends StatelessWidget {
 ١. (ھاوەڵناو) بێ ڕێز و توندوتیژ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -167,6 +168,7 @@ class EnglishEntryabusive extends StatelessWidget {
                                     "He became abusive when he was drunk.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -175,9 +177,10 @@ class EnglishEntryabusive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کە دەیخواردەوە توندوتیژ دەبوو",
+                                    "کە دەیخواردەوە توندوتیژ دەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -206,6 +209,7 @@ class EnglishEntryabusive extends StatelessWidget {
 ٢. (ھاوەڵناو) بارودۆخێک کە توندوتیژی تێدایە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -216,6 +220,7 @@ class EnglishEntryabusive extends StatelessWidget {
                                     "After many years in an abusive relationship, she left her husband.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -224,9 +229,10 @@ class EnglishEntryabusive extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە دوای چەندین ساڵ لەناو پەیوەندیدییەکی توندوتیژانە، ھاوسەرەکەی جێھێشت",
+                                    "لە دوای چەندین ساڵ لەناو پەیوەندیدییەکی توندوتیژانە، ھاوسەرەکەی جێھێشت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

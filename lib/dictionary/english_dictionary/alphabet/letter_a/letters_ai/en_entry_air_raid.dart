@@ -162,6 +162,7 @@ class EnglishEntryairraid extends StatelessWidget {
 ١. (ناو) ھێرشی ئاسمانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryairraid extends StatelessWidget {
                                     "The family was killed in an air raid.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryairraid extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خێزانەکە لە ھێرشێکی ئاسمانیدا کوژران",
+                                    "خێزانەکە لە ھێرشێکی ئاسمانیدا کوژران.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

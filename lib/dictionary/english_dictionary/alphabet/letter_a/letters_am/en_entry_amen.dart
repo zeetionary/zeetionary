@@ -172,6 +172,7 @@ class EnglishEntryamen extends StatelessWidget {
 ١. (ناو) وشەیەک لە دوای نزا و بابەتی ئاینی بەکاردێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -182,6 +183,7 @@ class EnglishEntryamen extends StatelessWidget {
                                     "We ask this through our Lord, Amen.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -193,9 +195,10 @@ class EnglishEntryamen extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ ئەمە داوا لە خودا دەکەین، ئامین",
+                                    "بۆ ئەمە داوا لە خودا دەکەین، ئامین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -230,6 +233,7 @@ class EnglishEntryamen extends StatelessWidget {
                                     "Amen to that (= I certainly agree with that).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -244,6 +248,7 @@ class EnglishEntryamen extends StatelessWidget {
                                     "خودا بکات (ئەوە ڕووبدات)",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -148,6 +148,7 @@ class EnglishEntryabridge extends StatelessWidget {
 ١. (کردار) کورتکردنەوەی کتێبێک یان شانۆیەک بە لابردنی ھەندێک بەشی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryabridge extends StatelessWidget {
                                     "She has been asked to abridge the novel for radio.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryabridge extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "داوای لێکراوە ڕۆمانەکە بۆ ڕادیۆیەکە کورتبکاتەوە",
+                                    "داوای لێکراوە ڕۆمانەکە بۆ ڕادیۆیەکە کورتبکاتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

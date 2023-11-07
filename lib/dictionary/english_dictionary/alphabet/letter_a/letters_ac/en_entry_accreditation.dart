@@ -148,6 +148,7 @@ class EnglishEntryaccreditation extends StatelessWidget {
 ١. (ناو) باوەڕنامەیەک کە دەدرێت بە ڕێکخراوێک وەک ئاماژە بەوەی کە جێگەی باوەڕن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryaccreditation extends StatelessWidget {
                                     "The college was given full accreditation in 1965.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -169,6 +171,7 @@ class EnglishEntryaccreditation extends StatelessWidget {
                                     "کۆلێژەکە باوەڕنامەی فەرمی پێدرا لە ساڵی ١٩٦٥",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryadulthood extends StatelessWidget {
 ١. (ھاوەڵناو) تەمەنی پێگەیشتووی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadulthood extends StatelessWidget {
                                     "Her childhood problems persisted into adulthood.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadulthood extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کێشەکانی منداڵیی بەردەوام بوون لە پێگەیشتوویی",
+                                    "کێشەکانی منداڵیی بەردەوام بوون لە پێگەیشتوویی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

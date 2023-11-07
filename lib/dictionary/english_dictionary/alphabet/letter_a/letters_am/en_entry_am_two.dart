@@ -161,6 +161,7 @@ class EnglishEntryamtwo extends StatelessWidget {
 ١. (کورتکراوە) لە نێوان ١٢ی شەو و ١٢ی نیوەڕۆ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -171,6 +172,7 @@ class EnglishEntryamtwo extends StatelessWidget {
                                     "It starts at 10 a.m.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryamtwo extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە کاتژمێر ١٠ی پێش نیوەڕۆ دەست پێدەکات",
+                                    "لە کاتژمێر ١٠ی پێش نیوەڕۆ دەست پێدەکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

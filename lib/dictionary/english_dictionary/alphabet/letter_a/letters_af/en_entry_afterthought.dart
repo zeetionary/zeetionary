@@ -164,6 +164,7 @@ class EnglishEntryafterthought extends StatelessWidget {
 ١. (ناو) شتێک کە دەیکەیت تەنھا لە دواییدا و بە تەواوی بیری لێ ناکەیتەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryafterthought extends StatelessWidget {
                                     "They only invited Jack and Sarah as an afterthought.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryafterthought extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جاک و سارایان بانگھێشت کرد تەنھا دوای ئەوەی بیریانکەوتەوە",
+                                    "جاک و سارایان بانگھێشت کرد تەنھا دوای ئەوەی بیریانکەوتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

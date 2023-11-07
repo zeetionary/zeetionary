@@ -164,6 +164,7 @@ class EnglishEntryadulation extends StatelessWidget {
 ١. (ناو) پیاھەڵدانی زیاد لە پێویست''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadulation extends StatelessWidget {
                                     "The band enjoy the adulation of their fans wherever they go.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadulation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "باندەکە بۆ ھەرکوێ بچن خۆشی لە پیاھەڵدانی ھەوادارانیان دەبینن",
+                                    "باندەکە بۆ ھەرکوێ بچن خۆشی لە پیاھەڵدانی ھەوادارانیان دەبینن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

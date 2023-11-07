@@ -164,6 +164,7 @@ class EnglishEntryalbeit extends StatelessWidget {
 ١. (لێکدەر) سەرەڕای شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryalbeit extends StatelessWidget {
                                     "He finally agreed, albeit reluctantly, to help us.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -185,9 +187,10 @@ class EnglishEntryalbeit extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە کۆتاییدا ڕازیبوو یارمەتیمان بدات، ئەگەرچی بەنابەدڵییەوە",
+                                    "لە کۆتاییدا ڕازیبوو یارمەتیمان بدات، ئەگەرچی بەنابەدڵییەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -166,6 +166,7 @@ class EnglishEntryaloud extends StatelessWidget {
 ١. (ھاوەڵکار) بە دەنگێک کە خەڵکی تر گوێیان لێیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryaloud extends StatelessWidget {
                                     "He read the letter aloud to us.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -187,9 +189,10 @@ class EnglishEntryaloud extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نامەکەی بە دەنگی بەرز بۆ خوێندینەوە",
+                                    "نامەکەی بە دەنگی بەرز بۆ خوێندینەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -223,6 +226,7 @@ class EnglishEntryaloud extends StatelessWidget {
                                     "People are starting to wonder aloud (= question publicly) whether the economic reforms have gone too far.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +238,10 @@ class EnglishEntryaloud extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خەڵکی دەستیان کردووە بە گۆتەگۆت کە ئاخۆ چاکسازییە ئابوورییەکان پەلیان زۆر ھاویشتووە",
+                                    "خەڵکی دەستیان کردووە بە گۆتەگۆت کە ئاخۆ چاکسازییە ئابوورییەکان پەلیان زۆر ھاویشتووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -267,6 +272,7 @@ class EnglishEntryaloud extends StatelessWidget {
 ٢. (ھاوەڵکار) بە دەنگێکی بەرز''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -277,6 +283,7 @@ class EnglishEntryaloud extends StatelessWidget {
                                     "She cried aloud in protest.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -288,9 +295,10 @@ class EnglishEntryaloud extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە دەنگی بەرز ناڕەزایی دەربڕی",
+                                    "بە دەنگی بەرز ناڕەزایی دەربڕی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

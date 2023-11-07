@@ -163,6 +163,7 @@ class EnglishEntryacrobatic extends StatelessWidget {
 ١. (ھاوەڵناو) لەخۆگرتنی کردنی نمایشی قوورس بە جەستە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryacrobatic extends StatelessWidget {
                                     "an acrobatic dancer",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,6 +186,7 @@ class EnglishEntryacrobatic extends StatelessWidget {
                                     "سەماکارێکی ئاکرۆباتیک",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -217,6 +217,7 @@ class EnglishEntryantithesis extends StatelessWidget {
 ١. (ناو) پێچەوانەی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -227,6 +228,7 @@ class EnglishEntryantithesis extends StatelessWidget {
                                     "Students finishing their education at 16 is the very antithesis of what society needs.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -238,9 +240,10 @@ class EnglishEntryantithesis extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەواوکردنی خوێندن لە تەمەنی ١٦ ساڵی لەلایەن خوێندکارانەوە ڕێک پێچەوانەی ئەوەیە کە کۆمەڵگە پێویستییەتی",
+                                    "تەواوکردنی خوێندن لە تەمەنی ١٦ ساڵی لەلایەن خوێندکارانەوە ڕێک پێچەوانەی ئەوەیە کە کۆمەڵگە پێویستییەتی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -272,6 +275,7 @@ class EnglishEntryantithesis extends StatelessWidget {
 ٢. (ناو) جیاوازی نێوان دوو شت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -282,6 +286,7 @@ class EnglishEntryantithesis extends StatelessWidget {
                                     "There is an antithesis between the needs of the state and the needs of the people.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -293,9 +298,10 @@ class EnglishEntryantithesis extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جیاوازییەک ھەیە لەنێوان خواستەکانی حکومەت و ئەوانەی خەڵکی",
+                                    "جیاوازییەک ھەیە لەنێوان خواستەکانی حکومەت و ئەوانەی خەڵکی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

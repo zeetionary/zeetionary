@@ -165,6 +165,7 @@ class EnglishEntryakin extends StatelessWidget {
 ١. (ھاوەڵناو) لێکچوو لەگەڵ شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryakin extends StatelessWidget {
                                     "What he felt was more akin to pity than love.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryakin extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەستەکەی زیاتر لە بەزەیی دەچوو وەک لە خۆشەویستی",
+                                    "ھەستەکەی زیاتر لە بەزەیی دەچوو وەک لە خۆشەویستی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -222,6 +225,7 @@ class EnglishEntryakin extends StatelessWidget {
                                     "They speak a language akin to French.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +237,10 @@ class EnglishEntryakin extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە زمانێک قسەدەکەن کە نزیکە لە فەرەنسی",
+                                    "بە زمانێک قسەدەکەن کە نزیکە لە فەرەنسی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

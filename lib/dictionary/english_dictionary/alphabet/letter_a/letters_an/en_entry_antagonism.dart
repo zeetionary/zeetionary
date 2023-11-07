@@ -213,6 +213,7 @@ class EnglishEntryantagonism extends StatelessWidget {
 ١. (ناو) ھەستی ڕکابەری و ڕق''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                                     "The antagonism he felt towards his old enemy was still very strong.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryantagonism extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو دوژمنایەتییەی دژ بە دووژمنە کۆنەکەی ھەیبوو ھێشتا بەھێز بوو",
+                                    "ئەو دوژمنایەتییەی دژ بە دووژمنە کۆنەکەی ھەیبوو ھێشتا بەھێز بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

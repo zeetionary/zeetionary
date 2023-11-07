@@ -212,6 +212,7 @@ class EnglishEntryanguished extends StatelessWidget {
 ١. (ھاوەڵناو) پیشاندانی ئازار، ناڕەحەتی، یان ناخۆشییەکی زۆری دەروونی یان جەستەیی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryanguished extends StatelessWidget {
                                     "The anguished song at the end was beautiful.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryanguished extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گۆرانییە بەئازارەکە لەکۆتاییدا جوان بوو",
+                                    "گۆرانییە بەئازارەکە لەکۆتاییدا جوان بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

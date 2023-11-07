@@ -165,6 +165,7 @@ class EnglishEntryalienation extends StatelessWidget {
 ١. (ناو) دوورەپەرێزبوون''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryalienation extends StatelessWidget {
                                     "The new policy resulted in the alienation of many voters.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryalienation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سیاسەتە تازەکە زۆر دەنگدەری وەلاخست",
+                                    "سیاسەتە تازەکە زۆر دەنگدەری وەلاخست.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryalienation extends StatelessWidget {
 ٢. (ناو) ھەستی نامۆیی؛ ئەوەی کە لە شوێنی گونجاوی خۆت نیت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -229,6 +233,7 @@ class EnglishEntryalienation extends StatelessWidget {
                                     "Many young people suffer from a sense of alienation.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,9 +245,10 @@ class EnglishEntryalienation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر کەسی گەنج بەدەست ھەستی نامۆیی دەناڵێنن",
+                                    "زۆر کەسی گەنج بەدەست ھەستی نامۆیی دەناڵێنن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

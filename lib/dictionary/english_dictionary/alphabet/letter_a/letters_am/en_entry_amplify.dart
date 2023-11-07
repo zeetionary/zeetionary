@@ -211,6 +211,7 @@ class EnglishEntryamplify extends StatelessWidget {
 ١. (کردار) زیادکردنی ھێزی شتێک، بەتایبەتی دەنگ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -221,6 +222,7 @@ class EnglishEntryamplify extends StatelessWidget {
                                     "This hall seemed to trap and amplify sounds.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -232,9 +234,10 @@ class EnglishEntryamplify extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھۆڵەکە وادیاربوو دەنگ تێیدا پەنگبخواتەوە و بەرزی بکات",
+                                    "ھۆڵەکە وادیاربوو دەنگ تێیدا پەنگبخواتەوە و بەرزی بکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -266,6 +269,7 @@ class EnglishEntryamplify extends StatelessWidget {
 ٢. (کردار) پێدانی ڕوونکردنەوەی زیاتر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -276,6 +280,7 @@ class EnglishEntryamplify extends StatelessWidget {
                                     "You may need to amplify this point.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -287,9 +292,10 @@ class EnglishEntryamplify extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕەنگە پێویست بکات ئەم خاڵە ڕوون‌بکەیتەوە",
+                                    "ڕەنگە پێویست بکات ئەم خاڵە ڕوون‌بکەیتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

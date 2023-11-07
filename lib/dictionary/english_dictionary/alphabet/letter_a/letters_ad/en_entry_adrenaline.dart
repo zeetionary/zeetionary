@@ -164,6 +164,7 @@ class EnglishEntryadrenaline extends StatelessWidget {
 ١. (ھاوەڵناو) مادەیەک کە لە جەستەدا بەرھەم دێت کاتێک خرۆشاویت، ترساویت یان توڕەیت. وا دەکات دڵ خێراتر لێبدات و وزە و توانای جوڵەی خێرات زیاد دەکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadrenaline extends StatelessWidget {
                                     "The excitement at the start of a race can really get the adrenaline flowing.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadrenaline extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جۆشوخرۆشی لە سەرەتای پێشبڕکێیەک دەکرێت وابکات ئەدریناڵین زیادبکات",
+                                    "جۆشوخرۆشی لە سەرەتای پێشبڕکێیەک دەکرێت وابکات ئەدریناڵین زیادبکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

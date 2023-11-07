@@ -234,6 +234,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
 ١. (کاری لێکدراو) کردنی شتێک بۆ کەسێک بۆ پیشاندانی پەشیمانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -244,6 +245,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
                                     "She tried to make amends for what she had said to her mother by buying her some flowers.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -255,9 +257,10 @@ class EnglishEntrymakeamends extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەوڵی دا دڵی دایکی ئاشت بکاتەوە لەدوای ئەوەی پێی گوتبوو بە کڕینی گوڵ بۆی",
+                                    "ھەوڵی دا دڵی دایکی ئاشت بکاتەوە لەدوای ئەوەی پێی گوتبوو بە کڕینی گوڵ بۆی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

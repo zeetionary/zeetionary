@@ -146,6 +146,7 @@ class EnglishEntryabseil extends StatelessWidget {
 ١. (کردار و ناو) ھاتنەخوارە بە تەناف‌دا (لە ھەڵدێرەوە) بە بەکارھێنانی پێیەکانت بۆ دوورخستنەوەی جەستەت لە ھەڵدێرەکە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -156,6 +157,7 @@ class EnglishEntryabseil extends StatelessWidget {
                                     "I was a little scared when I first abseiled.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -167,6 +169,7 @@ class EnglishEntryabseil extends StatelessWidget {
                                     "کەمێک تەساوبووم کە یەکەمجار بە ھەڵدێرێکدا ھاتمە خوارەوە بە تەناف",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

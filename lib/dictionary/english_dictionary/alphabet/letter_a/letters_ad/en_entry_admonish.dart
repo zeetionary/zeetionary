@@ -162,6 +162,7 @@ class EnglishEntryadmonish extends StatelessWidget {
 ١. (کردار) لۆمەکردنی کەسێک بەتوندی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryadmonish extends StatelessWidget {
                                     "She was admonished for chewing gum in class.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -180,9 +182,10 @@ class EnglishEntryadmonish extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لۆمەکرا بۆ جوینی بنێشت لە پۆلدا",
+                                    "لۆمەکرا بۆ جوینی بنێشت لە پۆلدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

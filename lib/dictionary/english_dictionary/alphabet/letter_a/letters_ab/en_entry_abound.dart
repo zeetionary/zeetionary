@@ -141,6 +141,7 @@ class EnglishEntryabound extends StatelessWidget {
 ١. (کردار) کاتێک شتێک بوونی ھەیە بە ژمارەیەکی زۆر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -151,6 +152,7 @@ class EnglishEntryabound extends StatelessWidget {
                                     "Stories about his travels abound.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -159,9 +161,10 @@ class EnglishEntryabound extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گێڕانەوەکان دەربارەی گەشتەکانی زۆر بوون",
+                                    "گێڕانەوەکان دەربارەی گەشتەکانی زۆر بوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -146,6 +146,7 @@ class EnglishEntryabruptly extends StatelessWidget {
 ١. شتێک لەناکاو و بەشێوەییەکی چاوەڕواننەکراو ڕووبدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -156,6 +157,7 @@ class EnglishEntryabruptly extends StatelessWidget {
                                     "The interview ended abruptly.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -164,9 +166,10 @@ class EnglishEntryabruptly extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چاوپێکەوتنەکە بەشێوەیەکی چاوەڕواننەکراو کۆتایی ھات",
+                                    "چاوپێکەوتنەکە بەشێوەیەکی چاوەڕواننەکراو کۆتایی ھات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

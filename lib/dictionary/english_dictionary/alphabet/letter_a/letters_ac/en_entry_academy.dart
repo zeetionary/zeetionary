@@ -145,6 +145,7 @@ class EnglishEntryacademy extends StatelessWidget {
 ١. خوێندنگایەک بۆ خوێندنی تایبەت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -155,6 +156,7 @@ class EnglishEntryacademy extends StatelessWidget {
                                     "a police/military academy",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -163,9 +165,10 @@ class EnglishEntryacademy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەکادیمیای پۆلیسی/سەربازی",
+                                    "ئەکادیمیای پۆلیسی/سەربازی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

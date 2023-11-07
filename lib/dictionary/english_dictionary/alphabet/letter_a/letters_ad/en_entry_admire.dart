@@ -163,6 +163,7 @@ class EnglishEntryadmire extends StatelessWidget {
 ١. (کردار) ڕێزگرتنی کەسێک یان شتێک بەھۆی کردنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryadmire extends StatelessWidget {
                                     "I don't agree with her, but I admire her for sticking to her principles.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -181,9 +183,10 @@ class EnglishEntryadmire extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەگەڵی ھاوڕانیم، بەڵام ڕێزی دەگرم بۆ پابەندبوون بەوەی باوەڕی پێی ھەیە",
+                                    "لەگەڵی ھاوڕانیم، بەڵام ڕێزی دەگرم بۆ پابەندبوون بەوەی باوەڕی پێی ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -217,6 +220,7 @@ class EnglishEntryadmire extends StatelessWidget {
                                     "The school is widely admired for its excellent teaching.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -225,9 +229,10 @@ class EnglishEntryadmire extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "قوتابخانەکە بەشێوەیەکی بەرفراوان ڕێز لێگیراوە بۆ نایابی وانەوتنەوە تێیدا",
+                                    "قوتابخانەکە بەشێوەیەکی بەرفراوان ڕێز لێگیراوە بۆ نایابی وانەوتنەوە تێیدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

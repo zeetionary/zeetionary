@@ -164,6 +164,7 @@ class EnglishEntryaerosol extends StatelessWidget {
 ١. (ناو) شلەیەک کە لەناو بوتڵێک دەخرێت و وەک سپرەی دەڕژێنرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaerosol extends StatelessWidget {
                                     "Aerosol cans are banned from aircraft cabins.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryaerosol extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "قوتووە پرژێنە قەدەغەیە لەناو فڕۆکەدا",
+                                    "قوتووە پرژێنە قەدەغەیە لەناو فڕۆکەدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

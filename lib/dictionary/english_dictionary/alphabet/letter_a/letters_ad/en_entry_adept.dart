@@ -164,6 +164,7 @@ class EnglishEntryadept extends StatelessWidget {
 ١. (ھاوەڵناو) شارەزا لە کردنی شتێکی گران''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadept extends StatelessWidget {
                                     "He was extremely adept at avoiding getting caught.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadept extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر شارەزا بوو لە خۆدزینەوە لە دەستگیرکردن",
+                                    "زۆر شارەزا بوو لە خۆدزینەوە لە دەستگیرکردن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

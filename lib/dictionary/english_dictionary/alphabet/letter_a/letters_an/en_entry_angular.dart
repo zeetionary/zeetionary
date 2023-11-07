@@ -212,6 +212,7 @@ class EnglishEntryangular extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە ھێندە زەعیفە ماسولکەکانی لەژێر پێستییەوە دیارە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -222,6 +223,7 @@ class EnglishEntryangular extends StatelessWidget {
                                     "Her features were too angular, her face a little too long for beauty.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +235,10 @@ class EnglishEntryangular extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕووخساری زۆر ڕەقەڵ بوو و سەری کەمێک زۆر درێژ بوو بەوەی جوان بێت",
+                                    "ڕووخساری زۆر ڕەقەڵ بوو و سەری کەمێک زۆر درێژ بوو بەوەی جوان بێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

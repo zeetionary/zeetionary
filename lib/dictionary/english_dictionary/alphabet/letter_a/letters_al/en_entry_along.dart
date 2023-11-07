@@ -216,6 +216,7 @@ class EnglishEntryalong extends StatelessWidget {
 ١. (ئامراز) لەلایەکی شتێک بۆ لاکەی تری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +227,7 @@ class EnglishEntryalong extends StatelessWidget {
                                     "They walked slowly along the road.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -237,9 +239,10 @@ class EnglishEntryalong extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەھێواشی بەدرێژایی ڕێگاکە ڕێیان کرد",
+                                    "بەھێواشی بەدرێژایی ڕێگاکە ڕێیان کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -270,6 +273,7 @@ class EnglishEntryalong extends StatelessWidget {
 ٢. (ئامراز) لەسەر ھێڵێک بەدرێژایی شتێکی درێژ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -280,6 +284,7 @@ class EnglishEntryalong extends StatelessWidget {
                                     "Houses had been built along both sides of the river.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -291,9 +296,10 @@ class EnglishEntryalong extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خانوو بەدرێژایی ھەردوو لای ڕووبارەکە بنیاتنراون",
+                                    "خانوو بەدرێژایی ھەردوو لای ڕووبارەکە بنیاتنراون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -324,6 +330,7 @@ class EnglishEntryalong extends StatelessWidget {
 ٣. (ئامراز) لە شوێنێکی دیاریکراوی شوێنێکی درێژ، یان لە نزیکی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -334,6 +341,7 @@ class EnglishEntryalong extends StatelessWidget {
                                     "Somewhere along this road there's a garage.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -345,9 +353,10 @@ class EnglishEntryalong extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە شوێنێک بەدرێژایی ئەم شەقامە گەراجێک ھەیە",
+                                    "لە شوێنێک بەدرێژایی ئەم شەقامە گەراجێک ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -378,6 +387,7 @@ class EnglishEntryalong extends StatelessWidget {
 ٤. (ھاوەڵکار) بۆ پێشەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -388,6 +398,7 @@ class EnglishEntryalong extends StatelessWidget {
                                     "We were going along at about 50 miles an hour.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -399,9 +410,10 @@ class EnglishEntryalong extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ پێشەوە دەچووین بەخێرایی نزاکەی ٥٠ میل لە کاتژمێرێکدا",
+                                    "بۆ پێشەوە دەچووین بەخێرایی نزاکەی ٥٠ میل لە کاتژمێرێکدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -432,6 +444,7 @@ class EnglishEntryalong extends StatelessWidget {
 ٥. (ھاوەڵکار) لەگەڵ کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -442,6 +455,7 @@ class EnglishEntryalong extends StatelessWidget {
                                     "I'll be along (= I'll join you) in a few minutes.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -453,9 +467,10 @@ class EnglishEntryalong extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە چەند خولەکێکدا دەگەمە لاتان",
+                                    "لە چەند خولەکێکدا دەگەمە لاتان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -166,6 +166,7 @@ class EnglishEntryaccomplishment extends StatelessWidget {
 ١. (ناو) شتێک کە لە دوای ھەوڵێکی زۆر بەدەستیدێنیت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -176,6 +177,7 @@ class EnglishEntryaccomplishment extends StatelessWidget {
                                     "It was one of the President's greatest accomplishments.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -184,9 +186,10 @@ class EnglishEntryaccomplishment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەوە یەکێک لە دەسکەوتە گەورەکانی سەرۆک بوو",
+                                    "ئەوە یەکێک لە دەسکەوتە گەورەکانی سەرۆک بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -215,6 +218,7 @@ class EnglishEntryaccomplishment extends StatelessWidget {
 ٢. (ناو) شارەزاییەک یان توانایەکی تایبەت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -225,6 +229,7 @@ class EnglishEntryaccomplishment extends StatelessWidget {
                                     "Drawing and singing were among her many accomplishments.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +238,10 @@ class EnglishEntryaccomplishment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وێنەکێشان و گۆرانیگوتن تەنھا ژمارەیەکی کەمی تواناکانی بوون",
+                                    "وێنەکێشان و گۆرانیگوتن تەنھا ژمارەیەکی کەمی تواناکانی بوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -264,6 +270,7 @@ class EnglishEntryaccomplishment extends StatelessWidget {
 ٣. (ناو) بە سەرکەوتووی تەواوکردنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -274,6 +281,7 @@ class EnglishEntryaccomplishment extends StatelessWidget {
                                     "Money will be crucial to the accomplishment of our objectives.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -282,9 +290,10 @@ class EnglishEntryaccomplishment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پارە زۆر گرنگ دەبێت بۆ تەواوکردنی ئامانجەکانمان",
+                                    "پارە زۆر گرنگ دەبێت بۆ تەواوکردنی ئامانجەکانمان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

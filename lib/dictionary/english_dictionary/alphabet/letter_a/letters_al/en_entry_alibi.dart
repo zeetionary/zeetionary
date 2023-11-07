@@ -165,6 +165,7 @@ class EnglishEntryalibi extends StatelessWidget {
 ١. (ناو) بەڵگەی ئەوەی گومانلێکراوێک لەکاتی ئەنجامدانی تاوانێک لە شوێنێکی تر بووە بۆیە تاوانبار نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryalibi extends StatelessWidget {
                                     "The suspects all had alibis for the day of the robbery.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryalibi extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گومانلێکراوان ھەموویان بەڵگەی بێتاوانی خۆیان ھەبوو",
+                                    "گومانلێکراوان ھەموویان بەڵگەی بێتاوانی خۆیان ھەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -219,6 +222,7 @@ class EnglishEntryalibi extends StatelessWidget {
 ٢. (ناو) بیانوو بۆ خۆدزینەوە لە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -229,6 +233,7 @@ class EnglishEntryalibi extends StatelessWidget {
                                     "After eight years in power, the government can no longer use the previous government's policy as an alibi for its own failure.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -240,9 +245,10 @@ class EnglishEntryalibi extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەدوای ھەشت ساڵ بوون لە دەسەڵات، حکومەت چیتر ناتوانێت سیاسەتی حکومەتی پێشووتر وەک بیانوو بۆ شکستی خۆی بێنێتەوە",
+                                    "لەدوای ھەشت ساڵ بوون لە دەسەڵات، حکومەت چیتر ناتوانێت سیاسەتی حکومەتی پێشووتر وەک بیانوو بۆ شکستی خۆی بێنێتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

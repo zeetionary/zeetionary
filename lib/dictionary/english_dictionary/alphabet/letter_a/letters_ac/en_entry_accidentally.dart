@@ -148,6 +148,7 @@ class EnglishEntryaccidentally extends StatelessWidget {
 ١. بە ھەڵکەوت ڕوودان''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryaccidentally extends StatelessWidget {
                                     "The damage couldn't have been caused accidentally.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryaccidentally extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو زیانە ڕێی تێ ناچێ بە ڕێکەوت ڕوویدابێت",
+                                    "ئەو زیانە ڕێی تێ ناچێ بە ڕێکەوت ڕوویدابێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryadmissible extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە پەسەند دەکرێت، زۆرجار لە دادگا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadmissible extends StatelessWidget {
                                     "Photographs are usually admissible evidence provided it can be proved that they are authentic.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadmissible extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وێنە جێیباوەڕە ئەگەر بسەلمێندرێت کە ڕاستین",
+                                    "وێنە جێیباوەڕە ئەگەر بسەلمێندرێت کە ڕاستین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

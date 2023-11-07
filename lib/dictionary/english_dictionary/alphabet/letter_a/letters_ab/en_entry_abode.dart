@@ -143,6 +143,7 @@ class EnglishEntryabode extends StatelessWidget {
 ١. (ناو) شوێنی ژیانی کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -153,6 +154,7 @@ class EnglishEntryabode extends StatelessWidget {
                                     "You are most welcome to my humble abode.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -161,9 +163,10 @@ class EnglishEntryabode extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر بەخێربێیت بۆ وارگە سادەکەم",
+                                    "زۆر بەخێربێیت بۆ وارگە سادەکەم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

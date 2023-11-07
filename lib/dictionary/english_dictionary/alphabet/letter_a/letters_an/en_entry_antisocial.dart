@@ -217,6 +217,7 @@ class EnglishEntryantisocial extends StatelessWidget {
 ١. (ھاوەڵناو) خراپ و زیان‌بەخش بۆ کەسێک یان کۆمەڵگە بەگشتی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -227,6 +228,7 @@ class EnglishEntryantisocial extends StatelessWidget {
                                     "Increasingly, smoking is regarded as an antisocial habit.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -238,9 +240,10 @@ class EnglishEntryantisocial extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جگەرەکێشان زیاتر و زیاتر لەلایەن خەڵکییەوە دادەنرێت بە شتێکی ناکۆمەڵایەتی",
+                                    "جگەرەکێشان زیاتر و زیاتر لەلایەن خەڵکییەوە دادەنرێت بە شتێکی ناکۆمەڵایەتی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -272,6 +275,7 @@ class EnglishEntryantisocial extends StatelessWidget {
 ٢. (ھاوەڵناو) حەزنەکردن لە کات بەسەربردن لەگەڵ کەسانی تر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -282,6 +286,7 @@ class EnglishEntryantisocial extends StatelessWidget {
                                     "They'll think you're being antisocial if you don't go.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -293,9 +298,10 @@ class EnglishEntryantisocial extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وابیردەکەنەوە ناکۆمەڵایەتیی ئەگەر نەچیت",
+                                    "وابیردەکەنەوە ناکۆمەڵایەتیی ئەگەر نەچیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

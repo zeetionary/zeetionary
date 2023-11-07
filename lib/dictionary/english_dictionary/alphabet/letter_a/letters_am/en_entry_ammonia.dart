@@ -236,6 +236,7 @@ class EnglishEntryammonia extends StatelessWidget {
 ١. (ناو) گاسێک کە بۆنێکی تیژی ھەیە و لە مادەی پاککەرەوە، پەیین، و تەقەمەنی‌دا بەکاردێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -246,6 +247,7 @@ class EnglishEntryammonia extends StatelessWidget {
                                     "It is dangerous to inhale ammonia fumes.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -257,9 +259,10 @@ class EnglishEntryammonia extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەڵمژینی دووکەڵی ئەمۆنیا زیانبەخشە",
+                                    "ھەڵمژینی دووکەڵی ئەمۆنیا زیانبەخشە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

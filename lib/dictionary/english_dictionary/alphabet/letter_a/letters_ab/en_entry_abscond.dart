@@ -148,6 +148,7 @@ class EnglishEntryabscond extends StatelessWidget {
 ١. ھەڵھاتن لە شوێنێک کە ڕێگەت پێنەدراوە لێی ڕابکەیت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryabscond extends StatelessWidget {
                                     "She absconded from every children’s home they placed her in.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryabscond extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە ھەر خانەیەکی منداڵان ھەڵدەھات کە تێیدا دابنرایە",
+                                    "لە ھەر خانەیەکی منداڵان ھەڵدەھات کە تێیدا دابنرایە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

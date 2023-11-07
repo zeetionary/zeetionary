@@ -162,6 +162,7 @@ class EnglishEntryalligator extends StatelessWidget {
 ١. (ناو) خشۆکێکی گەورە کە وەک تیمساحە و کلکی درێژ و پێستی قایم و کەڵبەی بەھێزی ھەیە و لە ئەمریکای باکوور و باشوور و وڵاتی چیندا دەژین''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryalligator extends StatelessWidget {
                                     "It could be the size of an alligator.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryalligator extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بارستاییەکەی ھێندەی تیمساحێکی ئەمریکی دەبێت",
+                                    "بارستاییەکەی ھێندەی تیمساحێکی ئەمریکی دەبێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

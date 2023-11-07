@@ -165,6 +165,7 @@ class EnglishEntryamalgamation extends StatelessWidget {
 ١. (ھاوەڵناو) پڕۆسەی یەکخستن، یان ئەوەی درووست دەبێت لە ئەنجامی ئەم پڕۆسەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                     "We look towards the amalgamation of some of the neighborhood factories.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە نیازین ژمارەیەک لە کارگەکانی گەڕەکەکە یەکبخەین",
+                                    "بە نیازین ژمارەیەک لە کارگەکانی گەڕەکەکە یەکبخەین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -223,6 +226,7 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                     "The proposed amalgamation of the two institutes has mow fallen through.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +238,10 @@ class EnglishEntryamalgamation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پڕۆسەی پێشنیازکراوی یەکخستنی دوو پەیمانگاکە شکستی ھێناوە",
+                                    "پڕۆسەی پێشنیازکراوی یەکخستنی دوو پەیمانگاکە شکستی ھێناوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

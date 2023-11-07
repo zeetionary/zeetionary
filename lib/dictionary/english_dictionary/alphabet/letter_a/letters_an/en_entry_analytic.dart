@@ -25,7 +25,8 @@ class EnglishEntryanalytic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She has a clear analytic mind."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She has a clear analytic mind."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnalytical0025(String languageCode) async {
@@ -33,7 +34,8 @@ class EnglishEntryanalytic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The analytic methods we developed for this project will be useful for our future work."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The analytic methods we developed for this project will be useful for our future work."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnalytic47906(String languageCode) async {
@@ -41,7 +43,8 @@ class EnglishEntryanalytic extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("This book is one of the masterpieces of analytic philosophy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This book is one of the masterpieces of analytic philosophy."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnalytic(String languageCode) async {
@@ -225,6 +228,7 @@ class EnglishEntryanalytic extends StatelessWidget {
 ١. (ھاوەڵناو) بەکارھێنانی شێوازی بیرکردنەوەی لۆژیکیانە بۆ تێگەشتن لە شتێک، بەتایبەتی بە سەیرکردنی ھەموو بەشەکانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -235,6 +239,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                                     "She has a clear analytic mind.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -246,9 +251,10 @@ class EnglishEntryanalytic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مێشکێکی تەواو بەدیقەتی ھەیە",
+                                    "مێشکێکی تەواو بەدیقەتی ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -266,9 +272,9 @@ class EnglishEntryanalytic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnalytical150(// REPLACE: analytical /ˌænəˈlɪtɪkl/
-                                        "en-US"),
+                                onPressed: () => speakAnalytical150(
+                                    // REPLACE: analytical /ˌænəˈlɪtɪkl/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -283,6 +289,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                                     "The analytic methods we developed for this project will be useful for our future work.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -294,9 +301,10 @@ class EnglishEntryanalytic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو ڕێگا شیکارییانەی گەشەمان‌پێدا بۆ ئەم پڕۆژە بەسوود دەبێت بۆ کارەکانی داھاتوومان",
+                                    "ئەو ڕێگا شیکارییانەی گەشەمان‌پێدا بۆ ئەم پڕۆژە بەسوود دەبێت بۆ کارەکانی داھاتوومان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -314,9 +322,9 @@ class EnglishEntryanalytic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnalytical0025(// REPLACE: analytical /ˌænəˈlɪtɪkl/
-                                        "en-US"),
+                                onPressed: () => speakAnalytical0025(
+                                    // REPLACE: analytical /ˌænəˈlɪtɪkl/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -328,6 +336,7 @@ class EnglishEntryanalytic extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بە بەکارھێنانی لۆژیک (وردبوونەوە و بیرکردنەوە لە بیرۆکەکان بە ڕێگای زانستی)''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -338,6 +347,7 @@ class EnglishEntryanalytic extends StatelessWidget {
                                     "This book is one of the masterpieces of analytic philosophy.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -349,9 +359,10 @@ class EnglishEntryanalytic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم کتێبە یەکێکە لە شاکارەکانی فەلسەفەی شیکارانە",
+                                    "ئەم کتێبە یەکێکە لە شاکارەکانی فەلسەفەی شیکارانە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -369,9 +380,9 @@ class EnglishEntryanalytic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnalytic47906(// REPLACE: analytical /ˌænəˈlɪtɪkl/
-                                        "en-US"),
+                                onPressed: () => speakAnalytic47906(
+                                    // REPLACE: analytical /ˌænəˈlɪtɪkl/
+                                    "en-US"),
                               ),
                             ],
                           ),

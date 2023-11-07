@@ -148,6 +148,7 @@ class EnglishEntryacclimatize extends StatelessWidget {
 ١. خۆگونجاندن لەگەڵ شوێنێک، بارودۆخێک، یان ئاووھەوایەکی نوێ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryacclimatize extends StatelessWidget {
                                     "We haven’t got acclimatized to village life yet.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -166,9 +168,10 @@ class EnglishEntryacclimatize extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھێشتا بە ژیانی لادێ ڕانەھاتووین",
+                                    "ھێشتا بە ژیانی لادێ ڕانەھاتووین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

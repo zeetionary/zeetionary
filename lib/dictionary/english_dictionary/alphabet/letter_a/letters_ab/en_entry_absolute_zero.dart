@@ -148,6 +148,7 @@ class EnglishEntryabsolutezero extends StatelessWidget {
 ١. (ناو) ئەو پلەی ساردییەی کە باوەڕ وایە نزمترینە بتوانرێت بەدەستبھێندرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -158,6 +159,7 @@ class EnglishEntryabsolutezero extends StatelessWidget {
                                     "We repeat the process until we reache the value of absolute zero.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -169,6 +171,7 @@ class EnglishEntryabsolutezero extends StatelessWidget {
                                     "پڕۆسەکە دووبارە دەکەینەوە تا دەگەین بە سفری ڕەھا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -161,6 +161,7 @@ class EnglishEntryaids extends StatelessWidget {
 ١. (ناو) نەخۆشییەکی کوشندە کە لە ڕێگەی ڤایرۆسی ئێچ ئای ڤییەوە لە کەسێک بۆ کەسێکی تر دەگوازرێتەوە و دەبێتەھۆی لاوازی جەستە بەرامبەر نەخۆشی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -171,6 +172,7 @@ class EnglishEntryaids extends StatelessWidget {
                                     "She died of an AIDs-related illness at the age of 54.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryaids extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە تەمەنی ٥٤ ساڵی بە نەخۆشییەکی پەیوەندیدار بە ئایدز گیانی لەدەستدا",
+                                    "لە تەمەنی ٥٤ ساڵی بە نەخۆشییەکی پەیوەندیدار بە ئایدز گیانی لەدەستدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

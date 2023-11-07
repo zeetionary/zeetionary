@@ -162,6 +162,7 @@ class EnglishEntryalphabetical extends StatelessWidget {
 ١. (ھاوەڵناو) بە ئەلفوبێیی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -172,6 +173,7 @@ class EnglishEntryalphabetical extends StatelessWidget {
                                     "The names on the list are in alphabetical order.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,6 +188,7 @@ class EnglishEntryalphabetical extends StatelessWidget {
                                     "ناوەکان لە لیستەکەدا بە ڕیزبەندین (ئەلفوبێن)",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -146,6 +146,7 @@ class EnglishEntryaccentuate extends StatelessWidget {
 ١. (کردار) جەختکردنەوە لە شتێک، یان وای لێ بکەیت ئاسانتر ببینرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -156,6 +157,7 @@ class EnglishEntryaccentuate extends StatelessWidget {
                                     "Her short hair accentuated her huge eyes.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -164,9 +166,10 @@ class EnglishEntryaccentuate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "قژە کورتەکەی چاوە گەورەکانی زیاتر دەردەخست",
+                                    "قژە کورتەکەی چاوە گەورەکانی زیاتر دەردەخست.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -183,6 +183,7 @@ class EnglishEntryagainst extends StatelessWidget {
 ١. (ئامراز) دژ بە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -193,6 +194,7 @@ class EnglishEntryagainst extends StatelessWidget {
                                     "That's against the law.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -204,9 +206,10 @@ class EnglishEntryagainst extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەوە دژ بە یاسایە",
+                                    "ئەوە دژ بە یاسایە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -240,6 +243,7 @@ class EnglishEntryagainst extends StatelessWidget {
                                     "She was forced to marry against her will.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -254,6 +258,7 @@ class EnglishEntryagainst extends StatelessWidget {
                                     "دژ بە ویستی خۆی ناچار بە ھاوسەرگیری کرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -284,6 +289,7 @@ class EnglishEntryagainst extends StatelessWidget {
 ٢. (ئامراز) شتێک کە لە بەرژەوەندیت نییە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -294,6 +300,7 @@ class EnglishEntryagainst extends StatelessWidget {
                                     "The evidence is against him.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -305,9 +312,10 @@ class EnglishEntryagainst extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەڵگەکان لە دژین",
+                                    "بەڵگەکان لە دژین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -338,6 +346,7 @@ class EnglishEntryagainst extends StatelessWidget {
 ٣. (ئامراز) لە نزیک یان پاڵ شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -348,6 +357,7 @@ class EnglishEntryagainst extends StatelessWidget {
                                     "Put the piano there, against the wall.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -359,9 +369,10 @@ class EnglishEntryagainst extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پیانۆکە بخە ئەوێ، لەلای دیوارەکە",
+                                    "پیانۆکە بخە ئەوێ، لەلای دیوارەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -392,6 +403,7 @@ class EnglishEntryagainst extends StatelessWidget {
 ٤. (ئامراز) ڕێگەدان لە ڕوودانی شتێک یان کەمکردنەوەی زیانەکانی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -402,6 +414,7 @@ class EnglishEntryagainst extends StatelessWidget {
                                     "They took precautions against fire.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -416,6 +429,7 @@ class EnglishEntryagainst extends StatelessWidget {
                                     "ڕێکاریان دژ بە ئاگرەکە گرتەبەر",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

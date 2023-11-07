@@ -183,6 +183,7 @@ class EnglishEntryalight extends StatelessWidget {
 ١. (ھاوەڵناو) ئاگرگرتوو''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -193,6 +194,7 @@ class EnglishEntryalight extends StatelessWidget {
                                     "A car was overturned and set alight.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -204,9 +206,10 @@ class EnglishEntryalight extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئۆتۆمبێلێک وەرگەڕا و ئاگری گرت",
+                                    "ئۆتۆمبێلێک وەرگەڕا و ئاگری گرت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -237,6 +240,7 @@ class EnglishEntryalight extends StatelessWidget {
 ٢. (کردار) نیشتنەوە لەسەر شتێک لەدوای فڕین بۆی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -247,6 +251,7 @@ class EnglishEntryalight extends StatelessWidget {
                                     "Several birds alighted on the branches of the tree.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -258,9 +263,10 @@ class EnglishEntryalight extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژمارەیەک باڵندە لەسەر لقەکانی دارەکە نیشتنەوە",
+                                    "ژمارەیەک باڵندە لەسەر لقەکانی دارەکە نیشتنەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -291,6 +297,7 @@ class EnglishEntryalight extends StatelessWidget {
 ٣. (کردار) دابەزین لە پاسێک یان شەمەندەفەرێک، یان ئامێرێکی دیکەی گواستنەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -301,6 +308,7 @@ class EnglishEntryalight extends StatelessWidget {
                                     "Do not alight from a moving bus.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -312,9 +320,10 @@ class EnglishEntryalight extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە پاسێک دامەبەزە کە ھێشتا لە جووڵە دایە",
+                                    "لە پاسێک دامەبەزە کە ھێشتا لە جووڵە دایە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

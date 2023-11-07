@@ -164,6 +164,7 @@ class EnglishEntryacquire extends StatelessWidget {
 ١. (کردار) بەدەستھێنانی شتێک بە ھەوڵ و ماندووبوونی خۆت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryacquire extends StatelessWidget {
                                     "She has acquired a good knowledge of English.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryacquire extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زانیارییەکی باشی ئینگلیزی بەدەستھێناوە",
+                                    "زانیارییەکی باشی ئینگلیزی بەدەستھێناوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -217,6 +220,7 @@ class EnglishEntryacquire extends StatelessWidget {
                                     "He has acquired a reputation for dishonesty.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -225,9 +229,10 @@ class EnglishEntryacquire extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناوبانگی بۆ فروفێڵ بەدەستھێناوە",
+                                    "ناوبانگی بۆ فروفێڵ بەدەستھێناوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -257,6 +262,7 @@ class EnglishEntryacquire extends StatelessWidget {
 ٢. (کردار) بەدەستھێنانی شتێک بە کڕینی یان ئەوەی پێت بدرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -267,6 +273,7 @@ class EnglishEntryacquire extends StatelessWidget {
                                     "Property acquired through crime will be confiscated.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -275,9 +282,10 @@ class EnglishEntryacquire extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەر ماڵومڵکێک بە تاوان بەدەستھاتبێت دەستیبەسەردا دەگیرێت",
+                                    "ھەر ماڵومڵکێک بە تاوان بەدەستھاتبێت دەستیبەسەردا دەگیرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

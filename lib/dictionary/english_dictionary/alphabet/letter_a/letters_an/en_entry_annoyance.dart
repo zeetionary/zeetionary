@@ -215,6 +215,7 @@ class EnglishEntryannoyance extends StatelessWidget {
 ١. (ناو) کەمێک بێزاری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -225,6 +226,7 @@ class EnglishEntryannoyance extends StatelessWidget {
                                     "He could not conceal his annoyance at being interrupted.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -236,9 +238,10 @@ class EnglishEntryannoyance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نەیدەتوانی بێزاریی بشارێتەوە بە قسەپێ‌بڕینی",
+                                    "نەیدەتوانی بێزاریی بشارێتەوە بە قسەپێ‌بڕینی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -273,6 +276,7 @@ class EnglishEntryannoyance extends StatelessWidget {
                                     "I dropped out of college, much to the annoyance of my parents.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -284,9 +288,10 @@ class EnglishEntryannoyance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وازم لە کۆلێژ ھێنا کە بووە ھۆی بێزاریی دایک و باوکم",
+                                    "وازم لە کۆلێژ ھێنا کە بووە ھۆی بێزاریی دایک و باوکم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -318,6 +323,7 @@ class EnglishEntryannoyance extends StatelessWidget {
 ٢. (ناو) شتێک کە دەبێتە ھۆی کەمێک بێزاری''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -328,6 +334,7 @@ class EnglishEntryannoyance extends StatelessWidget {
                                     "One of the greatest annoyances was being bitten by mosquitoes every night.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -339,9 +346,10 @@ class EnglishEntryannoyance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یەکێک لە گەورەترین جاڕسکەرەکان ئەوەبوو مێشوولە ھەموو شەوێک بتگەزێت",
+                                    "یەکێک لە گەورەترین جاڕسکەرەکان ئەوەبوو مێشوولە ھەموو شەوێک بتگەزێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

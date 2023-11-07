@@ -165,6 +165,7 @@ class EnglishEntryambitious extends StatelessWidget {
 ١. (ھاوەڵناو) ڕشت لەسەر ئەوەی دەوڵەمەند و سەرکەوتووبیت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryambitious extends StatelessWidget {
                                     "I'm not ambitious enough to try for the top.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryambitious extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھێندە تەماح‌کار نیم ھەوڵ بۆ باشترین بدەم",
+                                    "ھێندە تەماح‌کار نیم ھەوڵ بۆ باشترین بدەم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -222,6 +225,7 @@ class EnglishEntryambitious extends StatelessWidget {
                                     "The students are all ambitious to do well.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +237,10 @@ class EnglishEntryambitious extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خوێنکاران ھەموویان ئامانجیانە باش بن",
+                                    "خوێنکاران ھەموویان ئامانجیانە باش بن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

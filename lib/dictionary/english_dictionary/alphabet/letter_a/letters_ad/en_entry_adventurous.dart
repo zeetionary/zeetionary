@@ -163,6 +163,7 @@ class EnglishEntryadventurous extends StatelessWidget {
 ١. (ھاوەڵناو) ئامادەیی کردنی کاری سەرکێشی، یان تاقیکردنەوەی شتی تازە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -173,6 +174,7 @@ class EnglishEntryadventurous extends StatelessWidget {
                                     "She led an adventurous life.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -181,9 +183,10 @@ class EnglishEntryadventurous extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ژیانێکی سەرکێشیانەی ھەبوو",
+                                    "ژیانێکی سەرکێشیانەی ھەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -217,6 +220,7 @@ class EnglishEntryadventurous extends StatelessWidget {
                                     "Many teachers would like to be more adventurous.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -225,9 +229,10 @@ class EnglishEntryadventurous extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر مامۆستا پێیان باشە تازەگەری بکەن",
+                                    "زۆر مامۆستا پێیان باشە تازەگەری بکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

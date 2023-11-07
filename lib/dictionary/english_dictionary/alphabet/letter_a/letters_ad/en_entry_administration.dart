@@ -184,6 +184,7 @@ class EnglishEntryadministration extends StatelessWidget {
 ١. (ناو) بەڕێوەبردنی شوێنێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -194,6 +195,7 @@ class EnglishEntryadministration extends StatelessWidget {
                                     "The university loses a lot of money through poor administration.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -202,9 +204,10 @@ class EnglishEntryadministration extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زانکۆکە پارەیەکی زۆر لەدەستدەدات بەھۆی خراپ بەڕێوەبردن",
+                                    "زانکۆکە پارەیەکی زۆر لەدەستدەدات بەھۆی خراپ بەڕێوەبردن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -235,6 +238,7 @@ class EnglishEntryadministration extends StatelessWidget {
 ٢. (ناو) حکومەتی وڵاتێک، بەتایبەتی ئەمریکا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -245,6 +249,7 @@ class EnglishEntryadministration extends StatelessWidget {
                                     "He was Secretary of Education in Obama's first administration.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -256,6 +261,7 @@ class EnglishEntryadministration extends StatelessWidget {
                                     "وەزیری پەروەردە بوو لە کابینەکەی ئۆباما",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -286,6 +292,7 @@ class EnglishEntryadministration extends StatelessWidget {
 ٣. (ناو) پڕۆسەی ڕێکخستنی شێوازی کردنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -296,6 +303,7 @@ class EnglishEntryadministration extends StatelessWidget {
                                     "The administration of justice involves making sure that people are treated fairly in legal matters.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -304,9 +312,10 @@ class EnglishEntryadministration extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەڵسووڕاندنی کاری دادپەروەری ئەوە لەخۆدەگرێت کە دڵنیایی بدەیت کە خەڵکی بە یەکسانی مامەڵەیان لەگەڵ دەکرێت لە کێشە یاساییەکان",
+                                    "ھەڵسووڕاندنی کاری دادپەروەری ئەوە لەخۆدەگرێت کە دڵنیایی بدەیت کە خەڵکی بە یەکسانی مامەڵەیان لەگەڵ دەکرێت لە کێشە یاساییەکان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -337,6 +346,7 @@ class EnglishEntryadministration extends StatelessWidget {
 ٤. (ناو) ئەو کەسانەی کە شوێنێک بەڕێوەدەبەن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -347,6 +357,7 @@ class EnglishEntryadministration extends StatelessWidget {
                                     "The hospital administration can refuse patients' access to their own records.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -355,9 +366,10 @@ class EnglishEntryadministration extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەرپرسانی نەخۆشخانەکە دەتوانن ڕێگری لە نەخۆشان بکەن داتای خودی خۆیان ببینن",
+                                    "بەرپرسانی نەخۆشخانەکە دەتوانن ڕێگری لە نەخۆشان بکەن داتای خودی خۆیان ببینن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -388,6 +400,7 @@ class EnglishEntryadministration extends StatelessWidget {
 ٥. (ناو) پێدانی دەرمان بە کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -398,6 +411,7 @@ class EnglishEntryadministration extends StatelessWidget {
                                     "There are strict controls on the administration of drugs.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -406,9 +420,10 @@ class EnglishEntryadministration extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کۆنترۆڵی توند ھەیە لەسەر پێدانی دەرمان",
+                                    "کۆنترۆڵی توند ھەیە لەسەر پێدانی دەرمان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

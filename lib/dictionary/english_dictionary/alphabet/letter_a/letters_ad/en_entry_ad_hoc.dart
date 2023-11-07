@@ -164,6 +164,7 @@ class EnglishEntryadhoc extends StatelessWidget {
 ١. (ھاوەڵناو) ڕوودان لە ھەر کاتێکدا کە پێویست بکات، نەک بە پلانی پێشوەختە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadhoc extends StatelessWidget {
                                     "The meetings will be held on an ad hoc basis.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadhoc extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کۆبوونەوەکان ڕێکدەخرێن ھەرکە پێویست بکەن",
+                                    "کۆبوونەوەکان ڕێکدەخرێن ھەرکە پێویست بکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -215,6 +218,7 @@ class EnglishEntryadhoc extends StatelessWidget {
 ٢. (ھاوەڵکار) بۆ مەبەستێکی تایبەت، نەک بەشێوەیەکی گشتی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -225,6 +229,7 @@ class EnglishEntryadhoc extends StatelessWidget {
                                     "The decisions were made ad hoc.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +238,10 @@ class EnglishEntryadhoc extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بڕیارەکان گەرماوگەرم  دران",
+                                    "بڕیارەکان گەرماوگەرم  دران.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -161,6 +161,7 @@ class EnglishEntryalacarte extends StatelessWidget {
 ١. (ھاوەڵناو و ھاوەڵکار) ھەڵبژاردنی خواردن لە چێشتخانەیەک بە دیاریکردنی بەش بەش لە کۆمەڵە خواردنێک کە نرخیان جیاوازە، لە جیاتی ھەڵبژاردنی یەک ژەم کە نرخێکی دیاریکراوی ھەیە ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                         ],
                       ),

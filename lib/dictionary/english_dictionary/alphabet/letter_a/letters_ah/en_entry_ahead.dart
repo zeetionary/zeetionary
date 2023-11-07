@@ -199,6 +199,7 @@ class EnglishEntryahead extends StatelessWidget {
 ١. (ھاوەڵکار) پێشوەختە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -209,6 +210,7 @@ class EnglishEntryahead extends StatelessWidget {
                                     "I'll run ahead and warn them.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -220,9 +222,10 @@ class EnglishEntryahead extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێشوەختە دەچم و ئاگاداریان دەکەم",
+                                    "پێشوەختە دەچم و ئاگاداریان دەکەم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -256,6 +259,7 @@ class EnglishEntryahead extends StatelessWidget {
                                     "This will create problems in the months ahead.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -267,9 +271,10 @@ class EnglishEntryahead extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەمە لە مانگەکانی داھاتوودا کێشە درووست دەکات",
+                                    "ئەمە لە مانگەکانی داھاتوودا کێشە درووست دەکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -300,6 +305,7 @@ class EnglishEntryahead extends StatelessWidget {
 ٢. (ھاوەڵکار) پێشتر''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -310,6 +316,7 @@ class EnglishEntryahead extends StatelessWidget {
                                     "The party was planned weeks ahead.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -324,6 +331,7 @@ class EnglishEntryahead extends StatelessWidget {
                                     "ئاھەنگەکە چەندین ھەفتە پێشتر پلانی بۆ دانرا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -354,6 +362,7 @@ class EnglishEntryahead extends StatelessWidget {
 ٣. (ھاوەڵکار) لە پێشەوە لە ڕکابەریدا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -364,6 +373,7 @@ class EnglishEntryahead extends StatelessWidget {
                                     "Our team was ahead by six points.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -375,9 +385,10 @@ class EnglishEntryahead extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تیمەکان بە شەش خاڵ لەپێش بوو",
+                                    "تیمەکان بە شەش خاڵ لەپێش بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

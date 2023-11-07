@@ -165,6 +165,7 @@ class EnglishEntryaffected extends StatelessWidget {
 ١. (ھاوەڵناو) کاریگەربوون بە شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryaffected extends StatelessWidget {
                                     "Don't worry about the rule changes—you're not affected.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -183,9 +185,10 @@ class EnglishEntryaffected extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نیگەران مەبە سەبارەت بە گۆڕانی یاساکان، تۆ کاریگەر نابیت پێیان",
+                                    "نیگەران مەبە سەبارەت بە گۆڕانی یاساکان، تۆ کاریگەر نابیت پێیان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -216,6 +219,7 @@ class EnglishEntryaffected extends StatelessWidget {
 ٢. (ھاوەڵناو) نا سرووشتی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -226,6 +230,7 @@ class EnglishEntryaffected extends StatelessWidget {
                                     "Don’t use such strange words—it makes you sound affected.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +239,10 @@ class EnglishEntryaffected extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وشەی وا نامۆ بەکارمەھێنە، وای دەردەخات کە نواندن دەکەیت",
+                                    "وشەی وا نامۆ بەکارمەھێنە، وای دەردەخات کە نواندن دەکەیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

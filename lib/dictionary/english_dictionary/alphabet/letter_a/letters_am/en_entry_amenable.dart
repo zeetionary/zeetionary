@@ -173,6 +173,7 @@ class EnglishEntryamenable extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە ئاسان کاریگەر دەبێت یان کۆنترۆڵ دەکرێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -183,6 +184,7 @@ class EnglishEntryamenable extends StatelessWidget {
                                     "They had three very amenable children.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -194,9 +196,10 @@ class EnglishEntryamenable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سێ منداڵی گوێگریان ھەبوو",
+                                    "سێ منداڵی گوێگریان ھەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -231,6 +234,7 @@ class EnglishEntryamenable extends StatelessWidget {
                                     "He seemed most amenable to my idea.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -242,9 +246,10 @@ class EnglishEntryamenable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر قایل دیاربوو بە بیرۆکەکەم",
+                                    "زۆر قایل دیاربوو بە بیرۆکەکەم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

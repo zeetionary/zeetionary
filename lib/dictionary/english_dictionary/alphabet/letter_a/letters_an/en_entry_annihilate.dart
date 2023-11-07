@@ -213,6 +213,7 @@ class EnglishEntryannihilate extends StatelessWidget {
 ١. (کردار) لەناوبردنی شتێک بەتەواوی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -223,6 +224,7 @@ class EnglishEntryannihilate extends StatelessWidget {
                                     "The human race has enough weapons to annihilate itself.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -234,9 +236,10 @@ class EnglishEntryannihilate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مرۆڤایەتی ھێندە چەکی ھەیە بەتەواوی خۆی لەناو ببات",
+                                    "مرۆڤایەتی ھێندە چەکی ھەیە بەتەواوی خۆی لەناو ببات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -268,6 +271,7 @@ class EnglishEntryannihilate extends StatelessWidget {
 ٢. (کردار) بردنەوە لە کەسێک و تێکشکاندنی بەتەواوی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -278,6 +282,7 @@ class EnglishEntryannihilate extends StatelessWidget {
                                     "She annihilated her opponent, who failed to win a single game.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -289,9 +294,10 @@ class EnglishEntryannihilate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕکابەرەکەی تێکشکاند کە ھیچ ئەوەی یارییەکی نەبردەوە",
+                                    "ڕکابەرەکەی تێکشکاند کە ھیچ ئەوەی یارییەکی نەبردەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

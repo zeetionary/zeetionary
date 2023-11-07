@@ -236,6 +236,7 @@ class EnglishEntryalways extends StatelessWidget {
 ١. (ھاوەڵکار) ھەمیشە؛ ھەمووکات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -246,6 +247,7 @@ class EnglishEntryalways extends StatelessWidget {
                                     "Always lock your car.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -257,9 +259,10 @@ class EnglishEntryalways extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەمیشە ئۆتۆمبێلەکەت دابخە",
+                                    "ھەمیشە ئۆتۆمبێلەکەت دابخە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -293,6 +296,7 @@ class EnglishEntryalways extends StatelessWidget {
                                     "The children always seem to be hungry.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -304,9 +308,10 @@ class EnglishEntryalways extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵەکان ھەمیشە برسی دەردەکەون",
+                                    "منداڵەکان ھەمیشە برسی دەردەکەون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -337,6 +342,7 @@ class EnglishEntryalways extends StatelessWidget {
 ٢. (ھاوەڵکار) بۆ ماوەیەکی دوور و درێژ؛ لەوەتەی لەبیرت دێت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -347,6 +353,7 @@ class EnglishEntryalways extends StatelessWidget {
                                     "This is the way we've always done it.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -358,9 +365,10 @@ class EnglishEntryalways extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەمە ئەو ڕێگایە کە ھەمیشە بەکارمان ھێناوە",
+                                    "ئەمە ئەو ڕێگایە کە ھەمیشە بەکارمان ھێناوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -391,6 +399,7 @@ class EnglishEntryalways extends StatelessWidget {
 ٣. (ھاوەڵکار) بۆ ھەمیشە لە داھاتوودا''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -401,6 +410,7 @@ class EnglishEntryalways extends StatelessWidget {
                                     "I'll always love you.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -412,9 +422,10 @@ class EnglishEntryalways extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەمیشە خۆشمدەوێیت",
+                                    "ھەمیشە خۆشمدەوێیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -445,6 +456,7 @@ class EnglishEntryalways extends StatelessWidget {
 ٤. (ھاوەڵکار) ھێندە زۆر کە بێزارکەرە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -455,6 +467,7 @@ class EnglishEntryalways extends StatelessWidget {
                                     "That phone's always ringing.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -466,9 +479,10 @@ class EnglishEntryalways extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو موبایلە ھەمیشە زەنگ لێدەدات",
+                                    "ئەو موبایلە ھەمیشە زەنگ لێدەدات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -499,6 +513,7 @@ class EnglishEntryalways extends StatelessWidget {
 ٥. (ھاوەڵکار) بۆ پێشنیارکردنی شتێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -509,6 +524,7 @@ class EnglishEntryalways extends StatelessWidget {
                                     "If he can't help, there's always John.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -520,9 +536,10 @@ class EnglishEntryalways extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەگەر بۆی ناکرێت، جۆن ھەردەم ئامادەیە",
+                                    "ئەگەر بۆی ناکرێت، جۆن ھەردەم ئامادەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

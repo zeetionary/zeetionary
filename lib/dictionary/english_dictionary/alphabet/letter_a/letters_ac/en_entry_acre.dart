@@ -164,6 +164,7 @@ class EnglishEntryacre extends StatelessWidget {
 ١. (ناو) یەکەی پێوانی زەوی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryacre extends StatelessWidget {
                                     "Each house has acres of space around it (= a lot of space).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryacre extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەر ماڵێک ڕێژەیەکی زۆر بۆشی لە دەوری ھەبوو",
+                                    "ھەر ماڵێک ڕێژەیەکی زۆر بۆشی لە دەوری ھەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryacrid extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی بۆنێکی ناخۆش''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryacrid extends StatelessWidget {
                                     "acrid smoke from burning tyres",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryacrid extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دووکەڵی بۆنناخۆش لە تایەی سووتاوەوە",
+                                    "دووکەڵی بۆنناخۆش لە تایەی سووتاوەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

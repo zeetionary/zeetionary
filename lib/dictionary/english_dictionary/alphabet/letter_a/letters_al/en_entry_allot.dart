@@ -165,6 +165,7 @@ class EnglishEntryallot extends StatelessWidget {
 ١. (کردار) پێدانی پارە، کات، یان ئەرک بە کەسێک''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -175,6 +176,7 @@ class EnglishEntryallot extends StatelessWidget {
                                     "I completed the test within the time allotted.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -186,9 +188,10 @@ class EnglishEntryallot extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تاقیکردنەوەکەم کە لە ماوەی کاتی دیاریکراو تەواوکرد",
+                                    "تاقیکردنەوەکەم کە لە ماوەی کاتی دیاریکراو تەواوکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),
@@ -222,6 +225,7 @@ class EnglishEntryallot extends StatelessWidget {
                                     "How much money has been allotted to us?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -233,9 +237,10 @@ class EnglishEntryallot extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چەندە پارەمان بۆ تەرخانکراوە",
+                                    "چەندە پارەمان بۆ تەرخانکراوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -164,6 +164,7 @@ class EnglishEntryadapt extends StatelessWidget {
 ١. (کردار) خۆگونجاندن لەگەڵ بارودۆخێکی جیاواز''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryadapt extends StatelessWidget {
                                     "We have had to adapt quickly to the new system.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryadapt extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێویستبووە زوو خۆمان بە سیستەمە نووێیەکە ڕابێنین",
+                                    "پێویستبووە زوو خۆمان بە سیستەمە نووێیەکە ڕابێنین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

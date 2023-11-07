@@ -164,6 +164,7 @@ class EnglishEntryaffectionately extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە سۆز و خۆشەویستی پیشان دەدات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
                           ),
                           Row(
                             children: [
@@ -174,6 +175,7 @@ class EnglishEntryaffectionately extends StatelessWidget {
                                     "William was affectionately known as Billy.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
                                   ),
                                 ),
                               ),
@@ -182,9 +184,10 @@ class EnglishEntryaffectionately extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ولیام بەھۆی سۆز و خۆشەویستی بۆی بە بیڵی ناسراوبوو",
+                                    "ولیام بەھۆی سۆز و خۆشەویستی بۆی بە بیڵی ناسراوبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
                                   ),
                                 ),
                               ),

@@ -4,87 +4,88 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryantidote - replace speakAntidote - replace antidote - /ˈæntidəʊt/ - find WORD_WEB
+// replace EnglishEntryanus - replace speakAnus
+
+// replace anus - /ˈeɪnəs/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryantidote extends StatelessWidget {
+class EnglishEntryanus extends StatelessWidget {
   // blank divider
-  EnglishEntryantidote({super.key});
+  EnglishEntryanus({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntidote(String languageCode) async {
-    // DOPSUM: CHANGE speakAntidote
+  Future<void> speakAnus(String languageCode) async {
+    // DOPSUM: CHANGE speakAnus
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("antidote"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntidote1018(String languageCode) async {
-    // DOPSUM: CHANGE speakAntidote
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There is no known antidote to the poison."); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakAntidote(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntidote
+  // Future<void> speakAnus(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antidote"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntidote(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntidote
+  // Future<void> speakAnus(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antidote"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntidote(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntidote
+  // Future<void> speakAnus(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antidote"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntidote(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntidote
+  // Future<void> speakAnus(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antidote"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntidote(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntidote
+  // Future<void> speakAnus(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antidote"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntidote(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntidote
+  // Future<void> speakAnus(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antidote"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntidote(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntidote
+  // Future<void> speakAnus(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnus
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antidote"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAnus(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnus
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("anus"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -109,7 +110,7 @@ class EnglishEntryantidote extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "antidote", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæntidəʊt/
+                                "anus", // DOPSUM: CHANGE WORD ENTRY - Find /ˈeɪnəs/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -128,7 +129,7 @@ class EnglishEntryantidote extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˈæntidəʊt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈeɪnəs/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -139,7 +140,7 @@ class EnglishEntryantidote extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAntidote(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAnus(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -149,7 +150,7 @@ class EnglishEntryantidote extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˈæntidəʊt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /ˈeɪnəs/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -159,7 +160,7 @@ class EnglishEntryantidote extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAntidote(
+                              onPressed: () => speakAnus(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -201,66 +202,66 @@ class EnglishEntryantidote extends StatelessWidget {
                 child: TabBarView(
                   children: [
                     const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
-                    SingleChildScrollView(
+                    const SingleChildScrollView(
                       // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
+                          Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: ژاربەر، دژەژار، ژارڕەوێن، دژی ژار، ژارکوژ، دەرمان، دەرمانەژار، نۆژداروو، خەم‌ڕەوێن، شتێ کە کاریگەری ناخۆشی کەم دەکاتەوە
+کوردی: کۆم، کونی کۆم، زڕتک، پندرۆ، ڕەش، تریزە، کۆڤک
 
-١. (ھاوەڵناو) مادەیەک کە کۆنترۆڵی نەخۆشی یان ژەھر دەکات''',
+١. (ھاوەڵناو) ئەندامێکی جەستەی مرۆڤ کە کونێکە لە ڕێگەیەوە خواردن دەکرێتە دەرەوە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "There is no known antidote to the poison.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھیچ ژارکوژێک نییە بۆ ژەھرەکە",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAntidote1018("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAntidote1018(
-                                    // REPLACE: antidote /ˈæntidəʊt/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
+                          // Row(
+                          //   children: [
+                          //     const Expanded(
+                          //       child: Align(
+                          //         alignment: Alignment.topLeft,
+                          //         child: Text(
+                          //           "DOPSUM_WRITE_A_SENTENCE",
+                          //           textDirection: TextDirection
+                          //               .ltr, // Right-to-left direction
+                          //         ),
+                          //       ),
+                          //     ),
+                          //     // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                          //     // const SizedBox(
+                          //     //   width: 30,
+                          //     // ),
+                          //     const Expanded(
+                          //       child: Align(
+                          //         alignment: Alignment.topLeft,
+                          //         child: Text(
+                          //           "رستە_رستە_رستە_رستە",
+                          //           textAlign: TextAlign
+                          //               .right, // Right-to-left direction
+                          //         ),
+                          //       ),
+                          //     ),
+                          //     IconButton(
+                          //       iconSize: 18,
+                          //       icon: const Icon(
+                          //         Icons.record_voice_over,
+                          //         color: Colors.blue,
+                          //       ),
+                          //       onPressed: () => speakAnus("en-GB"),
+                          //     ),
+                          //     IconButton(
+                          //       iconSize: 18,
+                          //       icon: const Icon(
+                          //         Icons.record_voice_over,
+                          //         color: Colors.red,
+                          //       ),
+                          //       onPressed: () =>
+                          //           speakAnus(// REPLACE: anus /ˈeɪnəs/
+                          //               "en-US"),
+                          //     ),
+                          //   ],
+                          // ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
@@ -307,9 +308,8 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: antidote (Derived forms: antidotes)
-1. A remedy that stops or controls the effects of a poison (= counterpoison)
-"an infallible antidote";
+- Noun: anus (Derived forms: anuses)
+1. The excretory opening at the end of the alimentary canal
 '''),
         ],
       ),
@@ -320,12 +320,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "Vf7mI4DdAFA";
+  static String myVideoId = "wVe8zYM4vtA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 86, // DOPSUM: CHANGE IT
+      startAt: 14, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -345,12 +345,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "3buJvmp4Dh8";
+  static String myVideoId = "ocD8BabiQdI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5, // DOPSUM: CHANGE IT
+      startAt: 19, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -370,12 +370,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "O4AUJfITYPk";
+  static String myVideoId = "xehu6IHbhpE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 24, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -395,12 +395,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "YantuvyRZ1E";
+  static String myVideoId = "WDetHC86Dgo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 78, // DOPSUM: CHANGE IT
+      startAt: 181, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -420,12 +420,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "jVT04Xiuu2o";
+  static String myVideoId = "X3TAROotFfM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 835, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -445,12 +445,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "ka-K3Eg7Nzw";
+  static String myVideoId = "5pAnk9MKHzo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 190, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -470,12 +470,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "oDK18j5Pm6Q";
+  static String myVideoId = "oVX5OSIw5ms";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 486, // DOPSUM: CHANGE IT
+      startAt: 493, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -495,12 +495,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "u7H8V8AtnU4";
+  static String myVideoId = "48pP0WFjuOE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 231, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -520,12 +520,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "Qcc1J30l_0E";
+  static String myVideoId = "IrMTLV2cR2Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2405, // DOPSUM: CHANGE IT
+      startAt: 29, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -545,12 +545,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "pBeVRXAku5M";
+  static String myVideoId = "uJYc3m89nwk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1223, // DOPSUM: CHANGE IT
+      startAt: 53, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -570,12 +570,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "UhIZ9Xx-ii8";
+  static String myVideoId = "_y4DbZivHCY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 64, // DOPSUM: CHANGE IT
+      startAt: 50, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

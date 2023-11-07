@@ -781,10 +781,9 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_antisocial.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_antithesis.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_antler.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_antonym.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anus.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anvil.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_DOPSUM.dart';
@@ -1645,19 +1644,22 @@ final loggedInRoute = RouteMap(routes: {
       MaterialPage(child: EnglishEntryantidepressant()),
   "/english-antidote": (_) => MaterialPage(child: EnglishEntryantidote()),
   "/english-antifreeze": (_) => MaterialPage(child: EnglishEntryantifreeze()),
-  "/english-antihistamine": (_) => MaterialPage(child: EnglishEntryantihistamine()),
-  "/english-antiperspirant": (_) => MaterialPage(child: EnglishEntryantiperspirant()),
+  "/english-antihistamine": (_) =>
+      MaterialPage(child: EnglishEntryantihistamine()),
+  "/english-antiperspirant": (_) =>
+      MaterialPage(child: EnglishEntryantiperspirant()),
   "/english-antiquated": (_) => MaterialPage(child: EnglishEntryantiquated()),
   "/english-antique": (_) => MaterialPage(child: EnglishEntryantique()),
   "/english-antiquity": (_) => MaterialPage(child: EnglishEntryantiquity()),
-  "/english-antiretroviral": (_) => MaterialPage(child: EnglishEntryantiretroviral()),
+  "/english-antiretroviral": (_) =>
+      MaterialPage(child: EnglishEntryantiretroviral()),
   "/english-antiseptic": (_) => MaterialPage(child: EnglishEntryantiseptic()),
   "/english-antisocial": (_) => MaterialPage(child: EnglishEntryantisocial()),
   "/english-antithesis": (_) => MaterialPage(child: EnglishEntryantithesis()),
   "/english-antler": (_) => MaterialPage(child: EnglishEntryantler()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-antonym": (_) => MaterialPage(child: EnglishEntryantonym()),
+  "/english-anus": (_) => MaterialPage(child: EnglishEntryanus()),
+  "/english-anvil": (_) => MaterialPage(child: EnglishEntryanvil()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

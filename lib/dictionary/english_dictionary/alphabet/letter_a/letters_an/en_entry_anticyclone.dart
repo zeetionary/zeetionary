@@ -4,92 +4,93 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryantagonism - replace speakAntagonism - replace antagonism - /ænˈtæɡənɪzəm/ - find Dopsum2
+// replace these: replace EnglishEntryanticyclone - replace speakAnticyclone - replace anticyclone - /ˌæntiˈsaɪkləʊn/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryantagonism extends StatelessWidget {
+class EnglishEntryanticyclone extends StatelessWidget {
   // blank divider
-  EnglishEntryantagonism({super.key});
+  EnglishEntryanticyclone({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntagonism(String languageCode) async {
-    // DOPSUM: CHANGE speakAntagonism
+  Future<void> speakAnticyclone(String languageCode) async {
+    // DOPSUM: CHANGE speakAnticyclone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("antagonism"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anticyclone"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntagonism1204(String languageCode) async {
-    // DOPSUM: CHANGE speakAntagonism
+  Future<void> speakAnticyclone955(String languageCode) async {
+    // DOPSUM: CHANGE speakAnticyclone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The antagonism he felt towards his old enemy was still very strong."); // DOPSUM: CHANGE TEXT
+        "The anticyclone brought bright sunshine and calm conditions to most areas."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntagonism(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonism
+  // Future<void> speakAnticyclone(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnticyclone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticyclone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonism(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonism
+  // Future<void> speakAnticyclone(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnticyclone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticyclone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonism(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonism
+  // Future<void> speakAnticyclone(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnticyclone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticyclone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonism(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonism
+  // Future<void> speakAnticyclone(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnticyclone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticyclone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonism(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonism
+  // Future<void> speakAnticyclone(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnticyclone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticyclone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonism(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonism
+  // Future<void> speakAnticyclone(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnticyclone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticyclone"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonism(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonism
+  // Future<void> speakAnticyclone(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnticyclone
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticyclone"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -108,7 +109,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "antagonism", // DOPSUM: CHANGE WORD ENTRY - Find /ænˈtæɡənɪzəm/
+                                "anticyclone", // DOPSUM: CHANGE WORD ENTRY - Find /ˌæntiˈsaɪkləʊn/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -127,7 +128,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ænˈtæɡənɪzəm/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˌæntiˈsaɪkləʊn/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -137,7 +138,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAntagonism(
+                              onPressed: () => speakAnticyclone(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -148,7 +149,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ænˈtæɡənɪzəm/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                "IpaUS: /ˌæntiˈsaɪkləʊn/,  /ˌæntaɪˈsaɪkləʊn/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -158,7 +159,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAntagonism(
+                              onPressed: () => speakAnticyclone(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -178,13 +179,13 @@ class EnglishEntryantagonism extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 14,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 11,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -208,9 +209,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: دوژمنایەتی، قین‌گێڕی، دژایەتی، ناکۆکی، بەربەرەکایەتی، ڕکەبەرایەتی
-
-١. (ناو) ھەستی ڕکابەری و ڕق''',
+١. (ناو) ئەنتی‌سایکلۆن؛ ناوچەیەکی پەستان بەرز کە کەشوھەوایەکی ھێمن و ئاسمانێکی ڕوونی ھەیە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -220,7 +219,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The antagonism he felt towards his old enemy was still very strong.",
+                                    "The anticyclone brought bright sunshine and calm conditions to most areas.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -234,7 +233,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو دوژمنایەتییەی دژ بە دووژمنە کۆنەکەی ھەیبوو ھێشتا بەھێز بوو",
+                                    "دژە-زریانەکە تیشکی ڕوون و کەشی ھێمنی ھێنا بۆ زۆرێک لە ناوچەکان",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -246,7 +245,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAntagonism1204("en-GB"),
+                                onPressed: () => speakAnticyclone955("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -254,8 +253,8 @@ class EnglishEntryantagonism extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAntagonism1204(
-                                    // REPLACE: antagonism /ænˈtæɡənɪzəm/
+                                onPressed: () => speakAnticyclone955(
+                                    // REPLACE: anticyclone /ˌæntiˈsaɪkləʊn/,  /ˌæntaɪˈsaɪkləʊn/
                                     "en-US"),
                               ),
                             ],
@@ -274,9 +273,9 @@ class EnglishEntryantagonism extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -306,15 +305,8 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: antagonism (Derived forms: antagonisms)
-1. A state of deep-seated ill-will (= hostility, enmity)
- 
-2. The relation between opposing principles, forces or factors
-"the inherent antagonism of capitalism and socialism"
- 
-3. An actively expressed feeling of dislike and hostility
- 
-4. (biochemistry) interference in or inhibition of the physiological action of a chemical substance by another having a similar structure
+- Noun: anticyclone (Derived forms: anticyclones)
+1. (meteorology) winds spiralling outward from a high pressure centre; circling clockwise in the Northern Hemisphere and counterclockwise in the southern
 '''),
         ],
       ),
@@ -325,12 +317,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "LagLa4GDpHY";
+  static String myVideoId = "dIMrWQCJ_mA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 41, // DOPSUM: CHANGE IT
+      startAt: 586, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -350,12 +342,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "Solb9uA-tgQ";
+  static String myVideoId = "14kMipQMJGE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 17737, // DOPSUM: CHANGE IT
+      startAt: 141, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -375,12 +367,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "sig8X_kojco";
+  static String myVideoId = "w1iz2PUAXTA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1903, // DOPSUM: CHANGE IT
+      startAt: 40, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -400,12 +392,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "pt5sGR303p8";
+  static String myVideoId = "ao_-OjDQwfk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 620, // DOPSUM: CHANGE IT
+      startAt: 221, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -425,12 +417,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "ubNKSgdT1FQ";
+  static String myVideoId = "J96x0oRPjeQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 859, // DOPSUM: CHANGE IT
+      startAt: 225, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -450,12 +442,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "Xu1FMCxoEFc";
+  static String myVideoId = "SsohCDqvmLE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5146, // DOPSUM: CHANGE IT
+      startAt: 215, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -475,12 +467,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "qAOIwKxPy1Q";
+  static String myVideoId = "1hFNv74jk2U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 97, // DOPSUM: CHANGE IT
+      startAt: 360, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -500,12 +492,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "EF9qpIIh1pI";
+  static String myVideoId = "nNA_fXNUmeQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 226, // DOPSUM: CHANGE IT
+      startAt: 98, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -525,12 +517,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "qOMxkhSRZaU";
+  static String myVideoId = "prNQMOzqJn8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 490, // DOPSUM: CHANGE IT
+      startAt: 503, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -550,12 +542,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "flXkLHpVCTI";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 250, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -575,12 +567,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "yAMIQn78iAA";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 273, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -600,12 +592,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "9T5vHi-WrMk";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 228, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -684,5 +676,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //     );
 //   }
 // }
+
+// More sentences is NOT done
 
 // end // TODO Implement this library.

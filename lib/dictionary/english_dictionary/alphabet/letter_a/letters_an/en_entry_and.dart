@@ -427,7 +427,7 @@ class EnglishEntryand extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "'بۆ چەندین کاتژمێر گفتوگۆمان کرد.' 'ئەی چی بڕیارێکتان دا؟'",
+                                    "«بۆ چەندین کاتژمێر گفتوگۆمان کرد.» «ئەی چی بڕیارێکتان دا؟»",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

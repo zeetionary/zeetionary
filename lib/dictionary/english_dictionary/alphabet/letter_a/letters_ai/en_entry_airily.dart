@@ -185,7 +185,7 @@ class EnglishEntryairily extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو خەمساردییەوە وتی 'چی دەکات با بیکات، گرنگ نییە لام'",
+                                    "ئەو خەمساردییەوە وتی «چی دەکات با بیکات، گرنگ نییە لام»",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

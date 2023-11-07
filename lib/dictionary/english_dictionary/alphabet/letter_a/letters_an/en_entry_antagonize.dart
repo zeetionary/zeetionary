@@ -232,7 +232,7 @@ class EnglishEntryantagonize extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ دووربوون لە زیاتر تووڕەکردنی هیچی دیکەی نەوت",
+                                    "بۆ دووربوون لە زیاتر تووڕەکردنی ھیچی دیکەی نەوت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

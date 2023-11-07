@@ -45,7 +45,8 @@ class EnglishEntryantecedent extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("When the college was established in 1546, it inherited a hall from each of three antecedent institutions."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "When the college was established in 1546, it inherited a hall from each of three antecedent institutions."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAntecedent(String languageCode) async {
@@ -210,9 +211,9 @@ class EnglishEntryantecedent extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: پێش‌تر، پێشکەوتوو، پێش‌وەچوو، پێشهات، پێشوو، بەری، پێشی، پێشین، پێشەکی، باوان، باپیران، (ڕێزمان) پێش‌ترە، مەرجەع
+کوردی: پێش‌تر، پێشکەوتوو، پێش‌وەچوو، پێشھات، پێشوو، بەری، پێشی، پێشین، پێشەکی، باوان، باپیران، (ڕێزمان) پێش‌ترە، مەرجەع
 
-١. (ناو) شتێک کە پێش شتێکی تر بوونی هەبووە و کاریگەری لەسەری هەبووە''',
+١. (ناو) شتێک کە پێش شتێکی تر بوونی ھەبووە و کاریگەری لەسەری ھەبووە''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -236,7 +237,7 @@ class EnglishEntryantecedent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کتێبەکە لێکۆڵینەوەی لە پێشهاتەکانی جەنگی ناوخۆیی ئەمریکا دەکرد",
+                                    "کتێبەکە لێکۆڵینەوەی لە پێشھاتەکانی جەنگی ناوخۆیی ئەمریکا دەکرد",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -325,12 +326,12 @@ class EnglishEntryantecedent extends StatelessWidget {
 ٣. (ناو) وشەیەک لە ڕستەیەکدا کە یەکێک لە وشەکانی دواتری ڕستەکە بۆی دەگەڕێتەوە ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
-                          ),// const DividerSentences(),
+                          ), // const DividerSentences(),
                           const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٤. (هاوەڵناو) پێشووتر ''',
+٤. (ھاوەڵناو) پێشووتر ''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -354,7 +355,7 @@ class EnglishEntryantecedent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کاتێک کۆلێژەکە لە ساڵی ١٥٤٦ دامەزرا هۆڵێکی لە هەریەک لە سێ پەیمانگاکەی پێشووتر وەرگرت",
+                                    "کاتێک کۆلێژەکە لە ساڵی ١٥٤٦ دامەزرا ھۆڵێکی لە ھەریەک لە سێ پەیمانگاکەی پێشووتر وەرگرت",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

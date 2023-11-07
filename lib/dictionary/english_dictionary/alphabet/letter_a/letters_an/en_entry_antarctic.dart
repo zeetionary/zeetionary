@@ -210,7 +210,7 @@ class EnglishEntryantarctic extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (ناو) هەرێمی خولگەی جەمسەری باشووری زەوی''',
+١. (ناو) ھەرێمی خولگەی جەمسەری باشووری زەوی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -234,7 +234,7 @@ class EnglishEntryantarctic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پاراستنی خولگەی جەمسەری باشوری زەوی لە بەکارهێنانی بە مەبەستی بازرگانی یەکێکە لە ئامانجە سەرەکییەکانی ژینگەپارێزان ",
+                                    "پاراستنی خولگەی جەمسەری باشوری زەوی لە بەکارھێنانی بە مەبەستی بازرگانی یەکێکە لە ئامانجە سەرەکییەکانی ژینگەپارێزان ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -265,7 +265,7 @@ class EnglishEntryantarctic extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-٢. (هاوەڵناو) پەیوەندیدار بە هەرێمی خولگەی جەمسەری باشووری زەوی''',
+٢. (ھاوەڵناو) پەیوەندیدار بە ھەرێمی خولگەی جەمسەری باشووری زەوی''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -289,7 +289,7 @@ class EnglishEntryantarctic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زاناکان دەستیان گە گەڕانێکی خولگەی جەمسەری باشوور کرد بۆ لێکۆڵینەوە لە پەنگوینەکان و سەهۆڵ",
+                                    "زاناکان دەستیان گە گەڕانێکی خولگەی جەمسەری باشوور کرد بۆ لێکۆڵینەوە لە پەنگوینەکان و سەھۆڵ",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

@@ -4,92 +4,94 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryantagonism - replace speakAntagonism - replace antagonism - /ænˈtæɡənɪzəm/ - find Dopsum2
+// replace these: replace EnglishEntryanticlockwise - replace speakAnticlockwise - replace anticlockwise - /ˌæntiˈklɒkwaɪz/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryantagonism extends StatelessWidget {
+class EnglishEntryanticlockwise extends StatelessWidget {
   // blank divider
-  EnglishEntryantagonism({super.key});
+  EnglishEntryanticlockwise({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAntagonism(String languageCode) async {
-    // DOPSUM: CHANGE speakAntagonism
+  Future<void> speakAnticlockwise(String languageCode) async {
+    // DOPSUM: CHANGE speakAnticlockwise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("antagonism"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anticlockwise"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAntagonism1204(String languageCode) async {
-    // DOPSUM: CHANGE speakAntagonism
+  Future<void> speakAnticlockwise856(String languageCode) async {
+    // DOPSUM: CHANGE speakAnticlockwise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The antagonism he felt towards his old enemy was still very strong."); // DOPSUM: CHANGE TEXT
+        "'How do I get the top off this bottle?'' 'Push it down and twist it anticlockwise.'"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAntagonism(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonism
+  Future<void> speakAnticlockwise859(String languageCode) async {
+    // DOPSUM: CHANGE speakAnticlockwise
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Turn the key anticlockwise/in an anticlockwise direction."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAnticlockwise(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnticlockwise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticlockwise"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonism(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonism
+  // Future<void> speakAnticlockwise(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnticlockwise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticlockwise"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonism(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonism
+  // Future<void> speakAnticlockwise(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnticlockwise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticlockwise"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonism(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonism
+  // Future<void> speakAnticlockwise(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnticlockwise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticlockwise"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonism(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonism
+  // Future<void> speakAnticlockwise(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnticlockwise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticlockwise"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAntagonism(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonism
+  // Future<void> speakAnticlockwise(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnticlockwise
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonism"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAntagonism(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonism
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonism"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anticlockwise"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 9, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -108,7 +110,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "antagonism", // DOPSUM: CHANGE WORD ENTRY - Find /ænˈtæɡənɪzəm/
+                                "anticlockwise", // DOPSUM: CHANGE WORD ENTRY - Find /ˌæntiˈklɒkwaɪz/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -127,7 +129,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ænˈtæɡənɪzəm/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˌæntiˈklɒkwaɪz/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -137,7 +139,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAntagonism(
+                              onPressed: () => speakAnticlockwise(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -148,7 +150,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ænˈtæɡənɪzəm/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                "IpaUS: /ˌæntiˈklɑːkwaɪz/,  /ˌæntaɪˈklɑːkwaɪz/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -158,7 +160,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAntagonism(
+                              onPressed: () => speakAnticlockwise(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -178,13 +180,13 @@ class EnglishEntryantagonism extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 14,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 9,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
-                  VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 08
+                  // VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -208,9 +210,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: دوژمنایەتی، قین‌گێڕی، دژایەتی، ناکۆکی، بەربەرەکایەتی، ڕکەبەرایەتی
-
-١. (ناو) ھەستی ڕکابەری و ڕق''',
+١. (ھاوەڵناو، ھاوەڵکار) پێچەوانەی سووڕانی میلەکانی سەعات''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -220,7 +220,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The antagonism he felt towards his old enemy was still very strong.",
+                                    "'How do I get the top off this bottle?'' 'Push it down and twist it anticlockwise.'",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                   ),
@@ -234,7 +234,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو دوژمنایەتییەی دژ بە دووژمنە کۆنەکەی ھەیبوو ھێشتا بەھێز بوو",
+                                    "«چۆن سەری ئەم بوتڵە بکەمەوە؟» «پاڵی‌بنە خوار و بە پێچەوانەی میلی کاتژمێر بیسووڕێنە»",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -246,7 +246,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAntagonism1204("en-GB"),
+                                onPressed: () => speakAnticlockwise856("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -254,8 +254,56 @@ class EnglishEntryantagonism extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAntagonism1204(
-                                    // REPLACE: antagonism /ænˈtæɡənɪzəm/
+                                onPressed: () => speakAnticlockwise856(
+                                    // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/,  /ˌæntaɪˈklɑːkwaɪz/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Turn the key anticlockwise/in an anticlockwise direction.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "کلیلەکە بە ئاراستەی پێچيوانەی میلی کاتژمێر",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnticlockwise859("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAnticlockwise859(
+                                    // REPLACE: anticlockwise /ˌæntiˈklɑːkwaɪz/,  /ˌæntaɪˈklɑːkwaɪz/
                                     "en-US"),
                               ),
                             ],
@@ -272,11 +320,11 @@ class EnglishEntryantagonism extends StatelessWidget {
                     YoutubeEmbeddedfive(),
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
-                    YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedeight(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -306,15 +354,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: antagonism (Derived forms: antagonisms)
-1. A state of deep-seated ill-will (= hostility, enmity)
- 
-2. The relation between opposing principles, forces or factors
-"the inherent antagonism of capitalism and socialism"
- 
-3. An actively expressed feeling of dislike and hostility
- 
-4. (biochemistry) interference in or inhibition of the physiological action of a chemical substance by another having a similar structure
+- Adjective: anticlockwise 
+Usage: Brit (N. Amer: counterclockwise)
+1. In the direction opposite to the rotation of the hands of a clock (= counterclockwise [N. Amer], contraclockwise [non-standard])
+
+- Adverb: anticlockwise 
+Usage: Brit (N. Amer: counterclockwise)
+1. In a direction opposite to the direction in which the hands of a clock move (= counterclockwise [N. Amer])
+"please move anticlockwise in a circle!";
 '''),
         ],
       ),
@@ -325,12 +372,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "LagLa4GDpHY";
+  static String myVideoId = "0mXW1zPlxEE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 41, // DOPSUM: CHANGE IT
+      startAt: 230, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -350,12 +397,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "Solb9uA-tgQ";
+  static String myVideoId = "FXK0u16Vn-8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 17737, // DOPSUM: CHANGE IT
+      startAt: 225, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -375,12 +422,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "sig8X_kojco";
+  static String myVideoId = "FrUxn9V6EoQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1903, // DOPSUM: CHANGE IT
+      startAt: 297, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -400,12 +447,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "pt5sGR303p8";
+  static String myVideoId = "CW0RJ-ejuvI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 620, // DOPSUM: CHANGE IT
+      startAt: 52, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -425,12 +472,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "ubNKSgdT1FQ";
+  static String myVideoId = "p36ED_Xn7PM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 859, // DOPSUM: CHANGE IT
+      startAt: 628, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -450,12 +497,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "Xu1FMCxoEFc";
+  static String myVideoId = "YNo2Uu2jcdw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5146, // DOPSUM: CHANGE IT
+      startAt: 1294, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -475,12 +522,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "qAOIwKxPy1Q";
+  static String myVideoId = "Am2wf5RSV8M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 97, // DOPSUM: CHANGE IT
+      startAt: 449, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -500,12 +547,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "EF9qpIIh1pI";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 226, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -525,12 +572,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "qOMxkhSRZaU";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 490, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -550,12 +597,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "flXkLHpVCTI";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 250, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -575,12 +622,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "yAMIQn78iAA";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 273, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -600,12 +647,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "9T5vHi-WrMk";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 228, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -684,5 +731,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //     );
 //   }
 // }
+
+// More sentences is NOT done
 
 // end // TODO Implement this library.

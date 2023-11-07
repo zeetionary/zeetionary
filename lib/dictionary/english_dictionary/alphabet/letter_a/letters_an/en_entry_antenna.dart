@@ -27,7 +27,8 @@ class EnglishEntryantenna extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(" The minister was praised for his acute political antennae."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        " The minister was praised for his acute political antennae."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAntenna523(String languageCode) async {
@@ -35,7 +36,8 @@ class EnglishEntryantenna extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They installed a dish antenna on the roof."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They installed a dish antenna on the roof."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAntenna(String languageCode) async {
@@ -208,9 +210,9 @@ class EnglishEntryantenna extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: هەستەوەر، شاخ، شاخۆچکە، شاخەهەست، ئاریەڵ، ئانتێن، شاخە، شەپۆلگر، هەوایی
+کوردی: ھەستەوەر، شاخ، شاخۆچکە، شاخەھەست، ئاریەڵ، ئانتێن، شاخە، شەپۆلگر، ھەوایی
 
-١. (ناو) شاخۆچکەی بچووکی هەندێک مێروو کە بەکاردێن بۆ هەست‌کردن و 'دەستدان' لە شت''',
+١. (ناو) شاخۆچکەی بچووکی ھەندێک مێروو کە بەکاردێن بۆ ھەست‌کردن و 'دەستدان' لە شت''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -254,9 +256,9 @@ class EnglishEntryantenna extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAntenna519(// REPLACE: antenna /ænˈtenə/
-                                        "en-US"),
+                                onPressed: () => speakAntenna519(
+                                    // REPLACE: antenna /ænˈtenə/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -309,9 +311,9 @@ class EnglishEntryantenna extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAntenna523(// REPLACE: antenna /ænˈtenə/
-                                        "en-US"),
+                                onPressed: () => speakAntenna523(
+                                    // REPLACE: antenna /ænˈtenə/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -378,7 +380,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/N3Xt-LeaQeg?t=";
+  static String myVideoId = "N3Xt-LeaQeg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -403,7 +405,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/PPKEpJEt_cM?t=";
+  static String myVideoId = "PPKEpJEt_cM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -428,7 +430,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/q08n3ENyDmM?t=";
+  static String myVideoId = "q08n3ENyDmM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -453,7 +455,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/Mgi5LONCpfs?t=";
+  static String myVideoId = "Mgi5LONCpfs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -478,7 +480,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/KpE5SwGauQo?t=";
+  static String myVideoId = "KpE5SwGauQo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -503,7 +505,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/pBMXLxZsx_g";
+  static String myVideoId = "pBMXLxZsx_g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -528,7 +530,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/N-_enEmdroE?t=";
+  static String myVideoId = "N-_enEmdroE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

@@ -26,7 +26,8 @@ class EnglishEntryantagonist extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He has always been the prime minister’s most formidable antagonist in Parliament."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He has always been the prime minister’s most formidable antagonist in Parliament."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAntagonist(String languageCode) async {
@@ -207,7 +208,7 @@ class EnglishEntryantagonist extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-کوردی: دوژمن، نەیار، هەڤڕک، ناکۆک، پێک‌دژ، بەرهەڵست، دژ، دژبەر
+کوردی: دوژمن، نەیار، ھەڤڕک، ناکۆک، پێک‌دژ، بەرھەڵست، دژ، دژبەر
 
 ١. (ناو) کەسێک کە بە سەرسەختی دژی کەسێک یان شتێکە''',
                             style: TextStyle(fontSize: 18),
@@ -233,7 +234,7 @@ class EnglishEntryantagonist extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەمیشە گەورەترین نەیاری سەرۆک وەزیران بووە لە پەرلەمان",
+                                    "ھەمیشە گەورەترین نەیاری سەرۆک وەزیران بووە لە پەرلەمان",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),

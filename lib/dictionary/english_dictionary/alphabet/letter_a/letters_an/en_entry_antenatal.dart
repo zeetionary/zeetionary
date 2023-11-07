@@ -27,7 +27,8 @@ class EnglishEntryantenatal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Your blood pressure will be monitored at all antenatal checks."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Your blood pressure will be monitored at all antenatal checks."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAntenatal(String languageCode) async {
@@ -137,9 +138,9 @@ class EnglishEntryantenatal extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAntenatal(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAntenatal(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -234,7 +235,7 @@ class EnglishEntryantenatal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پەستانی خوێنت وەردەگیرێت لە هەموو پشکنینەکانی دووگیانی",
+                                    "پەستانی خوێنت وەردەگیرێت لە ھەموو پشکنینەکانی دووگیانی",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -254,9 +255,9 @@ class EnglishEntryantenatal extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAntenatal504(// REPLACE: antenatal /ˌæntiˈneɪtl/
-                                        "en-US"),
+                                onPressed: () => speakAntenatal504(
+                                    // REPLACE: antenatal /ˌæntiˈneɪtl/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -320,7 +321,7 @@ Usage: Brit (N. Amer: prenatal)
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/c_yU5AQ3Tnw?t=";
+  static String myVideoId = "c_yU5AQ3Tnw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -345,7 +346,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/A9AbYAFfiVA?t=";
+  static String myVideoId = "A9AbYAFfiVA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -370,7 +371,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/bZegjT-i2Ps?t=";
+  static String myVideoId = "bZegjT-i2Ps";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -395,7 +396,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/-XRG18acDWs?t=";
+  static String myVideoId = "-XRG18acDWs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -420,7 +421,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/ev8AU7c-Sj8?t=";
+  static String myVideoId = "ev8AU7c-Sj8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -445,7 +446,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/cFhYejxJEjs?t=";
+  static String myVideoId = "cFhYejxJEjs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -470,7 +471,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/DiS21l9wBCw?t=";
+  static String myVideoId = "DiS21l9wBCw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -495,7 +496,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/8Z6v2dqXXOQ?t=";
+  static String myVideoId = "8Z6v2dqXXOQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -520,7 +521,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/MpaHm8ctMYg?t=";
+  static String myVideoId = "MpaHm8ctMYg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -545,7 +546,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/gURAiynmthk?t=";
+  static String myVideoId = "gURAiynmthk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -570,7 +571,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/sJ7xX3ZKkU4?t=";
+  static String myVideoId = "sJ7xX3ZKkU4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

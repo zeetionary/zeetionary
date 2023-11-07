@@ -27,7 +27,8 @@ class EnglishEntryanthrax extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Humans can contract anthrax by handling products from infected animals."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Humans can contract anthrax by handling products from infected animals."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnthrax(String languageCode) async {
@@ -208,7 +209,7 @@ class EnglishEntryanthrax extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
-١. (ناو) نەخۆشییەکی کوشندە کە دەکرێت تووشی مەڕ و مانگا و هەندێک جاریش مرۆڤ ببێت و ببێتەهۆی مردن''',
+١. (ناو) نەخۆشییەکی کوشندە کە دەکرێت تووشی مەڕ و مانگا و ھەندێک جاریش مرۆڤ ببێت و ببێتەھۆی مردن''',
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                           ),
@@ -232,7 +233,7 @@ class EnglishEntryanthrax extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مرۆڤ دەکرێت تووشی ڕەشەبرین ببێت بەهۆی دەستدان لە ئاژەڵی تووشبوو",
+                                    "مرۆڤ دەکرێت تووشی ڕەشەبرین ببێت بەھۆی دەستدان لە ئاژەڵی تووشبوو",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                   ),
@@ -252,9 +253,9 @@ class EnglishEntryanthrax extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnthrax833(// REPLACE: anthrax /ˈænθræks/
-                                        "en-US"),
+                                onPressed: () => speakAnthrax833(
+                                    // REPLACE: anthrax /ˈænθræks/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -318,7 +319,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/jPJje65SnJY?t=";
+  static String myVideoId = "jPJje65SnJY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -343,7 +344,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/QMS6MGUtHH0?t=";
+  static String myVideoId = "QMS6MGUtHH0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -368,7 +369,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/lr1dzJjJFFs?t=";
+  static String myVideoId = "lr1dzJjJFFs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -393,7 +394,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/x3FMww5biJ8?t=";
+  static String myVideoId = "x3FMww5biJ8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -418,7 +419,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/nLAVTQwXc48?t=";
+  static String myVideoId = "nLAVTQwXc48";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -443,7 +444,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/M65_i2HVbuc?t=";
+  static String myVideoId = "M65_i2HVbuc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -468,7 +469,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/vVD5QtVmC8s?t=";
+  static String myVideoId = "vVD5QtVmC8s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -493,7 +494,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/qDAK1OO2UVY";
+  static String myVideoId = "qDAK1OO2UVY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -518,7 +519,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/Sew4rctKghY?t=";
+  static String myVideoId = "Sew4rctKghY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -543,7 +544,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/m5q-PIN3KSE?t=";
+  static String myVideoId = "m5q-PIN3KSE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

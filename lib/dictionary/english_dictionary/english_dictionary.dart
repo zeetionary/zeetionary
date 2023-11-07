@@ -772,17 +772,17 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "anticyclone",
     "antidepressant",
     "antidote",
-    // "antifreeze",
-    // "antihistamine",
-    // "antiperspirant",
-    // "antiquated",
-    // "antique",
-    // "antiquity",
-    // "antiretroviral",
-    // "antiseptic",
-    // "antisocial",
-    // "antithesis",
-    // "antler",
+    "antifreeze",
+    "antihistamine",
+    "antiperspirant",
+    "antiquated",
+    "antique",
+    "antiquity",
+    "antiretroviral",
+    "antiseptic",
+    "antisocial",
+    "antithesis",
+    "antler",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
@@ -3971,50 +3971,50 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-antidote');
                   }
-                  // if (wordsEnglish == "antifreeze") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-antifreeze');
-                  // }
-                  // if (wordsEnglish == "antihistamine") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-antihistamine');
-                  // }
-                  // if (wordsEnglish == "antiperspirant") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-antiperspirant');
-                  // }
-                  // if (wordsEnglish == "antiquated") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-antiquated');
-                  // }
-                  // if (wordsEnglish == "antique") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-antique');
-                  // }
-                  // if (wordsEnglish == "antiquity") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-antiquity');
-                  // }
-                  // if (wordsEnglish == "antiretroviral") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-antiretroviral');
-                  // }
-                  // if (wordsEnglish == "antiseptic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-antiseptic');
-                  // }
-                  // if (wordsEnglish == "antisocial") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-antisocial');
-                  // }
-                  // if (wordsEnglish == "antithesis") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-antithesis');
-                  // }
-                  // if (wordsEnglish == "antler") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-antler');
-                  // }
+                  if (wordsEnglish == "antifreeze") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-antifreeze');
+                  }
+                  if (wordsEnglish == "antihistamine") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-antihistamine');
+                  }
+                  if (wordsEnglish == "antiperspirant") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-antiperspirant');
+                  }
+                  if (wordsEnglish == "antiquated") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-antiquated');
+                  }
+                  if (wordsEnglish == "antique") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-antique');
+                  }
+                  if (wordsEnglish == "antiquity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-antiquity');
+                  }
+                  if (wordsEnglish == "antiretroviral") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-antiretroviral');
+                  }
+                  if (wordsEnglish == "antiseptic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-antiseptic');
+                  }
+                  if (wordsEnglish == "antisocial") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-antisocial');
+                  }
+                  if (wordsEnglish == "antithesis") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-antithesis');
+                  }
+                  if (wordsEnglish == "antler") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-antler');
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');

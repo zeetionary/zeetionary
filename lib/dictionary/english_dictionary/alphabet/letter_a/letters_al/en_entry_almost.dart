@@ -186,7 +186,7 @@ class EnglishEntryalmost extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بانزیکەیی حەزم لە ھەموویانە.",
+                                    "بەنزیکەیی حەزم لە ھەموویانە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

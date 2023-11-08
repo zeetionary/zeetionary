@@ -168,7 +168,7 @@ class EnglishEntryabstinence extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خۆبەدوورگرتنی تەواو لە کحوول",
+                                    "خۆبەدوورگرتنی تەواو لە کحوول.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

@@ -24,6 +24,24 @@ class EnglishEntryanybody extends StatelessWidget {
     await flutterTts.speak("anybody"); // DOPSUM: CHANGE TEXT
   }
 
+  Future<void> speakAnybody926(String languageCode) async {
+    // DOPSUM: CHANGE speakAnybody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Does anybody else want to come?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAnybody927(String languageCode) async {
+    // DOPSUM: CHANGE speakAnybody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("I forbid anybody to touch that clock."); // DOPSUM: CHANGE TEXT
+  }
+
   Future<void> speakAnybody1055(String languageCode) async {
     // DOPSUM: CHANGE speakAnybody
     await flutterTts.setLanguage(languageCode);
@@ -49,6 +67,24 @@ class EnglishEntryanybody extends StatelessWidget {
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
         "Anybody could dress well with all that money."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAnybody929(String languageCode) async {
+    // DOPSUM: CHANGE speakAnybody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Anybody can see that it's wrong."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAnybody931(String languageCode) async {
+    // DOPSUM: CHANGE speakAnybody
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She wasn't anybody before she got that job."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAnybody(String languageCode) async {
@@ -213,9 +249,9 @@ class EnglishEntryanybody extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: هیچ‌کەس، کەسێ، هەرکەس، هەرکەسێ
+کوردی: ھیچ‌کەس، کەسێ، ھەرکەس، ھەرکەسێ
 
-١. (ھاوەڵناو) لە ڕستەی پرسیاری و نەرێ لە دوای if و whether بەکاردێ، و لەدوای هەندێ کردار، بۆ نموونە prevent و forbid و avoid""",
+١. (جێناو) لە ڕستەی پرسیاری و نەرێ لە دوای if و whether بەکاردێ، و لەدوای ھەندێ کردار، بۆ نموونە prevent و forbid و avoid""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -241,7 +277,7 @@ class EnglishEntryanybody extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەس هەیە بتوانێ یارمەتیم بدا؟",
+                                    "کەس ھەیە بتوانێ یارمەتیم بدا؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -276,7 +312,7 @@ class EnglishEntryanybody extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "She wasn't anybody before she got that job.",
+                                    "Does anybody else want to come?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -291,7 +327,7 @@ class EnglishEntryanybody extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێش ئەوەی کارەکە وەربگرێت هیچ نەبوو.",
+                                    "کەسی تر دەیەوێت بێت؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -304,7 +340,7 @@ class EnglishEntryanybody extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnybody1056("en-GB"),
+                                onPressed: () => speakAnybody926("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -312,8 +348,58 @@ class EnglishEntryanybody extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAnybody1056(
-                                    // REPLACE: anybody /ˈenibɑːdi/,  /ˈenibʌdi/
+                                onPressed: () => speakAnybody926(
+                                    // REPLACE: anybody /ˈeniwʌn/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "I forbid anybody to touch that clock.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ڕێگە بە کەس نادەم دەست لەو کاتژمێرە بدات.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnybody927("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAnybody927(
+                                    // REPLACE: anybody /ˈeniwʌn/
                                     "en-US"),
                               ),
                             ],
@@ -323,7 +409,7 @@ class EnglishEntryanybody extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ھاوەڵناو) هەرکەسێک""",
+٢. (جێناو) ھەرکەسێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -349,7 +435,7 @@ class EnglishEntryanybody extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەمووکەس دەیتوانی بەباشی خۆی بپۆشێ بەو هەموو پارەوە",
+                                    "ھەمووکەس دەیتوانی بەباشی خۆی بپۆشێ بەو ھەموو پارەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -372,6 +458,114 @@ class EnglishEntryanybody extends StatelessWidget {
                                 ),
                                 onPressed: () => speakAnybody1059(
                                     // REPLACE: anybody /ˈenibɑːdi/,  /ˈenibʌdi/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Anybody can see that it's wrong.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ھەموو کەس دەتوانێ ببینێت ئەوە ھەڵەیە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnybody929("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAnybody929(
+                                    // REPLACE: anybody /ˈeniwʌn/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٣. (جێناو) لە ڕستەی نەرێدا بە واتای کەسێکی گرنگ""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "She wasn't anybody before she got that job.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "کەسێکی گرنگ نەبوو پێش وەرگرتنی کارەکە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAnybody931("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAnybody931(
+                                    // REPLACE: anybody /ˈeniwʌn/
                                     "en-US"),
                               ),
                             ],
@@ -435,7 +629,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/-LHXbw4x2Ws?t=";
+  static String myVideoId = "-LHXbw4x2Ws";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -460,7 +654,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/LDflrf85h9Y?t=";
+  static String myVideoId = "LDflrf85h9Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -485,7 +679,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/VBDaJZegkao";
+  static String myVideoId = "VBDaJZegkao";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -510,7 +704,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/44HXLCsdIk8?t=";
+  static String myVideoId = "44HXLCsdIk8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -535,7 +729,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/qxVWpWNPEWU?t=";
+  static String myVideoId = "qxVWpWNPEWU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -560,7 +754,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/MGO4_8YRKro?t=";
+  static String myVideoId = "MGO4_8YRKro";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -585,7 +779,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/2ihOXaU0I8o?t=";
+  static String myVideoId = "2ihOXaU0I8o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -610,7 +804,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/GjMmsEwIcl0?t=";
+  static String myVideoId = "GjMmsEwIcl0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -635,7 +829,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/qWAagS_MANg?t=";
+  static String myVideoId = "qWAagS_MANg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -660,7 +854,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/-l2KPjQ2lJA?t=";
+  static String myVideoId = "-l2KPjQ2lJA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -685,7 +879,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/gdgPAetNY5U?t=";
+  static String myVideoId = "gdgPAetNY5U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -710,7 +904,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/nLiSWJDhAmQ?t=";
+  static String myVideoId = "nLiSWJDhAmQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

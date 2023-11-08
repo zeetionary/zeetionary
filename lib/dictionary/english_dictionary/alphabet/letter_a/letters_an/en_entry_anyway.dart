@@ -4,140 +4,99 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace EnglishEntryAdopsum - replace speakAnyhow
+// replace EnglishEntryAdopsum - replace speakAnyway
 
-// replace anyhow - /ˈæŋkʃəsli/ - find WORD_WEB
+// replace anyway - /ˈeniweɪ/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryanyhow extends StatelessWidget {
+class EnglishEntryanyway extends StatelessWidget {
   // blank divider
-  EnglishEntryanyhow({super.key});
+  EnglishEntryanyway({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnyhow(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyhow
+  Future<void> speakAnyway(String languageCode) async {
+    // DOPSUM: CHANGE speakAnyway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anyhow"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anyway"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnyhow847(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyhow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It's too expensive and anyhow the colour doesn't suit you."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAnyhow849(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyhow
+  Future<void> speakAnyway847(String languageCode) async {
+    // DOPSUM: CHANGE speakAnyway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It's going to happen anyhow, so we won't object to it."); // DOPSUM: CHANGE TEXT
+        "It's too expensive and anyway the colour doesn't suit you."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnyhow855(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyhow
+  Future<void> speakAnyway849(String languageCode) async {
+    // DOPSUM: CHANGE speakAnyway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "anyhow, I'd better go now—I'll see you tomorrow."); // DOPSUM: CHANGE TEXT
+        "It's going to happen anyway, so we won't object to it."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnyhow858(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyhow
+  Future<void> speakAnyway855(String languageCode) async {
+    // DOPSUM: CHANGE speakAnyway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I think she's right. I hope so, anyhow."); // DOPSUM: CHANGE TEXT
+        "Anyway, I'd better go now—I'll see you tomorrow."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnyhow900(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyhow
+  Future<void> speakAnyway858(String languageCode) async {
+    // DOPSUM: CHANGE speakAnyway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She works in a bank. She did when I last saw her, anyhow."); // DOPSUM: CHANGE TEXT
+        "I think she's right. I hope so, anyway."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnyhow908(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyhow
+  Future<void> speakAnyway900(String languageCode) async {
+    // DOPSUM: CHANGE speakAnyway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She piled the papers in a heap on her desk, just anyhow."); // DOPSUM: CHANGE TEXT
+        "She works in a bank. She did when I last saw her, anyway."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnyhow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnyhow
+  // Future<void> speakAnyway(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnyway
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyhow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anyway"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnyhow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnyhow
+  // Future<void> speakAnyway(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnyway
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyhow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anyway"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnyhow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnyhow
+  // Future<void> speakAnyway(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnyway
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyhow"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAnyhow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnyhow
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyhow"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAnyhow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnyhow
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyhow"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAnyhow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnyhow
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyhow"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAnyhow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnyhow
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyhow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anyway"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -156,7 +115,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "anyhow", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæŋkʃəsli/
+                                "anyway", // DOPSUM: CHANGE WORD ENTRY - Find /ˈeniweɪ/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -175,7 +134,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˈæŋkʃəsli/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈeniweɪ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -186,7 +145,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAnyhow(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAnyway(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -196,7 +155,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˈæŋkʃəsli/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /ˈeniweɪ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -206,7 +165,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAnyhow(
+                              onPressed: () => speakAnyway(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -226,13 +185,13 @@ class EnglishEntryanyhow extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 13,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 14,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -269,7 +228,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "It's too expensive and anyhow the colour doesn't suit you.",
+                                    "It's too expensive and anyway the colour doesn't suit you.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -297,7 +256,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnyhow847("en-GB"),
+                                onPressed: () => speakAnyway847("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -306,7 +265,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAnyhow847(// REPLACE: anyhow /ˈeniweɪ/
+                                    speakAnyway847(// REPLACE: anyway /ˈeniweɪ/
                                         "en-US"),
                               ),
                             ],
@@ -327,7 +286,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "It's going to happen anyhow, so we won't object to it.",
+                                    "It's going to happen anyway, so we won't object to it.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -355,7 +314,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnyhow849("en-GB"),
+                                onPressed: () => speakAnyway849("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -364,7 +323,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAnyhow849(// REPLACE: anyhow /ˈeniweɪ/
+                                    speakAnyway849(// REPLACE: anyway /ˈeniweɪ/
                                         "en-US"),
                               ),
                             ],
@@ -385,7 +344,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "anyhow, I'd better go now—I'll see you tomorrow.",
+                                    "Anyway, I'd better go now—I'll see you tomorrow.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -413,7 +372,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnyhow855("en-GB"),
+                                onPressed: () => speakAnyway855("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -422,7 +381,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAnyhow855(// REPLACE: anyhow /ˈeniweɪ/
+                                    speakAnyway855(// REPLACE: anyway /ˈeniweɪ/
                                         "en-US"),
                               ),
                             ],
@@ -443,7 +402,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "I think she's right. I hope so, anyhow.",
+                                    "I think she's right. I hope so, anyway.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -471,7 +430,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnyhow858("en-GB"),
+                                onPressed: () => speakAnyway858("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -480,7 +439,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAnyhow858(// REPLACE: anyhow /ˈeniweɪ/
+                                    speakAnyway858(// REPLACE: anyway /ˈeniweɪ/
                                         "en-US"),
                               ),
                             ],
@@ -493,7 +452,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "She works in a bank. She did when I last saw her, anyhow.",
+                                    "She works in a bank. She did when I last saw her, anyway.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -521,7 +480,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnyhow900("en-GB"),
+                                onPressed: () => speakAnyway900("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -530,65 +489,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAnyhow900(// REPLACE: anyhow /ˈeniweɪ/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٥. (ھاوەڵکار) بە کەم‌تەرخەمانە بەبێ ڕیزبەندی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She piled the papers in a heap on her desk, just anyhow.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کاغەزەکانی بە کەمتەرخەمی کەڵەکەکرد بە چین چین لەسەر مێزەکەی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAnyhow908("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAnyhow908(// REPLACE: anyhow /ˈeniweɪ/
+                                    speakAnyway900(// REPLACE: anyway /ˈeniweɪ/
                                         "en-US"),
                               ),
                             ],
@@ -609,7 +510,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -639,12 +540,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adverb: anyhow 
-1. Used to indicate that a statement explains or supports a previous statement (= anyway, anyways [N. Amer, informal], in any case, at any rate, in any event, anyroad [UK, dialect])
-"Anyhow, he is dead now"; "I think they're asleep; anyhow, they're quiet";
+- Adverb: anyway 
+1. Used to indicate that a statement explains or supports a previous statement (= anyhow, anyways [N. Amer, informal], in any case, at any rate, in any event, anyroad [UK, dialect])
+"I don't know what happened to it; anyway, it's gone"; "anyway, there is another factor to consider";
  
-2. In any way whatsoever (= anyway)
-"they came anyhow they could";
+2. In any way whatsoever (= anyhow)
+"get it done anyway you can";
+ 
+3. In spite of everything; without regard to drawbacks (= regardless, irrespective, disregardless, no matter, disregarding)
 '''),
         ],
       ),
@@ -655,12 +558,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "raSeaAeryWE";
+  static String myVideoId = "Jnfkdm_wGAs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2016, // DOPSUM: CHANGE IT
+      startAt: 1044, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -680,12 +583,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "Unzc731iCUY";
+  static String myVideoId = "drCGm4wW7ok";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1046, // DOPSUM: CHANGE IT
+      startAt: 83, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -705,12 +608,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "kBdfcR-8hEY";
+  static String myVideoId = "x2jZsU17JbA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2357, // DOPSUM: CHANGE IT
+      startAt: 311, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -730,12 +633,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "5wxs_WNwDJE";
+  static String myVideoId = "3XjSTG-oIMw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 103, // DOPSUM: CHANGE IT
+      startAt: 18, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -755,12 +658,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "4l8M3dQlUwg";
+  static String myVideoId = "AnfBDO1gBOM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1696, // DOPSUM: CHANGE IT
+      startAt: 81, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -780,12 +683,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "KIWXcJ2wbyw";
+  static String myVideoId = "ObkV-btuqlo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 192, // DOPSUM: CHANGE IT
+      startAt: 27, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -805,12 +708,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "5U-yqm9H_Sg";
+  static String myVideoId = "2-p44-9S4O0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 3107, // DOPSUM: CHANGE IT
+      startAt: 967, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -830,12 +733,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "zhWWcWtAUoY";
+  static String myVideoId = "RXbYSpAK7F0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 3503, // DOPSUM: CHANGE IT
+      startAt: 783, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -855,12 +758,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "9-XnufbXpak";
+  static String myVideoId = "_wNsZEqpKUA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1114, // DOPSUM: CHANGE IT
+      startAt: 87, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -880,12 +783,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "VAn5xYpbVR8";
+  static String myVideoId = "zKx2B8WCQuw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 55, // DOPSUM: CHANGE IT
+      startAt: 278, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -905,12 +808,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "ZGc9H3BJGZo";
+  static String myVideoId = "qxVWpWNPEWU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 583, // DOPSUM: CHANGE IT
+      startAt: 177, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -930,12 +833,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "LAOoF2gyQaA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 446, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

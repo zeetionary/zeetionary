@@ -582,7 +582,7 @@ class EnglishEntryand extends StatelessWidget {
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''

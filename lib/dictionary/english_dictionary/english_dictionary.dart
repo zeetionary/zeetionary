@@ -790,10 +790,13 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "anxious",
     "anxiously",
     "any",
-    // "anybody",
-    // "anyhow",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
+    "anybody",
+    "anyhow",
+    "anyone",
+    "anyplace",
+    "anything",
+    "anyway",
+    "anywhere",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
@@ -4133,34 +4136,34 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-any');
                   }
-                  // if (wordsEnglish == "anybody") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-anybody');
-                  // }
-                  // if (wordsEnglish == "anyhow") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-anyhow');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
+                  if (wordsEnglish == "anybody") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anybody');
+                  }
+                  if (wordsEnglish == "anyhow") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anyhow');
+                  }
+                  if (wordsEnglish == "anyway") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anyway');
+                  }
+                  if (wordsEnglish == "anyone") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anyone');
+                  }
+                  if (wordsEnglish == "anywhere") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anywhere');
+                  }
+                  if (wordsEnglish == "anything") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anything');
+                  }
+                  if (wordsEnglish == "anyplace") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-anyplace');
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');

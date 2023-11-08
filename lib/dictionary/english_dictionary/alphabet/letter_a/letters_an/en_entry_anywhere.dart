@@ -4,140 +4,94 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace EnglishEntryAdopsum - replace speakAnyhow
+// replace EnglishEntryAdopsum - replace speakAnywhere
 
-// replace anyhow - /ˈæŋkʃəsli/ - find WORD_WEB
+// replace anywhere - /ˈeniweə(r)/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryanyhow extends StatelessWidget {
+class EnglishEntryanywhere extends StatelessWidget {
   // blank divider
-  EnglishEntryanyhow({super.key});
+  EnglishEntryanywhere({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnyhow(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyhow
+  Future<void> speakAnywhere(String languageCode) async {
+    // DOPSUM: CHANGE speakAnywhere
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anyhow"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("anywhere"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnyhow847(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyhow
+  Future<void> speakAnywhere949(String languageCode) async {
+    // DOPSUM: CHANGE speakAnywhere
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It's too expensive and anyhow the colour doesn't suit you."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I can't see it anywhere."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnyhow849(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyhow
+  Future<void> speakAnywhere951(String languageCode) async {
+    // DOPSUM: CHANGE speakAnywhere
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It's going to happen anyhow, so we won't object to it."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Put the box down anywhere."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnyhow855(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyhow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "anyhow, I'd better go now—I'll see you tomorrow."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAnyhow858(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyhow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I think she's right. I hope so, anyhow."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAnyhow900(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyhow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She works in a bank. She did when I last saw her, anyhow."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAnyhow908(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyhow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She piled the papers in a heap on her desk, just anyhow."); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakAnyhow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnyhow
+  // Future<void> speakAnywhere(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnywhere
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyhow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anywhere"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnyhow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnyhow
+  // Future<void> speakAnywhere(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnywhere
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyhow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anywhere"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnyhow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnyhow
+  // Future<void> speakAnywhere(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnywhere
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyhow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anywhere"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnyhow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnyhow
+  // Future<void> speakAnywhere(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnywhere
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyhow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anywhere"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnyhow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnyhow
+  // Future<void> speakAnywhere(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnywhere
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyhow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anywhere"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnyhow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnyhow
+  // Future<void> speakAnywhere(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAnywhere
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyhow"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAnyhow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnyhow
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anyhow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("anywhere"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -156,7 +110,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "anyhow", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæŋkʃəsli/
+                                "anywhere", // DOPSUM: CHANGE WORD ENTRY - Find /ˈeniweə(r)/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -175,7 +129,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˈæŋkʃəsli/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈeniweə(r)/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -186,7 +140,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAnyhow(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAnywhere(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -196,7 +150,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˈæŋkʃəsli/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /ˈeniwer/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -206,7 +160,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAnyhow(
+                              onPressed: () => speakAnywhere(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -226,13 +180,13 @@ class EnglishEntryanyhow extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 13,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 14,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -256,9 +210,9 @@ class EnglishEntryanyhow extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: بەھەر شێوەیێ، بەھەرچەشنێ، ھەرچۆنێ بێ، بە ھەر لەونێ، بەھەرجۆرێ، لەگەڵ ئەمەش، سەرەڕای ئەمەش
+کوردی: بۆ ھەر کوێ، لە ھەر شوێنێ، لە ھەر جێیێ، ھەر شوێنێ، ھەر شوێنێ کە، ھیچ کوێیێ، ھیچ‌جێیێ، ھەر شوێنێکی تر، جێگایێ، شوێنێ
 
-١. (ھاوەڵکار) بەکاردێت بۆ زیادکردنی ڕستەیەک وەک پشتگیری بۆ یەکێکی تر""",
+١. (ھاوەڵکار) لە ڕستەی نەرێ و پرسیاری بۆ ئاماژە بۆ شوێن بەکاردێ""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -269,7 +223,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "It's too expensive and anyhow the colour doesn't suit you.",
+                                    "I can't see it anywhere.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -284,7 +238,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر گرانە، لەگەڵ ئەوەش ڕەنگەکەیت پێ ناکەوێ.",
+                                    "لە ھیچ شوێنێک نایبینم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -297,7 +251,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnyhow847("en-GB"),
+                                onPressed: () => speakAnywhere949("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -305,9 +259,9 @@ class EnglishEntryanyhow extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnyhow847(// REPLACE: anyhow /ˈeniweɪ/
-                                        "en-US"),
+                                onPressed: () => speakAnywhere949(
+                                    // REPLACE: anywhere /ˈeniwer/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -316,7 +270,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ھاوەڵکار) سەرەڕای شتێک""",
+٢. (ھاوەڵکار) لە ھەر شوێنێک، گرنگ نییە کوێ""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -327,7 +281,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "It's going to happen anyhow, so we won't object to it.",
+                                    "Put the box down anywhere.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -342,7 +296,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەرچۆنێ بێت ھەر ڕوودەدات، بۆیە دژی نابین.",
+                                    "سنووقەکە لە ھەر کوێ دادەنێی دایبنە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -355,7 +309,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnyhow849("en-GB"),
+                                onPressed: () => speakAnywhere951("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -363,233 +317,9 @@ class EnglishEntryanyhow extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAnyhow849(// REPLACE: anyhow /ˈeniweɪ/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٣. (ھاوەڵکار) بەکاردێت لە کاتی گۆڕینی بابەتی گدتوگۆیەک، کۆتایی پێھێنانی، یان گەڕانەوە بۆی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "anyhow, I'd better go now—I'll see you tomorrow.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەرچۆنێ بێت، باشترە ئێستا بچم، سبەی دەتبینمەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAnyhow855("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAnyhow855(// REPLACE: anyhow /ˈeniweɪ/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٤. (ھاوەڵکار) بەکاردێت بۆ ڕاستکردنەوە یان کەمێک گۆڕین ئەوەی وتت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I think she's right. I hope so, anyhow.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێم‌وایە ڕاستە. یان ھیوادارم ڕاست بێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAnyhow858("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAnyhow858(// REPLACE: anyhow /ˈeniweɪ/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She works in a bank. She did when I last saw her, anyhow.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە بانکێک کار دەکات. ڕاستی کە کۆتا جار بینیم ئەوەی وت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAnyhow900("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAnyhow900(// REPLACE: anyhow /ˈeniweɪ/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٥. (ھاوەڵکار) بە کەم‌تەرخەمانە بەبێ ڕیزبەندی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She piled the papers in a heap on her desk, just anyhow.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کاغەزەکانی بە کەمتەرخەمی کەڵەکەکرد بە چین چین لەسەر مێزەکەی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAnyhow908("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAnyhow908(// REPLACE: anyhow /ˈeniweɪ/
-                                        "en-US"),
+                                onPressed: () => speakAnywhere951(
+                                    // REPLACE: anywhere /ˈeniwer/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -609,7 +339,7 @@ class EnglishEntryanyhow extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -639,12 +369,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adverb: anyhow 
-1. Used to indicate that a statement explains or supports a previous statement (= anyway, anyways [N. Amer, informal], in any case, at any rate, in any event, anyroad [UK, dialect])
-"Anyhow, he is dead now"; "I think they're asleep; anyhow, they're quiet";
- 
-2. In any way whatsoever (= anyway)
-"they came anyhow they could";
+- Adverb: anywhere 
+1. At, in or to any place (= anyplace [N. Amer, informal])
+"you can find this food anywhere";
 '''),
         ],
       ),
@@ -655,12 +382,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "raSeaAeryWE";
+  static String myVideoId = "VrKW58MS12g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2016, // DOPSUM: CHANGE IT
+      startAt: 1362, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -680,12 +407,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "Unzc731iCUY";
+  static String myVideoId = "Cd1EmYRZynw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1046, // DOPSUM: CHANGE IT
+      startAt: 852, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -705,12 +432,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "kBdfcR-8hEY";
+  static String myVideoId = "_wNsZEqpKUA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2357, // DOPSUM: CHANGE IT
+      startAt: 145, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -730,12 +457,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "5wxs_WNwDJE";
+  static String myVideoId = "4J0xFUyz1nw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 103, // DOPSUM: CHANGE IT
+      startAt: 570, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -755,12 +482,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "4l8M3dQlUwg";
+  static String myVideoId = "1SO0uvexcew";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1696, // DOPSUM: CHANGE IT
+      startAt: 405, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -780,12 +507,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "KIWXcJ2wbyw";
+  static String myVideoId = "tXjHb5QmDV0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 192, // DOPSUM: CHANGE IT
+      startAt: 241, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -805,12 +532,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "5U-yqm9H_Sg";
+  static String myVideoId = "F5pgG1M_h_U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 3107, // DOPSUM: CHANGE IT
+      startAt: 164, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -830,12 +557,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "zhWWcWtAUoY";
+  static String myVideoId = "NdTalMWrQ7c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 3503, // DOPSUM: CHANGE IT
+      startAt: 125, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -855,12 +582,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "9-XnufbXpak";
+  static String myVideoId = "kGg44zdgHYM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1114, // DOPSUM: CHANGE IT
+      startAt: 504, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -880,12 +607,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "VAn5xYpbVR8";
+  static String myVideoId = "kHrjgWoy8qY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 55, // DOPSUM: CHANGE IT
+      startAt: 190, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -905,12 +632,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "ZGc9H3BJGZo";
+  static String myVideoId = "737Xp2J2KSs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 583, // DOPSUM: CHANGE IT
+      startAt: 51, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -930,12 +657,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "yOp0cyWp_P4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 786, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

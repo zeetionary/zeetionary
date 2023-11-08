@@ -188,7 +188,7 @@ class EnglishEntryalcohol extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نەیدەتوانی زاڵ ببێت بەسەر ئاڵوودەیی بە کحوول",
+                                    "نەیدەتوانی زاڵ ببێت بەسەر ئاڵوودەیی بە کحوول.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

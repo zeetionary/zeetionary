@@ -804,38 +804,38 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "apartment",
     "apathetic",
     "apathy",
-    // "ape",
-    // "aperitif",
-    // "aperture",
-    // "apex",
-    // "aphid",
-    // "apiece",
-    // "aplomb",
-    // "apologetic",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
+    "ape",
+    "aperitif",
+    "aperture",
+    "apex",
+    "aphid",
+    "apiece",
+    "aplomb",
+    "apologetic",
+    "apologetically",
+    "apologize",
+    "apology",
+    "apostle",
+    "apostrophe",
+    "appal",
+    "appalling",
+    "apparatus",
+    "apparent",
+    "apparently",
+    "apparition",
+    "appeal",
+    "appealing",
+    "appear",
+    "appearance",
+    "appease",
+    "appeasement",
+    "append",
+    "appendage",
+    "appendicitis",
+    "appendix",
+    "appetite",
+    "appetizer",
+    "appetizing",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
@@ -4193,134 +4193,134 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-apathetic');
                   }
-                  // if (wordsEnglish == "ape") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-ape');
-                  // }
-                  // if (wordsEnglish == "aperitif") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-aperitif');
-                  // }
-                  // if (wordsEnglish == "aperture") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-aperture');
-                  // }
-                  // if (wordsEnglish == "apex") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-apex');
-                  // }
-                  // if (wordsEnglish == "aphid") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-aphid');
-                  // }
-                  // if (wordsEnglish == "apiece") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-apiece');
-                  // }
-                  // if (wordsEnglish == "aplomb") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-aplomb');
-                  // }
-                  // if (wordsEnglish == "apologetic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-apologetic');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
+                  if (wordsEnglish == "ape") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-ape');
+                  }
+                  if (wordsEnglish == "aperitif") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-aperitif');
+                  }
+                  if (wordsEnglish == "aperture") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-aperture');
+                  }
+                  if (wordsEnglish == "apex") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-apex');
+                  }
+                  if (wordsEnglish == "aphid") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-aphid');
+                  }
+                  if (wordsEnglish == "apiece") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-apiece');
+                  }
+                  if (wordsEnglish == "aplomb") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-aplomb');
+                  }
+                  if (wordsEnglish == "apologetic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-apologetic');
+                  }
+                  if (wordsEnglish == "apologetically") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-apologetically');
+                  }
+                  if (wordsEnglish == "apologize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-apologize');
+                  }
+                  if (wordsEnglish == "apology") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-apology');
+                  }
+                  if (wordsEnglish == "apostle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-apostle');
+                  }
+                  if (wordsEnglish == "apostrophe") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-apostrophe');
+                  }
+                  if (wordsEnglish == "appal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-appal');
+                  }
+                  if (wordsEnglish == "appalling") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-appalling');
+                  }
+                  if (wordsEnglish == "apparatus") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-apparatus');
+                  }
+                  if (wordsEnglish == "apparent") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-apparent');
+                  }
+                  if (wordsEnglish == "apparently") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-apparently');
+                  }
+                  if (wordsEnglish == "apparition") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-apparition');
+                  }
+                  if (wordsEnglish == "appeal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-appeal');
+                  }
+                  if (wordsEnglish == "appealing") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-appealing');
+                  }
+                  if (wordsEnglish == "appear") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-appear');
+                  }
+                  if (wordsEnglish == "appearance") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-appearance');
+                  }
+                  if (wordsEnglish == "appease") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-appease');
+                  }
+                  if (wordsEnglish == "appeasement") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-appeasement');
+                  }
+                  if (wordsEnglish == "append") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-append');
+                  }
+                  if (wordsEnglish == "appendage ") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-appendage ');
+                  }
+                  if (wordsEnglish == "appendicitis") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-appendicitis');
+                  }
+                  if (wordsEnglish == "appendix") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-appendix');
+                  }
+                  if (wordsEnglish == "appetite") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-appetite');
+                  }
+                  if (wordsEnglish == "appetizer") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-appetizer');
+                  }
+                  if (wordsEnglish == "appetizing") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-appetizing');
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');

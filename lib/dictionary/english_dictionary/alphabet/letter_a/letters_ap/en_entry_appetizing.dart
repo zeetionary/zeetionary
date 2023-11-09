@@ -6,95 +6,95 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// replace EnglishEntryAdopsum - replace speakApiece
+// replace EnglishEntryAdopsum - replace speakAppetizing
 
-// replace apiece - /əˈpiːs/ - find WORD_WEB
+// replace appetizing - /ˈæpɪtaɪzɪŋ/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryapiece extends StatelessWidget {
+class EnglishEntryappetizing extends StatelessWidget {
   // blank divider
-  EnglishEntryapiece({super.key});
+  EnglishEntryappetizing({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApiece(String languageCode) async {
-    // DOPSUM: CHANGE speakApiece
+  Future<void> speakAppetizing(String languageCode) async {
+    // DOPSUM: CHANGE speakAppetizing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("apiece"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("appetizing"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApiece237(String languageCode) async {
-    // DOPSUM: CHANGE speakApiece
+  Future<void> speakAppetizing324(String languageCode) async {
+    // DOPSUM: CHANGE speakAppetizing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Sterling and Walcott scored a goal apiece."); // DOPSUM: CHANGE TEXT
+        "The meals he cooked were always nourishing but never particularly appetizing."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApiece(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApiece
+  // Future<void> speakAppetizing(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAppetizing
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apiece"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appetizing"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApiece(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApiece
+  // Future<void> speakAppetizing(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAppetizing
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apiece"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appetizing"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApiece(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApiece
+  // Future<void> speakAppetizing(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAppetizing
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apiece"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appetizing"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApiece(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApiece
+  // Future<void> speakAppetizing(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAppetizing
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apiece"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appetizing"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApiece(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApiece
+  // Future<void> speakAppetizing(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAppetizing
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apiece"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appetizing"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApiece(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApiece
+  // Future<void> speakAppetizing(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAppetizing
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apiece"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appetizing"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApiece(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApiece
+  // Future<void> speakAppetizing(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAppetizing
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apiece"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appetizing"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 9, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -113,7 +113,7 @@ class EnglishEntryapiece extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "apiece", // DOPSUM: CHANGE WORD ENTRY - Find /əˈpiːs/
+                                "appetizing", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæpɪtaɪzɪŋ/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -132,7 +132,7 @@ class EnglishEntryapiece extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˈpiːs/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈæpɪtaɪzɪŋ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -142,9 +142,9 @@ class EnglishEntryapiece extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakApiece(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAppetizing(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -153,7 +153,7 @@ class EnglishEntryapiece extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˈpiːs/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /ˈæpɪtaɪzɪŋ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -163,7 +163,7 @@ class EnglishEntryapiece extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakApiece(
+                              onPressed: () => speakAppetizing(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -183,9 +183,9 @@ class EnglishEntryapiece extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 10,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 9,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
-                  VideoIconForTab(), // 08
+                  // VideoIconForTab(), // 08
                   // VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
@@ -213,9 +213,9 @@ class EnglishEntryapiece extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ھەریەک، ھەرکام، دەنکی، دانەی، سەرو
+کوردی: ئیشتیاکەرەوە، دڵبژۆک، ئارەزووهێن
 
-١. (ھاوەڵکار) بوونی بڕێک لەلایەن ھەریەکێک نەک پێکەوە""",
+١. (ھاوەڵناو) خواردنێک کە بۆنەکەی یان تامەکەی سەرجڕاکێشە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -226,7 +226,7 @@ class EnglishEntryapiece extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Sterling and Walcott scored a goal apiece.",
+                                    "The meals he cooked were always nourishing but never particularly appetizing.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -241,7 +241,7 @@ class EnglishEntryapiece extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ستێرلینگ و واڵکۆت یەکی گۆڵێکیان تۆمارکرد.",
+                                    "ئەو خواردنانەی کە درووستی دەکردن هەمیشە باش بوون بۆ تەندرووستی بەڵام هەرگیز بەردڵان نەبوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -254,7 +254,7 @@ class EnglishEntryapiece extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakApiece237("en-GB"),
+                                onPressed: () => speakAppetizing324("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -262,9 +262,9 @@ class EnglishEntryapiece extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakApiece237(// REPLACE: apiece /əˈpiːs/
-                                        "en-US"),
+                                onPressed: () => speakAppetizing324(
+                                    // REPLACE: appetizing /ˈæpɪtaɪzɪŋ/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -280,7 +280,7 @@ class EnglishEntryapiece extends StatelessWidget {
                     YoutubeEmbeddedfive(),
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
-                    YoutubeEmbeddedeight(),
+                    // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
@@ -314,9 +314,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adverb: apiece 
-1. To or from every one of two or more (considered individually) (= each, to each one, for each one, from each one)
-"they received £10 apiece";
+- Adjective: appetizing (appetising [Brit])
+1. Appealing to or stimulating the appetite especially in appearance or aroma
+"Pictures of appetizing foods activate one's desire for taste and reward";
 """),
         ],
       ),
@@ -327,12 +327,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "4-1GGrcrlPQ";
+  static String myVideoId = "https://youtu.be/dqcSk-EDrRo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 119, // DOPSUM: CHANGE IT
+      startAt: 1275, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -352,12 +352,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "YCKO1qgotHY";
+  static String myVideoId = "https://youtu.be/a9m3GD0DbPY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 617, // DOPSUM: CHANGE IT
+      startAt: 843, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -377,12 +377,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "Jk4smlKnlqM";
+  static String myVideoId = "https://youtu.be/4Wc0YPXFO9M?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 338, // DOPSUM: CHANGE IT
+      startAt: 227, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -402,12 +402,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "rSLWFA_glbk";
+  static String myVideoId = "https://youtu.be/hQT7PN4Tzsg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 936, // DOPSUM: CHANGE IT
+      startAt: 645, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -427,12 +427,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "aoXJfuPaFF8";
+  static String myVideoId = "https://youtu.be/g9QneAV4fVo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 611, // DOPSUM: CHANGE IT
+      startAt: 642, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -452,12 +452,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "Nv1IVLh8yc4";
+  static String myVideoId = "https://youtu.be/g9vROdY_JM8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 372, // DOPSUM: CHANGE IT
+      startAt: 1271, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -477,12 +477,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "_GdkGRel48Q";
+  static String myVideoId = "https://youtu.be/9-8pkESUztc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 547, // DOPSUM: CHANGE IT
+      startAt: 833, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -502,12 +502,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "LBNOr9iRy1w";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 614, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

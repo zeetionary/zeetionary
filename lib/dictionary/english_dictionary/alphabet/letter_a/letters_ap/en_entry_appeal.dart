@@ -6,91 +6,95 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// replace EnglishEntryAdopsum - replace speakApe
+// replace EnglishEntryAdopsum - replace speakAppeal
 
-// replace ape - /eɪp/ - find WORD_WEB
+// replace appeal - /əˈpiːl/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryape extends StatelessWidget {
+class EnglishEntryappeal extends StatelessWidget {
   // blank divider
-  EnglishEntryape({super.key});
+  EnglishEntryappeal({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApe(String languageCode) async {
-    // DOPSUM: CHANGE speakApe
+  Future<void> speakAppeal(String languageCode) async {
+    // DOPSUM: CHANGE speakAppeal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("appeal"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApe129(String languageCode) async {
-    // DOPSUM: CHANGE speakApe
+  Future<void> speakAppeal932(String languageCode) async {
+    // DOPSUM: CHANGE speakAppeal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Chimpanzees and gorillas are both apes."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He made an emotional appeal to voters."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApe132(String languageCode) async {
-    // DOPSUM: CHANGE speakApe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "For years the British film industry merely aped Hollywood."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakApe134(String languageCode) async {
-    // DOPSUM: CHANGE speakApe
+  Future<void> speakAppeal939(String languageCode) async {
+    // DOPSUM: CHANGE speakAppeal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We used to ape the teacher's southern accent."); // DOPSUM: CHANGE TEXT
+        "The police made an appeal to the public to remain calm."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApe(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApe
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAppeal946(String languageCode) async {
+    // DOPSUM: CHANGE speakAppeal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He was beginning to understand the appeal of living in the countryside."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakApe(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApe
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAppeal950(String languageCode) async {
+    // DOPSUM: CHANGE speakAppeal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The court dismissed his appeal against the verdict."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakApe(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApe
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAppeal953(String languageCode) async {
+    // DOPSUM: CHANGE speakAppeal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The government appealed to the British people for help."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakApe(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApe
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAppeal956(String languageCode) async {
+    // DOPSUM: CHANGE speakAppeal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("His movies appeal to a broad audience."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakApe(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApe
+  Future<void> speakAppeal958(String languageCode) async {
+    // DOPSUM: CHANGE speakAppeal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        " The company is appealing against the ruling."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAppeal(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAppeal
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appeal"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -115,7 +119,7 @@ class EnglishEntryape extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "ape", // DOPSUM: CHANGE WORD ENTRY - Find /eɪp/
+                                "appeal", // DOPSUM: CHANGE WORD ENTRY - Find /əˈpiːl/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -134,7 +138,7 @@ class EnglishEntryape extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /eɪp/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əˈpiːl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -145,7 +149,7 @@ class EnglishEntryape extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakApe(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAppeal(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -155,7 +159,7 @@ class EnglishEntryape extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /eɪp/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /əˈpiːl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -165,7 +169,7 @@ class EnglishEntryape extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakApe(
+                              onPressed: () => speakAppeal(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -185,7 +189,7 @@ class EnglishEntryape extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 14,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
@@ -215,7 +219,9 @@ class EnglishEntryape extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ناو) ئاژەڵیکی گەورەی بێ کلکی شێوە مەیموونە""",
+کوردی: داخوازی، خۆستەک، داوا، پاڕانەوە، لاڵانەوە، لاڤاھی، پەنابردنەبەر، داوێن‌گیری، ھانابردنەبەر، پیاچوونەوە، ڕاست‌کردنەوە، دڵڕفێنی، سەرنج‌ڕاکێشی، ڕاکێشان
+
+١. (ناو) پاڕانەوە؛ داوایەکی پڕ بەدڵ بۆ پارە، زانیاری، یان یارمەتی کە بە خێرایی پێویستە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -226,7 +232,7 @@ class EnglishEntryape extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Chimpanzees and gorillas are both apes.",
+                                    "He made an emotional appeal to voters.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -241,7 +247,7 @@ class EnglishEntryape extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شیمپانزی و گۆرێلا ھەردووکیان ئەیپن.",
+                                    "پاڕانەوەیەکی ھەست‌بزوێنی ئاراستەی دەنگدەران کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -254,7 +260,7 @@ class EnglishEntryape extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakApe129("en-GB"),
+                                onPressed: () => speakAppeal932("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -263,7 +269,57 @@ class EnglishEntryape extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakApe129(// REPLACE: ape /eɪp/
+                                    speakAppeal932(// REPLACE: appeal /əˈpiːl/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The police made an appeal to the public to remain calm.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "پۆلیس تکای لە خەڵکی کرد بە ھێمنی بمێننەوە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAppeal939("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAppeal939(// REPLACE: appeal /əˈpiːl/
                                         "en-US"),
                               ),
                             ],
@@ -273,7 +329,7 @@ class EnglishEntryape extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (کردار) کۆپی‌کردنی کاری کەسێک بە خراپی""",
+٢. (ناو) خاسیەتێک کە وادەکای کەسێک یان شتێک سەرنجڕاکێش یان سەرسوڕھێنەر بێت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -284,7 +340,7 @@ class EnglishEntryape extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "For years the British film industry merely aped Hollywood.",
+                                    "He was beginning to understand the appeal of living in the countryside.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -299,7 +355,7 @@ class EnglishEntryape extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ چەندین ساڵ پیشەسازیی فیلمی بەریتانی تەنھا کۆپی خراپی ھۆڵیھوود بوو.",
+                                    "خەریک‌بوو دەستی‌ دەکرد بە تێگەشتن لە دڵڕفێنی ژیان لە لادێ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -312,7 +368,7 @@ class EnglishEntryape extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakApe132("en-GB"),
+                                onPressed: () => speakAppeal946("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -321,7 +377,7 @@ class EnglishEntryape extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakApe132(// REPLACE: ape /eɪp/
+                                    speakAppeal946(// REPLACE: appeal /əˈpiːl/
                                         "en-US"),
                               ),
                             ],
@@ -331,7 +387,7 @@ class EnglishEntryape extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (کردار) کۆپی‌کردنی ڕەفتاری کەسێک بۆ گاڵتەپێکردن""",
+٣. (ناو) داوایەکی فەرمی لە دادگا یان لای دەسەڵاتدارێک بۆ گۆڕینی بڕیارێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -342,7 +398,7 @@ class EnglishEntryape extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "We used to ape the teacher's southern accent.",
+                                    "The court dismissed his appeal against the verdict.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -357,7 +413,7 @@ class EnglishEntryape extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جاران لاسایی ئەکسێنتی باشووریی مامۆستاکەمان دەکردەوە.",
+                                    "دادگا داوای پێداچوونەوەکەیی دژ بە بڕیارەکە ڕەتکردەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -370,7 +426,7 @@ class EnglishEntryape extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakApe134("en-GB"),
+                                onPressed: () => speakAppeal950("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -379,7 +435,181 @@ class EnglishEntryape extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakApe134(// REPLACE: ape /eɪp/
+                                    speakAppeal950(// REPLACE: appeal /əˈpiːl/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٤. (کردار) داواکردنی شتێک پڕبەدڵ بۆ داواکردنی شتێک کە بەپەلە پێویستە""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The government appealed to the British people for help.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "حکومەت تکای لە خەڵکی بەریتانیا کرد بۆ یارمەتی.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAppeal953("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAppeal953(// REPLACE: appeal /əˈpiːl/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٥. (کردار) سەرنج‌ڕاکێشان، یان بوون بە ھۆی سەرسوڕھێنەری""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "His movies appeal to a broad audience.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "فیلمەکانی سەرنجی بیسەری بەرفراوان ڕادەکێشن.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAppeal956("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAppeal956(// REPLACE: appeal /əˈpiːl/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٦. (کردار) داواکردن لە دادگا یان کەسێکی بەدەسەڵات بۆ گۆڕینی بڕیارێک""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    " The company is appealing against the ruling.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "کۆمپانیاکە داوای پێداچوونەوە بە بڕیارەکە دەکات.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAppeal958("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAppeal958(// REPLACE: appeal /əˈpiːl/
                                         "en-US"),
                               ),
                             ],
@@ -430,19 +660,39 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: ape 
-1. Any of various primates with short tails or no tail at all
+- Noun: appeal (Derived forms: appealing, appealed, appeals)
+1. Earnest or urgent request (= entreaty, prayer, suppliance)
+"an appeal for help";
  
-2. Someone who copies the words or behaviour of another (= copycat, imitator, emulator, aper)
+2. Attractiveness that interests, pleases or stimulates (= appealingness, charm)
+"his smile was part of his appeal to her";
  
-3. Person who resembles a nonhuman primate (= anthropoid)
+3. (law) a legal proceeding in which the appellant resorts to a higher court for the purpose of obtaining a review of a lower court decision and a reversal of the lower court's judgment or the granting of a new trial
+"their appeal was denied in the superior court"
+ 
+4. Request for a sum of money (= solicitation, collection, ingathering)
+"an appeal to raise money for starving children";
+ 
+5. Act of turning to for assistance (= recourse, resort, refuge)
+"an appeal to his uncle was his last resort";
+ 
+6. (cricket) the act, by the fielding side, of asking an umpire for a decision of whether a batsman is out or not
 
-- Verb: ape (Derived forms: aped, aping, apes)
-1. Imitate uncritically and in every aspect
-"Her little brother apes her behaviour"
+- Verb: appeal (Derived forms: appealing, appealed, appeals)
+1. Take a court case to a higher court for review
+"He was found guilty but appealed immediately"
  
-2. Represent in or produce a caricature of (= caricature)
-"The drawing aped the President";
+2. Request earnestly (something from somebody); ask for aid or protection (= invoke)
+"appeal to somebody for help";
+ 
+3. Be attractive to (= attract)
+"The idea of a vacation appeals to me";
+ 
+4. Challenge (a decision)
+"She appealed the verdict"
+ 
+5. Cite as an authority; resort to (= invoke)
+"I appealed to the law of 1900";
 """),
         ],
       ),
@@ -453,12 +703,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "nNaA87PMIQE";
+  static String myVideoId = "IOuFE-6Awos";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 6, // DOPSUM: CHANGE IT
+      startAt: 162, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -478,12 +728,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "udrYU_Hw-4E";
+  static String myVideoId = "lex6USTugUU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 968, // DOPSUM: CHANGE IT
+      startAt: 378, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -503,12 +753,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "iFlRQJ6OXFI";
+  static String myVideoId = "YRhqMWUH2Ig";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 18, // DOPSUM: CHANGE IT
+      startAt: 1092, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -528,12 +778,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "bcCP-KbNAB4";
+  static String myVideoId = "WUjVPIEtJd0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 68, // DOPSUM: CHANGE IT
+      startAt: 256, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -553,12 +803,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "hoCPiXFIH1M";
+  static String myVideoId = "eo62AEDwTKY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5, // DOPSUM: CHANGE IT
+      startAt: 308, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -578,12 +828,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "GEI7epB7FOg";
+  static String myVideoId = "9yjZpBq1XBE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5, // DOPSUM: CHANGE IT
+      startAt: 5053, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -603,12 +853,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "3qRfC9ntWvk";
+  static String myVideoId = "T4gRYEjiyzQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5, // DOPSUM: CHANGE IT
+      startAt: 810, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -628,12 +878,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "83BMCl89j6c";
+  static String myVideoId = "mrkAmmMakMg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 16, // DOPSUM: CHANGE IT
+      startAt: 22, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -653,12 +903,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "uHfx7mQjsLE";
+  static String myVideoId = "MVu8QbxafJE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 39, // DOPSUM: CHANGE IT
+      startAt: 387, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -678,12 +928,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "OlbqwHc0YuI";
+  static String myVideoId = "dy2GCkJiR8E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 62, // DOPSUM: CHANGE IT
+      startAt: 131, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -703,12 +953,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "wI38Yiu4KrM";
+  static String myVideoId = "SG1vNoErfQw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 176, // DOPSUM: CHANGE IT
+      startAt: 429, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -728,12 +978,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "TZmy-HseMCE";
+  static String myVideoId = "9-wFM3nrKAI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1867, // DOPSUM: CHANGE IT
+      startAt: 255, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

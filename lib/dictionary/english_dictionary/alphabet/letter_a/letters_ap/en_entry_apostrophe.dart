@@ -6,95 +6,98 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// replace EnglishEntryAdopsum - replace speakApiece
+// replace EnglishEntryAdopsum - replace speakApostrophe
 
-// replace apiece - /əˈpiːs/ - find WORD_WEB
+// replace apostrophe - /əˈpɒstrəfi/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryapiece extends StatelessWidget {
+class EnglishEntryapostrophe extends StatelessWidget {
   // blank divider
-  EnglishEntryapiece({super.key});
+  EnglishEntryapostrophe({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApiece(String languageCode) async {
-    // DOPSUM: CHANGE speakApiece
+  Future<void> speakApostrophe(String languageCode) async {
+    // DOPSUM: CHANGE speakApostrophe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("apiece"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("apostrophe"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApiece237(String languageCode) async {
-    // DOPSUM: CHANGE speakApiece
+  Future<void> speakApostrophe708(String languageCode) async {
+    // DOPSUM: CHANGE speakApostrophe
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Sterling and Walcott scored a goal apiece."); // DOPSUM: CHANGE TEXT
+        "'It's' with an apostrophe means 'it is' or 'it has'."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApiece(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApiece
+  Future<void> speakApostrophe710(String languageCode) async {
+    // DOPSUM: CHANGE speakApostrophe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Helen's house is very large."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakApostrophe714(String languageCode) async {
+    // DOPSUM: CHANGE speakApostrophe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("How many 3’s are there in 9?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakApostrophe715(String languageCode) async {
+    // DOPSUM: CHANGE speakApostrophe
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("There are two m’s in ‘comma’."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakApostrophe(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApostrophe
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apiece"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apostrophe"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApiece(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApiece
+  // Future<void> speakApostrophe(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApostrophe
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apiece"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apostrophe"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApiece(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApiece
+  // Future<void> speakApostrophe(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApostrophe
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apiece"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apostrophe"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApiece(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApiece
+  // Future<void> speakApostrophe(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApostrophe
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apiece"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakApiece(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApiece
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apiece"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakApiece(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApiece
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apiece"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakApiece(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApiece
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apiece"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("apostrophe"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -113,7 +116,7 @@ class EnglishEntryapiece extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "apiece", // DOPSUM: CHANGE WORD ENTRY - Find /əˈpiːs/
+                                "apostrophe", // DOPSUM: CHANGE WORD ENTRY - Find /əˈpɒstrəfi/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -132,7 +135,7 @@ class EnglishEntryapiece extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˈpiːs/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əˈpɒstrəfi/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -142,9 +145,9 @@ class EnglishEntryapiece extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakApiece(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakApostrophe(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -153,7 +156,7 @@ class EnglishEntryapiece extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˈpiːs/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /əˈpɑːstrəfi/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -163,7 +166,7 @@ class EnglishEntryapiece extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakApiece(
+                              onPressed: () => speakApostrophe(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -183,12 +186,12 @@ class EnglishEntryapiece extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 10,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 13,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
@@ -213,9 +216,9 @@ class EnglishEntryapiece extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ھەریەک، ھەرکام، دەنکی، دانەی، سەرو
+کوردی: کرتێن، بۆرۆکە، ئێپاسترۆف (" یان ’)
 
-١. (ھاوەڵکار) بوونی بڕێک لەلایەن ھەریەکێک نەک پێکەوە""",
+١. (ناو) نیشانەی ’ وەک ئاماژەیەک بەوەی پیتێک یان زیاتر لە وشەیەکدا سڕدراونەتەوە، بۆ نموونە وەک she’s بۆ she is، یان ’63 بۆ 1963""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -226,7 +229,7 @@ class EnglishEntryapiece extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Sterling and Walcott scored a goal apiece.",
+                                    "'It's' with an apostrophe means 'it is' or 'it has'.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -241,7 +244,7 @@ class EnglishEntryapiece extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ستێرلینگ و واڵکۆت یەکی گۆڵێکیان تۆمارکرد.",
+                                    "'It's' بە کرتێنێکێکەوە دەکرێ واتای it is یان it has بێ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -254,7 +257,7 @@ class EnglishEntryapiece extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakApiece237("en-GB"),
+                                onPressed: () => speakApostrophe708("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -262,9 +265,175 @@ class EnglishEntryapiece extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakApiece237(// REPLACE: apiece /əˈpiːs/
-                                        "en-US"),
+                                onPressed: () => speakApostrophe708(
+                                    // REPLACE: apostrophe /əˈpɑːstrəfi/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٢. (ناو) بۆ پیشاندانی خاوەندارێتی بەکاردێت""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Helen's house is very large.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ماڵ ھێلین زۆر گەورەیە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakApostrophe710("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakApostrophe710(
+                                    // REPLACE: apostrophe /əˈpɑːstrəfi/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٣. (ناو) لە پێش یان پاشی پیتی s بەکاردێ بۆ دەربڕینی ژمارە یان پیت بۆ شێوەی کۆ""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "How many 3’s are there in 9?",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "چەند دانە ٣ لە ٩دا ھەیە؟",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakApostrophe714("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakApostrophe714(
+                                    // REPLACE: apostrophe /əˈpɑːstrəfi/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "There are two m’s in ‘comma’.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "دوو m لە وشەی comma دا ھەیە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakApostrophe715("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakApostrophe715(
+                                    // REPLACE: apostrophe /əˈpɑːstrəfi/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -281,9 +450,9 @@ class EnglishEntryapiece extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
@@ -314,9 +483,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adverb: apiece 
-1. To or from every one of two or more (considered individually) (= each, to each one, for each one, from each one)
-"they received £10 apiece";
+- Noun: apostrophe (Derived forms: apostrophes)
+1. Address to an absent or imaginary person
+ 
+2. The mark (') used to indicate the omission of one or more letters from a printed word
 """),
         ],
       ),
@@ -327,12 +497,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "4-1GGrcrlPQ";
+  static String myVideoId = "iLMVYhlj5KI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 119, // DOPSUM: CHANGE IT
+      startAt: 30, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -352,12 +522,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "YCKO1qgotHY";
+  static String myVideoId = "fn3wA9H268o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 617, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -377,12 +547,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "Jk4smlKnlqM";
+  static String myVideoId = "04jOKuZG7xs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 338, // DOPSUM: CHANGE IT
+      startAt: 5, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -402,12 +572,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "rSLWFA_glbk";
+  static String myVideoId = "8xozB1_QVG8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 936, // DOPSUM: CHANGE IT
+      startAt: 7, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -427,12 +597,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "aoXJfuPaFF8";
+  static String myVideoId = "XDVvJFJqH_c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 611, // DOPSUM: CHANGE IT
+      startAt: 13, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -452,12 +622,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "Nv1IVLh8yc4";
+  static String myVideoId = "0zwNZJbM-Gw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 372, // DOPSUM: CHANGE IT
+      startAt: 302, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -477,12 +647,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "_GdkGRel48Q";
+  static String myVideoId = "65CFesU4KVQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 547, // DOPSUM: CHANGE IT
+      startAt: 377, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -502,12 +672,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "LBNOr9iRy1w";
+  static String myVideoId = "u9_kahA_wQo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 614, // DOPSUM: CHANGE IT
+      startAt: 80, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -527,12 +697,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "-UEs4Ikf-_4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 284, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -552,12 +722,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "vd0yESrQMs0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1400, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -577,12 +747,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "1AH-tr6rTto";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 273, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

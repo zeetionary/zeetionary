@@ -6,91 +6,94 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// replace EnglishEntryAdopsum - replace speakApe
+// replace EnglishEntryAdopsum - replace speakAppearance
 
-// replace ape - /eɪp/ - find WORD_WEB
+// replace appearance - /əˈpɪərəns/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryape extends StatelessWidget {
+class EnglishEntryappearance extends StatelessWidget {
   // blank divider
-  EnglishEntryape({super.key});
+  EnglishEntryappearance({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApe(String languageCode) async {
-    // DOPSUM: CHANGE speakApe
+  Future<void> speakAppearance(String languageCode) async {
+    // DOPSUM: CHANGE speakAppearance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("appearance"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApe129(String languageCode) async {
-    // DOPSUM: CHANGE speakApe
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Chimpanzees and gorillas are both apes."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakApe132(String languageCode) async {
-    // DOPSUM: CHANGE speakApe
+  Future<void> speakAppearance1127(String languageCode) async {
+    // DOPSUM: CHANGE speakAppearance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "For years the British film industry merely aped Hollywood."); // DOPSUM: CHANGE TEXT
+        "She had never been greatly concerned about her appearance."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApe134(String languageCode) async {
-    // DOPSUM: CHANGE speakApe
+  Future<void> speakAppearance1128(String languageCode) async {
+    // DOPSUM: CHANGE speakAppearance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We used to ape the teacher's southern accent."); // DOPSUM: CHANGE TEXT
+        "Judging by appearances can be misleading."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApe(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApe
+  Future<void> speakAppearance1131(String languageCode) async {
+    // DOPSUM: CHANGE speakAppearance
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The sudden appearance of a security guard caused them to drop the money and run."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAppearance1132(String languageCode) async {
+    // DOPSUM: CHANGE speakAppearance
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Since its first appearance in the 19th century, cholera has killed millions."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAppearance1135(String languageCode) async {
+    // DOPSUM: CHANGE speakAppearance
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The singer's first public appearance was at the age of eight."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAppearance1145(String languageCode) async {
+    // DOPSUM: CHANGE speakAppearance
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The appearance of claims about the minister's private life in the press has caused a lot of discussions."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAppearance(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAppearance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appearance"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApe(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApe
+  // Future<void> speakAppearance(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAppearance
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakApe(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApe
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakApe(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApe
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakApe(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApe
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ape"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appearance"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -115,7 +118,7 @@ class EnglishEntryape extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "ape", // DOPSUM: CHANGE WORD ENTRY - Find /eɪp/
+                                "appearance", // DOPSUM: CHANGE WORD ENTRY - Find /əˈpɪərəns/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -134,7 +137,7 @@ class EnglishEntryape extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /eɪp/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əˈpɪərəns/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -144,9 +147,9 @@ class EnglishEntryape extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakApe(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAppearance(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -155,7 +158,7 @@ class EnglishEntryape extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /eɪp/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /əˈpɪrəns/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -165,7 +168,7 @@ class EnglishEntryape extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakApe(
+                              onPressed: () => speakAppearance(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -185,7 +188,7 @@ class EnglishEntryape extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 14,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
@@ -215,7 +218,9 @@ class EnglishEntryape extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ناو) ئاژەڵیکی گەورەی بێ کلکی شێوە مەیموونە""",
+کوردی: دەرکەوتن، دەرکەوت، هاتنەڕوو، پەیدابوون، دیار(کەوتن)ی، سەرهەڵدان، هاتنەنێو، گەیشتن، ڕواڵەت، ڕووکەش، نموود، دیمەن، سەروسەکوت، شێوەی دەرەوە، ڕووکار، پێش، ڕوخسار، ڕوو، پیشان‌دان، ڕانان، هاتن، ئامادەبوون
+
+١. (ناو) شێوازی دەرکەوتنی شتێک لە ڕواڵەتدا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -226,7 +231,7 @@ class EnglishEntryape extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Chimpanzees and gorillas are both apes.",
+                                    "She had never been greatly concerned about her appearance.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -241,7 +246,7 @@ class EnglishEntryape extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شیمپانزی و گۆرێلا ھەردووکیان ئەیپن.",
+                                    "هەرگیز هێندە زۆر گرنگی بە ڕواڵەتی نەداوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -254,7 +259,7 @@ class EnglishEntryape extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakApe129("en-GB"),
+                                onPressed: () => speakAppearance1127("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -262,9 +267,59 @@ class EnglishEntryape extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakApe129(// REPLACE: ape /eɪp/
-                                        "en-US"),
+                                onPressed: () => speakAppearance1127(
+                                    // REPLACE: appearance /əˈpɪrəns/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Judging by appearances can be misleading.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "بڕیاردان بە ڕواڵەت دەکرێت بتخاتە هەڵەوە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAppearance1128("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAppearance1128(
+                                    // REPLACE: appearance /əˈpɪrəns/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -273,7 +328,7 @@ class EnglishEntryape extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (کردار) کۆپی‌کردنی کاری کەسێک بە خراپی""",
+٢. (ناو) گەشتنی کەسێک لە شوێنێک، بەتایبەتی کە پێشبینی‌نەکراوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -284,7 +339,7 @@ class EnglishEntryape extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "For years the British film industry merely aped Hollywood.",
+                                    "The sudden appearance of a security guard caused them to drop the money and run.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -299,7 +354,7 @@ class EnglishEntryape extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ چەندین ساڵ پیشەسازیی فیلمی بەریتانی تەنھا کۆپی خراپی ھۆڵیھوود بوو.",
+                                    "دەرکەوتنی لەناکاوی پاسەوانێک بووە هۆی ئەوەی پارەکە دابنێن و هەڵبێن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -312,7 +367,7 @@ class EnglishEntryape extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakApe132("en-GB"),
+                                onPressed: () => speakAppearance1131("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -320,9 +375,9 @@ class EnglishEntryape extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakApe132(// REPLACE: ape /eɪp/
-                                        "en-US"),
+                                onPressed: () => speakAppearance1131(
+                                    // REPLACE: appearance /əˈpɪrəns/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -331,7 +386,7 @@ class EnglishEntryape extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (کردار) کۆپی‌کردنی ڕەفتاری کەسێک بۆ گاڵتەپێکردن""",
+٣. (ناو) ساتی درووستبوون یان دەرکەوتنی شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -342,7 +397,7 @@ class EnglishEntryape extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "We used to ape the teacher's southern accent.",
+                                    "Since its first appearance in the 19th century, cholera has killed millions.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -357,7 +412,7 @@ class EnglishEntryape extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جاران لاسایی ئەکسێنتی باشووریی مامۆستاکەمان دەکردەوە.",
+                                    "لە سەرەتای دەرکەوتنییەوە لە سەدەی نۆزدەوە، کۆلێرا بووە بەهۆی کووشتنی ملیۆنان کەس.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -370,7 +425,7 @@ class EnglishEntryape extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakApe134("en-GB"),
+                                onPressed: () => speakAppearance1132("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -378,9 +433,125 @@ class EnglishEntryape extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakApe134(// REPLACE: ape /eɪp/
-                                        "en-US"),
+                                onPressed: () => speakAppearance1132(
+                                    // REPLACE: appearance /əˈpɪrəns/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٤. (ناو) دەرکەوتن لە شوێنێکی گشتی""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The singer's first public appearance was at the age of eight.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "یەکەم دەرکەوتنی گۆرانیبێژەکە لە تەمەنی هەشت ساڵی بوو.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAppearance1135("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAppearance1135(
+                                    // REPLACE: appearance /əˈpɪrəns/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٥. (ناو) بڵاوبوونەوە یان پەخشکردنی شتێک""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The appearance of claims about the minister's private life in the press has caused a lot of discussions.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "بڵاوبوونەوەی دەنگۆکان لەسەر ژیان تایبەتیی وەزیرەکە لە میدیادا قسەی زۆری بەدوادا هاتووە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAppearance1145("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAppearance1145(
+                                    // REPLACE: appearance /əˈpɪrəns/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -430,19 +601,21 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: ape 
-1. Any of various primates with short tails or no tail at all
+- Noun: appearance (Derived forms: appearances)
+1. Outward or visible aspect of a person or thing (= visual aspect)
  
-2. Someone who copies the words or behaviour of another (= copycat, imitator, emulator, aper)
+2. The event of coming into sight
  
-3. Person who resembles a nonhuman primate (= anthropoid)
-
-- Verb: ape (Derived forms: aped, aping, apes)
-1. Imitate uncritically and in every aspect
-"Her little brother apes her behaviour"
+3. Formal attendance (in court or at a hearing) of a party in an action (= appearing, coming into court)
  
-2. Represent in or produce a caricature of (= caricature)
-"The drawing aped the President";
+4. A mental representation
+"I tried to describe his appearance to the police"
+ 
+5. The act of appearing in public view
+"the rookie made a brief appearance in the first period"; "it was Bernhardt's last appearance in America"
+ 
+6. Pretending that something is the case in order to make a good impression (= show)
+"they try to keep up appearances";
 """),
         ],
       ),
@@ -453,12 +626,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "nNaA87PMIQE";
+  static String myVideoId = "https://youtu.be/FhrBGkeTPi0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 6, // DOPSUM: CHANGE IT
+      startAt: 29, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -478,12 +651,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "udrYU_Hw-4E";
+  static String myVideoId = "https://youtu.be/WCmO_y-0YdY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 968, // DOPSUM: CHANGE IT
+      startAt: 258, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -503,12 +676,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "iFlRQJ6OXFI";
+  static String myVideoId = "https://youtu.be/SkfQM031gWQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 18, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -528,12 +701,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "bcCP-KbNAB4";
+  static String myVideoId = "https://youtu.be/qsx7YFkPMlQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 68, // DOPSUM: CHANGE IT
+      startAt: 8, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -553,12 +726,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "hoCPiXFIH1M";
+  static String myVideoId = "https://youtu.be/wU_xwCfMEVk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5, // DOPSUM: CHANGE IT
+      startAt: 317, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -578,12 +751,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "GEI7epB7FOg";
+  static String myVideoId = "https://youtu.be/7nFlA3_zVa0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5, // DOPSUM: CHANGE IT
+      startAt: 133, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -603,12 +776,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "3qRfC9ntWvk";
+  static String myVideoId = "https://youtu.be/olDKxSIRtts?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5, // DOPSUM: CHANGE IT
+      startAt: 102, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -628,12 +801,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "83BMCl89j6c";
+  static String myVideoId = "https://youtu.be/henKHBigegE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 16, // DOPSUM: CHANGE IT
+      startAt: 226, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -653,12 +826,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "uHfx7mQjsLE";
+  static String myVideoId = "https://youtu.be/Wbe2jH0TinY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 39, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -678,12 +851,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "OlbqwHc0YuI";
+  static String myVideoId = "https://youtu.be/WiBCStec_rI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 62, // DOPSUM: CHANGE IT
+      startAt: 1487, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -703,12 +876,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "wI38Yiu4KrM";
+  static String myVideoId = "https://youtu.be/jBDDWvfWYtg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 176, // DOPSUM: CHANGE IT
+      startAt: 23, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -728,12 +901,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "TZmy-HseMCE";
+  static String myVideoId = "https://youtu.be/JFjsi7xKk4A?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1867, // DOPSUM: CHANGE IT
+      startAt: 12, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

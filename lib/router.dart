@@ -810,9 +810,30 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apiece.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_aplomb.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apologetic.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apologetically.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apologize.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apology.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apostle.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apostrophe.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appal.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appalling.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apparatus.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apparent.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apparently.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apparition.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appeal.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appealing.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appear.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appearance.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appease.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appeasement.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_append.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appendage.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appendicitis.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appendix.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appetite.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appetizer.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appetizing.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
@@ -1715,30 +1736,32 @@ final loggedInRoute = RouteMap(routes: {
   "/english-apiece": (_) => MaterialPage(child: EnglishEntryapiece()),
   "/english-aplomb": (_) => MaterialPage(child: EnglishEntryaplomb()),
   "/english-apologetic": (_) => MaterialPage(child: EnglishEntryapologetic()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-apologetically": (_) =>
+      MaterialPage(child: EnglishEntryapologetically()),
+  "/english-apologize": (_) => MaterialPage(child: EnglishEntryapologize()),
+  "/english-apology": (_) => MaterialPage(child: EnglishEntryapology()),
+  "/english-apostle": (_) => MaterialPage(child: EnglishEntryapostle()),
+  "/english-apostrophe": (_) => MaterialPage(child: EnglishEntryapostrophe()),
+  "/english-appal": (_) => MaterialPage(child: EnglishEntryappal()),
+  "/english-appalling": (_) => MaterialPage(child: EnglishEntryappalling()),
+  "/english-apparatus": (_) => MaterialPage(child: EnglishEntryapparatus()),
+  "/english-apparent": (_) => MaterialPage(child: EnglishEntryapparent()),
+  "/english-apparently": (_) => MaterialPage(child: EnglishEntryapparently()),
+  "/english-apparition": (_) => MaterialPage(child: EnglishEntryapparition()),
+  "/english-appeal": (_) => MaterialPage(child: EnglishEntryappeal()),
+  "/english-appealing": (_) => MaterialPage(child: EnglishEntryappealing()),
+  "/english-appear": (_) => MaterialPage(child: EnglishEntryappear()),
+  "/english-appearance": (_) => MaterialPage(child: EnglishEntryappearance()),
+  "/english-appease": (_) => MaterialPage(child: EnglishEntryappease()),
+  "/english-appeasement": (_) => MaterialPage(child: EnglishEntryappeasement()),
+  "/english-append": (_) => MaterialPage(child: EnglishEntryappend()),
+  "/english-appendage": (_) => MaterialPage(child: EnglishEntryappendage()),
+  "/english-appendicitis": (_) =>
+      MaterialPage(child: EnglishEntryappendicitis()),
+  "/english-appendix": (_) => MaterialPage(child: EnglishEntryappendix()),
+  "/english-appetite": (_) => MaterialPage(child: EnglishEntryappetite()),
+  "/english-appetizer": (_) => MaterialPage(child: EnglishEntryappetizer()),
+  "/english-appetizing": (_) => MaterialPage(child: EnglishEntryappetizing()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

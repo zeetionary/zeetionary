@@ -6,96 +6,99 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// replace EnglishEntryAdopsum - replace speakAppendix
+// replace EnglishEntryAdopsum - replace speakApplication
 
-// replace appendix - /əˈpendɪks/ - find WORD_WEB
+// replace application - /ˌæplɪˈkeɪʃn/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryappendix extends StatelessWidget {
+class EnglishEntryapplication extends StatelessWidget {
   // blank divider
-  EnglishEntryappendix({super.key});
+  EnglishEntryapplication({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppendix(String languageCode) async {
-    // DOPSUM: CHANGE speakAppendix
+  Future<void> speakApplication(String languageCode) async {
+    // DOPSUM: CHANGE speakApplication
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("application"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppendix216(String languageCode) async {
-    // DOPSUM: CHANGE speakAppendix
+  Future<void> speakApplication707(String languageCode) async {
+    // DOPSUM: CHANGE speakApplication
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He had to have his appendix out (= removed)."); // DOPSUM: CHANGE TEXT
+        "We have received applications from more than 3 000 students."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppendix218(String languageCode) async {
-    // DOPSUM: CHANGE speakAppendix
+  Future<void> speakApplication709(String languageCode) async {
+    // DOPSUM: CHANGE speakApplication
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Full details are given in Appendix 3."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They submitted an application to the council to build two houses."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppendix(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppendix
+  Future<void> speakApplication713(String languageCode) async {
+    // DOPSUM: CHANGE speakApplication
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The invention would have a wide range of applications in industry."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakApplication716(String languageCode) async {
+    // DOPSUM: CHANGE speakApplication
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "It took three applications of paint to cover the graffiti."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakApplication721(String languageCode) async {
+    // DOPSUM: CHANGE speakApplication
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Judges play a vital role in ensuring the strict application of the law."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakApplication(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApplication
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("application"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendix(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppendix
+  // Future<void> speakApplication(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApplication
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("application"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendix(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppendix
+  // Future<void> speakApplication(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApplication
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAppendix(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppendix
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAppendix(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppendix
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAppendix(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppendix
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("application"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -114,7 +117,7 @@ class EnglishEntryappendix extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "appendix", // DOPSUM: CHANGE WORD ENTRY - Find /əˈpendɪks/
+                                "application", // DOPSUM: CHANGE WORD ENTRY - Find /ˌæplɪˈkeɪʃn/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -133,7 +136,7 @@ class EnglishEntryappendix extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˈpendɪks/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˌæplɪˈkeɪʃn/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -143,9 +146,9 @@ class EnglishEntryappendix extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAppendix(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakApplication(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -154,7 +157,7 @@ class EnglishEntryappendix extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˈpendɪks/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /ˌæplɪˈkeɪʃn/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -164,7 +167,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAppendix(
+                              onPressed: () => speakApplication(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -184,12 +187,12 @@ class EnglishEntryappendix extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
+                  VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
@@ -214,9 +217,9 @@ class EnglishEntryappendix extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: سەرخستە، پاشکۆ، پاڵخستە، کلک، لکاند، کورت، پوخت، (توێکاری) پەلەڕیخۆڵە
+کوردی: داخوازی(نامە)، بەکارھێنان، پیادەکردن، کارپێکردن، جێبەجێ‌کردن، بەھرەلێ‌وەرگرتن،کەڵک(لێ)وەرگرتن، بەکارھێنان، خستنەکار، ھەوڵ، کاری سەخت، حەول، خەبات، تێکۆشان، سەرنج‌پێدان، لێ‌وردبوونەوە
 
-١. (ناو) پارچە تورەگەیەک کە لکاوە بە ڕیخۆڵە ئەستوورەوە و ھیچ ئەرکێکی زانراوی نییە""",
+١. (ناو) داخوازینامەی فەرمی بۆ وەرگرتنی کارێک، مۆڵەتی کردنی شتێک، یان جێگایەک لە زانکۆ""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -227,7 +230,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "He had to have his appendix out (= removed).",
+                                    "We have received applications from more than 3 000 students.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -242,7 +245,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێویست بوو پەلەڕیخۆڵەی دەربێنێت.",
+                                    "داخوازینامەمان لە زیاتر لە ٣٠٠٠ خوێندکارەوە پێگەشتووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -255,7 +258,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAppendix216("en-GB"),
+                                onPressed: () => speakApplication707("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -263,8 +266,58 @@ class EnglishEntryappendix extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAppendix216(
-                                    // REPLACE: appendix /əˈpendɪks/
+                                onPressed: () => speakApplication707(
+                                    // REPLACE: application /ˌæplɪˈkeɪʃn/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "They submitted an application to the council to build two houses.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "داخوازینامەیەکیان پێشکەشی ئەنجوومەنەکە کرد بۆ درووستکردنی دوو خانوو.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakApplication709("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakApplication709(
+                                    // REPLACE: application /ˌæplɪˈkeɪʃn/
                                     "en-US"),
                               ),
                             ],
@@ -274,7 +327,7 @@ class EnglishEntryappendix extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) بەشێکی کتێبێک یان دۆکیومێنتێک کە زانیاریی زیادەی تێدایە""",
+٢. (ناو) بەکارھێنانی کرداریی شتێک، بۆ نموونە بیردۆزێک یان دۆزینەوەیەک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -285,7 +338,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Full details are given in Appendix 3.",
+                                    "The invention would have a wide range of applications in industry.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -300,7 +353,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وردەکاریی تەواو لە پاشکۆی ٣ دراوە.",
+                                    "داھێنانەکە بەکارھێنانی کرداریی زۆری دەبێت لە پیشەسازیدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -313,7 +366,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAppendix218("en-GB"),
+                                onPressed: () => speakApplication713("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -321,8 +374,124 @@ class EnglishEntryappendix extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAppendix218(
-                                    // REPLACE: appendix /əˈpendɪks/
+                                onPressed: () => speakApplication713(
+                                    // REPLACE: application /ˌæplɪˈkeɪʃn/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٣. (ناو) کرداری پێوەکردنی شتێک، بۆ نموونە بۆیە یان کرێم، بە شتێکی ترەوە""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "It took three applications of paint to cover the graffiti.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "سێ چین بۆیەی ویست تاوەکو گرافیتییەکە داپۆشین (بسڕینەوە).",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakApplication716("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakApplication716(
+                                    // REPLACE: application /ˌæplɪˈkeɪʃn/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٤. (ناو) کرداری خستنە بواری جێبەجێکردنی یاسایەک""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Judges play a vital role in ensuring the strict application of the law.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "دادوەران ڕۆڵی گرنگ دەبینن لە دڵنیایی‌کردنەوەی جێبەجێکردنی توندی یاساکە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakApplication721("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakApplication721(
+                                    // REPLACE: application /ˌæplɪˈkeɪʃn/
                                     "en-US"),
                               ),
                             ],
@@ -342,7 +511,7 @@ class EnglishEntryappendix extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
@@ -373,10 +542,26 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: appendix (Derived forms: appendixes, appendices)
-1. Supplementary material that is collected and appended at the back of a book, article or document
+- Noun: application (Derived forms: applications)
+1. The act of using something for a purpose (= practical application)
+"a novel application of electronics to medical diagnosis"; "he advocated the application of statistics to the problem";
  
-2. A vestigial process that extends from the lower end of the caecum and that resembles a small pouch (= vermiform appendix, vermiform process, cecal appendage)
+2. A verbal or written request for assistance or employment or admission to a school
+"December 31 is the deadline for applications"
+ 
+3. The work of applying something (= coating, covering)
+"the doctor prescribed a topical application of iodine"; "a complete bleach requires several applications";
+ 
+4. A program that gives a computer instructions that provide the user with tools to accomplish a task (application program, applications programme, app)
+"he has tried several different word processing applications";
+ 
+5. Liquid preparation having a soothing, antiseptic or medicinal action when applied to the skin (= lotion)
+ 
+6. A diligent effort (= diligence)
+"it is a job requiring serious application";
+ 
+7. The action of putting something into operation
+"the application of maximum thrust"; "massage has far-reaching medical applications"; "the application of indexes to tables of data"
 """),
         ],
       ),
@@ -387,12 +572,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "id_gs1-bUxo";
+  static String myVideoId = "GcdB5bFwio4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 362, // DOPSUM: CHANGE IT
+      startAt: 339, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -412,12 +597,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "2DUlcFnRfas";
+  static String myVideoId = "zqllxbPWKNI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 20, // DOPSUM: CHANGE IT
+      startAt: 205, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -437,12 +622,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "xDIgbjDGsOM";
+  static String myVideoId = "UuGpm01SPcA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 6, // DOPSUM: CHANGE IT
+      startAt: 87, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -462,12 +647,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "YlngCUE4Cwo";
+  static String myVideoId = "eEUFUqNwztU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 450, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -487,12 +672,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "1cJ4ykqPej0";
+  static String myVideoId = "CWgs97shAH0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 233, // DOPSUM: CHANGE IT
+      startAt: 646, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -512,12 +697,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "sSqSuWTljlM";
+  static String myVideoId = "xVQxvthAcLU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 16, // DOPSUM: CHANGE IT
+      startAt: 705, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -537,12 +722,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "KBXb6ayhItA";
+  static String myVideoId = "IlU-zDU6aQ0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5, // DOPSUM: CHANGE IT
+      startAt: 1787, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -562,12 +747,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "Bj6ulLJGPB8";
+  static String myVideoId = "9yjZpBq1XBE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1251, // DOPSUM: CHANGE IT
+      startAt: 1662, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -587,12 +772,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "b3Ysh6IQ6dc";
+  static String myVideoId = "GVsUOuSjvcg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 143, // DOPSUM: CHANGE IT
+      startAt: 930, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -612,12 +797,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "GTacoF6WQuI";
+  static String myVideoId = "PXaLc9AYIcg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 269, // DOPSUM: CHANGE IT
+      startAt: 179, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -637,12 +822,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "8GKI2sYe1CI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 518, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

@@ -6,90 +6,90 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// replace EnglishEntryAdopsum - replace speakAppendix
+// replace EnglishEntryAdopsum - replace speakApplicable
 
-// replace appendix - /əˈpendɪks/ - find WORD_WEB
+// replace applicable - /əˈplɪkəbl/,  /ˈæplɪkəbl/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryappendix extends StatelessWidget {
+class EnglishEntryapplicable extends StatelessWidget {
   // blank divider
-  EnglishEntryappendix({super.key});
+  EnglishEntryapplicable({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppendix(String languageCode) async {
-    // DOPSUM: CHANGE speakAppendix
+  Future<void> speakApplicable(String languageCode) async {
+    // DOPSUM: CHANGE speakApplicable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("applicable"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppendix216(String languageCode) async {
-    // DOPSUM: CHANGE speakAppendix
+  Future<void> speakApplicable646(String languageCode) async {
+    // DOPSUM: CHANGE speakApplicable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He had to have his appendix out (= removed)."); // DOPSUM: CHANGE TEXT
+        "Much of the form was not applicable (= did not apply) to me."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppendix218(String languageCode) async {
-    // DOPSUM: CHANGE speakAppendix
+  Future<void> speakApplicable648(String languageCode) async {
+    // DOPSUM: CHANGE speakApplicable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Full details are given in Appendix 3."); // DOPSUM: CHANGE TEXT
+        .speak("The law is applicable to everyone."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppendix(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppendix
+  // Future<void> speakApplicable(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApplicable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("applicable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendix(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppendix
+  // Future<void> speakApplicable(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApplicable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("applicable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendix(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppendix
+  // Future<void> speakApplicable(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApplicable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("applicable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendix(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppendix
+  // Future<void> speakApplicable(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApplicable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("applicable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendix(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppendix
+  // Future<void> speakApplicable(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApplicable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("applicable"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendix(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppendix
+  // Future<void> speakApplicable(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApplicable
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("applicable"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -114,7 +114,7 @@ class EnglishEntryappendix extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "appendix", // DOPSUM: CHANGE WORD ENTRY - Find /əˈpendɪks/
+                                "applicable", // DOPSUM: CHANGE WORD ENTRY - Find /əˈplɪkəbl/,  /ˈæplɪkəbl/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -133,7 +133,7 @@ class EnglishEntryappendix extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˈpendɪks/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əˈplɪkəbl/,  /ˈæplɪkəbl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -143,9 +143,9 @@ class EnglishEntryappendix extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAppendix(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakApplicable(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -154,7 +154,7 @@ class EnglishEntryappendix extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˈpendɪks/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /ˈæplɪkəbl/,  /əˈplɪkəbl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -164,7 +164,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAppendix(
+                              onPressed: () => speakApplicable(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -214,9 +214,9 @@ class EnglishEntryappendix extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: سەرخستە، پاشکۆ، پاڵخستە، کلک، لکاند، کورت، پوخت، (توێکاری) پەلەڕیخۆڵە
+کوردی: کارپێکراو، جێبەجێ‌کراو، ئەکرێ، بەکارھێنراو، پیادەکراو، گونجاو، بەجێ، دروست، لەبار، لێوەشاو، پێوەندی‌دار
 
-١. (ناو) پارچە تورەگەیەک کە لکاوە بە ڕیخۆڵە ئەستوورەوە و ھیچ ئەرکێکی زانراوی نییە""",
+١. (ھاوەڵناو) شتێک کە دەکرێت ڕاست بێت یان بگونجێت بۆ کەسێک یان شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -227,7 +227,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "He had to have his appendix out (= removed).",
+                                    "Much of the form was not applicable (= did not apply) to me.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -242,7 +242,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێویست بوو پەلەڕیخۆڵەی دەربێنێت.",
+                                    "زۆرینەی فۆرمەکە پەیوەندی بە منەوە نەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -255,7 +255,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAppendix216("en-GB"),
+                                onPressed: () => speakApplicable646("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -263,29 +263,21 @@ class EnglishEntryappendix extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAppendix216(
-                                    // REPLACE: appendix /əˈpendɪks/
+                                onPressed: () => speakApplicable646(
+                                    // REPLACE: applicable /ˈæplɪkəbl/,  /əˈplɪkəbl/
                                     "en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) بەشێکی کتێبێک یان دۆکیومێنتێک کە زانیاریی زیادەی تێدایە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
                           Row(
                             children: [
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Full details are given in Appendix 3.",
+                                    "The law is applicable to everyone.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -300,7 +292,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وردەکاریی تەواو لە پاشکۆی ٣ دراوە.",
+                                    "یاساکە بەسەر ھەموواندا جێبەجێ‌دەکرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -313,7 +305,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAppendix218("en-GB"),
+                                onPressed: () => speakApplicable648("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -321,8 +313,8 @@ class EnglishEntryappendix extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAppendix218(
-                                    // REPLACE: appendix /əˈpendɪks/
+                                onPressed: () => speakApplicable648(
+                                    // REPLACE: applicable /ˈæplɪkəbl/,  /əˈplɪkəbl/
                                     "en-US"),
                               ),
                             ],
@@ -373,10 +365,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: appendix (Derived forms: appendixes, appendices)
-1. Supplementary material that is collected and appended at the back of a book, article or document
- 
-2. A vestigial process that extends from the lower end of the caecum and that resembles a small pouch (= vermiform appendix, vermiform process, cecal appendage)
+- Adjective: applicable 
+1. Capable of being applied; having relevance
+"gave applicable examples to support her argument"
 """),
         ],
       ),
@@ -387,12 +378,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "id_gs1-bUxo";
+  static String myVideoId = "58XEfDtU0Z4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 362, // DOPSUM: CHANGE IT
+      startAt: 733, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -412,12 +403,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "2DUlcFnRfas";
+  static String myVideoId = "ltOkMlHrGPc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 20, // DOPSUM: CHANGE IT
+      startAt: 233, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -437,12 +428,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "xDIgbjDGsOM";
+  static String myVideoId = "iQ5GfDbjos8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 6, // DOPSUM: CHANGE IT
+      startAt: 555, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -462,12 +453,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "YlngCUE4Cwo";
+  static String myVideoId = "HYbbmatf6w4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 711, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -487,12 +478,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "1cJ4ykqPej0";
+  static String myVideoId = "UO80u6G_zQM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 233, // DOPSUM: CHANGE IT
+      startAt: 206, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -512,12 +503,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "sSqSuWTljlM";
+  static String myVideoId = "Fkeltn6xVHs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 16, // DOPSUM: CHANGE IT
+      startAt: 210, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -537,12 +528,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "KBXb6ayhItA";
+  static String myVideoId = "RJQPthD9rx8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5, // DOPSUM: CHANGE IT
+      startAt: 678, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -562,12 +553,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "Bj6ulLJGPB8";
+  static String myVideoId = "tDnax8d3v3k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1251, // DOPSUM: CHANGE IT
+      startAt: 347, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -587,12 +578,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "b3Ysh6IQ6dc";
+  static String myVideoId = "d-yWx772qFU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 143, // DOPSUM: CHANGE IT
+      startAt: 64, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -612,12 +603,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "GTacoF6WQuI";
+  static String myVideoId = "v7hz64aVcRw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 269, // DOPSUM: CHANGE IT
+      startAt: 13, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

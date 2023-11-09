@@ -6,90 +6,90 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// replace EnglishEntryAdopsum - replace speakAppendix
+// replace EnglishEntryAdopsum - replace speakApplaud
 
-// replace appendix - /əˈpendɪks/ - find WORD_WEB
+// replace applaud - /əˈplɔːd/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryappendix extends StatelessWidget {
+class EnglishEntryapplaud extends StatelessWidget {
   // blank divider
-  EnglishEntryappendix({super.key});
+  EnglishEntryapplaud({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppendix(String languageCode) async {
-    // DOPSUM: CHANGE speakAppendix
+  Future<void> speakApplaud(String languageCode) async {
+    // DOPSUM: CHANGE speakApplaud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("applaud"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppendix216(String languageCode) async {
-    // DOPSUM: CHANGE speakAppendix
+  Future<void> speakApplaud517(String languageCode) async {
+    // DOPSUM: CHANGE speakApplaud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He had to have his appendix out (= removed)."); // DOPSUM: CHANGE TEXT
+        "He started to applaud and the others joined in."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppendix218(String languageCode) async {
-    // DOPSUM: CHANGE speakAppendix
+  Future<void> speakApplaud520(String languageCode) async {
+    // DOPSUM: CHANGE speakApplaud
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Full details are given in Appendix 3."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "His efforts to improve the situation are to be applauded."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppendix(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppendix
+  // Future<void> speakApplaud(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApplaud
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("applaud"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendix(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppendix
+  // Future<void> speakApplaud(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApplaud
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("applaud"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendix(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppendix
+  // Future<void> speakApplaud(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApplaud
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("applaud"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendix(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppendix
+  // Future<void> speakApplaud(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApplaud
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("applaud"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendix(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppendix
+  // Future<void> speakApplaud(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApplaud
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("applaud"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppendix(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppendix
+  // Future<void> speakApplaud(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApplaud
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appendix"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("applaud"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -114,7 +114,7 @@ class EnglishEntryappendix extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "appendix", // DOPSUM: CHANGE WORD ENTRY - Find /əˈpendɪks/
+                                "applaud", // DOPSUM: CHANGE WORD ENTRY - Find /əˈplɔːd/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -133,7 +133,7 @@ class EnglishEntryappendix extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˈpendɪks/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əˈplɔːd/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -144,7 +144,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAppendix(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakApplaud(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -154,7 +154,7 @@ class EnglishEntryappendix extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˈpendɪks/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /əˈplɔːd/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -164,7 +164,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAppendix(
+                              onPressed: () => speakApplaud(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -214,9 +214,7 @@ class EnglishEntryappendix extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: سەرخستە، پاشکۆ، پاڵخستە، کلک، لکاند، کورت، پوخت، (توێکاری) پەلەڕیخۆڵە
-
-١. (ناو) پارچە تورەگەیەک کە لکاوە بە ڕیخۆڵە ئەستوورەوە و ھیچ ئەرکێکی زانراوی نییە""",
+١. (کردار) دەربڕینی بەدڵبوونت بۆ کەسێک بە چەپڵەلێدان""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -227,7 +225,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "He had to have his appendix out (= removed).",
+                                    "He started to applaud and the others joined in.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -242,7 +240,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێویست بوو پەلەڕیخۆڵەی دەربێنێت.",
+                                    "دەستی بە چەپڵەلێدان کرد و ئەوانی تریش بەدوایدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -255,7 +253,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAppendix216("en-GB"),
+                                onPressed: () => speakApplaud517("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -263,8 +261,8 @@ class EnglishEntryappendix extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAppendix216(
-                                    // REPLACE: appendix /əˈpendɪks/
+                                onPressed: () => speakApplaud517(
+                                    // REPLACE: applaud /əˈplɔːd/
                                     "en-US"),
                               ),
                             ],
@@ -274,7 +272,7 @@ class EnglishEntryappendix extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) بەشێکی کتێبێک یان دۆکیومێنتێک کە زانیاریی زیادەی تێدایە""",
+٢. (کردار) پەسندانی کەسێک بەھۆی بەدڵبوونی کارەکەیان لات""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -285,7 +283,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Full details are given in Appendix 3.",
+                                    "His efforts to improve the situation are to be applauded.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -300,7 +298,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وردەکاریی تەواو لە پاشکۆی ٣ دراوە.",
+                                    "ھەوڵەکانی بۆ باشترکردنی دۆخەکە جێگەی دەستخۆشییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -313,7 +311,7 @@ class EnglishEntryappendix extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAppendix218("en-GB"),
+                                onPressed: () => speakApplaud520("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -321,8 +319,8 @@ class EnglishEntryappendix extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAppendix218(
-                                    // REPLACE: appendix /əˈpendɪks/
+                                onPressed: () => speakApplaud520(
+                                    // REPLACE: applaud /əˈplɔːd/
                                     "en-US"),
                               ),
                             ],
@@ -373,10 +371,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: appendix (Derived forms: appendixes, appendices)
-1. Supplementary material that is collected and appended at the back of a book, article or document
+- Verb: applaud (Derived forms: applauded, applauds, applauding)
+1. Clap one's hands or shout after performances to indicate approval (= clap, spat, acclaim)
  
-2. A vestigial process that extends from the lower end of the caecum and that resembles a small pouch (= vermiform appendix, vermiform process, cecal appendage)
+2. Express that something is worthy of praise
+"I applaud your efforts"
 """),
         ],
       ),
@@ -387,12 +386,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "id_gs1-bUxo";
+  static String myVideoId = "VrKW58MS12g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 362, // DOPSUM: CHANGE IT
+      startAt: 1148, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -412,12 +411,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "2DUlcFnRfas";
+  static String myVideoId = "LXrWIFYdtCE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 20, // DOPSUM: CHANGE IT
+      startAt: 528, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -437,12 +436,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "xDIgbjDGsOM";
+  static String myVideoId = "NICir0cWsEY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 6, // DOPSUM: CHANGE IT
+      startAt: 551, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -462,12 +461,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "YlngCUE4Cwo";
+  static String myVideoId = "iht8e_HtLso";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 2109, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -487,12 +486,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "1cJ4ykqPej0";
+  static String myVideoId = "VjFFrYEZsAQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 233, // DOPSUM: CHANGE IT
+      startAt: 940, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -512,12 +511,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "sSqSuWTljlM";
+  static String myVideoId = "qSmyimnMOBo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 16, // DOPSUM: CHANGE IT
+      startAt: 4457, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -537,12 +536,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "KBXb6ayhItA";
+  static String myVideoId = "HY_OIwideLg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 5, // DOPSUM: CHANGE IT
+      startAt: 250, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -562,12 +561,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "Bj6ulLJGPB8";
+  static String myVideoId = "EM4odIQZVgw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1251, // DOPSUM: CHANGE IT
+      startAt: 183, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -587,12 +586,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "b3Ysh6IQ6dc";
+  static String myVideoId = "brKw9KtNm04";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 143, // DOPSUM: CHANGE IT
+      startAt: 16, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -612,12 +611,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "GTacoF6WQuI";
+  static String myVideoId = "sL-PL1hpnM0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 269, // DOPSUM: CHANGE IT
+      startAt: 1467, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

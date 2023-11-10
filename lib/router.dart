@@ -863,8 +863,8 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appropriate.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appropriately.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appropriation.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_approval.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_approve.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
@@ -1833,8 +1833,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-appropriate": (_) => MaterialPage(child: EnglishEntryappropriate()),
   "/english-appropriately": (_) => MaterialPage(child: EnglishEntryappropriately()),
   "/english-appropriation": (_) => MaterialPage(child: EnglishEntryappropriation()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-approval": (_) => MaterialPage(child: EnglishEntryapproval()),
+  "/english-approve": (_) => MaterialPage(child: EnglishEntryapprove()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

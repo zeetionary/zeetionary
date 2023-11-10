@@ -6,95 +6,97 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// replace EnglishEntryAdopsum - replace speakApprenticeship
+// replace EnglishEntryAdopsum - replace speakApprove
 
-// replace apprenticeship - /əˈprentɪʃɪp/ - find WORD_WEB
+// replace approve - /əˈpruːv/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryapprenticeship extends StatelessWidget {
+class EnglishEntryapprove extends StatelessWidget {
   // blank divider
-  EnglishEntryapprenticeship({super.key});
+  EnglishEntryapprove({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApprenticeship(String languageCode) async {
-    // DOPSUM: CHANGE speakApprenticeship
+  Future<void> speakApprove(String languageCode) async {
+    // DOPSUM: CHANGE speakApprove
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("apprenticeship"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("approve"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApprenticeship1013(String languageCode) async {
-    // DOPSUM: CHANGE speakApprenticeship
+  Future<void> speakApprove907(String languageCode) async {
+    // DOPSUM: CHANGE speakApprove
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She was in the second year of her apprenticeship as a carpenter."); // DOPSUM: CHANGE TEXT
+        "I told my mother I wanted to leave school but she didn't approve."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApprenticeship(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApprenticeship
+  Future<void> speakApprove908(String languageCode) async {
+    // DOPSUM: CHANGE speakApprove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Do you approve of my idea?"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakApprove909(String languageCode) async {
+    // DOPSUM: CHANGE speakApprove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The committee unanimously approved the plan."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakApprove911(String languageCode) async {
+    // DOPSUM: CHANGE speakApprove
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "This medicine is not approved for use in children."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakApprove(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApprove
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apprenticeship"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("approve"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprenticeship(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApprenticeship
+  // Future<void> speakApprove(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApprove
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apprenticeship"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("approve"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprenticeship(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApprenticeship
+  // Future<void> speakApprove(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApprove
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apprenticeship"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("approve"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApprenticeship(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApprenticeship
+  // Future<void> speakApprove(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApprove
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apprenticeship"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakApprenticeship(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApprenticeship
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apprenticeship"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakApprenticeship(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApprenticeship
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apprenticeship"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakApprenticeship(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApprenticeship
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apprenticeship"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("approve"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -113,7 +115,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "apprenticeship", // DOPSUM: CHANGE WORD ENTRY - Find /əˈprentɪʃɪp/
+                                "approve", // DOPSUM: CHANGE WORD ENTRY - Find /əˈpruːv/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -132,7 +134,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˈprentɪʃɪp/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əˈpruːv/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -142,9 +144,9 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakApprenticeship(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakApprove(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
@@ -153,7 +155,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˈprentɪʃɪp/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /əˈpruːv/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -163,7 +165,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakApprenticeship(
+                              onPressed: () => speakApprove(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -183,11 +185,11 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
@@ -213,9 +215,9 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: شاگردی، فێرخوازی، تازەکاری، پیشەشاگردی، نۆفێری، بەروەستایی
+کوردی: پەسەندکردن، مۆرکردن، بەلاوەباشبوون، ڕالەسەربوون
 
-١. (ناو) ماوەیەک کە تێیدا کەسێک وەک شاگردێک کاردەکات بۆ فێربوونی پیشەیەک، زۆرجار بە پارەیەکی کەم""",
+١. (کردار) پەسەندکردنی شتێک، ڕەزامەندی دەربڕین لەسەر شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -226,7 +228,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "She was in the second year of her apprenticeship as a carpenter.",
+                                    "I told my mother I wanted to leave school but she didn't approve.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -241,7 +243,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە دووەم ساڵی شاگردییەکەی بوو وەک دارتاشێک.",
+                                    "بە دایکم گوت قوتابخانە جێدێڵم، بەڵام ڕازی نەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -254,8 +256,7 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () =>
-                                    speakApprenticeship1013("en-GB"),
+                                onPressed: () => speakApprove907("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -263,8 +264,174 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakApprenticeship1013(
-                                    // REPLACE: apprenticeship /əˈprentɪʃɪp/
+                                onPressed: () => speakApprove907(
+                                    // REPLACE: approve /əˈpruːv/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Do you approve of my idea?",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "بیرۆکەکەمت بەدڵە؟",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakApprove908("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakApprove908(
+                                    // REPLACE: approve /əˈpruːv/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٢. (کردار) پەسەندکردنی شتێک بەشێوەیەکی فەرمی""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The committee unanimously approved the plan.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "لیژنەکە بەتێکڕا پلانەکەی پەسەندکرد.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakApprove909("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakApprove909(
+                                    // REPLACE: approve /əˈpruːv/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٣. (کردار) وتنی ئەوەی شتێک بەشی پێویست باشە بۆ بەکارهێنان""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "This medicine is not approved for use in children.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ئەم دەرمانە بۆ بەکارهێنان لەسەر منداڵ پەسەند نەکراوە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakApprove911("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakApprove911(
+                                    // REPLACE: approve /əˈpruːv/
                                     "en-US"),
                               ),
                             ],
@@ -282,8 +449,8 @@ class EnglishEntryapprenticeship extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -315,8 +482,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: apprenticeship (Derived forms: apprenticeships)
-1. The position of an apprentice; the time served by an apprentice
+- Verb: approve (Derived forms: approved, approves, approving)
+1. Give permission or approval for something (= O.K., okay, sanction, greenlight, OK, green-light)
+"I will approve his educational policies";
+ 
+2. Judge to be right or commendable; think well of
 """),
         ],
       ),
@@ -327,12 +497,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "21LvbKpHSiQ";
+  static String myVideoId = "tsxmyL7TUJg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 500, // DOPSUM: CHANGE IT
+      startAt: 1268, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -352,12 +522,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "j9Yg3gXgknI";
+  static String myVideoId = "Cqbleas1mmo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 44, // DOPSUM: CHANGE IT
+      startAt: 979, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -377,12 +547,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "ODwMZj36G4k";
+  static String myVideoId = "L9Mu93VJLcc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 68, // DOPSUM: CHANGE IT
+      startAt: 263, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -402,12 +572,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "G5cOZmbALxE";
+  static String myVideoId = "Ufq24tbfwqI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 454, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -427,12 +597,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "DTxiYm98hBs";
+  static String myVideoId = "_OCFXfFwHX8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 59, // DOPSUM: CHANGE IT
+      startAt: 220, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -452,12 +622,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "H1jqxo5f-1g";
+  static String myVideoId = "jMsqfidTpXQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 81, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -477,12 +647,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "G5fNgRJ2Cbs";
+  static String myVideoId = "xrkPe-9rM1Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 293, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -502,12 +672,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "tHGpEq3ZYXA";
+  static String myVideoId = "UoSSCUMk-7I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 390, // DOPSUM: CHANGE IT
+      startAt: 575, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -527,12 +697,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "4H5--Qy3h9Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 100, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -552,12 +722,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "Oz9zw7-_vhM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 435, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

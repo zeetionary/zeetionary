@@ -6,9 +6,52 @@ import 'package:zeetionary/constants.dart';
 class HistoryScreen extends StatelessWidget {
   const HistoryScreen({super.key});
 
-  Future<void> clearHistory() async {
+  Future<void> clearHistory(BuildContext context) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    await prefs.remove('history');
+
+    // Show a dialog to confirm clearing history
+    // ignore: use_build_context_synchronously
+    bool confirmClear = await showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: const Text(
+            'دڵنیایی‌ کردنەوە',
+            textDirection: TextDirection.rtl,
+          ),
+          // content: const Text(''),
+          content: const Text(
+            'دەتەوێت هەموو گەڕانەکانی پێشوو بسڕیتەوە؟',
+            textDirection: TextDirection.rtl,
+          ),
+          actions: <Widget>[
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop(false);
+              },
+              child: const Text('نەخێر'),
+            ),
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop(true);
+              },
+              child: const Text('بەڵێ'),
+            ),
+          ],
+        );
+      },
+    );
+
+    // If the user confirms, clear the history
+    if (confirmClear == true) {
+      await prefs.remove('history');
+      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+        content: Directionality(
+          textDirection: TextDirection.rtl,
+          child: Text('پاککرایەوە'),
+        ),
+      ));
+    }
   }
 
   @override
@@ -44,13 +87,7 @@ class HistoryScreen extends StatelessWidget {
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
-            clearHistory();
-            ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-              content: Directionality(
-                textDirection: TextDirection.rtl,
-                child: Text('پاککرایەوە'),
-              ),
-            ));
+            clearHistory(context);
           },
           child: const Icon(Icons.delete),
         ),
@@ -919,8 +956,8 @@ class HistoryScreen extends StatelessWidget {
       "appropriate": '/english-appropriate',
       "appropriately": '/english-appropriately',
       "appropriation": '/english-appropriation',
-      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": '/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM',
-      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": '/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM',
+      "approval": '/english-approval',
+      "approve": '/english-approve',
       // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": '/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM',
       // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": '/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM',
       // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": '/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM',

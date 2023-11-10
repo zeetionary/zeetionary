@@ -867,12 +867,12 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "appropriation",
     "approval",
     "approve",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
+    "approvingly",
+    "approximate",
+    "approximately",
+    "approximation",
+    "apricot",
+    "April",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
@@ -4446,26 +4446,26 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-approve");
                   }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "approvingly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-approvingly");
+                  }
+                  if (wordsEnglish == "approximate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-approximate");
+                  }
+                  if (wordsEnglish == "approximately") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-approximately");
+                  }
+                  if (wordsEnglish == "April") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-april");
+                  }
+                  if (wordsEnglish == "apricot") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-apricot");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

@@ -76,7 +76,8 @@ class EnglishEntryappropriate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("appropriate"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Five million dollars have been appropriated for research into the disease."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAppropriate403(String languageCode) async {
@@ -246,7 +247,7 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئێستا کە کێشەکە ناسێنراوە، هەنگاوی گونجاو دەبێت بگیردرێتە بەر.",
+                                    "ئێستا کە کێشەکە ناسێنراوە، ھەنگاوی گونجاو دەبێت بگیردرێتە بەر.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -378,7 +379,7 @@ class EnglishEntryappropriate extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (کردار) بەکارهێنانی شتی کەسێکی تر بۆ خۆت""",
+٢. (کردار) بەکارھێنانی شتی کەسێکی تر بۆ خۆت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -404,7 +405,7 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەندێک لە سیاسەتەکانی ئۆپۆزسیۆن لەلایەن حکومەتەوە دزراون.",
+                                    "ھەندێک لە سیاسەتەکانی ئۆپۆزسیۆن لەلایەن حکومەتەوە دزراون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -454,7 +455,7 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە کارەکەی دەرکرا لەدوای ئەوەی زانرا هەندێک لە پارەی کۆمپانیاکەی بۆ خۆی بەکارهێناوە.",
+                                    "لە کارەکەی دەرکرا لەدوای ئەوەی زانرا ھەندێک لە پارەی کۆمپانیاکەی بۆ خۆی بەکارھێناوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -486,7 +487,7 @@ class EnglishEntryappropriate extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (کردار) بردن یان پێدانی شتێک، بۆ نموونە پارە، بۆ بەکارهێنانی بۆ مەبەستێکی تایبەت""",
+٣. (کردار) بردن یان پێدانی شتێک، بۆ نموونە پارە، بۆ بەکارھێنانی بۆ مەبەستێکی تایبەت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -544,7 +545,7 @@ class EnglishEntryappropriate extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٤. (کردار) بردنی شتێک لە کەلتوورێک و بەکارهێنانی وەک ئەوەی هی کەلتووری خۆت بێت""",
+٤. (کردار) بردنی شتێک لە کەلتوورێک و بەکارھێنانی وەک ئەوەی ھی کەلتووری خۆت بێت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -570,7 +571,7 @@ class EnglishEntryappropriate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کە ئیمپراتۆریەتییەکە فراوان بوو، ستایلی هونەریی ژێردەستەکانیان بە پەرۆشییەوە دزی.",
+                                    "کە ئیمپراتۆریەتییەکە فراوان بوو، ستایلی ھونەریی ژێردەستەکانیان بە پەرۆشییەوە دزی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

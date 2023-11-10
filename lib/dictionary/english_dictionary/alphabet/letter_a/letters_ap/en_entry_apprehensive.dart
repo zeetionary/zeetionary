@@ -213,7 +213,7 @@ class EnglishEntryapprehensive extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: نگەران، دڵ‌لەدوا، بێ‌ئارام، ئۆقرەلێهەڵگیراو، زووتێگەیشتوو، زیرەک
+کوردی: نگەران، دڵ‌لەدوا، بێ‌ئارام، ئۆقرەلێھەڵگیراو، زووتێگەیشتوو، زیرەک
 
 ١. (ھاوەڵناو) نیگەران یان تۆقاو لە ڕوودانی شتێکی خراپ""",
                             style: TextStyle(fontSize: 18),

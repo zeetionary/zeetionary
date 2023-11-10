@@ -6,96 +6,97 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// replace EnglishEntryAdopsum - replace speakAppreciative
+// replace EnglishEntryAdopsum - replace speakApproximation
 
-// replace appreciative - /əˈpriːʃətɪv/ - find WORD_WEB
+// replace approximation - /əˌprɒksɪˈmeɪʃn/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryappreciative extends StatelessWidget {
+class EnglishEntryapproximation extends StatelessWidget {
   // blank divider
-  EnglishEntryappreciative({super.key});
+  EnglishEntryapproximation({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppreciative(String languageCode) async {
-    // DOPSUM: CHANGE speakAppreciative
+  Future<void> speakApproximation(String languageCode) async {
+    // DOPSUM: CHANGE speakApproximation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("appreciative"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("approximation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppreciative833(String languageCode) async {
-    // DOPSUM: CHANGE speakAppreciative
+  Future<void> speakApproximation1020(String languageCode) async {
+    // DOPSUM: CHANGE speakApproximation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The company was very appreciative of my efforts."); // DOPSUM: CHANGE TEXT
+        "An approximation of the numbers expected to attend would be 350."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppreciative835(String languageCode) async {
-    // DOPSUM: CHANGE speakAppreciative
+  Future<void> speakApproximation1021(String languageCode) async {
+    // DOPSUM: CHANGE speakApproximation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The audience was highly appreciative."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We do not have the true figures so we will have to make some approximations."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppreciative(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppreciative
+  Future<void> speakApproximation1026(String languageCode) async {
+    // DOPSUM: CHANGE speakApproximation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Our results should be a good approximation of the true state of affairs."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakApproximation(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApproximation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appreciative"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("approximation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppreciative(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppreciative
+  // Future<void> speakApproximation(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApproximation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appreciative"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("approximation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppreciative(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppreciative
+  // Future<void> speakApproximation(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApproximation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appreciative"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("approximation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppreciative(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppreciative
+  // Future<void> speakApproximation(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApproximation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appreciative"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("approximation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppreciative(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppreciative
+  // Future<void> speakApproximation(String languageCode) async {
+  //   // DOPSUM: CHANGE speakApproximation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appreciative"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAppreciative(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppreciative
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appreciative"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("approximation"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -114,7 +115,7 @@ class EnglishEntryappreciative extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "appreciative", // DOPSUM: CHANGE WORD ENTRY - Find /əˈpriːʃətɪv/
+                                "approximation", // DOPSUM: CHANGE WORD ENTRY - Find /əˌprɒksɪˈmeɪʃn/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -133,7 +134,7 @@ class EnglishEntryappreciative extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˈpriːʃətɪv/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əˌprɒksɪˈmeɪʃn/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -143,7 +144,7 @@ class EnglishEntryappreciative extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAppreciative(
+                              onPressed: () => speakApproximation(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -154,7 +155,7 @@ class EnglishEntryappreciative extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˈpriːʃətɪv/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /əˌprɑːksɪˈmeɪʃn/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -164,7 +165,7 @@ class EnglishEntryappreciative extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAppreciative(
+                              onPressed: () => speakApproximation(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -184,12 +185,12 @@ class EnglishEntryappreciative extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
@@ -214,9 +215,9 @@ class EnglishEntryappreciative extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: قەدرزان، پێزان، سپاس‌بێژ، تێگەیشتوو، بەنیشانەی ڕێزەوە یان سپاسەوە 
+کوردی: نزیکاندن، نزیک‌کردنەوە، نزیکی، لە ڕاستی‌یەوە نزیک، لێکچوویی، ھاوشێوەیی (زۆر)، مەزندە، نرخاندن، ھەڵسەنگاندن، قرساندن
 
-١. (ھاوەڵناو) ھەبوونی ھەستی پێزانین و سوپاسگوزاری""",
+١. (ناو) ژمارەیەک کە خەمڵاندنە و تەواو نییە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -227,7 +228,7 @@ class EnglishEntryappreciative extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The company was very appreciative of my efforts.",
+                                    "An approximation of the numbers expected to attend would be 350.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -242,7 +243,7 @@ class EnglishEntryappreciative extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کۆمپانیاکە پێزانینی ھەبوو بۆ ھەوڵەکانم.",
+                                    "ڕێژەی خەمڵێندراوی بەژداربووان پێشبینی‌دەکرێت بگاتە ٣٥٠ کەس.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -255,7 +256,8 @@ class EnglishEntryappreciative extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAppreciative833("en-GB"),
+                                onPressed: () =>
+                                    speakApproximation1020("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -263,8 +265,59 @@ class EnglishEntryappreciative extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAppreciative833(
-                                    // REPLACE: appreciative /əˈpriːʃətɪv/
+                                onPressed: () => speakApproximation1020(
+                                    // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "We do not have the true figures so we will have to make some approximations.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ژمارەی تەواومان لەبەردەست نییە، بۆیە دەبێت خەمڵاندن بکەین.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () =>
+                                    speakApproximation1021("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakApproximation1021(
+                                    // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
                                     "en-US"),
                               ),
                             ],
@@ -274,7 +327,7 @@ class EnglishEntryappreciative extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ھاوەڵناو) پیشاندانی چێژ و خۆشی""",
+٢. (ناو) شتێک بەنزیکەیی وەک شتێکی تر وایە، بەڵام بەتەواوی لێکچووی نییە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -285,7 +338,7 @@ class EnglishEntryappreciative extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The audience was highly appreciative.",
+                                    "Our results should be a good approximation of the true state of affairs.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -300,7 +353,7 @@ class EnglishEntryappreciative extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جەماوەرەکە زۆر بە حەماسەت بوون.",
+                                    "ئەنجامەکانمان دەبێت ھاوشێوەیەکی باشی ڕاستی بارودۆخەکە بێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -313,7 +366,8 @@ class EnglishEntryappreciative extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAppreciative835("en-GB"),
+                                onPressed: () =>
+                                    speakApproximation1026("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -321,13 +375,13 @@ class EnglishEntryappreciative extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAppreciative835(
-                                    // REPLACE: appreciative /əˈpriːʃətɪv/
+                                onPressed: () => speakApproximation1026(
+                                    // REPLACE: approximation /əˌprɑːksɪˈmeɪʃn/
                                     "en-US"),
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
                           // const DividerDefinition(),
                         ],
                       ),
@@ -341,8 +395,8 @@ class EnglishEntryappreciative extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
@@ -373,12 +427,16 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adjective: appreciative 
-1. Feeling or expressive of gratitude
-"was appreciative of his efforts"; "an appreciative word"
+- Noun: approximation (Derived forms: approximations)
+1. An approximate calculation of quantity, degree or worth (= estimate, estimation, idea)
+"an approximation of what it would cost";
  
-2. Having or showing appreciation or a favourable critical judgment or opinion
-"appreciative of a beautiful landscape"; "an appreciative laugh from the audience"
+2. The quality of coming near to identity (especially close in quantity)
+ 
+3. An imprecise or incomplete account
+"newspapers gave only an approximation of the actual events"
+ 
+4. The act of bringing near or bringing together especially the cut edges of tissue (= bringing close together)
 """),
         ],
       ),
@@ -389,12 +447,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "inpok4MKVLM";
+  static String myVideoId = "U0xlKuFqCuI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 121, // DOPSUM: CHANGE IT
+      startAt: 250, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -414,12 +472,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "IlVXoIUO0Cc";
+  static String myVideoId = "oxwCRzQOCu8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 499, // DOPSUM: CHANGE IT
+      startAt: 69, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -439,12 +497,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "Uki1czS3tRg";
+  static String myVideoId = "zM5MW5NKZJg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 271, // DOPSUM: CHANGE IT
+      startAt: 20, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -464,12 +522,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "SUc87t6yIF8";
+  static String myVideoId = "AmQcoopBUTk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 3365, // DOPSUM: CHANGE IT
+      startAt: 218, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -489,12 +547,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "d6S0u8VENOE";
+  static String myVideoId = "Wao0_uB4Zw4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 968, // DOPSUM: CHANGE IT
+      startAt: 520, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -514,12 +572,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "8H8iqtznYPk";
+  static String myVideoId = "D_Y18GEjfNY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 481, // DOPSUM: CHANGE IT
+      startAt: 262, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -539,12 +597,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "O_qgaOUR3Fo";
+  static String myVideoId = "hzAgFNh4vRY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 276, // DOPSUM: CHANGE IT
+      startAt: 93, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -564,12 +622,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "9hv3CcJYMmU";
+  static String myVideoId = "CmjeCchGRQo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 615, // DOPSUM: CHANGE IT
+      startAt: 17, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -589,12 +647,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "dP57iVGvnro";
+  static String myVideoId = "2Hq4CtLfnZs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 201, // DOPSUM: CHANGE IT
+      startAt: 411, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -614,12 +672,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "tyixMpuGEL8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1005, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -639,12 +697,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "vS0TuIPoeBs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 305, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

@@ -383,7 +383,7 @@ class EnglishEntryapprove extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (کردار) وتنی ئەوەی شتێک بەشی پێویست باشە بۆ بەکارهێنان""",
+٣. (کردار) وتنی ئەوەی شتێک بەشی پێویست باشە بۆ بەکارھێنان""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -409,7 +409,7 @@ class EnglishEntryapprove extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم دەرمانە بۆ بەکارهێنان لەسەر منداڵ پەسەند نەکراوە.",
+                                    "ئەم دەرمانە بۆ بەکارھێنان لەسەر منداڵ پەسەند نەکراوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

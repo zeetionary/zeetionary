@@ -288,7 +288,7 @@ class EnglishEntryapproach extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: بۆچوون، دیتن، نێرین، تێ‌ڕوانین، هەڵس‌وکەوت، شێوەی جووڵانەوە، شێوە، ڕێک، شێواز، بار، ڕێگا، ڕێ، ڕێگای چوونەنێو، ئامێر، کەرەسە، لێکچوون، هاوشێوەیی، دەس‌ڕاگەیشتن، گەیشتن، نزیک‌بوونەوە، نزیکی، نزیک‌کەوتن، قەرەکەوتن، توخن‌کەوتن، داوا، داخوازی، پێشنیار
+کوردی: بۆچوون، دیتن، نێرین، تێ‌ڕوانین، ھەڵس‌وکەوت، شێوەی جووڵانەوە، شێوە، ڕێک، شێواز، بار، ڕێگا، ڕێ، ڕێگای چوونەنێو، ئامێر، کەرەسە، لێکچوون، ھاوشێوەیی، دەس‌ڕاگەیشتن، گەیشتن، نزیک‌بوونەوە، نزیکی، نزیک‌کەوتن، قەرەکەوتن، توخن‌کەوتن، داوا، داخوازی، پێشنیار
 
 ١. (ناو) ڕێگای مامەڵەکردن لەگەڵ شتێک""",
                             style: TextStyle(fontSize: 18),
@@ -316,7 +316,7 @@ class EnglishEntryapproach extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێگایەکی هەڵەی گرتە بەر بۆ مامەڵەکردن لەگەڵیان.",
+                                    "ڕێگایەکی ھەڵەی گرتە بەر بۆ مامەڵەکردن لەگەڵیان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -366,7 +366,7 @@ class EnglishEntryapproach extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو ڕێگایەی بەکاریان دەهێنا چی دیکە گونجاو نەبوو.",
+                                    "ئەو ڕێگایەی بەکاریان دەھێنا چی دیکە گونجاو نەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -564,7 +564,7 @@ class EnglishEntryapproach extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٤. (ناو) هەوڵدان بۆ دەستپێکردنی پەیوەندی لەگەڵ کەسێک، بۆ نموونە پەیوەندی سێکسی""",
+٤. (ناو) ھەوڵدان بۆ دەستپێکردنی پەیوەندی لەگەڵ کەسێک، بۆ نموونە پەیوەندی سێکسی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -590,7 +590,7 @@ class EnglishEntryapproach extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەرهەڵستی نزیکبوونەوە پێ‌داگیرەکانیی کرد.",
+                                    "بەرھەڵستی نزیکبوونەوە پێ‌داگیرەکانیی کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -648,7 +648,7 @@ class EnglishEntryapproach extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەموو ڕێگاکانی گەشتن بە کۆشکەکە لەلایەن سەربازەکانەوە پاسەوانی دەکران.",
+                                    "ھەموو ڕێگاکانی گەشتن بە کۆشکەکە لەلایەن سەربازەکانەوە پاسەوانی دەکران.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -706,7 +706,7 @@ class EnglishEntryapproach extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تکایە پشتێنی سەلامەتی ببەستن، فڕۆکەکە ئێستا کۆتا فڕینی ئەنجام‌دەدا بۆ فڕۆکەخانەی هیسرۆو.",
+                                    "تکایە پشتێنی سەلامەتی ببەستن، فڕۆکەکە ئێستا کۆتا فڕینی ئەنجام‌دەدا بۆ فڕۆکەخانەی ھیسرۆو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

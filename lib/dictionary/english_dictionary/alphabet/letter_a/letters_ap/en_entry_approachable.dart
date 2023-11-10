@@ -214,7 +214,7 @@ class EnglishEntryapproachable extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: دەس‌پێڕاگەیشتوو، لەگەیشتن‌هاتوو، لەنزیک، لەبەردەست، ڕووخۆش
+کوردی: دەس‌پێڕاگەیشتوو، لەگەیشتن‌ھاتوو، لەنزیک، لەبەردەست، ڕووخۆش
 
 ١. (ھاوەڵناو) ڕووخۆش و کۆمەڵایەتی""",
                             style: TextStyle(fontSize: 18),
@@ -300,7 +300,7 @@ class EnglishEntryapproachable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لوتکەی شاخەکە تەنها لە باشوورەوە بەردەستە.",
+                                    "لوتکەی شاخەکە تەنھا لە باشوورەوە بەردەستە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

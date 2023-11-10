@@ -215,7 +215,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: تەرخان‌دان، تایبەت‌دان، بودجە، دراونامە، گرتن، دەس‌بەسەراگرتن، زەوت‌کردن، لێ‌سەندن، (لێ)هەڵگرتن، دزین، بڕینەبەرخۆ، دانەبەرخۆ
+کوردی: تەرخان‌دان، تایبەت‌دان، بودجە، دراونامە، گرتن، دەس‌بەسەراگرتن، زەوت‌کردن، لێ‌سەندن، (لێ)ھەڵگرتن، دزین، بڕینەبەرخۆ، دانەبەرخۆ
 
 ١. (ناو) بردنی شتی کەسێکی تر بەبێ مۆڵەت""",
                             style: TextStyle(fontSize: 18),
@@ -243,7 +243,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کۆمپانیا فیلمییەکە سکاڵای لەسەر تۆمارکردن بەهۆی دزینی کارەکتەرێکی فیلمە کارتۆنییە.",
+                                    "کۆمپانیا فیلمییەکە سکاڵای لەسەر تۆمارکردن بەھۆی دزینی کارەکتەرێکی فیلمە کارتۆنییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -301,7 +301,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تیمەکە کۆبوونەوەیەکیان ڕێکخست بۆ گفتوگۆی تەرخانکردنی پارەکە بۆ پڕۆژەکانی داهاتووی نزیک.",
+                                    "تیمەکە کۆبوونەوەیەکیان ڕێکخست بۆ گفتوگۆی تەرخانکردنی پارەکە بۆ پڕۆژەکانی داھاتووی نزیک.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

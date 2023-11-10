@@ -272,7 +272,7 @@ class EnglishEntryapprehend extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (کردار) تێگەشتن و هەست‌کردن بە شتێک""",
+٢. (کردار) تێگەشتن و ھەست‌کردن بە شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -298,7 +298,7 @@ class EnglishEntryapprehend extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "درەنگ هەستی بە مەترسی دەکرد.",
+                                    "درەنگ ھەستی بە مەترسی دەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

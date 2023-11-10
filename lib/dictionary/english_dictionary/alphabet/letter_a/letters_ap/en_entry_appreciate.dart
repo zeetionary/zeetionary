@@ -351,7 +351,7 @@ class EnglishEntryappreciate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێزانینم دەبێ بۆ هەندێک یارمەتی.",
+                                    "پێزانینم دەبێ بۆ ھەندێک یارمەتی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -433,7 +433,7 @@ class EnglishEntryappreciate extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (کردار) هەست‌کردن بەوەی شتێک ڕاستە""",
+٣. (کردار) ھەست‌کردن بەوەی شتێک ڕاستە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -517,7 +517,7 @@ class EnglishEntryappreciate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ساڵ دوای ساڵ وەبەرهێنانەکانیان نرخی زیادبووە.",
+                                    "ساڵ دوای ساڵ وەبەرھێنانەکانیان نرخی زیادبووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

@@ -218,7 +218,7 @@ class EnglishEntryapproval extends StatelessWidget {
                             """
 کوردی: پەسندکردن، مۆرکردن، ڕەوابینی، ڕەزامەندی، ڕێک‌کەوتن، پەژراندن
 
-١. (ناو) هەستی بەدڵبوونی شتێک""",
+١. (ناو) ھەستی بەدڵبوونی شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -244,7 +244,7 @@ class EnglishEntryapproval extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەمتوانی بڵێم ڕەزامەندیی ئەوم بەدەست‌هێناوە.",
+                                    "دەمتوانی بڵێم ڕەزامەندیی ئەوم بەدەست‌ھێناوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

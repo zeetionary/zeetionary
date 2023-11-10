@@ -243,7 +243,7 @@ class EnglishEntryapprehension extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دڵەخورپەی زیاتر و زیاتر هەیە کە شەڕ لەوانەیە دووبارە دەست‌پێ‌بکاتەوە.",
+                                    "دڵەخورپەی زیاتر و زیاتر ھەیە کە شەڕ لەوانەیە دووبارە دەست‌پێ‌بکاتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -293,7 +293,7 @@ class EnglishEntryapprehension extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە دڵەخورپەوە سەیری ئەنجامی هەڵبژاردنەکانی دەکرد.",
+                                    "بە دڵەخورپەوە سەیری ئەنجامی ھەڵبژاردنەکانی دەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -351,7 +351,7 @@ class EnglishEntryapprehension extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەردوو سوپا و پۆلیس بەژداربوون لە دەستگیرکردنی تیرۆریستەکان.",
+                                    "ھەردوو سوپا و پۆلیس بەژداربوون لە دەستگیرکردنی تیرۆریستەکان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

@@ -216,7 +216,7 @@ class EnglishEntryapprentice extends StatelessWidget {
                             """
 کوردی: شاگرد، بەروەستا، فێرخواز، پیشەشاگرد، تازەکار، نۆفێر، تازەفێر
 
-١. (ناو) کەسێک کە لەلای کەسێکی شارەزا کاردەکات بۆ فێربوونی بەهرەکە، زۆرجار بە پارەیەکی کەم""",
+١. (ناو) کەسێک کە لەلای کەسێکی شارەزا کاردەکات بۆ فێربوونی بەھرەکە، زۆرجار بە پارەیەکی کەم""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

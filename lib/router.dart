@@ -865,6 +865,13 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appropriation.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_approval.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_approve.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_approvingly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_approximate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_approximately.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_approximation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apricot.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_april.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
@@ -1831,16 +1838,20 @@ final loggedInRoute = RouteMap(routes: {
   "/english-approachable": (_) =>
       MaterialPage(child: EnglishEntryapproachable()),
   "/english-appropriate": (_) => MaterialPage(child: EnglishEntryappropriate()),
-  "/english-appropriately": (_) => MaterialPage(child: EnglishEntryappropriately()),
-  "/english-appropriation": (_) => MaterialPage(child: EnglishEntryappropriation()),
+  "/english-appropriately": (_) =>
+      MaterialPage(child: EnglishEntryappropriately()),
+  "/english-appropriation": (_) =>
+      MaterialPage(child: EnglishEntryappropriation()),
   "/english-approval": (_) => MaterialPage(child: EnglishEntryapproval()),
   "/english-approve": (_) => MaterialPage(child: EnglishEntryapprove()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-approvingly": (_) => MaterialPage(child: EnglishEntryapprovingly()),
+  "/english-approximate": (_) => MaterialPage(child: EnglishEntryapproximate()),
+  "/english-approximately": (_) =>
+      MaterialPage(child: EnglishEntryapproximately()),
+  "/english-approximation": (_) =>
+      MaterialPage(child: EnglishEntryapproximation()),
+  "/english-apricot": (_) => MaterialPage(child: EnglishEntryapricot()),
+  "/english-april": (_) => MaterialPage(child: EnglishEntryapril()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

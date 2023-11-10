@@ -852,16 +852,16 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "appraisal",
     "appreciable",
     "appreciably",
-    // "appreciate",
-    // "appreciation",
-    // "appreciative",
-    // "apprehend",
-    // "apprehension",
-    // "apprehensive",
-    // "apprentice",
-    // "apprenticeship",
-    // "approach",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
+    "appreciate",
+    "appreciation",
+    "appreciative",
+    "apprehend",
+    "apprehension",
+    "apprehensive",
+    "apprentice",
+    "apprenticeship",
+    "approach",
+    "approachable",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
@@ -4386,46 +4386,46 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push('/english-appreciably');
                   }
-                  // if (wordsEnglish == "appreciate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-appreciate');
-                  // }
-                  // if (wordsEnglish == "appreciation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-appreciation');
-                  // }
-                  // if (wordsEnglish == "appreciative") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-appreciative');
-                  // }
-                  // if (wordsEnglish == "apprehend") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-apprehend');
-                  // }
-                  // if (wordsEnglish == "apprehension") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-apprehension');
-                  // }
-                  // if (wordsEnglish == "apprehensive") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-apprehensive');
-                  // }
-                  // if (wordsEnglish == "apprentice") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-apprentice');
-                  // }
-                  // if (wordsEnglish == "apprenticeship") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-apprenticeship');
-                  // }
-                  // if (wordsEnglish == "approach") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-approach');
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');
-                  // }
+                  if (wordsEnglish == "appreciate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-appreciate');
+                  }
+                  if (wordsEnglish == "appreciation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-appreciation');
+                  }
+                  if (wordsEnglish == "appreciative") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-appreciative');
+                  }
+                  if (wordsEnglish == "apprehend") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-apprehend');
+                  }
+                  if (wordsEnglish == "apprehension") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-apprehension');
+                  }
+                  if (wordsEnglish == "apprehensive") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-apprehensive');
+                  }
+                  if (wordsEnglish == "apprentice") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-apprentice');
+                  }
+                  if (wordsEnglish == "apprenticeship") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-apprenticeship');
+                  }
+                  if (wordsEnglish == "approach") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-approach');
+                  }
+                  if (wordsEnglish == "approachable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push('/english-approachable');
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push('/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM');

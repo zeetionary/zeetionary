@@ -859,7 +859,7 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apprentice.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apprenticeship.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_approach.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_approachable.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
@@ -1805,15 +1805,21 @@ final loggedInRoute = RouteMap(routes: {
   "/english-appreciable": (_) => MaterialPage(child: EnglishEntryappreciable()),
   "/english-appreciably": (_) => MaterialPage(child: EnglishEntryappreciably()),
   "/english-appreciate": (_) => MaterialPage(child: EnglishEntryappreciate()),
-  "/english-appreciation": (_) => MaterialPage(child: EnglishEntryappreciation()),
-  "/english-appreciative": (_) => MaterialPage(child: EnglishEntryappreciative()),
+  "/english-appreciation": (_) =>
+      MaterialPage(child: EnglishEntryappreciation()),
+  "/english-appreciative": (_) =>
+      MaterialPage(child: EnglishEntryappreciative()),
   "/english-apprehend": (_) => MaterialPage(child: EnglishEntryapprehend()),
-  "/english-apprehension": (_) => MaterialPage(child: EnglishEntryapprehension()),
-  "/english-apprehensive": (_) => MaterialPage(child: EnglishEntryapprehensive()),
+  "/english-apprehension": (_) =>
+      MaterialPage(child: EnglishEntryapprehension()),
+  "/english-apprehensive": (_) =>
+      MaterialPage(child: EnglishEntryapprehensive()),
   "/english-apprentice": (_) => MaterialPage(child: EnglishEntryapprentice()),
-  "/english-apprenticeship": (_) => MaterialPage(child: EnglishEntryapprenticeship()),
+  "/english-apprenticeship": (_) =>
+      MaterialPage(child: EnglishEntryapprenticeship()),
   "/english-approach": (_) => MaterialPage(child: EnglishEntryapproach()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-approachable": (_) =>
+      MaterialPage(child: EnglishEntryapproachable()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

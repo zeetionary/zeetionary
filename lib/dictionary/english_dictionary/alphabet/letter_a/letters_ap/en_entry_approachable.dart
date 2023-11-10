@@ -242,7 +242,7 @@ class EnglishEntryapproachable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەگەرچی ئەستێرەیەکی تێگەشتووە، بەڵام کەسێکی کۆمەڵایەتییە.",
+                                    "ئەگەرچی ئەستێرەیەکی گەورەیە، بەڵام کەسێکی کۆمەڵایەتییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

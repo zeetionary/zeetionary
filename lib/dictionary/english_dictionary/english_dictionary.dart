@@ -4458,6 +4458,10 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-approximately");
                   }
+                  if (wordsEnglish == "approximation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-approximation");
+                  }
                   if (wordsEnglish == "April") {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-april");

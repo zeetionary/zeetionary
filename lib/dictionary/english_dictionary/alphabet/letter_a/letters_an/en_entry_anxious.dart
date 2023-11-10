@@ -30,7 +30,7 @@ class EnglishEntryanxious extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        " I felt very anxious and depressed about the future."); // DOPSUM: CHANGE TEXT
+        "The bus was late and Sue began to get anxious."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnxious735(String languageCode) async {
@@ -39,7 +39,7 @@ class EnglishEntryanxious extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        " I felt very anxious and depressed about the future."); // DOPSUM: CHANGE TEXT
+        "I felt very anxious and depressed about the future."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAnxious738(String languageCode) async {
@@ -277,7 +277,7 @@ class EnglishEntryanxious extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    " I felt very anxious and depressed about the future.",
+                                    "I felt very anxious and depressed about the future.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,

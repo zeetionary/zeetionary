@@ -6,96 +6,95 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// replace EnglishEntryAdopsum - replace speakAppraisal
+// replace EnglishEntryAdopsum - replace speakAppropriately
 
-// replace appraisal - /əˈpreɪzl/ - find WORD_WEB
+// replace appropriately - /əˈprəʊpriətli/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryappraisal extends StatelessWidget {
+class EnglishEntryappropriately extends StatelessWidget {
   // blank divider
-  EnglishEntryappraisal({super.key});
+  EnglishEntryappropriately({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppraisal(String languageCode) async {
-    // DOPSUM: CHANGE speakAppraisal
+  Future<void> speakAppropriately(String languageCode) async {
+    // DOPSUM: CHANGE speakAppropriately
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("appraisal"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("appropriately"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppraisal930(String languageCode) async {
-    // DOPSUM: CHANGE speakAppraisal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The report has been subject to appraisal."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAppraisal932(String languageCode) async {
-    // DOPSUM: CHANGE speakAppraisal
+  Future<void> speakAppropriately414(String languageCode) async {
+    // DOPSUM: CHANGE speakAppropriately
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A detailed appraisal of the scheme will now be carried out."); // DOPSUM: CHANGE TEXT
+        "The government has been accused of not responding appropriately to the needs of the homeless."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppraisal935(String languageCode) async {
-    // DOPSUM: CHANGE speakAppraisal
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I have my appraisal today."); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakAppraisal(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppraisal
+  // Future<void> speakAppropriately(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAppropriately
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appraisal"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appropriately"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppraisal(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppraisal
+  // Future<void> speakAppropriately(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAppropriately
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appraisal"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appropriately"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppraisal(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppraisal
+  // Future<void> speakAppropriately(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAppropriately
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appraisal"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appropriately"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppraisal(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppraisal
+  // Future<void> speakAppropriately(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAppropriately
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appraisal"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appropriately"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppraisal(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppraisal
+  // Future<void> speakAppropriately(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAppropriately
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appraisal"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("appropriately"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAppropriately(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAppropriately
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("appropriately"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAppropriately(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAppropriately
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("appropriately"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -114,7 +113,7 @@ class EnglishEntryappraisal extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "appraisal", // DOPSUM: CHANGE WORD ENTRY - Find /əˈpreɪzl/
+                                "appropriately", // DOPSUM: CHANGE WORD ENTRY - Find /əˈprəʊpriətli/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -133,7 +132,7 @@ class EnglishEntryappraisal extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˈpreɪzl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əˈprəʊpriətli/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -143,7 +142,7 @@ class EnglishEntryappraisal extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAppraisal(
+                              onPressed: () => speakAppropriately(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -154,7 +153,7 @@ class EnglishEntryappraisal extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˈpreɪzl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /əˈprəʊpriətli/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -164,7 +163,7 @@ class EnglishEntryappraisal extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAppraisal(
+                              onPressed: () => speakAppropriately(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -184,13 +183,13 @@ class EnglishEntryappraisal extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -214,9 +213,7 @@ class EnglishEntryappraisal extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: نرخاندن، ھەڵسەنگاندن، مەزندە، قەبڵاندن، لێکدانەوە، بۆچوون
-
-١. (ناو) نرخاندنی نرخ و بەھای شتێک""",
+١. (ھاوەڵکار) بە گونجاوی و درووستی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -227,7 +224,7 @@ class EnglishEntryappraisal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The report has been subject to appraisal.",
+                                    "The government has been accused of not responding appropriately to the needs of the homeless.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -242,7 +239,7 @@ class EnglishEntryappraisal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕاپۆرتەکە بە لێکدانەوەدا تێپەڕبووە.",
+                                    "حکومەت تاوانبار کراوە بە وەڵام‌نەدانەوەی گونجاو بۆ پێداویستییەکانی کەسانی بێ‌لانە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -255,7 +252,7 @@ class EnglishEntryappraisal extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAppraisal930("en-GB"),
+                                onPressed: () => speakAppropriately414("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -263,116 +260,8 @@ class EnglishEntryappraisal extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAppraisal930(
-                                    // REPLACE: appraisal /əˈpreɪzl/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "A detailed appraisal of the scheme will now be carried out.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھەڵسەنگاندنێکی وردی پلانەکە ئەنجام دەدرێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAppraisal932("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAppraisal932(
-                                    // REPLACE: appraisal /əˈpreɪzl/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ناو) کۆبوونەوەیەک کە تێیدا کارمەندێک باسی کارەکەی بۆ بەڕێوبەرەکەی دەکات""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I have my appraisal today.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ئەمڕۆ ڕۆژی ھەڵسەنگاندنمە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAppraisal935("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAppraisal935(
-                                    // REPLACE: appraisal /əˈpreɪzl/
+                                onPressed: () => speakAppropriately414(
+                                    // REPLACE: appropriately /əˈprəʊpriətli/
                                     "en-US"),
                               ),
                             ],
@@ -390,10 +279,10 @@ class EnglishEntryappraisal extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -423,12 +312,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: appraisal (Derived forms: appraisals)
-The classification of someone or something with respect to its worth (= assessment)
- 
-2. A document appraising the value of something (as for insurance or taxation) (= estimate, estimation)
- 
-3. An expert estimation of the quality, quantity, and other characteristics of someone or something
+- Adverb: appropriately  
+1. In accordance with what is appropriate or suitable for the circumstances (= suitably, fittingly, befittingly, fitly, properly, duly, appositely)
+"he was appropriately dressed";
 """),
         ],
       ),
@@ -439,12 +325,12 @@ The classification of someone or something with respect to its worth (= assessme
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "B72OF38F93g";
+  static String myVideoId = "https://youtu.be/4AetJ7xJTdw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 80, // DOPSUM: CHANGE IT
+      startAt: 15, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -464,12 +350,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "yoigsHYc77s";
+  static String myVideoId = "https://youtu.be/-Ez3OzYA2gM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 60, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -489,12 +375,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "T_7vhsSBi7c";
+  static String myVideoId = "https://youtu.be/-_rW_EFFHuQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 921, // DOPSUM: CHANGE IT
+      startAt: 475, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -514,12 +400,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "ZZ3F3zWiEmc";
+  static String myVideoId = "https://youtu.be/PjDuKkJnooc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 287, // DOPSUM: CHANGE IT
+      startAt: 185, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -539,12 +425,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "q-2l7-6hDHk";
+  static String myVideoId = "https://youtu.be/LGNOBjHA70c?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 429, // DOPSUM: CHANGE IT
+      startAt: 11, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -564,12 +450,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "iX0mULW0XZI";
+  static String myVideoId = "https://youtu.be/1p8r-2ffK_c?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 274, // DOPSUM: CHANGE IT
+      startAt: 140, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -589,12 +475,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "9_1jolg6b-U";
+  static String myVideoId = "https://youtu.be/HAnw168huqA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1253, // DOPSUM: CHANGE IT
+      startAt: 2034, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -614,12 +500,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "D_q4LhTrdls";
+  static String myVideoId = "https://youtu.be/r9cLluDKIhk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 393, // DOPSUM: CHANGE IT
+      startAt: 304, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -639,12 +525,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/Unzc731iCUY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 3116, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -664,12 +550,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/JR3z8lq2cNM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 355, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -689,12 +575,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/dph7FUCjvLM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 314, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -714,12 +600,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/PoNCG3PZKII?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 929, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

@@ -860,6 +860,16 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apprenticeship.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_approach.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_approachable.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appropriate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appropriately.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_appropriation.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_DOPSUM.dart';
@@ -1820,9 +1830,9 @@ final loggedInRoute = RouteMap(routes: {
   "/english-approach": (_) => MaterialPage(child: EnglishEntryapproach()),
   "/english-approachable": (_) =>
       MaterialPage(child: EnglishEntryapproachable()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-appropriate": (_) => MaterialPage(child: EnglishEntryappropriate()),
+  "/english-appropriately": (_) => MaterialPage(child: EnglishEntryappropriately()),
+  "/english-appropriation": (_) => MaterialPage(child: EnglishEntryappropriation()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

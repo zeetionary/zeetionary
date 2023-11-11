@@ -237,7 +237,7 @@ class EnglishEntryacuteness extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یاد دەکرێتەوە بۆ بوونی داناییەکی زۆر",
+                                    "یاد دەکرێتەوە بۆ بوونی داناییەکی زۆر.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

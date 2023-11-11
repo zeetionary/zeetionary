@@ -10,6 +10,7 @@ class HistoryScreen extends StatelessWidget {
     SharedPreferences prefs = await SharedPreferences.getInstance();
 
     // Show a dialog to confirm clearing history
+    // ignore: use_build_context_synchronously
     bool confirmClear = await showDialog(
       context: context,
       builder: (BuildContext context) {
@@ -18,9 +19,11 @@ class HistoryScreen extends StatelessWidget {
             'دڵنیایی‌ کردنەوە',
             textDirection: TextDirection.rtl,
           ),
+          // content: const Text(''),
           content: const Text(
             'دەتەوێت ھەموو گەڕانەکانی پێشوو بسڕیتەوە؟',
             textDirection: TextDirection.rtl,
+            tex
           ),
           actions: <Widget>[
             TextButton(
@@ -65,7 +68,7 @@ class HistoryScreen extends StatelessWidget {
             } else if (snapshot.hasData) {
               final history = snapshot.data;
               return ListView.builder(
-                itemCount: history?.length ?? 0,
+                itemCount: history?.length,
                 itemBuilder: (context, index) {
                   final word = history![index];
                   return ListTile(
@@ -98,14 +101,7 @@ class HistoryScreen extends StatelessWidget {
     List<String> history = prefs.getStringList('history') ?? [];
 
     // Reverse the order of the history list
-    history = history.reversed.toList();
-
-    // Limit the history to only ten items
-    if (history.length > 20) {
-      history = history.sublist(0, 20);
-    }
-
-    return history;
+    return history.reversed.toList();
   }
 
   void navigateToScreen(BuildContext context, String word) {

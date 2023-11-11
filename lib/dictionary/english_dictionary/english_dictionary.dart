@@ -577,6 +577,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "Alzheimer's disease",
     "am",
     "a.m.",
+    "AM",
     "amalgamate",
     "amalgamation",
     "amass",
@@ -917,11 +918,11 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "ardent",
     "ardently",
     "arduous",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
+    // "arduously",
+    // "are",
+    // "area",
+    // "arena",
+    // "aren't",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
@@ -3295,11 +3296,15 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   }
                   if (wordsEnglish == "am") {
                     saveToHistory(wordsEnglish);
-                    Routemaster.of(context).push("/english-am");
+                    Routemaster.of(context).push("/english-be");
                   }
                   if (wordsEnglish == "a.m.") {
                     saveToHistory(wordsEnglish);
-                    Routemaster.of(context).push("/english-a-m");
+                    Routemaster.of(context).push("/english-am-time");
+                  }
+                  if (wordsEnglish == "AM") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-am-radio");
                   }
                   if (wordsEnglish == "amalgamate") {
                     saveToHistory(wordsEnglish);
@@ -4690,25 +4695,25 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-arduous");
                   }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "arduously") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-arduously");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "are") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-be");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "area") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-area");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "arena") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-arena");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "aren't") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-be");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

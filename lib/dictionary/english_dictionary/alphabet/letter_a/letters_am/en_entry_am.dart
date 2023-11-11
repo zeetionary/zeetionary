@@ -20,14 +20,6 @@ class EnglishEntryam extends StatelessWidget {
     await flutterTts.speak("am"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAm4555(String languageCode) async {
-    // DOPSUM: CHANGE speakAm
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I am a teacher."); // DOPSUM: CHANGE TEXT
-  }
-
   Future<void> speakAm795888(String languageCode) async {
     // DOPSUM: CHANGE speakAm
     await flutterTts.setLanguage(languageCode);
@@ -48,7 +40,7 @@ class EnglishEntryam extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 8, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 5, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -66,7 +58,7 @@ class EnglishEntryam extends StatelessWidget {
                         const Row(
                           children: [
                             Text(
-                              "am (or AM)", // DOPSUM: CHANGE WORD ENTRY - Find /əm/, /æm/, /ˌeɪ ˈem/
+                              "AM", // DOPSUM: CHANGE WORD ENTRY - Find /əm/, /æm/, /ˌeɪ ˈem/
                               style: TextStyle(
                                   fontSize: 20, fontWeight: FontWeight.bold),
                             ),
@@ -82,7 +74,7 @@ class EnglishEntryam extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUK: /əm/, /æm/, /ˌeɪ ˈem/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                              "IpaUK: /ˌeɪ ˈem/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -100,7 +92,7 @@ class EnglishEntryam extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUS: /əm/, /æm/, /ˌeɪ ˈem/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              "IpaUS: /ˌeɪ ˈem/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(
@@ -127,9 +119,9 @@ class EnglishEntryam extends StatelessWidget {
                   VideoIconForTab(), // 01
                   VideoIconForTab(), // 02
                   VideoIconForTab(), // 03
-                  VideoIconForTab(), // 04
-                  VideoIconForTab(), // 05
-                  VideoIconForTab(), // FIND: 2,
+                  // VideoIconForTab(), // 04
+                  // VideoIconForTab(), // 05
+                  // VideoIconForTab(), // FIND: 2,
                   // VideoIconForTab(), // 07
                   // VideoIconForTab(), // 08
                   // VideoIconForTab(), // 09
@@ -156,62 +148,6 @@ class EnglishEntryam extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (کردار) کاری ڕانەبردوو لەگەڵ کەسی یەکەمی تاک''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "I am a teacher.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "من مامۆستام.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAm4555("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAm4555(
-                                    // REPLACE: am /əm/, /æm/, /ˌeɪ ˈem/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             '''
@@ -274,9 +210,9 @@ class EnglishEntryam extends StatelessWidget {
                     YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
-                    YoutubeEmbeddedfour(),
-                    YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    // YoutubeEmbeddedfour(),
+                    // YoutubeEmbeddedfive(),
+                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     // YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
@@ -333,7 +269,7 @@ Verb: am
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = 'U6y7YOlldek';
+  static String myVideoId = 'hz_mMLhUinw';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -341,7 +277,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 15, // DOPSUM: CHANGE IT
+      startAt: 32, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -357,7 +293,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'YGs9-_Fe74g';
+  static String myVideoId = 'j_I2jaKbnPk';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -365,7 +301,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       autoPlay: true, enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 10, // DOPSUM: CHANGE IT
+      startAt: 65, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
@@ -381,78 +317,6 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'JJhSNh_WnQ8';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
-      loop: true,
-      mute: false,
-      startAt: 196, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedthree({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'hz_mMLhUinw';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
-      loop: true,
-      mute: false,
-      startAt: 32, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedfour({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'j_I2jaKbnPk';
-
-  final YoutubePlayerController _controller = YoutubePlayerController(
-    initialVideoId: myVideoId,
-    flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
-      loop: true,
-      mute: false,
-      startAt: 65, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
-    ),
-  );
-
-  YoutubeEmbeddedfive({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: YouTubeContainerDesign(controller: _controller),
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
   static String myVideoId = 'UeXE39riKFc';
 
   final YoutubePlayerController _controller = YoutubePlayerController(
@@ -466,7 +330,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
     ),
   );
 
-  YoutubeEmbeddedsix({super.key});
+  YoutubeEmbeddedthree({super.key});
 
   @override
   Widget build(BuildContext context) {

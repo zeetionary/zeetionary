@@ -912,9 +912,9 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_ardent.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_ardently.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_arduous.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_arduously.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_area.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_arena.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
@@ -1553,8 +1553,9 @@ final loggedInRoute = RouteMap(routes: {
   "/english-always": (_) => MaterialPage(child: EnglishEntryalways()),
   "/english-alzheimers-disease": (_) =>
       MaterialPage(child: EnglishEntryalzheimersdisease()),
-  "/english-am": (_) => MaterialPage(child: EnglishEntryam()),
-  "/english-a-m": (_) => MaterialPage(child: EnglishEntryamtwo()),
+  "/english-am-radio": (_) => MaterialPage(child: EnglishEntryam()),
+  "/english-am-time": (_) => MaterialPage(child: EnglishEntryamtwo()),
+  // "/english-be": (_) => MaterialPage(child: EnglishEntrybe()),
   "/english-amalgamate": (_) => MaterialPage(child: EnglishEntryamalgamate()),
   "/english-amalgamation": (_) =>
       MaterialPage(child: EnglishEntryamalgamation()),
@@ -1942,9 +1943,9 @@ final loggedInRoute = RouteMap(routes: {
   "/english-ardent": (_) => MaterialPage(child: EnglishEntryardent()),
   "/english-ardently": (_) => MaterialPage(child: EnglishEntryardently()),
   "/english-arduous": (_) => MaterialPage(child: EnglishEntryarduous()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-arduously": (_) => MaterialPage(child: EnglishEntryarduously()),
+  "/english-area": (_) => MaterialPage(child: EnglishEntryarea()),
+  "/english-arena": (_) => MaterialPage(child: EnglishEntryarena()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

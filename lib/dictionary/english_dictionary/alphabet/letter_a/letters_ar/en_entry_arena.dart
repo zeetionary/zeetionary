@@ -4,85 +4,92 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryamphitheatre - replace speakAmphitheatre - replace amphitheatre - /ˈæmfɪθɪətə(r)/ - find Dopsum2
+// More sentences is NOT done
+
+// replace EnglishEntryAdopsummm - replace speakArena
+
+// replace arena - /əˈriːnə/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryamphitheatre extends StatelessWidget {
-  EnglishEntryamphitheatre({super.key});
+class EnglishEntryarena extends StatelessWidget {
+  // blank divider
+  EnglishEntryarena({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmphitheatre(String languageCode) async {
-    // DOPSUM: CHANGE speakAmphitheatre
+  Future<void> speakArena(String languageCode) async {
+    // DOPSUM: CHANGE speakArena
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amphitheatre"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("arena"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmphitheatre150089(String languageCode) async {
-    // DOPSUM: CHANGE speakAmphitheatre
+  Future<void> speakArena1042(String languageCode) async {
+    // DOPSUM: CHANGE speakArena
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The amphitheatre is well worth a visit."); // DOPSUM: CHANGE TEXT
+        "The rider has to halt the horse in the arena."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmphitheatre(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmphitheatre
+  Future<void> speakArena1045(String languageCode) async {
+    // DOPSUM: CHANGE speakArena
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The company has been very successful in the commercial arena."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakArena(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArena
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amphitheatre"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arena"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphitheatre(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmphitheatre
+  // Future<void> speakArena(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArena
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amphitheatre"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arena"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphitheatre(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmphitheatre
+  // Future<void> speakArena(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArena
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amphitheatre"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arena"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphitheatre(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmphitheatre
+  // Future<void> speakArena(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArena
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amphitheatre"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arena"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphitheatre(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmphitheatre
+  // Future<void> speakArena(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArena
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amphitheatre"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arena"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAmphitheatre(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmphitheatre
+  // Future<void> speakArena(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArena
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amphitheatre"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAmphitheatre(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmphitheatre
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amphitheatre"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arena"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -107,7 +114,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "amphitheatre", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæmfɪθɪətə(r)/
+                                "arena", // DOPSUM: CHANGE WORD ENTRY - Find /əˈriːnə/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -126,7 +133,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˈæmfɪθɪətə(r)/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əˈriːnə/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -136,9 +143,9 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAmphitheatre(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakArena(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
@@ -147,7 +154,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˈæmfɪθiːətər/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                "IpaUS: /əˈriːnə/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -157,7 +164,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAmphitheatre(
+                              onPressed: () => speakArena(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -177,8 +184,8 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // FIND: 2,
-                  VideoIconForTab(), // 07
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14,
+                  VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -206,10 +213,10 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                         children: [
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-کوردی: پیشانگای خڕ، ئامفی‌تەئەتر، ئامفی‌تیاتر؛ ئۆدیۆتۆریۆمێکی زۆر گەورە، شانۆپان (شانۆ + گۆڕەپان)، شوێنێ بۆ سەرگەرمی گشتی (وەک بۆ کۆنسێرت و یاری‌یەکان)، چاڵ، تەختایی‌یێکی دەوردراو بە لێژایی توند
+                            """
+کوردی: شەڕگە یان گۆڕەپان یان مەیدانی شەڕی شەڕگەر یان گلادیاتۆرەکانی ڕۆم، گۆڕەپان، مەیدان، کایە، پانتایی، قاد، مەڵبەند، شوێنی چالاکی یان پێش‌بڕکێ، گۆڕ، وەرزشگا، لمانی، ستادیۆم، یاریگا 
 
-١. (ناو) بینایەکی بازنەیی کە سەقفی نییە و ڕیزە جێگای پلەپلەی دانیشتنی ھەیە بە دەوری گۆڕەپانێک لە ناوەڕاستی بیناکەدا. ئەم بینایانە زیاتر لە یۆنان و ڕۆمی کۆندا بەکاردەھاتن بۆ ئاھەنگە چێژبەخشەکان''',
+١. (ناو) بینایەکی بازنەیی کە سەقفی نییە و ڕیزە جێگای پلەپلەی دانیشتنی ھەیە بە دەوری گۆڕەپانێک لە ناوەڕاستی بیناکەدا """,
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -220,7 +227,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The amphitheatre is well worth a visit.",
+                                    "The rider has to halt the horse in the arena.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -235,7 +242,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شانۆپانەکە شایەنی سەردانییەکە.",
+                                    "سوارەکە دەبێت ئەسپەکە لە گۆڕەپانەکەدا بوەستێنێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -248,8 +255,7 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () =>
-                                    speakAmphitheatre150089("en-GB"),
+                                onPressed: () => speakArena1042("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -257,28 +263,76 @@ class EnglishEntryamphitheatre extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAmphitheatre150089(
-                                    // REPLACE: amphitheatre /ˈæmfɪθiːətər/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakArena1042(// REPLACE: arena /əˈriːnə/
+                                        "en-US"),
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
                           // const DividerSentences(),
+                          const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) ژوورێک، ھۆڵێک، یان سینەمایەک کە جێگەی دانیشتنی تێدایە کە پلەپلە بەرزدەبنەوە''',
+                            """
+٢. (ناو) کایەیەکی چالاکی کە خەڵکی گرنگی پێ‌دەدەن و بەسەر لایەنەکانیدا بە بیروڕای جیاوازەوە دابەش‌دەبن """,
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
                           ),
-                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The company has been very successful in the commercial arena.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "کۆمپانیاکە زۆر سەرکەوتوو بووە لەلایەنی بازرگانییەوە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakArena1045("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakArena1045(// REPLACE: arena /əˈriːnə/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
                           // const DividerSentences(),
+                          // const DividerDefinition(),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
+                    YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
@@ -318,12 +372,17 @@ class EnglishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
-Noun: amphitheatre (Derived forms: amphitheatres)
-1. (dramaturgy) a sloping gallery with seats for spectators (as in an operating room or theatre) (= amphitheater [US])
+          Text("""
+- Noun: arena (Derived forms: arenas)
+1. A particular environment or walk of life (= sphere, domain, area, orbit, field)
+"his social arena is limited";
  
-2. An oval large stadium with tiers of seats; an arena in which contests and spectacles are held (= amphitheater [US], coliseum)
-'''),
+2. The central area of an ancient Roman amphitheatre where contests and spectacles were held; especially an area that was strewn with sand
+ 
+3. A large structure for open-air sports or entertainments (= stadium, bowl, sports stadium)
+ 
+4. A playing field where sports events take place (= scene of action)
+"""),
         ],
       ),
     );
@@ -333,16 +392,17 @@ Noun: amphitheatre (Derived forms: amphitheatres)
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '7pEeYUdlq6U';
+  static String myVideoId = "https://youtu.be/Gv4Af83KFrE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 574, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 18, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -357,16 +417,17 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'OLkc7s7jZMg';
+  static String myVideoId = "https://youtu.be/EjidrUoHvPs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 802, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -381,16 +442,17 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'QnBJODYcFsI';
+  static String myVideoId = "https://youtu.be/wRNYoWFjmEc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 488, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 49, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -405,16 +467,17 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = 'kjqNsQWi9e4';
+  static String myVideoId = "https://youtu.be/p7iwXvBnbIE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 416, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 116, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -429,16 +492,17 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = 'Cg5AzNbZGgM';
+  static String myVideoId = "https://youtu.be/w2DTEOB5rhk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 442, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 5, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -453,16 +517,17 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = 'qHHpTYmEsao';
+  static String myVideoId = "https://youtu.be/Vnf6hbRfIv0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 18, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 2166, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -477,16 +542,17 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'zMYYfWWp2Po';
+  static String myVideoId = "https://youtu.be/qVfJheBp7Ys?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 987, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 35, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -501,16 +567,17 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = '-bcFS-4p5DE';
+  static String myVideoId = "https://youtu.be/Ix6vtM4gP8g?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 979, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 4, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -525,16 +592,17 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = '73SOZgEGR_8';
+  static String myVideoId = "https://youtu.be/qWNHsaszXpc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 1010, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 143, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -549,16 +617,17 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'hIO8chsH_7U';
+  static String myVideoId = "https://youtu.be/zvFD5KBAb0Q?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 1306, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 10, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -573,16 +642,17 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = 'PUT_VIDEO_ID';
+  static String myVideoId = "https://youtu.be/4BzGTiJ0k3k?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 550, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -597,16 +667,17 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = 'eoi7KzsAUuw';
+  static String myVideoId = "https://youtu.be/pvJqvA0QU1g?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 73, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 173, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -620,7 +691,65 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   }
 }
 
-// end
+// morethan one video, only first autoplay
 
+// class YoutubeEmbeddethirteen extends StatelessWidget {
+//   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+//   static String myVideoIdTwo = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+//   static String myVideoIdThree = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
-// TODO Implement this library.
+//   final YoutubePlayerController _controller = YoutubePlayerController(
+//     initialVideoId: myVideoId,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   final YoutubePlayerController _controllertwo = YoutubePlayerController(
+//     initialVideoId: myVideoIdTwo,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   final YoutubePlayerController _controllerthree = YoutubePlayerController(
+//     initialVideoId: myVideoIdThree,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   YoutubeEmbeddethirteen({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       body: SingleChildScrollView(
+//         child: Column(
+//           children: [
+//             YouTubeContainerDesign(controller: _controller),
+//             YouTubeContainerDesign(controller: _controllertwo),
+//             YouTubeContainerDesign(controller: _controllerthree),
+//           ],
+//         ),
+//       ),
+//     );
+//   }
+// }
+
+// end // TODO Implement this library.

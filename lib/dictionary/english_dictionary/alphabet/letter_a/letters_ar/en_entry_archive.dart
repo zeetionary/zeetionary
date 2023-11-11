@@ -214,7 +214,7 @@ class EnglishEntryarchive extends StatelessWidget {
                             """
 کوردی: بەڵگەخانە، بەڵگار، ئەرکیڤ، ئارشیڤ
 
-١. (ناو) کۆمەڵە دۆکیومێنتێکی مێژوویی یان تۆماری حکومەت، خێزانێک، جێگایەک، یان دامەزراوەیەک؛ ئەو شوێنەی ئەم تۆمارانەی تێدا هەڵدەگیرێت""",
+١. (ناو) کۆمەڵە دۆکیومێنتێکی مێژوویی یان تۆماری حکومەت، خێزانێک، جێگایەک، یان دامەزراوەیەک؛ ئەو شوێنەی ئەم تۆمارانەی تێدا ھەڵدەگیرێت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -330,7 +330,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/ibxKEqxARkE?t=";
+  static String myVideoId = "ibxKEqxARkE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -355,7 +355,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/wACD_Nl8o4E?t=";
+  static String myVideoId = "wACD_Nl8o4E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -380,7 +380,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/_IeS1m8r6SY?t=";
+  static String myVideoId = "_IeS1m8r6SY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -405,7 +405,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/R_ByP_XAk9o?t=";
+  static String myVideoId = "R_ByP_XAk9o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -430,7 +430,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/twAP3buj9Og?t=";
+  static String myVideoId = "twAP3buj9Og";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -455,7 +455,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/KZbzIf_C6Y4?t=";
+  static String myVideoId = "KZbzIf_C6Y4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -480,7 +480,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/vOKoxQRkrew?t=";
+  static String myVideoId = "vOKoxQRkrew";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -505,7 +505,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/TxXkBhZHoLQ?t=";
+  static String myVideoId = "TxXkBhZHoLQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

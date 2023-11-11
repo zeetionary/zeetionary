@@ -214,9 +214,9 @@ class EnglishEntryarchitecture extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: مێعماری، سازەوانی، بیناسازی، شێوازی مێعماری یان بیناسازی، پلان یا پێکهاتەی ڕێکخستە (سیستم)یێکی کامپیوتێڕی
+کوردی: مێعماری، سازەوانی، بیناسازی، شێوازی مێعماری یان بیناسازی، پلان یا پێکھاتەی ڕێکخستە (سیستم)یێکی کامپیوتێڕی
 
-١. (ناو) هونەر و زانستی دیزاینی بینا""",
+١. (ناو) ھونەر و زانستی دیزاینی بینا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -300,7 +300,7 @@ class EnglishEntryarchitecture extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نموونەی زۆرێک لە ستایلەکانی بیناسازی لە شارەکە هەن.",
+                                    "نموونەی زۆرێک لە ستایلەکانی بیناسازی لە شارەکە ھەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -393,7 +393,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/bITz9yQPjy8?t=";
+  static String myVideoId = "bITz9yQPjy8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -418,7 +418,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/rGRIAIVEMzs?t=";
+  static String myVideoId = "rGRIAIVEMzs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -443,7 +443,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/B-_QtKl5IkU?t=";
+  static String myVideoId = "B-_QtKl5IkU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -468,7 +468,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/lZmj_JOjBzU?t=";
+  static String myVideoId = "lZmj_JOjBzU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -493,7 +493,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/r-SivgEpA1Q?t=";
+  static String myVideoId = "r-SivgEpA1Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -518,7 +518,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/OtZAku_co3w?t=";
+  static String myVideoId = "OtZAku_co3w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -543,7 +543,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/oZbd-S7WcwU?t=";
+  static String myVideoId = "oZbd-S7WcwU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -568,7 +568,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/L1ung0wil9Y?t=";
+  static String myVideoId = "L1ung0wil9Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

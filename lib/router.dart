@@ -891,6 +891,36 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_arbitrate.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_arbitration.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_arbitrator.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_arc.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_arcade.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_arch.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_arch_two.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_archaeology.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_archaeological.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_archaeologist.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_archaic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_archbishop.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_archer.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_archery.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_archipelago.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_architect.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_architecture.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_architectural.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_archive.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_arctic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_arctic_circle.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_ardent.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_ardently.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_arduous.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
 
@@ -1876,7 +1906,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-aquatic": (_) => MaterialPage(child: EnglishEntryaquatic()),
   "/english-aqueduct": (_) => MaterialPage(child: EnglishEntryaqueduct()),
   "/english-Arabic": (_) => MaterialPage(child: EnglishEntryarabic()),
-  "/english-Arabic numeral": (_) => MaterialPage(child: EnglishEntryarabicnumeral()),
+  "/english-Arabic numeral": (_) =>
+      MaterialPage(child: EnglishEntryarabicnumeral()),
   "/english-arable": (_) => MaterialPage(child: EnglishEntryarable()),
   "/english-arbitrage": (_) => MaterialPage(child: EnglishEntryarbitrage()),
   "/english-arbitrageur": (_) => MaterialPage(child: EnglishEntryarbitrageur()),
@@ -1885,26 +1916,28 @@ final loggedInRoute = RouteMap(routes: {
   "/english-arbitrate": (_) => MaterialPage(child: EnglishEntryarbitrate()),
   "/english-arbitration": (_) => MaterialPage(child: EnglishEntryarbitration()),
   "/english-arbitrator": (_) => MaterialPage(child: EnglishEntryarbitrator()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-arc": (_) => MaterialPage(child: EnglishEntryarc()),
+  "/english-arcade": (_) => MaterialPage(child: EnglishEntryarcade()),
+  "/english-arch": (_) => MaterialPage(child: EnglishEntryarch()),
+  "/english-arch-two": (_) => MaterialPage(child: EnglishEntryarchtwo()),
+  "/english-archaeology": (_) => MaterialPage(child: EnglishEntryarchaeology()),
+  "/english-archaeological": (_) => MaterialPage(child: EnglishEntryarchaeological()),
+  "/english-archaeologist": (_) => MaterialPage(child: EnglishEntryarchaeologist()),
+  "/english-archaic": (_) => MaterialPage(child: EnglishEntryarchaic()),
+  "/english-archbishop": (_) => MaterialPage(child: EnglishEntryarchbishop()),
+  "/english-archer": (_) => MaterialPage(child: EnglishEntryarcher()),
+  "/english-archery": (_) => MaterialPage(child: EnglishEntryarchery()),
+  "/english-archipelago": (_) => MaterialPage(child: EnglishEntryarchipelago()),
+  "/english-architect": (_) => MaterialPage(child: EnglishEntryarchitect()),
+  "/english-architecture": (_) => MaterialPage(child: EnglishEntryarchitecture()),
+  "/english-architectural": (_) => MaterialPage(child: EnglishEntryarchitectural()),
+  "/english-archive": (_) => MaterialPage(child: EnglishEntryarchive()),
+  "/english-arctic": (_) => MaterialPage(child: EnglishEntryarctic()),
+  "/english-arctic-circle": (_) =>
+      MaterialPage(child: EnglishEntryarcticcircle()),
+  "/english-ardent": (_) => MaterialPage(child: EnglishEntryardent()),
+  "/english-ardently": (_) => MaterialPage(child: EnglishEntryardently()),
+  "/english-arduous": (_) => MaterialPage(child: EnglishEntryarduous()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

@@ -6,98 +6,97 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// replace EnglishEntryAdopsum - replace speakApt
+// replace EnglishEntryAdopsummm - replace speakArctic
 
-// replace apt - /æpt/ - find WORD_WEB
+// replace Arctic - /ˈɑːktɪk/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryapt extends StatelessWidget {
+class EnglishEntryarctic extends StatelessWidget {
   // blank divider
-  EnglishEntryapt({super.key});
+  EnglishEntryarctic({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApt(String languageCode) async {
-    // DOPSUM: CHANGE speakApt
+  Future<void> speakArctic(String languageCode) async {
+    // DOPSUM: CHANGE speakArctic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("apt"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Arctic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApt739(String languageCode) async {
-    // DOPSUM: CHANGE speakApt
+  Future<void> speakArctic449(String languageCode) async {
+    // DOPSUM: CHANGE speakArctic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It was a particularly apt name for someone with his skills."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("No trees grow in the Arctic regions."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApt745(String languageCode) async {
-    // DOPSUM: CHANGE speakApt
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A skilled writer uses apt descriptions to create a rich and immersive narrative."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakApt754(String languageCode) async {
-    // DOPSUM: CHANGE speakApt
+  Future<void> speakArctic451(String languageCode) async {
+    // DOPSUM: CHANGE speakArctic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Babies are apt to put objects into their mouths."); // DOPSUM: CHANGE TEXT
+        "The North of England has been experiencing Arctic conditions these past few days."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApt757(String languageCode) async {
-    // DOPSUM: CHANGE speakApt
+  Future<void> speakArctic452(String languageCode) async {
+    // DOPSUM: CHANGE speakArctic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We have some particularly apt students in the class this year."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Polar bears live in the Arctic."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApt(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApt
+  // Future<void> speakArctic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Arctic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApt(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApt
+  // Future<void> speakArctic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Arctic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApt(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApt
+  // Future<void> speakArctic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Arctic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApt(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApt
+  // Future<void> speakArctic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArctic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("Arctic"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakArctic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArctic
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("Arctic"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -116,7 +115,7 @@ class EnglishEntryapt extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "apt", // DOPSUM: CHANGE WORD ENTRY - Find /æpt/
+                                "Arctic", // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːktɪk/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -135,7 +134,7 @@ class EnglishEntryapt extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /æpt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈɑːktɪk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -146,7 +145,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakApt(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakArctic(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -156,7 +155,7 @@ class EnglishEntryapt extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /æpt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /ˈɑːrktɪk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -166,7 +165,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakApt(
+                              onPressed: () => speakArctic(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -186,12 +185,12 @@ class EnglishEntryapt extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
@@ -216,9 +215,9 @@ class EnglishEntryapt extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: باش، گونجاو، لێھاتوو، لێوەشاو، بەجێ، لەبار، ئامادە، ساز، بەتوانا، زیرەک، زرینگ، مدریک، زووتێگەیشتوو، ڕێ‌تێچوو، بۆی ھەیە، لەوانەیە
+کوردی: سەهۆڵ‌بەند(ان)، زۆر سارد، شەختەبەند، بەستەڵەک، شکست‌وبەند، تۆف‌وبەند، ساردوسڕ
 
-١. (ھاوەڵناو) گونجاو لە دۆخێکدا""",
+١. (ھاوەڵناو) پەیوەندیدار بە خولگەی جەمسەری باکوور""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -229,7 +228,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "It was a particularly apt name for someone with his skills.",
+                                    "No trees grow in the Arctic regions.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -244,7 +243,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناوێکی لێوەشاوەی ھەبوو بەپێی شارەزاییەکانی.",
+                                    "هیچ درەختێک لە ناوچەکانی جەمسەری باکوور گەشە ناکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -257,7 +256,7 @@ class EnglishEntryapt extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakApt739("en-GB"),
+                                onPressed: () => speakArctic449("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -266,57 +265,7 @@ class EnglishEntryapt extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakApt739(// REPLACE: apt /æpt/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "A skilled writer uses apt descriptions to create a rich and immersive narrative.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "نووسەری بەھرەمەند باسکردنی بەجێ بەکاردێنی بۆ بەرھەمھێنانی گێڕانەوەی دەوڵەمەند کە خوێنەر تێیدا ڕۆبچێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakApt745("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakApt745(// REPLACE: apt /æpt/
+                                    speakArctic449(// REPLACE: Arctic /ˈɑːrktɪk/
                                         "en-US"),
                               ),
                             ],
@@ -326,7 +275,7 @@ class EnglishEntryapt extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ھاوەڵناو) ویستی سرووشتی بۆ کردنی شتێک""",
+٢. (ھاوەڵناو) زۆر سارد""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -337,7 +286,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Babies are apt to put objects into their mouths.",
+                                    "The North of England has been experiencing Arctic conditions these past few days.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -352,7 +301,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵی بچووک خووی ئەوەیان ھەیە شت بخەنە دەمیان.",
+                                    "ئەم چەند ڕۆژەی ڕابردوو باکووری ئینگلتەرە بە کەشوهەوای زۆر سارددا تێپەڕیوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -365,7 +314,7 @@ class EnglishEntryapt extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakApt754("en-GB"),
+                                onPressed: () => speakArctic451("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -374,7 +323,7 @@ class EnglishEntryapt extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakApt754(// REPLACE: apt /æpt/
+                                    speakArctic451(// REPLACE: Arctic /ˈɑːrktɪk/
                                         "en-US"),
                               ),
                             ],
@@ -384,7 +333,7 @@ class EnglishEntryapt extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ھاوەڵناو) کەسێک کە توانای سرووشتی بۆ فێربوون و تێگەشتن ھەیە""",
+٢. (ناو) ناوچەی خولگەی باکووری زەوی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -395,7 +344,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "We have some particularly apt students in the class this year.",
+                                    "Polar bears live in the Arctic.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -410,7 +359,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەمساڵ چەند خوێندکارێکی بەتایبەت زرنگمان ھەیە لە پۆلدا.",
+                                    "ورچەسپی لە جەمسەری باکوور دەژین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -423,7 +372,7 @@ class EnglishEntryapt extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakApt757("en-GB"),
+                                onPressed: () => speakArctic452("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -432,7 +381,7 @@ class EnglishEntryapt extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakApt757(// REPLACE: apt /æpt/
+                                    speakArctic452(// REPLACE: Arctic /ˈɑːrktɪk/
                                         "en-US"),
                               ),
                             ],
@@ -450,9 +399,9 @@ class EnglishEntryapt extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
@@ -483,18 +432,20 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adjective: apt (Derived forms: aptest, apter)
-1. (usually followed by 'to') naturally disposed toward (= disposed, given, minded, tending)
-"he is apt to ignore matters he considers unimportant";
- 
-2. At risk of or subject to experiencing something usually unpleasant (= liable)
-"he is apt to lose";
- 
-3. Mentally quick and resourceful (= clever)
-"an apt pupil";
- 
-4. Being of striking appropriateness and pertinence (= apposite, pertinent)
-"an apt reply";
+- Noun: arctic (Derived forms: arctics, Arctics)
+Usage: N. Amer
+1. A waterproof overshoe that protects shoes from water or snow (= galosh, golosh, rubber [N. Amer], gumshoe [N. Amer])
+
+- Adjective: arctic 
+1. Extremely cold (= frigid, gelid, glacial, icy, polar)
+"an arctic climate";
+
+- Noun: Arctic 
+1. The regions to the north of the Arctic Circle centred on the North Pole (= Arctic Zone, North Frigid Zone)
+
+- Adjective: Arctic
+1. Of or relating to the Arctic (= north-polar)
+"the Arctic summer";
 """),
         ],
       ),
@@ -505,12 +456,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "LYUdnsIn5OU";
+  static String myVideoId = "https://youtu.be/XFJnWp1tAdU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1316, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -530,12 +481,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "fU-8Rg4CgeI";
+  static String myVideoId = "https://youtu.be/RXXMJAU6vY8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 181, // DOPSUM: CHANGE IT
+      startAt: 331, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -555,12 +506,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "QICB_puGtYo";
+  static String myVideoId = "https://youtu.be/-p9Us1_VDMM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 739, // DOPSUM: CHANGE IT
+      startAt: 9, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -580,12 +531,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "98Njh9UmkxU";
+  static String myVideoId = "https://youtu.be/5d6SEQQbwtU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1422, // DOPSUM: CHANGE IT
+      startAt: 127, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -605,12 +556,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "fdCDQIyXGnw";
+  static String myVideoId = "https://youtu.be/HvKpnaXYUPU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 248, // DOPSUM: CHANGE IT
+      startAt: 120, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -630,12 +581,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "4cQPpf1dLk8";
+  static String myVideoId = "https://youtu.be/r2Ou58p_D7k?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 446, // DOPSUM: CHANGE IT
+      startAt: 35, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -655,12 +606,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "CWi9abJ89cE";
+  static String myVideoId = "https://youtu.be/tSA5HNFBwnk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 478, // DOPSUM: CHANGE IT
+      startAt: 62, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -680,12 +631,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "Rz1X0RP3Mfw";
+  static String myVideoId = "https://youtu.be/d3ldui3pzwU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 276, // DOPSUM: CHANGE IT
+      startAt: 6, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -705,12 +656,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "qoixtV5igUo";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 136, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -730,12 +681,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "NgcYUYCFzis";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2817, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -755,12 +706,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "8GOoBPLeS60";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1168, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

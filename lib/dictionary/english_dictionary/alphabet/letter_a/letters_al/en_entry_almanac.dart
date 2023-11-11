@@ -100,7 +100,7 @@ class EnglishEntryalmanac extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUS:  /ˈɔːlmənæk/,  /ˈælmənæk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              "IpaUS: /ˈɔːlmənæk/,  /ˈælmənæk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(

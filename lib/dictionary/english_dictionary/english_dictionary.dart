@@ -873,48 +873,50 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "approximation",
     "apricot",
     "April",
-    // "apron",
-    // "apt",
-    // "aptitude",
-    // "aptly",
-    // "aptness",
-    // "aqualung",
-    // "aquamarine",
-    // "aquarium",
-    // "aquatic",
-    // "aqueduct",
-    // "Arabic",
-    // "Arabic numeral",
-    // "arable",
-    // "arbitrage",
-    // "arbitrageur",
-    // "arbitrarily",
-    // "arbitrary",
-    // "arbitrate",
-    // "arbitration",
-    // "arbitrator",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
+    "apron",
+    "apt",
+    "aptitude",
+    "aptly",
+    "aptness",
+    "aqualung",
+    "aquamarine",
+    "aquarium",
+    "aquatic",
+    "aqueduct",
+    "Arabic",
+    "Arabic numeral",
+    "arable",
+    "arbitrage",
+    "arbitrageur",
+    "arbitrarily",
+    "arbitrary",
+    "arbitrate",
+    "arbitration",
+    "arbitrator",
+    "arc",
+    "arcade",
+    "arch",
+    "arch-",
+    "archaeological",
+    "archaeologist",
+    "archaeology",
+    "archeological",
+    "archeologist",
+    "archeology",
+    "archaic",
+    "archbishop",
+    // "archer",
+    // "archery",
+    // "archipelago",
+    // "architect",
+    // "architecture",
+    // "architectural",
+    // "archive",
+    // "Arctic",
+    // ""the Arctic Circle",",
+    // "ardent",
+    // "ardently",
+    // "arduous",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
@@ -4508,177 +4510,185 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-april");
                   }
+                  if (wordsEnglish == "apron") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-apron");
+                  }
                   if (wordsEnglish == "apricot") {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-apricot");
                   }
-                  // if (wordsEnglish == "apt") {
+                  if (wordsEnglish == "apt") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-apt");
+                  }
+                  if (wordsEnglish == "aptly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aptly");
+                  }
+                  if (wordsEnglish == "aptness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aptness");
+                  }
+                  if (wordsEnglish == "aptitude") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aptitude");
+                  }
+                  if (wordsEnglish == "aqualung") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aqualung");
+                  }
+                  if (wordsEnglish == "aquamarine") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aquamarine");
+                  }
+                  if (wordsEnglish == "aquarium") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aquarium");
+                  }
+                  if (wordsEnglish == "aquatic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aquatic");
+                  }
+                  if (wordsEnglish == "aqueduct") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aqueduct");
+                  }
+                  if (wordsEnglish == "Arabic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-Arabic");
+                  }
+                  if (wordsEnglish == "Arabic numeral") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arabic-numeral");
+                  }
+                  if (wordsEnglish == "arable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arable");
+                  }
+                  if (wordsEnglish == "arbitrage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arbitrage");
+                  }
+                  if (wordsEnglish == "arbitrageur") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arbitrageur");
+                  }
+                  if (wordsEnglish == "arbitrary") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arbitrary");
+                  }
+                  if (wordsEnglish == "arbitrarily") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arbitrarily");
+                  }
+                  if (wordsEnglish == "arbitrate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arbitrate");
+                  }
+                  if (wordsEnglish == "arbitration") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arbitration");
+                  }
+                  if (wordsEnglish == "arbitrator") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arbitrator");
+                  }
+                  if (wordsEnglish == "arc") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arc");
+                  }
+                  if (wordsEnglish == "arcade") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arcade");
+                  }
+                  if (wordsEnglish == "arch") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arch");
+                  }
+                  if (wordsEnglish == "arch-") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arch-two");
+                  }
+                  if (wordsEnglish == "archaeology") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-archaeology");
+                  }
+                  if (wordsEnglish == "archeology") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-archaeology");
+                  }
+                  if (wordsEnglish == "archeological") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-archaeological");
+                  }
+                  if (wordsEnglish == "archaeological") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-archaeological");
+                  }
+                  if (wordsEnglish == "archaeologist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-archaeologist");
+                  }
+                  if (wordsEnglish == "archeologist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-archaeologist");
+                  }
+                  if (wordsEnglish == "archaic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-archaic");
+                  }
+                  if (wordsEnglish == "archbishop") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-archbishop");
+                  }
+                  // if (wordsEnglish == "archer") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-apt");
+                  //   Routemaster.of(context).push("/english-archer");
                   // }
-                  // if (wordsEnglish == "aptly") {
+                  // if (wordsEnglish == "archery") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-aptly");
+                  //   Routemaster.of(context).push("/english-archery");
                   // }
-                  // if (wordsEnglish == "aptness") {
+                  // if (wordsEnglish == "archipelago") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-aptness");
+                  //   Routemaster.of(context).push("/english-archipelago");
                   // }
-                  // if (wordsEnglish == "aptitude") {
+                  // if (wordsEnglish == "architect") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-aptitude");
+                  //   Routemaster.of(context).push("/english-architect");
                   // }
-                  // if (wordsEnglish == "aqualung") {
+                  // if (wordsEnglish == "architecture") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-aqualung");
+                  //   Routemaster.of(context).push("/english-architecture");
                   // }
-                  // if (wordsEnglish == "aquamarine") {
+                  // if (wordsEnglish == "architectural") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-aquamarine");
+                  //   Routemaster.of(context).push("/english-architectural");
                   // }
-                  // if (wordsEnglish == "aquarium") {
+                  // if (wordsEnglish == "archive") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-aquarium");
+                  //   Routemaster.of(context).push("/english-archive");
                   // }
-                  // if (wordsEnglish == "aquatic") {
+                  // if (wordsEnglish == "Arctic") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-aquatic");
+                  //   Routemaster.of(context).push("/english-arctic");
                   // }
-                  // if (wordsEnglish == "aqueduct") {
+                  // if (wordsEnglish == "the Arctic Circle") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-aqueduct");
+                  //   Routemaster.of(context).push('/english-arctic-circle');
                   // }
-                  // if (wordsEnglish == "Arabic") {
+                  // if (wordsEnglish == "ardent") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-Arabic");
+                  //   Routemaster.of(context).push("/english-ardent");
                   // }
-                  // if (wordsEnglish == "Arabic numeral") {
+                  // if (wordsEnglish == "ardently") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arabic-numeral");
+                  //   Routemaster.of(context).push("/english-ardently");
                   // }
-                  // if (wordsEnglish == "arable") {
+                  // if (wordsEnglish == "arduous") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arable");
-                  // }
-                  // if (wordsEnglish == "arbitrage") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arbitrage");
-                  // }
-                  // if (wordsEnglish == "arbitrageur") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arbitrageur");
-                  // }
-                  // if (wordsEnglish == "arbitrary") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arbitrary");
-                  // }
-                  // if (wordsEnglish == "arbitrarily") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arbitrarily");
-                  // }
-                  // if (wordsEnglish == "arbitrate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arbitrate");
-                  // }
-                  // if (wordsEnglish == "arbitration") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arbitration");
-                  // }
-                  // if (wordsEnglish == "arbitrator") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arbitrator");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-arduous");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

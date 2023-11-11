@@ -6,15 +6,15 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// replace EnglishEntryAdopsum - replace speakAdopsum
+// replace EnglishEntryAdopsummm - replace speakAdopsum
 
 // replace Dopsum1 - /haʊ/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryAdopsum extends StatelessWidget {
+class EnglishEntryAdopsummmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm extends StatelessWidget {
   // blank divider
-  EnglishEntryAdopsum({super.key});
+  EnglishEntryAdopsummmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 

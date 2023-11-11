@@ -6,92 +6,91 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// replace EnglishEntryAdopsum - replace speakApt
+// replace EnglishEntryarc - replace speakArc
 
-// replace apt - /æpt/ - find WORD_WEB
+// replace arc - /ɑːk/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryapt extends StatelessWidget {
+class EnglishEntryarc extends StatelessWidget {
   // blank divider
-  EnglishEntryapt({super.key});
+  EnglishEntryarc({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakApt(String languageCode) async {
-    // DOPSUM: CHANGE speakApt
+  Future<void> speakArc(String languageCode) async {
+    // DOPSUM: CHANGE speakArc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("apt"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("arc"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApt739(String languageCode) async {
-    // DOPSUM: CHANGE speakApt
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It was a particularly apt name for someone with his skills."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakApt745(String languageCode) async {
-    // DOPSUM: CHANGE speakApt
+  Future<void> speakArc1246(String languageCode) async {
+    // DOPSUM: CHANGE speakArc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A skilled writer uses apt descriptions to create a rich and immersive narrative."); // DOPSUM: CHANGE TEXT
+        "The ball rose in a high arc and fell behind the boundary line."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApt754(String languageCode) async {
-    // DOPSUM: CHANGE speakApt
+  Future<void> speakArc1249(String languageCode) async {
+    // DOPSUM: CHANGE speakArc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Babies are apt to put objects into their mouths."); // DOPSUM: CHANGE TEXT
+        "They were firing shells in a high arc over our heads."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakApt757(String languageCode) async {
-    // DOPSUM: CHANGE speakApt
+  Future<void> speakArc1252(String languageCode) async {
+    // DOPSUM: CHANGE speakArc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "We have some particularly apt students in the class this year."); // DOPSUM: CHANGE TEXT
+        "The father has the most interesting character arc in the series."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakApt(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApt
+  // Future<void> speakArc(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArc
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arc"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApt(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApt
+  // Future<void> speakArc(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArc
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arc"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApt(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApt
+  // Future<void> speakArc(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArc
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arc"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakApt(String languageCode) async {
-  //   // DOPSUM: CHANGE speakApt
+  // Future<void> speakArc(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArc
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("apt"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arc"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakArc(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArc
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("arc"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -116,7 +115,7 @@ class EnglishEntryapt extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "apt", // DOPSUM: CHANGE WORD ENTRY - Find /æpt/
+                                "arc", // DOPSUM: CHANGE WORD ENTRY - Find /ɑːk/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -135,7 +134,7 @@ class EnglishEntryapt extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /æpt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ɑːk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -146,7 +145,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakApt(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakArc(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -156,7 +155,7 @@ class EnglishEntryapt extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /æpt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /ɑːrk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -166,7 +165,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakApt(
+                              onPressed: () => speakArc(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -216,9 +215,9 @@ class EnglishEntryapt extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: باش، گونجاو، لێھاتوو، لێوەشاو، بەجێ، لەبار، ئامادە، ساز، بەتوانا، زیرەک، زرینگ، مدریک، زووتێگەیشتوو، ڕێ‌تێچوو، بۆی ھەیە، لەوانەیە
+کوردی: کەوانە، نیوەبازنە، مانگیلە، تاق، کەوانەی ئێلیکتریکی
 
-١. (ھاوەڵناو) گونجاو لە دۆخێکدا""",
+١. (ناو) ھێڵێکی کەوانەیی کە بەشێکە لە بازنەیەک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -229,7 +228,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "It was a particularly apt name for someone with his skills.",
+                                    "The ball rose in a high arc and fell behind the boundary line.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -244,7 +243,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناوێکی لێوەشاوەی ھەبوو بەپێی شارەزاییەکانی.",
+                                    "تۆپەکە لە شێوەی کەوانەیەک بەرزبوویەوە و چووە دەرەوەی یاریگاکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -257,7 +256,7 @@ class EnglishEntryapt extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakApt739("en-GB"),
+                                onPressed: () => speakArc1246("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -266,57 +265,7 @@ class EnglishEntryapt extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakApt739(// REPLACE: apt /æpt/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "A skilled writer uses apt descriptions to create a rich and immersive narrative.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "نووسەری بەھرەمەند باسکردنی بەجێ بەکاردێنی بۆ بەرھەمھێنانی گێڕانەوەی دەوڵەمەند کە خوێنەر تێیدا ڕۆبچێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakApt745("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakApt745(// REPLACE: apt /æpt/
+                                    speakArc1246(// REPLACE: arc /ɑːrk/
                                         "en-US"),
                               ),
                             ],
@@ -326,7 +275,7 @@ class EnglishEntryapt extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ھاوەڵناو) ویستی سرووشتی بۆ کردنی شتێک""",
+٢. (ناو) شێوە کەوانەیی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -337,7 +286,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Babies are apt to put objects into their mouths.",
+                                    "They were firing shells in a high arc over our heads.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -352,7 +301,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "منداڵی بچووک خووی ئەوەیان ھەیە شت بخەنە دەمیان.",
+                                    "گوللە تۆپیان ھەڵدەدا بەسەرماندا لە شێوەی کەوانەیەکدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -365,7 +314,7 @@ class EnglishEntryapt extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakApt754("en-GB"),
+                                onPressed: () => speakArc1249("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -374,7 +323,7 @@ class EnglishEntryapt extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakApt754(// REPLACE: apt /æpt/
+                                    speakArc1249(// REPLACE: arc /ɑːrk/
                                         "en-US"),
                               ),
                             ],
@@ -384,7 +333,7 @@ class EnglishEntryapt extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ھاوەڵناو) کەسێک کە توانای سرووشتی بۆ فێربوون و تێگەشتن ھەیە""",
+٣. (ناو) چیرۆکی سەرەکیی ڕۆمانێک، یان چیرۆکی یەکێک لە کارەکتەرەکانی ڕۆمانێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -395,7 +344,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "We have some particularly apt students in the class this year.",
+                                    "The father has the most interesting character arc in the series.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -410,7 +359,7 @@ class EnglishEntryapt extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەمساڵ چەند خوێندکارێکی بەتایبەت زرنگمان ھەیە لە پۆلدا.",
+                                    "باوکەکە سەرنجڕاکێشترین چیرۆکی ھەیە لە زنجیرەکەدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -423,7 +372,7 @@ class EnglishEntryapt extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakApt757("en-GB"),
+                                onPressed: () => speakArc1252("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -432,7 +381,7 @@ class EnglishEntryapt extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakApt757(// REPLACE: apt /æpt/
+                                    speakArc1252(// REPLACE: arc /ɑːrk/
                                         "en-US"),
                               ),
                             ],
@@ -483,18 +432,18 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adjective: apt (Derived forms: aptest, apter)
-1. (usually followed by 'to') naturally disposed toward (= disposed, given, minded, tending)
-"he is apt to ignore matters he considers unimportant";
+- Noun: arc (Derived forms: arcs)
+1. Electrical conduction through a gas in an applied electric field (= discharge, spark, electric arc, electric discharge)
  
-2. At risk of or subject to experiencing something usually unpleasant (= liable)
-"he is apt to lose";
+2. A continuous portion of a circle
  
-3. Mentally quick and resourceful (= clever)
-"an apt pupil";
+3. Something curved in shape (= bow)
+
+- Verb: arc (Derived forms: arcs, arced, arcing)
+1. Form an arch or curve (= arch, curve)
+"her back arcs";
  
-4. Being of striking appropriateness and pertinence (= apposite, pertinent)
-"an apt reply";
+2. Form an electrical arc
 """),
         ],
       ),
@@ -505,12 +454,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "LYUdnsIn5OU";
+  static String myVideoId = "VTzKIs19eZE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1316, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -530,12 +479,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "fU-8Rg4CgeI";
+  static String myVideoId = "JIlZsuRc9jQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 181, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -555,12 +504,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "QICB_puGtYo";
+  static String myVideoId = "3p_H2FxuOWs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 739, // DOPSUM: CHANGE IT
+      startAt: 393, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -580,12 +529,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "98Njh9UmkxU";
+  static String myVideoId = "vw2SaHkGfss";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1422, // DOPSUM: CHANGE IT
+      startAt: 20, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -605,12 +554,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "fdCDQIyXGnw";
+  static String myVideoId = "0jltioeaEyY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 248, // DOPSUM: CHANGE IT
+      startAt: 675, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -630,12 +579,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "4cQPpf1dLk8";
+  static String myVideoId = "6QgR6Tjle7g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 446, // DOPSUM: CHANGE IT
+      startAt: 170, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -655,12 +604,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "CWi9abJ89cE";
+  static String myVideoId = "4I-p8vjQ95s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 478, // DOPSUM: CHANGE IT
+      startAt: 744, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -680,12 +629,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "Rz1X0RP3Mfw";
+  static String myVideoId = "QcUey-DVYjk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 276, // DOPSUM: CHANGE IT
+      startAt: 960, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -705,12 +654,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "qoixtV5igUo";
+  static String myVideoId = "b4wRdoWpw0w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 136, // DOPSUM: CHANGE IT
+      startAt: 212, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -730,12 +679,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "NgcYUYCFzis";
+  static String myVideoId = "MLd4K5hKosw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2817, // DOPSUM: CHANGE IT
+      startAt: 710, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -755,12 +704,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "8GOoBPLeS60";
+  static String myVideoId = "Oij-BdIkPgQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1168, // DOPSUM: CHANGE IT
+      startAt: 14, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

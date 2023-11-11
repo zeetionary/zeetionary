@@ -101,7 +101,7 @@ class EnglishEntryallot extends StatelessWidget {
                         Row(
                           children: [
                             const Text(
-                              "IpaUS:  /əˈlɑːt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                              "IpaUS: /əˈlɑːt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
                               style: TextStyle(fontSize: 14),
                             ),
                             IconButton(

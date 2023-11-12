@@ -4,95 +4,96 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace EnglishEntryAdopsum - replace speakAnxiously
+// More sentences is NOT done
 
-// replace anxiously - /ˈæŋkʃəsli/ - find WORD_WEB
+// replace EnglishEntryAdopsummm - replace speakArk
+
+// replace ark - /ˈɑːk/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryanxiously extends StatelessWidget {
+class EnglishEntryark extends StatelessWidget {
   // blank divider
-  EnglishEntryanxiously({super.key});
+  EnglishEntryark({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnxiously(String languageCode) async {
-    // DOPSUM: CHANGE speakAnxiously
+  Future<void> speakArk(String languageCode) async {
+    // DOPSUM: CHANGE speakArk
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anxiously"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ark"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnxiously751(String languageCode) async {
-    // DOPSUM: CHANGE speakAnxiously
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We waited anxiously by the phone."); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakAnxiously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnxiously
+  // Future<void> speakArk(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ark"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnxiously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnxiously
+  // Future<void> speakArk(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ark"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnxiously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnxiously
+  // Future<void> speakArk(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ark"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnxiously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnxiously
+  // Future<void> speakArk(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ark"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnxiously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnxiously
+  // Future<void> speakArk(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ark"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnxiously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnxiously
+  // Future<void> speakArk(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ark"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnxiously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnxiously
+  // Future<void> speakArk(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArk
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ark"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakArk(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArk
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("ark"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,7 +112,7 @@ class EnglishEntryanxiously extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "anxiously", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæŋkʃəsli/
+                                "ark", // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːk/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -130,7 +131,7 @@ class EnglishEntryanxiously extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˈæŋkʃəsli/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈɑːk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -140,9 +141,9 @@ class EnglishEntryanxiously extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAnxiously(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakArk(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
@@ -151,7 +152,7 @@ class EnglishEntryanxiously extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˈæŋkʃəsli/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /ˈɑːrk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -161,7 +162,7 @@ class EnglishEntryanxiously extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAnxiously(
+                              onPressed: () => speakArk(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -181,10 +182,10 @@ class EnglishEntryanxiously extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 11,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
@@ -203,67 +204,69 @@ class EnglishEntryanxiously extends StatelessWidget {
                 child: TabBarView(
                   children: [
                     const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
-                    SingleChildScrollView(
+                    const SingleChildScrollView(
                       // DOPSUM: KURDISH MEANING
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          const Text(
+                          Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ھاوەڵکار) بە نیگەرانییەوە''',
+                            """
+کوردی: (لە ئینجیلدا) کەشتی نووح، سنووق، دارەمەیت، داڵدە، پەنا
+
+١. (ناو) کەشتییەکی گەورە کە پێغەمبەر نوح درووستی‌کرد بۆ ڕزگارکردنی شوێنکەوتووانی و جووتێک لە هەر ئاژەڵێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
                           ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "We waited anxiously by the phone.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بە نیگەرانییەوە لەلای تەلەفۆنەکە چاوەڕێ‌بووین.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAnxiously751("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakAnxiously751(
-                                    // REPLACE: anxiously /ˈæŋkʃəsli/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
+                          // Row(
+                          //   children: [
+                          //     const Expanded(
+                          //       child: Align(
+                          //         alignment: Alignment.topLeft,
+                          //         child: Text(
+                          //           "DOPSUM_WRITE_A_SENTENCE",
+                          //           textDirection: TextDirection
+                          //               .ltr, // Right-to-left direction
+                          //           textAlign: TextAlign.left,
+                          //         ),
+                          //       ),
+                          //     ),
+                          //     // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                          //     // const SizedBox(
+                          //     //   width: 30,
+                          //     // ),
+                          //     const Expanded(
+                          //       child: Align(
+                          //         alignment: Alignment.topLeft,
+                          //         child: Text(
+                          //           "رستە_رستە_رستە_رستە.",
+                          //           textAlign: TextAlign
+                          //               .right, // Right-to-left direction
+                          //           textDirection: TextDirection.rtl,
+                          //         ),
+                          //       ),
+                          //     ),
+                          //     IconButton(
+                          //       iconSize: 18,
+                          //       icon: const Icon(
+                          //         Icons.record_voice_over,
+                          //         color: Colors.blue,
+                          //       ),
+                          //       onPressed: () => speakArk("en-GB"),
+                          //     ),
+                          //     IconButton(
+                          //       iconSize: 18,
+                          //       icon: const Icon(
+                          //         Icons.record_voice_over,
+                          //         color: Colors.red,
+                          //       ),
+                          //       onPressed: () =>
+                          //           speakArk(// REPLACE: ark /ˈɑːrk/
+                          //               "en-US"),
+                          //     ),
+                          //   ],
+                          // ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
@@ -277,7 +280,7 @@ class EnglishEntryanxiously extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
+                    // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
@@ -309,11 +312,16 @@ class EnglishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
-- Adverb: anxiously 
-1. With anxiety or apprehension (= uneasily, apprehensively)
-"we watched anxiously";
-'''),
+          Text("""
+- Noun: ark (Derived forms: arks)
+1. (Bible) a boat built by Noah to save his family and animals from the flood
+
+- Noun: Ark.
+1. A state in south central United States; one of the Confederate states during the American Civil War (Arkansas, Land of Opportunity, AR)
+
+- Noun: Ark (Derived forms: Arks)
+1. (Judaism) sacred chest where the ancient Hebrews kept the two tablets containing the Ten Commandments (= Ark of the Covenant)
+"""),
         ],
       ),
     );
@@ -323,12 +331,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "wLU6CsY9FNw";
+  static String myVideoId = "https://youtu.be/zeoOOwvRSWg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 24, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -348,12 +356,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "YeDEma9Iiac";
+  static String myVideoId = "https://youtu.be/F4OhXQTMOEc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 109, // DOPSUM: CHANGE IT
+      startAt: 240, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -373,12 +381,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "knjliFs3gR8";
+  static String myVideoId = "https://youtu.be/KhGCV50-nrw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 791, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -398,12 +406,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "25wC533f7dQ";
+  static String myVideoId = "https://youtu.be/VA3j5_vKQfc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 61, // DOPSUM: CHANGE IT
+      startAt: 27, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -423,12 +431,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "UOIFBKB4mIE";
+  static String myVideoId = "https://youtu.be/83-JGTJAXCI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 120, // DOPSUM: CHANGE IT
+      startAt: 309, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -448,12 +456,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "tfn-LC254Hk";
+  static String myVideoId = "https://youtu.be/Ha9G44d7ipI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 205, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -473,12 +481,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "T8uc3NzU7J4";
+  static String myVideoId = "https://youtu.be/XxGFKz99TuM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1477, // DOPSUM: CHANGE IT
+      startAt: 9, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -498,12 +506,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "9EMpmyPzZ-4";
+  static String myVideoId = "https://youtu.be/MuBfkloVYus?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 147, // DOPSUM: CHANGE IT
+      startAt: 103, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -523,12 +531,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "XXVXmR6j3Kc";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 263, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -682,7 +690,5 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //     );
 //   }
 // }
-
-// More sentences is NOT done
 
 // end // TODO Implement this library.

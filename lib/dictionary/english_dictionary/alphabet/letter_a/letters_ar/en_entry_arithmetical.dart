@@ -4,95 +4,97 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace EnglishEntryAdopsum - replace speakAnxiously
+// More sentences is NOT done
 
-// replace anxiously - /ˈæŋkʃəsli/ - find WORD_WEB
+// replace EnglishEntryAdopsummm - replace speakArithmetical
+
+// replace arithmetical - /ˌærɪθˈmetɪkl/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryanxiously extends StatelessWidget {
+class EnglishEntryarithmetical extends StatelessWidget {
   // blank divider
-  EnglishEntryanxiously({super.key});
+  EnglishEntryarithmetical({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnxiously(String languageCode) async {
-    // DOPSUM: CHANGE speakAnxiously
+  Future<void> speakArithmetical(String languageCode) async {
+    // DOPSUM: CHANGE speakArithmetical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anxiously"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnxiously751(String languageCode) async {
-    // DOPSUM: CHANGE speakAnxiously
+  Future<void> speakArithmetical100(String languageCode) async {
+    // DOPSUM: CHANGE speakArithmetical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We waited anxiously by the phone."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Figuring the amount is a simple arithmetical calculation."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnxiously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnxiously
+  // Future<void> speakArithmetical(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArithmetical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnxiously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnxiously
+  // Future<void> speakArithmetical(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArithmetical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnxiously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnxiously
+  // Future<void> speakArithmetical(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArithmetical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnxiously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnxiously
+  // Future<void> speakArithmetical(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArithmetical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnxiously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnxiously
+  // Future<void> speakArithmetical(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArithmetical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnxiously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnxiously
+  // Future<void> speakArithmetical(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArithmetical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnxiously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnxiously
+  // Future<void> speakArithmetical(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArithmetical
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anxiously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arithmetical"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,7 +113,7 @@ class EnglishEntryanxiously extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "anxiously", // DOPSUM: CHANGE WORD ENTRY - Find /ˈæŋkʃəsli/
+                                "arithmetical", // DOPSUM: CHANGE WORD ENTRY - Find /ˌærɪθˈmetɪkl/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -130,7 +132,7 @@ class EnglishEntryanxiously extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˈæŋkʃəsli/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˌærɪθˈmetɪkl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -140,7 +142,7 @@ class EnglishEntryanxiously extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAnxiously(
+                              onPressed: () => speakArithmetical(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -151,7 +153,7 @@ class EnglishEntryanxiously extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˈæŋkʃəsli/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /ˌærɪθˈmetɪkl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -161,7 +163,7 @@ class EnglishEntryanxiously extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAnxiously(
+                              onPressed: () => speakArithmetical(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -181,10 +183,10 @@ class EnglishEntryanxiously extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 11,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
@@ -210,8 +212,10 @@ class EnglishEntryanxiously extends StatelessWidget {
                         children: [
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-١. (ھاوەڵکار) بە نیگەرانییەوە''',
+                            """
+کوردی: سەربە ژمێرە، ژمێرەیی
+
+١. (ھاوەڵناو) پەیوەندیدار بە کۆکردنەوە، لێدەرکردن، لێکدان، دابەش، هتد. لە بیرکاریدا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -222,7 +226,7 @@ class EnglishEntryanxiously extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "We waited anxiously by the phone.",
+                                    "Figuring the amount is a simple arithmetical calculation.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -237,7 +241,7 @@ class EnglishEntryanxiously extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە نیگەرانییەوە لەلای تەلەفۆنەکە چاوەڕێ‌بووین.",
+                                    "دۆزینەوەی بڕەکە لێکدانەوەیەکی سادەی ژمێریارییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -250,7 +254,7 @@ class EnglishEntryanxiously extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnxiously751("en-GB"),
+                                onPressed: () => speakArithmetical100("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -258,8 +262,8 @@ class EnglishEntryanxiously extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAnxiously751(
-                                    // REPLACE: anxiously /ˈæŋkʃəsli/
+                                onPressed: () => speakArithmetical100(
+                                    // REPLACE: arithmetical /ˌærɪθˈmetɪkl/
                                     "en-US"),
                               ),
                             ],
@@ -277,7 +281,7 @@ class EnglishEntryanxiously extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
+                    // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
@@ -309,11 +313,11 @@ class EnglishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
-- Adverb: anxiously 
-1. With anxiety or apprehension (= uneasily, apprehensively)
-"we watched anxiously";
-'''),
+          Text("""
+- Adjective: arithmetical  
+1. Relating to or involving arithmetic (= arithmetic)
+"arithmetical computations";
+"""),
         ],
       ),
     );
@@ -323,12 +327,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "wLU6CsY9FNw";
+  static String myVideoId = "https://youtu.be/AwbZaTjXo-s?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 846, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -348,12 +352,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "YeDEma9Iiac";
+  static String myVideoId = "https://youtu.be/Rxh_SVtyZqo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 109, // DOPSUM: CHANGE IT
+      startAt: 3675, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -373,12 +377,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "knjliFs3gR8";
+  static String myVideoId = "https://youtu.be/kQfr1dwHwoc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 791, // DOPSUM: CHANGE IT
+      startAt: 423, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -398,12 +402,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "25wC533f7dQ";
+  static String myVideoId = "https://youtu.be/9syvZr-9xwk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 61, // DOPSUM: CHANGE IT
+      startAt: 2037, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -423,12 +427,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "UOIFBKB4mIE";
+  static String myVideoId = "https://youtu.be/cA_OZDEbb6I?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 120, // DOPSUM: CHANGE IT
+      startAt: 363, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -448,12 +452,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "tfn-LC254Hk";
+  static String myVideoId = "https://youtu.be/xuwb94Hh8xk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 205, // DOPSUM: CHANGE IT
+      startAt: 8405, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -473,12 +477,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "T8uc3NzU7J4";
+  static String myVideoId = "https://youtu.be/ZtRHpggHEoU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1477, // DOPSUM: CHANGE IT
+      startAt: 705, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -498,12 +502,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "9EMpmyPzZ-4";
+  static String myVideoId = "https://youtu.be/WVNjE4BPHKc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 147, // DOPSUM: CHANGE IT
+      startAt: 2134, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -523,12 +527,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "XXVXmR6j3Kc";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 263, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -682,7 +686,5 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //     );
 //   }
 // }
-
-// More sentences is NOT done
 
 // end // TODO Implement this library.

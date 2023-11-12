@@ -6,89 +6,91 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// replace EnglishEntryAdopsummm - replace speakAristocracy
+// replace EnglishEntryAdopsummm - replace speakArmoury
 
-// replace aristocracy - /ˌærɪˈstɒkrəsi/ - find WORD_WEB
+// replace armoury - /ˈɑːməri/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryaristocracy extends StatelessWidget {
+class EnglishEntryarmoury extends StatelessWidget {
   // blank divider
-  EnglishEntryaristocracy({super.key});
+  EnglishEntryarmoury({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAristocracy(String languageCode) async {
-    // DOPSUM: CHANGE speakAristocracy
+  Future<void> speakArmoury(String languageCode) async {
+    // DOPSUM: CHANGE speakArmoury
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aristocracy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAristocracy1158(String languageCode) async {
-    // DOPSUM: CHANGE speakAristocracy
+  Future<void> speakArmoury631(String languageCode) async {
+    // DOPSUM: CHANGE speakArmoury
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He married into the French aristocracy."); // DOPSUM: CHANGE TEXT
+        "Several guns had been stolen from the palace armoury."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAristocracy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAristocracy
+  Future<void> speakArmoury635(String languageCode) async {
+    // DOPSUM: CHANGE speakArmoury
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Doctors have an armoury of drugs available."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakArmoury646(String languageCode) async {
+    // DOPSUM: CHANGE speakArmoury
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The two countries signed an agreement to reduce their nuclear armouries."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakArmoury(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArmoury
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aristocracy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAristocracy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAristocracy
+  // Future<void> speakArmoury(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArmoury
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aristocracy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAristocracy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAristocracy
+  // Future<void> speakArmoury(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArmoury
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aristocracy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAristocracy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAristocracy
+  // Future<void> speakArmoury(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArmoury
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aristocracy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAristocracy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAristocracy
+  // Future<void> speakArmoury(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArmoury
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aristocracy"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAristocracy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAristocracy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aristocracy"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAristocracy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAristocracy
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aristocracy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armoury"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -113,7 +115,7 @@ class EnglishEntryaristocracy extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "aristocracy", // DOPSUM: CHANGE WORD ENTRY - Find /ˌærɪˈstɒkrəsi/
+                                "armoury", // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːməri/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -132,7 +134,7 @@ class EnglishEntryaristocracy extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˌærɪˈstɒkrəsi/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈɑːməri/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -142,9 +144,9 @@ class EnglishEntryaristocracy extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAristocracy(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakArmoury(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
@@ -153,7 +155,7 @@ class EnglishEntryaristocracy extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˌærɪˈstɑːkrəsi/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /ˈɑːrməri/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -163,7 +165,7 @@ class EnglishEntryaristocracy extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAristocracy(
+                              onPressed: () => speakArmoury(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -213,9 +215,9 @@ class EnglishEntryaristocracy extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: سەرچین‌سالاری، حکومەتی چینی ئەریستۆکرات یان گەورەزادەکان، (چینی) گەوران یا ئەشراف، خانەزادەکان، خانەدانەکان، ھەڵبژاردەکان
+کوردی: جبەخانە، عەماری چەک‌وچۆڵ، قۆڕخانە، چەکەمەنی، کارخانەی چەک، چەک‌سازی، (ئەمریکا) شوێنی کە ھێزی نیمچەلەشکری مەشق دەبینن
 
-١. (ناو) کەسانی بەرزترین ئاستی کۆمەڵگە کە زۆرجار پلە و سەروەت و سامانی زۆریان ھەیە""",
+١. (ناو) کۆگای چەک و تەقەمەنی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -226,7 +228,7 @@ class EnglishEntryaristocracy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "He married into the French aristocracy.",
+                                    "Several guns had been stolen from the palace armoury.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -241,7 +243,7 @@ class EnglishEntryaristocracy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھاوسەرگیری لەگەڵ ئەندامی خێزانێکی خانەدانی فەرەنسی کرد.",
+                                    "ھەندێک چەک دزرابوون لە جبەخانەی کۆشکەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -254,7 +256,7 @@ class EnglishEntryaristocracy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAristocracy1158("en-GB"),
+                                onPressed: () => speakArmoury631("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -262,8 +264,133 @@ class EnglishEntryaristocracy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAristocracy1158(
-                                    // REPLACE: aristocracy /ˌærɪˈstɑːkrəsi/
+                                onPressed: () => speakArmoury631(
+                                    // REPLACE: armoury /ˈɑːrməri/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٢. (ناو) بینایەک کە تێیدا ئەو سەربازانەی کارامە نین ڕاھێنانیان پێ‌دەکرێت""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٣. (ناو) ئەو شتانەی کە کەسێک ھەیەتی بۆ یارمەتیدانی لە بەدەستھێنانی شتێک""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Doctors have an armoury of drugs available.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "دکتۆرەکان گەنجینەیەک لە دەرمانیان لەبەردەستە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakArmoury635("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakArmoury635(
+                                    // REPLACE: armoury /ˈɑːrməri/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٤. (ناو) تەواوی چەک و کەرەستەی سەربازیی وڵاتێک""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The two countries signed an agreement to reduce their nuclear armouries.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ھەردوو وڵات ڕێککەوتنێکیان واژۆکرد بۆ کەمکردنەوەی چەکی ئەتۆمییان.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakArmoury646("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakArmoury646(
+                                    // REPLACE: armoury /ˈɑːrməri/
                                     "en-US"),
                               ),
                             ],
@@ -314,12 +441,16 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aristocracy (Derived forms: aristocracies)
-1. A privileged class holding hereditary titles (= nobility)
+- Noun: armoury (Derived forms: armouries)
+Usage: Brit, Cdn (US: armory)
+1. A collection of resources (= armory [US], inventory)
+"he dipped into his intellectual armoury to find an answer";
  
-2. The most powerful members of a society (= gentry)
+2. All the weapons and equipment that a country has (= arsenal, armory [US])
  
-3. Government by an aristocratic class; a state with such a government
+3. (military) A military structure where arms, ammunition, and other military equipment are stored and training is given in their use (= arsenal, armory [US])
+ 
+4. A place where arms are manufactured (= armory [US], arsenal)
 """),
         ],
       ),
@@ -330,12 +461,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "a2-IwnoTrOI";
+  static String myVideoId = "64Dndm4WsZc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 569, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -355,12 +486,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "FHuQzvYA3H0";
+  static String myVideoId = "SLDw6i1D52U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1006, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -380,12 +511,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "wYK14Fg0oAA";
+  static String myVideoId = "8LVWNGRjD0g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 9, // DOPSUM: CHANGE IT
+      startAt: 224, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -405,12 +536,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "VruE3QHGKtw";
+  static String myVideoId = "XY_RldJvCWs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 234, // DOPSUM: CHANGE IT
+      startAt: 756, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -430,12 +561,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "f2kEGj-S1Tc";
+  static String myVideoId = "pQVBFhVMbY8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 84, // DOPSUM: CHANGE IT
+      startAt: 1126, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -455,12 +586,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "j4kI2h3iotA";
+  static String myVideoId = "ZeOmxxOJFoE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 611, // DOPSUM: CHANGE IT
+      startAt: 70, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -480,12 +611,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "NZOHQwzA0bM";
+  static String myVideoId = "5GpKGePUr_Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 354, // DOPSUM: CHANGE IT
+      startAt: 69, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -505,12 +636,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "sElsPrcgCao";
+  static String myVideoId = "tsxmyL7TUJg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 576, // DOPSUM: CHANGE IT
+      startAt: 607, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -530,12 +661,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "iZx04fmxdfA";
+  static String myVideoId = "s36hrId0rOo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 883, // DOPSUM: CHANGE IT
+      startAt: 602, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -555,12 +686,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "iNl0U1KCPZQ";
+  static String myVideoId = "ri2Aj44PA8E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 31, // DOPSUM: CHANGE IT
+      startAt: 829, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -580,12 +711,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "0gliG6L4_x0";
+  static String myVideoId = "CJo3aRHOh6o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 116, // DOPSUM: CHANGE IT
+      startAt: 659, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -605,12 +736,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "bASXpSCefWQ";
+  static String myVideoId = "saoRXwFAzDU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 500, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

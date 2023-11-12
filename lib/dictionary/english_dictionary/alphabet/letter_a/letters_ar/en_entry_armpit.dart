@@ -6,95 +6,95 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// replace EnglishEntryAdopsummm - replace speakAristocracy
+// replace EnglishEntryAdopsummm - replace speakArmpit
 
-// replace aristocracy - /ˌærɪˈstɒkrəsi/ - find WORD_WEB
+// replace armpit - /ˈɑːmpɪt/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryaristocracy extends StatelessWidget {
+class EnglishEntryarmpit extends StatelessWidget {
   // blank divider
-  EnglishEntryaristocracy({super.key});
+  EnglishEntryarmpit({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAristocracy(String languageCode) async {
-    // DOPSUM: CHANGE speakAristocracy
+  Future<void> speakArmpit(String languageCode) async {
+    // DOPSUM: CHANGE speakArmpit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aristocracy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAristocracy1158(String languageCode) async {
-    // DOPSUM: CHANGE speakAristocracy
+  Future<void> speakArmpit412(String languageCode) async {
+    // DOPSUM: CHANGE speakArmpit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He married into the French aristocracy."); // DOPSUM: CHANGE TEXT
+        "To my mind, a hairless armpit looks unnatural."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAristocracy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAristocracy
+  // Future<void> speakArmpit(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArmpit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aristocracy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAristocracy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAristocracy
+  // Future<void> speakArmpit(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArmpit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aristocracy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAristocracy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAristocracy
+  // Future<void> speakArmpit(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArmpit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aristocracy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAristocracy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAristocracy
+  // Future<void> speakArmpit(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArmpit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aristocracy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAristocracy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAristocracy
+  // Future<void> speakArmpit(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArmpit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aristocracy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAristocracy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAristocracy
+  // Future<void> speakArmpit(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArmpit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aristocracy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAristocracy(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAristocracy
+  // Future<void> speakArmpit(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArmpit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("aristocracy"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("armpit"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -113,7 +113,7 @@ class EnglishEntryaristocracy extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "aristocracy", // DOPSUM: CHANGE WORD ENTRY - Find /ˌærɪˈstɒkrəsi/
+                                "armpit", // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːmpɪt/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -132,7 +132,7 @@ class EnglishEntryaristocracy extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˌærɪˈstɒkrəsi/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈɑːmpɪt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -142,9 +142,9 @@ class EnglishEntryaristocracy extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAristocracy(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakArmpit(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
@@ -153,7 +153,7 @@ class EnglishEntryaristocracy extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˌærɪˈstɑːkrəsi/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /ˈɑːrmpɪt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -163,7 +163,7 @@ class EnglishEntryaristocracy extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAristocracy(
+                              onPressed: () => speakArmpit(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -183,13 +183,13 @@ class EnglishEntryaristocracy extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -213,9 +213,9 @@ class EnglishEntryaristocracy extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: سەرچین‌سالاری، حکومەتی چینی ئەریستۆکرات یان گەورەزادەکان، (چینی) گەوران یا ئەشراف، خانەزادەکان، خانەدانەکان، ھەڵبژاردەکان
+کوردی: بن‌ھەنگڵ، بەرەنگڵ، بن‌باڵ، بن‌پیل، بن‌باخڵ، کڵێشە، خەرک
 
-١. (ناو) کەسانی بەرزترین ئاستی کۆمەڵگە کە زۆرجار پلە و سەروەت و سامانی زۆریان ھەیە""",
+١. (ناو) بن‌باڵ؛ بەشی خوارەوەی جومگەی شان""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -226,7 +226,7 @@ class EnglishEntryaristocracy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "He married into the French aristocracy.",
+                                    "To my mind, a hairless armpit looks unnatural.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -241,7 +241,7 @@ class EnglishEntryaristocracy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھاوسەرگیری لەگەڵ ئەندامی خێزانێکی خانەدانی فەرەنسی کرد.",
+                                    "بۆ من، بن‌باڵی بێ موو نا سرووشتییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -254,7 +254,7 @@ class EnglishEntryaristocracy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAristocracy1158("en-GB"),
+                                onPressed: () => speakArmpit412("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -262,9 +262,9 @@ class EnglishEntryaristocracy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAristocracy1158(
-                                    // REPLACE: aristocracy /ˌærɪˈstɑːkrəsi/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakArmpit412(// REPLACE: armpit /ˈɑːrmpɪt/
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -282,9 +282,9 @@ class EnglishEntryaristocracy extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -314,12 +314,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aristocracy (Derived forms: aristocracies)
-1. A privileged class holding hereditary titles (= nobility)
- 
-2. The most powerful members of a society (= gentry)
- 
-3. Government by an aristocratic class; a state with such a government
+- Noun: armpit (Derived forms: armpits)
+1. The hollow under the arm where it is joined to the shoulder (= axilla, axillary cavity, axillary fossa, underarm)
+"they were up to their armpits in water";
 """),
         ],
       ),
@@ -330,12 +327,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "a2-IwnoTrOI";
+  static String myVideoId = "4AlDFFJ_PNw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 41, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -355,12 +352,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "FHuQzvYA3H0";
+  static String myVideoId = "j7rs22KGXVE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 21, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -380,12 +377,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "wYK14Fg0oAA";
+  static String myVideoId = "rUFnFM2O4ys";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 9, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -405,12 +402,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "VruE3QHGKtw";
+  static String myVideoId = "bGUqT7Y8lJY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 234, // DOPSUM: CHANGE IT
+      startAt: 147, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -430,12 +427,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "f2kEGj-S1Tc";
+  static String myVideoId = "jLWRJwXqDFI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 84, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -455,12 +452,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "j4kI2h3iotA";
+  static String myVideoId = "7x91lXCSPaY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 611, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -480,12 +477,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "NZOHQwzA0bM";
+  static String myVideoId = "Zad6v8ZHzdg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 354, // DOPSUM: CHANGE IT
+      startAt: 385, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -505,12 +502,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "sElsPrcgCao";
+  static String myVideoId = "9UHIWVtAdhY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 576, // DOPSUM: CHANGE IT
+      startAt: 268, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -530,12 +527,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "iZx04fmxdfA";
+  static String myVideoId = "3hurvRBoYgM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 883, // DOPSUM: CHANGE IT
+      startAt: 113, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -555,12 +552,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "iNl0U1KCPZQ";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 31, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -580,12 +577,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "0gliG6L4_x0";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 116, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -605,12 +602,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "bASXpSCefWQ";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 500, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

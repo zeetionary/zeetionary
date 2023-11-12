@@ -12,9 +12,9 @@ import 'package:zeetionary/theme/pallete.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryAdopsummmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm extends StatelessWidget {
+class EnglishEntryAdopsummmmmmmmmmmmmmmmmmmmm extends StatelessWidget {
   // blank divider
-  EnglishEntryAdopsummmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm({super.key});
+  EnglishEntryAdopsummmmmmmmmmmmmmmmmmmmm({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 

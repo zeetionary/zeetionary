@@ -918,27 +918,45 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "ardent",
     "ardently",
     "arduous",
-    // "arduously",
-    // "are",
-    // "area",
-    // "arena",
-    // "aren't",
-    // "arguable",
-    // "arguably",
-    // "argue",
-    // "argument",
-    // "argumentative",
-    // "aria",
-    // "arid",
-    // "arise",
-    // "aristocracy",
-    // "aristocrat",
-    // "aristocratic",
-    // "arithmetic",
-    // "arithmetical",
-    // "ark",
-    // "arm",
-    // "armed forces",
+    "arduously",
+    "are",
+    "area",
+    "arena",
+    "aren't",
+    "arguable",
+    "arguably",
+    "argue",
+    "argument",
+    "argumentative",
+    "aria",
+    "arid",
+    "arise",
+    "aristocracy",
+    "aristocrat",
+    "aristocratic",
+    "arithmetic",
+    "arithmetical",
+    "ark",
+    "arm",
+    "armada",
+    "armadillo",
+    "armament",
+    "armchair",
+    "armed forces",
+    "armistice",
+    "armpit",
+    "armor",
+    "armored",
+    "armory",
+    "armour",
+    "armoured",
+    "armoury",
+    "arms",
+    "army",
+    "arnica",
+    "aroma",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
@@ -4711,154 +4729,154 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-arduous");
                   }
-                  // if (wordsEnglish == "arduously") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arduously");
-                  // }
-                  // if (wordsEnglish == "are") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-be");
-                  // }
-                  // if (wordsEnglish == "area") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-area");
-                  // }
-                  // if (wordsEnglish == "arena") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arena");
-                  // }
-                  // if (wordsEnglish == "aren't") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-be");
-                  // }
-                  // if (wordsEnglish == "argue") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-argue");
-                  // }
-                  // if (wordsEnglish == "arguable") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arguable");
-                  // }
-                  // if (wordsEnglish == "arguably") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arguably");
-                  // }
-                  // if (wordsEnglish == "argument") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-argument");
-                  // }
-                  // if (wordsEnglish == "argumentative") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-argumentative");
-                  // }
-                  // if (wordsEnglish == "aria") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-aria");
-                  // }
-                  // if (wordsEnglish == "arid") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arid");
-                  // }
-                  // if (wordsEnglish == "arise") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arise");
-                  // }
-                  // if (wordsEnglish == "aristocracy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-aristocracy");
-                  // }
-                  // if (wordsEnglish == "aristocrat") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-aristocrat");
-                  // }
-                  // if (wordsEnglish == "aristocratic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-aristocratic");
-                  // }
-                  // if (wordsEnglish == "arithmetic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arithmetic");
-                  // }
-                  // if (wordsEnglish == "arithmetical") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arithmetical");
-                  // }
-                  // if (wordsEnglish == "ark") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ark");
-                  // }
-                  // if (wordsEnglish == "arm") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arm");
-                  // }
-                  // if (wordsEnglish == "armed forces") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-armed-forces");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "arduously") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arduously");
+                  }
+                  if (wordsEnglish == "are") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-be");
+                  }
+                  if (wordsEnglish == "area") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-area");
+                  }
+                  if (wordsEnglish == "arena") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arena");
+                  }
+                  if (wordsEnglish == "aren't") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-be");
+                  }
+                  if (wordsEnglish == "argue") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-argue");
+                  }
+                  if (wordsEnglish == "arguable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arguable");
+                  }
+                  if (wordsEnglish == "arguably") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arguably");
+                  }
+                  if (wordsEnglish == "argument") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-argument");
+                  }
+                  if (wordsEnglish == "argumentative") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-argumentative");
+                  }
+                  if (wordsEnglish == "aria") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aria");
+                  }
+                  if (wordsEnglish == "arid") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arid");
+                  }
+                  if (wordsEnglish == "arise") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arise");
+                  }
+                  if (wordsEnglish == "aristocracy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aristocracy");
+                  }
+                  if (wordsEnglish == "aristocrat") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aristocrat");
+                  }
+                  if (wordsEnglish == "aristocratic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aristocratic");
+                  }
+                  if (wordsEnglish == "arithmetic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arithmetic");
+                  }
+                  if (wordsEnglish == "arithmetical") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arithmetical");
+                  }
+                  if (wordsEnglish == "ark") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ark");
+                  }
+                  if (wordsEnglish == "arm") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arm");
+                  }
+                  if (wordsEnglish == "armed forces") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-armed-forces");
+                  }
+                  if (wordsEnglish == "armchair") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-armchair");
+                  }
+                  if (wordsEnglish == "armpit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-armpit");
+                  }
+                  if (wordsEnglish == "armada") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-armada");
+                  }
+                  if (wordsEnglish == "armadillo") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-armadillo");
+                  }
+                  if (wordsEnglish == "armament") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-armament");
+                  }
+                  if (wordsEnglish == "armistice") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-armistice");
+                  }
+                  if (wordsEnglish == "armour") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-armour");
+                  }
+                  if (wordsEnglish == "armor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-armour");
+                  }
+                  if (wordsEnglish == "armoured") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-armoured");
+                  }
+                  if (wordsEnglish == "armored") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-armoured");
+                  }
+                  if (wordsEnglish == "armoury") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-armoury");
+                  }
+                  if (wordsEnglish == "armory") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-armoury");
+                  }
+                  if (wordsEnglish == "arms") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arms");
+                  }
+                  if (wordsEnglish == "army") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-army");
+                  }
+                  if (wordsEnglish == "arnica") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arnica");
+                  }
+                  if (wordsEnglish == "aroma") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aroma");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

@@ -92,13 +92,14 @@ class EnglishEntryalright extends StatelessWidget {
         .speak("We've got to get up early, alright?"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlright(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlright
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("all_right"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAlright1055(String languageCode) async {
+    // DOPSUM: CHANGE speakAlright
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Are you sure it's alright for me to leave early?"); // DOPSUM: CHANGE TEXT
+  }
 
   // Future<void> speakAlright(String languageCode) async {
   //   // DOPSUM: CHANGE speakAlright
@@ -718,7 +719,7 @@ class EnglishEntryalright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAlright87459("en-GB"),
+                                onPressed: () => speakAlright1055("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -726,7 +727,7 @@ class EnglishEntryalright extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAlright87459(
+                                onPressed: () => speakAlright1055(
                                     // REPLACE: alright /ɔːl ˈraɪt/
                                     "en-US"),
                               ),

@@ -295,7 +295,7 @@ class EnglishEntryambition extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە حەز و ئارەزووی خۆی ھەڵدەسووڕا",
+                                    "بە حەز و ئارەزووی خۆی ھەڵدەسووڕا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

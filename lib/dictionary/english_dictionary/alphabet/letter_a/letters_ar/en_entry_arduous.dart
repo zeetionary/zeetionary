@@ -254,7 +254,7 @@ class EnglishEntryarduous extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakArduous("en-GB"),
+                                onPressed: () => speakArduous530("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -262,9 +262,9 @@ class EnglishEntryarduous extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakArduous(// REPLACE: arduous /ˈɑːrdʒuəs/
-                                        "en-US"),
+                                onPressed: () => speakArduous530(
+                                    // REPLACE: arduous /ˈɑːrdʒuəs/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -312,7 +312,7 @@ class EnglishEntryarduous extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakArduous530(
+                                onPressed: () => speakArduous531(
                                     // REPLACE: arduous /ˈɑːrdʒuəs/
                                     "en-US"),
                               ),

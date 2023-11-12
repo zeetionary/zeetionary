@@ -4,86 +4,94 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryanalgesic - replace speakAnalgesic - replace analgesic - /ˌænəlˈdʒiːzɪk/ - find Dopsum2
+// More sentences is NOT done
+
+// replace EnglishEntryAdopsummm - replace speakArgument
+
+// replace argument - /ˈɑːɡjumənt/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryanalgesic extends StatelessWidget {
-  EnglishEntryanalgesic({super.key});
+class EnglishEntryargument extends StatelessWidget {
+  // blank divider
+  EnglishEntryargument({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnalgesic(String languageCode) async {
-    // DOPSUM: CHANGE speakAnalgesic
+  Future<void> speakArgument(String languageCode) async {
+    // DOPSUM: CHANGE speakArgument
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("analgesic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("argument"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnalgesic5802(String languageCode) async {
-    // DOPSUM: CHANGE speakAnalgesic
+  Future<void> speakArgument1032(String languageCode) async {
+    // DOPSUM: CHANGE speakArgument
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This cream contains a mild analgesic to soothe stings and bites."); // DOPSUM: CHANGE TEXT
+        "After some heated argument a decision was finally taken."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnalgesic101(String languageCode) async {
-    // DOPSUM: CHANGE speakAnalgesic
+  Future<void> speakArgument1033(String languageCode) async {
+    // DOPSUM: CHANGE speakArgument
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Aspirin is a mild analgesic."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She got into an argument with the teacher."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnalgesic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnalgesic
+  Future<void> speakArgument1039(String languageCode) async {
+    // DOPSUM: CHANGE speakArgument
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "There are strong arguments for and against euthanasia."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakArgument1042(String languageCode) async {
+    // DOPSUM: CHANGE speakArgument
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Let's assume for the sake of argument that we can't start till March."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakArgument(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArgument
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analgesic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("argument"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalgesic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnalgesic
+  // Future<void> speakArgument(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArgument
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analgesic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("argument"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalgesic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnalgesic
+  // Future<void> speakArgument(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArgument
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analgesic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("argument"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnalgesic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnalgesic
+  // Future<void> speakArgument(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArgument
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analgesic"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAnalgesic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnalgesic
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analgesic"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAnalgesic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnalgesic
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analgesic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("argument"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -108,7 +116,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "analgesic", // DOPSUM: CHANGE WORD ENTRY - Find /ˌænəlˈdʒiːzɪk/
+                                "argument", // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːɡjumənt/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -127,7 +135,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˌænəlˈdʒiːzɪk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈɑːɡjumənt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -137,9 +145,9 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAnalgesic(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakArgument(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
@@ -148,7 +156,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˌænəlˈdʒiːzɪk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                "IpaUS: /ˈɑːrɡjumənt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -158,7 +166,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAnalgesic(
+                              onPressed: () => speakArgument(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -178,8 +186,8 @@ class EnglishEntryanalgesic extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // FIND: 2,
-                  VideoIconForTab(), // 07
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12,
+                  VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -207,10 +215,10 @@ class EnglishEntryanalgesic extends StatelessWidget {
                         children: [
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-کوردی: ژان‌بڕ، ژان‌شکێن، دامرکێن، مەڵھەمی ژان‌بڕ، مەرھەمی دامرکێنەر
+                            """
+کوردی: مشت‌ومڕ، مشەرعێن، دەمەقاڵێ، دمەدمە، شەڕەقسە، بەڵگەهێنانەوە، وت‌ووێژ، دان‌وستان، گفتوگۆ، بەڵگە، پڕنۆ، کورتە، پوختە (بەتایبەت بەرهەمێکی وێژەیی)
 
-١. (ھاوەڵناو) ھەبوونی خاسیەتی ئازارشکێن''',
+١. (ناو) بابەتێک کە دوو یان سێ کەس تێیدا مشتومڕی لەسەر دەکەن""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -221,7 +229,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "This cream contains a mild analgesic to soothe stings and bites.",
+                                    "After some heated argument a decision was finally taken.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -236,7 +244,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم کرێمە ئازارشکێنێکی سووکی تێدایە کە پێوەدان و گەستن ھێوردەکاتەوە.",
+                                    "لەدوای هەندێک مشتومڕی گەرم بڕیارێک لە کۆتاییدا دار.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -249,7 +257,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnalgesic5802("en-GB"),
+                                onPressed: () => speakArgument1032("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -257,8 +265,58 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAnalgesic5802(
-                                    // REPLACE: analgesic /ˌænəlˈdʒiːzɪk/
+                                onPressed: () => speakArgument1032(
+                                    // REPLACE: argument /ˈɑːrɡjumənt/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "She got into an argument with the teacher.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "کەوتە مشتومڕێک لەگەڵ مامۆستاکە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakArgument1033("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakArgument1033(
+                                    // REPLACE: argument /ˈɑːrɡjumənt/
                                     "en-US"),
                               ),
                             ],
@@ -267,8 +325,8 @@ class EnglishEntryanalgesic extends StatelessWidget {
                           const DividerDefinition(),
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (ناو) ئازارشکێن''',
+                            """
+٢. (ناو) کۆمەڵە هۆکارێک کە ئەیدەیت بەدەستەوە بۆ بەرگری یان دژایەتی شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -279,7 +337,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Aspirin is a mild analgesic.",
+                                    "There are strong arguments for and against euthanasia.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -294,7 +352,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەسپرین ئازارشکێنێکی سووکە.",
+                                    "بەڵگەهێنانەوەی بەهێز بۆ لەگەڵ‌بوون یان دژایەتی هوومەرگی (کوشتنی مرۆڤ، بەتایبەتی نەخۆشێک، لەسەر داوای خۆی بە ڕێگای پزیشکی).",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -307,7 +365,7 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnalgesic101("en-GB"),
+                                onPressed: () => speakArgument1039("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -315,18 +373,76 @@ class EnglishEntryanalgesic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAnalgesic101(
-                                    // REPLACE: analgesic /ˌænəlˈdʒiːzɪk/
+                                onPressed: () => speakArgument1039(
+                                    // REPLACE: argument /ˈɑːrɡjumənt/
                                     "en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٣. (ناو) کرداری ڕازی‌نەبوون لە گفتوگۆیەکدا بە پێدانی چەند هۆکارێک""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Let's assume for the sake of argument (= in order to discuss the problem) that we can't start till March.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "بە مەبەستی گفتوگۆکردنی بابەتەکە با وادابنێین کە تاوەکو مانگی ئادار دەستپێ‌ناکەین.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakArgument1042("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakArgument1042(
+                                    // REPLACE: argument /ˈɑːrɡjumənt/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
                           // const DividerDefinition(),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
+                    YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
@@ -366,14 +482,27 @@ class EnglishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
-- Adjective: analgesic 
-1. Capable of relieving pain (= analgetic, anodyne)
-"an analgesic effect";
-
-Noun: analgesic (Derived forms: analgesics)
-1. A medicine used to relieve pain (= anodyne, painkiller, pain pill)
-'''),
+          Text("""
+- Noun: argument (Derived forms: arguments)
+1. A fact or assertion offered as evidence that something is true (= statement)
+"it was a strong argument that his hypothesis was true";
+ 
+2. A contentious speech act; a dispute where there is strong disagreement (= controversy, contention, contestation, disputation, disceptation, tilt, arguing)
+"they were involved in a violent argument";
+ 
+3. A discussion in which reasons are advanced for and against some proposition or proposal (= argumentation, debate)
+"the argument over foreign aid goes on and on";
+ 
+4. A summary of the subject or plot of a literary work or play or movie (= literary argument)
+"the editor added the argument to the poem";
+ 
+5. (computing) a reference or value that is passed to a function, procedure, subroutine, command, or program (= parameter)
+ 
+6. A variable in a logical or mathematical expression whose value determines the dependent variable; if f(x)=y, x is the independent variable
+ 
+7. A course of reasoning aimed at demonstrating a truth or falsehood; the methodical process of logical reasoning (= argumentation, logical argument, line of reasoning, line)
+"I can't follow your logical argument";
+"""),
         ],
       ),
     );
@@ -383,17 +512,17 @@ Noun: analgesic (Derived forms: analgesics)
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "XleFom6OfrE";
+  static String myVideoId = "https://youtu.be/_WjUFuW2J0A?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 14, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 606, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -408,17 +537,17 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "RGiZtld9ssc";
+  static String myVideoId = "https://youtu.be/i03Jvbxyluk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 6, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 797, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -433,17 +562,17 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "DHLVQXXFIsc";
+  static String myVideoId = "https://youtu.be/XeNQWTvmJZw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 30, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 147, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -458,17 +587,17 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "3lCl76SMZ8k";
+  static String myVideoId = "https://youtu.be/mYbambvmWMs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 70, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 429, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -483,17 +612,17 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "6LP43_EMGh0";
+  static String myVideoId = "https://youtu.be/qljfObaUG2s?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 245, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 427, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -508,17 +637,17 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "iMvWIAZ21KU";
+  static String myVideoId = "https://youtu.be/fUH1QVtIdp4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 555, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 1113, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -533,17 +662,17 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "w-K_YtWqMro";
+  static String myVideoId = "https://youtu.be/dSvgw9ZOK3I?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 10, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 165, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -558,17 +687,17 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "kf40T0yXrjk";
+  static String myVideoId = "https://youtu.be/04ID_Qdm1Q8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 5, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 550, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -583,17 +712,17 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "LTKyioqoZVM";
+  static String myVideoId = "https://youtu.be/w4OB3xnB1ms?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 256, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 231, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -608,17 +737,17 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "81dlThgnApk";
+  static String myVideoId = "https://youtu.be/Adv8_pb7QFE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 65, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 191, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -633,17 +762,17 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -658,17 +787,17 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -680,25 +809,67 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
       body: YouTubeContainerDesign(controller: _controller),
     );
   }
-  // morethan one video, only first autoplay
-
-  // @override
-  // Widget build(BuildContext context) {
-  //   return Scaffold(
-  //     body: SingleChildScrollView(
-  //       child: Column(
-  //         children: [
-  //           YouTubeContainerDesign(controller: _controller),
-  //           YouTubeContainerDesign(controller: _controllertwo),
-  //           YouTubeContainerDesign(controller: _controllerthree),
-  //         ],
-  //       ),
-  //     ),
-  //   );
-  // }
 }
 
-// end
+// morethan one video, only first autoplay
 
+// class YoutubeEmbeddethirteen extends StatelessWidget {
+//   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+//   static String myVideoIdTwo = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+//   static String myVideoIdThree = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
-// TODO Implement this library.
+//   final YoutubePlayerController _controller = YoutubePlayerController(
+//     initialVideoId: myVideoId,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   final YoutubePlayerController _controllertwo = YoutubePlayerController(
+//     initialVideoId: myVideoIdTwo,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   final YoutubePlayerController _controllerthree = YoutubePlayerController(
+//     initialVideoId: myVideoIdThree,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   YoutubeEmbeddethirteen({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       body: SingleChildScrollView(
+//         child: Column(
+//           children: [
+//             YouTubeContainerDesign(controller: _controller),
+//             YouTubeContainerDesign(controller: _controllertwo),
+//             YouTubeContainerDesign(controller: _controllerthree),
+//           ],
+//         ),
+//       ),
+//     );
+//   }
+// }
+
+// end // TODO Implement this library.

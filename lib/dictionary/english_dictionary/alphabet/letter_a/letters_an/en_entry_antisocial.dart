@@ -298,7 +298,7 @@ class EnglishEntryantisocial extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وابیردەکەنەوە ناکۆمەڵایەتیی ئەگەر نەچیت.",
+                                    "وابیردەکەنەوە ناکۆمەڵایەتیت ئەگەر نەچیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

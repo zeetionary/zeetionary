@@ -96,16 +96,16 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             NavigationDestination(
               selectedIcon: const Icon(Icons.home),
               icon: Image.asset(
-                'assets/images/uk_two.png',
-                width: 30,
+                'assets/images/uk_one.png',
+                width: 28,
               ),
               label: 'English',
             ),
             NavigationDestination(
               selectedIcon: const Icon(Icons.home),
               icon: Image.asset(
-                'assets/images/kurd_two.png',
-                width: 30,
+                'assets/images/kurd_one.png',
+                width: 28,
               ),
               label: 'کوردی',
             ),

@@ -23,7 +23,6 @@ class HistoryScreen extends StatelessWidget {
           content: const Text(
             'دەتەوێت ھەموو گەڕانەکانی پێشوو بسڕیتەوە؟',
             textDirection: TextDirection.rtl,
-            tex
           ),
           actions: <Widget>[
             TextButton(
@@ -46,6 +45,7 @@ class HistoryScreen extends StatelessWidget {
     // If the user confirms, clear the history
     if (confirmClear == true) {
       await prefs.remove('history');
+      // ignore: use_build_context_synchronously
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
         content: Directionality(
           textDirection: TextDirection.rtl,

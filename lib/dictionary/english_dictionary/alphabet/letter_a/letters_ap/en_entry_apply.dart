@@ -384,7 +384,7 @@ class EnglishEntryapply extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٤. (کردار) جێبەجێبوونی شتێک، یان پەیوەندیداربوونی بە شتێک""",
+٣. (کردار) جێبەجێبوونی شتێک، یان پەیوەندیداربوونی بە شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -492,7 +492,7 @@ class EnglishEntryapply extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٥. (کردار) دانانی بۆیە یان کرێم لەسەر ڕوویەک""",
+٤. (کردار) دانانی بۆیە یان کرێم لەسەر ڕوویەک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

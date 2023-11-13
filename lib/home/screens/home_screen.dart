@@ -58,6 +58,10 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         // centerTitle: true,
         scrolledUnderElevation: 0,
         title: const ZeetionaryAppbarStyle(),
+        // title: Image.asset(
+        //   'assets/images/zeetionary_three.png',
+        //   width: 200,
+        // ),
         leading: Builder(builder: (context) {
           return IconButton(
             icon: const Icon(Icons.menu),

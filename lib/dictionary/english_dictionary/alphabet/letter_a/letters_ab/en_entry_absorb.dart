@@ -413,7 +413,7 @@ class EnglishEntryabsorb extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چەند ڕۆژێکی پێچوو بۆم تا مردنەکەی پەسەندبکەم.",
+                                    "چەند ڕۆژێکی پێچوو بۆم تا بە مردنەکەی ڕابێم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

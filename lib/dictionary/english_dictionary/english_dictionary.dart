@@ -965,10 +965,10 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     // "arrange",
     // "arrangement",
     // "array",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
+    // "arrears",
+    // "arrest",
+    // "arrival",
+    // "arrive",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
@@ -4929,21 +4929,21 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-array");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "arrears") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-arrears");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "arrest") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-arrest");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "arrival") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-arrival");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "arrive") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-arrive");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

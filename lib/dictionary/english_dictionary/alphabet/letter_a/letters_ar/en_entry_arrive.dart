@@ -6,121 +6,90 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// replace EnglishEntryAdopsummm - replace speakArm
+// rrive
 
-// replace arm - /ɑːm/ - find WORD_WEB
+// replace EnglishEntryarrive - replace speakArrive
+
+// replace arrive - /əˈraɪv/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryarm extends StatelessWidget {
+class EnglishEntryarrive extends StatelessWidget {
   // blank divider
-  EnglishEntryarm({super.key});
+  EnglishEntryarrive({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArm(String languageCode) async {
-    // DOPSUM: CHANGE speakArm
+  Future<void> speakArrive(String languageCode) async {
+    // DOPSUM: CHANGE speakArrive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("arm"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("arrive"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArm127(String languageCode) async {
-    // DOPSUM: CHANGE speakArm
+  Future<void> speakArrive524(String languageCode) async {
+    // DOPSUM: CHANGE speakArrive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She threw her arms around his neck."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("I'll wait until they arrive."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArm129(String languageCode) async {
-    // DOPSUM: CHANGE speakArm
+  Future<void> speakArrive525(String languageCode) async {
+    // DOPSUM: CHANGE speakArrive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was running forward, waving his arms."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She'll arrive in New York at noon."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArm131(String languageCode) async {
-    // DOPSUM: CHANGE speakArm
+  Future<void> speakArrive527(String languageCode) async {
+    // DOPSUM: CHANGE speakArrive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The arms will need shortening."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("A letter arrived for you this morning."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArm134(String languageCode) async {
-    // DOPSUM: CHANGE speakArm
+  Future<void> speakArrive528(String languageCode) async {
+    // DOPSUM: CHANGE speakArrive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She perched on the arm of his chair."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The wedding day finally arrived."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArm138(String languageCode) async {
-    // DOPSUM: CHANGE speakArm
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The fuel filler door is opened by a robotic arm."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakArm148(String languageCode) async {
-    // DOPSUM: CHANGE speakArm
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The bank plans to sell part of its US finance arm."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakArm151(String languageCode) async {
-    // DOPSUM: CHANGE speakArm
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The men armed themselves with sticks and stones."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakArm152(String languageCode) async {
-    // DOPSUM: CHANGE speakArm
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The country was arming against the enemy."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakArm156(String languageCode) async {
-    // DOPSUM: CHANGE speakArm
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She armed herself for the interview by finding out all she could about the company in advance."); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakArm(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArm
+  // Future<void> speakArrive(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArrive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arm"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arrive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArm(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArm
+  // Future<void> speakArrive(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArrive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arm"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("arrive"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakArrive(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArrive
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("arrive"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakArrive(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArrive
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("arrive"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -145,7 +114,7 @@ class EnglishEntryarm extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "arm", // DOPSUM: CHANGE WORD ENTRY - Find /ɑːm/
+                                "arrive", // DOPSUM: CHANGE WORD ENTRY - Find /əˈraɪv/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -164,7 +133,7 @@ class EnglishEntryarm extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ɑːm/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əˈraɪv/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -175,7 +144,7 @@ class EnglishEntryarm extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakArm(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakArrive(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -185,7 +154,7 @@ class EnglishEntryarm extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ɑːrm/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /əˈraɪv/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -195,7 +164,7 @@ class EnglishEntryarm extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakArm(
+                              onPressed: () => speakArrive(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -245,9 +214,9 @@ class EnglishEntryarm extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: دەس(ت)، باڵ، بازۆڵە، بازوو، باسک، قۆڵ، بەوش، باوش، باوەش، باخڵ، ھەنگڵ، لق، تا، بەشی کرداری گروپ، ڕێکخراوە، دامەزراوە یان چالاکی‌یێ، دەسک، جێ‌دەس، دەستە، چەک، تەرک، ھێز، دەسەڵات، (ڕووبار) لق
+کوردی: هاتن، هاتنە ژوور، گەیشتن
 
-١. (ناو) دەست؛ دوو بەشی جەستە کە لە شانەوە درێژەبنەوە""",
+١. (کردار) گەشتنە شوێنێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -258,7 +227,7 @@ class EnglishEntryarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "She threw her arms around his neck.",
+                                    "I'll wait until they arrive.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -273,7 +242,7 @@ class EnglishEntryarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەستەکانی بەدەوری ملیدا بادا.",
+                                    "چاوەڕێ دەبم تا دەگەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -286,7 +255,7 @@ class EnglishEntryarm extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakArm127("en-GB"),
+                                onPressed: () => speakArrive524("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -295,7 +264,7 @@ class EnglishEntryarm extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakArm127(// REPLACE: arm /ɑːrm/
+                                    speakArrive524(// REPLACE: arrive /əˈraɪv/
                                         "en-US"),
                               ),
                             ],
@@ -308,7 +277,7 @@ class EnglishEntryarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "He was running forward, waving his arms.",
+                                    "She'll arrive in New York at noon.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -323,7 +292,7 @@ class EnglishEntryarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ پێشەوە ڕای‌دەکرد و دەستەکانی ڕادەوەشاند.",
+                                    "نیوەڕۆ دەگاتە نیویۆرک.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -336,7 +305,7 @@ class EnglishEntryarm extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakArm129("en-GB"),
+                                onPressed: () => speakArrive525("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -345,7 +314,7 @@ class EnglishEntryarm extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakArm129(// REPLACE: arm /ɑːrm/
+                                    speakArrive525(// REPLACE: arrive /əˈraɪv/
                                         "en-US"),
                               ),
                             ],
@@ -355,7 +324,7 @@ class EnglishEntryarm extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) قۆڵی جلوبەرگ؛ ئەو بەشەی جلوبەرگ کە قۆڵ دادەپۆشێت""",
+٢. (کردار) هێنان یان گەشتن بە کەسێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -366,7 +335,7 @@ class EnglishEntryarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The arms will need shortening.",
+                                    "A letter arrived for you this morning.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -381,7 +350,7 @@ class EnglishEntryarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "قۆڵەکەی پێویستیی بە کورتکردنەوە ھەیە.",
+                                    "ئەم بەیانییە نامەیەکت پێ‌گەیشت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -394,7 +363,7 @@ class EnglishEntryarm extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakArm131("en-GB"),
+                                onPressed: () => speakArrive527("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -403,7 +372,7 @@ class EnglishEntryarm extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakArm131(// REPLACE: arm /ɑːrm/
+                                    speakArrive527(// REPLACE: arrive /əˈraɪv/
                                         "en-US"),
                               ),
                             ],
@@ -413,7 +382,7 @@ class EnglishEntryarm extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ناو) لایەکانی کورسییەکەت کە دەستی لەسەر دادەنێیت""",
+٢. (کردار) ڕوودان یان هاتنی شتێک، بەتایبەتی شتێک کە چاوەڕێی بوویتە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -424,7 +393,7 @@ class EnglishEntryarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "She perched on the arm of his chair.",
+                                    "The wedding day finally arrived.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -439,7 +408,7 @@ class EnglishEntryarm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەسەر جێ‌دەستی کورسییەکەی ئەو دانیشت.",
+                                    "ڕۆژی هاوسەرگیرییەکە لەکۆتاییدا گەشت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -452,7 +421,7 @@ class EnglishEntryarm extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakArm134("en-GB"),
+                                onPressed: () => speakArrive528("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -461,347 +430,7 @@ class EnglishEntryarm extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakArm134(// REPLACE: arm /ɑːrm/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٤. (ناو) پارچەیەکی جوڵاوی ئامێرێک یان شتێکی تر""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The fuel filler door is opened by a robotic arm.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "تانکی بەنزینەکە دەکرێتەوە لەلایەن باڵێکی ڕۆبۆتییەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakArm138("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakArm138(// REPLACE: arm /ɑːrm/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٥. (ناو) ڕێڕەوێکی بچووکی ئاو یان پارچە زەوی کە دەگەیەت بە یەکێکی گەورەتر""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "A small bridge spans the arm of the river.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پردێکی بچووک بەسەر لقە ئاوەکەدا دەپەڕێتەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakArm138("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakArm138(// REPLACE: arm /ɑːrm/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٦. (ناو) بەشێکی بچووکی دامەزراوەیەکی گەورەتر کە تەنھا یەک چالاکی ھەیە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The bank plans to sell part of its US arm.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بانکەکە پلانی ھەیە بەشێکی لقی ئەمریکای بفرۆشێت.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakArm148("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakArm148(// REPLACE: arm /ɑːrm/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٧. (کردار) پێدانی چەک یان شتێکی تر بە کەسێک یان بەدەستخستنی بۆ خۆت بۆ ئەوەی پێێ بجەنگیت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The men armed themselves with sticks and stones.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پیاوەکان بە دار و بەرد خۆیان قایم‌کرد.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakArm151("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakArm151(// REPLACE: arm /ɑːrm/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The country was arming against the enemy.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وڵاتەکە خۆی چەکدار دەکرد دژ بە دووژمنەکەی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakArm152("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakArm152(// REPLACE: arm /ɑːrm/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٨. (کردار) پێدانی زانیاری بە کەسێک یان بەدەستخستنی بۆ خۆت بۆ تەواوکردنی شتێک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "She armed herself for the interview by finding out all she could about the company in advance.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پێش‌وەختە خۆی ئامادەکرد بۆ چاوپێکەوتنەکە بە دۆزینەوەی ھەر شتێک کە دەیتوانی بیکات سەبارەت بە کۆمپانیاکە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakArm156("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakArm156(// REPLACE: arm /ɑːrm/
+                                    speakArrive528(// REPLACE: arrive /əˈraɪv/
                                         "en-US"),
                               ),
                             ],
@@ -852,26 +481,12 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arm (Derived forms: arms)
-1. A human limb; technically the part of the superior limb between the shoulder and the elbow but commonly used to refer to the whole superior limb
+- Verb: arrive (Derived forms: arrived, arriving, arrives)
+1. Reach a destination by movement or progress (= get, come)
+"She arrived home at 7 o'clock";
  
-2. Any projection that is thought to resemble a human arm (= branch, limb)
-"the arm of the record player"; "an arm of the sea";
- 
-3. Any instrument or instrumentality used in fighting or hunting (= weapon, weapon system)
- 
-4. The part of an armchair or sofa that supports the elbow and forearm of a seated person
- 
-5. A division of some larger or more complex organization (= branch, subdivision)
- 
-6. The part of a garment that is attached at the armhole and that provides a cloth covering for the arm (= sleeve)
-
-- Verb: arm (Derived forms: arms, armed, arming)
-1. Prepare oneself for a military confrontation (= build up, fortify, gird)
-"troops are arming on the Iraqi border";
- 
-2. Supply with arms
-"The U.S. armed the freedom fighters in Afghanistan"
+2. Succeed in a big way; get to the top (= make it, get in, go far)
+"After he published his book, he had arrived";
 """),
         ],
       ),
@@ -882,12 +497,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "Qiok50TjAIE";
+  static String myVideoId = "https://youtu.be/3PyXQ0UXk9w?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 72, // DOPSUM: CHANGE IT
+      startAt: 21, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -907,12 +522,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "vFymKqUwodY";
+  static String myVideoId = "https://youtu.be/WnSov1HCILo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 18, // DOPSUM: CHANGE IT
+      startAt: 577, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -932,12 +547,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "XKBbn5GBw0Y";
+  static String myVideoId = "https://youtu.be/4Ozte2GDeMM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 419, // DOPSUM: CHANGE IT
+      startAt: 77, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -957,12 +572,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "oYO7o1Z8gk4";
+  static String myVideoId = "https://youtu.be/HDntl7yzzVI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 990, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -982,12 +597,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "cYXUu3qT36c";
+  static String myVideoId = "https://youtu.be/VrKW58MS12g?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 203, // DOPSUM: CHANGE IT
+      startAt: 223, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1007,12 +622,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "AcLh-aSUdx0";
+  static String myVideoId = "https://youtu.be/AtI7g6ax7rI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 20, // DOPSUM: CHANGE IT
+      startAt: 59, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1032,12 +647,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "3TSD9TJ5sVM";
+  static String myVideoId = "https://youtu.be/FPAk81X3tTY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 378, // DOPSUM: CHANGE IT
+      startAt: 831, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1057,12 +672,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "-HyHZsa79LU";
+  static String myVideoId = "https://youtu.be/jgkMFBDyzE8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1190, // DOPSUM: CHANGE IT
+      startAt: 442, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1082,12 +697,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "QLq6GEiHqR8";
+  static String myVideoId = "https://youtu.be/mY3SEMTROas?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1530, // DOPSUM: CHANGE IT
+      startAt: 1566, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1107,12 +722,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "Cqbleas1mmo";
+  static String myVideoId = "https://youtu.be/CaaJyRvvaq8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1018, // DOPSUM: CHANGE IT
+      startAt: 146, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1132,12 +747,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "EHJNGdFll4o";
+  static String myVideoId = "https://youtu.be/raSeaAeryWE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1208, // DOPSUM: CHANGE IT
+      startAt: 1272, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1157,12 +772,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "60FM9WjkXtA";
+  static String myVideoId = "https://youtu.be/8FpPSMIB4uA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 290, // DOPSUM: CHANGE IT
+      startAt: 1094, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

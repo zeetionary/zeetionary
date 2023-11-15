@@ -215,7 +215,7 @@ class EnglishEntryaromatic extends StatelessWidget {
                             """
 کوردی: بۆن‌خوش، بەبۆن و بەرامە
 
-١. (ھاوەڵناو) بوونی بۆنێکی خۆش کە بە ئاسانی هەستی پێ‌دەکرێت""",
+١. (ھاوەڵناو) بوونی بۆنێکی خۆش کە بە ئاسانی ھەستی پێ‌دەکرێت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -241,7 +241,7 @@ class EnglishEntryaromatic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕووەکەکە بۆنێکی توندی خۆشی هەیە.",
+                                    "ڕووەکەکە بۆنێکی توندی خۆشی ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

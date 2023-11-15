@@ -218,9 +218,9 @@ class EnglishEntryarouse extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: هەستاندن، ڕاپەڕاندن، ورووژاندن
+کوردی: ھەستاندن، ڕاپەڕاندن، ورووژاندن
 
-١. (کردار) وا لە کەسێک بکەیت هەستێک یان ڕەفتارێکی دیاریکراو بنوێنێت""",
+١. (کردار) وا لە کەسێک بکەیت ھەستێک یان ڕەفتارێکی دیاریکراو بنوێنێت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -394,7 +394,7 @@ class EnglishEntryarouse extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٤. (کردار) لە خەو هەستاندن""",
+٤. (کردار) لە خەو ھەستاندن""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -420,7 +420,7 @@ class EnglishEntryarouse extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە دەنگێکی بەرز لە خەوێکی قووڵ هەستا.",
+                                    "بە دەنگێکی بەرز لە خەوێکی قووڵ ھەستا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

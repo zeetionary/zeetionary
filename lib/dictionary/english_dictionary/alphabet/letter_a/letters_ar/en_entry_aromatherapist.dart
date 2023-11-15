@@ -213,7 +213,7 @@ class EnglishEntryaromatherapist extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ناو) ئێرۆماسێراپیست؛ کەسێک کە شارەزایی هەیە لە بەکارهێنانی جۆرە جیاوازەکانی ڕۆنی سرووشتی کە بۆنیان خۆشە بۆ بەهێزکردنی لەش لە لایەنی جەستەیی و دەروونی بە ساوینی ڕۆنەکە بە لەشدا یان بۆنکردنیان
+١. (ناو) ئێرۆماسێراپیست؛ کەسێک کە شارەزایی ھەیە لە بەکارھێنانی جۆرە جیاوازەکانی ڕۆنی سرووشتی کە بۆنیان خۆشە بۆ بەھێزکردنی لەش لە لایەنی جەستەیی و دەروونی بە ساوینی ڕۆنەکە بە لەشدا یان بۆنکردنیان
  """,
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,

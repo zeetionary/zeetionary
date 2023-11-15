@@ -6,97 +6,96 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// rraignment
+// articulation
 
-// replace EnglishEntryarraignment - replace speakArraignment
+// replace EnglishEntryarticulation - replace speakArticulation
 
-// replace arraignment - /əˈreɪnmənt/ - find WORD_WEB
+// replace articulation - /ɑːˌtɪkjuˈleɪʃn/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryarraignment extends StatelessWidget {
+class EnglishEntryarticulation extends StatelessWidget {
   // blank divider
-  EnglishEntryarraignment({super.key});
+  EnglishEntryarticulation({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArraignment(String languageCode) async {
-    // DOPSUM: CHANGE speakArraignment
+  Future<void> speakArticulation(String languageCode) async {
+    // DOPSUM: CHANGE speakArticulation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("articulation"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArraignment1250(String languageCode) async {
-    // DOPSUM: CHANGE speakArraignment
+  Future<void> speakArticulation845(String languageCode) async {
+    // DOPSUM: CHANGE speakArticulation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "A date for her arraignment has not yet been set."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The clarity and precision of the articulation of his theory made it easy for even non-experts to understand its implications."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
+  Future<void> speakArticulation847(String languageCode) async {
+    // DOPSUM: CHANGE speakArticulation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("The tongue and teeth are both organs of articulation."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakArticulation853(String languageCode) async {
+    // DOPSUM: CHANGE speakArticulation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("The articulation of the shoulder allows for a wide range of motion."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakArticulation855(String languageCode) async {
+    // DOPSUM: CHANGE speakArticulation
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("The articulation of the pieces of the puzzle was perfect."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakArticulation(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArticulation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("articulation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
+  // Future<void> speakArticulation(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArticulation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("articulation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
+  // Future<void> speakArticulation(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArticulation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("articulation"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
+  // Future<void> speakArticulation(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArticulation
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("articulation"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -115,7 +114,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "arraignment", // DOPSUM: CHANGE WORD ENTRY - Find /əˈreɪnmənt/
+                                "articulation", // DOPSUM: CHANGE WORD ENTRY - Find /ɑːˌtɪkjuˈleɪʃn/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -134,7 +133,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˈreɪnmənt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ɑːˌtɪkjuˈleɪʃn/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -144,9 +143,9 @@ class EnglishEntryarraignment extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakArraignment(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakArticulation(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
@@ -155,7 +154,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˈreɪnmənt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /ɑːrˌtɪkjuˈleɪʃn/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -165,7 +164,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakArraignment(
+                              onPressed: () => speakArticulation(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -185,13 +184,13 @@ class EnglishEntryarraignment extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -215,9 +214,9 @@ class EnglishEntryarraignment extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: بانگ‌کردن، تاوانبار کردن، گوناھبار کردن، بەدواکەوتن، بەشوێن‌کەوتن
+کوردی: (فەرمی) دەربڕین، گۆکردن، گۆیشت، بێژان (دەنکەدەنکە)، (دەنگ‌ناسی) دەرچوون یان دەرکردنی دەنگ، (تکنیکی) بەند، جومگە،گە، ماچلەک، گوشوەن؛ لاولاوە، ئەنجامە، پیتی کپ، پیتی بێ‌دەنگ، بەجومگەبوون
 
-١. (ناو) ھێنانی کەسێک بۆ دادگا بۆ بەفەرمی تاوانبارکردنیان""",
+١. (ناو) دەربڕینی بیرۆکەیەک یان هەستێک لە وشەدا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -228,7 +227,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "A date for her arraignment has not yet been set.",
+                                    "The clarity and precision of the articulation of his theory made it easy for even non-experts to understand its implications.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -243,7 +242,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێککەوتێک بۆ گوناھبارکردنەکەی دیاریکرا.",
+                                    "ڕوونی و وردی دەربڕینی بیرۆکەکەی وا ئاسانی کرد کە تەنانەت ناشارەزاکانیش لە دەرئەنجامەکانی تێ‌بگەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -256,7 +255,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakArraignment1250("en-GB"),
+                                onPressed: () => speakArticulation845("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -264,9 +263,175 @@ class EnglishEntryarraignment extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakArraignment1250(
-                                    // REPLACE: arraignment /əˈreɪnmənt/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakArticulation845(// REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٢. (ناو) کرداری درووستکردنی دەنگ کە قسەکردن یان گۆرانی‌وتندا""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The tongue and teeth are both organs of articulation.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "زمان و ددان هەردوویان ئەندامی ئاخاوتنن.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakArticulation847("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakArticulation847(// REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٣. (ناو) جومگەیەک یان پێکەوەبەستراوییەک کە ڕێگا بە جووڵە دەدات، یان جومگەکە خۆی""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The articulation of the pieces of the puzzle was perfect.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "پێکەوە بەسترانی بەشەکانی پەزڵەکە تەواو بوو.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakArticulation855("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakArticulation855(// REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The articulation of the shoulder allows for a wide range of motion.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "جومگەی شان ڕێگا بە جووڵەی زۆر دەدات.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakArticulation853("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakArticulation853(// REPLACE: articulation /ɑːrˌtɪkjuˈleɪʃn/
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -284,9 +449,9 @@ class EnglishEntryarraignment extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -316,8 +481,17 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arraignment (Derived forms: arraignments)
-1. A legal document calling someone to court to answer an indictment
+- Noun: articulation (Derived forms: articulations)
+1. The aspect of pronunciation that involves bringing articulatory organs together so as to shape the sounds of speech
+ 
+2. The shape or manner in which things come together and a connection is made (= join, joint, juncture, junction)
+ 
+3. Expressing in coherent verbal form (= voice)
+"the articulation of my feelings";
+ 
+4. (anatomy) the point of connection between two bones or elements of a skeleton (especially if it allows motion) (= joint, articulatio)
+ 
+5. The act of joining things in such a way that motion is possible
 """),
         ],
       ),
@@ -328,12 +502,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "TBRGdhSF3WA";
+  static String myVideoId = "https://youtu.be/jrHz8Bti6FY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 20, // DOPSUM: CHANGE IT
+      startAt: 234, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -353,12 +527,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "T8s2vqUqYCg";
+  static String myVideoId = "https://youtu.be/tZBk_Hb-X0w?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 451, // DOPSUM: CHANGE IT
+      startAt: 367, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -378,12 +552,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "NRGULmBPS8c";
+  static String myVideoId = "https://youtu.be/7D0F1lSvGi0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 237, // DOPSUM: CHANGE IT
+      startAt: 285, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -403,12 +577,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "yfljFmhqFm4";
+  static String myVideoId = "https://youtu.be/LfxnXMzt1Kw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 120, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -428,12 +602,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "Wr0G0CbK2tw";
+  static String myVideoId = "https://youtu.be/XNN1Hbg9oNU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1258, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -453,12 +627,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "5U-yqm9H_Sg";
+  static String myVideoId = "https://youtu.be/67oqXQP54GI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2914, // DOPSUM: CHANGE IT
+      startAt: 178, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -478,12 +652,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "B-KroMPyUFU";
+  static String myVideoId = "https://youtu.be/xfmD1yYqP6k?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1562, // DOPSUM: CHANGE IT
+      startAt: 653, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -503,12 +677,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "UlRPE1OPAWw";
+  static String myVideoId = "https://youtu.be/NTpd-KE2aw0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1057, // DOPSUM: CHANGE IT
+      startAt: 390, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -528,12 +702,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "TDMd40a-A4c";
+  static String myVideoId = "https://youtu.be/1_Z7gICP0DU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 866, // DOPSUM: CHANGE IT
+      startAt: 1102, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -553,12 +727,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/5aXmNle560k?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 297, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -578,12 +752,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/5uwWlamONqs?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 963, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -603,12 +777,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/2xF_teT2_V0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 753, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

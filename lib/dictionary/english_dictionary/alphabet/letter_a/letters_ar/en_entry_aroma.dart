@@ -215,7 +215,7 @@ class EnglishEntryaroma extends StatelessWidget {
                             """
 کوردی: بۆنی خۆش، بەرامە، عەتر، گوڵاو، کەش، تایبەتمەندی، تام‌وبۆ، سەنگ‌وڕەنگ، ڕەنگ‌وبۆ
 
-١. (ناو) بۆنێکی خۆش کە بە ئاسانی هەستی پێ دەکرێت""",
+١. (ناو) بۆنێکی خۆش کە بە ئاسانی ھەستی پێ دەکرێت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -241,7 +241,7 @@ class EnglishEntryaroma extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆن و بەرامەیەکی بەلەزەت لە چێشتخانەکەوە دەهات.",
+                                    "بۆن و بەرامەیەکی بەلەزەت لە چێشتخانەکەوە دەھات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

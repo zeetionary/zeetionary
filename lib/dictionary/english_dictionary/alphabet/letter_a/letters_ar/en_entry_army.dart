@@ -217,9 +217,9 @@ class EnglishEntryarmy extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: لەشکر، ئەرتەش، سپا، هێزی زەمینی، دەستە، جەماعەت، ئاپۆرە، کۆمەڵە، مێگەل، ڕان، ڕەڤە
+کوردی: لەشکر، ئەرتەش، سپا، ھێزی زەمینی، دەستە، جەماعەت، ئاپۆرە، کۆمەڵە، مێگەل، ڕان، ڕەڤە
 
-١. (ناو) ژمارەیەکی زۆر سەرباز کە ڕاهێنراون بۆ شەڕکردن لەسەر زەوی""",
+١. (ناو) ژمارەیەکی زۆر سەرباز کە ڕاھێنراون بۆ شەڕکردن لەسەر زەوی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -403,7 +403,7 @@ class EnglishEntryarmy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە سوپای فەرەنسادا خزمەتی کرد لە جەنگی یەکەمی جیهانی.",
+                                    "لە سوپای فەرەنسادا خزمەتی کرد لە جەنگی یەکەمی جیھانی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

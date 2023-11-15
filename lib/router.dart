@@ -972,7 +972,21 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_artery.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_arterial.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_artful.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_artfully.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_arthritis.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_arthritic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_artichoke.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_article.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_articulate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_articulately.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_articulated.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_articulation.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_artificial.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_artificial_intelligence.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_artificial_respiration.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_artificially.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_artillery.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_artisan.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ar/en_entry_DOPSUM.dart';
@@ -2068,21 +2082,21 @@ final loggedInRoute = RouteMap(routes: {
   "/english-artery": (_) => MaterialPage(child: EnglishEntryartery()),
   "/english-arterial": (_) => MaterialPage(child: EnglishEntryarterial()),
   "/english-artful": (_) => MaterialPage(child: EnglishEntryartful()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-artfully": (_) => MaterialPage(child: EnglishEntryartfully()),
+  "/english-arthritis": (_) => MaterialPage(child: EnglishEntryarthritis()),
+  "/english-arthritic": (_) => MaterialPage(child: EnglishEntryarthritic()),
+  "/english-artichoke": (_) => MaterialPage(child: EnglishEntryartichoke()),
+  "/english-article": (_) => MaterialPage(child: EnglishEntryarticle()),
+  "/english-articulate": (_) => MaterialPage(child: EnglishEntryarticulate()),
+  "/english-articulately": (_) => MaterialPage(child: EnglishEntryarticulately()),
+  "/english-articulated": (_) => MaterialPage(child: EnglishEntryarticulated()),
+  "/english-articulation": (_) => MaterialPage(child: EnglishEntryarticulation()),
+  "/english-artificial": (_) => MaterialPage(child: EnglishEntryartificial()),
+  "/english-artificial intelligence": (_) => MaterialPage(child: EnglishEntryartificialintelligence()),
+  "/english-artificial respiration": (_) => MaterialPage(child: EnglishEntryartificialrespiration()),
+  "/english-artificially": (_) => MaterialPage(child: EnglishEntryartificially()),
+  "/english-artillery": (_) => MaterialPage(child: EnglishEntryartillery()),
+  "/english-artisan": (_) => MaterialPage(child: EnglishEntryartisan()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

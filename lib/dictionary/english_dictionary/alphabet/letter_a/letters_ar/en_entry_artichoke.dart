@@ -6,97 +6,97 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// rraignment
+// artichoke
 
-// replace EnglishEntryarraignment - replace speakArraignment
+// replace EnglishEntryartichoke - replace speakArtichoke
 
-// replace arraignment - /əˈreɪnmənt/ - find WORD_WEB
+// replace artichoke - /ˈɑːtɪtʃəʊk/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryarraignment extends StatelessWidget {
+class EnglishEntryartichoke extends StatelessWidget {
   // blank divider
-  EnglishEntryarraignment({super.key});
+  EnglishEntryartichoke({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArraignment(String languageCode) async {
-    // DOPSUM: CHANGE speakArraignment
+  Future<void> speakArtichoke(String languageCode) async {
+    // DOPSUM: CHANGE speakArtichoke
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("artichoke"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArraignment1250(String languageCode) async {
-    // DOPSUM: CHANGE speakArraignment
+  Future<void> speakArtichoke510(String languageCode) async {
+    // DOPSUM: CHANGE speakArtichoke
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A date for her arraignment has not yet been set."); // DOPSUM: CHANGE TEXT
+        "Cut the artichoke into long quarters and remove the choke (the purple spikes and blond fluff)."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
+  // Future<void> speakArtichoke(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtichoke
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artichoke"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
+  // Future<void> speakArtichoke(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtichoke
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artichoke"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
+  // Future<void> speakArtichoke(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtichoke
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artichoke"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
+  // Future<void> speakArtichoke(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtichoke
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artichoke"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
+  // Future<void> speakArtichoke(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtichoke
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artichoke"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
+  // Future<void> speakArtichoke(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtichoke
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artichoke"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
+  // Future<void> speakArtichoke(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtichoke
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artichoke"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -115,7 +115,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "arraignment", // DOPSUM: CHANGE WORD ENTRY - Find /əˈreɪnmənt/
+                                "artichoke", // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːtɪtʃəʊk/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -134,7 +134,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˈreɪnmənt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈɑːtɪtʃəʊk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -144,7 +144,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakArraignment(
+                              onPressed: () => speakArtichoke(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -155,7 +155,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˈreɪnmənt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /ˈɑːrtɪtʃəʊk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -165,7 +165,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakArraignment(
+                              onPressed: () => speakArtichoke(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -185,10 +185,10 @@ class EnglishEntryarraignment extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
@@ -215,9 +215,9 @@ class EnglishEntryarraignment extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: بانگ‌کردن، تاوانبار کردن، گوناھبار کردن، بەدواکەوتن، بەشوێن‌کەوتن
+کوردی: (ڕووەک‌ناسی) ئارتیشۆک، شەکرۆکە، دڕەبا
 
-١. (ناو) ھێنانی کەسێک بۆ دادگا بۆ بەفەرمی تاوانبارکردنیان""",
+١. (ناو) سەوزەیەکی خڕ کە کە گەڵای ئەستووری زۆری ھەیە. بەشی خوارەوەی گەڵاکان و ناوەوەی سەوزەکە دەکرێت بخورێت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -228,7 +228,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "A date for her arraignment has not yet been set.",
+                                    "Cut the artichoke into long quarters and remove the choke (the purple spikes and blond fluff).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -243,7 +243,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێککەوتێک بۆ گوناھبارکردنەکەی دیاریکرا.",
+                                    "ئارتیشۆکەکە بکە چوار بەشی یەکسانەوە و ناوەکەی لابدە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -256,7 +256,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakArraignment1250("en-GB"),
+                                onPressed: () => speakArtichoke510("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -264,8 +264,8 @@ class EnglishEntryarraignment extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakArraignment1250(
-                                    // REPLACE: arraignment /əˈreɪnmənt/
+                                onPressed: () => speakArtichoke510(
+                                    // REPLACE: artichoke /ˈɑːrtɪtʃəʊk/
                                     "en-US"),
                               ),
                             ],
@@ -283,7 +283,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
+                    // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
@@ -316,8 +316,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arraignment (Derived forms: arraignments)
-1. A legal document calling someone to court to answer an indictment
+- Noun: artichoke (Derived forms: artichokes)
+1. Mediterranean thistlelike plant widely cultivated for its large edible flower head (= globe artichoke, artichoke plant, Cynara scolymus)
+ 
+2. A thistlelike flower head with edible fleshy leaves and heart (= globe artichoke)
 """),
         ],
       ),
@@ -328,12 +330,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "TBRGdhSF3WA";
+  static String myVideoId = "kVX14VWnP-8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 20, // DOPSUM: CHANGE IT
+      startAt: 62, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -353,12 +355,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "T8s2vqUqYCg";
+  static String myVideoId = "k4fEJVShWqk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 451, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -378,12 +380,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "NRGULmBPS8c";
+  static String myVideoId = "iYJ3KTLzOkY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 237, // DOPSUM: CHANGE IT
+      startAt: 35, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -403,12 +405,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "yfljFmhqFm4";
+  static String myVideoId = "gOqrYYKUGu0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 18, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -428,12 +430,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "Wr0G0CbK2tw";
+  static String myVideoId = "iNwMbPnXsTI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 40, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -453,12 +455,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "5U-yqm9H_Sg";
+  static String myVideoId = "GJ1ictYrL-U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2914, // DOPSUM: CHANGE IT
+      startAt: 5, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -478,12 +480,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "B-KroMPyUFU";
+  static String myVideoId = "3wwGv9x1n8k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1562, // DOPSUM: CHANGE IT
+      startAt: 287, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -503,12 +505,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "UlRPE1OPAWw";
+  static String myVideoId = "5t0nhbqhBtQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1057, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -528,12 +530,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "TDMd40a-A4c";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 866, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

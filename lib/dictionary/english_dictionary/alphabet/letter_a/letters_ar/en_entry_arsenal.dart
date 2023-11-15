@@ -33,7 +33,8 @@ class EnglishEntryarsenal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The treaty requires them to reduce their nuclear arsenal by 30%."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The treaty requires them to reduce their nuclear arsenal by 30%."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakArsenal826(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntryarsenal extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The building was used as an arsenal until the eighteenth century."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The building was used as an arsenal until the eighteenth century."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakArsenal(String languageCode) async {
@@ -214,7 +216,7 @@ class EnglishEntryarsenal extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: جبەخانە، قۆڕخانە، باڕووت‌خانە، چەک‌وچۆڵ، چەکەمەنی، (کارخانە) چەک‌سازی، تۆکمەسازی، عەماری چەک‌وچۆڵ و تەقەمەنی، عەمار، کۆگا، هەمار، پاشکەوت‌خانە
+کوردی: جبەخانە، قۆڕخانە، باڕووت‌خانە، چەک‌وچۆڵ، چەکەمەنی، (کارخانە) چەک‌سازی، تۆکمەسازی، عەماری چەک‌وچۆڵ و تەقەمەنی، عەمار، کۆگا، ھەمار، پاشکەوت‌خانە
 
 ١. (ناو) چەک و تەقەمەنی""",
                             style: TextStyle(fontSize: 18),
@@ -263,9 +265,9 @@ class EnglishEntryarsenal extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakArsenal825(// REPLACE: arsenal /ˈɑːrsənl/
-                                        "en-US"),
+                                onPressed: () => speakArsenal825(
+                                    // REPLACE: arsenal /ˈɑːrsənl/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -300,7 +302,7 @@ class EnglishEntryarsenal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بیناکە وەک جبەخانەیەک بەکارهات تاوەکو سەدەی هەژدە.",
+                                    "بیناکە وەک جبەخانەیەک بەکارھات تاوەکو سەدەی ھەژدە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -321,9 +323,9 @@ class EnglishEntryarsenal extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakArsenal826(// REPLACE: arsenal /ˈɑːrsənl/
-                                        "en-US"),
+                                onPressed: () => speakArsenal826(
+                                    // REPLACE: arsenal /ˈɑːrsənl/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -392,7 +394,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/hEcaWua1lp0?t=";
+  static String myVideoId = "hEcaWua1lp0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -417,7 +419,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/PS_PlorW6pM?t=";
+  static String myVideoId = "PS_PlorW6pM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -442,7 +444,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/58XEfDtU0Z4?t=";
+  static String myVideoId = "58XEfDtU0Z4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -467,7 +469,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/DxL2HoqLbyA?t=";
+  static String myVideoId = "DxL2HoqLbyA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -492,7 +494,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/s36hrId0rOo?t=";
+  static String myVideoId = "s36hrId0rOo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -517,7 +519,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/MVu8QbxafJE?t=";
+  static String myVideoId = "MVu8QbxafJE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -542,7 +544,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/qtlPTE-UmY4?t=";
+  static String myVideoId = "qtlPTE-UmY4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -567,7 +569,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/zhWWcWtAUoY?t=";
+  static String myVideoId = "zhWWcWtAUoY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -592,7 +594,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/fs1CIrwg5zU?t=";
+  static String myVideoId = "fs1CIrwg5zU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -617,7 +619,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/JTB5T5aldNo?t=";
+  static String myVideoId = "JTB5T5aldNo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -642,7 +644,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/kE3La8u5bnw?t=";
+  static String myVideoId = "kE3La8u5bnw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

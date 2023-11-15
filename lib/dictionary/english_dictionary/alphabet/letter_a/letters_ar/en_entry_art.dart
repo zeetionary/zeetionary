@@ -33,7 +33,8 @@ class EnglishEntryart extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It's a very beautiful piece of art."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("It's a very beautiful piece of art."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakArt927(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntryart extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("His art style was less radical than his contemporaries."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "His art style was less radical than his contemporaries."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakArt930(String languageCode) async {
@@ -49,7 +51,8 @@ class EnglishEntryart extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The castle houses one of the finest art collections in Britain."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The castle houses one of the finest art collections in Britain."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakArt936(String languageCode) async {
@@ -57,7 +60,8 @@ class EnglishEntryart extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She's good at art and design."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She's good at art and design."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakArt939(String languageCode) async {
@@ -65,7 +69,8 @@ class EnglishEntryart extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("At school I was quite good at arts, but hopeless at science."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "At school I was quite good at arts, but hopeless at science."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakArt943(String languageCode) async {
@@ -73,7 +78,8 @@ class EnglishEntryart extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Drama is an art that is traditionally performed in a theatre."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Drama is an art that is traditionally performed in a theatre."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakArt947(String languageCode) async {
@@ -81,7 +87,8 @@ class EnglishEntryart extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("More government money is needed for the arts."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "More government money is needed for the arts."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakArt950(String languageCode) async {
@@ -89,7 +96,8 @@ class EnglishEntryart extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I've never mastered the art of making bread."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I've never mastered the art of making bread."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakArt(String languageCode) async {
@@ -286,9 +294,9 @@ class EnglishEntryart extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: هونەر، هونەری شێوەکاری، کارە هونەری‌یەکان، ئاسەوارە هونەری‌یەکان، دەسڕەنگینی، شارەزایی، وەستایی، مامۆستایی، لێهاتوویی، فێڵ، تەڵەکە، وێنەکێشی
+کوردی: ھونەر، ھونەری شێوەکاری، کارە ھونەری‌یەکان، ئاسەوارە ھونەری‌یەکان، دەسڕەنگینی، شارەزایی، وەستایی، مامۆستایی، لێھاتوویی، فێڵ، تەڵەکە، وێنەکێشی
 
-١. (ناو) بەکارهێنانی خەیاڵ بۆ دەربڕینی هەست و بیرۆکە لە شێوەی تابلۆ و وێنەکێشان و پەیکەردا""",
+١. (ناو) بەکارھێنانی خەیاڵ بۆ دەربڕینی ھەست و بیرۆکە لە شێوەی تابلۆ و وێنەکێشان و پەیکەردا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -314,7 +322,7 @@ class EnglishEntryart extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پارچەیەکی هونەری زۆر جوانە.",
+                                    "پارچەیەکی ھونەری زۆر جوانە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -364,7 +372,7 @@ class EnglishEntryart extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ستایلی هونەریی کەمتر تازەگەریی تێدابوو وەک لەوانەی دیکەی هاوسەردەمی.",
+                                    "ستایلی ھونەریی کەمتر تازەگەریی تێدابوو وەک لەوانەی دیکەی ھاوسەردەمی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -396,7 +404,7 @@ class EnglishEntryart extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) نموونەی کاری هونەری، بۆ نموونە تابلۆ، وێنەی کێشراو، یان پەیکەر""",
+٢. (ناو) نموونەی کاری ھونەری، بۆ نموونە تابلۆ، وێنەی کێشراو، یان پەیکەر""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -422,7 +430,7 @@ class EnglishEntryart extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "قەڵاکە یەکێک لە باشترین کۆمەڵە کاری هونەری لە بەریتانیادا تێدایە.",
+                                    "قەڵاکە یەکێک لە باشترین کۆمەڵە کاری ھونەری لە بەریتانیادا تێدایە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -454,7 +462,7 @@ class EnglishEntryart extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ناو) شارەزایی لە درووستکردنی پارچەی هونەری، بۆ نموونە تابلۆ، وێنەی کێشراو، یان پەیکەر""",
+٣. (ناو) شارەزایی لە درووستکردنی پارچەی ھونەری، بۆ نموونە تابلۆ، وێنەی کێشراو، یان پەیکەر""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -480,7 +488,7 @@ class EnglishEntryart extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە هونەر و دیزایندا باشە.",
+                                    "لە ھونەر و دیزایندا باشە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -512,7 +520,7 @@ class EnglishEntryart extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٤. (ناو) بابەتە هونەرییەکان کاتێک پێکەوە باس دەکرێن""",
+٤. (ناو) بابەتە ھونەرییەکان کاتێک پێکەوە باس دەکرێن""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -538,7 +546,7 @@ class EnglishEntryart extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پارەی زیاتری حکومەت بۆ هونەر پێویستە.",
+                                    "پارەی زیاتری حکومەت بۆ ھونەر پێویستە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -570,7 +578,7 @@ class EnglishEntryart extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٥. (ناو) هونەری بینراو، یان یەکێک کە نمایش دەکرێت""",
+٥. (ناو) ھونەری بینراو، یان یەکێک کە نمایش دەکرێت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -596,7 +604,7 @@ class EnglishEntryart extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دراما هونەرێکە زۆرجار لە هۆڵی شانۆ پێشکەش دەکرێت.",
+                                    "دراما ھونەرێکە زۆرجار لە ھۆڵی شانۆ پێشکەش دەکرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -654,7 +662,7 @@ class EnglishEntryart extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە قوتابخانە زۆر لە بابەتە هونەرییەکان باش بووم، بەڵام لە زانست بێ‌ئەمەل بووم.",
+                                    "لە قوتابخانە زۆر لە بابەتە ھونەرییەکان باش بووم، بەڵام لە زانست بێ‌ئەمەل بووم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -686,7 +694,7 @@ class EnglishEntryart extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٧. (ناو) توانایەک یان شارەزاییەک کە دەتوانی زیاتر گەشەی پێ‌بدەیت بە ڕاهێنان‌کردن""",
+٧. (ناو) توانایەک یان شارەزاییەک کە دەتوانی زیاتر گەشەی پێ‌بدەیت بە ڕاھێنان‌کردن""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -712,7 +720,7 @@ class EnglishEntryart extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەرگیز فێری هونەری نانکردن نەبوومە.",
+                                    "ھەرگیز فێری ھونەری نانکردن نەبوومە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -812,7 +820,7 @@ Usage: archaic
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/21Z4RIOFhMA?t=";
+  static String myVideoId = "21Z4RIOFhMA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -837,7 +845,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/DTvS9lvRxZ8?t=";
+  static String myVideoId = "DTvS9lvRxZ8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -862,7 +870,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/Cd1EmYRZynw?t=";
+  static String myVideoId = "Cd1EmYRZynw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -887,7 +895,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/QyB5ofy9RaY?t=";
+  static String myVideoId = "QyB5ofy9RaY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -912,7 +920,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/HDntl7yzzVI?t=";
+  static String myVideoId = "HDntl7yzzVI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -937,7 +945,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/4J0xFUyz1nw?t=";
+  static String myVideoId = "4J0xFUyz1nw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -962,7 +970,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/jZftEs4MjEM?t=";
+  static String myVideoId = "jZftEs4MjEM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -987,7 +995,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/e9--Fb1c3W8?t=";
+  static String myVideoId = "e9--Fb1c3W8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1012,7 +1020,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/pgzXdg_25Sg";
+  static String myVideoId = "pgzXdg_25Sg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1037,7 +1045,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/GK-BHZs7GxE";
+  static String myVideoId = "GK-BHZs7GxE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1062,7 +1070,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/esVPAWiNoBo?t=";
+  static String myVideoId = "esVPAWiNoBo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -1087,7 +1095,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/TW-kag5GG9s?t=";
+  static String myVideoId = "TW-kag5GG9s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

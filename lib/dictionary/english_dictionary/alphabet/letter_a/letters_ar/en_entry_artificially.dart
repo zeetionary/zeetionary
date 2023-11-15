@@ -6,97 +6,98 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// rraignment
+// artificially
 
-// replace EnglishEntryarraignment - replace speakArraignment
+// replace EnglishEntryartificially - replace speakArtificially
 
-// replace arraignment - /əˈreɪnmənt/ - find WORD_WEB
+// replace artificially - /ˌɑːtɪˈfɪʃəli/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryarraignment extends StatelessWidget {
+class EnglishEntryartificially extends StatelessWidget {
   // blank divider
-  EnglishEntryarraignment({super.key});
+  EnglishEntryartificially({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArraignment(String languageCode) async {
-    // DOPSUM: CHANGE speakArraignment
+  Future<void> speakArtificially(String languageCode) async {
+    // DOPSUM: CHANGE speakArtificially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("artificially"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArraignment1250(String languageCode) async {
-    // DOPSUM: CHANGE speakArraignment
+  Future<void> speakArtificially954(String languageCode) async {
+    // DOPSUM: CHANGE speakArtificially
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A date for her arraignment has not yet been set."); // DOPSUM: CHANGE TEXT
+        "Most mushrooms sold in supermarkets have been grown artificially in manure."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
+  Future<void> speakArtificially956(String languageCode) async {
+    // DOPSUM: CHANGE speakArtificially
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "They are keeping their prices artificially low."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakArtificially(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtificially
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artificially"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
+  // Future<void> speakArtificially(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtificially
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artificially"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
+  // Future<void> speakArtificially(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtificially
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artificially"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
+  // Future<void> speakArtificially(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtificially
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artificially"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
+  // Future<void> speakArtificially(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtificially
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artificially"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
+  // Future<void> speakArtificially(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtificially
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakArraignment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArraignment
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arraignment"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artificially"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -115,7 +116,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "arraignment", // DOPSUM: CHANGE WORD ENTRY - Find /əˈreɪnmənt/
+                                "artificially", // DOPSUM: CHANGE WORD ENTRY - Find /ˌɑːtɪˈfɪʃəli/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -134,7 +135,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˈreɪnmənt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˌɑːtɪˈfɪʃəli/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -144,7 +145,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakArraignment(
+                              onPressed: () => speakArtificially(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -155,7 +156,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˈreɪnmənt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /ˌɑːrtɪˈfɪʃəli/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -165,7 +166,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakArraignment(
+                              onPressed: () => speakArtificially(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -185,11 +186,11 @@ class EnglishEntryarraignment extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
+                  VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
@@ -215,9 +216,9 @@ class EnglishEntryarraignment extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: بانگ‌کردن، تاوانبار کردن، گوناھبار کردن، بەدواکەوتن، بەشوێن‌کەوتن
+کوردی: بەشێوەیەکی دەسکرد یان نائاسایی، دەسکردانە
 
-١. (ناو) ھێنانی کەسێک بۆ دادگا بۆ بەفەرمی تاوانبارکردنیان""",
+١. (ھاوەڵکار) بەشێوەیەک کە کۆپی شتێکی سرووشتییە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -228,7 +229,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "A date for her arraignment has not yet been set.",
+                                    "Most mushrooms sold in supermarkets have been grown artificially in manure.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -243,7 +244,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێککەوتێک بۆ گوناھبارکردنەکەی دیاریکرا.",
+                                    "زۆرینەی قارچکەکان  کە لە سوپەرمارکێتەکان  دەفرۆشرێن  بەشێوەی دەستکردانە لە پەییندا سەوزبوونە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -256,7 +257,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakArraignment1250("en-GB"),
+                                onPressed: () => speakArtificially954("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -264,8 +265,66 @@ class EnglishEntryarraignment extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakArraignment1250(
-                                    // REPLACE: arraignment /əˈreɪnmənt/
+                                onPressed: () => speakArtificially954(
+                                    // REPLACE: artificially /ˌɑːrtɪˈfɪʃəli/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٢. (ھاوەڵکار) بەشێوەیەک کە سرووشتی نییە و کاریگەریی مرۆڤی لەسەرە""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "They are keeping their prices artificially low.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "نرخەکانیان بەخواستی خۆیان بە نزمی دەهێڵنەوە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakArtificially956("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakArtificially956(
+                                    // REPLACE: artificially /ˌɑːrtɪˈfɪʃəli/
                                     "en-US"),
                               ),
                             ],
@@ -284,7 +343,7 @@ class EnglishEntryarraignment extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
+                    YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -316,8 +375,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arraignment (Derived forms: arraignments)
-1. A legal document calling someone to court to answer an indictment
+- Adverb: artificially (unnaturally, by artificial means)
+1. Not according to nature; not by natural means
+"artificially induced conditions";
 """),
         ],
       ),
@@ -328,12 +388,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "TBRGdhSF3WA";
+  static String myVideoId = "https://youtu.be/3TxugOC8su0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 20, // DOPSUM: CHANGE IT
+      startAt: 170, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -353,12 +413,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "T8s2vqUqYCg";
+  static String myVideoId = "https://youtu.be/pz52gPH3ou4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 451, // DOPSUM: CHANGE IT
+      startAt: 479, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -378,12 +438,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "NRGULmBPS8c";
+  static String myVideoId = "https://youtu.be/tExo3ovEBWQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 237, // DOPSUM: CHANGE IT
+      startAt: 550, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -403,12 +463,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "yfljFmhqFm4";
+  static String myVideoId = "https://youtu.be/LQdjmGimh04?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 677, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -428,12 +488,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "Wr0G0CbK2tw";
+  static String myVideoId = "https://youtu.be/vQtj7ARVxoM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 286, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -453,12 +513,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "5U-yqm9H_Sg";
+  static String myVideoId = "https://youtu.be/j6tbG6b6xRg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2914, // DOPSUM: CHANGE IT
+      startAt: 432, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -478,12 +538,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "B-KroMPyUFU";
+  static String myVideoId = "https://youtu.be/x_gFuMJYCV0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1562, // DOPSUM: CHANGE IT
+      startAt: 221, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -503,12 +563,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "UlRPE1OPAWw";
+  static String myVideoId = "https://youtu.be/fvu5FxKuqdQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1057, // DOPSUM: CHANGE IT
+      startAt: 85, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -528,12 +588,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "TDMd40a-A4c";
+  static String myVideoId = "https://youtu.be/PlDbfq2HKuA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 866, // DOPSUM: CHANGE IT
+      startAt: 198, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -553,12 +613,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/CMtF7nxMv5A?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 215, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

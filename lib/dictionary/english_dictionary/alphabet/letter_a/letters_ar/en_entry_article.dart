@@ -6,92 +6,95 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// arrow
+// article
 
-// replace EnglishEntryarrow - replace speakArrow
+// replace EnglishEntryarticle - replace speakArticle
 
-// replace arrow - /ˈærəʊ/ - find WORD_WEB
+// replace article - /ˈɑːtɪkl/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryarrow extends StatelessWidget {
+class EnglishEntryarticle extends StatelessWidget {
   // blank divider
-  EnglishEntryarrow({super.key});
+  EnglishEntryarticle({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArrow(String languageCode) async {
-    // DOPSUM: CHANGE speakArrow
+  Future<void> speakArticle(String languageCode) async {
+    // DOPSUM: CHANGE speakArticle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("arrow"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("article"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArrow745(String languageCode) async {
-    // DOPSUM: CHANGE speakArrow
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She aimed carefully at the tree but the arrow missed."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakArrow746(String languageCode) async {
-    // DOPSUM: CHANGE speakArrow
+  Future<void> speakArticle525(String languageCode) async {
+    // DOPSUM: CHANGE speakArticle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The people used bows and arrows for hunting."); // DOPSUM: CHANGE TEXT
+        "Her tweet links to an article posted online by the ‘CNN’."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArrow750(String languageCode) async {
-    // DOPSUM: CHANGE speakArrow
+  Future<void> speakArticle630(String languageCode) async {
+    // DOPSUM: CHANGE speakArticle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Follow the arrows."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "According to a recent newspaper article, the company is worth over £20 billion."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArrow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArrow
+  Future<void> speakArticle635(String languageCode) async {
+    // DOPSUM: CHANGE speakArticle
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The key articles of the constitution can only be changed by referendum."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakArticle639(String languageCode) async {
+    // DOPSUM: CHANGE speakArticle
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The articles found in the car helped the police to identify the body."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakArticle641(String languageCode) async {
+    // DOPSUM: CHANGE speakArticle
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Names of countries in English do not usually take an article."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakArticle(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArticle
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arrow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("article"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArrow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArrow
+  // Future<void> speakArticle(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArticle
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arrow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("article"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArrow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArrow
+  // Future<void> speakArticle(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArticle
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arrow"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakArrow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArrow
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arrow"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakArrow(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArrow
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("arrow"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("article"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -116,7 +119,7 @@ class EnglishEntryarrow extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "arrow", // DOPSUM: CHANGE WORD ENTRY - Find /ˈærəʊ/
+                                "article", // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːtɪkl/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -135,7 +138,7 @@ class EnglishEntryarrow extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˈærəʊ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈɑːtɪkl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -146,7 +149,7 @@ class EnglishEntryarrow extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakArrow(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakArticle(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -156,7 +159,7 @@ class EnglishEntryarrow extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˈærəʊ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /ˈɑːrtɪkl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -166,7 +169,7 @@ class EnglishEntryarrow extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakArrow(
+                              onPressed: () => speakArticle(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -216,9 +219,9 @@ class EnglishEntryarrow extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: تیر، خەدەنگ، دۆخ، تەخش (ناسکەتیر)، تیراسا، ساتیر، تیرۆکە، لاتیر
+کوردی: بابەت، شت، تشت، شمەک، شت‌ومەک، کەل‌وپەل، وتار، وتە، نڤیسار، (ماف) مادە، بڕگە، بەند، (ڕێزمان) ئامرازی پێناسە
 
-١. (ناو) تیر کە لە کەوانێکە دەھاوێژرێت""",
+١. (ناو) پارچە نووسراوێک سەبارەت بە بابەتێکی دیاریکراو لە لەسەر ڕۆژنامەیەک، گۆڤارێک، یان وێبسایتێک بڵاوکراوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -229,7 +232,7 @@ class EnglishEntryarrow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "She aimed carefully at the tree but the arrow missed.",
+                                    "Her tweet links to an article posted online by the ‘CNN’.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -244,7 +247,7 @@ class EnglishEntryarrow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە وریاییەوە ئامانجی لە دارەکە گرتەوە بەڵام تیرەکە لێی‌نەدا.",
+                                    "تویتەکەی لینکی وتارێکی تێدایە کە لەسەر سی-ئێن-ئێن پۆستکراوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -257,7 +260,7 @@ class EnglishEntryarrow extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakArrow745("en-GB"),
+                                onPressed: () => speakArticle525("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -265,9 +268,9 @@ class EnglishEntryarrow extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakArrow745(// REPLACE: arrow /ˈærəʊ/
-                                        "en-US"),
+                                onPressed: () => speakArticle525(
+                                    // REPLACE: article /ˈɑːrtɪkl/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -279,7 +282,7 @@ class EnglishEntryarrow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The people used bows and arrows for hunting.",
+                                    "According to a recent newspaper article, the company is worth over £20 billion.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -294,7 +297,7 @@ class EnglishEntryarrow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دوو کەس تیر و کەوانیان بەکاردەھێنا بۆ ڕاوکردن.",
+                                    "بەپێی وتارێکی تازەی ڕۆژنامەیەک، کۆمپانیاکە بەھای دەگاتە ٢٠ ملیار پاوەند.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -307,7 +310,7 @@ class EnglishEntryarrow extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakArrow746("en-GB"),
+                                onPressed: () => speakArticle630("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -315,9 +318,9 @@ class EnglishEntryarrow extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakArrow746(// REPLACE: arrow /ˈærəʊ/
-                                        "en-US"),
+                                onPressed: () => speakArticle630(
+                                    // REPLACE: article /ˈɑːrtɪkl/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -326,7 +329,7 @@ class EnglishEntryarrow extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) ھێمایەک کە وەک تیرێک (←) وایە بۆ پیشاندانی ئاراستە بەکاردێ""",
+٢. (ناو) بەشێکی ڕێککەوتنێک یان دۆکیومێنتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -337,7 +340,7 @@ class EnglishEntryarrow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Follow the arrows.",
+                                    "The key articles of the constitution can only be changed by referendum.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -352,7 +355,7 @@ class EnglishEntryarrow extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پابەندی ھێماکان بە.",
+                                    "مادە سەرەکییەکانی دەستوور تەنھا بە ڕیفراندۆم دەتوانرێن بگۆڕدرێن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -365,7 +368,7 @@ class EnglishEntryarrow extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakArrow750("en-GB"),
+                                onPressed: () => speakArticle635("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -373,9 +376,125 @@ class EnglishEntryarrow extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakArrow750(// REPLACE: arrow /ˈærəʊ/
-                                        "en-US"),
+                                onPressed: () => speakArticle635(
+                                    // REPLACE: article /ˈɑːrtɪkl/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٣. (ناو) شتێک کە بەشیکە لە کۆمەڵە شت‌ومەکێک""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The articles found in the car helped the police to identify the body.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ئەو شتانەی لە ئۆتۆمبێلەکەدا دۆزرانەوە یارمەتی پۆلیسی دا لە ناسینەوەی تەرمەکە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakArticle639("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakArticle639(
+                                    // REPLACE: article /ˈɑːrtɪkl/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٤. (ناو) وشەکانی a و an و the """,
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Names of countries in English do not usually take an article.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ناوی وڵاتان زۆرجار لە ئینگلیزیدا ئامرازی ناساندن وەرناگرن.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakArticle641("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakArticle641(
+                                    // REPLACE: article /ˈɑːrtɪkl/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -425,10 +544,20 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arrow (Derived forms: arrows)
-1. A mark to indicate a direction or relation (= pointer)
+- Noun: article (Derived forms: articles)
+1. Nonfictional prose forming an independent part of a publication
  
-2. A projectile with a straight thin shaft and an arrowhead on one end and stabilizing vanes on the other; intended to be shot from a bow
+2. One of a class of artifacts
+"an article of clothing"
+ 
+3. (contract) a separate section of a legal document (as a statute, contract or will) (= clause)
+ 
+4. (grammar) a determiner that may indicate the specificity of reference of a noun phrase
+ 
+5. A tangible and visible entity; an entity that can cast a shadow (= object, physical object)
+
+- Verb: article (= Derived forms: articles, articled, articling)
+1. Bind by a contract; especially for a training period
 """),
         ],
       ),
@@ -439,12 +568,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "pdipblQmgnw";
+  static String myVideoId = "3xpZzOIDd9I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 106, // DOPSUM: CHANGE IT
+      startAt: 630, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -464,12 +593,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "kuOEpC4u6Tg";
+  static String myVideoId = "MGO4_8YRKro";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 12, // DOPSUM: CHANGE IT
+      startAt: 269, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -489,12 +618,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "2mUKauErjfM";
+  static String myVideoId = "94O7hjS5dHg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 7, // DOPSUM: CHANGE IT
+      startAt: 577, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -514,12 +643,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "c3PLJnKPn6g";
+  static String myVideoId = "raSeaAeryWE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 460, // DOPSUM: CHANGE IT
+      startAt: 2729, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -539,12 +668,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "GkzipbQEoaw";
+  static String myVideoId = "W8uXhQnWgj4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 59, // DOPSUM: CHANGE IT
+      startAt: 34, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -564,12 +693,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "zbcRtNhKpHc";
+  static String myVideoId = "8FpPSMIB4uA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 169, // DOPSUM: CHANGE IT
+      startAt: 114, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -589,12 +718,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "QkWT-xMTm1M";
+  static String myVideoId = "IlU-zDU6aQ0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 49, // DOPSUM: CHANGE IT
+      startAt: 2135, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -614,12 +743,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "lpnoZ0fTRyA";
+  static String myVideoId = "wVc_ilWtA6g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 101, // DOPSUM: CHANGE IT
+      startAt: 91, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -639,12 +768,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "f6uFuQWN80Q";
+  static String myVideoId = "_WGmcdPSSsg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 120, // DOPSUM: CHANGE IT
+      startAt: 65, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -664,12 +793,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "7vl2gNADuEA";
+  static String myVideoId = "Xzv84ZdtlE0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 18, // DOPSUM: CHANGE IT
+      startAt: 455, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -689,12 +818,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "QLq6GEiHqR8";
+  static String myVideoId = "lDeFSOUHdH4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 185, // DOPSUM: CHANGE IT
+      startAt: 728, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -714,12 +843,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "65CFesU4KVQ";
+  static String myVideoId = "IesIsKMjB4Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 177, // DOPSUM: CHANGE IT
+      startAt: 347, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

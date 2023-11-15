@@ -960,35 +960,45 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "aromatic",
     "around",
     "arouse",
-    // "arraign",
-    // "arraignment",
-    // "arrange",
-    // "arrangement",
-    // "array",
-    // "arrears",
-    // "arrest",
-    // "arrival",
-    // "arrive",
-    // "arrogance",
-    // "arrogant",
-    // "arrogantly",
-    // "arrow",
-    // "arse",
-    // "arsenal",
-    // "arsenic",
-    // "arson",
-    // "art",
-    // "art gallery",
-    // "artefact",
-    // "artery",
-    // "arterial",
-    // "artful",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
+    "arraign",
+    "arraignment",
+    "arrange",
+    "arrangement",
+    "array",
+    "arrears",
+    "arrest",
+    "arrival",
+    "arrive",
+    "arrogance",
+    "arrogant",
+    "arrogantly",
+    "arrow",
+    "arse",
+    "arsenal",
+    "arsenic",
+    "arson",
+    "art",
+    "art gallery",
+    "artefact",
+    "artery",
+    "arterial",
+    "artful",
+    "artfully",
+    "arthritic",
+    "arthritis",
+    "artichoke",
+    "article",
+    "articulate",
+    // "articulated",
+    // "articulately",
+    // "articulation",
     // "artifact",
+    // "artificial",
+    // "artificial intelligence",
+    // "artificial respiration",
+    // "artificially",
+    // "artillery",
+    // "artisan",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
@@ -1245,24 +1255,11 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    "dopsum",
-    "dopsum",
     "come of age",
     "contralto",
     "far afield",
     "from afar",
+    "globe artichoke",
     "make amends",
     "not come/go amiss",
     "take something amiss",
@@ -5193,165 +5190,165 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-arouse");
                   }
-                  // if (wordsEnglish == "arraign") {
+                  if (wordsEnglish == "arraign") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arraign");
+                  }
+                  if (wordsEnglish == "arraignment") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arraignment");
+                  }
+                  if (wordsEnglish == "arrange") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arrange");
+                  }
+                  if (wordsEnglish == "arrangement") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arrangement");
+                  }
+                  if (wordsEnglish == "array") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-array");
+                  }
+                  if (wordsEnglish == "arrears") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arrears");
+                  }
+                  if (wordsEnglish == "arrest") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arrest");
+                  }
+                  if (wordsEnglish == "arrival") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arrival");
+                  }
+                  if (wordsEnglish == "arrive") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arrive");
+                  }
+                  if (wordsEnglish == "arrogant") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arrogant");
+                  }
+                  if (wordsEnglish == "arrogance") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arrogance");
+                  }
+                  if (wordsEnglish == "arrogantly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arrogantly");
+                  }
+                  if (wordsEnglish == "arrow") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arrow");
+                  }
+                  if (wordsEnglish == "arse") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arse");
+                  }
+                  if (wordsEnglish == "arsenal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arsenal");
+                  }
+                  if (wordsEnglish == "arsenic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arsenic");
+                  }
+                  if (wordsEnglish == "arson") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arson");
+                  }
+                  if (wordsEnglish == "art") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-art");
+                  }
+                  if (wordsEnglish == "art gallery") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-art gallery");
+                  }
+                  if (wordsEnglish == "artefact") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-artefact");
+                  }
+                  if (wordsEnglish == "artifact") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-artefact");
+                  }
+                  if (wordsEnglish == "artery") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-artery");
+                  }
+                  if (wordsEnglish == "arterial") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arterial");
+                  }
+                  if (wordsEnglish == "artful") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-artful");
+                  }
+                  if (wordsEnglish == "artfully") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-artfully");
+                  }
+                  if (wordsEnglish == "arthritis") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arthritis");
+                  }
+                  if (wordsEnglish == "arthritic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arthritic");
+                  }
+                  if (wordsEnglish == "artichoke") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-artichoke");
+                  }
+                  if (wordsEnglish == "globe artichoke") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-artichoke");
+                  }
+                  if (wordsEnglish == "article") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-article");
+                  }
+                  if (wordsEnglish == "articulate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-articulate");
+                  }
+                  // if (wordsEnglish == "articulately") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arraign");
+                  //   Routemaster.of(context).push("/english-articulately");
                   // }
-                  // if (wordsEnglish == "arraignment") {
+                  // if (wordsEnglish == "articulated") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arraignment");
+                  //   Routemaster.of(context).push("/english-articulated");
                   // }
-                  // if (wordsEnglish == "arrange") {
+                  // if (wordsEnglish == "articulation") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arrange");
+                  //   Routemaster.of(context).push("/english-articulation");
                   // }
-                  // if (wordsEnglish == "arrangement") {
+                  // if (wordsEnglish == "artificial") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arrangement");
+                  //   Routemaster.of(context).push("/english-artificial");
                   // }
-                  // if (wordsEnglish == "array") {
+                  // if (wordsEnglish == "artificial intelligence") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-array");
+                  //   Routemaster.of(context).push("/english-artificial intelligence");
                   // }
-                  // if (wordsEnglish == "arrears") {
+                  // if (wordsEnglish == "artificial respiration") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arrears");
+                  //   Routemaster.of(context).push("/english-artificial respiration");
                   // }
-                  // if (wordsEnglish == "arrest") {
+                  // if (wordsEnglish == "artificially") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arrest");
+                  //   Routemaster.of(context).push("/english-artificially");
                   // }
-                  // if (wordsEnglish == "arrival") {
+                  // if (wordsEnglish == "artillery") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arrival");
+                  //   Routemaster.of(context).push("/english-artillery");
                   // }
-                  // if (wordsEnglish == "arrive") {
+                  // if (wordsEnglish == "artisan") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arrive");
-                  // }
-                  // if (wordsEnglish == "arrogant") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arrogant");
-                  // }
-                  // if (wordsEnglish == "arrogance") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arrogance");
-                  // }
-                  // if (wordsEnglish == "arrogantly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arrogantly");
-                  // }
-                  // if (wordsEnglish == "arrow") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arrow");
-                  // }
-                  // if (wordsEnglish == "arse") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arse");
-                  // }
-                  // if (wordsEnglish == "arsenal") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arsenal");
-                  // }
-                  // if (wordsEnglish == "arsenic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arsenic");
-                  // }
-                  // if (wordsEnglish == "arson") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arson");
-                  // }
-                  // if (wordsEnglish == "art") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-art");
-                  // }
-                  // if (wordsEnglish == "art gallery") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-art gallery");
-                  // }
-                  // if (wordsEnglish == "artefact") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-artefact");
-                  // }
-                  // if (wordsEnglish == "artefict") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-artefact");
-                  // }
-                  // if (wordsEnglish == "artery") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-artery");
-                  // }
-                  // if (wordsEnglish == "arterial") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arterial");
-                  // }
-                  // if (wordsEnglish == "artful") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-artful");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-artisan");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

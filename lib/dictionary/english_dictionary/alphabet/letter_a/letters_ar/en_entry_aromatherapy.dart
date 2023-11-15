@@ -213,7 +213,7 @@ class EnglishEntryaromatherapy extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ناو) بەکارهێنانی جۆرە جیاوازەکانی ڕۆنی سرووشتی کە بۆنیان خۆشە بۆ بەهێزکردنی لەش لە لایەنی جەستەیی و دەروونی بە ساوینی ڕۆنەکە بە لەشدا یان بۆنکردنیان""",
+١. (ناو) بەکارھێنانی جۆرە جیاوازەکانی ڕۆنی سرووشتی کە بۆنیان خۆشە بۆ بەھێزکردنی لەش لە لایەنی جەستەیی و دەروونی بە ساوینی ڕۆنەکە بە لەشدا یان بۆنکردنیان""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -239,7 +239,7 @@ class EnglishEntryaromatherapy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئۆون هەفتانە بۆ نزیکەی سێ مانگ مەساجی ئارۆماسێرەپی دەکرد.",
+                                    "ئۆون ھەفتانە بۆ نزیکەی سێ مانگ مەساجی ئارۆماسێرەپی دەکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

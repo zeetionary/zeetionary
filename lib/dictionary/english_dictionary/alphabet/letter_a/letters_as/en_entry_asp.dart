@@ -6,96 +6,97 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "Dopsum3" and provide three example sentences for each meaning. Use Merriam Webster style.
+// Define the word "asp" and provide three example sentences for each meaning. Use Merriam Webster style.
 
-// replace EnglishEntryAdopsum - replace speakAdopsum
+// replace EnglishEntryasp - replace speakAsp
 
-// replace Dopsum1 - /haʊ/ - find WORD_WEB
+// replace asp - /æsp/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryAdopsum extends StatelessWidget {
+class EnglishEntryasp extends StatelessWidget {
   // blank divider
-  EnglishEntryAdopsum({super.key});
+  EnglishEntryasp({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdopsum(String languageCode) async {
-    // DOPSUM: CHANGE speakAdopsum
+  Future<void> speakAsp(String languageCode) async {
+    // DOPSUM: CHANGE speakAsp
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("asp"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  Future<void> speakAsp945(String languageCode) async {
+    // DOPSUM: CHANGE speakAsp
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Cleopatra, according to legend, committed suicide by an asp's bite."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAsp(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAsp
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asp"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  // Future<void> speakAsp(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAsp
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asp"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  // Future<void> speakAsp(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAsp
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asp"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  // Future<void> speakAsp(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAsp
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asp"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  // Future<void> speakAsp(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAsp
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asp"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  // Future<void> speakAsp(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAsp
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asp"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  // Future<void> speakAsp(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAsp
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("asp"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 2, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 9, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -114,7 +115,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "Dopsum1", // DOPSUM: CHANGE WORD ENTRY - Find /haʊ/
+                                "asp", // DOPSUM: CHANGE WORD ENTRY - Find /æsp/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -133,7 +134,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /haʊ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /æsp/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -144,7 +145,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAdopsum(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAsp(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -154,7 +155,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /haʊ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /æsp/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -164,7 +165,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAdopsum(
+                              onPressed: () => speakAsp(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -179,13 +180,13 @@ class EnglishEntryAdopsum extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  // VideoIconForTab(), // 01
-                  // VideoIconForTab(), // 02
-                  // VideoIconForTab(), // 03
-                  // VideoIconForTab(), // 04
-                  // VideoIconForTab(), // 05
-                  // VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 2,
-                  // VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 9,
+                  VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   // VideoIconForTab(), // 08
                   // VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
@@ -214,9 +215,9 @@ class EnglishEntryAdopsum extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: 
+کوردی: بەرگیری شاخ‌دار، بەرگیر(ئەفعی)ی چکولەی ژاراوی
 
-١. (ھاوەڵناو) پێناسە""",
+١. (ناو) مارێکی بچووک کە لە ڕۆژاوای ئەورووپا دەژی، و ناوێکی گشتگیر بۆ ژمارەیەک ماری بچووکی باکووری ئەفریقا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -227,7 +228,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "DOPSUM_WRITE_A_SENTENCE",
+                                    "Cleopatra, according to legend, committed suicide by an asp's bite.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -242,7 +243,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "رستە_رستە_رستە_رستە.",
+                                    "بەپێی ئەفسانەکان کلیۆپاترا بە گازی ماری ئاسپ خۆی کووشت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -255,7 +256,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdopsum("en-GB"),
+                                onPressed: () => speakAsp945("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -264,7 +265,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAdopsum(// REPLACE: Dopsum1 /haʊ/
+                                    speakAsp945(// REPLACE: asp /æsp/
                                         "en-US"),
                               ),
                             ],
@@ -275,12 +276,12 @@ class EnglishEntryAdopsum extends StatelessWidget {
                       ),
                     ),
                     YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
-                    // YoutubeEmbeddedtwo(),
-                    // YoutubeEmbeddedthree(),
-                    // YoutubeEmbeddedfour(),
-                    // YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    // YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedtwo(),
+                    YoutubeEmbeddedthree(),
+                    YoutubeEmbeddedfour(),
+                    YoutubeEmbeddedfive(),
+                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
@@ -315,10 +316,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-
-WORD_WEB 
-
-WORD_WEB
+- Noun: asp (Derived forms: asps)
+1. A snake of southern Europe; similar to but smaller than the adder (= asp viper, Vipera aspis)
+ 
+2. Cobra used by the Pharaohs as a symbol of their power over life and death (= Egyptian cobra, Naja haje)
 """),
         ],
       ),
@@ -329,12 +330,12 @@ WORD_WEB
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/Rm9t94mpkjo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 589, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -354,12 +355,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/ilFNaY-7tok?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 867, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -379,12 +380,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/v6EiioKyGnk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 331, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -404,12 +405,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/nJembHfhLXk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1240, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -429,12 +430,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/w3alH6vgSoY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 755, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -454,12 +455,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/uT9ndzm3kPc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 23293, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -479,12 +480,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/Mb6-j0eJYSU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1829, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -689,4 +690,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end 
+// end // TODO Implement this library.

@@ -989,45 +989,45 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "artichoke",
     "article",
     "articulate",
-    // "articulated",
-    // "articulately",
-    // "articulation",
-    // "artifact",
-    // "artificial",
-    // "artificial intelligence",
-    // "artificial respiration",
-    // "artificially",
-    // "artillery",
-    // "artisan",
-    // "artist",
-    // "artiste",
-    // "artistic",
-    // "artistically",
-    // "artistry",
-    // "arty",
-    // "arty",
-    // "arugula",
-    // "as",
-    // "asbestos",
-    // "ascend",
-    // "ascendancy",
-    // "ascendant",
-    // "ascent",
-    // "ascertain",
-    // "ASCII",
-    // "ascribe to",
-    // "aseptic",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
+    "articulated",
+    "articulately",
+    "articulation",
+    "artifact",
+    "artificial",
+    "artificial intelligence",
+    "artificial respiration",
+    "artificially",
+    "artillery",
+    "artisan",
+    "artist",
+    "artiste",
+    "artistic",
+    "artistically",
+    "artistry",
+    "arty",
+    "arty",
+    "arugula",
+    "as",
+    "asbestos",
+    "ascend",
+    "ascendancy",
+    "ascendant",
+    "ascent",
+    "ascertain",
+    "ASCII",
+    "ascribe to",
+    "aseptic",
+    "asexual",
+    "ash",
+    "ashtray",
+    "ashamed",
+    "ashore",
+    "aside",
+    "ask",
+    "askew",
+    "asking price",
+    // "asleep",
+    // "asp",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
@@ -5314,149 +5314,151 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-articulate");
                   }
-                  // if (wordsEnglish == "articulately") {
+                  if (wordsEnglish == "articulately") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-articulately");
+                  }
+                  if (wordsEnglish == "articulated") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-articulated");
+                  }
+                  if (wordsEnglish == "articulation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-articulation");
+                  }
+                  if (wordsEnglish == "artificial") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-artificial");
+                  }
+                  if (wordsEnglish == "artificial intelligence") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context)
+                        .push("/english-artificial intelligence");
+                  }
+                  if (wordsEnglish == "artificial respiration") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context)
+                        .push("/english-artificial respiration");
+                  }
+                  if (wordsEnglish == "artificially") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-artificially");
+                  }
+                  if (wordsEnglish == "artillery") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-artillery");
+                  }
+                  if (wordsEnglish == "artisan") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-artisan");
+                  }
+                  if (wordsEnglish == "artist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-artist");
+                  }
+                  if (wordsEnglish == "artistic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-artistic");
+                  }
+                  if (wordsEnglish == "artistically") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-artistically");
+                  }
+                  if (wordsEnglish == "artistry") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-artistry");
+                  }
+                  if (wordsEnglish == "artiste") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-artiste");
+                  }
+                  if (wordsEnglish == "arty") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arty");
+                  }
+                  if (wordsEnglish == "arugula") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-arugula");
+                  }
+                  if (wordsEnglish == "as") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-as");
+                  }
+                  if (wordsEnglish == "asbestos") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-asbestos");
+                  }
+                  if (wordsEnglish == "ascend") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ascend");
+                  }
+                  if (wordsEnglish == "ascendancy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ascendancy");
+                  }
+                  if (wordsEnglish == "ascendant") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ascendant");
+                  }
+                  if (wordsEnglish == "ascent") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ascent");
+                  }
+                  if (wordsEnglish == "ascertain") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ascertain");
+                  }
+                  if (wordsEnglish == "ASCII") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ASCII");
+                  }
+                  if (wordsEnglish == "ascribe to") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ascribe-to");
+                  }
+                  if (wordsEnglish == "aseptic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aseptic");
+                  }
+                  if (wordsEnglish == "asexual") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-asexual");
+                  }
+                  if (wordsEnglish == "ash") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ash");
+                  }
+                  if (wordsEnglish == "ashamed") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ashamed");
+                  }
+                  if (wordsEnglish == "ashore") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ashore");
+                  }
+                  if (wordsEnglish == "aside") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aside");
+                  }
+                  if (wordsEnglish == "ask") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ask");
+                  }
+                  if (wordsEnglish == "asking price") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-asking-price");
+                  }
+                  if (wordsEnglish == "askew") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-askew");
+                  }
+                  // if (wordsEnglish == "asleep") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-articulately");
+                  //   Routemaster.of(context).push("/english-asleep");
                   // }
-                  // if (wordsEnglish == "articulated") {
+                  // if (wordsEnglish == "asp") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-articulated");
-                  // }
-                  // if (wordsEnglish == "articulation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-articulation");
-                  // }
-                  // if (wordsEnglish == "artificial") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-artificial");
-                  // }
-                  // if (wordsEnglish == "artificial intelligence") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-artificial intelligence");
-                  // }
-                  // if (wordsEnglish == "artificial respiration") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-artificial respiration");
-                  // }
-                  // if (wordsEnglish == "artificially") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-artificially");
-                  // }
-                  // if (wordsEnglish == "artillery") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-artillery");
-                  // }
-                  // if (wordsEnglish == "artisan") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-artisan");
-                  // }
-                  // if (wordsEnglish == "artist") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-artist");
-                  // }
-                  // if (wordsEnglish == "artistic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-artistic");
-                  // }
-                  // if (wordsEnglish == "artistically") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-artistically");
-                  // }
-                  // if (wordsEnglish == "artistry") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-artistry");
-                  // }
-                  // if (wordsEnglish == "artiste") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-artiste");
-                  // }
-                  // if (wordsEnglish == "arty") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arty");
-                  // }
-                  // if (wordsEnglish == "arugula") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-arugula");
-                  // }
-                  // if (wordsEnglish == "as") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-as");
-                  // }
-                  // if (wordsEnglish == "asbestos") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-asbestos");
-                  // }
-                  // if (wordsEnglish == "ascend") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ascend");
-                  // }
-                  // if (wordsEnglish == "ascendancy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ascendancy");
-                  // }
-                  // if (wordsEnglish == "ascendant") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ascendant");
-                  // }
-                  // if (wordsEnglish == "ascent") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ascent");
-                  // }
-                  // if (wordsEnglish == "ascertain") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ascertain");
-                  // }
-                  // if (wordsEnglish == "ASCII") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ASCII");
-                  // }
-                  // if (wordsEnglish == "ascribe to") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ascribe-to");
-                  // }
-                  // if (wordsEnglish == "aseptic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-aseptic");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-asp");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

@@ -6,98 +6,102 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "ascertain" and provide three example sentences for each meaning. Use Merriam Webster style.
+// Define the word "aside" and provide three example sentences for each meaning. Use Merriam Webster style.
 
-// replace EnglishEntryascertain - replace speakAscertain
+// replace EnglishEntryaside - replace speakAside
 
-// replace ascertain - /ˌæsəˈteɪn/ - find WORD_WEB
+// replace aside - /əˈsaɪd/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryascertain extends StatelessWidget {
+class EnglishEntryaside extends StatelessWidget {
   // blank divider
-  EnglishEntryascertain({super.key});
+  EnglishEntryaside({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAscertain(String languageCode) async {
-    // DOPSUM: CHANGE speakAscertain
+  Future<void> speakAside(String languageCode) async {
+    // DOPSUM: CHANGE speakAside
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ascertain"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aside"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAscertain1239(String languageCode) async {
-    // DOPSUM: CHANGE speakAscertain
+  Future<void> speakAside625(String languageCode) async {
+    // DOPSUM: CHANGE speakAside
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("She pulled the curtain aside."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAside626(String languageCode) async {
+    // DOPSUM: CHANGE speakAside
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Stand aside and let these people pass."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAside628(String languageCode) async {
+    // DOPSUM: CHANGE speakAside
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("We set aside some money for repairs."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAside633(String languageCode) async {
+    // DOPSUM: CHANGE speakAside
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It can be difficult to ascertain the facts."); // DOPSUM: CHANGE TEXT
+        "The actor paused mid-scene to deliver a whispered aside to the audience."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAscertain1240(String languageCode) async {
-    // DOPSUM: CHANGE speakAscertain
+  Future<void> speakAside642(String languageCode) async {
+    // DOPSUM: CHANGE speakAside
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I ascertained that the driver was not badly hurt."); // DOPSUM: CHANGE TEXT
+        "He made several mocking asides about the inadequacy of women."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAscertain(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAscertain
+  Future<void> speakAside644(String languageCode) async {
+    // DOPSUM: CHANGE speakAside
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("I mention it only as an aside."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAside(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAside
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascertain"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aside"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAscertain(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAscertain
+  // Future<void> speakAside(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAside
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascertain"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAscertain(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAscertain
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascertain"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAscertain(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAscertain
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascertain"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAscertain(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAscertain
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascertain"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAscertain(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAscertain
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ascertain"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aside"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 9, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -116,7 +120,7 @@ class EnglishEntryascertain extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "ascertain", // DOPSUM: CHANGE WORD ENTRY - Find /ˌæsəˈteɪn/
+                                "aside", // DOPSUM: CHANGE WORD ENTRY - Find /əˈsaɪd/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -135,7 +139,7 @@ class EnglishEntryascertain extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˌæsəˈteɪn/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əˈsaɪd/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -145,9 +149,9 @@ class EnglishEntryascertain extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAscertain(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAside(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
@@ -156,7 +160,7 @@ class EnglishEntryascertain extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˌæsərˈteɪn/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /əˈsaɪd/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -166,7 +170,7 @@ class EnglishEntryascertain extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAscertain(
+                              onPressed: () => speakAside(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -186,13 +190,13 @@ class EnglishEntryascertain extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 9,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
-                  // VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
-                  // VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  VideoIconForTab(), // 11
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -216,7 +220,9 @@ class EnglishEntryascertain extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (کردار) دۆزینەوەی زانیاریی ڕاستی لەسەر شتێک""",
+کوردی: لە لاوە، لە تەنیشت، لەپاڵ، بێجگەلە، سەرەڕای
+
+١. (ھاوەڵکار) بۆ لایەک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -227,7 +233,7 @@ class EnglishEntryascertain extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "It can be difficult to ascertain the facts.",
+                                    "She pulled the curtain aside.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -242,7 +248,7 @@ class EnglishEntryascertain extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەکرێت سەخت بێ ڕاستییەکان پشت‌ڕاستبکەینەوە.",
+                                    "پەردەکەی لادا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -255,7 +261,7 @@ class EnglishEntryascertain extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAscertain1239("en-GB"),
+                                onPressed: () => speakAside625("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -263,9 +269,9 @@ class EnglishEntryascertain extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAscertain1239(
-                                    // REPLACE: ascertain /ˌæsərˈteɪn/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAside625(// REPLACE: aside /əˈsaɪd/
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -277,7 +283,7 @@ class EnglishEntryascertain extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "I ascertained that the driver was not badly hurt.",
+                                    "Stand aside and let these people pass.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -292,7 +298,7 @@ class EnglishEntryascertain extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەکرێت سەخت بێ ڕاستییەکان پشت‌ڕاستبکەینەوە.",
+                                    "بچۆ ئەولاوە و بهێڵە ئەم خەڵکە تێپەڕن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -305,7 +311,7 @@ class EnglishEntryascertain extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAscertain1240("en-GB"),
+                                onPressed: () => speakAside626("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -313,9 +319,241 @@ class EnglishEntryascertain extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAscertain1240(
-                                    // REPLACE: ascertain /ˌæsərˈteɪn/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAside626(// REPLACE: aside /əˈsaɪd/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٢. (ھاوەڵکار) بۆ دواتر بەکارهێنان""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "We set aside some money for repairs.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "هەندێک پارەمان خستە لاوە بۆ کاری چاککردنەوە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAside628("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAside628(// REPLACE: aside /əˈsaɪd/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٣. (ناو) شتێک کە کارەکتەرێک لەسەر شانۆ بە ئامادەبووان دەڵێت کە کارەکتەرەکانی تر نابێت گوێیان لێ بێت""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The actor paused mid-scene to deliver a whispered aside to the audience.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ئەکتەرەکە لە ناوەڕاستی دیمەنەکە وەستا بۆ گەیاندنی 'لاپاڵێک' بە ئامادەبووان.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAside633("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAside633(// REPLACE: aside /əˈsaɪd/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٤. (ناو) قسەیەک بە دەنگی نزم کە مەبەست لێی نییە کەسانی تر بیبیستن""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "He made several mocking asides about the inadequacy of women.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "هەندێک توانجی وەشاند لە بێ‌توانایی ژنان.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAside642("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAside642(// REPLACE: aside /əˈsaɪd/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٥. (ناو) قسەیەک کە مەبەست لێی نییە بەشێک بێت لە بابەتی سەرەکیی گفتوهۆیەک""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "I mention it only as an aside.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "تەنها وەک قەوسێک باسی دەکەم.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAside644("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAside644(// REPLACE: aside /əˈsaɪd/
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -331,11 +569,11 @@ class EnglishEntryascertain extends StatelessWidget {
                     YoutubeEmbeddedfive(),
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
+                    YoutubeEmbeddedten(),
+                    YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -365,16 +603,29 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: ascertain (Derived forms: ascertained, ascertains, ascertaining)
-1. Establish after a calculation, investigation, experiment, survey, or study (= determine, find, find out)
-"ascertain the product of two numbers";
-
-2. Be careful or certain to do something; make certain of something (= see, check, insure, see to it, ensure, control, assure)
+- Adverb: aside 
+1. On or to one side
+"step aside"; "stood aside to let him pass"; "threw the book aside"; "put her sewing aside when he entered"
  
-3. Find out, learn, or determine with certainty, usually by making an inquiry or other effort (= determine, check, find out, see, watch, learn)
-"ascertain whether the train leaves on time";
+2. Out of the way (especially away from one's thoughts) (= away)
+"brush the objections aside";
+ 
+3. Not taken into account or excluded from consideration (= apart)
+"all joking aside, I think you're crazy";
+ 
+4. In a different direction (= away)
+"turn aside";
+ 
+5. Placed or kept separate and distinct as for a purpose (= apart)
+"a day set aside for relaxing";
+ 
+6. In reserve; not for immediate use (= by, away)
+"started setting aside money to buy a car";
 
-4. Learn or discover with certainty
+- Noun: aside (Derived forms: asides)
+1. A line spoken by an actor to the audience but not intended for others on the stage
+ 
+2. A message that departs from the main subject (= digression, excursus, divagation, parenthesis)
 """),
         ],
       ),
@@ -385,12 +636,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "IgF3OX8nT0w";
+  static String myVideoId = "hSNWkRw53Jo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 849, // DOPSUM: CHANGE IT
+      startAt: 5460, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -410,12 +661,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "YCnFYvL17v4";
+  static String myVideoId = "k7smJ-nGKvU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 515, // DOPSUM: CHANGE IT
+      startAt: 654, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -435,12 +686,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "rhzgUq-lDVU";
+  static String myVideoId = "A3T77lm7jMQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2152, // DOPSUM: CHANGE IT
+      // startAt: 73, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -460,12 +711,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "xu6ZRWp9rA4";
+  static String myVideoId = "IOuFE-6Awos";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 126, // DOPSUM: CHANGE IT
+      startAt: 127, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -485,12 +736,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "XUONzsAzv1I";
+  static String myVideoId = "Hi0zbU3DW6o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 23, // DOPSUM: CHANGE IT
+      startAt: 22, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -510,12 +761,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "4aLfKYD_bGw";
+  static String myVideoId = "h4CyhQqAPpk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 264, // DOPSUM: CHANGE IT
+      startAt: 515, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -535,12 +786,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "B7m-byNkoHc";
+  static String myVideoId = "9TugA_z5vQE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 661, // DOPSUM: CHANGE IT
+      startAt: 174, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -560,12 +811,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "pTysrwci0pU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 447, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -585,12 +836,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "Js2UoMSumx4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 469, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -610,12 +861,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "0zXfDafyyao";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1349, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -635,12 +886,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "syH0oN_B4g0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 562, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -660,12 +911,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "HxRUuGqqMG4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 826, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

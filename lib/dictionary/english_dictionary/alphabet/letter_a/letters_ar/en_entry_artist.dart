@@ -4,93 +4,101 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryanticlimax - replace speakAnticlimax - replace anticlimax - /ˌæntiˈklaɪmæks/ - find Dopsum2
+// More sentences is NOT done
+
+// artist
+
+// replace EnglishEntryartist - replace speakArtist
+
+// replace artist - /ˈɑːtɪst/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryanticlimax extends StatelessWidget {
+class EnglishEntryartist extends StatelessWidget {
   // blank divider
-  EnglishEntryanticlimax({super.key});
+  EnglishEntryartist({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnticlimax(String languageCode) async {
-    // DOPSUM: CHANGE speakAnticlimax
+  Future<void> speakArtist(String languageCode) async {
+    // DOPSUM: CHANGE speakArtist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("artist"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnticlimax843(String languageCode) async {
-    // DOPSUM: CHANGE speakAnticlimax
+  Future<void> speakArtist839(String languageCode) async {
+    // DOPSUM: CHANGE speakArtist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "When you really look forward to something it's often an anticlimax when it actually happens."); // DOPSUM: CHANGE TEXT
+        "In 1942 the city commissioned war artist John Piper to paint its bombed cathedral."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
+  Future<void> speakArtist841(String languageCode) async {
+    // DOPSUM: CHANGE speakArtist
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The artist painted this picture using tiny brushstrokes."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakArtist846(String languageCode) async {
+    // DOPSUM: CHANGE speakArtist
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "After the band broke up, Joe relaunched his career as a solo artist."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakArtist(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
+  // Future<void> speakArtist(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
+  // Future<void> speakArtist(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
+  // Future<void> speakArtist(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
+  // Future<void> speakArtist(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artist"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -109,7 +117,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "anticlimax", // DOPSUM: CHANGE WORD ENTRY - Find /ˌæntiˈklaɪmæks/
+                                "artist", // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːtɪst/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -128,7 +136,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˌæntiˈklaɪmæks/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈɑːtɪst/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -138,9 +146,9 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAnticlimax(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakArtist(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
@@ -149,7 +157,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˌæntiˈklaɪmæks/,  /ˌæntaɪˈklaɪmæks/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                "IpaUS: /ˈɑːrtɪst/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -159,7 +167,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAnticlimax(
+                              onPressed: () => speakArtist(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -179,13 +187,13 @@ class EnglishEntryanticlimax extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 13,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -208,10 +216,10 @@ class EnglishEntryanticlimax extends StatelessWidget {
                         children: [
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-کوردی: داکەوتن، داشکان، شۆڕبوونەوە، داچوون، ھاتنەخوارێ، لێژبوونەوە، ڕووداو، قۆناخ یان ئەنجامێ کە بە شێوەیێکی بەرچاو لە گرنگایەتی چاوەڕوان‌کراوی کەم‌تر دەبێتەوە، کەوتنان، داکەوتن، داشکان (وەک لە داستان و چیرۆکەکان‌دا، وەک "ژنەکەم مرد، ماڵەکەمیان برد و سەگەکەشم گوم بوو.")، ناھومێدی، دڵساردی
+                            """
+کوردی: وێنەکێش، نیگارکێش، هونەرمەند، هونەرکار، هونەرەوان، دەس‌ڕەنگین، شارەزا، وەستا، مامۆستا
 
-١. (ناو) شتێکی کە ڕوودەدات لە کاتێکدا شتێکی خۆش لە بەرزترین ئاستە، و دەبێتەھۆی ئەوەی شتە خۆشەکە چێژی لەدەست‌بدات یان کەمتر بێت لەوەی پێشبینیت دەکرد ''',
+١. (ناو) کەسێک کە کاری هونەری دەکات، بۆ نموونە وێنەکێشان یان نیگارکێشان""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -222,7 +230,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "When you really look forward to something it's often an anticlimax when it actually happens.",
+                                    "In 1942 the city commissioned war artist John Piper to paint its bombed cathedral.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -237,7 +245,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کاتێک زۆر چاوەڕیی شتێک دەکەیت زۆرجار نائومێدییەک ھەیە کە لە ڕاستیدا ڕوودەدات.",
+                                    "لە ساڵی ١٩٤٢ بەرپرسانی شارەکە جۆن پیپەریان ڕاسپارد کە نیگارێکی کڵێسا بۆمب‌لێدراوەکەیان بکێشێ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -250,7 +258,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnticlimax843("en-GB"),
+                                onPressed: () => speakArtist839("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -258,9 +266,117 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAnticlimax843(
-                                    // REPLACE: anticlimax /ˌæntiˈklaɪmæks/,  /ˌæntaɪˈklaɪmæks/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakArtist839(// REPLACE: artist /ˈɑːrtɪst/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The artist painted this picture using tiny brushstrokes..",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "هونەرمەندەکە ئەم وێنەیەی کێشا بە بەکارهێنانی فڵچەی بچووک.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakArtist841("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakArtist841(// REPLACE: artist /ˈɑːrtɪst/
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٢. (ناو) هونەرمەندێکی پڕۆفیشناڵ""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "After the band broke up, Joe relaunched his career as a solo artist.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "لەدوای ئەوەی باندەکە پارچەپارچە بوون، جۆو دووبارە بە تەنیایی دەستی‌پێکردەوە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakArtist846("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakArtist846(// REPLACE: artist /ˈɑːrtɪst/
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -280,7 +396,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -309,13 +425,13 @@ class EnglishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
-- Noun: anticlimax (Derived forms: anticlimaxes)
-1. A disappointing decline after a previous rise
-"the anticlimax of a brilliant career"
+          Text("""
+- Noun: artist (Derived forms: artists)
+1. Someone who makes paintings, drawings, or other artwork
  
-2. A change from a serious subject to a disappointing one (= bathos)
-'''),
+2. A person whose creative work shows sensitivity and imagination (= creative person)
+"every artist needs an audience";
+"""),
         ],
       ),
     );
@@ -325,12 +441,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "Ix6vtM4gP8g";
+  static String myVideoId = "https://youtu.be/o7Ax6SRTGks?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 380, // DOPSUM: CHANGE IT
+      startAt: 289, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -350,12 +466,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "m_zHSxuHHcQ";
+  static String myVideoId = "https://youtu.be/4BzGTiJ0k3k?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 529, // DOPSUM: CHANGE IT
+      startAt: 19, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -375,12 +491,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "WiJfGq-iyp0";
+  static String myVideoId = "https://youtu.be/_ul9jrCXhR4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 4318, // DOPSUM: CHANGE IT
+      startAt: 485, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -400,12 +516,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "jNUFSLY83YQ";
+  static String myVideoId = "https://youtu.be/jDXd7U5PhDU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2450, // DOPSUM: CHANGE IT
+      startAt: 33, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -425,12 +541,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "m2OuV0sEa9o";
+  static String myVideoId = "https://youtu.be/3eKBiEeag1A?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 119, // DOPSUM: CHANGE IT
+      startAt: 7, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -450,12 +566,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "Ctd3iL9I0zw";
+  static String myVideoId = "https://youtu.be/vppwMojW3To?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 511, // DOPSUM: CHANGE IT
+      startAt: 6, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -475,12 +591,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "BLKD2Wf8_wk";
+  static String myVideoId = "https://youtu.be/XbmVKmAA2XU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 12151, // DOPSUM: CHANGE IT
+      startAt: 12, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -500,12 +616,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "oAg2Zybtzoc";
+  static String myVideoId = "https://youtu.be/b0nWcBVvhd0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1790, // DOPSUM: CHANGE IT
+      startAt: 75, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -525,12 +641,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "aQS2UtB5Nks";
+  static String myVideoId = "https://youtu.be/6zwcuWLd9lg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 962, // DOPSUM: CHANGE IT
+      startAt: 100, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -550,12 +666,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "TFQimOBEoSE";
+  static String myVideoId = "https://youtu.be/yfmkZJf4D8w?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 617, // DOPSUM: CHANGE IT
+      startAt: 26, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -575,12 +691,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "0yjX2wN3oUo";
+  static String myVideoId = "https://youtu.be/u-mwgfMuuic?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 59, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -600,12 +716,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/dNZeZTGYIoE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -684,7 +800,5 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //     );
 //   }
 // }
-
-// More sentences is NOT done
 
 // end // TODO Implement this library.

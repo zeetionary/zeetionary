@@ -4,93 +4,99 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryanticlimax - replace speakAnticlimax - replace anticlimax - /ˌæntiˈklaɪmæks/ - find Dopsum2
+// More sentences is NOT done
+
+// artistry
+
+// replace EnglishEntryartistry - replace speakArtistry
+
+// replace artistry - /ˈɑːtɪstri/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryanticlimax extends StatelessWidget {
+class EnglishEntryartistry extends StatelessWidget {
   // blank divider
-  EnglishEntryanticlimax({super.key});
+  EnglishEntryartistry({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnticlimax(String languageCode) async {
-    // DOPSUM: CHANGE speakAnticlimax
+  Future<void> speakArtistry(String languageCode) async {
+    // DOPSUM: CHANGE speakArtistry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("artistry"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnticlimax843(String languageCode) async {
-    // DOPSUM: CHANGE speakAnticlimax
+  Future<void> speakArtistry940(String languageCode) async {
+    // DOPSUM: CHANGE speakArtistry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "When you really look forward to something it's often an anticlimax when it actually happens."); // DOPSUM: CHANGE TEXT
+        "You have to admire the artistry of her novels."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
+  // Future<void> speakArtistry(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtistry
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artistry"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
+  // Future<void> speakArtistry(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtistry
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artistry"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
+  // Future<void> speakArtistry(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtistry
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artistry"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
+  // Future<void> speakArtistry(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtistry
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artistry"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
+  // Future<void> speakArtistry(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtistry
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artistry"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
+  // Future<void> speakArtistry(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtistry
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artistry"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
+  // Future<void> speakArtistry(String languageCode) async {
+  //   // DOPSUM: CHANGE speakArtistry
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("artistry"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -109,7 +115,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "anticlimax", // DOPSUM: CHANGE WORD ENTRY - Find /ˌæntiˈklaɪmæks/
+                                "artistry", // DOPSUM: CHANGE WORD ENTRY - Find /ˈɑːtɪstri/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -128,7 +134,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˌæntiˈklaɪmæks/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈɑːtɪstri/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -138,9 +144,9 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAnticlimax(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakArtistry(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
@@ -149,7 +155,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˌæntiˈklaɪmæks/,  /ˌæntaɪˈklaɪmæks/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                "IpaUS: /ˈɑːrtɪstri/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -159,7 +165,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAnticlimax(
+                              onPressed: () => speakArtistry(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -179,13 +185,13 @@ class EnglishEntryanticlimax extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 13,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -208,10 +214,10 @@ class EnglishEntryanticlimax extends StatelessWidget {
                         children: [
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-کوردی: داکەوتن، داشکان، شۆڕبوونەوە، داچوون، ھاتنەخوارێ، لێژبوونەوە، ڕووداو، قۆناخ یان ئەنجامێ کە بە شێوەیێکی بەرچاو لە گرنگایەتی چاوەڕوان‌کراوی کەم‌تر دەبێتەوە، کەوتنان، داکەوتن، داشکان (وەک لە داستان و چیرۆکەکان‌دا، وەک "ژنەکەم مرد، ماڵەکەمیان برد و سەگەکەشم گوم بوو.")، ناھومێدی، دڵساردی
+                            """
+کوردی: هونەرمەندی، وەستایی، مامۆستایی، کارامەیی، شارەزایی، دەس‌ڕەنگینی، داهێنەری هونەری، مرخ یان چێژی هونەری
 
-١. (ناو) شتێکی کە ڕوودەدات لە کاتێکدا شتێکی خۆش لە بەرزترین ئاستە، و دەبێتەھۆی ئەوەی شتە خۆشەکە چێژی لەدەست‌بدات یان کەمتر بێت لەوەی پێشبینیت دەکرد ''',
+١. (ناو) شارەزایی هونەرمەندێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -222,7 +228,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "When you really look forward to something it's often an anticlimax when it actually happens.",
+                                    "You have to admire the artistry of her novels.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -237,7 +243,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کاتێک زۆر چاوەڕیی شتێک دەکەیت زۆرجار نائومێدییەک ھەیە کە لە ڕاستیدا ڕوودەدات.",
+                                    "دەبێت سەرسامی هونەری ڕۆمانەکانی بیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -250,7 +256,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnticlimax843("en-GB"),
+                                onPressed: () => speakArtistry940("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -258,8 +264,8 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAnticlimax843(
-                                    // REPLACE: anticlimax /ˌæntiˈklaɪmæks/,  /ˌæntaɪˈklaɪmæks/
+                                onPressed: () => speakArtistry940(
+                                    // REPLACE: artistry /ˈɑːrtɪstri/
                                     "en-US"),
                               ),
                             ],
@@ -280,7 +286,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -309,13 +315,11 @@ class EnglishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
-- Noun: anticlimax (Derived forms: anticlimaxes)
-1. A disappointing decline after a previous rise
-"the anticlimax of a brilliant career"
- 
-2. A change from a serious subject to a disappointing one (= bathos)
-'''),
+          Text("""
+- Noun: artistry (Derived forms: artistries)
+1. A superior skill that you can learn by study and practice and observation (= art, prowess)
+"the artistry of conversation";
+"""),
         ],
       ),
     );
@@ -325,12 +329,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "Ix6vtM4gP8g";
+  static String myVideoId = "https://youtu.be/i6pw07k3GkM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 380, // DOPSUM: CHANGE IT
+      startAt: 101, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -350,12 +354,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "m_zHSxuHHcQ";
+  static String myVideoId = "https://youtu.be/pU51ZMzWXmA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 529, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -375,12 +379,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "WiJfGq-iyp0";
+  static String myVideoId = "https://youtu.be/PhNUjg9X4g8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 4318, // DOPSUM: CHANGE IT
+      startAt: 177, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -400,12 +404,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "jNUFSLY83YQ";
+  static String myVideoId = "https://youtu.be/uKgaVlMN7IY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2450, // DOPSUM: CHANGE IT
+      startAt: 171, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -425,12 +429,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "m2OuV0sEa9o";
+  static String myVideoId = "https://youtu.be/aGPEsFY1vx4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 119, // DOPSUM: CHANGE IT
+      startAt: 327, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -450,12 +454,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "Ctd3iL9I0zw";
+  static String myVideoId = "https://youtu.be/I-VZZFeg8dA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 511, // DOPSUM: CHANGE IT
+      startAt: 592, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -475,12 +479,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "BLKD2Wf8_wk";
+  static String myVideoId = "https://youtu.be/ROP45rjvOHg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 12151, // DOPSUM: CHANGE IT
+      startAt: 23, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -500,12 +504,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "oAg2Zybtzoc";
+  static String myVideoId = "https://youtu.be/Ukjat70Iyt4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1790, // DOPSUM: CHANGE IT
+      startAt: 376, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -525,12 +529,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "aQS2UtB5Nks";
+  static String myVideoId = "https://youtu.be/tyixMpuGEL8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 962, // DOPSUM: CHANGE IT
+      startAt: 206, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -550,12 +554,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "TFQimOBEoSE";
+  static String myVideoId = "https://youtu.be/_yHnu58tIUg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 617, // DOPSUM: CHANGE IT
+      startAt: 483, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -575,12 +579,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "0yjX2wN3oUo";
+  static String myVideoId = "https://youtu.be/wxm8jTzU_8o?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 59, // DOPSUM: CHANGE IT
+      startAt: 477, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -600,12 +604,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/K0vB8BGDYew?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 258, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -684,7 +688,5 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //     );
 //   }
 // }
-
-// More sentences is NOT done
 
 // end // TODO Implement this library.

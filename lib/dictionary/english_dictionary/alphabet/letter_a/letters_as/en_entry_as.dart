@@ -6,97 +6,149 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// replace EnglishEntryAdopsum - replace speakAppropriation
+// as
 
-// replace appropriation - /əˌprəʊpriˈeɪʃn/ - find WORD_WEB
+// replace EnglishEntryas - replace speakAs
+
+// replace as - /əz/, strong form  /æz/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryappropriation extends StatelessWidget {
+class EnglishEntryas extends StatelessWidget {
   // blank divider
-  EnglishEntryappropriation({super.key});
+  EnglishEntryas({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAppropriation(String languageCode) async {
-    // DOPSUM: CHANGE speakAppropriation
+  Future<void> speakAs(String languageCode) async {
+    // DOPSUM: CHANGE speakAs
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("appropriation"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("as"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppropriation425(String languageCode) async {
-    // DOPSUM: CHANGE speakAppropriation
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The film company sued them over their appropriation of a cartoon character."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAppropriation432(String languageCode) async {
-    // DOPSUM: CHANGE speakAppropriation
+  Future<void> speakAs1035(String languageCode) async {
+    // DOPSUM: CHANGE speakAs
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The team scheduled a meeting to discuss the appropriation of funds for the upcoming project."); // DOPSUM: CHANGE TEXT
+        "The children were all dressed as police officers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAppropriation436(String languageCode) async {
-    // DOPSUM: CHANGE speakAppropriation
+  Future<void> speakAs1038(String languageCode) async {
+    // DOPSUM: CHANGE speakAs
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("The bomb was disguised as a package."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAs1041(String languageCode) async {
+    // DOPSUM: CHANGE speakAs
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Treat me as a friend."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAs1042(String languageCode) async {
+    // DOPSUM: CHANGE speakAs
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("The news came as a shock."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAs1044(String languageCode) async {
+    // DOPSUM: CHANGE speakAs
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("You're as tall as your father."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAs1046(String languageCode) async {
+    // DOPSUM: CHANGE speakAs
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("As always, he said little."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAs1047(String languageCode) async {
+    // DOPSUM: CHANGE speakAs
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The committee approved an appropriation of £20,000 for the payment of debts."); // DOPSUM: CHANGE TEXT
+        "As many as 2 million people could be affected."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAppropriation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppropriation
+  Future<void> speakAs1049(String languageCode) async {
+    // DOPSUM: CHANGE speakAs
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("He sat watching her as she got ready."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAs(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAs
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appropriation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("as"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppropriation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppropriation
+  // Future<void> speakAs(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAs
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appropriation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("as"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppropriation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppropriation
+  // Future<void> speakAs(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAs
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appropriation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("as"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppropriation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppropriation
+  // Future<void> speakAs(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAs
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appropriation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("as"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAppropriation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppropriation
+  // Future<void> speakAs(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAs
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appropriation"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("as"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAs(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAs
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("as"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -115,7 +167,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "appropriation", // DOPSUM: CHANGE WORD ENTRY - Find /əˌprəʊpriˈeɪʃn/
+                                "as", // DOPSUM: CHANGE WORD ENTRY - Find /əz/, strong form  /æz/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -134,7 +186,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˌprəʊpriˈeɪʃn/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əz/, strong form  /æz/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -144,9 +196,9 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAppropriation(
-                                  // DOPSUM: CHANGE THE WORD ABOVE
-                                  "en-GB"),
+                              onPressed: () =>
+                                  speakAs(// DOPSUM: CHANGE THE WORD ABOVE
+                                      "en-GB"),
                             ),
                           ],
                         ),
@@ -155,7 +207,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˌprəʊpriˈeɪʃn/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /əz/, strong form  /æz/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -165,7 +217,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAppropriation(
+                              onPressed: () => speakAs(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -185,13 +237,13 @@ class EnglishEntryappropriation extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -215,9 +267,9 @@ class EnglishEntryappropriation extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: تەرخان‌دان، تایبەت‌دان، بودجە، دراونامە، گرتن، دەس‌بەسەراگرتن، زەوت‌کردن، لێ‌سەندن، (لێ)ھەڵگرتن، دزین، بڕینەبەرخۆ، دانەبەرخۆ
+کوردی: هەر ئەوندە، بە هەمان ڕادە، (بە) هەمان ئەندازە، بەقەد ئەوە، کاتێ، وەختێ کە، لەکاتی، کاتێ کە، چون، چۆنکە، چونکو، وەکوو، مینا، وەک، ڤەکی، بەوجۆرەی، بەوچەشنەی، بەدەردی، هەروەکوو، هەروەک، گەرچی، ئەگەرچی، هەرچەند، وەکوو، لەچاوی، هەرچی، کە، تا، هەتا
 
-١. (ناو) بردنی شتی کەسێکی تر بەبێ مۆڵەت""",
+١. (ئامراز) بەکاردێت بۆ وتنی ئەوەی کەسێک یان شتێک وەک کەسێکی تر یان شتێکی تر دەردەکەوێت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -228,7 +280,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The film company sued them over their appropriation of a cartoon character.",
+                                    "The children were all dressed as police officers.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -243,7 +295,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کۆمپانیا فیلمییەکە سکاڵای لەسەر تۆمارکردن بەھۆی دزینی کارەکتەرێکی فیلمە کارتۆنییە.",
+                                    "منداڵەکان هەموویان وەک ئەفسەری پۆلیس جلیان پۆشیبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -256,7 +308,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAppropriation425("en-GB"),
+                                onPressed: () => speakAs1035("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -264,8 +316,58 @@ class EnglishEntryappropriation extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAppropriation425(
-                                    // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
+                                onPressed: () => speakAs1035(
+                                    // REPLACE: as /əz/, strong form  /æz/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The bomb was disguised as a package.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "بۆمبەکە لە شێوەی پاکێجێکدا بوو.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAs1038("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAs1038(
+                                    // REPLACE: as /əz/, strong form  /æz/
                                     "en-US"),
                               ),
                             ],
@@ -275,7 +377,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) تەرخانکردنی بڕە پارەیەک بۆ مەبەستێکی دیاریکراو""",
+٢. (ئامراز) بۆ پیشاندانی پیشە یان ئەرک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -286,7 +388,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The team scheduled a meeting to discuss the appropriation of funds for the upcoming project.",
+                                    "Treat me as a friend.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -301,7 +403,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تیمەکە کۆبوونەوەیەکیان ڕێکخست بۆ گفتوگۆی تەرخانکردنی پارەکە بۆ پڕۆژەکانی داھاتووی نزیک.",
+                                    "وەک هاوڕێیەک بمبینە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -314,7 +416,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAppropriation432("en-GB"),
+                                onPressed: () => speakAs1041("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -322,8 +424,58 @@ class EnglishEntryappropriation extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAppropriation432(
-                                    // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
+                                onPressed: () => speakAs1041(
+                                    // REPLACE: as /əz/, strong form  /æz/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The news came as a shock.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "هەواڵەکە وەک شۆکێک وابوو.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAs1042("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAs1042(
+                                    // REPLACE: as /əz/, strong form  /æz/
                                     "en-US"),
                               ),
                             ],
@@ -333,7 +485,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ناو) بڕە پارەیەک کە تەرخان‌دەکرێت بۆ مەبەستێکی دیاریکراو، بەتایبەتی لەلایەن حکومەتێک یان کۆمپانیایەک""",
+٣. (هاوەڵکار) بۆ بەراوردکردن بەکاردێ""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -344,7 +496,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The committee approved an appropriation of £20,000 for the payment of debts.",
+                                    "You're as tall as your father.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -359,7 +511,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لیژنەکە سەرفکردنی بڕی ٢٠،٠٠٠ پاوەندی پەسەندکرد بۆ دانەوەی قەرزەکان.",
+                                    "هێندەی باوکت درێژی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -372,7 +524,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAppropriation436("en-GB"),
+                                onPressed: () => speakAs1044("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -380,8 +532,182 @@ class EnglishEntryappropriation extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAppropriation436(
-                                    // REPLACE: appropriation /əˌprəʊpriˈeɪʃn/
+                                onPressed: () => speakAs1044(
+                                    // REPLACE: as /əz/, strong form  /æz/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٤. (هاوەڵکار) بەکاردێت بۆ وتنی ئەوەی شتێک بە هەمان شێوە روودەدات""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "As always, he said little.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "وەک هەمیشە، کەمێک قسەی کرد.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAs1046("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAs1046(
+                                    // REPLACE: as /əz/, strong form  /æz/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٥. (هاوەڵکار) بەکاردێت بۆ سەرنج‌خستنەسەر بڕێک""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "As many as 2 million people could be affected.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "تا ٢ ملیۆن کەس دەکرێت کاریگەر بن.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAs1047("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAs1047(
+                                    // REPLACE: as /əz/, strong form  /æz/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٦. (لێکدەر) لەکاتی ڕوودانی شتێکی تر""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "He sat watching her as she got ready.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "دانیشتوو سەیری کرد کە خۆی دەگۆڕی.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAs1049("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAs1049(
+                                    // REPLACE: as /əz/, strong form  /æz/
                                     "en-US"),
                               ),
                             ],
@@ -402,7 +728,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -432,13 +758,28 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: appropriation (Derived forms: appropriations)
-1. (legislature) money set aside (as by a legislature) for a specific purpose
+- Adverb: as 
+1. To the same degree (= equally, every bit)
+"birds were singing and the child sang as sweetly"; "sang as sweetly as a nightingale"; "he is every bit as mean as she is";
  
-2. Incorporation by joining or uniting (= annexation)
+2. In the idea, character, or condition of, limiting the view to certain attributes or relations
+"dressed up as a ghost"
+
+- Conjunction: as  
+1. For the reason that; on account of (= because, since, for, coz [Brit, informal], cos [Brit, informal], cuz [non-standard, informal])
+"empty, as it had been upside down";
  
-3. A deliberate act of acquisition of something, often without the permission of the owner
-"the necessary funds were obtained by the government's appropriation of the company's operating unit"; "a person's appropriation of property belonging to another is dishonest"
+3. At the same time that (= when, while, whilst [Brit])
+"they were walking home as they were discussing the problem";
+
+- Noun: AS
+1. A United States territory on the eastern part of the island of Samoa (= American Samoa, Eastern Samoa)
+
+- Noun: As
+1. A very poisonous metallic element that has three allotropic forms; arsenic and arsenic compounds are used as herbicides and insecticides and in various alloys; found in arsenopyrite and orpiment and realgar (= arsenic, atomic number 33)
+
+- Noun: a 
+1. The 1st letter of the Roman alphabet (= A)
 """),
         ],
       ),
@@ -449,12 +790,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "Vh7c7PSVubE";
+  static String myVideoId = "https://youtu.be/fsQVfQt0HOk?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 93, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -474,12 +815,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "uBMeiGbfPI4";
+  static String myVideoId = "https://youtu.be/hFZFjoX2cGg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 27, // DOPSUM: CHANGE IT
+      startAt: 57, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -499,12 +840,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "4JC58UYeaBs";
+  static String myVideoId = "https://youtu.be/a_TSR_v07m0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 186, // DOPSUM: CHANGE IT
+      startAt: 102, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -524,12 +865,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "HcFNpFHcQUc";
+  static String myVideoId = "https://youtu.be/VrKW58MS12g?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 38, // DOPSUM: CHANGE IT
+      startAt: 62, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -549,12 +890,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "KXejDhRGOuI";
+  static String myVideoId = "https://youtu.be/lVoGZiL-kns?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 15, // DOPSUM: CHANGE IT
+      startAt: 128, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -574,12 +915,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "dUjlMY_Y1Mg";
+  static String myVideoId = "https://youtu.be/Cd1EmYRZynw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 762, // DOPSUM: CHANGE IT
+      startAt: 216, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -599,12 +940,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "0O0yi8YgYbs";
+  static String myVideoId = "https://youtu.be/zAGVQLHvwOY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 108, // DOPSUM: CHANGE IT
+      startAt: 119, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -624,12 +965,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "KaryoWAewIw";
+  static String myVideoId = "https://youtu.be/khOUvmOQExc?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1684, // DOPSUM: CHANGE IT
+      startAt: 10, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -649,12 +990,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "z1PviSrWYqw";
+  static String myVideoId = "https://youtu.be/_wNsZEqpKUA?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 76, // DOPSUM: CHANGE IT
+      startAt: 631, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -674,12 +1015,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "1e-nMVL0-hk";
+  static String myVideoId = "https://youtu.be/HDntl7yzzVI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 544, // DOPSUM: CHANGE IT
+      startAt: 521, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -699,12 +1040,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "s5Bnr1GM3tI";
+  static String myVideoId = "https://youtu.be/2L7hhxT-pck?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 434, // DOPSUM: CHANGE IT
+      startAt: 544, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -724,12 +1065,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/-HyHZsa79LU?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 53, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -809,4 +1150,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end // TODO Implement this library.
+// end 

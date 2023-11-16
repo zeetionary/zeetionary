@@ -4,93 +4,101 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryanticlimax - replace speakAnticlimax - replace anticlimax - /ˌæntiˈklaɪmæks/ - find Dopsum2
+// More sentences is NOT done
+
+// Define the word "ascendancy" and provide three example sentences for each meaning. Use Merriam Webster style.
+
+// replace EnglishEntryascendancy - replace speakAscendancy
+
+// replace ascendancy - /əˈsendənsi/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryanticlimax extends StatelessWidget {
+class EnglishEntryascendancy extends StatelessWidget {
   // blank divider
-  EnglishEntryanticlimax({super.key});
+  EnglishEntryascendancy({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAnticlimax(String languageCode) async {
-    // DOPSUM: CHANGE speakAnticlimax
+  Future<void> speakAscendancy(String languageCode) async {
+    // DOPSUM: CHANGE speakAscendancy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ascendancy"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAnticlimax843(String languageCode) async {
-    // DOPSUM: CHANGE speakAnticlimax
+  Future<void> speakAscendancy1157(String languageCode) async {
+    // DOPSUM: CHANGE speakAscendancy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "When you really look forward to something it's often an anticlimax when it actually happens."); // DOPSUM: CHANGE TEXT
+        "Manchester United gained the ascendancy after half-time."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
+  Future<void> speakAscendancy1158(String languageCode) async {
+    // DOPSUM: CHANGE speakAscendancy
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The opposition party was in the ascendancy (= gaining control)."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAscendancy1201(String languageCode) async {
+    // DOPSUM: CHANGE speakAscendancy
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The new CEO quickly gained ascendancy over the company."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAscendancy(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAscendancy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascendancy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
+  // Future<void> speakAscendancy(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAscendancy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascendancy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
+  // Future<void> speakAscendancy(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAscendancy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascendancy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
+  // Future<void> speakAscendancy(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAscendancy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascendancy"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
+  // Future<void> speakAscendancy(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAscendancy
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAnticlimax(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnticlimax
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anticlimax"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("ascendancy"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -109,7 +117,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "anticlimax", // DOPSUM: CHANGE WORD ENTRY - Find /ˌæntiˈklaɪmæks/
+                                "ascendancy", // DOPSUM: CHANGE WORD ENTRY - Find /əˈsendənsi/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -128,7 +136,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˌæntiˈklaɪmæks/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əˈsendənsi/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -138,7 +146,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAnticlimax(
+                              onPressed: () => speakAscendancy(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -149,7 +157,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˌæntiˈklaɪmæks/,  /ˌæntaɪˈklaɪmæks/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                "IpaUS: /əˈsendənsi/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -159,7 +167,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAnticlimax(
+                              onPressed: () => speakAscendancy(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -179,13 +187,13 @@ class EnglishEntryanticlimax extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE: 13,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  // VideoIconForTab(), // 12
+                  VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -208,10 +216,10 @@ class EnglishEntryanticlimax extends StatelessWidget {
                         children: [
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-کوردی: داکەوتن، داشکان، شۆڕبوونەوە، داچوون، ھاتنەخوارێ، لێژبوونەوە، ڕووداو، قۆناخ یان ئەنجامێ کە بە شێوەیێکی بەرچاو لە گرنگایەتی چاوەڕوان‌کراوی کەم‌تر دەبێتەوە، کەوتنان، داکەوتن، داشکان (وەک لە داستان و چیرۆکەکان‌دا، وەک "ژنەکەم مرد، ماڵەکەمیان برد و سەگەکەشم گوم بوو.")، ناھومێدی، دڵساردی
+                            """
+کوردی: سەردەستی، باڵادەستی، دەسەڵات‌داری، باوسەندوویی، سەرکەوتوویی، زاڵی، بەسەرداشکانەوە، سەرتری، دەس‌ڕۆیشتوویی
 
-١. (ناو) شتێکی کە ڕوودەدات لە کاتێکدا شتێکی خۆش لە بەرزترین ئاستە، و دەبێتەھۆی ئەوەی شتە خۆشەکە چێژی لەدەست‌بدات یان کەمتر بێت لەوەی پێشبینیت دەکرد ''',
+١. (ناو) هەبوونی دەسەڵات یان هێز بەسەر کەسێک یان شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -222,7 +230,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "When you really look forward to something it's often an anticlimax when it actually happens.",
+                                    "Manchester United gained the ascendancy after half-time.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -237,7 +245,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کاتێک زۆر چاوەڕیی شتێک دەکەیت زۆرجار نائومێدییەک ھەیە کە لە ڕاستیدا ڕوودەدات.",
+                                    "مانچستەر یونایتید یارییەکەی کۆنترۆڵ کرد لەدوای گێمی یەکەم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -250,7 +258,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAnticlimax843("en-GB"),
+                                onPressed: () => speakAscendancy1157("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -258,8 +266,108 @@ class EnglishEntryanticlimax extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAnticlimax843(
-                                    // REPLACE: anticlimax /ˌæntiˈklaɪmæks/,  /ˌæntaɪˈklaɪmæks/
+                                onPressed: () => speakAscendancy1157(
+                                    // REPLACE: ascendancy /əˈsendənsi/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The opposition party was in the ascendancy (= gaining control).",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "پارتی ئۆپۆزیسیۆن دەسەڵاتی زیادی‌دەکرد.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAscendancy1158("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAscendancy1158(
+                                    // REPLACE: ascendancy /əˈsendənsi/
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The new CEO quickly gained ascendancy over the company.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "بەڕێوبەرە تازەکە بەزوویی دەسەڵاتی بەسەر کۆمپانیایەکەدا سەپاند.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAscendancy1201("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAscendancy1201(
+                                    // REPLACE: ascendancy /əˈsendənsi/
                                     "en-US"),
                               ),
                             ],
@@ -280,7 +388,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
+                    YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -309,13 +417,11 @@ class EnglishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
-- Noun: anticlimax (Derived forms: anticlimaxes)
-1. A disappointing decline after a previous rise
-"the anticlimax of a brilliant career"
- 
-2. A change from a serious subject to a disappointing one (= bathos)
-'''),
+          Text("""
+- Noun: ascendancy (Derived forms: ascendancies)
+1. The state that exists when one person or group has power over another (= dominance, ascendance, ascendence, ascendency, control)
+"her apparent ascendancy of her husband was really her attempt to make him pay attention to her";
+"""),
         ],
       ),
     );
@@ -325,12 +431,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "Ix6vtM4gP8g";
+  static String myVideoId = "https://youtu.be/pSIh_mTEy_o?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 380, // DOPSUM: CHANGE IT
+      startAt: 1191, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -350,12 +456,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "m_zHSxuHHcQ";
+  static String myVideoId = "https://youtu.be/yfoCcEWkpDQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 529, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -375,12 +481,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "WiJfGq-iyp0";
+  static String myVideoId = "https://youtu.be/InRHJTfbf0o?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 4318, // DOPSUM: CHANGE IT
+      startAt: 195, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -400,12 +506,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "jNUFSLY83YQ";
+  static String myVideoId = "https://youtu.be/_FV0CLYoYQo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2450, // DOPSUM: CHANGE IT
+      startAt: 163, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -425,12 +531,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "m2OuV0sEa9o";
+  static String myVideoId = "https://youtu.be/Lp0a-0oIz_Q?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 119, // DOPSUM: CHANGE IT
+      startAt: 718, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -450,12 +556,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "Ctd3iL9I0zw";
+  static String myVideoId = "https://youtu.be/5y7a1Eb6QR4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 511, // DOPSUM: CHANGE IT
+      startAt: 18, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -475,12 +581,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "BLKD2Wf8_wk";
+  static String myVideoId = "https://youtu.be/qvO3_kYRRw8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 12151, // DOPSUM: CHANGE IT
+      startAt: 1089, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -500,12 +606,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "oAg2Zybtzoc";
+  static String myVideoId = "https://youtu.be/BQ_XckGOn9o?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1790, // DOPSUM: CHANGE IT
+      startAt: 236, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -525,12 +631,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "aQS2UtB5Nks";
+  static String myVideoId = "https://youtu.be/W3wncm9s2AM?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 962, // DOPSUM: CHANGE IT
+      startAt: 5, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -550,12 +656,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "TFQimOBEoSE";
+  static String myVideoId = "https://youtu.be/-bcKRd_lfAg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 617, // DOPSUM: CHANGE IT
+      startAt: 564, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -575,12 +681,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "0yjX2wN3oUo";
+  static String myVideoId = "https://youtu.be/qm2dCDUcQ9o?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 59, // DOPSUM: CHANGE IT
+      startAt: 1835, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -600,12 +706,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "https://youtu.be/3OkxTWoNf0I?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 400, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -684,7 +790,5 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //     );
 //   }
 // }
-
-// More sentences is NOT done
 
 // end // TODO Implement this library.

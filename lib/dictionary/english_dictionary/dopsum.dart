@@ -6,7 +6,7 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Dopsum3
+// Define the word "Dopsum3" and provide three example sentences for each meaning. Use Merriam Webster style.
 
 // replace EnglishEntryAdopsum - replace speakAdopsum
 

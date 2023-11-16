@@ -1001,6 +1001,12 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_ascendant.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_ascent.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_ascertain.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_ascii.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_ascribe_to.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_aseptic.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_DOPSUM.dart';
 
@@ -2111,7 +2117,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-artisan": (_) => MaterialPage(child: EnglishEntryartisan()),
   "/english-artist": (_) => MaterialPage(child: EnglishEntryartist()),
   "/english-artistic": (_) => MaterialPage(child: EnglishEntryartistic()),
-  "/english-artistically": (_) => MaterialPage(child: EnglishEntryartistically()),
+  "/english-artistically": (_) =>
+      MaterialPage(child: EnglishEntryartistically()),
   "/english-artistry": (_) => MaterialPage(child: EnglishEntryartistry()),
   "/english-artiste": (_) => MaterialPage(child: EnglishEntryartiste()),
   "/english-arty": (_) => MaterialPage(child: EnglishEntryarty()),
@@ -2123,9 +2130,9 @@ final loggedInRoute = RouteMap(routes: {
   "/english-ascendant": (_) => MaterialPage(child: EnglishEntryascendant()),
   "/english-ascent": (_) => MaterialPage(child: EnglishEntryascent()),
   "/english-ascertain": (_) => MaterialPage(child: EnglishEntryascertain()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-ASCII": (_) => MaterialPage(child: EnglishEntryASCII()),
+  "/english-ascribe-to": (_) => MaterialPage(child: EnglishEntryascribeto()),
+  "/english-aseptic": (_) => MaterialPage(child: EnglishEntryaseptic()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

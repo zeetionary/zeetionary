@@ -1014,9 +1014,9 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     // "ascendant",
     // "ascent",
     // "ascertain",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
+    // "ASCII",
+    // "ascribe to",
+    // "aseptic",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM",
@@ -5406,17 +5406,17 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-ascertain");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "ASCII") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-ASCII");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "ascribe to") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-ascribe-to");
                   // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
+                  // if (wordsEnglish == "aseptic") {
                   //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
+                  //   Routemaster.of(context).push("/english-aseptic");
                   // }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUMDOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);

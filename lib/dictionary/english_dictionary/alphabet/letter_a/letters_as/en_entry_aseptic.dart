@@ -6,99 +6,97 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// artistic
+// Define the word "aseptic" and provide three example sentences for each meaning. Use Merriam Webster style.
 
-// replace EnglishEntryartistic - replace speakArtistic
+// replace EnglishEntryaseptic - replace speakAseptic
 
-// replace artistic - /ɑːˈtɪstɪk/ - find WORD_WEB
+// replace aseptic - /ˌeɪˈseptɪk/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryartistic extends StatelessWidget {
+class EnglishEntryaseptic extends StatelessWidget {
   // blank divider
-  EnglishEntryartistic({super.key});
+  EnglishEntryaseptic({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArtistic(String languageCode) async {
-    // DOPSUM: CHANGE speakArtistic
+  Future<void> speakAseptic(String languageCode) async {
+    // DOPSUM: CHANGE speakAseptic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("artistic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aseptic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArtistic902(String languageCode) async {
-    // DOPSUM: CHANGE speakArtistic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The artistic talents of the Renaissance painters were truly remarkable."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakArtistic904(String languageCode) async {
-    // DOPSUM: CHANGE speakArtistic
+  Future<void> speakAseptic157(String languageCode) async {
+    // DOPSUM: CHANGE speakAseptic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "His friends are all artistic - they're painters, musicians, and writers."); // DOPSUM: CHANGE TEXT
+        "The surgeon used aseptic techniques to prevent infection during the operation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArtistic906(String languageCode) async {
-    // DOPSUM: CHANGE speakArtistic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The decor inside the house was very artistic."); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakArtistic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArtistic
+  // Future<void> speakAseptic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAseptic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artistic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aseptic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtistic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArtistic
+  // Future<void> speakAseptic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAseptic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artistic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aseptic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtistic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArtistic
+  // Future<void> speakAseptic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAseptic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artistic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aseptic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtistic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArtistic
+  // Future<void> speakAseptic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAseptic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artistic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aseptic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakArtistic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArtistic
+  // Future<void> speakAseptic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAseptic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artistic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aseptic"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAseptic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAseptic
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("aseptic"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAseptic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAseptic
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("aseptic"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -117,7 +115,7 @@ class EnglishEntryartistic extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "artistic", // DOPSUM: CHANGE WORD ENTRY - Find /ɑːˈtɪstɪk/
+                                "aseptic", // DOPSUM: CHANGE WORD ENTRY - Find /ˌeɪˈseptɪk/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -136,7 +134,7 @@ class EnglishEntryartistic extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ɑːˈtɪstɪk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˌeɪˈseptɪk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -147,7 +145,7 @@ class EnglishEntryartistic extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakArtistic(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAseptic(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -157,7 +155,7 @@ class EnglishEntryartistic extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ɑːrˈtɪstɪk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /ˌeɪˈseptɪk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -167,7 +165,7 @@ class EnglishEntryartistic extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakArtistic(
+                              onPressed: () => speakAseptic(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -187,13 +185,13 @@ class EnglishEntryartistic extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10,
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -217,9 +215,9 @@ class EnglishEntryartistic extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ھونەری، سەربە ھونەر، ھونەرمەندانە، دەس‌ڕەنگینانە
+کوردی: (پزشکی) خاوێنەوەبوو، پاکژەوەبوو، خاوێنەوەکراو، پاکژکراو، خاوێن، خاوێن لە ھەر بەکتریایێکی بەزیان یان زیان‌بار
 
-١. (ھاوەڵناو) پەیوەندیدار بە ھونەر یان ھونەرمەندان""",
+١. (ھاوەڵناو) بەبێ ھیچ بەکتریایەک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -230,7 +228,7 @@ class EnglishEntryartistic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The artistic talents of the Renaissance painters were truly remarkable.",
+                                    "The surgeon used aseptic techniques to prevent infection during the operation.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -245,7 +243,7 @@ class EnglishEntryartistic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "توانا ھونەرییەکانی نیگارکێشانی سەردەمی بوژانەوە بەڕاستی ناوازە بوون.",
+                                    "نەشتەرگەرەکە تەکنیکی خاوێن لە بەکتریای بەکارھێنا بۆ ڕێگری لە بڵاوبوونەوەی نەخۆشی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -258,7 +256,7 @@ class EnglishEntryartistic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakArtistic902("en-GB"),
+                                onPressed: () => speakAseptic157("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -266,124 +264,8 @@ class EnglishEntryartistic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakArtistic902(
-                                    // REPLACE: artistic /ɑːrˈtɪstɪk/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ھاوەڵناو) ھەبوونی توانای سرووشتی لە ھونەردا""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "His friends are all artistic - they're painters, musicians, and writers.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ھاوڕێکانی ھەموویان دەسڕەنگینن، نیگارکێش و میوزیکژەن و نووسەرن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakArtistic904("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakArtistic904(
-                                    // REPLACE: artistic /ɑːrˈtɪstɪk/
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٣. (ھاوەڵناو) شتێک کە بە ھونەرییانە ئەنجام‌دراو""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "The decor inside the house was very artistic.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "دیکۆری ناو خانووەکە زۆر ھونەرکارانە بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakArtistic906("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakArtistic906(
-                                    // REPLACE: artistic /ɑːrˈtɪstɪk/
+                                onPressed: () => speakAseptic157(
+                                    // REPLACE: aseptic /ˌeɪˈseptɪk/
                                     "en-US"),
                               ),
                             ],
@@ -401,10 +283,10 @@ class EnglishEntryartistic extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -434,17 +316,9 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adjective: artistic 
-1. Relating to or characteristic of art or artists
-"his artistic background"
- 
-2. Satisfying aesthetic standards and sensibilities
-"artistic workmanship"
- 
-3. Aesthetically pleasing (= aesthetic, esthetic [US])
-"an artistic flower arrangement";
- 
-4. Having or revealing creative skill
+- Adjective: aseptic
+1. Free of or using methods to keep free of pathological microorganisms (= sterile)
+"aseptic surgical instruments";
 """),
         ],
       ),
@@ -455,12 +329,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "ZzgOrlLuQbI";
+  static String myVideoId = "ZpkDCcNxvpI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 252, // DOPSUM: CHANGE IT
+      startAt: 221, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -480,12 +354,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "I4QMoRNyFp8";
+  static String myVideoId = "6GS2ScGX9U0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 331, // DOPSUM: CHANGE IT
+      startAt: 563, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -505,12 +379,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "VyEf4EBXe8o";
+  static String myVideoId = "lJRs4O9u_E8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 395, // DOPSUM: CHANGE IT
+      startAt: 20112, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -530,12 +404,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "0ST4_hmop9Y";
+  static String myVideoId = "XRsbAnY-s8c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1115, // DOPSUM: CHANGE IT
+      startAt: 533, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -555,12 +429,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "UO3N_PRIgX0";
+  static String myVideoId = "bW_KyoUx5tw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 298, // DOPSUM: CHANGE IT
+      startAt: 18, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -580,12 +454,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "3RkhZgRNC1k";
+  static String myVideoId = "--TIleXgTRA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1061, // DOPSUM: CHANGE IT
+      startAt: 167, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -605,12 +479,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "UG61a5vjxuI";
+  static String myVideoId = "ej5wmRHzVHQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 32, // DOPSUM: CHANGE IT
+      startAt: 71, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -630,12 +504,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "y3eR8QLPjlc";
+  static String myVideoId = "z41Wy5ZF4O8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 452, // DOPSUM: CHANGE IT
+      startAt: 304, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -655,12 +529,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "8WQ5MsroXxE";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 65, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -680,12 +554,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "rir1m-rj-KE";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 397, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -705,12 +579,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "qTPKGVrFtQU";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 323, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -730,12 +604,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "3y4zkCUH0fA";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 195, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

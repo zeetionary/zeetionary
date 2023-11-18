@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:zeetionary/constants.dart';
 
-class HistoryScreen extends StatelessWidget {
-  const HistoryScreen({super.key});
+class EnglishHistoryScreen extends StatelessWidget {
+  const EnglishHistoryScreen({super.key});
 
-  Future<void> clearHistory(BuildContext context) async {
+  Future<void> clearEnglishHistory(BuildContext context) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
 
     // Show a dialog to confirm clearing history
@@ -44,7 +43,7 @@ class HistoryScreen extends StatelessWidget {
 
     // If the user confirms, clear the history
     if (confirmClear == true) {
-      await prefs.remove('history');
+      await prefs.remove('english history');
       // ignore: use_build_context_synchronously
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
         content: Directionality(
@@ -59,18 +58,17 @@ class HistoryScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: FutureBuilder<List<String>>(
-          future: loadHistory(),
+          future: loadEnglishHistory(),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
               return const CircularProgressIndicator();
             } else if (snapshot.hasData) {
-              final history = snapshot.data;
+              final englishhistory = snapshot.data;
               return ListView.builder(
-                itemCount: history?.length,
+                itemCount: englishhistory?.length,
                 itemBuilder: (context, index) {
-                  final word = history![index];
+                  final word = englishhistory![index];
                   return ListTile(
                     trailing: const Icon(Icons.arrow_forward),
                     title: Text(word),
@@ -82,13 +80,13 @@ class HistoryScreen extends StatelessWidget {
                 },
               );
             } else {
-              return const Text('No history found.');
+              return const Text('No english history found.');
             }
           },
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {
-            clearHistory(context);
+            clearEnglishHistory(context);
           },
           child: const Icon(Icons.delete),
         ),
@@ -96,12 +94,12 @@ class HistoryScreen extends StatelessWidget {
     );
   }
 
-  Future<List<String>> loadHistory() async {
+  Future<List<String>> loadEnglishHistory() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    List<String> history = prefs.getStringList('history') ?? [];
+    List<String> englishhistory = prefs.getStringList('english history') ?? [];
 
-    // Reverse the order of the history list
-    return history.reversed.toList();
+    // Reverse the order of the english history list
+    return englishhistory.reversed.toList();
   }
 
   void navigateToScreen(BuildContext context, String word) {

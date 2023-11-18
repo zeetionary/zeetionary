@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: aisle (= Derived forms: aisles)
+- Noun: aisle (Derived forms: aisles)
 1. A long narrow passage (as in a cave or woods)
  
 2. Passageway between seating areas as in an auditorium or passenger vehicle or between areas of shelves of goods as in stores (= gangway [Brit])

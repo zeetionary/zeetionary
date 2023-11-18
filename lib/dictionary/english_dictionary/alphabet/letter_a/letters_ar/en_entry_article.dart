@@ -556,7 +556,7 @@ class EnglishMeaning extends StatelessWidget {
  
 5. A tangible and visible entity; an entity that can cast a shadow (= object, physical object)
 
-- Verb: article (= Derived forms: articles, articled, articling)
+- Verb: article (Derived forms: articles, articled, articling)
 1. Bind by a contract; especially for a training period
 """),
         ],

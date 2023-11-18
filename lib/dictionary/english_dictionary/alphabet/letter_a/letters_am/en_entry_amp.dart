@@ -304,7 +304,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: amp (= Derived forms: amps)
+- Noun: amp (Derived forms: amps)
 1. The basic unit of electric current adopted under the Système International d'Unités. (= ampere, A) 
 "a typical household circuit carries 15 to 50 amps";
  

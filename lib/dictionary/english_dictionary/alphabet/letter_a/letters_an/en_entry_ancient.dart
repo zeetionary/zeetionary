@@ -484,7 +484,7 @@ class EnglishMeaning extends StatelessWidget {
 2. Very old
 "an ancient mariner"
 
-- Noun: ancient (= Derived forms: ancients)
+- Noun: ancient (Derived forms: ancients)
 1. A very old person (= antediluvian)
  
 2. A person who lived in ancient times

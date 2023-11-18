@@ -186,7 +186,7 @@ class EnglishEntryabsorption extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڤیتامین دی پێویستە بۆ یارمەتیی ھەڵمژینی کالسیۆم لە خۆراکەوە.",
+                                    "ڤیتامین D پێویستە بۆ یارمەتیی ھەڵمژینی کالسیۆم لە خۆراکەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

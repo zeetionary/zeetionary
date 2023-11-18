@@ -4,64 +4,93 @@ import 'package:zeetionary/constants.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:zeetionary/theme/pallete.dart';
 
-// replace these: replace EnglishEntryalight - replace speakAlight - replace alight - /əˈlaɪt/ - find Dopsum2
+// More sentences is NOT done
+
+// Define the word "aspire" and provide three example sentences for each meaning. Use Merriam Webster style.
+
+// replace EnglishEntryaspire - replace speakAspire
+
+// replace aspire - /əˈspaɪə(r)/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryalight extends StatelessWidget {
-  EnglishEntryalight({super.key});
+class EnglishEntryaspire extends StatelessWidget {
+  // blank divider
+  EnglishEntryaspire({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAlight(String languageCode) async {
-    // DOPSUM: CHANGE speakAlight
+  Future<void> speakAspire(String languageCode) async {
+    // DOPSUM: CHANGE speakAspire
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("alight"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("aspire"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAlight3996(String languageCode) async {
-    // DOPSUM: CHANGE speakAlight
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("A car was overturned and set alight."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAlight46555(String languageCode) async {
-    // DOPSUM: CHANGE speakAlight
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The children’s faces were alight with enthusiasm."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAlight35244(String languageCode) async {
-    // DOPSUM: CHANGE speakAlight
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Several birds alighted on the branches of the tree."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAlight32852(String languageCode) async {
-    // DOPSUM: CHANGE speakAlight
+  Future<void> speakAspire700(String languageCode) async {
+    // DOPSUM: CHANGE speakAspire
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Do not alight from a moving bus."); // DOPSUM: CHANGE TEXT
+        .speak("She aspired to a scientific career."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAlight(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlight
+  // Future<void> speakAspire(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAspire
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("alight"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("aspire"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAspire(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAspire
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("aspire"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAspire(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAspire
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("aspire"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAspire(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAspire
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("aspire"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAspire(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAspire
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("aspire"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAspire(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAspire
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("aspire"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAspire(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAspire
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("aspire"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -84,10 +113,12 @@ class EnglishEntryalight extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            Text(
-                              "alight", // DOPSUM: CHANGE WORD ENTRY - Find /əˈlaɪt/
-                              style: TextStyle(
-                                  fontSize: 20, fontWeight: FontWeight.bold),
+                            Expanded(
+                              child: Text(
+                                "aspire", // DOPSUM: CHANGE WORD ENTRY - Find /əˈspaɪə(r)/
+                                style: TextStyle(
+                                    fontSize: 20, fontWeight: FontWeight.bold),
+                              ),
                             ),
                             // SizedBox(
                             //   width: 10,
@@ -100,9 +131,12 @@ class EnglishEntryalight extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUK: /əˈlaɪt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
-                              style: TextStyle(fontSize: 14),
+                            Container(
+                              constraints: const BoxConstraints(maxWidth: 300),
+                              child: const Text(
+                                "IpaUK: /əˈspaɪə(r)/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                style: TextStyle(fontSize: 14),
+                              ),
                             ),
                             IconButton(
                               iconSize: 16,
@@ -111,16 +145,19 @@ class EnglishEntryalight extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAlight(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAspire(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const Text(
-                              "IpaUS: /əˈlaɪt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
-                              style: TextStyle(fontSize: 14),
+                            Container(
+                              constraints: const BoxConstraints(maxWidth: 300),
+                              child: const Text(
+                                "IpaUS: /əˈspaɪər/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                style: TextStyle(fontSize: 14),
+                              ),
                             ),
                             IconButton(
                               iconSize: 16,
@@ -128,7 +165,7 @@ class EnglishEntryalight extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAlight(
+                              onPressed: () => speakAspire(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -143,21 +180,21 @@ class EnglishEntryalight extends StatelessWidget {
                 tabs: const [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(), // FIND: 2,
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
+                  VideoIconForTab(), // 01
+                  VideoIconForTab(), // 02
+                  VideoIconForTab(), // 03
+                  VideoIconForTab(), // 04
+                  VideoIconForTab(), // 05
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12,
+                  VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
+                  VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 13
+                  // VideoIconForTab(), // 14
+                  // VideoIconForTab(), // 15
                 ],
                 indicator: BoxDecoration(
                   color: Pallete.tabsbackgroundColor,
@@ -177,10 +214,10 @@ class EnglishEntryalight extends StatelessWidget {
                         children: [
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-کوردی: داگیرساو، گڕگرتوو، ھەڵبوو، بریقەدار، درەوشاوە، ڕووناک، خۆشحاڵ، بەکەیف، شاد
+                            """
+کوردی: ئارزوو هەبوون، هیوا خواستن، هەبوونی هەستی بەرزە فڕی
 
-١. (ھاوەڵناو) ئاگرگرتوو''',
+١. (کردار) ئاوات‌خواستن بە شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -191,7 +228,7 @@ class EnglishEntryalight extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "A car was overturned and set alight.",
+                                    "She aspired to a scientific career.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -206,7 +243,7 @@ class EnglishEntryalight extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئۆتۆمبێلێک وەرگەڕا و ئاگری گرت.",
+                                    "ئاواتی هەبوو کارێکی زانستی هەبێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -219,7 +256,7 @@ class EnglishEntryalight extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAlight3996("en-GB"),
+                                onPressed: () => speakAspire700("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -228,129 +265,17 @@ class EnglishEntryalight extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAlight3996(// REPLACE: alight /əˈlaɪt/
+                                    speakAspire700(// REPLACE: aspire /əˈspaɪər/
                                         "en-US"),
                               ),
                             ],
                           ),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٢. (کردار) نیشتنەوە لەسەر شتێک لەدوای فڕین بۆی''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Several birds alighted on the branches of the tree.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ژمارەیەک باڵندە لەسەر لقەکانی دارەکە نیشتنەوە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAlight35244("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAlight35244(// REPLACE: alight /əˈlaɪt/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '''
-٣. (کردار) دابەزین لە پاسێک یان شەمەندەفەرێک، یان ئامێرێکی دیکەی گواستنەوە''',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Do not alight from a moving bus.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "لە پاسێک دامەبەزە کە ھێشتا لە جووڵە دایە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAlight32852("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAlight32852(// REPLACE: alight /əˈlaɪt/
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
+                          // const DividerSentences(),
+                          // const DividerDefinition(),
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
+                    YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
                     YoutubeEmbeddedtwo(),
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
@@ -390,17 +315,11 @@ class EnglishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
-          Text('''
-- Adjective: alight 
-1. Flaming as it burns (= ablaze, afire [literary], aflame, aflare [rare], on fire, burning, in flames)
-"forests set alight by lightning"; "candles alight on the tables";
-
-- Verb: alight (Derived forms: alit, alighted, alighting, alights)
-1. To come to rest, settle (= light, perch)
- 
-2. Come down (= climb down)
-"the birds alighted";
-'''),
+          Text("""
+- Verb: aspire (Derived forms: aspired, aspires, aspiring)
+1. Have an ambitious plan or a lofty goal (= draw a bead on, aim, shoot for)
+"The students in medical schools aspire to be doctors";
+"""),
         ],
       ),
     );
@@ -410,16 +329,17 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = '3N-ockGdnvk';
+  static String myVideoId = "8sQDCdiuX9U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 714, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 358, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -434,16 +354,17 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = 'hxyav3AgFUo';
+  static String myVideoId = "dT5ALH3ICTc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 418, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 395, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -458,16 +379,17 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = 'vS7hMricwm0';
+  static String myVideoId = "u1FGxb2YlnY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 753, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 540, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -482,16 +404,17 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = '3mugPH2_qRo';
+  static String myVideoId = "SOq05_6w0ig";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 1040, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 1423, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -506,16 +429,17 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = '9y62mZn0LXQ';
+  static String myVideoId = "VNwkZ8kY7Uk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 441, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 325, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -530,16 +454,17 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = '4mjvZrLnlCg0';
+  static String myVideoId = "K0j2dlBMzUs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 1782, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 48, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -554,16 +479,17 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = 'E-T3CR_P6_E';
+  static String myVideoId = "dPicox3QWC0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 714, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 369, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -578,16 +504,17 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = 'KjX_pqmqvoc';
+  static String myVideoId = "jwZBl6KQojM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 1754, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 64, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -602,16 +529,17 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = 'jD1oF9-oQdE';
+  static String myVideoId = "MSfjCG4V2GM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 437, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 88, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -626,16 +554,17 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = 'ymZ-MvJ-t5U';
+  static String myVideoId = "kS6YJJfBYag";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      autoPlay: true, enableCaption: true,
+      startAt: 1659, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
       loop: true,
       mute: false,
-      startAt: 4715, // DOPSUM: CHANGE IT
-      // endAt: 253, // DOPSUM: CHANGE IT
     ),
   );
 
@@ -648,3 +577,116 @@ class YoutubeEmbeddedten extends StatelessWidget {
     );
   }
 }
+
+class YoutubeEmbeddedeleven extends StatelessWidget {
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  YoutubeEmbeddedeleven({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+class YoutubeEmbeddedtwelve extends StatelessWidget {
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  YoutubeEmbeddedtwelve({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: YouTubeContainerDesign(controller: _controller),
+    );
+  }
+}
+
+// morethan one video, only first autoplay
+
+// class YoutubeEmbeddedthirteen extends StatelessWidget {
+//   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+//   static String myVideoIdTwo = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+//   static String myVideoIdThree = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+//   final YoutubePlayerController _controller = YoutubePlayerController(
+//     initialVideoId: myVideoId,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: true,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   final YoutubePlayerController _controllertwo = YoutubePlayerController(
+//     initialVideoId: myVideoIdTwo,
+//     flags: const YoutubePlayerFlags(
+      // autoPlay: false,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   final YoutubePlayerController _controllerthree = YoutubePlayerController(
+//     initialVideoId: myVideoIdThree,
+//     flags: const YoutubePlayerFlags(
+//       autoPlay: false,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//     ),
+//   );
+
+//   YoutubeEmbeddedthirteen({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       body: SingleChildScrollView(
+//         child: Column(
+//           children: [
+//             YouTubeContainerDesign(controller: _controller),
+//             YouTubeContainerDesign(controller: _controllertwo),
+//             YouTubeContainerDesign(controller: _controllerthree),
+//           ],
+//         ),
+//       ),
+//     );
+//   }
+// }
+
+// end // TODO Implement this library.

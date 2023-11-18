@@ -367,7 +367,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: amplitude (= Derived forms: amplitudes)
+- Noun: amplitude (Derived forms: amplitudes)
 1. (physics) the maximum displacement of a periodic wave
  
 2. The property of copious abundance (= bountifulness, bounty)

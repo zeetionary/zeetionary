@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class DictionaryScreenKurdish extends StatefulWidget {
   const DictionaryScreenKurdish({super.key});
@@ -12,8 +13,8 @@ class DictionaryScreenKurdish extends StatefulWidget {
 class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   final List<String> allwordsKurdish = [
-    "کوردی.",
-    "کوردستان.",
+    "کوردی",
+    "کوردستان",
   ];
 
   List<String> filteredWords = [];
@@ -76,17 +77,21 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
               child: KurdishDictionary(
                 words: filteredWords,
                 onTapWord: (wordsKurdish) {
-                  if (wordsKurdish == "کوردی.") {
+                  if (wordsKurdish == "کوردی") {
+                    saveToHistory(wordsKurdish);
                     Routemaster.of(context).push('/english-aback');
                   }
-                  if (wordsKurdish == "کوردستان.") {
+                  if (wordsKurdish == "کوردستان") {
+                    saveToHistory(wordsKurdish);
                     Routemaster.of(context).push('/english-abacus');
                   }
                   // if (wordsKurdish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
+                    saveToHistory(wordsKurdish);
+                  //   Routemaster.of(context).push('/kurdish-DOPSUM');
                   // }
                   // if (wordsKurdish == "DOPSUM") {
-                  //   Routemaster.of(context).push('/english-DOPSUM');
+                    saveToHistory(wordsKurdish);
+                  //   Routemaster.of(context).push('/kurdish-DOPSUM');
                   // }
                 },
               ),
@@ -96,6 +101,18 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
       ),
     );
   }
+
+  void saveToHistory(String word) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    List<String> kurdishhistory = prefs.getStringList("kurdish history") ?? [];
+
+    if (!kurdishhistory.contains(word)) {
+      kurdishhistory.add(word);
+      await prefs.setStringList("kurdish history", kurdishhistory);
+    }
+  }
+
+  // https://chat.openai.com/c/1b6a5ca9-fbb4-4eb2-8a47-8df7b4085fdc
 
   @override
   void dispose() {

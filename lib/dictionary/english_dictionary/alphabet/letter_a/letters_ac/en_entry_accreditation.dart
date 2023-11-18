@@ -237,8 +237,8 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: accreditation 
-1. The act of granting credit or recognition (especially with respect to an educational institution that maintains suitable standards) (= Derived forms: accreditations)
+- Noun: accreditation (rived forms: accreditations)
+1. The act of granting credit or recognition (especially with respect to an educational institution that maintains suitable standards) 
 "a commission is responsible for the accreditation of medical schools"
 '''),
         ],

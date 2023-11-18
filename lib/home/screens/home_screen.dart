@@ -7,7 +7,7 @@ import 'package:zeetionary/dictionary/english_dictionary/english_dictionary.dart
 import 'package:zeetionary/dictionary/kurdish_dictionary/kurdish_dictionary.dart';
 import 'package:zeetionary/grammar/grammar_screen.dart';
 import 'package:zeetionary/home/drawers/community_list_drawer.dart';
-import 'package:zeetionary/home/screens/history_screen.dart';
+import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
 import 'package:zeetionary/questions/question_screen.dart';
 import 'package:zeetionary/quiz/quiz_screen.dart';
 import 'package:zeetionary/theme/pallete.dart';

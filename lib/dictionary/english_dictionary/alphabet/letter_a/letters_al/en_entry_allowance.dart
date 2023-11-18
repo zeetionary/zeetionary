@@ -319,7 +319,7 @@ class EnglishEntryallowance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێژەی پێشنیازکراوی ڕۆژانەی ڤیتامین سی ٦٠-٩٠ میلیگرامە.",
+                                    "ڕێژەی پێشنیازکراوی ڕۆژانەی ڤیتامین C ٦٠-٩٠ میلیگرامە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

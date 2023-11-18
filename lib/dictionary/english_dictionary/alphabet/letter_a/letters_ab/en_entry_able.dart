@@ -177,7 +177,7 @@ class EnglishEntryable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ ئەم کارە دەبێت بتوانی بە فەڕەنسی قسەبکەیت.",
+                                    "بۆ ئەم کارە دەبێت بتوانی بە فەرەنسی قسەبکەیت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

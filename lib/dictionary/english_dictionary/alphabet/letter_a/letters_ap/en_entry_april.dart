@@ -365,7 +365,7 @@ class EnglishMeaning extends StatelessWidget {
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
 - Noun: April  
-1. The month following March and preceding May (= Derived forms: Aprils)
+1. The month following March and preceding May (Derived forms: Aprils)
 - Apr
 """),
         ],

@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: ampersand (= Derived forms: ampersands)
+- Noun: ampersand (Derived forms: ampersands)
 1. A punctuation mark (&amp;) used to represent conjunction (and)
 '''),
         ],

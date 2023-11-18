@@ -258,7 +258,7 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەمێک بەخت خراپ نابێت ئێستا",
+                                    "کەمێک بەخت خراپ نابێت ئێستا!",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

@@ -256,7 +256,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: air hostess (= Derived forms: air hostesses)
+- Noun: air hostess (Derived forms: air hostesses)
 Usage: Brit
 1. A woman steward on an aeroplane (= stewardess, hostess)
 '''),

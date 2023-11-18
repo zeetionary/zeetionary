@@ -369,7 +369,7 @@ class EnglishEntryamateur extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم ئیشە لەلایەن ژمارەیەک تازە کارەوە ئەنجام دراوە.",
+                                    "ئەم ئیشە لەلایەن ژمارەیەک تازە کارەوە ئەنجام دراوە!",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

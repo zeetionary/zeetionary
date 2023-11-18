@@ -184,7 +184,7 @@ class EnglishEntryadolescent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وازبێنە لە ڕەفتارکردن وەک ھەرزەکارێک.",
+                                    "وازبێنە لە ڕەفتارکردن وەک ھەرزەکارێک!",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

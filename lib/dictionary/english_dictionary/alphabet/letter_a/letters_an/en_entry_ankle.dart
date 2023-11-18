@@ -359,7 +359,7 @@ class EnglishMeaning extends StatelessWidget {
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
 Noun: ankle (Derived forms: ankles)
-1. The joint connecting the foot with the leg (= Derived forms: ankling, ankles, ankled)
+1. The joint connecting the foot with the leg (Derived forms: ankling, ankles, ankled)
 
 Verb: ankle (Derived forms: ankling, ankles, ankled)
 Usage: N. Amer, informal

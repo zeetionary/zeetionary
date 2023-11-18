@@ -183,7 +183,7 @@ class EnglishEntryadorable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چی منداڵێکی ژیکەڵەیە.",
+                                    "چی منداڵێکی ژیکەڵەیە!",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

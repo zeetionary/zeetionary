@@ -429,7 +429,7 @@ class EnglishEntryair extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەست ڕاوەشێنە لە ھەوادا.",
+                                    "دەست ڕاوەشێنە لە ھەوادا!",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

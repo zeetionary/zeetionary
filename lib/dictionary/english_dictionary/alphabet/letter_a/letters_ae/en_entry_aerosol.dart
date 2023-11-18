@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: aerosol  (= Derived forms: aerosols)
+- Noun: aerosol  (Derived forms: aerosols)
 1. A cloud of solid or liquid particles in a gas
  
 2. A dispenser that holds a substance under pressure and that can release it as a fine spray (usually by means of a propellant gas) (= aerosol container, aerosol can, aerosol bomb, spray can)

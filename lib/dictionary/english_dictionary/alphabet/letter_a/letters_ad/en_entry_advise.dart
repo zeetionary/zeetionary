@@ -355,7 +355,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: advise (= Derived forms: advised, advising, advises)
+- Verb: advise (Derived forms: advised, advising, advises)
 1. Give advice to (= rede [archaic], counsel)
 "The teacher advises troubled students";
  

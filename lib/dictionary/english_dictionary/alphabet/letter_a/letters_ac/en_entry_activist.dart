@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
 - Adjective: activist 
 1. Advocating or engaged in activism (= activistic)
 
-- Noun: activist (= Derived forms: activists)
+- Noun: activist (Derived forms: activists)
 1. A militant reformer (= militant)
  
 2. Someone who is politically active, esp. for a political party

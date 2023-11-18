@@ -404,7 +404,7 @@ class EnglishEntryan extends StatelessWidget {
                                   child: Align(
                                     alignment: Alignment.topLeft,
                                     child: Text(
-                                      "زانیارییەکی نایاب لە زمانی فەڕەنسی.",
+                                      "زانیارییەکی نایاب لە زمانی فەرەنسی.",
                                       textAlign: TextAlign
                                           .right, // Right-to-left direction
                                       textDirection: TextDirection.rtl,

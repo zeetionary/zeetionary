@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: air marshal (= Derived forms: air marshals)
+- Noun: air marshal (Derived forms: air marshals)
 1. A person trained by the government in hijacking and terrorist tactics who (for security reasons) is a passenger aboard an airline flight (= sky marshal)
 '''),
         ],

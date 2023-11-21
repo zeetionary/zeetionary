@@ -33,7 +33,8 @@ class EnglishEntryassembly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Power has been handed over to provincial and regional assemblies."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Power has been handed over to provincial and regional assemblies."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAssembly943(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntryassembly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("There is a whole school assembly every Friday morning."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There is a whole school assembly every Friday morning."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAssembly946(String languageCode) async {
@@ -49,7 +51,8 @@ class EnglishEntryassembly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He was to address a public assembly on the issue."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He was to address a public assembly on the issue."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAssembly950(String languageCode) async {
@@ -57,7 +60,8 @@ class EnglishEntryassembly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The deputy head was taking (= leading) school assembly that day."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The deputy head was taking (= leading) school assembly that day."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAssembly952(String languageCode) async {
@@ -65,7 +69,8 @@ class EnglishEntryassembly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Putting the bookcase together should be a simple assembly job."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Putting the bookcase together should be a simple assembly job."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAssembly(String languageCode) async {
@@ -263,9 +268,9 @@ class EnglishEntryassembly extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAssembly940(// REPLACE: assembly /əˈsembli/
-                                        "en-US"),
+                                onPressed: () => speakAssembly940(
+                                    // REPLACE: assembly /əˈsembli/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -313,9 +318,9 @@ class EnglishEntryassembly extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAssembly943(// REPLACE: assembly /əˈsembli/
-                                        "en-US"),
+                                onPressed: () => speakAssembly943(
+                                    // REPLACE: assembly /əˈsembli/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -371,9 +376,9 @@ class EnglishEntryassembly extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAssembly946(// REPLACE: assembly /əˈsembli/
-                                        "en-US"),
+                                onPressed: () => speakAssembly946(
+                                    // REPLACE: assembly /əˈsembli/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -429,9 +434,9 @@ class EnglishEntryassembly extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAssembly950(// REPLACE: assembly /əˈsembli/
-                                        "en-US"),
+                                onPressed: () => speakAssembly950(
+                                    // REPLACE: assembly /əˈsembli/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -487,9 +492,9 @@ class EnglishEntryassembly extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAssembly952(// REPLACE: assembly /əˈsembli/
-                                        "en-US"),
+                                onPressed: () => speakAssembly952(
+                                    // REPLACE: assembly /əˈsembli/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -564,7 +569,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/VrKW58MS12g?t=";
+  static String myVideoId = "VrKW58MS12g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -589,7 +594,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/Cqbleas1mmo?t=";
+  static String myVideoId = "Cqbleas1mmo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -614,7 +619,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/7EnWiGYT1g4?t=";
+  static String myVideoId = "7EnWiGYT1g4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -639,7 +644,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/kTaYet07Ioo?t=";
+  static String myVideoId = "kTaYet07Ioo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -664,7 +669,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/b1reY72ktEc?t=";
+  static String myVideoId = "b1reY72ktEc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -689,7 +694,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/q7JDYiLz9Mo?t=";
+  static String myVideoId = "q7JDYiLz9Mo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -714,7 +719,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/KbNRvWfndjA?t=";
+  static String myVideoId = "KbNRvWfndjA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -739,7 +744,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/C_7tn_oGHI0?t=";
+  static String myVideoId = "C_7tn_oGHI0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -764,7 +769,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/T1W4KLi0ClU?t=";
+  static String myVideoId = "T1W4KLi0ClU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -789,7 +794,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/DvDwlyGthtY?t=";
+  static String myVideoId = "DvDwlyGthtY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -814,7 +819,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/9zX2BQFZ_BI?t=";
+  static String myVideoId = "9zX2BQFZ_BI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -839,7 +844,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/vojsscI61Sk?t=";
+  static String myVideoId = "vojsscI61Sk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

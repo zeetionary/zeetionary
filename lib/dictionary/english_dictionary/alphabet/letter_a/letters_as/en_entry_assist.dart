@@ -6,93 +6,93 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "assemble" and provide three example sentences for each meaning. Use Merriam Webster style.
+// Define the word "assist" and provide three example sentences for each meaning. Use Merriam Webster style.
 
-// replace EnglishEntryassemble - replace speakAssemble
+// replace EnglishEntryassist - replace speakAssist
 
-// replace assemble - /əˈsembl/ - find WORD_WEB
+// replace assist - /əˈsɪst/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryassemble extends StatelessWidget {
+class EnglishEntryassist extends StatelessWidget {
   // blank divider
-  EnglishEntryassemble({super.key});
+  EnglishEntryassist({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAssemble(String languageCode) async {
-    // DOPSUM: CHANGE speakAssemble
+  Future<void> speakAssist(String languageCode) async {
+    // DOPSUM: CHANGE speakAssist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("assemble"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("assist"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssemble925(String languageCode) async {
-    // DOPSUM: CHANGE speakAssemble
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "All the students were asked to assemble in the main hall."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAssemble926(String languageCode) async {
-    // DOPSUM: CHANGE speakAssemble
+  Future<void> speakAssist848(String languageCode) async {
+    // DOPSUM: CHANGE speakAssist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She then addressed the assembled company."); // DOPSUM: CHANGE TEXT
+        "We are looking for people who would be willing to assist in the group's work."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAssemble929(String languageCode) async {
-    // DOPSUM: CHANGE speakAssemble
+  Future<void> speakAssist849(String languageCode) async {
+    // DOPSUM: CHANGE speakAssist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I spent an hour assembling the furniture."); // DOPSUM: CHANGE TEXT
+        "His task is to advise and assist his colleagues."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAssemble(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAssemble
+  Future<void> speakAssist852(String languageCode) async {
+    // DOPSUM: CHANGE speakAssist
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Volcanic eruptions like this probably assisted the development of life on this planet."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAssist(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAssist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assemble"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssemble(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAssemble
+  // Future<void> speakAssist(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAssist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assemble"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssemble(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAssemble
+  // Future<void> speakAssist(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAssist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assemble"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssemble(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAssemble
+  // Future<void> speakAssist(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAssist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assemble"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assist"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAssemble(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAssemble
+  // Future<void> speakAssist(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAssist
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("assemble"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("assist"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -117,7 +117,7 @@ class EnglishEntryassemble extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "assemble", // DOPSUM: CHANGE WORD ENTRY - Find /əˈsembl/
+                                "assist", // DOPSUM: CHANGE WORD ENTRY - Find /əˈsɪst/
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -136,7 +136,7 @@ class EnglishEntryassemble extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˈsembl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əˈsɪst/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -147,7 +147,7 @@ class EnglishEntryassemble extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAssemble(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAssist(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -157,7 +157,7 @@ class EnglishEntryassemble extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˈsembl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /əˈsɪst/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -167,7 +167,7 @@ class EnglishEntryassemble extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAssemble(
+                              onPressed: () => speakAssist(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -217,9 +217,9 @@ class EnglishEntryassemble extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: دابین کردن، ئاخنین، کۆبوون
+کوردی: هاوکاری، یارمەتی دان، هاریکاری کردن
 
-١. (کردار) کۆکردنەوە یان کۆبوونەوە""",
+١. (کردار) یارمەتی‌دان""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -230,7 +230,7 @@ class EnglishEntryassemble extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "All the students were asked to assemble in the main hall.",
+                                    "We are looking for people who would be willing to assist in the group's work.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -245,7 +245,7 @@ class EnglishEntryassemble extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەموو خوێندکاران داوایان لێ‌کرا لە هۆڵە سەرەکییەکە کۆببنەوە.",
+                                    "بۆ کەسانێک دەگەڕێین کە ئامادەبن یارمەتیدەربن لە کاری گرووپەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -258,7 +258,7 @@ class EnglishEntryassemble extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAssemble925("en-GB"),
+                                onPressed: () => speakAssist848("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -266,9 +266,9 @@ class EnglishEntryassemble extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAssemble925(
-                                    // REPLACE: assemble /əˈsembl/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAssist848(// REPLACE: assist /əˈsɪst/
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -280,7 +280,7 @@ class EnglishEntryassemble extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "She then addressed the assembled company (= all the people there).",
+                                    "His task is to advise and assist his colleagues.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -295,7 +295,7 @@ class EnglishEntryassemble extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دواتر قسەی بۆ تەواوی کۆمپانیاکە کرد.",
+                                    "ئەرکەکەی ئەوەیە ڕاوێژ بدات بە هاوکارەکانی و یارمەتییان بدات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -308,7 +308,7 @@ class EnglishEntryassemble extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAssemble926("en-GB"),
+                                onPressed: () => speakAssist849("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -316,9 +316,9 @@ class EnglishEntryassemble extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAssemble926(
-                                    // REPLACE: assemble /əˈsembl/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAssist849(// REPLACE: assist /əˈsɪst/
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -327,7 +327,7 @@ class EnglishEntryassemble extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (کردار) کۆکردنەوە یان کۆبوونەوە""",
+٢. (کردار) یارمەتیدان بۆ ڕوودانی شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -338,7 +338,7 @@ class EnglishEntryassemble extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "I spent an hour assembling the furniture.",
+                                    "Volcanic eruptions like this probably assisted the development of life on this planet.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -353,7 +353,7 @@ class EnglishEntryassemble extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "یەک کاتژمێرم بەسەربرد بە پێکەوەنانی کەلوپەلەکان.",
+                                    "تەقینەوەی گڕکانی وەک ئەمە ئەگەری هەیە یارمەتیدەر بووبن لە گەشەی ژیان لەسەر زەوی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -366,7 +366,7 @@ class EnglishEntryassemble extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAssemble929("en-GB"),
+                                onPressed: () => speakAssist852("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -374,9 +374,9 @@ class EnglishEntryassemble extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAssemble929(
-                                    // REPLACE: assemble /əˈsembl/
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAssist852(// REPLACE: assist /əˈsɪst/
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -426,15 +426,19 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: assemble (= Derived forms: assembling, assembles, assembled)
-1. Create by putting components or members together (= piece, put together, set up, tack, tack together)
-"She assembled a quilt";
-
-2. (of people) collect in one place (= meet, gather, forgather, foregather)
-"We assembled in the church basement";
+- Verb: assist (Derived forms: assists, assisting, assisted)
+1. Give assistance; be of service (= help, aid)
  
-3. Get people together (= gather, get together)
-"assemble your colleagues";
+2. Act as an assistant in a subordinate or supportive function
+ 
+3. Work for, or be a servant to (= serve, attend to, wait on, attend)
+"Is a salesperson assisting you?";
+
+- Noun: assist 
+1. The activity of contributing to the fulfilment of a need or furtherance of an effort or purpose (= aid, assistance, help)
+"he gave me an assist with the housework";
+ 
+2. (sport) the act of enabling another player to make a good play
 """),
         ],
       ),
@@ -445,12 +449,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "O4iGNXsqghs";
+  static String myVideoId = "y1sF6ZeASU0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 400, // DOPSUM: CHANGE IT
+      startAt: 459, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -470,12 +474,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "h0IPcqF2q9U";
+  static String myVideoId = "qg2nGY1aqlg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 947, // DOPSUM: CHANGE IT
+      startAt: 769, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -495,12 +499,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "a9m3GD0DbPY";
+  static String myVideoId = "Mhlpk5ZrYLM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 171, // DOPSUM: CHANGE IT
+      startAt: 591, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -520,12 +524,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "7EnWiGYT1g4";
+  static String myVideoId = "OP7l1n_8Lh4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 244, // DOPSUM: CHANGE IT
+      startAt: 492, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -545,12 +549,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "5qMvXTnP0qo";
+  static String myVideoId = "dHPTR96Sc1g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 393, // DOPSUM: CHANGE IT
+      startAt: 595, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -570,12 +574,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "-BeTq99LqUo";
+  static String myVideoId = "xoYS_j7uEAk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 93, // DOPSUM: CHANGE IT
+      startAt: 1111, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -595,12 +599,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "ImoP-Apzrsg";
+  static String myVideoId = "DER7bCtHLLM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 411, // DOPSUM: CHANGE IT
+      startAt: 166, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -620,12 +624,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "6ta_sftSfIw";
+  static String myVideoId = "ugYPoWShl6k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 159, // DOPSUM: CHANGE IT
+      startAt: 1416, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -645,12 +649,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "PsY8XDHnzCU";
+  static String myVideoId = "62EGPCEmeh4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 678, // DOPSUM: CHANGE IT
+      startAt: 875, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -670,12 +674,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "iCMGPRiDXQg";
+  static String myVideoId = "J0mZYeb4C8k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 151, // DOPSUM: CHANGE IT
+      startAt: 748, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -695,12 +699,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "PEmZQIZZNDQ";
+  static String myVideoId = "sth0GSJdzFY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 298, // DOPSUM: CHANGE IT
+      startAt: 571, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -720,12 +724,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "FQ3Z-8MCuxs";
+  static String myVideoId = "caVoqAfdkYQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 499, // DOPSUM: CHANGE IT
+      startAt: 339, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

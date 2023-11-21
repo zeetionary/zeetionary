@@ -33,7 +33,8 @@ class EnglishEntryassertion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He was correct in his assertion that the minister had been lying."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He was correct in his assertion that the minister had been lying."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAssertion1046(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntryassertion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Do you have any evidence to support your assertions?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Do you have any evidence to support your assertions?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAssertion1051(String languageCode) async {
@@ -49,7 +51,8 @@ class EnglishEntryassertion extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The demonstration was an assertion of the right to peaceful protest."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The demonstration was an assertion of the right to peaceful protest."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAssertion(String languageCode) async {
@@ -143,9 +146,9 @@ class EnglishEntryassertion extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAssertion(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAssertion(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -263,9 +266,9 @@ class EnglishEntryassertion extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAssertion1045(// REPLACE: assertion /əˈsɜːrʃn/
-                                        "en-US"),
+                                onPressed: () => speakAssertion1045(
+                                    // REPLACE: assertion /əˈsɜːrʃn/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -313,14 +316,15 @@ class EnglishEntryassertion extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAssertion1046(// REPLACE: assertion /əˈsɜːrʃn/
-                                        "en-US"),
+                                onPressed: () => speakAssertion1046(
+                                    // REPLACE: assertion /əˈsɜːrʃn/
+                                    "en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
-                          const DividerDefinition(),const Text(
+                          const DividerDefinition(),
+                          const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
 ٢. (ناو) کرداری وتن، بانگەشەکردن، یان بەکارهێنانی بۆ شتێک بە تەواوەتی""",
@@ -370,9 +374,9 @@ class EnglishEntryassertion extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAssertion1051(// REPLACE: assertion /əˈsɜːrʃn/
-                                        "en-US"),
+                                onPressed: () => speakAssertion1051(
+                                    // REPLACE: assertion /əˈsɜːrʃn/
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -436,7 +440,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/S7tab68FNI4?t=";
+  static String myVideoId = "S7tab68FNI4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -461,7 +465,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/7950IuJ0RHg?t=";
+  static String myVideoId = "7950IuJ0RHg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -486,7 +490,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/u432T_cDgQs?t=";
+  static String myVideoId = "u432T_cDgQs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -511,7 +515,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/S4qvPouh1gE?t=";
+  static String myVideoId = "S4qvPouh1gE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -536,7 +540,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/bcdEFos9YQQ?t=";
+  static String myVideoId = "bcdEFos9YQQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -561,7 +565,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/spr5smxuO5E?t=";
+  static String myVideoId = "spr5smxuO5E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -586,7 +590,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/zwZY-PknSQw?t=";
+  static String myVideoId = "zwZY-PknSQw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -611,7 +615,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/Gfj5f0GVLZ0?t=";
+  static String myVideoId = "Gfj5f0GVLZ0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -636,7 +640,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/O4ciwjHVHYg?t=";
+  static String myVideoId = "O4ciwjHVHYg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -661,7 +665,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/Cj4fEqDZib0?t=";
+  static String myVideoId = "Cj4fEqDZib0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -686,7 +690,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/HopEHvZY-08?t=";
+  static String myVideoId = "HopEHvZY-08";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -711,7 +715,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/Solb9uA-tgQ?t=";
+  static String myVideoId = "Solb9uA-tgQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

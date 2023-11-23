@@ -215,7 +215,7 @@ class EnglishEntryleadastray extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ئیدیەم) وا لە کەسێک بکەیت کاری هەڵە بکات""",
+١. (ئیدیەم) وا لە کەسێک بکەیت کاری ھەڵە بکات""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

@@ -216,7 +216,7 @@ class EnglishEntryaspiration extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ، ئاوات، هێڤی، مەراق، ئارەزوو، هەڵمژین، بین‌کێشان، هەناسەدان 
+کوردی: ، ئاوات، ھێڤی، مەراق، ئارەزوو، ھەڵمژین، بین‌کێشان، ھەناسەدان 
 
 ١. (ناو) خواست و ئارەزوو""",
                             style: TextStyle(fontSize: 18),
@@ -244,7 +244,7 @@ class EnglishEntryaspiration extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نەمزانی‌بوو ئارەزووت بۆ سیاسەت هەبوو.",
+                                    "نەمزانی‌بوو ئارەزووت بۆ سیاسەت ھەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -279,7 +279,7 @@ class EnglishEntryaspiration extends StatelessWidget {
                               children: [
                                 TextSpan(
                                   text:
-                                      "٢. (ناو) کرداری خوێندنەوەی وشە بە هەناسەیەکەوە کە بیسراوە، بۆ نموونە دەنگی /h/ لە وشەی ",
+                                      "٢. (ناو) کرداری خوێندنەوەی وشە بە ھەناسەیەکەوە کە بیسراوە، بۆ نموونە دەنگی /h/ لە وشەی ",
                                 ),
                                 TextSpan(
                                   text: "house",
@@ -314,7 +314,7 @@ class EnglishEntryaspiration extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مامۆستاکە داوای لە خوێندکارەکانی کرد سەرنج بدەن بە ئەسپیرەیشنیان لە خوێندنەوەی هەندێک وشەی دیاریکراو.",
+                                    "مامۆستاکە داوای لە خوێندکارەکانی کرد سەرنج بدەن بە ئەسپیرەیشنیان لە خوێندنەوەی ھەندێک وشەی دیاریکراو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

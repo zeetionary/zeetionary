@@ -245,7 +245,7 @@ class EnglishEntryasleep extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وەستام تاوەکو هەموویان خەویان لێ کەوت.",
+                                    "وەستام تاوەکو ھەموویان خەویان لێ کەوت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -295,7 +295,7 @@ class EnglishEntryasleep extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هێشتا چاوی بە خەوەوە بوو کە گەشتە سەر کار.",
+                                    "ھێشتا چاوی بە خەوەوە بوو کە گەشتە سەر کار.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -327,7 +327,7 @@ class EnglishEntryasleep extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ھاوەڵناو) بەشێکی جەستە کە سڕبووە بەهۆی ئەوەی زۆر نەجووڵاوە""",
+٢. (ھاوەڵناو) بەشێکی جەستە کە سڕبووە بەھۆی ئەوەی زۆر نەجووڵاوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -353,7 +353,7 @@ class EnglishEntryasleep extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نەمتوانی ڕاستەوخۆ بجوڵێم بەهۆی ئەوەی لاقم تەواو سڕبوو بوو.",
+                                    "نەمتوانی ڕاستەوخۆ بجوڵێم بەھۆی ئەوەی لاقم تەواو سڕبوو بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

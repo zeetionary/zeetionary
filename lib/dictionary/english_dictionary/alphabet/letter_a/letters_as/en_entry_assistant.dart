@@ -217,7 +217,7 @@ class EnglishEntryassistant extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: یاریدەدەر، یارمەتی‌دەر، یاریەدەر، ئالیکار، یاوەر، بازگوڕ، هاریکار، فرۆشیار (فرۆشگا)
+کوردی: یاریدەدەر، یارمەتی‌دەر، یاریەدەر، ئالیکار، یاوەر، بازگوڕ، ھاریکار، فرۆشیار (فرۆشگا)
 
 ١. (ناو) کەسێک کە لە کارکردندا وەک یاریدەدەر کاردەکات""",
                             style: TextStyle(fontSize: 18),

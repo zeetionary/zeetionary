@@ -217,7 +217,7 @@ class EnglishEntryassassin extends StatelessWidget {
                             """
 کوردی: پیاوکوژ (پیشەیی)، بکوژ، تروریست، کوشتن‌کار، ڕەشەکوژ
 
-١. (ناو) کەسێک کە کەسێکی بەناوبانگ یان گرنگ دەکوژێت بۆ پارە یان هۆکاری سیاسی""",
+١. (ناو) کەسێک کە کەسێکی بەناوبانگ یان گرنگ دەکوژێت بۆ پارە یان ھۆکاری سیاسی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

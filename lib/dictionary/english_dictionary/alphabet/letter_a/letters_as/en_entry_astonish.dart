@@ -243,7 +243,7 @@ class EnglishEntryastonish extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەواڵەکە هەمووانی حەپەساند.",
+                                    "ھەواڵەکە ھەمووانی حەپەساند.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

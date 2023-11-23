@@ -341,7 +341,7 @@ class EnglishEntryask extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆچی هەمووان ئەوەم لێ دەپرسن؟",
+                                    "بۆچی ھەمووان ئەوەم لێ دەپرسن؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -399,7 +399,7 @@ class EnglishEntryask extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەرکەس زانیاریی هەیە داوای لێ‌کراوە پەیوەندی بە پۆلیسەوە بکات.",
+                                    "ھەرکەس زانیاریی ھەیە داوای لێ‌کراوە پەیوەندی بە پۆلیسەوە بکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -647,7 +647,7 @@ class EnglishEntryask extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٥. (کردار) بانگهێشتکردن""",
+٥. (کردار) بانگھێشتکردن""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -673,7 +673,7 @@ class EnglishEntryask extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سوپاس بۆ بانگهێشتکردنم.",
+                                    "سوپاس بۆ بانگھێشتکردنم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

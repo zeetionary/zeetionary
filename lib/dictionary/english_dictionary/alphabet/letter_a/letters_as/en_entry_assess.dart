@@ -216,9 +216,9 @@ class EnglishEntryassess extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: هەڵسەنگاندن، ناسین، تەرخان کردن، داوەری کردن
+کوردی: ھەڵسەنگاندن، ناسین، تەرخان کردن، داوەری کردن
 
-١. (کردار) هەلسەنگاندن؛ سەیرکردنی شتێک و بڕیاردان لەسەری""",
+١. (کردار) ھەلسەنگاندن؛ سەیرکردنی شتێک و بڕیاردان لەسەری""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -244,7 +244,7 @@ class EnglishEntryassess extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەدرووستی هەڵسەنگاندنی کاریگەریی ژینگەیی کارێکی زۆر ئاڵۆزە.",
+                                    "بەدرووستی ھەڵسەنگاندنی کاریگەریی ژینگەیی کارێکی زۆر ئاڵۆزە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

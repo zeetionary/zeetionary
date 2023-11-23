@@ -302,7 +302,7 @@ class EnglishEntryassent extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هیچ کەس ڕازی‌نابێت بەو مەرجانەی پێشنیاریان کرد.",
+                                    "ھیچ کەس ڕازی‌نابێت بەو مەرجانەی پێشنیاریان کرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

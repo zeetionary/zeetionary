@@ -221,7 +221,7 @@ class EnglishEntryashamed extends StatelessWidget {
                             """
 کوردی: شەرمەزار، شەرمەسار، شەرمەزار، ڕووسیابار، سەرداخستوو، خەجاڵەت‌بار، خەجاڵەتەوەبوو، بەخۆداشکاو، بە تەقەکەوتوو، تریقەوەبوو، ڕووزەرد
 
-١. (ھاوەڵناو) هەستکردن بە شەرمەزاری""",
+١. (ھاوەڵناو) ھەستکردن بە شەرمەزاری""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -247,7 +247,7 @@ class EnglishEntryashamed extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر شەرمەزاربوو بە ڕەفتاری لە ئاهەنگەکە.",
+                                    "زۆر شەرمەزاربوو بە ڕەفتاری لە ئاھەنگەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -297,7 +297,7 @@ class EnglishEntryashamed extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەبێت وازبێنین لە ترسان یان شەرمەزاربوون لە بوون بەوەی کە هەین.",
+                                    "دەبێت وازبێنین لە ترسان یان شەرمەزاربوون لە بوون بەوەی کە ھەین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -379,7 +379,7 @@ class EnglishEntryashamed extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ھاوەڵناو) نەکردنی شتێکەوە بەهۆی هەستکردن بە شەرم یان ترس""",
+٢. (ھاوەڵناو) نەکردنی شتێکەوە بەھۆی ھەستکردن بە شەرم یان ترس""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

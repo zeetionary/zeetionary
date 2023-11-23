@@ -293,7 +293,7 @@ class EnglishEntryashore extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چەند پارچە تەختەیەک هاتبوونە سەر وشکانییەکە.",
+                                    "چەند پارچە تەختەیەک ھاتبوونە سەر وشکانییەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

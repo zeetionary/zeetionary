@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: astound (Derived forms: astounded, astounding, astounds)
+- Verb: astound (derived forms: astounded, astounding, astounds)
 1. Fill with wonder or astonishment; greatly surprise (= amaze, astonish)
 "Your ability to speak six languages astounds me!";
 """),

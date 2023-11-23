@@ -215,9 +215,9 @@ class EnglishEntryasteroid extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: هەسارۆکە، وردەهەسارە
+کوردی: ھەسارۆکە، وردەھەسارە
 
-١. (ھاوەڵناو) هەسارەی بچووک کە بە دەوری خۆردا دەسووڕێنەوە""",
+١. (ھاوەڵناو) ھەسارەی بچووک کە بە دەوری خۆردا دەسووڕێنەوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -243,7 +243,7 @@ class EnglishEntryasteroid extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زاناکان چاودێری هەسارۆکەیەک دەکەن کە ئەگەری هەیە کاریگەری لە زەوی بکات.",
+                                    "زاناکان چاودێری ھەسارۆکەیەک دەکەن کە ئەگەری ھەیە کاریگەری لە زەوی بکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

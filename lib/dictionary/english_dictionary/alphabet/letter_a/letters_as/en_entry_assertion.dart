@@ -295,7 +295,7 @@ class EnglishEntryassertion extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هیچ بەڵگەت هەیە وەک پشتگیری لە وتەکانت?.",
+                                    "ھیچ بەڵگەت ھەیە وەک پشتگیری لە وتەکانت?.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -327,7 +327,7 @@ class EnglishEntryassertion extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) کرداری وتن، بانگەشەکردن، یان بەکارهێنانی بۆ شتێک بە تەواوەتی""",
+٢. (ناو) کرداری وتن، بانگەشەکردن، یان بەکارھێنانی بۆ شتێک بە تەواوەتی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -353,7 +353,7 @@ class EnglishEntryassertion extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خۆپیشاندانەکە جەختکردنەوەیەک بوو لە مافی ناڕەزایی هێمنانە.",
+                                    "خۆپیشاندانەکە جەختکردنەوەیەک بوو لە مافی ناڕەزایی ھێمنانە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

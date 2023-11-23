@@ -217,7 +217,7 @@ class EnglishEntryaskew extends StatelessWidget {
                             """
 کوردی: خواروخێچ، بەدگونیا، لارەولار، بەلایەکەوە، لابەلا، لار، گەڕاو، خوار، خێسەخێس، مۆنەمۆن
 
-١. (ھاوەڵناو و هاوەڵکار) شتێک کە ڕاست نییە""",
+١. (ھاوەڵناو و ھاوەڵکار) شتێک کە ڕاست نییە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -243,7 +243,7 @@ class EnglishEntryaskew extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چاویلکەکەی خواروخێچ بووبوو بەهۆی باکەوە.",
+                                    "چاویلکەکەی خواروخێچ بووبوو بەھۆی باکەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

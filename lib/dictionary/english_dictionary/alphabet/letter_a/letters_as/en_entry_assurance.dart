@@ -327,7 +327,7 @@ class EnglishEntryassurance extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) متمانە بە هێز و توانای خۆت""",
+٢. (ناو) متمانە بە ھێز و توانای خۆت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

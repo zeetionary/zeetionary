@@ -221,7 +221,7 @@ class EnglishEntryaspirate extends StatelessWidget {
                               children: [
                                 TextSpan(
                                   text:
-                                      "١. (ناو) دەنگێکی نەبزوێن کە بە هەناسەیەکەوە دەریدەبڕی کە بیسراوە، بۆ نموونە دەنگی /h/ لە وشەی ",
+                                      "١. (ناو) دەنگێکی نەبزوێن کە بە ھەناسەیەکەوە دەریدەبڕی کە بیسراوە، بۆ نموونە دەنگی /h/ لە وشەی ",
                                 ),
                                 TextSpan(
                                   text: "house",
@@ -288,7 +288,7 @@ class EnglishEntryaspirate extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (کردار) خوێندنەوەی دەنگێک بە هەناسەوە""",
+٢. (کردار) خوێندنەوەی دەنگێک بە ھەناسەوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -314,7 +314,7 @@ class EnglishEntryaspirate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مامۆستاکە داوای لە خوێندکارەکانی کرد پیتی 'ت' بە هەناسەی زیاترەوە بخوێننەوە.",
+                                    "مامۆستاکە داوای لە خوێندکارەکانی کرد پیتی 'ت' بە ھەناسەی زیاترەوە بخوێننەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -346,7 +346,7 @@ class EnglishEntryaspirate extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (کردار) هەڵمژینی شتێک""",
+٣. (کردار) ھەڵمژینی شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

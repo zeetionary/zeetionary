@@ -215,7 +215,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ناو) ڕیزێک لە کرێکار و ئامێر لە کارگەیەکدا کە قۆناغ بە قۆناغ کاردەکەن لەسەر بەستنی پارچەکانی بەرهەمێک تاوەکو تەواو دەبێت""",
+١. (ناو) ڕیزێک لە کرێکار و ئامێر لە کارگەیەکدا کە قۆناغ بە قۆناغ کاردەکەن لەسەر بەستنی پارچەکانی بەرھەمێک تاوەکو تەواو دەبێت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -241,7 +241,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کرێکاران لەسەر هێڵی بەرهەمهێنانەکە ماندوونەناسانە کاریان دەکرد بۆ بەرهەمهێنانی ئۆتۆمبێل.",
+                                    "کرێکاران لەسەر ھێڵی بەرھەمھێنانەکە ماندوونەناسانە کاریان دەکرد بۆ بەرھەمھێنانی ئۆتۆمبێل.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

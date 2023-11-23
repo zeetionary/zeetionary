@@ -217,7 +217,7 @@ class EnglishEntryashtray extends StatelessWidget {
                             """
 کوردی: ژێرسیگاری، تەپڵەک، ژێر سێغاری، ژێرجگەرە، جێ سووتوو
 
-١. (ناو) جێیەک کە کەسانی جگەرەکێش سووتووی جهەرەی تێ‌دەکەن""",
+١. (ناو) جێیەک کە کەسانی جگەرەکێش سووتووی جھەرەی تێ‌دەکەن""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

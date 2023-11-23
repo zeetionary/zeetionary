@@ -1072,10 +1072,53 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_astral.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_go_astray.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_lead_astray.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_astride.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_astrology.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_astrologer.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_astrological.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_astronaut.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_astronomy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_astronomer.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_astronomical.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_astute.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_astutely.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_astuteness.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_asylum.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_as/en_entry_asylum_seeker.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_at.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_atheism.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_atheist.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_athlete.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_athletic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_athletics.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_atlas.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
 
 final loggedOutRoute = RouteMap(routes: {
   "/": (_) => const MaterialPage(child: LoginScreen()),
@@ -2207,7 +2250,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-ashore": (_) => MaterialPage(child: EnglishEntryashore()),
   "/english-aside": (_) => MaterialPage(child: EnglishEntryaside()),
   "/english-ask": (_) => MaterialPage(child: EnglishEntryask()),
-  "/english-asking-price": (_) => MaterialPage(child: EnglishEntryaskingprice()),
+  "/english-asking-price": (_) =>
+      MaterialPage(child: EnglishEntryaskingprice()),
   "/english-askew": (_) => MaterialPage(child: EnglishEntryaskew()),
   "/english-asleep": (_) => MaterialPage(child: EnglishEntryasleep()),
   "/english-asp": (_) => MaterialPage(child: EnglishEntryasp()),
@@ -2216,7 +2260,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-aspersion": (_) => MaterialPage(child: EnglishEntryaspersion()),
   "/english-asphalt": (_) => MaterialPage(child: EnglishEntryasphalt()),
   "/english-asphyxiate": (_) => MaterialPage(child: EnglishEntryasphyxiate()),
-  "/english-asphyxiation": (_) => MaterialPage(child: EnglishEntryasphyxiation()),
+  "/english-asphyxiation": (_) =>
+      MaterialPage(child: EnglishEntryasphyxiation()),
   "/english-aspirate": (_) => MaterialPage(child: EnglishEntryaspirate()),
   "/english-aspire": (_) => MaterialPage(child: EnglishEntryaspire()),
   "/english-aspiration": (_) => MaterialPage(child: EnglishEntryaspiration()),
@@ -2225,12 +2270,15 @@ final loggedInRoute = RouteMap(routes: {
   "/english-assailant": (_) => MaterialPage(child: EnglishEntryassailant()),
   "/english-assassin": (_) => MaterialPage(child: EnglishEntryassassin()),
   "/english-assassinate": (_) => MaterialPage(child: EnglishEntryassassinate()),
-  "/english-assassination": (_) => MaterialPage(child: EnglishEntryassassination()),
+  "/english-assassination": (_) =>
+      MaterialPage(child: EnglishEntryassassination()),
   "/english-assault": (_) => MaterialPage(child: EnglishEntryassault()),
-  "/english-assault-course": (_) => MaterialPage(child: EnglishEntryassaultcourse()),
+  "/english-assault-course": (_) =>
+      MaterialPage(child: EnglishEntryassaultcourse()),
   "/english-assemble": (_) => MaterialPage(child: EnglishEntryassemble()),
   "/english-assembly": (_) => MaterialPage(child: EnglishEntryassembly()),
-  "/english-assembly-line": (_) => MaterialPage(child: EnglishEntryassemblyline()),
+  "/english-assembly-line": (_) =>
+      MaterialPage(child: EnglishEntryassemblyline()),
   "/english-assent": (_) => MaterialPage(child: EnglishEntryassent()),
   "/english-assert": (_) => MaterialPage(child: EnglishEntryassert()),
   "/english-assertion": (_) => MaterialPage(child: EnglishEntryassertion()),
@@ -2239,11 +2287,13 @@ final loggedInRoute = RouteMap(routes: {
   "/english-assessment": (_) => MaterialPage(child: EnglishEntryassessment()),
   "/english-assessor": (_) => MaterialPage(child: EnglishEntryassessor()),
   "/english-asset": (_) => MaterialPage(child: EnglishEntryasset()),
-  "/english-asset-stripping": (_) => MaterialPage(child: EnglishEntryassetstripping()),
+  "/english-asset-stripping": (_) =>
+      MaterialPage(child: EnglishEntryassetstripping()),
   "/english-assign": (_) => MaterialPage(child: EnglishEntryassign()),
   "/english-assignment": (_) => MaterialPage(child: EnglishEntryassignment()),
   "/english-assimilate": (_) => MaterialPage(child: EnglishEntryassimilate()),
-  "/english-assimilation": (_) => MaterialPage(child: EnglishEntryassimilation()),
+  "/english-assimilation": (_) =>
+      MaterialPage(child: EnglishEntryassimilation()),
   "/english-assist": (_) => MaterialPage(child: EnglishEntryassist()),
   "/english-assistance": (_) => MaterialPage(child: EnglishEntryassistance()),
   "/english-assistant": (_) => MaterialPage(child: EnglishEntryassistant()),
@@ -2262,31 +2312,32 @@ final loggedInRoute = RouteMap(routes: {
   "/english-asthmatic": (_) => MaterialPage(child: EnglishEntryasthmatic()),
   "/english-astonish": (_) => MaterialPage(child: EnglishEntryastonish()),
   "/english-astonishing": (_) => MaterialPage(child: EnglishEntryastonishing()),
-  "/english-astonishment": (_) => MaterialPage(child: EnglishEntryastonishment()),
+  "/english-astonishment": (_) =>
+      MaterialPage(child: EnglishEntryastonishment()),
   "/english-astound": (_) => MaterialPage(child: EnglishEntryastound()),
   "/english-astral": (_) => MaterialPage(child: EnglishEntryastral()),
   "/english-go-astray": (_) => MaterialPage(child: EnglishEntrygoastray()),
   "/english-lead-astray": (_) => MaterialPage(child: EnglishEntryleadastray()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-astride": (_) => MaterialPage(child: EnglishEntryastride()),
+  "/english-astrology": (_) => MaterialPage(child: EnglishEntryastrology()),
+  "/english-astrologer": (_) => MaterialPage(child: EnglishEntryastrologer()),
+  "/english-astrological": (_) => MaterialPage(child: EnglishEntryastrological()),
+  "/english-astronaut": (_) => MaterialPage(child: EnglishEntryastronaut()),
+  "/english-astronomy": (_) => MaterialPage(child: EnglishEntryastronomy()),
+  "/english-astronomer": (_) => MaterialPage(child: EnglishEntryastronomer()),
+  "/english-astronomical": (_) => MaterialPage(child: EnglishEntryastronomical()),
+  "/english-astute": (_) => MaterialPage(child: EnglishEntryastute()),
+  "/english-astutely": (_) => MaterialPage(child: EnglishEntryastutely()),
+  "/english-astuteness": (_) => MaterialPage(child: EnglishEntryastuteness()),
+  "/english-asylum": (_) => MaterialPage(child: EnglishEntryasylum()),
+  "/english-asylum-seeker": (_) => MaterialPage(child: EnglishEntryasylumseeker()),
+  "/english-at": (_) => MaterialPage(child: EnglishEntryat()),
+  "/english-atheism": (_) => MaterialPage(child: EnglishEntryatheism()),
+  "/english-atheist": (_) => MaterialPage(child: EnglishEntryatheist()),
+  "/english-athlete": (_) => MaterialPage(child: EnglishEntryathlete()),
+  "/english-athletic": (_) => MaterialPage(child: EnglishEntryathletic()),
+  "/english-athletics": (_) => MaterialPage(child: EnglishEntryathletics()),
+  "/english-atlas": (_) => MaterialPage(child: EnglishEntryatlas()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

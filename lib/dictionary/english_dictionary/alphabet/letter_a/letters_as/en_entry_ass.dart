@@ -302,7 +302,7 @@ class EnglishEntryass extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هێندە گەمژە مەبە!",
+                                    "ھێندە گەمژە مەبە!",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -360,7 +360,7 @@ class EnglishEntryass extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هێندە گەمژە مەبە.",
+                                    "ھێندە گەمژە مەبە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -433,7 +433,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: ass (= Derived forms: asses)
+- Noun: ass (= derived forms: asses)
 1. Hardy and sure-footed animal smaller and with longer ears than the horse
  
 2. Domestic beast of burden descended from the African wild ass; patient but stubborn (= domestic ass, donkey, Equus asinus, moke [Brit, informal])

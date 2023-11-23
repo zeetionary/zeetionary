@@ -276,7 +276,7 @@ class EnglishEntryastral extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ھاوەڵناو) پەیوەندیدار بە جیهانی ڕۆحی، وەک لە ژیانی ڕاستی""",
+٢. (ھاوەڵناو) پەیوەندیدار بە جیھانی ڕۆحی، وەک لە ژیانی ڕاستی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -302,7 +302,7 @@ class EnglishEntryastral extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وای بیرکردەوە کە خەونەکانی بردنی بۆ جیهانی خەیاڵاوی.",
+                                    "وای بیرکردەوە کە خەونەکانی بردنی بۆ جیھانی خەیاڵاوی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

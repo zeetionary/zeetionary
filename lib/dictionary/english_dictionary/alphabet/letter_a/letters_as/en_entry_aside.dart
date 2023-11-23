@@ -298,7 +298,7 @@ class EnglishEntryaside extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بچۆ ئەولاوە و بهێڵە ئەم خەڵکە تێپەڕن.",
+                                    "بچۆ ئەولاوە و بھێڵە ئەم خەڵکە تێپەڕن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -330,7 +330,7 @@ class EnglishEntryaside extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ھاوەڵکار) بۆ دواتر بەکارهێنان""",
+٢. (ھاوەڵکار) بۆ دواتر بەکارھێنان""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -356,7 +356,7 @@ class EnglishEntryaside extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەندێک پارەمان خستە لاوە بۆ کاری چاککردنەوە.",
+                                    "ھەندێک پارەمان خستە لاوە بۆ کاری چاککردنەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -472,7 +472,7 @@ class EnglishEntryaside extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەندێک توانجی وەشاند لە بێ‌توانایی ژنان.",
+                                    "ھەندێک توانجی وەشاند لە بێ‌توانایی ژنان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -504,7 +504,7 @@ class EnglishEntryaside extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٥. (ناو) قسەیەک کە مەبەست لێی نییە بەشێک بێت لە بابەتی سەرەکیی گفتوهۆیەک""",
+٥. (ناو) قسەیەک کە مەبەست لێی نییە بەشێک بێت لە بابەتی سەرەکیی گفتوھۆیەک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -530,7 +530,7 @@ class EnglishEntryaside extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەنها وەک قەوسێک باسی دەکەم.",
+                                    "تەنھا وەک قەوسێک باسی دەکەم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

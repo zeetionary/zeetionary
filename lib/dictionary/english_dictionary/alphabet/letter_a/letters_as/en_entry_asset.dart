@@ -216,7 +216,7 @@ class EnglishEntryasset extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: سامان، دارایی، ماڵ، مایە، خوداپێداوی، خوداگەیاندە، نێعمەت، چاوگی هێز، سەرچاوە یان ژێدەری هێز، سەرچاوەی دەسەڵات
+کوردی: سامان، دارایی، ماڵ، مایە، خوداپێداوی، خوداگەیاندە، نێعمەت، چاوگی ھێز، سەرچاوە یان ژێدەری ھێز، سەرچاوەی دەسەڵات
 
 ١. (ناو) شتێکی بەنرخ یان بەسوود بۆ کەسێک یان شتێک""",
                             style: TextStyle(fontSize: 18),
@@ -244,7 +244,7 @@ class EnglishEntryasset extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە کارەکەیدا پشوودرێژی گەوهەرێکە.",
+                                    "لە کارەکەیدا پشوودرێژی گەوھەرێکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -294,7 +294,7 @@ class EnglishEntryasset extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەبوونی توانای قسەکردن بە زمانێکی بیانی نیعمەتێکە.",
+                                    "ھەبوونی توانای قسەکردن بە زمانێکی بیانی نیعمەتێکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

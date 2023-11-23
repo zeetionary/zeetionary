@@ -217,7 +217,7 @@ class EnglishEntryastonishing extends StatelessWidget {
                             """
 کوردی: سەرسووڕمێن، گێژکەر
 
-١. (ھاوەڵناو) زۆر سەرسوڕهێنەر""",
+١. (ھاوەڵناو) زۆر سەرسوڕھێنەر""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

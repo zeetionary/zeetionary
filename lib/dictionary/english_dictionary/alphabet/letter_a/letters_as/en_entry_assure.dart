@@ -354,7 +354,7 @@ class EnglishEntryassure extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دڵنیایی‌کردەوە کە نامەکە هێشتا لە چەکمەجەکە بوو.",
+                                    "دڵنیایی‌کردەوە کە نامەکە ھێشتا لە چەکمەجەکە بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

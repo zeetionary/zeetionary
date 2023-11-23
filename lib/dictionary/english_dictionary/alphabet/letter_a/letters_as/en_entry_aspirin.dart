@@ -217,7 +217,7 @@ class EnglishEntryaspirin extends StatelessWidget {
                             """
 کوردی: ئەسپیرین، حەبی ژانەسەر، حەبی سەرێشە
 
-١. (ناو) دەرمانی کەمکردنەوەی ئازار و تا و هەوکردن""",
+١. (ناو) دەرمانی کەمکردنەوەی ئازار و تا و ھەوکردن""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -243,7 +243,7 @@ class EnglishEntryaspirin extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هیچ ئاسپرینت هەیە؟.",
+                                    "ھیچ ئاسپرینت ھەیە؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

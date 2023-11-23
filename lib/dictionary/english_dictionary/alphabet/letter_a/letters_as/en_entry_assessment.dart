@@ -217,7 +217,7 @@ class EnglishEntryassessment extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: هەڵسەنگاندن، نرخاندن، هەزیر، مەزندە، نرخ‌دانان، چەسپاندنی نرخ و بایی، لێکدانەوە، هەڵسەنگاندن، دەس‌نیشان‌کردن، دیاری‌کردن (بژێرە، باج و هتد)
+کوردی: ھەڵسەنگاندن، نرخاندن، ھەزیر، مەزندە، نرخ‌دانان، چەسپاندنی نرخ و بایی، لێکدانەوە، ھەڵسەنگاندن، دەس‌نیشان‌کردن، دیاری‌کردن (بژێرە، باج و ھتد)
 
 ١. (ناو) بوچوون یان بڕیاردانێک لەسەر کەسێک یان شتێک کە بەتەواوی بیری‌لێ‌کراوەتەوە""",
                             style: TextStyle(fontSize: 18),
@@ -245,7 +245,7 @@ class EnglishEntryassessment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەڵسەنگاندنێکی سەرەتاییمان ئەنجام‌دا بۆ دیاریکردنی ئاستی کارەکە.",
+                                    "ھەڵسەنگاندنێکی سەرەتاییمان ئەنجام‌دا بۆ دیاریکردنی ئاستی کارەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -277,7 +277,7 @@ class EnglishEntryassessment extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) کرداری هەڵسەنگاندنی شتێک""",
+٢. (ناو) کرداری ھەڵسەنگاندنی شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -303,7 +303,7 @@ class EnglishEntryassessment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەڵسەنگاندنی پێداویستییەکان گرنگە بۆ دابینکردنی خزمەتگوزاریی تەندرووستیی بەرچاو لە نەخۆشخانەکە.",
+                                    "ھەڵسەنگاندنی پێداویستییەکان گرنگە بۆ دابینکردنی خزمەتگوزاریی تەندرووستیی بەرچاو لە نەخۆشخانەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -361,7 +361,7 @@ class EnglishEntryassessment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەڵسەنگاندنی باو بۆ ئەو کۆرسانەی دەیڵێینەوە بریتییە لە داڕشتنی نووسراو.",
+                                    "ھەڵسەنگاندنی باو بۆ ئەو کۆرسانەی دەیڵێینەوە بریتییە لە داڕشتنی نووسراو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

@@ -216,9 +216,9 @@ class EnglishEntryassistance extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: یارمەتی، یاریدە، دەس‌گرتن، دەس‌گیرۆیی، کۆمەک، باروبۆ، باربوو، بازگوڕی، ئالیکاری، هاریکاری، هاوکاری
+کوردی: یارمەتی، یاریدە، دەس‌گرتن، دەس‌گیرۆیی، کۆمەک، باروبۆ، باربوو، بازگوڕی، ئالیکاری، ھاریکاری، ھاوکاری
 
-١. (ناو) یارمەتی و هاوکاری""",
+١. (ناو) یارمەتی و ھاوکاری""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -244,7 +244,7 @@ class EnglishEntryassistance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هیچ هەیە بتوانم یارمەتیدەربم تێیدا؟.",
+                                    "ھیچ ھەیە بتوانم یارمەتیدەربم تێیدا؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

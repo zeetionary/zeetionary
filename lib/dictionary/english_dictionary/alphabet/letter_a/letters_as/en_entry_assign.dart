@@ -222,7 +222,7 @@ class EnglishEntryassign extends StatelessWidget {
                             """
 کوردی: پێدان، دانان، وەپاڵ دان، پێوەنان
 
-١. (کردار) پێدانی شتێک بە کەسێک بۆ بەکارهێنان، یان پێدانی کار یان بەرپرسیاریەتی""",
+١. (کردار) پێدانی شتێک بە کەسێک بۆ بەکارھێنان، یان پێدانی کار یان بەرپرسیاریەتی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -298,7 +298,7 @@ class EnglishEntryassign extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "مامۆستاکە ئەرکی جیاوازی دا بە هەر قوتابییەک.",
+                                    "مامۆستاکە ئەرکی جیاوازی دا بە ھەر قوتابییەک.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

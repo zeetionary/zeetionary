@@ -58,7 +58,7 @@ class EnglishEntryabandonment extends StatelessWidget {
                             //   width: 10,
                             // ),
                             // Text(
-                            //   '(noun - Derived forms:  Dopsums)', // DOPSUM: CHANGE WORD TYPE
+                            //   '(noun - derived forms:  Dopsums)', // DOPSUM: CHANGE WORD TYPE
                             //   style: TextStyle(fontSize: 14),
                             // ),
                           ],

@@ -220,9 +220,9 @@ class EnglishEntryassociate extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: هاوکار، بەشدار، پشکدار، شەریک، یاریدەدەر، ئەندامی پێوەبەستراو، ئەندامی، یەکگرتوو، هەڤگرتوو، بەستراو، سەربەدی، پاشکۆ، پێوەبەند، پێوەبەستراو، پێکەوەبەستراو، یاریدەدەری
+کوردی: ھاوکار، بەشدار، پشکدار، شەریک، یاریدەدەر، ئەندامی پێوەبەستراو، ئەندامی، یەکگرتوو، ھەڤگرتوو، بەستراو، سەربەدی، پاشکۆ، پێوەبەند، پێوەبەستراو، پێکەوەبەستراو، یاریدەدەری
 
-١. (کردار) پێکەوەبەستنی دوو شت یان کەس لە هزردا""",
+١. (کردار) پێکەوەبەستنی دوو شت یان کەس لە ھزردا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -248,7 +248,7 @@ class EnglishEntryassociate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەمیشە بۆنی برژاندن دەبەستمەوە بە منداڵیمەوە.",
+                                    "ھەمیشە بۆنی برژاندن دەبەستمەوە بە منداڵیمەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -298,7 +298,7 @@ class EnglishEntryassociate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆرکەس ڕاستەوخۆ ئاڵوودەیی دەبەستنەوە بە مادەی هۆشبەر و کحول و جگەرە.",
+                                    "زۆرکەس ڕاستەوخۆ ئاڵوودەیی دەبەستنەوە بە مادەی ھۆشبەر و کحول و جگەرە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -472,7 +472,7 @@ class EnglishEntryassociate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو ناسراوە بەوەی یەکێک لە هاوەڵەکانی پیاوە تاوەنبارەکە بێت.",
+                                    "ئەو ناسراوە بەوەی یەکێک لە ھاوەڵەکانی پیاوە تاوەنبارەکە بێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -504,7 +504,7 @@ class EnglishEntryassociate extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٥. (هاوەڵناو) کەسێک کە لە پلەیەکی نزمترە لە کارێکدا""",
+٥. (ھاوەڵناو) کەسێک کە لە پلەیەکی نزمترە لە کارێکدا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -530,7 +530,7 @@ class EnglishEntryassociate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەنها بەرهەمهێنەری یاریدەدەر بوو لە فیلمەکەدا.",
+                                    "تەنھا بەرھەمھێنەری یاریدەدەر بوو لە فیلمەکەدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

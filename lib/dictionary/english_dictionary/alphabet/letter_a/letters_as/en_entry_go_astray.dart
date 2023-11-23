@@ -216,7 +216,7 @@ class EnglishEntrygoastray extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: لەڕێ‌دەرچوو، ڕێهەڵ‌کردوو، لاداو، خریایی، ڕێ‌لێ‌تێکچووو ئاوەکی، گومڕا، سەرلێ‌شێواو
+کوردی: لەڕێ‌دەرچوو، ڕێھەڵ‌کردوو، لاداو، خریایی، ڕێ‌لێ‌تێکچووو ئاوەکی، گومڕا، سەرلێ‌شێواو
 
 ١. (ئیدیەم) ونبوون""",
                             style: TextStyle(fontSize: 18),
@@ -276,7 +276,7 @@ class EnglishEntrygoastray extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ئیدیەم) دەرچوون لە ڕێگەی ڕاست، یان هەبوونی ئەنجامی هەڵە""",
+١. (ئیدیەم) دەرچوون لە ڕێگەی ڕاست، یان ھەبوونی ئەنجامی ھەڵە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -302,7 +302,7 @@ class EnglishEntrygoastray extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خۆشبەختانە فیشەکەکانی تەقەکەرەکە بە هەڵە چوون.",
+                                    "خۆشبەختانە فیشەکەکانی تەقەکەرەکە بە ھەڵە چوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

@@ -216,9 +216,9 @@ class EnglishEntryasthmatic extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: بەرهەنگی، هەناسەسوار، پشووسوار، توشبوو بە بەرهەنگ
+کوردی: بەرھەنگی، ھەناسەسوار، پشووسوار، توشبوو بە بەرھەنگ
 
-١. (ھاوەڵناو) تووشبوو بە هەناسەتوندی""",
+١. (ھاوەڵناو) تووشبوو بە ھەناسەتوندی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -244,7 +244,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو نەخۆشەی تووشبوو بە هەناسەتوندی بوو بردرا بۆ نەخۆشخانە بۆ چارەسەر.",
+                                    "ئەو نەخۆشەی تووشبوو بە ھەناسەتوندی بوو بردرا بۆ نەخۆشخانە بۆ چارەسەر.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -276,7 +276,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) کەسێکی تووشبوو بە هەناسەتوندی""",
+٢. (ناو) کەسێکی تووشبوو بە ھەناسەتوندی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -302,7 +302,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو نەخۆشەی تووشبوو بە هەناسەتوندی بوو نەیدەتوانی لە چالاکی سەخت بەژداری بکات.",
+                                    "ئەو نەخۆشەی تووشبوو بە ھەناسەتوندی بوو نەیدەتوانی لە چالاکی سەخت بەژداری بکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

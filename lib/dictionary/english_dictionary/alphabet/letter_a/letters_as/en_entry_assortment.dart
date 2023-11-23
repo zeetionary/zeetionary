@@ -215,7 +215,7 @@ class EnglishEntryassortment extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: کۆمەڵە، جۆرەکان، کۆمەڵەیەکی جۆراوجۆر یان هەمەڕەنگ، هەمەچەشنە، دەستەجۆر، جۆران، تێکەڵە، پۆلاندن، دەستەکردن، دەستاندن
+کوردی: کۆمەڵە، جۆرەکان، کۆمەڵەیەکی جۆراوجۆر یان ھەمەڕەنگ، ھەمەچەشنە، دەستەجۆر، جۆران، تێکەڵە، پۆلاندن، دەستەکردن، دەستاندن
 
 ١. (ناو) کۆمەڵە شتێک، یان کۆمەڵە جۆرێکی جیاوازی یەک شت""",
                             style: TextStyle(fontSize: 18),

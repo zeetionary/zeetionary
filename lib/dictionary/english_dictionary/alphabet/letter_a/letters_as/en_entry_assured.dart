@@ -334,7 +334,7 @@ class EnglishEntryassured extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ھاوەڵناو) دڵنیایی لە بەدەستهێنانی شتێک""",
+٣. (ھاوەڵناو) دڵنیایی لە بەدەستھێنانی شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -360,7 +360,7 @@ class EnglishEntryassured extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەتوانیت دڵنیابیت لە پێشوازییەکی گەرم لەم هوتێلە.",
+                                    "دەتوانیت دڵنیابیت لە پێشوازییەکی گەرم لەم ھوتێلە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

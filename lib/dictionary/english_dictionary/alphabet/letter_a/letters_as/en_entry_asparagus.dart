@@ -217,7 +217,7 @@ class EnglishEntryasparagus extends StatelessWidget {
                             """
 کوردی: (ڕووەک‌ناسی) گەوڵەزەر؟، بەنارۆمی؟، مارچێوە، ترچک
 
-١. (ناو) ڕووەکێکە کە قەدی سپی یان سەوزی هەیە کە دەکوڵێندرێن و دەخورێن""",
+١. (ناو) ڕووەکێکە کە قەدی سپی یان سەوزی ھەیە کە دەکوڵێندرێن و دەخورێن""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

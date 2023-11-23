@@ -221,7 +221,7 @@ class EnglishEntryassembly extends StatelessWidget {
                             """
 کوردی: ئەنجومەن، جڤات، جەرگە، کۆڕ، کۆبوونەوە، دانیشتن، کۆمبین، گۆبەند، سواریەک‌کردن، بەستنەوە، کۆکردنەوە، سەریەک‌خستن، تەپڵی (دەنگ) کۆکردنەوە (سەربازەکان)
 
-١. (ناو) گرووپێک لە خەڵکی کە هەڵبژێردراون بۆ ئەوەی بەشێوەی بەردەوام کۆببنەوە و بڕیار و یاسا بۆ ناوچەیەک دەربکەن""",
+١. (ناو) گرووپێک لە خەڵکی کە ھەڵبژێردراون بۆ ئەوەی بەشێوەی بەردەوام کۆببنەوە و بڕیار و یاسا بۆ ناوچەیەک دەربکەن""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -247,7 +247,7 @@ class EnglishEntryassembly extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەسەڵات ڕادەستی ئەنجوومەنی پارێزگا و هەرێمەکان کراوە.",
+                                    "دەسەڵات ڕادەستی ئەنجوومەنی پارێزگا و ھەرێمەکان کراوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -297,7 +297,7 @@ class EnglishEntryassembly extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەموو هەینییەک کۆبوونەوەی گشتی خوێندنگەکە هەیە.",
+                                    "ھەموو ھەینییەک کۆبوونەوەی گشتی خوێندنگەکە ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -329,7 +329,7 @@ class EnglishEntryassembly extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) گردبوونەوەی کۆمەڵە کەسێک بۆ هۆکارێکی دیاریکراو""",
+٢. (ناو) گردبوونەوەی کۆمەڵە کەسێک بۆ ھۆکارێکی دیاریکراو""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

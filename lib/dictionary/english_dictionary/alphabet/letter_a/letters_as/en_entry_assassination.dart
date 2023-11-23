@@ -217,7 +217,7 @@ class EnglishEntryassassination extends StatelessWidget {
                             """
 کوردی: تیرۆر، کوشتن، پیاوکوژی، ڕەشەکوژی 
 
-١. (ناو) کوشتنی کەسێکی بەناوبانگ یان سیاسی، بەتایبەتی بۆ پارە یان هۆکاری سیاسی""",
+١. (ناو) کوشتنی کەسێکی بەناوبانگ یان سیاسی، بەتایبەتی بۆ پارە یان ھۆکاری سیاسی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -243,7 +243,7 @@ class EnglishEntryassassination extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەرۆکەکە لە ژمارەیەک هەوڵی تیرۆرکردن ڕزگاری‌بوو.",
+                                    "سەرۆکەکە لە ژمارەیەک ھەوڵی تیرۆرکردن ڕزگاری‌بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

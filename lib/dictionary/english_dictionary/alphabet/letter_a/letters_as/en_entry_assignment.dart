@@ -217,7 +217,7 @@ class EnglishEntryassignment extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ئەرک، کار، خەبات، ناردن بۆ کارێ، کار پێ‌سپاردن، ڕاسپێری، پۆست، (خوێندنگا) مەشق، تایبەتی‌دان، تەرخان‌دان، دانەپاڵ، خستنەپاڵ، پاڵ‌دان، دانان، بەنێوکردن، گواستنەوە، ڕاگوێستن، دەست‌لێ‌هەڵگرتن، وازلێ‌هێنان
+کوردی: ئەرک، کار، خەبات، ناردن بۆ کارێ، کار پێ‌سپاردن، ڕاسپێری، پۆست، (خوێندنگا) مەشق، تایبەتی‌دان، تەرخان‌دان، دانەپاڵ، خستنەپاڵ، پاڵ‌دان، دانان، بەنێوکردن، گواستنەوە، ڕاگوێستن، دەست‌لێ‌ھەڵگرتن، وازلێ‌ھێنان
 
 ١. (ناو) ئەرکێک کە کەسێک وەک باشێک لە کارەکەی یان خوێندنی پێی‌دەدرێت""",
                             style: TextStyle(fontSize: 18),
@@ -245,7 +245,7 @@ class EnglishEntryassignment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "قوتابیان دەبێت هەموو ئەرکی ماڵەوە تەواو بکەن.",
+                                    "قوتابیان دەبێت ھەموو ئەرکی ماڵەوە تەواو بکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

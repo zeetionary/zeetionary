@@ -217,7 +217,7 @@ class EnglishEntryassimilate extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: هاوسان کردن، وەک یەک کردن، ڕاکێشان، مژتن، لە ناو چوون، توانەوە
+کوردی: ھاوسان کردن، وەک یەک کردن، ڕاکێشان، مژتن، لە ناو چوون، توانەوە
 
 ١. (کردار) بە تەواوی تێگەشتن لە شتێک بە شێوەیەک کە خۆت بتوانیت بەکاریبێنیت""",
                             style: TextStyle(fontSize: 18),

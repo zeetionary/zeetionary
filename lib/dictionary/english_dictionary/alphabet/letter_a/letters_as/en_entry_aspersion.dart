@@ -215,7 +215,7 @@ class EnglishEntryaspersion extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: تۆمەت، چەفتە، درۆ، هەڵبەستە، ئابڕووبردن، نێوزڕاندن، زەم‌کردن، خراپەوتن، سووکایەتی (پێ‌کردن)
+کوردی: تۆمەت، چەفتە، درۆ، ھەڵبەستە، ئابڕووبردن، نێوزڕاندن، زەم‌کردن، خراپەوتن، سووکایەتی (پێ‌کردن)
 
 ١. (ناو) بڕیار یان لێدوانی نابەجێ""",
                             style: TextStyle(fontSize: 18),

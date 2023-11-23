@@ -245,7 +245,7 @@ class EnglishEntryassemble extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەموو خوێندکاران داوایان لێ‌کرا لە هۆڵە سەرەکییەکە کۆببنەوە.",
+                                    "ھەموو خوێندکاران داوایان لێ‌کرا لە ھۆڵە سەرەکییەکە کۆببنەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -426,7 +426,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: assemble (= Derived forms: assembling, assembles, assembled)
+- Verb: assemble (= derived forms: assembling, assembles, assembled)
 1. Create by putting components or members together (= piece, put together, set up, tack, tack together)
 "She assembled a quilt";
 

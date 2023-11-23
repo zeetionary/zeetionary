@@ -217,7 +217,7 @@ class EnglishEntryassessor extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: نرخێنەر، هەڵسەنگێنەر، یاریدەدەری ڕاوێژکار، دواڕاوێژکار (لە دادگا و لەسەر بابەتە تکنیکی‌یەکان)
+کوردی: نرخێنەر، ھەڵسەنگێنەر، یاریدەدەری ڕاوێژکار، دواڕاوێژکار (لە دادگا و لەسەر بابەتە تکنیکی‌یەکان)
 
 ١. (ناو) شارەزایەک لە باورێکی دیاریکراو کە لەلایەن دادگا یان بەرپرسی دیکە داوای ڕاوێژی لێ‌دەکرێت""",
                             style: TextStyle(fontSize: 18),
@@ -245,7 +245,7 @@ class EnglishEntryassessor extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حکومەت هەڵسەنگێنەری سەربەخۆی دیاریکرد بۆ لێکۆڵینەوە لە گونجاوی ئەو خەڵووزانەی لە کانەکان مابوونەوە.",
+                                    "حکومەت ھەڵسەنگێنەری سەربەخۆی دیاریکرد بۆ لێکۆڵینەوە لە گونجاوی ئەو خەڵووزانەی لە کانەکان مابوونەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -335,7 +335,7 @@ class EnglishEntryassessor extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ناو) کەسێک کە هەڵسەنگاندن بۆ ئاستی بەژداربوو لە تاقیکردنەوەیەک یان کێبڕکێیەک دەکات""",
+٣. (ناو) کەسێک کە ھەڵسەنگاندن بۆ ئاستی بەژداربوو لە تاقیکردنەوەیەک یان کێبڕکێیەک دەکات""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -361,7 +361,7 @@ class EnglishEntryassessor extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەڵسەنگێنەرەکان توانای خوێندکارانیان لە تاقیکردنەوەکە نرخاند.",
+                                    "ھەڵسەنگێنەرەکان توانای خوێندکارانیان لە تاقیکردنەوەکە نرخاند.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

@@ -215,7 +215,7 @@ class EnglishEntryaspire extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ئارزوو هەبوون، هیوا خواستن، هەبوونی هەستی بەرزە فڕی
+کوردی: ئارزوو ھەبوون، ھیوا خواستن، ھەبوونی ھەستی بەرزە فڕی
 
 ١. (کردار) ئاوات‌خواستن بە شتێک""",
                             style: TextStyle(fontSize: 18),
@@ -243,7 +243,7 @@ class EnglishEntryaspire extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئاواتی هەبوو کارێکی زانستی هەبێت.",
+                                    "ئاواتی ھەبوو کارێکی زانستی ھەبێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

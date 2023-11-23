@@ -215,9 +215,9 @@ class EnglishEntryasthma extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ڕبۆ، ڕەبوو، هەناسەسواری، تەنگەهەناسە، هەناسەتەنگی، بەرهەنگ، گژم، پشووسواری
+کوردی: ڕبۆ، ڕەبوو، ھەناسەسواری، تەنگەھەناسە، ھەناسەتەنگی، بەرھەنگ، گژم، پشووسواری
 
-١. (ناو) بارودۆخێکی تەندرووستی کە دەبێتەهۆی هەناسەتوندی""",
+١. (ناو) بارودۆخێکی تەندرووستی کە دەبێتەھۆی ھەناسەتوندی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -243,7 +243,7 @@ class EnglishEntryasthma extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ساڵانە هەزاران کەیسی هەناسەتوندیمان هەیە.",
+                                    "ساڵانە ھەزاران کەیسی ھەناسەتوندیمان ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

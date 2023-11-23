@@ -243,7 +243,7 @@ class EnglishEntryarty extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆچی وا خۆت پیشان دەدەیت کە حەزت لەو فیلمە بێزارکەرانەیە کە خۆیان وەک ھونەر پیشان دەدەن؟.",
+                                    "بۆچی وا خۆت پیشان دەدەیت کە حەزت لەو فیلمە بێزارکەرانەیە کە خۆیان وەک ھونەر پیشان دەدەن؟",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

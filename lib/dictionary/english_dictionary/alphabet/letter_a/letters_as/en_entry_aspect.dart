@@ -220,7 +220,7 @@ class EnglishEntryaspect extends StatelessWidget {
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
 کوردی: ڕواڵەت، نموود، دەم‌وچاو، قیافە، سەروسەکوت، سەروتەرح، ڕوخسار، بیچم، دیم
-2	ڕووکەش، ڕووکار، ڕوو، ڕووە، لایەن، ڕووخسار، بەستێن، گۆشە نیگا، دۆخ، لا، بوار، وار، ڕەهەند، دۆخ، بار، ڕەوش
+2	ڕووکەش، ڕووکار، ڕوو، ڕووە، لایەن، ڕووخسار، بەستێن، گۆشە نیگا، دۆخ، لا، بوار، وار، ڕەھەند، دۆخ، بار، ڕەوش
 3	(ڕێزمان) ئاسپێکت 
 
 ١. (ناو) یەک لایەنی شتێک""",
@@ -249,7 +249,7 @@ class EnglishEntryaspect extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کتێبەکە ئامانجیەتی هەموو لایەنەکانی ژیانی شار باس‌بکات.",
+                                    "کتێبەکە ئامانجیەتی ھەموو لایەنەکانی ژیانی شار باس‌بکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -299,7 +299,7 @@ class EnglishEntryaspect extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وای هەست‌کرد لە هەموو لایەنێکەوە لە کێشەکەی ڕوانیوە.",
+                                    "وای ھەست‌کرد لە ھەموو لایەنێکەوە لە کێشەکەی ڕوانیوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -447,7 +447,7 @@ class EnglishEntryaspect extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٤ (ناو) شێوەی کردارێک کە دەری‌دەخات ئایا یەک جار ڕوودەدات یان دووبارە و دووبارە، کە ئایا تەواو بووە یان هێشتا بەردەوامە""",
+٤ (ناو) شێوەی کردارێک کە دەری‌دەخات ئایا یەک جار ڕوودەدات یان دووبارە و دووبارە، کە ئایا تەواو بووە یان ھێشتا بەردەوامە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -473,7 +473,7 @@ class EnglishEntryaspect extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە ڕستەی 'They were laughing' کردارەکە لە شێوەی بەردەوامییە و دەرخەری ئەوەیە کارەکە هێشتا بەرداوامە.",
+                                    "لە ڕستەی 'They were laughing' کردارەکە لە شێوەی بەردەوامییە و دەرخەری ئەوەیە کارەکە ھێشتا بەرداوامە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

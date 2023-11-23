@@ -355,7 +355,7 @@ class EnglishEntryassume extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هێزە یاخیبووەکان کۆنترۆڵی پایتەختیان گرتووەتە دەست.",
+                                    "ھێزە یاخیبووەکان کۆنترۆڵی پایتەختیان گرتووەتە دەست.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -387,7 +387,7 @@ class EnglishEntryassume extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (کردار) هەبوونی شێوەیەک یان خاسیەتێک """,
+٣. (کردار) ھەبوونی شێوەیەک یان خاسیەتێک """,
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -445,7 +445,7 @@ class EnglishEntryassume extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٤. (کردار) واپیشاندان بەوەی خاسیەتێک یان هەستێکی تایبەتت هەیە """,
+٤. (کردار) واپیشاندان بەوەی خاسیەتێک یان ھەستێکی تایبەتت ھەیە """,
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -471,7 +471,7 @@ class EnglishEntryassume extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کە چووە شارۆچکەیەکی تازە، ناوێکی تازەی هەڵگرتەوە.",
+                                    "کە چووە شارۆچکەیەکی تازە، ناوێکی تازەی ھەڵگرتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

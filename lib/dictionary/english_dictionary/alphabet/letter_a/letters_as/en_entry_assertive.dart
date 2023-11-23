@@ -215,9 +215,9 @@ class EnglishEntryassertive extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: لەخۆڕادیتوو، خوباوەڕ، بڕا، بەزاکوون، شێلگیر، چاونەترس، پێداگر، سوور، یەکلایی‌کەرەوە، کۆتایی‌پێهێن، بڕێنەرەوە 
+کوردی: لەخۆڕادیتوو، خوباوەڕ، بڕا، بەزاکوون، شێلگیر، چاونەترس، پێداگر، سوور، یەکلایی‌کەرەوە، کۆتایی‌پێھێن، بڕێنەرەوە 
 
-١. (ھاوەڵناو) دەربڕینی بۆچوون و ویستەکان و بەتوندی بۆ ئەوەی کەسانی تر هەستی پێ‌بکەن""",
+١. (ھاوەڵناو) دەربڕینی بۆچوون و ویستەکان و بەتوندی بۆ ئەوەی کەسانی تر ھەستی پێ‌بکەن""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

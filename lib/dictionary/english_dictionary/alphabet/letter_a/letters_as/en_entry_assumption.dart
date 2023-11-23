@@ -217,7 +217,7 @@ class EnglishEntryassumption extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: وادانان، گریمان، وابۆچوون، پێ‌وابوون، وازانین، بۆچوون، خەیاڵ، گومان، خۆبەزلزانی، بەدەماری، بەهەوایی، لەخۆبایی‌بوون. گرتنەمل، خۆبەستەیی، دەربەستی، گرتنەئەستۆ، واخۆنیشان‌دان، واخۆدەرخستن، گرتنەدەست
+کوردی: وادانان، گریمان، وابۆچوون، پێ‌وابوون، وازانین، بۆچوون، خەیاڵ، گومان، خۆبەزلزانی، بەدەماری، بەھەوایی، لەخۆبایی‌بوون. گرتنەمل، خۆبەستەیی، دەربەستی، گرتنەئەستۆ، واخۆنیشان‌دان، واخۆدەرخستن، گرتنەدەست
 
 ١. (ناو) گریمانە؛ دانانی شتێک وەک ڕاستی یان ئەوەی کە ڕوودەدات بەبێ زانیاری""",
                             style: TextStyle(fontSize: 18),
@@ -245,7 +245,7 @@ class EnglishEntryassumption extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەبێت پرسیار بخەینە سەر هەندێک لە گریمانەکانی فەلسەفەی ڕۆژئاوا.",
+                                    "دەبێت پرسیار بخەینە سەر ھەندێک لە گریمانەکانی فەلسەفەی ڕۆژئاوا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -295,7 +295,7 @@ class EnglishEntryassumption extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کارەکان دەکەین بە گریمانەکردنی ئەوەی هەموو ئەوانەی بانگهێشتکراون ئامادە دەبن.",
+                                    "کارەکان دەکەین بە گریمانەکردنی ئەوەی ھەموو ئەوانەی بانگھێشتکراون ئامادە دەبن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

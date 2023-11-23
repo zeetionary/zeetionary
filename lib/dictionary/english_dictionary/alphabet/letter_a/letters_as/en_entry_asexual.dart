@@ -217,7 +217,7 @@ class EnglishEntryasexual extends StatelessWidget {
                             """
 کوردی: (زیندەناسی) ناڕەگەزی، ناسێکسی، بێ‌ئەندامی زاوزێ، نازایەندی، سارد، بێ‌ئارەزووی سێکسی
 
-١. (ھاوەڵناو) بەبێ چالاکی سێکسی یان بەبێ بوونی هەستی سێکسی""",
+١. (ھاوەڵناو) بەبێ چالاکی سێکسی یان بەبێ بوونی ھەستی سێکسی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -275,7 +275,7 @@ class EnglishEntryasexual extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ھاوەڵناو) کەسێک کە هەستی سێکسی نییە، یان حەزی پێی نییە""",
+٢. (ھاوەڵناو) کەسێک کە ھەستی سێکسی نییە، یان حەزی پێی نییە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -333,7 +333,7 @@ class EnglishEntryasexual extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ھاوەڵناو) بەبێ زاوزێ یان هەبوونی ئەندامی زاوزێ""",
+٣. (ھاوەڵناو) بەبێ زاوزێ یان ھەبوونی ئەندامی زاوزێ""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

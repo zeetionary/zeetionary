@@ -215,7 +215,7 @@ class EnglishEntryassassinate extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (کردار) کووشتن یان تیرۆرکردنی کەسێکی بەناوبانگ یان گرنگ بۆ پارە یان بەهۆکاری سیاسی""",
+١. (کردار) کووشتن یان تیرۆرکردنی کەسێکی بەناوبانگ یان گرنگ بۆ پارە یان بەھۆکاری سیاسی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

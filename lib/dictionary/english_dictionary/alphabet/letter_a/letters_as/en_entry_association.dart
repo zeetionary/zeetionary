@@ -218,7 +218,7 @@ class EnglishEntryassociation extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: بیرکەوتنەوە، پێوەندی هۆشی، بەستنەوەی چەمکی، هۆش‌بەندی، گرێدایی، پێوەندی، پێکبەندی، تێکەڵی، یەکێتی، یەکگرتوویی، هاوبەشێتی، بەشداری، پشکداری، هەستان و دانیشتن، هاونشینی، هەڵس‌وکەوت، هاوکاری، کۆڕ، جڤات، ئەنجومەن، کۆمەڵە
+کوردی: بیرکەوتنەوە، پێوەندی ھۆشی، بەستنەوەی چەمکی، ھۆش‌بەندی، گرێدایی، پێوەندی، پێکبەندی، تێکەڵی، یەکێتی، یەکگرتوویی، ھاوبەشێتی، بەشداری، پشکداری، ھەستان و دانیشتن، ھاونشینی، ھەڵس‌وکەوت، ھاوکاری، کۆڕ، جڤات، ئەنجومەن، کۆمەڵە
 
 ١. (ناو) کۆمەڵە کەسێک کە گرووپێکیان ڕێکخراوێکیان درووستکردووە""",
                             style: TextStyle(fontSize: 18),
@@ -246,7 +246,7 @@ class EnglishEntryassociation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێکخراوی تەندرووستیی بەریتانی هەوڵ دەدات بۆ قەدەغەی تەواوەتیی ڕیکلام بۆ تۆباکۆ.",
+                                    "ڕێکخراوی تەندرووستیی بەریتانی ھەوڵ دەدات بۆ قەدەغەی تەواوەتیی ڕیکلام بۆ تۆباکۆ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -304,7 +304,7 @@ class EnglishEntryassociation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەماهەنگی نزیکیان لەگەڵ کۆلێژێکی ئەمریکی هێشتووەتەوە.",
+                                    "ھەماھەنگی نزیکیان لەگەڵ کۆلێژێکی ئەمریکی ھێشتووەتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -394,7 +394,7 @@ class EnglishEntryassociation extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٤. (ناو) پەیوەندیی نێوان دوو شت کە یەکێکیان بەهۆی ئەوی دیکەوە ڕوویداوە""",
+٤. (ناو) پەیوەندیی نێوان دوو شت کە یەکێکیان بەھۆی ئەوی دیکەوە ڕوویداوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

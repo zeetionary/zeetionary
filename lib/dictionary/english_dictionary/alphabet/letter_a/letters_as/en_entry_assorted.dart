@@ -215,9 +215,9 @@ class EnglishEntryassorted extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: جۆراوجۆر، جۆربەجۆر، جەستەجەستە، هەمەڕەنگ، هەمەچەشنە
+کوردی: جۆراوجۆر، جۆربەجۆر، جەستەجەستە، ھەمەڕەنگ، ھەمەچەشنە
 
-١. (ھاوەڵناو) ژمارەیەک جۆری هەمەچەشن""",
+١. (ھاوەڵناو) ژمارەیەک جۆری ھەمەچەشن""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

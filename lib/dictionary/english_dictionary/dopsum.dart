@@ -8,84 +8,84 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // Define the word "Dopsum3" and provide three example sentences for each meaning. Use Merriam Webster style.
 
-// replace EnglishEntryAdopsum - replace speakAdopsum
+// replace EnglishEntryAa3 - replace speakAa3
 
 // replace Dopsum1 - /haʊ/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryAdopsum extends StatelessWidget {
+class EnglishEntryAa3 extends StatelessWidget {
   // blank divider
-  EnglishEntryAdopsum({super.key});
+  EnglishEntryAa3({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAdopsum(String languageCode) async {
-    // DOPSUM: CHANGE speakAdopsum
+  Future<void> speakAa3(String languageCode) async {
+    // DOPSUM: CHANGE speakAa3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  // Future<void> speakAa3(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAa3
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
   //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  // Future<void> speakAa3(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAa3
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
   //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  // Future<void> speakAa3(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAa3
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
   //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  // Future<void> speakAa3(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAa3
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
   //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  // Future<void> speakAa3(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAa3
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
   //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  // Future<void> speakAa3(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAa3
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
   //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  // Future<void> speakAa3(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAa3
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
   //   await flutterTts.speak("Dopsum1"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAdopsum(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAdopsum
+  // Future<void> speakAa3(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAa3
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
@@ -144,7 +144,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAdopsum(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAa3(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -154,7 +154,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /haʊ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /haʊ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -164,7 +164,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAdopsum(
+                              onPressed: () => speakAa3(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -255,7 +255,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAdopsum("en-GB"),
+                                onPressed: () => speakAa3("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -263,9 +263,8 @@ class EnglishEntryAdopsum extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAdopsum(// REPLACE: Dopsum1
-                                        "en-US"),
+                                onPressed: () => speakAa3(// REPLACE: Dopsum1
+                                    "en-US"),
                               ),
                             ],
                           ),

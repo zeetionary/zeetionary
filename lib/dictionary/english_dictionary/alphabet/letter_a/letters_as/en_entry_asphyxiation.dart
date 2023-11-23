@@ -215,9 +215,9 @@ class EnglishEntryasphyxiation extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: خنکان، تاسەنە، پشوولێ‌بڕان، هەناسە‌لێ‌بڕان
+کوردی: خنکان، تاسەنە، پشوولێ‌بڕان، ھەناسە‌لێ‌بڕان
 
-١. (ناو) هەناسەلێ‌بڕان تاوەکو مردن یان بێ‌هۆش‌کەوتن""",
+١. (ناو) ھەناسەلێ‌بڕان تاوەکو مردن یان بێ‌ھۆش‌کەوتن""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -243,7 +243,7 @@ class EnglishEntryasphyxiation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هۆکاری مردنەکە خنکان بوو.",
+                                    "ھۆکاری مردنەکە خنکان بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

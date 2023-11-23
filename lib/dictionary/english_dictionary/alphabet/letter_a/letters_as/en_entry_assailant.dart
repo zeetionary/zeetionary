@@ -215,9 +215,9 @@ class EnglishEntryassailant extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: هێرش‌کەر، پەلاماردەر، هێرش‌بەر، هەڵمەت‌بەر
+کوردی: ھێرش‌کەر، پەلاماردەر، ھێرش‌بەر، ھەڵمەت‌بەر
 
-١. (ناو) کەسێکی هێرشکار""",
+١. (ناو) کەسێکی ھێرشکار""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

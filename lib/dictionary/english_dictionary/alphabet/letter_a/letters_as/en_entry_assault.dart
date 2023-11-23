@@ -221,9 +221,9 @@ class EnglishEntryassault extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: هێرش، هەڵمەت، شاڵاو، تاوانی هێرشی جەستەیی، تێبەربوون، لێدان، لێدان و بریندارکردن، دەس‌درێژی، پەلامار (بەتایبەت سێکسی)
+کوردی: ھێرش، ھەڵمەت، شاڵاو، تاوانی ھێرشی جەستەیی، تێبەربوون، لێدان، لێدان و بریندارکردن، دەس‌درێژی، پەلامار (بەتایبەت سێکسی)
 
-١. (ناو) هێرشی جەستەیی""",
+١. (ناو) ھێرشی جەستەیی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -249,7 +249,7 @@ class EnglishEntryassault extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەردوو پیاوەکە بە هێرشی تاوانبارکران.",
+                                    "ھەردوو پیاوەکە بە ھێرشی تاوانبارکران.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -331,7 +331,7 @@ class EnglishEntryassault extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) هێرشی سەربازی بە مەبەستی کۆنترۆڵکردنی شوێنێک""",
+٢. (ناو) ھێرشی سەربازی بە مەبەستی کۆنترۆڵکردنی شوێنێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -357,7 +357,7 @@ class EnglishEntryassault extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە بەیانی زوودا هێرشێک بۆ سەر پایتەختەکە ئەنجام‌درا.",
+                                    "لە بەیانی زوودا ھێرشێک بۆ سەر پایتەختەکە ئەنجام‌درا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -389,7 +389,7 @@ class EnglishEntryassault extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ناو) بەدەستهێنانی شتێکی سەخت""",
+٣. (ناو) بەدەستھێنانی شتێکی سەخت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -415,7 +415,7 @@ class EnglishEntryassault extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "حکومەت هەڵمەتێکی تازەی دژ بە بێ‌کاری ڕاگەیاندووە.",
+                                    "حکومەت ھەڵمەتێکی تازەی دژ بە بێ‌کاری ڕاگەیاندووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -505,7 +505,7 @@ class EnglishEntryassault extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٥. (ناو) هێرشی تاوانکاری""",
+٥. (ناو) ھێرشی تاوانکاری""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

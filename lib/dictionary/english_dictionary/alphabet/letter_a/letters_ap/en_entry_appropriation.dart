@@ -359,7 +359,7 @@ class EnglishEntryappropriation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لیژنەکە سەرفکردنی بڕی ٢٠،٠٠٠ پاوەندی پەسەندکرد بۆ دانەوەی قەرزەکان.",
+                                    "لیژنەکە سەرفکردنی بڕی ٢٠,٠٠٠ پاوەندی پەسەندکرد بۆ دانەوەی قەرزەکان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -432,7 +432,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: appropriation (Derived forms: appropriations)
+- Noun: appropriation (derived forms: appropriations)
 1. (legislature) money set aside (as by a legislature) for a specific purpose
  
 2. Incorporation by joining or uniting (= annexation)

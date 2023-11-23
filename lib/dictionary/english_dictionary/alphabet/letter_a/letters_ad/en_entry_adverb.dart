@@ -209,7 +209,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adverb (Derived forms: adverbs)
+- Noun: adverb (derived forms: adverbs)
 1. The word class that qualifies verbs or clauses
  
 2. A word that modifies something other than a noun

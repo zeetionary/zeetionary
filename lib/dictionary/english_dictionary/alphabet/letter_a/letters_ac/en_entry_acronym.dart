@@ -209,7 +209,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acronym (Derived forms: acronyms)
+- Noun: acronym (derived forms: acronyms)
 1. A word formed from the initial letters of the several words in the name and pronounced as one word 
 "AIDS is an acronym for acquired immune deficiency syndrome"; "the word 'scuba' is an acronym for s(elf)-c(ontained) u(nderwater) b(reathing) a(pparatus)"
 '''),

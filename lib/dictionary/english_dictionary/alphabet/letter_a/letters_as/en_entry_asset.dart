@@ -367,7 +367,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: asset (Derived forms: assets)
+- Noun: asset (derived forms: assets)
 1. A useful or valuable quality (= plus)
 """),
         ],

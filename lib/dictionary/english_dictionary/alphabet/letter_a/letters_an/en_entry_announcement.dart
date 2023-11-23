@@ -419,7 +419,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: announcement (Derived forms: announcements)
+- Noun: announcement (derived forms: announcements)
 1. A formal public statement (= proclamation, annunciation, declaration)
 "the government made an announcement about changes in the drug war";
  

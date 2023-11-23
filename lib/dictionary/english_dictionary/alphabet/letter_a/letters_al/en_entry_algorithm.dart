@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: algorithm (Derived forms: algorithms)
+- Noun: algorithm (derived forms: algorithms)
 1. A precise rule (or set of rules) specifying how to solve some problem (= algorithmic rule, algorithmic program)
 '''),
         ],

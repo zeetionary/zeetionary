@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: airlift (Derived forms: airlifting, airlifted, airlifts)
+- Noun: airlift (derived forms: airlifting, airlifted, airlifts)
 1. Transportation of people or goods by air (especially when other means of access are unavailable) (= lift)
 
 1. Verb: airlift 

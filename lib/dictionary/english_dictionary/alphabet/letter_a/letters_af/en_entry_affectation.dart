@@ -302,7 +302,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: affectation (Derived forms: affectations)
+- Noun: affectation (derived forms: affectations)
 1. A deliberate pretence or exaggerated display (= mannerism, pose, affectedness)
 '''),
         ],

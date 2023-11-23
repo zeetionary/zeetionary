@@ -254,7 +254,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: accuser (Derived forms: accusers)
+- Noun: accuser (derived forms: accusers)
 1. Someone who imputes guilt or blame
 '''),
         ],

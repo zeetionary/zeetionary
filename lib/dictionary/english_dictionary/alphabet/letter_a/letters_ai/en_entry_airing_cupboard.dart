@@ -259,7 +259,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: airing cupboard (Derived forms: airing cupboards)
+- Noun: airing cupboard (derived forms: airing cupboards)
 Usage: UK
 1. A warm cupboard where you put newly washed clothes until they are completely dry (= hot press [Ireland])
 '''),

@@ -252,7 +252,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: acquiesce (Derived forms: acquiesced, acquiescing, acquiesces)
+- Verb: acquiesce (derived forms: acquiesced, acquiescing, acquiesces)
 1. To agree or express agreement
 "The Maestro acquiesced to the request for an encore"; (= assent, accede)
 '''),

@@ -209,7 +209,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: aerospace (Derived forms: aerospaces)
+- Noun: aerospace (derived forms: aerospaces)
 1. The atmosphere and outer space considered as a whole
  
 2. The industry and technology concerned with aviation, missiles, satellites and spacecraft

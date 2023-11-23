@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aspersion (Derived forms: aspersions)
+- Noun: aspersion (derived forms: aspersions)
 1. A disparaging remark (= slur)
 "in the 19th century any reference to female sexuality was considered a vile aspersion";
  

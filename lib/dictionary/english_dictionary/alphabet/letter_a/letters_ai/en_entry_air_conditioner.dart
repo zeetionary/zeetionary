@@ -256,7 +256,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: air-conditioner (Derived forms: air-conditioners, air conditioners)
+- Noun: air-conditioner (derived forms: air-conditioners, air conditioners)
 1. An appliance designed to extract humidity from the air and thereby cool it (= air conditioner, A/C)
 "we rarely turn on the air-conditioner";
 

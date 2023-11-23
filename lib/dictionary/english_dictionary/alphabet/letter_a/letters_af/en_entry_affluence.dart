@@ -302,7 +302,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: affluence (Derived forms: affluences)
+- Noun: affluence (derived forms: affluences)
 1. Abundant wealth (= richness)
 "they studied forerunners of affluence or poverty";
 '''),

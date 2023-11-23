@@ -280,7 +280,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: abhor (Derived forms: abhorred, abhorring, abhors)
+- Verb: abhor (derived forms: abhorred, abhorring, abhors)
 1. Find repugnant (=loathe, abominate, execrate)
 "She abhors cats";
 '''),

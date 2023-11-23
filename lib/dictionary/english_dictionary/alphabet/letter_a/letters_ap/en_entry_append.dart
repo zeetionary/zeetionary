@@ -365,7 +365,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: append (Derived forms: appended, appending, appends)
+- Verb: append (derived forms: appended, appending, appends)
 1. Add to the very end (= add on, supplement, affix)
 "He appended a glossary to his novel where he used an invented language";
  

@@ -469,7 +469,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: ascend (Derived forms: ascended, ascends, ascending)
+- Verb: ascend (derived forms: ascended, ascends, ascending)
 1. Travel up (= go up)
 "We ascended the mountain"; "The mountaineers slowly ascended the steep slope";
  

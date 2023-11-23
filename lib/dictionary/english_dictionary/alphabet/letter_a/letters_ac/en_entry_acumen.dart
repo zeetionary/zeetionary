@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acumen (Derived forms: acumens)
+- Noun: acumen (derived forms: acumens)
 1. Shrewdness shown by keen insight (= insightfulness)
  
 2. A tapering point

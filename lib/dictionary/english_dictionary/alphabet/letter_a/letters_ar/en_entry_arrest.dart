@@ -713,7 +713,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: arrest (Derived forms: arrested, arresting, arrests)
+- Verb: arrest (derived forms: arrested, arresting, arrests)
 1. Take into custody (= collar [informal], nail [informal], apprehend, pick up, nab [informal], cop [informal], pinch [Brit, informal], nick [Brit, informal])
 "the police arrested the suspected criminals";
  
@@ -726,7 +726,7 @@ class EnglishMeaning extends StatelessWidget {
 4. Cause to come to an abrupt stop (= halt, hold)
 "Arrest the progress";
 
-- Noun: arrest (Derived forms: arrests)
+- Noun: arrest (derived forms: arrests)
 1. The act of apprehending (especially apprehending a criminal) (= apprehension, catch, collar [informal], pinch, taking into custody)
 "the policeman on the beat got credit for the arrest";
  

@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
--Verb: anaesthetize (Derived forms: anaesthetized, anaesthetizes, anaesthetizing)
+-Verb: anaesthetize (derived forms: anaesthetized, anaesthetizes, anaesthetizing)
 Usage: Brit, Cdn (US: anesthetize)
 1. Administer an anaesthetic drug to (= anesthetize [N. Amer], anesthetise [Brit], anaesthetise [Brit], put under, put out)
 "The patient must be anaesthetized before the operation";

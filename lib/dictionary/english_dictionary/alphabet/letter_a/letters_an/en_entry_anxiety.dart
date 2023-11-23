@@ -539,7 +539,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anxiety (Derived forms: anxieties)
+- Noun: anxiety (derived forms: anxieties)
 1. (psychiatry) a relatively permanent state of worry and nervousness occurring in a variety of mental disorders, usually accompanied by compulsive behaviour or attacks of panic (= anxiousness)
  
 2. A vague unpleasant emotion that is experienced in anticipation of some (usually ill-defined) misfortun

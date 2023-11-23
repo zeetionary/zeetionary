@@ -302,13 +302,13 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: addict (Derived forms: addicts, addicted, addicting)
+- Noun: addict (derived forms: addicts, addicted, addicting)
 1. Someone who is physiologically dependent on a substance or activity
  
 2. Someone who is so ardently devoted to something that it resembles an addiction (= nut [informal], freak, junkie [informal], junky [informal])
 "a golf addict";
 
-- Verb: addict (Derived forms: addicts, addicted, addicting)
+- Verb: addict (derived forms: addicts, addicted, addicting)
 1. To cause (someone or oneself) to become dependent (on something, especially a narcotic drug) (= hook)
 '''),
         ],

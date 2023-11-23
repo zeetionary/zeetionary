@@ -485,7 +485,7 @@ class EnglishMeaning extends StatelessWidget {
 - Located close together (= close together)
 "approximate leaves grow together but are not united";
 
-- Verb: approximate (Derived forms: approximates, approximating, approximated)
+- Verb: approximate (derived forms: approximates, approximating, approximated)
 1. Form an estimate of (quantities or time) (= estimate, gauge, guess, judge)
  
 2. Be close or similar (= come close)

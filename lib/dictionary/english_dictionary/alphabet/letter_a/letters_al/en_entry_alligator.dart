@@ -256,7 +256,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alligator (Derived forms: alligators, alligatoring, alligatored)
+- Noun: alligator (derived forms: alligators, alligatoring, alligatored)
 1. Leather made from alligator's hide
  
 2. Either of two amphibious reptiles related to crocodiles but with shorter broader snouts (= gator [informal])

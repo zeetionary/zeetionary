@@ -426,7 +426,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: assertion (Derived forms: assertions)
+- Noun: assertion (derived forms: assertions)
 1. A declaration that is made emphatically (as if no supporting evidence were necessary) (= averment, asseveration)
  
 2. The act of affirming, asserting or stating something (= affirmation, statement)

@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: aircraft (Derived forms: aircraft)
+- Noun: aircraft (derived forms: aircraft)
 1. A vehicle that can fly
 "the cover concealed their guns from enemy aircraft"
 '''),

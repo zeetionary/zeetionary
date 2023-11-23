@@ -253,7 +253,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: adorn (Derived forms: adorned, adorns, adorning)
+- Verb: adorn (derived forms: adorned, adorns, adorning)
 1. Make more attractive by adding ornament, colour, etc. (= decorate, grace, ornament, embellish, beautify)
 "adorn the room for the party";
  

@@ -427,7 +427,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: announcer (Derived forms: announcers)
+- Noun: announcer (derived forms: announcers)
 1. Someone who proclaims a message publicly
  
 2. Reads news, commercials on radio or television

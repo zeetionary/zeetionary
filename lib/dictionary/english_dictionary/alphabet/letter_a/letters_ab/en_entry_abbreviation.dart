@@ -220,7 +220,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abbreviation (Derived forms: abbreviations)
+- Noun: abbreviation (derived forms: abbreviations)
 1. A shortened form of a word or phrase
  
 2. Shortening something by omitting parts of it

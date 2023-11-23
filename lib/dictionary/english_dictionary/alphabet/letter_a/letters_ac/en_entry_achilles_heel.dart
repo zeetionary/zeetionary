@@ -252,7 +252,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: Achilles' heel (Derived forms: Achilles' heels)
+- Noun: Achilles' heel (derived forms: Achilles' heels)
 1. A seemingly small but actual mortal weakness 
 '''),
         ],

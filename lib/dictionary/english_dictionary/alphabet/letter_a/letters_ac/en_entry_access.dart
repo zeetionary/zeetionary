@@ -534,7 +534,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: access (Derived forms: accessing, accesses, accessed)
+- Noun: access (derived forms: accessing, accesses, accessed)
 1. The right to enter (= entrée, accession, admission, admittance)
  
 2. The right to obtain or make use of or take advantage of something (as services or membership)

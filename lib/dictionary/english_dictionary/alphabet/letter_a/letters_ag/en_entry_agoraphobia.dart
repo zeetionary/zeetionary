@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: agoraphobia (Derived forms: agoraphobias)
+- Noun: agoraphobia (derived forms: agoraphobias)
 1. A morbid fear of open spaces (as fear of being caught alone in some public place)
 '''),
         ],

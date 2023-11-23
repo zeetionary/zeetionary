@@ -375,12 +375,12 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: asphalt (Derived forms: asphalts)
+- Noun: asphalt (derived forms: asphalts)
 1. Mixed asphalt and crushed gravel or sand; used especially for paving but also for roofing
  
 2. A dark bituminous substance found in natural beds and as residue from petroleum distillation; consists mainly of hydrocarbons (= mineral pitch)
 
-- Verb: asphalt ((Derived forms: asphalted, asphalting, asphalts))
+- Verb: asphalt ((derived forms: asphalted, asphalting, asphalts))
 1. Cover with tar or asphalt
 "asphalt the driveway"
 """),

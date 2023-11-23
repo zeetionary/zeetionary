@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alcohol (Derived forms: alcohols)
+- Noun: alcohol (derived forms: alcohols)
 1. Any of a series of volatile hydroxyl compounds that are made from hydrocarbons by distillation
  
 2. A liquor or brew containing alcohol as the active agent (= alcoholic drink, alcoholic beverage, intoxicant, inebriant, booze [informal], juice [N. Amer, informal])

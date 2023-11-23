@@ -325,7 +325,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: agitation (Derived forms: agitations)
+- Noun: agitation (derived forms: agitations)
 1. A mental state of extreme emotional disturbance
  
 2. A state of agitation or turbulent change or development (= ferment, fermentation, tempestuousness, unrest)

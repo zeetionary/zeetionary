@@ -228,7 +228,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abscess (Derived forms: abscesses)
+- Noun: abscess (derived forms: abscesses)
 1. Symptom consisting of a localized collection of pus surrounded by inflamed tissue
 '''),
         ],

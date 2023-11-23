@@ -290,7 +290,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: accumulate (Derived forms: accumulated, accumulates, accumulating)
+- Verb: accumulate (derived forms: accumulated, accumulates, accumulating)
 1. Get or gather together (a large number of something) (= roll up, collect, pile up, amass, compile, hoard)
 "I am accumulating evidence for the man's unfaithfulness to his wife";
  

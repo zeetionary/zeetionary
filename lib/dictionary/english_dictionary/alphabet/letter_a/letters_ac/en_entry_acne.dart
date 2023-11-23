@@ -254,7 +254,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acne (Derived forms: acnes)
+- Noun: acne (derived forms: acnes)
 1. An inflammatory disease involving the sebaceous glands of the skin; characterized by papules, pustules or comedones
 '''),
         ],

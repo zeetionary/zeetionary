@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: appliance (Derived forms: appliances)
+- Noun: appliance (derived forms: appliances)
 1. A device or control that is very useful for a particular job (= contraption, contrivance, convenience, gadget, gizmo [informal], gismo [informal], widget)
  
 2. Durable goods for home or office use

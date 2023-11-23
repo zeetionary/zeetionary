@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: ashtray (Derived forms: ashtrays)
+- Noun: ashtray (derived forms: ashtrays)
 1. A receptacle for the ash from smokers' cigars or cigarettes
 """),
         ],

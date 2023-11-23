@@ -372,7 +372,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: all-clear (Derived forms: all-clears)
+- Noun: all-clear (derived forms: all-clears)
 1. A signal (usually a siren) that danger is over
  
 2. Permission to proceed because obstacles have been removed

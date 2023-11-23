@@ -367,7 +367,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: annihilation (Derived forms: annihilations)
+- Noun: annihilation (derived forms: annihilations)
 1. Destruction by annihilating something (= obliteration)
 
 2. Total destruction (= disintegration)

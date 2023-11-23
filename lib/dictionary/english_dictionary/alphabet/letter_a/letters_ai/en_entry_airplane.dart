@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: airplane (Derived forms: airplanes)
+- Noun: airplane (derived forms: airplanes)
 1. An aircraft that has a fixed wing and is powered by propellers or jets (= aeroplane [N. Amer], plane)
 "the flight was delayed due to trouble with the airplane";
 '''),

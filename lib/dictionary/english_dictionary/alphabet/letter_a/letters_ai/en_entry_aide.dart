@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: aide (Derived forms: aides)
+- Noun: aide (derived forms: aides)
 1. Someone who acts as assistant (= auxiliary)
  
 2. (military) an officer who acts as military assistant to a more senior officer (= adjutant, aide-de-camp)

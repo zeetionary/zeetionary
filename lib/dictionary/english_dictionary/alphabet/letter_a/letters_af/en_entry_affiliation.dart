@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: affiliation (Derived forms: affiliations)
+- Noun: affiliation (derived forms: affiliations)
 1. A social or business relationship (= association, tie, tie-up)
 "a valuable financial affiliation";
  

@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anniversary (Derived forms: anniversaries)
+- Noun: anniversary (derived forms: anniversaries)
 1. The date on which an event occurred in some previous year (or the celebration of it) (= day of remembrance)
 "We remembered the 50th anniversary of the liberation of Auschwitz";
 '''),

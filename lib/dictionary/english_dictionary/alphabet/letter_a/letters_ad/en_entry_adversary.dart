@@ -256,7 +256,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adversary (Derived forms: adversaries)
+- Noun: adversary (derived forms: adversaries)
 1. Someone who offers opposition (= antagonist, opponent, opposer, resister)
 '''),
         ],

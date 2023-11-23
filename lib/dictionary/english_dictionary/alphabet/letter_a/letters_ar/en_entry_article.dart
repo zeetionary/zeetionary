@@ -544,7 +544,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: article (Derived forms: articles)
+- Noun: article (derived forms: articles)
 1. Nonfictional prose forming an independent part of a publication
  
 2. One of a class of artifacts
@@ -556,7 +556,7 @@ class EnglishMeaning extends StatelessWidget {
  
 5. A tangible and visible entity; an entity that can cast a shadow (= object, physical object)
 
-- Verb: article (Derived forms: articles, articled, articling)
+- Verb: article (derived forms: articles, articled, articling)
 1. Bind by a contract; especially for a training period
 """),
         ],

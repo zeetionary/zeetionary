@@ -351,7 +351,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: accident (Derived forms: accidents)
+- Noun: accident (derived forms: accidents)
 1. An unfortunate mishap; especially one causing damage or injury
  
 2. Anything that happens suddenly or by chance without an apparent cause (= stroke, fortuity, chance event)

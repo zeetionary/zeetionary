@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anaemia (Derived forms: anaemias)
+- Noun: anaemia (derived forms: anaemias)
 Usage: Brit, Cdn (US: anemia)
 1. A deficiency of red blood cells (= anemia [N. Amer])
  

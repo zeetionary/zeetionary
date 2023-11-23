@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adrenaline (Derived forms: adrenalines)
+- Noun: adrenaline (derived forms: adrenalines)
 1. A catecholamine secreted by the adrenal medulla in response to stress (trade name Adrenalin); stimulates autonomic nerve action (= epinephrine, epinephrin, Adrenalin)
 '''),
         ],

@@ -432,14 +432,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arc (Derived forms: arcs)
+- Noun: arc (derived forms: arcs)
 1. Electrical conduction through a gas in an applied electric field (= discharge, spark, electric arc, electric discharge)
  
 2. A continuous portion of a circle
  
 3. Something curved in shape (= bow)
 
-- Verb: arc (Derived forms: arcs, arced, arcing)
+- Verb: arc (derived forms: arcs, arced, arcing)
 1. Form an arch or curve (= arch, curve)
 "her back arcs";
  

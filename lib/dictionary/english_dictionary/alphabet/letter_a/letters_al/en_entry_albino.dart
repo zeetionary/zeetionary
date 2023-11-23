@@ -319,7 +319,7 @@ class EnglishMeaning extends StatelessWidget {
 - Adjective: albino 
 1. Having albinism
 
-- Noun: albino (Derived forms: albinos)
+- Noun: albino (derived forms: albinos)
 1. An animal with congenital albinism
  
 2. A person with congenital albinism: white hair and milky skin; eyes are usually pink

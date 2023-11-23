@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: agriculture (Derived forms: agricultures)
+- Noun: agriculture (derived forms: agricultures)
 1. A large-scale farming enterprise (= agribusiness, factory farm)
  
 2. The practice of cultivating the land or raising stock (= farming, husbandry)

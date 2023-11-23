@@ -595,7 +595,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: abuse (Derived forms: abused, abuses, abusing)
+- Verb: abuse (derived forms: abused, abuses, abusing)
 1. Treat badly (= mistreat, maltreat, ill-use, ill-treat, step on [informal])
 "This boss abuses his workers";
  
@@ -611,7 +611,7 @@ class EnglishMeaning extends StatelessWidget {
 5. Subject to sexual assault (= sexually assault)
 "she was abused by her uncle";
 
-- Noun: abuse (Derived forms: abuses)
+- Noun: abuse (derived forms: abuses)
 1.Cruel or inhumane treatment (= maltreatment, ill-treatment, ill-usage)
 "the child showed signs of physical abuse";
  

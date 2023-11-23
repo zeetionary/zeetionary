@@ -352,7 +352,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: acquire (Derived forms: acquired, acquiring, acquires)
+- Verb: acquire (derived forms: acquired, acquiring, acquires)
 1. Come into the possession of something concrete or abstract (= get)
 "They acquired a new pet";
  

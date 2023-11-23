@@ -224,7 +224,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: abduct (Derived forms: abducted, abducting, abducts)
+- Verb: abduct (derived forms: abducted, abducting, abducts)
 1. Take away to an undisclosed location against their will and usually in order to extract a ransom (=kidnap, nobble [Brit, informal], snatch)
 "The industrialist's son was abducted";
  

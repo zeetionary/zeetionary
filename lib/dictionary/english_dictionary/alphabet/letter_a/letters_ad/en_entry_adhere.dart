@@ -300,7 +300,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: adhere (Derived forms: adhered, adheres, adhering)
+- Verb: adhere (derived forms: adhered, adheres, adhering)
 1. Be compatible or in accordance with
 "You must adhere to the rules"
  

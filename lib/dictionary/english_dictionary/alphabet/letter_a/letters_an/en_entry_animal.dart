@@ -645,7 +645,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: animal (Derived forms: animals)
+- Noun: animal (derived forms: animals)
 1. A living organism characterized by voluntary movement (= animate being, beast, brute, creature, fauna)
  
 2. Someone who treats others inhumanely, or is regarded as wildly violent or uncivilized (= brute)

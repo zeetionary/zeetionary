@@ -256,7 +256,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: ai (Derived forms: ais)
+- Noun: ai (derived forms: ais)
 1. A sloth that has three long claws on each forefoot and each hindfoot (= three-toed sloth, Bradypus tridactylus)
 
 - Noun: AI

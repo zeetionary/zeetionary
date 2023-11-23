@@ -312,7 +312,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aromatherapy (Derived forms: aromatherapies)
+- Noun: aromatherapy (derived forms: aromatherapies)
 1. The therapeutic use of aromatic plant extracts and essential oils in baths or massage
 """),
         ],

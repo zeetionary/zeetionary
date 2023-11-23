@@ -209,7 +209,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adder (Derived forms: adders)
+- Noun: adder (derived forms: adders)
 1. A person who adds numbers
  
 2. A machine that adds numbers

@@ -426,7 +426,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: artist (Derived forms: artists)
+- Noun: artist (derived forms: artists)
 1. Someone who makes paintings, drawings, or other artwork
  
 2. A person whose creative work shows sensitivity and imagination (= creative person)

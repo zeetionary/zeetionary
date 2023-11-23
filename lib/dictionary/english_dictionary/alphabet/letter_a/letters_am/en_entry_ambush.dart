@@ -327,10 +327,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-Noun: ambush (Derived forms: ambushed, ambushes, ambushing)
+Noun: ambush (derived forms: ambushed, ambushes, ambushing)
 1. The act of concealing yourself and lying in wait to attack by surprise (= ambuscade [archaic], lying in wait, trap)
 
-- Verb: ambush (Derived forms: ambushed, ambushes, ambushing)
+- Verb: ambush (derived forms: ambushed, ambushes, ambushing)
 1. Wait in hiding to attack (= scupper [informal], bushwhack [N. Amer], waylay, lurk, ambuscade [archaic], lie in wait)
 "They read about the bold proposal of leading out a party of French and Indians to ambush the English in the woods";
  

@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: aorta (Derived forms: aortae, aortas)
+- Noun: aorta (derived forms: aortae, aortas)
 1. The large trunk artery that carries blood from the left ventricle of the heart to branch arteries
 '''),
         ],

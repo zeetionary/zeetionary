@@ -312,7 +312,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aperitif (Derived forms: aperitifs)
+- Noun: aperitif (derived forms: aperitifs)
 1. Alcoholic beverage taken before a meal as an appetizer
 """),
         ],

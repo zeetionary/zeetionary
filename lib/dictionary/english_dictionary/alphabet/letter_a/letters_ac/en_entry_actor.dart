@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: actor (Derived forms: actors)
+- Noun: actor (derived forms: actors)
 1. A theatrical performer (= histrion, player, thespian, role player)
  
 2. A person who acts and gets things done (= doer, worker)

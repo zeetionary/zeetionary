@@ -316,13 +316,13 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alibi (Derived forms: alibis)
+- Noun: alibi (derived forms: alibis)
 1. (law) a defence by an accused person purporting to show that he or she could not have committed the crime in question
  
 2. A defence of some offensive behaviour or some failure to keep a promise etc. (= excuse, exculpation, self-justification)
 "every day he had a new alibi for not getting a job";
 
-- Verb: alibi (Derived forms: alibied, alibis, alibiing)
+- Verb: alibi (derived forms: alibied, alibis, alibiing)
 1. Exonerate by means of an alibi
 '''),
         ],

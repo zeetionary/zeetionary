@@ -432,7 +432,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aquamarine (Derived forms: aquamarines)
+- Noun: aquamarine (derived forms: aquamarines)
 1. A transparent variety of beryl that is blue green in colour
  
 2. A shade of blue tinged with green (= greenish blue, aqua, turquoise, cobalt blue, peacock blue)

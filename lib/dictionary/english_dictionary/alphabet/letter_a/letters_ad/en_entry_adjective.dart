@@ -254,7 +254,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adjective (Derived forms: adjectives)
+- Noun: adjective (derived forms: adjectives)
 1. A word that expresses an attribute of something
  
 2. The word class that qualifies nouns

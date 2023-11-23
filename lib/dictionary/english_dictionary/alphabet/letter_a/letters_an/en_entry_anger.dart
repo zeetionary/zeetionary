@@ -469,14 +469,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anger (Derived forms: angers)
+- Noun: anger (derived forms: angers)
 1. A strong emotion; a feeling that is oriented toward some real or supposed grievance (= choler, ire)
  
 2. The state of being angry (= angriness)
  
 3. Belligerence aroused by a real or supposed wrong (personified as one of the deadly sins) (= wrath, ire, ira)
 
-- Verb: anger (Derived forms: angers, angering, angered)
+- Verb: anger (derived forms: angers, angering, angered)
 1. Make angry
 "The news angered him"
  

@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anorak (Derived forms: anoraks)
+- Noun: anorak (derived forms: anoraks)
 1. A kind of heavy jacket (= parka, windbreaker [N. Amer], windcheater [Brit])
  
 2. [Brit, informal] Someone considered boring because of their obsessive hobby or narrow solitary interests (= trainspotter [Brit, informal], nerd [informal], spod [Brit, informal])

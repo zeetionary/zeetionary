@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: amaze (Derived forms: amazing, amazes, amazed)
+- Verb: amaze (derived forms: amazing, amazes, amazed)
 1. Fill with wonder or astonishment; greatly surprise (= astonish, astound)
 "Your ability to speak six languages amazes me!";
 '''),

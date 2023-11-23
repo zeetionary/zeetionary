@@ -317,7 +317,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: assassination (Derived forms: assassinations)
+- Noun: assassination (derived forms: assassinations)
 1. An attack intended to ruin someone's reputation (= character assassination, blackwash)
  
 2. Murder of a public figure by surprise attack

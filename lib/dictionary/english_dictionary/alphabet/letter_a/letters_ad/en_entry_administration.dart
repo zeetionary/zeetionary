@@ -491,7 +491,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: administration (Derived forms: administrations)
+- Noun: administration (derived forms: administrations)
 1. The work of organizing and managing the affairs of a business, organization or activity (= admin [informal])
  
 2. A method of tending to or managing the affairs of some group of people (especially the group's business affairs) (= disposal)

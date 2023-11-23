@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: aggression (Derived forms: aggressions)
+- Noun: aggression (derived forms: aggressions)
 1. A disposition to behave aggressively
  
 2. A feeling of hostility that arouses thoughts of attack (= aggressiveness)

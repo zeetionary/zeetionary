@@ -372,7 +372,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: agitate (Derived forms: agitating, agitates, agitated)
+- Verb: agitate (derived forms: agitating, agitates, agitated)
 1. Try to stir up public opinion (= foment, stir up)
  
 2. Cause to be agitated, excited, or roused (= rouse, turn on, charge, commove, excite, charge up)

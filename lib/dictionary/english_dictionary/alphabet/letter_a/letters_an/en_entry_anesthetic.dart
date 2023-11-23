@@ -315,7 +315,7 @@ Usage: N. Amer (elsewhere: anaesthetic)
  
 2. Relating to or producing insensibility (= anaesthetic [Brit, Cdn])
 
-- Noun: anesthetic (Derived forms: anesthetics)
+- Noun: anesthetic (derived forms: anesthetics)
 Usage: N. Amer (elsewhere: anaesthetic)
 1. A drug that causes temporary loss of bodily sensations (= anaesthetic [Brit, Cdn], anesthetic agent [N. Amer], anaesthetic agent [Brit, Cdn])
 '''),

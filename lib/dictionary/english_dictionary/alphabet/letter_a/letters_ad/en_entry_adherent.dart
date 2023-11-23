@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adherent (Derived forms: adherents)
+- Noun: adherent (derived forms: adherents)
 Someone who believes and helps to spread the doctrine of another (= disciple)
 
 - Adjective: adherent

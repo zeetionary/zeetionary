@@ -363,7 +363,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: advertise (Derived forms: advertises, advertising, advertised)
+- Verb: advertise (derived forms: advertises, advertising, advertised)
 1. Call attention to (= publicize, advertize [US, non-standard], publicise [Brit])
 "Please don't advertise the fact that he has AIDS";
  

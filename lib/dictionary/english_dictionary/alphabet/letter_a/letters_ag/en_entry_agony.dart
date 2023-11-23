@@ -307,7 +307,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: agony (Derived forms: agonies)
+- Noun: agony (derived forms: agonies)
 1. Intense feelings of suffering; acute mental or physical pain (= torment, torture)
 "an agony of doubt";
  

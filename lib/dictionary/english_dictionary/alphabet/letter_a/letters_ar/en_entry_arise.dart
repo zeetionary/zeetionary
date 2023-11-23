@@ -541,7 +541,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: arise (Derived forms: arising, arose, arises, arisen)
+- Verb: arise (derived forms: arising, arose, arises, arisen)
 1. Come into existence; take on form or shape (= originate, rise, develop, uprise, spring up, grow)
 "A new religious movement arose in that country";
  

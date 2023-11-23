@@ -310,11 +310,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: affront (Derived forms: affronts)
+- Noun: affront (derived forms: affronts)
 1. A deliberately offensive act or something producing the effect of deliberate disrespect (= insult)
 "turning his back on me was a deliberate affront";
 
-- Verb: affront (Derived forms: affronted, affronting, affronts)
+- Verb: affront (derived forms: affronted, affronting, affronts)
 1. Treat, mention, or speak to rudely (= diss [informal], insult, dis [informal])
 '''),
         ],

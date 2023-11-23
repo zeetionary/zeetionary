@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acupuncture (Derived forms: acupunctures)
+- Noun: acupuncture (derived forms: acupunctures)
 1. Treatment of pain or disease by inserting the tips of needles at specific points on the skin (stylostixis)
 '''),
         ],

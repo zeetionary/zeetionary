@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: adulterate (Derived forms: adulterated, adulterates, adulterating)
+- Adjective: adulterate (derived forms: adulterated, adulterates, adulterating)
 1. Mixed with impurities (= adulterated, debased)
 
 - Verb: adulterate 

@@ -237,7 +237,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abundance (Derived forms: abundances)
+- Noun: abundance (derived forms: abundances)
 1. The property of a more than adequate quantity or supply (= copiousness, teemingness)
 "an age of abundance";
  

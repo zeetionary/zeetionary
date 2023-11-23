@@ -254,7 +254,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: activate (Derived forms: activating, activated, activates)
+- Verb: activate (derived forms: activating, activated, activates)
 1. Put in motion, initiate (a device, reaction, circuit, etc) (= actuate, trigger, set off, spark off, spark, trigger off, touch off)
 "activate the circuits";
  

@@ -503,7 +503,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-Verb: aspirate (Derived forms: aspirated, aspirates, aspirating)
+Verb: aspirate (derived forms: aspirated, aspirates, aspirating)
 1. Pronounce with aspiration; of stop sounds
  
 2. Remove by suction (= draw out, suck out)
@@ -511,7 +511,7 @@ Verb: aspirate (Derived forms: aspirated, aspirates, aspirating)
  
 3. Inhale (air, water, etc.)
 
-- Noun: aspirate (Derived forms: aspirates)
+- Noun: aspirate (derived forms: aspirates)
 1. A consonant pronounced with aspiration
  
 2. A speech sound having as an obvious concomitant an audible puff of breath, as initial stop consonants or initial h -sounds.

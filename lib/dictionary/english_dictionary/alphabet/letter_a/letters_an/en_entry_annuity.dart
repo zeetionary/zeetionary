@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: annuity (Derived forms: annuities)
+- Noun: annuity (derived forms: annuities)
 1. Income from capital investment paid in a series of regular payments (= rente [rare])
 "his retirement fund was set up to be paid as an annuity";
 '''),

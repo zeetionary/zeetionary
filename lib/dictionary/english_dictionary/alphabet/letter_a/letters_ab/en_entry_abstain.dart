@@ -298,7 +298,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: abstain (Derived forms: abstained, abstains, abstaining)
+- Verb: abstain (derived forms: abstained, abstains, abstaining)
 1. Refrain from voting
  
 2. Restrain oneself from consuming or doing something (= refrain, desist)

@@ -359,7 +359,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anarchy (Derived forms: anarchies)
+- Noun: anarchy (derived forms: anarchies)
 1. A state of lawlessness and disorder (usually resulting from a failure of government) (= lawlessness)
  
 2. Society run on the principles of anarchism

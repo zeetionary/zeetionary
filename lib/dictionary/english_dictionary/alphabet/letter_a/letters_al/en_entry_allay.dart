@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: allay (Derived forms: allayed, allaying, allays)
+- Verb: allay (derived forms: allayed, allaying, allays)
 1. Lessen the intensity of or calm (= still, relieve, ease)
 "allay the fears";
  

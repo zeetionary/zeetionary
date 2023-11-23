@@ -227,7 +227,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: abolish (Derived forms: abolished, abolishes, abolishing)
+- Verb: abolish (derived forms: abolished, abolishes, abolishing)
 1. Do away with (=get rid of)
 "Slavery was abolished in the mid-19th century in America and in Russia";
 '''),

@@ -388,7 +388,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: ammunition (Derived forms: ammunitions)
+- Noun: ammunition (derived forms: ammunitions)
 1. Projectiles to be fired from a gun (= ammo)
  
 2. Any nuclear, chemical or biological material that can be used as a weapon of mass destruction

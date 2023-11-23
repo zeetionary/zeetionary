@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: ambiguity (Derived forms: ambiguities)
+- Noun: ambiguity (derived forms: ambiguities)
 1. An expression whose meaning cannot be determined from its context
  
 2. Unclearness by virtue of having more than one meaning (= equivocalness)

@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: ambassador (Derived forms: ambassadors)
+- Noun: ambassador (derived forms: ambassadors)
 1. A diplomat of the highest rank; accredited as representative from one country to another (= embassador)
  
 2. An informal representative

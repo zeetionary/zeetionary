@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
 - Adjective: antiretroviral
 1. Acting to combats infection by retroviruses such as HIV
 
-- Noun: antiretroviral (Derived forms: antiretrovirals)
+- Noun: antiretroviral (derived forms: antiretrovirals)
 1. An antiretroviral drug
 '''),
         ],

@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: altruism (Derived forms: altruisms)
+- Noun: altruism (derived forms: altruisms)
 1. The quality of unselfish concern for the welfare of others (= selflessness)
 "among his gifts is his capacity for true altruism";
 '''),

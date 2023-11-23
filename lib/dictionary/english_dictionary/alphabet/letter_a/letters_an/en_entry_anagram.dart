@@ -305,7 +305,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anagram (Derived forms: anagrammed, anagramming, anagrams)
+- Noun: anagram (derived forms: anagrammed, anagramming, anagrams)
 1. A word or phrase spelled by rearranging the letters of another word or phrase
 "An anagram of ‘Elvis’ is ‘lives’."; ""Neat" is an anagram of "a net".";
 

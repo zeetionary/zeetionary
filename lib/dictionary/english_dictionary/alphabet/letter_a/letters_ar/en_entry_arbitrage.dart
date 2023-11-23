@@ -312,10 +312,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arbitrage (Derived forms: arbitrages)
+- Noun: arbitrage (derived forms: arbitrages)
 1. A kind of hedged investment meant to capture slight differences in price; when there is a difference in the price of something on two different markets the arbitrageur simultaneously buys at the lower price and sells at the higher price
 
-- Verb: arbitrage (Derived forms: arbitraging, arbitrages, arbitraged)
+- Verb: arbitrage (derived forms: arbitraging, arbitrages, arbitraged)
 1. Practice arbitrage, as in the stock market
 """),
         ],

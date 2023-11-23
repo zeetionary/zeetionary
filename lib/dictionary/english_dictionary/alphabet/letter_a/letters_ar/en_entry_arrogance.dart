@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arrogance (Derived forms: arrogances)
+- Noun: arrogance (derived forms: arrogances)
 1. Overbearing pride evidenced by a superior manner toward inferiors (= haughtiness, hauteur, high-handedness, lordliness)
 "arrogance and lack of taste contributed to his rapid success";
 """),

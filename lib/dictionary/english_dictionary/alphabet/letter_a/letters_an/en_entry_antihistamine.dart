@@ -311,7 +311,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: antihistamine (Derived forms: antihistamines)
+- Noun: antihistamine (derived forms: antihistamines)
 1. A medicine used to treat allergies and hypersensitive reactions and colds; works by counteracting the effects of histamine on a receptor site
 '''),
         ],

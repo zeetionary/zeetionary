@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: amphetamine (Derived forms: amphetamines),
+- Noun: amphetamine (derived forms: amphetamines),
 1. A central nervous system stimulant that increases energy and decreases appetite; used to treat narcolepsy and some forms of depression (= pep pill [informal], upper [informal], speed [informal])
 '''),
         ],

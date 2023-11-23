@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: archipelago (Derived forms: archipelagoes, archipelagos)
+- Noun: archipelago (derived forms: archipelagoes, archipelagos)
 1. A group of many islands in a large body of water
 """),
         ],

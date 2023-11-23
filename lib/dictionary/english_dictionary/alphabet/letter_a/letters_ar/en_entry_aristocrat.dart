@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aristocrat (Derived forms: aristocrats)
+- Noun: aristocrat (derived forms: aristocrats)
 1. A member of the aristocracy (= blue blood, patrician, aristo [informal])
 "the conduct of a gambling aristocrat";
 """),

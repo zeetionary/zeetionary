@@ -221,7 +221,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abnormality (Derived forms: abnormalities)
+- Noun: abnormality (derived forms: abnormalities)
 1. An abnormal physical condition resulting from defective genes or developmental deficiencies (=abnormalcy [US])
  
 2. Retardation sufficient to fall outside the normal range of intelligence (=mental defectiveness)

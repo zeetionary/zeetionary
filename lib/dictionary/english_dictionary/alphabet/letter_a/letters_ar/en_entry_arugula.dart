@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arugula (Derived forms: arugulas)
+- Noun: arugula (derived forms: arugulas)
 Usage: N. Amer (elsewhere: rocket)
 1. Erect European annual often grown as a salad crop to be harvested when young and tender (= rocket, roquette, garden rocket, rocket salad, Eruca sativa, Eruca vesicaria sativa, rucola [N. Amer], rugola [N. Amer])
 """),

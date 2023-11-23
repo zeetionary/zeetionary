@@ -365,7 +365,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: apathy (Derived forms: apathies)
+- Noun: apathy (derived forms: apathies)
 1. An absence of emotion or enthusiasm
  
 2. The trait of lacking enthusiasm for or interest in things generally (= indifference, numbness, spiritlessness)

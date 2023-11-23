@@ -268,11 +268,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: amble (Derived forms: ambled, ambles, ambling)
+- Verb: amble (derived forms: ambled, ambles, ambling)
 1. Walk leisurely (= mosey [informal], truck [informal])
 "Bobbie told Reggie she was going to amble over to the post office";
 
-- Noun: amble (Derived forms: ambled, ambles, ambling)
+- Noun: amble (derived forms: ambled, ambles, ambling)
 1. A leisurely walk (usually in some public place) (= promenade, saunter, stroll, perambulation)
 '''),
         ],

@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: amalgamation (Derived forms: amalgamations)
+- Noun: amalgamation (derived forms: amalgamations)
 1. The combination of two or more commercial companies (= merger, uniting)
 '''),
         ],

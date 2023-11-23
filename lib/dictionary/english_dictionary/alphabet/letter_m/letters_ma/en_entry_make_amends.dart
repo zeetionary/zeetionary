@@ -330,7 +330,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: make amends (Derived forms: makes amends, made amends, making amends)
+- Verb: make amends (derived forms: makes amends, made amends, making amends)
 1. Make up for, compensate or make reparation for wrongdoing or causing offence (= expiate, aby [archaic], abye [archaic], atone)
 '''),
         ],

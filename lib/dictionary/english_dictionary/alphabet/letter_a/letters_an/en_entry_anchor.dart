@@ -712,7 +712,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: anchor (Derived forms: anchors, anchoring, anchored)
+- Verb: anchor (derived forms: anchors, anchoring, anchored)
 1. Fix firmly and stably (= ground)
 "anchor the lamppost in concrete";
  
@@ -721,7 +721,7 @@ class EnglishMeaning extends StatelessWidget {
  
 3. [N. Amer] Serve as an anchorperson
 
-- Noun: anchor (Derived forms: anchors)
+- Noun: anchor (derived forms: anchors)
 1. A mechanical device that prevents a vessel from moving (= ground tackle)
  
 2. A central cohesive source of support and stability (= mainstay, keystone, backbone, linchpin, lynchpin)

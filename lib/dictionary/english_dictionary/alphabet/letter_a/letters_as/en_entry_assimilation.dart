@@ -385,7 +385,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: assimilation (Derived forms: assimilations)
+- Noun: assimilation (derived forms: assimilations)
 1. The state of being assimilated; people of different backgrounds come to see themselves as part of a larger national family
  
 2. The social process of absorbing one cultural group into harmony with another (= absorption)

@@ -373,7 +373,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arena (Derived forms: arenas)
+- Noun: arena (derived forms: arenas)
 1. A particular environment or walk of life (= sphere, domain, area, orbit, field)
 "his social arena is limited";
  

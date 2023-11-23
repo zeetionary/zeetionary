@@ -418,7 +418,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: adjust (Derived forms: adjusts, adjusted, adjusting)
+- Verb: adjust (derived forms: adjusts, adjusted, adjusting)
 1. Alter or regulate so as to achieve accuracy or conform to a standard (= set, correct)
 "Adjust the clock, please";
  

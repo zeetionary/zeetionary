@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: addiction (Derived forms: addictions)
+- Noun: addiction (derived forms: addictions)
 1. Being abnormally tolerant to and dependent on something that is psychologically or physically habit-forming (especially alcohol or narcotic drugs) (= dependence, dependance [non-standard], dependency, habituation)
  
 2. An abnormally strong craving

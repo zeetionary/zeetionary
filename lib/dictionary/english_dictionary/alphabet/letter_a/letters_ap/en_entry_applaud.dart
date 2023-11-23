@@ -371,7 +371,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: applaud (Derived forms: applauded, applauds, applauding)
+- Verb: applaud (derived forms: applauded, applauds, applauding)
 1. Clap one's hands or shout after performances to indicate approval (= clap, spat, acclaim)
  
 2. Express that something is worthy of praise

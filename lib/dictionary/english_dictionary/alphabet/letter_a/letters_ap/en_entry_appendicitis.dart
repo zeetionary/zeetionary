@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: appendicitis (Derived forms: appendicitises)
+- Noun: appendicitis (derived forms: appendicitises)
 1. Inflammation of the vermiform appendix
 """),
         ],

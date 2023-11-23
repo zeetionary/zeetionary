@@ -544,7 +544,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: assembly (Derived forms: assemblies)
+- Noun: assembly (derived forms: assemblies)
 1. A group of machine parts that fit together to form a self-contained unit
  
 2. The act of constructing something (as a piece of machinery) (= fabrication)

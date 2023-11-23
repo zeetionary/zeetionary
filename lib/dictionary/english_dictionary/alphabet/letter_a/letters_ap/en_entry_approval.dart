@@ -475,7 +475,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: approval (Derived forms: approvals)
+- Noun: approval (derived forms: approvals)
 1. The formal act of approving (= blessing, approving)
 "his decision merited the approval of any sensible person";
  

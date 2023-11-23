@@ -235,7 +235,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abseil (N. Amer: rappel) (Derived forms: abseiled, abseils, abseiling)
+- Noun: abseil (N. Amer: rappel) (derived forms: abseiled, abseils, abseiling)
 1. (mountaineering) a descent of a vertical cliff or wall made by using a doubled rope that is fixed to a higher point and wrapped around the body (= rappel)
 
 - Verb: abseil

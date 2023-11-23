@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: adolescent (Derived forms: adolescents)
+- Adjective: adolescent (derived forms: adolescents)
 1. Being of the age 13 through 19 (teen, teenage, teenaged)
 "the adolescent years";
  

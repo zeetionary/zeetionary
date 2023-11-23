@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: antibiotic (Derived forms: antibiotics)
+- Noun: antibiotic (derived forms: antibiotics)
 1. A chemical substance derivable from a mould or bacterium that can kill microorganisms and cure bacterial infections (= antibiotic drug)
 "when antibiotics were first discovered they were called wonder drugs";
 

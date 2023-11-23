@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: agitator (Derived forms: agitators)
+- Noun: agitator (derived forms: agitators)
 1. One who agitates; a political troublemaker (= fomenter)
 '''),
         ],

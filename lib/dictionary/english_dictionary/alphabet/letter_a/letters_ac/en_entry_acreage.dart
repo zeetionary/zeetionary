@@ -254,7 +254,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-Noun: acreage (Derived forms: acreages)
+Noun: acreage (derived forms: acreages)
 1. An area of ground used for some particular purpose (such as building or farming) (= land area)
 "he wanted some acreage to build on";
 '''),

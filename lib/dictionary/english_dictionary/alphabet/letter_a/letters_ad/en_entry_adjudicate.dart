@@ -253,7 +253,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: adjudicate (Derived forms: adjudicating, adjudicates, adjudicated)
+- Verb: adjudicate (derived forms: adjudicating, adjudicates, adjudicated)
 1. Hear a case and sit as the judge at a trial or hearing (= judge, try)
  
 2. Bring to an end; come to a final conclusion (= decide, settle, resolve)

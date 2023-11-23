@@ -319,7 +319,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-Noun: amphitheatre (Derived forms: amphitheatres)
+Noun: amphitheatre (derived forms: amphitheatres)
 1. (dramaturgy) a sloping gallery with seats for spectators (as in an operating room or theatre) (= amphitheater [US])
  
 2. An oval large stadium with tiers of seats; an arena in which contests and spectacles are held (= amphitheater [US], coliseum)

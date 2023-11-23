@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: allergy (Derived forms: allergies)
+- Noun: allergy (derived forms: allergies)
 1. Hypersensitivity reaction to a particular allergen; symptoms can vary greatly in intensity (= allergic reaction)
 '''),
         ],

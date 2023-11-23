@@ -426,7 +426,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: amusement (Derived forms: amusements)
+- Noun: amusement (derived forms: amusements)
 1. A feeling of delight at being entertained
  
 2. An activity that is diverting and that holds the attention (= entertainment)

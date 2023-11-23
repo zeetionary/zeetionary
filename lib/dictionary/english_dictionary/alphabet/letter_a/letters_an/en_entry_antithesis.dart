@@ -371,7 +371,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: antithesis (Derived forms: antitheses)
+- Noun: antithesis (derived forms: antitheses)
 1. Exact opposite
 "his theory is the antithesis of mine"
  

@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: allusion (Derived forms: allusions)
+- Noun: allusion (derived forms: allusions)
 1. Passing reference or indirect mention
 "did you catch that allusion?"
 '''),

@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adaptation (Derived forms: adaptations)
+- Noun: adaptation (derived forms: adaptations)
 1. A written work (as a novel) that has been recast in a new form (= version)
 "the play is an adaptation of a short novel";
  

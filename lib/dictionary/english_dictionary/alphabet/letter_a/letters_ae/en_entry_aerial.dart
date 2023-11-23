@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: aerial (Derived forms: aerials)
+- Noun: aerial (derived forms: aerials)
 1. An electrical device that sends or receives radio or television signals (= antenna, transmitting aerial)
  
 2. A pass to a receiver downfield from the passer (= forward pass)

@@ -207,7 +207,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: aircraft carrier (Derived forms: aircraft carriers, aircraft carrier)
+- Noun: aircraft carrier (derived forms: aircraft carriers, aircraft carrier)
 1. A large warship that carries planes and has a long flat deck for takeoffs and landings (= carrier, flattop [US, informal], attack aircraft carrier)
 '''),
         ],

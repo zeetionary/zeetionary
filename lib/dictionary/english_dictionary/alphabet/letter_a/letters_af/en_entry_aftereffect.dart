@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: aftereffect (Derived forms: aftereffects)
+- Noun: aftereffect (derived forms: aftereffects)
 1. Any result that follows its cause after an interval
  
 2. A delayed effect of a drug or therapy

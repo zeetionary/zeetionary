@@ -357,13 +357,13 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: affiliate (Derived forms: affiliates)
+- Noun: affiliate (derived forms: affiliates)
 1. A subordinate or subsidiary associate; a person who is affiliated with another or with an organization
  
 2. A subsidiary or subordinate organization that is affiliated with another organization
 "network affiliates"
 
-- Verb: affiliate (Derived forms: affiliating, affiliates, affiliated)
+- Verb: affiliate (derived forms: affiliating, affiliates, affiliated)
 1. Keep company with; hang out with (= consort, associate, assort)
 "She affiliates with her colleagues";
 

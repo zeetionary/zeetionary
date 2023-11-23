@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: antidote (Derived forms: antidotes)
+- Noun: antidote (derived forms: antidotes)
 1. A remedy that stops or controls the effects of a poison (= counterpoison)
 "an infallible antidote";
 '''),

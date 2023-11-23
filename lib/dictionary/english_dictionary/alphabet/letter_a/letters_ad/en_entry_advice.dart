@@ -303,7 +303,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: advice (Derived forms: advices)
+- Noun: advice (derived forms: advices)
 1. A recommendation or proposal for an appropriate course of action
 '''),
         ],

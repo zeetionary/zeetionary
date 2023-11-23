@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adoration (Derived forms: adorations)
+- Noun: adoration (derived forms: adorations)
 1. A feeling of profound love and admiration (= worship)
  
 2. The act of admiring strongly (= idolization, idolisation [Brit])

@@ -365,7 +365,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: addition (Derived forms: additions)
+- Noun: addition (derived forms: additions)
 1. A component that is added to something to improve it (add-on, improver)
 "the addition of a bathroom was a major improvement";
  

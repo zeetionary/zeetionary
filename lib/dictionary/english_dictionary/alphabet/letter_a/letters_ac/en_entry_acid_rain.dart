@@ -254,7 +254,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acid rain (Derived forms: acid rains)
+- Noun: acid rain (derived forms: acid rains)
 1. Rain containing acids that form in the atmosphere when industrial gas emissions (especially sulphur dioxide and nitrogen oxides) combine with water (= acid precipitation)
 '''),
         ],

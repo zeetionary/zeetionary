@@ -708,7 +708,7 @@ class EnglishMeaning extends StatelessWidget {
 2. In or to a place that is higher
 - higher up, in a higher place, to a higher place
 
-- Noun: above (Derived forms: aboves)
+- Noun: above (derived forms: aboves)
 1. An earlier section of a written text
 "for instructions refer to the above"
 

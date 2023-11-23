@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: admiration (Derived forms: admirations)
+- Noun: admiration (derived forms: admirations)
 1. A feeling of delighted approval and liking (= esteem)
  
 2 The feeling aroused by something strange and surprising (= wonder, wonderment)

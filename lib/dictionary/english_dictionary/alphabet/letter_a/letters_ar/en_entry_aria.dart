@@ -312,7 +312,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aria (Derived forms: arias)
+- Noun: aria (derived forms: arias)
 1. An elaborate song for solo voice
 "This song takes off from a famous aria"
 """),

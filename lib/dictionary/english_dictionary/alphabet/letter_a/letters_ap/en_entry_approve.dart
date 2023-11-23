@@ -482,7 +482,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: approve (Derived forms: approved, approves, approving)
+- Verb: approve (derived forms: approved, approves, approving)
 1. Give permission or approval for something (= O.K., okay, sanction, greenlight, OK, green-light)
 "I will approve his educational policies";
  

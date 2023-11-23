@@ -371,7 +371,7 @@ class EnglishMeaning extends StatelessWidget {
 1. Furnishing added support (= accessory, adjunct, adjuvant, appurtenant, auxiliary)
 "an ancillary pump";
 
-- Noun: ancillary (Derived forms: ancillaries)
+- Noun: ancillary (derived forms: ancillaries)
 1. Someone or something that serves an ancillary function
 '''),
         ],

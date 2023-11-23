@@ -359,7 +359,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: annexation (Derived forms: annexations)
+- Noun: annexation (derived forms: annexations)
 1. Incorporation by joining or uniting (= appropriation)
  
 2. The formal act of acquiring something (especially territory) by conquest or occupation

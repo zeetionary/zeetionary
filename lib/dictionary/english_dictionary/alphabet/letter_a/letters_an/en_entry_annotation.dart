@@ -360,7 +360,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: annotation (Derived forms: annotations)
+- Noun: annotation (derived forms: annotations)
 1. A comment or instruction (usually added) (= note, notation)
 "his annotations were appended at the end of the article";
  

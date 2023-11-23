@@ -395,7 +395,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: accompany (Derived forms: accompanies, accompanied, accompanying)
+- Verb: accompany (derived forms: accompanies, accompanied, accompanying)
 1. Be present or associated with an event or entity (= attach to, come with, go with)
 "heart attacks are accompanied by destruction of heart tissue"; "this kind of vein accompanies certain arteries";
  

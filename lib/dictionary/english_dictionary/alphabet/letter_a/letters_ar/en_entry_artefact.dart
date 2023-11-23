@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: artefact (Derived forms: artefacts)
+- Noun: artefact (derived forms: artefacts)
 Usage: Brit (N. Amer: artifact)
 1. A man-made object taken as a whole (= artifact [N. Amer])
  

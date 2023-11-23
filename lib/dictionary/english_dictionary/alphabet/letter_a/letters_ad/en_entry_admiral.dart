@@ -253,7 +253,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: admiral (Derived forms: admirals)
+- Noun: admiral (derived forms: admirals)
 1. The supreme commander of a fleet; ranks above a vice admiral and below a fleet admiral (= full admiral)
  
 2. Any of several brightly coloured butterflies

@@ -483,7 +483,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: argue (Derived forms: arguing, argued, argues)
+- Verb: argue (derived forms: arguing, argued, argues)
 1. Present reasons and arguments (= reason)
  
 2. Have an argument about something (= contend, debate, fence)

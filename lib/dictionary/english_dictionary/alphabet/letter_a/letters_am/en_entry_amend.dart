@@ -318,7 +318,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: amend (Derived forms: amended, amending, amends)
+- Verb: amend (derived forms: amended, amending, amends)
 1. Make amendments to
 "amend the document"
  

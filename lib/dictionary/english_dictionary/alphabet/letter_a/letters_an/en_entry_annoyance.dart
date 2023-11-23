@@ -419,7 +419,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: annoyance (Derived forms: annoyances)
+- Noun: annoyance (derived forms: annoyances)
 1. The psychological state of being irritated or annoyed (= irritation, vexation, botheration [informal])
  
 2. Anger produced by some annoying irritation (= chafe, vexation)

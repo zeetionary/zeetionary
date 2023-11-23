@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anorexia (Derived forms: anorexias)
+- Noun: anorexia (derived forms: anorexias)
 1. A prolonged disorder of eating due to loss of appetite
  
 2. (psychiatry) a psychological disorder characterized by somatic delusions that you are too fat despite being emaciated (= anorexia nervosa)

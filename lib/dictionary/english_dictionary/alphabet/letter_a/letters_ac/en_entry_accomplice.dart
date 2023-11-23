@@ -237,7 +237,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: accomplice (Derived forms: accomplices)
+- Noun: accomplice (derived forms: accomplices)
 1. A person who joins with another in carrying out some plan (especially an unethical or illegal plan) (= confederate)
 '''),
         ],

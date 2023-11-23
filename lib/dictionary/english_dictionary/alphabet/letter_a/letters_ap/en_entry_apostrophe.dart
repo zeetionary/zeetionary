@@ -483,7 +483,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: apostrophe (Derived forms: apostrophes)
+- Noun: apostrophe (derived forms: apostrophes)
 1. Address to an absent or imaginary person
  
 2. The mark (') used to indicate the omission of one or more letters from a printed word

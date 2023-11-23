@@ -366,13 +366,13 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: ambition (Derived forms: ambitioning, ambitioned, ambitions)
+- Noun: ambition (derived forms: ambitioning, ambitioned, ambitions)
 1. A cherished desire (= aspiration, dream)
 "his ambition is to own his own business";
  
 2. A strong drive for success (= ambitiousness)
 
-- Verb: ambition (Derived forms: ambitioning, ambitioned, ambitions)
+- Verb: ambition (derived forms: ambitioning, ambitioned, ambitions)
 1. Have as one's ambition
 '''),
         ],

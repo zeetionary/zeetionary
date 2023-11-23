@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: architect (Derived forms: architected, architecting, architects)
+- Noun: architect (derived forms: architected, architecting, architects)
 1. Someone who creates plans to be used in making something (such as buildings) (= designer)
 
 - Verb: architect 

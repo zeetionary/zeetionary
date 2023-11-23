@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: amass (Derived forms: amassing, amasses, amassed)
+- Verb: amass (derived forms: amassing, amasses, amassed)
 1. Collect in one place, esp. growing to a large number or quantity (= accumulate, cumulate, conglomerate, pile up, gather)
 "Journals are amassing in my office";
  

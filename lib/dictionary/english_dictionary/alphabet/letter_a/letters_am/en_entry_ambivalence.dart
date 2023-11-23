@@ -259,7 +259,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: ambivalence (Derived forms: ambivalences)
+- Noun: ambivalence (derived forms: ambivalences)
 1. Mixed feelings or emotions (= ambivalency)
 '''),
         ],

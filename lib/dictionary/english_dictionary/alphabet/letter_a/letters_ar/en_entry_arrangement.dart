@@ -603,7 +603,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arrangement (Derived forms: arrangements)
+- Noun: arrangement (derived forms: arrangements)
 1. The thing arranged or agreed to (= agreement)
 "they made arrangements to meet in Chicago";
  

@@ -367,7 +367,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anchorage (Derived forms: anchorages)
+- Noun: anchorage (derived forms: anchorages)
 1. A fee for anchoring
  
 2. Place for vessels to anchor (= anchorage ground)

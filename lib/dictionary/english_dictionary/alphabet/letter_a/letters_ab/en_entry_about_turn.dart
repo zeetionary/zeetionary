@@ -225,7 +225,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: about turn  u'bawt turn (Derived forms: about turns)
+- Noun: about turn  u'bawt turn (derived forms: about turns)
 1. Act of pivoting 180 degrees, especially in a military formation (= about-face)
 '''),
         ],

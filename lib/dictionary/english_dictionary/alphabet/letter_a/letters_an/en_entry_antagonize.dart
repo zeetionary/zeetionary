@@ -307,7 +307,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: antagonize (Derived forms: antagonizing, antagonizes, antagonized)
+- Verb: antagonize (derived forms: antagonizing, antagonizes, antagonized)
 1. Provoke the hostility of (= antagonise [Brit])
 "Don't antagonize your boss";
  

@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: apparatus (Derived forms: apparatuses)
+- Noun: apparatus (derived forms: apparatuses)
 1. Equipment designed to serve a specific function (= setup)
  
 2. (anatomy) a group of body parts that work together to perform a given function

@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: archery (Derived forms: archeries)
+- Noun: archery (derived forms: archeries)
 1. The sport of shooting arrows with a bow
 """),
         ],

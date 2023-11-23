@@ -424,7 +424,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: apprehension (Derived forms: apprehensions)
+- Noun: apprehension (derived forms: apprehensions)
 1. Fearful expectation or anticipation (= apprehensiveness, dread, misgiving)
 "the student looked around the examination room with apprehension";
  

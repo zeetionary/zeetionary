@@ -259,7 +259,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alternating current (Derived forms: alternating currents)
+- Noun: alternating current (derived forms: alternating currents)
 1. An electric current that reverses direction sinusoidally (= AC, alternating electric current)
 "In the US most household current is alternating current at 60 cycles per second"; 
 '''),

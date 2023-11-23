@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: antler (Derived forms: antlers)
+- Noun: antler (derived forms: antlers)
 1. Deciduous horn of a member of the deer family
 '''),
         ],

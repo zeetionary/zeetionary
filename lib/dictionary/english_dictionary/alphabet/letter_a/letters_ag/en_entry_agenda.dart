@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
--Noun: agenda (Derived forms: agendas)
+-Noun: agenda (derived forms: agendas)
 1. A temporally organized plan for matters to be attended to (= docket, schedule)
  
 2. A list of matters to be taken up (as at a meeting) (= order of business)

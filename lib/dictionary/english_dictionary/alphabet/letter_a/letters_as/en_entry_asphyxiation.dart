@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: asphyxiation (Derived forms: asphyxiations)
+- Noun: asphyxiation (derived forms: asphyxiations)
 1. The condition of being deprived of oxygen (as by having breathing stopped) (= suffocation)
 "asphyxiation is sometimes used as a form of torture";
  

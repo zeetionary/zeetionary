@@ -445,7 +445,7 @@ class EnglishMeaning extends StatelessWidget {
 2. Characteristic of or containing alcohol
 "alcoholic drinks"
 
-- Noun: alcoholic (Derived forms: alcoholics)
+- Noun: alcoholic (derived forms: alcoholics)
 1. A person who drinks alcohol to excess habitually (= alky [informal], dipsomaniac, boozer [informal], lush [N. Amer, informal], soaker [informal], souse [informal], dipso [informal], winebibber [archaic], alkie [informal], tosspot [informal], drunkard, drunk, rummy, sot, inebriate, wino [informal])
 '''),
         ],

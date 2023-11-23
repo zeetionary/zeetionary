@@ -323,7 +323,7 @@ class EnglishMeaning extends StatelessWidget {
 2. Most powerful, important or influential (= ascendent, dominating)
 "the economically ascendant class";
 
-- Noun: ascendant (Derived forms: ascendants)
+- Noun: ascendant (derived forms: ascendants)
 1. Position or state of being dominant or in control (= ascendent)
 "that idea was in the ascendant";
  

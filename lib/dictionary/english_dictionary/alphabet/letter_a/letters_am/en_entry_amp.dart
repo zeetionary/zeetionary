@@ -304,14 +304,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: amp (Derived forms: amps)
+- Noun: amp (derived forms: amps)
 1. The basic unit of electric current adopted under the Système International d'Unités. (= ampere, A) 
 "a typical household circuit carries 15 to 50 amps";
  
 2. [informal] Electronic equipment that increases strength of signals passing through it (= amplifier)
 "he didn't have the right connector between the amp and the speakers";
 
-- Verb: amp (Derived forms: amping, amps, amped)
+- Verb: amp (derived forms: amping, amps, amped)
 Usage: informal
 1. Increase the volume of (= amplify)
 

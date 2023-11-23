@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: archer (Derived forms: archers)
+- Noun: archer (derived forms: archers)
 1. A person who is expert in the use of a bow and arrow (= bowman)
 
 - Noun: Archer 

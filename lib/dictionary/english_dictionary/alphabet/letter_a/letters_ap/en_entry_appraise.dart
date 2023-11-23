@@ -430,7 +430,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: appraise (Derived forms: appraises, appraising, appraised)
+- Verb: appraise (derived forms: appraises, appraising, appraised)
 Estimate or determine the nature, value, quality, ability, extent, or significance of (= measure, evaluate, valuate, assess, value, scope)
 "I will have the family jewels appraised by a professional";
  

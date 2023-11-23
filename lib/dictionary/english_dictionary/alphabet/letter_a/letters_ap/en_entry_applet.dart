@@ -312,7 +312,7 @@ class EnglishMeaning extends StatelessWidget {
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
 - Noun: applet 
-1. A Java application; an application program that uses the client's web browser to provide a user interface (Derived forms: applets)
+1. A Java application; an application program that uses the client's web browser to provide a user interface (derived forms: applets)
 """),
         ],
       ),

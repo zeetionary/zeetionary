@@ -660,7 +660,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: appeal (Derived forms: appealing, appealed, appeals)
+- Noun: appeal (derived forms: appealing, appealed, appeals)
 1. Earnest or urgent request (= entreaty, prayer, suppliance)
 "an appeal for help";
  
@@ -678,7 +678,7 @@ class EnglishMeaning extends StatelessWidget {
  
 6. (cricket) the act, by the fielding side, of asking an umpire for a decision of whether a batsman is out or not
 
-- Verb: appeal (Derived forms: appealing, appealed, appeals)
+- Verb: appeal (derived forms: appealing, appealed, appeals)
 1. Take a court case to a higher court for review
 "He was found guilty but appealed immediately"
  

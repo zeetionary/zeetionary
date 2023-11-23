@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alley (Derived forms: alleys)
+- Noun: alley (derived forms: alleys)
 1. A narrow street with walls on both sides (= alleyway, back street, backstreet)
  
 2. A lane down which a bowling ball is rolled toward pins (= bowling alley, skittle alley)

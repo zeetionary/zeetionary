@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: album (Derived forms: albums)
+- Noun: album (derived forms: albums)
 1. One or more recordings issued together; originally released on 12-inch phonograph records (usually with attractive record covers) and later on cassette audiotape and compact disc (= record album)
  
 2. A book of blank pages with pockets or envelopes; for organizing photographs or stamp collections etc

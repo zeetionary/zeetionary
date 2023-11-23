@@ -298,7 +298,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acrylic (Derived forms: acrylics)
+- Noun: acrylic (derived forms: acrylics)
 1. Polymerized from acrylonitrile (= acrylic fiber)
  
 2. A glassy thermoplastic; can be cast and moulded or used in coatings and adhesives (= acrylic resin, acrylate resin)

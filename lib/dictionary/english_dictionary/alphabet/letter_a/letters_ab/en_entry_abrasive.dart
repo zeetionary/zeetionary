@@ -298,7 +298,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: abrasive (Derived forms: abrasives)
+- Adjective: abrasive (derived forms: abrasives)
 1. Causing abrasion (= scratchy)
  
 2. Sharply disagreeable; rigorous (= harsh)

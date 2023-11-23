@@ -371,7 +371,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: appoint (Derived forms: appoints, appointing, appointed)
+- Verb: appoint (derived forms: appoints, appointing, appointed)
 1. Create and charge with a task or function (= name, nominate, constitute)
 "appoint a committee";
  

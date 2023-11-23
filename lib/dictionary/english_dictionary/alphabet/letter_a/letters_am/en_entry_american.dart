@@ -444,7 +444,7 @@ class EnglishMeaning extends StatelessWidget {
 2. Of or relating to or characteristic of the continents and islands of the Americas
 "the American hemisphere"; "American flora and fauna"
 
-- Noun: American ((Derived forms: Americans))
+- Noun: American ((derived forms: Americans))
 1. A native or inhabitant of the United States
  
 2. A native or inhabitant of a North American or Central American or South American country

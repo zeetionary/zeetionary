@@ -481,7 +481,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: acute (Derived forms: acutest, acuter)
+- Adjective: acute (derived forms: acutest, acuter)
 1. Of critical importance and consequence
 "an acute (or critical) lack of research funds"
  
@@ -498,7 +498,7 @@ class EnglishMeaning extends StatelessWidget {
  
 6. Of an angle; less than 90 degrees
 
-- Noun: acute (Derived forms: acutes)
+- Noun: acute (derived forms: acutes)
 1. A mark placed above a vowel to indicate pronunciation (= acute accent, ague)
 '''),
         ],

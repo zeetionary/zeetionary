@@ -256,7 +256,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-Idiom: come of age (Derived forms: coming of age, come of age, comes of age, came of age)
+Idiom: come of age (derived forms: coming of age, come of age, comes of age, came of age)
 Reach a certain age that marks a transition to maturity
 '''),
         ],

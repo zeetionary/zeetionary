@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
--Verb: amputate (Derived forms: amputated, amputates, amputating)
+-Verb: amputate (derived forms: amputated, amputates, amputating)
 1. (medicine) remove surgically (= cut off)
 "amputate limbs";
 '''),

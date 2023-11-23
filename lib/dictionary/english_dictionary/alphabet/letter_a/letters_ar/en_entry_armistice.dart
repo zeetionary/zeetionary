@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: armistice (Derived forms: armistices)
+- Noun: armistice (derived forms: armistices)
 1. A state of peace agreed to between opponents so they can discuss peace terms (= cease-fire, truce, ceasefire)
 "The stock market soared after the armistice was announced";
 """),

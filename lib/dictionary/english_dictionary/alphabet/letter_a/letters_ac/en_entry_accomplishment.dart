@@ -359,7 +359,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: accomplishment(Derived forms: accomplishments)
+- Noun: accomplishment(derived forms: accomplishments)
 1. The action of accomplishing something (= achievement)
  
 2. An ability that has been acquired by training (= skill, acquirement, acquisition, attainment)

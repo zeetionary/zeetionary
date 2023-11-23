@@ -298,7 +298,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: accumulation (Derived forms: accumulations)
+- Noun: accumulation (derived forms: accumulations)
 1. An increase by natural growth or addition(= accretion)
  
 2. Several things grouped together or considered as a whole (= collection, aggregation, assemblage)

@@ -365,7 +365,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: apex (Derived forms: apices, apexes)
+- Noun: apex (derived forms: apices, apexes)
 1. The highest point (of something) (= vertex, peak, acme)
 "at the apex of the pyramid";
  

@@ -438,7 +438,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: acknowledge (Derived forms: acknowledged, acknowledges, acknowledging)
+- Verb: acknowledge (derived forms: acknowledged, acknowledges, acknowledging)
 1. Concede the existence, reality or truth of (= admit)
 "She acknowledged that she might have forgotten"; "she was the last to acknowledge the mistake";
  

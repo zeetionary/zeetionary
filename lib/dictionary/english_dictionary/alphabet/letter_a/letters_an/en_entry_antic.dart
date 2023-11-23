@@ -361,7 +361,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: antic (Derived forms: antics)
+- Noun: antic (derived forms: antics)
 1. A ludicrous or grotesque act done for fun and amusement (= joke, prank, trick, caper [informal], put-on [N. Amer, informal], dido [N. Amer, informal])
 
 - Adjective: antic 
@@ -369,7 +369,7 @@ Usage: archaic
 1. Ludicrously odd (= fantastic, fantastical, grotesque)
 "Hamlet's assumed antic disposition";
 
-- Verb: antic (Derived forms: antics, anticking, anticked)
+- Verb: antic (derived forms: antics, anticking, anticked)
 Usage: archaic
 - Act as or like a clown (= clown, clown around)
 '''),

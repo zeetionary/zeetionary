@@ -235,7 +235,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: absolve (Derived forms: absolving, absolved, absolves)
+- Verb: absolve (derived forms: absolving, absolved, absolves)
 1. Grant remission of a sin to (= shrive [archaic])
 "The priest absolved him and told him to say ten Hail Marys";
  

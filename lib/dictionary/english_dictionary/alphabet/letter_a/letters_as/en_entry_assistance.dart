@@ -367,7 +367,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: assistance (Derived forms: assistances)
+- Noun: assistance (derived forms: assistances)
 1. The activity of contributing to the fulfilment of a need or furtherance of an effort or purpose (= aid, assist, help)
 "could not walk without assistance";
  

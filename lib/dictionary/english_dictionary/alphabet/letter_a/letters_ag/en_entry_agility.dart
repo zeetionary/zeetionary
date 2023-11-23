@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: agility (Derived forms: agilities)
+- Noun: agility (derived forms: agilities)
 1. The gracefulness of a person or animal that is quick and nimble (= legerity, lightness, lightsomeness, nimbleness)
 "leaped up with surprising agility";
 '''),

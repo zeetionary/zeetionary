@@ -222,7 +222,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: abet (Derived forms: abets, abetted, abetting)
+- Verb: abet (derived forms: abets, abetted, abetting)
 1. Assist or encourage, usually in some wrongdoing
 "Did Herald aid and abet a crime?"
 '''),

@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: aluminium (Derived forms: aluminiums)
+- Noun: aluminium (derived forms: aluminiums)
 Usage: Brit, Cdn (US: aluminum)
 1. A silvery ductile metallic element found primarily in bauxite (= aluminum [N. Amer], Al, atomic number 13)
 '''),

@@ -331,7 +331,7 @@ class EnglishMeaning extends StatelessWidget {
 - Adjective: amethyst
 1. Of a moderate purple colour
 
-- Noun: amethyst (Derived forms: amethysts)
+- Noun: amethyst (derived forms: amethysts)
 1. A transparent purple variety of quartz; used as a gemstone
 '''),
         ],

@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alcove (Derived forms: alcoves)
+- Noun: alcove (derived forms: alcoves)
 1. A small recess opening off a larger room (= bay)
 '''),
         ],

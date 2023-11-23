@@ -237,7 +237,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: accolade (Derived forms: accolades)
+- Noun: accolade (derived forms: accolades)
 1. A tangible symbol signifying approval or distinction (= award, honor [US], honour [Brit, Cdn], laurels)
 "an accolade for bravery";
 '''),

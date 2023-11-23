@@ -418,7 +418,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: ascendancy (Derived forms: ascendancies)
+- Noun: ascendancy (derived forms: ascendancies)
 1. The state that exists when one person or group has power over another (= dominance, ascendance, ascendence, ascendency, control)
 "her apparent ascendancy of her husband was really her attempt to make him pay attention to her";
 """),

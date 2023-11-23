@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: affliction (Derived forms: afflictions)
+- Noun: affliction (derived forms: afflictions)
 1. A state of great suffering and distress due to adversity
  
 2. A condition of suffering or distress due to ill health

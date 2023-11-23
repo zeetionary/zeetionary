@@ -369,7 +369,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: antenna (Derived forms: antennae, antennas)
+- Noun: antenna (derived forms: antennae, antennas)
 1. An electrical device that sends or receives radio or television signals (= aerial, transmitting aerial)
  
 2. Sensitivity similar to that of a receptor organ (= feeler)

@@ -297,7 +297,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acceleration (Derived forms: accelerations)
+- Noun: acceleration (derived forms: accelerations)
 1. An increase in the rate of change
 "modern science caused an acceleration of cultural change"
  

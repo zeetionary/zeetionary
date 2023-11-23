@@ -387,7 +387,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aspiration (Derived forms: aspirations)
+- Noun: aspiration (derived forms: aspirations)
 1. A will to succeed
  
 2. A cherished desire (= ambition, dream)

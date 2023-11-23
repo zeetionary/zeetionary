@@ -312,7 +312,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: arbitrate (Derived forms: arbitrated, arbitrates, arbitrating) 
+- Verb: arbitrate (derived forms: arbitrated, arbitrates, arbitrating) 
 1. Act between parties with a view to reconciling differences (= intercede, mediate, intermediate, liaise)
 "He arbitrated in the family dispute";
 """),

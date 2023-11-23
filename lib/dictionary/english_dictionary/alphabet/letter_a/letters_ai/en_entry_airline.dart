@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: airline (Derived forms: airlines)
+- Noun: airline (derived forms: airlines)
 1. A hose that carries air under pressure
  
 2. A commercial enterprise that provides scheduled flights for passengers (= airline business, airway)

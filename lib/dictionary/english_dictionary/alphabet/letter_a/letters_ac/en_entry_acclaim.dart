@@ -298,13 +298,13 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: acclaim (Derived forms: acclaimed, acclaiming, acclaims)
+- Verb: acclaim (derived forms: acclaimed, acclaiming, acclaims)
 1. Praise vociferously (= hail, herald)
 "The critics acclaimed the young pianist as a new Rubinstein";
  
 2. Clap one's hands or shout after performances to indicate approval (= applaud, clap, spat)
 
-- Noun: acclaim  u'kleym (Derived forms: acclaims)
+- Noun: acclaim  u'kleym (derived forms: acclaims)
 1. Enthusiastic approval (= acclamation, plaudits, plaudit, éclat)
 "the book met with modest acclaim";
 '''),

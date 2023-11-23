@@ -325,7 +325,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: ally (Derived forms: allies, allying, allied)
+- Noun: ally (derived forms: allies, allying, allied)
 1. A friendly nation
  
 2. An associate who provides cooperation or assistance (= friend)

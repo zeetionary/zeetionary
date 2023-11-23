@@ -367,10 +367,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: annex (Derived forms: annexed, annexes, annexing)
+- Noun: annex (derived forms: annexed, annexes, annexing)
 1. An addition that extends a main building (= annexe [Brit], extension, wing)
 
-Verb: annex (Derived forms: annexed, annexes, annexing)
+Verb: annex (derived forms: annexed, annexes, annexing)
 1. Take (territory) as if by conquest
 "Hitler annexed Lithuania"
  

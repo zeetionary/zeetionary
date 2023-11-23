@@ -252,7 +252,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: acquit (Derived forms: acquits, acquitting, acquitted)
+- Verb: acquit (derived forms: acquits, acquitting, acquitted)
 1. Pronounce not guilty of criminal charges (= assoil [archaic], clear, discharge, exonerate, exculpate)
 "The suspect was acquitted of the murder charges";
  

@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: ageist (Derived forms: ageists)
+- Noun: ageist (derived forms: ageists)
 1. Someone who discriminates against people on the basis of their age, esp. the elderly (= agist)
 '''),
         ],

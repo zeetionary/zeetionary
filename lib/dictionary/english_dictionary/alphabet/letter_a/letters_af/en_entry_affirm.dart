@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: affirm (Derived forms: affirmed, affirms, affirming)
+- Verb: affirm (derived forms: affirmed, affirms, affirming)
 1. Establish or strengthen as with new evidence or facts (= confirm, corroborate, sustain, substantiate, support)
 "his story affirmed my doubts";
  

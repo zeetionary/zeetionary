@@ -891,7 +891,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-Noun: air (Derived forms: airs)
+Noun: air (derived forms: airs)
 1. A mixture of gases (especially oxygen) required for breathing; the stuff that the wind consists of
 "air pollution"; "a smell of chemicals in the air"; "open a window and let in some air"; "I need some fresh air"
  
@@ -918,7 +918,7 @@ Noun: air (Derived forms: airs)
  
 9. [archaic] Once thought to be one of four elements composing the universe (Empedocles), associated with the humour blood
 
-- Verb: air (Derived forms: aired, airs, airing)
+- Verb: air (derived forms: aired, airs, airing)
 1. Expose to fresh air (= air out, aerate)
 "air your old sneakers";
  

@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: align (Derived forms: aligned, aligning, aligns)
+- Verb: align (derived forms: aligned, aligning, aligns)
 1. Place in a line or arrange so as to be parallel or straight (= aline [non-standard], line up, adjust)
 "align the car with the curb";
  

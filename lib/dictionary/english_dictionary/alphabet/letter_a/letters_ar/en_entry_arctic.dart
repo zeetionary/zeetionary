@@ -432,7 +432,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arctic (Derived forms: arctics, Arctics)
+- Noun: arctic (derived forms: arctics, Arctics)
 Usage: N. Amer
 1. A waterproof overshoe that protects shoes from water or snow (= galosh, golosh, rubber [N. Amer], gumshoe [N. Amer])
 

@@ -426,7 +426,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: assignment (Derived forms: assignments)
+- Noun: assignment (derived forms: assignments)
 1. A duty that you are assigned to perform (especially in the armed forces) (= duty assignment)
 "hazardous assignment";
  

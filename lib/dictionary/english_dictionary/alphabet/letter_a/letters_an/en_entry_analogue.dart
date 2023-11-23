@@ -431,7 +431,7 @@ Usage: Brit (N. Amer: analog)
 1. (electronics) Of a circuit or device in which the value of a data item is represented by a continuously variable physical quantity rather than digitally (= analog, linear)
 "analogue device";
 
-- Noun: analogue (Derived forms: analogues)
+- Noun: analogue (derived forms: analogues)
 1. Something having the property of being analogous to something else (= analog [US], parallel)
 '''),
         ],

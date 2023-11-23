@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: angina (Derived forms: anginas)
+- Noun: angina (derived forms: anginas)
 1. Any disease of the throat or fauces marked by spasmodic attacks of intense suffocative pain
  
 2. A heart condition marked by paroxysms of chest pain due to reduced oxygen to the heart (= angina pectoris)

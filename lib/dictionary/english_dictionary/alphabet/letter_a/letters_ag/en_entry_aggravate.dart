@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: aggravate (Derived forms: aggravating, aggravates, aggravated)
+- Verb: aggravate (derived forms: aggravating, aggravates, aggravated)
 1. Make worse (= worsen, exacerbate, exasperate)
 "This drug aggravates the pain";
  

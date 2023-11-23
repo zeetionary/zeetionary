@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aromatherapist (Derived forms: aromatherapists)
+- Noun: aromatherapist (derived forms: aromatherapists)
 1. A practitioner of aromatherapy
 """),
         ],

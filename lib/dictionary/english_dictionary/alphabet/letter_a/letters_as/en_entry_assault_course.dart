@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: assault course (Derived forms: assault courses)
+- Noun: assault course (derived forms: assault courses)
 Usage: Brit
 1. A course with various obstacles for climbing over, crawling through, etc, used for military training (= obstacle course)
 """),

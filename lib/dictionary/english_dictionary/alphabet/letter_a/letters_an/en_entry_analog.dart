@@ -430,7 +430,7 @@ class EnglishMeaning extends StatelessWidget {
 1. (electronics) Of a circuit or device in which the value of a data item is represented by a continuously variable physical quantity rather than digitally (= analogue [Brit], linear)
 "analog device";
 
-- Noun: analog (Derived forms: analogs)
+- Noun: analog (derived forms: analogs)
 Usage: US (elsewhere: analogue)
 1. Something having the property of being analogous to something else (= analogue, parallel)
 '''),

@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: additive (Derived forms: additives)
+- Noun: additive (derived forms: additives)
 1. Something added to enhance food, petrol, paint or medicine
 
 - Adjective: additive 

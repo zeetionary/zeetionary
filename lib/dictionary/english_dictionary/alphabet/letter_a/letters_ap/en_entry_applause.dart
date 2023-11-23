@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: applause (Derived forms: applauses)
+- Noun: applause (derived forms: applauses)
 1. A demonstration of approval by clapping the hands together (= hand clapping, clapping)
 "the speaker's finishing was greeted with applause";
 """),

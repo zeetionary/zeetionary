@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alleviation (Derived forms: alleviations)
+- Noun: alleviation (derived forms: alleviations)
 1. The feeling that comes when something burdensome is removed or reduced (= relief, assuagement)
 "as he heard the news he was suddenly flooded with alleviation";
  

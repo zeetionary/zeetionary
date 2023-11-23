@@ -254,7 +254,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acquittal (Derived forms: acquittals)
+- Noun: acquittal (derived forms: acquittals)
 (law) a judgment of not guilty
 '''),
         ],

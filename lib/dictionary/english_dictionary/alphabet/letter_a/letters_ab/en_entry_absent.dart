@@ -290,7 +290,7 @@ class EnglishMeaning extends StatelessWidget {
 3. Lost in thought; showing preoccupation (= absentminded, abstracted, scatty [Brit, informal])
 "an absent stare";
 
-- Verb: absent (Derived forms: absented, absenting, absents)
+- Verb: absent (derived forms: absented, absenting, absents)
 1. Stay away or leave (= remove)
 "He absented himself";
 

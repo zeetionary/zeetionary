@@ -762,7 +762,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: allow (Derived forms: allowed, allowing, allows)
+- Verb: allow (derived forms: allowed, allowing, allows)
 1. Make it possible through a specific action or lack of action for something to happen (= let, permit)
 "This sealed door won't allow the water to come into the basement";
  

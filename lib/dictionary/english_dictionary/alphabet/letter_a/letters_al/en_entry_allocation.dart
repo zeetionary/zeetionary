@@ -366,7 +366,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: allocation (Derived forms: allocations)
+- Noun: allocation (derived forms: allocations)
 1. A share set aside for a specific purpose (allotment)
  
 2. The act of distributing by allotting or apportioning; distribution according to a plan (= allotment, apportionment, apportioning, parceling [US], parcelling, assignation)

@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: afternoon (Derived forms: afternoons)
+- Noun: afternoon (derived forms: afternoons)
 1. The part of the day between noon and evening (= arvo [Austral, NZ, informal])
 "he spent a quiet afternoon in the park";
  

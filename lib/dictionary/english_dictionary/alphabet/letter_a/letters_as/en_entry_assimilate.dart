@@ -434,7 +434,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: assimilate (Derived forms: assimilated, assimilates, assimilating)
+- Verb: assimilate (derived forms: assimilated, assimilates, assimilating)
 1. Take up mentally (= absorb, ingest, take in)
 "he assimilated the knowledge or beliefs of his tribe";
  

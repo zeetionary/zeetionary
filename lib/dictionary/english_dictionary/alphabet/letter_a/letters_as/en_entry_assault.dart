@@ -654,7 +654,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: assault (Derived forms: assaults, assaulting, assaulted)
+- Verb: assault (derived forms: assaults, assaulting, assaulted)
 1. Use aggressive force against (= assail, set on, attack)
 "The mugger assaulted the woman";
  
@@ -664,7 +664,7 @@ class EnglishMeaning extends StatelessWidget {
 3. Aggressively challenge in speech or writing (= attack, round, assail, lash out, snipe)
 "The editors of the left-leaning paper assaulted the new House Speaker";
 
-- Noun: assault (Derived forms: assaults, assaulting, assaulted)
+- Noun: assault (derived forms: assaults, assaulting, assaulted)
 1. (military) close fighting during the culmination of a military attack
  
 2. A threatened or attempted physical attack by someone who appears to be able to cause bodily harm if not stopped

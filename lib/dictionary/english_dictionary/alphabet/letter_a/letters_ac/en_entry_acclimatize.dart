@@ -237,7 +237,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: acclimatize (Derived forms: acclimatized, acclimatizes, acclimatizing)
+- Verb: acclimatize (derived forms: acclimatized, acclimatizes, acclimatizing)
 1. Get used to a certain climate (= acclimatise [Brit], acclimate [N. Amer])
 "They never acclimatized in Egypt";
 '''),

@@ -313,12 +313,12 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: archive (Derived forms: archives)
+- Noun: archive (derived forms: archives)
 1. A depository containing historical records and documents
  
 2. (computing) a data backup or a store of old data or versions
 
-- Verb: archive (Derived forms: archived, archives, archiving)
+- Verb: archive (derived forms: archived, archives, archiving)
 1. Put into an archive (= file away)
 """),
         ],

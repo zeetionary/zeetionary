@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anemia (Derived forms: anemias)
+- Noun: anemia (derived forms: anemias)
 Usage: N. Amer (elsewhere: anaemia)
 1. A deficiency of red blood cells (= anaemia [Brit, Cdn])
  

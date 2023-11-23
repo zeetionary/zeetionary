@@ -588,7 +588,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: amount (Derived forms: amounts)
+- Noun: amount (derived forms: amounts)
 1. A quantity of money (= sum, sum of money, amount of money)
 "the amount he had in cash was insufficient"; "he borrowed a large amount of money";
  
@@ -599,7 +599,7 @@ class EnglishMeaning extends StatelessWidget {
  
 4. A quantity obtained by the addition of a group of numbers (= sum, total)
 
-- Verb: amount (Derived forms: amounts, amounting, amounted)
+- Verb: amount (derived forms: amounts, amounting, amounted)
 1. Be tantamount or equivalent to
 "Her action amounted to a rebellion"
  

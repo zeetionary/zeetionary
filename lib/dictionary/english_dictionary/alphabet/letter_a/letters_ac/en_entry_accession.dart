@@ -298,7 +298,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: accession (Derived forms: accessioning, accessioned, accessions)
+- Noun: accession (derived forms: accessioning, accessioned, accessions)
 1. A process of increasing by addition (as to a collection or group)
 "the art collection grew through accession"
  

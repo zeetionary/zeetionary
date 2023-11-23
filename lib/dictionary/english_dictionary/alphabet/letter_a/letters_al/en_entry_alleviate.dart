@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: alleviate (Derived forms: alleviated, alleviates, alleviating)
+- Verb: alleviate (derived forms: alleviated, alleviates, alleviating)
 1. Provide physical relief, as from pain (= relieve, palliate, assuage)
 "This pill will alleviate your headaches";
  

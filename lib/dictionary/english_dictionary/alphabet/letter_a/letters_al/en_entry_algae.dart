@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: algae (Derived forms: algaes)
+- Noun: algae (derived forms: algaes)
 1. Primitive chlorophyll-containing mainly aquatic eukaryotic organisms lacking true stems and roots and leaves (= alga)
 '''),
         ],

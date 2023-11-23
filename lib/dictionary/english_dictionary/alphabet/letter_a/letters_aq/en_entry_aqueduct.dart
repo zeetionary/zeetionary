@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aqueduct (Derived forms: aqueducts)
+- Noun: aqueduct (derived forms: aqueducts)
 1. `A conduit that resembles a bridge but carries water over a valley
 """),
         ],

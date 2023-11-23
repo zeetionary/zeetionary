@@ -351,7 +351,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: accelerate (Derived forms: accelerated, accelerates, accelerating)
+- Verb: accelerate (derived forms: accelerated, accelerates, accelerating)
 1. Move faster (= speed up, speed, quicken)
 "The car accelerated";
  

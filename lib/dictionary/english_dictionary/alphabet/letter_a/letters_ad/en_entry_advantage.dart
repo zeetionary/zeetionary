@@ -420,7 +420,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: advantage (Derived forms: advantages)
+- Noun: advantage (derived forms: advantages)
 1. The quality of having a superior or more favourable position (= vantage)
 "the experience gave him the advantage over me";
  
@@ -429,7 +429,7 @@ class EnglishMeaning extends StatelessWidget {
 3. Benefit resulting from some event or action (= reward)
 "it turned out to my advantage";
 
-- Verb: advantage (Derived forms: advantaging, advantages, advantaged)
+- Verb: advantage (derived forms: advantaging, advantages, advantaged)
 1. Give preferential help or benefit to
 "This system advantages the rich"
 '''),

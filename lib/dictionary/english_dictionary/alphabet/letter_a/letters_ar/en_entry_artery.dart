@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: artery (Derived forms: arteries)
+- Noun: artery (derived forms: arteries)
 1. A blood vessel that carries blood from the heart to the body (= arteria, arterial blood vessel)
  
 2. A major thoroughfare that bears important traffic

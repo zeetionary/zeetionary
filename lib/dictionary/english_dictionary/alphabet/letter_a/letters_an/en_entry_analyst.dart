@@ -359,7 +359,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: analyst (Derived forms: analysts)
+- Noun: analyst (derived forms: analysts)
 1. Someone who is skilled at analysing data
  
 2. An expert who studies financial data (on credit, securities, sales or financial patterns etc.) and recommends appropriate business actions

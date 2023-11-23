@@ -660,7 +660,7 @@ class EnglishMeaning extends StatelessWidget {
 14. Engaged in full-time work
 "active duty"; "though past retirement age he is still active in his profession"
 
-- Noun: active (Derived forms: actives)
+- Noun: active (derived forms: actives)
 1. Chemical agent capable of activity (= active agent)
  
 2. The voice used to indicate that the grammatical subject of the verb is performing the action or causing the happening denoted by the verb (= active voice)

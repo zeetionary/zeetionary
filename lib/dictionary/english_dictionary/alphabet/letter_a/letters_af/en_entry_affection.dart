@@ -302,7 +302,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: affection (Derived forms: affections)
+- Noun: affection (derived forms: affections)
 1. A positive feeling of liking (= affectionateness, fondness, tenderness, heart, warmness, warmheartedness, philia)
 "he had trouble expressing the affection he felt";
 '''),

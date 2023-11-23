@@ -440,7 +440,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-Noun: amateur (Derived forms: amateurs)
+Noun: amateur (derived forms: amateurs)
 1. Someone who pursues a study or sport as a pastime
  
 2. An athlete who does not play for pay

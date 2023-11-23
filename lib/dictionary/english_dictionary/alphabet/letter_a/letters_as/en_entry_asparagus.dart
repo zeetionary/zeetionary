@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: asparagus (Derived forms: asparaguses)
+- Noun: asparagus (derived forms: asparaguses)
 1. Plant whose succulent young shoots are cooked and eaten as a vegetable (= edible asparagus, Asparagus officinales)
  
 2. Edible young shoots of the asparagus plant

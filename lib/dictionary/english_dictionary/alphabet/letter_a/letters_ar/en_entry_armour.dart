@@ -483,7 +483,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: armour (Derived forms: armours)
+- Noun: armour (derived forms: armours)
 Usage: Brit, Cdn (US: armor)
 1. Protective covering made of metal and used in combat (= armor [US])
  
@@ -491,7 +491,7 @@ Usage: Brit, Cdn (US: armor)
  
 3. Tough, almost rigid protective covering of an animal or plant (= armor [US])
 
-- Verb: armour (Derived forms: armoured, armours, armouring)
+- Verb: armour (derived forms: armoured, armours, armouring)
 Usage: Brit, Cdn (US: armor)
 1. Equip with armour (= armor [US])
 """),

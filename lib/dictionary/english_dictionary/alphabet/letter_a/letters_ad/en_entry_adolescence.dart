@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adolescence (Derived forms: adolescences)
+- Noun: adolescence (derived forms: adolescences)
 1. The time period between the beginning of puberty and adulthood
  
 2. The state that someone is in between puberty and adulthood

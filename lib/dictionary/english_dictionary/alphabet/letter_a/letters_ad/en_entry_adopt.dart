@@ -434,7 +434,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: adopt (Derived forms: adopted, adopting, adopts)
+- Verb: adopt (derived forms: adopted, adopting, adopts)
 1. Choose and follow; as of theories, ideas, policies, strategies or plans (= follow, espouse)
 "She adopted the feminist movement";
  

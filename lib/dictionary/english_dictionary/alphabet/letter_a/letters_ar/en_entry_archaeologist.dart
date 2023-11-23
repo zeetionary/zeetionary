@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: archaeologist (Derived forms: archaeologists)
+- Noun: archaeologist (derived forms: archaeologists)
 1. An anthropologist who studies prehistoric people and their culture (= archeologist [US])
 """),
         ],

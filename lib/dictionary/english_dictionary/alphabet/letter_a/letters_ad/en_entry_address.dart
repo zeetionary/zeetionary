@@ -687,7 +687,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: address (Derived forms: addresses)
+- Noun: address (derived forms: addresses)
 1. The place where a person or organization can be found or communicated with
  
 2. Written directions for finding some location; written on letters or packages that are to be delivered to that location (= destination, name and address)
@@ -706,7 +706,7 @@ class EnglishMeaning extends StatelessWidget {
  
 8. (computing) the code that identifies where a piece of information is stored (= computer address, reference)
 
-- Verb: address (Derived forms: addressed, addresses, addressing)
+- Verb: address (derived forms: addressed, addresses, addressing)
 1. Speak to (= turn to)
 "He addressed the crowd outside the window";
  

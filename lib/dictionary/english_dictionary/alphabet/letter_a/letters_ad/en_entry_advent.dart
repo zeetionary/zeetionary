@@ -256,11 +256,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: advent (Derived forms: advents)
+- Noun: advent (derived forms: advents)
 1. Arrival that has been awaited (especially of something momentous) (= coming)
 "the advent of the computer";
 
-- Noun: Advent (Derived forms: Advents)
+- Noun: Advent (derived forms: Advents)
 1. (Christian theology) the reappearance of Jesus as judge for the Last Judgment (= Second Coming, Second Coming of Christ, Second Advent, Parousia)
  
 2. The season including the four Sundays preceding Christmas

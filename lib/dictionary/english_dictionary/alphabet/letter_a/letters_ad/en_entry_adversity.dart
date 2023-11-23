@@ -254,7 +254,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adversity (Derived forms: adversities)
+- Noun: adversity (derived forms: adversities)
 1. A state of misfortune or affliction (= hardship, hard knocks)
 "debt-ridden farmers struggling with adversity";
  

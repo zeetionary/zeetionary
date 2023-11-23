@@ -235,7 +235,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: accost (Derived forms: accosted, accosting, accosts)
+- Verb: accost (derived forms: accosted, accosting, accosts)
 1. Get someone's attention in order to speak them, esp. against their will or to influence them (= buttonhole [informal], nobble [Brit, informal])
  
 2. Approach with an offer of sexual favours (= solicit)

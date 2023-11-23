@@ -298,14 +298,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: accord (Derived forms: accords)
+- Verb: accord (derived forms: accords)
 1. Go well together (= harmonize, harmonise [Brit], consort, concord, fit in, agree)
 "The colours don't accord";
  
 2. Let have; give the right to; give the opportunity or permission to (= allow, grant, allot)
 "Mandela was accorded few visitors in prison";
 
-- Noun: accord (Derived forms: accorded, according, accords)
+- Noun: accord (derived forms: accorded, according, accords)
 1. Harmony of people's opinions, actions or characters (= agreement, concert)
 "the two parties were in accord";
  

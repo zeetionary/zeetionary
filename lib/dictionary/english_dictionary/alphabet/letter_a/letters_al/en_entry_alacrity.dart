@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alacrity (Derived forms: alacrities)
+- Noun: alacrity (derived forms: alacrities)
 1. Liveliness and eagerness (= briskness, smartness)
 "he accepted with alacrity";
 '''),

@@ -329,7 +329,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: amniocentesis (Derived forms: amniocenteses)
+- Noun: amniocentesis (derived forms: amniocenteses)
 1. (pregnancy) extraction by centesis of amniotic fluid from a pregnant woman (after the 15th week of pregnancy) to aid in the diagnosis of foetal abnormalities (= amnio)
 '''),
         ],

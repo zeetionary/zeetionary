@@ -209,7 +209,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alsatian (Derived forms: alsatians, Alsatians)
+- Noun: alsatian (derived forms: alsatians, Alsatians)
 1. Breed of large shepherd dogs used in police work and as a guide for the blind (= German shepherd, German shepherd dog, German police dog)
 
 - Noun: Alsatian 

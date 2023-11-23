@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: artistry (Derived forms: artistries)
+- Noun: artistry (derived forms: artistries)
 1. A superior skill that you can learn by study and practice and observation (= art, prowess)
 "the artistry of conversation";
 """),

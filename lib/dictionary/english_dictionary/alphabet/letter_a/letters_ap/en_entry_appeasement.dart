@@ -365,7 +365,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: appeasement (Derived forms: appeasements)
+- Noun: appeasement (derived forms: appeasements)
 1. The act of appeasing (as by acceding to the demands of) (= calming)
  
 2. Political policy of trying to pacify a hostile country, e.g. by granting concessions

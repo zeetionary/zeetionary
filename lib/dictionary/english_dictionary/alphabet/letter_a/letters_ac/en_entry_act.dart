@@ -882,7 +882,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: act (Derived forms: acts)
+- Noun: act (derived forms: acts)
 1. Something that people do or cause to happen (= deed, human action, human activity)
  
 2. (law) a legal document codifying the result of deliberations of a committee, society or legislative body (= enactment)

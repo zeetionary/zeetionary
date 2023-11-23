@@ -362,7 +362,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acknowledgment (Derived forms: acknowledgments)
+- Noun: acknowledgment (derived forms: acknowledgments)
 1. The state or quality of being recognized or acknowledged (= recognition, acknowledgement)
 "the partners were delighted with the acknowledgment of their work";
  

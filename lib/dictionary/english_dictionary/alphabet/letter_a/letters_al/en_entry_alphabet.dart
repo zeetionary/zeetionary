@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alphabet (Derived forms: alphabets)
+- Noun: alphabet (derived forms: alphabets)
 1. A character set that includes letters and is used to write a language (= ABC, ABC's, ABCs)
  
 2. The elementary stages of any subject (usually plural) (= rudiments, first principles, elements)

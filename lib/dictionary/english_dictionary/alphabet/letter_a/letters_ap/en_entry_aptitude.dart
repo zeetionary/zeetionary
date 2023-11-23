@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aptitude (Derived forms: aptitudes)
+- Noun: aptitude (derived forms: aptitudes)
 1. Inherent ability
 "verbal aptitude"
 """),

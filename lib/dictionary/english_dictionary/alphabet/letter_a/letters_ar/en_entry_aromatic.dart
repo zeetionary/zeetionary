@@ -321,7 +321,7 @@ class EnglishMeaning extends StatelessWidget {
 2. (chemistry) of or relating to or containing one or more benzene rings
 "an aromatic organic compound"
 
-- Noun: aromatic (Derived forms: aromatics)
+- Noun: aromatic (derived forms: aromatics)
 A fragrant plant or spice
 """),
         ],

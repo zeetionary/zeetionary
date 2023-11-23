@@ -437,7 +437,7 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Person who resembles a nonhuman primate (= anthropoid)
 
-- Verb: ape (Derived forms: aped, aping, apes)
+- Verb: ape (derived forms: aped, aping, apes)
 1. Imitate uncritically and in every aspect
 "Her little brother apes her behaviour"
  

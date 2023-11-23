@@ -324,7 +324,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: artiste (Derived forms: artistes)
+- Noun: artiste (derived forms: artistes)
 1. A public performer (a dancer or singer)
 """),
         ],

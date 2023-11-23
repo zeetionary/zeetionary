@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: agrochemical (Derived forms: agrochemicals)
+- Noun: agrochemical (derived forms: agrochemicals)
 1. A chemical used in agriculture (= agrichemical)
 '''),
         ],

@@ -225,7 +225,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adaptor (Derived forms: adaptors)
+- Noun: adaptor (derived forms: adaptors)
 1. Device that enables something to be used in a way different from that for which it was intended or makes different pieces of apparatus compatible (= adapter)
  
 2. A musician who adapts a composition for particular voices or instruments or for another style of performance (= arranger, adapter, transcriber)

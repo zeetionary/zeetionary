@@ -852,7 +852,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arm (Derived forms: arms)
+- Noun: arm (derived forms: arms)
 1. A human limb; technically the part of the superior limb between the shoulder and the elbow but commonly used to refer to the whole superior limb
  
 2. Any projection that is thought to resemble a human arm (= branch, limb)
@@ -866,7 +866,7 @@ class EnglishMeaning extends StatelessWidget {
  
 6. The part of a garment that is attached at the armhole and that provides a cloth covering for the arm (= sleeve)
 
-- Verb: arm (Derived forms: arms, armed, arming)
+- Verb: arm (derived forms: arms, armed, arming)
 1. Prepare oneself for a military confrontation (= build up, fortify, gird)
 "troops are arming on the Iraqi border";
  

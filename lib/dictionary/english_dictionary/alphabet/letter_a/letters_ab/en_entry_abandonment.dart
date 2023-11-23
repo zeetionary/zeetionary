@@ -220,7 +220,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abandonment (Derived forms:  abandonments)
+- Noun: abandonment (derived forms:  abandonments)
 1. The act of giving something up (=forsaking, desertion)
  
 2. Withdrawing support or help despite allegiance or responsibility (=desertion, defection)

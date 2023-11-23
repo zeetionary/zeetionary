@@ -590,7 +590,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: appreciate (Derived forms: appreciated, appreciates, appreciating)
+- Verb: appreciate (derived forms: appreciated, appreciates, appreciating)
 1. Recognize with gratitude; be grateful for
  
 2. Be fully aware of; realize fully (= take account)

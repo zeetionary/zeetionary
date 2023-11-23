@@ -300,7 +300,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Phrasal verb: accustom to (Derived forms: accustoms, accustoming, accustomed)
+- Phrasal verb: accustom to (derived forms: accustoms, accustoming, accustomed)
 1. Make psychologically or physically used (to something) (= habituate)
 "She became accustomed to the background music";
 '''),

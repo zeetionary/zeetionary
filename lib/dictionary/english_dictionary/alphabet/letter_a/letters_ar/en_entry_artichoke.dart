@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: artichoke (Derived forms: artichokes)
+- Noun: artichoke (derived forms: artichokes)
 1. Mediterranean thistlelike plant widely cultivated for its large edible flower head (= globe artichoke, artichoke plant, Cynara scolymus)
  
 2. A thistlelike flower head with edible fleshy leaves and heart (= globe artichoke)

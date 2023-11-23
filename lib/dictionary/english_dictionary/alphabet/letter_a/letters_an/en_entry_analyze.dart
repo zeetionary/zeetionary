@@ -409,7 +409,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: analyze (Derived forms: analyzed, analyzing)
+- Verb: analyze (derived forms: analyzed, analyzing)
 Usage: Brit, Cdn (US: analyze)
 1. Consider in detail and subject to an analysis in order to discover essential features or meaning (= analyze [N. Amer], study, examine, canvass)
 "analyze a sonnet by Shakespeare";

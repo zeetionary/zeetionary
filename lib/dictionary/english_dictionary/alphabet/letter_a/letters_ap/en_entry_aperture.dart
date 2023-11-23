@@ -373,7 +373,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aperture (Derived forms: apertures)
+- Noun: aperture (derived forms: apertures)
 1. A variable-sized hole that controls the amount of light admitted to a camera
  
 2. A natural opening in something

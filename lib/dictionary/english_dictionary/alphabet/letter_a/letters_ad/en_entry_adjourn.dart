@@ -300,7 +300,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: adjourn (Derived forms: adjourns, adjourned, adjourning)
+- Verb: adjourn (derived forms: adjourns, adjourned, adjourning)
 1. Close at the end of a session (= recess, break up)
 "The court adjourned";
  

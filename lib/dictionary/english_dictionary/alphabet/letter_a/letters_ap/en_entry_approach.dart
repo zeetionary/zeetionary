@@ -1061,7 +1061,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: approach (Derived forms: approaching, approaches, approached)
+- Verb: approach (derived forms: approaching, approaches, approached)
 1. Move towards (= near, come on, go up, draw near, draw close, come near)
  
 2. Come near or verge on, resemble, come nearer in quality, or character (= border on)
@@ -1076,7 +1076,7 @@ class EnglishMeaning extends StatelessWidget {
 4. Make advances to someone, usually with a proposal or suggestion
 "I was approached by the President to serve as his adviser in foreign matters"
 
-- Noun: approach (Derived forms: approaches)
+- Noun: approach (derived forms: approaches)
 1. Ideas or actions intended to deal with a problem or situation (= attack, plan of attack)
 "his approach to every problem is to draw up a list of pros and cons";
  

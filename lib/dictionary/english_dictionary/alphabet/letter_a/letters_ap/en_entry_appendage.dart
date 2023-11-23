@@ -373,7 +373,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: appendage (Derived forms: appendages)
+- Noun: appendage (derived forms: appendages)
 1. An external body part that projects from the body (= extremity, member)
 "it is important to keep the appendages warm";
  

@@ -261,7 +261,7 @@ class EnglishMeaning extends StatelessWidget {
 2. (music) produced by an instrument without electrical amplification
 "an acoustic guitar"
 
-- Noun: acoustic (Derived forms: acoustics)
+- Noun: acoustic (derived forms: acoustics)
 1. A remedy for hearing loss or deafness
 '''),
         ],

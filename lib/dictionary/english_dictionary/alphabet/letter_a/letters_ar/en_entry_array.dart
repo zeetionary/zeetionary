@@ -485,7 +485,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: array (Derived forms: arrays)
+- Noun: array (derived forms: arrays)
 1. An orderly arrangement
 "an array of troops in battle order"
  
@@ -496,7 +496,7 @@ class EnglishMeaning extends StatelessWidget {
  
 4. An arrangement of aerials spaced to give desired directional characteristics
 
-- Verb: array (Derived forms: arrayed, arraying, arrays) 
+- Verb: array (derived forms: arrayed, arraying, arrays) 
 1. Lay out orderly or logically in a line or as if in a line (= range, lay out, set out)
 "array the clothes";
  

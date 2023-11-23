@@ -374,7 +374,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: airy (Derived forms: airiest, airier)
+- Adjective: airy (derived forms: airiest, airier)
 1. Open to or abounding in fresh air (= aired)
 "airy rooms";
  

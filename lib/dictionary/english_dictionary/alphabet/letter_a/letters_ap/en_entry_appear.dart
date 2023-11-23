@@ -919,7 +919,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: appear (Derived forms: appears, appearing, appeared)
+- Verb: appear (derived forms: appears, appearing, appeared)
 1. Give a certain impression of being something or having a certain aspect (= look, seem)
 "This appears to be a very difficult problem"; "They appeared like people who had not eaten or slept for a long time";
  

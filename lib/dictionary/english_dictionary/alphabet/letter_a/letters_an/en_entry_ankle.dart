@@ -358,10 +358,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-Noun: ankle (Derived forms: ankles)
-1. The joint connecting the foot with the leg (Derived forms: ankling, ankles, ankled)
+Noun: ankle (derived forms: ankles)
+1. The joint connecting the foot with the leg (derived forms: ankling, ankles, ankled)
 
-Verb: ankle (Derived forms: ankling, ankles, ankled)
+Verb: ankle (derived forms: ankling, ankles, ankled)
 Usage: N. Amer, informal
 1. Walk (= foot [informal], leg it [informal], hoof [informal], hoof it [informal])
 '''),

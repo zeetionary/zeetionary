@@ -610,7 +610,7 @@ class EnglishMeaning extends StatelessWidget {
  
 2. Consisting of segments held together by joints (= articulated)
 
-- Verb: articulate (Derived forms: articulated, articulates, articulating)
+- Verb: articulate (derived forms: articulated, articulates, articulating)
 1. Put into words or an expression (= give voice, formulate, word, phrase)
 "He articulated his concerns to the board of trustees";
  

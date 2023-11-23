@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: angler (Derived forms: anglers)
+- Noun: angler (derived forms: anglers)
 1. A scheming person; someone who schemes to gain an advantage
  
 2. A fisherman who uses a hook and line (= troller)

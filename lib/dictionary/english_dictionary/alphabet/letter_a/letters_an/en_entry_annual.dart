@@ -485,7 +485,7 @@ class EnglishMeaning extends StatelessWidget {
 2. Occurring or payable every year (= yearly)
 "an annual trip to Paris"; "annual income";
 
-- Noun: annual (Derived forms: annuals)
+- Noun: annual (derived forms: annuals)
 1. (botany) a plant that completes its entire life cycle within the space of a year
  
 2. A reference book that is published regularly once every year (= yearly, yearbook)

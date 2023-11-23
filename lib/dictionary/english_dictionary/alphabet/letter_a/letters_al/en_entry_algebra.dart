@@ -259,7 +259,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: algebra (Derived forms: algebras)
+- Noun: algebra (derived forms: algebras)
 1. (mathematics) the mathematics of generalized arithmetical operations
 '''),
         ],

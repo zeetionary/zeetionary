@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anticlimax (Derived forms: anticlimaxes)
+- Noun: anticlimax (derived forms: anticlimaxes)
 1. A disappointing decline after a previous rise
 "the anticlimax of a brilliant career"
  

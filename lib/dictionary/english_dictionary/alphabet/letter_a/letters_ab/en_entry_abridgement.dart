@@ -237,7 +237,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abridgement (Derived forms: abridgements)
+- Noun: abridgement (derived forms: abridgements)
 1. A shortened version of a written work (= condensation, abridgment, capsule)
 '''),
         ],

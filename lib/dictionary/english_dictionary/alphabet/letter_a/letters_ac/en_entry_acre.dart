@@ -254,7 +254,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acre (Derived forms: Acres, acres)
+- Noun: acre (derived forms: Acres, acres)
 1. A unit of area (4840 square yards) used in English-speaking countries
 "clear-cut an acre of forest"
 

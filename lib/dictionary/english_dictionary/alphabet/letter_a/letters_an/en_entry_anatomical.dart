@@ -315,7 +315,7 @@ class EnglishMeaning extends StatelessWidget {
 2. Of or relating to the branch of morphology that studies the structure of organisms (= anatomic)
 "anatomical research";
 
-- Noun: anatomical (Derived forms: anatomicals)
+- Noun: anatomical (derived forms: anatomicals)
 1. An expression that relates to anatomy (= anatomical reference)
 '''),
         ],

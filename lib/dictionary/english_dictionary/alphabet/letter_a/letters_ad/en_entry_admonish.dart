@@ -253,7 +253,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: admonish (Derived forms: admonishing, admonishes, admonished)
+- Verb: admonish (derived forms: admonishing, admonishes, admonished)
 1. Reprimand; express disapproval (= reprove, reproof)
 "He admonished the child for his bad behaviour";
  

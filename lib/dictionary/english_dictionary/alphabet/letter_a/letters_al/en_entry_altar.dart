@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: altar (Derived forms: altars)
+- Noun: altar (derived forms: altars)
 1. The table in Christian churches where communion is given (= communion table, Lord's table)
  
 2. A raised structure on which gifts or sacrifices to a god are made

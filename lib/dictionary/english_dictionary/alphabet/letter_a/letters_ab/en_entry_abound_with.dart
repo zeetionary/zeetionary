@@ -225,7 +225,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: abound with (Derived forms: abounds with, abounding with, abounded with)
+- Verb: abound with (derived forms: abounds with, abounding with, abounded with)
 1. Exist in large quantity (= teem in, pullulate with)
 '''),
         ],

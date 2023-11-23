@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: annulment (Derived forms: annulments)
+- Noun: annulment (derived forms: annulments)
 1. The state of being cancelled or annulled (= revocation)
  
 2. (law) a formal termination (of a relationship or a judicial proceeding etc) (= invalidation)

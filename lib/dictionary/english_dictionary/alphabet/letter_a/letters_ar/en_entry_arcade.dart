@@ -373,7 +373,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arcade (Derived forms: arcades)
+- Noun: arcade (derived forms: arcades)
 1. A covered passageway with shops and stalls on either side
  
 2. A structure composed of a series of arches supported by columns (= colonnade)

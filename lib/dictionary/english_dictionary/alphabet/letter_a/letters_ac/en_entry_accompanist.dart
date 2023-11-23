@@ -235,7 +235,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: accompanist (Derived forms: accompanists)
+- Noun: accompanist (derived forms: accompanists)
 1. A person who provides musical accompaniment (usually on a piano) (= accompanyist, comp [informal])
 "the accompanist picked up the idea and elaborated it";
 '''),

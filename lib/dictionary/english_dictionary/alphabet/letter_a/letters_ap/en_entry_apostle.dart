@@ -373,11 +373,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: apostle (Derived forms: apostles)
+- Noun: apostle (derived forms: apostles)
 1. An ardent early supporter of a cause or reform
 "an apostle of revolution"
 
-- Noun: Apostle (Derived forms: Apostles)
+- Noun: Apostle (derived forms: Apostles)
 1. (New Testament) one of the original 12 disciples chosen by Christ to preach his gospel
  
 2. Any important early teacher of Christianity or a Christian missionary to a people (= Apostelic Father)

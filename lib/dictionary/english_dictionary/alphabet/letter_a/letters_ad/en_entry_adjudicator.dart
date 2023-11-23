@@ -253,7 +253,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adjudicator (Derived forms: adjudicators)
+- Noun: adjudicator (derived forms: adjudicators)
 1. A person who studies and settles conflicts and disputes
 '''),
         ],

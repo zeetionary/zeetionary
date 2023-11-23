@@ -330,7 +330,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: amnesia (Derived forms: amnesias)
+- Noun: amnesia (derived forms: amnesias)
 1. Partial or total loss of memory (= memory loss, blackout)
 '''),
         ],

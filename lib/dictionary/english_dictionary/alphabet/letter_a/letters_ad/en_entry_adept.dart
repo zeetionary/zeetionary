@@ -259,7 +259,7 @@ class EnglishMeaning extends StatelessWidget {
 1. Having or showing knowledge and skill and aptitude (= expert, good, practiced [N. Amer], proficient, skillful [N. Amer], skilful [Brit, Cdn], practised [Brit, Cdn])
 "adept in handicrafts"; "an adept juggler";
 
-- Noun: adept ((Derived forms: adepts))
+- Noun: adept ((derived forms: adepts))
 1. Someone who is dazzlingly skilled in any field (= ace [informal], champion, sensation, maven [US, informal], mavin [US, informal], virtuoso, genius, hotshot [informal], star, superstar, whiz [informal], whizz [informal], wizard [informal], wiz [informal], megastar [informal])
 '''),
         ],

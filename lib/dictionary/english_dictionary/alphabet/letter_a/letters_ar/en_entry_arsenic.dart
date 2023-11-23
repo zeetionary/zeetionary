@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arsenic (Derived forms: arsenics)
+- Noun: arsenic (derived forms: arsenics)
 1. A very poisonous metallic element that has three allotropic forms; arsenic and arsenic compounds are used as herbicides and insecticides and in various alloys; found in arsenopyrite and orpiment and realgar (= As, atomic number 33)
  
 2. A white powdered poisonous trioxide of arsenic; used in manufacturing glass and as a pesticide (rat poison) and weed killer (= arsenic trioxide, arsenous anhydride, arsenous oxide, white arsenic, ratsbane)

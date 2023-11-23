@@ -448,7 +448,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: agreement (Derived forms: agreements)
+- Noun: agreement (derived forms: agreements)
 1. The statement (oral or written) of an exchange of promises (= understanding)
 "they had an agreement that they would not interfere in each other's business";
 

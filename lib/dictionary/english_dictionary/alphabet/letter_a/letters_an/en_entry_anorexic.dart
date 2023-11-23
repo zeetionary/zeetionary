@@ -370,7 +370,7 @@ class EnglishMeaning extends StatelessWidget {
 - Adjective: anorexic
 1. Suffering from anorexia nervosa; pathologically thin (= anorectic)
 
-- Noun: anorexic (Derived forms: anorexics)
+- Noun: anorexic (derived forms: anorexics)
 1. A person suffering from anorexia nervosa (= anorectic)
 '''),
         ],

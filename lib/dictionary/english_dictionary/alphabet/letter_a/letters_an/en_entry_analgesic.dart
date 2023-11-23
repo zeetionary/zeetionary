@@ -371,7 +371,7 @@ class EnglishMeaning extends StatelessWidget {
 1. Capable of relieving pain (= analgetic, anodyne)
 "an analgesic effect";
 
-Noun: analgesic (Derived forms: analgesics)
+Noun: analgesic (derived forms: analgesics)
 1. A medicine used to relieve pain (= anodyne, painkiller, pain pill)
 '''),
         ],

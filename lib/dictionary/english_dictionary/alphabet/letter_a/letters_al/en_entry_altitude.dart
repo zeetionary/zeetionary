@@ -257,7 +257,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: altitude (Derived forms: altitudes)
+- Noun: altitude (derived forms: altitudes)
 1. Elevation especially above sea level or above the earth's surface (= height)
 "the altitude gave her a headache";
  

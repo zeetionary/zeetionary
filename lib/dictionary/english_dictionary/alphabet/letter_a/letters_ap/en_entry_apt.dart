@@ -483,7 +483,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adjective: apt (Derived forms: aptest, apter)
+- Adjective: apt (derived forms: aptest, apter)
 1. (usually followed by 'to') naturally disposed toward (= disposed, given, minded, tending)
 "he is apt to ignore matters he considers unimportant";
  

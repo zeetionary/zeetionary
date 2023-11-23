@@ -266,7 +266,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: amoeba (Derived forms: amoebae, amoebas)
+- Noun: amoeba (derived forms: amoebae, amoebas)
 Usage: N. Amer (elsewhere: amoeba)
 1. Naked freshwater, marine or parasitic protozoa that form temporary pseudopods for feeding and locomotion (= amoeba)
 '''),

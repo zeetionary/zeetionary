@@ -687,13 +687,13 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: aid (Derived forms: aids, aided, aiding)
+- Verb: aid (derived forms: aids, aided, aiding)
 1. Give assistance; be of service (= help, assist)
  
 2. Improve the condition of (= help)
 "These pills will aid the patient";
 
-- Noun: aid ((Derived forms: aids, aided, aiding))
+- Noun: aid ((derived forms: aids, aided, aiding))
 1. A person or thing that is a resource that helps make something easier or possible to do (= assistance, help)
 "visual aids in teaching";
  

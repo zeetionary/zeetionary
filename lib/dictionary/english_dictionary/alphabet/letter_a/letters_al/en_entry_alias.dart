@@ -315,14 +315,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alias (Derived forms: aliases)
+- Noun: alias (derived forms: aliases)
 1. A name that has been assumed (= assumed name, false name)
 
 - Adverb: alias 
 1. As known or named at another time or place (= a.k.a., also known as)
 "Mr. Smith, alias Mr. Lafayette";
 
-- Verb: alias (Derived forms: aliased, aliasing, aliases)
+- Verb: alias (derived forms: aliased, aliasing, aliases)
 1. [technical] Have a signal at frequency appear as a different frequency due to inadequate sampling
  
 2. (computing) give an additional equivalent name to an entity, for example one that's more user-friendly

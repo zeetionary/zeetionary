@@ -359,7 +359,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: animosity (Derived forms: animosities)
+- Noun: animosity (derived forms: animosities)
 1. A feeling of ill will arousing active hostility (= animus, bad blood)
 '''),
         ],

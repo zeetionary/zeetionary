@@ -436,7 +436,7 @@ class EnglishMeaning extends StatelessWidget {
 3. Endowed with feeling and unstructured consciousness (= sentient)
 "the living knew themselves just animate puppets on God's stage";
 
-- Verb: animate (Derived forms: animating, animates, animated)
+- Verb: animate (derived forms: animating, animates, animated)
 1. Heighten or intensify (= inspire, invigorate, enliven, exalt)
 "These paintings animate the imagination";
  

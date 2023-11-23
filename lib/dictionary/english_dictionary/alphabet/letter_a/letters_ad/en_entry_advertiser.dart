@@ -253,7 +253,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: advertiser (Derived forms: advertisers)
+- Noun: advertiser (derived forms: advertisers)
 1. Someone whose business is advertising (= advertizer [US, non-standard], adman)
 '''),
         ],

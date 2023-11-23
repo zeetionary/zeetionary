@@ -432,7 +432,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adjective: arid (Derived forms: arider, aridest)
+- Adjective: arid (derived forms: arider, aridest)
 1. Lacking sufficient water or rainfall (= waterless)
 "an arid climate";
  

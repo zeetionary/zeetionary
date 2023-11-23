@@ -587,7 +587,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: accept (Derived forms: accepts, accepting, accepted)
+- Verb: accept (derived forms: accepts, accepting, accepted)
 1. Consider or hold as true
 "I cannot accept the dogma of this church"; "accept an argument"
  

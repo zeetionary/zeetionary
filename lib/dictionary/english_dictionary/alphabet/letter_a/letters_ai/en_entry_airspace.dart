@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: airspace (Derived forms: air spaces, airspaces)
+- Noun: airspace (derived forms: air spaces, airspaces)
 1. The space in the atmosphere immediately above the earth (= air space)
  
 2. The atmosphere above a nation that is deemed to be under its jurisdiction

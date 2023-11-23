@@ -485,7 +485,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: arrange (Derived forms: arranges, arranging, arranged)
+- Verb: arrange (derived forms: arranges, arranging, arranged)
 1. Put into a proper or systematic order (= set up)
 "arrange the books on the shelves in chronological order";
  

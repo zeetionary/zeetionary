@@ -604,7 +604,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alarm (Derived forms: alarms)
+- Noun: alarm (derived forms: alarms)
 1. Fear resulting from the awareness of danger (= dismay, consternation)
  
 2. A device that signals the occurrence of some undesirable event (= warning device, alarm system)
@@ -613,7 +613,7 @@ class EnglishMeaning extends StatelessWidget {
  
 4. A clock that wakes a sleeper at some preset time (= alarm clock)
 
-- Verb: alarm (Derived forms: alarms, alarming, alarmed)
+- Verb: alarm (derived forms: alarms, alarming, alarmed)
 1. Fill with apprehension or alarm; cause to be unpleasantly surprised (= dismay, appal [Brit, Cdn], appall [US], horrify)
 "I was alarmed at the thought of being late for my interview";
 

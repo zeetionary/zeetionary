@@ -281,7 +281,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: aberration (Derived forms: aberrations)
+- Noun: aberration (derived forms: aberrations)
 1. A state or condition markedly different from the norm (=aberrance, aberrancy, deviance, deviancy)
  
 2. A disorder in one's mental state

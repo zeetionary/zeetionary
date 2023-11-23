@@ -371,7 +371,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: apprehend (Derived forms: apprehended, apprehends, apprehending)
+- Verb: apprehend (derived forms: apprehended, apprehends, apprehending)
 1. Get the meaning of something (= grok [N. Amer, informal], get the picture, comprehend, savvy, dig [informal], grasp, compass)
  
 2. Take into custody (= collar [informal], nail [informal], arrest, pick up, nab [informal], cop [informal], pinch [Brit, informal], nick [Brit, informal])

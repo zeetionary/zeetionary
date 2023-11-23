@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arbitrator (Derived forms: arbitrators)
+- Noun: arbitrator (derived forms: arbitrators)
 1. Someone chosen to judge and decide a disputed issue (= arbiter, umpire)
 "the arbitrator's authority derived from the consent of the disputants";
 """),

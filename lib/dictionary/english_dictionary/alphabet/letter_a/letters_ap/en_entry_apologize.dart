@@ -413,7 +413,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: apologise (Derived forms: apologised, apologises, apologising)
+- Verb: apologise (derived forms: apologised, apologises, apologising)
 Usage: Brit (N. Amer: apologize)
 1. Defend, explain, clear away, or make excuses for by reasoning (= apologize, excuse, rationalize, rationalise [Brit])
  

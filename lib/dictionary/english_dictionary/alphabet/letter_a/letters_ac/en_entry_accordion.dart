@@ -185,7 +185,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: accordion (Derived forms: accordions)
+- Noun: accordion (derived forms: accordions)
 1. A portable box-shaped free-reed instrument; the reeds are made to vibrate by air from the bellows controlled by the player (= squeeze box)
 '''),
         ],

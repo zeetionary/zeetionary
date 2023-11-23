@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adventurer (Derived forms: adventurers)
+- Noun: adventurer (derived forms: adventurers)
 1. A person who enjoys taking risks (= venturer)
  
 2. Someone who travels into little known regions (especially for some scientific purpose) (= explorer)

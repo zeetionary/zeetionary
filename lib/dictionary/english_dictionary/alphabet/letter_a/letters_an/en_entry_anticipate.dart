@@ -536,7 +536,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: anticipate (Derived forms: anticipated, anticipates, anticipating) 
+- Verb: anticipate (derived forms: anticipated, anticipates, anticipating) 
 1. Regard something as probable or likely (= expect)
 "The meteorologists are anticipating rain for tomorrow";
  

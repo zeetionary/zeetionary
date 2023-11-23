@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: allegation (Derived forms: allegations)
+- Noun: allegation (derived forms: allegations)
 1. (law) a formal accusation against somebody (often in a court of law)
 "an allegation of malpractice"
  

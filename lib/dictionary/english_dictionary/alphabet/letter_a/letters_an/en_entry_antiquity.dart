@@ -430,7 +430,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: antiquity (Derived forms: antiquities)
+- Noun: antiquity (derived forms: antiquities)
 1. The historic period preceding the Middle Ages in Europe
  
 2. Extreme oldness (= ancientness)

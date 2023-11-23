@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: arraign (Derived forms: arraigned, arraigning, arraigns)
+- Verb: arraign (derived forms: arraigned, arraigning, arraigns)
 1. Call before a court to answer an indictment
  
 2. Accuse of a wrong or an inadequacy

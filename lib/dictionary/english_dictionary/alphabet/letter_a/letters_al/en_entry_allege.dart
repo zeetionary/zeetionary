@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: allege (Derived forms: alleging, alleges, alleged)
+- Verb: allege (derived forms: alleging, alleges, alleged)
 1. Report or maintain (= aver, say)
 "He alleged that he was the victim of a crime";
  

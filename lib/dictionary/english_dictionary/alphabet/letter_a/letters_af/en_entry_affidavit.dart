@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: affidavit (Derived forms: affidavits)
+- Noun: affidavit (derived forms: affidavits)
 1. (law) written declaration made under oath; a written statement sworn to be true before someone legally authorized to administer an oath
 '''),
         ],

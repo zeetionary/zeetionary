@@ -493,7 +493,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: arouse (Derived forms: aroused, arousing, arouses)
+- Verb: arouse (derived forms: aroused, arousing, arouses)
 1. Call forth (emotions, feelings, and responses) (= elicit, enkindle [literary], kindle, evoke, fire, raise, provoke)
 "arouse pity";
  

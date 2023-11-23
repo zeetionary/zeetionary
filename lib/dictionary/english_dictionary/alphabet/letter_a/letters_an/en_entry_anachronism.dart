@@ -367,7 +367,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anachronism (Derived forms: anachronisms)
+- Noun: anachronism (derived forms: anachronisms)
 1. Something located at a time when it could not have existed or occurred (= mistiming, misdating)
  
 2. An artifact that belongs to another time

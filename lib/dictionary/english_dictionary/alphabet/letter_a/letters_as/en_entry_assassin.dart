@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: assassin (Derived forms: assassins)
+- Noun: assassin (derived forms: assassins)
 1. A murderer (especially one who kills a prominent political figure) who kills by a surprise attack and often is hired to do the deed (= assassinator, bravo)
 "his assassins were hunted down like animals";
 

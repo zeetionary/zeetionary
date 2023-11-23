@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adult (Derived forms: adults)
+- Noun: adult (derived forms: adults)
 1. A fully developed person from maturity onward (= grownup)
  
 2. Any mature animal

@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alteration (Derived forms: alterations)
+- Noun: alteration (derived forms: alterations)
 1. An event that occurs when something passes from one state or phase to another (= change, modification)
 "the alteration was intended to increase sales";
  

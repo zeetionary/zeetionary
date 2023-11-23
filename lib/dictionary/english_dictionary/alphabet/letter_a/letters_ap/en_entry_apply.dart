@@ -591,7 +591,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: apply (Derived forms: applying, applied, applies)
+- Verb: apply (derived forms: applying, applied, applies)
 1. Put into service; make work for a particular purpose or use as designed (= use, utilize, utilise [Brit], employ)
 "Apply a magnetic field here"; "This thinking was applied to many projects"; "I apply this rule to get good results";
  

@@ -660,7 +660,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: age (Derived forms: ages)
+- Noun: age (derived forms: ages)
 1. How long something has existed
 "it was replaced because of its age"
  
@@ -676,7 +676,7 @@ class EnglishMeaning extends StatelessWidget {
 5. A late time of life (= old age, years, eld, geezerhood)
 "old age is not for sissies"; "age hasn't slowed him down at all";
 
-- Verb: age (Derived forms: ages, ageing, aging, aged)
+- Verb: age (derived forms: ages, ageing, aging, aged)
 1. Begin to seem older; get older
 "The death of his wife caused him to age fast"
  

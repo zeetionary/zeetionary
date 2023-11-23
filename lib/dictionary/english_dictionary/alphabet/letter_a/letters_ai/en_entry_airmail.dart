@@ -256,16 +256,16 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: airmail (Derived forms: airmails)
+- Noun: airmail (derived forms: airmails)
 1. Letters and packages that are transported by aircraft
  
 2. A system of conveying mail by aircraft (= airpost)
 
-- Verb: airmail (Derived forms: airmails, airmailing, air mails, airmailed)
+- Verb: airmail (derived forms: airmails, airmailing, air mails, airmailed)
 1. Send or transport by airmail
 "Letters to Europe from the U.S. are best airmailed"
 
-- Noun: air mail (Derived forms: airmails)
+- Noun: air mail (derived forms: airmails)
 1. Mail that is sent by air transport
 '''),
         ],

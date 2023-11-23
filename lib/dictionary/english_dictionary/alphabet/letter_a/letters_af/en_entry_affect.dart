@@ -426,7 +426,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: affect (Derived forms: affecting, affected, affects)
+- Verb: affect (derived forms: affecting, affected, affects)
 1. Have an effect upon (= impact, bear upon, bear on, touch on, touch)
 "Will the new rules affect me?";
  
@@ -442,7 +442,7 @@ class EnglishMeaning extends StatelessWidget {
 5. Have an emotional or cognitive impact upon (= impress, move, strike)
 "This child affected me as unusually mature";
 
-- Noun: affect ((Derived forms: affects))
+- Noun: affect ((derived forms: affects))
 The conscious subjective aspect of feeling or emotion
 '''),
         ],

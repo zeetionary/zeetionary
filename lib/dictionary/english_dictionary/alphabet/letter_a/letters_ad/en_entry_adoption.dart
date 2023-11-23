@@ -365,7 +365,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adoption (Derived forms: adoptions)
+- Noun: adoption (derived forms: adoptions)
 1. The act of accepting with approval; favourable reception (= acceptance, acceptation, espousal)
 "its adoption by society";
  

@@ -373,7 +373,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: armament (Derived forms: armaments)
+- Noun: armament (derived forms: armaments)
 1. (military) weaponry used by military or naval force
  
 2. The act of equipping with weapons in preparation for war (= arming)

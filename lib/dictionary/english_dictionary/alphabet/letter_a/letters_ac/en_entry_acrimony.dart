@@ -254,7 +254,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acrimony (Derived forms: acrimonies)
+- Noun: acrimony (derived forms: acrimonies)
 1. A rough and bitter manner (= bitterness, acerbity, jaundice, tartness, thorniness)
 '''),
         ],

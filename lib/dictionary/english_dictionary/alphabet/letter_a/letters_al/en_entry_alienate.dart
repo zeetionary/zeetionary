@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: alienate (Derived forms: alienates, alienated, alienating)
+- Verb: alienate (derived forms: alienates, alienated, alienating)
 1. Arouse hostility or indifference in where there had formerly been love, affection, or friendliness (= estrange, disaffect)
 "She alienated her friends when she became fanatically religious";
  

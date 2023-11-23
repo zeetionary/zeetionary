@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adjective: arty (Derived forms: artier, artiest)
+- Adjective: arty (derived forms: artier, artiest)
 Usage: informal
 1. Showily imitative of art or artists (= artsy [N. Amer, informal])
 """),

@@ -375,7 +375,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: artisan (Derived forms: artisans)
+- Noun: artisan (derived forms: artisans)
 1. A skilled worker who practices some trade or handicraft (= craftsman, journeyman, artificer, craftsperson)
 "The artisan crafted a complicated tool";
 """),

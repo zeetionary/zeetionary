@@ -375,7 +375,7 @@ class EnglishMeaning extends StatelessWidget {
 3. Concerning or characterized by an appreciation of beauty or good taste (= esthetic [US], aesthetical, esthetical [US])
 "an aesthetic person"; "aesthetic feeling"; "the illustrations made the book an aesthetic success"; "the aesthetic faculties";
 
-- Noun: aesthetic (Derived forms: aesthetics)
+- Noun: aesthetic (derived forms: aesthetics)
 1. (philosophy) a philosophical theory as to what is beautiful (= esthetic [US])
 "he despised the aesthetic of minimalism";
 '''),

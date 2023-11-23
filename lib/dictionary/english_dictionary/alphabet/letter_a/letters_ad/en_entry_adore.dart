@@ -253,7 +253,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: adore (Derived forms: adored, adoring, adores)
+- Verb: adore (derived forms: adored, adoring, adores)
 1. Love intensely
 "he just adored his wife"
 '''),

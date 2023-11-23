@@ -373,7 +373,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: armchair (Derived forms: armchairs)
+- Noun: armchair (derived forms: armchairs)
 1. Chair with a support on each side for arms
 
 - Adjective: armchair 

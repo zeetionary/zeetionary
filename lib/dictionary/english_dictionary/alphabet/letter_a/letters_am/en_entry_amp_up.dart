@@ -420,7 +420,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Phrasal verb: amp up (Derived forms: amping up, amps up, amped up)
+- Phrasal verb: amp up (derived forms: amping up, amps up, amped up)
 1. to make (someone) more excited or energetic (= excite, energize)
 "When Smith came out to accept her trophy, Bieber smothered her with kisses, and then pumped his fist to amp up the crowd.";
 

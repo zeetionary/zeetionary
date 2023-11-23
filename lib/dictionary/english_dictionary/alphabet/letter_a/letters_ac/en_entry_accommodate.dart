@@ -418,7 +418,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: accommodate (Derived forms: accommodated, accommodates, accommodating)
+- Verb: accommodate (derived forms: accommodated, accommodates, accommodating)
 1. Be agreeable or acceptable to (= suit, fit)
 "This accommodates my needs";
  

@@ -226,7 +226,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: accrue (Derived forms: accrued, accruing, accrues)
+- Verb: accrue (derived forms: accrued, accruing, accrues)
 1. Grow by addition
 "The interest accrues"
  

@@ -378,7 +378,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: amendment (Derived forms: amendments)
+- Noun: amendment (derived forms: amendments)
 1. The act of amending or correcting
  
 2. A statement that is added to or revises or improves a proposal or document (a bill or constitution etc.)

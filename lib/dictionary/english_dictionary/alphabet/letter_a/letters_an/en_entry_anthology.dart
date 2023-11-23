@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anthology (Derived forms: anthologies)
+- Noun: anthology (derived forms: anthologies)
 1. A collection of literary or musical works, such as poems or short stories
  
 2. A collection of various things

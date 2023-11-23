@@ -457,7 +457,7 @@ class EnglishMeaning extends StatelessWidget {
 3. With everything considered (and neglecting details) (= all in all, on the whole, tout ensemble)
 "altogether, I'm sorry it happened";
 
-- Noun: altogether (Derived forms: altogethers)
+- Noun: altogether (derived forms: altogethers)
 Usage: informal
 1. The state of being without clothing or covering of any kind (= nakedness, nudity, nudeness, raw [informal], birthday suit [informal])
 "in the altogether";

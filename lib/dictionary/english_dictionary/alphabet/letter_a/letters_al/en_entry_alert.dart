@@ -646,12 +646,12 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: alert (Derived forms: alerts, alerting, alerted)
+- Verb: alert (derived forms: alerts, alerting, alerted)
 1. Warn or arouse to a sense of danger or call to a state of preparedness (= alarm)
 "We alerted the new neighbours to the high rate of burglaries";
 
 
-- Adjective: alert (Derived forms: alerter, alertest)
+- Adjective: alert (derived forms: alerter, alertest)
 1. Engaged in or accustomed to close observation (= watchful)
 "alert enough to spot the opportunity when it came"; "constantly alert and vigilant, like a sentinel on duty"; "caught by a couple of alert cops";
  
@@ -660,7 +660,7 @@ class EnglishMeaning extends StatelessWidget {
 3. Mentally perceptive and responsive (= alive, awake, on the ball)
 "an alert mind"; "alert to the problems";
 
-- Noun: alert (Derived forms: alerts)
+- Noun: alert (derived forms: alerts)
 1. Condition of heightened watchfulness or preparation for action (= qui vive)
 "bombers were put on alert during the crisis";
  

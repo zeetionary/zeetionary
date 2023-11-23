@@ -367,7 +367,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: ample (Derived forms: amplest, ampler)
+- Adjective: ample (derived forms: amplest, ampler)
 1. More than enough in size, scope or capacity
 "had ample food for the party"; "an ample supply"
  

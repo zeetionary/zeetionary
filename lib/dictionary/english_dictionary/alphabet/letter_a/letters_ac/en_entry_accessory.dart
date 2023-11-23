@@ -297,7 +297,7 @@ class EnglishMeaning extends StatelessWidget {
 2. Furnishing added support (= adjunct, ancillary, adjuvant, appurtenant, auxiliary)
 "an accessory pump";
 
-- Noun: accessory (Derived forms: accessories)
+- Noun: accessory (derived forms: accessories)
 1. Clothing that is worn or carried, but not part of your main clothing (= accoutrement, accouterment [US])
  
 2. A supplementary component that improves capability (= appurtenance, supplement, add-on, bolt-on)

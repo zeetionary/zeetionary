@@ -375,7 +375,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: artillery (Derived forms: artilleries)
+- Noun: artillery (derived forms: artilleries)
 1. Large but transportable armament (= heavy weapon, gun, ordnance)
  
 2. (military) an army unit that uses big guns (= artillery unit)

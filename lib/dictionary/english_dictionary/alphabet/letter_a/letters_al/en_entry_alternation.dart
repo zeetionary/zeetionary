@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alternation (Derived forms: alternations)
+- Noun: alternation (derived forms: alternations)
 1. Successive change from one thing or state to another and back again
 "a trill is a rapid alternation between the two notes"
 '''),

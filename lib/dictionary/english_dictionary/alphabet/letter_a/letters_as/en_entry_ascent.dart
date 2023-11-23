@@ -367,7 +367,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: ascent (Derived forms: ascents)
+- Noun: ascent (derived forms: ascents)
 1. An upward slope or grade (as in a road) (= acclivity, rise, raise, climb, upgrade [N. Amer])
  
 2. A movement upward; rise above the ground (= rise, rising, ascension)

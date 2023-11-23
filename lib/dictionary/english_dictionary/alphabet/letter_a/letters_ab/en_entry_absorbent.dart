@@ -237,7 +237,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: absorbent (Derived forms: absorbents)
+- Adjective: absorbent (derived forms: absorbents)
 1. Having power or capacity or tendency to absorb or soak up something (liquids or energy etc.) (= absorptive)
 "as absorbent as a sponge";
 

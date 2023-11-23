@@ -264,7 +264,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: affix (Derived forms: affixing, affixes, affixed)
+- Verb: affix (derived forms: affixing, affixes, affixed)
 1. Stick or fasten to (= stick on)
 "affix the seal here";
 
@@ -274,7 +274,7 @@ class EnglishMeaning extends StatelessWidget {
 3. Attach or become attached to a stem word
 "grammatical morphemes affix to the stem"
 
-- Noun: affix (Derived forms: affixing, affixes, affixed)
+- Noun: affix (derived forms: affixing, affixes, affixed)
 1. A linguistic element added to a word to produce an inflected or derived form
 '''),
         ],

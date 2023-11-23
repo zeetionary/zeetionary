@@ -298,7 +298,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: accusation (Derived forms: accusations)
+- Noun: accusation (derived forms: accusations)
 1. A formal charge of wrongdoing brought against a person; the act of imputing blame or guilt (= accusal)
  
 2. An assertion that someone is guilty of a fault or offence (= charge)

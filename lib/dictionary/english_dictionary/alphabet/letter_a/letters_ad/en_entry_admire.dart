@@ -300,7 +300,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: admire (Derived forms: admired, admiring, admires)
+- Verb: admire (derived forms: admired, admiring, admires)
 1. Feel admiration for (= look up to)
  
 Look at with pleasure or appreciation

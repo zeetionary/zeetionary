@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: antibody (Derived forms: antibodies)
+- Noun: antibody (derived forms: antibodies)
 1. Any of a large variety of proteins normally present in the body or produced in response to an antigen which it neutralizes, thus producing an immune response
 '''),
         ],

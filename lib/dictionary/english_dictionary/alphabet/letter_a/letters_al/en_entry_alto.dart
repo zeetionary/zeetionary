@@ -264,7 +264,7 @@ class EnglishMeaning extends StatelessWidget {
 3. (of a musical instrument) second highest member of a group
 "alto clarinet or recorder"
 
-- Noun: alto (Derived forms: altos)
+- Noun: alto (derived forms: altos)
 1. A singer whose voice lies in the alto clef
  
 2. The lowest female singing voice (= contralto)

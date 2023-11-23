@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adjustment (Derived forms: adjustments)
+- Noun: adjustment (derived forms: adjustments)
 1. Making or becoming suitable; adjusting to circumstances (accommodation, fitting)
  
 2. The act of making something different (as e.g. the size of a garment) (= alteration, modification)

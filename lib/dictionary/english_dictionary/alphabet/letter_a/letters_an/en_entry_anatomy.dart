@@ -485,7 +485,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anatomy (Derived forms: anatomies)
+- Noun: anatomy (derived forms: anatomies)
 1. The branch of morphology that deals with the structure of animals (= general anatomy)
  
 2. The physical body of a human being (= human body, physical body, material body, soma, build, figure, physique, shape, bod [informal], chassis [informal], frame, form, flesh)

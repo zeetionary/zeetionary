@@ -542,7 +542,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: appointment (Derived forms: appointments)
+- Noun: appointment (derived forms: appointments)
 1. The act of putting a person into a non-elective position (= assignment, designation, naming)
 "the appointment had to be approved by the whole committee";
  

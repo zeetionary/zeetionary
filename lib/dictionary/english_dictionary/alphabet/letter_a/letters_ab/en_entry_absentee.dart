@@ -237,7 +237,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: absentee (Derived forms: absentees)
+- Noun: absentee (derived forms: absentees)
 1. One that is absent or not in residence
 '''),
         ],

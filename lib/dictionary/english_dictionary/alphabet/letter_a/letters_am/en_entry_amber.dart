@@ -372,7 +372,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: amber (Derived forms: ambers)
+- Adjective: amber (derived forms: ambers)
 1. Of a medium to dark brownish yellow colour (= brownish-yellow, yellow-brown)
 
 - Noun: amber (= brownish-yellow, yellow-brown)

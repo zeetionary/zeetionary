@@ -262,7 +262,7 @@ class EnglishMeaning extends StatelessWidget {
 1. Relating to farming or agriculture (= agricultural, farming)
 "an agrarian society";
 
-- Noun: agrarian (Derived forms: agrarians)
+- Noun: agrarian (derived forms: agrarians)
 1.A person who advocates the political interests of working farmers, esp. the distribution of land
 '''),
         ],

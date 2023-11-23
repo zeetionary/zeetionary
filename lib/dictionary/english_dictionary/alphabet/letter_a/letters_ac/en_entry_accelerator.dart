@@ -237,7 +237,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: accelerator (Derived forms: accelerators)
+- Noun: accelerator (derived forms: accelerators)
 1. A pedal that controls the throttle valve (= accelerator pedal, gas pedal [N. Amer], gas [N. Amer], throttle)
 "he stepped on the accelerator";
  

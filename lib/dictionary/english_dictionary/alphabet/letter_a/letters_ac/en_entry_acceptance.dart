@@ -456,7 +456,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acceptance (Derived forms: acceptances)
+- Noun: acceptance (derived forms: acceptances)
 1. The mental attitude that something is believable and should be accepted as true (= credence)
 "acceptance of Newtonian mechanics was unquestioned for 200 years";
  

@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aroma (Derived forms: aromas)
+- Noun: aroma (derived forms: aromas)
 1. Any property detected by the olfactory system (= olfactory property, smell, odor [US], odour [Brit, Cdn], scent)
  
 2. A distinctive odour that is pleasant (= fragrance, perfume, scent)

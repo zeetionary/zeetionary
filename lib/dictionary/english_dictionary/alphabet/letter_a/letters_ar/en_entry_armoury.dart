@@ -441,7 +441,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: armoury (Derived forms: armouries)
+- Noun: armoury (derived forms: armouries)
 Usage: Brit, Cdn (US: armory)
 1. A collection of resources (= armory [US], inventory)
 "he dipped into his intellectual armoury to find an answer";

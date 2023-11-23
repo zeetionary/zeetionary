@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: amazement (Derived forms: amazements)
+- Noun: amazement (derived forms: amazements)
 1. The feeling that accompanies something extremely surprising (= astonishment)
 "he looked at me in amazement";
 '''),

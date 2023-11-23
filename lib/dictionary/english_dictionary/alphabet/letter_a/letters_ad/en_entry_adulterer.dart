@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adulterer (Derived forms: adulterers)
+- Noun: adulterer (derived forms: adulterers)
 1. Someone who commits adultery or fornication
 '''),
         ],

@@ -235,7 +235,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: accountancy (Derived forms: accountancies)
+- Noun: accountancy (derived forms: accountancies)
 1. The occupation of maintaining and auditing records and preparing financial reports for a business (= accounting)
 '''),
         ],

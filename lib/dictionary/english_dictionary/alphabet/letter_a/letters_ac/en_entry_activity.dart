@@ -420,7 +420,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: activity (Derived forms: activities)
+- Noun: activity (derived forms: activities)
 1. Any specific behaviour
 "they avoided all recreational activity"
  

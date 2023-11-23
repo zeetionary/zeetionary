@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: aggravation (Derived forms: aggravations)
+- Noun: aggravation (derived forms: aggravations)
 1. An exasperated feeling of annoyance (= exasperation)
  
 2. Unfriendly behaviour that causes anger or resentment (= irritation, provocation)

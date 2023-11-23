@@ -256,7 +256,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: air force (Derived forms: airforces, air forces) 
+- Noun: air force (derived forms: airforces, air forces) 
 1. (military) the airborne branch of a country's armed forces (= airforce)
 
 - Noun: Air Force

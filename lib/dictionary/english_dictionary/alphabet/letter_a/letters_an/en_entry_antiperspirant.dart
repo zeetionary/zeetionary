@@ -313,7 +313,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: antiperspirant (Derived forms: antiperspirants)
+- Noun: antiperspirant (derived forms: antiperspirants)
 1. An astringent substance applied to the skin to reduce perspiration
 '''),
         ],

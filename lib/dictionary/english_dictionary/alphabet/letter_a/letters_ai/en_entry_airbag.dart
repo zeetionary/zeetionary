@@ -256,7 +256,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: airbag (Derived forms: air bags)
+- Noun: airbag (derived forms: air bags)
 1. A safety restraint in an automobile; the bag inflates on collision and prevents the driver or passenger from being thrown forward
 '''),
         ],

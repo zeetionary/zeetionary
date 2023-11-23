@@ -234,7 +234,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: academy (Derived forms: academies)
+- Noun: academy (derived forms: academies)
 1. A secondary school (usually private)
  
 2. An institution for the advancement of art, science or literature (= honorary society)

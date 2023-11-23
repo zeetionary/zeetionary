@@ -579,14 +579,14 @@ class EnglishMeaning extends StatelessWidget {
 2. Being or from or characteristic of another place or part of the world (= exotic)
 "alien customs";
 
-- Noun: alien (Derived forms: aliens, aliened, aliening)
+- Noun: alien (derived forms: aliens, aliened, aliening)
 1. A person who comes from a foreign country; someone who does not owe allegiance to your country (= foreigner, noncitizen, outlander)
  
 2. Anyone who does not belong in the environment in which they are found (= stranger, unknown)
  
 3. A form of life assumed to exist outside the Earth or its atmosphere (= extraterrestrial being, extraterrestrial, ET)
 
-- Verb: alien (Derived forms: aliens, aliened, aliening)
+- Verb: alien (derived forms: aliens, aliened, aliening)
 1. Transfer property or ownership (= alienate)
 "The will aliened the property to the heirs";
 '''),

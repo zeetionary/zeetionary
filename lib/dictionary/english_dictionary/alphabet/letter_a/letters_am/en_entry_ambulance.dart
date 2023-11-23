@@ -268,7 +268,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: ambulance (Derived forms: ambulances)
+- Noun: ambulance (derived forms: ambulances)
 1. A vehicle that takes people to and from hospitals
 "The car pulled over when the ambulance approached at high speed"
 '''),

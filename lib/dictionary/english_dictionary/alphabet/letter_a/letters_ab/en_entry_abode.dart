@@ -227,7 +227,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abode (Derived forms: abodes)
+- Noun: abode (derived forms: abodes)
 1. Any address at which you dwell more than temporarily (=residence)
 "a person can have several abodes";
  

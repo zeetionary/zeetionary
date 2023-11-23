@@ -418,7 +418,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: afford (Derived forms: affording, affords, afforded)
+- Verb: afford (derived forms: affording, affords, afforded)
 1. Be able to spare or give up
 "I can't afford to spend two hours with this person"
  

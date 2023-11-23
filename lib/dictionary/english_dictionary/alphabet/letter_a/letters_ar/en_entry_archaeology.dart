@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: archaeology (Derived forms: archaeologies)
+- Noun: archaeology (derived forms: archaeologies)
 The branch of anthropology that studies prehistoric people and their cultures through their material remains (= archeology [US])
 """),
         ],

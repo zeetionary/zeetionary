@@ -307,7 +307,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: anoint (Derived forms: anointed, anoints, anointing)
+- Verb: anoint (derived forms: anointed, anoints, anointing)
 1. Choose by or as if by divine intervention
 "She was anointed the head of the Christian fundamentalist group"
  

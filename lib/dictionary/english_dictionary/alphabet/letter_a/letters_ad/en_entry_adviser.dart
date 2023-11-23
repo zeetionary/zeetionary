@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adviser (Derived forms: advisers)
+- Noun: adviser (derived forms: advisers)
 1. An expert who gives advice (= advisor, consultant)
 "an adviser helped students select their courses";
 '''),

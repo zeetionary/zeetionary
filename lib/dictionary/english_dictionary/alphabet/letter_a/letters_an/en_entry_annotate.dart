@@ -307,7 +307,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: annotate (Derived forms: annotating, annotates, annotated)
+- Verb: annotate (derived forms: annotating, annotates, annotated)
 1. Add explanatory notes to or supply with critical comments (= footnote)
 "The scholar annotated the early edition of a famous novel";
  

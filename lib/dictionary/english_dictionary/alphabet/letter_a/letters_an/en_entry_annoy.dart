@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: annoy (Derived forms: annoyed, annoys, annoying)
+- Verb: annoy (derived forms: annoyed, annoys, annoying)
 1. Cause annoyance in; disturb, especially by minor irritations (= rag, get to, bother, get at [informal], irritate, rile, nark [Brit, slang], nettle, gravel [US], vex, chafe, devil, tick off [informal], roil [N. Amer])
 "Mosquitoes buzzing in my ear really annoys me";
 '''),

@@ -296,7 +296,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: accede (Derived forms: acceded, accedes, acceding)
+- Verb: accede (derived forms: acceded, accedes, acceding)
 1. Yield to another's wish or opinion (= submit, bow[2], defer, give in)
 "The government acceded to the military pressure";
  

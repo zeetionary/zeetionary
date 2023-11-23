@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: aftermath (Derived forms: aftermaths)
+- Noun: aftermath (derived forms: aftermaths)
 1. The consequences of an event (especially a catastrophic event) (= wake, backwash)
 "the aftermath of war";
  

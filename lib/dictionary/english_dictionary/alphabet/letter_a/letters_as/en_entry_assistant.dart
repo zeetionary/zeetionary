@@ -426,7 +426,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: assistant (Derived forms: assistants)
+- Noun: assistant (derived forms: assistants)
 1. A person who contributes to the fulfilment of a need or furtherance of an effort or purpose (= helper, help, supporter, aid)
 "my invaluable assistant";
 

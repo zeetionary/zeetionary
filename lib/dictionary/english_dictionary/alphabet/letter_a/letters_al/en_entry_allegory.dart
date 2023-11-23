@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: allegory (Derived forms: allegories)
+- Noun: allegory (derived forms: allegories)
 1. A short moral story (often with animal characters) (= fable, parable, apologue, exemplum)
  
 2. A visible symbol representing an abstract idea (= emblem)

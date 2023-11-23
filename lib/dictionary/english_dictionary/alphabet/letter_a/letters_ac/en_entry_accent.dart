@@ -412,7 +412,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: accent (Derived forms: accented, accents, accenting)
+- Noun: accent (derived forms: accented, accents, accenting)
 1. Distinctive manner of oral expression (= speech pattern)
 "he couldn't suppress his contemptuous accent";
  

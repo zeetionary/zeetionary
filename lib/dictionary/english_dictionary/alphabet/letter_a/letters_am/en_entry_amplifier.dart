@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: amplifier (Derived forms: amplifiers)
+- Noun: amplifier (derived forms: amplifiers)
 Electronic equipment that increases strength of signals passing through it (= amp [informal])
 "he didn't have the right connector between the amplifier and the speakers";
 '''),

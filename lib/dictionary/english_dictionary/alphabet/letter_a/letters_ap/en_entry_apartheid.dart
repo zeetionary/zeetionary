@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-Noun: apartheid (Derived forms: apartheids)
+Noun: apartheid (derived forms: apartheids)
 1. A social policy or racial segregation involving political and economic and legal discrimination against people who are not Whites; the former official policy in South Africa
 '''),
         ],

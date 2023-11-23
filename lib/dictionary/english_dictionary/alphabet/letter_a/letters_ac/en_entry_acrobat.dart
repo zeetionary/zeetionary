@@ -209,7 +209,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acrobat (Derived forms: acrobats)
+- Noun: acrobat (derived forms: acrobats)
 An athlete who performs acts requiring skill and agility and coordination
 '''),
         ],

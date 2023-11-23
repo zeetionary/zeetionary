@@ -368,7 +368,7 @@ class EnglishMeaning extends StatelessWidget {
 1. Joined together into a whole (= amalgamated, coalesced, consolidated, fused)
 "the amalgamate colleges constituted a university";
 
-- Verb: amalgamate  (Derived forms: amalgamating, amalgamates, amalgamated)
+- Verb: amalgamate  (derived forms: amalgamating, amalgamates, amalgamated)
 1. To bring or combine together or with something else (= mix, mingle, commix [archaic], unify)
 "resourcefully he amalgamated music and dance";
 '''),

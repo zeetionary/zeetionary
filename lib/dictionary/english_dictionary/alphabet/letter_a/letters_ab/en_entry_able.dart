@@ -325,7 +325,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: able (Derived forms: ablest, abler)
+- Adjective: able (derived forms: ablest, abler)
 1. Having the skills and qualifications to do things well (=capable)
 "able teachers";
  

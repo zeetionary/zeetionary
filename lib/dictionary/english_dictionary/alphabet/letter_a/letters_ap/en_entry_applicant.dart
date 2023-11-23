@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: applicant (Derived forms: applicants)
+- Noun: applicant (derived forms: applicants)
 1. A person who requests or seeks something such as assistance or employment or admission (= applier)
 "an importunate job applicant";
 """),

@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: armada (Derived forms: armadas)
+- Noun: armada (derived forms: armadas)
 1. A large fleet
 """),
         ],

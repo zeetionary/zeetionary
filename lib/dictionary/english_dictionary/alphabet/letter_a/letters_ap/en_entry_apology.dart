@@ -365,7 +365,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: apology (Derived forms: apologies)
+- Noun: apology (derived forms: apologies)
 1. An expression of regret at having caused trouble for someone
 "he wrote a letter of apology to the hostess"
  

@@ -209,7 +209,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acorn (Derived forms: acorns)
+- Noun: acorn (derived forms: acorns)
 1. Fruit of the oak tree: a smooth thin-walled nut in a woody cup-shaped base
 '''),
         ],

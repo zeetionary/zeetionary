@@ -368,7 +368,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: amplification (Derived forms: amplifications)
+- Noun: amplification (derived forms: amplifications)
 1. Addition of extra material, illustration or clarifying detail (= elaboration)
 "a few remarks added in amplification and defence";
 

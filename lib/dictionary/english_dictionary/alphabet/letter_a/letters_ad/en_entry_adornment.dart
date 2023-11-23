@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adornment (Derived forms: adornments)
+- Noun: adornment (derived forms: adornments)
 1. A decoration of colour or interest that is added to relieve plainness
  
 2. The action of decorating yourself with something colourful and interesting

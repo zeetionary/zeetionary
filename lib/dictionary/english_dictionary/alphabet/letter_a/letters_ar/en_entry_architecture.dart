@@ -373,7 +373,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: architecture (Derived forms: architectures)
+- Noun: architecture (derived forms: architectures)
 1. An architectural product or work
  
 2. (rhythm) the discipline dealing with the principles of design and construction and ornamentation of fine buildings

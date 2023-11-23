@@ -298,7 +298,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abrasion (Derived forms: abrasions)
+- Noun: abrasion (derived forms: abrasions)
 1. An abraded area where the skin is torn or worn off (= scratch, scrape, excoriation)
  
 2. Erosion by friction (= attrition, corrasion, detrition)

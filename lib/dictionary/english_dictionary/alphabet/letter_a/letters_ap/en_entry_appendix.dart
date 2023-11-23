@@ -373,7 +373,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: appendix (Derived forms: appendixes, appendices)
+- Noun: appendix (derived forms: appendixes, appendices)
 1. Supplementary material that is collected and appended at the back of a book, article or document
  
 2. A vestigial process that extends from the lower end of the caecum and that resembles a small pouch (= vermiform appendix, vermiform process, cecal appendage)

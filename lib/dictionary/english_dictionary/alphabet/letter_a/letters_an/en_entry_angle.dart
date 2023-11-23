@@ -788,12 +788,12 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-Noun: angle (Derived forms: angles)
+Noun: angle (derived forms: angles)
 1. The space between two lines or planes that intersect; the inclination of one line to another; measured in degrees or radians
  
 2. A biased way of looking at or presenting something (= slant)
 
-- Verb: angle (Derived forms: angling, angles, angled)
+- Verb: angle (derived forms: angling, angles, angled)
 1. Move or proceed at an angle
 "he angled his way into the room"
  
@@ -809,7 +809,7 @@ Noun: angle (Derived forms: angles)
 6. Place (something) at an angle
 "angle the mirror to see better"
 
-- Noun: Angle (Derived forms: Angles)
+- Noun: Angle (derived forms: Angles)
 1. A member of a Germanic people who conquered England and merged with the Saxons and Jutes to become Anglo-Saxons
 '''),
         ],

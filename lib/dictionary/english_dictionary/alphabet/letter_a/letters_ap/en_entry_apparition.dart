@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: apparition (Derived forms: apparitions)
+- Noun: apparition (derived forms: apparitions)
 1. A ghostly appearing figure (= phantom, phantasm, phantasma, fantasm, specter [US], spectre [Brit, Cdn])
 "we were unprepared for the apparition that confronted us";
  

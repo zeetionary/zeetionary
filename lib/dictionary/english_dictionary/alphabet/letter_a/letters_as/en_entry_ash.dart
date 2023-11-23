@@ -484,7 +484,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-Noun: ash (Derived forms: ashes)
+Noun: ash (derived forms: ashes)
 1. The residue that remains when something is burned
  
 2. Any of various deciduous pinnate-leaved ornamental or timber trees of the genus Fraxinus (= ash tree)
@@ -493,7 +493,7 @@ Noun: ash (Derived forms: ashes)
  
 4. (orthography) the traditional name for the ae ligature
 
-- Verb: ash (Derived forms: ashed, ashes, ashing)
+- Verb: ash (derived forms: ashed, ashes, ashing)
 1. Convert into ashes
 """),
         ],

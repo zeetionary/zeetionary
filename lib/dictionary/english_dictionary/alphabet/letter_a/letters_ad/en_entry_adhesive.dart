@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adhesive (Derived forms: adhesives)
+- Noun: adhesive (derived forms: adhesives)
 1. A substance that unites or bonds surfaces together (= adhesive material, adhesive agent)
 
 - Adjective: adhesive 

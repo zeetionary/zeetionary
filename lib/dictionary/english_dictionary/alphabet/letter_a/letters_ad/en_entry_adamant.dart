@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: adamant (Derived forms: adamants)
+- Adjective: adamant (derived forms: adamants)
 1. Impervious to pleas, persuasion, requests, reason (= adamantine, inexorable, intransigent, unbudgeable)
 "he is adamant in his refusal to change his mind";
 

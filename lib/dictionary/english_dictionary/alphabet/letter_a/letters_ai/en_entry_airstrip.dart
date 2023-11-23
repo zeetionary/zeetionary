@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: airstrip (Derived forms: airstrips)
+- Noun: airstrip (derived forms: airstrips)
 1. An airfield without normal airport facilities (= flight strip, landing strip, strip)
 '''),
         ],

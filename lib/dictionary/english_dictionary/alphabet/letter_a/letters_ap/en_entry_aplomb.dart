@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aplomb (Derived forms: aplombs)
+- Noun: aplomb (derived forms: aplombs)
 1. Great coolness and composure under strain (= assuredness, cool, poise, sang-froid, sangfroid)
 """),
         ],

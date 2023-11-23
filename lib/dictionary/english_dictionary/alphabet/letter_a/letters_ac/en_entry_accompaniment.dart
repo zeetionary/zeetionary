@@ -359,7 +359,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: accompaniment (Derived forms: accompaniments)
+- Noun: accompaniment (derived forms: accompaniments)
 1. An event or situation that happens at the same time as or in connection with another (= concomitant, attendant, co-occurrence)
  
 2. A musical part (vocal or instrumental) that supports or provides background for other musical parts (= musical accompaniment, backup, support)

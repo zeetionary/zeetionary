@@ -373,7 +373,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aquarium (Derived forms: aquaria, aquariums)
+- Noun: aquarium (derived forms: aquaria, aquariums)
 1. A tank, pool or bowl filled with water for keeping live fish and underwater animals (= fish tank, marine museum)
 """),
         ],

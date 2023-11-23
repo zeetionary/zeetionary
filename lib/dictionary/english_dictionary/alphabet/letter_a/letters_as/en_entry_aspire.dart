@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: aspire (Derived forms: aspired, aspires, aspiring)
+- Verb: aspire (derived forms: aspired, aspires, aspiring)
 1. Have an ambitious plan or a lofty goal (= draw a bead on, aim, shoot for)
 "The students in medical schools aspire to be doctors";
 """),

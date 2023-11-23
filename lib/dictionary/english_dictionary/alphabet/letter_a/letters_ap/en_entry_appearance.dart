@@ -601,7 +601,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: appearance (Derived forms: appearances)
+- Noun: appearance (derived forms: appearances)
 1. Outward or visible aspect of a person or thing (= visual aspect)
  
 2. The event of coming into sight

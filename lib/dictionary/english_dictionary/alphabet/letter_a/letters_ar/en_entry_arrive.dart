@@ -485,7 +485,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: arrive (Derived forms: arrived, arriving, arrives)
+- Verb: arrive (derived forms: arrived, arriving, arrives)
 1. Reach a destination by movement or progress (= get, come)
 "She arrived home at 7 o'clock";
  

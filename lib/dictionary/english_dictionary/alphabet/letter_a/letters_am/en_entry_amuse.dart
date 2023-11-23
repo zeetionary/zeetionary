@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: amuse (Derived forms: amuses, amusing, amused)
+- Verb: amuse (derived forms: amuses, amusing, amused)
 1. Occupy in an agreeable, entertaining or pleasant fashion (= divert, disport)
 "The play amused the ladies";
  

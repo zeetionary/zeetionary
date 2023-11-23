@@ -209,7 +209,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adhesion (Derived forms: adhesions)
+- Noun: adhesion (derived forms: adhesions)
 1. The property of sticking together (as of glue and wood) or the joining of surfaces of different composition (= adhesiveness, adherence, bond)
 "a heated hydraulic press was required for adhesion";
  

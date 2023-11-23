@@ -256,7 +256,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-Phrasal verb: allude to (Derived forms: alluding to, alludes to, alluded to)
+Phrasal verb: allude to (derived forms: alluding to, alludes to, alluded to)
 1. Make a more or less disguised reference to (= touch, advert [rare])
 "He alluded to the problem but did not mention it";
 '''),

@@ -297,7 +297,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: accuse (Derived forms: accuses, accused, accusing)
+- Verb: accuse (derived forms: accuses, accused, accusing)
 1. Bring an accusation against; level a charge against (= impeach, incriminate, criminate)
 "The neighbours accused the man of spousal abuse";
  

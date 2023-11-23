@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: admirer (Derived forms: admirers)
+- Noun: admirer (derived forms: admirers)
 1. A person who backs a politician or a team etc. (= supporter, protagonist, champion, booster, friend)
 "all their admirers came out for the game";
  

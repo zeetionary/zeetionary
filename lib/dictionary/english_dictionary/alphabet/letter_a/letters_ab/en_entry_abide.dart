@@ -279,7 +279,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: abide (Derived forms: abides, abiding, abided)
+- Verb: abide (derived forms: abides, abiding, abided)
 1. Put up with something or somebody unpleasant (=digest, endure, stick out, stomach, bear, stand, tolerate, support, brook, suffer, put up)
 "The new secretary had to abide a lot of unprofessional remarks";
  

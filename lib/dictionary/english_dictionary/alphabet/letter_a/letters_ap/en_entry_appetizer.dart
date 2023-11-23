@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: appetizer (Derived forms: appetizers)
+- Noun: appetizer (derived forms: appetizers)
 1. Food or drink to stimulate the appetite (usually served before a meal or as the first course) (= appetiser [Brit], starter)
 """),
         ],

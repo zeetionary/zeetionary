@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: allotment (Derived forms: allotments)
+- Noun: allotment (derived forms: allotments)
 1. A share set aside for a specific purpose (= allocation)
  
 2. The act of distributing by allotting or apportioning; distribution according to a plan (= apportionment, apportioning, allocation, parceling [US], parcelling, assignation)

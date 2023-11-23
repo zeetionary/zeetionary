@@ -622,7 +622,7 @@ class EnglishMeaning extends StatelessWidget {
 6. In reserve; not for immediate use (= by, away)
 "started setting aside money to buy a car";
 
-- Noun: aside (Derived forms: asides)
+- Noun: aside (derived forms: asides)
 1. A line spoken by an actor to the audience but not intended for others on the stage
  
 2. A message that departs from the main subject (= digression, excursus, divagation, parenthesis)

@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: armpit (Derived forms: armpits)
+- Noun: armpit (derived forms: armpits)
 1. The hollow under the arm where it is joined to the shoulder (= axilla, axillary cavity, axillary fossa, underarm)
 "they were up to their armpits in water";
 """),

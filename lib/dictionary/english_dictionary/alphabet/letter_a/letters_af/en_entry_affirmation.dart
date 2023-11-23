@@ -357,7 +357,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: affirmation (Derived forms: affirmations)
+- Noun: affirmation (derived forms: affirmations)
 1. A statement asserting the existence or the truth of something (= avowal, avouchment)
  
 2. The act of affirming, asserting or stating something (= assertion, statement)

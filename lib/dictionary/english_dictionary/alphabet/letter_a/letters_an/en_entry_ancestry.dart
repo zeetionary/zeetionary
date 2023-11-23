@@ -359,7 +359,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: ancestry (Derived forms: ancestries)
+- Noun: ancestry (derived forms: ancestries)
 1. The hereditary derivation of an individual (= lineage, line, line of descent, descent, bloodline, blood line, blood, pedigree, origin, parentage, stemma, stock)
 "his entire ancestry has been warriors";
  

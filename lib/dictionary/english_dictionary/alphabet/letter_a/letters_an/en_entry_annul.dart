@@ -307,7 +307,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: annul (Derived forms: annuls, annulled, annulling)
+- Verb: annul (derived forms: annuls, annulled, annulling)
 1. Declare invalid (= invalidate, quash, void, avoid, nullify)
 "The contract was annulled";
  

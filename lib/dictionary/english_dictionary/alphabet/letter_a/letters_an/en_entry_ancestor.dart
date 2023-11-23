@@ -477,7 +477,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: ancestor (Derived forms: ancestors)
+- Noun: ancestor (derived forms: ancestors)
 1. Someone from whom you are descended (but usually more remote than a grandparent) (= ascendant, ascendent, antecedent, root)
  
 2. An earlier form from which a later form evolved

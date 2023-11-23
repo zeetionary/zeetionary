@@ -432,7 +432,7 @@ class EnglishMeaning extends StatelessWidget {
  
 4. (computing) of a class in object-oriented programming, being a partial basis for subclasses rather than being completely defined and directly usable
 
-- Verb: abstract (Derived forms: abstracted, abstracting, abstracts)
+- Verb: abstract (derived forms: abstracted, abstracting, abstracts)
 1. Consider a concept without thinking of a specific example; consider abstractly or theoretically
  
 2. Consider apart from a particular case or instance
@@ -443,7 +443,7 @@ class EnglishMeaning extends StatelessWidget {
 4. Take by theft
 - hook [informal], snitch [informal], thieve, cop [informal], knock off [informal], glom [N. Amer, informal], pilfer, cabbage [informal], purloin, pinch [Brit, informal], snarf [N. Amer, informal], swipe [informal], sneak [informal], filch [informal], nobble [Brit, informal], lift, whip [Brit, informal], nick [Brit, informal], snatch [informal], blag [Brit, informal]
 
-- Noun: abstract (Derived forms: abstracts)
+- Noun: abstract (derived forms: abstracts)
 1. A concept or idea not associated with any specific instance (= abstraction)
 "he loved her only in the abstract--not in person";
  

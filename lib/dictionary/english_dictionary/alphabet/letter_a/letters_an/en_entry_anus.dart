@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anus (Derived forms: anuses)
+- Noun: anus (derived forms: anuses)
 1. The excretory opening at the end of the alimentary canal
 '''),
         ],

@@ -255,10 +255,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: advert (Derived forms: adverts)
+- Noun: advert (derived forms: adverts)
 1. A public promotion of some product or service (= ad [informal], advertisement, advertizement [US, non-standard], advertising, advertizing [US, non-standard])
 
-- Verb: advert (Derived forms: adverts, adverted, adverting)
+- Verb: advert (derived forms: adverts, adverted, adverting)
 1. Give heed (to) (= attend, hang, pay heed, give ear)
 "The children in the audience adverted the recital quietly";
  

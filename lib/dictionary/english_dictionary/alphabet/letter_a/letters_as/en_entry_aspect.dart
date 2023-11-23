@@ -556,7 +556,7 @@ class EnglishMeaning extends StatelessWidget {
  
 4. The beginning, duration, completion or repetition of the action of a verb
  
-5. The feelings expressed on a person's face (= expression, look, facial expression, face) (Derived forms: aspects)
+5. The feelings expressed on a person's face (= expression, look, facial expression, face) (derived forms: aspects)
 "a sad aspect";
 """),
         ],

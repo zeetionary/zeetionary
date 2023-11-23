@@ -476,7 +476,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: angel (Derived forms: angels)
+- Noun: angel (derived forms: angels)
 1. A supernatural messenger from a deity, or a divine attendant; often represented as a human with wings
  
 2. Person of exceptional holiness (= saint, holy man, holy person)

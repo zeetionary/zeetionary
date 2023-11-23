@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: amputation (Derived forms: amputations)
+- Noun: amputation (derived forms: amputations)
 1. A condition of disability resulting from the loss of one or more limbs
  
 2. A surgical removal of all or part of a limb

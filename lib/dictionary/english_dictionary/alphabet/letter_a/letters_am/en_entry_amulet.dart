@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: amulet (Derived forms: amulets)
+- Noun: amulet (derived forms: amulets)
 1. A trinket or piece of jewellery usually hung about the neck and thought to be a magical protection against evil or disease (= talisman)
 '''),
         ],

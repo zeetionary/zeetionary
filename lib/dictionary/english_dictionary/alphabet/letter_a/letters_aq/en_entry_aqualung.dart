@@ -312,7 +312,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aqualung (Derived forms: Aqua-Lungs, aqualungs)
+- Noun: aqualung (derived forms: Aqua-Lungs, aqualungs)
 1. A device (trade name Aqua-Lung) that lets divers breathe under water; scuba is an acronym for self-contained underwater breathing apparatus (= Aqua-Lung, scuba)
 """),
         ],

@@ -367,7 +367,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anecdote (Derived forms: anecdotes)
+- Noun: anecdote (derived forms: anecdotes)
 1. A short, interesting or amusing account of a real incident (especially a biographical one)
 '''),
         ],

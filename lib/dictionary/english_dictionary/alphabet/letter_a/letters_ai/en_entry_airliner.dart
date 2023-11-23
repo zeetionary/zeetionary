@@ -256,7 +256,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: airliner (Derived forms: airliners)
+- Noun: airliner (derived forms: airliners)
 1. A commercial aeroplane that carries passengers
 '''),
         ],

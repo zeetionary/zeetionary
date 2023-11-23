@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: allegiance (Derived forms: allegiances)
+- Noun: allegiance (derived forms: allegiances)
 1. The act of binding yourself (intellectually or emotionally) to a course of action (= commitment, loyalty, dedication)
 "his long allegiance to public service";
  

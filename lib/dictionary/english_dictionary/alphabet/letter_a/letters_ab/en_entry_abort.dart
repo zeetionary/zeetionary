@@ -349,11 +349,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abort (Derived forms: aborts)
+- Noun: abort (derived forms: aborts)
 1. The act of terminating a project or procedure before it is completed
 "I wasted a year of my life working on an abort"; "he sent a short message requesting an abort due to extreme winds in the area"
 
-- Verb: abort (Derived forms: aborting, aborted, aborts)
+- Verb: abort (derived forms: aborting, aborted, aborts)
 1. Terminate before completion
 "abort the mission"; "abort the process running on my computer"
  

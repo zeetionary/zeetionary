@@ -490,7 +490,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alignment (Derived forms: alignments)
+- Noun: alignment (derived forms: alignments)
 1. The spatial property possessed by an arrangement or position of things in a straight line or in parallel lines
  
 2. The act of adjusting or aligning the parts of a device in relation to each other

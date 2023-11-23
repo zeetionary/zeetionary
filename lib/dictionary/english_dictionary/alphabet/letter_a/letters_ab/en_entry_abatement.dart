@@ -220,7 +220,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abatement (Derived forms:  abatements) 
+- Noun: abatement (derived forms:  abatements) 
 1. An interruption in the intensity or amount of something (=suspension, respite, reprieve, hiatus)
  
 2. The act of abating

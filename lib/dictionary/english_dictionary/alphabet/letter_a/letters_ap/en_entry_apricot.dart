@@ -372,7 +372,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: apricot (Derived forms: apricots)
+- Noun: apricot (derived forms: apricots)
 1. Asian tree having clusters of usually white blossoms and edible fruit resembling the peach (= apricot tree)
  
 2. Downy yellow to rosy-coloured fruit resembling a small peach

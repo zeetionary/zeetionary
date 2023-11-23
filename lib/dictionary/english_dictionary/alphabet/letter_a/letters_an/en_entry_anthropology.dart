@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anthropology (Derived forms: anthropologies)
+- Noun: anthropology (derived forms: anthropologies)
 1. The social science that studies the origins and social relationships of human beings
 '''),
         ],

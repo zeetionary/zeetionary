@@ -404,7 +404,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: accommodation (Derived forms: accommodations)
+- Noun: accommodation (derived forms: accommodations)
 1. Living quarters provided for public convenience
 "the nearby hotel offers overnight accommodation"
  

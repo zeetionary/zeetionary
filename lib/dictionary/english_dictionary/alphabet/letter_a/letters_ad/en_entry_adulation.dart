@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adulation (Derived forms: adulations)
+- Noun: adulation (derived forms: adulations)
 1. Servile flattery; exaggerated and hypocritical praise
 '''),
         ],

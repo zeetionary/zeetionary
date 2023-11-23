@@ -375,7 +375,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arsenal (Derived forms: arsenals)
+- Noun: arsenal (derived forms: arsenals)
 1. All the weapons and equipment that a country has (= armory [US], armoury [Brit, Cdn])
  
 2. (military) A military structure where arms, ammunition, and other military equipment are stored and training is given in their use (= armory [US], armoury [Brit, Cdn])

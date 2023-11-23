@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: angst (Derived forms: angsts)
+- Noun: angst (derived forms: angsts)
 1. An acute but unspecific feeling of anxiety; usually reserved for philosophical anxiety about the world or about personal freedom
 '''),
         ],

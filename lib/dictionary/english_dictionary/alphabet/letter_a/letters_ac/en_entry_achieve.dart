@@ -416,7 +416,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: achieve (Derived forms: achieving, achieves, achieved)
+- Verb: achieve (derived forms: achieving, achieves, achieved)
 1. To gain with effort (= accomplish, attain, reach)
 "she achieved her goal despite setbacks";
 '''),

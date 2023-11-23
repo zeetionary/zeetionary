@@ -395,7 +395,7 @@ class EnglishMeaning extends StatelessWidget {
 1. Flaming as it burns (= ablaze, afire [literary], aflame, aflare [rare], on fire, burning, in flames)
 "forests set alight by lightning"; "candles alight on the tables";
 
-- Verb: alight (Derived forms: alit, alighted, alighting, alights)
+- Verb: alight (derived forms: alit, alighted, alighting, alights)
 1. To come to rest, settle (= light, perch)
  
 2. Come down (= climb down)

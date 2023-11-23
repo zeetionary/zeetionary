@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: ant (Derived forms: ants)
+- Noun: ant (derived forms: ants)
 1. Social insect living in organized colonies; characteristically the males and fertile queen have wings during breeding season; wingless sterile females are the workers (= emmet, pismire)
 '''),
         ],

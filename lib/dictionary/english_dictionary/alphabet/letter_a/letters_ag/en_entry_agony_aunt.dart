@@ -207,7 +207,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: agony aunt (Derived forms: agony aunts)
+- Noun: agony aunt (derived forms: agony aunts)
 1. A newspaper columnist who answers questions and offers advice on personal problems to people who write in
 '''),
         ],

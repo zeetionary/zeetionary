@@ -793,7 +793,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: art (Derived forms: arts)
+- Noun: art (derived forms: arts)
 1. The creation of beautiful or significant things (= artistic creation, artistic production)
 "I was never any good at art"; "he said that architecture is the art of wasting space beautifully"; "art does not need to be innovative to be good"; 
  

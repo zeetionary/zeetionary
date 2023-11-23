@@ -311,7 +311,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: antidepressant (Derived forms: antidepressants)
+- Noun: antidepressant (derived forms: antidepressants)
 1. Any of a class of drugs used to treat depression; often have undesirable side effects (= antidepressant drug)
 '''),
         ],

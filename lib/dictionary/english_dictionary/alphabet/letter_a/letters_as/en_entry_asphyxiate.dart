@@ -321,7 +321,7 @@ class EnglishMeaning extends StatelessWidget {
 2. Impair the respiration of or obstruct the air passage of (= suffocate, stifle, choke)
 "The foul air was slowly asphyxiating the children";
  
-3. Be asphyxiated; die from lack of oxygen (= suffocate, stifle) (Derived forms: asphyxiated, asphyxiates, asphyxiating)
+3. Be asphyxiated; die from lack of oxygen (= suffocate, stifle) (derived forms: asphyxiated, asphyxiates, asphyxiating)
 "The child asphyxiated under the pillow";
 """),
         ],

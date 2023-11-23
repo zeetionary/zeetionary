@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anesthesia (Derived forms: anesthesias)
+- Noun: anesthesia (derived forms: anesthesias)
 Usage: N. Amer (elsewhere: anaesthesia)
 1. Loss of bodily sensation with or without loss of consciousness (= anaesthesia [Brit, Cdn])
 '''),

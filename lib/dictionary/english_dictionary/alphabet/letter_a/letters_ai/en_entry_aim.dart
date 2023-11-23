@@ -630,7 +630,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: aim (Derived forms: aimed, aiming, aims)
+- Verb: aim (derived forms: aimed, aiming, aims)
 1. Point or cause to go (blows, weapons, or objects such as photographic equipment) towards (= take, train, take aim, direct)
 "Please don't aim at your little brother!";
  
@@ -651,7 +651,7 @@ class EnglishMeaning extends StatelessWidget {
 7. Have an ambitious plan or a lofty goal (= draw a bead on, aspire, shoot for)
 "The students in medical schools aim to be doctors";
 
-- Noun: aim (Derived forms: aims)
+- Noun: aim (derived forms: aims)
 1. An anticipated outcome that is intended or that guides your planned actions (= purpose, intent, intention, design)
 "it was created with the conscious aim of answering immediate needs";
 

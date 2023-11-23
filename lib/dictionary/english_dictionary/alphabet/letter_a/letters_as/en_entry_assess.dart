@@ -302,7 +302,7 @@ class EnglishEntryassess extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زیان بە بیناکە بە ٤٠،٠٠٠ پاوەند خەمڵێندرا.",
+                                    "زیان بە بیناکە بە ٤٠,٠٠٠ پاوەند خەمڵێندرا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -375,7 +375,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: assess (Derived forms: assesses, assessing, assessed)
+- Verb: assess (derived forms: assesses, assessing, assessed)
 1. Estimate or determine the nature, value, quality, ability, extent, or significance of (= measure, evaluate, valuate, appraise, value, scope)
 "I will have the family jewels assessed by a professional";
  

@@ -367,7 +367,7 @@ class EnglishMeaning extends StatelessWidget {
 - Adjective: amphibian
 1. Relating to or characteristic of animals of the class Amphibia (= amphibious)
 
-- Noun: amphibian (Derived forms: amphibians)
+- Noun: amphibian (derived forms: amphibians)
 1. A flat-bottomed motor vehicle that can travel on land or water (= amphibious vehicle)
  
 2. An aeroplane designed to take off and land on water (= amphibious aircraft)

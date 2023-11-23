@@ -651,7 +651,7 @@ class EnglishMeaning extends StatelessWidget {
 2. Meant or adapted for an occasion or use (= suitable, suited)
 "a tractor appropriate for heavy duty"; "not an appropriate (or fit) time for flippancy";
 
-- Verb: appropriate (Derived forms: appropriated, appropriates, appropriating)
+- Verb: appropriate (derived forms: appropriated, appropriates, appropriating)
 1. Give or assign a resource to a particular person or cause (= allow, earmark, set aside, reserve)
  
 2. Take possession of by force, as after an invasion (= capture, seize, conquer)

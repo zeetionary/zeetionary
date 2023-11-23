@@ -312,7 +312,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anvil (Derived forms: anvils)
+- Noun: anvil (derived forms: anvils)
 1. A heavy block of iron or steel on which hot metals are shaped by hammering
  
 2. The ossicle between the malleus and the stapes (= incus)

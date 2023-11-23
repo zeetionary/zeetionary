@@ -241,7 +241,7 @@ class EnglishEntryaskingprice extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نرخی داواکراو بۆ خانووەکە ٢٥٠،٠٠٠ پاوەند بوو.",
+                                    "نرخی داواکراو بۆ خانووەکە ٢٥٠,٠٠٠ پاوەند بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: asking price (Derived forms: asking prices) 
+- Noun: asking price (derived forms: asking prices) 
 1. The price at which something is offered for sale (= selling price)
 """),
         ],

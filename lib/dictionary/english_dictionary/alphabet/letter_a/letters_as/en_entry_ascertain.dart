@@ -365,7 +365,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: ascertain (Derived forms: ascertained, ascertains, ascertaining)
+- Verb: ascertain (derived forms: ascertained, ascertains, ascertaining)
 1. Establish after a calculation, investigation, experiment, survey, or study (= determine, find, find out)
 "ascertain the product of two numbers";
 

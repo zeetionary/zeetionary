@@ -302,7 +302,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: afflict (Derived forms: afflicting, afflicts, afflicted)
+- Verb: afflict (derived forms: afflicting, afflicts, afflicted)
 1. Cause great unhappiness for; distress
 "she was afflicted by the death of her parents"
  

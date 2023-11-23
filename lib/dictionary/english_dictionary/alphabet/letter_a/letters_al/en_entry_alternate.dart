@@ -535,7 +535,7 @@ class EnglishMeaning extends StatelessWidget {
 4. Occurring by turns; first one and then the other (= alternating)
 "alternate feelings of love and hate";
 
-- Verb: alternate (Derived forms: alternating, alternates, alternated)
+- Verb: alternate (derived forms: alternating, alternates, alternated)
 1. Go back and forth; swing back and forth between two states or conditions (= jump)
  
 2. Exchange people temporarily to fulfil certain jobs and functions
@@ -547,7 +547,7 @@ class EnglishMeaning extends StatelessWidget {
 5. Do something in turns (= take turns)
 "We alternate on the night shift";
 
-- Noun: alternate (Derived forms: alternating, alternates, alternated) 
+- Noun: alternate (derived forms: alternating, alternates, alternated) 
 1. Someone who takes the place of another person (= surrogate, replacement)
 '''),
         ],

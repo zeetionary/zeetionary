@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: ad-lib (Derived forms: ad-libbed, ad-libbing, ad-libs)
+- Adjective: ad-lib (derived forms: ad-libbed, ad-libbing, ad-libs)
 1. With little or no preparation or forethought (extemporaneous, extemporary, extempore, impromptu, offhand, offhanded, off-the-cuff, unrehearsed)
 "his ad-lib comments showed poor judgment";
  

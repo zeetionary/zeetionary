@@ -364,7 +364,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: apple (Derived forms: apples)
+- Noun: apple (derived forms: apples)
 1. Fruit with red, yellow or green skin and sweet to tart crisp whitish flesh
  
 2. Native Eurasian tree widely cultivated in many varieties for its firm rounded edible fruits (= orchard apple tree, Malus pumila)

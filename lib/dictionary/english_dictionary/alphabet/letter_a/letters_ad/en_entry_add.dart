@@ -428,7 +428,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: add (Derived forms: added, adds, adding)
+- Verb: add (derived forms: added, adds, adding)
 1. Make an addition (to); join or combine or unite with others; increase the quality, quantity, size or scope of
 "We added two students to that dorm room"; "She added a personal note to her letter"; "Add insult to injury"; "Add some extra plates to the dinner table"
  

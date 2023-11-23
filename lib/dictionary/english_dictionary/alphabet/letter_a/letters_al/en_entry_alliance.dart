@@ -382,7 +382,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alliance (Derived forms: alliances)
+- Noun: alliance (derived forms: alliances)
 1. The state of being allied or confederated (= confederation)
  
 2. A connection based on kinship, marriage or common interest (= bond)

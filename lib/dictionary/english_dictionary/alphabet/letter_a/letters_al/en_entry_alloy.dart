@@ -258,13 +258,13 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alloy (Derived forms: alloys)
+- Noun: alloy (derived forms: alloys)
 1. A mixture containing two or more metallic elements or metallic and nonmetallic elements usually fused together or dissolving into each other when molten (= metal)
 "brass is an alloy of zinc and copper";
 
 2. The state of impairing the quality or reducing the value of something (= admixture)
 
-- Verb: alloy (Derived forms: alloys, alloying, alloyed)
+- Verb: alloy (derived forms: alloys, alloying, alloyed)
 1. (metallurgy) lower in value by increasing the base-metal content (= debase)
  
 2. (metallurgy) make an alloy of

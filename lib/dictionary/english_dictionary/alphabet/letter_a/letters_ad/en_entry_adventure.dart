@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adventure (Derived forms: adventured, adventures, adventuring)
+- Noun: adventure (derived forms: adventured, adventures, adventuring)
 1. A wild and exciting undertaking (not necessarily lawful) (= escapade, risky venture, dangerous undertaking)
  
 2. A remarkable occurrence; an exciting incident or experience

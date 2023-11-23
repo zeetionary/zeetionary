@@ -237,7 +237,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abstinence (Derived forms: abstinences)
+- Noun: abstinence (derived forms: abstinences)
 1. The trait of abstaining (especially from alcohol) (= abstention)
  
 2. Act or practice of refraining from indulging an appetite

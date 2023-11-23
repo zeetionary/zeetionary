@@ -359,7 +359,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: absorption (Derived forms: absorptions)
+- Noun: absorption (derived forms: absorptions)
 1. (chemistry) a process in which one substance permeates another; a fluid permeates or is dissolved by a liquid or solid (= soaking up)
  
 2. (physics) the process in which incident radiated energy is retained without reflection or transmission on passing through a medium

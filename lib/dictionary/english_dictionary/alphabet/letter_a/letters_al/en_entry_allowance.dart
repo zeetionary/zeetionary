@@ -390,7 +390,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: allowance (Derived forms: allowances)
+- Noun: allowance (derived forms: allowances)
 1. An amount allowed or granted (as during a given period)
 "travel allowance"; "my weekly allowance of two eggs"; "a child's allowance should not be too generous"
  
@@ -406,7 +406,7 @@ class EnglishMeaning extends StatelessWidget {
 6. The act of allowing
 "He objected to the allowance of smoking in the dining room"
 
-- Verb: allowance (Derived forms: allowanced, allowances, allowancing)
+- Verb: allowance (derived forms: allowanced, allowances, allowancing)
 1. Put on a fixed allowance, as of food
 '''),
         ],

@@ -298,7 +298,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: accuracy (Derived forms: accuracies)
+- Noun: accuracy (derived forms: accuracies)
 1. The quality of being correct, true, or close to the true value (= truth, veracity)
 "he was beginning to doubt the accuracy of his compass";
  

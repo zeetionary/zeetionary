@@ -258,10 +258,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: airship (Derived forms: airships)
+- Noun: airship (derived forms: airships)
 1. A steerable self-propelled aircraft (= dirigible [N. Amer])
 
-- Verb: air-ship (Derived forms: air-shipped, air-ships, air-shipping)
+- Verb: air-ship (derived forms: air-shipped, air-ships, air-shipping)
 1. Transport (cargo) by air (= airfreight, air-freight)
 "International air-ship traffic dropped 2.7 percent in August";
 '''),

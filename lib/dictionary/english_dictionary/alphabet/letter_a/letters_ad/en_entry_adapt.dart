@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: adapt (Derived forms: adapts, adapting, adapted)
+- Verb: adapt (derived forms: adapts, adapting, adapted)
 1. Make fit for, or change to suit a new purpose (= accommodate)
 "Adapt our native cuisine to the available food resources of the new country";
  

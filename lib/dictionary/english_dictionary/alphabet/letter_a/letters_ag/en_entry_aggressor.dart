@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: aggressor (Derived forms: aggressors)
+- Noun: aggressor (derived forms: aggressors)
 1. Someone who attacks (= attacker, assailant, assaulter, assailer)
 "repel the aggressor";
  

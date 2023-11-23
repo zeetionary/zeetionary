@@ -666,7 +666,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arch (Derived forms: arches)
+- Noun: arch (derived forms: arches)
 1. (architecture) a masonry construction (usually curved) for spanning an opening and supporting the weight above it
  
 2. A passageway under a curved masonry construction (= archway)
@@ -676,11 +676,11 @@ class EnglishMeaning extends StatelessWidget {
  
 4. A curved bony structure supporting or enclosing organs (especially the inner sides of the feet)
 
-- Verb: arch (Derived forms: arching, arched, arches)
+- Verb: arch (derived forms: arching, arched, arches)
 1. Form an arch or curve (= curve, arc)
 "her back arches";
 
-- Adjective: arch (Derived forms: archest, archer)
+- Adjective: arch (derived forms: archest, archer)
 1. (used of behaviour or attitude) characteristic of those who treat others with condescension (= condescending, patronizing, patronising [Brit])
  
 2. Naughtily or annoyingly playful (= impish, implike, mischievous, pixilated, prankish, puckish, wicked [informal], scampish [rare], pixillated)

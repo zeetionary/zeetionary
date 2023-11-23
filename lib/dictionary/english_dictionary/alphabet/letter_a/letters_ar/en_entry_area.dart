@@ -603,7 +603,7 @@ class EnglishEntryarea extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕووبەری بەریتانیا ٨٨،٧٩٨ میلە.",
+                                    "ڕووبەری بەریتانیا ٨٨,٧٩٨ میلە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -676,7 +676,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: area (Derived forms: areas)
+- Noun: area (derived forms: areas)
 1. A particular geographical region of indefinite boundary (usually serving some special purpose or distinguished by its people or culture or geography) (= country)
 "it was a mountainous area";
  

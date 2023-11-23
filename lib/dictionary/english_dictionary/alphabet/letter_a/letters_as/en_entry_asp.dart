@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: asp (Derived forms: asps)
+- Noun: asp (derived forms: asps)
 1. A snake of southern Europe; similar to but smaller than the adder (= asp viper, Vipera aspis)
  
 2. Cobra used by the Pharaohs as a symbol of their power over life and death (= Egyptian cobra, Naja haje)

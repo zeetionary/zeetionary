@@ -323,7 +323,7 @@ class EnglishMeaning extends StatelessWidget {
 3. Affirming or giving assent (= affirmatory)
 "affirmative votes"; "an affirmative decision";
 
-- Noun: affirmative (Derived forms: affirmatives)
+- Noun: affirmative (derived forms: affirmatives)
 1. A 'yes' reply, a reply of affirmation
 "he answered in the affirmative"
 '''),

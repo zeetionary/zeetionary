@@ -209,7 +209,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acute angle (Derived forms: acute angles)
+- Noun: acute angle (derived forms: acute angles)
 1. An angle less than 90 degrees but more than 0 degrees
 '''),
         ],

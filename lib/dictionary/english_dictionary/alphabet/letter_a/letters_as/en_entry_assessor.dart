@@ -434,7 +434,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: assessor (Derived forms: assessors)
+- Noun: assessor (derived forms: assessors)
 1. An official who evaluates property for the purpose of taxing it (= tax assessor)
 """),
         ],

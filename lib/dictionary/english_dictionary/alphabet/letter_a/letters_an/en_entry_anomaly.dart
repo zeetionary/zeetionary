@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anomaly (Derived forms: anomalies)
+- Noun: anomaly (derived forms: anomalies)
 1. Deviation from the normal or common order or form or rule (= anomalousness)
  
 2. A person who is unusual (= unusual person)

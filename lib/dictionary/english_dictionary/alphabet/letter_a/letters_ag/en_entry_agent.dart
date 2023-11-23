@@ -456,7 +456,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: agent (Derived forms: agents)
+- Noun: agent (derived forms: agents)
 1. An active and efficient cause; capable of producing a certain effect
 "their research uncovered new disease agents"
  

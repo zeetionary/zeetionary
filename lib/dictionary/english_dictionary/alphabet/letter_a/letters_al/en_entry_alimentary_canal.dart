@@ -259,7 +259,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alimentary canal (Derived forms: alimentary canals)
+- Noun: alimentary canal (derived forms: alimentary canals)
 1. Tubular passage of mucous membrane and muscle extending about 8.3 meters from mouth to anus; functions in digestion and elimination (= alimentary tract, digestive tube, digestive tract, gastrointestinal tract, GI tract)
 '''),
         ],

@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alarm clock (Derived forms: alarm clocks)
+- Noun: alarm clock (derived forms: alarm clocks)
 1. A clock that wakes a sleeper at some preset time (= alarm)
 '''),
         ],

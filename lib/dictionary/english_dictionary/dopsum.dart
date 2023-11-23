@@ -114,7 +114,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "Dopsum1", // DOPSUM: CHANGE WORD ENTRY - Find /haʊ/
+                                "Dopsum1", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -184,7 +184,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                   // VideoIconForTab(), // 03
                   // VideoIconForTab(), // 04
                   // VideoIconForTab(), // 05
-                  // VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 2,
+                  // VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 2
                   // VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   // VideoIconForTab(), // 08
                   // VideoIconForTab(), // 09
@@ -264,7 +264,7 @@ class EnglishEntryAdopsum extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAdopsum(// REPLACE: Dopsum1 /haʊ/
+                                    speakAdopsum(// REPLACE: Dopsum1
                                         "en-US"),
                               ),
                             ],
@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
 
-WORD_WEB 
+WORD_WEB /haʊ/
 
 WORD_WEB
 """),

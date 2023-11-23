@@ -441,7 +441,7 @@ class EnglishMeaning extends StatelessWidget {
  
 4. Having an aptitude for study
 
-- Noun: academic (Derived forms: academics)
+- Noun: academic (derived forms: academics)
 An educator who works at a college or university (= academician, faculty member)
 '''),
         ],

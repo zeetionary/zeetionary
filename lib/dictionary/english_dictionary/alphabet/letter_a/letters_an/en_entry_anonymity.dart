@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anonymity (Derived forms: anonymities)
+- Noun: anonymity (derived forms: anonymities)
 1. The state of being anonymous (= namelessness)
 '''),
         ],

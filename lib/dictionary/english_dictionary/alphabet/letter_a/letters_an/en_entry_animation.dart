@@ -426,7 +426,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: animation (Derived forms: animations)
+- Noun: animation (derived forms: animations)
 1. The condition of living or the state of being alive (= life, living, aliveness)
 "while there's animation there's hope";
  

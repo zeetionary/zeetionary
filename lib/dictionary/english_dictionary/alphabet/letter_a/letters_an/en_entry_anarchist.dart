@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anarchist (Derived forms: anarchists)
+- Noun: anarchist (derived forms: anarchists)
 1. An advocate of anarchism (= nihilist, syndicalist)
 "McKinley was assassinated by a professed anarchist";
 '''),

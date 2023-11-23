@@ -254,7 +254,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: acquaint (Derived forms: acquainted, acquaints, acquainting)
+- Verb: acquaint (derived forms: acquainted, acquaints, acquainting)
 1. Cause to come to know personally (= introduce, present)
 "permit me to acquaint you with my son";
  

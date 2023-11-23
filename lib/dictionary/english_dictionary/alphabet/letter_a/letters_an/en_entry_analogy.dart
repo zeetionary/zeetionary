@@ -418,7 +418,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: analogy (Derived forms: analogies)
+- Noun: analogy (derived forms: analogies)
 1. An inference that if things agree in some respects they probably agree in others
  
 2. Drawing a comparison in order to show a similarity in some respect

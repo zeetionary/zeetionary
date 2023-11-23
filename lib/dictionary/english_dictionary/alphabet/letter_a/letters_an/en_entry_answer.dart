@@ -907,7 +907,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: answer (Derived forms: answers, answering, answered)
+- Verb: answer (derived forms: answers, answering, answered)
 1. Say or write something in response (= reply, respond)
 "answer the question"; "We answered that we would accept the invitation"; "She didn't want to answer";
  
@@ -938,7 +938,7 @@ class EnglishMeaning extends StatelessWidget {
 10. React to a stimulus or command
 "The steering of my new car answers to the slightest touch"
 
-- Noun: answer (Derived forms: answers)
+- Noun: answer (derived forms: answers)
 1. A statement (either spoken or written) that is made to reply to a question or request or criticism or accusation (= reply, response)
 "I waited several days for his answer";
 

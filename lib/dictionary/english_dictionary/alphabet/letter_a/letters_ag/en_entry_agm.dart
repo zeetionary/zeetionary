@@ -256,7 +256,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: AGM (Derived forms: AGMs)
+- Noun: AGM (derived forms: AGMs)
 Usage: Brit, Cdn
 1. The yearly meeting of a society or shareholders in a company
 - annual general meeting [Brit, Cdn]

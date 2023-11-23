@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: airway (Derived forms: airways)
+- Noun: airway (derived forms: airways)
 1. A duct that provides ventilation (as in mines) (= air passage, air duct)
  
 2. A designated route followed by airplanes in flying from one airport to another (= air lane, flight path, skyway)

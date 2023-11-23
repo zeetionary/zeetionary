@@ -444,7 +444,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: affair (Derived forms: affairs)
+- Noun: affair (derived forms: affairs)
 1. A vaguely specified concern (= matter, thing)
 "it is none of your affair";
 

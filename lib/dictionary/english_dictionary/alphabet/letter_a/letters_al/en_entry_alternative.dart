@@ -432,7 +432,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-Noun: alternative (Derived forms: alternatives)
+Noun: alternative (derived forms: alternatives)
 1. One of a number of things from which only one can be chosen (= option, choice)
 "there is no other alternative";
 

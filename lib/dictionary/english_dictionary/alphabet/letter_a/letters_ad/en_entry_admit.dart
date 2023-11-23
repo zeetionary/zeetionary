@@ -481,7 +481,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: admit (Derived forms: admits, admitted, admitting)
+- Verb: admit (derived forms: admits, admitted, admitting)
 1. Concede the existence, reality or truth of (= acknowledge)
 "He admitted his errors"; "she was the last to admit the mistake";
  

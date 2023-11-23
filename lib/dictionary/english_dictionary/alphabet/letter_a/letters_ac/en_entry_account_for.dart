@@ -235,7 +235,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: account for (Derived forms: accounted for, accounts for, accounting for)
+- Verb: account for (derived forms: accounted for, accounts for, accounting for)
 1. Be the reason or explanation for
 "The recession accounts for the slow retail business"
  

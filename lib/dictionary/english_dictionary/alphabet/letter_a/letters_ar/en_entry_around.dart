@@ -857,7 +857,7 @@ class EnglishEntryaround extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تێچووەکەی نزیکەی ١،٥٠٠ پاوەند دەبێت.",
+                                    "تێچووەکەی نزیکەی ١,٥٠٠ پاوەند دەبێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

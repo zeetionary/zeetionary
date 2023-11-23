@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-Noun: antonym (Derived forms: antonyms)
+Noun: antonym (derived forms: antonyms)
 1. A word that expresses a meaning opposed to the meaning of another word, in which case the two words are antonyms of each other (= opposite word, opposite)
 "to him the antonym of 'gay' was 'depressed'"; "‘Old’ has two possible antonyms: ‘young’ and ‘new’."; "Two antonyms of "light" are "dark" and "heavy".";
 '''),

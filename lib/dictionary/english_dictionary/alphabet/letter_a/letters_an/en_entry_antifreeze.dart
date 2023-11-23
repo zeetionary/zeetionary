@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: antifreeze (Derived forms: antifreezes)
+- Noun: antifreeze (derived forms: antifreezes)
 1. A liquid added to the water in a cooling system to lower its freezing point
 '''),
         ],

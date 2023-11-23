@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arbitration (Derived forms: arbitrations)
+- Noun: arbitration (derived forms: arbitrations)
 1. (law) the hearing and determination of a dispute by an impartial referee agreed to by both parties (often used to settle disputes between labour and management)
  
 2. The act of deciding as an arbiter; giving authoritative judgment (= arbitrament, arbitrement)

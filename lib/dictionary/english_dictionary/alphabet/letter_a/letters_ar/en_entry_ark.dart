@@ -313,13 +313,13 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: ark (Derived forms: arks)
+- Noun: ark (derived forms: arks)
 1. (Bible) a boat built by Noah to save his family and animals from the flood
 
 - Noun: Ark.
 1. A state in south central United States; one of the Confederate states during the American Civil War (Arkansas, Land of Opportunity, AR)
 
-- Noun: Ark (Derived forms: Arks)
+- Noun: Ark (derived forms: Arks)
 1. (Judaism) sacred chest where the ancient Hebrews kept the two tablets containing the Ten Commandments (= Ark of the Covenant)
 """),
         ],

@@ -440,7 +440,7 @@ class EnglishMeaning extends StatelessWidget {
 - Adjective: antecedent 
 1. Preceding in time or order
 
-- Noun: antecedent (Derived forms: antecedents)
+- Noun: antecedent (derived forms: antecedents)
 1. Someone from whom you are descended (but usually more remote than a grandparent) (= ancestor, ascendant, ascendent, root)
  
 2. A preceding occurrence, cause or event

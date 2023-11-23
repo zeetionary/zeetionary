@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: assassinate (Derived forms: assassinated, assassinates, assassinating)
+- Verb: assassinate (derived forms: assassinated, assassinates, assassinating)
 1. Murder; especially of socially prominent persons
 "Anwar Sadat was assassinated because many people did not like his peace politics with Israel"
  

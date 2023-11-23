@@ -318,7 +318,7 @@ class EnglishMeaning extends StatelessWidget {
 1. (of farmland) capable of being farmed productively (= cultivable, cultivatable, tillable)
 "Asia has 58 percent of the world's population but only 26 percent of the arable land";
 
-- Noun: arable (Derived forms: arables)
+- Noun: arable (derived forms: arables)
 1. Arable land that is worked by ploughing and sowing and raising crops (= cultivated land, farmland, plowland [US], ploughland [Brit, Cdn], tilled land, tillage, tilth, cropland, arable land)
 "a thousand hectares of arable land were destroyed";
 """),

@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: almond (Derived forms: almonds)
+- Noun: almond (derived forms: almonds)
 1. Small bushy deciduous tree native to Asia and North Africa having pretty pink blossoms and highly prized edible nuts enclosed in a hard green hull; cultivated in southern Australia and California (= sweet almond, Prunus dulcis, Prunus amygdalus, Amygdalus communis
 )
  

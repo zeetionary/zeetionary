@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anchovy (Derived forms: anchovies)
+- Noun: anchovy (derived forms: anchovies)
 1. Tiny fishes usually canned or salted; used for hors d'oeuvres or as seasoning in sauces
  
 2. Small herring-like plankton-eating fishes often canned whole or as paste; abundant in tropical waters worldwide

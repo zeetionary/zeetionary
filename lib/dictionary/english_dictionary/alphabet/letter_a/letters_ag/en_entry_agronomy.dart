@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: agronomy (Derived forms: agronomies)
+- Noun: agronomy (derived forms: agronomies)
 1. The application of soil and plant sciences to land management and crop production (= scientific agriculture)
 '''),
         ],

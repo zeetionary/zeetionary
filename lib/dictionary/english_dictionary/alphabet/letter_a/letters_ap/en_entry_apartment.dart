@@ -363,7 +363,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: apartment (Derived forms: apartments) 
+- Noun: apartment (derived forms: apartments) 
 1. A suite of rooms usually on one floor of an apartment house (= flat [Brit])
 "the estate agent took her on a walk-through of the apartment";
 '''),

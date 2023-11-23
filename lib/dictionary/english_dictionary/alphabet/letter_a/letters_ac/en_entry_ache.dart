@@ -423,7 +423,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: ache (Derived forms: aching, ached, aches)
+- Verb: ache (derived forms: aching, ached, aches)
 1. Feel physical pain (= hurt, suffer)
 "Were you aching after the accident?";
  

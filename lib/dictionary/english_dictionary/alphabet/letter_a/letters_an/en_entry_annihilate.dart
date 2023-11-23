@@ -367,7 +367,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: annihilate (Derived forms: annihilates, annihilated, annihilating)
+- Verb: annihilate (derived forms: annihilates, annihilated, annihilating)
 1. Kill in large numbers (= eliminate, extinguish, eradicate, wipe out, decimate, carry off)
 "the plague annihilated an entire population";
 '''),

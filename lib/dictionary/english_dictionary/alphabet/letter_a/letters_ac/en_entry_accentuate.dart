@@ -235,7 +235,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: accentuate (Derived forms: accentuated, accentuating, accentuates)
+- Verb: accentuate (derived forms: accentuated, accentuating, accentuates)
 1. Single out as important; draw attention to (something) (= stress, emphasize, emphasise [Brit], punctuate, accent)
 "Dr. Jones accentuates exercise in addition to a change in diet";
  

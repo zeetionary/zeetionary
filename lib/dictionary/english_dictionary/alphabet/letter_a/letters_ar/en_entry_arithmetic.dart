@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arithmetic (Derived forms: arithmetics)
+- Noun: arithmetic (derived forms: arithmetics)
 1. (mathematics) the branch of pure mathematics dealing with the theory of numerical calculations
 
 - Adjective: arithmetic

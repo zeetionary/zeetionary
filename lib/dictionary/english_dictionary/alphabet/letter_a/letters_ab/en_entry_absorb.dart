@@ -534,7 +534,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: absorb (Derived forms: absorbed, absorbing, absorbs)
+- Verb: absorb (derived forms: absorbed, absorbing, absorbs)
 1. Take in, also metaphorically (= suck, imbibe, soak up, sop up, suck up, draw, take in, take up)
 "The sponge absorbs water well";
  

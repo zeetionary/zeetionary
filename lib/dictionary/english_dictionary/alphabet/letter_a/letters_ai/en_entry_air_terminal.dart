@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: air terminal (Derived forms: air terminals)
+- Noun: air terminal (derived forms: air terminals)
 1. A terminal that serves air travellers or air freight (= airport terminal)
 '''),
         ],

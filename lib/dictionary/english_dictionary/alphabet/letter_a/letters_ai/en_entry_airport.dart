@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: airport (Derived forms: airports)
+- Noun: airport (derived forms: airports)
 1. An airfield equipped with control tower and hangars as well as accommodations for passengers and cargo (= airdrome [N. Amer], aerodrome [Brit], drome)
 '''),
         ],

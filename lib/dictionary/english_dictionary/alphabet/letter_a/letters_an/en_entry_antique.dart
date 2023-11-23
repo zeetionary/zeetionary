@@ -381,12 +381,12 @@ class EnglishMeaning extends StatelessWidget {
 3. Belonging to or lasting from times long ago (= age-old)
 "the antique fear that days would dwindle away to complete darkness";
 
-- Noun: antique (Derived forms: antiques)
+- Noun: antique (derived forms: antiques)
 1. Any piece of furniture or decorative object or the like produced in a former period and valuable because of its beauty or rarity
  
 2. [informal] An elderly man or woman (= old-timer [informal], oldtimer [informal], gaffer [informal], old geezer [informal])
 
-- Verb: antique (Derived forms: antiquing, antiques, antiqued)
+- Verb: antique (derived forms: antiquing, antiques, antiqued)
 1. Shop for antiques
 "We went antiquing on Saturday"
  

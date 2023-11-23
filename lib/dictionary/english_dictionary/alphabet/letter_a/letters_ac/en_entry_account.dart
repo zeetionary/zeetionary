@@ -534,7 +534,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: account (Derived forms: accounts, accounting, accounted)
+- Noun: account (derived forms: accounts, accounting, accounted)
 1. A record or narrative description of past events (= history, chronicle, story)
 "he gave an inaccurate account of the plot to kill the president";
  

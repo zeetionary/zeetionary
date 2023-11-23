@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anesthetist (Derived forms: anesthetists)
+- Noun: anesthetist (derived forms: anesthetists)
 Usage: N. Amer (elsewhere: anaesthetist)
 1. A specialist who administers an anesthetic to a patient before he is treated (= anesthesiologist [N. Amer], anaesthetist [Brit, Cdn])
 '''),

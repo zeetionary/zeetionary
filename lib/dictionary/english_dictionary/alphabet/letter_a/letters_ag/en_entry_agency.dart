@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: agency (Derived forms: agencies)
+- Noun: agency (derived forms: agencies)
 1. An administrative unit of government (= federal agency, government agency, bureau, office, authority)
 "the Central Intelligence Agency";
  

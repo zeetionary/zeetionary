@@ -262,7 +262,7 @@ class EnglishMeaning extends StatelessWidget {
 2. Able to give recommendations but having no power to enforce them
 "The advisory committee could only offer advice, but since that was almost always accepted they had real power"
 
-- Noun: advisory (Derived forms: advisories)
+- Noun: advisory (derived forms: advisories)
 1. An announcement that usually advises or warns the public of some threat
 "a frost advisory"
 '''),

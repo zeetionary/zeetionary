@@ -237,7 +237,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: absolute majority (Derived forms: absolute majorities)
+- Noun: absolute majority (derived forms: absolute majorities)
 1. (elections) more than half of the votes (= majority)
 '''),
         ],

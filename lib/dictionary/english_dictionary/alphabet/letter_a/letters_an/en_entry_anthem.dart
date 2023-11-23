@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anthem (Derived forms: anthems)
+- Noun: anthem (derived forms: anthems)
 1. A song of devotion or loyalty (as to a nation or school)
  
 2. A song of praise (to God or to a saint or to a nation) (= hymn)

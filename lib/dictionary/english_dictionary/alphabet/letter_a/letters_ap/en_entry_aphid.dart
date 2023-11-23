@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aphid (Derived forms: aphids)
+- Noun: aphid (derived forms: aphids)
 1. Any of various small plant-sucking insects
 """),
         ],

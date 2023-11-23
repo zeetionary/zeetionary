@@ -330,7 +330,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: ammonia (Derived forms: ammonias)
+- Noun: ammonia (derived forms: ammonias)
 1. A pungent gas compounded of nitrogen and hydrogen (NH3)
  
 2. A water solution of ammonia (= ammonia water, ammonium hydroxide)

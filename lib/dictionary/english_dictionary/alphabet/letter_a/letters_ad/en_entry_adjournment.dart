@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adjournment (Derived forms: adjournments)
+- Noun: adjournment (derived forms: adjournments)
 1. The termination of a meeting (= dissolution)
  
 2. The act of postponing to another time or place

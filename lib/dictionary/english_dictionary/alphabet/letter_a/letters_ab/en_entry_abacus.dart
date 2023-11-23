@@ -217,7 +217,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abacus (Derived forms: abacuses, abaci)
+- Noun: abacus (derived forms: abacuses, abaci)
 1. A tablet placed horizontally on top of the capital of a column as an aid in supporting the architrave
 
 2. A calculator that performs arithmetic functions by manually sliding counters on rods or in grooves

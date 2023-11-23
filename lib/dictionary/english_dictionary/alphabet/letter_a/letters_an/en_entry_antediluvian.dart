@@ -317,7 +317,7 @@ class EnglishMeaning extends StatelessWidget {
 2. Of or relating to the period before the biblical flood (= antediluvial)
 "antediluvian man";
 
-- Noun: antediluvian (Derived forms: antediluvians)
+- Noun: antediluvian (derived forms: antediluvians)
 1. Any of the early patriarchs who lived prior to the Noachian deluge (= antediluvian patriarch)
  
 2. A very old person (= ancient)

@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: adjoin (Derived forms: adjoins, adjoining, adjoined)
+- Verb: adjoin (derived forms: adjoins, adjoining, adjoined)
 1. Lie adjacent to another or share a boundary (= border, edge, abut, march, butt, butt against, butt on)
 "Canada adjoins the U.S.";
  

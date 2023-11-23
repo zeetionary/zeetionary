@@ -425,7 +425,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arrow (Derived forms: arrows)
+- Noun: arrow (derived forms: arrows)
 1. A mark to indicate a direction or relation (= pointer)
  
 2. A projectile with a straight thin shaft and an arrowhead on one end and stabilizing vanes on the other; intended to be shot from a bow

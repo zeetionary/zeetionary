@@ -370,7 +370,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: affinity (Derived forms: affinities)
+- Noun: affinity (derived forms: affinities)
 1. A natural attraction or feeling of kinship
 "an affinity for politics"; "the mysterious affinity between them"; "James's affinity with Sam"
  

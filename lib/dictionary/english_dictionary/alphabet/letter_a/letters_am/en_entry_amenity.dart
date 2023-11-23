@@ -380,7 +380,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: amenity (Derived forms: amenities)
+- Noun: amenity (derived forms: amenities)
 1. Pleasantness resulting from agreeable conditions (= agreeableness)
 "he discovered the amenities of reading at an early age";
 '''),

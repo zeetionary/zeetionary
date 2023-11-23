@@ -434,7 +434,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: assessment (Derived forms: assessments)
+- Noun: assessment (derived forms: assessments)
 1. The classification of someone or something with respect to its worth (= appraisal)
  
 2. An amount determined as payable

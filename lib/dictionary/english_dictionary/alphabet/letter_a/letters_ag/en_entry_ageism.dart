@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: ageism (Derived forms: ageisms)
+- Noun: ageism (derived forms: ageisms)
 1. Discrimination on the basis of a person's age (= agism)
 '''),
         ],

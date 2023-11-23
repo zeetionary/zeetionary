@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: all-rounder (Derived forms: all-rounders)
+- Noun: all-rounder (derived forms: all-rounders)
 1. A versatile person who is expert at many things (= all arounder)
 "she's the best all-rounder they've seen in years";
 '''),

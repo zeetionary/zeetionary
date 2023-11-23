@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anthrax (Derived forms: anthraces)
+- Noun: anthrax (derived forms: anthraces)
 1. A highly infectious animal disease (especially of cattle and sheep); it can be transmitted to people (= splenic fever)
  
 2. A disease of humans that is not communicable; caused by infection with Bacillus anthracis followed by septicemia

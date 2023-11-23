@@ -312,7 +312,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arbitrageur (Derived forms: arbitrageurs)
+- Noun: arbitrageur (derived forms: arbitrageurs)
 1. Someone who engages in arbitrage (who purchases securities in one market for immediate resale in another in the hope of profiting from the price differential) (= arbitrager, arb)
 """),
         ],

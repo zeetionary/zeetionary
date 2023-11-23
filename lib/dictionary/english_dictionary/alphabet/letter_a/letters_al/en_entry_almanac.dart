@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: almanac (Derived forms: almanacs)
+- Noun: almanac (derived forms: almanacs)
 1. An annual publication including weather forecasts and other miscellaneous information arranged according to the calendar of a given year (= farmer's calendar, almanack [non-standard])
  
 2. An annual publication containing tabular information in a particular field or fields arranged according to the calendar of a given year (= almanack [non-standard])

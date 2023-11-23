@@ -312,7 +312,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: appal (Derived forms: appalling, appals)
+- Verb: appal (derived forms: appalling, appals)
 Usage: Brit, Cdn (US: appall)
 1. Strike with disgust or revulsion (= shock, offend, scandalize, scandalise [Brit], appall [US], outrage)
 "The scandalous behaviour of this married woman appalled her friends";

@@ -363,7 +363,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: appease (Derived forms: appeasing, appeases, appeased)
+- Verb: appease (derived forms: appeasing, appeases, appeased)
 1. Cause to be more favourably inclined; gain the good will of (= pacify, lenify, conciliate, assuage, mollify, placate, gentle, gruntle)
 "She managed to appease the angry customer";
  

@@ -494,7 +494,7 @@ class EnglishMeaning extends StatelessWidget {
 4. Thoroughly clean and free of or destructive to disease-causing organisms
 "doctors in antiseptic green coats"; "the antiseptic effect of alcohol"; "it is said that marjoram has antiseptic qualities"
 
-- Noun: antiseptic (Derived forms: antiseptics)
+- Noun: antiseptic (derived forms: antiseptics)
 1. A substance that destroys micro-organisms that carry disease without harming body tissues
 '''),
         ],

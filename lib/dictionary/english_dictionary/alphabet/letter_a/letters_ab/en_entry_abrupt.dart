@@ -298,7 +298,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: abrupt (Derived forms: abrupter, abruptest)
+- Adjective: abrupt (derived forms: abrupter, abruptest)
 1. Marked by sudden changes in subject and sharp transitions (= disconnected)
 "abrupt prose";
 

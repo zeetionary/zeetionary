@@ -313,7 +313,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arnica (Derived forms: arnicas)
+- Noun: arnica (derived forms: arnicas)
 1. Used especially in treating bruises
  
 2. Any of various rhizomatous usually perennial plants of the genus Arnica

@@ -225,7 +225,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: abound (Derived forms: abounds, abounded, abounding)
+- Verb: abound (derived forms: abounds, abounded, abounding)
 1. Be abundant or plentiful; exist in large quantities
  
 2. Be in a state of movement or action (= burst, bristle)

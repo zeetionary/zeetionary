@@ -267,7 +267,7 @@ class EnglishMeaning extends StatelessWidget {
 - Adjective: contralto 
 1. Of or being the lowest female voice (= alto)
 
-- Noun: contralto (Derived forms: contralti, contraltos)
+- Noun: contralto (derived forms: contralti, contraltos)
 1. A woman singer having a contralto voice
  
 2. The lowest female singing voice (= alto)

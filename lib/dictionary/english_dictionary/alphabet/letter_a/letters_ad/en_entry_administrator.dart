@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: administrator (Derived forms: administrators)
+- Noun: administrator (derived forms: administrators)
 1. Someone who administers a business (= decision maker)
  
 2. The party appointed by a probate court to distribute the estate of someone who dies without a will or without naming an executor

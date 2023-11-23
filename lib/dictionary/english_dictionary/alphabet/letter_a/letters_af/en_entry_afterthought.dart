@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: afterthought (Derived forms: afterthoughts)
+- Noun: afterthought (derived forms: afterthoughts)
 1. Thinking again about a choice previously made (= reconsideration, second thought, rethink)
  
 2. An addition that was not included in the original plan

@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: age group (Derived forms: age groups)
+- Noun: age group (derived forms: age groups)
 1. A group of people having approximately the same age (= age bracket, cohort)
 '''),
         ],

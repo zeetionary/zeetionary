@@ -298,7 +298,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abstention (Derived forms: abstentions)
+- Noun: abstention (derived forms: abstentions)
 1. The trait of abstaining (especially from alcohol) (= abstinence)
 '''),
         ],

@@ -885,7 +885,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: advance (Derived forms: advanced, advances, advancing)
+- Verb: advance (derived forms: advanced, advances, advancing)
 1. Move forward, also in the metaphorical sense (= progress, pass on, move on, march on, go on)
 "Time advances";
  
@@ -920,7 +920,7 @@ class EnglishMeaning extends StatelessWidget {
 12. Rise in rate or price (= gain)
 "The stock market advanced 24 points today";
 
-- Noun: advance ((Derived forms: advances))
+- Noun: advance ((derived forms: advances))
 1. A movement forward (= progress, progression)
 "he listened for the advance of the troops";
  

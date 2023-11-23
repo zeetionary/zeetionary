@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: asbestos (Derived forms: asbestoses)
+- Noun: asbestos (derived forms: asbestoses)
 1. A fibrous amphibole; used for making fireproof articles; inhaling fibers can cause asbestosis or lung cancer
 """),
         ],

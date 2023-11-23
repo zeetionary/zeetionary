@@ -300,7 +300,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-Noun: achievement (Derived forms: achievements)
+Noun: achievement (derived forms: achievements)
 1. The action of accomplishing something (= accomplishment)
  
 2. Something that is achieved successfully (= accomplishment)

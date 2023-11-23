@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: apron (Derived forms: aprons)
+- Noun: apron (derived forms: aprons)
 1. A garment of cloth, leather or plastic that is tied about the waist and worn to protect your clothing
  
 2. (golf) the part of the fairway leading onto the green

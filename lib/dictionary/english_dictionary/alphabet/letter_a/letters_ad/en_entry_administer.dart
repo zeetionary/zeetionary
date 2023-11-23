@@ -363,7 +363,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: administer (Derived forms: administers, administering, administered)
+- Verb: administer (derived forms: administers, administering, administered)
 1. Work in an administrative capacity; supervise or be in charge of (= administrate)
 "she administers the funds"; "administer a program";
  

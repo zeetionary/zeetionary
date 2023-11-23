@@ -439,7 +439,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: ace (Derived forms: aces)
+- Noun: ace (derived forms: aces)
 1. The smallest whole number or a numeral representing this number (= one, 1, I, single, unity)
 "he has the ace but will need a two and three to go with it";
  
@@ -449,7 +449,7 @@ class EnglishMeaning extends StatelessWidget {
  
 4. A serve that the receiver is unable to reach
 
-- Verb: ace (Derived forms: aces, acing, aced)
+- Verb: ace (derived forms: aces, acing, aced)
 1. Easily do well at; pass perfectly (= breeze through [informal], pass with flying colors [US], sweep through, sail through, nail [informal], pass with flying colours [Brit, Cdn])
 "You will ace";
  

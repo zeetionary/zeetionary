@@ -426,7 +426,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: assist (Derived forms: assists, assisting, assisted)
+- Verb: assist (derived forms: assists, assisting, assisted)
 1. Give assistance; be of service (= help, aid)
  
 2. Act as an assistant in a subordinate or supportive function

@@ -237,7 +237,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: abscond (Derived forms: absconded, absconds, absconding)
+- Verb: abscond (derived forms: absconded, absconds, absconding)
 1. Run away; usually includes taking something or somebody along (= bolt, absquatulate [N. Amer], decamp, run off, go off, make off, make away)
 "the accountant absconded with the cash from the safe";
 '''),

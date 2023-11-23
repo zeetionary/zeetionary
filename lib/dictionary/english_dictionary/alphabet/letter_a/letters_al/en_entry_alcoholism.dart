@@ -256,7 +256,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alcoholism (Derived forms: alcoholisms)
+- Noun: alcoholism (derived forms: alcoholisms)
 1. Habitual intoxication; prolonged and excessive intake of alcoholic drinks leading to a breakdown in health and an addiction to alcohol such that abrupt deprivation leads to severe withdrawal symptoms (= alcohol addiction, inebriation, drunkenness)
  
 2. An intense persistent desire to drink alcoholic beverages to excess (= dipsomania, potomania)

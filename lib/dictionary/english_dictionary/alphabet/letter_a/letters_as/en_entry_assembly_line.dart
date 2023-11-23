@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: assembly line (Derived forms: assembly lines)
+- Noun: assembly line (derived forms: assembly lines)
 - Mechanical system in a factory whereby an article is conveyed through sites at which successive operations are performed on it (= production line, line)
 """),
         ],

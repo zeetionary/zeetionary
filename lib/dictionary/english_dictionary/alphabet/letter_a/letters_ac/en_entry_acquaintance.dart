@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acquaintance (Derived forms: acquaintances)
+- Noun: acquaintance (derived forms: acquaintances)
 1. Personal knowledge or information about someone or something (= familiarity, conversance, conversancy)
  
 2. A relationship less intimate than friendship (= acquaintanceship)

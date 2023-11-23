@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: allocate (Derived forms: allocated, allocates, allocating)
+- Verb: allocate (derived forms: allocated, allocates, allocating)
 1. Distribute according to a plan or set apart for a special purpose (= apportion)
 "I am allocating a loaf of bread to everyone on a daily basis"; "I'm allocating the rations for the camping trip";
 '''),

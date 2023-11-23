@@ -237,7 +237,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: accomplish (Derived forms: accomplished, accomplishing, accomplishes)
+- Verb: accomplish (derived forms: accomplished, accomplishing, accomplishes)
 1. Cause to happen; complete successfully (= carry through, execute, carry out, action, fulfill [N. Amer], fulfil [Brit, Cdn])
 "accomplish the decision of the people";
  

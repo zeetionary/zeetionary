@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: advertisement (Derived forms: advertisements)
+- Noun: advertisement (derived forms: advertisements)
 1. A public promotion of some product or service (= ad [informal], advertizement [US, non-standard], advertising, advertizing [US, non-standard], advert [Brit])
  
 2. A specific part of a publication that is sold for public notices or advertising

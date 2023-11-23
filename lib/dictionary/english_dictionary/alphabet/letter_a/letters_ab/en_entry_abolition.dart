@@ -227,7 +227,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abolition (Derived forms: abolitions)
+- Noun: abolition (derived forms: abolitions)
 1. The act of abolishing a system, practice or institution (especially abolishing slavery) (=abolishment)
 "the abolition of capital punishment";
 '''),

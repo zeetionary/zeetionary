@@ -374,7 +374,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: aggregate (Derived forms: aggregating, aggregates, aggregated)
+- Noun: aggregate (derived forms: aggregating, aggregates, aggregated)
 1. A sum total of many heterogenous things taken together (= congeries, conglomeration)
  
 2. The whole amount (= sum, total, totality)

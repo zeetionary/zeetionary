@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arraignment (Derived forms: arraignments)
+- Noun: arraignment (derived forms: arraignments)
 1. A legal document calling someone to court to answer an indictment
 """),
         ],

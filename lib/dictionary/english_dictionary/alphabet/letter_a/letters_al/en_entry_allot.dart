@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: allot (Derived forms: allots, allotted, allotting)
+- Verb: allot (derived forms: allots, allotted, allotting)
 1. Give out (= assign, portion)
 "We were allotted new uniforms";
  

@@ -259,7 +259,7 @@ class EnglishMeaning extends StatelessWidget {
 1. Having an abundant supply of money or possessions of value (= flush, loaded [informal], moneyed, wealthy, substantial, minted [informal])
 "an affluent banker";
 
-- Noun: affluent (Derived forms: affluents)
+- Noun: affluent (derived forms: affluents)
 1. An affluent person; a person who is financially well off
 "the so-called emerging affluents"
  

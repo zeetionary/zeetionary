@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: advancement (Derived forms: advancements)
+- Noun: advancement (derived forms: advancements)
 1. Encouragement of the progress, growth or acceptance of something (= promotion, furtherance)
  
 2. The act of moving forward (as toward a goal) (= progress, progression, procession, advance, forward motion, onward motion)

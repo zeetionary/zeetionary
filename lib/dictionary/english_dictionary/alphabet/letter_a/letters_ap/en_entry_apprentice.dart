@@ -373,10 +373,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: apprentice (Derived forms: apprentices)
+- Noun: apprentice (derived forms: apprentices)
 1. Someone who works for an expert in order to learn a trade (= learner, prentice)
 
-- Verb: apprentice (Derived forms: apprenticing, apprenticed, apprentices)
+- Verb: apprentice (derived forms: apprenticing, apprenticed, apprentices)
 1. Be or work as an apprentice
 "She apprenticed with the great master"
 """),

@@ -318,7 +318,7 @@ class EnglishMeaning extends StatelessWidget {
 1. Of or pertaining to arthritis (= creaky, rheumatic, rheumatoid, rheumy)
 "my arthritic old joints";
 
-- Noun: arthritic ((Derived forms: arthritics))
+- Noun: arthritic ((derived forms: arthritics))
 1. A person afflicted with arthritis
 "the hands of an elderly arthritic"
 """),

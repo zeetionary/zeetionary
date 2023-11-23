@@ -224,7 +224,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abhorrence (Derived forms: abhorrences)
+- Noun: abhorrence (derived forms: abhorrences)
 1. Hate coupled with disgust (=abomination, detestation, execration, loathing, odium)
 "a cordial abhorrence of waste";
 '''),

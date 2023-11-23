@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arson (Derived forms: arsons)
+- Noun: arson (derived forms: arsons)
 1. Malicious burning to destroy property
 - incendiarism, fire-raising [Brit]
 """),

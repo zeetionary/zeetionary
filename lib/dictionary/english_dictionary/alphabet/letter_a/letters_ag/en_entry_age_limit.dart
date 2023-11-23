@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: age limit (Derived forms: age limits)
+- Noun: age limit (derived forms: age limits)
 1. Regulation establishing the maximum age for doing something or holding some position
 '''),
         ],

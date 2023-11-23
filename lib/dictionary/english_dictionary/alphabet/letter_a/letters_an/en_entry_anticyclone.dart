@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anticyclone (Derived forms: anticyclones)
+- Noun: anticyclone (derived forms: anticyclones)
 1. (meteorology) winds spiralling outward from a high pressure centre; circling clockwise in the Northern Hemisphere and counterclockwise in the southern
 '''),
         ],

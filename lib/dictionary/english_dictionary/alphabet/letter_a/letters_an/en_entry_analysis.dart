@@ -418,7 +418,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: analysis (Derived forms: analyses)
+- Noun: analysis (derived forms: analyses)
 1. An investigation of the component parts of a whole and their relations in making up the whole
  
 2. The abstract separation of a whole into its constituent parts in order to study the parts and their relations (= analytic thinking)

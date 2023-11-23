@@ -317,7 +317,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acid (Derived forms: acids)
+- Noun: acid (derived forms: acids)
 1. Any of various water-soluble compounds having a sour taste and capable of turning litmus red and reacting with a base to form a salt
  
 2. A corrosive liquid with a pH less than 7; a solution of in water of a substance that releases hydrogen ions

@@ -359,10 +359,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anguish (Derived forms: anguishes)
+- Noun: anguish (derived forms: anguishes)
 1. Extreme distress of body or mind (= torment, torture)
 
-- Verb: anguish (Derived forms: anguished, anguishes, anguishing)
+- Verb: anguish (derived forms: anguished, anguishes, anguishing)
 1. Suffer great pains or distress
  
 2. Cause emotional anguish or make miserable (= pain, hurt)

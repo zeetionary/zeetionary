@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: antagonism (Derived forms: antagonisms)
+- Noun: antagonism (derived forms: antagonisms)
 1. A state of deep-seated ill-will (= hostility, enmity)
  
 2. The relation between opposing principles, forces or factors

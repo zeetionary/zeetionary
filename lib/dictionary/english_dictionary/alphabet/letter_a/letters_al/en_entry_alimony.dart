@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alimony (Derived forms: alimonies)
+- Noun: alimony (derived forms: alimonies)
 1. Court-ordered support paid by one spouse to another after they are separated (= maintenance)
 '''),
         ],

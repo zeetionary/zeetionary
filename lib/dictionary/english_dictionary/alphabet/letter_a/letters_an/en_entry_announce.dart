@@ -535,7 +535,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: announce (Derived forms: announcing, announces, announced)
+- Verb: announce (derived forms: announcing, announces, announced)
 1. Make known; make an announcement (= denote)
 "She announced her feelings clearly";
  

@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alkali (Derived forms: alkalis, alkalies)
+- Noun: alkali (derived forms: alkalis, alkalies)
 1. Any of various water-soluble compounds capable of turning litmus blue and reacting with an acid to form a salt and water (= base)
 "alkalis include oxides and hydroxides of metals and ammonia";
  

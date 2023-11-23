@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aristocracy (Derived forms: aristocracies)
+- Noun: aristocracy (derived forms: aristocracies)
 1. A privileged class holding hereditary titles (= nobility)
  
 2. The most powerful members of a society (= gentry)

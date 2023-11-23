@@ -420,7 +420,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anticipation (Derived forms: anticipations)
+- Noun: anticipation (derived forms: anticipations)
 1. An expectation (= expectancy)
  
 2. Something expected (as on the basis of a norm) (= expectancy)

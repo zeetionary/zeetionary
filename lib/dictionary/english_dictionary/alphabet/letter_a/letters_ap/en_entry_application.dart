@@ -542,7 +542,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: application (Derived forms: applications)
+- Noun: application (derived forms: applications)
 1. The act of using something for a purpose (= practical application)
 "a novel application of electronics to medical diagnosis"; "he advocated the application of statistics to the problem";
  

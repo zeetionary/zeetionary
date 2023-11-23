@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alienation (Derived forms: alienations)
+- Noun: alienation (derived forms: alienations)
 1. The feeling of being alienated from other people (= disaffection, estrangement)
  
 2. Separation resulting from hostility (= estrangement)

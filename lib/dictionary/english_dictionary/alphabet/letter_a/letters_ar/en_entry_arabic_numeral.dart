@@ -313,7 +313,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: Arabic numeral (Derived forms: Arabic numerals)
+- Noun: Arabic numeral (derived forms: Arabic numerals)
 1. One of the symbols 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 (= Hindu numeral, Hindu-Arabic numeral)
 """),
         ],

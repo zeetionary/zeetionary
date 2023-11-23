@@ -773,7 +773,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: action (Derived forms: actions)
+- Noun: action (derived forms: actions)
 1. Something done (usually as opposed to something said)
 "there were stories of murders and other unnatural actions"
  
@@ -806,7 +806,7 @@ class EnglishMeaning extends StatelessWidget {
 11. In firearms terminology, the mechanism that handles the ammunition (loads, locks, fires, and extracts the cartridges).
 "Actions can be categorized in several ways, including single action versus double action, break action versus bolt action, and others."
 
-- Verb: action (Derived forms: actioned, actioning, actions)
+- Verb: action (derived forms: actioned, actioning, actions)
 1. Institute legal proceedings against; file a suit against (= sue, litigate, process)
 "She actioned the company for discrimination";
  

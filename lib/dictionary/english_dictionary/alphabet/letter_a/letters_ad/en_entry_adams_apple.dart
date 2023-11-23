@@ -209,7 +209,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: Adam's apple (Derived forms: Adam's apples)
+- Noun: Adam's apple (derived forms: Adam's apples)
 1. The largest cartilage of the larynx (= thyroid cartilage)
  
 2. Tropical shrub having glossy foliage and fragrant nocturnal flowers with crimped or wavy corollas; northern India to Thailand (= crape jasmine, crepe jasmine, crepe gardenia, pinwheel flower, East Indian rosebay, Nero's crown, coffee rose, Tabernaemontana divaricate)

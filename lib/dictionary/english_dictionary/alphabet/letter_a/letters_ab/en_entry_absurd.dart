@@ -290,14 +290,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: absurd (Derived forms: absurder, absurdest)
+- Adjective: absurd (derived forms: absurder, absurdest)
 1. Inconsistent with reason, logic or common sense
 "the absurd predicament of seeming to argue that virtue is highly desirable but intensely unpleasant"
  
 2. So unreasonable as to invite derision (= cockeyed [informal], derisory, idiotic, laughable, ludicrous, nonsensical, preposterous, ridiculous, ridic [informal])
 "the absurd excuse that the dog ate his homework";
 
-- Noun: absurd (Derived forms: absurds)
+- Noun: absurd (derived forms: absurds)
 1. A situation in which life seems irrational and meaningless (= the absurd)
 "The absurd is the essential concept and the first truth";
 '''),

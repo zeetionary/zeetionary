@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: albatross (Derived forms: albatrosses)
+- Noun: albatross (derived forms: albatrosses)
 1. (figurative) something that hinders or handicaps (= millstone)
 "she was an albatross around his neck";
  

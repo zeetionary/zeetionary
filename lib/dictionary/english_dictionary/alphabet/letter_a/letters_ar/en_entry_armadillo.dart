@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: armadillo (Derived forms: armadillos)
+- Noun: armadillo (derived forms: armadillos)
 1. Burrowing chiefly nocturnal mammal with body covered with strong horny plates
 """),
         ],

@@ -483,7 +483,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: argument (Derived forms: arguments)
+- Noun: argument (derived forms: arguments)
 1. A fact or assertion offered as evidence that something is true (= statement)
 "it was a strong argument that his hypothesis was true";
  

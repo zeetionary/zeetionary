@@ -489,7 +489,7 @@ class EnglishMeaning extends StatelessWidget {
 5. Not capable of being violated or infringed (= infrangible, inviolable)
 "absolute human rights";
 
-- Noun: absolute (Derived forms: absolutes)
+- Noun: absolute (derived forms: absolutes)
 1. Something that is conceived or that exists independently and not in relation to other things; something that does not depend on anything else and is beyond human control; something that is not relative
 "no mortal being can influence the absolute"
 '''),

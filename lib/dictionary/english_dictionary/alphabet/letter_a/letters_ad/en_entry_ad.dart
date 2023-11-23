@@ -310,7 +310,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-Noun: ad (Derived forms: ads)
+Noun: ad (derived forms: ads)
 1. A public promotion of some product or service (= advertisement, advertizement [US, non-standard], advertising, advertizing [US, non-standard], advert [Brit])
 
 - Adverb: AD

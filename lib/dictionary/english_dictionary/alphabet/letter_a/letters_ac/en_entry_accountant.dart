@@ -235,7 +235,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: accountant (Derived forms: accountants)
+- Noun: accountant (derived forms: accountants)
 1. Someone who maintains and audits business accounts (= comptroller, controller)
 "the accountant absconded with the cash from the safe";
 '''),

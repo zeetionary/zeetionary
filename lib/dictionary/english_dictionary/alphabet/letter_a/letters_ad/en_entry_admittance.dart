@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: admittance (Derived forms: admittances)
+- Noun: admittance (derived forms: admittances)
 1. The right to enter (= entrée, access, accession, admission)
  
 2. The act of admitting someone to enter (= admission)

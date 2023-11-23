@@ -578,7 +578,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: agree (Derived forms: agrees, agreeing, agreed)
+- Verb: agree (derived forms: agrees, agreeing, agreed)
 1. Be in accord; be in agreement (= hold, concur, concord)
 "We agreed on the terms of the settlement"; "I can't agree with you!";
  

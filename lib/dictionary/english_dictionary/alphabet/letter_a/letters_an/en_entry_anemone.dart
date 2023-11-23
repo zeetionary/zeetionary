@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anemone (Derived forms: anemones)
+- Noun: anemone (derived forms: anemones)
 1. Any woodland plant of the genus Anemone grown for its beautiful flowers and whorls of dissected leaves (= windflower)
  
 2. Marine polyps that resemble flowers but have oral rings of tentacles; differ from corals in forming no hard skeleton (= sea anemone)

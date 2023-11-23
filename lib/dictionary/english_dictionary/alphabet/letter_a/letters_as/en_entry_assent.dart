@@ -375,11 +375,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: assent (Derived forms: assents)
+- Noun: assent (derived forms: assents)
 1. Agreement with a statement or proposal to do something (= acquiescence)
 "he gave his assent eagerly";
 
-- Verb: assent (Derived forms: assents, assented, assenting)
+- Verb: assent (derived forms: assents, assented, assenting)
 1. To agree or express agreement (= accede, acquiesce)
 "The Maestro assented to the request for an encore";
 """),

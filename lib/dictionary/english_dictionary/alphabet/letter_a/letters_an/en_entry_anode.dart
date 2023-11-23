@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anode (Derived forms: anodes)
+- Noun: anode (derived forms: anodes)
 1. A positively charged electrode by which electrons leave an electrical device
  
 2. The negatively charged terminal of a voltaic cell or storage battery that supplies current

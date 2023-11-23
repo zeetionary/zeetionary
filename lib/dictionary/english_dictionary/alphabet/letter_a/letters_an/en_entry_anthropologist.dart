@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anthropologist (Derived forms: anthropologists)
+- Noun: anthropologist (derived forms: anthropologists)
 1. A social scientist who specializes in anthropology
 "the anthropologist was impressed by the reconditeness of the native proverbs"
 '''),

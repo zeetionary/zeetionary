@@ -373,7 +373,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: appetite (Derived forms: appetites)
+- Noun: appetite (derived forms: appetites)
 1. A feeling of craving something (= appetency, appetence)
 "an appetite for life";
 """),

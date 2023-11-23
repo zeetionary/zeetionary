@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: archbishop (Derived forms: archbishops)
+- Noun: archbishop (derived forms: archbishops)
 1. A bishop of highest rank
 """),
         ],

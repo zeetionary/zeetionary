@@ -380,7 +380,7 @@ class EnglishMeaning extends StatelessWidget {
 2. Operating, living or growing in water
 "boats are aquatic vehicles"; "water lilies are aquatic plants"; "fish are aquatic animals"
 
-- Noun: aquatic (Derived forms: aquatics)
+- Noun: aquatic (derived forms: aquatics)
 1. A plant that lives in or on water
 """),
         ],

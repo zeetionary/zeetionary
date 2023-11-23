@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adjudication (Derived forms: adjudications)
+- Noun: adjudication (derived forms: adjudications)
 1. The final judgment in a legal proceeding; the act of pronouncing judgment based on the evidence presented
 '''),
         ],

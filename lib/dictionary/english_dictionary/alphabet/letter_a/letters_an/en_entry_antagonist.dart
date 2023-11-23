@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: antagonist (Derived forms: antagonists) (= adversary, opponent, opposer, resister)
+- Noun: antagonist (derived forms: antagonists) (= adversary, opponent, opposer, resister)
 1. Someone who offers opposition
 
 2. A muscle that relaxes while another contracts

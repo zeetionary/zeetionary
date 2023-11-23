@@ -314,7 +314,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: art gallery (Derived forms: art galleries)
+- Noun: art gallery (derived forms: art galleries)
 1. A room or series of rooms where works of art are exhibited (= gallery, picture gallery)
 """),
         ],

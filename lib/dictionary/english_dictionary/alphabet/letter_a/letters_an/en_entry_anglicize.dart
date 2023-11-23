@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: anglicize (Derived forms: anglicizing, anglicizes, anglicized)
+- Verb: anglicize (derived forms: anglicizing, anglicizes, anglicized)
 1. Make English in appearance (= anglicise [Brit])
 "She anglicized her name after moving from Paris to London";
 '''),

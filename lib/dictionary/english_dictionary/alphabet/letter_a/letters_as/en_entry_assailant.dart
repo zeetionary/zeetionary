@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: assailant (Derived forms: assailants)
+- Noun: assailant (derived forms: assailants)
 1. Someone who attacks (= attacker, aggressor, assaulter, assailer)
 "he described his mental picture of his assailant";
 """),

@@ -258,7 +258,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alleluia (Derived forms: alleluias)
+- Noun: alleluia (derived forms: alleluias)
 1. A shout or song of praise to God (= hallelujah)
 '''),
         ],

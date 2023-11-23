@@ -485,7 +485,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: assert (Derived forms: asserting, asserted, asserts)
+- Verb: assert (derived forms: asserting, asserted, asserts)
 1. State categorically (= asseverate, maintain)
 
 2. To declare or affirm solemnly and formally as true (= affirm, verify, avow, aver, swear)

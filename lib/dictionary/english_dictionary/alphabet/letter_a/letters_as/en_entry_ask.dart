@@ -862,7 +862,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: ask (Derived forms: asked, asking, asks)
+- Verb: ask (derived forms: asked, asking, asks)
 1. Make a request or demand for something to somebody
 "She asked him for a loan"
  
@@ -884,7 +884,7 @@ class EnglishMeaning extends StatelessWidget {
 7. Require or ask for as a price or condition
 "He is asking £200 for the table"; "The kidnappers are asking a million dollars in return for the release of their hostage"
 
-Noun: ask (Derived forms: asks)
+Noun: ask (derived forms: asks)
 1. A request or call to do something demanding or beyond normal reasonable bounds
 "it's a big ask to expect her to work during that weekend"
 """),

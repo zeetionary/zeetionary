@@ -263,7 +263,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adjunct (Derived forms: adjuncts)
+- Noun: adjunct (derived forms: adjuncts)
 1. Something added to another thing but not an essential part of it
  
 2. A person who is an assistant or subordinate to another

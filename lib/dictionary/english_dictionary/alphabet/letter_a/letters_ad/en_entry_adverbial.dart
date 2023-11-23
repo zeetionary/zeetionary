@@ -217,7 +217,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: adverbial (Derived forms: adverbials)
+- Adjective: adverbial (derived forms: adverbials)
 1. Of or relating to or functioning as an adverb
 "adverbial syntax"
 

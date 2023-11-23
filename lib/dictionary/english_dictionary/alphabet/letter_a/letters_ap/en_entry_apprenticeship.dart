@@ -315,7 +315,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: apprenticeship (Derived forms: apprenticeships)
+- Noun: apprenticeship (derived forms: apprenticeships)
 1. The position of an apprentice; the time served by an apprentice
 """),
         ],

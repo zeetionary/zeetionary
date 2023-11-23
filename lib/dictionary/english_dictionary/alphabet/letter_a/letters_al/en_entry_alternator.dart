@@ -259,7 +259,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: alternator (Derived forms: alternators)
+- Noun: alternator (derived forms: alternators)
 1. An old term for an electric generator that produces alternating current (especially in automobiles)
 '''),
         ],

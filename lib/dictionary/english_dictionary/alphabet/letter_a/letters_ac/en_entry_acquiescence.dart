@@ -254,7 +254,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acquiescence (Derived forms: acquiescences)
+- Noun: acquiescence (derived forms: acquiescences)
 1. Acceptance without protest
  
 2. Agreement with a statement or proposal to do something (= assent)

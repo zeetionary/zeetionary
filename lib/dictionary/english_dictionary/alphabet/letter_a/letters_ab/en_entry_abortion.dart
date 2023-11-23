@@ -349,7 +349,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abortion (Derived forms: abortions)
+- Noun: abortion (derived forms: abortions)
 1. A deliberate termination of pregnancy (= induced abortion, termination)
  
 2. (medicine) the cessation of pregnancy or foetal development; a miscarriage

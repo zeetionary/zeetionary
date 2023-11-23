@@ -388,7 +388,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: amnesty (Derived forms: amnesties)
+- Noun: amnesty (derived forms: amnesties)
 1. A period during which offenders are exempt from punishment
  
 2. (law) a warrant granting release from punishment for an offence
@@ -396,7 +396,7 @@ class EnglishMeaning extends StatelessWidget {
  
 3. (law) the formal act of liberating someone (= pardon, free pardon)
 
-- Verb: amnesty (Derived forms: amnestied, amnesties, amnestying)
+- Verb: amnesty (derived forms: amnestied, amnesties, amnestying)
 1. (law) grant a pardon to (a group of people)
 '''),
         ],

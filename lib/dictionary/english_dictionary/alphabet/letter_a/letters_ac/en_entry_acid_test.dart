@@ -254,7 +254,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acid test (Derived forms: acid tests)
+- Noun: acid test (derived forms: acid tests)
 1. A rigorous or crucial appraisal
 '''),
         ],

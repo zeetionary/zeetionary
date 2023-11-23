@@ -33,7 +33,8 @@ class EnglishEntryassume extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It's probably safe to assume (that) we'll be hearing more about this story."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It's probably safe to assume (that) we'll be hearing more about this story."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAssume844(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntryassume extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Let us assume for a moment that the plan succeeds."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Let us assume for a moment that the plan succeeds."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAssume846(String languageCode) async {
@@ -49,7 +51,8 @@ class EnglishEntryassume extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Rebel forces have assumed control of the capital."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Rebel forces have assumed control of the capital."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAssume848(String languageCode) async {
@@ -57,7 +60,8 @@ class EnglishEntryassume extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("In the story the god assumes the form of an eagle."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "In the story the god assumes the form of an eagle."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAssume851(String languageCode) async {
@@ -65,7 +69,8 @@ class EnglishEntryassume extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Moving to a different town, he assumed a false name."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Moving to a different town, he assumed a false name."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakAssume(String languageCode) async {
@@ -539,7 +544,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: assume (Derived forms: assumed, assumes, assuming)
+- Verb: assume (derived forms: assumed, assumes, assuming)
 1. Take to be the case or to be true; accept without verification or proof (= presume, take for granted)
 "I assume his train was late";
  
@@ -576,7 +581,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/544DTGHIBM0?t=";
+  static String myVideoId = "544DTGHIBM0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -601,7 +606,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/55XJ1ObZKaM?t=";
+  static String myVideoId = "55XJ1ObZKaM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -626,7 +631,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/lex6USTugUU?t=";
+  static String myVideoId = "lex6USTugUU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -651,7 +656,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/PhNUjg9X4g8?t=";
+  static String myVideoId = "PhNUjg9X4g8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -676,7 +681,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/zZM57oTu9Ng?t=";
+  static String myVideoId = "zZM57oTu9Ng";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -701,7 +706,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/-cPdImejxEQ?t=";
+  static String myVideoId = "-cPdImejxEQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -726,7 +731,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/gn9uUjwBaEk?t=";
+  static String myVideoId = "gn9uUjwBaEk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -751,7 +756,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/yCdbHiVPYwI?t=";
+  static String myVideoId = "yCdbHiVPYwI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -776,7 +781,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/yRmOWcWdQAo?t=";
+  static String myVideoId = "yRmOWcWdQAo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -801,7 +806,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/erDE9B-X7mk?t=";
+  static String myVideoId = "erDE9B-X7mk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -826,7 +831,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/0ST4_hmop9Y?t=";
+  static String myVideoId = "0ST4_hmop9Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -851,7 +856,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/x6btmJSRueE?t=";
+  static String myVideoId = "x6btmJSRueE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

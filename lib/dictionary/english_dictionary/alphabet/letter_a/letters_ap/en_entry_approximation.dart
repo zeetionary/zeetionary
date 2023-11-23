@@ -427,7 +427,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: approximation (Derived forms: approximations)
+- Noun: approximation (derived forms: approximations)
 1. An approximate calculation of quantity, degree or worth (= estimate, estimation, idea)
 "an approximation of what it would cost";
  

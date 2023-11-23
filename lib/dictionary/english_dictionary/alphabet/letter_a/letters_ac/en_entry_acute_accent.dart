@@ -209,7 +209,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: acute accent (Derived forms: acute accents)
+- Noun: acute accent (derived forms: acute accents)
 1. A mark placed above a vowel to indicate pronunciation (= acute, ague)
 '''),
         ],

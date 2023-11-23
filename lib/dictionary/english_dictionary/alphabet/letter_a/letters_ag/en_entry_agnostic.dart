@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: agnostic (Derived forms: agnostics)
+- Noun: agnostic (derived forms: agnostics)
 1. Someone who is doubtful or noncommittal about something (= doubter)
  
 2. A person who claims that they cannot have true knowledge about the existence of God (but does not deny that God might exist)

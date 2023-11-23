@@ -256,7 +256,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: air raid (Derived forms: air raids)
+- Noun: air raid (derived forms: air raids)
 1. An attack by armed planes on a surface target (= air attack)
 '''),
         ],

@@ -310,14 +310,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: advocate (Derived forms: advocates, advocated, advocating)
+- Verb: advocate (derived forms: advocates, advocated, advocating)
 1. Push for something (= recommend, urge, encourage)
 "The travel agent advocated strongly that we not travel on Thanksgiving Day";
  
 2. Speak, plead, or argue in favour of (= preach)
 "The doctor advocated a smoking ban in the entire house";
 
-- Noun: advocate (Derived forms: advocates)
+- Noun: advocate (derived forms: advocates)
 1. A person who pleads for a cause or propounds an idea (= advocator, proponent, exponent)
  
 2. (law) a lawyer who pleads cases in court (= counsel, counselor [US], counsellor [Brit, Cdn], counselor-at-law [US, Ireland], pleader)

@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adherence (Derived forms: adherences)
+- Noun: adherence (derived forms: adherences)
 1. Faithfully following a program, regime, party or religion (= attachment, adhesion)
 "adherence to a fat-free diet";
  

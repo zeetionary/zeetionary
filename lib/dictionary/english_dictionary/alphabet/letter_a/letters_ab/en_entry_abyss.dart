@@ -237,7 +237,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: abyss  u'bis (Derived forms: abysses)
+- Noun: abyss  u'bis (derived forms: abysses)
 1. A bottomless gulf or pit; any unfathomable (or apparently unfathomable) cavity or chasm or void extending below (often used figuratively) (= abysm)
 "a yawning abyss";
 '''),

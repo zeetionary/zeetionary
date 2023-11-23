@@ -603,7 +603,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: assign (Derived forms: assigned, assigning, assigns)
+- Verb: assign (derived forms: assigned, assigning, assigns)
 1. Allocate a task to a person (= delegate, designate, depute)
  
 2. Give out (= allot, portion)
@@ -624,7 +624,7 @@ class EnglishMeaning extends StatelessWidget {
 8. Decide as to where something belongs in a scheme (= attribute)
 "The biologist assigned the mushroom to the proper class";
 
-- Noun: assign (Derived forms: assigns)
+- Noun: assign (derived forms: assigns)
 1. (law) the party to whom something is assigned (e.g., someone to whom a right or property is legally transferred) (= assignee)
 """),
         ],

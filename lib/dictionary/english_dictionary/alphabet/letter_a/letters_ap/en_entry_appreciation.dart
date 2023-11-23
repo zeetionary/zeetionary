@@ -593,7 +593,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: appreciation (Derived forms: appreciations)
+- Noun: appreciation (derived forms: appreciations)
 1. Understanding of the nature, meaning, quality or magnitude of something (= grasp, hold)
 "he has a good appreciation of accounting practices";
  

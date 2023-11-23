@@ -595,7 +595,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: arrival (Derived forms: arrivals)
+- Noun: arrival (derived forms: arrivals)
 1. Accomplishment of an objective
  
 2. The act of arriving at a certain place

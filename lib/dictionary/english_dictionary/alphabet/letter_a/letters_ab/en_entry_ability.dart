@@ -439,7 +439,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: ability (Derived forms: abilities)
+- Noun: ability (derived forms: abilities)
 1. The quality of being able to perform; a quality that permits or facilitates achievement or accomplishment
 
 2. Possession of the qualities (especially mental qualities) required to do something or get something done (=power)

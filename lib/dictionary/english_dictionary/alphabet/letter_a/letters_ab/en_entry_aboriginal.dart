@@ -288,7 +288,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: aboriginal (Derived forms: aboriginals)
+- Adjective: aboriginal (derived forms: aboriginals)
 1. Characteristic of or relating to people inhabiting a region from the beginning (= native, indigenous)
 "the aboriginal peoples of Australia";
  
@@ -299,7 +299,7 @@ class EnglishMeaning extends StatelessWidget {
 1. An indigenous person who was born in a particular place (= native, indigen, indigene, aborigine)
 "the Canadian government scrapped plans to tax the grants to aboriginal college students";
 
-- Noun: Aboriginal (Derived forms: Aboriginals)
+- Noun: Aboriginal (derived forms: Aboriginals)
 A member of the people living in Australia when Europeans arrived (= Aborigine, native Australian, Australian Aborigine)
 '''),
         ],

@@ -485,7 +485,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: articulation (Derived forms: articulations)
+- Noun: articulation (derived forms: articulations)
 1. The aspect of pronunciation that involves bringing articulatory organs together so as to shape the sounds of speech
  
 2. The shape or manner in which things come together and a connection is made (= join, joint, juncture, junction)

@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: anaesthetist (Derived forms: anaesthetists)
+- Noun: anaesthetist (derived forms: anaesthetists)
 Usage: Brit, Cdn (US: anesthetist)
 1. A specialist who administers an anaesthetic to a patient before he is treated (= anesthesiologist [N. Amer], anesthetist [N. Amer])
 '''),

@@ -365,7 +365,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Verb: amplify (Derived forms: amplifies, amplifying, amplified)
+- Verb: amplify (derived forms: amplifies, amplifying, amplified)
 1. Increase in size, volume or significance (= magnify)
 "Her terror was amplified in her mind";
  

@@ -477,7 +477,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Adjective: angry (Derived forms: angriest, angrier)
+- Adjective: angry (derived forms: angriest, angrier)
 1. Feeling or showing anger (= cross)
 "angry at the weather"; "angry customers"; "an angry silence"; "sending angry letters to the papers";
  

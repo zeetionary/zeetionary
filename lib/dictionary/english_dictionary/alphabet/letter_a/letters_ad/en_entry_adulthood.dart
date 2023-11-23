@@ -255,7 +255,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: adulthood (Derived forms: adulthoods)
+- Noun: adulthood (derived forms: adulthoods)
 1. The period of time in your life after your physical growth has stopped and you are fully developed (= maturity)
  
 2. The state (and responsibilities) of a person who has attained maturity

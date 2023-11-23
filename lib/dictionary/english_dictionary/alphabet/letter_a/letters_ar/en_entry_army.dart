@@ -584,7 +584,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: army (Derived forms: armies)
+- Noun: army (derived forms: armies)
 1. (military) a permanent organization of the military land forces of a nation or state (= regular army, ground forces)
  
 2. A large number of people united for some specific purpose

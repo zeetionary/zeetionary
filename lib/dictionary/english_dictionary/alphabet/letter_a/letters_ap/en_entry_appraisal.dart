@@ -423,7 +423,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: appraisal (Derived forms: appraisals)
+- Noun: appraisal (derived forms: appraisals)
 The classification of someone or something with respect to its worth (= assessment)
  
 2. A document appraising the value of something (as for insurance or taxation) (= estimate, estimation)

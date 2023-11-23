@@ -428,7 +428,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: admission (Derived forms: admissions)
+- Noun: admission (derived forms: admissions)
 1. The act of admitting someone to enter (= admittance)
 "the surgery was performed on his second admission to the clinic";
  

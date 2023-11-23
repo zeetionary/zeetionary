@@ -366,7 +366,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aspirin (Derived forms: aspirins)
+- Noun: aspirin (derived forms: aspirins)
 1. The acetylated derivative of salicylic acid; used as an analgesic anti-inflammatory drug (trade names Bayer, Empirin, and St. Joseph) usually taken in tablet form; used as an antipyretic; slows clotting of the blood by poisoning platelets (= acetylsalicylic acid, Bayer, Empirin, St. Joseph)
 """),
         ],

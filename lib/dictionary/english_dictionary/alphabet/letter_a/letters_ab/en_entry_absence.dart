@@ -298,7 +298,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
-- Noun: absence (Derived forms: absences)
+- Noun: absence (derived forms: absences)
 1. The state of being absent
 "he was surprised by the absence of any explanation"
  

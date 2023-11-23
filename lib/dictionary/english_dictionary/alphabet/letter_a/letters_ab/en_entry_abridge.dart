@@ -237,7 +237,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text('''
--Verb: abridge (Derived forms: abridged, abridging, abridges)
+-Verb: abridge (derived forms: abridged, abridging, abridges)
 1. Reduce in scope while retaining essential elements (= foreshorten, abbreviate, shorten, cut, contract, reduce)
 "The manuscript must be abridged";
  

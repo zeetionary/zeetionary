@@ -244,7 +244,7 @@ class EnglishEntryatom extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دوو گەردیلەی هایدرۆجین یەکدەگرن لەگەڵ یەک گەردیلەی ئۆکسجین بۆ درووستکردنی یەک گەردی ئاو.",
+                                    "دوو گەردیلەی ھایدرۆجین یەکدەگرن لەگەڵ یەک گەردیلەی ئۆکسجین بۆ درووستکردنی یەک گەردی ئاو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

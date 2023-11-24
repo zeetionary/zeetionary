@@ -6,99 +6,97 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "atomic" and provide three example sentences for each meaning. Use Merriam Webster style.
+// Define the word "attn" and provide three example sentences for each meaning. Use Merriam Webster style.
 
-// replace EnglishEntryatomic - replace speakAtomic
+// replace attn - replace EnglishEntryattn
 
-// replace atomic - /əˈtɒmɪk/ - find WORD_WEB
+// replace speakAttn - /əˈtenʃn/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryatomic extends StatelessWidget {
+class EnglishEntryattn extends StatelessWidget {
   // blank divider
-  EnglishEntryatomic({super.key});
+  EnglishEntryattn({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAtomic(String languageCode) async {
-    // DOPSUM: CHANGE speakAtomic
+  Future<void> speakAttn(String languageCode) async {
+    // DOPSUM: CHANGE speakAttn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("atomic"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("attn"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtomic1217(String languageCode) async {
-    // DOPSUM: CHANGE speakAtomic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Atomic physics is the study of the structure and properties of atoms."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAtomic1221(String languageCode) async {
-    // DOPSUM: CHANGE speakAtomic
+  Future<void> speakAttn1050(String languageCode) async {
+    // DOPSUM: CHANGE speakAttn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Atomic energy is a powerful and versatile source of energy."); // DOPSUM: CHANGE TEXT
+        "Please send all submissions via email attn: Bill Simms."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtomic1223(String languageCode) async {
-    // DOPSUM: CHANGE speakAtomic
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Atomic weapons are very destructive."); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakAtomic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtomic
+  // Future<void> speakAttn(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAttn
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atomic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attn"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtomic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtomic
+  // Future<void> speakAttn(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAttn
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atomic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attn"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtomic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtomic
+  // Future<void> speakAttn(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAttn
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atomic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attn"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtomic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtomic
+  // Future<void> speakAttn(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAttn
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atomic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attn"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtomic(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtomic
+  // Future<void> speakAttn(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAttn
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atomic"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attn"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAttn(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAttn
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("attn"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAttn(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAttn
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("attn"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 7, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -117,7 +115,7 @@ class EnglishEntryatomic extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "atomic", // DOPSUM: CHANGE WORD ENTRY
+                                "attn", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -136,7 +134,7 @@ class EnglishEntryatomic extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˈtɒmɪk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əˈtenʃn/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -147,7 +145,7 @@ class EnglishEntryatomic extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAtomic(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAttn(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -157,7 +155,7 @@ class EnglishEntryatomic extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˈtɑːmɪk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /əˈtenʃn/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -167,7 +165,7 @@ class EnglishEntryatomic extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAtomic(
+                              onPressed: () => speakAttn(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -187,13 +185,13 @@ class EnglishEntryatomic extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
-                  VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
-                  VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 7
+                  // VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
+                  // VideoIconForTab(), // 08
+                  // VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -217,9 +215,7 @@ class EnglishEntryatomic extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: گەردیلەیی، ناوکی، ئەتۆمی
-
-١. (ھاوەڵناو) پەیوەندیدار بە گەردیلە""",
+١. (کورتکراوە) لە نامەدا بەکاردێت لەپێش ناوی ئەو کەسەی پەیامەکەی بۆ نووسراوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -230,7 +226,7 @@ class EnglishEntryatomic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Atomic physics is the study of the structure and properties of atoms.",
+                                    "Please send all submissions via email attn: Bill Simms.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -245,7 +241,7 @@ class EnglishEntryatomic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "فیزیای گەردیلە بریتییە لە لێکۆڵینەوە لە پێکھاتە و خاسیەتەکانی گەردیلە.",
+                                    "تکایە ھەموو دۆکیومێنتەکان بە ئیمەیڵ بنێرە، ئاگاداربە بیڵ سیمس.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -258,7 +254,7 @@ class EnglishEntryatomic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAtomic1217("en-GB"),
+                                onPressed: () => speakAttn1050("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -266,125 +262,8 @@ class EnglishEntryatomic extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAtomic1217(// REPLACE: atomic
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (ھاوەڵناو) پەیوەندیدار بەو وزەیەی درووست دەبێت لەکاتی کەرتکردنی گەردیلە""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Atomic energy is a powerful and versatile source of energy.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "وزەی ناوەکی سەرچاوەیەکی بەھێز و فرەکارەی وزەیە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAtomic1221("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAtomic1221(// REPLACE: atomic
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٣. (ھاوەڵناو) پەیوەندیدار بە چەکی ئەتۆمی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "Atomic weapons are very destructive.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "چەکە ئەتۆمییەکان زۆر وێرانکەرن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAtomic1223("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAtomic1223(// REPLACE: atomic
-                                        "en-US"),
+                                onPressed: () => speakAttn1050(// REPLACE: attn
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -398,13 +277,13 @@ class EnglishEntryatomic extends StatelessWidget {
                     YoutubeEmbeddedthree(),
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    YoutubeEmbeddedseven(),
-                    YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                    // YoutubeEmbeddedseven(),
+                    // YoutubeEmbeddedeight(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -434,17 +313,8 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adjective: atomic
-1. Immeasurably small
- 
-2. Of or relating to or comprising atoms
-"atomic structure"; "atomic hydrogen"
- 
-3. (weapons) deriving destructive energy from the release of atomic energy (= nuclear)
-"atomic bombs";
- 
-4. Unable to be split or made any smaller
-"A bit is an atomic item of data"
+- Abbreviation: attn
+1. Attention, used as a heading in letters to indicate for whom the letter is intended
 """),
         ],
       ),
@@ -455,12 +325,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "PQ8m5R76COo";
+  static String myVideoId = "X298UT0Zrpo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 269, // DOPSUM: CHANGE IT
+      startAt: 220, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -480,12 +350,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "gOVCx4yiICM";
+  static String myVideoId = "a4QOPlOxJnM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 359, // DOPSUM: CHANGE IT
+      startAt: 6, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -505,12 +375,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "7UuigRzibm0";
+  static String myVideoId = "5e-AZWwWvts";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 12, // DOPSUM: CHANGE IT
+      startAt: 346, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -530,12 +400,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "QaFb572jyvQ";
+  static String myVideoId = "m-MzRKsvCGE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 76, // DOPSUM: CHANGE IT
+      startAt: 129, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -555,12 +425,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "hzLTgtFaPLY";
+  static String myVideoId = "p0nFothF9JQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 127, // DOPSUM: CHANGE IT
+      startAt: 300, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -580,12 +450,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "eyupkrpm1oc";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 41, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -605,12 +475,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "3Eh4nkkYaAE";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 55, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -630,12 +500,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "WzAe7t_o0Mw";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 58, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -655,12 +525,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "4b4B6qrDPdI";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -680,12 +550,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "OTAQfg0M7H0";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 127, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -705,12 +575,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "QqUUsJeKB1w";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 148, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -730,12 +600,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "BPkcDWLBsrI";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

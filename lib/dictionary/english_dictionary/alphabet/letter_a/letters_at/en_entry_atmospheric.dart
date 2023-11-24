@@ -216,9 +216,9 @@ class EnglishEntryatmospheric extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: کەشی، سەربە کەش، هەڵمەگۆیی
+کوردی: کەشی، سەربە کەش، ھەڵمەگۆیی
 
-١. (ھاوەڵناو) پەیوەندیدار بە بەرگەهەوا""",
+١. (ھاوەڵناو) پەیوەندیدار بە بەرگەھەوا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -244,7 +244,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕووەکەکان سەرچاوەی سەرەکیی ئۆکسجینی بەرگەهەوان.",
+                                    "ڕووەکەکان سەرچاوەی سەرەکیی ئۆکسجینی بەرگەھەوان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

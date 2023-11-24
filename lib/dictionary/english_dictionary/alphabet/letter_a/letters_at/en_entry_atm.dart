@@ -215,7 +215,7 @@ class EnglishEntryatm extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ناو) دەزگایەک کە لە دەرەوەی بانکێک یان فرۆشگایەکە کە لە ڕێگەیەوە دەتوانی پارە ڕابکێشیت لە هەژمارە بانکییەکەت""",
+١. (ناو) دەزگایەک کە لە دەرەوەی بانکێک یان فرۆشگایەکە کە لە ڕێگەیەوە دەتوانی پارە ڕابکێشیت لە ھەژمارە بانکییەکەت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -241,7 +241,7 @@ class EnglishEntryatm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێویستە دەزگایەکی خۆکار بدۆزمەوە بۆ ڕاکێشانی هەندێک کاش پێش ئەوەی فرۆشگاکە دابخرێت.",
+                                    "پێویستە دەزگایەکی خۆکار بدۆزمەوە بۆ ڕاکێشانی ھەندێک کاش پێش ئەوەی فرۆشگاکە دابخرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

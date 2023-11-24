@@ -6,96 +6,95 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "atmosphere" and provide three example sentences for each meaning. Use Merriam Webster style.
+// Define the word "attention" and provide three example sentences for each meaning. Use Merriam Webster style.
 
-// replace EnglishEntryatmosphere - replace speakAtmosphere
+// replace attention - replace EnglishEntryattention
 
-// replace atmosphere - /ˈætməsfɪə(r)/ - find WORD_WEB
+// replace speakAttention - /əˈtenʃn/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryatmosphere extends StatelessWidget {
+class EnglishEntryattention extends StatelessWidget {
   // blank divider
-  EnglishEntryatmosphere({super.key});
+  EnglishEntryattention({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAtmosphere(String languageCode) async {
-    // DOPSUM: CHANGE speakAtmosphere
+  Future<void> speakAttention(String languageCode) async {
+    // DOPSUM: CHANGE speakAttention
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("atmosphere"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("attention"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtmosphere1119(String languageCode) async {
-    // DOPSUM: CHANGE speakAtmosphere
+  Future<void> speakAttention846(String languageCode) async {
+    // DOPSUM: CHANGE speakAttention
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Volcanoes and hot springs can emit methane into the atmosphere."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("His attention turned to other matters."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtmosphere1121(String languageCode) async {
-    // DOPSUM: CHANGE speakAtmosphere
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The spaceship should re-enter the earth's atmosphere later today."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAtmosphere1123(String languageCode) async {
-    // DOPSUM: CHANGE speakAtmosphere
+  Future<void> speakAttention847(String languageCode) async {
+    // DOPSUM: CHANGE speakAttention
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The outermost part of the sun's atmosphere is called the corona."); // DOPSUM: CHANGE TEXT
+        "She doesn't pay her children much attention."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtmosphere1126(String languageCode) async {
-    // DOPSUM: CHANGE speakAtmosphere
+  Future<void> speakAttention848(String languageCode) async {
+    // DOPSUM: CHANGE speakAttention
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("He received urgent medical attention."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAttention852(String languageCode) async {
+    // DOPSUM: CHANGE speakAttention
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "These plants love warm, humid atmospheres."); // DOPSUM: CHANGE TEXT
+        "Her primary aim was to avoid the attentions of the newspapers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtmosphere1128(String languageCode) async {
-    // DOPSUM: CHANGE speakAtmosphere
+  Future<void> speakAttention856(String languageCode) async {
+    // DOPSUM: CHANGE speakAttention
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "City officials have created an atmosphere of fear."); // DOPSUM: CHANGE TEXT
+        "Attention, please! Passengers for flight KL412 are requested to go to gate 21 immediately."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtmosphere1129(String languageCode) async {
-    // DOPSUM: CHANGE speakAtmosphere
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "There was an atmosphere of mutual trust between them."); // DOPSUM: CHANGE TEXT
-  }
-
-  // Future<void> speakAtmosphere(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtmosphere
+  // Future<void> speakAttention(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAttention
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atmosphere"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attention"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtmosphere(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtmosphere
+  // Future<void> speakAttention(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAttention
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atmosphere"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attention"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAttention(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAttention
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("attention"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -120,7 +119,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "atmosphere", // DOPSUM: CHANGE WORD ENTRY
+                                "attention", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -139,7 +138,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˈætməsfɪə(r)/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əˈtenʃn/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -149,7 +148,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAtmosphere(
+                              onPressed: () => speakAttention(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -160,7 +159,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˈætməsfɪr/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /əˈtenʃn/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -170,7 +169,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAtmosphere(
+                              onPressed: () => speakAttention(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -220,9 +219,9 @@ class EnglishEntryatmosphere extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: بەرگەھەوا، کەش، تەوشک، ھەوا، کەش‌وھەوا، ھەڵمەگۆ، چینەھەڵمینە 
+کوردی: سەرنج(دان)، (لێ)وردبوونەوە، لێ‌خوردبوونەوە، زەین‌پێدان، لالێدانەوە، بەتەنگەوەبوون، ئاگاداری تایبەتی، چاودێری، ئاگالێ‌بوون، پێ‌چاران، بەدیارەوەبوون، چاولێ‌بوون، ئاگاداری، پێ‌ڕاگەیشتن، دەستوورێکی میلیتاری کە لەودا سەرباز دەبێ ڕاست بوێستێ و پێی جووت کا و دەست بەرداتەوە، سەرنج
 
-١. (ناو) ئەو گازانەی کە دەوری زەوییان داوە""",
+١. (ناو) گوێگرتن، سەیرکردن، یان بیرکردنەوە لە شتێک بە وریاییەوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -233,7 +232,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Volcanoes and hot springs can emit methane into the atmosphere.",
+                                    "His attention turned to other matters.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -248,7 +247,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گڕکانەکان و کانیاوە گەرمەکان گازی میسان دەخەنە بەرگەھەواوە.",
+                                    "سەرنجی چوو بەلای پرسی تردا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -261,7 +260,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAtmosphere1119("en-GB"),
+                                onPressed: () => speakAttention846("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -270,7 +269,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAtmosphere1119(// REPLACE: atmosphere
+                                    speakAttention846(// REPLACE: attention
                                         "en-US"),
                               ),
                             ],
@@ -283,7 +282,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The spaceship should re-enter the earth's atmosphere later today.",
+                                    "She doesn't pay her children much attention.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -298,7 +297,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەشتییە ئاسمانییەکە دەبێت درەنگانی ئەمڕۆ بگەڕێتەوە ناو بەرگەھەوای زەوی.",
+                                    "زۆر سەرنج نادات بە منداڵەکانی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -311,7 +310,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAtmosphere1121("en-GB"),
+                                onPressed: () => speakAttention847("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -320,7 +319,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAtmosphere1121(// REPLACE: atmosphere
+                                    speakAttention847(// REPLACE: attention
                                         "en-US"),
                               ),
                             ],
@@ -330,7 +329,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) ئەو گازانەی کە دەوری تەنێکی ئاسمانییان داوە""",
+٢. (ناو) چاودێری یان چارەسەری تایبەت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -341,7 +340,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The outermost part of the sun's atmosphere is called the corona.",
+                                    "He received urgent medical attention.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -356,7 +355,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دوورترین بەشی ڕووی دەرەوەی بەرگەھەوای خۆر پێی دەوترێت کۆرۆنا.",
+                                    "چاودێری تایبەتی خێرای وەرگرت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -369,7 +368,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAtmosphere1123("en-GB"),
+                                onPressed: () => speakAttention848("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -378,7 +377,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAtmosphere1123(// REPLACE: atmosphere
+                                    speakAttention848(// REPLACE: attention
                                         "en-US"),
                               ),
                             ],
@@ -388,7 +387,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ناو) ھەوای ناو ژوورێک یان شوێنێکی بچووک""",
+٣. (ناو) ئەو شتانەی کە کەسێک دەیکات بۆ دڵخۆشکردنت، یان بۆ پیشاندانی حەزیان بۆت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -399,7 +398,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "These plants love warm, humid atmospheres.",
+                                    "Her primary aim was to avoid the attentions of the newspapers.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -414,7 +413,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم ڕووەکانە حەزیان بە ژینگەی گەرم و شێدارە.",
+                                    "ئامانجی سەرەکی ئەوەبوو لە سەرنجی ڕۆژنامەکان بەدووربێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -427,7 +426,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAtmosphere1126("en-GB"),
+                                onPressed: () => speakAttention852("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -436,7 +435,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAtmosphere1126(// REPLACE: atmosphere
+                                    speakAttention852(// REPLACE: attention
                                         "en-US"),
                               ),
                             ],
@@ -446,7 +445,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٤. (ناو) ئەو کەشەی لە بارودۆخێکدا ھەیە""",
+٤. (سەرسوڕمان) بەکاردێت بۆ وەرگرتنی سەرنجی خەڵکی لەپێش ڕاگەیاندنی شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -457,7 +456,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "City officials have created an atmosphere of fear.",
+                                    "Attention, please! Passengers for flight KL412 are requested to go to gate 21 immediately.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -472,7 +471,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەرپرسانی شارەکە کەشێکی پڕ لە ترسیان درووستکردووە.",
+                                    "ئاگاداری، تکایە گەشتیارانی گەشتی KL412 داوایان لێدەکرێت دەستبەجێ بچن بۆ دەروازەی ٢١.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -485,7 +484,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAtmosphere1128("en-GB"),
+                                onPressed: () => speakAttention856("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -494,57 +493,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAtmosphere1128(// REPLACE: atmosphere
-                                        "en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "There was an atmosphere of mutual trust between them.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "کەشێکی متمانەی ھاوبەش ھەبوو لە نێوانیاندا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakAtmosphere1129("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () =>
-                                    speakAtmosphere1129(// REPLACE: atmosphere
+                                    speakAttention856(// REPLACE: attention
                                         "en-US"),
                               ),
                             ],
@@ -595,22 +544,23 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: atmosphere (derived forms: atmospheres)
-1. A particular environment or surrounding influence (= ambiance, ambience)
-"there was an atmosphere of excitement";
+- Noun: attention (derived forms: attentions)
+1. The process whereby a person concentrates on some features of the environment to the (relative) exclusion of others (= attending)
  
-2. A unit of pressure: the pressure that will support a column of mercury 760 mm high at sea level and 0 degrees centigrade (= standard atmosphere, atm, standard pressure)
+2. The work of providing treatment for or attending to someone or something (= care, aid, tending)
+"the old car needs constant attention";
  
-3. The mass of air surrounding the Earth (= air)
-"there was great heat as the comet entered the atmosphere";
+2. A general interest that leads people to want to know more
+"She was the centre of attention"
  
-4. The weather or climate at some place (= atmospheric state)
-"the atmosphere was thick with fog";
+3. A courteous act indicating affection
+"she tried to win his heart with her many attentions"
  
-5. The envelope of gases surrounding any celestial body
+4. The faculty or power of mental concentration
+"keeping track of all the details requires your complete attention"
  
-6. A distinctive but intangible quality surrounding a person or thing (= air, aura)
-"an atmosphere of defeat pervaded the candidate's headquarters";
+5. (military) a motionless erect stance with arms at the sides and feet together; assumed by military personnel during drill or review
+"the troops stood at attention"
 """),
         ],
       ),
@@ -621,12 +571,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "-cPdImejxEQ";
+  static String myVideoId = "FHJ3CMWnVxY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 275, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -646,12 +596,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "xXvgT-AgLAo";
+  static String myVideoId = "Kou7ur5xt_4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 49, // DOPSUM: CHANGE IT
+      startAt: 143, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -671,12 +621,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "3RkhZgRNC1k";
+  static String myVideoId = "4J0xFUyz1nw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 622, // DOPSUM: CHANGE IT
+      startAt: 821, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -696,12 +646,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "T48_SrFCdaQ";
+  static String myVideoId = "t6fIp7mMJ90";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 226, // DOPSUM: CHANGE IT
+      startAt: 216, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -721,12 +671,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "yGzJZhtQ9NE";
+  static String myVideoId = "O4iGNXsqghs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 236, // DOPSUM: CHANGE IT
+      startAt: 251, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -746,12 +696,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "aPBVGXdsR0I";
+  static String myVideoId = "QLq6GEiHqR8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1207, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -771,12 +721,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "5Q3ft8OsFaM";
+  static String myVideoId = "_LUX70mXcEE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 27, // DOPSUM: CHANGE IT
+      startAt: 198, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -796,12 +746,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "8jmX-TUQkx4";
+  static String myVideoId = "u7JsKhI2An0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 26, // DOPSUM: CHANGE IT
+      startAt: 136, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -821,12 +771,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "FeAAiv4G-vs";
+  static String myVideoId = "-L7o6HtX8Vg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 249, // DOPSUM: CHANGE IT
+      startAt: 100, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -846,12 +796,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "fuoRCh34z1Q";
+  static String myVideoId = "CK78QUMcZL8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 19, // DOPSUM: CHANGE IT
+      startAt: 642, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -871,12 +821,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "7nePHlbtSis";
+  static String myVideoId = "9TugA_z5vQE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 15, // DOPSUM: CHANGE IT
+      startAt: 766, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -896,12 +846,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "R4rvgq8Nu4c";
+  static String myVideoId = "55XJ1ObZKaM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 40, // DOPSUM: CHANGE IT
+      startAt: 1030, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

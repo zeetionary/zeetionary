@@ -1102,38 +1102,38 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "athletic",
     "athletics",
     "atlas",
-    // "ATM",
-    // "atmosphere",
-    // "atmospheric",
-    // "atoll",
-    // "atom",
-    // "atomic",
-    // "atomic bomb",
-    // "atrocious",
-    // "atrociously",
-    // "atrocity",
-    // "attach",
-    // "attaché",
-    // "attaché case",
-    // "attached",
-    // "attachment",
-    // "attack",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "ATM",
+    "atmosphere",
+    "atmospheric",
+    "atoll",
+    "atom",
+    "atomic",
+    "atomic bomb",
+    "atrocious",
+    "atrociously",
+    "atrocity",
+    "attach",
+    "attaché",
+    "attaché case",
+    "attached",
+    "attachment",
+    "attack",
+    "attacker",
+    "attain",
+    "attainable",
+    "attainment",
+    "attempt",
+    "attend",
+    "attendance",
+    "attendant",
+    "attention",
+    "attentive",
+    "attentively",
+    "attest",
+    "attic",
+    "attitude",
+    "attn",
+    "attorney",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -5769,134 +5769,134 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-atlas");
                   }
-                  // if (wordsEnglish == "ATM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-atm");
-                  // }
-                  // if (wordsEnglish == "atmosphere") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-atmosphere");
-                  // }
-                  // if (wordsEnglish == "atmospheric") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-atmospheric");
-                  // }
-                  // if (wordsEnglish == "atoll") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-atoll");
-                  // }
-                  // if (wordsEnglish == "atom") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-atom");
-                  // }
-                  // if (wordsEnglish == "atomic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-atomic");
-                  // }
-                  // if (wordsEnglish == "atomic bomb") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-atomic-bomb");
-                  // }
-                  // if (wordsEnglish == "atrocious") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-atrocious");
-                  // }
-                  // if (wordsEnglish == "atrociously") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-atrociously");
-                  // }
-                  // if (wordsEnglish == "atrocity") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-atrocity");
-                  // }
-                  // if (wordsEnglish == "attach") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-attach");
-                  // }
-                  // if (wordsEnglish == "attached") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-attached");
-                  // }
-                  // if (wordsEnglish == "attachment") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-attachment");
-                  // }
-                  // if (wordsEnglish == "attaché") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-attache");
-                  // }
-                  // if (wordsEnglish == "attaché case") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-attache-case");
-                  // }
-                  // if (wordsEnglish == "attack") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-attack");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "ATM") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-atm");
+                  }
+                  if (wordsEnglish == "atmosphere") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-atmosphere");
+                  }
+                  if (wordsEnglish == "atmospheric") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-atmospheric");
+                  }
+                  if (wordsEnglish == "atoll") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-atoll");
+                  }
+                  if (wordsEnglish == "atom") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-atom");
+                  }
+                  if (wordsEnglish == "atomic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-atomic");
+                  }
+                  if (wordsEnglish == "atomic bomb") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-atomic-bomb");
+                  }
+                  if (wordsEnglish == "atrocious") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-atrocious");
+                  }
+                  if (wordsEnglish == "atrociously") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-atrociously");
+                  }
+                  if (wordsEnglish == "atrocity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-atrocity");
+                  }
+                  if (wordsEnglish == "attach") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attach");
+                  }
+                  if (wordsEnglish == "attached") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attached");
+                  }
+                  if (wordsEnglish == "attachment") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attachment");
+                  }
+                  if (wordsEnglish == "attaché") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attache");
+                  }
+                  if (wordsEnglish == "attaché case") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attache-case");
+                  }
+                  if (wordsEnglish == "attack") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attack");
+                  }
+                  if (wordsEnglish == "attacker") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attacker");
+                  }
+                  if (wordsEnglish == "attain") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attain");
+                  }
+                  if (wordsEnglish == "attainable") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attainable");
+                  }
+                  if (wordsEnglish == "attainment") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attainment");
+                  }
+                  if (wordsEnglish == "attempt") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attempt");
+                  }
+                  if (wordsEnglish == "attend") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attend");
+                  }
+                  if (wordsEnglish == "attendance") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attendance");
+                  }
+                  if (wordsEnglish == "attendant") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attendant");
+                  }
+                  if (wordsEnglish == "attention") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attention");
+                  }
+                  if (wordsEnglish == "attentive") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attentive");
+                  }
+                  if (wordsEnglish == "attentively") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attentively");
+                  }
+                  if (wordsEnglish == "attest") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attest");
+                  }
+                  if (wordsEnglish == "attic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attic");
+                  }
+                  if (wordsEnglish == "attitude") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attitude");
+                  }
+                  if (wordsEnglish == "attn") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attn");
+                  }
+                  if (wordsEnglish == "attorney") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-attorney");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

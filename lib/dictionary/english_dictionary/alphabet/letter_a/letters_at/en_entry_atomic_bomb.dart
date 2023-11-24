@@ -215,7 +215,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ناو) بۆمبی ئەتۆمی؛ بۆمبێک کە دەتەقێتەوە بە بەکارهێنانی ئەو وزەیەی کە درووست دەبێت لە کاتی کەرتبوونی گەردیلە""",
+١. (ناو) بۆمبی ئەتۆمی؛ بۆمبێک کە دەتەقێتەوە بە بەکارھێنانی ئەو وزەیەی کە درووست دەبێت لە کاتی کەرتبوونی گەردیلە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -241,7 +241,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو بۆمبە ئەتۆمییانەی لە ساڵی ١٩٤٥ بەسەر هیرۆشیما و ناگازاکیدا بەردرانەوە بوونە هۆی وێرانی و لەدەستچوونی ژیانی زۆر.",
+                                    "ئەو بۆمبە ئەتۆمییانەی لە ساڵی ١٩٤٥ بەسەر ھیرۆشیما و ناگازاکیدا بەردرانەوە بوونە ھۆی وێرانی و لەدەستچوونی ژیانی زۆر.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

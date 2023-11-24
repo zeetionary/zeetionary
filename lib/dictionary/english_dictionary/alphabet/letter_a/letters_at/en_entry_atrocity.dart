@@ -215,7 +215,7 @@ class EnglishEntryatrocity extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: بێ‌بەزەییێتی، هۆڤیگەری، دڵڕەقی، دڕندەیی، خوێن‌ڕێژی، زەبروزەنگ، توندوتیژی، کردەوەی دڕندانە
+کوردی: بێ‌بەزەییێتی، ھۆڤیگەری، دڵڕەقی، دڕندەیی، خوێن‌ڕێژی، زەبروزەنگ، توندوتیژی، کردەوەی دڕندانە
 
 ١. (ناو) کارێکی دڕندانە، بەتایبەتی لە جەنگدا""",
                             style: TextStyle(fontSize: 18),
@@ -243,7 +243,7 @@ class EnglishEntryatrocity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە جەنگەکەدا، هەردوو لا تاوانکارییان ئەنجامدا.",
+                                    "لە جەنگەکەدا، ھەردوو لا تاوانکارییان ئەنجامدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

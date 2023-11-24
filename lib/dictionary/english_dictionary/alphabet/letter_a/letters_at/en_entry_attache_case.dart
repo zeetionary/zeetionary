@@ -217,7 +217,7 @@ class EnglishEntryattachecase extends StatelessWidget {
                             """
 کوردی: ساک، کیف، جانتا
 
-١. (ناو) جانتایەکی فلاتی بەهێزی بچووک بۆ دۆکیومێنتی کارکردن""",
+١. (ناو) جانتایەکی فلاتی بەھێزی بچووک بۆ دۆکیومێنتی کارکردن""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -243,7 +243,7 @@ class EnglishEntryattachecase extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سیخوڕەکە ئەو جانتایەی دزی کە دۆکیومێنتە نهێنییەکانی تێدابوو.",
+                                    "سیخوڕەکە ئەو جانتایەی دزی کە دۆکیومێنتە نھێنییەکانی تێدابوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

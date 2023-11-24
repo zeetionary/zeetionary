@@ -241,7 +241,7 @@ class EnglishEntryattache extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەرپرسە بازرگانییەکە ڕاسپێردرا بە بەهێزکردنی بازرگانی نێوان هەردوو وڵات.",
+                                    "بەرپرسە بازرگانییەکە ڕاسپێردرا بە بەھێزکردنی بازرگانی نێوان ھەردوو وڵات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

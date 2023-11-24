@@ -246,7 +246,7 @@ class EnglishEntryattached extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دڵنیابەرەوە هەموو وایەرەکان بەتوندی پێکەوەنووساون.",
+                                    "دڵنیابەرەوە ھەموو وایەرەکان بەتوندی پێکەوەنووساون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -336,7 +336,7 @@ class EnglishEntryattached extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ھاوەڵناو) لە پەیوەندی هاوسەرگیری یان ڕۆمانسیدا لەگەڵ کەسێک""",
+٣. (ھاوەڵناو) لە پەیوەندی ھاوسەرگیری یان ڕۆمانسیدا لەگەڵ کەسێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -362,7 +362,7 @@ class EnglishEntryattached extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خۆش ئەبێت ئەگەر هەندێک پیاوی دیکە ببینین کە هاوسەرگیریان نەکردووە.",
+                                    "خۆش ئەبێت ئەگەر ھەندێک پیاوی دیکە ببینین کە ھاوسەرگیریان نەکردووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

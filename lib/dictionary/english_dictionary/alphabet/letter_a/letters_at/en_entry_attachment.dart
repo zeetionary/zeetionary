@@ -219,7 +219,7 @@ class EnglishEntryattachment extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: خۆشەویستی، هۆگری، دڵبەستەیی، سەوداسەری، لکان، نووسان، چوونەپاڵ، پێوەنووسان، چەسپان، گرتن، پێوەلکاندن، پێکەوەبەستن، چەسپاندن، پاڵ‌خستن، دانەدەم، لکاندن، پێوەنان، لێدان، پاشکۆ، سەرخستە، پاڵخستە، پێوەندی، گرتن، گل‌دانەوە، دەس‌بەسەراگرتن، زەوت‌کردن، ناردن بۆ جێگایێ، ڕاسپێری
+کوردی: خۆشەویستی، ھۆگری، دڵبەستەیی، سەوداسەری، لکان، نووسان، چوونەپاڵ، پێوەنووسان، چەسپان، گرتن، پێوەلکاندن، پێکەوەبەستن، چەسپاندن، پاڵ‌خستن، دانەدەم، لکاندن، پێوەنان، لێدان، پاشکۆ، سەرخستە، پاڵخستە، پێوەندی، گرتن، گل‌دانەوە، دەس‌بەسەراگرتن، زەوت‌کردن، ناردن بۆ جێگایێ، ڕاسپێری
 
 ١. (ناو) دۆکیومێنتێک کە بە ئیمەیڵ نێردراوە""",
                             style: TextStyle(fontSize: 18),
@@ -247,7 +247,7 @@ class EnglishEntryattachment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هیچ دۆکیومێنتێک نەنێردرابوو.",
+                                    "ھیچ دۆکیومێنتێک نەنێردرابوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -421,7 +421,7 @@ class EnglishEntryattachment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەگەری کەمە واز لە پشتیوانیی لەمێژینەی بهێنێت بۆ فێمینیزم.",
+                                    "ئەگەری کەمە واز لە پشتیوانیی لەمێژینەی بھێنێت بۆ فێمینیزم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -479,7 +479,7 @@ class EnglishEntryattachment extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم عەسارەی خواردنە پارچەیەکی تایبەتی هەیە بۆ هاڕینی قاوە.",
+                                    "ئەم عەسارەی خواردنە پارچەیەکی تایبەتی ھەیە بۆ ھاڕینی قاوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

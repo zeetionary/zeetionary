@@ -1108,6 +1108,22 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attache.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attache_case.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attack.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attacker.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attain.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attainable.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attainment.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attempt.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attend.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attendance.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attendant.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attention.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attentive.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attentively.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attest.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attitude.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attn.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attorney.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
@@ -2354,22 +2370,22 @@ final loggedInRoute = RouteMap(routes: {
   "/english-attache": (_) => MaterialPage(child: EnglishEntryattache()),
   "/english-attache-case": (_) => MaterialPage(child: EnglishEntryattachecase()),
   "/english-attack": (_) => MaterialPage(child: EnglishEntryattack()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-attacker": (_) => MaterialPage(child: EnglishEntryattacker()),
+  "/english-attain": (_) => MaterialPage(child: EnglishEntryattain()),
+  "/english-attainable": (_) => MaterialPage(child: EnglishEntryattainable()),
+  "/english-attainment": (_) => MaterialPage(child: EnglishEntryattainment()),
+  "/english-attempt": (_) => MaterialPage(child: EnglishEntryattempt()),
+  "/english-attend": (_) => MaterialPage(child: EnglishEntryattend()),
+  "/english-attendance": (_) => MaterialPage(child: EnglishEntryattendance()),
+  "/english-attendant": (_) => MaterialPage(child: EnglishEntryattendant()),
+  "/english-attention": (_) => MaterialPage(child: EnglishEntryattention()),
+  "/english-attentive": (_) => MaterialPage(child: EnglishEntryattentive()),
+  "/english-attentively": (_) => MaterialPage(child: EnglishEntryattentively()),
+  "/english-attest": (_) => MaterialPage(child: EnglishEntryattest()),
+  "/english-attic": (_) => MaterialPage(child: EnglishEntryattic()),
+  "/english-attitude": (_) => MaterialPage(child: EnglishEntryattitude()),
+  "/english-attn": (_) => MaterialPage(child: EnglishEntryattn()),
+  "/english-attorney": (_) => MaterialPage(child: EnglishEntryattorney()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

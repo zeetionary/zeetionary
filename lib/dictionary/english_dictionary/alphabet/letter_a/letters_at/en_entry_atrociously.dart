@@ -244,7 +244,7 @@ class EnglishEntryatrociously extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "فیلمەکە خراپ ڕۆڵی تێداگێڕدراوە و شپرزانەش دەرهێنانی بۆکراوە.",
+                                    "فیلمەکە خراپ ڕۆڵی تێداگێڕدراوە و شپرزانەش دەرھێنانی بۆکراوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

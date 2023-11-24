@@ -221,7 +221,7 @@ class EnglishEntryattach extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: پێوە لکاندن، پێوەنووساندن، پاشکۆ کردن، هاوپێچ کردن، چەسپاندن
+کوردی: پێوە لکاندن، پێوەنووساندن، پاشکۆ کردن، ھاوپێچ کردن، چەسپاندن
 
 ١. (کردار) پێکەلکاندن""",
                             style: TextStyle(fontSize: 18),
@@ -473,7 +473,7 @@ class EnglishEntryattach extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە ئاهەنگەکە خۆی پێمەوە لکاند و نەمتوانی ڕزگارم بێت لێی.",
+                                    "لە ئاھەنگەکە خۆی پێمەوە لکاند و نەمتوانی ڕزگارم بێت لێی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -531,7 +531,7 @@ class EnglishEntryattach extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەمە هیچ لۆمەیەک ناخاتە سەر تۆ.",
+                                    "ئەمە ھیچ لۆمەیەک ناخاتە سەر تۆ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -581,7 +581,7 @@ class EnglishEntryattach extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هیچ‌کەس ناڵێت مەترسی تەندرووستی لەم بەرهەمەدا هەیە.",
+                                    "ھیچ‌کەس ناڵێت مەترسی تەندرووستی لەم بەرھەمەدا ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

@@ -217,7 +217,7 @@ class EnglishEntryatoll extends StatelessWidget {
                             """
 کوردی: دوڕگەی شیلانی، شیلانەدوڕگە، شیلانی بازنەیی
 
-١. (ھاوەڵناو) دوورگەیەک کە لە شیلانە لە شێوەی ئەڵقەیەکدا پێکهاتووە لەگەڵ دەریاچەیەک لە ناوەڕاستیدا""",
+١. (ھاوەڵناو) دوورگەیەک کە لە شیلانە لە شێوەی ئەڵقەیەکدا پێکھاتووە لەگەڵ دەریاچەیەک لە ناوەڕاستیدا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -243,7 +243,7 @@ class EnglishEntryatoll extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ماڵدیف کۆمەڵە شیلانەدوورگەیەکە لە زەریای هندی.",
+                                    "ماڵدیف کۆمەڵە شیلانەدوورگەیەکە لە زەریای ھندی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

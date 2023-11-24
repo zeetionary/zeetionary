@@ -1092,22 +1092,22 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_athletic.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_athletics.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_atlas.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_atm.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_atmosphere.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_atmospheric.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_atoll.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_atom.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_atomic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_atomic_bomb.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_atrocious.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_atrociously.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_atrocity.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attach.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attached.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attachment.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attache.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attache_case.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_attack.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_at/en_entry_DOPSUM.dart';
@@ -2338,22 +2338,22 @@ final loggedInRoute = RouteMap(routes: {
   "/english-athletic": (_) => MaterialPage(child: EnglishEntryathletic()),
   "/english-athletics": (_) => MaterialPage(child: EnglishEntryathletics()),
   "/english-atlas": (_) => MaterialPage(child: EnglishEntryatlas()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-atm": (_) => MaterialPage(child: EnglishEntryatm()),
+  "/english-atmosphere": (_) => MaterialPage(child: EnglishEntryatmosphere()),
+  "/english-atmospheric": (_) => MaterialPage(child: EnglishEntryatmospheric()),
+  "/english-atoll": (_) => MaterialPage(child: EnglishEntryatoll()),
+  "/english-atom": (_) => MaterialPage(child: EnglishEntryatom()),
+  "/english-atomic": (_) => MaterialPage(child: EnglishEntryatomic()),
+  "/english-atomic-bomb": (_) => MaterialPage(child: EnglishEntryatomicbomb()),
+  "/english-atrocious": (_) => MaterialPage(child: EnglishEntryatrocious()),
+  "/english-atrociously": (_) => MaterialPage(child: EnglishEntryatrociously()),
+  "/english-atrocity": (_) => MaterialPage(child: EnglishEntryatrocity()),
+  "/english-attach": (_) => MaterialPage(child: EnglishEntryattach()),
+  "/english-attached": (_) => MaterialPage(child: EnglishEntryattached()),
+  "/english-attachment": (_) => MaterialPage(child: EnglishEntryattachment()),
+  "/english-attache": (_) => MaterialPage(child: EnglishEntryattache()),
+  "/english-attache-case": (_) => MaterialPage(child: EnglishEntryattachecase()),
+  "/english-attack": (_) => MaterialPage(child: EnglishEntryattack()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

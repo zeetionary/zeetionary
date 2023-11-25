@@ -6,91 +6,93 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "atlas" and provide three example sentences for each meaning. Use Merriam Webster style.
+// Define the word "attractive" and provide three example sentences for each meaning. Use Merriam Webster style.
 
-// replace EnglishEntryatlas - replace speakAtlas
+// replace attractive - replace EnglishEntryattractive
 
-// replace atlas - /ˈætləs/ - find WORD_WEB
+// replace speakAttractive - /əˈtræktɪv/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryatlas extends StatelessWidget {
+class EnglishEntryattractive extends StatelessWidget {
   // blank divider
-  EnglishEntryatlas({super.key});
+  EnglishEntryattractive({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAtlas(String languageCode) async {
-    // DOPSUM: CHANGE speakAtlas
+  Future<void> speakAttractive(String languageCode) async {
+    // DOPSUM: CHANGE speakAttractive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("attractive"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtlas839(String languageCode) async {
-    // DOPSUM: CHANGE speakAtlas
+  Future<void> speakAttractive1043(String languageCode) async {
+    // DOPSUM: CHANGE speakAttractive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "For those of you who don't have an atlas to hand, Newcastle is a city in the northeaeast of England."); // DOPSUM: CHANGE TEXT
+        "I like John but I don't find him attractive physically."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  Future<void> speakAttractive1045(String languageCode) async {
+    // DOPSUM: CHANGE speakAttractive
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Your new glasses are very attractive."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAttractive1047(String languageCode) async {
+    // DOPSUM: CHANGE speakAttractive
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The deal is said to be particularly attractive to investors."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAttractive(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAttractive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attractive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  // Future<void> speakAttractive(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAttractive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attractive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  // Future<void> speakAttractive(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAttractive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attractive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  // Future<void> speakAttractive(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAttractive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attractive"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  // Future<void> speakAttractive(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAttractive
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attractive"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -115,7 +117,7 @@ class EnglishEntryatlas extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "atlas", // DOPSUM: CHANGE WORD ENTRY
+                                "attractive", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -134,7 +136,7 @@ class EnglishEntryatlas extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˈætləs/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əˈtræktɪv/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -144,9 +146,9 @@ class EnglishEntryatlas extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAtlas(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAttractive(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -155,7 +157,7 @@ class EnglishEntryatlas extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˈætləs/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /əˈtræktɪv/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -165,7 +167,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAtlas(
+                              onPressed: () => speakAttractive(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -215,7 +217,9 @@ class EnglishEntryatlas extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ناو) کتێبێک کە نەخشەی تێدایە""",
+کوردی: سەرنج‌ڕاکێش، دڵکێش، خۆش، دڵگر، دڵبەر، دڵچەسپ، ڕووبازاڕی، بالکێش، جوان، دڵڕفێن
+
+١. (ھاوەڵناو) کەسێکی سەرنجڕاکێش و دڵڕفێنەر""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -226,7 +230,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "For those of you who don't have an atlas to hand, Newcastle is a city in the northeaeast of England.",
+                                    "I like John but I don't find him attractive physically.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -241,7 +245,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ ئەو کەسانەی کە ئەتڵەسێکیان لەبەردەست نییە، نیوکاسڵ دەکەوێتە باکووری خۆرھەڵەتی ئینگلتەرە.",
+                                    "حەزم لە جۆنە بەڵام بە ڕووکەش سەرنجڕاکێشی نابینم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -254,7 +258,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAtlas839("en-GB"),
+                                onPressed: () => speakAttractive1043("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -262,8 +266,125 @@ class EnglishEntryatlas extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAtlas839(// REPLACE: atlas
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAttractive1043(// REPLACE: attractive
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٢. (ھاوەڵناو) شتێکی جوان""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Your new glasses are very attractive.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "چاویلکە تازەکەت زۆر قەشەنگە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAttractive1045("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAttractive1045(// REPLACE: attractive
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٣. (ھاوەڵناو) شتێک تایبەتمەندی و خاسیەتی وەھای ھەیە کە دڵگیر بێ""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The deal is said to be particularly attractive to investors.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ڕێککەوتنەکە وەک دەگوترێت بەتایبەتی دڵگیرە بۆ وەبەرھێنەران.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAttractive1047("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAttractive1047(// REPLACE: attractive
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -313,17 +434,15 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: atlas (derived forms: atlases)
-1. A collection of maps in book form (= book of maps, map collection)
+- Adjective: attractive 
+1. Having power to arouse interest
+"an attractive opportunity"; "the job is attractive because of the pay"
  
-2. The 1st cervical vertebra (= atlas vertebra)
+2. Pleasing to the eye or mind especially through beauty or charm
+"a remarkably attractive young man"; "an attractive personality"; "attractive clothes"; "a book with attractive illustrations"
  
-3. A figure of a man used as a supporting column (= telamon)
- 
-4. A bound collection of tables, illustrations, etc. on any subject
-
-- Noun: Atlas
-1. (Greek mythology) a Titan who was forced by Zeus to bear the sky on his shoulders
+3. (physics) having the properties of a magnet; the ability to draw or pull
+"an attractive force"
 """),
         ],
       ),
@@ -334,12 +453,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "TVKNpjnqeg0";
+  static String myVideoId = "KJy7T24rhg0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 809, // DOPSUM: CHANGE IT
+      startAt: 689, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -359,12 +478,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "Pon4Zux5MaQ";
+  static String myVideoId = "dqcSk-EDrRo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 686, // DOPSUM: CHANGE IT
+      startAt: 1514, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -384,12 +503,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "53RbxAjUngQ";
+  static String myVideoId = "_pc1kON-doU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 528, // DOPSUM: CHANGE IT
+      startAt: 136, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -409,12 +528,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "L6ON7VzYlLY";
+  static String myVideoId = "58XEfDtU0Z4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 898, // DOPSUM: CHANGE IT
+      startAt: 813, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -434,12 +553,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "rcP7ZvzyZwM";
+  static String myVideoId = "5K2AI44XI0s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 982, // DOPSUM: CHANGE IT
+      startAt: 180, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -459,12 +578,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "ah9i3R9pRpg";
+  static String myVideoId = "jrHz8Bti6FY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 339, // DOPSUM: CHANGE IT
+      startAt: 713, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -484,12 +603,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "VGosZWBTF7A";
+  static String myVideoId = "0buEATF5M0A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 732, // DOPSUM: CHANGE IT
+      startAt: 58, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -509,12 +628,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "iXexmZm3_j8";
+  static String myVideoId = "gjySnrspD7E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 277, // DOPSUM: CHANGE IT
+      startAt: 1840, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -534,12 +653,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "XLlHeud8ocQ";
+  static String myVideoId = "OZ_xhkg32nk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 960, // DOPSUM: CHANGE IT
+      startAt: 273, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -559,12 +678,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "PPpUxoeooZk";
+  static String myVideoId = "bXqZllqGWGQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 552, // DOPSUM: CHANGE IT
+      startAt: 713, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -584,12 +703,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "lrS0rxX-UhA";
+  static String myVideoId = "YwOMc-4OEWg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 365, // DOPSUM: CHANGE IT
+      startAt: 297, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -609,12 +728,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "Jdy09y0A4t0";
+  static String myVideoId = "QcUey-DVYjk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 82, // DOPSUM: CHANGE IT
+      startAt: 1499, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

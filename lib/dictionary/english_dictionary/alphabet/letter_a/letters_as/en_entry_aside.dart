@@ -504,7 +504,7 @@ class EnglishEntryaside extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٥. (ناو) قسەیەک کە مەبەست لێی نییە بەشێک بێت لە بابەتی سەرەکیی گفتوھۆیەک""",
+٥. (ناو) قسەیەک کە مەبەست لێی نییە بەشێک بێت لە بابەتی سەرەکیی گفتوگۆیەک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

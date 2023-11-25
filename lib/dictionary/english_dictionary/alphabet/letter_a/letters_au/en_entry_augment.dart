@@ -6,97 +6,97 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "atlas" and provide three example sentences for each meaning. Use Merriam Webster style.
+// Define the word "augment" and provide three example sentences for each meaning. Use Merriam Webster style.
 
-// replace EnglishEntryatlas - replace speakAtlas
+// replace augment - replace EnglishEntryaugment
 
-// replace atlas - /ˈætləs/ - find WORD_WEB
+// replace speakAugment - /ɔːɡˈment/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryatlas extends StatelessWidget {
+class EnglishEntryaugment extends StatelessWidget {
   // blank divider
-  EnglishEntryatlas({super.key});
+  EnglishEntryaugment({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAtlas(String languageCode) async {
-    // DOPSUM: CHANGE speakAtlas
+  Future<void> speakAugment(String languageCode) async {
+    // DOPSUM: CHANGE speakAugment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("augment"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtlas839(String languageCode) async {
-    // DOPSUM: CHANGE speakAtlas
+  Future<void> speakAugment304(String languageCode) async {
+    // DOPSUM: CHANGE speakAugment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "For those of you who don't have an atlas to hand, Newcastle is a city in the northeaeast of England."); // DOPSUM: CHANGE TEXT
+        "He wrote magazine articles in order to augment his income."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  // Future<void> speakAugment(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAugment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("augment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  // Future<void> speakAugment(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAugment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("augment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  // Future<void> speakAugment(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAugment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("augment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  // Future<void> speakAugment(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAugment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("augment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  // Future<void> speakAugment(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAugment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("augment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  // Future<void> speakAugment(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAugment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("augment"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  // Future<void> speakAugment(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAugment
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("augment"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -115,7 +115,7 @@ class EnglishEntryatlas extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "atlas", // DOPSUM: CHANGE WORD ENTRY
+                                "augment", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -134,7 +134,7 @@ class EnglishEntryatlas extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˈætləs/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ɔːɡˈment/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -145,7 +145,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAtlas(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAugment(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -155,7 +155,7 @@ class EnglishEntryatlas extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˈætləs/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /ɔːɡˈment/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -165,7 +165,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAtlas(
+                              onPressed: () => speakAugment(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -185,13 +185,13 @@ class EnglishEntryatlas extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -215,7 +215,7 @@ class EnglishEntryatlas extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ناو) کتێبێک کە نەخشەی تێدایە""",
+١. (کردار) زیادکردنی بڕ، نرخ، یان قەبارەی شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -226,7 +226,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "For those of you who don't have an atlas to hand, Newcastle is a city in the northeaeast of England.",
+                                    "He wrote magazine articles in order to augment his income.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -241,7 +241,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ ئەو کەسانەی کە ئەتڵەسێکیان لەبەردەست نییە، نیوکاسڵ دەکەوێتە باکووری خۆرھەڵەتی ئینگلتەرە.",
+                                    "وتاری بۆ گۆڤار دەنووسی بۆ زیادکردنی داھاتی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -254,7 +254,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAtlas839("en-GB"),
+                                onPressed: () => speakAugment304("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -262,8 +262,9 @@ class EnglishEntryatlas extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAtlas839(// REPLACE: atlas
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAugment304(// REPLACE: augment
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -281,9 +282,9 @@ class EnglishEntryatlas extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -313,17 +314,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: atlas (derived forms: atlases)
-1. A collection of maps in book form (= book of maps, map collection)
+- Verb: augment (derived forms: augmented, augmenting, augments)
+1. Enlarge or increase
+"The recent speech of the president augmented tensions in the Near East"
  
-2. The 1st cervical vertebra (= atlas vertebra)
+2. Grow or intensify
+"The pressure augmented"
  
-3. A figure of a man used as a supporting column (= telamon)
- 
-4. A bound collection of tables, illustrations, etc. on any subject
-
-- Noun: Atlas
-1. (Greek mythology) a Titan who was forced by Zeus to bear the sky on his shoulders
+3. (music) increase an interval by a semitone
 """),
         ],
       ),
@@ -334,12 +332,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "TVKNpjnqeg0";
+  static String myVideoId = "BagY2Mnz-TU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 809, // DOPSUM: CHANGE IT
+      startAt: 192, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -359,12 +357,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "Pon4Zux5MaQ";
+  static String myVideoId = "ithpKqYOvd0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 686, // DOPSUM: CHANGE IT
+      startAt: 230, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -384,12 +382,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "53RbxAjUngQ";
+  static String myVideoId = "uR3GCIjqIFs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 528, // DOPSUM: CHANGE IT
+      startAt: 193, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -409,12 +407,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "L6ON7VzYlLY";
+  static String myVideoId = "Upqp21Dm5vg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 898, // DOPSUM: CHANGE IT
+      startAt: 561, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -434,12 +432,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "rcP7ZvzyZwM";
+  static String myVideoId = "DqHctQwqgQ0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 982, // DOPSUM: CHANGE IT
+      startAt: 136, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -459,12 +457,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "ah9i3R9pRpg";
+  static String myVideoId = "AjpZEzP-I2Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 339, // DOPSUM: CHANGE IT
+      startAt: 476, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -484,12 +482,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "VGosZWBTF7A";
+  static String myVideoId = "hFL6qRIJZ_Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 732, // DOPSUM: CHANGE IT
+      startAt: 6646, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -509,12 +507,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "iXexmZm3_j8";
+  static String myVideoId = "l9YxTXDiiFY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 277, // DOPSUM: CHANGE IT
+      startAt: 989, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -534,12 +532,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "XLlHeud8ocQ";
+  static String myVideoId = "Ldh6FKavxek";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 960, // DOPSUM: CHANGE IT
+      startAt: 48, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -559,12 +557,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "PPpUxoeooZk";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 552, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -584,12 +582,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "lrS0rxX-UhA";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 365, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -609,12 +607,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "Jdy09y0A4t0";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 82, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -694,4 +692,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end // TODO Implement this library.
+// end augment // TODO Implement this library.

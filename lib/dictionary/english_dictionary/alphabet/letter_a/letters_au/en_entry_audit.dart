@@ -6,97 +6,100 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "atlas" and provide three example sentences for each meaning. Use Merriam Webster style.
+// Define the word "audit" and provide three example sentences for each meaning. Use Merriam Webster style.
 
-// replace EnglishEntryatlas - replace speakAtlas
+// replace audit - replace EnglishEntryaudit
 
-// replace atlas - /ˈætləs/ - find WORD_WEB
+// replace speakAudit - /ˈɔːdɪt/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryatlas extends StatelessWidget {
+class EnglishEntryaudit extends StatelessWidget {
   // blank divider
-  EnglishEntryatlas({super.key});
+  EnglishEntryaudit({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAtlas(String languageCode) async {
-    // DOPSUM: CHANGE speakAtlas
+  Future<void> speakAudit(String languageCode) async {
+    // DOPSUM: CHANGE speakAudit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("audit"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtlas839(String languageCode) async {
-    // DOPSUM: CHANGE speakAtlas
+  Future<void> speakAudit201(String languageCode) async {
+    // DOPSUM: CHANGE speakAudit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "For those of you who don't have an atlas to hand, Newcastle is a city in the northeaeast of England."); // DOPSUM: CHANGE TEXT
+        "The company has an audit at the end of each year."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  Future<void> speakAudit205(String languageCode) async {
+    // DOPSUM: CHANGE speakAudit
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Managers should undertake an audit of staff performance."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAudit208(String languageCode) async {
+    // DOPSUM: CHANGE speakAudit
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("We have just had our accounts audited."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAudit211(String languageCode) async {
+    // DOPSUM: CHANGE speakAudit
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She audited classes at the University of California."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAudit(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAudit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("audit"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  // Future<void> speakAudit(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAudit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("audit"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  // Future<void> speakAudit(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAudit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("audit"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  // Future<void> speakAudit(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAudit
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("audit"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -115,7 +118,7 @@ class EnglishEntryatlas extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "atlas", // DOPSUM: CHANGE WORD ENTRY
+                                "audit", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -134,7 +137,7 @@ class EnglishEntryatlas extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˈætləs/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈɔːdɪt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -145,7 +148,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAtlas(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAudit(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -155,7 +158,7 @@ class EnglishEntryatlas extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˈætləs/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /ˈɔːdɪt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -165,7 +168,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAtlas(
+                              onPressed: () => speakAudit(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -185,13 +188,13 @@ class EnglishEntryatlas extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -215,7 +218,9 @@ class EnglishEntryatlas extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ناو) کتێبێک کە نەخشەی تێدایە""",
+کوردی: تێ‌ڕوانین، پێ‌ڕاگەیشتن، پشکنینی حیسابەکان
+
+١. (ناو) لێکۆڵینەوەی وردی تۆمارەکانی کۆمپانیایەک بۆ زانینی ڕاستییان""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -226,7 +231,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "For those of you who don't have an atlas to hand, Newcastle is a city in the northeaeast of England.",
+                                    "The company has an audit at the end of each year.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -241,7 +246,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ ئەو کەسانەی کە ئەتڵەسێکیان لەبەردەست نییە، نیوکاسڵ دەکەوێتە باکووری خۆرھەڵەتی ئینگلتەرە.",
+                                    "کۆمپانیاکە پێداچوونەوەیەک دەکات لە کۆتایی ھەر ساڵێک.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -254,7 +259,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAtlas839("en-GB"),
+                                onPressed: () => speakAudit201("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -262,7 +267,178 @@ class EnglishEntryatlas extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAtlas839(// REPLACE: atlas
+                                onPressed: () => speakAudit201(// REPLACE: audit
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٢. (ناو) لێکۆڵینەوەی ورد بۆ دڵنیایی لە کوالێتی شتێک""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Managers should undertake an audit of staff performance.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "سەرپەرشتیاران دەبێت پێداچوونەوەیەک بە توانای ستافدا بکەن.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAudit205("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAudit205(// REPLACE: audit
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٣. (کردار) پێداچوونەوە لە تۆماری ئابووری کۆمپانیایەک""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "We have just had our accounts audited.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "تۆمارەکانمان تازەگی پێداچوونەوەیان بۆ کرا.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAudit208("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAudit208(// REPLACE: audit
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٤. (کردار) بەژداریکردن لە کۆرسەکانی کۆلێژێک یان زانکۆیەک بەبێ وەرگرتنی بڕوانامە یان ئەنجامدانی تاقیکردنەوە""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "She audited classes at the University of California.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "دەچووە وانەکان لە زانکۆی کالیفۆرنیا.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAudit211("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAudit211(// REPLACE: audit
                                     "en-US"),
                               ),
                             ],
@@ -282,8 +458,8 @@ class EnglishEntryatlas extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -313,17 +489,17 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: atlas (derived forms: atlases)
-1. A collection of maps in book form (= book of maps, map collection)
+- Noun: audit (derived forms: audits)
+1. An inspection of the accounting procedures and records by a trained accountant or CPA (= audited account)
  
-2. The 1st cervical vertebra (= atlas vertebra)
- 
-3. A figure of a man used as a supporting column (= telamon)
- 
-4. A bound collection of tables, illustrations, etc. on any subject
+2. A methodical examination or review of a condition or situation
+"he made an audit of all the plants on his property"; "an energy efficiency audit"; "an email log audit"
 
-- Noun: Atlas
-1. (Greek mythology) a Titan who was forced by Zeus to bear the sky on his shoulders
+- Verb: audit (derived forms: audits, audited, auditing)
+1. Examine carefully for accuracy with the intent of verification (= scrutinize, scrutinise [Brit], inspect)
+"audit accounts and tax returns";
+ 
+2. Attend academic courses without getting credit
 """),
         ],
       ),
@@ -334,12 +510,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "TVKNpjnqeg0";
+  static String myVideoId = "qO--hy6Q-LA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 809, // DOPSUM: CHANGE IT
+      startAt: 181, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -359,12 +535,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "Pon4Zux5MaQ";
+  static String myVideoId = "o1RS7D_szJo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 686, // DOPSUM: CHANGE IT
+      startAt: 607, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -384,12 +560,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "53RbxAjUngQ";
+  static String myVideoId = "-YR2TxHkb4c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 528, // DOPSUM: CHANGE IT
+      startAt: 141, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -409,12 +585,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "L6ON7VzYlLY";
+  static String myVideoId = "j4jAQCVSUGc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 898, // DOPSUM: CHANGE IT
+      startAt: 111, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -434,12 +610,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "rcP7ZvzyZwM";
+  static String myVideoId = "hcfSilKaIPs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 982, // DOPSUM: CHANGE IT
+      startAt: 879, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -459,12 +635,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "ah9i3R9pRpg";
+  static String myVideoId = "L_Guz73e6fw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 339, // DOPSUM: CHANGE IT
+      startAt: 7649, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -484,12 +660,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "VGosZWBTF7A";
+  static String myVideoId = "dkVPX5VnUCc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 732, // DOPSUM: CHANGE IT
+      startAt: 7677, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -509,12 +685,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "iXexmZm3_j8";
+  static String myVideoId = "KSXKzPOcYDU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 277, // DOPSUM: CHANGE IT
+      startAt: 2515, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -534,12 +710,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "XLlHeud8ocQ";
+  static String myVideoId = "_jxhZIZIINg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 960, // DOPSUM: CHANGE IT
+      startAt: 131, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -559,12 +735,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "PPpUxoeooZk";
+  static String myVideoId = "F9sH-3AoF88";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 552, // DOPSUM: CHANGE IT
+      startAt: 920, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -584,12 +760,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "lrS0rxX-UhA";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 365, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -609,12 +785,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "Jdy09y0A4t0";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 82, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -694,4 +870,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end // TODO Implement this library.
+// end audit // TODO Implement this library.

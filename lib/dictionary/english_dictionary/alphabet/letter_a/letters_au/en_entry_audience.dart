@@ -6,91 +6,94 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "atlas" and provide three example sentences for each meaning. Use Merriam Webster style.
+// Define the word "audience" and provide three example sentences for each meaning. Use Merriam Webster style.
 
-// replace EnglishEntryatlas - replace speakAtlas
+// replace audience - replace EnglishEntryaudience
 
-// replace atlas - /ˈætləs/ - find WORD_WEB
+// replace speakAudience - /ˈɔːdiəns/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryatlas extends StatelessWidget {
+class EnglishEntryaudience extends StatelessWidget {
   // blank divider
-  EnglishEntryatlas({super.key});
+  EnglishEntryaudience({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAtlas(String languageCode) async {
-    // DOPSUM: CHANGE speakAtlas
+  Future<void> speakAudience(String languageCode) async {
+    // DOPSUM: CHANGE speakAudience
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("audience"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAtlas839(String languageCode) async {
-    // DOPSUM: CHANGE speakAtlas
+  Future<void> speakAudience117(String languageCode) async {
+    // DOPSUM: CHANGE speakAudience
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "For those of you who don't have an atlas to hand, Newcastle is a city in the northeaeast of England."); // DOPSUM: CHANGE TEXT
+        "The audience was/were clapping for 10 minutes."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  Future<void> speakAudience118(String languageCode) async {
+    // DOPSUM: CHANGE speakAudience
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The museum is trying to attract a wider audience."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAudience121(String languageCode) async {
+    // DOPSUM: CHANGE speakAudience
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "His book reached an even wider audience when it was made into a movie."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAudience123(String languageCode) async {
+    // DOPSUM: CHANGE speakAudience
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She had a private audience with the king."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAudience(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAudience
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("audience"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  // Future<void> speakAudience(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAudience
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("audience"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  // Future<void> speakAudience(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAudience
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("audience"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
+  // Future<void> speakAudience(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAudience
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAtlas(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAtlas
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("atlas"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("audience"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -115,7 +118,7 @@ class EnglishEntryatlas extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "atlas", // DOPSUM: CHANGE WORD ENTRY
+                                "audience", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -134,7 +137,7 @@ class EnglishEntryatlas extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˈætləs/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈɔːdiəns/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -145,7 +148,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAtlas(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAudience(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -155,7 +158,7 @@ class EnglishEntryatlas extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˈætləs/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /ˈɔːdiəns/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -165,7 +168,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAtlas(
+                              onPressed: () => speakAudience(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -215,7 +218,9 @@ class EnglishEntryatlas extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ناو) کتێبێک کە نەخشەی تێدایە""",
+کوردی: ئامادەبووان، ھاتووان، کۆوەبووان، ئاپۆرە، جەماوەر، کۆبوونەوە، جڤین، گوێدەران، بیسەران، گوێگران، بینەران، خوێنەران، بیستن، گوێدان، گوێ‌گرتن، چاوپێ‌کەوتن، دیدەنی، یەکتربینین
+
+١. (ناو) ئامادەبووانی شانۆیەک، کۆنسێرتێک، وتارێک، ھتد""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -226,7 +231,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "For those of you who don't have an atlas to hand, Newcastle is a city in the northeaeast of England.",
+                                    "The audience was/were clapping for 10 minutes.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -241,7 +246,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ ئەو کەسانەی کە ئەتڵەسێکیان لەبەردەست نییە، نیوکاسڵ دەکەوێتە باکووری خۆرھەڵەتی ئینگلتەرە.",
+                                    "ئامادەبووان بۆ ماوەی ١٠ خولەک چەپڵەیان لێدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -254,7 +259,7 @@ class EnglishEntryatlas extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAtlas839("en-GB"),
+                                onPressed: () => speakAudience117("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -262,8 +267,175 @@ class EnglishEntryatlas extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAtlas839(// REPLACE: atlas
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAudience117(// REPLACE: audience
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The museum is trying to attract a wider audience.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "مۆزەخانەکە ھەوڵ دەدات سەردانیکاری زیاتر ڕابکێشێت.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAudience118("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAudience118(// REPLACE: audience
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٢. (ناو) ئەو کەسانەی کە گوێگر، بینەر، یان خوێنەری ھەمان شتن""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "His book reached an even wider audience when it was made into a movie.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "کتێبەکەی گەشت بە ھەواداری زیاتر کە کرا بە فیلم.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAudience121("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAudience121(// REPLACE: audience
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٣. (ناو) کۆبوونەوە لەگەڵ کەسێکی گرنگ""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "She had a private audience with the king.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "کۆبوونەوەیەکی تایبەتی ھەبوو لەگەڵ پاشا.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAudience123("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAudience123(// REPLACE: audience
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -313,17 +485,18 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: atlas (derived forms: atlases)
-1. A collection of maps in book form (= book of maps, map collection)
+- Noun: audience (derived forms: audiences)
+1. A gathering of spectators or listeners at a (usually public) performance
+"the audience applauded"; "someone in the audience began to cough"
  
-2. The 1st cervical vertebra (= atlas vertebra)
+2. The part of the general public interested in a source of information, entertainment, or a product/service
+"every artist needs an audience"; "the broadcast reached an audience of millions"
  
-3. A figure of a man used as a supporting column (= telamon)
+3. An opportunity to state your case and be heard (= hearing)
+"he saw that he had lost his audience";
  
-4. A bound collection of tables, illustrations, etc. on any subject
-
-- Noun: Atlas
-1. (Greek mythology) a Titan who was forced by Zeus to bear the sky on his shoulders
+4. A conference (usually with someone important) (= consultation, interview)
+"he requested an audience with the king";
 """),
         ],
       ),
@@ -334,12 +507,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "TVKNpjnqeg0";
+  static String myVideoId = "4VSx2E7WE50";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 809, // DOPSUM: CHANGE IT
+      startAt: 69, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -359,12 +532,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "Pon4Zux5MaQ";
+  static String myVideoId = "HDntl7yzzVI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 686, // DOPSUM: CHANGE IT
+      startAt: 462, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -384,12 +557,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "53RbxAjUngQ";
+  static String myVideoId = "JqDf1X2eIbE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 528, // DOPSUM: CHANGE IT
+      startAt: 467, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -409,12 +582,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "L6ON7VzYlLY";
+  static String myVideoId = "rOqUiXhECos";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 898, // DOPSUM: CHANGE IT
+      startAt: 211, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -434,12 +607,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "rcP7ZvzyZwM";
+  static String myVideoId = "GYMF5mhuBUE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 982, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -459,12 +632,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "ah9i3R9pRpg";
+  static String myVideoId = "GjMmsEwIcl0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 339, // DOPSUM: CHANGE IT
+      startAt: 212, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -484,12 +657,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "VGosZWBTF7A";
+  static String myVideoId = "z7JU0BoX0nQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 732, // DOPSUM: CHANGE IT
+      startAt: 55, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -509,12 +682,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "iXexmZm3_j8";
+  static String myVideoId = "HZb-nym3HhA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 277, // DOPSUM: CHANGE IT
+      startAt: 266, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -534,12 +707,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "XLlHeud8ocQ";
+  static String myVideoId = "q4_a7bZ_G7s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 960, // DOPSUM: CHANGE IT
+      startAt: 505, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -559,12 +732,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "PPpUxoeooZk";
+  static String myVideoId = "S-4rhjO6xYg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 552, // DOPSUM: CHANGE IT
+      startAt: 219, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -584,12 +757,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "lrS0rxX-UhA";
+  static String myVideoId = "_LUX70mXcEE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 365, // DOPSUM: CHANGE IT
+      startAt: 53, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -609,12 +782,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "Jdy09y0A4t0";
+  static String myVideoId = "CK78QUMcZL8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 82, // DOPSUM: CHANGE IT
+      startAt: 90, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -694,4 +867,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end // TODO Implement this library.
+// end audience // TODO Implement this library.

@@ -6,92 +6,96 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "ass" and provide three example sentences for each meaning. Use Merriam Webster style.
+// Define the word "attraction" and provide three example sentences for each meaning. Use Merriam Webster style.
 
-// replace EnglishEntryass - replace speakAss
+// replace attraction - replace EnglishEntryattraction
 
-// replace ass - /æs/ - find WORD_WEB
+// replace speakAttraction - /əˈtrækʃn/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryass extends StatelessWidget {
+class EnglishEntryattraction extends StatelessWidget {
   // blank divider
-  EnglishEntryass({super.key});
+  EnglishEntryattraction({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAss(String languageCode) async {
-    // DOPSUM: CHANGE speakAss
+  Future<void> speakAttraction(String languageCode) async {
+    // DOPSUM: CHANGE speakAttraction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("ass"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("attraction"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAss834(String languageCode) async {
-    // DOPSUM: CHANGE speakAss
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was wearing tight jeans that showed off her ass."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAss837(String languageCode) async {
-    // DOPSUM: CHANGE speakAss
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Don't be such an ass!"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAss842(String languageCode) async {
-    // DOPSUM: CHANGE speakAss
+  Future<void> speakAttraction1023(String languageCode) async {
+    // DOPSUM: CHANGE speakAttraction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The farmer loaded the hay onto the ass's back."); // DOPSUM: CHANGE TEXT
+        "Buckingham Palace is a major tourist attraction."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAss(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAss
+  Future<void> speakAttraction1024(String languageCode) async {
+    // DOPSUM: CHANGE speakAttraction
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She felt an immediate attraction for him."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAttraction1026(String languageCode) async {
+    // DOPSUM: CHANGE speakAttraction
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Sexual attraction is a large part of falling in love."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAttraction1028(String languageCode) async {
+    // DOPSUM: CHANGE speakAttraction
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "City life holds little attraction for me."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAttraction1030(String languageCode) async {
+    // DOPSUM: CHANGE speakAttraction
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The main attraction of the place is the nightlife."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAttraction1034(String languageCode) async {
+    // DOPSUM: CHANGE speakAttraction
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The gravitational attraction between the Earth and the Moon keeps the Moon in orbit."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAttraction(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAttraction
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ass"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attraction"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAss(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAss
+  // Future<void> speakAttraction(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAttraction
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ass"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAss(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAss
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ass"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAss(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAss
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ass"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAss(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAss
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("ass"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("attraction"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
@@ -116,7 +120,7 @@ class EnglishEntryass extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "ass", // DOPSUM: CHANGE WORD ENTRY - Find /æs/
+                                "attraction", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -135,7 +139,7 @@ class EnglishEntryass extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /æs/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əˈtrækʃn/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -145,9 +149,9 @@ class EnglishEntryass extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAss(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAttraction(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -156,7 +160,7 @@ class EnglishEntryass extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /æs/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                "IpaUS: /əˈtrækʃn/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -166,7 +170,7 @@ class EnglishEntryass extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAss(
+                              onPressed: () => speakAttraction(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -186,7 +190,7 @@ class EnglishEntryass extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14,
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
@@ -216,9 +220,9 @@ class EnglishEntryass extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: کەر، گوێ‌درێژ، مرۆی گەوج و کەر، ناحاڵی، گەمژە، نەزان، ئەحۆل، گایین، تێکەڵ‌بوونی سێکسی، نیاندن، نزیکی، کنگ، قوون
+کوردی: (فیزیک) ڕاکێشان، کێش، کێشان، ڕاکێش‌کردن، سەرنج‌ڕاکێشی، باڵکێشی، دڵبەستەیی، دڵتێچوون، سەوداسەری، دڵڕفێنی
 
-١. (ناو) سمت؛ ئەو بەشەی جەستە کە لەسەریان دادەنیشیت""",
+١. (ناو) شوێنێکی خۆش و سەرنجڕاکێش""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -229,7 +233,7 @@ class EnglishEntryass extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "She was wearing tight jeans that showed off her ass.",
+                                    "Buckingham Palace is a major tourist attraction.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -244,7 +248,7 @@ class EnglishEntryass extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پانتۆڵی تەسکی لەپێ‌کردبوو کە سمتی دەرخستبوو.",
+                                    "بەکینگھام پاڵاس شوێنێکی گەشتیاری سەرنجڕاکێشە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -257,7 +261,7 @@ class EnglishEntryass extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAss834("en-GB"),
+                                onPressed: () => speakAttraction1023("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -266,7 +270,7 @@ class EnglishEntryass extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAss834(// REPLACE: arse /ɑːrs/
+                                    speakAttraction1023(// REPLACE: attraction
                                         "en-US"),
                               ),
                             ],
@@ -276,7 +280,7 @@ class EnglishEntryass extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) کەسێکی گەمژە""",
+٢. (ناو) حەزکردن لە کەسێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -287,7 +291,7 @@ class EnglishEntryass extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "Don't be such an ass!",
+                                    "She felt an immediate attraction for him.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -302,7 +306,7 @@ class EnglishEntryass extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھێندە گەمژە مەبە!",
+                                    "ھەستی بە دڵبەستەییەکی دەستبەجێ کرد بۆی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -315,7 +319,7 @@ class EnglishEntryass extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAss837("en-GB"),
+                                onPressed: () => speakAttraction1024("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -324,7 +328,57 @@ class EnglishEntryass extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAss837(// REPLACE: arse /ɑːrs/
+                                    speakAttraction1024(// REPLACE: attraction
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Sexual attraction is a large part of falling in love.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "حەزی سێکسی یەکێکە لە لایەنە گەورەکانی کەوتنە خۆشەویستی.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAttraction1026("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAttraction1026(// REPLACE: attraction
                                         "en-US"),
                               ),
                             ],
@@ -334,7 +388,7 @@ class EnglishEntryass extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ناو) گوێدرێژ""",
+٣. (ناو) تایبەتمەندییەک یان خاسیەتێک کە شتێک ھەیەتی و سەرنجڕاکێشی دەکات""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -345,7 +399,7 @@ class EnglishEntryass extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The farmer loaded the hay onto the ass's back.",
+                                    "City life holds little attraction for me.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -360,7 +414,7 @@ class EnglishEntryass extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جوتیارەکە پەڵاشەکەی بارکردە سەر پشتی گوێدرێژەکە.",
+                                    "ژیانی شار باڵکێش نییە لام.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -373,7 +427,7 @@ class EnglishEntryass extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAss842("en-GB"),
+                                onPressed: () => speakAttraction1028("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -382,7 +436,115 @@ class EnglishEntryass extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAss842(// REPLACE: arse /ɑːrs/
+                                    speakAttraction1028(// REPLACE: attraction
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The main attraction of the place is the nightlife.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "خاسیەتی دڵڕفێنی شوێنەکە ژیانی شەوانیەتی.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAttraction1030("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAttraction1030(// REPLACE: attraction
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٤. (ناو) ھێزێک کە شتەکان بەرەو یەکتر ڕادەکێشێت""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The gravitational attraction between the Earth and the Moon keeps the Moon in orbit.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ھێزی کێشکردنی نێوان زەوی و مانگ وادەکات مانگ لە خولگەی خۆیدا بمێنێتەوە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAttraction1034("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAttraction1034(// REPLACE: attraction
                                         "en-US"),
                               ),
                             ],
@@ -433,17 +595,19 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: ass (= derived forms: asses)
-1. Hardy and sure-footed animal smaller and with longer ears than the horse
+- Noun: attraction (derived forms: attractions)
+1. The force by which one object attracts another (= attractive force)
  
-2. Domestic beast of burden descended from the African wild ass; patient but stubborn (= domestic ass, donkey, Equus asinus, moke [Brit, informal])
+2. An entertainment that is offered to the public
  
-3. [N. Amer, vulgar] The fleshy part of the human body that you sit on (= buttocks, nates [technical], butt [N. Amer, informal], backside, bum [Brit, informal], buns [N. Amer, informal], can [N. Amer, informal], fundament, hindquarters, hind end, posterior, rear [informal], rear end [informal], rump, stern [informal], seat, tail [N. Amer, informal], tail end, tooshie [informal], tush [N. Amer, informal], bottom, behind, derriere, bahookie [UK, dialect, informal], botty [informal], heinie [US, informal], duff [N. Amer, informal], booty [N. Amer, informal], patootie [US, informal], tushy [N. Amer, informal], derrière)
-"he deserves a good kick in the ass";
+3. The quality of arousing interest; being attractive or something that attracts (= attractiveness)
+"her personality held a strange attraction for him";
  
-4. [informal] A pompous fool
+4. A characteristic that provides pleasure and attracts (= attractor, attracter, attractive feature, magnet)
+"flowers are an attraction for bees";
  
-5. [US, vulgar] Slang for sexual intercourse (= rumpy-pumpy [informal])
+5. An entertainer who attracts large audiences (= drawing card, draw, attractor, attracter)
+"he was the biggest attraction they had";
 """),
         ],
       ),
@@ -454,12 +618,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "21Z4RIOFhMA";
+  static String myVideoId = "oD9BaNAH-eE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 630, // DOPSUM: CHANGE IT
+      startAt: 1740, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -479,12 +643,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "hS2x1zl4rn0";
+  static String myVideoId = "W8uXhQnWgj4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 726, // DOPSUM: CHANGE IT
+      startAt: 871, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -504,12 +668,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "_spuxXnul0U";
+  static String myVideoId = "fn--IVarumw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 813, // DOPSUM: CHANGE IT
+      startAt: 1386, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -529,12 +693,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "DwsZggwPRKc";
+  static String myVideoId = "hapSlAP2xrc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 230, // DOPSUM: CHANGE IT
+      startAt: 373, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -554,12 +718,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "QaZ93sibpk0";
+  static String myVideoId = "9yjZpBq1XBE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 425, // DOPSUM: CHANGE IT
+      startAt: 273, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -579,12 +743,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "Cxqca4RQd_M";
+  static String myVideoId = "TJvHHgGerJg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 190, // DOPSUM: CHANGE IT
+      startAt: 847, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -604,12 +768,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "qxVWpWNPEWU";
+  static String myVideoId = "Am1lDj2mUVY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 215, // DOPSUM: CHANGE IT
+      startAt: 1346, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -629,12 +793,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "y1sF6ZeASU0";
+  static String myVideoId = "tJuYL3nPINM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1087, // DOPSUM: CHANGE IT
+      startAt: 1073, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -654,12 +818,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "fbVRnlR_6BM";
+  static String myVideoId = "BuX6-lvUwd0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 165, // DOPSUM: CHANGE IT
+      startAt: 84, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -679,12 +843,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "gim2kprjL50";
+  static String myVideoId = "6ta_sftSfIw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 66, // DOPSUM: CHANGE IT
+      startAt: 723, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -704,12 +868,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "HUsIcK1a4B0";
+  static String myVideoId = "f5jwTft6654";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 339, // DOPSUM: CHANGE IT
+      startAt: 177, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -729,12 +893,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "KtJJuf7VyMQ";
+  static String myVideoId = "6DYgImG1CKo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 87, // DOPSUM: CHANGE IT
+      startAt: 293, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,

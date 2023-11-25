@@ -1158,37 +1158,36 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "augur",
     "august",
     "August",
-    // "aunt",
-    // "auntie",
-    // "aunty",
-    // "au pair",
-    // "aura",
-    // "aural",
-    // "auspicious",
-    // "auspiciously",
-    // "austere",
-    // "austerely",
-    // "austerity",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "aunt",
+    "auntie",
+    "aunty",
+    "au pair",
+    "aura",
+    "aural",
+    "auspicious",
+    "auspiciously",
+    "austere",
+    "austerely",
+    "austerity",
+    "authentic",
+    "authentically",
+    "authenticate",
+    "authentication",
+    "authenticity",
+    "author",
+    "authoritative",
+    "authoritatively",
+    "authorship",
+    "authority",
+    "authorization",
+    "authorize",
+    "autobiographical",
+    "autobiography",
+    "autocrat",
+    "autocratic",
+    "autograph",
+    "automate",
+    "automatic",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -5997,126 +5996,126 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-august-two");
                   }
-                  // if (wordsEnglish == "aunt") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-aunt");
-                  // }
-                  // if (wordsEnglish == "auntie") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-aunt");
-                  // }
-                  // if (wordsEnglish == "aunty") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-aunt");
-                  // }
-                  // if (wordsEnglish == "au pair") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-au-pair");
-                  // }
-                  // if (wordsEnglish == "aura") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-aura");
-                  // }
-                  // if (wordsEnglish == "aural") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-aural");
-                  // }
-                  // if (wordsEnglish == "auspicious") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-auspicious");
-                  // }
-                  // if (wordsEnglish == "auspiciously") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-auspiciously");
-                  // }
-                  // if (wordsEnglish == "austere") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-austere");
-                  // }
-                  // if (wordsEnglish == "austerely") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-austerely");
-                  // }
-                  // if (wordsEnglish == "austerity") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-austerity");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "aunt") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aunt");
+                  }
+                  if (wordsEnglish == "auntie") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aunt");
+                  }
+                  if (wordsEnglish == "aunty") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aunt");
+                  }
+                  if (wordsEnglish == "au pair") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-au-pair");
+                  }
+                  if (wordsEnglish == "aura") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aura");
+                  }
+                  if (wordsEnglish == "aural") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-aural");
+                  }
+                  if (wordsEnglish == "auspicious") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-auspicious");
+                  }
+                  if (wordsEnglish == "auspiciously") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-auspiciously");
+                  }
+                  if (wordsEnglish == "austere") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-austere");
+                  }
+                  if (wordsEnglish == "austerely") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-austerely");
+                  }
+                  if (wordsEnglish == "austerity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-austerity");
+                  }
+                  if (wordsEnglish == "authentic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-authentic");
+                  }
+                  if (wordsEnglish == "authentically") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-authentically");
+                  }
+                  if (wordsEnglish == "authenticate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-authenticate");
+                  }
+                  if (wordsEnglish == "authentication") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-authentication");
+                  }
+                  if (wordsEnglish == "authenticity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-authenticity");
+                  }
+                  if (wordsEnglish == "author") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-author");
+                  }
+                  if (wordsEnglish == "authorship") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-authorship");
+                  }
+                  if (wordsEnglish == "authoritative") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-authoritative");
+                  }
+                  if (wordsEnglish == "authoritatively") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-authoritatively");
+                  }
+                  if (wordsEnglish == "authority") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-authority");
+                  }
+                  if (wordsEnglish == "authorize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-authorize");
+                  }
+                  if (wordsEnglish == "authorization") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-authorization");
+                  }
+                  if (wordsEnglish == "autobiography") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-autobiography");
+                  }
+                  if (wordsEnglish == "autobiographical") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-autobiographical");
+                  }
+                  if (wordsEnglish == "autocrat") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-autocrat");
+                  }
+                  if (wordsEnglish == "autocratic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-autocratic");
+                  }
+                  if (wordsEnglish == "autograph") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-autograph");
+                  }
+                  if (wordsEnglish == "automate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-automate");
+                  }
+                  if (wordsEnglish == "automatic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-automatic");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

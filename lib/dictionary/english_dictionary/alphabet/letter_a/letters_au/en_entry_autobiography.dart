@@ -6,97 +6,97 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "auspiciously" and provide three example sentences for each meaning. Use Merriam Webster style.
+// Define the word "autobiography" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
 
-// replace auspiciously - replace EnglishEntryauspiciously
+// replace autobiography - replace EnglishEntryautobiography
 
-// replace speakAuspiciously - /ɔːˈspɪʃəsli/ - find WORD_WEB
+// replace speakAutobiography - /ˌɔːtəbaɪˈɒɡrəfi/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryauspiciously extends StatelessWidget {
+class EnglishEntryautobiography extends StatelessWidget {
   // blank divider
-  EnglishEntryauspiciously({super.key});
+  EnglishEntryautobiography({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAuspiciously(String languageCode) async {
-    // DOPSUM: CHANGE speakAuspiciously
+  Future<void> speakAutobiography(String languageCode) async {
+    // DOPSUM: CHANGE speakAutobiography
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("autobiography"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuspiciously446(String languageCode) async {
-    // DOPSUM: CHANGE speakAuspiciously
+  Future<void> speakAutobiography901(String languageCode) async {
+    // DOPSUM: CHANGE speakAutobiography
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The day did not begin auspiciously."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "In his autobiography, he recalls the poverty he grew up in."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
+  // Future<void> speakAutobiography(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAutobiography
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("autobiography"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
+  // Future<void> speakAutobiography(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAutobiography
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("autobiography"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
+  // Future<void> speakAutobiography(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAutobiography
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("autobiography"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
+  // Future<void> speakAutobiography(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAutobiography
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("autobiography"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
+  // Future<void> speakAutobiography(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAutobiography
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("autobiography"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
+  // Future<void> speakAutobiography(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAutobiography
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("autobiography"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
+  // Future<void> speakAutobiography(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAutobiography
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("autobiography"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 8, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 9, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -115,7 +115,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "auspiciously", // DOPSUM: CHANGE WORD ENTRY
+                                "autobiography", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -134,7 +134,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ɔːˈspɪʃəsli/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˌɔːtəbaɪˈɒɡrəfi/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -144,7 +144,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAuspiciously(
+                              onPressed: () => speakAutobiography(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -155,7 +155,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ɔːˈspɪʃəsli/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /ˌɔːtəbaɪˈɑːɡrəfi/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -165,7 +165,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAuspiciously(
+                              onPressed: () => speakAutobiography(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -185,8 +185,8 @@ class EnglishEntryauspiciously extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 8
-                  // VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 9
+                  VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   // VideoIconForTab(), // 08
                   // VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
@@ -215,7 +215,9 @@ class EnglishEntryauspiciously extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ھاوەڵکار) بەشێوەیەک کە ئاماژە پیشان دەدات کە شتێک لە داهاتوودا سەرکەوتوو دەبێت""",
+کوردی: خۆژیان‌نامە، خۆژین‌نامە، سەربردەی خۆ
+
+١. (ناو) کتێبی ژیاننامەی کەسێک کە لەلایەن خۆیەوە نووسراوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -226,7 +228,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The day did not begin auspiciously.",
+                                    "In his autobiography, he recalls the poverty he grew up in.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -241,7 +243,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕۆژەکە بە ئاماژەیەکی باشەوە دەستی‌پێنەکرد.",
+                                    "لە خۆژین‌نامەکەیدا ئەو ساتانەی هەژاریدا وەبیرێنێتەوە کە تێیدا گەورەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -254,7 +256,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAuspiciously446("en-GB"),
+                                onPressed: () => speakAutobiography901("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -262,8 +264,8 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAuspiciously446(
-                                    // REPLACE: auspiciously
+                                onPressed: () => speakAutobiography901(
+                                    // REPLACE: autobiography
                                     "en-US"),
                               ),
                             ],
@@ -279,7 +281,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    // YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
@@ -314,9 +316,8 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adverb: auspiciously 
-1. In an auspicious manner (= propitiously)
-"he started his new job auspiciously on his birthday";
+- Noun: autobiography (derived forms: autobiographies)
+1. A person's life history written by that person
 """),
         ],
       ),
@@ -327,12 +328,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "J-K5OjAkiEA";
+  static String myVideoId = "BuX6-lvUwd0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 85, // DOPSUM: CHANGE IT
+      startAt: 463, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -352,12 +353,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "5y7a1Eb6QR4";
+  static String myVideoId = "AwodL8z2EtE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 28, // DOPSUM: CHANGE IT
+      startAt: 2545, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -377,12 +378,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "WiLvYyYlQ3g";
+  static String myVideoId = "H5_HVUS1l0Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 287, // DOPSUM: CHANGE IT
+      startAt: 890, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -402,12 +403,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "t7H13oNA1hQ";
+  static String myVideoId = "K0j2dlBMzUs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 483, // DOPSUM: CHANGE IT
+      startAt: 896, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -427,12 +428,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "dWpxt6QQHFM";
+  static String myVideoId = "SsuWS6yE478";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 175, // DOPSUM: CHANGE IT
+      startAt: 365, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -452,12 +453,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "UMWdHLBB2ZU";
+  static String myVideoId = "WwhyZUlmaWA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 351, // DOPSUM: CHANGE IT
+      startAt: 125, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -477,12 +478,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "0H5QZvOqlJM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 1019, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -687,4 +688,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end auspiciously // TODO Implement this library.
+// end autobiography // TODO Implement this library.

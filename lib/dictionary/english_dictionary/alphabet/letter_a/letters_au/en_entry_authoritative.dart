@@ -6,97 +6,98 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "auspiciously" and provide three example sentences for each meaning. Use Merriam Webster style.
+// Define the word "authoritative" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
 
-// replace auspiciously - replace EnglishEntryauspiciously
+// replace authoritative - replace EnglishEntryauthoritative
 
-// replace speakAuspiciously - /ɔːˈspɪʃəsli/ - find WORD_WEB
+// replace speakAuthoritative - /ɔːˈθɒrətətɪv/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryauspiciously extends StatelessWidget {
+class EnglishEntryauthoritative extends StatelessWidget {
   // blank divider
-  EnglishEntryauspiciously({super.key});
+  EnglishEntryauthoritative({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAuspiciously(String languageCode) async {
-    // DOPSUM: CHANGE speakAuspiciously
+  Future<void> speakAuthoritative(String languageCode) async {
+    // DOPSUM: CHANGE speakAuthoritative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("authoritative"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuspiciously446(String languageCode) async {
-    // DOPSUM: CHANGE speakAuspiciously
+  Future<void> speakAuthoritative743(String languageCode) async {
+    // DOPSUM: CHANGE speakAuthoritative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The day did not begin auspiciously."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She has an authoritative manner that at times is almost arrogant."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
+  Future<void> speakAuthoritative745(String languageCode) async {
+    // DOPSUM: CHANGE speakAuthoritative
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Her opinion on the subject was considered authoritative."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAuthoritative(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAuthoritative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authoritative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
+  // Future<void> speakAuthoritative(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAuthoritative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authoritative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
+  // Future<void> speakAuthoritative(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAuthoritative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authoritative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
+  // Future<void> speakAuthoritative(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAuthoritative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authoritative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
+  // Future<void> speakAuthoritative(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAuthoritative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authoritative"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
+  // Future<void> speakAuthoritative(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAuthoritative
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authoritative"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 8, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 9, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -115,7 +116,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "auspiciously", // DOPSUM: CHANGE WORD ENTRY
+                                "authoritative", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -134,7 +135,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ɔːˈspɪʃəsli/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ɔːˈθɒrətətɪv/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -144,7 +145,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAuspiciously(
+                              onPressed: () => speakAuthoritative(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -155,7 +156,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ɔːˈspɪʃəsli/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /əˈθɔːrəteɪtɪv/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -165,7 +166,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAuspiciously(
+                              onPressed: () => speakAuthoritative(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -185,8 +186,8 @@ class EnglishEntryauspiciously extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 8
-                  // VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 9
+                  VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   // VideoIconForTab(), // 08
                   // VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
@@ -215,7 +216,9 @@ class EnglishEntryauspiciously extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ھاوەڵکار) بەشێوەیەک کە ئاماژە پیشان دەدات کە شتێک لە داهاتوودا سەرکەوتوو دەبێت""",
+کوردی: بەدەسەڵات، دەس‌ڕۆیشتوو، بەهێز، بەسام، دەستووردەرانە، زۆردارانە، دیکتاتۆڕی، فەرمی، جێی‌باوەڕ، باوەڕپێکراو، پشت‌پێبەستراو، لێ‌ڕابینراو
+
+١. (ھاوەڵناو) پیشاندانی ئەوەی چاوەڕێی گێڕایەڵی و ڕێز دەکەیت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -226,7 +229,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The day did not begin auspiciously.",
+                                    "She has an authoritative manner that at times is almost arrogant.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -241,7 +244,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕۆژەکە بە ئاماژەیەکی باشەوە دەستی‌پێنەکرد.",
+                                    "هەڵسوکەوتێکی زۆردارانەی هەیە کە هەندێک جار تا ڕادەیەکی زۆر لەخۆڕازییانەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -254,7 +257,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAuspiciously446("en-GB"),
+                                onPressed: () => speakAuthoritative743("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -262,8 +265,66 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAuspiciously446(
-                                    // REPLACE: auspiciously
+                                onPressed: () => speakAuthoritative743(
+                                    // REPLACE: authoritative
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٢. (ھاوەڵناو) جێگەی باوەڕ""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Her opinion on the subject was considered authoritative.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "بۆچوونی لەسەر بابەتەکە بە باوەڕپێکراو دەدەنرا.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAuthoritative745("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAuthoritative745(
+                                    // REPLACE: authoritative
                                     "en-US"),
                               ),
                             ],
@@ -279,7 +340,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    // YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedseven(),
                     // YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
@@ -314,9 +375,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adverb: auspiciously 
-1. In an auspicious manner (= propitiously)
-"he started his new job auspiciously on his birthday";
+- Adjective: authoritative 
+1. Having authority, ascendancy or influence (= important)
+"the captain's authoritative manner";
+ 
+2. Of recognized authority or excellence (= definitive)
+ 
+3. Sanctioned by established authority (= authorized, authorised [Brit])
+"an authoritative communiqué";
 """),
         ],
       ),
@@ -327,12 +393,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "J-K5OjAkiEA";
+  static String myVideoId = "02tRxM_1VsE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 85, // DOPSUM: CHANGE IT
+      startAt: 35, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -352,12 +418,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "5y7a1Eb6QR4";
+  static String myVideoId = "gqibxjObZ-I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 28, // DOPSUM: CHANGE IT
+      startAt: 573, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -377,12 +443,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "WiLvYyYlQ3g";
+  static String myVideoId = "UrkPC81_QfU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 287, // DOPSUM: CHANGE IT
+      startAt: 953, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -402,12 +468,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "t7H13oNA1hQ";
+  static String myVideoId = "8tT3FhOA4-g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 483, // DOPSUM: CHANGE IT
+      startAt: 556, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -427,12 +493,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "dWpxt6QQHFM";
+  static String myVideoId = "-YR2TxHkb4c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 175, // DOPSUM: CHANGE IT
+      startAt: 452, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -452,12 +518,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "UMWdHLBB2ZU";
+  static String myVideoId = "eh5gx9F0fac";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 351, // DOPSUM: CHANGE IT
+      startAt: 1687, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -477,12 +543,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "4cQPpf1dLk8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 710, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -687,4 +753,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end auspiciously // TODO Implement this library.
+// end authoritative // TODO Implement this library.

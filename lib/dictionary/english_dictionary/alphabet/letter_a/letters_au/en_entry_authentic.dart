@@ -6,97 +6,99 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "auspiciously" and provide three example sentences for each meaning. Use Merriam Webster style.
+// Define the word "authentic" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
 
-// replace auspiciously - replace EnglishEntryauspiciously
+// replace authentic - replace EnglishEntryauthentic
 
-// replace speakAuspiciously - /ɔːˈspɪʃəsli/ - find WORD_WEB
+// replace speakAuthentic - /ɔːˈθentɪk/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryauspiciously extends StatelessWidget {
+class EnglishEntryauthentic extends StatelessWidget {
   // blank divider
-  EnglishEntryauspiciously({super.key});
+  EnglishEntryauthentic({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAuspiciously(String languageCode) async {
-    // DOPSUM: CHANGE speakAuspiciously
+  Future<void> speakAuthentic(String languageCode) async {
+    // DOPSUM: CHANGE speakAuthentic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("authentic"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAuspiciously446(String languageCode) async {
-    // DOPSUM: CHANGE speakAuspiciously
+  Future<void> speakAuthentic602(String languageCode) async {
+    // DOPSUM: CHANGE speakAuthentic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The day did not begin auspiciously."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I don't know if the painting is authentic."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
+  Future<void> speakAuthentic610(String languageCode) async {
+    // DOPSUM: CHANGE speakAuthentic
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The historian's painstaking research resulted in an authentic understanding of the events leading up to the revolution."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAuthentic616(String languageCode) async {
+    // DOPSUM: CHANGE speakAuthentic
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The architect's design for the new building was an authentic reproduction of a 19th-century house."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAuthentic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAuthentic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authentic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
+  // Future<void> speakAuthentic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAuthentic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authentic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
+  // Future<void> speakAuthentic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAuthentic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authentic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
+  // Future<void> speakAuthentic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAuthentic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authentic"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
+  // Future<void> speakAuthentic(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAuthentic
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
-  // }
-
-  // Future<void> speakAuspiciously(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAuspiciously
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("auspiciously"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authentic"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 8, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -115,7 +117,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "auspiciously", // DOPSUM: CHANGE WORD ENTRY
+                                "authentic", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -134,7 +136,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ɔːˈspɪʃəsli/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ɔːˈθentɪk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -144,7 +146,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAuspiciously(
+                              onPressed: () => speakAuthentic(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -155,7 +157,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ɔːˈspɪʃəsli/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /ɔːˈθentɪk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -165,7 +167,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAuspiciously(
+                              onPressed: () => speakAuthentic(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -185,9 +187,9 @@ class EnglishEntryauspiciously extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 8
-                  // VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
-                  // VideoIconForTab(), // 08
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10
+                  VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
+                  VideoIconForTab(), // 08
                   // VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
@@ -215,7 +217,9 @@ class EnglishEntryauspiciously extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ھاوەڵکار) بەشێوەیەک کە ئاماژە پیشان دەدات کە شتێک لە داهاتوودا سەرکەوتوو دەبێت""",
+کوردی: ڕاست، دروست، ڕەسەن، عەسڵ، ڕاستەقینە، باوەڕپێکراو، باوەڕمەند، جێی‌باوەڕ، جێی‌متمانە
+
+١. (ھاوەڵناو) شتێک کە ڕاستە و ساختە نییە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -226,7 +230,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The day did not begin auspiciously.",
+                                    "I don't know if the painting is authentic.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -241,7 +245,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕۆژەکە بە ئاماژەیەکی باشەوە دەستی‌پێنەکرد.",
+                                    "زانیاریم نییە ئاخۆ کە تابلۆکە ڕەسەنە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -254,7 +258,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAuspiciously446("en-GB"),
+                                onPressed: () => speakAuthentic602("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -262,9 +266,125 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAuspiciously446(
-                                    // REPLACE: auspiciously
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAuthentic602(// REPLACE: authentic
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٢. (ھاوەڵناو) ڕاست و درووست""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The historian's painstaking research resulted in an authentic understanding of the events leading up to the revolution.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "توێژینەوەی شەکەتکەری مێژوونووسان ئەنجامەکەی تێگەشتنێکی درووست بوو بۆ ئەو ڕووداوانەی کە گەشتن بە شۆڕشەکە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAuthentic610("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAuthentic610(// REPLACE: authentic
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٣. (ھاوەڵناو) درووستکراو بۆ ئەوەی هاوشێوەی تەواوی یەکێکی تر بێت""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "The architect's design for the new building was an authentic reproduction of a 19th-century house.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "دیزاینی تەلارسازەکە بۆ بینا تازەکە کۆپپیەکی تەواوی خانوویەکی سەدەی ١٩ بوو.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAuthentic616("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAuthentic616(// REPLACE: authentic
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -279,8 +399,8 @@ class EnglishEntryauspiciously extends StatelessWidget {
                     YoutubeEmbeddedfour(),
                     YoutubeEmbeddedfive(),
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    // YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
+                    YoutubeEmbeddedseven(),
+                    YoutubeEmbeddedeight(),
                     // YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
@@ -314,9 +434,12 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adverb: auspiciously 
-1. In an auspicious manner (= propitiously)
-"he started his new job auspiciously on his birthday";
+- Adjective: authentic
+1. Conforming to fact and therefore worthy of belief (= reliable)
+"an authentic account by an eyewitness";
+ 
+2. Not counterfeit or copied (= bona fide, unquestionable, veritable)
+"an authentic signature";
 """),
         ],
       ),
@@ -327,12 +450,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "J-K5OjAkiEA";
+  static String myVideoId = "CZJvBfoHDk0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 85, // DOPSUM: CHANGE IT
+      startAt: 269, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -352,12 +475,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "5y7a1Eb6QR4";
+  static String myVideoId = "lex6USTugUU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 28, // DOPSUM: CHANGE IT
+      startAt: 224, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -377,12 +500,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "WiLvYyYlQ3g";
+  static String myVideoId = "poS7rZ7-_RU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 287, // DOPSUM: CHANGE IT
+      startAt: 202, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -402,12 +525,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "t7H13oNA1hQ";
+  static String myVideoId = "_45zjnjrFOA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 483, // DOPSUM: CHANGE IT
+      startAt: 609, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -427,12 +550,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "dWpxt6QQHFM";
+  static String myVideoId = "M6XiFKB7j0w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 175, // DOPSUM: CHANGE IT
+      startAt: 91, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -452,12 +575,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "UMWdHLBB2ZU";
+  static String myVideoId = "d4wn7ojGyx8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 351, // DOPSUM: CHANGE IT
+      startAt: 190, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -477,12 +600,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "ieamg11HI7c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 125, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -502,12 +625,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "yifZtA3uF-E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 440, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -687,4 +810,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end auspiciously // TODO Implement this library.
+// end authentic // TODO Implement this library.

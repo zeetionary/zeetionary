@@ -6,100 +6,143 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "austerity" and provide three example sentences for each meaning. Use Merriam Webster style.
+// Define the word "authority" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
 
-// replace austerity - replace EnglishEntryausterity
+// replace authority - replace EnglishEntryauthority
 
-// replace speakAusterity - /ɒˈsterəti/,  /ɔːˈsterəti/ - find WORD_WEB
+// replace speakAuthority - /ɔːˈθɒrəti/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryausterity extends StatelessWidget {
+class EnglishEntryauthority extends StatelessWidget {
   // blank divider
-  EnglishEntryausterity({super.key});
+  EnglishEntryauthority({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAusterity(String languageCode) async {
-    // DOPSUM: CHANGE speakAusterity
+  Future<void> speakAuthority(String languageCode) async {
+    // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("austerity"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("authority"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAusterity518(String languageCode) async {
-    // DOPSUM: CHANGE speakAusterity
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "War was followed by many years of austerity."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAusterity523(String languageCode) async {
-    // DOPSUM: CHANGE speakAusterity
+  Future<void> speakAuthority804(String languageCode) async {
+    // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The house was decorated in an austere style, with white walls and minimal furniture."); // DOPSUM: CHANGE TEXT
+        "She now has authority over the people who used to be her bosses."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAusterity524(String languageCode) async {
-    // DOPSUM: CHANGE speakAusterity
+  Future<void> speakAuthority805(String languageCode) async {
+    // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He was noted for his austerity and authoritarianism."); // DOPSUM: CHANGE TEXT
+        "Central government has extensive authority over teachers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAusterity527(String languageCode) async {
-    // DOPSUM: CHANGE speakAusterity
+  Future<void> speakAuthority808(String languageCode) async {
+    // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The monks lived a life of austerity, with few possessions and simple meals."); // DOPSUM: CHANGE TEXT
+        "Some experts think the agency may have exceeded its authority."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAusterity(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAusterity
+  Future<void> speakAuthority809(String languageCode) async {
+    // DOPSUM: CHANGE speakAuthority
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("He took the car without authority."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAuthority811(String languageCode) async {
+    // DOPSUM: CHANGE speakAuthority
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I have to report this to the authorities."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAuthority814(String languageCode) async {
+    // DOPSUM: CHANGE speakAuthority
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("He spoke with authority on the topic."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAuthority816(String languageCode) async {
+    // DOPSUM: CHANGE speakAuthority
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("She's an authority on criminal law."); // DOPSUM: CHANGE TEXT
+  }
+
+  // Future<void> speakAuthority(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAuthority
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("austerity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authority"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAusterity(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAusterity
+  // Future<void> speakAuthority(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAuthority
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("austerity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authority"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAusterity(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAusterity
+  // Future<void> speakAuthority(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAuthority
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("austerity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authority"); // DOPSUM: CHANGE TEXT
   // }
 
-  // Future<void> speakAusterity(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAusterity
+  // Future<void> speakAuthority(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAuthority
   //   await flutterTts.setLanguage(languageCode);
   //   await flutterTts.setPitch(1.0);
   //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("austerity"); // DOPSUM: CHANGE TEXT
+  //   await flutterTts.speak("authority"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAuthority(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAuthority
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("authority"); // DOPSUM: CHANGE TEXT
+  // }
+
+  // Future<void> speakAuthority(String languageCode) async {
+  //   // DOPSUM: CHANGE speakAuthority
+  //   await flutterTts.setLanguage(languageCode);
+  //   await flutterTts.setPitch(1.0);
+  //   await flutterTts.setSpeechRate(0.5);
+  //   await flutterTts.speak("authority"); // DOPSUM: CHANGE TEXT
   // }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 9, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -118,7 +161,7 @@ class EnglishEntryausterity extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "austerity", // DOPSUM: CHANGE WORD ENTRY
+                                "authority", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -137,7 +180,7 @@ class EnglishEntryausterity extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ɒˈsterəti/,  /ɔːˈsterəti/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ɔːˈθɒrəti/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -147,7 +190,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () => speakAusterity(
+                              onPressed: () => speakAuthority(
                                   // DOPSUM: CHANGE THE WORD ABOVE
                                   "en-GB"),
                             ),
@@ -158,7 +201,7 @@ class EnglishEntryausterity extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ɔːˈsterəti/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /əˈθɔːrəti/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -168,7 +211,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAusterity(
+                              onPressed: () => speakAuthority(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -188,10 +231,10 @@ class EnglishEntryausterity extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 9
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
-                  // VideoIconForTab(), // 08
-                  // VideoIconForTab(), // 09
+                  VideoIconForTab(), // 08
+                  VideoIconForTab(), // 09
                   // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
@@ -218,9 +261,9 @@ class EnglishEntryausterity extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: لەخواترسی، پارێزگاری، سەختی، دژواری، چەتوونی، سەخت‌گیری، توندگری، توندگرتن، ڕووگرژی، ڕووتاڵی، سادەیی، نەڕازاوی، بێ‌زێڕوزیوی
+کوردی: دەسەڵات، حوکم، ڕایە، هێز، توانایی، کەلێژ، دەس‌ڕۆیشتوویی، سەرپشکی، ڕێدان، ڕێ‌پێدان، دەستووردان، ماف، دەستوورنامە، خاوەن‌دەسەڵات، بەرپرس، بەرپرسایەتی، لێپرسراوێتی، ژێدەر، سەرچاوەی باوەڕپێکراو، کتێبی جێی‌باوەڕ، شارەزا، پسپۆڕ
 
-١. (ناو) دۆخی ئابووری خراپ بەهۆی سیاسەتی حکومەتەوە لەکاتی جەنگدا""",
+١. (ناو) دەسەڵاتی بڕیاردان بەسەر خەڵکی تردا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -231,7 +274,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "War was followed by many years of austerity.",
+                                    "She now has authority over the people who used to be her bosses.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -246,7 +289,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جەنگ چەندین ساڵی نەبوونی بەدواداهات.",
+                                    "ئێستا دەسەڵاتی هەیە بەسەر ئەو کەسانەی کە جاران گەورەی بوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -259,7 +302,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAusterity518("en-GB"),
+                                onPressed: () => speakAuthority804("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -268,7 +311,57 @@ class EnglishEntryausterity extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAusterity518(// REPLACE: austerity
+                                    speakAuthority804(// REPLACE: authority
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "Central government has extensive authority over teachers.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "حکومەتی ناوەندی دەسەڵاتی فراوانی هەیە بەسەر مامۆستایاندا.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAuthority805("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAuthority805(// REPLACE: authority
                                         "en-US"),
                               ),
                             ],
@@ -278,7 +371,7 @@ class EnglishEntryausterity extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) سادە و ساکار لە دەرکەوتندا""",
+٢. (ناو) دەسەڵات یان مافی کردنی شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -289,7 +382,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The house was decorated in an austere style, with white walls and minimal furniture.",
+                                    "Some experts think the agency may have exceeded its authority.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -304,7 +397,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خانووەکە ستایلێکی بە ساکاری دیکۆرات کرابوو، بە دیواری سپی و کەمترین شتومەک.",
+                                    "هەندێک شارەزا باوەڕیان وایە کە دەزگاکە ئەگەری هەیە دەسەڵاتی خۆی تێپەڕاندبێ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -317,7 +410,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAusterity523("en-GB"),
+                                onPressed: () => speakAuthority808("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -326,7 +419,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAusterity523(// REPLACE: austerity
+                                    speakAuthority808(// REPLACE: authority
                                         "en-US"),
                               ),
                             ],
@@ -336,7 +429,7 @@ class EnglishEntryausterity extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ناو) دەرکەوتن بەشێوەی توند و دژوار""",
+٣. (ناو) مۆڵەت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -347,7 +440,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "He was noted for his austerity and authoritarianism.",
+                                    "He took the car without authority.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -362,7 +455,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەناسرا بۆ دژواری و سەرکوتکەری.",
+                                    "ئۆتۆمبێلەکەی بەبێ مۆڵەت برد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -375,7 +468,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAusterity524("en-GB"),
+                                onPressed: () => speakAuthority809("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -384,7 +477,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAusterity524(// REPLACE: austerity
+                                    speakAuthority809(// REPLACE: authority
                                         "en-US"),
                               ),
                             ],
@@ -394,7 +487,7 @@ class EnglishEntryausterity extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٤. (ناو) خۆگرتنەوە لە خۆشی و چێژی ژیان""",
+٤. (ناو) کۆمەڵە کەسێک یان ڕێکخراوێک کە مافی بڕیاردانیان هەیە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -405,7 +498,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "The monks lived a life of austerity, with few possessions and simple meals.",
+                                    "I have to report this to the authorities.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -420,7 +513,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕەبەنەکان ژیانێکی لەخواترسی دەژیان بە کەلوپەلی کەم و خواردنی سادە.",
+                                    "دەبێت ئەمە بە دەسەڵاتداران بڵێم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -433,7 +526,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAusterity527("en-GB"),
+                                onPressed: () => speakAuthority811("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -442,7 +535,123 @@ class EnglishEntryausterity extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakAusterity527(// REPLACE: austerity
+                                    speakAuthority811(// REPLACE: authority
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٥. (ناو) دەسەڵاتی درووستکردنی کاریگەری بەهۆی ڕێزلێگیراوی بەهۆی زانیارییەکانت یان پێگەکەت""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "He spoke with authority on the topic.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "بە جێی‌باوەڕەوە قسەی لەسەر بابەتەکە دەکرد.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAuthority814("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAuthority814(// REPLACE: authority
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٦. (ناو) کەسێکی شارەزا""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "She's an authority on criminal law.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "کەسێکی شارەزایە لەسەر یاسای تاوانبارێتی.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAuthority816("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakAuthority816(// REPLACE: authority
                                         "en-US"),
                               ),
                             ],
@@ -459,8 +668,8 @@ class EnglishEntryausterity extends StatelessWidget {
                     YoutubeEmbeddedfive(),
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
+                    YoutubeEmbeddedeight(),
+                    YoutubeEmbeddednine(),
                     // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
@@ -493,9 +702,27 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: austerity (derived forms: austerities)
-1. The trait of great self-denial (especially refraining from worldly pleasures) (= asceticism, nonindulgence)
-"a new budget of unaccustomed austerity";
+- Noun: authority (derived forms: authorities)
+1. The power or right to give orders or make decisions (= authorization, authorisation [Brit], potency, dominance, say-so)
+"he has the authority to issue warrants";
+ 
+2. (usually plural) persons who exercise (administrative) control over others
+"the authorities have issued a curfew"
+ 
+3. An expert whose views are taken as definitive
+"he is an authority on corporate law"
+ 
+4. Freedom from doubt; belief in yourself and your abilities (= assurance, self-assurance, confidence, self-confidence, sureness)
+"she spoke with authority";
+ 
+5. An administrative unit of government (= agency, federal agency, government agency, bureau, office)
+"Tennessee Valley Authority";
+ 
+6. Official permission or approval (= authorization, authorisation [Brit], sanction, clearance)
+"authority for the program was renewed several times";
+ 
+7. An authoritative written work
+"this book is the final authority on the life of Milton"
 """),
         ],
       ),
@@ -506,12 +733,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "S5vOKKMipSA";
+  static String myVideoId = "HB0CZ_5sPPw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2079, // DOPSUM: CHANGE IT
+      startAt: 314, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -531,12 +758,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "omcUaD8pxaY";
+  static String myVideoId = "ewLpXw6uN28";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 514, // DOPSUM: CHANGE IT
+      startAt: 1570, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -556,12 +783,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "UZhW1k_m7OY";
+  static String myVideoId = "Cqbleas1mmo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 3026, // DOPSUM: CHANGE IT
+      startAt: 226, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -581,12 +808,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "RKgyOOU8moc";
+  static String myVideoId = "TRGHIN2PGIA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 904, // DOPSUM: CHANGE IT
+      startAt: 923, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -606,12 +833,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "8EOxtY3M6Co";
+  static String myVideoId = "Cln0J87vulU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 172, // DOPSUM: CHANGE IT
+      startAt: 73, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -631,12 +858,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "7oY5WNAgb90";
+  static String myVideoId = "yRmOWcWdQAo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 147, // DOPSUM: CHANGE IT
+      startAt: 698, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -656,12 +883,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "EJEi-pP9Rjs";
+  static String myVideoId = "4X2ES8HfLys";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2550, // DOPSUM: CHANGE IT
+      startAt: 791, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -681,12 +908,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "hkO8qXCFYWA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 557, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -706,12 +933,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "-C3CjOkF-jY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 455, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -866,4 +1093,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end austerity // TODO Implement this library.
+// end authority // TODO Implement this library.

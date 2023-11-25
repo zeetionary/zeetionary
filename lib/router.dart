@@ -1158,6 +1158,32 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_austere.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_austerely.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_austerity.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_authentic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_authentically.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_authenticate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_authentication.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_authenticity.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_author.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_authorship.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_authoritative.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_authoritatively.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_authority.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_authorize.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_authorization.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_autobiography.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_autobiographical.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_autocrat.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_autocratic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_autograph.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_automate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_automatic.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_au/en_entry_DOPSUM.dart';
@@ -2451,25 +2477,25 @@ final loggedInRoute = RouteMap(routes: {
   "/english-austere": (_) => MaterialPage(child: EnglishEntryaustere()),
   "/english-austerely": (_) => MaterialPage(child: EnglishEntryausterely()),
   "/english-austerity": (_) => MaterialPage(child: EnglishEntryausterity()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-authentic": (_) => MaterialPage(child: EnglishEntryauthentic()),
+  "/english-authentically": (_) => MaterialPage(child: EnglishEntryauthentically()),
+  "/english-authenticate": (_) => MaterialPage(child: EnglishEntryauthenticate()),
+  "/english-authentication": (_) => MaterialPage(child: EnglishEntryauthentication()),
+  "/english-authenticity": (_) => MaterialPage(child: EnglishEntryauthenticity()),
+  "/english-author": (_) => MaterialPage(child: EnglishEntryauthor()),
+  "/english-authorship": (_) => MaterialPage(child: EnglishEntryauthorship()),
+  "/english-authoritative": (_) => MaterialPage(child: EnglishEntryauthoritative()),
+  "/english-authoritatively": (_) => MaterialPage(child: EnglishEntryauthoritatively()),
+  "/english-authority": (_) => MaterialPage(child: EnglishEntryauthority()),
+  "/english-authorize": (_) => MaterialPage(child: EnglishEntryauthorize()),
+  "/english-authorization": (_) => MaterialPage(child: EnglishEntryauthorization()),
+  "/english-autobiography": (_) => MaterialPage(child: EnglishEntryautobiography()),
+  "/english-autobiographical": (_) => MaterialPage(child: EnglishEntryautobiographical()),
+  "/english-autocrat": (_) => MaterialPage(child: EnglishEntryautocrat()),
+  "/english-autocratic": (_) => MaterialPage(child: EnglishEntryautocratic()),
+  "/english-autograph": (_) => MaterialPage(child: EnglishEntryautograph()),
+  "/english-automate": (_) => MaterialPage(child: EnglishEntryautomate()),
+  "/english-automatic": (_) => MaterialPage(child: EnglishEntryautomatic()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

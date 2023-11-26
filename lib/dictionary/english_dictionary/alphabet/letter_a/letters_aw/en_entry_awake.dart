@@ -6,89 +6,90 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "avarice" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
+// Define the word "awake" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
 
-// replace avarice - replace EnglishEntryavarice
+// replace awake - replace EnglishEntryawake
 
-// replace speakAvarice - /ˈævərɪs/ - find WORD_WEB
+// replace speakAwake - /əˈweɪk/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryavarice extends StatelessWidget {
+class EnglishEntryawake extends StatelessWidget {
   // blank divider
-  EnglishEntryavarice({super.key});
+  EnglishEntryawake({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAvarice(String languageCode) async {
-    // DOPSUM: CHANGE speakAvarice
+  Future<void> speakAwake(String languageCode) async {
+    // DOPSUM: CHANGE speakAwake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("avarice"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("awake"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvarices1(String languageCode) async {
-    // DOPSUM: CHANGE speakAvarice
+  Future<void> speakAwakes1(String languageCode) async {
+    // DOPSUM: CHANGE speakAwake
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("I was still awake when he came to bed."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAwakes2(String languageCode) async {
+    // DOPSUM: CHANGE speakAwake
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("I awoke from a deep sleep."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakAwakes3(String languageCode) async {
+    // DOPSUM: CHANGE speakAwake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Her business empire brought her wealth beyond the dreams of avarice."); // DOPSUM: CHANGE TEXT
+        "His speech is bound to awake old fears and hostilities."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvarices2(String languageCode) async {
-    // DOPSUM: CHANGE speakAvarice
+  Future<void> speakAwakes4(String languageCode) async {
+    // DOPSUM: CHANGE speakAwake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvarices2c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAwakes44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvarices3(String languageCode) async {
-    // DOPSUM: CHANGE speakAvarice
+  Future<void> speakAwakes5(String languageCode) async {
+    // DOPSUM: CHANGE speakAwake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvarices3c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAwakes55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvarices4(String languageCode) async {
-    // DOPSUM: CHANGE speakAvarice
+  Future<void> speakAwakes6(String languageCode) async {
+    // DOPSUM: CHANGE speakAwake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvarices4c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAwakes66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAvarices5(String languageCode) async {
-    // DOPSUM: CHANGE speakAvarice
+  Future<void> speakAwakes7(String languageCode) async {
+    // DOPSUM: CHANGE speakAwake
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvarices5c"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAvarices6(String languageCode) async {
-    // DOPSUM: CHANGE speakAvarice
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvarices6c"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAvarices7(String languageCode) async {
-    // DOPSUM: CHANGE speakAvarice
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAvarices7c"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAwakes77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -107,7 +108,7 @@ class EnglishEntryavarice extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "avarice", // DOPSUM: CHANGE WORD ENTRY
+                                "awake", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -126,7 +127,7 @@ class EnglishEntryavarice extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˈævərɪs/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /əˈweɪk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -137,7 +138,7 @@ class EnglishEntryavarice extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAvarice(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAwake(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -147,7 +148,7 @@ class EnglishEntryavarice extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˈævərɪs/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /əˈweɪk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -157,7 +158,7 @@ class EnglishEntryavarice extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAvarice(
+                              onPressed: () => speakAwake(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -177,12 +178,12 @@ class EnglishEntryavarice extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
@@ -207,9 +208,9 @@ class EnglishEntryavarice extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ماڵ‌پەرستی، تەماح، پیسی، پیسایی، چاوچنۆکی، هەڵپە
+کوردی: هەستاو، بەخەبەر، نەخەوتوو، نەنووستوو، هۆشیار، ئاگادار، (بە)ئاگا
 
-١. (ھاوەڵناو) حەزێکی زۆر بۆ پارە و سامان""",
+١. (ھاوەڵناو) نەخەوتوو""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -221,7 +222,7 @@ class EnglishEntryavarice extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "Her business empire brought her wealth beyond the dreams of avarice (= an extremely large amount of money).",
+                                    "I was still awake when he came to bed.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -236,7 +237,7 @@ class EnglishEntryavarice extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئیمپراتۆریەتییە بازرگانییەکەی سامانێکی هێندە گەورەی پێدا کە زیاتر بێت لەوەی هەرگیز خەونی پێوەدیبێت.",
+                                    "هێشتا بەخەبەر بووم کە هات بۆ ژووری نووستنەکەم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -249,7 +250,7 @@ class EnglishEntryavarice extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAvarices1("en-GB"),
+                                onPressed: () => speakAwakes1("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -257,9 +258,124 @@ class EnglishEntryavarice extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAvarices1(// REPLACE: avarice
-                                        "en-US"),
+                                onPressed: () => speakAwakes1(// REPLACE: awake
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٢. (کردار) لەخەوهەستاندن""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
+                                    "I awoke from a deep sleep.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "لە خەوێکی قووڵ هەستام.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAwakes2("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAwakes2(// REPLACE: awake
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٣. (کردار) درووستبوونی یان درووستکردنی هەستێک""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
+                                    "His speech is bound to awake old fears and hostilities.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "وتارەکەی بە ئەگەری زۆر ترس و ناکۆکی کۆن هەڵدەداتەوە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAwakes3("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAwakes3(// REPLACE: awake
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -278,7 +394,7 @@ class EnglishEntryavarice extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
@@ -309,10 +425,19 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: avarice (Derived forms: avarices)
-1. Reprehensible acquisitiveness; insatiable desire for wealth (personified as one of the deadly sins) (= greed, covetousness, rapacity, avaritia)
+- Adjective: awake 
+1. Not in a state of sleep; completely conscious
+"lay awake thinking about his new job"; "still not fully awake"
  
-2. Extreme greed for material wealth (= avariciousness, covetousness, cupidity, graspingness)
+2. Mentally perceptive and responsive (= alert, alive, on the ball)
+"awake to the dangers of her situation"; "was now awake to the reality of his predicament";
+
+- Verb: awake (Derived forms: awoke, awakes, awoken, awaking)
+1. Stop sleeping (= wake up, arouse, awaken, wake, come alive, waken)
+"She awoke to the sound of the alarm clock";
+ 
+2. To start, excite or to stir up something
+"his talk awoke my interest in the subject"
 """),
         ],
       ),
@@ -323,12 +448,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "1Sm8fi3jodA";
+  static String myVideoId = "https://youtu.be/lVoGZiL-kns?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 165, // DOPSUM: CHANGE IT
+      startAt: 112, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -348,12 +473,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "ZWkicUhQ7yE";
+  static String myVideoId = "https://youtu.be/Q0CbN8sfihY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 8804, // DOPSUM: CHANGE IT
+      startAt: 37, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -373,12 +498,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "xKyerxA_aRs";
+  static String myVideoId = "https://youtu.be/CXvG2CBJ3SE?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2061, // DOPSUM: CHANGE IT
+      startAt: 294, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -398,12 +523,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "C_4LmbuSmpI";
+  static String myVideoId = "https://youtu.be/W8uXhQnWgj4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 41, // DOPSUM: CHANGE IT
+      startAt: 849, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -423,12 +548,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "2YSkXgqFTDs";
+  static String myVideoId = "https://youtu.be/MzSktgpfD84?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 623, // DOPSUM: CHANGE IT
+      startAt: 1027, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -448,12 +573,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "VuoBU1cyDIc";
+  static String myVideoId = "https://youtu.be/8eq2vGEEbB4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 939, // DOPSUM: CHANGE IT
+      startAt: 58, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -473,12 +598,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "JyAWnZdtPYs";
+  static String myVideoId = "https://youtu.be/TdW3eMUymPo?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 641, // DOPSUM: CHANGE IT
+      startAt: 110, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -498,12 +623,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "xOM_ohW6FQc";
+  static String myVideoId = "https://youtu.be/4RlBVzUCYek?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1707, // DOPSUM: CHANGE IT
+      startAt: 212, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -523,12 +648,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "AGXASWS1g54";
+  static String myVideoId = "https://youtu.be/rsSGRIDw8wY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1548, // DOPSUM: CHANGE IT
+      startAt: 262, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -548,12 +673,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "eqXu4RHHkt0";
+  static String myVideoId = "https://youtu.be/Unzc731iCUY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 615, // DOPSUM: CHANGE IT
+      startAt: 639, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -573,12 +698,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "-azFNwF6fa0";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 284, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -683,4 +808,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end avarice // TODO Implement this library.
+// end awake // TODO Implement this library.

@@ -33,7 +33,8 @@ class EnglishEntryautonomy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("There is pressure for some degree of autonomy from minorities in the north of the country."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There is pressure for some degree of autonomy from minorities in the north of the country."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAutonomyS2(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntryautonomy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("One of the aims of modern nursing is to encourage patient autonomy."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "One of the aims of modern nursing is to encourage patient autonomy."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAutonomyS3(String languageCode) async {
@@ -255,8 +257,9 @@ class EnglishEntryautonomy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAutonomyS1(// REPLACE: autonomy
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAutonomyS1(// REPLACE: autonomy
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -312,8 +315,9 @@ class EnglishEntryautonomy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAutonomyS2(// REPLACE: autonomy
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAutonomyS2(// REPLACE: autonomy
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -379,7 +383,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/JmWfY4nb6oM?t=";
+  static String myVideoId = "JmWfY4nb6oM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -404,7 +408,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/ZzdV_HM95RQ?t=";
+  static String myVideoId = "ZzdV_HM95RQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -429,7 +433,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/Es2lmv_wJnY?t=";
+  static String myVideoId = "Es2lmv_wJnY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -454,7 +458,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/vJC4yz7e7HE?t=";
+  static String myVideoId = "vJC4yz7e7HE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -479,7 +483,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/co6gRkRk4Zw?t=";
+  static String myVideoId = "co6gRkRk4Zw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -504,7 +508,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/fY2CF-T05qY?t=";
+  static String myVideoId = "fY2CF-T05qY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -529,7 +533,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/glS3RDoxYMM?t=";
+  static String myVideoId = "glS3RDoxYMM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -554,7 +558,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/znwUCNrjpD4?t=";
+  static String myVideoId = "znwUCNrjpD4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -579,7 +583,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/XH8vjU_LWEY?t=";
+  static String myVideoId = "XH8vjU_LWEY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

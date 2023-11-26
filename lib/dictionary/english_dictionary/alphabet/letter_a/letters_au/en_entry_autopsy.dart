@@ -33,7 +33,8 @@ class EnglishEntryautopsy extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The autopsy revealed that he had been poisoned."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The autopsy revealed that he had been poisoned."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAutopsys2(String languageCode) async {
@@ -218,7 +219,8 @@ class EnglishEntryautopsy extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "The autopsy revealed that he had been poisoned.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -236,7 +238,7 @@ class EnglishEntryautopsy extends StatelessWidget {
                                   child: Text(
                                     "توێکارییەکە دەریخست ژەهرخواردکراوە.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -255,8 +257,9 @@ class EnglishEntryautopsy extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAutopsys1(// REPLACE: autopsy
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAutopsys1(// REPLACE: autopsy
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -321,7 +324,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/8eq2vGEEbB4?t=";
+  static String myVideoId = "8eq2vGEEbB4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -346,7 +349,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/1KgSp94nCZw?t=";
+  static String myVideoId = "1KgSp94nCZw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -371,7 +374,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/1Gxrwh4zGPg?t=";
+  static String myVideoId = "1Gxrwh4zGPg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -396,7 +399,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/Pon4Zux5MaQ?t=";
+  static String myVideoId = "Pon4Zux5MaQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -421,7 +424,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/cAfYtXB-qN4?t=";
+  static String myVideoId = "cAfYtXB-qN4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -446,7 +449,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/LXhLlWQtdt0?t=";
+  static String myVideoId = "LXhLlWQtdt0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -471,7 +474,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/48jBi86ih5Q?t=";
+  static String myVideoId = "48jBi86ih5Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -496,7 +499,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/y4DTW4B3Sjs?t=";
+  static String myVideoId = "y4DTW4B3Sjs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -642,7 +645,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   final YoutubePlayerController _controllertwo = YoutubePlayerController(
 //     initialVideoId: myVideoIdTwo,
 //     flags: const YoutubePlayerFlags(
-      // autoPlay: false,
+// autoPlay: false,
 //       enableCaption: true,
 //       loop: true,
 //       mute: false,

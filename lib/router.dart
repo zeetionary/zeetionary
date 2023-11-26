@@ -1194,12 +1194,12 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_av/en_entry_avenge.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_av/en_entry_avenue.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_av/en_entry_average.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_av/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_av/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_av/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_av/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_av/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_av/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_av/en_entry_averse.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_av/en_entry_aversion.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_av/en_entry_avert.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_av/en_entry_avian.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_av/en_entry_avian_flu.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_av/en_entry_aviary.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_av/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_av/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_av/en_entry_DOPSUM.dart';
@@ -2546,12 +2546,12 @@ final loggedInRoute = RouteMap(routes: {
   "/english-avenge": (_) => MaterialPage(child: EnglishEntryavenge()),
   "/english-avenue": (_) => MaterialPage(child: EnglishEntryavenue()),
   "/english-average": (_) => MaterialPage(child: EnglishEntryaverage()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-averse": (_) => MaterialPage(child: EnglishEntryaverse()),
+  "/english-aversion": (_) => MaterialPage(child: EnglishEntryaversion()),
+  "/english-avert": (_) => MaterialPage(child: EnglishEntryavert()),
+  "/english-avian": (_) => MaterialPage(child: EnglishEntryavian()),
+  "/english-avian-flu": (_) => MaterialPage(child: EnglishEntryavianflu()),
+  "/english-aviary": (_) => MaterialPage(child: EnglishEntryaviary()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

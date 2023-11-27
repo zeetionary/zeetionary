@@ -1247,25 +1247,25 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "axle",
     "aye",
     "azure",
-    // "b",
-    // "b.",
-    // "babble",
-    // "baboon",
-    // "baby",
-    // "babyish",
-    // "babysit",
-    // "babysitter",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    "b",
+    "b.",
+    "babble",
+    "baboon",
+    "baby",
+    "babyish",
+    "babysit",
+    "babysitter",
+    "bachelor",
+    "back",
+    "backache",
+    "backbencher",
+    "backbone",
+    "back-breaking",
+    "background",
+    "backhand",
+    "backhanded",
+    "backless",
+    "backlog",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -6464,82 +6464,82 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-azure");
                   }
-                  // if (wordsEnglish == "b") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-b");
-                  // }
-                  // if (wordsEnglish == "b.") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-b-two");
-                  // }
-                  // if (wordsEnglish == "babble") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-babble");
-                  // }
-                  // if (wordsEnglish == "baboon") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-baboon");
-                  // }
-                  // if (wordsEnglish == "baby") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-baby");
-                  // }
-                  // if (wordsEnglish == "babyish") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-babyish");
-                  // }
-                  // if (wordsEnglish == "babysit") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-babysit");
-                  // }
-                  // if (wordsEnglish == "babysitter") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-babysitter");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "b") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-b");
+                  }
+                  if (wordsEnglish == "b.") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-b-two");
+                  }
+                  if (wordsEnglish == "babble") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-babble");
+                  }
+                  if (wordsEnglish == "baboon") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-baboon");
+                  }
+                  if (wordsEnglish == "baby") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-baby");
+                  }
+                  if (wordsEnglish == "babyish") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-babyish");
+                  }
+                  if (wordsEnglish == "babysit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-babysit");
+                  }
+                  if (wordsEnglish == "babysitter") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-babysitter");
+                  }
+                  if (wordsEnglish == "bachelor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bachelor");
+                  }
+                  if (wordsEnglish == "back") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-back");
+                  }
+                  if (wordsEnglish == "backache") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-backache");
+                  }
+                  if (wordsEnglish == "backbencher") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-backbencher");
+                  }
+                  if (wordsEnglish == "backbone") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-backbone");
+                  }
+                  if (wordsEnglish == "back-breaking") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-back-breaking");
+                  }
+                  if (wordsEnglish == "background") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-background");
+                  }
+                  if (wordsEnglish == "backhand") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-backhand");
+                  }
+                  if (wordsEnglish == "backhanded") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-backhanded");
+                  }
+                  if (wordsEnglish == "backless") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-backless");
+                  }
+                  if (wordsEnglish == "backlog") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-backlog");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

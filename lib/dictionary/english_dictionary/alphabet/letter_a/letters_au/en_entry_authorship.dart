@@ -244,7 +244,7 @@ class EnglishEntryauthorship extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نووسەری هۆنراوەکە نەزانراوە.",
+                                    "نووسەری ھۆنراوەکە نەزانراوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -302,7 +302,7 @@ class EnglishEntryauthorship extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕاپۆرتەکەی بڵاوکردەوە بە نووسەرێتیی هاوبەشی هاوکارێکی.",
+                                    "ڕاپۆرتەکەی بڵاوکردەوە بە نووسەرێتیی ھاوبەشی ھاوکارێکی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

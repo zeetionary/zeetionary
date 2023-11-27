@@ -207,7 +207,7 @@ class EnglishEntryavian extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: باڵندە، مەل، پەلەوەر، سەربە باڵندەکان، پێوەندی بە باڵندەکانەوە هەیە
+کوردی: باڵندە، مەل، پەلەوەر، سەربە باڵندەکان، پێوەندی بە باڵندەکانەوە ھەیە
 
 ١. (ھاوەڵناو) پەیوەندیدار بە باڵندە""",
                             style: TextStyle(fontSize: 18),
@@ -236,7 +236,7 @@ class EnglishEntryavian extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هێلکەی باڵندە سەرچاوەیەکی خۆراکی وزەبەخش و فرەکارەن بۆ مرۆڤ و ئاژەڵەکانی تر.",
+                                    "ھێلکەی باڵندە سەرچاوەیەکی خۆراکی وزەبەخش و فرەکارەن بۆ مرۆڤ و ئاژەڵەکانی تر.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

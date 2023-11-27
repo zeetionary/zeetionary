@@ -217,7 +217,7 @@ class EnglishEntryautomation extends StatelessWidget {
                             """
 کوردی: ماشێنی‌کردن، خۆکارگێڕی، بەخۆکارکردن
 
-١. (ناو) بەکارهێنانی ئامێر و کۆمپیوتەر بۆ کردنی ئەو کارانەی کە پێشتر لەلایەن مرۆڤەوە دەکران""",
+١. (ناو) بەکارھێنانی ئامێر و کۆمپیوتەر بۆ کردنی ئەو کارانەی کە پێشتر لەلایەن مرۆڤەوە دەکران""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -243,7 +243,7 @@ class EnglishEntryautomation extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەخۆکارکردن لەدەستچوونی زۆر کاری لە کارگەکاندا بەدواداهات.",
+                                    "بەخۆکارکردن لەدەستچوونی زۆر کاری لە کارگەکاندا بەدواداھات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -316,7 +316,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: automation (Derived forms: automations)
+- Noun: automation (derived forms: automations)
 1. The act of implementing the control of equipment with advanced technology; usually involving electronic hardware (= mechanization, mechanisation [Brit])
 "automation replaces human workers by machines";
  

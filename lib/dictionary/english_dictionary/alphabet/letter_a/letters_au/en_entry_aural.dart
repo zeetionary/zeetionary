@@ -215,7 +215,7 @@ class EnglishEntryaural extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: گوێیی، سەربە گوێ، پێوەندی بە گوێ‌یەوە هەیە، سەربە هەستی بیستن یان ژنەفتن
+کوردی: گوێیی، سەربە گوێ، پێوەندی بە گوێ‌یەوە ھەیە، سەربە ھەستی بیستن یان ژنەفتن
 
 ١. (ھاوەڵناو) پەیوەندیدار بە بیستن و گوێگرتن""",
                             style: TextStyle(fontSize: 18),

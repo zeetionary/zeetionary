@@ -216,7 +216,7 @@ class EnglishEntryauthorize extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: هیز پێدان، ئیزن پێدان، دەسەڵات پێدان، پەسەند کردن
+کوردی: ھیز پێدان، ئیزن پێدان، دەسەڵات پێدان، پەسەند کردن
 
 ١. (کردار) پێدانی مۆڵەتی فەرمی بۆ شتێک، یان بە کەسێک بۆ کردنی شتێک""",
                             style: TextStyle(fontSize: 18),

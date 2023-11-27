@@ -207,7 +207,7 @@ class EnglishEntryautopsy extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: یەکاڵاکردنەوە، توێکاری مردوو، لەش‌دانەوە (جەستە و هۆی زانینی مردن)
+کوردی: یەکاڵاکردنەوە، توێکاری مردوو، لەش‌دانەوە (جەستە و ھۆی زانینی مردن)
 
 ١. (ناو) توێکاری لەشی مردوو""",
                             style: TextStyle(fontSize: 18),
@@ -236,7 +236,7 @@ class EnglishEntryautopsy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "توێکارییەکە دەریخست ژەهرخواردکراوە.",
+                                    "توێکارییەکە دەریخست ژەھرخواردکراوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -309,10 +309,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: autopsy (Derived forms: autopsies)
+- Noun: autopsy (derived forms: autopsies)
 1. An examination and dissection of a dead body to determine cause of death or the changes produced by disease (= necropsy, postmortem, post-mortem, PM, postmortem examination, post-mortem examination)
 
-- Verb: autopsy (Derived forms: autopsies, autopsied, autopsying)
+- Verb: autopsy (derived forms: autopsies, autopsied, autopsying)
 1. (medicine) perform an autopsy on a dead body; do a post-mortem
 """),
         ],

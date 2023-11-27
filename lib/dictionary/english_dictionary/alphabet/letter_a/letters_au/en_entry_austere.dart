@@ -245,7 +245,7 @@ class EnglishEntryaustere extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جلەکانیان هەمیشە سادە و ساکار بوون.",
+                                    "جلەکانیان ھەمیشە سادە و ساکار بوون.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -335,7 +335,7 @@ class EnglishEntryaustere extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ھاوەڵناو) ژیانێکی دژوار و بەتاڵ لەهەر شتێکی خۆشی‌بەخش""",
+٣. (ھاوەڵناو) ژیانێکی دژوار و بەتاڵ لەھەر شتێکی خۆشی‌بەخش""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -361,7 +361,7 @@ class EnglishEntryaustere extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لەکاتی جەنگەکەدا ژیانێکی دژواریان هەبوو.",
+                                    "لەکاتی جەنگەکەدا ژیانێکی دژواریان ھەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

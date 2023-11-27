@@ -245,7 +245,7 @@ class EnglishEntryautonomous extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وڵاتەکە ئێستا ١٧ هەرێمی خۆبەڕێوەبەری هەیە و هەریەکەیان کەلتووری بۆ خۆی هەیە.",
+                                    "وڵاتەکە ئێستا ١٧ ھەرێمی خۆبەڕێوەبەری ھەیە و ھەریەکەیان کەلتووری بۆ خۆی ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -335,7 +335,7 @@ class EnglishEntryautonomous extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ھاوەڵناو) ئۆتۆمبێلێک کە بە یارمەتیی تەکنەلۆژیا توانای خۆ کۆنترۆڵکردنی هەیە و پێویستی بە شۆفێر نییە """,
+٣. (ھاوەڵناو) ئۆتۆمبێلێک کە بە یارمەتیی تەکنەلۆژیا توانای خۆ کۆنترۆڵکردنی ھەیە و پێویستی بە شۆفێر نییە """,
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

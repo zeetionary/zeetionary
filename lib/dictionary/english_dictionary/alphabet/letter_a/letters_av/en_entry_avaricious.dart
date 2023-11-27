@@ -207,9 +207,9 @@ class EnglishEntryavaricious extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ماڵ‌پەرست، بەتەماح، چاوبرسی، چاوچنۆک، پیسکە، بەهەڵپە
+کوردی: ماڵ‌پەرست، بەتەماح، چاوبرسی، چاوچنۆک، پیسکە، بەھەڵپە
 
-١. (ھاوەڵناو) هەبوونی حەزێکی زۆر بۆ پارە و سامان""",
+١. (ھاوەڵناو) ھەبوونی حەزێکی زۆر بۆ پارە و سامان""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

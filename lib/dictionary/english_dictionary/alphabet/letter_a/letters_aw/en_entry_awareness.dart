@@ -33,7 +33,8 @@ class EnglishEntryawareness extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("There seems to be a general awareness that this is not the solution."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There seems to be a general awareness that this is not the solution."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwarenesss2(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntryawareness extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The group is trying to raise public awareness about homelessness."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The group is trying to raise public awareness about homelessness."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwarenesss3(String languageCode) async {
@@ -135,9 +137,9 @@ class EnglishEntryawareness extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAwareness(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAwareness(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -206,7 +208,7 @@ class EnglishEntryawareness extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ئاگاداری، ئاگایی، هایداری، هۆش، بەخەبەری
+کوردی: ئاگاداری، ئاگایی، ھایداری، ھۆش، بەخەبەری
 
 ١. (ھاوەڵناو) ئاگاداری سەبارەت بە شتێک""",
                             style: TextStyle(fontSize: 18),
@@ -218,7 +220,8 @@ class EnglishEntryawareness extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "There seems to be a general awareness that this is not the solution.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -234,9 +237,9 @@ class EnglishEntryawareness extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وادیارە ئاگایی گشتگیر هەبێت کە ئەمە چارەسەرەکە نییە.",
+                                    "وادیارە ئاگایی گشتگیر ھەبێت کە ئەمە چارەسەرەکە نییە.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -255,8 +258,9 @@ class EnglishEntryawareness extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAwarenesss1(// REPLACE: awareness
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAwarenesss1(// REPLACE: awareness
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -275,7 +279,8 @@ class EnglishEntryawareness extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "The group is trying to raise public awareness about homelessness.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -291,9 +296,9 @@ class EnglishEntryawareness extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گرووپەکە هەوڵ دەدات هۆشیاری کۆمەڵگە زیادبکات سەبارەت بە بێ‌لانەیی.",
+                                    "گرووپەکە ھەوڵ دەدات ھۆشیاری کۆمەڵگە زیادبکات سەبارەت بە بێ‌لانەیی.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -312,8 +317,9 @@ class EnglishEntryawareness extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAwarenesss2(// REPLACE: awareness
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAwarenesss2(// REPLACE: awareness
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -379,7 +385,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/VrKW58MS12g?t=";
+  static String myVideoId = "VrKW58MS12g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -404,7 +410,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/SrDEtSlqJC4?t=";
+  static String myVideoId = "SrDEtSlqJC4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -429,7 +435,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/poS7rZ7-_RU?t=";
+  static String myVideoId = "poS7rZ7-_RU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -454,7 +460,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/zZM57oTu9Ng?t=";
+  static String myVideoId = "zZM57oTu9Ng";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -479,7 +485,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/5G0j_Huv2Fg?t=";
+  static String myVideoId = "5G0j_Huv2Fg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -504,7 +510,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/092PIJKKgFo?t=";
+  static String myVideoId = "092PIJKKgFo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -529,7 +535,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/3RkhZgRNC1k?t=";
+  static String myVideoId = "3RkhZgRNC1k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -554,7 +560,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/ltOkMlHrGPc?t=";
+  static String myVideoId = "ltOkMlHrGPc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -700,7 +706,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   final YoutubePlayerController _controllertwo = YoutubePlayerController(
 //     initialVideoId: myVideoIdTwo,
 //     flags: const YoutubePlayerFlags(
-      // autoPlay: false,
+// autoPlay: false,
 //       enableCaption: true,
 //       loop: true,
 //       mute: false,

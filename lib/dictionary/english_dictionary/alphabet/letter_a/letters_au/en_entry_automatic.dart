@@ -247,7 +247,7 @@ class EnglishEntryautomatic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سیستەمە لێخوڕە خۆکارەکە لەسەر فڕۆکەکە لەسەر ڕێڕەو هێشتییەوە تەنانەت لەکاتی هەڵبەز و دابەز.",
+                                    "سیستەمە لێخوڕە خۆکارەکە لەسەر فڕۆکەکە لەسەر ڕێڕەو ھێشتییەوە تەنانەت لەکاتی ھەڵبەز و دابەز.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -355,7 +355,7 @@ class EnglishEntryautomatic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەناسەدان ئەرکێکی خۆنەویستانەی لەشە.",
+                                    "ھەناسەدان ئەرکێکی خۆنەویستانەی لەشە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -387,7 +387,7 @@ class EnglishEntryautomatic extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ھاوەڵناو) شتێک کە هەمیشە ڕوودەدات لە ئەنجامی شتێکدا""",
+٣. (ھاوەڵناو) شتێک کە ھەمیشە ڕوودەدات لە ئەنجامی شتێکدا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -413,7 +413,7 @@ class EnglishEntryautomatic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سزا بۆ ئەم تاوانە هەمیشە هەیە.",
+                                    "سزا بۆ ئەم تاوانە ھەمیشە ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -445,7 +445,7 @@ class EnglishEntryautomatic extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٤. (ناو) چەکێک کە خۆی پڕدەکاتەوە هەرچەندە دەست لەسەر پەلەپیتکەکە دابنێیت""",
+٤. (ناو) چەکێک کە خۆی پڕدەکاتەوە ھەرچەندە دەست لەسەر پەلەپیتکەکە دابنێیت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -529,7 +529,7 @@ class EnglishEntryautomatic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەیت ئۆتۆمبێلێکی گێڕ ئۆتۆماتیکی هەیە.",
+                                    "کەیت ئۆتۆمبێلێکی گێڕ ئۆتۆماتیکی ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

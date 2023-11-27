@@ -208,7 +208,7 @@ class EnglishEntryavailability extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: هەبوون، زۆری، بەدەستەوەبوون، لەبەردەستابوون، دەس‌پێڕاگەیشتن، بەردەستی
+کوردی: ھەبوون، زۆری، بەدەستەوەبوون، لەبەردەستابوون، دەس‌پێڕاگەیشتن، بەردەستی
 
 ١. (ناو) بەردەستێتی شتێک""",
                             style: TextStyle(fontSize: 18),
@@ -269,7 +269,7 @@ class EnglishEntryavailability extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) هەبوونی کات بۆ بینین یان قسەکردن لەگەڵ خەڵکی""",
+٢. (ناو) ھەبوونی کات بۆ بینین یان قسەکردن لەگەڵ خەڵکی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -369,7 +369,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: availability (Derived forms: availabilities)
+- Noun: availability (derived forms: availabilities)
 1. The quality of being at hand when needed (= handiness, accessibility, availableness)
 """),
         ],

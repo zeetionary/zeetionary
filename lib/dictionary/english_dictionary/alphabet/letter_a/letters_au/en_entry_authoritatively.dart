@@ -244,7 +244,7 @@ class EnglishEntryauthoritatively extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بەدەستووردەرانەوە وتی ئەدەبی کلاسیک پەیوەندی بە هەژارانەوە نییە.",
+                                    "بەدەستووردەرانەوە وتی ئەدەبی کلاسیک پەیوەندی بە ھەژارانەوە نییە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

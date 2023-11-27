@@ -244,7 +244,7 @@ class EnglishEntryaunt extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پورێکم هەیە لە ئوسترالیا.",
+                                    "پورێکم ھەیە لە ئوسترالیا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

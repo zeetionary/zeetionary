@@ -366,7 +366,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: avert (Derived forms: averted, averting, averts)
+- Verb: avert (derived forms: averted, averting, averts)
 1. Prevent the occurrence of; prevent from happening; to protect from or to keep away anything undesirable; to ward off (= debar, forefend, forfend, obviate, deflect, head off, stave off, fend off, avoid, ward off)
 "avert a strike";
  

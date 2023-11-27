@@ -335,7 +335,7 @@ class EnglishEntryauthentic extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ھاوەڵناو) درووستکراو بۆ ئەوەی هاوشێوەی تەواوی یەکێکی تر بێت""",
+٣. (ھاوەڵناو) درووستکراو بۆ ئەوەی ھاوشێوەی تەواوی یەکێکی تر بێت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

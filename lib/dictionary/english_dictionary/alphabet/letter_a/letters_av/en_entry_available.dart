@@ -209,7 +209,7 @@ class EnglishEntryavailable extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: زۆر، هەیە، بەدەستەوەبوو، بەردەست، لەبەردەست، دەسکەوتوو، دەسگیر، دەس‌پێڕاگەیشتوو، فەراهەم، حازر، ئامادە، ساز
+کوردی: زۆر، ھەیە، بەدەستەوەبوو، بەردەست، لەبەردەست، دەسکەوتوو، دەسگیر، دەس‌پێڕاگەیشتوو، فەراھەم، حازر، ئامادە، ساز
 
 ١. (ھاوەڵناو) شتێک کە بەردەستە""",
                             style: TextStyle(fontSize: 18),
@@ -238,7 +238,7 @@ class EnglishEntryavailable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کۆپپیەکت بۆ دەنێرین هەرکە بەردەست بوو.",
+                                    "کۆپپیەکت بۆ دەنێرین ھەرکە بەردەست بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -270,7 +270,7 @@ class EnglishEntryavailable extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ھاوەڵناو) هەبوونی کات بۆ بینین یان قسەکردن لەگەڵ خەڵکی""",
+٢. (ھاوەڵناو) ھەبوونی کات بۆ بینین یان قسەکردن لەگەڵ خەڵکی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -356,7 +356,7 @@ class EnglishEntryavailable extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێت وایە هێشتا سینگڵ بێ؟.",
+                                    "پێت وایە ھێشتا سینگڵ بێ؟.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

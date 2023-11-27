@@ -316,11 +316,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: automobile (Derived forms: automobiles)
+- Noun: automobile (derived forms: automobiles)
 Usage: N. Amer
 1. A motor vehicle with four wheels; usually propelled by an internal combustion engine (= car, auto [informal], motorcar, whip [US, informal], wheel [informal], autocar [archaic])
 
-- Verb: automobile (Derived forms: automobiling, automobiles, automobiled)
+- Verb: automobile (derived forms: automobiling, automobiles, automobiled)
 Usage: N. Amer
 1. Travel in an automobile
 """),

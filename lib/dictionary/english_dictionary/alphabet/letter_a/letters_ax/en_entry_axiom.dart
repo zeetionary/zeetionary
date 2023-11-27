@@ -6,88 +6,89 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "awhile" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
+// Define the word "axiom" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
 
-// replace awhile - replace EnglishEntryawhile
+// replace axiom - replace EnglishEntryaxiom
 
-// replace speakAwhile - /əˈwaɪl/ - find WORD_WEB
+// replace speakAxiom - /ˈæksiəm/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryawhile extends StatelessWidget {
+class EnglishEntryaxiom extends StatelessWidget {
   // blank divider
-  EnglishEntryawhile({super.key});
+  EnglishEntryaxiom({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAwhile(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxiom(String languageCode) async {
+    // DOPSUM: CHANGE speakAxiom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("awhile"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("axiom"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles1(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxioms1(String languageCode) async {
+    // DOPSUM: CHANGE speakAxiom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Stay awhile."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It is a widely held axiom that governments should not negotiate with terrorists."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles2(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxioms2(String languageCode) async {
+    // DOPSUM: CHANGE speakAxiom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwhiles22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxioms22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles3(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxioms3(String languageCode) async {
+    // DOPSUM: CHANGE speakAxiom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwhiles33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxioms33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles4(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxioms4(String languageCode) async {
+    // DOPSUM: CHANGE speakAxiom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwhiles44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxioms44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles5(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxioms5(String languageCode) async {
+    // DOPSUM: CHANGE speakAxiom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwhiles55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxioms55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles6(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxioms6(String languageCode) async {
+    // DOPSUM: CHANGE speakAxiom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwhiles66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxioms66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles7(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxioms7(String languageCode) async {
+    // DOPSUM: CHANGE speakAxiom
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwhiles77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxioms77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -106,7 +107,7 @@ class EnglishEntryawhile extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "awhile", // DOPSUM: CHANGE WORD ENTRY
+                                "axiom", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -125,7 +126,7 @@ class EnglishEntryawhile extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˈwaɪl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈæksiəm/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -136,7 +137,7 @@ class EnglishEntryawhile extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAwhile(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAxiom(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -146,7 +147,7 @@ class EnglishEntryawhile extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˈwaɪl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /ˈæksiəm/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -156,7 +157,7 @@ class EnglishEntryawhile extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAwhile(
+                              onPressed: () => speakAxiom(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -176,11 +177,11 @@ class EnglishEntryawhile extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
@@ -206,9 +207,9 @@ class EnglishEntryawhile extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ماوەیەکی کەم، بڕێ، نەختێ، چەند چرکەیێ، تاوێ، سەرەتێ، کەمێ، تا ماوەیێ
+کوردی: بنەما یان پڕەنسیپی بەڵگەنەویست، بنچینەی پەسندکراو، دیار، دیتبار، ئاشکرا، سەلماندن‌نەویست، ڕێسا یان بنەمایێکی جێگیر و دامەزراو
 
-١. (ھاوەڵکار) بۆ ماوەیەکی کەم""",
+١. (ناو) بنەما یان باوەڕێک کە زۆر کەس باوەڕیان وایە ڕاستە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -220,7 +221,7 @@ class EnglishEntryawhile extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "Stay awhile.",
+                                    "It is a widely held axiom that governments should not negotiate with terrorists.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -235,7 +236,7 @@ class EnglishEntryawhile extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەمێک بوەستە.",
+                                    "ئەوە ڕێسایەکی بەربڵاوە کە حکومەتەکان نابێت مامەڵە لەگەڵ تیرۆریستان بکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -248,7 +249,7 @@ class EnglishEntryawhile extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAwhiles1("en-GB"),
+                                onPressed: () => speakAxioms1("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -256,9 +257,8 @@ class EnglishEntryawhile extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAwhiles1(// REPLACE: awhile
-                                        "en-US"),
+                                onPressed: () => speakAxioms1(// REPLACE: axiom
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -276,7 +276,7 @@ class EnglishEntryawhile extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -308,9 +308,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adverb: awhile
-1. For a brief period (= for a while)
-"sit down and stay awhile"; "they settled awhile in Virginia before moving West";
+- Noun: axiom (derived forms: axioms)
+1. A saying that is widely accepted on its own merits (= maxim)
+"the doctrine of sovereign immunity originated with the axiom that the king can do no wrong";
+ 
+2. (logic) a proposition that is not susceptible of proof or disproof; its truth is assumed to be self-evident
 """),
         ],
       ),
@@ -321,12 +323,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "sRhYoArzBbs";
+  static String myVideoId = "mtDOr9UY-yk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 941, // DOPSUM: CHANGE IT
+      startAt: 2781, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -346,12 +348,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "tsxmyL7TUJg";
+  static String myVideoId = "JnKzt6Xq-w4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 266, // DOPSUM: CHANGE IT
+      startAt: 314, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -371,12 +373,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "-L7o6HtX8Vg";
+  static String myVideoId = "j1jkilao3MQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 235, // DOPSUM: CHANGE IT
+      startAt: 1037, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -396,12 +398,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "AwhBTrzzqeg";
+  static String myVideoId = "Pfz-_WxGu3Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 463, // DOPSUM: CHANGE IT
+      startAt: 112, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -421,12 +423,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "SrDEtSlqJC4";
+  static String myVideoId = "tiGMX6-7VFE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 642, // DOPSUM: CHANGE IT
+      startAt: 644, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -446,12 +448,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "h0IPcqF2q9U";
+  static String myVideoId = "JUTC9ROB-kw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 240, // DOPSUM: CHANGE IT
+      startAt: 267, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -471,12 +473,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "xVQxvthAcLU";
+  static String myVideoId = "Vp570S6Plt8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1536, // DOPSUM: CHANGE IT
+      startAt: 905, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -496,12 +498,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "J8ZOttyAs9Y";
+  static String myVideoId = "eaGnyaR2B7s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 428, // DOPSUM: CHANGE IT
+      startAt: 405, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -521,12 +523,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "g9QneAV4fVo";
+  static String myVideoId = "WRHSUIYOt7s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 712, // DOPSUM: CHANGE IT
+      startAt: 4597, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -546,12 +548,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "qjqh9UVfNNk";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1247, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -681,4 +683,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end awhile // TODO Implement this library.
+// end axiom // TODO Implement this library.

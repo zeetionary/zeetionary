@@ -215,9 +215,9 @@ class EnglishEntryauspicious extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: پیرۆز، مەبارەک، موبارەک، بەودم، بەهات، هات، شوومی باشە، هەزەخ، بەختەوەر، بەختیار
+کوردی: پیرۆز، مەبارەک، موبارەک، بەودم، بەھات، ھات، شوومی باشە، ھەزەخ، بەختەوەر، بەختیار
 
-١. (ھاوەڵناو) پیشاندانی ئاماژەی ئەوەی شتێک لە داهاتوودا سەرکەوتوو دەبێت""",
+١. (ھاوەڵناو) پیشاندانی ئاماژەی ئەوەی شتێک لە داھاتوودا سەرکەوتوو دەبێت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -243,7 +243,7 @@ class EnglishEntryauspicious extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێکەوتێکی پیرۆز بوو بۆ هاوسەرگیرییەکە.",
+                                    "ڕێکەوتێکی پیرۆز بوو بۆ ھاوسەرگیرییەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

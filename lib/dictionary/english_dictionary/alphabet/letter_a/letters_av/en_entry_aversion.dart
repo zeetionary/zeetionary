@@ -236,7 +236,7 @@ class EnglishEntryaversion extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دوژمنایەتی لەگەڵ زوو لەخەوهەستان هەبوو.",
+                                    "دوژمنایەتی لەگەڵ زوو لەخەوھەستان ھەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aversion (Derived forms: aversions)
+- Noun: aversion (derived forms: aversions)
 1. A feeling of intense dislike (= antipathy, distaste, disrelish [archaic])
  
 2. The act of turning yourself (or your gaze) away (= averting)

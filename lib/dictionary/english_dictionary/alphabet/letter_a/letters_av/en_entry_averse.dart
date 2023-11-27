@@ -286,7 +286,7 @@ class EnglishEntryaverse extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دژی هەموو گۆڕانکارییەک بوو.",
+                                    "دژی ھەموو گۆڕانکارییەک بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

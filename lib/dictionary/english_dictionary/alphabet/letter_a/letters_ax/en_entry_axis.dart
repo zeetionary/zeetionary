@@ -6,88 +6,92 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "awhile" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
+// Define the word "axis" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
 
-// replace awhile - replace EnglishEntryawhile
+// replace axis - replace EnglishEntryaxis
 
-// replace speakAwhile - /əˈwaɪl/ - find WORD_WEB
+// replace speakAxis - /ˈæksɪs/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryawhile extends StatelessWidget {
+class EnglishEntryaxis extends StatelessWidget {
   // blank divider
-  EnglishEntryawhile({super.key});
+  EnglishEntryaxis({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAwhile(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxis(String languageCode) async {
+    // DOPSUM: CHANGE speakAxis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("awhile"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("axis"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles1(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxiss1(String languageCode) async {
+    // DOPSUM: CHANGE speakAxis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Stay awhile."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Mars takes longer to revolve on its axis than the Earth."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles2(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxiss2(String languageCode) async {
+    // DOPSUM: CHANGE speakAxis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwhiles22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The real wage is measured along the horizontal axis and the quantity of labour is measured along the vertical axis."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles3(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxiss3(String languageCode) async {
+    // DOPSUM: CHANGE speakAxis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwhiles33"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The axis of a circle is its diameter."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles4(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxiss4(String languageCode) async {
+    // DOPSUM: CHANGE speakAxis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwhiles44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The Franco-British axis has shaped European foreign policy for decades."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles5(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxiss5(String languageCode) async {
+    // DOPSUM: CHANGE speakAxis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwhiles55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxiss55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles6(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxiss6(String languageCode) async {
+    // DOPSUM: CHANGE speakAxis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwhiles66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxiss66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles7(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxiss7(String languageCode) async {
+    // DOPSUM: CHANGE speakAxis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwhiles77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxiss77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 13, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -106,7 +110,7 @@ class EnglishEntryawhile extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "awhile", // DOPSUM: CHANGE WORD ENTRY
+                                "axis", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -125,7 +129,7 @@ class EnglishEntryawhile extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˈwaɪl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈæksɪs/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -136,7 +140,7 @@ class EnglishEntryawhile extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAwhile(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAxis(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -146,7 +150,7 @@ class EnglishEntryawhile extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˈwaɪl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /ˈæksɪs/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -156,7 +160,7 @@ class EnglishEntryawhile extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAwhile(
+                              onPressed: () => speakAxis(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -176,12 +180,12 @@ class EnglishEntryawhile extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 13
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
-                  // VideoIconForTab(), // 11
+                  VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
@@ -206,9 +210,9 @@ class EnglishEntryawhile extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ماوەیەکی کەم، بڕێ، نەختێ، چەند چرکەیێ، تاوێ، سەرەتێ، کەمێ، تا ماوەیێ
+کوردی: تەوەر، تەوەرە، وەردێنە، (توێکاری) بڕگە یان مۆرەی تەوەرەیی، دووەمین بڕبڕەی مل، لەژێر ئەتڵەسەوە، (بیرکاری یان ئەندازە) تەوەر یان ھێڵی ھاوتایی، یەکێتی، پەیمان یان ڕێک‌کەوتنی ڕامیاری
 
-١. (ھاوەڵکار) بۆ ماوەیەکی کەم""",
+١. (ھاوەڵناو) تەوەرە؛ ھێڵێکی جێگیر بە ناوەڕاستی شتێکدا کە بە دەوریدا دەسووڕێتەوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -220,7 +224,7 @@ class EnglishEntryawhile extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "Stay awhile.",
+                                    "Mars takes longer to revolve on its axis than the Earth.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -235,7 +239,7 @@ class EnglishEntryawhile extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەمێک بوەستە.",
+                                    "مەریخ زیاتر لە زەوی پێدەچێت بۆ سووڕانەوە بەدەوری تەوەرەکەیدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -248,7 +252,7 @@ class EnglishEntryawhile extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAwhiles1("en-GB"),
+                                onPressed: () => speakAxiss1("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -256,9 +260,182 @@ class EnglishEntryawhile extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAwhiles1(// REPLACE: awhile
-                                        "en-US"),
+                                onPressed: () => speakAxiss1(// REPLACE: axis
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٢. (ھاوەڵناو) ھێڵێکی جێگیر کە بەکاردێت بۆ دیاریکردنی شوێنی خاڵ، بۆ نموونە لەسەر نەخشەی پۆتان""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
+                                    "The real wage is measured along the horizontal axis and the quantity of labour is measured along the vertical axis.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "مووچەی ڕاستی لەسەر تەوەرەی ئاسۆییە و بڕی کارکردنیش لەسەر تەوەرەی ستوونییە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAxiss2("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAxiss2(// REPLACE: axis
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٣. (ھاوەڵناو) ھێڵێک کە شێوەیەک دەکات بە دوو بەشەوە""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
+                                    "The axis of a circle is its diameter.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ھێڵی ھاوتایی بازنەیەک بریتییە لە تیرەکەی.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAxiss3("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAxiss3(// REPLACE: axis
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٤. (ھاوەڵناو) ڕێککەوتنی نێوان دوو لایەن یان زیاتر کە بەشی سەرەکی ھاوپەیمانییەکی گەورەترن""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
+                                    "The Franco-British axis has shaped European foreign policy for decades.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ڕێککەوتنی فەرەنسا و بەریتانیا بە چەندین دەیەیە داڕێژەری سیاسەتی دەرەوەی ئەورووپا بووە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakAxiss4("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakAxiss4(// REPLACE: axis
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -277,7 +454,7 @@ class EnglishEntryawhile extends StatelessWidget {
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
+                    YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
@@ -308,9 +485,20 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adverb: awhile
-1. For a brief period (= for a while)
-"sit down and stay awhile"; "they settled awhile in Virginia before moving West";
+- Noun: axis (= derived forms: axes)
+1. A straight line through a body or figure that satisfies certain conditions
+ 
+2. The main stem or central part about which plant organs or plant parts such as branches are arranged
+ 
+3. A group of countries in special alliance (= bloc)
+ 
+4. The 2nd cervical vertebra; serves as a pivot for turning the head (= axis vertebra)
+ 
+5. The centre around which something rotates (= axis of rotation)
+
+- Noun: Axis
+1. In World War II the alliance of Germany and Italy in 1936 which later included Japan and other nations
+"the Axis opposed the Allies in World War II"
 """),
         ],
       ),
@@ -321,12 +509,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "sRhYoArzBbs";
+  static String myVideoId = "0jltioeaEyY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 941, // DOPSUM: CHANGE IT
+      startAt: 591, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -346,12 +534,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "tsxmyL7TUJg";
+  static String myVideoId = "tpYThnxQynE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 266, // DOPSUM: CHANGE IT
+      startAt: 694, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -371,12 +559,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "-L7o6HtX8Vg";
+  static String myVideoId = "nsnyl8llfH4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 235, // DOPSUM: CHANGE IT
+      startAt: 187, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -396,12 +584,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "AwhBTrzzqeg";
+  static String myVideoId = "oBcxuzdP3rs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 463, // DOPSUM: CHANGE IT
+      startAt: 60, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -421,12 +609,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "SrDEtSlqJC4";
+  static String myVideoId = "IlU-zDU6aQ0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 642, // DOPSUM: CHANGE IT
+      startAt: 258, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -446,12 +634,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "h0IPcqF2q9U";
+  static String myVideoId = "-RjJtO51ykY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 240, // DOPSUM: CHANGE IT
+      startAt: 349, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -471,12 +659,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "xVQxvthAcLU";
+  static String myVideoId = "XuI6GTY9eVc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1536, // DOPSUM: CHANGE IT
+      startAt: 7, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -496,12 +684,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "J8ZOttyAs9Y";
+  static String myVideoId = "3KC32Vymo0Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 428, // DOPSUM: CHANGE IT
+      startAt: 196, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -521,12 +709,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "g9QneAV4fVo";
+  static String myVideoId = "9hvjBi4PKWA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 712, // DOPSUM: CHANGE IT
+      startAt: 243, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -546,12 +734,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "qjqh9UVfNNk";
+  static String myVideoId = "MBsQOTvWL3Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1247, // DOPSUM: CHANGE IT
+      startAt: 283, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -571,12 +759,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+  static String myVideoId = "BmUrJaOo1Lw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 215, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -681,4 +869,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end awhile // TODO Implement this library.
+// end axis // TODO Implement this library.

@@ -207,7 +207,7 @@ class EnglishEntryavarice extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ماڵ‌پەرستی، تەماح، پیسی، پیسایی، چاوچنۆکی، هەڵپە
+کوردی: ماڵ‌پەرستی، تەماح، پیسی، پیسایی، چاوچنۆکی، ھەڵپە
 
 ١. (ھاوەڵناو) حەزێکی زۆر بۆ پارە و سامان""",
                             style: TextStyle(fontSize: 18),
@@ -236,7 +236,7 @@ class EnglishEntryavarice extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئیمپراتۆریەتییە بازرگانییەکەی سامانێکی هێندە گەورەی پێدا کە زیاتر بێت لەوەی هەرگیز خەونی پێوەدیبێت.",
+                                    "ئیمپراتۆریەتییە بازرگانییەکەی سامانێکی ھێندە گەورەی پێدا کە زیاتر بێت لەوەی ھەرگیز خەونی پێوەدیبێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: avarice (Derived forms: avarices)
+- Noun: avarice (derived forms: avarices)
 1. Reprehensible acquisitiveness; insatiable desire for wealth (personified as one of the deadly sins) (= greed, covetousness, rapacity, avaritia)
  
 2. Extreme greed for material wealth (= avariciousness, covetousness, cupidity, graspingness)

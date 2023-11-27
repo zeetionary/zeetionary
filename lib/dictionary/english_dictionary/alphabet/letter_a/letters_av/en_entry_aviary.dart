@@ -236,7 +236,7 @@ class EnglishEntryaviary extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەردانکەرانمان دەتوانن هەڵۆ لە قەفەزی باڵندەکان ببینن.",
+                                    "سەردانکەرانمان دەتوانن ھەڵۆ لە قەفەزی باڵندەکان ببینن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: aviary  (Derived forms: aviaries)
+- Noun: aviary  (derived forms: aviaries)
 1. A building where birds are kept (= bird sanctuary, volary)
 """),
         ],

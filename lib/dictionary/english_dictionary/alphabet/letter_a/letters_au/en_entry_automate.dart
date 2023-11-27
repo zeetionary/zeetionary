@@ -217,7 +217,7 @@ class EnglishEntryautomate extends StatelessWidget {
                             """
 کوردی: خۆبەکاربەرین، بە خۆکارکردن، کۆمپیوتەریکردن، ماشینیکردن
 
-١. (کردار) بەکارهێنانی ئامێر و کۆمپیورەت بۆ کردنی کار لە جیاتی مرۆڤ""",
+١. (کردار) بەکارھێنانی ئامێر و کۆمپیورەت بۆ کردنی کار لە جیاتی مرۆڤ""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -243,7 +243,7 @@ class EnglishEntryautomate extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەواوی پڕۆسەی بەرهەمهێنانەکە کراوە بە خۆکارانە.",
+                                    "تەواوی پڕۆسەی بەرھەمھێنانەکە کراوە بە خۆکارانە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

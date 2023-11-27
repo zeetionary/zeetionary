@@ -33,7 +33,8 @@ class EnglishEntryawkwardly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("‘I'm sorry,’ he said awkwardly."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("‘I'm sorry,’ he said awkwardly."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwkwardlys2(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntryawkwardly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The publication of the economic statistics was awkwardly timed for the government."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The publication of the economic statistics was awkwardly timed for the government."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwkwardlys3(String languageCode) async {
@@ -49,7 +51,8 @@ class EnglishEntryawkwardly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The car was parked awkwardly across the pavement."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The car was parked awkwardly across the pavement."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwkwardlys4(String languageCode) async {
@@ -57,7 +60,8 @@ class EnglishEntryawkwardly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She fell awkwardly and broke her ankle."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She fell awkwardly and broke her ankle."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwkwardlys5(String languageCode) async {
@@ -135,9 +139,9 @@ class EnglishEntryawkwardly extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAwkwardly(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAwkwardly(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -218,7 +222,8 @@ class EnglishEntryawkwardly extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "‘I'm sorry,’ he said awkwardly.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -236,7 +241,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
                                   child: Text(
                                     "بە شەرمەزارییەوە وتی 'بمبوورە'.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -255,8 +260,9 @@ class EnglishEntryawkwardly extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAwkwardlys1(// REPLACE: awkwardly
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAwkwardlys1(// REPLACE: awkwardly
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -275,7 +281,8 @@ class EnglishEntryawkwardly extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "The publication of the economic statistics was awkwardly timed for the government.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -293,7 +300,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
                                   child: Text(
                                     "بڵاوکردنەوەی ئامارە ئابوورییەکان لەکاتێکی نالەبار بوو بۆ حکومەت.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -312,8 +319,9 @@ class EnglishEntryawkwardly extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAwkwardlys2(// REPLACE: awkwardly
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAwkwardlys2(// REPLACE: awkwardly
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -322,7 +330,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ھاوەڵکار) بەشێوەیەک کە مەترستدارە یان ئاسان نییە مامەڵەی لەگەڵ بکەیت بەهۆی شێوە یان دیزاین""",
+٣. (ھاوەڵکار) بەشێوەیەک کە مەترستدارە یان ئاسان نییە مامەڵەی لەگەڵ بکەیت بەھۆی شێوە یان دیزاین""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -332,7 +340,8 @@ class EnglishEntryawkwardly extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "The car was parked awkwardly.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -350,7 +359,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
                                   child: Text(
                                     "ئۆتۆمبێلەکە بەشێوەیەکی خراپ پارک کرابوو.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -369,8 +378,9 @@ class EnglishEntryawkwardly extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAwkwardlys3(// REPLACE: awkwardly
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAwkwardlys3(// REPLACE: awkwardly
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -389,7 +399,8 @@ class EnglishEntryawkwardly extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "She fell awkwardly and broke her ankle.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -407,7 +418,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
                                   child: Text(
                                     "بەشێوەیەکی نائاسایی کەوت و لاقی شکا.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -426,8 +437,9 @@ class EnglishEntryawkwardly extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAwkwardlys4(// REPLACE: awkwardly
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAwkwardlys4(// REPLACE: awkwardly
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -490,7 +502,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/8_AE-QHWj-A?t=";
+  static String myVideoId = "8_AE-QHWj-A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -515,7 +527,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/tMNxgi_0eKA?t=";
+  static String myVideoId = "tMNxgi_0eKA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -540,7 +552,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/ekdlgaQTt04?t=";
+  static String myVideoId = "ekdlgaQTt04";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -565,7 +577,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/jfhEbHJoZZ8?t=";
+  static String myVideoId = "jfhEbHJoZZ8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -590,7 +602,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/GSFDqjTw0_w?t=";
+  static String myVideoId = "GSFDqjTw0_w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -615,7 +627,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/Am1lDj2mUVY?t=";
+  static String myVideoId = "Am1lDj2mUVY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -640,7 +652,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/C6X3qkWoXv8?t=";
+  static String myVideoId = "C6X3qkWoXv8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -665,7 +677,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/b_rjBWmc1iQ?t=";
+  static String myVideoId = "b_rjBWmc1iQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -690,7 +702,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/8GKI2sYe1CI?t=";
+  static String myVideoId = "8GKI2sYe1CI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -715,7 +727,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/Q5rYzTVh7I8?t=";
+  static String myVideoId = "Q5rYzTVh7I8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -811,7 +823,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   final YoutubePlayerController _controllertwo = YoutubePlayerController(
 //     initialVideoId: myVideoIdTwo,
 //     flags: const YoutubePlayerFlags(
-      // autoPlay: false,
+// autoPlay: false,
 //       enableCaption: true,
 //       loop: true,
 //       mute: false,

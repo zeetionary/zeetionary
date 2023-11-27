@@ -33,7 +33,8 @@ class EnglishEntryawful extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I feel awful about forgetting her birthday."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I feel awful about forgetting her birthday."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwfuls2(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntryawful extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It was only later that we learned the awful truth."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It was only later that we learned the awful truth."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwfuls3(String languageCode) async {
@@ -49,7 +51,8 @@ class EnglishEntryawful extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It's going to cost an awful lot of money."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It's going to cost an awful lot of money."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwfuls4(String languageCode) async {
@@ -206,7 +209,7 @@ class EnglishEntryawful extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: بەسام، بەهەیبەت، بەئەندێش، شێوەدار، مایەی ترس و ڕێز، بەشەوکەت، ترسدار، ترسێنەر، زۆر خراپ، زۆر ناخۆش، شپرزە
+کوردی: بەسام، بەھەیبەت، بەئەندێش، شێوەدار، مایەی ترس و ڕێز، بەشەوکەت، ترسدار، ترسێنەر، زۆر خراپ، زۆر ناخۆش، شپرزە
 
 ١. (ھاوەڵناو) شتێک کە زۆر خراپ و ناخۆشە""",
                             style: TextStyle(fontSize: 18),
@@ -218,7 +221,8 @@ class EnglishEntryawful extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "I feel awful about forgetting her birthday.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -234,9 +238,9 @@ class EnglishEntryawful extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەست بە خراپی دەکەم سەبارەت بە لەبیرچوونی ڕۆژی لەدایکبوونی.",
+                                    "ھەست بە خراپی دەکەم سەبارەت بە لەبیرچوونی ڕۆژی لەدایکبوونی.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -275,7 +279,8 @@ class EnglishEntryawful extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "It was only later that we learned the awful truth.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -291,9 +296,9 @@ class EnglishEntryawful extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەنها دواتر بوو کە ڕاستییە تاڵەکەمان زانی.",
+                                    "تەنھا دواتر بوو کە ڕاستییە تاڵەکەمان زانی.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -332,7 +337,8 @@ class EnglishEntryawful extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "It's going to cost an awful lot of money.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -350,7 +356,7 @@ class EnglishEntryawful extends StatelessWidget {
                                   child: Text(
                                     "پارەیەکی زۆری تێدەچێت.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -389,7 +395,8 @@ class EnglishEntryawful extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "Clint is awful smart.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -407,7 +414,7 @@ class EnglishEntryawful extends StatelessWidget {
                                   child: Text(
                                     "کلینت فرە زیرەکە.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -508,7 +515,7 @@ Usage: N. Amer (elsewhere: awfully)
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/zAGVQLHvwOY?t=";
+  static String myVideoId = "zAGVQLHvwOY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -533,7 +540,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/VI2z4hUCdzg?t=";
+  static String myVideoId = "VI2z4hUCdzg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -558,7 +565,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/AAGIi62-sAU?t=";
+  static String myVideoId = "AAGIi62-sAU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -583,7 +590,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/gneBUA39mnI?t=";
+  static String myVideoId = "gneBUA39mnI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -608,7 +615,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/tsxmyL7TUJg?t=";
+  static String myVideoId = "tsxmyL7TUJg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -633,7 +640,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/_zCDvOsdL9Q?t=";
+  static String myVideoId = "_zCDvOsdL9Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -658,7 +665,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/YRhqMWUH2Ig?t=";
+  static String myVideoId = "YRhqMWUH2Ig";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -683,7 +690,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/Mx8JkGHaGUI?t=";
+  static String myVideoId = "Mx8JkGHaGUI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -708,7 +715,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/XI9kKiyIMf0?t=";
+  static String myVideoId = "XI9kKiyIMf0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -733,7 +740,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/hllf45NK-KA?t=";
+  static String myVideoId = "hllf45NK-KA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -758,7 +765,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/7EnWiGYT1g4?t=";
+  static String myVideoId = "7EnWiGYT1g4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -783,7 +790,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/0ST4_hmop9Y?t=";
+  static String myVideoId = "0ST4_hmop9Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -829,7 +836,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   final YoutubePlayerController _controllertwo = YoutubePlayerController(
 //     initialVideoId: myVideoIdTwo,
 //     flags: const YoutubePlayerFlags(
-      // autoPlay: false,
+// autoPlay: false,
 //       enableCaption: true,
 //       loop: true,
 //       mute: false,

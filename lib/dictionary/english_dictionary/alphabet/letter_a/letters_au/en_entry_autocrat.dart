@@ -218,7 +218,7 @@ class EnglishEntryautocrat extends StatelessWidget {
                             """
 کوردی: تاک‌فەرمان‌دار، تاکەدەسەڵات‌دار، سەرکوتکەر،
 
-١. (ناو) سەرکردەیەک کە دەسەڵاتی تەواوی هەیە""",
+١. (ناو) سەرکردەیەک کە دەسەڵاتی تەواوی ھەیە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -302,7 +302,7 @@ class EnglishEntryautocrat extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وتارەکە وەک ملهوڕێک وێنای دەکات کە لە هاوسەرەکەی تووڕەییە و دابڕاوە لە خێزانەکەی.",
+                                    "وتارەکە وەک ملھوڕێک وێنای دەکات کە لە ھاوسەرەکەی تووڕەییە و دابڕاوە لە خێزانەکەی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

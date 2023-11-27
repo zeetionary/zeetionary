@@ -270,7 +270,7 @@ class EnglishEntryavenue extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) ڕێگایەکی فراوان و ڕێک کە درەخت لە هەردوو لایەتی و دەگات بە ماڵێکی گەورە""",
+٢. (ناو) ڕێگایەکی فراوان و ڕێک کە درەخت لە ھەردوو لایەتی و دەگات بە ماڵێکی گەورە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -329,7 +329,7 @@ class EnglishEntryavenue extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ناو) هەڵبژاردە یان ڕێگای مامەڵە لەگەڵ شتێک""",
+٣. (ناو) ھەڵبژاردە یان ڕێگای مامەڵە لەگەڵ شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -356,7 +356,7 @@ class EnglishEntryavenue extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تەنها دوو هەڵبژاردەمان لەبەردەستە: یان پێشنیارەکەی پەسەند دەکەین، یان بە تەواوی واز لە شەڕەکە دێنین.",
+                                    "تەنھا دوو ھەڵبژاردەمان لەبەردەستە: یان پێشنیارەکەی پەسەند دەکەین، یان بە تەواوی واز لە شەڕەکە دێنین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -429,7 +429,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: avenue (Derived forms: avenues)
+- Noun: avenue (derived forms: avenues)
 1. A line of approach
 "they explored every avenue they could think of"; "it promises to open new avenues to understanding"
  

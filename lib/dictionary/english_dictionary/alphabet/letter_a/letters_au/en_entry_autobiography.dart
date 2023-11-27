@@ -243,7 +243,7 @@ class EnglishEntryautobiography extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە خۆژین‌نامەکەیدا ئەو ساتانەی هەژاریدا وەبیرێنێتەوە کە تێیدا گەورەبوو.",
+                                    "لە خۆژین‌نامەکەیدا ئەو ساتانەی ھەژاریدا وەبیرێنێتەوە کە تێیدا گەورەبوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

@@ -220,7 +220,7 @@ class EnglishEntryausterity extends StatelessWidget {
                             """
 کوردی: لەخواترسی، پارێزگاری، سەختی، دژواری، چەتوونی، سەخت‌گیری، توندگری، توندگرتن، ڕووگرژی، ڕووتاڵی، سادەیی، نەڕازاوی، بێ‌زێڕوزیوی
 
-١. (ناو) دۆخی ئابووری خراپ بەهۆی سیاسەتی حکومەتەوە لەکاتی جەنگدا""",
+١. (ناو) دۆخی ئابووری خراپ بەھۆی سیاسەتی حکومەتەوە لەکاتی جەنگدا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -246,7 +246,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جەنگ چەندین ساڵی نەبوونی بەدواداهات.",
+                                    "جەنگ چەندین ساڵی نەبوونی بەدواداھات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

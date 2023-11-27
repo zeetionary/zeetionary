@@ -210,7 +210,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: یارمەتی‌دەرانە، کۆمەکی، یەدەکی، زاپاس، دەژی، پاشکۆیی، زیادی، یاریدەدەر، کاری یاریدەدەر، هێزی یاریدەدەر، هێزی پشتیوانی، یاریدەدەر، یارمەتی‌دەر
+کوردی: یارمەتی‌دەرانە، کۆمەکی، یەدەکی، زاپاس، دەژی، پاشکۆیی، زیادی، یاریدەدەر، کاری یاریدەدەر، ھێزی یاریدەدەر، ھێزی پشتیوانی، یاریدەدەر، یارمەتی‌دەر
 
 ١. (ھاوەڵناو) پێدانی یارمەتی بە کەسێکی تر کە بە سەرەکی کاردەکات""",
                             style: TextStyle(fontSize: 18),
@@ -298,7 +298,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بزوێنەرە یەدەکەکە هێزی بە بەلەمەکە دا کاتێک بایەکە نەما.",
+                                    "بزوێنەرە یەدەکەکە ھێزی بە بەلەمەکە دا کاتێک بایەکە نەما.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -416,7 +416,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئاگرکوژێنەرەوەکان  لەلایەن پاشکۆکانەوە کۆمەک دەکران کە یارمەتی دەرکردنی هاوڵاتییەکانیان دا لە بینا سووتاوەکەوە.",
+                                    "ئاگرکوژێنەرەوەکان  لەلایەن پاشکۆکانەوە کۆمەک دەکران کە یارمەتی دەرکردنی ھاوڵاتییەکانیان دا لە بینا سووتاوەکەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -489,7 +489,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: auxiliary (Derived forms: auxiliaries)
+- Noun: auxiliary (derived forms: auxiliaries)
 1. Someone who acts as assistant (= aide)
 
 - Adjective: auxiliary 

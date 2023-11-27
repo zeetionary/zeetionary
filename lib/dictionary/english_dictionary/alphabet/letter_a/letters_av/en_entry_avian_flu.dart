@@ -207,7 +207,7 @@ class EnglishEntryavianflu extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ناو) ئەنفلۆنزای باڵندە؛ نەخۆشییەکی کوشندە کە تووشی باڵندە، بەتایبەتی مریشک، دەبێت و ئەگەری هەیە بگوازرێتەوە بۆ مرۆڤ و ببێتەهۆی مردن""",
+١. (ناو) ئەنفلۆنزای باڵندە؛ نەخۆشییەکی کوشندە کە تووشی باڵندە، بەتایبەتی مریشک، دەبێت و ئەگەری ھەیە بگوازرێتەوە بۆ مرۆڤ و ببێتەھۆی مردن""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

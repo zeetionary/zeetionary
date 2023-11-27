@@ -41,7 +41,8 @@ class EnglishEntryawe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She seemed awed by the presence of so many famous people."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She seemed awed by the presence of so many famous people."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwes3(String languageCode) async {
@@ -206,9 +207,9 @@ class EnglishEntryawe extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ترس، سام، ئەندێش، باک، هەیبەت، شەوکەت
+کوردی: ترس، سام، ئەندێش، باک، ھەیبەت، شەوکەت
 
-١. (ناو) هەستی زۆر سەرسامبوون بە شتێک""",
+١. (ناو) ھەستی زۆر سەرسامبوون بە شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -218,7 +219,8 @@ class EnglishEntryawe extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "He speaks of her with awe.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -234,9 +236,9 @@ class EnglishEntryawe extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بە هەیبەتەوە باسی دەکات.",
+                                    "بە ھەیبەتەوە باسی دەکات.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -265,7 +267,7 @@ class EnglishEntryawe extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (کردار) وا لە کەسێک بکەیت هەست بە سەرسامی زۆر بکات""",
+٢. (کردار) وا لە کەسێک بکەیت ھەست بە سەرسامی زۆر بکات""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -275,7 +277,8 @@ class EnglishEntryawe extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "She seemed awed by the presence of so many famous people.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -291,9 +294,9 @@ class EnglishEntryawe extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زۆر سەرسام بوو بە ئامادەبوونی ئەو هەموو کەسە بەناوبانگانە.",
+                                    "زۆر سەرسام بوو بە ئامادەبوونی ئەو ھەموو کەسە بەناوبانگانە.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -363,14 +366,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: awe (Derived forms: awes)
+- Noun: awe (derived forms: awes)
 1. An overwhelming feeling of wonder or admiration
 "he stared over the edge with a feeling of awe"
  
 2. A feeling of profound respect for someone or something (= fear, reverence, veneration)
 "the awe of God";
 
-- Verb: awe (Derived forms: awes, awed, awing)
+- Verb: awe (derived forms: awes, awed, awing)
 1. Inspire awe in
 "The famous professor awed the undergraduates"
 """),
@@ -383,7 +386,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/D_Y18GEjfNY?t=";
+  static String myVideoId = "D_Y18GEjfNY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -408,7 +411,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/Nfr2BERLZBY";
+  static String myVideoId = "Nfr2BERLZBY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -433,7 +436,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/3RkhZgRNC1k?t=";
+  static String myVideoId = "3RkhZgRNC1k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -458,7 +461,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/yWhU40m-6uU?t=";
+  static String myVideoId = "yWhU40m-6uU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -483,7 +486,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/helhqdNlWhg?t=";
+  static String myVideoId = "helhqdNlWhg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -508,7 +511,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/S3ksC_8jGuc?t=";
+  static String myVideoId = "S3ksC_8jGuc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -533,7 +536,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/H1KP4ztKK0A?t=";
+  static String myVideoId = "H1KP4ztKK0A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -558,7 +561,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/doiFDlS6zHI?t=";
+  static String myVideoId = "doiFDlS6zHI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -583,7 +586,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/D0fsCXflDCE?t=";
+  static String myVideoId = "D0fsCXflDCE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -608,7 +611,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/zpDuNzO_rwA?t=";
+  static String myVideoId = "zpDuNzO_rwA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -704,7 +707,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   final YoutubePlayerController _controllertwo = YoutubePlayerController(
 //     initialVideoId: myVideoIdTwo,
 //     flags: const YoutubePlayerFlags(
-      // autoPlay: false,
+// autoPlay: false,
 //       enableCaption: true,
 //       loop: true,
 //       mute: false,

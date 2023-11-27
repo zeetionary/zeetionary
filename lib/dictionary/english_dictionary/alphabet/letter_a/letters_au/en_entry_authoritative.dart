@@ -216,7 +216,7 @@ class EnglishEntryauthoritative extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: بەدەسەڵات، دەس‌ڕۆیشتوو، بەهێز، بەسام، دەستووردەرانە، زۆردارانە، دیکتاتۆڕی، فەرمی، جێی‌باوەڕ، باوەڕپێکراو، پشت‌پێبەستراو، لێ‌ڕابینراو
+کوردی: بەدەسەڵات، دەس‌ڕۆیشتوو، بەھێز، بەسام، دەستووردەرانە، زۆردارانە، دیکتاتۆڕی، فەرمی، جێی‌باوەڕ، باوەڕپێکراو، پشت‌پێبەستراو، لێ‌ڕابینراو
 
 ١. (ھاوەڵناو) پیشاندانی ئەوەی چاوەڕێی گێڕایەڵی و ڕێز دەکەیت""",
                             style: TextStyle(fontSize: 18),
@@ -244,7 +244,7 @@ class EnglishEntryauthoritative extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "هەڵسوکەوتێکی زۆردارانەی هەیە کە هەندێک جار تا ڕادەیەکی زۆر لەخۆڕازییانەیە.",
+                                    "ھەڵسوکەوتێکی زۆردارانەی ھەیە کە ھەندێک جار تا ڕادەیەکی زۆر لەخۆڕازییانەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

@@ -1227,9 +1227,25 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_aw/en_entry_awkwardness.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_aw/en_entry_awning.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ax/en_entry_axe.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ax/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ax/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ax/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ax/en_entry_axiom.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ax/en_entry_axiomatic.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ax/en_entry_axis.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ax/en_entry_axle.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ay/en_entry_aye.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_az/en_entry_azure.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
 
 final loggedOutRoute = RouteMap(routes: {
   "/": (_) => const MaterialPage(child: LoginScreen()),
@@ -2589,7 +2605,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-away": (_) => MaterialPage(child: EnglishEntryaway()),
   "/english-awayday": (_) => MaterialPage(child: EnglishEntryawayday()),
   "/english-awe": (_) => MaterialPage(child: EnglishEntryawe()),
-  "/english-awe-inspiring": (_) => MaterialPage(child: EnglishEntryaweinspiring()),
+  "/english-awe-inspiring": (_) =>
+      MaterialPage(child: EnglishEntryaweinspiring()),
   "/english-awesome": (_) => MaterialPage(child: EnglishEntryawesome()),
   "/english-awful": (_) => MaterialPage(child: EnglishEntryawful()),
   "/english-awfully": (_) => MaterialPage(child: EnglishEntryawfully()),
@@ -2599,12 +2616,12 @@ final loggedInRoute = RouteMap(routes: {
   "/english-awkwardness": (_) => MaterialPage(child: EnglishEntryawkwardness()),
   "/english-awning": (_) => MaterialPage(child: EnglishEntryawning()),
   "/english-axe": (_) => MaterialPage(child: EnglishEntryaxe()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-axiom": (_) => MaterialPage(child: EnglishEntryaxiom()),
+  "/english-axiomatic": (_) => MaterialPage(child: EnglishEntryaxiomatic()),
+  "/english-axis": (_) => MaterialPage(child: EnglishEntryaxis()),
+  "/english-axle": (_) => MaterialPage(child: EnglishEntryaxle()),
+  "/english-aye": (_) => MaterialPage(child: EnglishEntryaye()),
+  "/english-azure": (_) => MaterialPage(child: EnglishEntryazure()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

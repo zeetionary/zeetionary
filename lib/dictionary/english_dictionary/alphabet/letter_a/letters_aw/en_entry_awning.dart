@@ -33,7 +33,8 @@ class EnglishEntryawning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We sat under the blue and white awning of the cafe."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We sat under the blue and white awning of the cafe."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwnings2(String languageCode) async {
@@ -218,7 +219,8 @@ class EnglishEntryawning extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "We sat under the blue and white awning of the cafe.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -236,7 +238,7 @@ class EnglishEntryawning extends StatelessWidget {
                                   child: Text(
                                     "لەژێر ساباتە ڕەنگ شین و سپییەکەی قاوەخانەکە دانیشتین.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -255,8 +257,9 @@ class EnglishEntryawning extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAwnings1(// REPLACE: awning
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAwnings1(// REPLACE: awning
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -306,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: awning (Derived forms: awnings)
+- Noun: awning (derived forms: awnings)
 1. A canopy made of canvas to shelter people or things from rain or sun (= sunshade, sunblind)
 "The awning extends several feet over the pavement";
 """),
@@ -319,7 +322,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/FQ3Z-8MCuxs?t=";
+  static String myVideoId = "FQ3Z-8MCuxs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -344,7 +347,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/oYBq6tgx_5M?t=";
+  static String myVideoId = "oYBq6tgx_5M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -369,7 +372,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/1UTjWy-vnOo?t=";
+  static String myVideoId = "1UTjWy-vnOo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -394,7 +397,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/j_Of36XVHng?t=";
+  static String myVideoId = "j_Of36XVHng";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -419,7 +422,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/zX1J9-KMVXE?t=";
+  static String myVideoId = "zX1J9-KMVXE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -444,7 +447,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/hCxFUWlgb_M?t=";
+  static String myVideoId = "hCxFUWlgb_M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -469,7 +472,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/14tbRXvXpns?t=";
+  static String myVideoId = "14tbRXvXpns";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -494,7 +497,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/FIVfu8EfZck?t=";
+  static String myVideoId = "FIVfu8EfZck";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -519,7 +522,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/swtpoH-HZgY?t=";
+  static String myVideoId = "swtpoH-HZgY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -640,7 +643,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   final YoutubePlayerController _controllertwo = YoutubePlayerController(
 //     initialVideoId: myVideoIdTwo,
 //     flags: const YoutubePlayerFlags(
-      // autoPlay: false,
+// autoPlay: false,
 //       enableCaption: true,
 //       loop: true,
 //       mute: false,

@@ -33,7 +33,8 @@ class EnglishEntryawakening extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("If they had expected a warm welcome, they were in for a rude awakening."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "If they had expected a warm welcome, they were in for a rude awakening."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwakenings2(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntryawakening extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The political awakening that followed the Second World War led to a surge of anti-colonial movements."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The political awakening that followed the Second World War led to a surge of anti-colonial movements."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwakenings3(String languageCode) async {
@@ -135,9 +137,9 @@ class EnglishEntryawakening extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAwakening(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAwakening(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -208,7 +210,7 @@ class EnglishEntryawakening extends StatelessWidget {
                             """
 کوردی: بەخەبەری، ئاگاداری، بەئاگابوون، ئاگایی، بزووتنەوە، بزاوت، جووڵانەوە
 
-١. (ناو) بەئاگاهاتنەوە بە شتێک""",
+١. (ناو) بەئاگاھاتنەوە بە شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -218,7 +220,8 @@ class EnglishEntryawakening extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "If they had expected a warm welcome, they were in for a rude awakening (= they would soon realize that it would not be warm).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -234,9 +237,9 @@ class EnglishEntryawakening extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەگەر چاوەڕێی پێشوازییەکی گەرمیان دەکرد، ئەوا بەهۆشهاتنەوەیەکیان لە پێش بوو.",
+                                    "ئەگەر چاوەڕێی پێشوازییەکی گەرمیان دەکرد، ئەوا بەھۆشھاتنەوەیەکیان لە پێش بوو.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -255,8 +258,9 @@ class EnglishEntryawakening extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAwakenings1(// REPLACE: awakening
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAwakenings1(// REPLACE: awakening
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -265,7 +269,7 @@ class EnglishEntryawakening extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) کردەی هەستکردن بە شتێک""",
+٢. (ناو) کردەی ھەستکردن بە شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -275,7 +279,8 @@ class EnglishEntryawakening extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "The political awakening that followed the Second World War led to a surge of anti-colonial movements.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -291,9 +296,9 @@ class EnglishEntryawakening extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو بزووتنەوە سیاسییەی کە لە دوای جەنگی دووەمی جیهانی ڕوویدا بەدوای خۆیدا شەپۆلێک لە بزاڤی دژ بە کۆلۆنیاڵیزمی هێنا.",
+                                    "ئەو بزووتنەوە سیاسییەی کە لە دوای جەنگی دووەمی جیھانی ڕوویدا بەدوای خۆیدا شەپۆلێک لە بزاڤی دژ بە کۆلۆنیاڵیزمی ھێنا.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -312,8 +317,9 @@ class EnglishEntryawakening extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAwakenings2(// REPLACE: awakening
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAwakenings2(// REPLACE: awakening
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -378,7 +384,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/vVhqCQG_okk?t=";
+  static String myVideoId = "vVhqCQG_okk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -403,7 +409,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/YwOMc-4OEWg?t=";
+  static String myVideoId = "YwOMc-4OEWg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -428,7 +434,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/qSmyimnMOBo?t=";
+  static String myVideoId = "qSmyimnMOBo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -453,7 +459,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/hhvjKAQv2cs?t=";
+  static String myVideoId = "hhvjKAQv2cs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -478,7 +484,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/KSuYDQ7tFEk?t=";
+  static String myVideoId = "KSuYDQ7tFEk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -503,7 +509,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/wuxEpasO1po?t=";
+  static String myVideoId = "wuxEpasO1po";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -528,7 +534,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/wnhIPmXdyyA?t=";
+  static String myVideoId = "wnhIPmXdyyA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -553,7 +559,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/xU0TmQ56v0U?t=";
+  static String myVideoId = "xU0TmQ56v0U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -578,7 +584,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/eGIkGo-lGm0?t=";
+  static String myVideoId = "eGIkGo-lGm0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -699,7 +705,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   final YoutubePlayerController _controllertwo = YoutubePlayerController(
 //     initialVideoId: myVideoIdTwo,
 //     flags: const YoutubePlayerFlags(
-      // autoPlay: false,
+// autoPlay: false,
 //       enableCaption: true,
 //       loop: true,
 //       mute: false,

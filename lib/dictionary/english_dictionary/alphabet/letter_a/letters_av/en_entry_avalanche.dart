@@ -208,7 +208,7 @@ class EnglishEntryavalanche extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ڕنوو، کڵێڵە، کلیلە، کەویەبەفر، سلخە، شاپە، شیپ، هەرەس، سیپان، ئاشووت، لێشاو، کۆما، لۆدە، کەڵەک، (فیزیک) هەرەسە: ڕەوت یا پرۆسەیێکی کەڵەکەبوو
+کوردی: ڕنوو، کڵێڵە، کلیلە، کەویەبەفر، سلخە، شاپە، شیپ، ھەرەس، سیپان، ئاشووت، لێشاو، کۆما، لۆدە، کەڵەک، (فیزیک) ھەرەسە: ڕەوت یا پرۆسەیێکی کەڵەکەبوو
 
 ١. (ناو) ڕێژەیەکی زۆر بەفر، شەختە، یان بەرد کە لە شاخێکەوە دەکەوێتەخوارەوە""",
                             style: TextStyle(fontSize: 18),
@@ -237,7 +237,7 @@ class EnglishEntryavalanche extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "لە هەرەسی شەختەبەفردا مرد لە کاتی بەفرەخلیسکێ.",
+                                    "لە ھەرەسی شەختەبەفردا مرد لە کاتی بەفرەخلیسکێ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -288,7 +288,7 @@ class EnglishEntryavalanche extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم بابەتە ڕێژەیەکی زۆر مشتومڕی بەدوای‌خۆیداهێناوە.",
+                                    "ئەم بابەتە ڕێژەیەکی زۆر مشتومڕی بەدوای‌خۆیداھێناوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -361,13 +361,13 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: avalanche (Derived forms: avalanches)
+- Noun: avalanche (derived forms: avalanches)
 1. A slide of large masses of snow and ice and mud down a mountain (= snowslide [N. Amer])
  
 2. A sudden appearance of an overwhelming number of things
 "the program brought an avalanche of mail"
 
-- Verb: avalanche (Derived forms: avalanches, avalanching, avalanched)
+- Verb: avalanche (derived forms: avalanches, avalanching, avalanched)
 1. Gather into a huge mass and roll down a mountain, of snow
 """),
         ],

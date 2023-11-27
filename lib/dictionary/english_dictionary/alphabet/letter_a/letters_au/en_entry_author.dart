@@ -246,7 +246,7 @@ class EnglishEntryauthor extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نووسەری سێ کتێبە لەسەر هونەر.",
+                                    "نووسەری سێ کتێبە لەسەر ھونەر.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -296,7 +296,7 @@ class EnglishEntryauthor extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "فیلمەکە پشتی بە ڕۆمانێک بەستووە کە هی ژنەنووسەرێکە.",
+                                    "فیلمەکە پشتی بە ڕۆمانێک بەستووە کە ھی ژنەنووسەرێکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -386,7 +386,7 @@ class EnglishEntryauthor extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (کردار) بوون بە نووسەری کتێبێک، وتارێک، هتد""",
+٣. (کردار) بوون بە نووسەری کتێبێک، وتارێک، ھتد""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

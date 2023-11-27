@@ -295,7 +295,7 @@ class EnglishEntryauthorization extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناتوانین بەبێ مۆڵەتی ڕوونی دەستەکە هەنگاو بنێین.",
+                                    "ناتوانین بەبێ مۆڵەتی ڕوونی دەستەکە ھەنگاو بنێین.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

@@ -212,7 +212,7 @@ class EnglishEntryaverage extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: نێوبڕ، مەیانەیی، ئەندازە، تێکڕا، ڕادەی نێوەڕاست، ناوەند، مابەین، (ماف) (بەشێ هەر کەسێ لە دانی) زیانی کەشتی، ناوەند، مام‌ناوەند، نێوەڕاست، ئەندازە، نێوگیر، نێوەند، ئاسایی، ناتایبەتی، مام‌ناوەند
+کوردی: نێوبڕ، مەیانەیی، ئەندازە، تێکڕا، ڕادەی نێوەڕاست، ناوەند، مابەین، (ماف) (بەشێ ھەر کەسێ لە دانی) زیانی کەشتی، ناوەند، مام‌ناوەند، نێوەڕاست، ئەندازە، نێوگیر، نێوەند، ئاسایی، ناتایبەتی، مام‌ناوەند
 
 ١. (ھاوەڵناو) تێکڕا؛ کۆی گشتی کۆمەڵە بڕێک و دابەشکردنی ئەنجامەکە بەسەر ژمارەی بڕەکان """,
                             style: TextStyle(fontSize: 18),
@@ -509,7 +509,7 @@ class EnglishEntryaverage extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٦. (کردار) هەبوونی ژمارەیەک وەک تێکڕا """,
+٦. (کردار) ھەبوونی ژمارەیەک وەک تێکڕا """,
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -536,7 +536,7 @@ class EnglishEntryaverage extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تێکڕای ١٥ گۆڵی هەبووە لە دوو وەرزی ڕابردوودا",
+                                    "تێکڕای ١٥ گۆڵی ھەبووە لە دوو وەرزی ڕابردوودا",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -668,7 +668,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: average (Derived forms: averages)
+- Noun: average (derived forms: averages)
 1. An intermediate scale value regarded as normal or usual
 "he is about average in height"; "the snowfall this month is below average"
  
@@ -696,7 +696,7 @@ class EnglishMeaning extends StatelessWidget {
  
 6. (statistics) relating to or constituting the middle value of an ordered set of values (or the average of the middle two in a set with an even number of values) ((= median))
 
-- Verb: average (Derived forms: averaged, averaging, averages)
+- Verb: average (derived forms: averaged, averaging, averages)
 1. Amount to or come to an average, without loss or gain (= average out)
 "The number of hours I work per week averages out to 40";
  

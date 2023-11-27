@@ -6,88 +6,89 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "awhile" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
+// Define the word "axle" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
 
-// replace awhile - replace EnglishEntryawhile
+// replace axle - replace EnglishEntryaxle
 
-// replace speakAwhile - /əˈwaɪl/ - find WORD_WEB
+// replace speakAxle - /ˈæksl/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryawhile extends StatelessWidget {
+class EnglishEntryaxle extends StatelessWidget {
   // blank divider
-  EnglishEntryawhile({super.key});
+  EnglishEntryaxle({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAwhile(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxle(String languageCode) async {
+    // DOPSUM: CHANGE speakAxle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("awhile"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("axle"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles1(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxles1(String languageCode) async {
+    // DOPSUM: CHANGE speakAxle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Stay awhile."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The mechanic carefully greased the car's axles to prevent friction."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles2(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxles2(String languageCode) async {
+    // DOPSUM: CHANGE speakAxle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwhiles22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxles22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles3(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxles3(String languageCode) async {
+    // DOPSUM: CHANGE speakAxle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwhiles33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxles33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles4(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxles4(String languageCode) async {
+    // DOPSUM: CHANGE speakAxle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwhiles44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxles44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles5(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxles5(String languageCode) async {
+    // DOPSUM: CHANGE speakAxle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwhiles55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxles55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles6(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxles6(String languageCode) async {
+    // DOPSUM: CHANGE speakAxle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwhiles66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxles66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAwhiles7(String languageCode) async {
-    // DOPSUM: CHANGE speakAwhile
+  Future<void> speakAxles7(String languageCode) async {
+    // DOPSUM: CHANGE speakAxle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakAwhiles77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakAxles77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -106,7 +107,7 @@ class EnglishEntryawhile extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "awhile", // DOPSUM: CHANGE WORD ENTRY
+                                "axle", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -125,7 +126,7 @@ class EnglishEntryawhile extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /əˈwaɪl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈæksl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -136,7 +137,7 @@ class EnglishEntryawhile extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakAwhile(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakAxle(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -146,7 +147,7 @@ class EnglishEntryawhile extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /əˈwaɪl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /ˈæksl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -156,7 +157,7 @@ class EnglishEntryawhile extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakAwhile(
+                              onPressed: () => speakAxle(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -176,11 +177,11 @@ class EnglishEntryawhile extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
@@ -206,9 +207,9 @@ class EnglishEntryawhile extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ماوەیەکی کەم، بڕێ، نەختێ، چەند چرکەیێ، تاوێ، سەرەتێ، کەمێ، تا ماوەیێ
+کوردی: تەوەرەی پێچکە، مازە، تەوەرەی ڕەوڕەوە، میل، وەردێنە
 
-١. (ھاوەڵکار) بۆ ماوەیەکی کەم""",
+١. (ناو) پارچە ئاسنێکی ڕاست کە ویلەکانی ئۆتۆمبێلێک پێکەوە دەبەستێتەوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -220,7 +221,7 @@ class EnglishEntryawhile extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "Stay awhile.",
+                                    "The mechanic carefully greased the car's axles to prevent friction.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -235,7 +236,7 @@ class EnglishEntryawhile extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کەمێک بوەستە.",
+                                    "وەستاکە بەوریاییەوە ئەکسڵەکانی ئۆتۆمبێلەکەی گریس کرد بۆ ڕێگری لە لێکخشان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -248,7 +249,7 @@ class EnglishEntryawhile extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakAwhiles1("en-GB"),
+                                onPressed: () => speakAxles1("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -256,9 +257,8 @@ class EnglishEntryawhile extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakAwhiles1(// REPLACE: awhile
-                                        "en-US"),
+                                onPressed: () => speakAxles1(// REPLACE: axle
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -276,7 +276,7 @@ class EnglishEntryawhile extends StatelessWidget {
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
                     YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -308,9 +308,8 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adverb: awhile
-1. For a brief period (= for a while)
-"sit down and stay awhile"; "they settled awhile in Virginia before moving West";
+- Noun: axle (derived forms: axles)
+1. A shaft on which a wheel rotates
 """),
         ],
       ),
@@ -321,12 +320,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "sRhYoArzBbs";
+  static String myVideoId = "DxL2HoqLbyA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 941, // DOPSUM: CHANGE IT
+      startAt: 558, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -346,12 +345,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "tsxmyL7TUJg";
+  static String myVideoId = "Unzc731iCUY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 266, // DOPSUM: CHANGE IT
+      startAt: 1136, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -371,12 +370,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "-L7o6HtX8Vg";
+  static String myVideoId = "JUjkRIFZ7Do";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 235, // DOPSUM: CHANGE IT
+      startAt: 5, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -396,12 +395,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "AwhBTrzzqeg";
+  static String myVideoId = "EI9kw6ebAJc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 463, // DOPSUM: CHANGE IT
+      startAt: 155, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -421,12 +420,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "SrDEtSlqJC4";
+  static String myVideoId = "NKFGkKxCFow";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 642, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -446,12 +445,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "h0IPcqF2q9U";
+  static String myVideoId = "bH98nX8fb6M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 240, // DOPSUM: CHANGE IT
+      startAt: 16, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -471,12 +470,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "xVQxvthAcLU";
+  static String myVideoId = "pG9zjPLJdmU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1536, // DOPSUM: CHANGE IT
+      startAt: 240, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -496,12 +495,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "J8ZOttyAs9Y";
+  static String myVideoId = "y4j_GFRxkF8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 428, // DOPSUM: CHANGE IT
+      startAt: 45, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -521,12 +520,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "g9QneAV4fVo";
+  static String myVideoId = "daaDuC1kbds";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 712, // DOPSUM: CHANGE IT
+      startAt: 247, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -546,12 +545,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "qjqh9UVfNNk";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1247, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -681,4 +680,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end awhile // TODO Implement this library.
+// end axle // TODO Implement this library.

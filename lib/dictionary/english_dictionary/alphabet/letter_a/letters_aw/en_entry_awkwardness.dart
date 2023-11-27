@@ -33,7 +33,8 @@ class EnglishEntryawkwardness extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She laughed to cover up her feeling of awkwardness."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She laughed to cover up her feeling of awkwardness."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwkwardnesss2(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntryawkwardness extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The awkwardness of the shape makes the desk difficult to lift."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The awkwardness of the shape makes the desk difficult to lift."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwkwardnesss3(String languageCode) async {
@@ -49,7 +51,8 @@ class EnglishEntryawkwardness extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He outgrew his physical awkwardness and became a leading man in school plays."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He outgrew his physical awkwardness and became a leading man in school plays."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwkwardnesss4(String languageCode) async {
@@ -135,9 +138,9 @@ class EnglishEntryawkwardness extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakAwkwardness(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakAwkwardness(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -208,7 +211,7 @@ class EnglishEntryawkwardness extends StatelessWidget {
                             """
 کوردی: ناڕەحەتی، سەرەندەرنەکردوویی، دەس‌خاوی، کێشە
 
-١. (ناو) هەستی شەرم و ناڕەحەتی""",
+١. (ناو) ھەستی شەرم و ناڕەحەتی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -218,7 +221,8 @@ class EnglishEntryawkwardness extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "She laughed to cover up her feeling of awkwardness.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -234,9 +238,9 @@ class EnglishEntryawkwardness extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێکەنی بۆ شاردنەوەی هەستی ناڕەحەتیی.",
+                                    "پێکەنی بۆ شاردنەوەی ھەستی ناڕەحەتیی.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -255,8 +259,9 @@ class EnglishEntryawkwardness extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAwkwardnesss1(// REPLACE: awkwardness
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAwkwardnesss1(// REPLACE: awkwardness
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -265,7 +270,7 @@ class EnglishEntryawkwardness extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) هەبوونی شێوەیەک یان دیزاینێک کە ئاسان نییە مامەڵەی لەگەڵ بکەیت""",
+٢. (ناو) ھەبوونی شێوەیەک یان دیزاینێک کە ئاسان نییە مامەڵەی لەگەڵ بکەیت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -275,7 +280,8 @@ class EnglishEntryawkwardness extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "The awkwardness of the shape makes the desk difficult to lift.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -293,7 +299,7 @@ class EnglishEntryawkwardness extends StatelessWidget {
                                   child: Text(
                                     "نەگونجاوی شێوەی مێزەکە وادەکات ئاسان نەبێت بەرزبکرێتەوە.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -312,8 +318,9 @@ class EnglishEntryawkwardness extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAwkwardnesss2(// REPLACE: awkwardness
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAwkwardnesss2(// REPLACE: awkwardness
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -332,7 +339,8 @@ class EnglishEntryawkwardness extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "He outgrew his physical awkwardness and became a leading man in school plays.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -350,7 +358,7 @@ class EnglishEntryawkwardness extends StatelessWidget {
                                   child: Text(
                                     "خۆی ڕزگارکرد لە جەستە ناڕێکەکەی و بوو بە سەرمەشق لە یارییەکانی قوتابخانە.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -369,8 +377,9 @@ class EnglishEntryawkwardness extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakAwkwardnesss3(// REPLACE: awkwardness
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakAwkwardnesss3(// REPLACE: awkwardness
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -442,7 +451,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/GYk4ymtQ1WM?t=";
+  static String myVideoId = "GYk4ymtQ1WM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -467,7 +476,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/waZyyWnNJ_Y?t=";
+  static String myVideoId = "waZyyWnNJ_Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -492,7 +501,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/qVfJheBp7Ys?t=";
+  static String myVideoId = "qVfJheBp7Ys";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -517,7 +526,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/h8VHaNeuw3o?t=";
+  static String myVideoId = "h8VHaNeuw3o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -542,7 +551,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/bPwnDyW26gk?t=";
+  static String myVideoId = "bPwnDyW26gk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -567,7 +576,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/IPyA8CGk86A?t=";
+  static String myVideoId = "IPyA8CGk86A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -592,7 +601,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/EcgE2LHqff0?t=";
+  static String myVideoId = "EcgE2LHqff0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -617,7 +626,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/tTJeePNgOF8?t=";
+  static String myVideoId = "tTJeePNgOF8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -763,7 +772,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   final YoutubePlayerController _controllertwo = YoutubePlayerController(
 //     initialVideoId: myVideoIdTwo,
 //     flags: const YoutubePlayerFlags(
-      // autoPlay: false,
+// autoPlay: false,
 //       enableCaption: true,
 //       loop: true,
 //       mute: false,

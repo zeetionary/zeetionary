@@ -218,7 +218,7 @@ class EnglishEntryautocratic extends StatelessWidget {
                             """
 کوردی: تاک‌فەرمان‌داری‌یانە، تاکەدەسەڵات‌دارانە، دیکتاتۆڕ، زۆردارانە
 
-١. (ھاوەڵناو) هەبوونی دەسەڵاتی تەواو""",
+١. (ھاوەڵناو) ھەبوونی دەسەڵاتی تەواو""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -276,7 +276,7 @@ class EnglishEntryautocratic extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ھاوەڵناو) هەبوونی چاوەڕوانی گوێڕایەڵیی تەواو و گرنگینەدان بە بۆچوونی کەسانی تر""",
+٢. (ھاوەڵناو) ھەبوونی چاوەڕوانی گوێڕایەڵیی تەواو و گرنگینەدان بە بۆچوونی کەسانی تر""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -302,7 +302,7 @@ class EnglishEntryautocratic extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەرۆکە تاکڕەوەکە کارمەندەکانی بەوردی بەڕێوەدەبرد و هیچ گرنگی بە پێشنیارەکانیان نەدەدا.",
+                                    "سەرۆکە تاکڕەوەکە کارمەندەکانی بەوردی بەڕێوەدەبرد و ھیچ گرنگی بە پێشنیارەکانیان نەدەدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,

@@ -33,7 +33,8 @@ class EnglishEntryaxe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Julian used an axe to chop down the old apple tree."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Julian used an axe to chop down the old apple tree."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAxes2(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntryaxe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Up to 300 workers are facing the axe."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Up to 300 workers are facing the axe."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAxes3(String languageCode) async {
@@ -49,7 +51,8 @@ class EnglishEntryaxe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The series was axed after only six episodes."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The series was axed after only six episodes."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAxes4(String languageCode) async {
@@ -57,7 +60,8 @@ class EnglishEntryaxe extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Michael has been axed from the team."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Michael has been axed from the team."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAxes5(String languageCode) async {
@@ -208,7 +212,7 @@ class EnglishEntryaxe extends StatelessWidget {
                             """
 کوردی: تەور، بیور، باڵتە، سیکارد، بێ‌پۆژ، دەرکردن، لابردن، کەم‌کردنەوەی خەرج یان تێچوون
 
-١. (ناو) ئەسپاپێک کە دەسکێکی دارین و دەمێکی ئاسنینی هەیە بۆ بڕینەوەی دار و تەخە""",
+١. (ناو) ئەسپاپێک کە دەسکێکی دارین و دەمێکی ئاسنینی ھەیە بۆ بڕینەوەی دار و تەخە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -218,7 +222,8 @@ class EnglishEntryaxe extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "Julian used an axe to chop down the old apple tree.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -234,9 +239,9 @@ class EnglishEntryaxe extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جولیان تەورێکی بەکارهێنا بۆ بڕینەوەی دار سێوە کۆنەکە.",
+                                    "جولیان تەورێکی بەکارھێنا بۆ بڕینەوەی دار سێوە کۆنەکە.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -275,7 +280,8 @@ class EnglishEntryaxe extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "Up to 300 workers are facing the axe.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -293,7 +299,7 @@ class EnglishEntryaxe extends StatelessWidget {
                                   child: Text(
                                     "زیاتر لە ٣٠٠ کەس کارەکانیان لەدەستدەدەن.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -322,7 +328,7 @@ class EnglishEntryaxe extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (کردار) کۆتایی پێهێنان""",
+٣. (کردار) کۆتایی پێھێنان""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -332,7 +338,8 @@ class EnglishEntryaxe extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "The series was axed after only six episodes.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -348,9 +355,9 @@ class EnglishEntryaxe extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دراماکە کۆتایی پێهێندرا تەنها لە دوای شەش زنجیرە.",
+                                    "دراماکە کۆتایی پێھێندرا تەنھا لە دوای شەش زنجیرە.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -389,7 +396,8 @@ class EnglishEntryaxe extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "Michael has been axed from the team.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -407,7 +415,7 @@ class EnglishEntryaxe extends StatelessWidget {
                                   child: Text(
                                     "مایکڵ لە تیمەکە دەرکراوە.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -498,7 +506,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/cy3H3QVuKh8?t=";
+  static String myVideoId = "cy3H3QVuKh8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -523,7 +531,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/2LCTdBkLn3o?t=";
+  static String myVideoId = "2LCTdBkLn3o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -548,7 +556,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/ugG1rQphVes";
+  static String myVideoId = "ugG1rQphVes";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -573,7 +581,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/apeZO6C0ZeA?t=";
+  static String myVideoId = "apeZO6C0ZeA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -598,7 +606,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/5lPRTdMLhhg?t=";
+  static String myVideoId = "5lPRTdMLhhg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -623,7 +631,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/vI_B7dtF7Q0?t=";
+  static String myVideoId = "vI_B7dtF7Q0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -648,7 +656,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/uTgyHK45Pq4?t=";
+  static String myVideoId = "uTgyHK45Pq4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -673,7 +681,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/lGSOWwUvJiU?t=";
+  static String myVideoId = "lGSOWwUvJiU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -698,7 +706,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/YrMGIqecu0Y?t=";
+  static String myVideoId = "YrMGIqecu0Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -819,7 +827,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   final YoutubePlayerController _controllertwo = YoutubePlayerController(
 //     initialVideoId: myVideoIdTwo,
 //     flags: const YoutubePlayerFlags(
-      // autoPlay: false,
+// autoPlay: false,
 //       enableCaption: true,
 //       loop: true,
 //       mute: false,

@@ -207,9 +207,9 @@ class EnglishEntryavocado extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ئاڤۆکادۆ، میوەی ئاڤۆکادۆ (هەرمێ‌ئاسا)، ڕەنگی سەوزی گەش (بە ڕەنگی توێکڵی ئەڤۆکادۆ)
+کوردی: ئاڤۆکادۆ، میوەی ئاڤۆکادۆ (ھەرمێ‌ئاسا)، ڕەنگی سەوزی گەش (بە ڕەنگی توێکڵی ئەڤۆکادۆ)
 
-١. (ناو) میوەیەک کە تویکڵێکی سەختی سەوزی کاڵی هەیە لەگەڵ ناوێکی نەرمی سەوزی ڕۆشن کە شیرین نییە و تۆوێکی گەورەی تێدایە""",
+١. (ناو) میوەیەک کە تویکڵێکی سەختی سەوزی کاڵی ھەیە لەگەڵ ناوێکی نەرمی سەوزی ڕۆشن کە شیرین نییە و تۆوێکی گەورەی تێدایە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: avocado (Derived forms: avocados)
+- Noun: avocado (derived forms: avocados)
 1. A pear-shaped tropical fruit with green or blackish skin and rich yellowish pulp enclosing a single large seed (= alligator pear [N. Amer], avocado pear, aguacate, avo [informal])
  
 2. Tropical American tree bearing large pulpy green fruits (= avocado tree, Persea Americana)
@@ -328,7 +328,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/lVoGZiL-kns?t=";
+  static String myVideoId = "lVoGZiL-kns";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -353,7 +353,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/BMYzSFeJHxc?t=";
+  static String myVideoId = "BMYzSFeJHxc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -378,7 +378,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/SpI3QF_Iauc?t=";
+  static String myVideoId = "SpI3QF_Iauc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -403,7 +403,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/rzlqkJf0Wus?t=";
+  static String myVideoId = "rzlqkJf0Wus";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -428,7 +428,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/T-IbAAr4K-Q?t=";
+  static String myVideoId = "T-IbAAr4K-Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -453,7 +453,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/KyNjWBtv_f8?t=";
+  static String myVideoId = "KyNjWBtv_f8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -478,7 +478,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/HbB314wYGaA?t=";
+  static String myVideoId = "HbB314wYGaA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -503,7 +503,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/brdYAn6EZcU?t=";
+  static String myVideoId = "brdYAn6EZcU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -528,7 +528,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/wQO6FZgDbek?t=";
+  static String myVideoId = "wQO6FZgDbek";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

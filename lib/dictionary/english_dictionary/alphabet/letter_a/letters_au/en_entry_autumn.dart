@@ -209,7 +209,7 @@ class EnglishEntryautumn extends StatelessWidget {
                             """
 کوردی: پاییز، گەڵاڕێزان، خەزەڵوەر
 
-١. (ناو) پاییز؛ وەرزی نێوان هاوین و زستان، کە گەڵای دار دەست بە وەری دەکات و کەشوهەوا سارد دەکات""",
+١. (ناو) پاییز؛ وەرزی نێوان ھاوین و زستان، کە گەڵای دار دەست بە وەری دەکات و کەشوھەوا سارد دەکات""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -236,7 +236,7 @@ class EnglishEntryautumn extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "خواست هەمیشە لە پاییز و زستاندا بەرزدەبێتەوە.",
+                                    "خواست ھەمیشە لە پاییز و زستاندا بەرزدەبێتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: autumn (Derived forms: autumns)
+- Noun: autumn (derived forms: autumns)
 1. The season when the leaves fall from the trees (= fall [N. Amer])
 "in the autumn of 1973";
 """),

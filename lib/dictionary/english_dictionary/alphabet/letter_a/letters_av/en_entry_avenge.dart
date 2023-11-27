@@ -207,7 +207,7 @@ class EnglishEntryavenge extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ڕق هەڵگرتن، تۆڵە کردنەوە
+کوردی: ڕق ھەڵگرتن، تۆڵە کردنەوە
 
 ١. (کرادر) تۆڵەکردنەوە""",
                             style: TextStyle(fontSize: 18),
@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: avenge (Derived forms: avenges, avenging, avenged)
+- Verb: avenge (derived forms: avenges, avenging, avenged)
 1. Take revenge for a perceived wrong (= revenge, retaliate)
 "He wants to avenge the murder of his brother";
 """),

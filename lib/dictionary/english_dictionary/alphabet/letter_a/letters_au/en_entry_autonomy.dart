@@ -236,7 +236,7 @@ class EnglishEntryautonomy extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "داوا هەیە بۆ هەندێک خۆبەڕێوبەری لەلایەن کەمینەکانی باکووری وڵاتەکەوە.",
+                                    "داوا ھەیە بۆ ھەندێک خۆبەڕێوبەری لەلایەن کەمینەکانی باکووری وڵاتەکەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -367,7 +367,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: autonomy (Derived forms: autonomies)
+- Noun: autonomy (derived forms: autonomies)
 1. Immunity from arbitrary exercise of authority: political independence (= liberty)
  
 2. Personal independence (= self-direction, self-reliance, self-sufficiency)

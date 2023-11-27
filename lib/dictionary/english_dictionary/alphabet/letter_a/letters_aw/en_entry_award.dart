@@ -33,7 +33,8 @@ class EnglishEntryaward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He was nominated for the best actor award."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He was nominated for the best actor award."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwards2(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntryaward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("As head of the bank, she got an award of £2.18m."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "As head of the bank, she got an award of £2.18m."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwards3(String languageCode) async {
@@ -49,7 +51,8 @@ class EnglishEntryaward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The judge has the power to make damages awards."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The judge has the power to make damages awards."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwards4(String languageCode) async {
@@ -57,7 +60,8 @@ class EnglishEntryaward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Satisfactory completion of the course will lead to the award of the Diploma of Social Work."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Satisfactory completion of the course will lead to the award of the Diploma of Social Work."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwards5(String languageCode) async {
@@ -65,7 +69,8 @@ class EnglishEntryaward extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The prize is awarded annually for the best new building."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The prize is awarded annually for the best new building."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakAwards6(String languageCode) async {
@@ -218,7 +223,8 @@ class EnglishEntryaward extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "He was nominated for the best actor award.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -236,7 +242,7 @@ class EnglishEntryaward extends StatelessWidget {
                                   child: Text(
                                     "کاندیدکرا بۆ خەڵاتی ئۆسکار بۆ باشترین ئەکتەر.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -275,7 +281,8 @@ class EnglishEntryaward extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "As head of the bank, she got an award of £2.18m.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -293,7 +300,7 @@ class EnglishEntryaward extends StatelessWidget {
                                   child: Text(
                                     "وەک سەرۆکی بانکەکە، بەخشیشێکی ٢,١٨ ملیۆن دۆلاری وەرگرت.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -332,7 +339,8 @@ class EnglishEntryaward extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "The judge has the power to make damages awards.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -348,9 +356,9 @@ class EnglishEntryaward extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دادوەرەکە دەسەڵاتی پێدانی قەرەبووی هەیە.",
+                                    "دادوەرەکە دەسەڵاتی پێدانی قەرەبووی ھەیە.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -389,7 +397,8 @@ class EnglishEntryaward extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "Satisfactory completion of the course will lead to the award of the Diploma of Social Work.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -407,7 +416,7 @@ class EnglishEntryaward extends StatelessWidget {
                                   child: Text(
                                     "تەواوکردنی گونجاوی کۆرسەکە دەگات بە پێدانی دیپلۆما لە کاری کۆمەڵایەتی.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -436,7 +445,7 @@ class EnglishEntryaward extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٥. (کردار) پێدانی پارە، خەڵات، قەرەبوو، هتد بە کەسێک""",
+٥. (کردار) پێدانی پارە، خەڵات، قەرەبوو، ھتد بە کەسێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -446,7 +455,8 @@ class EnglishEntryaward extends StatelessWidget {
                               const Expanded(
                                 child: Align(
                                   alignment: Alignment.topLeft,
-                                  child: Text( // DOPSUM_WRITE_A_SENTENCE
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
                                     "The prize is awarded annually for the best new building.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
@@ -464,7 +474,7 @@ class EnglishEntryaward extends StatelessWidget {
                                   child: Text(
                                     "خەڵاتەکە ساڵانە دەبەخشرێت بۆ باشترین بینای تازە.",
                                     textAlign: TextAlign
-                                        .right, // Right-to-left direction 
+                                        .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
                                   ),
                                 ),
@@ -534,7 +544,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: award (Derived forms: awards)
+- Noun: award (derived forms: awards)
 1. (law) a grant made by a law court (= awarding)
 "he criticized the award of compensation by the court";
  
@@ -544,7 +554,7 @@ class EnglishMeaning extends StatelessWidget {
 3. Something given for victory or superiority in a contest or competition or for winning a lottery (= prize)
 "the award was a free trip to Europe";
 
-- Verb: award (Derived forms: awards, awarded, awarding)
+- Verb: award (derived forms: awards, awarded, awarding)
 1. Give, especially as an honour or reward (= present)
  
 2. Give as judged due or on the basis of merit (= grant)
@@ -559,7 +569,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/hS2x1zl4rn0?t=";
+  static String myVideoId = "hS2x1zl4rn0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -584,7 +594,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/YRhqMWUH2Ig?t=";
+  static String myVideoId = "YRhqMWUH2Ig";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -609,7 +619,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/iuOYz8zt9J4?t=";
+  static String myVideoId = "iuOYz8zt9J4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -634,7 +644,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/sV6uuMAnJUE?t=";
+  static String myVideoId = "sV6uuMAnJUE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -659,7 +669,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/HxRUuGqqMG4?t=";
+  static String myVideoId = "HxRUuGqqMG4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -684,7 +694,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/kElsSj8hky4?t=";
+  static String myVideoId = "kElsSj8hky4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -709,7 +719,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/Nqf15ViHSmQ?t=";
+  static String myVideoId = "Nqf15ViHSmQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -734,7 +744,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/Y4E8qEDi_xg?t=";
+  static String myVideoId = "Y4E8qEDi_xg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -759,7 +769,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/bibPGJBDILQ?t=";
+  static String myVideoId = "bibPGJBDILQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -784,7 +794,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/MloJx8bAcOw?t=";
+  static String myVideoId = "MloJx8bAcOw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -809,7 +819,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/A6Pz9V6LzcU?t=";
+  static String myVideoId = "A6Pz9V6LzcU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -880,7 +890,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   final YoutubePlayerController _controllertwo = YoutubePlayerController(
 //     initialVideoId: myVideoIdTwo,
 //     flags: const YoutubePlayerFlags(
-      // autoPlay: false,
+// autoPlay: false,
 //       enableCaption: true,
 //       loop: true,
 //       mute: false,

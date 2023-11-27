@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ab/en_entry_aback.dart';
 // import 'package:zeetionary/grammar/grammar_screen.dart';
 
-
 class QuestionsScreen extends StatefulWidget {
   const QuestionsScreen({super.key});
 
@@ -48,7 +47,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Padding(
-            padding: const EdgeInsets.all(16.0),
+            padding: const EdgeInsets.all(12.0),
             child: SizedBox(
               height: 60,
               child: TextField(

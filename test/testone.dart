@@ -50,7 +50,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
             textDirection:
                 TextDirection.ltr, // Set the text direction to right-to-left
             child: Padding(
-              padding: const EdgeInsets.all(12.0),
+              padding: const EdgeInsets.all(16.0),
               child: SizedBox(
                 height: 60,
                 child: TextField(

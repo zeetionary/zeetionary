@@ -796,7 +796,7 @@ class EnglishEntryback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٧. (ھاوەڵناو) کەوتنە بەشی پشتەوە""",
+٨. (ھاوەڵناو) کەوتنە بەشی پشتەوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -854,7 +854,7 @@ class EnglishEntryback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٨. (ھاوەڵناو) لە ڕابردوودا""",
+٩. (ھاوەڵناو) لە ڕابردوودا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -912,7 +912,7 @@ class EnglishEntryback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٩. (ھاوەڵناو) بڕە پارەیەک کە درەنگتر لەکاتی خۆی دەدرێت""",
+١٠. (ھاوەڵناو) بڕە پارەیەک کە درەنگتر لەکاتی خۆی دەدرێت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -970,7 +970,7 @@ class EnglishEntryback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١٠. (ھاوەڵناو) دەنگێک کە درووست‌دەکرێت بەوەی پشتەوەی زمان بەرزتر دەبێت لە پێشەوەی زمان، بۆ نموونە دەنگی /ɑː/ لە ئینگلیزیدا""",
+١١. (ھاوەڵناو) دەنگێک کە درووست‌دەکرێت بەوەی پشتەوەی زمان بەرزتر دەبێت لە پێشەوەی زمان، بۆ نموونە دەنگی /ɑː/ لە ئینگلیزیدا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -1037,7 +1037,7 @@ class EnglishEntryback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١٢. (ھاوەڵکار) لە دواوە""",
+١٣. (ھاوەڵکار) لە دواوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -1095,7 +1095,7 @@ class EnglishEntryback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١٣. (ھاوەڵکار) لە شوێنێکی پێشووتر""",
+١٤. (ھاوەڵکار) لە شوێنێکی پێشووتر""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -1153,7 +1153,7 @@ class EnglishEntryback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١٤. (ھاوەڵکار) لە وەڵامدا""",
+١٥. (ھاوەڵکار) لە وەڵامدا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -1211,7 +1211,7 @@ class EnglishEntryback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١٥. (ھاوەڵکار) دوور لە شتێک""",
+١٦. (ھاوەڵکار) دوور لە شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -1269,7 +1269,7 @@ class EnglishEntryback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١٦. (ھاوەڵکار) پێش ئێستا""",
+١٧. (ھاوەڵکار) پێش ئێستا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -1327,7 +1327,7 @@ class EnglishEntryback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١٧. (ھاوەڵکار) لە ژێر کۆنترۆڵ""",
+١٨. (ھاوەڵکار) لە ژێر کۆنترۆڵ""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -1385,7 +1385,7 @@ class EnglishEntryback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١٨. (ھاوەڵکار) شتێک کە دووبارە بووە بە مۆدە""",
+١٩. (ھاوەڵکار) شتێک کە دووبارە بووە بە مۆدە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -1443,7 +1443,7 @@ class EnglishEntryback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١٩. (کردار) ھاندان یان یارمەتیدان""",
+٢٠. (کردار) ھاندان یان یارمەتیدان""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -1501,7 +1501,7 @@ class EnglishEntryback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢٠. (کردار) پاڵپشتی‌کردن و ڕازیبوون لەگەڵ کەسێک """,
+٢١. (کردار) پاڵپشتی‌کردن و ڕازیبوون لەگەڵ کەسێک """,
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -1559,7 +1559,7 @@ class EnglishEntryback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢١. (کردار) یارمەتیدان لە سەلماندنی ڕاستییەتی شتێک """,
+٢٢. (کردار) یارمەتیدان لە سەلماندنی ڕاستییەتی شتێک """,
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -1617,7 +1617,7 @@ class EnglishEntryback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢٢. (کردار) خستنە گرەوی پارە لە بەرژەوەندی ئەسپێک لە پێشبڕکێیەکدا یان تیمێک لە پاڵەوانێتییەکدا""",
+٢٣. (کردار) خستنە گرەوی پارە لە بەرژەوەندی ئەسپێک لە پێشبڕکێیەکدا یان تیمێک لە پاڵەوانێتییەکدا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -1675,7 +1675,7 @@ class EnglishEntryback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢٣. (کردار) وا لە شتێک بکەیت بۆ دواوە بجووڵێت""",
+٢٤. (کردار) وا لە شتێک بکەیت بۆ دواوە بجووڵێت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -1733,7 +1733,7 @@ class EnglishEntryback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢٤. (کردار) داپۆشینی پشتەوەی شتێک بۆ پاراستنی""",
+٢٥. (کردار) داپۆشینی پشتەوەی شتێک بۆ پاراستنی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -1791,7 +1791,7 @@ class EnglishEntryback extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢٥. (کردار) بوون لە پشتەوەی شتێک""",
+٢٦. (کردار) بوون لە پشتەوەی شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,

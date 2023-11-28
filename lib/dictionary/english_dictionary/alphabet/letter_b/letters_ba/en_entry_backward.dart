@@ -6,87 +6,130 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "background" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
+// Define the word "backward" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
 
-// replace background - replace EnglishEntrybackground
+// replace backward - replace EnglishEntrybackward
 
-// replace speakBackground - /ˈbækɡraʊnd/ - find WORD_WEB
+// replace speakBackward - /ˈbækwəd/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntrybackground extends StatelessWidget {
+class EnglishEntrybackward extends StatelessWidget {
   // blank divider
-  EnglishEntrybackground({super.key});
+  EnglishEntrybackward({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakB3(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBackward(String languageCode) async {
+    // DOPSUM: CHANGE speakBackward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("background"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("backward"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s1(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "We come from very different backgrounds but we get on well."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakB3s2(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The book explains the complex historical background to the war."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakB3s3(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The mountains in the background were capped with snow."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakB3s4(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBackwards1(String languageCode) async {
+    // DOPSUM: CHANGE speakBackward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("There was a lot of background noise."); // DOPSUM: CHANGE TEXT
+        .speak("She left without a backward glance."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s5(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBackwards2(String languageCode) async {
+    // DOPSUM: CHANGE speakBackward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The name of the company is written in red on a white background."); // DOPSUM: CHANGE TEXT
+        "She felt that going back to live in her home town would be a backward step."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s6(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBackwards3(String languageCode) async {
+    // DOPSUM: CHANGE speakBackward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s66"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She's not backward in coming forward."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s7(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBackwards4(String languageCode) async {
+    // DOPSUM: CHANGE speakBackward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "When he was a child, his teachers thought he was backward."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBackwards5(String languageCode) async {
+    // DOPSUM: CHANGE speakBackward
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "People still think of it as a backward country."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBackwards6(String languageCode) async {
+    // DOPSUM: CHANGE speakBackward
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("He took a step backward."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBackwards7(String languageCode) async {
+    // DOPSUM: CHANGE speakBackward
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "In the movie they take a journey backward through time."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBackwards8(String languageCode) async {
+    // DOPSUM: CHANGE speakBackward
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "I felt that going to live with my parents would be a step backward."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBackwards9(String languageCode) async {
+    // DOPSUM: CHANGE speakBackward
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "‘Ambulance’ is written backwards so you can read it in the mirror."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBackwards10(String languageCode) async {
+    // DOPSUM: CHANGE speakBackward
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBackwards1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBackwards11(String languageCode) async {
+    // DOPSUM: CHANGE speakBackward
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBackwards1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBackwards12(String languageCode) async {
+    // DOPSUM: CHANGE speakBackward
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBackwards1212"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -111,7 +154,7 @@ class EnglishEntrybackground extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "background", // DOPSUM: CHANGE WORD ENTRY
+                                "backward", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -130,7 +173,7 @@ class EnglishEntrybackground extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˈbækɡraʊnd/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈbækwəd/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -141,7 +184,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakB3(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakBackward(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -151,7 +194,7 @@ class EnglishEntrybackground extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˈbækɡraʊnd/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /ˈbækwərd/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -161,7 +204,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakB3(
+                              onPressed: () => speakBackward(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -211,9 +254,9 @@ class EnglishEntrybackground extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: پاش‌خان، تەخت(ـار)، پشتار، زەمینە، پێشینە، ڕابووری، ڕەوش، بارودۆخ، ھەل‌ومەرج، کاودان، وردەکاری، (کامپیوتێر) بەک‌گرەوند، (کەسێ) لایەن ئەزموون و پەروەردە (و بارودۆخ یان ھەل‌ومەرجی کۆمەڵایەتی)ی کەسێ، پێشینە
+کوردی: پشتەوە، دواوە، بۆ دواوە، بەرەوپاش، بەرەودوا، خاو، تەمەڵ، دواکەوتوو، پاش‌کەوتوو، کەم‌ڕوو، شەرمێون، بۆ پشتەوە، بۆ دواوە، بەرەو پشتەوە، بەرەو دواوە، بەرەوپاش، بەرەودوا، ڕوو لە پشتەوە، بەرەو خراپی، ئاوەژوو، سەرەونخوون، پشتەوپاش، پێچەوانە، پاشەوپاش، پشتاوپشت، لە ئاخرەوە، لە دواوە
 
-١. (ناو) زانیاری لەسەر کەسێک سەبارەت بە خێزانەکەی، خوێندنی، ئەزموونی، ھتد""",
+١. (ھاوەڵناو) بەرەو دواوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -225,7 +268,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "We come from very different backgrounds but we get on well.",
+                                    "She left without a backward glance.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -240,7 +283,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دوو پێشینەی جیاوازمان ھەیە بەڵام باش پێکەوە ھەڵدەکەین.",
+                                    "ڕۆشت بەبێ ئەوەی سەیری دواوە بکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -253,7 +296,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakB3s1("en-GB"),
+                                onPressed: () => speakBackwards1("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -262,7 +305,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakB3s1(// REPLACE: background
+                                    speakBackwards1(// REPLACE: backward
                                         "en-US"),
                               ),
                             ],
@@ -272,7 +315,7 @@ class EnglishEntrybackground extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) زانیاری ڕابردوو کە یارمەتیدەر دەبێت لە ڕوونکردنەوەی ڕوودانی شتێک""",
+٢. (ھاوەڵناو) بە ئاراستەیەک کە واتا ھیچ بەرەوپێشچوون ڕووینەداوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -284,7 +327,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "The book explains the complex historical background to the war.",
+                                    "She felt that going back to live in her home town would be a backward step.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -299,7 +342,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کتێبەکە ھەلومەرجی ئاڵۆزی پێش جەنگەکە ڕووندەکاتەوە.",
+                                    "وای ھەستکرد گەڕانەوە بۆ ژیانکردن لە شارەکەی ھەنگاوێکی بەتاڵ دەبێ.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -312,7 +355,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakB3s2("en-GB"),
+                                onPressed: () => speakBackwards2("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -321,7 +364,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakB3s2(// REPLACE: background
+                                    speakBackwards2(// REPLACE: backward
                                         "en-US"),
                               ),
                             ],
@@ -331,7 +374,7 @@ class EnglishEntrybackground extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ناو) بەشی پشتەوەی وێنەیەک یان دیمەنێک""",
+٣. (ھاوەڵناو) کەمتر لە کەسانی تر یان شتی تر لە ڕووی گەشە و پێشکەوتن""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -343,7 +386,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "The mountains in the background were capped with snow.",
+                                    "She's not backward in coming forward (= she's not shy).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -358,7 +401,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چیاکانی پشتەوە بە بەفر داپۆشرابوون.",
+                                    "ناسڵەمێتەوە لە ھاتنە پێشەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -371,7 +414,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakB3s3("en-GB"),
+                                onPressed: () => speakBackwards3("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -380,7 +423,58 @@ class EnglishEntrybackground extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakB3s3(// REPLACE: background
+                                    speakBackwards3(// REPLACE: backward
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
+                                    "People still think of it as a backward country (= one without industry or modern machines).",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "خەڵکی ھێشتا وەک وڵاتێکی دواکەوتوو بیری‌لێ‌دەکەنەوە.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakBackwards5("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakBackwards5(// REPLACE: backward
                                         "en-US"),
                               ),
                             ],
@@ -390,7 +484,7 @@ class EnglishEntrybackground extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٤. (ناو) شتێک یان کەسێک کە گرنگی پێ نادرێت، یان کەمتر لە شتێک یان کەسێکی تر گرنگی پێ دەدرێت""",
+٤. (ھاوەڵناو) منداڵێک کە ئاسان فێرنابێت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -402,7 +496,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "There was a lot of background noise (= that you could hear, but were not listening to).",
+                                    "When he was a child, his teachers thought he was backward (= unable to learn as much as most children).",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -417,7 +511,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕێژەیەکی زۆر ژاوەژاو لە پشتەوە ھەبوو.",
+                                    "کە منداڵ بوو مامۆستاکان وایان دەزانی گەلحۆیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -430,7 +524,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakB3s4("en-GB"),
+                                onPressed: () => speakBackwards4("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -439,7 +533,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakB3s4(// REPLACE: background
+                                    speakBackwards4(// REPLACE: backward
                                         "en-US"),
                               ),
                             ],
@@ -449,7 +543,7 @@ class EnglishEntrybackground extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٥. (ناو) ڕەنگێک یان دیزاینێک کە لە سەری شتێک دەکێشرێت یان دەنووسرێت""",
+٥. (ھاوەڵکار) بەرەو دواوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -461,7 +555,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "The name of the company is written in red on a white background.",
+                                    "He took a step backward.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -476,7 +570,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ناوی کۆمپانیاکە بە سوور نووسراوە لەسەر باکگراوندێکی سپی.",
+                                    "ھەنگاوێکی بەرەو دواوە نا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -489,7 +583,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakB3s5("en-GB"),
+                                onPressed: () => speakBackwards6("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -498,7 +592,175 @@ class EnglishEntrybackground extends StatelessWidget {
                                   color: Colors.red,
                                 ),
                                 onPressed: () =>
-                                    speakB3s5(// REPLACE: background
+                                    speakBackwards6(// REPLACE: backward
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٦. (ھاوەڵکار) پێچەوانەی دۆخی ئاسایی""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
+                                    "‘Ambulance’ is written backwards so you can read it in the mirror.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "وشەی ‘Ambulance’ بەپێچەوانەوە دەنووسرێت بۆ ئەوەی بتوانی بیخوێنیتەوە لە ئاوێنەدا.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakBackwards9("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakBackwards9(// REPLACE: backward
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
+                                    "In the movie they take a journey backward through time.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "لە فیلمەکەدا بەرەو دواوە گەشت بە کاتدا دەکەن.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakBackwards7("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakBackwards7(// REPLACE: backward
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٧. (ھاوەڵکار) بۆ دۆخێکی خراپتر""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
+                                    "I felt that going to live with my parents would be a step backward.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "ھەستمکرد گەڕانەوە بۆ ژیانکردن لەگەڵ دایک و باوکم ھەنگاوێک بۆ دواوە دەبێت.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakBackwards8("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakBackwards8(// REPLACE: backward
                                         "en-US"),
                               ),
                             ],
@@ -549,35 +811,28 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-Noun: background (Derived forms: backgrounds)
-1. A person's social heritage: previous experience or training
-"he is a lawyer with a sports background"
+- Adverb: backward
+1. At or to or toward the back or rear (= back, backwards, rearward, rearwards)
+"tripped when he stepped backward";
  
-2. The part of a scene (or picture) that lies behind objects in the foreground (= ground, backdrop)
-"he posed her against a background of rolling hills";
+2. In a manner, order or direction the reverse of normal (= backwards)
+"the child put her jersey on backward"; "it's easy to get the 'i' and the 'e' backward in words like 'seize' and 'siege'";
  
-3. Information that is essential to understanding a situation or problem (= background knowledge)
-"the embassy filled him in on the background of the incident";
- 
-4. Extraneous signals that can be confused with the phenomenon to be observed or measured (= background signal)
-"they got a bad connection and could hardly hear one another over the background signals";
- 
-5. Relatively unimportant or inconspicuous accompanying situation
-"when the rain came he could hear the sound of thunder in the background"
- 
-6. The state of the environment in which a situation exists (= setting, scope)
-"you can't do that in a university background";
- 
-7. (computing) the area of the screen in graphical user interfaces against which icons and windows appear (= desktop, screen background)
- 
-8. Scenery hung at the back of a stage (= backdrop, backcloth)
- 
-9. (computing) activity on a computer not requiring user input
+3. In, to or toward a past time (= back)
+"lovers of the past looking fondly backward";
 
-- Verb: background Derived forms: backgrounds, backgrounding, backgrounded
-1. Understate the importance or quality of (= play down, downplay)
+- Adjective: backward
+1. Slow to understand, learn or think; stupid (= half-witted, slow-witted, feebleminded, dull-witted [archaic])
+"Poor backward Charlie was kept steadily at work";
  
-2. Provide or form a background
+2. Having made less than normal progress
+"an economically backward country"
+ 
+3. Directed or facing toward the back or rear
+"a backward view"
+ 
+4. (used of temperament or behaviour) marked by a retiring nature
+"a backward lover"
 """),
         ],
       ),
@@ -588,12 +843,12 @@ Noun: background (Derived forms: backgrounds)
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "NFtQOxjWfaA";
+  static String myVideoId = "Tldlt2RhrDw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 377, // DOPSUM: CHANGE IT
+      startAt: 220, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -613,12 +868,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "YRhqMWUH2Ig";
+  static String myVideoId = "XlHzvTEstz8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 378, // DOPSUM: CHANGE IT
+      startAt: 240, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -638,12 +893,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "R_fZjGm2OrM";
+  static String myVideoId = "HAnw168huqA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 235, // DOPSUM: CHANGE IT
+      startAt: 2440, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -663,12 +918,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "SEZu7K5tGxw";
+  static String myVideoId = "VIW0N6AZ4wg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 132, // DOPSUM: CHANGE IT
+      startAt: 117, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -688,12 +943,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "nDb6-9-MTw4";
+  static String myVideoId = "mjCAyo2Litw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 3078, // DOPSUM: CHANGE IT
+      startAt: 670, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -713,12 +968,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "6N5l0sgPP5k";
+  static String myVideoId = "3KC32Vymo0Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 58, // DOPSUM: CHANGE IT
+      startAt: 20, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -738,12 +993,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "Fa13JKGG0ds";
+  static String myVideoId = "1I1vxu5qIUM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 144, // DOPSUM: CHANGE IT
+      startAt: 1062, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -763,12 +1018,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "b1reY72ktEc";
+  static String myVideoId = "JW_tADt9KDM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1294, // DOPSUM: CHANGE IT
+      startAt: 269, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -788,12 +1043,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "PmlRbfSavbI";
+  static String myVideoId = "Ot4qdCs54ZE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 245, // DOPSUM: CHANGE IT
+      startAt: 949, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -813,12 +1068,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "58XEfDtU0Z4";
+  static String myVideoId = "CX0XP3d0q2Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 57, // DOPSUM: CHANGE IT
+      startAt: 656, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -838,12 +1093,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "LxdoC2sG1i4";
+  static String myVideoId = "NQZ5BfdjDv0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 684, // DOPSUM: CHANGE IT
+      startAt: 1338, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -863,12 +1118,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "nGrB-5ieeMU";
+  static String myVideoId = "aDMjgOYOcDw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 515, // DOPSUM: CHANGE IT
+      startAt: 1405, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -948,4 +1203,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end background // TODO Implement this library.
+// end backward // TODO Implement this library.

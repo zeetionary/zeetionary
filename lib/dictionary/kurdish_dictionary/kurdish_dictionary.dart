@@ -51,7 +51,7 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
             textDirection:
                 TextDirection.rtl, // Set the text direction to right-to-left
             child: Padding(
-              padding: const EdgeInsets.all(12.0),
+              padding: const EdgeInsets.all(16.0),
               child: SizedBox(
                 height: 60,
                 child: TextField(

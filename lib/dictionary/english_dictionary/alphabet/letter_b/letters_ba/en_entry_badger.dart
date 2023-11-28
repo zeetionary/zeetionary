@@ -6,83 +6,84 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "backside" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
+// Define the word "badger" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
 
-// replace backside - replace EnglishEntrybackside
+// replace badger - replace EnglishEntrybadger
 
-// replace speakBackside - /ˈbæksaɪd/ - find WORD_WEB
+// replace speakBadger - /ˈbædʒə(r)/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntrybackside extends StatelessWidget {
+class EnglishEntrybadger extends StatelessWidget {
   // blank divider
-  EnglishEntrybackside({super.key});
+  EnglishEntrybadger({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakB3(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBadger(String languageCode) async {
+    // DOPSUM: CHANGE speakBadger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("backside"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("badger"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s1(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBadgers1(String languageCode) async {
+    // DOPSUM: CHANGE speakBadger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Get up off your backside and do some work!"); // DOPSUM: CHANGE TEXT
+        "The owl's predators include hawks, larger owls, snakes, and badgers."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s2(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBadgers2(String languageCode) async {
+    // DOPSUM: CHANGE speakBadger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I finally badgered him into coming with us."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s3(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBadgers3(String languageCode) async {
+    // DOPSUM: CHANGE speakBadger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBadgers33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s4(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBadgers4(String languageCode) async {
+    // DOPSUM: CHANGE speakBadger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBadgers44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s5(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBadgers5(String languageCode) async {
+    // DOPSUM: CHANGE speakBadger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBadgers55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s6(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBadgers6(String languageCode) async {
+    // DOPSUM: CHANGE speakBadger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBadgers66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakB3s7(String languageCode) async {
-    // DOPSUM: CHANGE speakB3
+  Future<void> speakBadgers7(String languageCode) async {
+    // DOPSUM: CHANGE speakBadger
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakB3s77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBadgers77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -107,7 +108,7 @@ class EnglishEntrybackside extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "backside", // DOPSUM: CHANGE WORD ENTRY
+                                "badger", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -126,7 +127,7 @@ class EnglishEntrybackside extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˈbæksaɪd/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈbædʒə(r)/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -137,7 +138,7 @@ class EnglishEntrybackside extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakB3(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakBadger(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -147,7 +148,7 @@ class EnglishEntrybackside extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˈbæksaɪd/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /ˈbædʒər/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -157,7 +158,7 @@ class EnglishEntrybackside extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakB3(
+                              onPressed: () => speakBadger(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -207,9 +208,9 @@ class EnglishEntrybackside extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: سمت، کنگ، ھێت، پاشوو، دواوە، پشتەوە
+کوردی: چالەکە، چواڵوو، کوڕەبەش، تژی، کوڕبەشە، گۆڕھەڵکەنە، گۆڕھەڵتەکێنە
 
-١. (ناو) سمت""",
+١. (ناو) ئاژەڵێکە کە فەرووی خۆڵەمێشی ھەیە لەگەڵ ھێڵی ڕەش و سپی لەسەر سەری. ئاژەڵەکە زیاتر لە شەودا چالاکە و لە کوندا دەژین""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -221,7 +222,7 @@ class EnglishEntrybackside extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "Get up off your backside and do some work!",
+                                    "The owl's predators include hawks, larger owls, snakes, and badgers.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -236,7 +237,7 @@ class EnglishEntrybackside extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سمتت لە ئەرز ھەڵبڕە و کارێک بکە.",
+                                    "ئاژەڵە ڕاوکەرەکانی کوندەپەپوو بریتین لە ھەڵۆ، کوندەپەپووی گەورەتر، مار، و گۆڕھەڵکەنە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -249,7 +250,7 @@ class EnglishEntrybackside extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakB3s1("en-GB"),
+                                onPressed: () => speakBadgers1("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -257,8 +258,68 @@ class EnglishEntrybackside extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakB3s1(// REPLACE: backside
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBadgers1(// REPLACE: badger
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+١. (کردار) پەستان خستنەسەر کەسێک بە دووبارە و دووبارە پرسیارکردن یان داواکردنی شتێک""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
+                                    "I finally badgered him into coming with us.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "لەکۆتاییدا ناچار بە ھاتنم کرد.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakBadgers2("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakBadgers2(// REPLACE: badger
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -308,12 +369,17 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: backside (Derived forms: backsides)
-1. The side of an object that is opposite its front (= rear, back end)
-"his room was toward the backside of the hotel";
+- Verb: badger (Derived forms: badgering, badgered, Badgers, badgers)
+1. Annoy persistently (= tease, pester, bug, beleaguer)
+"The children badgered the boy because of his stammer";
  
-2. The fleshy part of the human body that you sit on (= buttocks, nates [technical], butt [N. Amer, informal], bum [Brit, informal], buns [N. Amer, informal], can [N. Amer, informal], fundament, hindquarters, hind end, posterior, rear [informal], rear end [informal], rump, stern [informal], seat, tail [N. Amer, informal], tail end, tooshie [informal], tush [N. Amer, informal], bottom, behind, derriere, bahookie [UK, dialect, informal], botty [informal], heinie [US, informal], duff [N. Amer, informal], booty [N. Amer, informal], patootie [US, informal], tushy [N. Amer, informal], derrière)
-"he deserves a good kick in the backside";
+2. Persuade through constant efforts
+
+- Noun: badger (Derived forms: badgers)
+1. Sturdy carnivorous burrowing mammal with strong claws; widely distributed in the Northern Hemisphere (= brock [Brit])
+
+- Noun: Badger (Derived forms: Badgers)
+1. A native or resident of Wisconsin (= Wisconsinite)
 """),
         ],
       ),
@@ -324,12 +390,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "g-7ZWPCWv0U";
+  static String myVideoId = "mCtSiImXpRo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 236, // DOPSUM: CHANGE IT
+      startAt: 129, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -349,12 +415,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "V3NGBo2M1Ps";
+  static String myVideoId = "DkvLCjFiODw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 290, // DOPSUM: CHANGE IT
+      startAt: 32, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -374,12 +440,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "OOg-4mtA3Zo";
+  static String myVideoId = "KrChYx_sFK0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 629, // DOPSUM: CHANGE IT
+      startAt: 64, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -399,12 +465,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "fjCinn-sjzk";
+  static String myVideoId = "jXqJF8_WIUg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 584, // DOPSUM: CHANGE IT
+      startAt: 6, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -424,12 +490,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "d_fHun8jj2g";
+  static String myVideoId = "99_SLS5hVVw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 347, // DOPSUM: CHANGE IT
+      startAt: 42, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -449,12 +515,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "T15gXm6ha_I";
+  static String myVideoId = "ymxKmNyh2Pw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 640, // DOPSUM: CHANGE IT
+      startAt: 51, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -474,12 +540,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "wtXjHtnglxU";
+  static String myVideoId = "Fp77XYj0Wx4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 178, // DOPSUM: CHANGE IT
+      startAt: 214, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -499,12 +565,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "swlozUKuvFI";
+  static String myVideoId = "gd2ws3OoV5k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 155, // DOPSUM: CHANGE IT
+      startAt: 13, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -524,12 +590,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "TfH85qWVilQ";
+  static String myVideoId = "5Kw57TxZTHM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 720, // DOPSUM: CHANGE IT
+      startAt: 3114, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -549,12 +615,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "DvDwlyGthtY";
+  static String myVideoId = "hSFze1HRDng";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 174, // DOPSUM: CHANGE IT
+      startAt: 727, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -574,12 +640,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "JObYtU7Y7ag";
+  static String myVideoId = "YfSISl-zMeU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 347, // DOPSUM: CHANGE IT
+      startAt: 1478, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -599,12 +665,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "Q1bSDnuIPbo";
+  static String myVideoId = "Ht8D7Q31P3c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 919, // DOPSUM: CHANGE IT
+      startAt: 828, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -684,4 +750,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end backside // TODO Implement this library.
+// end badger // TODO Implement this library.

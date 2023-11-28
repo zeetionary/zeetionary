@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_string_escapes
+
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:zeetionary/constants.dart';
@@ -205,7 +207,6 @@ class EnglishEntrybackslash extends StatelessWidget {
                         children: [
                           Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            // ignore: unnecessary_string_escapes
                             """
 ١. (ناو) نیشانەی ( \ ) کە لە کۆمپیوتەردا بەکاردێت""",
                             style: TextStyle(fontSize: 18),
@@ -304,7 +305,6 @@ class EnglishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
-          // ignore: unnecessary_string_escapes
           Text("""
 - Noun: backslash (Derived forms: backslashes)
 1. The backward slash character "\"

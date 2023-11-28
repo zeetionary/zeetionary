@@ -1272,6 +1272,22 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bacon.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bacteria.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bacterial.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bad.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bad_debt.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_baddy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bad_language.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_badly.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_badness.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_badge.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_badger.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_badminton.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bad_tempered.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_baffle.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bag.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_baggage.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_baggy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bagpipes.dart';
+// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
@@ -2664,7 +2680,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-backache": (_) => MaterialPage(child: EnglishEntrybackache()),
   "/english-backbencher": (_) => MaterialPage(child: EnglishEntrybackbencher()),
   "/english-backbone": (_) => MaterialPage(child: EnglishEntrybackbone()),
-  "/english-back-breaking": (_) => MaterialPage(child: EnglishEntrybackbreaking()),
+  "/english-back-breaking": (_) =>
+      MaterialPage(child: EnglishEntrybackbreaking()),
   "/english-background": (_) => MaterialPage(child: EnglishEntrybackground()),
   "/english-backhand": (_) => MaterialPage(child: EnglishEntrybackhand()),
   "/english-backhanded": (_) => MaterialPage(child: EnglishEntrybackhanded()),
@@ -2690,21 +2707,23 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bacon": (_) => MaterialPage(child: EnglishEntrybacon()),
   "/english-bacteria": (_) => MaterialPage(child: EnglishEntrybacteria()),
   "/english-bacterial": (_) => MaterialPage(child: EnglishEntrybacterial()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-bad": (_) => MaterialPage(child: EnglishEntrybad()),
+  "/english-bad-debt": (_) => MaterialPage(child: EnglishEntrybaddebt()),
+  "/english-baddy": (_) => MaterialPage(child: EnglishEntrybaddy()),
+  "/english-bad-language": (_) =>
+      MaterialPage(child: EnglishEntrybadlanguage()),
+  "/english-badly": (_) => MaterialPage(child: EnglishEntrybadly()),
+  "/english-badness": (_) => MaterialPage(child: EnglishEntrybadness()),
+  "/english-badge": (_) => MaterialPage(child: EnglishEntrybadge()),
+  "/english-badger": (_) => MaterialPage(child: EnglishEntrybadger()),
+  "/english-badminton": (_) => MaterialPage(child: EnglishEntrybadminton()),
+  "/english-bad-tempered": (_) =>
+      MaterialPage(child: EnglishEntrybadtempered()),
+  "/english-baffle": (_) => MaterialPage(child: EnglishEntrybaffle()),
+  "/english-bag": (_) => MaterialPage(child: EnglishEntrybag()),
+  "/english-baggage": (_) => MaterialPage(child: EnglishEntrybaggage()),
+  "/english-baggy": (_) => MaterialPage(child: EnglishEntrybaggy()),
+  "/english-bagpipes": (_) => MaterialPage(child: EnglishEntrybagpipes()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

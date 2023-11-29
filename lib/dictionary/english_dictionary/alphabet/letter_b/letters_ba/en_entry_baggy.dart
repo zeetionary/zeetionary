@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adjective: baggy (Derived forms: baggier, baggiest)
+- Adjective: baggy (derived forms: baggier, baggiest)
 1. Not fitting closely; hanging loosely (= loose-fitting, sloppy, saggy)
 "baggy trousers";
 """),

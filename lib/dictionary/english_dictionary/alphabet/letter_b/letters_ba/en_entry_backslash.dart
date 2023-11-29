@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: backslash (Derived forms: backslashes)
+- Noun: backslash (derived forms: backslashes)
 1. The backward slash character "\"
 "often quotation marks are escaped by prefixing with a backslash"
 """),

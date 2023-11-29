@@ -6,87 +6,88 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "badge" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
+// Define the word "ball" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
 
-// replace badge - replace EnglishEntrybadge
+// replace ball - replace EnglishEntryball
 
-// replace speakBadge - /bædʒ/ - find WORD_WEB
+// replace speakBall - /bɔːl/
 
 enum TtsState { playing }
 
-class EnglishEntrybadge extends StatelessWidget {
-  // blank divider
-  EnglishEntrybadge({super.key});
-  // blank divider
+class EnglishEntryball extends StatelessWidget {
+// blank divider
+  EnglishEntryball({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBadge(String languageCode) async {
-    // DOPSUM: CHANGE speakBadge
+  Future<void> speakBall(String languageCode) async {
+    // DOPSUM: CHANGE speakBall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("badge"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("ball"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadges1(String languageCode) async {
-    // DOPSUM: CHANGE speakBadge
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She wore a badge saying ‘Vote for Obama’."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBadges2(String languageCode) async {
-    // DOPSUM: CHANGE speakBadge
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He pulled out a badge and said he was a cop."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBadges3(String languageCode) async {
-    // DOPSUM: CHANGE speakBadge
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He sewed the school badge neatly onto his uniform."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBadges4(String languageCode) async {
-    // DOPSUM: CHANGE speakBadge
+  Future<void> speakBalls1(String languageCode) async {
+    // DOPSUM: CHANGE speakBall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("His gun was a badge of power for him."); // DOPSUM: CHANGE TEXT
+        .speak("He kicked the ball into the net."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadges5(String languageCode) async {
-    // DOPSUM: CHANGE speakBadge
+  Future<void> speakBalls2(String languageCode) async {
+    // DOPSUM: CHANGE speakBall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He saw his injuries as a badge of honour."); // DOPSUM: CHANGE TEXT
+        "The little girl curled into a ball in her mother's arms."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadges6(String languageCode) async {
-    // DOPSUM: CHANGE speakBadge
+  Future<void> speakBalls3(String languageCode) async {
+    // DOPSUM: CHANGE speakBall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBadges66"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("That's a great ball from Kane."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadges7(String languageCode) async {
-    // DOPSUM: CHANGE speakBadge
+  Future<void> speakBalls4(String languageCode) async {
+    // DOPSUM: CHANGE speakBall
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBadges77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The ball of the hand is the fleshy part at the base of the thumb."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBalls5(String languageCode) async {
+    // DOPSUM: CHANGE speakBall
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("He noticed a lump in his left ball."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBalls6(String languageCode) async {
+    // DOPSUM: CHANGE speakBall
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("She met him at the ball."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBalls7(String languageCode) async {
+    // DOPSUM: CHANGE speakBall
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Her hands balled into fists."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -111,7 +112,7 @@ class EnglishEntrybadge extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "badge", // DOPSUM: CHANGE WORD ENTRY
+                                "ball", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -130,7 +131,7 @@ class EnglishEntrybadge extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /bædʒ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /bɔːl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -141,7 +142,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakBadge(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakBall(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -151,7 +152,7 @@ class EnglishEntrybadge extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /bædʒ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /bɔːl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -161,7 +162,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakBadge(
+                              onPressed: () => speakBall(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -211,9 +212,9 @@ class EnglishEntrybadge extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: نیشانە، دروشم، ئاڕم، بەرژەنگ، یافتە، درف، پڵاک، ھێما، نموونە
+کوردی: تۆپ، گۆگ، خڕۆکە، گۆ، گرمۆڵە، کولو (خوری و ھتد)، گڵۆڵە، تۆپ، گنا، گوللە، ساچمە، گلۆر، گروڤەر، گلۆر، خڕی، شایی، سەما (کۆڕ)
 
-١. (ناو) پارچەیەکی بچووک ئاسن یان پلاستیک کە دیزاین یان وشەی لەسەرە و کەسێک دەیپۆشێت یان ھەڵیدەگرێت بۆ پیشاندانی ئەندامێتی لە دامەزراوەیەک، براوەی شتێک، یان بۆ پیشاندانی پلە""",
+١. (ناو) تۆپی یاریکردن""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -225,7 +226,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "She wore a badge saying ‘Vote for Obama’.",
+                                    "He kicked the ball into the net.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -240,7 +241,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "باجێکی پۆشیبوو کە لەسەری نووسرابوو 'دەنگ بدە بە ئۆباما'.",
+                                    "تۆپەکەی ھەڵدایە ناو تۆڕەکەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -253,7 +254,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBadges1("en-GB"),
+                                onPressed: () => speakBalls1("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -261,57 +262,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBadges1(// REPLACE: badge
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "He pulled out a badge and said he was a cop.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "باجێکی دەرھێنا و وتی کەوا پۆلیسە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakBadges2("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakBadges2(// REPLACE: badge
+                                onPressed: () => speakBalls1(// REPLACE: ball
                                     "en-US"),
                               ),
                             ],
@@ -321,7 +272,7 @@ class EnglishEntrybadge extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) پارچەیەک کە دەیدووریت بە جلی یەکپۆشی""",
+٢. (ناو) شتێکی خڕ لە شێوەی تۆپ، یان شتێک کە تۆپەڵە بووە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -333,7 +284,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "He sewed the school badge neatly onto his uniform.",
+                                    "The little girl curled into a ball in her mother's arms.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -348,7 +299,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "باجی قوتابخانەکەی بەجوانی دووری بە جلەکەیەوە.",
+                                    "کچە بچووکەکە خۆی تۆپەڵە کرد لە باوەشی دایکیدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -361,7 +312,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBadges3("en-GB"),
+                                onPressed: () => speakBalls2("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -369,7 +320,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBadges3(// REPLACE: badge
+                                onPressed: () => speakBalls2(// REPLACE: ball
                                     "en-US"),
                               ),
                             ],
@@ -379,7 +330,7 @@ class EnglishEntrybadge extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ناو) سمبولی شتێک""",
+٣. (ناو) لێدان یان فڕێدانی تۆپێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -391,7 +342,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "His gun was a badge of power for him.",
+                                    "That's a great ball from Kane.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -406,7 +357,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چەکەکەی ھێمای دەسەڵاتی بوو.",
+                                    "لێدانێکی جوان بوو لەلایەن کەینەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -419,7 +370,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBadges4("en-GB"),
+                                onPressed: () => speakBalls3("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -427,13 +378,30 @@ class EnglishEntrybadge extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBadges4(// REPLACE: badge
+                                onPressed: () => speakBalls3(// REPLACE: ball
                                     "en-US"),
                               ),
                             ],
                           ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٤. (ناو) لە یاری بەیسبۆڵدا بریتییە لە ھەڵدانی تۆپەکە لەلایەن فڕیدەرەکەوە بۆ ئەو کەسەی کە دەیگرێتەوە ئەگەر تۆپەکە دوور بێت و لێی نەدرێت""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٥. (ناو) ئەو بەشەی کە پەنجە گەورەکان دەگەن بە دەست یان پێ""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
                           Row(
                             children: [
                               const Expanded(
@@ -441,7 +409,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "He saw his injuries as a badge of honour.",
+                                    "The ball of the hand is the fleshy part at the base of the thumb.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -456,7 +424,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "برینەکانی وەک سمبولی شکۆداری دەبینی.",
+                                    "گرمۆڵەی دەست ئەو بەشە گۆشتاوییەی بنی پەنجە گەورەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -469,7 +437,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBadges5("en-GB"),
+                                onPressed: () => speakBalls4("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -477,13 +445,195 @@ class EnglishEntrybadge extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBadges5(// REPLACE: badge
+                                onPressed: () => speakBalls4(// REPLACE: ball
                                     "en-US"),
                               ),
                             ],
                           ),
                           // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٦. (ناو) گون""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
+                                    "He noticed a lump in his left ball.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "تێبینی گرێیەکی کرد لە گونی چەپیدا.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakBalls5("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakBalls5(// REPLACE: ball
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٧. (ناو) ئاھەنگێکی گەورە کە سەمای تێدایە""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
+                                    "She met him at the ball.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "لە ئاھەنگەکە بینی.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakBalls6("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakBalls6(// REPLACE: ball
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٨. (کردار) خڕبوون لە شێوەی تۆپێکدا""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
+                                    "Her hands balled into fists.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "دەستەکانی خڕبوونە مشت.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakBalls7("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakBalls7(// REPLACE: ball
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٩. (کردار) ئەنجامدانی سێکس""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
                         ],
                       ),
                     ),
@@ -528,16 +678,50 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: badge (derived forms: badges)
-1. An emblem (a small piece of plastic, cloth or metal) that signifies your status (rank, membership, affiliation etc.)
-"they checked everyone's badge before letting them in"
+- Noun: ball (derived forms: balling, balled, balls)
+1. Round object that is hit, thrown or kicked in games
+"the ball travelled 90 mph on his serve"; "the mayor threw out the first ball"; "the ball rolled into the corner pocket"
  
-2. Any feature that is regarded as a sign of status (a particular power, quality or rank)
-"wearing a tie was regarded as a badge of respectability"
+2. A solid projectile that is shot by a musket (= musket ball)
+"they had to carry a ramrod as well as powder and ball";
+ 
+3. An object with a spherical shape (= globe, orb)
+"a ball of fire";
+ 
+4. A spherical object used as a plaything
+"he played with his rubber ball in the bathtub"
+ 
+5. A compact mass (= clod, glob, lump, clump, chunk)
+"a ball of mud caught him on the shoulder";
+ 
+6. A more or less rounded anatomical body or mass
+"the ball at the base of the thumb"; "he stood on the balls of his feet"
+ 
+7. A ball game played with a bat and ball between two teams of nine players; teams take turns at bat trying to score runs (= baseball, baseball game)
+"there was a desire for National League ball in the area"; "play ball!";
+ 
+8. A pitch that is not in the strike zone
+"he threw nine straight balls before the manager yanked him"
+ 
+9. A lavish dance requiring formal attire (= formal)
+ 
+10. [informal] A highly pleasurable or exciting experience (= good time, blast [informal], craic [Ireland], crack [Ireland])
+ 
+11. [vulgar, informal] One of the two male reproductive glands that produce spermatozoa and secrete androgens (= testis, testicle)
+"she kicked him in the balls and got away";
 
-- Verb: badge (derived forms: badged, badging, badges)
-1. Put a badge on
-"The workers here must be badged"
+- Verb: ball (derived forms: balling, balled, balls)
+1. Form into a ball by winding or rolling
+"ball wool"
+ 
+2. To live very well
+ 
+3. [informal] Abandon a social engagement (= bail out [informal])
+ 
+4. [N. Amer, vulgar] (of a man) have sexual intercourse with
+
+- Noun: Ball
+1. United States comedienne best known as the star of a popular television program (1911-1989) (= Lucille Ball)
 """),
         ],
       ),
@@ -548,12 +732,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "t68chqjlDC8";
+  static String myVideoId = "1HEF8kuu7t0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 26, // DOPSUM: CHANGE IT
+      startAt: 15, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -573,12 +757,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "uT_GcOGEFsk";
+  static String myVideoId = "3gt6cHooI6M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1760, // DOPSUM: CHANGE IT
+      startAt: 189, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -598,12 +782,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "vtn2kuEun6I";
+  static String myVideoId = "vMiJimHyQVI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 111, // DOPSUM: CHANGE IT
+      startAt: 16, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -623,12 +807,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "aCPNlZ7bvRc";
+  static String myVideoId = "CahQhevkcCM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 251, // DOPSUM: CHANGE IT
+      startAt: 119, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -648,12 +832,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "AbCykrHvAuA";
+  static String myVideoId = "7bcPMaxB6wY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 908, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -673,12 +857,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "VFR37y1-81M";
+  static String myVideoId = "NzJdS6YC9es";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 9, // DOPSUM: CHANGE IT
+      startAt: 153, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -698,12 +882,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "DG4Ox2sTrKU";
+  static String myVideoId = "EjLv0Fbfn_M";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 452, // DOPSUM: CHANGE IT
+      startAt: 87, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -723,12 +907,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "7bkGM_zSGOU";
+  static String myVideoId = "mTlIcUun06w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 501, // DOPSUM: CHANGE IT
+      startAt: 79, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -748,12 +932,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "8mCcM-PUmLM";
+  static String myVideoId = "VSMKvHRbHC8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 374, // DOPSUM: CHANGE IT
+      startAt: 86, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -773,12 +957,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "Ccm1caB6bao";
+  static String myVideoId = "nQ-Ua6NYago";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 288, // DOPSUM: CHANGE IT
+      startAt: 579, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -798,12 +982,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "Gdl4EKc9jrA";
+  static String myVideoId = "h4CyhQqAPpk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 676, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -823,12 +1007,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "SVzFPZj4-Ys";
+  static String myVideoId = "AAGIi62-sAU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 72, // DOPSUM: CHANGE IT
+      startAt: 414, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -908,4 +1092,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end badge // TODO Implement this library.
+// end ball // TODO Implement this library.

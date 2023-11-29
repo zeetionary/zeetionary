@@ -481,12 +481,12 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: b (Derived forms: bs)
+- Noun: b (derived forms: bs)
 1. The 2nd letter of the Roman alphabet (= B)
  
 2. (physics) a unit of nuclear cross section; the effective circular area that one particle presents to another as a target for an encounter (= barn)
 
-- Noun: B (Derived forms: Bs)
+- Noun: B (derived forms: Bs)
 1. Originally thought to be a single vitamin but now separated into several B vitamins (= B-complex vitamin, B complex, vitamin B complex, vitamin B, B vitamin)
  
 2. A logarithmic unit of sound intensity equal to 10 decibels (= Bel, bel)

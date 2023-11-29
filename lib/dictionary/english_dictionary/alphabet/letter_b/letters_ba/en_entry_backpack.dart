@@ -365,10 +365,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: backpack (Derived forms: back packs, backpacks)
+- Noun: backpack (derived forms: back packs, backpacks)
 1. A bag carried by a strap on your back or shoulder (= back pack, knapsack, packsack, rucksack, haversack)
 
-- Verb: backpack (Derived forms: back packs, backpacking, backpacked, backpacks)
+- Verb: backpack (derived forms: back packs, backpacking, backpacked, backpacks)
 1. (sport) hike with a backpack (= pack)
 "Every summer they are backpacking in the Rockies";
 """),

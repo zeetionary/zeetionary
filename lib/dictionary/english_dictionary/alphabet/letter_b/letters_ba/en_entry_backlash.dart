@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: backlash (Derived forms: backlashed, backlashes, backlashing)
+- Noun: backlash (derived forms: backlashed, backlashes, backlashing)
 1. A movement back from an impact (= recoil, repercussion, rebound)
  
 2. An adverse reaction to some political or social occurrence

@@ -426,7 +426,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: backbone (Derived forms: backbones)
+- Noun: backbone (derived forms: backbones)
 1. The series of vertebrae forming the axis of the skeleton and protecting the spinal cord (= spinal column, vertebral column, spine, back, rachis [technical])
 "the fall broke his backbone";
  

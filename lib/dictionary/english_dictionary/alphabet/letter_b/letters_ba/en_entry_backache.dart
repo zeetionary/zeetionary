@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: backache (= Derived forms: backaches)
+- Noun: backache (= derived forms: backaches)
 1. An ache localized in the back
 """),
         ],

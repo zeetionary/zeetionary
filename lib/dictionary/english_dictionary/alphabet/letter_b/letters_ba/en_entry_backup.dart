@@ -367,7 +367,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: backup (Derived forms: backups)
+- Noun: backup (derived forms: backups)
 1. An accumulation caused by clogging or a stoppage
 "a traffic backup on the main street"; "he discovered a backup in the toilet"
  

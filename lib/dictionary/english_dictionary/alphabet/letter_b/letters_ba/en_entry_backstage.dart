@@ -485,7 +485,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: backstage (Derived forms: backstages)
+- Noun: backstage (derived forms: backstages)
 1. A stage area out of sight of the audience (= wing, offstage)
 
 - Adjective: backstage

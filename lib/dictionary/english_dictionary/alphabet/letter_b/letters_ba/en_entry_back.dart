@@ -1934,7 +1934,7 @@ class EnglishMeaning extends StatelessWidget {
 6. In repayment or retaliation
 "we paid back everything we had borrowed"; "he hit me and I hit him back"; "I was kept in after school for talking back to the teacher"
 
-- Verb: back (Derived forms: backing, backs, backed)
+- Verb: back (derived forms: backing, backs, backed)
 1. Pick one person to give support and approval to in a particular role (= endorse, indorse, plump for, plunk for, support)
 "I backed Kennedy in 1960";
  

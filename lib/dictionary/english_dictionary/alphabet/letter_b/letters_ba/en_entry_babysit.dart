@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: babysit (Derived forms: baby-sat, baby-sits, baby-sitting, babysat, babysits, babysitting)
+- Verb: babysit (derived forms: baby-sat, baby-sits, baby-sitting, babysat, babysits, babysitting)
 1. Work or act as a baby-sitter (= baby-sit, sit)
 "I cannot babysit tonight; I have too much homework to do";
  

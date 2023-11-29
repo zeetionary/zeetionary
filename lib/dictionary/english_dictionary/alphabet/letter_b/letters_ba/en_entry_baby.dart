@@ -541,7 +541,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: baby (Derived forms: babies)
+- Noun: baby (derived forms: babies)
 1. A very young child (birth to 1 year) who has not yet begun to walk or talk (= babe [literary], infant, bub [Austral, informal], bundle of joy)
 "the baby began to cry again"; "she held the baby in her arms"; "it sounds simple, but when you have your own baby it is all so different";
  

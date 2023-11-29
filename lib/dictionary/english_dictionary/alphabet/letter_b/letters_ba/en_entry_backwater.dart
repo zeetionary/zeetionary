@@ -367,7 +367,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: backwater (Derived forms: backwaters)
+- Noun: backwater (derived forms: backwaters)
 1. A body of water that was created by a flood or tide or by being held or forced back by a dam
 "the bayous and backwaters are breeding grounds for mosquitos"
  

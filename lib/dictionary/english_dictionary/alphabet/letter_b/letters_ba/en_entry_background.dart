@@ -549,7 +549,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-Noun: background (Derived forms: backgrounds)
+Noun: background (derived forms: backgrounds)
 1. A person's social heritage: previous experience or training
 "he is a lawyer with a sports background"
  
@@ -574,7 +574,7 @@ Noun: background (Derived forms: backgrounds)
  
 9. (computing) activity on a computer not requiring user input
 
-- Verb: background Derived forms: backgrounds, backgrounding, backgrounded
+- Verb: background derived forms: backgrounds, backgrounding, backgrounded
 1. Understate the importance or quality of (= play down, downplay)
  
 2. Provide or form a background

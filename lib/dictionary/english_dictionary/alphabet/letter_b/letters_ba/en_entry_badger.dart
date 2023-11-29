@@ -369,16 +369,16 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: badger (Derived forms: badgering, badgered, Badgers, badgers)
+- Verb: badger (derived forms: badgering, badgered, Badgers, badgers)
 1. Annoy persistently (= tease, pester, bug, beleaguer)
 "The children badgered the boy because of his stammer";
  
 2. Persuade through constant efforts
 
-- Noun: badger (Derived forms: badgers)
+- Noun: badger (derived forms: badgers)
 1. Sturdy carnivorous burrowing mammal with strong claws; widely distributed in the Northern Hemisphere (= brock [Brit])
 
-- Noun: Badger (Derived forms: Badgers)
+- Noun: Badger (derived forms: Badgers)
 1. A native or resident of Wisconsin (= Wisconsinite)
 """),
         ],

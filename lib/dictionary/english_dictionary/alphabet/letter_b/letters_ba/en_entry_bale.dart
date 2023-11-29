@@ -6,87 +6,85 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "badge" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
+// Define the word "bale" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
 
-// replace badge - replace EnglishEntrybadge
+// replace bale - replace EnglishEntrybale
 
-// replace speakBadge - /bædʒ/ - find WORD_WEB
+// replace speakBale - /beɪl/
 
 enum TtsState { playing }
 
-class EnglishEntrybadge extends StatelessWidget {
-  // blank divider
-  EnglishEntrybadge({super.key});
-  // blank divider
+class EnglishEntrybale extends StatelessWidget {
+// blank divider
+  EnglishEntrybale({super.key});
+// blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBadge(String languageCode) async {
-    // DOPSUM: CHANGE speakBadge
+  Future<void> speakBale(String languageCode) async {
+    // DOPSUM: CHANGE speakBale
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("badge"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bale"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadges1(String languageCode) async {
-    // DOPSUM: CHANGE speakBadge
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She wore a badge saying ‘Vote for Obama’."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBadges2(String languageCode) async {
-    // DOPSUM: CHANGE speakBadge
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He pulled out a badge and said he was a cop."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBadges3(String languageCode) async {
-    // DOPSUM: CHANGE speakBadge
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He sewed the school badge neatly onto his uniform."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBadges4(String languageCode) async {
-    // DOPSUM: CHANGE speakBadge
+  Future<void> speakBales1(String languageCode) async {
+    // DOPSUM: CHANGE speakBale
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("His gun was a badge of power for him."); // DOPSUM: CHANGE TEXT
+        .speak("The fire destroyed 500 bales of hay."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadges5(String languageCode) async {
-    // DOPSUM: CHANGE speakBadge
+  Future<void> speakBales2(String languageCode) async {
+    // DOPSUM: CHANGE speakBale
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He saw his injuries as a badge of honour."); // DOPSUM: CHANGE TEXT
+        "The waste paper is baled, then sent for recycling."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadges6(String languageCode) async {
-    // DOPSUM: CHANGE speakBadge
+  Future<void> speakBales3(String languageCode) async {
+    // DOPSUM: CHANGE speakBale
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBadges66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She was yesterday baled for three weeks."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBadges7(String languageCode) async {
-    // DOPSUM: CHANGE speakBadge
+  Future<void> speakBales4(String languageCode) async {
+    // DOPSUM: CHANGE speakBale
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBadges77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBales44"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBales5(String languageCode) async {
+    // DOPSUM: CHANGE speakBale
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBales55"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBales6(String languageCode) async {
+    // DOPSUM: CHANGE speakBale
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBales66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBales7(String languageCode) async {
+    // DOPSUM: CHANGE speakBale
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBales77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -111,7 +109,7 @@ class EnglishEntrybadge extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "badge", // DOPSUM: CHANGE WORD ENTRY
+                                "bale", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -130,7 +128,7 @@ class EnglishEntrybadge extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /bædʒ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /beɪl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -141,7 +139,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakBadge(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakBale(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -151,7 +149,7 @@ class EnglishEntrybadge extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /bædʒ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /beɪl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -161,7 +159,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakBadge(
+                              onPressed: () => speakBale(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -211,9 +209,9 @@ class EnglishEntrybadge extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: نیشانە، دروشم، ئاڕم، بەرژەنگ، یافتە، درف، پڵاک، ھێما، نموونە
+کوردی: گورزە، تا، تایە، بەستە، مۆچ، بەستەک، تۆپ، کۆما، لۆدە، کۆگا، کوا، بەڵا، ڕەنج، بەدبەختی، ئاپۆر، نەھامەتی، مەینەتی
 
-١. (ناو) پارچەیەکی بچووک ئاسن یان پلاستیک کە دیزاین یان وشەی لەسەرە و کەسێک دەیپۆشێت یان ھەڵیدەگرێت بۆ پیشاندانی ئەندامێتی لە دامەزراوەیەک، براوەی شتێک، یان بۆ پیشاندانی پلە""",
+١. (ناو) ڕێژەیەکی زۆر لە شتێکی سووک کە پێکەوە کەڵەکەکراون""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -225,7 +223,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "She wore a badge saying ‘Vote for Obama’.",
+                                    "The fire destroyed 500 bales of hay.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -240,7 +238,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "باجێکی پۆشیبوو کە لەسەری نووسرابوو 'دەنگ بدە بە ئۆباما'.",
+                                    "ئاگرەکە ٥٠٠ گورزە وێنجەی وشکی لەناوبرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -253,7 +251,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBadges1("en-GB"),
+                                onPressed: () => speakBales1("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -261,57 +259,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBadges1(// REPLACE: badge
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "He pulled out a badge and said he was a cop.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "باجێکی دەرھێنا و وتی کەوا پۆلیسە.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakBadges2("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakBadges2(// REPLACE: badge
+                                onPressed: () => speakBales1(// REPLACE: bale
                                     "en-US"),
                               ),
                             ],
@@ -321,7 +269,7 @@ class EnglishEntrybadge extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) پارچەیەک کە دەیدووریت بە جلی یەکپۆشی""",
+٢. (کردار) کەڵەکەکردن""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -333,7 +281,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "He sewed the school badge neatly onto his uniform.",
+                                    "The waste paper is baled, then sent for recycling.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -348,7 +296,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "باجی قوتابخانەکەی بەجوانی دووری بە جلەکەیەوە.",
+                                    "کاغەزی زیادە دەکرێت بە گورزەیەک و دەنێردرێت بۆ دووبارە بەکارھێنان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -361,7 +309,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBadges3("en-GB"),
+                                onPressed: () => speakBales2("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -369,7 +317,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBadges3(// REPLACE: badge
+                                onPressed: () => speakBales2(// REPLACE: bale
                                     "en-US"),
                               ),
                             ],
@@ -379,7 +327,7 @@ class EnglishEntrybadge extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ناو) سمبولی شتێک""",
+٣. (کردار) ئازادکردنی کەسێک بە کەفالەت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -391,7 +339,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "His gun was a badge of power for him.",
+                                    "She was yesterday baled for three weeks.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -406,7 +354,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چەکەکەی ھێمای دەسەڵاتی بوو.",
+                                    "دوێنی بۆ سێ ھەفتە بە کەفالەت ئازادکرا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -419,7 +367,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBadges4("en-GB"),
+                                onPressed: () => speakBales3("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -427,57 +375,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBadges4(// REPLACE: badge
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "He saw his injuries as a badge of honour.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "برینەکانی وەک سمبولی شکۆداری دەبینی.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakBadges5("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakBadges5(// REPLACE: badge
+                                onPressed: () => speakBales3(// REPLACE: bale
                                     "en-US"),
                               ),
                             ],
@@ -528,16 +426,17 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: badge (derived forms: badges)
-1. An emblem (a small piece of plastic, cloth or metal) that signifies your status (rank, membership, affiliation etc.)
-"they checked everyone's badge before letting them in"
+- Noun: bale (derived forms: baling, bales, baled)
+1. A large bundle bound for storage or transport
  
-2. Any feature that is regarded as a sign of status (a particular power, quality or rank)
-"wearing a tie was regarded as a badge of respectability"
+2. [Brit] A bucket or scoop used for removing water, e.g. from a boat (= bail)
 
-- Verb: badge (derived forms: badged, badging, badges)
-1. Put a badge on
-"The workers here must be badged"
+- Verb: bale
+1. Make into a bale
+"bale hay"
+
+-Noun: Bale
+1. A city in northwestern Switzerland (= Basel, Basle)
 """),
         ],
       ),
@@ -548,12 +447,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "t68chqjlDC8";
+  static String myVideoId = "1XKSo2mFC6c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 26, // DOPSUM: CHANGE IT
+      startAt: 56, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -573,12 +472,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "uT_GcOGEFsk";
+  static String myVideoId = "67JzSRnyXr4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1760, // DOPSUM: CHANGE IT
+      startAt: 1922, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -598,12 +497,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "vtn2kuEun6I";
+  static String myVideoId = "et_Z_SgWGSA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 111, // DOPSUM: CHANGE IT
+      startAt: 898, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -623,12 +522,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "aCPNlZ7bvRc";
+  static String myVideoId = "j_Of36XVHng";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 251, // DOPSUM: CHANGE IT
+      startAt: 603, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -648,12 +547,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "AbCykrHvAuA";
+  static String myVideoId = "_cVGrRNi_2k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 908, // DOPSUM: CHANGE IT
+      startAt: 2183, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -673,12 +572,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "VFR37y1-81M";
+  static String myVideoId = "U51jj6-K0so";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 9, // DOPSUM: CHANGE IT
+      startAt: 362, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -698,12 +597,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "DG4Ox2sTrKU";
+  static String myVideoId = "qoixtV5igUo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 452, // DOPSUM: CHANGE IT
+      startAt: 982, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -723,12 +622,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "7bkGM_zSGOU";
+  static String myVideoId = "lDEpI5CT7g8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 501, // DOPSUM: CHANGE IT
+      startAt: 479, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -748,12 +647,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "8mCcM-PUmLM";
+  static String myVideoId = "aQ7siK1vNJY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 374, // DOPSUM: CHANGE IT
+      startAt: 431, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -773,12 +672,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "Ccm1caB6bao";
+  static String myVideoId = "LS8wuGu9CUo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 288, // DOPSUM: CHANGE IT
+      startAt: 195, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -798,12 +697,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "Gdl4EKc9jrA";
+  static String myVideoId = "WoZqRa-3ZfE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 5, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -823,12 +722,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "SVzFPZj4-Ys";
+  static String myVideoId = "r_qmXTeSysE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 72, // DOPSUM: CHANGE IT
+      startAt: 33, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -908,4 +807,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end badge // TODO Implement this library.
+// end bale // TODO Implement this library.

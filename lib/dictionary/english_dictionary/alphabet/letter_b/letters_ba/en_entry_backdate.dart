@@ -365,7 +365,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: backdate (Derived forms: backdated, backdating, backdates)
+- Verb: backdate (derived forms: backdated, backdating, backdates)
 1. Make effective from an earlier date
 "The increase in tax was backdated to January"
 """),

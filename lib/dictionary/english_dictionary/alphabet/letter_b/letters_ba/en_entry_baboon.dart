@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: baboon (Derived forms: baboons)
+- Noun: baboon (derived forms: baboons)
 1. Large terrestrial monkeys having doglike muzzles
 """),
         ],

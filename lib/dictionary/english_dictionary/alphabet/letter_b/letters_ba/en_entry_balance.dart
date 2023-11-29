@@ -6,173 +6,143 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "bag" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
+// Define the word "balance" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
 
-// replace bag - replace EnglishEntrybag
+// replace balance - replace EnglishEntrybalance
 
-// replace speakBag - /bæɡ/ - find WORD_WEB
+// replace speakBalance - /ˈbæləns/
 
 enum TtsState { playing }
 
-class EnglishEntrybag extends StatelessWidget {
+class EnglishEntrybalance extends StatelessWidget {
 // blank divider
-  EnglishEntrybag({super.key});
+  EnglishEntrybalance({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBag(String languageCode) async {
-    // DOPSUM: CHANGE speakBag
+  Future<void> speakBalance(String languageCode) async {
+    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bag"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("balance"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags1(String languageCode) async {
-    // DOPSUM: CHANGE speakBag
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was carrying a heavy bag of groceries."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBags2(String languageCode) async {
-    // DOPSUM: CHANGE speakBag
+  Future<void> speakBalances1(String languageCode) async {
+    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She tipped out the contents of her bag."); // DOPSUM: CHANGE TEXT
+        "This newspaper maintains a good balance in its presentation of different opinions."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags3(String languageCode) async {
-    // DOPSUM: CHANGE speakBag
+  Future<void> speakBalances2(String languageCode) async {
+    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I packed my bags and left for the airport."); // DOPSUM: CHANGE TEXT
+        "Try to keep a balance between work and relaxation."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags4(String languageCode) async {
-    // DOPSUM: CHANGE speakBag
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She ate a bag of chips."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBags5(String languageCode) async {
-    // DOPSUM: CHANGE speakBag
+  Future<void> speakBalances3(String languageCode) async {
+    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "She was considering cosmetic surgery to deal with the bags under her eyes."); // DOPSUM: CHANGE TEXT
+        "He set his feet wider and adjusted his balance."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags6(String languageCode) async {
-    // DOPSUM: CHANGE speakBag
+  Future<void> speakBalances4(String languageCode) async {
+    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Silly old bag!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He asked the cashier for the balance of his current account."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags7(String languageCode) async {
-    // DOPSUM: CHANGE speakBag
+  Future<void> speakBalances5(String languageCode) async {
+    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We got a good bag today."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The balance of £500 must be paid within 90 days."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags8(String languageCode) async {
-    // DOPSUM: CHANGE speakBag
+  Future<void> speakBalances6(String languageCode) async {
+    // DOPSUM: CHANGE speakBalance
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "He argues that the balance has swung too far in favour of capitalism."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBalances7(String languageCode) async {
+    // DOPSUM: CHANGE speakBalance
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The scientist used a balance to measure the weight of the sample."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBalances8(String languageCode) async {
+    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("Get in! There's bags of room."); // DOPSUM: CHANGE TEXT
+        .speak("How long can you balance on one leg?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags9(String languageCode) async {
-    // DOPSUM: CHANGE speakBag
+  Future<void> speakBalances9(String languageCode) async {
+    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The fruit is washed, sorted and bagged at the farm."); // DOPSUM: CHANGE TEXT
+        "The song perfectly balances melody and rhythm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags10(String languageCode) async {
-    // DOPSUM: CHANGE speakBag
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("We bagged ten fish in two hours."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBags11(String languageCode) async {
-    // DOPSUM: CHANGE speakBag
+  Future<void> speakBalances10(String languageCode) async {
+    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Harkin bagged two goals in last night's win."); // DOPSUM: CHANGE TEXT
+        "This year's profits will balance out our previous losses."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags12(String languageCode) async {
-    // DOPSUM: CHANGE speakBag
+  Future<void> speakBalances11(String languageCode) async {
+    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Sally had managed to bag the two best seats."); // DOPSUM: CHANGE TEXT
+        "The cost of obtaining legal advice needs to be balanced against its benefits."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags13(String languageCode) async {
-    // DOPSUM: CHANGE speakBag
+  Future<void> speakBalances12(String languageCode) async {
+    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Stop bagging her (out) - she's doing her best."); // DOPSUM: CHANGE TEXT
+        "In order to balance the budget severe spending cuts had to be made."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBags14(String languageCode) async {
-    // DOPSUM: CHANGE speakBag
+  Future<void> speakBalances13(String languageCode) async {
+    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "They decided to bag the trip because they were short of cash."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBags15(String languageCode) async {
-    // DOPSUM: CHANGE speakBag
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBags1515"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBags16(String languageCode) async {
-    // DOPSUM: CHANGE speakBag
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBags1616"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBags17(String languageCode) async {
-    // DOPSUM: CHANGE speakBag
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBags1717"); // DOPSUM: CHANGE TEXT
+        "I tried to work out why the books wouldn't balance."); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -197,7 +167,7 @@ class EnglishEntrybag extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "bag", // DOPSUM: CHANGE WORD ENTRY
+                                "balance", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -216,7 +186,7 @@ class EnglishEntrybag extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /bæɡ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈbæləns/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -227,7 +197,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakBag(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakBalance(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -237,7 +207,7 @@ class EnglishEntrybag extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /bæɡ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /ˈbæləns/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -247,7 +217,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakBag(
+                              onPressed: () => speakBalance(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -297,9 +267,9 @@ class EnglishEntrybag extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: جانتا، ھەمانە، توورەکە، ھەگبە، کیس، کیسە، جزدان، ساک، کیف، جەواڵ، ھۆڕ؟، خورج، تیوەرە، تێڕ، دەلق، پاکەت، بڕی جێ‌بوونەوە، ڕاو، نێچیرەوانی, بڕ یان ژمارەیەکی زۆر، ماس، با (ژێرچاو، بێ‌خەوی یا لەبەر پیری)
+کوردی: ھاوسەنگی، ھاوکێشی، لەنگەر، تەرازی، تەرازمەندی، میزانی، تەرازێتی، ھاوتەرازی، ھاوڕێکی، کۆکی، گونجان، پاشماوە، باقی، سەرباقی، تەرازوو، لەنگەرە، لیزۆک (سەعات)، جەڕ، کۆک، جەڕی میزان
 
-١. (ناو) شتێک کە لە پارچە، پلاستیک، یان کاغەز درووستکراوە و بەکاردێت بۆ ھەڵگرتنی شت""",
+١. (ناو) دۆخێک کە تێیدا ژمارەیەک شت بوونیان ھەیە پێکەوە بە ھەمان بڕ""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -311,7 +281,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "He was carrying a heavy bag of groceries.",
+                                    "This newspaper maintains a good balance in its presentation of different opinions.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -326,7 +296,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "توورەکەیەکی قورس لە میوەی ھەڵگرتبوو.",
+                                    "ئەم ڕۆژنامە بێ‌لایەنی خۆی بەباشی دەپارێزێت لە وێناکردنی بەچوونی جیاوازدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -339,7 +309,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBags1("en-GB"),
+                                onPressed: () => speakBalances1("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -347,8 +317,9 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBags1(// REPLACE: bag
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBalances1(// REPLACE: balance
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -361,7 +332,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "She tipped out the contents of her bag (= handbag).",
+                                    "Try to keep a balance between work and relaxation.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -376,7 +347,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "شتومەکەکانی ناو جانتاکەی بەتاڵکرد.",
+                                    "ھەوڵبدە ھاوسەنگی بپارێزی لەنێوان کارکردن و حەسانەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -389,7 +360,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBags2("en-GB"),
+                                onPressed: () => speakBalances2("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -397,8 +368,9 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBags2(// REPLACE: bag
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBalances2(// REPLACE: balance
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -407,7 +379,7 @@ class EnglishEntrybag extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) جانتایەکی گەورە کە بەکاردێت بۆ تێخستنی جلوبەرگ لەکاتی گەشتکردن""",
+٢. (ناو) توانای وەستان لەکاتێکدا کێشی جیاواز لەسەر لایەکانی جەستەیە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -419,7 +391,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "I packed my bags and left for the airport.",
+                                    "He set his feet wider and adjusted his balance.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -434,7 +406,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "جانتاکانم کۆکردەوە و بەڕێکەوتم بۆ فڕۆکەخانەکە.",
+                                    "پێیەکانی بڵاوکردەوە و ھاوسەنگیی ڕێکخست.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -447,7 +419,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBags3("en-GB"),
+                                onPressed: () => speakBalances3("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -455,8 +427,9 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBags3(// REPLACE: bag
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBalances3(// REPLACE: balance
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -465,7 +438,7 @@ class EnglishEntrybag extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ناو) ئەو بڕەی کە لە جانتایەک، کیسەیەک، ھتد جێی دەبێتەوە""",
+٣. (ناو) بڕی ماوە لەدوای بەکارھێنانی پارە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -477,7 +450,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "She ate a bag of chips.",
+                                    "He asked the cashier for the balance of his current account.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -492,7 +465,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کیسەیەک جبسی خوارد.",
+                                    "داوای لە کاشیەرەکە کرد باڵانسی ھەژمارەکەی ئێستای پێ بڵێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -505,7 +478,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBags4("en-GB"),
+                                onPressed: () => speakBalances4("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -513,8 +486,9 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBags4(// REPLACE: bag
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBalances4(// REPLACE: balance
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -523,7 +497,7 @@ class EnglishEntrybag extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٤. (ناو) ڕێژەیەکی زۆر لە شتێک""",
+٤. (ناو) بڕی قەرزی ماوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -535,7 +509,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "Get in! There's bags of room.",
+                                    "The balance of £500 must be paid within 90 days.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -550,7 +524,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "وەرە ژوورەوە، جێگەیەکی زۆر ھەیە.",
+                                    "بڕی قەرزی ماوەی ٥٠٠ پاوەند دەبێت لە ماوەی ٩٠ ڕۆژدا بدرێتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -563,7 +537,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBags8("en-GB"),
+                                onPressed: () => speakBalances5("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -571,8 +545,9 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBags8(// REPLACE: bag
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBalances5(// REPLACE: balance
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -581,7 +556,7 @@ class EnglishEntrybag extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٥. (ناو) پارچە گۆشتی ژێر چاو بەھۆی کەمخەوی یان پیری""",
+٥. (ناو) گەورەترین بەشی گرووپێک یان بڕێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -593,7 +568,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "She was considering cosmetic surgery to deal with the bags under her eyes.",
+                                    "He argues that the balance has swung too far in favour of capitalism.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -608,7 +583,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بیری لە نەشتەرگەری جوانکاری دەکردەوە بۆ چارەسەری گۆشتی زیادەی ژێر چاوانی.",
+                                    "پێی‌وایە تەوازن زۆر بەلای سەرمایەداریدا چووە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -621,7 +596,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBags5("en-GB"),
+                                onPressed: () => speakBalances6("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -629,8 +604,9 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBags5(// REPLACE: bag
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBalances6(// REPLACE: balance
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -639,7 +615,7 @@ class EnglishEntrybag extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٦. (ناو) وشەیەکی نەشیاو بۆ ژنێکی پیر""",
+٦. (ناو) تەرازوویەک کە لە دوو دەفر پێکھاتووە کە دەبێت وەکو یەکدی بن لە بەرزیدا بۆ ئەوەی ھەردوو دەفرەکە ھەمان کێشیان ھەبێت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -651,7 +627,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "Silly old bag!",
+                                    "The scientist used a balance to measure the weight of the sample.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -666,7 +642,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پیرەژنی دەبەنگ!",
+                                    "زاناکە تەرازوویەکی بەکارھێنا بۆ پێوانی کێشی نموونەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -679,7 +655,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBags6("en-GB"),
+                                onPressed: () => speakBalances7("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -687,8 +663,9 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBags6(// REPLACE: bag
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBalances7(// REPLACE: balance
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -697,7 +674,7 @@ class EnglishEntrybag extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٧. (ناو) تەواوی ئەو باڵندانە یان ئاژەڵانەی کە پێکەوە ڕاودەکرێن""",
+٧. (کردار) ھاوسەنگی ڕاگرتنی شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -709,7 +686,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "We got a good bag today.",
+                                    "How long can you balance on one leg?",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -724,7 +701,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەمڕۆ ڕاوێکی باشمان کرد.",
+                                    "چەندە دەتوانی لەسەر یەک پێ بوەستیت؟.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -737,7 +714,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBags7("en-GB"),
+                                onPressed: () => speakBalances8("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -745,8 +722,9 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBags7(// REPLACE: bag
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBalances8(// REPLACE: balance
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -755,7 +733,7 @@ class EnglishEntrybag extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٨. (کردار) دانانی شت لەناو جانتا، کیسە، ھتد""",
+٨. (کردار) گرنگیدانی یەکسان بە دوو شتی جیاواز""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -767,7 +745,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "The fruit is washed, sorted and bagged at the farm.",
+                                    "The song perfectly balances melody and rhythm.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -782,7 +760,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "میوەکان شۆردراون، جتاکراونەتەوە، و لە کیسەکراون لە کێڵگەکە.",
+                                    "گۆرانییەکە بەتەواوی ھاوسەنگی دەپارێزێت لەنێوان ئاواز و ڕیتم.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -795,7 +773,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBags9("en-GB"),
+                                onPressed: () => speakBalances9("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -803,8 +781,9 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBags9(// REPLACE: bag
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBalances9(// REPLACE: balance
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -813,7 +792,7 @@ class EnglishEntrybag extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٩. (کردار) گرتن یان کوشتنی ئاژەڵ""",
+٩. (کردار) یەکسان بوون لە بڕ یان نرخدا لەگەڵ شتێکی تری پێچەوانە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -825,7 +804,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "We bagged ten fish in two hours.",
+                                    "This year's profits will balance out our previous losses.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -840,7 +819,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دە ماسیمان لە دوو کاتژمێردا گرت.",
+                                    "قازانجەکانی ئەمساڵ زیانەکانی پار قەرەبوو دەکەنەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -853,7 +832,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBags10("en-GB"),
+                                onPressed: () => speakBalances10("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -861,8 +840,9 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBags10(// REPLACE: bag
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBalances10(// REPLACE: balance
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -871,7 +851,7 @@ class EnglishEntrybag extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١٠. (کردار) تۆمارکردنی گۆڵ، خاڵ، ھتد""",
+١٠. (کردار) بەراوردکردنی گرنگی ڕێژەیی دوو شتی جیاواز""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -883,7 +863,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "Harkin bagged two goals in last night's win.",
+                                    "The cost of obtaining legal advice needs to be balanced against its benefits.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -898,7 +878,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھارکین لە بردنەوەکەی دوێنێ شەودا دوو گۆڵی تۆمارکرد.",
+                                    "تێچووی وەرگرتنی ڕاوێژی یاسایی دەبێت لەبەرچاو بگیردرێت لەگەڵ سوودەکانی (ڕاوێژەکە).",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -911,7 +891,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBags11("en-GB"),
+                                onPressed: () => speakBalances11("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -919,8 +899,9 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBags11(// REPLACE: bag
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBalances11(// REPLACE: balance
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -929,7 +910,7 @@ class EnglishEntrybag extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١١. (کردار) بەدەستھێنانی شتێک پێش کەسێکی تر""",
+١١. (کردار) سەرپەرشتی خەرجکردنی پارە بۆ ئەوەی بڕی پارەی خەرجکراو و وەرگیردراو یەکسان بن""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -941,7 +922,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "Sally had managed to bag the two best seats.",
+                                    "In order to balance the budget severe spending cuts had to be made.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -956,7 +937,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سالی دوو باشترین جێگەی گرتبوو.",
+                                    "بۆ ھەڵسوڕاندنی بودجە، دەبوو ڕێژەی خەرجی بە ئاستێکی زۆر کەمبکرێتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -969,7 +950,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBags12("en-GB"),
+                                onPressed: () => speakBalances12("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -977,8 +958,9 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBags12(// REPLACE: bag
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBalances12(// REPLACE: balance
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -987,7 +969,7 @@ class EnglishEntrybag extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١٢. (کردار) لۆمەکردنی کەسێک""",
+١٢. (کردار) ھەبوونی ھەمان ڕێژە لە پارەی خەرجکراو و وەرگیردراو""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -999,7 +981,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "Stop bagging her (out) - she's doing her best.",
+                                    "I tried to work out why the books wouldn't balance.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -1014,7 +996,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "واز لە لۆمەکردنی بێنە، ھەموو ھەوڵی خۆی دەدا.",
+                                    "نەمدەتوانی تێبگەم بۆچی خەرجی و قازانج یەکناگرنەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -1027,7 +1009,7 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBags13("en-GB"),
+                                onPressed: () => speakBalances13("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -1035,66 +1017,9 @@ class EnglishEntrybag extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBags13(// REPLACE: bag
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-١٣. (کردار) بڕیاردان لەسەر نەکردنی شتێک چونکە پێت وایە سەرکەوتوو نابێت، یان پێت وایە باشترە دوای بخەیت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "They decided to bag the trip because they were short of cash.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بڕیاریان دا گەشتەکە نەکەن چونکە پارەی کاشیان کەم لەبەردەست بوو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakBags14("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakBags14(// REPLACE: bag
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBalances13(// REPLACE: balance
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -1144,49 +1069,44 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: bag (derived forms: bags)
-1. A flexible container with a single opening
-"he stuffed his laundry into a large bag"
+- Noun: balance (derived forms: balances)
+1. A state of equilibrium
  
-2. The quantity of game taken in a particular period (usually by one person)
-"his bag included two deer"
+2. Equality between the totals of the credit and debit sides of an account
  
-3. A place that the runner must touch before scoring (= base)
-"he scrambled to get back to the bag";
+3. Harmonious arrangement or relation of parts or elements within a whole (as in a design) (= proportion, proportionality)
+"in all perfectly beautiful objects there is found the opposition of one part to another and a reciprocal balance";
  
-4. A container used for carrying money and small personal items or accessories (especially by women) (= handbag, pocketbook, purse)
-"she reached into her bag and found a comb";
+4. Equality of distribution (= equilibrium, equipoise, counterbalance)
  
-5. The quantity that a bag will hold (= bagful)
-"he ate a large bag of popcorn";
+5. Something left after other parts have been taken away (= remainder, residual, residue, residuum, rest)
+"he took what he wanted and I got the balance";
  
-6. A portable rectangular container for carrying clothes (= traveling bag [US], travelling bag, grip, suitcase)
-"he carried his small bag onto the plane with him";
+6. The difference between the totals of the credit and debit sides of an account
  
-7. [informal] An ugly or ill-tempered woman (= old bag [informal])
-"he was romancing the old bag for her money";
+7. (mathematics) an attribute of a shape or relation; exact reflection of form on opposite sides of a dividing line or plane (= symmetry, symmetricalness, correspondence)
  
-8. Mammary gland of bovids (cows and sheep and goats) (= udder)
+8. A weight that balances another weight (= counterweight, counterbalance, counterpoise, equalizer, equaliser [Brit])
  
-9. [informal] An activity that you like or at which you are superior (= dish [informal])
-"his bag now is learning to play golf";
+9. A wheel that regulates the rate of movement in a machine; especially a wheel oscillating against the hairspring of a timepiece to regulate its beat (= balance wheel)
+ 
+10. A scale for weighing; depends on pull of gravity
 
-- Verb: bag (derived forms: bagging, bagged, bags)
-1. Put into a bag
-"The supermarket clerk bagged the groceries"
+- Verb: balance (derived forms: balancing, balanced, balances)
+1. Bring into balance or equilibrium (= equilibrate, equilibrize, equilibrise [Brit])
+"balance the two weights"; "She has to balance work and her domestic duties";
  
-2. Make first claim on something; take possession of (= bagsy [UK])
+2. Compute credits and debits of an account
  
-3. (hunting) capture or kill, as in hunting
-"bag a few pheasants"
+3. Hold or carry in equilibrium (= poise)
  
-4. Hang loosely, like an empty bag
+4. Be in equilibrium
+"He was balancing on one foot"
+
+- Noun: Balance
+1. (astrology) a person who is born while the sun is in Libra (= Libra)
  
-5. Bulge out; form a bulge outward, or be so full as to appear to bulge (= bulge)
- 
-6. [informal] Take unlawfully (= pocket)
- 
-7. [Austral, informal] Criticize sarcastically
+2. The seventh sign of the zodiac; the sun is in this sign from about September 23 to October 22 (= Libra, Libra the Balance, Libra the Scales)
 """),
         ],
       ),
@@ -1197,12 +1117,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "FnpGmCuk-u0";
+  static String myVideoId = "7TavVZMewpY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 169, // DOPSUM: CHANGE IT
+      startAt: 31, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1222,12 +1142,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "BXraT177uMY";
+  static String myVideoId = "99i-Uo7rIpw?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 288, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1247,12 +1167,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "h02NI8jCtKk";
+  static String myVideoId = "zqllxbPWKNI?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 567, // DOPSUM: CHANGE IT
+      startAt: 373, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1272,12 +1192,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "5EJQQPKHtJw";
+  static String myVideoId = "tsxmyL7TUJg?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 4, // DOPSUM: CHANGE IT
+      startAt: 208, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1297,12 +1217,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "EokXA_g7-5Y";
+  static String myVideoId = "u7JsKhI2An0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 27, // DOPSUM: CHANGE IT
+      startAt: 34, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1322,12 +1242,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "lRrS5FgJ2aI";
+  static String myVideoId = "mY3SEMTROas?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 319, // DOPSUM: CHANGE IT
+      startAt: 1720, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1347,12 +1267,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "4flqVgcFO9E";
+  static String myVideoId = "9VsDP584zyQ?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 242, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1372,12 +1292,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "MhUb6zhFVww";
+  static String myVideoId = "n4bucphC9r4?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 15, // DOPSUM: CHANGE IT
+      startAt: 118, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1397,12 +1317,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "fKRUJNEbK5s";
+  static String myVideoId = "WUjVPIEtJd0?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 14, // DOPSUM: CHANGE IT
+      startAt: 1179, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1422,12 +1342,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "pF0VcRL0rxw";
+  static String myVideoId = "MzSktgpfD84?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      startAt: 552, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1447,12 +1367,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "Oq61TxejZ5g";
+  static String myVideoId = "toVfvRhWbj8?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 30, // DOPSUM: CHANGE IT
+      startAt: 607, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1472,12 +1392,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "-HyHZsa79LU";
+  static String myVideoId = "UsS7i06z4aY?t=";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 299, // DOPSUM: CHANGE IT
+      startAt: 360, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1557,4 +1477,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end bag // TODO Implement this library.
+// end balance // TODO Implement this library.

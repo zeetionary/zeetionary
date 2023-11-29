@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: backer (Derived forms: backers)
+- Noun: backer (derived forms: backers)
 1. Someone who provides financial support for some venture (= angel)
 "a liberal backer of the arts";
 """),

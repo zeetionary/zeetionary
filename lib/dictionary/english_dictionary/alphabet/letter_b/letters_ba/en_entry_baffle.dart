@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: baffle (Derived forms: baffled, baffling, baffles)
+- Verb: baffle (derived forms: baffled, baffling, baffles)
 1. Confuse or leave at a loss because of something complex or difficult to understand (= confuse, throw, fox, befuddle, fuddle, bedevil, confound, discombobulate [informal], perplex, vex, stick, get, puzzle, mystify, beat, pose, bewilder, flummox, stupefy, nonplus, gravel, dumbfound)
 "These questions baffle even the experts";
  

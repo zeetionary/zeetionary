@@ -357,7 +357,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: bacon (Derived forms: bacons)
+- Noun: bacon (derived forms: bacons)
 1. Back and sides of a hog salted and dried or smoked; usually sliced thin and fried
 
 - Noun: Bacon

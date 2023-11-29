@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: bagpipe (Derived forms: bagpipes)
+- Noun: bagpipe (derived forms: bagpipes)
 1. A tubular wind instrument; the player blows air into a bag and squeezes it out through the drone
 """),
         ],

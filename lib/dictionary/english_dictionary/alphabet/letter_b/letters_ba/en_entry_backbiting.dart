@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-Noun: backbiting (Derived forms: backbitings)
+Noun: backbiting (derived forms: backbitings)
 1. Unpleasant and unkind words that are said about someone who is not there
 """),
         ],

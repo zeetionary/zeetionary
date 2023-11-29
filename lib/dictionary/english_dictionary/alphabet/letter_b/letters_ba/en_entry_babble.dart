@@ -544,7 +544,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: babble (Derived forms: babbles, babbled, babbling)
+- Verb: babble (derived forms: babbles, babbled, babbling)
 1. Utter meaningless sounds, like a baby, or utter in an incoherent way
 "The old man is only babbling--don't pay attention"
  
@@ -557,7 +557,7 @@ class EnglishMeaning extends StatelessWidget {
 4. Divulge confidential information or secrets (= spill the beans, let the cat out of the bag, talk, tattle, blab [informal], peach [informal], sing [informal], babble out, blab out [informal], give the game away)
 "Be careful--his secretary babbles";
 
-- Noun: babble (Derived forms: babbles, babbled, babbling)
+- Noun: babble (derived forms: babbles, babbled, babbling)
 1. Gibberish resembling the sounds of a baby (= babbling, lallation)
 """),
         ],

@@ -477,7 +477,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: baggage (Derived forms: baggages)
+- Noun: baggage (derived forms: baggages)
 1. Cases used to carry belongings when travelling (= luggage)
  
 2. A worthless or immoral woman

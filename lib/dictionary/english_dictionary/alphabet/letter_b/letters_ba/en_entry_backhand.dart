@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adjective: backhand (Derived forms: backhanding, backhands, backhanded)
+- Adjective: backhand (derived forms: backhanding, backhands, backhanded)
 1. (of racket strokes) made across the body with back of hand facing direction of stroke (= backhanded)
  
 2. (of handwriting) having the letters slanting backward (= left-slanting)

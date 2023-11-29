@@ -307,7 +307,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: back number (Derived forms: back numbers)
+- Noun: back number (derived forms: back numbers)
 1. A copy of a newspaper or magazine from a date in the past
 
 2. Someone who is no longer popular (= has-been)

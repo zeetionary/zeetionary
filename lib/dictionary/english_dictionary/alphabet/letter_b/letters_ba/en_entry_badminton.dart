@@ -307,7 +307,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: badminton (Derived forms: badmintons)
+- Noun: badminton (derived forms: badmintons)
 1. A game played on a court with light long-handled rackets used to volley a shuttlecock over a net
 """),
         ],

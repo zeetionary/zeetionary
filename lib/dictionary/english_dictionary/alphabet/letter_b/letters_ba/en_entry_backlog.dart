@@ -308,14 +308,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: backlog (Derived forms: backlogs)
+- Noun: backlog (derived forms: backlogs)
 1. An accumulation of jobs not done or materials not processed that are yet to be dealt with (especially unfilled customer orders for products or services)
  
 2. The large log at the back of a hearth fire
  
 3. Something kept back or saved for future use or a special purpose (= reserve, stockpile)
 
-- Verb: backlog (Derived forms: backlogged, backlogging, backlogs)
+- Verb: backlog (derived forms: backlogged, backlogging, backlogs)
 1. Accumulate and create a backlog
 """),
         ],

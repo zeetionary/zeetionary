@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: bad debt (Derived forms: bad debts) 
+- Noun: bad debt (derived forms: bad debts) 
 1. A debt that is unlikely to be repaid
 """),
         ],

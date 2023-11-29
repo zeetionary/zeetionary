@@ -307,7 +307,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: babysitter (Derived forms: baby-sitters, babysitters)
+- Noun: babysitter (derived forms: baby-sitters, babysitters)
 1. A person engaged to care for children when the parents are not home (= baby-sitter, sitter, childminder [Brit])
 """),
         ],

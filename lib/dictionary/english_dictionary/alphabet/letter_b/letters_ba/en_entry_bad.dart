@@ -1390,7 +1390,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adjective: bad (Derived forms: worst, worse)
+- Adjective: bad (derived forms: worst, worse)
 1. Having undesirable or negative qualities
 "a bad report card"; "his sloppy appearance made a bad impression"; "a bad little boy"; "clothes in bad shape"; "a bad cut"; "bad luck"; "the news was very bad"; "the reviews were bad"; "the pay is bad"; "it was a bad light for reading"; "the movie was a bad choice"
  
@@ -1433,7 +1433,7 @@ class EnglishMeaning extends StatelessWidget {
 14. Not working properly (= defective)
 "a bad telephone connection";
 
-- Noun: bad (Derived forms: bads)
+- Noun: bad (derived forms: bads)
 1. That which is below standard or expectations as of ethics or decency (= badness)
 "take the bad with the good";
 

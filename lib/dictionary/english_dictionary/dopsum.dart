@@ -10,7 +10,7 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // replace Dopsum1 - replace EnglishEntry2
 
-// replace speakB3 - haʊʊʊʊʊʊʊ4 - find WORD_WEB
+// replace speakB3 - haʊʊʊʊʊʊʊ4
 
 enum TtsState { playing }
 

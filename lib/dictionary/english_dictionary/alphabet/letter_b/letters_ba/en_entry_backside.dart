@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: backside (Derived forms: backsides)
+- Noun: backside (derived forms: backsides)
 1. The side of an object that is opposite its front (= rear, back end)
 "his room was toward the backside of the hotel";
  

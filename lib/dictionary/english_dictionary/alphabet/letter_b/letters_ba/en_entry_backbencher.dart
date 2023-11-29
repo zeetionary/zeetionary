@@ -305,7 +305,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: backbencher (Derived forms: backbenchers)
+- Noun: backbencher (derived forms: backbenchers)
 Usage: Brit, Cdn
 1. A member of the House of Commons who is not a party leader
 """),

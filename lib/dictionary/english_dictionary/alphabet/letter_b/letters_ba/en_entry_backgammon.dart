@@ -309,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: backgammon (Derived forms: backgammons)
+- Noun: backgammon (derived forms: backgammons)
 1. A board game for two players; pieces move according to throws of the dice
 """),
         ],

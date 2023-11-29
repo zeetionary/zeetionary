@@ -309,10 +309,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: backstroke (Derived forms: backstrokes)
+- Noun: backstroke (derived forms: backstrokes)
 1. A swimming stroke that resembles the crawl except the swimmer lies on his or her back
 
-- Verb: backstroke (Derived forms: backstroked, backstroking, backstrokes)
+- Verb: backstroke (derived forms: backstroked, backstroking, backstrokes)
 1. (water sport) swim on one's back
 """),
         ],

@@ -367,7 +367,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: backfire (Derived forms: backfired, backfires, backfiring)
+- Verb: backfire (derived forms: backfired, backfires, backfiring)
 1. Come back to the originator of an action with an undesired effect (= backlash, recoil)
 "Your comments may backfire and cause you a lot of trouble";
  

@@ -367,7 +367,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: bachelor (Derived forms: bachelors)
+- Noun: bachelor (derived forms: bachelors)
 1. A man who has never been married (= unmarried man)
  
 2. A knight of the lowest order; could display only a pennon (= knight bachelor, bachelor-at-arms)

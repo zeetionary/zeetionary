@@ -207,7 +207,7 @@ class EnglishEntrybalsa extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ناو) تەختەی داتی بالسا کە زۆر نەرمە و بە ئاسانی دەبڕدرێت، هەندێک جار بۆ درووستکردنی نموونەی کاری ئەندازیاری""",
+١. (ناو) تەختەی داتی بالسا کە زۆر نەرمە و بە ئاسانی دەبڕدرێت، ھەندێک جار بۆ درووستکردنی نموونەی کاری ئەندازیاری""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -234,7 +234,7 @@ class EnglishEntrybalsa extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "داری بالسا بەسرووشتی لە ئەمریکای باشوور هەن و تاوەکو ١٠٠ پێ گەشەدەکەن.",
+                                    "داری بالسا بەسرووشتی لە ئەمریکای باشوور ھەن و تاوەکو ١٠٠ پێ گەشەدەکەن.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -306,7 +306,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: balsa (Derived forms: balsas)
+- Noun: balsa (derived forms: balsas)
 1. Strong lightweight wood of the balsa tree used especially for floats (= balsa wood)
  
 2. Forest tree of lowland Central America having a strong very light wood; used for making floats and rafts and in crafts (= Ochroma lagopus)
@@ -320,7 +320,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/FQ3Z-8MCuxs?t=";
+  static String myVideoId = "FQ3Z-8MCuxs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -345,7 +345,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/NQ9Hp1KVzJI?t=";
+  static String myVideoId = "NQ9Hp1KVzJI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -370,7 +370,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/iojNr30s0TY?t=";
+  static String myVideoId = "iojNr30s0TY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -395,7 +395,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/b5DPLB02T00?t=";
+  static String myVideoId = "b5DPLB02T00";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -420,7 +420,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/tDnax8d3v3k?t=";
+  static String myVideoId = "tDnax8d3v3k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -445,7 +445,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/1_Z7gICP0DU?t=";
+  static String myVideoId = "1_Z7gICP0DU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -470,7 +470,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/yBT_fI-D5mk?t=";
+  static String myVideoId = "yBT_fI-D5mk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -495,7 +495,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/-VKGhqIl4Gw?t=";
+  static String myVideoId = "-VKGhqIl4Gw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -520,7 +520,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/GLWutiLBiHQ?t=";
+  static String myVideoId = "GLWutiLBiHQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -545,7 +545,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/2k4ZK9p8fwc?t=";
+  static String myVideoId = "2k4ZK9p8fwc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

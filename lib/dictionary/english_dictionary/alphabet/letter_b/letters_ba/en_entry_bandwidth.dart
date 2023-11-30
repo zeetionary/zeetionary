@@ -33,7 +33,8 @@ class EnglishEntrybandwidth extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The radio station broadcasts on a bandwidth of 92.1 MHz."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The radio station broadcasts on a bandwidth of 92.1 MHz."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBandwidths2(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntrybandwidth extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Upgrade to a higher bandwidth to increase your download limits."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Upgrade to a higher bandwidth to increase your download limits."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBandwidths3(String languageCode) async {
@@ -49,7 +51,8 @@ class EnglishEntrybandwidth extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The team does not have the bandwidth to take on new projects at the moment."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The team does not have the bandwidth to take on new projects at the moment."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBandwidths4(String languageCode) async {
@@ -135,9 +138,9 @@ class EnglishEntrybandwidth extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakBandwidth(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBandwidth(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -254,8 +257,9 @@ class EnglishEntrybandwidth extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBandwidths1(// REPLACE: bandwidth
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBandwidths1(// REPLACE: bandwidth
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -264,7 +268,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) بڕێک لە زانیاری کە کۆمپیوتەرێک یان هێڵی ئینتەرنێت دەتوانێت بینێرێت لەکاتێکی دیاریکراودا""",
+٢. (ناو) بڕێک لە زانیاری کە کۆمپیوتەرێک یان ھێڵی ئینتەرنێت دەتوانێت بینێرێت لەکاتێکی دیاریکراودا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -312,8 +316,9 @@ class EnglishEntrybandwidth extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBandwidths2(// REPLACE: bandwidth
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBandwidths2(// REPLACE: bandwidth
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -370,8 +375,9 @@ class EnglishEntrybandwidth extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBandwidths3(// REPLACE: bandwidth
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBandwidths3(// REPLACE: bandwidth
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -421,7 +427,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: bandwidth (Derived forms: bandwidths)
+- Noun: bandwidth (derived forms: bandwidths)
 1. A data transmission rate; the maximum amount of information (bits/second) that can be transmitted along a channel
  
 2. The difference between the highest and lowest frequencies of a transmission, usually measured in hertz
@@ -435,7 +441,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/4U2ZxO7b8iM?t=";
+  static String myVideoId = "4U2ZxO7b8iM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -460,7 +466,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/-J5FLJBnOc4?t=";
+  static String myVideoId = "-J5FLJBnOc4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -485,7 +491,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/1I1vxu5qIUM?t=";
+  static String myVideoId = "1I1vxu5qIUM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -510,7 +516,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/rr2XfL_df3o?t=";
+  static String myVideoId = "rr2XfL_df3o";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -535,7 +541,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/MjGMeMrH73I?t=";
+  static String myVideoId = "MjGMeMrH73I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -560,7 +566,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/CMm7UZKtGNk?t=";
+  static String myVideoId = "CMm7UZKtGNk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -585,7 +591,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/3oBCtTv6yOw?t=";
+  static String myVideoId = "3oBCtTv6yOw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -610,7 +616,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/JXCe_i5pkPA?t=";
+  static String myVideoId = "JXCe_i5pkPA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -635,7 +641,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/6Ij9PiehENA?t=";
+  static String myVideoId = "6Ij9PiehENA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

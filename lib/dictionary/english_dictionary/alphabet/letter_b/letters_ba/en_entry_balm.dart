@@ -209,9 +209,9 @@ class EnglishEntrybalm extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ڕۆنی بەلسان یان بام، گیاسەودا، مەرهەم، هەتوان، هێدی‌کەرەوە، خەم‌ڕەوێن، ئارام‌کەرەوە، هێورکەرەوە
+کوردی: ڕۆنی بەلسان یان بام، گیاسەودا، مەرھەم، ھەتوان، ھێدی‌کەرەوە، خەم‌ڕەوێن، ئارام‌کەرەوە، ھێورکەرەوە
 
-١. (ناو) ڕۆنێکی بۆنخۆش کە لە هەندێک دار و ڕووەکەوە دەستدەکەوێت، لەکۆندا بۆ خۆشکردنەوەی برین بەکاردەهات""",
+١. (ناو) ڕۆنێکی بۆنخۆش کە لە ھەندێک دار و ڕووەکەوە دەستدەکەوێت، لەکۆندا بۆ خۆشکردنەوەی برین بەکاردەھات""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -238,7 +238,7 @@ class EnglishEntrybalm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "میسرییە کۆنەکان ڕۆنی بامیان بەکاردەهێنا وەک بەشێک لە بۆنەی ئاینی و کاری جوانکاری.",
+                                    "میسرییە کۆنەکان ڕۆنی بامیان بەکاردەھێنا وەک بەشێک لە بۆنەی ئاینی و کاری جوانکاری.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -296,7 +296,7 @@ class EnglishEntrybalm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کرێمێکی پێستی بەکارهێنا لەدوای تەراشەکەی.",
+                                    "کرێمێکی پێستی بەکارھێنا لەدوای تەراشەکەی.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -327,7 +327,7 @@ class EnglishEntrybalm extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ناو) (وێژە) شتێکە کە هێمنت دەکاتەوە""",
+٣. (ناو) (وێژە) شتێکە کە ھێمنت دەکاتەوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -354,7 +354,7 @@ class EnglishEntrybalm extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "میوزیکە ئارامبەخشەکە هێدی‌کەرەوەی ڕۆحی بوو.",
+                                    "میوزیکە ئارامبەخشەکە ھێدی‌کەرەوەی ڕۆحی بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -426,7 +426,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: balm (Derived forms: balms)
+- Noun: balm (derived forms: balms)
 1. Any of various aromatic resinous substances used for healing and soothing
  
 2. (medicine) semisolid preparation (usually containing a medicine) applied externally as a remedy or for soothing an irritation (= ointment, unction, unguent, salve)
@@ -440,7 +440,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/tsk9c7KF76E?t=";
+  static String myVideoId = "tsk9c7KF76E";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -465,7 +465,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/dqcSk-EDrRo?t=";
+  static String myVideoId = "dqcSk-EDrRo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -490,7 +490,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/c2v7mbq6hVs?t=";
+  static String myVideoId = "c2v7mbq6hVs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -515,7 +515,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/cfwuadOlyz0?t=";
+  static String myVideoId = "cfwuadOlyz0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -540,7 +540,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/zpDuNzO_rwA?t=";
+  static String myVideoId = "zpDuNzO_rwA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -565,7 +565,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/J0mZYeb4C8k?t=";
+  static String myVideoId = "J0mZYeb4C8k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -590,7 +590,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/8EogfPTP24I?t=";
+  static String myVideoId = "8EogfPTP24I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -615,7 +615,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/SF-E7MvzuDs?t=";
+  static String myVideoId = "SF-E7MvzuDs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -640,7 +640,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/RjKNbfA64EE?t=";
+  static String myVideoId = "RjKNbfA64EE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -665,7 +665,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/KTe9yvjIrRQ?t=";
+  static String myVideoId = "KTe9yvjIrRQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

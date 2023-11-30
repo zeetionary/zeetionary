@@ -6,92 +6,89 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "bail" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
+// Define the word "banking" and provide five example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
 
-// replace bail - replace EnglishEntrybail
+// replace banking - replace EnglishEntrybanking
 
-// replace speakBail - /beɪl/ - find WORD_WEB
+// replace speakBanking - /ˈbæŋkɪŋ/
 
 enum TtsState { playing }
 
-class EnglishEntrybail extends StatelessWidget {
+class EnglishEntrybanking extends StatelessWidget {
 // blank divider
-  EnglishEntrybail({super.key});
+  EnglishEntrybanking({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBail(String languageCode) async {
-    // DOPSUM: CHANGE speakBail
+  Future<void> speakBanking(String languageCode) async {
+    // DOPSUM: CHANGE speakBanking
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bail"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("banking"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBails1(String languageCode) async {
-    // DOPSUM: CHANGE speakBail
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Can anyone put up bail for you?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBails2(String languageCode) async {
-    // DOPSUM: CHANGE speakBail
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("She was released on £2 000 bail."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBails3(String languageCode) async {
-    // DOPSUM: CHANGE speakBail
+  Future<void> speakBankings1(String languageCode) async {
+    // DOPSUM: CHANGE speakBanking
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He was bailed to appear in court on 15 March."); // DOPSUM: CHANGE TEXT
+        "She's thinking about a career in banking."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBails4(String languageCode) async {
-    // DOPSUM: CHANGE speakBail
+  Future<void> speakBankings2(String languageCode) async {
+    // DOPSUM: CHANGE speakBanking
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Sorry, I really have to bail."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBankings22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBails5(String languageCode) async {
-    // DOPSUM: CHANGE speakBail
+  Future<void> speakBankings3(String languageCode) async {
+    // DOPSUM: CHANGE speakBanking
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBails55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBankings33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBails6(String languageCode) async {
-    // DOPSUM: CHANGE speakBail
+  Future<void> speakBankings4(String languageCode) async {
+    // DOPSUM: CHANGE speakBanking
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBails66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBankings44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBails7(String languageCode) async {
-    // DOPSUM: CHANGE speakBail
+  Future<void> speakBankings5(String languageCode) async {
+    // DOPSUM: CHANGE speakBanking
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBails77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBankings55"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBankings6(String languageCode) async {
+    // DOPSUM: CHANGE speakBanking
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBankings66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBankings7(String languageCode) async {
+    // DOPSUM: CHANGE speakBanking
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBankings77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 10, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,7 +107,7 @@ class EnglishEntrybail extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "bail", // DOPSUM: CHANGE WORD ENTRY
+                                "banking", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -129,7 +126,7 @@ class EnglishEntrybail extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /beɪl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈbæŋkɪŋ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -140,7 +137,7 @@ class EnglishEntrybail extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakBail(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakBanking(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -150,7 +147,7 @@ class EnglishEntrybail extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /beɪl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /ˈbæŋkɪŋ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -160,7 +157,7 @@ class EnglishEntrybail extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakBail(
+                              onPressed: () => speakBanking(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -180,13 +177,13 @@ class EnglishEntrybail extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 10
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 11
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -210,9 +207,7 @@ class EnglishEntrybail extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: بارمتە، دەستەبەرانە، دەستەبەری، زەمانەت، کەفیل، دەستەبەر، زامن، بەردان یان ئازادبوون بە دانانی دەستەبەر (نامە)، کەمە، تاسمە، دەور یان گەوی دەوری کۆس، سەتڵ، دۆلکە
-
-١. (ناو) بڕە پارەیەک کە دەدرێت بۆ ئەوەی تاوانبارێک ئازادبکرێت تا ڕۆژی دادگایی""",
+١. (ناو) چالاکی بازرگانی بانک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -224,7 +219,7 @@ class EnglishEntrybail extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "Can anyone put up bail for you?",
+                                    "She's thinking about a career in banking.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -239,7 +234,7 @@ class EnglishEntrybail extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھیچ کەس دەتوانێت ببێتە کەفیلت؟.",
+                                    "بیر لە دۆزینەوەی کارێک لە بانکداری دەکاتەوە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -252,7 +247,7 @@ class EnglishEntrybail extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBails1("en-GB"),
+                                onPressed: () => speakBankings1("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -260,174 +255,9 @@ class EnglishEntrybail extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBails1(// REPLACE: bail
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "She was released on £2 000 bail.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بە کەفیلی ٢٠٠٠ پاوەند ئازادکرا.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakBails2("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakBails2(// REPLACE: bail
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٢. (کردار) ئازادکردنی کەسێک بە کەفالەت""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "He was bailed to appear in court on 15 March.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "بە کەفالەت ئازادکرا تا دەرکەوتنی لە دادگا لە ڕۆژی ١٥ی ئادار.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakBails3("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakBails3(// REPLACE: bail
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٣. (کردار) جێھێشتنی شوێنێک بەخێرایی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "Sorry, I really have to bail.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "ببوورە، بەڕاستی دەبێت بڕۆم.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakBails4("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakBails4(// REPLACE: bail
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBankings1(// REPLACE: banking
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -444,10 +274,10 @@ class EnglishEntrybail extends StatelessWidget {
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
                     YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeleven(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -477,29 +307,10 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: bail (derived forms: bailed, bailing, bails)
-1. (criminal law) money that must be forfeited by the bondsman if an accused person fails to appear in court for trial (= bail bond, bond)
-"the judge set bail at £10,000";
+- Noun: banking  
+1. Engaging in the business of keeping money for savings and checking accounts or for exchange or for issuing loans and credit etc.
  
-2. (law) the legal system that allows an accused person to be temporarily released from custody (usually on condition that a sum of money guarantees their appearance at trial)
-"he is out on bail"
- 
-3. A bucket or scoop used for removing water, e.g. from a boat (= bale [Brit])
- 
-4. (cricket) one of the two wooden crosspieces that rest on top of the stumps to form a wicket
- 
-5. The person providing a payment to be temporarily released from custody
-
-- Verb: bail
-1. Release after a security has been paid
- 
-2. Deliver something in trust to somebody for a special purpose and for a limited period
- 
-3. Secure the release of (someone) by providing security
- 
-4. Empty (a vessel) by bailing
- 
-5. Remove (water) from a vessel with a container
+2. Transacting business with a bank; depositing or withdrawing funds or requesting a loan etc.
 """),
         ],
       ),
@@ -510,12 +321,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "-VRx0GRo-Ws";
+  static String myVideoId = "VrKW58MS12g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 149, // DOPSUM: CHANGE IT
+      startAt: 452, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -535,12 +346,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "raSeaAeryWE";
+  static String myVideoId = "8RZtjBGLa3Q";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1770, // DOPSUM: CHANGE IT
+      startAt: 675, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -560,12 +371,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "58XEfDtU0Z4";
+  static String myVideoId = "fGMCjELDyUY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1406, // DOPSUM: CHANGE IT
+      startAt: 2388, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -585,12 +396,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "v4amCfVbA_c";
+  static String myVideoId = "Un1gfVckcVw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 485, // DOPSUM: CHANGE IT
+      startAt: 1647, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -610,12 +421,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "2NjcqcX7ESI";
+  static String myVideoId = "WA4a8ouaars";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1249, // DOPSUM: CHANGE IT
+      startAt: 353, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -635,12 +446,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "hoihoGGdQ4U";
+  static String myVideoId = "1uNpjqH-mQQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 204, // DOPSUM: CHANGE IT
+      startAt: 434, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -660,12 +471,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "OZ_xhkg32nk";
+  static String myVideoId = "vsMydMDi3rI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 635, // DOPSUM: CHANGE IT
+      startAt: 3621, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -685,12 +496,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "Sh2tWaYElCc";
+  static String myVideoId = "3eDnKct5XAw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 752, // DOPSUM: CHANGE IT
+      startAt: 146, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -710,12 +521,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "dXhRXed5Tjk";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 6, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -735,12 +546,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "cMXGFimOXrI";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 47, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -760,12 +571,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "OIo2Ie1HwHY";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 2120, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -785,12 +596,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "Bh9lIfocRMk";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1034, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -813,46 +624,76 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // class YoutubeEmbeddedthirteen extends StatelessWidget {
 //   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdTwo = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdThree = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+//   YoutubeEmbeddedthirteen({super.key});
 
 //   final YoutubePlayerController _controller = YoutubePlayerController(
 //     initialVideoId: myVideoId,
 //     flags: const YoutubePlayerFlags(
+//       // startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
 //       autoPlay: true,
 //       enableCaption: true,
 //       loop: true,
 //       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
 //     ),
 //   );
+
+//   static String myVideoIdTwo = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
 //   final YoutubePlayerController _controllertwo = YoutubePlayerController(
 //     initialVideoId: myVideoIdTwo,
 //     flags: const YoutubePlayerFlags(
-// autoPlay: false,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // startAt: 222222222222222, // DOPSUM: CHANGE IT
 //       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
-
-//   final YoutubePlayerController _controllerthree = YoutubePlayerController(
-//     initialVideoId: myVideoIdThree,
-//     flags: const YoutubePlayerFlags(
 //       autoPlay: false,
 //       enableCaption: true,
 //       loop: true,
 //       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
 //     ),
 //   );
 
-//   YoutubeEmbeddedthirteen({super.key});
+//   static String myVideoIdThree = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+//   final YoutubePlayerController _controllerthree = YoutubePlayerController(
+//     initialVideoId: myVideoIdThree,
+//     flags: const YoutubePlayerFlags(
+//       // startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//       autoPlay: false,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//     ),
+//   );
+
+//   static String myVideoIdFour = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+//   final YoutubePlayerController _controllerfour = YoutubePlayerController(
+//     initialVideoId: myVideoIdFour,
+//     flags: const YoutubePlayerFlags(
+//       // startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//       autoPlay: false,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//     ),
+//   );
+
+//   static String myVideoIdFive = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+//   final YoutubePlayerController _controllerfive = YoutubePlayerController(
+//     initialVideoId: myVideoIdFive,
+//     flags: const YoutubePlayerFlags(
+//       // startAt: 222222222222222, // DOPSUM: CHANGE IT
+//       // endAt: 253, // DOPSUM: CHANGE IT
+//       autoPlay: false,
+//       enableCaption: true,
+//       loop: true,
+//       mute: false,
+//     ),
+//   );
 
 //   @override
 //   Widget build(BuildContext context) {
@@ -863,6 +704,8 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //             YouTubeContainerDesign(controller: _controller),
 //             YouTubeContainerDesign(controller: _controllertwo),
 //             YouTubeContainerDesign(controller: _controllerthree),
+//             YouTubeContainerDesign(controller: _controllerfour),
+//             YouTubeContainerDesign(controller: _controllerfive),
 //           ],
 //         ),
 //       ),
@@ -870,4 +713,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end bail // TODO Implement this library.
+// end banking// TODO Implement this library.

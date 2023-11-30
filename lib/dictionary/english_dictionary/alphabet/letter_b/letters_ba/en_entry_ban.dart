@@ -33,7 +33,8 @@ class EnglishEntryban extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The law bans smoking in all public places."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The law bans smoking in all public places."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBans2(String languageCode) async {
@@ -41,7 +42,8 @@ class EnglishEntryban extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She's been banned from leaving the country while the allegations are investigated."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She's been banned from leaving the country while the allegations are investigated."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBans3(String languageCode) async {
@@ -49,7 +51,8 @@ class EnglishEntryban extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("A majority of people are against the ban."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A majority of people are against the ban."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBans4(String languageCode) async {
@@ -57,7 +60,8 @@ class EnglishEntryban extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("His behaviour led to a life ban from international football."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "His behaviour led to a life ban from international football."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBans5(String languageCode) async {
@@ -206,7 +210,7 @@ class EnglishEntryban extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: بەربەندێتی، نەلێکردن، ڕێگرتن، نەهێشتن، قەدەخە، بەربەنداندن، قەدەخاندن، قەدەخەکردن، تەکفیر، ڕتان، لەعنەت
+کوردی: بەربەندێتی، نەلێکردن، ڕێگرتن، نەھێشتن، قەدەخە، بەربەنداندن، قەدەخاندن، قەدەخەکردن، تەکفیر، ڕتان، لەعنەت
 
 ١. (کردار) قەدەغەکردن""",
                             style: TextStyle(fontSize: 18),
@@ -293,7 +297,7 @@ class EnglishEntryban extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەو بەربەستکراوە لە جێهێشتنی وڵاتەکە لەکاتێکدا تۆمەتەکان لێکۆڵینەوەیان لێ دەکرێت.",
+                                    "ئەو بەربەستکراوە لە جێھێشتنی وڵاتەکە لەکاتێکدا تۆمەتەکان لێکۆڵینەوەیان لێ دەکرێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -409,7 +413,7 @@ class EnglishEntryban extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕەفتارەکەی بوو بەهۆی سڕکردنی هەمیشەیی لە تۆپێنی نێودەوڵەتیدا.",
+                                    "ڕەفتارەکەی بوو بەھۆی سڕکردنی ھەمیشەیی لە تۆپێنی نێودەوڵەتیدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -481,7 +485,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Verb: ban (Derived forms: banning, bani, bans, banned)
+- Verb: ban (derived forms: banning, bani, bans, banned)
 1. Forbid the public distribution of (a movie or a newspaper) (= censor)
  
 2. Prohibit especially by legal means or social pressure
@@ -489,7 +493,7 @@ class EnglishMeaning extends StatelessWidget {
  
 3. Expel from a community or group (= banish, ostracize, ostracise [Brit], shun, cast out, blackball)
 
-- Noun: ban (Derived forms: bans)
+- Noun: ban (derived forms: bans)
 1. A decree that prohibits something (= prohibition, proscription)
  
 2. An official prohibition or edict against something (= banning, forbiddance, forbidding)
@@ -514,7 +518,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/Cqbleas1mmo?t=";
+  static String myVideoId = "Cqbleas1mmo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -539,7 +543,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/QyL9P1ccy-w?t=";
+  static String myVideoId = "QyL9P1ccy-w";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -564,7 +568,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/cMBrvHsFD_8?t=";
+  static String myVideoId = "cMBrvHsFD_8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -589,7 +593,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/B1r4Z3nXPVA?t=";
+  static String myVideoId = "B1r4Z3nXPVA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -614,7 +618,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/CaLOiGEDPJQ?t=";
+  static String myVideoId = "CaLOiGEDPJQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -639,7 +643,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/UGJhITr7190?t=";
+  static String myVideoId = "UGJhITr7190";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -664,7 +668,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/IPyA8CGk86A?t=";
+  static String myVideoId = "IPyA8CGk86A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -689,7 +693,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/1Cw-vODp-8Y?t=";
+  static String myVideoId = "1Cw-vODp-8Y";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -714,7 +718,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/hhvjKAQv2cs?t=";
+  static String myVideoId = "hhvjKAQv2cs";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -739,7 +743,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/cEc7ZuHyKWE?t=";
+  static String myVideoId = "cEc7ZuHyKWE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -764,7 +768,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/4IaOeVgZ-wc?t=";
+  static String myVideoId = "4IaOeVgZ-wc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -789,7 +793,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/8tT3FhOA4-g?t=";
+  static String myVideoId = "8tT3FhOA4-g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

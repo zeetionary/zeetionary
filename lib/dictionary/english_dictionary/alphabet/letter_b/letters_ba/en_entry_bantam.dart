@@ -6,89 +6,89 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "banal" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
+// Define the word "bantam" and provide five example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
 
-// replace banal - replace EnglishEntrybanal
+// replace bantam - replace EnglishEntrybantam
 
-// replace speakBanal - /bəˈnɑːl/
+// replace speakBantam - /ˈbæntəm/
 
 enum TtsState { playing }
 
-class EnglishEntrybanal extends StatelessWidget {
+class EnglishEntrybantam extends StatelessWidget {
 // blank divider
-  EnglishEntrybanal({super.key});
+  EnglishEntrybantam({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBanal(String languageCode) async {
-    // DOPSUM: CHANGE speakBanal
+  Future<void> speakBantam(String languageCode) async {
+    // DOPSUM: CHANGE speakBantam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("banal"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bantam"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanals1(String languageCode) async {
-    // DOPSUM: CHANGE speakBanal
+  Future<void> speakBantams1(String languageCode) async {
+    // DOPSUM: CHANGE speakBantam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He knew how banal the question was as soon as he had asked it."); // DOPSUM: CHANGE TEXT
+        "I see a small difference between a bantam egg and any other egg."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanals2(String languageCode) async {
-    // DOPSUM: CHANGE speakBanal
+  Future<void> speakBantams2(String languageCode) async {
+    // DOPSUM: CHANGE speakBantam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanals22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBantams22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanals3(String languageCode) async {
-    // DOPSUM: CHANGE speakBanal
+  Future<void> speakBantams3(String languageCode) async {
+    // DOPSUM: CHANGE speakBantam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanals33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBantams33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanals4(String languageCode) async {
-    // DOPSUM: CHANGE speakBanal
+  Future<void> speakBantams4(String languageCode) async {
+    // DOPSUM: CHANGE speakBantam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanals44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBantams44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanals5(String languageCode) async {
-    // DOPSUM: CHANGE speakBanal
+  Future<void> speakBantams5(String languageCode) async {
+    // DOPSUM: CHANGE speakBantam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanals55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBantams55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanals6(String languageCode) async {
-    // DOPSUM: CHANGE speakBanal
+  Future<void> speakBantams6(String languageCode) async {
+    // DOPSUM: CHANGE speakBantam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanals66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBantams66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBanals7(String languageCode) async {
-    // DOPSUM: CHANGE speakBanal
+  Future<void> speakBantams7(String languageCode) async {
+    // DOPSUM: CHANGE speakBantam
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBanals77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBantams77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 9, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -107,7 +107,7 @@ class EnglishEntrybanal extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "banal", // DOPSUM: CHANGE WORD ENTRY
+                                "bantam", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -126,7 +126,7 @@ class EnglishEntrybanal extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /bəˈnɑːl/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈbæntəm/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -137,7 +137,7 @@ class EnglishEntrybanal extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakBanal(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakBantam(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -147,7 +147,7 @@ class EnglishEntrybanal extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /bəˈnɑːl/, /ˈbeɪnl/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /ˈbæntəm/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -157,7 +157,7 @@ class EnglishEntrybanal extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakBanal(
+                              onPressed: () => speakBantam(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -177,11 +177,11 @@ class EnglishEntrybanal extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 9
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
-                  VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
+                  // VideoIconForTab(), // 08
+                  // VideoIconForTab(), // 09
+                  // VideoIconForTab(), // 10
                   // VideoIconForTab(), // 11
                   // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
@@ -207,9 +207,7 @@ class EnglishEntrybanal extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ئاسایی، ڕەمەکی، سەرپێیی، ناسەرنج‌ڕاکێش، ھیچەکە، ناگرنگ، ئایەخ
-
-١. (ھاوەڵناو) شتێکی ئاسایی کە ھیچی سەرنجڕاکێشی تێدا نییە""",
+١. (ناو) جۆرە مریشکێکی بچووک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -221,7 +219,7 @@ class EnglishEntrybanal extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "He knew how banal the question was as soon as he had asked it.",
+                                    "I see a small difference between a bantam egg and any other egg.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -236,7 +234,7 @@ class EnglishEntrybanal extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "دەیزانی پرسیارەکە چەندە ھیچ بوو ھەرکە پرسی.",
+                                    "جیاوازییەکی کەم دەبینم لەنێوان ھێلکەی مریشکی بانتم و ھەر ھێلکەیەکی تر.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -249,7 +247,7 @@ class EnglishEntrybanal extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBanals1("en-GB"),
+                                onPressed: () => speakBantams1("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -257,8 +255,9 @@ class EnglishEntrybanal extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBanals1(// REPLACE: banal
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBantams1(// REPLACE: bantam
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -274,9 +273,9 @@ class EnglishEntrybanal extends StatelessWidget {
                     YoutubeEmbeddedfive(),
                     YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                     YoutubeEmbeddedseven(),
-                    YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
+                    // YoutubeEmbeddedeight(),
+                    // YoutubeEmbeddednine(),
+                    // YoutubeEmbeddedten(),
                     // YoutubeEmbeddedeleven(),
                     // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
@@ -308,9 +307,12 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adjective: banal 
-1. Repeated too often; overfamiliar through overuse (= commonplace, hackneyed, old-hat [informal], shopworn [N. Amer], stock, threadbare, timeworn, tired, trite, well-worn, shop-soiled [Brit])
-"his remarks were trite and banal";
+- Adjective: bantam
+1. Very small (diminutive, lilliputian, midget, petite, tiny, flyspeck, tiddly [Brit, informal], diddy [Brit, informal], eensy-weensy [informal], eensy [informal])
+"bantam in stature";
+
+- Noun: bantam (derived forms: bantams)
+Any of various small breeds of fowl
 """),
         ],
       ),
@@ -321,12 +323,14 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "29n2bv7F6uc";
+  YoutubeEmbeddedone({super.key});
+
+  static String myVideoId = "1bLT586V9Uk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1363, // DOPSUM: CHANGE IT
+      startAt: 1228, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -334,8 +338,6 @@ class YoutubeEmbeddedone extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedone({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -346,12 +348,14 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "hSNWkRw53Jo";
+  YoutubeEmbeddedtwo({super.key});
+
+  static String myVideoId = "1mkYWBa1Wq0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 6163, // DOPSUM: CHANGE IT
+      startAt: 755, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -359,8 +363,6 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedtwo({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -371,12 +373,14 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "6UcQxHYda54";
+  YoutubeEmbeddedthree({super.key});
+
+  static String myVideoId = "7dvONBFaNTk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 343, // DOPSUM: CHANGE IT
+      startAt: 209, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -384,8 +388,6 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedthree({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -396,12 +398,14 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "ccTYpVUP4kA";
+  YoutubeEmbeddedfour({super.key});
+
+  static String myVideoId = "p5iOnnrcYQk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 267, // DOPSUM: CHANGE IT
+      startAt: 339, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -409,8 +413,6 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedfour({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -421,12 +423,14 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "DtXC6Tu5p0M";
+  YoutubeEmbeddedfive({super.key});
+
+  static String myVideoId = "EGHAlV4ZQIU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 519, // DOPSUM: CHANGE IT
+      startAt: 266, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -434,8 +438,6 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedfive({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -446,12 +448,14 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "VPbiBE0dZQ8";
+  YoutubeEmbeddedsix({super.key});
+
+  static String myVideoId = "31Z9pHdAUQA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 735, // DOPSUM: CHANGE IT
+      startAt: 118, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -459,8 +463,6 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedsix({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -471,12 +473,14 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "i8xelajthM0";
+  YoutubeEmbeddedseven({super.key});
+
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 268, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -484,8 +488,6 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedseven({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -496,12 +498,14 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "l8EcUIFL-fI";
+  YoutubeEmbeddedeight({super.key});
+
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 99, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -509,8 +513,6 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedeight({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -521,12 +523,14 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "cA8VoY3dUFU";
+  YoutubeEmbeddednine({super.key});
+
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 7, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -534,8 +538,6 @@ class YoutubeEmbeddednine extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddednine({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -546,12 +548,14 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "jlIBGl5-j_4";
+  YoutubeEmbeddedten({super.key});
+
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 233, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -559,8 +563,6 @@ class YoutubeEmbeddedten extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedten({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -571,6 +573,8 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
+  YoutubeEmbeddedeleven({super.key});
+
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
@@ -584,8 +588,6 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedeleven({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -596,6 +598,8 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
+  YoutubeEmbeddedtwelve({super.key});
+
   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
@@ -609,8 +613,6 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
       mute: false,
     ),
   );
-
-  YoutubeEmbeddedtwelve({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -622,63 +624,95 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // morethan one video, only first autoplay
 
-// class YoutubeEmbeddedthirteen extends StatelessWidget {
-//   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdTwo = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdThree = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+class YoutubeEmbeddedthirteen extends StatelessWidget {
+  YoutubeEmbeddedthirteen({super.key});
 
-//   final YoutubePlayerController _controller = YoutubePlayerController(
-//     initialVideoId: myVideoId,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: true,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
-//   final YoutubePlayerController _controllertwo = YoutubePlayerController(
-//     initialVideoId: myVideoIdTwo,
-//     flags: const YoutubePlayerFlags(
-// autoPlay: false,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
 
-//   final YoutubePlayerController _controllerthree = YoutubePlayerController(
-//     initialVideoId: myVideoIdThree,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: false,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
+  static String myVideoIdTwo = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
-//   YoutubeEmbeddedthirteen({super.key});
+  final YoutubePlayerController _controllertwo = YoutubePlayerController(
+    initialVideoId: myVideoIdTwo,
+    flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: false,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
 
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       body: SingleChildScrollView(
-//         child: Column(
-//           children: [
-//             YouTubeContainerDesign(controller: _controller),
-//             YouTubeContainerDesign(controller: _controllertwo),
-//             YouTubeContainerDesign(controller: _controllerthree),
-//           ],
-//         ),
-//       ),
-//     );
-//   }
-// }
+  static String myVideoIdThree = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
-// end banal// TODO Implement this library.
+  final YoutubePlayerController _controllerthree = YoutubePlayerController(
+    initialVideoId: myVideoIdThree,
+    flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: false,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  static String myVideoIdFour = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+  final YoutubePlayerController _controllerfour = YoutubePlayerController(
+    initialVideoId: myVideoIdFour,
+    flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: false,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  static String myVideoIdFive = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+
+  final YoutubePlayerController _controllerfive = YoutubePlayerController(
+    initialVideoId: myVideoIdFive,
+    flags: const YoutubePlayerFlags(
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: false,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            YouTubeContainerDesign(controller: _controller),
+            YouTubeContainerDesign(controller: _controllertwo),
+            YouTubeContainerDesign(controller: _controllerthree),
+            YouTubeContainerDesign(controller: _controllerfour),
+            YouTubeContainerDesign(controller: _controllerfive),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+// end bantam// TODO Implement this library.

@@ -33,7 +33,8 @@ class EnglishEntrybalustrade extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The balustrade of the grand staircase has been painted white."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The balustrade of the grand staircase has been painted white."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBalustrades2(String languageCode) async {
@@ -135,9 +136,9 @@ class EnglishEntrybalustrade extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakBalustrade(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBalustrade(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -208,7 +209,7 @@ class EnglishEntrybalustrade extends StatelessWidget {
                             """
 کوردی: نەردە، چاغ، سیاج، شوورە
 
-١. (ناو) سیاجی پلەکانە یان بەرهەیوان بۆ ڕێگری لە کەوتنەخوارەوە""",
+١. (ناو) سیاجی پلەکانە یان بەرھەیوان بۆ ڕێگری لە کەوتنەخوارەوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -256,8 +257,9 @@ class EnglishEntrybalustrade extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBalustrades1(// REPLACE: balustrade
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBalustrades1(// REPLACE: balustrade
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -307,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: balustrade (Derived forms: balustrades)
+- Noun: balustrade (derived forms: balustrades)
 1. A railing at the side of a staircase or balcony to prevent people from falling (= bannister, banister, balusters, handrail)
 """),
         ],
@@ -319,7 +321,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/_F1gTeuVMb8?t=";
+  static String myVideoId = "_F1gTeuVMb8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -344,7 +346,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/CHwGDjVdmNY?t=";
+  static String myVideoId = "CHwGDjVdmNY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -369,7 +371,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/BJTu6FcDt1I?t=";
+  static String myVideoId = "BJTu6FcDt1I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -394,7 +396,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/JYwUUDdYi9I?t=";
+  static String myVideoId = "JYwUUDdYi9I";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -419,7 +421,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/OHR6bu4BmBw?t=";
+  static String myVideoId = "OHR6bu4BmBw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -444,7 +446,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/khlApzMhMU0?t=";
+  static String myVideoId = "khlApzMhMU0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -469,7 +471,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/qCcoWwepHs0?t=";
+  static String myVideoId = "qCcoWwepHs0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -494,7 +496,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/lOLOPp2q-Z4?t=";
+  static String myVideoId = "lOLOPp2q-Z4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -519,7 +521,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/p0s0j2jQ5NM?t=";
+  static String myVideoId = "p0s0j2jQ5NM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

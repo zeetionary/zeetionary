@@ -1301,55 +1301,227 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     "baggage",
     "baggy",
     "bagpipes",
-    // "bail",
-    // "bailiff",
-    // "bait",
-    // "bake",
-    // "baker",
-    // "bakery",
-    // "baking powder",
-    // "balance",
-    // "balance sheet",
-    // "balcony",
-    // "bald",
-    // "balding",
-    // "baldly",
-    // "baldness",
-    // "bale",
-    // "balk",
-    // "ball",
-    // "ball game",
-    // "ballad",
-    // "ballast",
-    // "ballerina",
-    // "ballet",
-    // "ballpoint",
-    // "ballroom",
-    // "ballistic",
-    // "ballistic missile",
-    // "ballistics",
-    // "balloon",
-    // "ballot",
-    // "ballot box",
-    // "balm",
-    // "balmy",
-    // "balsa",
-    // "balsamic vinegar",
-    // "balti",
-    // "balustrade",
-    // "bamboo",
-    // "ban",
-    // "banal",
-    // "banana",
-    // "band",
-    // "Band Aid",
-    // "bandstand",
-    // "bandwagon",
-    // "bandage",
-    // "bandage",
-    // "bandit",
-    // "bandwidth",
-    // "bandy",
+    "bail",
+    "bailiff",
+    "bait",
+    "bake",
+    "baker",
+    "bakery",
+    "baking powder",
+    "balance",
+    "balance sheet",
+    "balcony",
+    "bald",
+    "balding",
+    "baldly",
+    "baldness",
+    "bale",
+    "balk",
+    "ball",
+    "ball game",
+    "ballad",
+    "ballast",
+    "ballerina",
+    "ballet",
+    "ballpoint",
+    "ballroom",
+    "ballistic",
+    "ballistic missile",
+    "ballistics",
+    "balloon",
+    "ballot",
+    "ballot box",
+    "balm",
+    "balmy",
+    "balsa",
+    "balsamic vinegar",
+    "balti",
+    "balustrade",
+    "bamboo",
+    "ban",
+    "banal",
+    "banana",
+    "band",
+    "Band Aid",
+    "bandstand",
+    "bandwagon",
+    "bandage",
+    "bandage",
+    "bandit",
+    "bandwidth",
+    "bandy",
+    "bang",
+    "banger",
+    "bangle",
+    "banish",
+    "banishment",
+    "banister",
+    "banjo",
+    "bank",
+    "banker",
+    "bank holiday",
+    "banking",
+    "banknote",
+    "bankrupt",
+    "bankruptcy",
+    "banner",
+    "bannister",
+    "banns",
+    "banquet",
+    "bantam",
+    "banter",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -6683,274 +6855,278 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-bagpipes");
                   }
-                  // if (wordsEnglish == "bail") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bail");
-                  // }
-                  // if (wordsEnglish == "bailiff") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bailiff");
-                  // }
-                  // if (wordsEnglish == "bait") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bait");
-                  // }
-                  // if (wordsEnglish == "bake") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bake");
-                  // }
-                  // if (wordsEnglish == "baker") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-baker");
-                  // }
-                  // if (wordsEnglish == "bakery") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bakery");
-                  // }
-                  // if (wordsEnglish == "baking powder") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-baking-powder");
-                  // }
-                  // if (wordsEnglish == "balance") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-balance");
-                  // }
-                  // if (wordsEnglish == "balance sheet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-balance-sheet");
-                  // }
-                  // if (wordsEnglish == "balcony") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-balcony");
-                  // }
-                  // if (wordsEnglish == "bald") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bald");
-                  // }
-                  // if (wordsEnglish == "balding") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-balding");
-                  // }
-                  // if (wordsEnglish == "baldly") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-baldly");
-                  // }
-                  // if (wordsEnglish == "baldness") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-baldness");
-                  // }
-                  // if (wordsEnglish == "bale") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bale");
-                  // }
-                  // if (wordsEnglish == "balk") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-baulk");
-                  // }
-                  // if (wordsEnglish == "ball") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ball");
-                  // }
-                  // if (wordsEnglish == "ball game") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ball-game");
-                  // }
-                  // if (wordsEnglish == "ballpoint") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ballpoint");
-                  // }
-                  // if (wordsEnglish == "ballroom") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ballroom");
-                  // }
-                  // if (wordsEnglish == "ballad") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ballad");
-                  // }
-                  // if (wordsEnglish == "ballast") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ballast");
-                  // }
-                  // if (wordsEnglish == "ballerina") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ballerina");
-                  // }
-                  // if (wordsEnglish == "ballet") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ballet");
-                  // }
-                  // if (wordsEnglish == "ballistic") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ballistic");
-                  // }
-                  // if (wordsEnglish == "ballistic missile") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ballistic-missile");
-                  // }
-                  // if (wordsEnglish == "ballistics") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ballistics");
-                  // }
-                  // if (wordsEnglish == "balloon") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-balloon");
-                  // }
-                  // if (wordsEnglish == "ballot") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ballot");
-                  // }
-                  // if (wordsEnglish == "ballot box") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ballot-box");
-                  // }
-                  // if (wordsEnglish == "balm") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-balm");
-                  // }
-                  // if (wordsEnglish == "balmy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-balmy");
-                  // }
-                  // if (wordsEnglish == "balsa") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-balsa");
-                  // }
-                  // if (wordsEnglish == "balsamic vinegar") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-balsamic-vinegar");
-                  // }
-                  // if (wordsEnglish == "balti") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-balti");
-                  // }
-                  // if (wordsEnglish == "balustrade") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-balustrade");
-                  // }
-                  // if (wordsEnglish == "bamboo") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bamboo");
-                  // }
-                  // if (wordsEnglish == "ban") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-ban");
-                  // }
-                  // if (wordsEnglish == "banal") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-banal");
-                  // }
-                  // if (wordsEnglish == "banana") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-banana");
-                  // }
-                  // if (wordsEnglish == "band") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-band");
-                  // }
-                  // if (wordsEnglish == "Band Aid") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-band-aid");
-                  // }
-                  // if (wordsEnglish == "bandstand") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bandstand");
-                  // }
-                  // if (wordsEnglish == "bandwagon") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bandwagon");
-                  // }
-                  // if (wordsEnglish == "bandage") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bandage");
-                  // }
-                  // if (wordsEnglish == "bandit") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bandit");
-                  // }
-                  // if (wordsEnglish == "bandwidth") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bandwidth");
-                  // }
-                  // if (wordsEnglish == "bandy") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-bandy");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
-                  // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");
-                  // }
+                  if (wordsEnglish == "bail") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bail");
+                  }
+                  if (wordsEnglish == "bailiff") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bailiff");
+                  }
+                  if (wordsEnglish == "bait") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bait");
+                  }
+                  if (wordsEnglish == "bake") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bake");
+                  }
+                  if (wordsEnglish == "baker") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-baker");
+                  }
+                  if (wordsEnglish == "bakery") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bakery");
+                  }
+                  if (wordsEnglish == "baking powder") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-baking-powder");
+                  }
+                  if (wordsEnglish == "balance") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-balance");
+                  }
+                  if (wordsEnglish == "balance sheet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-balance-sheet");
+                  }
+                  if (wordsEnglish == "balcony") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-balcony");
+                  }
+                  if (wordsEnglish == "bald") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bald");
+                  }
+                  if (wordsEnglish == "balding") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-balding");
+                  }
+                  if (wordsEnglish == "baldly") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-baldly");
+                  }
+                  if (wordsEnglish == "baldness") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-baldness");
+                  }
+                  if (wordsEnglish == "bale") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bale");
+                  }
+                  if (wordsEnglish == "balk") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-baulk");
+                  }
+                  if (wordsEnglish == "ball") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ball");
+                  }
+                  if (wordsEnglish == "ball game") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ball-game");
+                  }
+                  if (wordsEnglish == "ballpoint") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ballpoint");
+                  }
+                  if (wordsEnglish == "ballroom") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ballroom");
+                  }
+                  if (wordsEnglish == "ballad") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ballad");
+                  }
+                  if (wordsEnglish == "ballast") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ballast");
+                  }
+                  if (wordsEnglish == "ballerina") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ballerina");
+                  }
+                  if (wordsEnglish == "ballet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ballet");
+                  }
+                  if (wordsEnglish == "ballistic") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ballistic");
+                  }
+                  if (wordsEnglish == "ballistic missile") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ballistic-missile");
+                  }
+                  if (wordsEnglish == "ballistics") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ballistics");
+                  }
+                  if (wordsEnglish == "balloon") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-balloon");
+                  }
+                  if (wordsEnglish == "ballot") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ballot");
+                  }
+                  if (wordsEnglish == "ballot box") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ballot-box");
+                  }
+                  if (wordsEnglish == "balm") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-balm");
+                  }
+                  if (wordsEnglish == "balmy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-balmy");
+                  }
+                  if (wordsEnglish == "balsa") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-balsa");
+                  }
+                  if (wordsEnglish == "balsamic vinegar") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-balsamic-vinegar");
+                  }
+                  if (wordsEnglish == "balti") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-balti");
+                  }
+                  if (wordsEnglish == "balustrade") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-balustrade");
+                  }
+                  if (wordsEnglish == "bamboo") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bamboo");
+                  }
+                  if (wordsEnglish == "ban") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-ban");
+                  }
+                  if (wordsEnglish == "banal") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-banal");
+                  }
+                  if (wordsEnglish == "banana") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-banana");
+                  }
+                  if (wordsEnglish == "band") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-band");
+                  }
+                  if (wordsEnglish == "Band Aid") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-band-aid");
+                  }
+                  if (wordsEnglish == "bandstand") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bandstand");
+                  }
+                  if (wordsEnglish == "bandwagon") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bandwagon");
+                  }
+                  if (wordsEnglish == "bandage") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bandage");
+                  }
+                  if (wordsEnglish == "bandit") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bandit");
+                  }
+                  if (wordsEnglish == "bandwidth") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bandwidth");
+                  }
+                  if (wordsEnglish == "bandy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bandy");
+                  }
+                  if (wordsEnglish == "bang") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bang");
+                  }
+                  if (wordsEnglish == "banger") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-banger");
+                  }
+                  if (wordsEnglish == "bangle") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bangle");
+                  }
+                  if (wordsEnglish == "banish") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-banish");
+                  }
+                  if (wordsEnglish == "banishment") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-banishment");
+                  }
+                  if (wordsEnglish == "banister") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-banister");
+                  }
+                  if (wordsEnglish == "bannister") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-banister");
+                  }
+                  if (wordsEnglish == "banjo") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-banjo");
+                  }
+                  if (wordsEnglish == "bank") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bank");
+                  }
+                  if (wordsEnglish == "banker") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-banker");
+                  }
+                  if (wordsEnglish == "bank holiday") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bank-holiday");
+                  }
+                  if (wordsEnglish == "banking") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-banking");
+                  }
+                  if (wordsEnglish == "banknote") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-banknote");
+                  }
+                  if (wordsEnglish == "bankrupt") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bankrupt");
+                  }
+                  if (wordsEnglish == "bankruptcy") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bankruptcy");
+                  }
+                  if (wordsEnglish == "banner") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-banner");
+                  }
+                  if (wordsEnglish == "banns") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-banns");
+                  }
+                  if (wordsEnglish == "banquet") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-banquet");
+                  }
+                  if (wordsEnglish == "bantam") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-bantam");
+                  }
+                  if (wordsEnglish == "banter") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-banter");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

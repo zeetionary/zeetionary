@@ -33,7 +33,8 @@ class EnglishEntrybandstand extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The event will include a band performing on the restored bandstand."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The event will include a band performing on the restored bandstand."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBandstands2(String languageCode) async {
@@ -135,9 +136,9 @@ class EnglishEntrybandstand extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.blue,
                               ),
-                              onPressed: () =>
-                                  speakBandstand(// DOPSUM: CHANGE THE WORD ABOVE
-                                      "en-GB"),
+                              onPressed: () => speakBandstand(
+                                  // DOPSUM: CHANGE THE WORD ABOVE
+                                  "en-GB"),
                             ),
                           ],
                         ),
@@ -256,8 +257,9 @@ class EnglishEntrybandstand extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBandstands1(// REPLACE: bandstand
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBandstands1(// REPLACE: bandstand
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -307,7 +309,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: bandstand (Derived forms: bandstands)
+- Noun: bandstand (derived forms: bandstands)
 1. A platform where a (brass) band can play in the open air (= outdoor stage, stand)
 """),
         ],
@@ -319,7 +321,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/KK3Yr80lPOY?t=";
+  static String myVideoId = "KK3Yr80lPOY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -344,7 +346,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/Go5cfISkD3U?t=";
+  static String myVideoId = "Go5cfISkD3U";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -369,7 +371,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/NPjlb0U0NaU?t=";
+  static String myVideoId = "NPjlb0U0NaU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -394,7 +396,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/zme6xXL1WQ8?t=";
+  static String myVideoId = "zme6xXL1WQ8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -419,7 +421,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/J0f_Nc-y8FE?t=";
+  static String myVideoId = "J0f_Nc-y8FE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -444,7 +446,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/_rofCcYa9dI?t=";
+  static String myVideoId = "_rofCcYa9dI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -469,7 +471,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/mypgWmryWrI?t=";
+  static String myVideoId = "mypgWmryWrI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -494,7 +496,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/P1lk1vEIlLM?t=";
+  static String myVideoId = "P1lk1vEIlLM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

@@ -6,93 +6,90 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "bait" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
+// Define the word "banish" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
 
-// replace bait - replace EnglishEntrybait
+// replace banish - replace EnglishEntrybanish
 
-// replace speakBait - /beɪt/ - find WORD_WEB
+// replace speakBanish - /ˈbænɪʃ/
 
 enum TtsState { playing }
 
-class EnglishEntrybait extends StatelessWidget {
+class EnglishEntrybanish extends StatelessWidget {
 // blank divider
-  EnglishEntrybait({super.key});
+  EnglishEntrybanish({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBait(String languageCode) async {
-    // DOPSUM: CHANGE speakBait
+  Future<void> speakBanish(String languageCode) async {
+    // DOPSUM: CHANGE speakBanish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bait"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("banish"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaits1(String languageCode) async {
-    // DOPSUM: CHANGE speakBait
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Live worms are used as bait."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBaits2(String languageCode) async {
-    // DOPSUM: CHANGE speakBait
+  Future<void> speakBanishs1(String languageCode) async {
+    // DOPSUM: CHANGE speakBanish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The police used him as bait to trap the killers."); // DOPSUM: CHANGE TEXT
+        "He was banished to Australia, where he died five years later."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaits3(String languageCode) async {
-    // DOPSUM: CHANGE speakBait
+  Future<void> speakBanishs2(String languageCode) async {
+    // DOPSUM: CHANGE speakBanish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He baited the trap with a piece of meat."); // DOPSUM: CHANGE TEXT
+        "The sight of food banished all other thoughts from my mind."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaits4(String languageCode) async {
-    // DOPSUM: CHANGE speakBait
+  Future<void> speakBanishs3(String languageCode) async {
+    // DOPSUM: CHANGE speakBanish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The soldiers remained calm even though the crowd was baiting them."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBanishs33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaits5(String languageCode) async {
-    // DOPSUM: CHANGE speakBait
+  Future<void> speakBanishs4(String languageCode) async {
+    // DOPSUM: CHANGE speakBanish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The activity of bear-baiting was finally banned in England in the 19th century."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBanishs44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaits6(String languageCode) async {
-    // DOPSUM: CHANGE speakBait
+  Future<void> speakBanishs5(String languageCode) async {
+    // DOPSUM: CHANGE speakBanish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBaits66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBanishs55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaits7(String languageCode) async {
-    // DOPSUM: CHANGE speakBait
+  Future<void> speakBanishs6(String languageCode) async {
+    // DOPSUM: CHANGE speakBanish
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBaits77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBanishs66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBanishs7(String languageCode) async {
+    // DOPSUM: CHANGE speakBanish
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBanishs77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 11, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,7 +108,7 @@ class EnglishEntrybait extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "bait", // DOPSUM: CHANGE WORD ENTRY
+                                "banish", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -130,7 +127,7 @@ class EnglishEntrybait extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /beɪt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈbænɪʃ/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -141,7 +138,7 @@ class EnglishEntrybait extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakBait(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakBanish(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -151,7 +148,7 @@ class EnglishEntrybait extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /beɪt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /ˈbænɪʃ/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -161,7 +158,7 @@ class EnglishEntrybait extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakBait(
+                              onPressed: () => speakBanish(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -181,13 +178,13 @@ class EnglishEntrybait extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 11
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
+                  // VideoIconForTab(), // 12
                   // VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
@@ -211,9 +208,9 @@ class EnglishEntrybait extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: چەشکە، تامک، چەشە، دان، دانە، داو، تەڵە
+کوردی: دوور خستنەوە، دەرکردن، لابردن، وەلانان
 
-١. (ناو) پێناسەکەمێک خواردن کە وەک داو بەکاردێت بۆ گرتنی ماسی یان نێچیر""",
+١. (کردار) دوورخستنەوەی کەسێک لە شوێنێک یان وڵاتێک وەک سزا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -225,7 +222,7 @@ class EnglishEntrybait extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "Live worms are used as bait.",
+                                    "He was banished to Australia, where he died five years later.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -240,7 +237,7 @@ class EnglishEntrybait extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کرمی زیندوو وەک تامک بەکاردێن.",
+                                    "دوورخرایەوە بە ئوسترالیا، شوێنێک کە دوای پێنج ساڵ تێیدا مرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -253,7 +250,7 @@ class EnglishEntrybait extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBaits1("en-GB"),
+                                onPressed: () => speakBanishs1("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -261,8 +258,9 @@ class EnglishEntrybait extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBaits1(// REPLACE: bait
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBanishs1(// REPLACE: banish
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -271,7 +269,7 @@ class EnglishEntrybait extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) کەسێک کە بەکاردێت بۆ نزیککردنەوەی کەسێک بۆ ئەوەی بیگریت یان وای‌لێ‌بکەیت ئەوە بکات کە دەتەوێت""",
+٢. (کردار) وا لە شتێک بکەیت نەمێنێت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -283,7 +281,7 @@ class EnglishEntrybait extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "The police used him as bait to trap the killers.",
+                                    "The sight of food banished all other thoughts from my mind.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -298,7 +296,7 @@ class EnglishEntrybait extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پۆلیس ئەوی وەک وەک داوێک بەکارھێنا بۆ خستنەتەڵەی بکوژەکان.",
+                                    "دیمەنی خواردن ھەموو بیرێکی تری لە مێشکی دەرکرد.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -311,7 +309,7 @@ class EnglishEntrybait extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBaits2("en-GB"),
+                                onPressed: () => speakBanishs2("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -319,182 +317,9 @@ class EnglishEntrybait extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBaits2(// REPLACE: bait
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٣. (کردار) دانانی تامک لەسەر تەڵەیەک""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "He baited the trap with a piece of meat.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "پارچە گۆشتێکی لەسەر تەڵەکە دانا وەک داو.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakBaits3("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakBaits3(// REPLACE: bait
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٤. (کردار) بەئەنقەست تووڕەکردنی کەسێک بە لێدوانی توند""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The soldiers remained calm even though the crowd was baiting them.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "سەربازەکان بەھێمنی مانەوە ئەگەرچی جەماوەرەکە توڕەیان کردن.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakBaits4("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakBaits4(// REPLACE: bait
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٥. (کردار) چالاکی ھێرش کردنە سەر ئاژەڵ بە بەکارھێنانی سەگ بۆ خۆشی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The activity of bear-baiting was finally banned in England in the 19th century.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "چالاکی ورچ کوشتن لەکۆتاییدا لە ئینگلتەرە قەدەغەکرا لە سەدەی ١٩.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakBaits5("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakBaits5(// REPLACE: bait
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBanishs2(// REPLACE: banish
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -514,7 +339,7 @@ class EnglishEntrybait extends StatelessWidget {
                     YoutubeEmbeddednine(),
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
+                    // YoutubeEmbeddedtwelve(),
                     // YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
@@ -544,18 +369,14 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: bait (derived forms: baiting, baited, baits)
-1. Anything that serves as an enticement (= come-on [informal], hook, lure, sweetener)
+- Verb: banish (derived forms: banished, banishes, banishing)
+1. Expel from a community or group (= ban, ostracize, ostracise [Brit], shun, cast out, blackball)
  
-2. Something used to lure fish or other animals into danger so they can be trapped or killed (= decoy, lure)
-
-- Verb: bait
-1. Deliberately provoke by mocking or poking fun, often in an aggressive manner (= tease, razz [N. Amer, informal], rag, cod [Brit, informal], taunt, twit [informal], rally, ride [N. Amer, informal], wind up [Brit, informal])
-"The children baited the new teacher";
+2. Expel, as if by official decree (= relegate, bar)
+"he was banished from his own country";
  
-2. Lure, entice, or entrap with bait
- 
-3. Attack with dogs or set dogs upon
+3. Drive away
+"banish bad thoughts"; "banish gloom"
 """),
         ],
       ),
@@ -566,12 +387,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "hFZFjoX2cGg";
+  static String myVideoId = "7h8j8J0zoJ0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 185, // DOPSUM: CHANGE IT
+      startAt: 733, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -591,12 +412,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "zqllxbPWKNI";
+  static String myVideoId = "r9cLluDKIhk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1466, // DOPSUM: CHANGE IT
+      startAt: 127, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -616,12 +437,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "zZM57oTu9Ng";
+  static String myVideoId = "GkgXRyScubI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 44, // DOPSUM: CHANGE IT
+      startAt: 1231, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -641,12 +462,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "qBJQteFrDAc";
+  static String myVideoId = "gghRXOXY820";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 461, // DOPSUM: CHANGE IT
+      startAt: 995, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -666,12 +487,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "idWpZ63isMo";
+  static String myVideoId = "5ab4rYDR0yY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 442, // DOPSUM: CHANGE IT
+      startAt: 147, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -691,12 +512,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "nn8zfDv3EbA";
+  static String myVideoId = "jMw1NAwYDbQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 206, // DOPSUM: CHANGE IT
+      startAt: 1018, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -716,12 +537,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "Jsne9JevfKw";
+  static String myVideoId = "VUKtjst3gsg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 108, // DOPSUM: CHANGE IT
+      startAt: 81, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -741,12 +562,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "qpi9epVHYlc";
+  static String myVideoId = "Solb9uA-tgQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 152, // DOPSUM: CHANGE IT
+      startAt: 2950, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -766,12 +587,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "a7wC2M0b5u0";
+  static String myVideoId = "8GOoBPLeS60";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 63, // DOPSUM: CHANGE IT
+      startAt: 446, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -791,12 +612,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "Am1lDj2mUVY";
+  static String myVideoId = "j1jkilao3MQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 941, // DOPSUM: CHANGE IT
+      startAt: 111, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -816,12 +637,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "uCzB1TS5oF8";
+  static String myVideoId = "f_C8lPqVjOw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 347, // DOPSUM: CHANGE IT
+      startAt: 2673, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -841,12 +662,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "L87HuKmGwVQ";
+  static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 38, // DOPSUM: CHANGE IT
+      startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -926,4 +747,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 //   }
 // }
 
-// end bait // TODO Implement this library.
+// end banish// TODO Implement this library.

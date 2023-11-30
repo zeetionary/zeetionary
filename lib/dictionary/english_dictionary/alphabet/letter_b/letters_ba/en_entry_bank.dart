@@ -6,149 +6,167 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "balance" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
+// Define the word "bank" and provide five example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
 
-// replace balance - replace EnglishEntrybalance
+// replace bank - replace EnglishEntrybank
 
-// replace speakBalance - /ˈbæləns/
+// replace speakBank - /bæŋk/
 
 enum TtsState { playing }
 
-class EnglishEntrybalance extends StatelessWidget {
+class EnglishEntrybank extends StatelessWidget {
 // blank divider
-  EnglishEntrybalance({super.key});
+  EnglishEntrybank({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBalance(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
+  Future<void> speakBank(String languageCode) async {
+    // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("balance"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bank"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances1(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
+  Future<void> speakBanks1(String languageCode) async {
+    // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This newspaper maintains a good balance in its presentation of different opinions."); // DOPSUM: CHANGE TEXT
+        "I don't have much money in the bank at the end of the month."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances2(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
+  Future<void> speakBanks2(String languageCode) async {
+    // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Try to keep a balance between work and relaxation."); // DOPSUM: CHANGE TEXT
+        "The player's bank was dwindling after several losses."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances3(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
+  Future<void> speakBanks3(String languageCode) async {
+    // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He set his feet wider and adjusted his balance."); // DOPSUM: CHANGE TEXT
+        "They intend to establish a bank of information which will be accessible to the public."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances4(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
+  Future<void> speakBanks4(String languageCode) async {
+    // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He asked the cashier for the balance of his current account."); // DOPSUM: CHANGE TEXT
+        "The blood bank is always in need of donations."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances5(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
+  Future<void> speakBanks5(String languageCode) async {
+    // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The balance of £500 must be paid within 90 days."); // DOPSUM: CHANGE TEXT
+        "Take old clothes and shoes to the recycling bank."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances6(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
+  Future<void> speakBanks6(String languageCode) async {
+    // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He argues that the balance has swung too far in favour of capitalism."); // DOPSUM: CHANGE TEXT
+        "The river burst its banks after heavy rain."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances7(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
+  Future<void> speakBanks7(String languageCode) async {
+    // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The scientist used a balance to measure the weight of the sample."); // DOPSUM: CHANGE TEXT
+        "There were low banks of earth between the rice fields."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances8(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("How long can you balance on one leg?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBalances9(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
+  Future<void> speakBanks8(String languageCode) async {
+    // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The song perfectly balances melody and rhythm."); // DOPSUM: CHANGE TEXT
+        "The driver carefully navigated the sharp bend on the banked road."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances10(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
+  Future<void> speakBanks9(String languageCode) async {
+    // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "This year's profits will balance out our previous losses."); // DOPSUM: CHANGE TEXT
+        "The sun disappeared behind a bank of clouds."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances11(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
+  Future<void> speakBanks10(String languageCode) async {
+    // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The cost of obtaining legal advice needs to be balanced against its benefits."); // DOPSUM: CHANGE TEXT
+        "She was faced with a huge bank of switches and buttons."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances12(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
+  Future<void> speakBanks11(String languageCode) async {
+    // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "In order to balance the budget severe spending cuts had to be made."); // DOPSUM: CHANGE TEXT
+        "She is believed to have banked £10 million in two years."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBalances13(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
+  Future<void> speakBanks12(String languageCode) async {
+    // DOPSUM: CHANGE speakBank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "I tried to work out why the books wouldn't balance."); // DOPSUM: CHANGE TEXT
+        "The family had banked with Bank of America for generations."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBanks13(String languageCode) async {
+    // DOPSUM: CHANGE speakBank
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The pilot banked the plane to give passengers a better look at the mountain."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBanks14(String languageCode) async {
+    // DOPSUM: CHANGE speakBank
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The snow had banked up in the corner of the garden."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBanks15(String languageCode) async {
+    // DOPSUM: CHANGE speakBank
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "We banked up the fire to keep it burning all night."); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 15, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -167,7 +185,7 @@ class EnglishEntrybalance extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "balance", // DOPSUM: CHANGE WORD ENTRY
+                                "bank", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -186,7 +204,7 @@ class EnglishEntrybalance extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /ˈbæləns/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /bæŋk/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -197,7 +215,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakBalance(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakBank(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -207,7 +225,7 @@ class EnglishEntrybalance extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /ˈbæləns/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /bæŋk/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -217,7 +235,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakBalance(
+                              onPressed: () => speakBank(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -237,14 +255,14 @@ class EnglishEntrybalance extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 15
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
                   VideoIconForTab(), // 12
-                  // VideoIconForTab(), // 13
+                  VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
@@ -267,9 +285,9 @@ class EnglishEntrybalance extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: ھاوسەنگی، ھاوکێشی، لەنگەر، تەرازی، تەرازمەندی، میزانی، تەرازێتی، ھاوتەرازی، ھاوڕێکی، کۆکی، گونجان، پاشماوە، باقی، سەرباقی، تەرازوو، لەنگەرە، لیزۆک (سەعات)، جەڕ، کۆک، جەڕی میزان
+کوردی: بانک، کەنار، کەناراو، موزورگ، پەراڤ، لێواری ڕووبار، بەستێن، ڕۆخ، تەپۆڵکە، زورگ، لێوار، زێوار، قەراخ، پەراوێز، (زەوی‌زار) بەستە، سەرحەد، کەوشەن، کەڵەکە، کۆما، تۆپەڵە، بارستە، لێژ، لاپێیی (ڕێگا)، بەلاداخواربوونەوەی فڕۆکە لە کاتی لادانا
 
-١. (ناو) دۆخێک کە تێیدا ژمارەیەک شت بوونیان ھەیە پێکەوە بە ھەمان بڕ""",
+١. (ناو) دامەزراوەیەک کە ژمارەیەک خزمەتگوزاری دارایی پێشکەش دەکات، بۆ نموونە ھەڵگرتن و بەقەرزدانی پارە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -281,7 +299,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "This newspaper maintains a good balance in its presentation of different opinions.",
+                                    "I don't have much money in the bank at the end of the month.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -296,7 +314,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ئەم ڕۆژنامە بێ‌لایەنی خۆی بەباشی دەپارێزێت لە وێناکردنی بەچوونی جیاوازدا.",
+                                    "لە کۆتایی مانگەکەدا پارەم زۆر لە بانک نامێنێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -309,7 +327,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBalances1("en-GB"),
+                                onPressed: () => speakBanks1("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -317,9 +335,124 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakBalances1(// REPLACE: balance
-                                        "en-US"),
+                                onPressed: () => speakBanks1(// REPLACE: bank
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٢. (ناو) لە قوماردا ئەو پارەیە کە خاوەنەکەی دەیخاتە گرەو و بەأداربووان دەتوانن بیبەنەوە""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
+                                    "The player's bank was dwindling after several losses.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "پارەی یاریزانەکە بەرەو کەمبوون دەچوو لەدوای ژمارەیەک دۆڕان.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakBanks2("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakBanks2(// REPLACE: bank
+                                    "en-US"),
+                              ),
+                            ],
+                          ),
+                          // const DividerSentences(),
+                          const DividerDefinition(),
+                          const Text(
+                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
+                            """
+٣. (ناو) ڕێژەیەک لە شت کە بەردەستە، یان ئەو شوێنەی کە تێیدایە""",
+                            style: TextStyle(fontSize: 18),
+                            textAlign: TextAlign.right,
+                            textDirection: TextDirection.rtl,
+                          ),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
+                                    "They intend to establish a bank of information which will be accessible to the public.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "دەیانەوێت بانکێکی زانیاری درووست بکەن کە بەردەستبێت بۆ خەڵکی.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakBanks3("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () => speakBanks3(// REPLACE: bank
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -332,7 +465,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "Try to keep a balance between work and relaxation.",
+                                    "The blood bank is always in need of donations.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -347,7 +480,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ھەوڵبدە ھاوسەنگی بپارێزی لەنێوان کارکردن و حەسانەوە.",
+                                    "بانکی خوێنەکە ھەمیشە پێویستی بە بەخشینە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -360,7 +493,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBalances2("en-GB"),
+                                onPressed: () => speakBanks4("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -368,9 +501,8 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakBalances2(// REPLACE: balance
-                                        "en-US"),
+                                onPressed: () => speakBanks4(// REPLACE: bank
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -379,7 +511,7 @@ class EnglishEntrybalance extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) توانای وەستان لەکاتێکدا کێشی جیاواز لەسەر لایەکانی جەستەیە""",
+٤. (ناو) شوێنێک کە شتی تێدا دادەنرێت بۆ دووبارە بەکارھێنانەوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -391,7 +523,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "He set his feet wider and adjusted his balance.",
+                                    "Take old clothes and shoes to the recycling bank.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -406,7 +538,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێیەکانی بڵاوکردەوە و ھاوسەنگیی ڕێکخست.",
+                                    "جل و پێڵاوی کۆن ببە بۆ بانکی دووبارەبەکارھێنانەوەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -419,7 +551,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBalances3("en-GB"),
+                                onPressed: () => speakBanks5("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -427,9 +559,8 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakBalances3(// REPLACE: balance
-                                        "en-US"),
+                                onPressed: () => speakBanks5(// REPLACE: bank
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -438,7 +569,7 @@ class EnglishEntrybalance extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ناو) بڕی ماوە لەدوای بەکارھێنانی پارە""",
+٥. (ناو) قەراخی ڕووبارێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -450,7 +581,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "He asked the cashier for the balance of his current account.",
+                                    "The river burst its banks after heavy rain.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -465,7 +596,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "داوای لە کاشیەرەکە کرد باڵانسی ھەژمارەکەی ئێستای پێ بڵێت.",
+                                    "ڕووبارەکە قەراخەکانی پڕکرد لەدوای بارانی خەست.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -478,7 +609,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBalances4("en-GB"),
+                                onPressed: () => speakBanks6("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -486,9 +617,8 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakBalances4(// REPLACE: balance
-                                        "en-US"),
+                                onPressed: () => speakBanks6(// REPLACE: bank
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -497,7 +627,7 @@ class EnglishEntrybalance extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٤. (ناو) بڕی قەرزی ماوە""",
+٦. (ناو) تەپۆلکە؛ ناوچەیەکی بەرز کە لە لاکەشەکانییەوە دادەبەزێت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -509,7 +639,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "The balance of £500 must be paid within 90 days.",
+                                    "There were low banks of earth between the rice fields.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -524,7 +654,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بڕی قەرزی ماوەی ٥٠٠ پاوەند دەبێت لە ماوەی ٩٠ ڕۆژدا بدرێتەوە.",
+                                    "تەپۆلکەی نزمی زەوی ھەبوو لەنێوان کێڵگە برنجەکان.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -537,7 +667,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBalances5("en-GB"),
+                                onPressed: () => speakBanks7("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -545,9 +675,8 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakBalances5(// REPLACE: balance
-                                        "en-US"),
+                                onPressed: () => speakBanks7(// REPLACE: bank
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -556,7 +685,7 @@ class EnglishEntrybalance extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٥. (ناو) گەورەترین بەشی گرووپێک یان بڕێک""",
+٧. (ناو) لێژاییەکی دەستکرد لە قەراخی ڕێگایەک کە لێژبووە بەرەو ناوەوە بۆ ڕێگری لە خلیسکان لەکاتی پێچکردنەوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -568,7 +697,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "He argues that the balance has swung too far in favour of capitalism.",
+                                    "The driver carefully navigated the sharp bend on the banked road.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -583,7 +712,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پێی‌وایە تەوازن زۆر بەلای سەرمایەداریدا چووە.",
+                                    "شۆفێرەکە بەوریاییەوە دەرچوو بە پێچکردنەوە تیژەکە لەسەر ڕێگا لێژبووەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -596,7 +725,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBalances6("en-GB"),
+                                onPressed: () => speakBanks8("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -604,9 +733,8 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakBalances6(// REPLACE: balance
-                                        "en-US"),
+                                onPressed: () => speakBanks8(// REPLACE: bank
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -615,7 +743,7 @@ class EnglishEntrybalance extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٦. (ناو) تەرازوویەک کە لە دوو دەفر پێکھاتووە کە دەبێت وەکو یەکدی بن لە بەرزیدا بۆ ئەوەی ھەردوو دەفرەکە ھەمان کێشیان ھەبێت""",
+٨. (ناو) تۆپەڵێک لە ھەور، بەفر، ھتد، بەتایبەتی ئەگەر درووست بووبێت بەھۆی باوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -627,7 +755,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "The scientist used a balance to measure the weight of the sample.",
+                                    "The sun disappeared behind a bank of clouds.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -642,7 +770,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "زاناکە تەرازوویەکی بەکارھێنا بۆ پێوانی کێشی نموونەکە.",
+                                    "خۆر کەوتە پشت تۆپەڵە ھەورێک.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -655,7 +783,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBalances7("en-GB"),
+                                onPressed: () => speakBanks9("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -663,9 +791,8 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakBalances7(// REPLACE: balance
-                                        "en-US"),
+                                onPressed: () => speakBanks9(// REPLACE: bank
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -674,7 +801,7 @@ class EnglishEntrybalance extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٧. (کردار) ھاوسەنگی ڕاگرتنی شتێک""",
+٩. (ناو) زنجیرەیەک لە ھەمان شت، بەتایبەتی ئامێر""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -686,7 +813,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "How long can you balance on one leg?",
+                                    "She was faced with a huge bank of switches and buttons.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -701,7 +828,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "چەندە دەتوانی لەسەر یەک پێ بوەستیت؟.",
+                                    "ڕێژەیەکی زۆر لە سویچ و دووگمەی لەپێش بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -714,7 +841,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBalances8("en-GB"),
+                                onPressed: () => speakBanks10("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -722,9 +849,8 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakBalances8(// REPLACE: balance
-                                        "en-US"),
+                                onPressed: () => speakBanks10(// REPLACE: bank
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -733,7 +859,7 @@ class EnglishEntrybalance extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٨. (کردار) گرنگیدانی یەکسان بە دوو شتی جیاواز""",
+١٠. (کردار) پارە خستنە بانک (لەدوای قازانجکردن)""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -745,7 +871,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "The song perfectly balances melody and rhythm.",
+                                    "She is believed to have banked (= been paid) £10 million in two years.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -760,7 +886,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "گۆرانییەکە بەتەواوی ھاوسەنگی دەپارێزێت لەنێوان ئاواز و ڕیتم.",
+                                    "باوەڕوایە ١٠ ملیۆن یۆرۆی قازانج کردبێت (خستبێتە بانک) لە دوو ساڵدا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -773,7 +899,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBalances9("en-GB"),
+                                onPressed: () => speakBanks11("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -781,9 +907,8 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakBalances9(// REPLACE: balance
-                                        "en-US"),
+                                onPressed: () => speakBanks11(// REPLACE: bank
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -792,7 +917,7 @@ class EnglishEntrybalance extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٩. (کردار) یەکسان بوون لە بڕ یان نرخدا لەگەڵ شتێکی تری پێچەوانە""",
+١١. (کردار) ھەبوونی ھەژمارێک بانکێکی دیاریکراو""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -804,7 +929,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "This year's profits will balance out our previous losses.",
+                                    "The family had banked with Bank of America for generations.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -819,7 +944,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "قازانجەکانی ئەمساڵ زیانەکانی پار قەرەبوو دەکەنەوە.",
+                                    "خێزانەکە بۆ چەندین نەوەیە ھەژماریان لە بانکی ئەمریکا ھەیە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -832,7 +957,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBalances10("en-GB"),
+                                onPressed: () => speakBanks12("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -840,9 +965,8 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakBalances10(// REPLACE: balance
-                                        "en-US"),
+                                onPressed: () => speakBanks12(// REPLACE: bank
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -851,7 +975,7 @@ class EnglishEntrybalance extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١٠. (کردار) بەراوردکردنی گرنگی ڕێژەیی دوو شتی جیاواز""",
+١٢. (کردار) (فڕۆکە) گەشتکردن لەکاتێکدا لایەک بەرزترە لە لایەکی ترە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -863,7 +987,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "The cost of obtaining legal advice needs to be balanced against its benefits.",
+                                    "The pilot banked the plane to give passengers a better look at the mountain.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -878,7 +1002,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "تێچووی وەرگرتنی ڕاوێژی یاسایی دەبێت لەبەرچاو بگیردرێت لەگەڵ سوودەکانی (ڕاوێژەکە).",
+                                    "فڕۆکەوانەکە فڕۆکەکەی خست بە لادا بۆ ئەوەی دیمەنێکی باشتری شاخەکە بدات بە گەشتیاران.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -891,7 +1015,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBalances11("en-GB"),
+                                onPressed: () => speakBanks13("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -899,9 +1023,8 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakBalances11(// REPLACE: balance
-                                        "en-US"),
+                                onPressed: () => speakBanks13(// REPLACE: bank
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -910,7 +1033,7 @@ class EnglishEntrybalance extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١١. (کردار) سەرپەرشتی خەرجکردنی پارە بۆ ئەوەی بڕی پارەی خەرجکراو و وەرگیردراو یەکسان بن""",
+١٣. (کردار) درووستکردنی کەڵەکەیەک لە شت""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -922,7 +1045,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "In order to balance the budget severe spending cuts had to be made.",
+                                    "The snow had banked up in the corner of the garden.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -937,7 +1060,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "بۆ ھەڵسوڕاندنی بودجە، دەبوو ڕێژەی خەرجی بە ئاستێکی زۆر کەمبکرێتەوە.",
+                                    "بەفرەکە کەڵەکەی کردبوو لە سووچی باخچەکە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -950,7 +1073,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBalances12("en-GB"),
+                                onPressed: () => speakBanks14("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -958,9 +1081,8 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakBalances12(// REPLACE: balance
-                                        "en-US"),
+                                onPressed: () => speakBanks14(// REPLACE: bank
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -969,7 +1091,7 @@ class EnglishEntrybalance extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١٢. (کردار) ھەبوونی ھەمان ڕێژە لە پارەی خەرجکراو و وەرگیردراو""",
+١٤. (کردار) کەڵەکەکردنی خەڵووز، ھتد لەسەر ئاگر""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -981,7 +1103,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "I tried to work out why the books wouldn't balance.",
+                                    "We banked up the fire (= put more coal on it) to keep it burning all night.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -996,7 +1118,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "نەمدەتوانی تێبگەم بۆچی خەرجی و قازانج یەکناگرنەوە.",
+                                    "ئاگرەکەمان خۆشکردەوە بۆ ئەوەی تەواوی شەوەکە بسوتێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -1009,7 +1131,7 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBalances13("en-GB"),
+                                onPressed: () => speakBanks15("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -1017,9 +1139,8 @@ class EnglishEntrybalance extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () =>
-                                    speakBalances13(// REPLACE: balance
-                                        "en-US"),
+                                onPressed: () => speakBanks15(// REPLACE: bank
+                                    "en-US"),
                               ),
                             ],
                           ),
@@ -1040,7 +1161,7 @@ class EnglishEntrybalance extends StatelessWidget {
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
                     YoutubeEmbeddedtwelve(),
-                    // YoutubeEmbeddedthirteen(),
+                    YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
@@ -1069,44 +1190,56 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: balance (derived forms: balances)
-1. A state of equilibrium
+- Noun: bank (derived forms: banks, banking, banked)
+1. Sloping land (especially the slope beside a body of water)
+"they pulled the canoe up on the bank"; "he sat on the bank of the river and watched the currents"
  
-2. Equality between the totals of the credit and debit sides of an account
+2. A financial institution that accepts deposits and channels the money into lending activities (= depository financial institution, banking concern, banking company)
+"that bank holds the mortgage on my home"; "he cashed a check at the bank";
  
-3. Harmonious arrangement or relation of parts or elements within a whole (as in a design) (= proportion, proportionality)
-"in all perfectly beautiful objects there is found the opposition of one part to another and a reciprocal balance";
+3. A long ridge or pile
+"a huge bank of earth"
  
-4. Equality of distribution (= equilibrium, equipoise, counterbalance)
+4. An arrangement of similar objects in a row or in tiers
+"he operated a bank of switches"
  
-5. Something left after other parts have been taken away (= remainder, residual, residue, residuum, rest)
-"he took what he wanted and I got the balance";
+5. A supply or stock held in reserve for future use (especially in emergencies)
  
-6. The difference between the totals of the credit and debit sides of an account
+6. The funds held by a gambling house or the dealer in some gambling games
+"he tried to break the bank at Monte Carlo"
  
-7. (mathematics) an attribute of a shape or relation; exact reflection of form on opposite sides of a dividing line or plane (= symmetry, symmetricalness, correspondence)
+7. A slope in the turn of a road or track; the outside is higher than the inside in order to reduce the effects of centrifugal force (= cant, camber)
  
-8. A weight that balances another weight (= counterweight, counterbalance, counterpoise, equalizer, equaliser [Brit])
- 
-9. A wheel that regulates the rate of movement in a machine; especially a wheel oscillating against the hairspring of a timepiece to regulate its beat (= balance wheel)
- 
-10. A scale for weighing; depends on pull of gravity
+8. A container (usually with a slot in the top) for keeping money at home (= savings bank, coin bank, money box)
+"the coin bank was empty"; "the savings bank was empty";
 
-- Verb: balance (derived forms: balancing, balanced, balances)
-1. Bring into balance or equilibrium (= equilibrate, equilibrize, equilibrise [Brit])
-"balance the two weights"; "She has to balance work and her domestic duties";
- 
-2. Compute credits and debits of an account
- 
-3. Hold or carry in equilibrium (= poise)
- 
-4. Be in equilibrium
-"He was balancing on one foot"
+9. A building in which the business of banking is transacted (= bank building)
+"the bank is on the corner of Nassau and Witherspoon";
 
-- Noun: Balance
-1. (astrology) a person who is born while the sun is in Libra (= Libra)
+10. A flight manoeuvre; aircraft tips laterally about its longitudinal axis (especially in turning)
+"the plane went into a steep bank"
+
+- Verb: bank (derived forms: banks, banking, banked)
+1. Tip laterally
+"the pilot had to bank the aircraft"
  
-2. The seventh sign of the zodiac; the sun is in this sign from about September 23 to October 22 (= Libra, Libra the Balance, Libra the Scales)
+2. Enclose with a bank
+"bank roads"
+ 
+3. Do business with a bank or keep an account at a bank
+"Where do you bank in this town?"
+ 
+4. Act as the banker in a game or in gambling
+ 
+5. Be in the banking business
+ 
+6. Put into a bank account (= deposit)
+"She banks her paycheque every month";
+ 
+7. Cover with ashes so as to control the rate of burning
+"bank a fire"
+ 
+8. Have faith or confidence in (= count, bet, depend, swear, rely, look, calculate, reckon)
 """),
         ],
       ),
@@ -1117,12 +1250,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "7TavVZMewpY";
+  static String myVideoId = "63tQ7yGmsmI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 31, // DOPSUM: CHANGE IT
+      startAt: 60, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1142,12 +1275,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "99i-Uo7rIpw";
+  static String myVideoId = "wknSc6HRUMI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 288, // DOPSUM: CHANGE IT
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1167,12 +1300,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "zqllxbPWKNI";
+  static String myVideoId = "rUXG_p64Lzo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 373, // DOPSUM: CHANGE IT
+      startAt: 9, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1192,12 +1325,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "tsxmyL7TUJg";
+  static String myVideoId = "oJUv16WQuDM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 208, // DOPSUM: CHANGE IT
+      startAt: 18, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1217,12 +1350,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "u7JsKhI2An0";
+  static String myVideoId = "rUXG_p64Lzo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 34, // DOPSUM: CHANGE IT
+      startAt: 525, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1242,12 +1375,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "mY3SEMTROas";
+  static String myVideoId = "kogxHSPXKzk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1720, // DOPSUM: CHANGE IT
+      startAt: 55, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1267,12 +1400,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "9VsDP584zyQ";
+  static String myVideoId = "DCOm4osfWn8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 242, // DOPSUM: CHANGE IT
+      startAt: 26, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1292,12 +1425,12 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "n4bucphC9r4";
+  static String myVideoId = "DTvS9lvRxZ8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 118, // DOPSUM: CHANGE IT
+      startAt: 5, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1317,12 +1450,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "WUjVPIEtJd0";
+  static String myVideoId = "zqllxbPWKNI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1179, // DOPSUM: CHANGE IT
+      startAt: 1028, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1342,12 +1475,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "MzSktgpfD84";
+  static String myVideoId = "h4CyhQqAPpk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 552, // DOPSUM: CHANGE IT
+      startAt: 277, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1367,12 +1500,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "toVfvRhWbj8";
+  static String myVideoId = "AAGIi62-sAU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 607, // DOPSUM: CHANGE IT
+      startAt: 911, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1392,12 +1525,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "UsS7i06z4aY";
+  static String myVideoId = "Cqbleas1mmo";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 360, // DOPSUM: CHANGE IT
+      startAt: 1094, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -1418,63 +1551,95 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // morethan one video, only first autoplay
 
-// class YoutubeEmbeddedthirteen extends StatelessWidget {
-//   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdTwo = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdThree = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+class YoutubeEmbeddedthirteen extends StatelessWidget {
+  static String myVideoId = "dqcSk-EDrRo";
 
-//   final YoutubePlayerController _controller = YoutubePlayerController(
-//     initialVideoId: myVideoId,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: true,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 314, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
 
-//   final YoutubePlayerController _controllertwo = YoutubePlayerController(
-//     initialVideoId: myVideoIdTwo,
-//     flags: const YoutubePlayerFlags(
-// autoPlay: false,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
+  static String myVideoIdTwo = "Rxh_SVtyZqo";
 
-//   final YoutubePlayerController _controllerthree = YoutubePlayerController(
-//     initialVideoId: myVideoIdThree,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: false,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
+  final YoutubePlayerController _controllertwo = YoutubePlayerController(
+    initialVideoId: myVideoIdTwo,
+    flags: const YoutubePlayerFlags(
+      startAt: 2907, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: false,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
 
-//   YoutubeEmbeddedthirteen({super.key});
+  static String myVideoIdThree = "TMkoX1kfyDs";
 
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       body: SingleChildScrollView(
-//         child: Column(
-//           children: [
-//             YouTubeContainerDesign(controller: _controller),
-//             YouTubeContainerDesign(controller: _controllertwo),
-//             YouTubeContainerDesign(controller: _controllerthree),
-//           ],
-//         ),
-//       ),
-//     );
-//   }
-// }
+  final YoutubePlayerController _controllerthree = YoutubePlayerController(
+    initialVideoId: myVideoIdThree,
+    flags: const YoutubePlayerFlags(
+      // startAt: 222222222222222, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: false,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
 
-// end balance // TODO Implement this library.
+  static String myVideoIdFour = "NQ65p6He22k";
+
+  final YoutubePlayerController _controllerfour = YoutubePlayerController(
+    initialVideoId: myVideoIdFour,
+    flags: const YoutubePlayerFlags(
+      startAt: 880, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: false,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  static String myVideoIdFive = "NNNRTCRJjqs";
+
+  final YoutubePlayerController _controllerfive = YoutubePlayerController(
+    initialVideoId: myVideoIdFive,
+    flags: const YoutubePlayerFlags(
+      startAt: 30, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: false,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  YoutubeEmbeddedthirteen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            YouTubeContainerDesign(controller: _controller),
+            YouTubeContainerDesign(controller: _controllertwo),
+            YouTubeContainerDesign(controller: _controllerthree),
+            YouTubeContainerDesign(controller: _controllerfour),
+            YouTubeContainerDesign(controller: _controllerfive),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+// end bank// TODO Implement this library.

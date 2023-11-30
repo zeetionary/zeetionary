@@ -308,11 +308,11 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Adjective: bandy (Derived forms: bandiest, bandier)
+- Adjective: bandy (derived forms: bandiest, bandier)
 1. Have legs that curve outward at the knees (= bandy-legged, bowed[2], bowleg, bowlegged)
 "The tall man hit the bandy-legged fellow over the mouth"; 
 
-- Verb: bandy (Derived forms: bandiest, bandying, bandies, bandied, bandier)
+- Verb: bandy (derived forms: bandiest, bandying, bandies, bandied, bandier)
 1. (sport) toss or strike a ball back and forth
  
 2. Exchange blows
@@ -329,7 +329,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/aR6dnnarYzE?t=";
+  static String myVideoId = "aR6dnnarYzE";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -354,7 +354,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/JzRvUlWhMEw?t=";
+  static String myVideoId = "JzRvUlWhMEw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -379,7 +379,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/dh43G8YS4vA?t=";
+  static String myVideoId = "dh43G8YS4vA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -404,7 +404,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/0uRCVyJ7-0c?t=";
+  static String myVideoId = "0uRCVyJ7-0c";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -429,7 +429,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/dK1FjJSFqeY?t=";
+  static String myVideoId = "dK1FjJSFqeY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -454,7 +454,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/jk5adciVNCI?t=";
+  static String myVideoId = "jk5adciVNCI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -479,7 +479,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/jt90Zr_TDtw?t=";
+  static String myVideoId = "jt90Zr_TDtw";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

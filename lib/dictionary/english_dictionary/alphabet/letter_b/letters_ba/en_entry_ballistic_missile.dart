@@ -207,7 +207,7 @@ class EnglishEntryballisticmissile extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-١. (ناو) مووشەکی بالیستیکی؛ موشەکێک کە بە خێرایی و گۆشەیەکی دیاریکراو دەهاوێژرێت بۆ ئەوەی لە شوێنی مەبەست بکەوێتە خوارەوە""",
+١. (ناو) مووشەکی بالیستیکی؛ موشەکێک کە بە خێرایی و گۆشەیەکی دیاریکراو دەھاوێژرێت بۆ ئەوەی لە شوێنی مەبەست بکەوێتە خوارەوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -234,7 +234,7 @@ class EnglishEntryballisticmissile extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "ڕژێمەکە پلانی گەشەپێدانی موشەکی بالیستیکی مەودا درێژی هەبوو کە دەیتوانی ٦٠٠ میل یان زیاتر ببڕێت.",
+                                    "ڕژێمەکە پلانی گەشەپێدانی موشەکی بالیستیکی مەودا درێژی ھەبوو کە دەیتوانی ٦٠٠ میل یان زیاتر ببڕێت.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -308,7 +308,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: ballistic missile (Derived forms: ballistic missiles)
+- Noun: ballistic missile (derived forms: ballistic missiles)
 1. A missile that is guided in the first part of its flight but falls freely as it approaches target
 """),
         ],
@@ -320,7 +320,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/3E17wr77ffM?t=";
+  static String myVideoId = "3E17wr77ffM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -345,7 +345,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/J_n1FZaKzF8?t=";
+  static String myVideoId = "J_n1FZaKzF8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -370,7 +370,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/E2xNlzsnPCQ?t=";
+  static String myVideoId = "E2xNlzsnPCQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -395,7 +395,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/AecFpnj383A?t=";
+  static String myVideoId = "AecFpnj383A";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -420,7 +420,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/ko6qiSKXAGA?t=";
+  static String myVideoId = "ko6qiSKXAGA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -445,7 +445,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/YC_PXwvGmRk?t=";
+  static String myVideoId = "YC_PXwvGmRk";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -470,7 +470,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/hG0ROjzgEA0?t=";
+  static String myVideoId = "hG0ROjzgEA0";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -495,7 +495,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/5r90DYjZ76g?t=";
+  static String myVideoId = "5r90DYjZ76g";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -520,7 +520,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/poHTA94-BeY?t=";
+  static String myVideoId = "poHTA94-BeY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -545,7 +545,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/_keFhXPclns?t=";
+  static String myVideoId = "_keFhXPclns";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -570,7 +570,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/ILgSesWMUEI?t=";
+  static String myVideoId = "ILgSesWMUEI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -595,7 +595,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/Kg3V4UKOAng?t=";
+  static String myVideoId = "Kg3V4UKOAng";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

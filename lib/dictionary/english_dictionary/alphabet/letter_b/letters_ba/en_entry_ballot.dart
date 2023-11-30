@@ -60,7 +60,8 @@ class EnglishEntryballot extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The union balloted its members on the proposed changes."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The union balloted its members on the proposed changes."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBallots5(String languageCode) async {
@@ -68,7 +69,8 @@ class EnglishEntryballot extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The workers balloted for a strike."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The workers balloted for a strike."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBallots6(String languageCode) async {
@@ -209,9 +211,9 @@ class EnglishEntryballot extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: دەنگ، دەنگ‌پەڕ، پەڕەی دەنگ، پەڕەی دەنگ‌دان، دەنگ‌نامە، دەنگ‌دان، ڕێکخستەی دەنگ‌دانی نهێنی، مافی دەنگ‌دان، دەنگەکان، کۆی دەنگ
+کوردی: دەنگ، دەنگ‌پەڕ، پەڕەی دەنگ، پەڕەی دەنگ‌دان، دەنگ‌نامە، دەنگ‌دان، ڕێکخستەی دەنگ‌دانی نھێنی، مافی دەنگ‌دان، دەنگەکان، کۆی دەنگ
 
-١. (ناو) سیستەمی دەنگدان لەسەر کاغەز و بەنهێنی""",
+١. (ناو) سیستەمی دەنگدان لەسەر کاغەز و بەنھێنی""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -329,7 +331,7 @@ class EnglishEntryballot extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (ناو) ڕێژەی گشتی دەنگدان لە هەڵبژاردنێکدا""",
+٣. (ناو) ڕێژەی گشتی دەنگدان لە ھەڵبژاردنێکدا""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -388,7 +390,7 @@ class EnglishEntryballot extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٤. (کردار) داواکردن لە خەڵکی بۆ دەنگدانی نهێنی لەسەر کاغەز""",
+٤. (کردار) داواکردن لە خەڵکی بۆ دەنگدانی نھێنی لەسەر کاغەز""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -447,7 +449,7 @@ class EnglishEntryballot extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٥. (کردار) دەنگدانی نهێنی لەسەر شتێک""",
+٥. (کردار) دەنگدانی نھێنی لەسەر شتێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -547,7 +549,7 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: ballot (Derived forms: ballots)
+- Noun: ballot (derived forms: ballots)
 1. A document listing the alternatives that is used in voting
  
 2. A choice that is made by counting the number of people in favour of each alternative (= vote, voting, balloting)
@@ -556,7 +558,7 @@ class EnglishMeaning extends StatelessWidget {
 3. The total number of voters who participated (= vote, voter turnout)
 "they are expecting a large ballot";
 
-- Verb: ballot (Derived forms: ballots, balloting, balloted)
+- Verb: ballot (derived forms: ballots, balloting, balloted)
 1. Vote by ballot
 "The voters were balloting in this state"
 """),
@@ -569,7 +571,7 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/tsxmyL7TUJg?t=";
+  static String myVideoId = "tsxmyL7TUJg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -594,7 +596,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/6vWXjKXtLnU?t=";
+  static String myVideoId = "6vWXjKXtLnU";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -619,7 +621,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/ZMSaEcYBixM?t=";
+  static String myVideoId = "ZMSaEcYBixM";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -644,7 +646,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/uPEZcPZtJQ4?t=";
+  static String myVideoId = "uPEZcPZtJQ4";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -669,7 +671,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/bmidJthA-q8?t=";
+  static String myVideoId = "bmidJthA-q8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -694,7 +696,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/mS9CFBlLOcg?t=";
+  static String myVideoId = "mS9CFBlLOcg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -719,7 +721,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/SfsCniN7Nsc?t=";
+  static String myVideoId = "SfsCniN7Nsc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -744,7 +746,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/_zZxCVBi7-k?t=";
+  static String myVideoId = "_zZxCVBi7-k";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -769,7 +771,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "https://youtu.be/ScYghG0QZXc?t=";
+  static String myVideoId = "ScYghG0QZXc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,

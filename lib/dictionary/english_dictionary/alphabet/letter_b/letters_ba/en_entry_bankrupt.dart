@@ -6,93 +6,93 @@ import 'package:zeetionary/theme/pallete.dart';
 
 // More sentences is NOT done
 
-// Define the word "bait" and provide three example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
+// Define the word "bankrupt" and provide five example sentences for each meaning. Use Merriam Webster style. Provide at least 3 meanings.
 
-// replace bait - replace EnglishEntrybait
+// replace bankrupt - replace EnglishEntrybankrupt
 
-// replace speakBait - /beɪt/ - find WORD_WEB
+// replace speakBankrupt - /ˈbæŋkrʌpt/
 
 enum TtsState { playing }
 
-class EnglishEntrybait extends StatelessWidget {
+class EnglishEntrybankrupt extends StatelessWidget {
 // blank divider
-  EnglishEntrybait({super.key});
+  EnglishEntrybankrupt({super.key});
 // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakBait(String languageCode) async {
-    // DOPSUM: CHANGE speakBait
+  Future<void> speakBankrupt(String languageCode) async {
+    // DOPSUM: CHANGE speakBankrupt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("bait"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("bankrupt"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaits1(String languageCode) async {
-    // DOPSUM: CHANGE speakBait
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Live worms are used as bait."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakBaits2(String languageCode) async {
-    // DOPSUM: CHANGE speakBait
+  Future<void> speakBankrupts1(String languageCode) async {
+    // DOPSUM: CHANGE speakBankrupt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The police used him as bait to trap the killers."); // DOPSUM: CHANGE TEXT
+        "She lost the house after she was made bankrupt."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaits3(String languageCode) async {
-    // DOPSUM: CHANGE speakBait
+  Future<void> speakBankrupts2(String languageCode) async {
+    // DOPSUM: CHANGE speakBankrupt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He baited the trap with a piece of meat."); // DOPSUM: CHANGE TEXT
+        "After the war, Britain was weary and bankrupt."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaits4(String languageCode) async {
-    // DOPSUM: CHANGE speakBait
+  Future<void> speakBankrupts3(String languageCode) async {
+    // DOPSUM: CHANGE speakBankrupt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The soldiers remained calm even though the crowd was baiting them."); // DOPSUM: CHANGE TEXT
+        "He believes that modern society is morally bankrupt."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaits5(String languageCode) async {
-    // DOPSUM: CHANGE speakBait
+  Future<void> speakBankrupts4(String languageCode) async {
+    // DOPSUM: CHANGE speakBankrupt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The activity of bear-baiting was finally banned in England in the 19th century."); // DOPSUM: CHANGE TEXT
+        "He later became Britain’s biggest bankrupt."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaits6(String languageCode) async {
-    // DOPSUM: CHANGE speakBait
+  Future<void> speakBankrupts5(String languageCode) async {
+    // DOPSUM: CHANGE speakBankrupt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBaits66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They feared that the loss would bankrupt them."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakBaits7(String languageCode) async {
-    // DOPSUM: CHANGE speakBait
+  Future<void> speakBankrupts6(String languageCode) async {
+    // DOPSUM: CHANGE speakBankrupt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBaits77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakBankrupts66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakBankrupts7(String languageCode) async {
+    // DOPSUM: CHANGE speakBankrupt
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakBankrupts77"); // DOPSUM: CHANGE TEXT
   }
 
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 15, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,7 +111,7 @@ class EnglishEntrybait extends StatelessWidget {
                           children: [
                             Expanded(
                               child: Text(
-                                "bait", // DOPSUM: CHANGE WORD ENTRY
+                                "bankrupt", // DOPSUM: CHANGE WORD ENTRY
                                 style: TextStyle(
                                     fontSize: 20, fontWeight: FontWeight.bold),
                               ),
@@ -130,7 +130,7 @@ class EnglishEntrybait extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUK: /beɪt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                "IpaUK: /ˈbæŋkrʌpt/", // DOPSUM: WRITE IPA IN BRITISH ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -141,7 +141,7 @@ class EnglishEntrybait extends StatelessWidget {
                                 color: Colors.blue,
                               ),
                               onPressed: () =>
-                                  speakBait(// DOPSUM: CHANGE THE WORD ABOVE
+                                  speakBankrupt(// DOPSUM: CHANGE THE WORD ABOVE
                                       "en-GB"),
                             ),
                           ],
@@ -151,7 +151,7 @@ class EnglishEntrybait extends StatelessWidget {
                             Container(
                               constraints: const BoxConstraints(maxWidth: 300),
                               child: const Text(
-                                "IpaUS: /beɪt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                "IpaUS: /ˈbæŋkrʌpt/", // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
                                 style: TextStyle(fontSize: 14),
                               ),
                             ),
@@ -161,7 +161,7 @@ class EnglishEntrybait extends StatelessWidget {
                                 Icons.record_voice_over,
                                 color: Colors.red,
                               ),
-                              onPressed: () => speakBait(
+                              onPressed: () => speakBankrupt(
                                   "en-US"), // DOPSUM: CHANGE THE WORD ABOVE
                             ),
                           ],
@@ -181,14 +181,14 @@ class EnglishEntrybait extends StatelessWidget {
                   VideoIconForTab(), // 03
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
+                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 15
                   VideoIconForTab(), // 07 --- FIND: DOPSUM_WRITE_A_SENTENCE
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
                   VideoIconForTab(), // 11
                   VideoIconForTab(), // 12
-                  // VideoIconForTab(), // 13
+                  VideoIconForTab(), // 13
                   // VideoIconForTab(), // 14
                   // VideoIconForTab(), // 15
                 ],
@@ -211,9 +211,9 @@ class EnglishEntrybait extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-کوردی: چەشکە، تامک، چەشە، دان، دانە، داو، تەڵە
+کوردی: نابووت(بوو)، مایەبۆش، مایەپووچ، سۆخت، لەدارایی‌کەوتوو
 
-١. (ناو) پێناسەکەمێک خواردن کە وەک داو بەکاردێت بۆ گرتنی ماسی یان نێچیر""",
+١. (ھاوەڵناو) بەبێ پارەی پێویست بۆ دانەوەی ئەوەی قەرزاری""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -225,7 +225,7 @@ class EnglishEntrybait extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "Live worms are used as bait.",
+                                    "She lost the house after she was made bankrupt.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -240,7 +240,7 @@ class EnglishEntrybait extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "کرمی زیندوو وەک تامک بەکاردێن.",
+                                    "خانووەکەی لەدەستدا لەدوای ئەوەی مایەپووچ بوو.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -253,7 +253,7 @@ class EnglishEntrybait extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBaits1("en-GB"),
+                                onPressed: () => speakBankrupts1("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -261,8 +261,60 @@ class EnglishEntrybait extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBaits1(// REPLACE: bait
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBankrupts1(// REPLACE: bankrupt
+                                        "en-US"),
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          // const DividerDefinition(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    // DOPSUM_WRITE_A_SENTENCE
+                                    "After the war, Britain was weary and bankrupt.",
+                                    textDirection: TextDirection
+                                        .ltr, // Right-to-left direction
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                              ),
+                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                              // const SizedBox(
+                              //   width: 30,
+                              // ),
+                              const Expanded(
+                                child: Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    "لەدوای جەنگەکە بەریتانیا شەکەت و مایەپووچ بوو.",
+                                    textAlign: TextAlign
+                                        .right, // Right-to-left direction
+                                    textDirection: TextDirection.rtl,
+                                  ),
+                                ),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.blue,
+                                ),
+                                onPressed: () => speakBankrupts2("en-GB"),
+                              ),
+                              IconButton(
+                                iconSize: 18,
+                                icon: const Icon(
+                                  Icons.record_voice_over,
+                                  color: Colors.red,
+                                ),
+                                onPressed: () =>
+                                    speakBankrupts2(// REPLACE: bankrupt
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -271,7 +323,7 @@ class EnglishEntrybait extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٢. (ناو) کەسێک کە بەکاردێت بۆ نزیککردنەوەی کەسێک بۆ ئەوەی بیگریت یان وای‌لێ‌بکەیت ئەوە بکات کە دەتەوێت""",
+٢. (ھاوەڵناو) نەبوونی ھیچ خاسیەتێکی باش""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -283,7 +335,7 @@ class EnglishEntrybait extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "The police used him as bait to trap the killers.",
+                                    "He believes that modern society is morally bankrupt.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -298,7 +350,7 @@ class EnglishEntrybait extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پۆلیس ئەوی وەک وەک داوێک بەکارھێنا بۆ خستنەتەڵەی بکوژەکان.",
+                                    "باوەڕی وایە کۆمەڵگەی ئێستا لەلایەنی ئەخلاقییەوە مایەپووچە.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -311,7 +363,7 @@ class EnglishEntrybait extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBaits2("en-GB"),
+                                onPressed: () => speakBankrupts3("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -319,8 +371,9 @@ class EnglishEntrybait extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBaits2(// REPLACE: bait
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBankrupts3(// REPLACE: bankrupt
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -329,7 +382,7 @@ class EnglishEntrybait extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٣. (کردار) دانانی تامک لەسەر تەڵەیەک""",
+٣. (ناو) کەسێک کە دادگا بڕیاری داوە توانای نییە قەرزەکانی بداتەوە""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -341,7 +394,7 @@ class EnglishEntrybait extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "He baited the trap with a piece of meat.",
+                                    "He later became Britain’s biggest bankrupt.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -356,7 +409,7 @@ class EnglishEntrybait extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "پارچە گۆشتێکی لەسەر تەڵەکە دانا وەک داو.",
+                                    "دواتر بوو بە گەورەترین مایەپووچی بەریتانیا.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -369,7 +422,7 @@ class EnglishEntrybait extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBaits3("en-GB"),
+                                onPressed: () => speakBankrupts4("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -377,8 +430,9 @@ class EnglishEntrybait extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBaits3(// REPLACE: bait
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBankrupts4(// REPLACE: bankrupt
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -387,7 +441,7 @@ class EnglishEntrybait extends StatelessWidget {
                           const Text(
                             // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
                             """
-٤. (کردار) بەئەنقەست تووڕەکردنی کەسێک بە لێدوانی توند""",
+٤. (کردار) مایەپووچکردنی کەسێک""",
                             style: TextStyle(fontSize: 18),
                             textAlign: TextAlign.right,
                             textDirection: TextDirection.rtl,
@@ -399,7 +453,7 @@ class EnglishEntrybait extends StatelessWidget {
                                   alignment: Alignment.topLeft,
                                   child: Text(
                                     // DOPSUM_WRITE_A_SENTENCE
-                                    "The soldiers remained calm even though the crowd was baiting them.",
+                                    "They feared that the loss would bankrupt them.",
                                     textDirection: TextDirection
                                         .ltr, // Right-to-left direction
                                     textAlign: TextAlign.left,
@@ -414,7 +468,7 @@ class EnglishEntrybait extends StatelessWidget {
                                 child: Align(
                                   alignment: Alignment.topLeft,
                                   child: Text(
-                                    "سەربازەکان بەھێمنی مانەوە ئەگەرچی جەماوەرەکە توڕەیان کردن.",
+                                    "ترسان زیانەکە مایەپووچیان بکات.",
                                     textAlign: TextAlign
                                         .right, // Right-to-left direction
                                     textDirection: TextDirection.rtl,
@@ -427,7 +481,7 @@ class EnglishEntrybait extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.blue,
                                 ),
-                                onPressed: () => speakBaits4("en-GB"),
+                                onPressed: () => speakBankrupts5("en-GB"),
                               ),
                               IconButton(
                                 iconSize: 18,
@@ -435,66 +489,9 @@ class EnglishEntrybait extends StatelessWidget {
                                   Icons.record_voice_over,
                                   color: Colors.red,
                                 ),
-                                onPressed: () => speakBaits4(// REPLACE: bait
-                                    "en-US"),
-                              ),
-                            ],
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            """
-٥. (کردار) چالاکی ھێرش کردنە سەر ئاژەڵ بە بەکارھێنانی سەگ بۆ خۆشی""",
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    // DOPSUM_WRITE_A_SENTENCE
-                                    "The activity of bear-baiting was finally banned in England in the 19th century.",
-                                    textDirection: TextDirection
-                                        .ltr, // Right-to-left direction
-                                    textAlign: TextAlign.left,
-                                  ),
-                                ),
-                              ),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              // const SizedBox(
-                              //   width: 30,
-                              // ),
-                              const Expanded(
-                                child: Align(
-                                  alignment: Alignment.topLeft,
-                                  child: Text(
-                                    "چالاکی ورچ کوشتن لەکۆتاییدا لە ئینگلتەرە قەدەغەکرا لە سەدەی ١٩.",
-                                    textAlign: TextAlign
-                                        .right, // Right-to-left direction
-                                    textDirection: TextDirection.rtl,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.blue,
-                                ),
-                                onPressed: () => speakBaits5("en-GB"),
-                              ),
-                              IconButton(
-                                iconSize: 18,
-                                icon: const Icon(
-                                  Icons.record_voice_over,
-                                  color: Colors.red,
-                                ),
-                                onPressed: () => speakBaits5(// REPLACE: bait
-                                    "en-US"),
+                                onPressed: () =>
+                                    speakBankrupts5(// REPLACE: bankrupt
+                                        "en-US"),
                               ),
                             ],
                           ),
@@ -515,7 +512,7 @@ class EnglishEntrybait extends StatelessWidget {
                     YoutubeEmbeddedten(),
                     YoutubeEmbeddedeleven(),
                     YoutubeEmbeddedtwelve(),
-                    // YoutubeEmbeddedthirteen(),
+                    YoutubeEmbeddedthirteen(),
                     // YoutubeEmbeddedfourteen(),
                     // YoutubeEmbeddedfifteen(),
                   ],
@@ -544,18 +541,19 @@ class EnglishMeaning extends StatelessWidget {
         children: [
           // DOPSUM: WRITE DEFINITION IN ENGLISH
           Text("""
-- Noun: bait (derived forms: baiting, baited, baits)
-1. Anything that serves as an enticement (= come-on [informal], hook, lure, sweetener)
+- Adjective: bankrupt
+1. Financially ruined (= belly-up [informal], bust [informal])
+"a bankrupt company";
  
-2. Something used to lure fish or other animals into danger so they can be trapped or killed (= decoy, lure)
+2. Without a good quality
+"Can a morally bankrupt government credibly take a moral stand on anything?"
 
-- Verb: bait
-1. Deliberately provoke by mocking or poking fun, often in an aggressive manner (= tease, razz [N. Amer, informal], rag, cod [Brit, informal], taunt, twit [informal], rally, ride [N. Amer, informal], wind up [Brit, informal])
-"The children baited the new teacher";
- 
-2. Lure, entice, or entrap with bait
- 
-3. Attack with dogs or set dogs upon
+- Noun: bankrupt (derived forms: bankrupts)
+1. Someone who has insufficient assets to cover their debts (= insolvent)
+
+- Verb: bankrupt (derived forms: bankrupting, bankrupted, bankrupts)
+1. Reduce to bankruptcy (= ruin, break, smash)
+"My daughter's fancy wedding is going to bankrupt me!";
 """),
         ],
       ),
@@ -566,12 +564,12 @@ class EnglishMeaning extends StatelessWidget {
 // DOPSUM: FIRST YOUTUBE VIDEO
 
 class YoutubeEmbeddedone extends StatelessWidget {
-  static String myVideoId = "hFZFjoX2cGg";
+  static String myVideoId = "ewLpXw6uN28";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 185, // DOPSUM: CHANGE IT
+      startAt: 1499, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -591,12 +589,12 @@ class YoutubeEmbeddedone extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwo extends StatelessWidget {
-  static String myVideoId = "zqllxbPWKNI";
+  static String myVideoId = "yRFPjBuRRCg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 1466, // DOPSUM: CHANGE IT
+      startAt: 1133, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -616,12 +614,12 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 }
 
 class YoutubeEmbeddedthree extends StatelessWidget {
-  static String myVideoId = "zZM57oTu9Ng";
+  static String myVideoId = "_h95pZQiKwI";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 44, // DOPSUM: CHANGE IT
+      startAt: 957, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -641,12 +639,12 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfour extends StatelessWidget {
-  static String myVideoId = "qBJQteFrDAc";
+  static String myVideoId = "tZktTdGHaJY";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 461, // DOPSUM: CHANGE IT
+      startAt: 498, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -666,12 +664,12 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 }
 
 class YoutubeEmbeddedfive extends StatelessWidget {
-  static String myVideoId = "idWpZ63isMo";
+  static String myVideoId = "yhviJ9vB7Zg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 442, // DOPSUM: CHANGE IT
+      startAt: 1907, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -691,12 +689,12 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 class YoutubeEmbeddedsix extends StatelessWidget {
-  static String myVideoId = "nn8zfDv3EbA";
+  static String myVideoId = "-wpHszfnJns";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 206, // DOPSUM: CHANGE IT
+      startAt: 408, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -716,12 +714,12 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 }
 
 class YoutubeEmbeddedseven extends StatelessWidget {
-  static String myVideoId = "Jsne9JevfKw";
+  static String myVideoId = "12f0ligwS5s";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 108, // DOPSUM: CHANGE IT
+      startAt: 719, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -741,7 +739,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeight extends StatelessWidget {
-  static String myVideoId = "qpi9epVHYlc";
+  static String myVideoId = "Fys9qzUZkRA";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
@@ -766,12 +764,12 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 }
 
 class YoutubeEmbeddednine extends StatelessWidget {
-  static String myVideoId = "a7wC2M0b5u0";
+  static String myVideoId = "kAbHuxMiFsc";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 63, // DOPSUM: CHANGE IT
+      startAt: 668, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -791,12 +789,12 @@ class YoutubeEmbeddednine extends StatelessWidget {
 }
 
 class YoutubeEmbeddedten extends StatelessWidget {
-  static String myVideoId = "Am1lDj2mUVY";
+  static String myVideoId = "RJQPthD9rx8";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 941, // DOPSUM: CHANGE IT
+      startAt: 1189, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -816,12 +814,12 @@ class YoutubeEmbeddedten extends StatelessWidget {
 }
 
 class YoutubeEmbeddedeleven extends StatelessWidget {
-  static String myVideoId = "uCzB1TS5oF8";
+  static String myVideoId = "mviTS_cIWXg";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 347, // DOPSUM: CHANGE IT
+      startAt: 261, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -841,12 +839,12 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 }
 
 class YoutubeEmbeddedtwelve extends StatelessWidget {
-  static String myVideoId = "L87HuKmGwVQ";
+  static String myVideoId = "Tomj5Ej2THQ";
 
   final YoutubePlayerController _controller = YoutubePlayerController(
     initialVideoId: myVideoId,
     flags: const YoutubePlayerFlags(
-      startAt: 38, // DOPSUM: CHANGE IT
+      startAt: 175, // DOPSUM: CHANGE IT
       // endAt: 253, // DOPSUM: CHANGE IT
       autoPlay: true,
       enableCaption: true,
@@ -867,63 +865,95 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
 // morethan one video, only first autoplay
 
-// class YoutubeEmbeddedthirteen extends StatelessWidget {
-//   static String myVideoId = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdTwo = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
-//   static String myVideoIdThree = "PUT_VIDEO_ID_PUT_VIDEO_ID_5555555";
+class YoutubeEmbeddedthirteen extends StatelessWidget {
+  static String myVideoId = "GriR73kSvPY";
 
-//   final YoutubePlayerController _controller = YoutubePlayerController(
-//     initialVideoId: myVideoId,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: true,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
+  YoutubeEmbeddedthirteen({super.key});
 
-//   final YoutubePlayerController _controllertwo = YoutubePlayerController(
-//     initialVideoId: myVideoIdTwo,
-//     flags: const YoutubePlayerFlags(
-// autoPlay: false,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
+  final YoutubePlayerController _controller = YoutubePlayerController(
+    initialVideoId: myVideoId,
+    flags: const YoutubePlayerFlags(
+      startAt: 1817, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: true,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
 
-//   final YoutubePlayerController _controllerthree = YoutubePlayerController(
-//     initialVideoId: myVideoIdThree,
-//     flags: const YoutubePlayerFlags(
-//       autoPlay: false,
-//       enableCaption: true,
-//       loop: true,
-//       mute: false,
-//       startAt: 222222222222222, // DOPSUM: CHANGE IT
-//       // endAt: 253, // DOPSUM: CHANGE IT
-//     ),
-//   );
+  static String myVideoIdTwo = "YjmZRmSj_Ew";
 
-//   YoutubeEmbeddedthirteen({super.key});
+  final YoutubePlayerController _controllertwo = YoutubePlayerController(
+    initialVideoId: myVideoIdTwo,
+    flags: const YoutubePlayerFlags(
+      startAt: 124, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: false,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
 
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       body: SingleChildScrollView(
-//         child: Column(
-//           children: [
-//             YouTubeContainerDesign(controller: _controller),
-//             YouTubeContainerDesign(controller: _controllertwo),
-//             YouTubeContainerDesign(controller: _controllerthree),
-//           ],
-//         ),
-//       ),
-//     );
-//   }
-// }
+  static String myVideoIdThree = "8MELKXZqMQo";
 
-// end bait // TODO Implement this library.
+  final YoutubePlayerController _controllerthree = YoutubePlayerController(
+    initialVideoId: myVideoIdThree,
+    flags: const YoutubePlayerFlags(
+      startAt: 92, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: false,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  static String myVideoIdFour = "ggS6LBhH7Fo";
+
+  final YoutubePlayerController _controllerfour = YoutubePlayerController(
+    initialVideoId: myVideoIdFour,
+    flags: const YoutubePlayerFlags(
+      startAt: 297, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: false,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  static String myVideoIdFive = "1C3iFrC-dRw";
+
+  final YoutubePlayerController _controllerfive = YoutubePlayerController(
+    initialVideoId: myVideoIdFive,
+    flags: const YoutubePlayerFlags(
+      // startAt: 582, // DOPSUM: CHANGE IT
+      // endAt: 253, // DOPSUM: CHANGE IT
+      autoPlay: false,
+      enableCaption: true,
+      loop: true,
+      mute: false,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            YouTubeContainerDesign(controller: _controller),
+            YouTubeContainerDesign(controller: _controllertwo),
+            YouTubeContainerDesign(controller: _controllerthree),
+            YouTubeContainerDesign(controller: _controllerfour),
+            YouTubeContainerDesign(controller: _controllerfive),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+// end bankrupt// TODO Implement this library.

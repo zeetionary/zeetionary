@@ -1353,13 +1353,13 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_banquet.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bantam.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_banter.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_baptism.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_baptize.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_bar.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_barcode.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_barman.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_barmaid.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_barb.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_b/letters_ba/en_entry_DOPSUM.dart';
@@ -2867,13 +2867,13 @@ final loggedInRoute = RouteMap(routes: {
   "/english-banquet": (_) => MaterialPage(child: EnglishEntrybanquet()),
   "/english-bantam": (_) => MaterialPage(child: EnglishEntrybantam()),
   "/english-banter": (_) => MaterialPage(child: EnglishEntrybanter()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-baptism": (_) => MaterialPage(child: EnglishEntrybaptism()),
+  "/english-baptize": (_) => MaterialPage(child: EnglishEntrybaptize()),
+  "/english-bar": (_) => MaterialPage(child: EnglishEntrybar()),
+  "/english-barcode": (_) => MaterialPage(child: EnglishEntrybarcode()),
+  "/english-barman": (_) => MaterialPage(child: EnglishEntrybarman()),
+  "/english-barmaid": (_) => MaterialPage(child: EnglishEntrybarmaid()),
+  "/english-barb": (_) => MaterialPage(child: EnglishEntrybarb()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
